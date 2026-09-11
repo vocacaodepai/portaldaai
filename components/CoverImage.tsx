@@ -1,17 +1,19 @@
 import { getPexelsImage } from "@/lib/pexels";
 
-const GRADIENTS = [
-  ["#7c5cff", "#22d3ee"],
-  ["#ff5c8a", "#7c5cff"],
-  ["#22d3ee", "#22c55e"],
-  ["#f59e0b", "#7c5cff"],
-  ["#22d3ee", "#6366f1"],
-  ["#7c5cff", "#ec4899"],
+// Tons neutros, no espírito de fotografia de produto (Apple/Samsung):
+// gradiente suave em cinza-claro com um único ponto de luz em azul discreto.
+const TONES = [
+  { base: "#e4e4e7", glow: "#0071e3" },
+  { base: "#e9e9eb", glow: "#0071e3" },
+  { base: "#dedee1", glow: "#3d8bff" },
+  { base: "#e6e6e8", glow: "#1d1d1f" },
+  { base: "#e2e2e5", glow: "#0071e3" },
+  { base: "#eaeaec", glow: "#3d8bff" },
 ];
 
 function FallbackCover({ seed, className }: { seed: number; className?: string }) {
-  const [from, to] = GRADIENTS[seed % GRADIENTS.length];
-  const gradId = `g-${seed}`;
+  const { base, glow } = TONES[seed % TONES.length];
+  const id = `cover-${seed}`;
   return (
     <div className={`relative overflow-hidden ${className ?? ""}`}>
       <svg
@@ -20,25 +22,14 @@ function FallbackCover({ seed, className }: { seed: number; className?: string }
         preserveAspectRatio="xMidYMid slice"
       >
         <defs>
-          <linearGradient id={gradId} x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor={from} />
-            <stop offset="100%" stopColor={to} />
-          </linearGradient>
+          <radialGradient id={id} cx="72%" cy="28%" r="75%">
+            <stop offset="0%" stopColor={glow} stopOpacity="0.16" />
+            <stop offset="45%" stopColor={base} stopOpacity="0" />
+            <stop offset="100%" stopColor={base} stopOpacity="0" />
+          </radialGradient>
         </defs>
-        <rect width="400" height="240" fill="#0f1117" />
-        <rect width="400" height="240" fill={`url(#${gradId})`} opacity="0.22" />
-        <g stroke={from} strokeOpacity="0.5" strokeWidth="1">
-          <circle cx="80" cy="60" r="3" fill={to} />
-          <circle cx="180" cy="40" r="3" fill={from} />
-          <circle cx="300" cy="90" r="3" fill={to} />
-          <circle cx="340" cy="180" r="3" fill={from} />
-          <circle cx="120" cy="180" r="3" fill={to} />
-          <line x1="80" y1="60" x2="180" y2="40" />
-          <line x1="180" y1="40" x2="300" y2="90" />
-          <line x1="300" y1="90" x2="340" y2="180" />
-          <line x1="120" y1="180" x2="300" y2="90" />
-          <line x1="80" y1="60" x2="120" y2="180" />
-        </g>
+        <rect width="400" height="240" fill={base} />
+        <rect width="400" height="240" fill={`url(#${id})`} />
       </svg>
     </div>
   );

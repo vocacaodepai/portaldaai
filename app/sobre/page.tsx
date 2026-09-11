@@ -11,7 +11,7 @@ export default function SobrePage() {
   return (
     <Container className="py-16">
       <h1 className="font-display text-3xl font-semibold sm:text-4xl">
-        Sobre o <span className="gradient-text">Portal da AI</span>
+        Sobre o <span className="text-accent">Portal da AI</span>
       </h1>
       <div className="prose-article mt-8 max-w-2xl">
         <p>

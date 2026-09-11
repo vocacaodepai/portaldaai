@@ -10,21 +10,14 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative overflow-hidden border-b border-border">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-40"
-          style={{
-            background:
-              "radial-gradient(600px circle at 15% 0%, rgba(124,92,255,0.25), transparent 60%), radial-gradient(600px circle at 85% 20%, rgba(34,211,238,0.2), transparent 60%)",
-          }}
-        />
-        <Container className="relative py-16 sm:py-24">
-          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs text-muted">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent-2" />
+      <section className="border-b border-border">
+        <Container className="py-16 sm:py-24">
+          <span className="inline-flex items-center gap-2 rounded-full border border-border px-3 py-1 text-xs text-muted">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
             Novo artigo publicado todos os dias
           </span>
           <h1 className="mt-5 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            Entenda e <span className="gradient-text">monetize</span> a inteligência
+            Entenda e <span className="text-accent">monetize</span> a inteligência
             artificial, sem jargão técnico.
           </h1>
           <p className="mt-5 max-w-xl text-base text-muted sm:text-lg">
@@ -33,7 +26,7 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
               href="/artigos"
-              className="rounded-full bg-gradient-to-r from-accent to-accent-2 px-6 py-3 text-sm font-semibold text-black transition hover:opacity-90"
+              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
             >
               Explorar artigos
             </Link>

@@ -15,7 +15,7 @@ export default function ArtigosPage() {
   return (
     <Container className="py-14">
       <h1 className="font-display text-3xl font-semibold sm:text-4xl">
-        Todos os <span className="gradient-text">artigos</span>
+        Todos os <span className="text-accent">artigos</span>
       </h1>
       <p className="mt-3 max-w-xl text-sm text-muted sm:text-base">
         Conteúdo novo publicado diariamente sobre inteligência artificial,

@@ -5,12 +5,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent-2 text-sm font-bold text-black">
+        <Link href="/" className="flex items-center gap-2.5">
+          <span className="flex h-7 w-7 items-center justify-center rounded-full border border-foreground/15 text-[11px] font-semibold tracking-tight">
             AI
           </span>
-          <span className="font-display text-lg font-semibold tracking-tight">
-            Portal da <span className="gradient-text">AI</span>
+          <span className="font-display text-[17px] font-semibold tracking-tight">
+            Portal da AI
           </span>
         </Link>
 

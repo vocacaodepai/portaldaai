@@ -6,12 +6,12 @@ export function Footer() {
     <footer className="border-t border-border bg-surface/40">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-8 px-5 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
         <div className="col-span-2">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent-2 text-sm font-bold text-black">
+          <Link href="/" className="flex items-center gap-2.5">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full border border-foreground/15 text-[11px] font-semibold tracking-tight">
               AI
             </span>
-            <span className="font-display text-lg font-semibold">
-              Portal da <span className="gradient-text">AI</span>
+            <span className="font-display text-[17px] font-semibold tracking-tight">
+              Portal da AI
             </span>
           </Link>
           <p className="mt-3 max-w-sm text-sm text-muted">{site.description}</p>

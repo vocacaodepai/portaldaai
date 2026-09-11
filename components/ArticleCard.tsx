@@ -23,7 +23,7 @@ export function ArticleCard({
   return (
     <Link
       href={`/artigos/${article.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition duration-300 hover:border-accent/50 hover:shadow-[0_0_0_1px_rgba(124,92,255,0.3),0_20px_40px_-20px_rgba(124,92,255,0.35)]"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition duration-300 hover:border-accent/40 hover:shadow-[0_16px_32px_-24px_rgba(0,0,0,0.25)]"
     >
       <div className={`relative ${featured ? "aspect-[16/9]" : "aspect-[16/10]"} w-full`}>
         <CoverImage
@@ -33,14 +33,14 @@ export function ArticleCard({
           className="h-full w-full transition duration-500 group-hover:scale-105"
           priority={featured}
         />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
-        <span className="absolute left-3 top-3 rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide text-white/90 backdrop-blur-sm">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-black/0 to-black/0" />
+        <span className="absolute left-3 top-3 rounded-full border border-white/10 bg-black/45 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide text-white/90 backdrop-blur-sm">
           {categoryLabel}
         </span>
       </div>
       <div className="flex flex-1 flex-col gap-3 p-5">
         <h3
-          className={`font-display font-semibold text-foreground transition group-hover:text-accent-2 ${
+          className={`font-display font-semibold text-foreground transition group-hover:text-accent ${
             featured ? "text-xl sm:text-2xl" : "text-lg"
           }`}
         >
