@@ -637,6 +637,225 @@ export const articles: Article[] = [
       <p>Escolha uma pessoa próxima — um familiar, um conhecido dono de pequeno negócio — e ofereça ensinar, de graça ou por um valor simbólico, uma tarefa específica com IA. Use essa experiência para ajustar sua didática antes de cobrar um valor maior por esse mesmo conhecimento.</p>
     `,
   },
+  {
+    slug: "como-precificar-servicos-usando-ia-no-trabalho",
+    title: "Como Precificar seus Serviços Quando Você Usa IA no Trabalho",
+    excerpt:
+      "Se a IA te deixou mais rápido, isso é lucro seu — não motivo para cobrar menos. Veja como ajustar seus preços sem perder valor nem clientes.",
+    category: "carreira",
+    date: "2026-09-13",
+    readTime: 6,
+    imageQuery: "freelancer invoice pricing desk",
+    seed: 15,
+    content: `
+      <p>Um medo comum de quem começa a usar inteligência artificial no trabalho é este: "se eu entrego mais rápido, não vou ter que cobrar menos?" É uma pergunta razoável — mas a resposta certa muda completamente a forma como você deveria pensar sobre o próprio preço.</p>
+
+      <h2>O erro de cobrar por hora</h2>
+      <p>Quando o preço é baseado no tempo gasto, ficar mais rápido literalmente reduz sua receita — você está sendo punido por ser bom no que faz. Esse modelo já era problemático antes da IA; com ela, o problema só fica mais evidente.</p>
+
+      <h2>A alternativa: cobrar pelo resultado</h2>
+      <p>Em vez de vender horas, venda o resultado entregue: um vídeo pronto, um texto publicável, uma campanha no ar, um problema resolvido. O cliente não está pagando pelo seu tempo — está pagando para que o problema dele desapareça. Quanto mais eficiente você for chegando lá, melhor para o seu lucro, não pior.</p>
+
+      <h2>Como migrar sem assustar o cliente</h2>
+      <ol>
+        <li>Descreva o pacote de entrega em vez do número de horas ("um pacote de 4 posts revisados", não "6 horas de trabalho").</li>
+        <li>Defina um preço fixo por entrega, calculado a partir do valor que isso gera para o cliente, não do seu custo de tempo.</li>
+        <li>Comunique prazos mais curtos como vantagem competitiva, não como desconto automático.</li>
+        <li>Reserve o modelo por hora só para tarefas realmente imprevisíveis, sem escopo definido.</li>
+      </ol>
+
+      <h2>O que justifica manter (ou aumentar) o preço</h2>
+      <ul>
+        <li><strong>Curadoria:</strong> você filtra, corrige e ajusta o que a IA produz — isso tem valor, mesmo levando menos tempo.</li>
+        <li><strong>Responsabilidade:</strong> o cliente está pagando por alguém que assume o resultado final, não só por quem aperta um botão.</li>
+        <li><strong>Contexto:</strong> a IA não conhece o histórico, o tom de voz nem os bastidores do negócio do cliente — você conhece.</li>
+      </ul>
+
+      <h2>Um exemplo prático</h2>
+      <p>Se antes um roteiro de vídeo levava 3 horas e você cobrava R$ 300 (R$ 100/hora), e agora leva 1 hora com apoio de IA, o preço não deveria cair para R$ 100 — o roteiro continua valendo R$ 300 para quem vai usá-lo. A diferença é que agora você consegue atender três clientes nesse mesmo tempo, e é aí que mora o ganho real.</p>
+
+      <h2>O que levar deste artigo</h2>
+      <p>A IA aumentou sua capacidade de produção — isso deveria aumentar sua receita, não derrubar seu preço. Quem já pensa em <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">como se tornar insubstituível como freelancer</a> precisa também aprender a cobrar de um jeito que reflita esse novo patamar de entrega, não o modelo antigo de venda por hora.</p>
+    `,
+  },
+  {
+    slug: "profissoes-que-vao-surgir-por-causa-da-ia",
+    title: "As Profissões que Vão Surgir Por Causa da IA (e Como se Preparar Agora)",
+    excerpt:
+      "Além de transformar empregos que já existem, a IA está criando funções novas que não existiam há poucos anos. Conheça algumas e como se posicionar cedo.",
+    category: "futuro",
+    date: "2026-09-13",
+    readTime: 7,
+    imageQuery: "future career professional workspace",
+    seed: 16,
+    content: `
+      <p>Muito se fala sobre quais empregos a inteligência artificial pode substituir. Menos se fala sobre o outro lado dessa mudança: funções inteiramente novas que só existem porque a IA existe — e que, em boa parte, ainda têm pouca concorrência.</p>
+
+      <h2>Por que isso acontece</h2>
+      <p>Toda tecnologia que muda a forma como o trabalho é feito cria, ao mesmo tempo, novas necessidades de supervisão, ajuste e estratégia em torno dela. Com a internet surgiram profissões como gestor de tráfego e analista de SEO — que não existiam antes. Com a IA generativa, o mesmo processo já está em andamento.</p>
+
+      <h2>Funções que já estão surgindo</h2>
+      <ul>
+        <li><strong>Especialista em prompt e fluxo de IA:</strong> quem sabe extrair o máximo de ferramentas de IA para um setor específico (jurídico, saúde, varejo).</li>
+        <li><strong>Auditor de conteúdo gerado por IA:</strong> revisa, corrige e garante qualidade e precisão do que máquinas produzem antes de ir ao público.</li>
+        <li><strong>Integrador de agentes de IA:</strong> conecta diferentes ferramentas e automações para que "conversem" entre si dentro de um negócio.</li>
+        <li><strong>Treinador de IA por domínio:</strong> ajusta modelos e assistentes com o conhecimento específico de uma empresa ou área.</li>
+        <li><strong>Consultor de adoção de IA para pequenos negócios:</strong> traduz o que é possível fazer com IA para quem não tem tempo nem conhecimento técnico.</li>
+      </ul>
+
+      <h2>O que essas funções têm em comum</h2>
+      <p>Nenhuma delas exige ser programador. Todas exigem entender bem uma ferramenta de IA, entender bem um problema de negócio, e conseguir traduzir uma coisa na outra. É exatamente a combinação que você já vem desenvolvendo se está acompanhando este blog.</p>
+
+      <h2>Como se posicionar cedo</h2>
+      <ol>
+        <li>Escolha uma área que você já conhece bem (seu emprego atual, um hobby, um setor de interesse).</li>
+        <li>Aprenda a aplicar IA especificamente nos problemas dessa área, não de forma genérica.</li>
+        <li>Documente publicamente o que você está aprendendo — isso já te posiciona como referência inicial.</li>
+        <li>Ofereça esse conhecimento como serviço antes que o mercado fique saturado de gente fazendo a mesma coisa.</li>
+      </ol>
+
+      <h2>Um lembrete importante</h2>
+      <p>Como já mostramos em <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">nosso artigo sobre agentes de IA</a>, a demanda por quem sabe configurar e supervisionar esses sistemas só tende a crescer. Quem se prepara agora, enquanto essas funções ainda são novas, tem a chance de virar referência antes que todo mundo perceba o tamanho dessa oportunidade.</p>
+    `,
+  },
+  {
+    slug: "notion-zapier-e-ia-automatize-seu-negocio-sem-programar",
+    title: "Notion, Zapier e IA: Como Automatizar seu Negócio Sem Programar",
+    excerpt:
+      "Você não precisa saber programar para conectar suas ferramentas do dia a dia e deixar tarefas repetitivas rodando sozinhas. Veja como combinar Notion, Zapier e IA.",
+    category: "ferramentas",
+    date: "2026-09-13",
+    readTime: 7,
+    imageQuery: "notion workspace planning app screen",
+    seed: 17,
+    content: `
+      <p>Automação sempre soou como coisa de programador. Mas ferramentas como Notion e Zapier, combinadas com inteligência artificial, já permitem montar fluxos automáticos completos sem escrever uma linha de código.</p>
+
+      <h2>O papel de cada ferramenta</h2>
+      <ul>
+        <li><strong>Notion:</strong> organiza informação — clientes, tarefas, conteúdo, financeiro — em bases de dados simples de montar.</li>
+        <li><strong>Zapier:</strong> conecta aplicativos diferentes, disparando uma ação quando algo acontece em outro (ex: "quando chegar um e-mail novo, criar uma tarefa").</li>
+        <li><strong>IA:</strong> entra no meio do fluxo para interpretar texto, resumir, classificar ou redigir — a parte "inteligente" da automação.</li>
+      </ul>
+
+      <h2>Um exemplo de fluxo simples</h2>
+      <ol>
+        <li>Um cliente preenche um formulário de contato.</li>
+        <li>O Zapier recebe essa resposta e aciona a IA para resumir a mensagem e classificar a urgência.</li>
+        <li>O resumo e a classificação são adicionados automaticamente a uma base no Notion.</li>
+        <li>Você recebe uma notificação apenas dos casos mais urgentes, já com contexto pronto.</li>
+      </ol>
+
+      <h2>Outros usos práticos</h2>
+      <ul>
+        <li>Transformar reuniões gravadas em resumos organizados automaticamente no Notion.</li>
+        <li>Classificar e responder as dúvidas mais comuns de clientes antes de um humano intervir.</li>
+        <li>Gerar relatórios semanais automáticos a partir de dados espalhados em várias ferramentas.</li>
+      </ul>
+
+      <h2>Por onde começar</h2>
+      <ol>
+        <li>Escolha uma única tarefa repetitiva do seu negócio (a mesma dica vale sempre: comece pequeno).</li>
+        <li>Identifique quais ferramentas já fazem parte dessa tarefa hoje.</li>
+        <li>Veja se existe uma conexão pronta entre elas no Zapier antes de tentar montar algo do zero.</li>
+        <li>Adicione a IA apenas na etapa que realmente precisa de "entendimento" — não force IA onde uma regra simples já resolve.</li>
+      </ol>
+
+      <h2>Um cuidado importante</h2>
+      <p>Automação mal configurada erra rápido e em escala. Sempre teste o fluxo com poucos casos reais antes de deixá-lo rodando sozinho, e revise periodicamente — principalmente quando a IA estiver tomando decisões que afetam clientes diretamente.</p>
+
+      <h2>Isso conecta com o que já vimos por aqui</h2>
+      <p>Esse tipo de automação é o mesmo princípio por trás dos <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA</a> que exploramos em outro artigo — só que hoje já dá para montar uma versão simples disso com ferramentas que você provavelmente já usa.</p>
+    `,
+  },
+  {
+    slug: "como-vender-consultoria-de-ia-para-pequenas-empresas",
+    title: "Como Vender Consultoria de IA para Pequenas Empresas: Passo a Passo",
+    excerpt:
+      "Pequenas empresas querem usar IA, mas não sabem por onde começar. Veja como estruturar e vender um serviço de consultoria simples para esse público.",
+    category: "negocios",
+    date: "2026-09-13",
+    readTime: 7,
+    imageQuery: "business meeting consultant presentation",
+    seed: 18,
+    content: `
+      <p>Grande parte dos pequenos negócios sabe que precisa "fazer alguma coisa com IA", mas não tem tempo, conhecimento técnico nem clareza sobre por onde começar. Essa lacuna é exatamente a oportunidade para quem já entende o básico de inteligência artificial na prática.</p>
+
+      <h2>O que esse serviço realmente resolve</h2>
+      <p>Você não está vendendo "IA" — está vendendo tempo economizado, atendimento mais rápido e processos mais organizados. O cliente não precisa entender de tecnologia; precisa ver o resultado prático no dia a dia da empresa dele.</p>
+
+      <h2>Passo 1: diagnóstico simples</h2>
+      <p>Antes de propor qualquer ferramenta, mapeie com o dono do negócio quais tarefas tomam mais tempo: atendimento, organização financeira, criação de conteúdo, agendamentos. Esse diagnóstico já entrega valor por si só e constrói confiança.</p>
+
+      <h2>Passo 2: proposta específica, não genérica</h2>
+      <p>Em vez de "vou implementar IA na sua empresa", proponha algo concreto: "vou configurar um assistente que responde as dúvidas mais comuns dos seus clientes no WhatsApp" ou "vou organizar sua agenda para reduzir faltas". Propostas específicas fecham muito mais fácil que promessas vagas.</p>
+
+      <h2>Passo 3: implementação enxuta</h2>
+      <ol>
+        <li>Escolha uma ferramenta acessível e compatível com o que o negócio já usa.</li>
+        <li>Configure o essencial primeiro — não tente resolver tudo de uma vez.</li>
+        <li>Teste com o próprio dono antes de liberar para os clientes dele.</li>
+        <li>Ajuste com base no uso real das primeiras semanas.</li>
+      </ol>
+
+      <h2>Passo 4: acompanhamento recorrente</h2>
+      <p>A parte mais lucrativa desse serviço costuma ser o acompanhamento mensal — ajustar, melhorar e expandir aos poucos o que já foi implementado. Isso transforma um projeto pontual em receita recorrente.</p>
+
+      <h2>Como precificar</h2>
+      <ul>
+        <li><strong>Diagnóstico inicial:</strong> valor fixo, cobrado à parte, mesmo que o cliente não siga em frente.</li>
+        <li><strong>Implementação:</strong> valor fechado por entrega, não por hora.</li>
+        <li><strong>Manutenção mensal:</strong> mensalidade fixa para ajustes e evolução contínua.</li>
+      </ul>
+
+      <h2>De onde tirar os primeiros clientes</h2>
+      <p>Comece pelo seu próprio círculo: comerciantes locais, prestadores de serviço conhecidos, indicações de quem já confia em você. O primeiro projeto bem-feito vira o principal argumento de venda para o segundo.</p>
+
+      <h2>Continue construindo esse caminho</h2>
+      <p>Esse modelo de consultoria combina bem com o que já mostramos em <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no negócio local</a> — a diferença é que, em vez de aplicar isso só no seu próprio negócio, você passa a vender esse conhecimento para outros donos de negócio também.</p>
+    `,
+  },
+  {
+    slug: "dicionario-de-inteligencia-artificial-termos-essenciais",
+    title: "Dicionário de Inteligência Artificial: os Termos que Todo Mundo Devia Saber",
+    excerpt:
+      "Prompt, token, alucinação, modelo, agente: entenda em linguagem simples os termos de IA que mais aparecem por aí, sem enrolação técnica.",
+    category: "iniciantes",
+    date: "2026-09-13",
+    readTime: 6,
+    imageQuery: "notebook definitions glossary writing desk",
+    seed: 19,
+    content: `
+      <p>Uma das maiores barreiras para começar a usar inteligência artificial não é a tecnologia em si — é o vocabulário. Termos técnicos espantam quem só quer aprender a usar essas ferramentas no dia a dia. Este dicionário simples resolve isso.</p>
+
+      <h2>Prompt</h2>
+      <p>É o pedido que você faz para a IA — a pergunta, instrução ou comando digitado. Quanto mais claro e específico o prompt, melhor tende a ser a resposta (veja nosso <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">guia completo de prompt engineering</a>).</p>
+
+      <h2>Modelo</h2>
+      <p>É o "motor" por trás da IA — o sistema treinado com uma quantidade enorme de dados que gera as respostas. ChatGPT, Claude e Gemini são, na prática, interfaces para acessar modelos diferentes.</p>
+
+      <h2>Token</h2>
+      <p>Uma unidade de texto que a IA processa — geralmente um pedaço de palavra. É a forma como esses sistemas "leem" e "escrevem" por trás dos panos, e costuma definir o custo e o limite de tamanho de uma conversa.</p>
+
+      <h2>Alucinação</h2>
+      <p>Quando a IA apresenta uma informação errada com a mesma confiança de uma informação correta. É o motivo pelo qual sempre vale revisar dados, números e fatos importantes antes de usar uma resposta de IA publicamente.</p>
+
+      <h2>Agente de IA</h2>
+      <p>Um sistema que não só responde perguntas, mas executa tarefas completas sozinho, usando ferramentas como navegador, planilhas ou e-mail (explicamos em detalhe <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">neste artigo sobre agentes de IA</a>).</p>
+
+      <h2>IA generativa</h2>
+      <p>O tipo de IA que cria conteúdo novo — textos, imagens, vídeos, áudios — em vez de apenas classificar ou organizar informação existente.</p>
+
+      <h2>Contexto (ou janela de contexto)</h2>
+      <p>A quantidade de informação que a IA consegue "lembrar" dentro de uma mesma conversa. Quanto maior o contexto, mais texto ou histórico ela consegue considerar antes de responder.</p>
+
+      <h2>Fine-tuning (ajuste fino)</h2>
+      <p>O processo de especializar um modelo já existente em uma tarefa ou área específica, usando exemplos adicionais — como ensinar um profissional experiente a atuar em um novo setor.</p>
+
+      <h2>Por que vale a pena guardar esses termos</h2>
+      <p>Entender esse vocabulário básico ajuda você a ler notícias, comparar ferramentas e conversar sobre IA com muito mais segurança — sem precisar decorar teoria, só reconhecer os termos quando eles aparecerem no seu caminho.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

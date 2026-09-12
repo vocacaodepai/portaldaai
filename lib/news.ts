@@ -57,6 +57,55 @@ export const news: NewsItem[] = [
       "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
     date: "2026-06-01",
   },
+  {
+    slug: "google-lanca-gemini-3-8-flash",
+    title: "Google lança o Gemini 3.8 Flash",
+    summary:
+      "É o terceiro lançamento da linha Flash em seis semanas, com melhorias em engenharia de software, tarefas de agente e raciocínio em várias etapas, chegando perto do desempenho de modelos mais caros. O preço de entrada segue igual ao da versão anterior, e há também uma variante voltada a cibersegurança para governos e parceiros de confiança.",
+    sourceName: "Google",
+    sourceUrl:
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    date: "2026-09-02",
+  },
+  {
+    slug: "meta-adquire-startup-sueca-stilla",
+    title: "Meta compra a startup sueca Stilla.ai para reforçar IA de vendas",
+    summary:
+      "Apenas oito meses após seu lançamento público, a Stilla foi comprada pela Meta para acelerar o Meta Business Agent, assistente de IA que já viabiliza vendas para mais de um milhão de empresas no WhatsApp, Messenger e Instagram. Os termos financeiros não foram divulgados.",
+    sourceName: "Axios",
+    sourceUrl: "https://www.axios.com/2026/09/09/meta-acquires-swedish-ai-startup-stillaai",
+    date: "2026-09-09",
+  },
+  {
+    slug: "oracle-backlog-664-bilhoes-nuvem-ia",
+    title: "Oracle bate recorde com backlog de US$ 664 bilhões em contratos de IA",
+    summary:
+      "Impulsionada pela demanda por poder computacional para inteligência artificial, a Oracle acumulou contratos ainda não entregues no valor de US$ 664 bilhões, alta de US$ 209 bilhões em um ano. A receita de infraestrutura de nuvem cresceu 121% no trimestre, e a empresa afirma que o backlog fora de contratos com a OpenAI mais que dobrou no período.",
+    sourceName: "Reuters",
+    sourceUrl:
+      "https://www.investing.com/news/stock-market-news/oracle-shares-rise-as-ai-cloud-backlog-beats-estimates-4897401",
+    date: "2026-09-11",
+  },
+  {
+    slug: "sam-altman-openai-aberta-desacelerar-desenvolvimento",
+    title: "Sam Altman diz que a OpenAI está aberta a desacelerar o desenvolvimento de IA",
+    summary:
+      "Em reunião interna, o CEO da OpenAI afirmou que a empresa consideraria reduzir o ritmo de lançamento de modelos de ponta caso as avaliações de segurança recomendem isso, e que espera que outros laboratórios façam o mesmo. A declaração vem após incidentes de segurança recentes e uma pausa de duas semanas nos treinamentos da empresa em agosto.",
+    sourceName: "Bloomberg",
+    sourceUrl:
+      "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
+    date: "2026-09-11",
+  },
+  {
+    slug: "bernie-sanders-projeto-lei-banir-superinteligencia",
+    title: "Bernie Sanders propõe lei para banir a 'superinteligência' artificial",
+    summary:
+      "O senador Bernie Sanders e o deputado Greg Casar apresentaram um projeto de lei que proíbe permanentemente o desenvolvimento de inteligência artificial superinteligente, pausa temporariamente o avanço de modelos de ponta até haver regras de segurança definidas e cria uma agência federal para monitorar sistemas de fronteira em IA.",
+    sourceName: "Senado dos EUA",
+    sourceUrl:
+      "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+    date: "2026-09-04",
+  },
 ];
 
 export function sortedNews() {
