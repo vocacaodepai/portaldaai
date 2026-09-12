@@ -3,10 +3,19 @@ import { Container } from "@/components/Container";
 import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
 import { categories, sortedArticles } from "@/lib/articles";
+import { sortedNews } from "@/lib/news";
+
+function formatNewsDate(iso: string) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("pt-BR", {
+    day: "2-digit",
+    month: "short",
+  });
+}
 
 export default function Home() {
   const articles = sortedArticles();
   const [featured, ...rest] = articles;
+  const latestNews = sortedNews().slice(0, 3);
 
   return (
     <>
@@ -69,6 +78,38 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((article) => (
             <ArticleCard key={article.slug} article={article} />
+          ))}
+        </div>
+      </Container>
+
+      <Container className="py-10">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="font-display text-2xl font-semibold">Notícias do mercado de IA</h2>
+          <Link
+            href="/noticias"
+            className="text-sm font-medium text-accent transition hover:opacity-80"
+          >
+            Ver todas →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {latestNews.map((item) => (
+            <a
+              key={item.slug}
+              href={item.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="flex flex-col rounded-2xl border border-border bg-surface p-5 transition hover:border-accent/40"
+            >
+              <div className="flex items-center gap-2 text-xs text-muted">
+                <span>{formatNewsDate(item.date)}</span>
+                <span aria-hidden>·</span>
+                <span>{item.sourceName}</span>
+              </div>
+              <h3 className="mt-2 font-display text-sm font-semibold leading-snug">
+                {item.title}
+              </h3>
+            </a>
           ))}
         </div>
       </Container>

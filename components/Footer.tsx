@@ -20,6 +20,11 @@ export function Footer() {
         <div>
           <h4 className="mb-3 text-sm font-semibold text-foreground">Categorias</h4>
           <ul className="space-y-2 text-sm text-muted">
+            <li>
+              <Link href="/noticias" className="transition hover:text-foreground">
+                Notícias
+              </Link>
+            </li>
             {categories.map((c) => (
               <li key={c.slug}>
                 <Link href={`/categoria/${c.slug}`} className="transition hover:text-foreground">

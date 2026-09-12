@@ -18,7 +18,10 @@ export function Header() {
           <Link href="/artigos" className="transition hover:text-foreground">
             Artigos
           </Link>
-          {categories.slice(0, 4).map((c) => (
+          <Link href="/noticias" className="transition hover:text-foreground">
+            Notícias
+          </Link>
+          {categories.slice(0, 3).map((c) => (
             <Link
               key={c.slug}
               href={`/categoria/${c.slug}`}
