@@ -856,6 +856,212 @@ export const articles: Article[] = [
       <p>Entender esse vocabulário básico ajuda você a ler notícias, comparar ferramentas e conversar sobre IA com muito mais segurança — sem precisar decorar teoria, só reconhecer os termos quando eles aparecerem no seu caminho.</p>
     `,
   },
+  {
+    slug: "como-vender-ebooks-e-guias-criados-com-ia",
+    title: "Como Vender Ebooks e Guias Criados com Ajuda de IA",
+    excerpt:
+      "Transformar conhecimento em um ebook nunca foi tão rápido. Veja como usar IA para acelerar a criação, sem perder qualidade nem originalidade.",
+    category: "monetizacao",
+    date: "2026-09-14",
+    readTime: 7,
+    imageQuery: "ebook writing laptop desk",
+    seed: 20,
+    content: `
+      <p>Criar um ebook sempre exigiu tempo — pesquisar, estruturar, escrever, revisar. A inteligência artificial não elimina esse processo, mas corta boa parte do trabalho braçal, permitindo transformar conhecimento em produto digital em dias, não meses.</p>
+
+      <h2>Passo 1: escolha um problema específico</h2>
+      <p>Ebooks genéricos ("tudo sobre marketing digital") competem com conteúdo gratuito disponível em qualquer lugar. Ebooks específicos ("como organizar o financeiro de um salão de beleza em 30 dias") resolvem uma dor concreta e justificam o preço.</p>
+
+      <h2>Passo 2: monte a estrutura com IA</h2>
+      <p>Peça à IA um sumário detalhado a partir do problema escolhido, com capítulos e subtópicos. Isso evita o maior bloqueio de quem escreve: começar do zero, sem direção.</p>
+
+      <h2>Passo 3: escreva com apoio, não por substituição</h2>
+      <ol>
+        <li>Use a IA para gerar um primeiro rascunho de cada capítulo a partir da estrutura definida.</li>
+        <li>Reescreva trechos com sua experiência real, exemplos próprios e casos concretos.</li>
+        <li>Peça à IA para revisar clareza e coesão do texto final, mas mantenha sua voz nas partes-chave.</li>
+      </ol>
+
+      <h2>Passo 4: capa e formatação</h2>
+      <p>Ferramentas de design com IA (como as que já mostramos em <a href="/artigos/canva-capcut-e-ia-artes-e-videos-sem-saber-design">Canva e CapCut com IA</a>) resolvem a parte visual sem precisar contratar um designer para a primeira versão.</p>
+
+      <h2>Passo 5: onde vender</h2>
+      <ul>
+        <li>Plataformas de infoproduto com checkout e afiliados já prontos.</li>
+        <li>Sua própria lista de contatos ou redes sociais, com um link direto de venda.</li>
+        <li>Como bônus dentro de um serviço maior (ex: consultoria, mentoria) para aumentar o valor percebido.</li>
+      </ul>
+
+      <h2>O que evita que o ebook pareça genérico</h2>
+      <p>O erro mais comum é publicar o texto gerado pela IA quase sem alteração — isso costuma soar impessoal e reduz a confiança de quem compra. O que realmente vende é a combinação de agilidade da IA com experiência real de quem escreve.</p>
+
+      <h2>Comece pequeno</h2>
+      <p>Não é preciso escrever um livro de 200 páginas. Um guia direto de 20 a 30 páginas, resolvendo um problema específico, já é suficiente para testar se existe demanda antes de investir mais tempo em um material maior.</p>
+    `,
+  },
+  {
+    slug: "como-validar-ideia-de-negocio-com-ia-antes-de-investir",
+    title: "Como Usar IA para Validar uma Ideia de Negócio Antes de Investir",
+    excerpt:
+      "Antes de gastar tempo e dinheiro em uma ideia, use inteligência artificial para testar se ela realmente resolve um problema que as pessoas pagariam para resolver.",
+    category: "negocios",
+    date: "2026-09-14",
+    readTime: 6,
+    imageQuery: "business idea notebook sketch",
+    seed: 21,
+    content: `
+      <p>A maior causa de fracasso de novos negócios não é falta de execução — é construir algo que ninguém realmente precisa pagar para ter. A boa notícia é que validar uma ideia hoje é muito mais rápido e barato do que era há poucos anos, graças à IA.</p>
+
+      <h2>Por que validar antes de construir</h2>
+      <p>É tentador sair direto criando o produto assim que uma ideia parece boa. Mas a maioria das ideias que parecem boas na cabeça não sobrevivem ao primeiro contato com clientes reais. Validar primeiro economiza meses de esforço em algo que talvez precise mudar completamente.</p>
+
+      <h2>Passo 1: descreva o problema, não a solução</h2>
+      <p>Peça à IA para ajudar a articular exatamente qual problema você está tentando resolver, para quem, e por que esse problema é doloroso o suficiente para alguém pagar por uma solução.</p>
+
+      <h2>Passo 2: pesquise a concorrência com apoio de IA</h2>
+      <ul>
+        <li>Peça um mapeamento de soluções já existentes para o mesmo problema.</li>
+        <li>Identifique o que essas soluções fazem mal ou deixam de fora.</li>
+        <li>Avalie se existe espaço real para uma alternativa, ou se o mercado já está bem atendido.</li>
+      </ul>
+
+      <h2>Passo 3: simule conversas com clientes</h2>
+      <p>Use a IA para simular objeções e perguntas que um cliente real faria sobre sua ideia. Isso não substitui conversas reais, mas ajuda a chegar mais preparado para elas — e a identificar falhas óbvias antes de expor a ideia publicamente.</p>
+
+      <h2>Passo 4: teste com uma oferta simples</h2>
+      <ol>
+        <li>Crie uma página ou mensagem simples descrevendo a oferta (com apoio de IA para o texto).</li>
+        <li>Compartilhe com um grupo pequeno de pessoas do público-alvo.</li>
+        <li>Meça o interesse real: perguntas, pedidos de mais informação, ou até pré-vendas.</li>
+      </ol>
+
+      <h2>O que fazer com o resultado</h2>
+      <p>Pouco interesse não significa necessariamente que a ideia é ruim — pode significar que a comunicação, o público ou o formato escolhido estão errados. Use a IA para revisar e testar variações da oferta antes de descartar a ideia por completo.</p>
+
+      <h2>Uma lição importante</h2>
+      <p>Como já vimos em <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">como criar um negócio digital usando IA do zero</a>, validar rápido é o que separa quem constrói algo que vende de quem passa meses construindo algo que ninguém pediu.</p>
+    `,
+  },
+  {
+    slug: "ia-para-planilhas-automatizar-relatorios-excel-sheets",
+    title: "IA para Planilhas: Como Automatizar Relatórios no Excel e Google Sheets",
+    excerpt:
+      "Você não precisa ser especialista em fórmulas para transformar dados soltos em relatórios organizados. Veja como a IA já ajuda dentro das próprias planilhas.",
+    category: "ferramentas",
+    date: "2026-09-14",
+    readTime: 6,
+    imageQuery: "spreadsheet data analysis screen",
+    seed: 22,
+    content: `
+      <p>Planilhas ainda são o coração da rotina de muitos negócios — controle financeiro, estoque, vendas, clientes. E é justamente aí que a IA embutida em ferramentas como Excel e Google Sheets já está economizando um tempo enorme de trabalho manual.</p>
+
+      <h2>O que a IA já resolve dentro da planilha</h2>
+      <ul>
+        <li><strong>Limpeza de dados:</strong> identificar duplicados, corrigir formatos inconsistentes e preencher lacunas com base em padrões.</li>
+        <li><strong>Fórmulas em linguagem natural:</strong> descrever o que você quer calcular e receber a fórmula pronta, sem precisar decorar sintaxe.</li>
+        <li><strong>Resumos automáticos:</strong> transformar uma planilha extensa em um resumo executivo de poucas linhas.</li>
+        <li><strong>Identificação de tendências:</strong> apontar padrões e variações relevantes que passariam despercebidos numa leitura rápida.</li>
+      </ul>
+
+      <h2>Um fluxo simples para começar</h2>
+      <ol>
+        <li>Escolha uma planilha que você já usa toda semana (vendas, financeiro, atendimento).</li>
+        <li>Peça à IA para sugerir uma estrutura melhor de colunas, se a atual estiver bagunçada.</li>
+        <li>Use comandos em linguagem natural para criar as fórmulas e gráficos que você precisa.</li>
+        <li>Peça um resumo em texto dos principais pontos, pronto para compartilhar com outras pessoas do time.</li>
+      </ol>
+
+      <h2>Onde isso economiza mais tempo</h2>
+      <p>Relatórios recorrentes — semanais ou mensais — são o maior ganho, porque o mesmo processo de organização e resumo se repete sempre. Uma vez que o fluxo está montado, gerar o próximo relatório vira questão de minutos, não horas.</p>
+
+      <h2>Um cuidado necessário</h2>
+      <p>Sempre confira números importantes antes de enviar um relatório adiante — IA pode errar em cálculos complexos ou interpretar mal uma coluna ambígua. Trate o resultado como um rascunho avançado, não como palavra final.</p>
+
+      <h2>Isso também vale como serviço</h2>
+      <p>Assim como mostramos em <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automação com IA para economizar horas de trabalho</a>, organizar planilhas com apoio de IA é uma tarefa que muitos pequenos negócios pagariam para não precisar fazer sozinhos — mais uma porta de entrada para quem quer prestar esse tipo de serviço.</p>
+    `,
+  },
+  {
+    slug: "como-colocar-habilidades-de-ia-no-curriculo",
+    title: "Como Colocar Habilidades de IA no Currículo (e Se Destacar em Entrevistas)",
+    excerpt:
+      "Saber usar IA já é um diferencial real no mercado de trabalho — mas só se você souber comunicar isso de um jeito que faça sentido para quem contrata.",
+    category: "carreira",
+    date: "2026-09-14",
+    readTime: 6,
+    imageQuery: "resume interview job application",
+    seed: 23,
+    content: `
+      <p>Muita gente já usa inteligência artificial no trabalho todos os dias, mas não sabe como transformar isso em um diferencial visível no currículo ou numa entrevista. O problema geralmente não é falta de habilidade — é falta de tradução dessa habilidade em algo concreto.</p>
+
+      <h2>O erro mais comum</h2>
+      <p>Escrever "conhecimento em inteligência artificial" ou "uso ChatGPT" no currículo não diz nada específico para quem contrata. É genérico demais e soa mais como modismo do que como competência real.</p>
+
+      <h2>Como descrever de um jeito que faça sentido</h2>
+      <ul>
+        <li><strong>Em vez de:</strong> "uso IA no dia a dia".</li>
+        <li><strong>Prefira:</strong> "reduzi em 40% o tempo de produção de relatórios semanais usando automação com IA".</li>
+      </ul>
+      <p>A diferença é resultado mensurável em vez de ferramenta citada. Quem contrata quer saber o impacto, não o nome do aplicativo.</p>
+
+      <h2>Como estruturar isso no currículo</h2>
+      <ol>
+        <li>Liste uma tarefa concreta que você acelerou ou melhorou com IA.</li>
+        <li>Quantifique o resultado sempre que possível (tempo, custo, volume, qualidade).</li>
+        <li>Relacione isso diretamente com uma responsabilidade da vaga que você está buscando.</li>
+      </ol>
+
+      <h2>Na entrevista</h2>
+      <p>Prepare um ou dois exemplos reais de como você usou IA para resolver um problema específico no trabalho. Estar pronto para explicar o "antes e depois" de uma tarefa é muito mais convincente do que afirmar, de forma vaga, que "sabe usar IA".</p>
+
+      <h2>O que realmente diferencia um candidato hoje</h2>
+      <ul>
+        <li>Saber quando usar IA e quando não usar (nem toda tarefa se beneficia disso).</li>
+        <li>Conseguir revisar e corrigir o que a IA produz, em vez de aceitar a primeira resposta.</li>
+        <li>Entender como aplicar IA especificamente na área da vaga, não apenas de forma genérica.</li>
+      </ul>
+
+      <h2>Continue construindo esse diferencial</h2>
+      <p>Como já mostramos em <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">como se tornar insubstituível na era da IA</a>, o mercado está cada vez mais atento a quem sabe usar essas ferramentas com critério — currículo e entrevista são só a porta de entrada para mostrar isso.</p>
+    `,
+  },
+  {
+    slug: "como-ia-esta-mudando-atendimento-ao-cliente",
+    title: "Como a IA Está Mudando o Atendimento ao Cliente (e o que Isso Significa pra Você)",
+    excerpt:
+      "Do chatbot que resolve sozinho até o humano que só entra nos casos complexos: entenda como o atendimento está mudando e onde ainda há espaço para pessoas.",
+    category: "futuro",
+    date: "2026-09-14",
+    readTime: 7,
+    imageQuery: "customer service headset support",
+    seed: 24,
+    content: `
+      <p>Poucas áreas sentiram o impacto da inteligência artificial tão rápido quanto o atendimento ao cliente. O que antes exigia uma equipe grande respondendo mensagem por mensagem hoje já é, em boa parte, automatizado — e isso muda tanto para quem trabalha nessa área quanto para quem é atendido.</p>
+
+      <h2>O que já mudou</h2>
+      <ul>
+        <li>Perguntas frequentes são respondidas instantaneamente, a qualquer hora, sem fila de espera.</li>
+        <li>Assistentes de IA já resolvem sozinhos boa parte dos casos simples: troca, reembolso, dúvida sobre produto.</li>
+        <li>Casos complexos são identificados automaticamente e encaminhados para atendimento humano com contexto já resumido.</li>
+      </ul>
+
+      <h2>O que ainda depende de pessoas</h2>
+      <p>Situações emocionalmente delicadas, reclamações graves, negociações específicas e decisões que fogem do padrão continuam exigindo julgamento humano. A IA reduz o volume de atendimento repetitivo, mas não elimina a necessidade de pessoas nos casos que realmente importam.</p>
+
+      <h2>O que isso significa para quem trabalha com atendimento</h2>
+      <ol>
+        <li>Tarefas puramente repetitivas tendem a diminuir — não é mais onde está o valor do profissional.</li>
+        <li>Cresce a demanda por quem sabe lidar com os casos mais difíceis, que a IA não resolve sozinha.</li>
+        <li>Vira diferencial saber configurar e supervisionar os próprios assistentes de IA usados no atendimento.</li>
+      </ol>
+
+      <h2>Uma oportunidade para pequenos negócios</h2>
+      <p>Empresas pequenas que nunca tiveram equipe de atendimento agora conseguem oferecer resposta rápida com um investimento muito menor, usando os mesmos princípios que grandes empresas já aplicam — como já mostramos em <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no negócio local</a>.</p>
+
+      <h2>O que fica de lição</h2>
+      <p>A pergunta não é mais "a IA vai substituir o atendimento humano", mas sim "qual parte do atendimento ainda precisa ser humana". Quem entende essa divisão sai na frente, seja configurando esses sistemas, seja se especializando exatamente nos casos que eles não conseguem resolver sozinhos.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

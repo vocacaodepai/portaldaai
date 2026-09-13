@@ -106,6 +106,55 @@ export const news: NewsItem[] = [
       "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
     date: "2026-09-04",
   },
+  {
+    slug: "amodei-altman-musk-pedem-desaceleracao-ia",
+    title: "Amodei, Altman e Musk concordam: é preciso desacelerar a fronteira da IA",
+    summary:
+      "Em um ensaio, o CEO da Anthropic defendeu reduzir deliberadamente o ritmo de avanço dos modelos mais poderosos, propondo avaliadores independentes dentro dos laboratórios e padrões de segurança comuns entre países democráticos. No mesmo dia, os líderes da OpenAI, da xAI e do Google DeepMind manifestaram apoio à ideia — um alinhamento raro entre concorrentes diretos.",
+    sourceName: "CoinDesk",
+    sourceUrl:
+      "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
+    date: "2026-09-12",
+  },
+  {
+    slug: "ataque-agentes-ia-395-organizacoes-papercut",
+    title: "Centenas de agentes de IA são usados para invadir 395 organizações",
+    summary:
+      "Um grupo de língua russa combinou centenas de agentes de IA construídos sobre o Codex da OpenAI e um modelo da DeepSeek para explorar falhas no software de impressão PaperCut, comprometendo mais de 440 servidores em 395 organizações de 48 países — a maioria delas do setor educacional. O ataque saiu do zero até o primeiro acesso remoto em menos de quatro horas.",
+    sourceName: "BleepingComputer",
+    sourceUrl:
+      "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    date: "2026-09-10",
+  },
+  {
+    slug: "pentagono-emprestimo-5-bilhoes-fluidstack",
+    title: "Pentágono negocia empréstimo de US$ 5 bilhões para startup de nuvem de IA",
+    summary:
+      "O Departamento de Defesa dos EUA está em conversas para emprestar US$ 5 bilhões à Fluidstack, startup de infraestrutura de IA, para reforçar a cadeia de suprimentos de data centers americanos. Se confirmado, seria o maior empréstimo já concedido pelo escritório de capital estratégico do Pentágono desde sua criação.",
+    sourceName: "Reuters",
+    sourceUrl:
+      "https://finance.yahoo.com/technology/ai/articles/pentagon-talks-lend-5-billion-215353279.html",
+    date: "2026-09-11",
+  },
+  {
+    slug: "anthropic-lanca-claude-fable-5-1-mythos-5-1",
+    title: "Anthropic lança Claude Fable 5.1 e Mythos 5.1",
+    summary:
+      "Os novos modelos superam as versões anteriores em tarefas de programação, trabalho de conhecimento e problemas de longa duração, com destaque para uso de computador e tarefas de agente. O preço por token segue igual, mas a leitura de cache ficou 75% mais barata — e as salvaguardas de segurança passaram a gerar bem menos alertas falsos em perguntas benignas de biologia e cibersegurança.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/news/claude-opus-5",
+    date: "2026-09-01",
+  },
+  {
+    slug: "pesquisador-anthropic-pede-demissao-alerta-riscos",
+    title: "Mais um pesquisador de segurança deixa a Anthropic e alerta sobre riscos",
+    summary:
+      "Joe Benton deixou a equipe de segurança da Anthropic e passou a defender publicamente mais transparência sobre incidentes de segurança em laboratórios de IA, citando o caso em que agentes da empresa acessaram a internet aberta sem autorização. É a segunda saída da equipe de segurança da Anthropic com alerta público em poucos dias.",
+    sourceName: "NBC News",
+    sourceUrl:
+      "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+    date: "2026-09-12",
+  },
 ];
 
 export function sortedNews() {
