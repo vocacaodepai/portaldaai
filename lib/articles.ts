@@ -1062,6 +1062,202 @@ export const articles: Article[] = [
       <p>A pergunta não é mais "a IA vai substituir o atendimento humano", mas sim "qual parte do atendimento ainda precisa ser humana". Quem entende essa divisão sai na frente, seja configurando esses sistemas, seja se especializando exatamente nos casos que eles não conseguem resolver sozinhos.</p>
     `,
   },
+  {
+    slug: "ia-gratis-ou-paga-o-que-vale-a-pena",
+    title: "Você Precisa Pagar por IA? Free vs Pago: o que Vale a Pena",
+    excerpt:
+      "As versões gratuitas de IA já resolvem muita coisa. Entenda quando realmente vale a pena assinar uma versão paga — e quando o plano gratuito é suficiente.",
+    category: "iniciantes",
+    date: "2026-09-15",
+    readTime: 6,
+    imageQuery: "comparison choice screen laptop",
+    seed: 25,
+    content: `
+      <p>Uma das primeiras dúvidas de quem começa a usar inteligência artificial é: preciso pagar por isso? A resposta curta é "depende do que você vai fazer" — e entender essa diferença evita tanto gastar à toa quanto travar sua produtividade por economizar no lugar errado.</p>
+
+      <h2>O que o plano gratuito costuma entregar</h2>
+      <ul>
+        <li>Acesso a um modelo competente, mas geralmente não ao mais avançado disponível da empresa.</li>
+        <li>Limite de mensagens por dia ou por hora, que pode esgotar em uso intenso.</li>
+        <li>Respostas mais lentas em horários de pico, já que usuários pagantes têm prioridade.</li>
+        <li>Funções básicas de texto e pesquisa — geralmente sem geração de imagem avançada ou upload ilimitado de arquivos.</li>
+      </ul>
+
+      <h2>Quando o gratuito já é suficiente</h2>
+      <p>Para tarefas pontuais — escrever um e-mail, tirar uma dúvida, revisar um texto curto — o plano gratuito de praticamente qualquer ferramenta de IA já resolve bem. Se você usa IA algumas vezes por semana, dificilmente vai sentir falta de um plano pago.</p>
+
+      <h2>Quando vale a pena pagar</h2>
+      <ol>
+        <li><strong>Uso diário e intenso:</strong> se você esbarra no limite de mensagens com frequência, a assinatura paga elimina essa fricção.</li>
+        <li><strong>Tarefas que exigem o modelo mais avançado:</strong> análises complexas, programação ou textos longos costumam ter qualidade sensivelmente melhor nos modelos de ponta, geralmente restritos a assinantes.</li>
+        <li><strong>Uso profissional:</strong> se a IA já gera valor direto no seu trabalho ou negócio, o custo da assinatura tende a se pagar rápido em tempo economizado.</li>
+        <li><strong>Recursos específicos:</strong> geração de imagem em alta qualidade, upload de arquivos grandes ou integrações avançadas costumam ficar atrás do plano pago.</li>
+      </ol>
+
+      <h2>Um erro comum</h2>
+      <p>Assinar um plano pago antes de saber exatamente o que você precisa dele. O caminho mais econômico é começar no gratuito, perceber onde ele te limita na prática, e só então decidir se vale pagar — e qual ferramenta especificamente resolve essa limitação.</p>
+
+      <h2>Uma dica extra</h2>
+      <p>Você não precisa pagar por todas as ferramentas de IA que existem. Como já comentamos em <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini: qual IA escolher</a>, muita gente se beneficia mais escolhendo bem uma ferramenta paga para o que mais usa, e completando com opções gratuitas para o resto.</p>
+    `,
+  },
+  {
+    slug: "como-migrar-de-carreira-para-area-de-ia",
+    title: "Como Migrar de Carreira para a Área de IA Sem Voltar a Estudar do Zero",
+    excerpt:
+      "Você não precisa largar tudo e fazer uma nova graduação para migrar para a área de inteligência artificial. Veja um caminho realista partindo do que você já sabe.",
+    category: "carreira",
+    date: "2026-09-15",
+    readTime: 7,
+    imageQuery: "career change path direction",
+    seed: 26,
+    content: `
+      <p>É comum pensar que migrar para a área de inteligência artificial exige voltar para a faculdade ou aprender programação do zero. Na prática, boa parte das oportunidades reais de IA hoje não pedem isso — pedem alguém que já entende bem um setor e sabe aplicar IA dentro dele.</p>
+
+      <h2>O caminho que mais gente ignora</h2>
+      <p>Em vez de tentar virar cientista de dados do zero, a transição mais rápida costuma ser: pegar a experiência que você já tem (vendas, educação, saúde, direito, marketing, o que for) e se tornar a pessoa de referência em aplicar IA especificamente naquela área.</p>
+
+      <h2>Passo 1: mapeie o que você já sabe</h2>
+      <p>Liste os problemas mais comuns da sua área atual — tarefas repetitivas, gargalos, decisões demoradas. Esse conhecimento vale mais do que parece: é exatamente o que falta para a maioria de quem só entende de tecnologia, mas não do setor.</p>
+
+      <h2>Passo 2: aprenda IA aplicada, não teoria</h2>
+      <ol>
+        <li>Escolha uma ou duas ferramentas de IA relevantes para sua área e domine o uso prático delas.</li>
+        <li>Resolva um problema real do seu trabalho atual usando essas ferramentas, mesmo em pequena escala.</li>
+        <li>Documente o resultado — isso já é um case concreto para mostrar depois.</li>
+      </ol>
+
+      <h2>Passo 3: construa uma ponte, não um salto</h2>
+      <p>Em vez de pedir demissão para "virar profissional de IA", comece aplicando IA dentro da própria função atual. Isso cria experiência real, reduz o risco financeiro da transição e frequentemente já abre a porta para uma mudança de cargo internamente.</p>
+
+      <h2>Passo 4: torne isso visível</h2>
+      <ul>
+        <li>Atualize seu perfil profissional destacando os resultados obtidos com IA, não só a ferramenta usada.</li>
+        <li>Compartilhe publicamente o que está aprendendo — isso atrai oportunidades antes mesmo de você procurar por elas.</li>
+        <li>Ofereça-se para ajudar colegas ou outras áreas da empresa com o que você já aprendeu.</li>
+      </ul>
+
+      <h2>Você não está atrasado</h2>
+      <p>A área de IA aplicada ainda está se formando — a maioria das pessoas que vai se destacar nela nos próximos anos ainda não começou. Como já vimos em <a href="/artigos/profissoes-que-vao-surgir-por-causa-da-ia">profissões que vão surgir por causa da IA</a>, quem combina experiência de setor com uso prático de IA tem uma vantagem que um curso sozinho não entrega.</p>
+    `,
+  },
+  {
+    slug: "perplexity-notebooklm-ia-de-pesquisa-estudar-mais-rapido",
+    title: "Perplexity, NotebookLM e IA de Pesquisa: Como Estudar e Pesquisar Mais Rápido",
+    excerpt:
+      "Ferramentas de IA voltadas a pesquisa já ajudam a organizar estudo, resumir materiais longos e encontrar informação confiável muito mais rápido do que buscar sozinho.",
+    category: "ferramentas",
+    date: "2026-09-15",
+    readTime: 6,
+    imageQuery: "research studying notes laptop",
+    seed: 27,
+    content: `
+      <p>Além de gerar texto, a inteligência artificial já mudou bastante a forma de pesquisar e estudar. Ferramentas voltadas especificamente a isso ajudam a economizar horas que antes iam para garimpar informação espalhada em dezenas de fontes.</p>
+
+      <h2>Para que servem essas ferramentas</h2>
+      <ul>
+        <li><strong>Pesquisa com fontes citadas:</strong> em vez de uma resposta genérica, você recebe links diretos para onde cada informação veio.</li>
+        <li><strong>Organização de material de estudo:</strong> transformar PDFs, artigos e anotações soltas em resumos e mapas de conteúdo organizados.</li>
+        <li><strong>Perguntas sobre documentos específicos:</strong> fazer perguntas diretamente sobre um material que você mesmo enviou, em vez de depender do conhecimento geral da IA.</li>
+      </ul>
+
+      <h2>Um fluxo simples para estudar mais rápido</h2>
+      <ol>
+        <li>Reúna os materiais principais sobre o assunto (artigos, PDFs, anotações).</li>
+        <li>Envie tudo para uma ferramenta de IA de pesquisa e peça um resumo estruturado por tópico.</li>
+        <li>Peça perguntas de revisão baseadas no material, para testar o que você realmente entendeu.</li>
+        <li>Use a IA para esclarecer pontos específicos que ainda ficaram confusos, sempre voltando ao material original quando possível.</li>
+      </ol>
+
+      <h2>Por que isso é diferente de simplesmente perguntar ao ChatGPT</h2>
+      <p>Ferramentas de pesquisa priorizam trazer fontes verificáveis e trabalhar em cima de documentos reais, em vez de responder só com base no que o modelo "lembra" do treinamento. Isso reduz bastante o risco de alucinação em temas específicos ou recentes.</p>
+
+      <h2>Cuidado com um erro comum</h2>
+      <p>Mesmo com fontes citadas, vale conferir se o link realmente diz o que o resumo afirma — especialmente em temas técnicos, médicos ou jurídicos, onde um erro de interpretação pode ter consequência real.</p>
+
+      <h2>Onde isso ajuda além dos estudos</h2>
+      <p>O mesmo princípio vale para pesquisa de mercado, análise de concorrentes ou entender rapidamente um assunto novo antes de uma reunião — uma extensão natural do que já mostramos em <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">prompt engineering</a>: quanto mais específico o pedido e melhor a fonte, melhor o resultado.</p>
+    `,
+  },
+  {
+    slug: "como-vender-artes-e-fotos-criadas-com-ia-generativa",
+    title: "Como Vender Artes e Fotos Criadas com IA Generativa",
+    excerpt:
+      "Bancos de imagem, produtos personalizados e artes para redes sociais: veja caminhos reais para transformar imagens geradas por IA em uma fonte de renda.",
+    category: "monetizacao",
+    date: "2026-09-15",
+    readTime: 6,
+    imageQuery: "digital art illustration creative",
+    seed: 28,
+    content: `
+      <p>A geração de imagem por IA já produz resultados com qualidade suficiente para uso comercial em diversos contextos. Isso abriu espaço para quem sabe usar bem essas ferramentas transformar esse conhecimento em uma fonte de renda, mesmo sem formação em design ou fotografia.</p>
+
+      <h2>Caminhos possíveis para vender</h2>
+      <ul>
+        <li><strong>Bancos de imagem:</strong> algumas plataformas já aceitam conteúdo gerado por IA, com identificação adequada, pagando por licenciamento de uso.</li>
+        <li><strong>Produtos personalizados:</strong> artes para camisetas, canecas, posters e papelaria, vendidas sob demanda sem precisar de estoque.</li>
+        <li><strong>Artes para redes sociais e marketing:</strong> criar pacotes de imagens temáticas para pequenos negócios usarem em suas divulgações.</li>
+        <li><strong>Ilustrações personalizadas:</strong> retratos estilizados, capas de livro ou artes sob encomenda para clientes específicos.</li>
+      </ul>
+
+      <h2>O que diferencia quem vende de quem só gera imagem</h2>
+      <p>Qualquer pessoa consegue digitar um prompt e gerar uma imagem. Quem realmente vende esse tipo de conteúdo desenvolveu um olhar de curadoria: sabe escolher o melhor resultado entre várias opções, ajustar detalhes e adaptar o estilo ao pedido do cliente — a parte que a IA sozinha não resolve bem.</p>
+
+      <h2>Como começar</h2>
+      <ol>
+        <li>Escolha um nicho ou estilo visual específico para se especializar, em vez de tentar abranger tudo.</li>
+        <li>Monte um portfólio inicial com uma dúzia de peças bem trabalhadas, não centenas de imagens genéricas.</li>
+        <li>Teste vender em uma única plataforma antes de espalhar esforço em várias ao mesmo tempo.</li>
+        <li>Use o feedback das primeiras vendas para refinar o que funciona melhor com o seu público.</li>
+      </ol>
+
+      <h2>Um ponto de atenção importante</h2>
+      <p>Cada plataforma tem regras próprias sobre uso comercial de imagens geradas por IA, e alguns mercados exigem identificação clara de que o conteúdo é gerado por IA. Vale sempre ler os termos antes de publicar, para não ter problema depois.</p>
+
+      <h2>Uma combinação que funciona bem</h2>
+      <p>Assim como discutimos em <a href="/artigos/canva-capcut-e-ia-artes-e-videos-sem-saber-design">Canva, CapCut e IA</a>, o mais interessante costuma ser combinar geração de imagem por IA com pequenos ajustes manuais — isso aumenta a originalidade do resultado final e reduz a concorrência direta com quem só publica a imagem "crua".</p>
+    `,
+  },
+  {
+    slug: "como-escrever-pitch-de-negocio-com-ia",
+    title: "Como Escrever um Pitch de Negócio com Ajuda de IA para Buscar Investimento ou Sócios",
+    excerpt:
+      "Apresentar uma ideia de negócio de forma clara e convincente é uma habilidade que se aprende. Veja como a IA ajuda a estruturar um pitch que realmente comunica valor.",
+    category: "negocios",
+    date: "2026-09-15",
+    readTime: 7,
+    imageQuery: "pitch presentation startup meeting",
+    seed: 29,
+    content: `
+      <p>Ter uma boa ideia de negócio não é o mesmo que saber apresentá-la de um jeito que convença um investidor, um sócio em potencial ou até um banco. A inteligência artificial pode ajudar bastante nessa etapa — não substituindo a ideia, mas organizando a forma de comunicá-la.</p>
+
+      <h2>Os elementos que todo pitch precisa ter</h2>
+      <ul>
+        <li><strong>O problema:</strong> qual dor real você está resolvendo, de forma clara e específica.</li>
+        <li><strong>A solução:</strong> como o seu negócio resolve esse problema, sem detalhes técnicos desnecessários.</li>
+        <li><strong>O mercado:</strong> tamanho e evidência de que existe demanda real.</li>
+        <li><strong>O modelo de negócio:</strong> como, exatamente, o dinheiro entra.</li>
+        <li><strong>A tração até agora:</strong> qualquer evidência de que a ideia já está funcionando, mesmo em pequena escala.</li>
+      </ul>
+
+      <h2>Como a IA ajuda em cada etapa</h2>
+      <ol>
+        <li>Peça para estruturar seu pitch nesses cinco blocos, a partir de uma descrição solta da sua ideia.</li>
+        <li>Peça sugestões de como tornar cada bloco mais direto e específico, cortando o que for redundante.</li>
+        <li>Simule perguntas difíceis que um investidor faria, e prepare respostas com antecedência.</li>
+        <li>Peça uma versão curta (elevator pitch de 30 segundos) e uma versão mais completa para reuniões.</li>
+      </ol>
+
+      <h2>O erro mais comum em pitches</h2>
+      <p>Focar demais na tecnologia ou nas funcionalidades, e pouco no problema real que está sendo resolvido. Quem ouve um pitch quer entender rápido por que aquilo importa — os detalhes técnicos vêm depois, se perguntados.</p>
+
+      <h2>Um exercício útil</h2>
+      <p>Peça à IA para reescrever seu pitch como se estivesse explicando para alguém de fora do seu setor, sem nenhum jargão técnico. Se a explicação continuar clara, sinal de que a comunicação está no caminho certo.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como em <a href="/artigos/como-validar-ideia-de-negocio-com-ia-antes-de-investir">como validar uma ideia de negócio antes de investir</a>, um bom pitch nasce de clareza sobre o problema — a IA ajuda a organizar essa clareza em uma apresentação que realmente comunica valor para quem está do outro lado.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

@@ -155,6 +155,53 @@ export const news: NewsItem[] = [
       "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
     date: "2026-09-12",
   },
+  {
+    slug: "microsoft-codigo-conduta-modelos-mai-nadella",
+    title: "Microsoft publica Código de Conduta para seus próprios modelos de IA",
+    summary:
+      "Satya Nadella anunciou que a Microsoft vai abrir para consulta pública as regras de comportamento que orientam seus modelos próprios da linha MAI, defendendo uma 'pacing deliberada' no desenvolvimento de IA. Segundo ele, qualquer busca por superinteligência só faz sentido se a IA permanecer sob controle humano e a favor da humanidade.",
+    sourceName: "Unite.AI",
+    sourceUrl: "https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/",
+    date: "2026-09-13",
+  },
+  {
+    slug: "salesforce-lanca-sete-agentes-ia-agentforce",
+    title: "Salesforce lança sete agentes de IA com nome e função definida",
+    summary:
+      "A Salesforce apresentou sete agentes do Agentforce — Casey, Paige, Carter, Hunter, Marshall, Piper e Fin — cada um dedicado a uma função específica como atendimento, RH, vendas e cadeia de suprimentos. Seis já estão disponíveis de forma geral, enquanto o agente de vendas Hunter segue em piloto, com uma empresa relatando que 60% do seu pipeline comercial já é construído por ele.",
+    sourceName: "Salesforce",
+    sourceUrl: "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+    date: "2026-09-11",
+  },
+  {
+    slug: "david-sacks-critica-pacto-desaceleracao-ia",
+    title: "David Sacks critica pacto de desaceleração entre Anthropic e OpenAI",
+    summary:
+      "O presidente do conselho de ciência e tecnologia da Casa Branca disse que as duas empresas podem desacelerar seus próprios lançamentos se quiserem, mas acusou o pedido conjunto por avaliadores independentes de ser uma tentativa de driblar a lei antitruste e formar um 'cartel', questionando se a motivação é puramente de segurança.",
+    sourceName: "Washington Examiner",
+    sourceUrl:
+      "https://www.washingtonexaminer.com/policy/technology/4725242/david-sacks-ai-pacing-anthropic-openai-regulations/",
+    date: "2026-09-13",
+  },
+  {
+    slug: "china-padroes-ia-corporificada",
+    title: "China planeja padrões nacionais para 'IA corporificada' (robôs com IA)",
+    summary:
+      "O regulador de dados chinês anunciou que vai desenvolver normas técnicas para sistemas de inteligência artificial corporificada — robôs e dispositivos físicos controlados por IA — e orientar autoridades locais na aplicação dessas regras, num movimento para padronizar um setor que cresce rapidamente no país.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai",
+    date: "2026-09-13",
+  },
+  {
+    slug: "amd-acoes-sobem-otimismo-chips-ia",
+    title: "Ações da AMD sobem com otimismo sobre chips de IA",
+    summary:
+      "As ações da AMD subiram cerca de 2,5% no dia, acumulando alta de mais de 8% na semana, após analistas elevarem o preço-alvo do papel para US$ 600 citando o crescimento da receita de CPUs para data center e projeções ambiciosas de IA para o fim da década.",
+    sourceName: "ad-hoc-news",
+    sourceUrl:
+      "https://www.ad-hoc-news.de/boerse/news/corporate-news/amd-stock-gains-as-analysts-lift-ai-expectations-and-price-targets/70095473",
+    date: "2026-09-13",
+  },
 ];
 
 export function sortedNews() {
