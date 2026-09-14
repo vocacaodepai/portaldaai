@@ -36,10 +36,12 @@ jobs:
         run: npm run build:gh-pages
         env:
           STATIC_EXPORT: "true"
-          # Opcional: cadastre PEXELS_API_KEY em Settings > Secrets and
-          # variables > Actions para publicar com fotos reais do Pexels.
-          # Sem o secret, o site usa as capas ilustradas de fallback.
+          # Opcional: cadastre PEXELS_API_KEY e/ou PIXABAY_API_KEY em
+          # Settings > Secrets and variables > Actions para publicar com
+          # fotos reais (Pexels é tentado primeiro, Pixabay em seguida).
+          # Sem nenhuma das duas, o site usa as capas ilustradas de fallback.
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

@@ -1,4 +1,5 @@
 import { getPexelsImage } from "@/lib/pexels";
+import { getPixabayImage } from "@/lib/pixabay";
 
 // Tons neutros, no espírito de fotografia de produto (Apple/Samsung):
 // gradiente suave em cinza-claro com um único ponto de luz em azul discreto.
@@ -48,7 +49,7 @@ export async function CoverImage({
   className?: string;
   priority?: boolean;
 }) {
-  const photo = await getPexelsImage(query, seed);
+  const photo = (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
 
   if (!photo) {
     return <FallbackCover seed={seed} className={className} />;
@@ -69,7 +70,7 @@ export async function CoverImage({
         rel="noopener noreferrer nofollow"
         className="absolute bottom-1.5 right-2 rounded bg-black/40 px-1.5 py-0.5 text-[10px] text-white/70 backdrop-blur-sm transition hover:text-white"
       >
-        Foto: {photo.photographer} / Pexels
+        Foto: {photo.photographer} / {photo.source}
       </a>
     </div>
   );

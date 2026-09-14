@@ -1,24 +1,24 @@
-export type PexelsPhoto = {
+export type StockPhoto = {
   url: string;
   width: number;
   height: number;
   alt: string;
   photographer: string;
   photographerUrl: string;
-  avgColor: string;
+  source: "Pexels" | "Pixabay";
 };
 
 const PEXELS_API = "https://api.pexels.com/v1/search";
 
 /**
  * Busca uma imagem no Pexels usando a chave de API do usuário (PEXELS_API_KEY).
- * Se a chave não estiver configurada ou a busca falhar, retorna null e o
- * componente de capa cai para um gradiente de fallback (ver components/CoverImage.tsx).
+ * É a primeira opção da cascata de imagens (ver components/CoverImage.tsx):
+ * Pexels -> Pixabay -> gradiente de fallback.
  */
 export async function getPexelsImage(
   query: string,
   seed = 0
-): Promise<PexelsPhoto | null> {
+): Promise<StockPhoto | null> {
   const apiKey = process.env.PEXELS_API_KEY;
   if (!apiKey) return null;
 
@@ -44,7 +44,6 @@ export async function getPexelsImage(
           alt: string;
           photographer: string;
           photographer_url: string;
-          avg_color: string;
         }>
       | undefined;
 
@@ -59,7 +58,7 @@ export async function getPexelsImage(
       alt: photo.alt || query,
       photographer: photo.photographer,
       photographerUrl: photo.photographer_url,
-      avgColor: photo.avg_color || "#111827",
+      source: "Pexels",
     };
   } catch {
     return null;

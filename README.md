@@ -9,9 +9,10 @@ para o Google AdSense.
 
 - [Next.js 16](https://nextjs.org) (App Router, TypeScript)
 - Tailwind CSS 4
-- Conteúdo estático em `lib/articles.ts` (10 artigos já publicados)
-- Capas de imagem via [Pexels API](https://www.pexels.com/api/), com
-  fallback ilustrado gerado localmente quando a chave não está configurada
+- Conteúdo estático em `lib/articles.ts`, atualizado diariamente
+- Capas de imagem via [Pexels API](https://www.pexels.com/api/) (principal) e
+  [Pixabay API](https://pixabay.com/api/docs/) (segunda opção), com fallback
+  ilustrado gerado localmente quando nenhuma chave está configurada
 
 ## Rodando localmente
 
@@ -22,22 +23,25 @@ npm run dev
 
 Acesse `http://localhost:3000`.
 
-## Imagens do Pexels
+## Imagens (Pexels e Pixabay)
 
-Copie `.env.example` para `.env.local` e informe sua chave:
+Copie `.env.example` para `.env.local` e informe suas chaves:
 
 ```
 PEXELS_API_KEY=sua_chave_aqui
+PIXABAY_API_KEY=sua_chave_aqui
 ```
 
-Sem a chave, cada artigo exibe uma capa ilustrada (gradiente + padrão
-geométrico) gerada localmente — o site funciona normalmente, só sem fotos
-reais.
+O Pexels é tentado primeiro; se não retornar resultado, o Pixabay é usado
+em seguida. Sem nenhuma das duas chaves, cada artigo exibe uma capa
+ilustrada (gradiente suave) gerada localmente — o site funciona
+normalmente, só sem fotos reais.
 
 ## Estrutura de conteúdo
 
 - `lib/articles.ts` — todos os artigos, categorias e metadados do site
-- `lib/pexels.ts` — integração com a API do Pexels
+- `lib/news.ts` — notícias reais do mercado de IA exibidas em `/noticias`
+- `lib/pexels.ts` / `lib/pixabay.ts` — integração com os bancos de imagem
 - `app/artigos/[slug]` — página de artigo individual
 - `app/categoria/[slug]` — listagem por categoria
 
@@ -53,5 +57,7 @@ pré-requisitos comuns para aprovação no Google AdSense — além de
 ## Deploy
 
 Projeto pronto para deploy em qualquer plataforma compatível com Next.js
-(Vercel, Netlify, etc.). Lembre-se de configurar a variável de ambiente
-`PEXELS_API_KEY` no ambiente de produção.
+(Vercel, Netlify, etc.), além de um build 100% estático para o GitHub
+Pages (`npm run build:gh-pages`, ver `.github/workflows/deploy-gh-pages.yml`).
+Lembre-se de configurar `PEXELS_API_KEY` e `PIXABAY_API_KEY` no ambiente
+de produção (ou como secrets do GitHub Actions).
