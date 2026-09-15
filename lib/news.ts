@@ -202,6 +202,51 @@ export const news: NewsItem[] = [
       "https://www.ad-hoc-news.de/boerse/news/corporate-news/amd-stock-gains-as-analysts-lift-ai-expectations-and-price-targets/70095473",
     date: "2026-09-13",
   },
+  {
+    slug: "trump-chama-desaceleracao-ia-de-conspiracao",
+    title: "Trump chama pedido de desaceleração da IA de 'conspiração doentia'",
+    summary:
+      "Depois que Amodei, Altman e Musk defenderam publicamente reduzir o ritmo de avanço da IA, o presidente dos EUA rejeitou a ideia, afirmando que existe uma 'conspiração doentia' contra a IA e os data centers americanos, e que o país que vencer a corrida por essa tecnologia é quem vai sair na frente.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
+    date: "2026-09-14",
+  },
+  {
+    slug: "openai-lanca-chatgpt-images-2-5",
+    title: "OpenAI lança o ChatGPT Images 2.5",
+    summary:
+      "O novo modelo de geração de imagem da OpenAI promete iluminação mais natural, texturas mais ricas, melhor preservação de fotos de referência enviadas pelo usuário e até 50% menos tempo de geração em relação à versão anterior. A atualização também trouxe recursos como esboço à mão livre e comentários diretamente sobre partes específicas de uma imagem.",
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    date: "2026-09-08",
+  },
+  {
+    slug: "openai-pergunta-congresso-antitruste-desaceleracao",
+    title: "OpenAI pergunta ao Congresso dos EUA se pode coordenar desaceleração com rivais",
+    summary:
+      "A empresa levou a membros do Congresso americano a dúvida se combinar com concorrentes como Anthropic e Google uma redução conjunta no ritmo de lançamento de modelos de ponta, por motivos de segurança, poderia violar a lei antitruste dos Estados Unidos — já que coordenação entre concorrentes para limitar lançamentos é historicamente tratada como prática restritiva de mercado.",
+    sourceName: "TechRepublic",
+    sourceUrl: "https://www.techrepublic.com/article/news-openai-ai-slowdown-antitrust-congress/",
+    date: "2026-09-11",
+  },
+  {
+    slug: "deepseek-v4-1-flash-mantem-v4-pro",
+    title: "DeepSeek lança V4.1 Flash e recua de plano de aposentar o V4 Pro",
+    summary:
+      "A DeepSeek havia planejado migrar todo o tráfego do V4 Pro para o novo V4.1 Flash — menor, mas com desempenho superior na maioria dos testes — a partir de 14 de setembro. Diante da demanda dos usuários, a empresa recuou e vai manter os dois modelos disponíveis via API, com a cobrança do V4 Pro inalterada.",
+    sourceName: "Bitrue",
+    sourceUrl: "https://www.bitrue.com/blog/deepseek-v4-1-flash",
+    date: "2026-09-14",
+  },
+  {
+    slug: "tandem-health-100-milhoes-serie-b-ia-clinica",
+    title: "Startup sueca de IA clínica Tandem Health capta US$ 100 milhões",
+    summary:
+      "A Tandem Health, de Estocolmo, levantou uma rodada Série B liderada pelo Scaleup Europe Fund, gerido pela EQT — a primeira empresa de IA para saúde apoiada pelo fundo. O dinheiro vai expandir a ferramenta de assistente médico por IA, hoje usada por 10 mil organizações de saúde em 14 países, para um sistema mais amplo de gestão de atendimento e agenda de pacientes.",
+    sourceName: "Unite.AI",
+    sourceUrl: "https://www.unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system/",
+    date: "2026-09-14",
+  },
 ];
 
 export function sortedNews() {
