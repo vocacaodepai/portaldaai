@@ -247,6 +247,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://www.unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system/",
     date: "2026-09-14",
   },
+  {
+    slug: "cornelis-networks-205-milhoes-active-compute-fabric",
+    title: "Cornelis Networks capta US$ 205 milhões para desafiar a Nvidia em redes de IA",
+    summary:
+      "A startup, derivada da Intel, lançou a Active Compute Fabric, uma arquitetura aberta de rede que processa dados enquanto os transmite, em vez de só conectar servidores — respondendo ao desperdício de tempo de GPU parada esperando dados chegarem. A empresa também anunciou colaboração com a Qualcomm em infraestrutura de IA em escala de rack.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+    date: "2026-09-14",
+  },
+  {
+    slug: "euclyd-200-milhoes-chip-ia-samsung",
+    title: "Startup holandesa Euclyd capta mais de € 200 milhões para chip de IA sem GPU",
+    summary:
+      "A Euclyd, de Eindhoven, fechou uma rodada Série A com participação da Samsung e outros investidores, tendo o ex-presidente da ASML Peter Wennink como novo presidente do conselho. A empresa desenvolve uma arquitetura de chip alternativa à GPU voltada especificamente para inferência de modelos de IA, com produtos físicos previstos para 2028.",
+    sourceName: "Data Center Dynamics",
+    sourceUrl: "https://www.datacenterdynamics.com/en/news/dutch-ai-chip-startup-euclyd-raises-231-million-in-funding-round-co-led-by-samsung/",
+    date: "2026-09-15",
+  },
+  {
+    slug: "tavus-lanca-phoenix-4-5-renderizacao-humana-tempo-real",
+    title: "Tavus lança Phoenix-4.5, modelo de renderização humana em tempo real",
+    summary:
+      "O novo modelo gera corpo inteiro (não só o rosto) de um avatar digital com resposta emocional e movimento facial contínuo enquanto fala e escuta ao mesmo tempo, mantendo baixa latência entre áudio e vídeo. A empresa descreve o Phoenix-4.5 como o modelo de renderização humana em tempo real mais rápido e expressivo disponível atualmente.",
+    sourceName: "Tavus",
+    sourceUrl: "https://www.tavus.io/blog/phoenix-4-5",
+    date: "2026-09-15",
+  },
+  {
+    slug: "bytedance-lucro-cai-gastos-ia",
+    title: "Lucro da ByteDance cai para US$ 20 bilhões no semestre com gastos em IA",
+    summary:
+      "O lucro líquido da ByteDance no primeiro semestre de 2026 caiu em torno de um dígito percentual, pressionado pelo investimento pesado em infraestrutura de inteligência artificial, mesmo com a receita crescendo cerca de 30%. A empresa avalia elevar o investimento em IA para até US$ 70 bilhões no ano, mais do que o dobro do nível de 2025.",
+    sourceName: "The Information",
+    sourceUrl: "https://www.theinformation.com/articles/bytedances-first-half-profit-drops-20-billion-weighed-ai-spending",
+    date: "2026-09-15",
+  },
+  {
+    slug: "altman-openai-nao-abre-capital-em-2026",
+    title: "Sam Altman confirma que a OpenAI não vai abrir capital em 2026",
+    summary:
+      "Em entrevista à Fortune, o CEO disse que, dado tudo o que está acontecendo em torno da segurança da IA, seria 'um momento mal aconselhado' para um IPO, e que a empresa não sente pressão para isso agora. A declaração ocorre enquanto a Anthropic, rival direta, já protocolou pedido confidencial de abertura de capital nos EUA.",
+    sourceName: "Fortune",
+    sourceUrl: "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+    date: "2026-09-12",
+  },
 ];
 
 export function sortedNews() {
