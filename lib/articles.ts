@@ -1461,6 +1461,200 @@ export const articles: Article[] = [
       <p>Como já discutimos em <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">como colocar habilidades de IA no currículo</a>, saber usar IA com critério já é reconhecido como competência profissional real. Sentir insegurança é normal no início — mas não deveria te impedir de reconhecer o valor do que você está produzindo.</p>
     `,
   },
+  {
+    slug: "7-aplicativos-de-ia-que-toda-pessoa-deveria-conhecer",
+    title: "Os 7 Aplicativos de IA que Toda Pessoa Deveria Conhecer em 2026",
+    excerpt:
+      "Sem enrolação técnica: uma lista direta de aplicativos de IA realmente úteis no dia a dia, para quem está começando do zero e não sabe por onde ir além do ChatGPT.",
+    category: "iniciantes",
+    date: "2026-09-17",
+    readTime: 6,
+    imageQuery: "smartphone apps icons screen",
+    seed: 35,
+    content: `
+      <p>Quem começa a se interessar por inteligência artificial geralmente conhece só uma ferramenta — normalmente o ChatGPT — e não faz ideia de que existe todo um conjunto de aplicativos especializados que resolvem problemas específicos do dia a dia. Esta lista é um ponto de partida direto, sem jargão.</p>
+
+      <h2>1. Um assistente de texto geral</h2>
+      <p>ChatGPT, Claude ou Gemini — escolha um para tarefas do dia a dia: escrever mensagens, tirar dúvidas, resumir textos. Já explicamos as diferenças entre eles em <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude, Gemini: qual IA escolher</a>.</p>
+
+      <h2>2. Um app de transcrição e resumo de áudio</h2>
+      <p>Transforma reuniões, aulas e vídeos longos em texto e resumo automaticamente — economiza um tempo enorme para quem estuda ou trabalha com muita informação em áudio.</p>
+
+      <h2>3. Um editor de imagem com IA</h2>
+      <p>Remove fundo, melhora qualidade e gera artes simples sem precisar saber nada de design — útil para quem vende produtos ou cria conteúdo para redes sociais.</p>
+
+      <h2>4. Um app de pesquisa com fontes citadas</h2>
+      <p>Diferente do assistente geral, esse tipo de ferramenta prioriza trazer links verificáveis junto da resposta — essencial quando a precisão da informação importa.</p>
+
+      <h2>5. Um editor de vídeo com IA</h2>
+      <p>Corta silêncios, gera legendas automáticas e sugere os melhores trechos de um vídeo longo — como já mostramos em <a href="/artigos/canva-capcut-e-ia-artes-e-videos-sem-saber-design">Canva, CapCut e IA</a>.</p>
+
+      <h2>6. Um assistente de planilhas</h2>
+      <p>Organiza dados, cria fórmulas a partir de linguagem natural e gera resumos automáticos — como detalhamos em <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a>.</p>
+
+      <h2>7. Um assistente de voz em tempo real</h2>
+      <p>Permite conversar por voz com a IA de forma natural, útil para praticar idiomas, tirar dúvidas rápidas sem digitar, ou revisar ideias enquanto você faz outra coisa.</p>
+
+      <h2>Como escolher por onde começar</h2>
+      <p>Não é preciso instalar tudo de uma vez. Escolha o item dessa lista que resolve a tarefa mais chata da sua rotina hoje, aprenda a usar bem essa única ferramenta, e só depois avance para a próxima.</p>
+    `,
+  },
+  {
+    slug: "ia-para-audio-criar-podcasts-e-narracoes-profissionais",
+    title: "IA para Áudio: Como Criar Podcasts e Narrações Profissionais Sozinho",
+    excerpt:
+      "Você não precisa de estúdio nem de voz de locutor para produzir áudio com qualidade profissional. Veja como a IA já resolve boa parte do processo.",
+    category: "ferramentas",
+    date: "2026-09-17",
+    readTime: 6,
+    imageQuery: "podcast microphone recording studio",
+    seed: 36,
+    content: `
+      <p>Produzir um podcast ou uma narração sempre pareceu exigir equipamento caro e uma voz "de rádio". Ferramentas de IA para áudio já reduzem bastante essa barreira, permitindo produzir conteúdo com qualidade profissional mesmo gravando no quarto de casa.</p>
+
+      <h2>O que a IA já resolve em áudio</h2>
+      <ul>
+        <li><strong>Limpeza de ruído:</strong> remove eco, chiado e ruído de fundo automaticamente.</li>
+        <li><strong>Equalização automática:</strong> deixa a voz com timbre mais uniforme, sem precisar entender de engenharia de som.</li>
+        <li><strong>Vozes sintéticas realistas:</strong> narra um roteiro inteiro sem precisar gravar sua própria voz, útil para quem tem vergonha de falar ou não tem tempo de gravar.</li>
+        <li><strong>Edição por texto:</strong> editar o áudio apagando trechos diretamente na transcrição, sem precisar mexer em forma de onda.</li>
+      </ul>
+
+      <h2>Um fluxo simples para gravar um episódio</h2>
+      <ol>
+        <li>Escreva um roteiro simples com apoio de IA (gancho, desenvolvimento, encerramento).</li>
+        <li>Grave num ambiente razoavelmente silencioso, mesmo sem equipamento profissional.</li>
+        <li>Use IA para limpar ruído e equalizar automaticamente.</li>
+        <li>Edite cortando pausas e erros diretamente pela transcrição do áudio.</li>
+        <li>Gere capítulos e um resumo automático para publicar junto do episódio.</li>
+      </ol>
+
+      <h2>Quando faz sentido usar voz sintética</h2>
+      <p>Voz sintética é útil para conteúdo educativo, audiodescrição ou narrações rápidas onde a identidade pessoal não é o foco. Para um podcast de opinião ou entrevista, a voz real ainda costuma gerar mais conexão com quem ouve.</p>
+
+      <h2>Um cuidado importante</h2>
+      <p>Se for clonar a própria voz com IA para agilizar gravações, verifique os termos de uso da ferramenta e deixe claro para o público quando um trecho foi gerado sinteticamente — transparência evita problema de confiança com a audiência.</p>
+
+      <h2>Isso também é uma oportunidade</h2>
+      <p>Assim como em <a href="/artigos/como-criar-e-vender-curso-online-usando-ia">como criar e vender um curso online usando IA</a>, dominar produção de áudio com apoio de IA é uma habilidade que negócios pequenos pagam para não precisar aprender sozinhos — de anúncios em áudio a narração de vídeos institucionais.</p>
+    `,
+  },
+  {
+    slug: "como-usar-ia-para-gerenciar-estoque-pequeno-comercio",
+    title: "Como Usar IA para Gerenciar Estoque e Evitar Perdas no Pequeno Comércio",
+    excerpt:
+      "Falta de produto na hora certa e excesso parado no estoque são dois dos maiores ralos de dinheiro do pequeno comércio. Veja como a IA ajuda a evitar os dois.",
+    category: "negocios",
+    date: "2026-09-17",
+    readTime: 6,
+    imageQuery: "warehouse inventory boxes stock",
+    seed: 37,
+    content: `
+      <p>Gerenciar estoque bem é um dos aspectos mais subestimados de um pequeno negócio. Produto parado significa dinheiro travado; produto em falta significa venda perdida. A inteligência artificial já ajuda bastante a equilibrar essa conta, mesmo sem um sistema caro de gestão.</p>
+
+      <h2>Onde a IA ajuda de verdade</h2>
+      <ul>
+        <li><strong>Previsão de demanda:</strong> analisar vendas anteriores para sugerir quanto comprar de cada produto e quando.</li>
+        <li><strong>Identificação de produtos parados:</strong> apontar itens com giro baixo antes que virem prejuízo acumulado.</li>
+        <li><strong>Alertas de reposição:</strong> avisar quando um item popular está perto de esgotar, evitando venda perdida.</li>
+        <li><strong>Organização de dados bagunçados:</strong> transformar planilhas de estoque desorganizadas em relatórios claros e acionáveis.</li>
+      </ul>
+
+      <h2>Um fluxo simples para começar</h2>
+      <ol>
+        <li>Reúna os dados de vendas e estoque que você já tem, mesmo que estejam bagunçados.</li>
+        <li>Use IA para organizar essas informações numa planilha simples e legível.</li>
+        <li>Peça uma análise de quais produtos vendem mais rápido e quais estão parados.</li>
+        <li>Ajuste as próximas compras com base nesse padrão, em vez de repetir o pedido de sempre.</li>
+      </ol>
+
+      <h2>Um exemplo prático</h2>
+      <p>Uma loja de roupas que analisa as vendas dos últimos meses pode descobrir, com apoio de IA, que determinado tamanho sempre esgota primeiro e outro sempre sobra — um ajuste simples na próxima compra evita tanto a falta quanto o excesso.</p>
+
+      <h2>Por que isso é diferente de "só olhar a planilha"</h2>
+      <p>A IA consegue cruzar várias variáveis ao mesmo tempo (sazonalidade, histórico, tendência recente) muito mais rápido do que uma análise manual — o que normalmente levaria horas de trabalho vira uma pergunta respondida em minutos.</p>
+
+      <h2>Continue aplicando esse raciocínio</h2>
+      <p>Esse é o mesmo princípio que já vimos em <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a>: transformar dados soltos em decisão prática, sem precisar virar especialista em análise de dados para isso.</p>
+    `,
+  },
+  {
+    slug: "como-ganhar-dinheiro-testando-e-avaliando-ferramentas-de-ia",
+    title: "Como Ganhar Dinheiro Testando e Avaliando Ferramentas de IA",
+    excerpt:
+      "O mercado de IA lança novidade toda semana, e a maioria das pessoas não tem tempo de testar tudo. Veja como transformar isso em uma fonte de renda real.",
+    category: "monetizacao",
+    date: "2026-09-17",
+    readTime: 6,
+    imageQuery: "product review testing laptop",
+    seed: 38,
+    content: `
+      <p>Com o volume de ferramentas de IA lançadas toda semana, cresce também a demanda por quem já testou tudo isso e consegue recomendar o que realmente funciona. Se você gosta de explorar ferramentas novas, esse interesse pode virar uma fonte de renda.</p>
+
+      <h2>Formatos possíveis para ganhar com isso</h2>
+      <ul>
+        <li><strong>Conteúdo de comparação:</strong> vídeos ou posts comparando ferramentas parecidas para um público específico.</li>
+        <li><strong>Programas de afiliados:</strong> muitas ferramentas de IA pagam comissão por indicação de assinantes pagos.</li>
+        <li><strong>Consultoria de escolha de ferramenta:</strong> ajudar pequenos negócios a decidir qual IA vale a pena assinar para o caso específico deles.</li>
+        <li><strong>Newsletter ou canal de curadoria:</strong> resumir semanalmente o que há de novo e relevante, cobrando assinatura ou usando patrocínio.</li>
+      </ul>
+
+      <h2>Como testar de forma que gere conteúdo de valor</h2>
+      <ol>
+        <li>Escolha um público específico (pequenos negócios, criadores de conteúdo, uma profissão) em vez de tentar agradar todo mundo.</li>
+        <li>Teste a ferramenta em uma tarefa real desse público, não só nas funcionalidades genéricas anunciadas.</li>
+        <li>Documente o que funcionou bem, o que decepcionou e para quem a ferramenta realmente vale a pena.</li>
+        <li>Seja honesto sobre limitações — isso constrói mais confiança do que elogiar tudo.</li>
+      </ol>
+
+      <h2>O que diferencia uma boa avaliação de uma genérica</h2>
+      <p>Qualquer pessoa consegue listar funcionalidades copiando o site da ferramenta. Quem realmente ajuda testa na prática, mostra resultado real e diz claramente para quem aquela ferramenta específica faz sentido — e para quem não faz.</p>
+
+      <h2>Um cuidado com afiliados</h2>
+      <p>Sempre deixe claro quando um link é de afiliado. Além de ser mais transparente com o público, evita problemas com as próprias plataformas de afiliados, que costumam exigir essa divulgação.</p>
+
+      <h2>Comece pequeno</h2>
+      <p>Escolha duas ou três ferramentas que você já usa no dia a dia e escreva a primeira comparação honesta entre elas. Esse primeiro conteúdo já serve de portfólio para os próximos passos nesse caminho.</p>
+    `,
+  },
+  {
+    slug: "como-negociar-salario-melhor-sabendo-usar-ia",
+    title: "Como Negociar um Salário Melhor Sabendo Usar IA no Trabalho",
+    excerpt:
+      "Saber usar IA de forma estratégica pode ser um argumento real numa negociação salarial — desde que você saiba transformar isso em valor concreto para a empresa.",
+    category: "carreira",
+    date: "2026-09-17",
+    readTime: 6,
+    imageQuery: "salary negotiation handshake office",
+    seed: 39,
+    content: `
+      <p>Negociar salário é sempre desconfortável, mas fica mais fácil quando você tem argumentos concretos de valor entregue. Saber usar IA de forma estratégica no trabalho pode ser um desses argumentos — se você souber apresentá-lo direito.</p>
+
+      <h2>Por que isso é um argumento válido</h2>
+      <p>Empresas pagam mais por quem entrega mais resultado no mesmo tempo, ou o mesmo resultado em menos tempo. Se o uso de IA fez você produzir mais, com mais qualidade, ou liberou tempo para assumir responsabilidades maiores, isso é exatamente o tipo de impacto que justifica um aumento.</p>
+
+      <h2>Como transformar isso em argumento concreto</h2>
+      <ol>
+        <li>Liste tarefas específicas onde você usou IA para ganhar eficiência real.</li>
+        <li>Quantifique o resultado: tempo economizado, volume produzido, qualidade percebida.</li>
+        <li>Relacione isso a um impacto que a empresa valoriza — mais entregas, menos custo, resposta mais rápida ao cliente.</li>
+        <li>Mostre que esse ganho é consistente, não um caso isolado de sorte.</li>
+      </ol>
+
+      <h2>O que evitar na conversa</h2>
+      <ul>
+        <li>Dizer apenas "eu uso IA" sem conectar isso a um resultado — isso não convence ninguém.</li>
+        <li>Dar a entender que a IA fez o trabalho sozinha — o argumento é sobre sua capacidade de usar a ferramenta bem, não sobre a ferramenta em si.</li>
+        <li>Comparar seu salário só com o mercado, sem trazer o valor específico que você entrega.</li>
+      </ul>
+
+      <h2>Um exemplo de argumento bem construído</h2>
+      <p>Em vez de "eu mereço mais porque uso ChatGPT", algo como: "nos últimos meses, usando IA para acelerar a produção de relatórios, consegui entregar 30% mais análises no mesmo prazo, o que ajudou o time a responder mais rápido para os clientes" — específico, mensurável, e conectado a um resultado que a empresa reconhece.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">como colocar habilidades de IA no currículo</a>, o segredo é sempre o mesmo: traduzir uso de ferramenta em resultado mensurável. Isso vale tanto para conseguir uma vaga quanto para negociar um salário melhor na que você já tem.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
