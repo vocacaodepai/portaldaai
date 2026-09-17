@@ -292,6 +292,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
     date: "2026-09-12",
   },
+  {
+    slug: "google-lanca-gemini-3-8-live-extended-thinking",
+    title: "Google lança modelos de voz em tempo real Gemini 3.8 Live",
+    summary:
+      "Os novos modelos permitem conversar por voz enquanto a IA raciocina e executa ferramentas em segundo plano, sem interromper a resposta falada. A versão Extended Thinking, voltada a tarefas mais complexas, ficou em primeiro lugar no ranking de voz para voz da Artificial Analysis, com preço competitivo por minuto de áudio.",
+    sourceName: "Google",
+    sourceUrl: "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
+    date: "2026-09-15",
+  },
+  {
+    slug: "factory-triplica-avaliacao-5-bilhoes-codificacao-autonoma",
+    title: "Startup de codificação autônoma Factory triplica avaliação para US$ 5 bilhões",
+    summary:
+      "A Factory, que desenvolve agentes de IA chamados 'Droids' capazes de conduzir todo o ciclo de desenvolvimento de software, captou US$ 200 milhões numa rodada que triplicou sua avaliação em apenas cinco meses. Empresas como Nvidia, Adobe e T-Mobile já rodam suas próprias 'fábricas de software' usando a ferramenta.",
+    sourceName: "Reuters",
+    sourceUrl: "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4571DR:0-ai-coding-agent-startup-factory-triples-valuation-to-5-billion-in-latest-funding-round/",
+    date: "2026-09-16",
+  },
+  {
+    slug: "canada-alemanha-300-milhoes-lawzero-bengio",
+    title: "Canadá e Alemanha investem até US$ 300 milhões na ONG de IA segura de Bengio",
+    summary:
+      "O financiamento vai para a LawZero, organização sem fins lucrativos fundada pelo pesquisador Yoshua Bengio, e será usado para contratar equipe e custear o desenvolvimento da 'Scientist AI' — um sistema pensado para focar em verdades objetivas, sem perseguir metas próprias como agradar o usuário. O projeto também vai gerar 360 empregos no Canadá.",
+    sourceName: "The Globe and Mail",
+    sourceUrl: "https://www.theglobeandmail.com/business/article-yoshua-bengio-lawzero-receives-300-million-from-canada-germany/",
+    date: "2026-09-16",
+  },
+  {
+    slug: "altman-laboratorios-ia-orgao-padroes-sem-governo",
+    title: "Altman diz que laboratórios de IA podem ter que criar órgão de padrões sozinhos",
+    summary:
+      "O CEO da OpenAI afirmou apoiar a criação de uma organização independente para testar e auditar modelos de IA, mas disse acreditar que os grandes laboratórios precisarão montar essa estrutura por conta própria, sem apoio do governo americano. A ideia, discutida por Anthropic, Google e OpenAI desde julho, partiu de um ensaio do fundador do Google DeepMind, Demis Hassabis.",
+    sourceName: "CNN",
+    sourceUrl: "https://us.cnn.com/2026/09/14/tech/ai-standards-body",
+    date: "2026-09-14",
+  },
+  {
+    slug: "biren-technology-1-bilhao-nova-captacao",
+    title: "Fabricante chinesa de chips de IA Biren avalia captar mais US$ 1 bilhão",
+    summary:
+      "Bancos já sondam investidores para uma nova venda de ações da Biren Technology, que seria a terceira captação da empresa desde sua estreia na bolsa de Hong Kong em janeiro. O período de restrição de 90 dias da colocação anterior, que levantou cerca de HK$ 7 bilhões, termina no início de outubro.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-15/chinese-ai-chip-darling-biren-said-to-mull-1-billion-share-sale",
+    date: "2026-09-15",
+  },
 ];
 
 export function sortedNews() {
