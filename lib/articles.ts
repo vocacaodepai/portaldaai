@@ -1862,6 +1862,215 @@ export const articles: Article[] = [
       <p>Como discutimos em <a href="/artigos/como-migrar-de-carreira-para-area-de-ia">como migrar de carreira para a área de IA</a>, virar referência interna é exatamente o tipo de ponte que cria oportunidades novas sem exigir uma mudança brusca de função.</p>
     `,
   },
+  {
+    slug: "como-configurar-primeiro-assistente-de-ia-pessoal",
+    title: "Como Configurar seu Primeiro Assistente de IA Pessoal em 15 Minutos",
+    excerpt:
+      "Sem enrolação: um passo a passo direto para sair do zero e ter um assistente de IA configurado e útil no seu dia a dia em menos de 15 minutos.",
+    category: "iniciantes",
+    date: "2026-09-19",
+    readTime: 6,
+    imageQuery: "personal assistant setup phone",
+    seed: 45,
+    content: `
+      <p>Muita gente adia começar a usar IA porque imagina que precisa de uma configuração complicada. Na prática, dá para sair do zero e já ter um assistente útil funcionando em menos tempo do que leva para assistir a um episódio de série.</p>
+
+      <h2>Minuto 1 a 3: escolha e crie a conta</h2>
+      <p>Escolha uma ferramenta de assistente geral (ChatGPT, Claude ou Gemini — veja as diferenças em <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">nosso comparativo</a>) e crie uma conta gratuita. Não é preciso pagar nada para começar.</p>
+
+      <h2>Minuto 4 a 7: dê contexto sobre você</h2>
+      <p>A maioria das ferramentas permite salvar informações fixas sobre você — sua profissão, seus interesses, o tom de resposta que prefere. Preencher isso uma vez evita ter que repetir contexto toda conversa.</p>
+
+      <h2>Minuto 8 a 11: teste com uma tarefa real</h2>
+      <ol>
+        <li>Escolha uma tarefa que você tem hoje mesmo — um e-mail para escrever, uma dúvida para tirar, um texto para resumir.</li>
+        <li>Peça de forma específica, como já explicamos em <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">prompt engineering</a>: contexto, tarefa, formato.</li>
+        <li>Avalie a resposta e peça um ajuste se não ficou do jeito que você precisava.</li>
+      </ol>
+
+      <h2>Minuto 12 a 15: organize para o uso diário</h2>
+      <ul>
+        <li>Instale o aplicativo no celular, se disponível — reduz a fricção de abrir o navegador toda vez.</li>
+        <li>Salve a conversa ou crie um atalho para a tarefa que você mais repete.</li>
+        <li>Defina mentalmente uma tarefa da sua rotina para testar amanhã, mantendo o hábito.</li>
+      </ul>
+
+      <h2>O que fazer depois desses 15 minutos</h2>
+      <p>Não tente aprender tudo de uma vez. Use essa mesma ferramenta por uma semana em tarefas simples antes de explorar recursos mais avançados ou outras ferramentas especializadas.</p>
+
+      <h2>Um lembrete importante</h2>
+      <p>Como já mostramos em <a href="/artigos/5-erros-comuns-de-quem-esta-comecando-a-usar-ia">5 erros comuns de quem está começando</a>, o maior erro não é técnico — é desistir cedo demais antes de aprender a pedir do jeito certo. Os primeiros 15 minutos são só o começo, não o resultado final.</p>
+    `,
+  },
+  {
+    slug: "ia-para-design-de-logotipo-marca-simples-profissional",
+    title: "IA para Design de Logotipo: Como Criar uma Marca Simples e Profissional",
+    excerpt:
+      "Você não precisa contratar um designer para ter um logotipo decente. Veja como usar IA para criar uma identidade visual simples e consistente para o seu negócio.",
+    category: "ferramentas",
+    date: "2026-09-19",
+    readTime: 6,
+    imageQuery: "logo design branding sketch",
+    seed: 46,
+    content: `
+      <p>Um logotipo não precisa ser complexo para funcionar — precisa ser simples, legível e consistente em qualquer tamanho. A IA já ajuda bastante nessa etapa inicial, mesmo para quem não tem nenhuma experiência com design.</p>
+
+      <h2>O que definir antes de gerar qualquer coisa</h2>
+      <ul>
+        <li><strong>O nome exato do negócio</strong>, como vai aparecer escrito.</li>
+        <li><strong>Duas ou três palavras que descrevem a marca</strong> (ex: "acolhedor", "moderno", "direto").</li>
+        <li><strong>Onde o logo vai ser mais usado</strong> — rede social, fachada, embalagem — isso influencia a complexidade ideal.</li>
+      </ul>
+
+      <h2>Um fluxo simples para gerar opções</h2>
+      <ol>
+        <li>Descreva o negócio e as palavras-chave escolhidas para a IA gerar variações.</li>
+        <li>Peça versões simples, sem excesso de detalhe — logos com muita informação não funcionam pequenos.</li>
+        <li>Gere opções em preto e branco também, para garantir que funciona sem depender da cor.</li>
+        <li>Escolha 2 ou 3 favoritos e peça pequenos ajustes de tipografia e espaçamento.</li>
+      </ol>
+
+      <h2>O que revisar antes de usar de verdade</h2>
+      <ul>
+        <li>O logo continua legível em tamanho pequeno, como ícone de rede social?</li>
+        <li>Ele se destaca bem tanto em fundo claro quanto em fundo escuro?</li>
+        <li>Não tem elementos estranhos ou assimetrias que a IA às vezes gera por erro?</li>
+      </ul>
+
+      <h2>Um cuidado importante</h2>
+      <p>Verifique se o logotipo final não ficou parecido demais com marcas já existentes — isso pode gerar confusão com clientes ou até problema legal. Uma busca rápida antes de registrar a marca evita dor de cabeça depois.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como em <a href="/artigos/como-vender-artes-e-fotos-criadas-com-ia-generativa">como vender artes criadas com IA generativa</a>, dominar esse tipo de criação visual rápida também é uma habilidade vendável — muitos pequenos negócios pagariam para não precisar aprender isso sozinhos.</p>
+    `,
+  },
+  {
+    slug: "como-usar-ia-para-reduzir-cancelamento-de-clientes",
+    title: "Como Usar IA para Reduzir o Cancelamento de Clientes na Assinatura",
+    excerpt:
+      "Perder cliente recorrente custa caro. Veja como a IA ajuda a identificar sinais de cancelamento antes que aconteçam e agir a tempo de reter o cliente.",
+    category: "negocios",
+    date: "2026-09-19",
+    readTime: 7,
+    imageQuery: "customer retention subscription app",
+    seed: 47,
+    content: `
+      <p>Para negócios baseados em assinatura ou recorrência, cada cliente perdido custa muito mais do que parece — não é só a receita daquele mês, é todo o valor que ele geraria ao longo do tempo. A IA já ajuda a identificar sinais de cancelamento antes que ele aconteça de fato.</p>
+
+      <h2>Sinais que costumam preceder um cancelamento</h2>
+      <ul>
+        <li>Queda no uso do produto ou serviço nas últimas semanas.</li>
+        <li>Reclamações recentes sem solução satisfatória.</li>
+        <li>Redução no volume de compras ou interações, em negócios que não são de assinatura formal.</li>
+        <li>Silêncio prolongado depois de um período de engajamento alto.</li>
+      </ul>
+
+      <h2>Como a IA ajuda a identificar isso cedo</h2>
+      <ol>
+        <li>Analisar dados de uso ou compra para apontar quedas fora do padrão normal do cliente.</li>
+        <li>Cruzar histórico de atendimento para sinalizar clientes com reclamações não resolvidas.</li>
+        <li>Sugerir uma lista priorizada de quem está em maior risco, para focar o esforço de retenção onde importa.</li>
+      </ol>
+
+      <h2>O que fazer depois de identificar o risco</h2>
+      <ul>
+        <li><strong>Contato proativo:</strong> uma mensagem genuína perguntando como está sendo a experiência, antes que o cliente decida sozinho cancelar.</li>
+        <li><strong>Oferta específica:</strong> resolver a dor real identificada, não um desconto genérico que não trata o problema.</li>
+        <li><strong>Correção do que gerou a insatisfação:</strong> se o motivo for recorrente entre vários clientes, o problema provavelmente é estrutural, não individual.</li>
+      </ul>
+
+      <h2>Um cuidado importante</h2>
+      <p>Contato de retenção mal feito pode soar invasivo. A mensagem deve parecer genuína e útil, não uma tentativa óbvia de "salvar a venda" — isso faz diferença real na resposta do cliente.</p>
+
+      <h2>Por que vale investir nisso</h2>
+      <p>Reter um cliente existente costuma custar muito menos do que conquistar um novo. Um pequeno negócio que reduz cancelamento em poucos pontos percentuais já sente impacto real na receita ao longo do ano.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a>, essa é mais uma aplicação prática de transformar dados que você já tem em decisão de negócio, sem precisar de um sistema caro de gestão de clientes.</p>
+    `,
+  },
+  {
+    slug: "como-ganhar-dinheiro-criando-prompts-e-templates-de-ia",
+    title: "Como Ganhar Dinheiro Criando Prompts e Templates de IA para Vender",
+    excerpt:
+      "Um bom prompt bem estruturado economiza tempo de quem compra — e isso já virou um produto digital vendável. Veja como transformar esse conhecimento em renda.",
+    category: "monetizacao",
+    date: "2026-09-19",
+    readTime: 6,
+    imageQuery: "digital templates marketplace laptop",
+    seed: 48,
+    content: `
+      <p>Saber escrever um prompt eficiente já é uma habilidade valiosa — e para quem não tem tempo de aprender isso sozinho, comprar um prompt pronto e testado é uma solução prática. Isso criou um mercado real de venda de prompts e templates de IA.</p>
+
+      <h2>O que realmente vende nesse mercado</h2>
+      <ul>
+        <li><strong>Prompts para uma tarefa específica:</strong> roteiro de vídeo, resposta de atendimento, análise de contrato — quanto mais específico, maior o valor percebido.</li>
+        <li><strong>Templates estruturados:</strong> conjuntos de prompts organizados em sequência, para um processo completo (ex: criar um plano de conteúdo do zero).</li>
+        <li><strong>Prompts testados para um nicho:</strong> voltados a uma profissão ou setor específico, não genéricos.</li>
+      </ul>
+
+      <h2>Como criar um pacote que realmente funciona</h2>
+      <ol>
+        <li>Escolha um problema real e específico que você mesmo já resolveu com prompt bem construído.</li>
+        <li>Refine o prompt até ele funcionar de forma consistente, não só na primeira tentativa.</li>
+        <li>Documente instruções claras de como usar, incluindo o que ajustar conforme o caso.</li>
+        <li>Teste com outra pessoa antes de vender, para garantir que funciona fora da sua própria cabeça.</li>
+      </ol>
+
+      <h2>Onde vender</h2>
+      <ul>
+        <li>Marketplaces especializados em prompts e templates de IA.</li>
+        <li>Sua própria audiência, se você já produz conteúdo sobre o tema.</li>
+        <li>Como bônus dentro de um infoproduto maior, aumentando o valor percebido do pacote principal.</li>
+      </ul>
+
+      <h2>O que diferencia um pacote que vende de um genérico</h2>
+      <p>Qualquer pessoa consegue copiar um prompt de um post gratuito na internet. Quem vende de verdade entrega algo testado, com instruções claras e resultado consistente — a curadoria e o teste são o que justificam o preço.</p>
+
+      <h2>Continue construindo esse caminho</h2>
+      <p>Assim como em <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">como vender ebooks criados com IA</a>, esse é mais um formato de produto digital simples de criar e escalar, aproveitando um conhecimento que você já está desenvolvendo ao usar IA no dia a dia.</p>
+    `,
+  },
+  {
+    slug: "como-se-recolocar-no-mercado-depois-de-ser-substituido-por-automacao",
+    title: "Como Se Recolocar no Mercado Depois de Ser Substituído por Automação",
+    excerpt:
+      "Perder o emprego para automação é assustador, mas não é o fim do caminho. Veja passos práticos para se reposicionar rápido, sem começar do zero.",
+    category: "carreira",
+    date: "2026-09-19",
+    readTime: 7,
+    imageQuery: "job search resume career restart",
+    seed: 49,
+    content: `
+      <p>Perder uma função para automação ou IA é uma situação real e cada vez mais comum — e é normal que isso venha acompanhado de insegurança. Mas existe um caminho prático para se reposicionar, sem precisar recomeçar totalmente do zero.</p>
+
+      <h2>O primeiro passo: separar a função da habilidade</h2>
+      <p>Uma função específica pode ter sido automatizada, mas as habilidades por trás dela raramente desaparecem por completo. Alguém que organizava dados manualmente ainda entende de organização de processos — só a ferramenta mudou.</p>
+
+      <h2>Como mapear o que você ainda tem de valor</h2>
+      <ol>
+        <li>Liste as habilidades por trás da função perdida, não só o título do cargo.</li>
+        <li>Identifique quais dessas habilidades continuam relevantes, mesmo com a tarefa automatizada.</li>
+        <li>Busque funções onde essas habilidades se combinam com supervisão ou uso de IA, em vez de competir com ela.</li>
+      </ol>
+
+      <h2>Onde procurar oportunidades primeiro</h2>
+      <ul>
+        <li><strong>Dentro da própria empresa:</strong> muitas vezes existe uma função adjacente que se beneficia da sua experiência anterior.</li>
+        <li><strong>Empresas menores:</strong> costumam ter processos menos automatizados e valorizam versatilidade.</li>
+        <li><strong>Prestação de serviço autônomo:</strong> aplicar a mesma experiência de forma flexível, para múltiplos clientes.</li>
+      </ul>
+
+      <h2>Um passo que faz diferença real</h2>
+      <p>Aprender o básico de IA aplicada à sua própria área, mesmo que superficialmente, já muda como você se posiciona numa entrevista — de alguém que foi substituído para alguém que entende a ferramenta que substituiu a função anterior.</p>
+
+      <h2>Cuidado com um erro comum</h2>
+      <p>Evitar completamente a tecnologia que "tirou seu emprego" por ressentimento é compreensível, mas raramente ajuda na recolocação. Entender minimamente como ela funciona costuma abrir mais portas do que evitá-la.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/os-empregos-que-a-ia-vai-transformar-como-se-preparar">os empregos que a IA vai transformar</a>, mudança de função nem sempre é escolha — mas o que você faz depois dela ainda é. Focar no que se pode controlar é o primeiro passo prático da recolocação.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
