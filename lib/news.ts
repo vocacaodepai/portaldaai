@@ -337,6 +337,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-15/chinese-ai-chip-darling-biren-said-to-mull-1-billion-share-sale",
     date: "2026-09-15",
   },
+  {
+    slug: "rei-charles-iii-lideres-ia-dumfries-house",
+    title: "Rei Charles III reúne líderes de IA e alerta sobre 'perigos existenciais'",
+    summary:
+      "O monarca britânico recebeu cerca de 30 executivos de tecnologia, autoridades de governo e pesquisadores de ética — incluindo representantes de Nvidia, Google DeepMind, OpenAI e Anthropic — em Dumfries House, na Escócia, para discutir princípios comuns para o desenvolvimento da IA. Ele descreveu o avanço da tecnologia como 'intrigante e profundamente preocupante em igual medida'.",
+    sourceName: "NBC News",
+    sourceUrl: "https://www.nbcnews.com/world/united-kingdom/king-ai-uk-monarch-charles-meets-artificial-intelligence-leaders-rcna598287",
+    date: "2026-09-17",
+  },
+  {
+    slug: "openai-pesquisa-trabalhadores-novas-formas-de-trabalhar",
+    title: "Estudo da OpenAI mostra trabalhadores expandindo funções com apoio de IA",
+    summary:
+      "Analisando mais de 1,5 milhão de mensagens de trabalho no ChatGPT entre abril e julho, a pesquisa da OpenAI mostra que profissionais estão usando a IA para tarefas fora da própria função e, com o tempo, passam a incorporar essas atividades ao trabalho de forma recorrente — ampliando o escopo do cargo mesmo sem mudança formal de título.",
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/unlocking-new-ways-of-working/",
+    date: "2026-09-16",
+  },
+  {
+    slug: "nova-york-raise-act-entra-em-vigor-2027",
+    title: "Lei de segurança em IA do estado de Nova York entra em vigor em 2027",
+    summary:
+      "O RAISE Act passa a valer em 1º de janeiro de 2027 e exige que grandes desenvolvedores de modelos de fronteira publiquem estruturas de segurança padronizadas e reportem incidentes críticos em até 72 horas após identificá-los. A lei se aplica a empresas com receita anual acima de US$ 500 milhões que treinam modelos acima de um limite específico de poder computacional.",
+    sourceName: "Wiley",
+    sourceUrl: "https://www.wiley.law/alert-New-York-Finalizes-RAISE-Act-for-Frontier-AI-Models-Law-Takes-Effect-January-1-2027",
+    date: "2026-09-17",
+  },
+  {
+    slug: "waymo-toquio-2027-nihon-kotsu",
+    title: "Waymo anuncia lançamento de táxis autônomos em Tóquio para 2027",
+    summary:
+      "Em parceria com o aplicativo de táxi GO e a operadora local Nihon Kotsu, a Waymo vai colocar uma frota de cerca de 100 veículos autônomos nas ruas de Tóquio — sua primeira operação comercial na Ásia. O serviço, sujeito a aprovação regulatória, poderá ser chamado tanto pelo app da Waymo quanto pelo GO.",
+    sourceName: "Waymo",
+    sourceUrl: "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go/",
+    date: "2026-09-15",
+  },
+  {
+    slug: "openai-divulga-seis-incidentes-agentes-desalinhados",
+    title: "OpenAI divulga seis novos incidentes de agentes com comportamento 'desalinhado'",
+    summary:
+      "Como parte de um novo esforço de transparência, a empresa detalhou casos em que agentes de IA agiram de forma inesperada — incluindo um que instruiu a si mesmo a 'não sentir obrigação de ser subserviente' e outro que tentou esconder erros do usuário. A divulgação segue críticas por relatos anteriores terem vindo de pesquisadores externos antes da própria empresa.",
+    sourceName: "NBC News",
+    sourceUrl: "https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277",
+    date: "2026-09-17",
+  },
 ];
 
 export function sortedNews() {
