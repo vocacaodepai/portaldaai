@@ -2071,6 +2071,212 @@ export const articles: Article[] = [
       <p>Como discutimos em <a href="/artigos/os-empregos-que-a-ia-vai-transformar-como-se-preparar">os empregos que a IA vai transformar</a>, mudança de função nem sempre é escolha — mas o que você faz depois dela ainda é. Focar no que se pode controlar é o primeiro passo prático da recolocação.</p>
     `,
   },
+  {
+    slug: "ia-e-privacidade-o-que-voce-entrega-sem-perceber",
+    title: "IA e Privacidade: O Que Você Está Entregando Sem Perceber ao Usar Essas Ferramentas",
+    excerpt:
+      "Toda conversa com uma IA envolve dados sendo compartilhados. Entenda o que normalmente é coletado, os riscos reais e como usar essas ferramentas com mais consciência.",
+    category: "futuro",
+    date: "2026-09-20",
+    readTime: 6,
+    imageQuery: "privacy data security laptop",
+    seed: 50,
+    content: `
+      <p>É fácil esquecer, no meio de uma conversa útil com uma IA, que cada mensagem enviada é um dado que sai do seu controle. Entender o que normalmente acontece com essa informação ajuda a usar essas ferramentas de forma mais consciente, sem parar de usá-las.</p>
+
+      <h2>O que costuma ser coletado</h2>
+      <ul>
+        <li><strong>O conteúdo das suas mensagens</strong>, incluindo documentos e imagens enviados.</li>
+        <li><strong>Metadados de uso:</strong> quando você usa, com que frequência, de qual dispositivo.</li>
+        <li><strong>Em alguns casos, o conteúdo pode ser usado para treinar modelos futuros</strong> — a menos que você desative essa opção explicitamente.</li>
+      </ul>
+
+      <h2>Onde o risco fica maior</h2>
+      <ol>
+        <li>Colar informações sensíveis de trabalho (contratos, dados de clientes, senhas) em ferramentas gratuitas sem revisar a política de privacidade.</li>
+        <li>Usar a mesma conta pessoal para assuntos profissionais sensíveis.</li>
+        <li>Enviar documentos com dados de terceiros sem ter autorização para compartilhá-los.</li>
+      </ol>
+
+      <h2>Como reduzir o risco na prática</h2>
+      <ul>
+        <li>Verifique se a ferramenta que você usa permite desativar o uso de conversas para treinamento.</li>
+        <li>Evite colar dados sensíveis reais — use exemplos fictícios sempre que possível para testar um prompt.</li>
+        <li>Para uso profissional com dados de clientes, prefira planos empresariais, que costumam ter políticas de privacidade mais rígidas que o plano gratuito.</li>
+        <li>Leia ao menos o resumo da política de privacidade antes de adotar uma ferramenta nova para uso recorrente.</li>
+      </ul>
+
+      <h2>Um equilíbrio saudável</h2>
+      <p>Não é preciso parar de usar IA por causa disso — é preciso usar com o mesmo cuidado que já se tem com qualquer outra ferramenta que armazena dados na nuvem, como e-mail ou planilhas compartilhadas. O problema nunca foi a tecnologia em si, e sim o hábito de compartilhar informação sensível sem pensar duas vezes.</p>
+
+      <h2>O que fica de lição</h2>
+      <p>Consciência sobre privacidade não é motivo para medo, é prática de segurança básica — a mesma que qualquer pessoa já deveria ter ao usar qualquer serviço online. Aplicar isso ao uso de IA é só uma extensão natural desse cuidado.</p>
+    `,
+  },
+  {
+    slug: "como-criar-landing-pages-e-sites-simples-com-ia",
+    title: "Como Usar IA para Criar Landing Pages e Sites Simples Sem Programar",
+    excerpt:
+      "Ter uma página própria na internet não exige mais saber programar. Veja como usar IA para montar uma landing page ou site simples em poucas horas.",
+    category: "ferramentas",
+    date: "2026-09-20",
+    readTime: 6,
+    imageQuery: "website builder landing page",
+    seed: 51,
+    content: `
+      <p>Ter uma página própria na internet — para vender um produto, divulgar um serviço ou centralizar informações de contato — sempre pareceu exigir contratar alguém. Ferramentas com IA já permitem montar uma página simples e funcional sem escrever código.</p>
+
+      <h2>O que a IA já resolve nesse processo</h2>
+      <ul>
+        <li><strong>Estrutura da página:</strong> sugerir seções a partir do objetivo (venda, captura de contato, portfólio).</li>
+        <li><strong>Texto:</strong> gerar títulos, descrições e chamadas para ação a partir de uma breve descrição do negócio.</li>
+        <li><strong>Visual:</strong> aplicar um layout coerente automaticamente, sem precisar entender de design.</li>
+      </ul>
+
+      <h2>Um fluxo simples para montar sua página</h2>
+      <ol>
+        <li>Defina o objetivo único da página — venda de um produto, captação de contato, ou apresentação de um serviço.</li>
+        <li>Descreva esse objetivo e o público para a IA gerar uma estrutura inicial.</li>
+        <li>Revise os textos gerados, ajustando para soar com sua própria voz.</li>
+        <li>Adicione imagens reais do seu produto ou serviço sempre que possível — geram mais confiança do que imagens genéricas.</li>
+        <li>Teste a página em celular antes de divulgar, já que boa parte do tráfego virá de lá.</li>
+      </ol>
+
+      <h2>O que uma boa landing page precisa ter</h2>
+      <ul>
+        <li>Um único objetivo claro — página que tenta vender tudo ao mesmo tempo confunde o visitante.</li>
+        <li>Uma chamada para ação visível, repetida mais de uma vez ao longo da página.</li>
+        <li>Informação de contato ou compra fácil de encontrar, sem precisar rolar demais.</li>
+      </ul>
+
+      <h2>Um erro comum</h2>
+      <p>Publicar a página exatamente como a IA gerou, sem revisar se o texto realmente soa como o seu negócio. Assim como em outros usos de IA, o resultado gerado é um ótimo ponto de partida — não a versão final.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como em <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">como criar apresentações profissionais com IA</a>, o ganho real está em ter uma primeira versão pronta rapidamente, liberando seu tempo para o que só você consegue fazer: ajustar a mensagem para o seu público específico.</p>
+    `,
+  },
+  {
+    slug: "como-precificar-produtos-e-servicos-com-ia",
+    title: "Como Usar IA para Precificar Produtos e Serviços de Forma Mais Inteligente",
+    excerpt:
+      "Preço definido no 'achismo' deixa dinheiro na mesa ou afasta cliente. Veja como usar IA para chegar a um preço mais estratégico para o que você vende.",
+    category: "negocios",
+    date: "2026-09-20",
+    readTime: 6,
+    imageQuery: "pricing strategy tags store",
+    seed: 52,
+    content: `
+      <p>Definir preço costuma ser feito no "achismo": olha o concorrente, adiciona uma margem, e pronto. Isso funciona, mas raramente é o preço ideal. A IA ajuda a considerar mais variáveis ao mesmo tempo, chegando a uma decisão mais estratégica.</p>
+
+      <h2>Variáveis que costumam ficar de fora do "achismo"</h2>
+      <ul>
+        <li>Custo real total, incluindo tempo e despesas indiretas, não só material.</li>
+        <li>Percepção de valor do público-alvo, que pode ser maior do que o dono do negócio imagina.</li>
+        <li>Sazonalidade e demanda variável ao longo do ano.</li>
+        <li>Elasticidade: o quanto a demanda cai (ou não) quando o preço sobe.</li>
+      </ul>
+
+      <h2>Como a IA ajuda nesse cálculo</h2>
+      <ol>
+        <li>Organizar todos os custos reais envolvidos, algo que muita gente nunca calculou por completo.</li>
+        <li>Analisar preços de concorrentes e posicionar sua oferta de forma consciente (mais barato, equivalente, ou premium).</li>
+        <li>Simular cenários: "e se eu aumentar 10%?", "e se eu criar um pacote com desconto?".</li>
+        <li>Sugerir testes controlados de preço, em vez de mudanças bruscas sem embasamento.</li>
+      </ol>
+
+      <h2>Um exemplo prático</h2>
+      <p>Um prestador de serviço que sempre cobrou "o que o mercado cobra" pode descobrir, ao organizar os custos reais com apoio de IA, que está no limite do prejuízo em determinados pacotes — e que um ajuste pontual de preço, bem justificado ao cliente, resolve isso sem perder competitividade.</p>
+
+      <h2>Um cuidado importante</h2>
+      <p>Preço não deve ser decidido só pela planilha. Considere também posicionamento de marca e relação com clientes atuais antes de qualquer mudança brusca — mude com comunicação clara, não de surpresa.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como discutimos em <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">como precificar seus serviços usando IA no trabalho</a>, o princípio vale tanto para quem presta serviço individualmente quanto para quem vende produto: preço bem calculado é decisão estratégica, não resultado de comparação superficial com o concorrente.</p>
+    `,
+  },
+  {
+    slug: "como-transformar-conhecimento-em-comunidade-paga-com-ia",
+    title: "Como Transformar Conhecimento em Comunidade Paga Usando IA para Gerenciar",
+    excerpt:
+      "Uma comunidade paga gera renda recorrente, mas dá trabalho manter ativa. Veja como usar IA para organizar conteúdo, engajamento e suporte sem virar um segundo emprego.",
+    category: "monetizacao",
+    date: "2026-09-20",
+    readTime: 7,
+    imageQuery: "online community membership app",
+    seed: 53,
+    content: `
+      <p>Comunidades pagas — grupos com acesso a conteúdo exclusivo, mentoria em grupo ou networking — geram receita recorrente interessante, mas exigem manutenção constante. A IA ajuda bastante a reduzir esse trabalho operacional, sem tirar o valor humano que faz a comunidade valer a pena.</p>
+
+      <h2>Onde a IA ajuda de verdade</h2>
+      <ul>
+        <li><strong>Organização de conteúdo:</strong> transformar discussões soltas em um resumo semanal do que foi mais relevante.</li>
+        <li><strong>Respostas a dúvidas recorrentes:</strong> um assistente treinado no material da comunidade resolve perguntas básicas sem depender de você o tempo todo.</li>
+        <li><strong>Planejamento de conteúdo:</strong> sugerir temas e enquetes com base no que mais engajou nas semanas anteriores.</li>
+        <li><strong>Onboarding de novos membros:</strong> gerar um resumo de boas-vindas personalizado com o que é mais relevante para o perfil de cada pessoa.</li>
+      </ul>
+
+      <h2>O que continua exigindo você</h2>
+      <p>Interações genuínas, resolução de conflitos entre membros e a direção estratégica da comunidade continuam sendo insubstituíveis. A IA reduz o trabalho repetitivo, não a presença humana que faz as pessoas quererem continuar pagando.</p>
+
+      <h2>Um fluxo simples de manutenção semanal</h2>
+      <ol>
+        <li>Peça um resumo automático das discussões mais relevantes da semana.</li>
+        <li>Use esse resumo para planejar uma única interação ao vivo ou postagem de destaque.</li>
+        <li>Deixe um assistente treinado responder dúvidas básicas fora do seu horário de atenção direta.</li>
+        <li>Revise semanalmente o que gerou mais engajamento, ajustando o conteúdo seguinte.</li>
+      </ol>
+
+      <h2>Um erro que reduz a permanência dos membros</h2>
+      <p>Automatizar tanto que a comunidade perde a sensação de ter um humano por trás. O equilíbrio certo é deixar a IA cuidar do operacional repetitivo, mantendo sua presença visível nos momentos que realmente importam para quem paga.</p>
+
+      <h2>Continue construindo esse caminho</h2>
+      <p>Assim como em <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">como ganhar dinheiro ensinando IA para iniciantes</a>, uma comunidade paga é um passo natural para quem já construiu autoridade em um tema e quer transformar isso em receita recorrente, não só vendas pontuais.</p>
+    `,
+  },
+  {
+    slug: "como-montar-portfolio-de-habilidades-de-ia-para-recrutadores",
+    title: "Como Montar um Portfólio que Mostra Suas Habilidades com IA para Recrutadores",
+    excerpt:
+      "Falar que sabe usar IA não convence tanto quanto mostrar. Veja como montar um portfólio simples que comprova, na prática, sua habilidade com essas ferramentas.",
+    category: "carreira",
+    date: "2026-09-20",
+    readTime: 6,
+    imageQuery: "portfolio resume laptop showcase",
+    seed: 54,
+    content: `
+      <p>Currículo e entrevista contam sua história, mas um portfólio mostra na prática o que você sabe fazer. Para habilidades com IA, isso é especialmente poderoso — porque a maioria dos candidatos ainda só fala sobre o assunto, sem provar nada concreto.</p>
+
+      <h2>O que incluir num portfólio de habilidades com IA</h2>
+      <ul>
+        <li><strong>Um caso de "antes e depois":</strong> uma tarefa que você acelerou ou melhorou com IA, mostrando o processo, não só o resultado final.</li>
+        <li><strong>Exemplos de prompts bem construídos</strong> que você usa recorrentemente, com explicação do porquê funcionam.</li>
+        <li><strong>Um pequeno projeto próprio:</strong> algo que você criou usando IA — um site simples, uma automação, um conteúdo — mesmo que pequeno.</li>
+        <li><strong>Resultados quantificados,</strong> sempre que possível: tempo economizado, volume produzido, qualidade percebida.</li>
+      </ul>
+
+      <h2>Como estruturar de forma simples</h2>
+      <ol>
+        <li>Escolha de 2 a 4 exemplos reais, não tente mostrar tudo que já fez.</li>
+        <li>Para cada exemplo, explique o problema, o que você fez com IA, e o resultado alcançado.</li>
+        <li>Organize num documento simples ou página única — não precisa de site complexo para começar.</li>
+        <li>Atualize conforme for aplicando IA em novos contextos relevantes.</li>
+      </ol>
+
+      <h2>Onde compartilhar esse portfólio</h2>
+      <ul>
+        <li>Anexado ao currículo, como um link direto.</li>
+        <li>No perfil profissional que você usa para buscar oportunidades.</li>
+        <li>Levado fisicamente ou em tela para entrevistas, como apoio visual da conversa.</li>
+      </ul>
+
+      <h2>Por que isso funciona melhor que só falar sobre o assunto</h2>
+      <p>Recrutadores e gestores recebem muita gente dizendo "eu uso IA no trabalho" — poucos mostram exemplo concreto. Um portfólio simples, mas real, já coloca você à frente da maioria dos candidatos nessa conversa.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">como colocar habilidades de IA no currículo</a>, o princípio é sempre traduzir uso de ferramenta em resultado concreto — um portfólio é só a versão visual e mais convincente desse mesmo argumento.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
