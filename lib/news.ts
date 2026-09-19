@@ -382,6 +382,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277",
     date: "2026-09-17",
   },
+  {
+    slug: "houthis-usaram-claude-desenvolver-mísseis-guiados",
+    title: "Grupo do Iêmen tentou usar o Claude para desenvolver mísseis guiados",
+    summary:
+      "Segundo relatório da Anthropic, agentes ligados ao Iêmen usaram múltiplas instâncias do Claude — cada uma com uma função, como escrever código, pesquisar e revisar — para tentar desenvolver software de guiagem de um foguete e de mísseis balísticos. A empresa afirma não ter evidência de que os equipamentos chegaram a funcionar e já baniu as contas envolvidas.",
+    sourceName: "The Washington Post",
+    sourceUrl: "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
+    date: "2026-09-11",
+  },
+  {
+    slug: "cohere-ceo-chama-orgao-padroes-ia-de-cartel",
+    title: "CEO da Cohere chama proposta de órgão de padrões da IA de 'cartel'",
+    summary:
+      "Aidan Gomez criticou o plano de OpenAI, Anthropic e Google de criar uma entidade nos moldes da reguladora financeira americana FINRA para testar modelos antes do lançamento, questionando quem controlaria as regras e a quem elas serviriam. Para ele, três empresas dominantes financiando e certificando seus próprios modelos — e os dos concorrentes — é 'um cartel com outro nome'.",
+    sourceName: "The Globe and Mail",
+    sourceUrl: "https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/",
+    date: "2026-09-18",
+  },
+  {
+    slug: "claude-lidera-26-por-cento-pesquisa-proxima-versao",
+    title: "Anthropic diz que o Claude já lidera 26% da pesquisa que cria sua próxima versão",
+    summary:
+      "Em agosto, o Claude passou a conduzir sozinho, com supervisão humana, mais de um quarto do trabalho de pesquisa e desenvolvimento interno da Anthropic — ante menos de 1% em fevereiro. Mais de 90% desse trabalho já envolve o modelo como colaborador ou protagonista, embora a empresa diga não haver nenhuma área em que ele opere de forma totalmente autônoma.",
+    sourceName: "The Korea Times",
+    sourceUrl: "https://www.koreatimes.co.kr/world/20260918/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself",
+    date: "2026-09-18",
+  },
+  {
+    slug: "opentext-cohere-parceria-ia-agentica-setores-regulados",
+    title: "OpenText e Cohere firmam parceria para levar IA agêntica a setores regulados",
+    summary:
+      "A parceria combina a camada de dados e contexto empresarial da OpenText com a plataforma de IA agêntica North, da Cohere, voltada a governos e indústrias regulamentadas. A solução, que poderá ser hospedada localmente ou em nuvem privada, deve chegar a clientes corporativos no início de 2027.",
+    sourceName: "Cohere",
+    sourceUrl: "https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai",
+    date: "2026-09-16",
+  },
+  {
+    slug: "sony-warner-processam-anthropic-direitos-autorais",
+    title: "Sony Music e Warner Chappell processam a Anthropic por violação de direitos autorais",
+    summary:
+      "As editoras musicais acusam a Anthropic de baixar e usar dezenas de milhares de composições protegidas, via torrent e scraping em massa, para treinar o Claude — incluindo músicas famosas como 'Uptown Funk' e 'Hallelujah'. O processo também nomeia pessoalmente os fundadores Dario Amodei e Benjamin Mann, e busca indenização de até US$ 150 mil por obra infringida.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    date: "2026-08-29",
+  },
 ];
 
 export function sortedNews() {
