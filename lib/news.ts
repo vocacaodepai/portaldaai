@@ -427,6 +427,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
     date: "2026-08-29",
   },
+  {
+    slug: "openai-avalia-captacao-1-5-trilhao",
+    title: "OpenAI avalia nova rodada de captação com avaliação de US$ 1,5 trilhão",
+    summary:
+      "A empresa está em conversas iniciais com investidores para uma rodada que mais que dobraria sua última avaliação, de US$ 730 bilhões em março. O valor seria justificado pelo crescimento acelerado do Codex e dos modelos mais recentes — e, se confirmado, tornaria a OpenAI a empresa privada mais valiosa do mundo, ainda sem previsão de abrir capital antes de 2027.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation",
+    date: "2026-09-15",
+  },
+  {
+    slug: "google-lanca-home-mcp-acesso-antecipado",
+    title: "Google abre acesso antecipado ao Home MCP para agentes de IA controlarem a casa",
+    summary:
+      "A novidade permite que agentes como Claude, ChatGPT e outros compatíveis com o protocolo MCP monitorem câmeras, revisem histórico de eventos e controlem dispositivos Nest e compatíveis com Matter usando linguagem natural. Por enquanto, o acesso está restrito a assinantes do plano Google Home Premium Advanced nos Estados Unidos.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+    date: "2026-09-16",
+  },
+  {
+    slug: "tv-estatal-chinesa-critica-politica-privacidade-anthropic",
+    title: "Veículo ligado à TV estatal chinesa critica política de privacidade da Anthropic",
+    summary:
+      "A conta Yuyuantantian, associada à CCTV, publicou um texto afirmando que a Anthropic já revisou sua política de privacidade 13 vezes desde 2023 e que pode compartilhar dados de usuários com agências de inteligência dos EUA sem processo legal prévio, quando julgar necessário. A crítica cita ainda um relatório da própria Anthropic sobre tentativas chinesas de replicar o Claude.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
+    date: "2026-09-19",
+  },
+  {
+    slug: "arista-networks-entra-sp-100",
+    title: "Arista Networks entra no índice S&P 100 no lugar da Nike",
+    summary:
+      "A fabricante de equipamentos de rede usados em data centers de IA passa a integrar o índice a partir de 21 de setembro, num rebalanceamento trimestral que também inclui Dell, Palo Alto Networks e Sandisk. As ações da empresa acumulam alta de 45% no ano, impulsionadas pela demanda por infraestrutura de rede para IA.",
+    sourceName: "Parameter",
+    sourceUrl: "https://parameter.io/arista-networks-anet-stock-surges-37-ahead-of-sp-100-index-inclusion/",
+    date: "2026-09-18",
+  },
+  {
+    slug: "coreweave-backlog-104-bilhoes",
+    title: "CoreWeave encerra trimestre com backlog recorde de US$ 104 bilhões",
+    summary:
+      "A provedora de nuvem especializada em IA reportou receita contratada ainda não entregue de US$ 104,2 bilhões, alta de 246% em um ano, mas carrega US$ 35 bilhões em dívida para bancar GPUs e outros equipamentos. A despesa com juros já soma US$ 640 milhões no trimestre e deve continuar subindo com a expansão da infraestrutura.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+    date: "2026-08-11",
+  },
 ];
 
 export function sortedNews() {
