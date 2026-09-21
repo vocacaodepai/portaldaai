@@ -2477,6 +2477,212 @@ export const articles: Article[] = [
       <p>Como discutimos em <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">como precificar seus serviços usando IA no trabalho</a>, o mesmo princípio de cobrar por resultado, não por hora, é o que abre espaço real para transformar eficiência em qualidade de vida, não só em mais produção.</p>
     `,
   },
+  {
+    slug: "agentes-de-ia-comprando-por-voce-comercio",
+    title: "Agentes de IA Comprando por Você: O Que Muda no Comércio Quando a IA Faz a Compra",
+    excerpt:
+      "Pesquisar, comparar preços e finalizar a compra sozinha: agentes de IA já começam a fazer isso por conta própria. Entenda o que muda para quem vende e para quem compra.",
+    category: "futuro",
+    date: "2026-09-22",
+    readTime: 7,
+    imageQuery: "shopping cart agent checkout online",
+    seed: 60,
+    content: `
+      <p>Comprar online sempre exigiu uma pessoa pesquisando, comparando e decidindo. Agentes de IA já começam a assumir parte desse processo sozinhos — recebendo uma instrução geral ("compre o melhor custo-benefício de tal produto") e executando a compra sem supervisão constante.</p>
+
+      <h2>Como isso já está acontecendo</h2>
+      <ul>
+        <li>Agentes que pesquisam preços em várias lojas e compram automaticamente a melhor opção dentro de critérios definidos.</li>
+        <li>Assistentes que reabastecem itens recorrentes sozinhos, com base em padrão de consumo.</li>
+        <li>Sistemas que comparam especificações técnicas complexas antes de decidir, mais rápido do que uma pessoa conseguiria sozinha.</li>
+      </ul>
+
+      <h2>O que muda para quem vende</h2>
+      <ol>
+        <li>Descrição de produto precisa ser clara o suficiente para um agente "entender" e comparar, não só para humanos lerem.</li>
+        <li>Preço e condições competitivas importam ainda mais, já que a comparação fica mais rápida e abrangente.</li>
+        <li>Reputação e avaliações passam a ser dado que o próprio agente consulta antes de decidir, não só o cliente humano.</li>
+      </ol>
+
+      <h2>O que muda para quem compra</h2>
+      <p>Menos tempo gasto pesquisando manualmente, mas também menos controle direto sobre cada decisão pequena. Isso funciona bem para compras recorrentes e previsíveis — e exige mais atenção em compras que envolvem gosto pessoal ou nuance que a IA ainda não capta bem.</p>
+
+      <h2>Um cuidado necessário</h2>
+      <p>Definir limites claros de orçamento e critério antes de delegar uma compra a um agente, e revisar transações recorrentes periodicamente — a comodidade não deveria virar descontrole sobre os próprios gastos.</p>
+
+      <h2>Uma oportunidade dentro dessa mudança</h2>
+      <p>Pequenos negócios que adaptarem cedo suas páginas de produto para serem "legíveis" por agentes de IA — descrições claras, dados estruturados, preços transparentes — tendem a sair na frente quando esse tipo de compra se tornar mais comum.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA</a>, a tendência de sistemas que executam tarefas completas sozinhos, não só respondem perguntas, já chegou também ao comércio — e tende a crescer nos próximos anos.</p>
+    `,
+  },
+  {
+    slug: "ia-para-design-de-produto-prototipar-ideia-rapidamente",
+    title: "IA para Design de Produto: Como Prototipar uma Ideia Rapidamente",
+    excerpt:
+      "Antes de investir tempo e dinheiro numa ideia, um protótipo rápido ajuda a validar o conceito. Veja como a IA acelera essa etapa, para produtos físicos ou digitais.",
+    category: "ferramentas",
+    date: "2026-09-22",
+    readTime: 6,
+    imageQuery: "product prototype design sketch",
+    seed: 61,
+    content: `
+      <p>Antes de fabricar um produto físico ou desenvolver um app do zero, prototipar a ideia ajuda a identificar problemas cedo, quando ainda são baratos de corrigir. A IA já acelera bastante essa etapa inicial, tanto para produtos digitais quanto físicos.</p>
+
+      <h2>Para produtos digitais</h2>
+      <ul>
+        <li>Gerar telas e fluxos de uso a partir de uma descrição da funcionalidade desejada.</li>
+        <li>Criar versões interativas simples para testar com usuários reais antes de programar de verdade.</li>
+        <li>Simular diferentes jornadas de uso, identificando pontos de confusão antes de investir em desenvolvimento.</li>
+      </ul>
+
+      <h2>Para produtos físicos</h2>
+      <ul>
+        <li>Gerar visualizações realistas do produto a partir de uma descrição ou esboço simples.</li>
+        <li>Testar variações de design rapidamente, sem precisar de um render profissional para cada versão.</li>
+        <li>Criar material visual para validar a ideia com potenciais clientes antes de produzir um protótipo físico caro.</li>
+      </ul>
+
+      <h2>Um fluxo simples para prototipar com IA</h2>
+      <ol>
+        <li>Descreva o problema que o produto resolve e para quem.</li>
+        <li>Gere uma primeira versão visual — tela, objeto ou fluxo — a partir dessa descrição.</li>
+        <li>Mostre para algumas pessoas do público-alvo antes de refinar.</li>
+        <li>Ajuste com base no feedback, gerando novas versões rapidamente.</li>
+      </ol>
+
+      <h2>O que um protótipo de IA não substitui</h2>
+      <p>Testes reais de uso, principalmente em produtos físicos que envolvem ergonomia, material e segurança, continuam exigindo protótipo físico em algum momento. A IA acelera a fase de exploração de ideias, não elimina a validação final no mundo real.</p>
+
+      <h2>Por que isso economiza dinheiro</h2>
+      <p>Descobrir um problema de design na fase de protótipo digital custa muito menos do que descobrir depois de produzir em escala. Prototipagem rápida com IA reduz o risco de investir tempo e dinheiro numa direção que não funciona.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como em <a href="/artigos/como-criar-landing-pages-e-sites-simples-com-ia">como criar landing pages simples com IA</a>, o princípio é sempre o mesmo: ter uma primeira versão rápida para testar e aprender, antes de investir pesado numa direção definitiva.</p>
+    `,
+  },
+  {
+    slug: "como-fazer-previsao-de-vendas-planejamento-financeiro-com-ia",
+    title: "Como Usar IA para Fazer Previsão de Vendas e Planejamento Financeiro Simples",
+    excerpt:
+      "Prever quanto vai vender no próximo mês não precisa ser chute. Veja como usar IA para organizar dados do seu negócio e planejar com mais segurança.",
+    category: "negocios",
+    date: "2026-09-22",
+    readTime: 7,
+    imageQuery: "sales forecast chart finance",
+    seed: 62,
+    content: `
+      <p>Planejar o próximo mês de um negócio, sem saber ao certo quanto vai entrar, é um dos maiores geradores de ansiedade para quem empreende. A IA ajuda a transformar dados de vendas passadas em previsões mais confiáveis, reduzindo boa parte desse "chute no escuro".</p>
+
+      <h2>O que a IA analisa para prever vendas</h2>
+      <ul>
+        <li>Histórico de vendas por período, identificando padrões sazonais.</li>
+        <li>Tendência de crescimento ou queda recente, não só a média histórica.</li>
+        <li>Eventos específicos que costumam afetar as vendas (datas comemorativas, promoções, mudanças de preço).</li>
+      </ul>
+
+      <h2>Um fluxo simples para começar</h2>
+      <ol>
+        <li>Organize os dados de vendas dos últimos meses, mesmo que estejam bagunçados numa planilha.</li>
+        <li>Peça à IA uma análise de padrões e uma projeção para o próximo período.</li>
+        <li>Compare a previsão com o resultado real ao longo do tempo, ajustando o modelo conforme necessário.</li>
+        <li>Use essa previsão para planejar compras, contratações ou investimentos com mais segurança.</li>
+      </ol>
+
+      <h2>Como isso ajuda no planejamento financeiro</h2>
+      <p>Saber uma estimativa razoável de receita futura permite planejar despesas com mais tranquilidade — decidir se vale contratar, investir em estoque ou seguir mais conservador num mês historicamente mais fraco.</p>
+
+      <h2>Um cuidado importante</h2>
+      <p>Previsão de IA é uma estimativa baseada em padrões passados, não uma garantia. Mudanças bruscas no mercado, na concorrência ou na economia não são sempre capturadas pelo histórico — sempre trate a previsão como referência, não certeza absoluta.</p>
+
+      <h2>Um exemplo prático</h2>
+      <p>Um pequeno comércio que historicamente vende mais no fim do mês, mas sempre se surpreende com o caixa apertado no início, pode usar essa análise para planejar melhor o fluxo de pagamentos — sabendo com antecedência quando o dinheiro tende a entrar.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como discutimos em <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">como usar IA para gerenciar estoque</a>, previsão de vendas e controle de estoque andam juntos — prever quanto vai vender ajuda a decidir exatamente quanto comprar, sem sobra nem falta.</p>
+    `,
+  },
+  {
+    slug: "como-vender-servicos-de-edicao-de-fotos-e-retoque-com-ia",
+    title: "Como Vender Serviços de Edição de Fotos e Retoque com IA",
+    excerpt:
+      "Editar e retocar fotos ficou muito mais rápido com IA — e isso criou espaço para quem tem bom olho visual oferecer esse serviço de forma profissional e ágil.",
+    category: "monetizacao",
+    date: "2026-09-22",
+    readTime: 6,
+    imageQuery: "photo editing retouch screen",
+    seed: 63,
+    content: `
+      <p>Edição e retoque de fotos sempre exigiram tempo e domínio técnico de softwares complexos. Com IA, boa parte do trabalho pesado — remoção de fundo, correção de luz, retoque de pele — já é resolvida em segundos, abrindo espaço para quem tem bom olho visual prestar esse serviço com muito mais agilidade.</p>
+
+      <h2>Onde a demanda é mais forte</h2>
+      <ul>
+        <li><strong>Fotos de produto</strong> para lojas online, que precisam de fundo limpo e iluminação consistente.</li>
+        <li><strong>Fotos de perfil profissional</strong>, com retoque discreto e natural.</li>
+        <li><strong>Fotos de imóveis</strong>, com ajustes de luz e perspectiva para anúncios.</li>
+        <li><strong>Álbuns de eventos</strong> (casamento, formatura), que exigem volume grande de edição rápida.</li>
+      </ul>
+
+      <h2>Como a IA acelera o processo</h2>
+      <ol>
+        <li>Remoção e substituição de fundo automática, sem recorte manual demorado.</li>
+        <li>Correção de luz e cor com um clique, como ponto de partida para ajuste fino.</li>
+        <li>Retoque de pele e imperfeições de forma natural, sem exagero artificial.</li>
+        <li>Upscale de imagens de baixa qualidade, melhorando resolução quando necessário.</li>
+      </ol>
+
+      <h2>O que ainda depende do seu olho profissional</h2>
+      <p>A IA acelera o processo técnico, mas escolher o enquadramento certo, decidir o quanto retocar sem ficar artificial, e manter consistência visual num álbum inteiro continuam exigindo critério humano — é isso que diferencia um serviço profissional de um filtro automático genérico.</p>
+
+      <h2>Como precificar</h2>
+      <p>Cobre por pacote de fotos entregues, não por hora — o ganho de velocidade com IA deveria aumentar sua margem, não reduzir seu preço, como já discutimos em outro artigo sobre precificação de serviços na era da IA.</p>
+
+      <h2>Onde encontrar clientes</h2>
+      <ul>
+        <li>Pequenos negócios que vendem produtos online e precisam de fotos padronizadas.</li>
+        <li>Fotógrafos que querem terceirizar a etapa de edição para focar só na captura.</li>
+        <li>Corretores de imóveis e profissionais que precisam de fotos de perfil constantes.</li>
+      </ul>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Assim como em <a href="/artigos/como-vender-artes-e-fotos-criadas-com-ia-generativa">como vender artes criadas com IA generativa</a>, o diferencial está sempre na curadoria e no acabamento final — a ferramenta acelera, mas o resultado profissional depende de quem sabe usá-la bem.</p>
+    `,
+  },
+  {
+    slug: "como-lidar-pressao-de-ter-que-saber-tudo-de-ia-no-trabalho",
+    title: "Como Lidar com a Pressão de 'Ter que Saber Tudo de IA' no Trabalho",
+    excerpt:
+      "A sensação de estar sempre atrasado em relação à IA é comum e cansativa. Veja como lidar com essa pressão sem travar nem tentar acompanhar tudo ao mesmo tempo.",
+    category: "carreira",
+    date: "2026-09-22",
+    readTime: 6,
+    imageQuery: "overwhelmed stressed work desk",
+    seed: 64,
+    content: `
+      <p>Com uma ferramenta nova de IA surgindo praticamente toda semana, é comum sentir que nunca está atualizado o suficiente. Essa pressão constante, embora compreensível, raramente é produtiva — e existe um jeito mais saudável de lidar com ela.</p>
+
+      <h2>Por que essa sensação é tão comum</h2>
+      <p>O volume de notícias e lançamentos sobre IA é literalmente impossível de acompanhar por completo — nem mesmo quem trabalha diretamente na área consegue testar tudo que sai. Cobrar de si mesmo esse acompanhamento total é uma meta que ninguém realmente alcança.</p>
+
+      <h2>Uma mudança de perspectiva que ajuda</h2>
+      <p>Em vez de tentar "saber tudo sobre IA", o objetivo mais realista é: saber usar bem as uma ou duas ferramentas que realmente importam para o seu trabalho específico. Profundidade em pouco vale mais do que superficialidade em tudo.</p>
+
+      <h2>Como reduzir essa pressão na prática</h2>
+      <ol>
+        <li>Escolha uma ou duas fontes de informação sobre IA, em vez de tentar acompanhar tudo que aparece.</li>
+        <li>Reserve um tempo fixo e limitado por semana para explorar novidades, não o dia inteiro.</li>
+        <li>Avalie uma ferramenta nova só quando ela resolve um problema real que você já tem — não porque "todo mundo está falando dela".</li>
+        <li>Aceite que vai ficar de fora de algumas novidades, e que isso é normal, não uma falha pessoal.</li>
+      </ol>
+
+      <h2>Um lembrete importante</h2>
+      <p>Quem realmente se destaca no uso de IA no trabalho não é quem testou mais ferramentas, é quem aplicou bem as poucas que escolheu, com constância. Essa é uma meta muito mais alcançável do que tentar dominar tudo que existe.</p>
+
+      <h2>Isso conecta com o que já vimos</h2>
+      <p>Como já mostramos em <a href="/artigos/5-erros-comuns-de-quem-esta-comecando-a-usar-ia">5 erros comuns de quem está começando</a>, constância em poucas ferramentas vale mais do que tentar abraçar tudo de uma vez — vale tanto para quem está começando quanto para quem já usa IA há tempo e ainda sente essa pressão.</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
