@@ -472,6 +472,51 @@ export const news: NewsItem[] = [
     sourceUrl: "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
     date: "2026-08-11",
   },
+  {
+    slug: "engenheiro-cognition-fatora-rsa-260-com-devin",
+    title: "Engenheiro da Cognition fatora o RSA-260, recorde histórico de 35 anos, com ajuda do Devin",
+    summary:
+      "Eric Lu, engenheiro da Cognition, fatorou o número RSA-260, um desafio criptográfico de 260 dígitos que resistia desde 1991, usando uma nova implementação do algoritmo GNFS rodando em GPUs, preparada e operada com o agente de codificação Devin. O feito bate o recorde anterior (RSA-250, de 2020), mas a empresa reforça que não representa risco para a criptografia RSA-2048 usada hoje.",
+    sourceName: "Cognition",
+    sourceUrl: "https://cognition.com/blog/factoring-rsa-260",
+    date: "2026-09-03",
+  },
+  {
+    slug: "legora-capta-550-milhoes-expansao-eua",
+    title: "Legora capta US$ 550 milhões e é avaliada em US$ 5,55 bilhões para expandir IA jurídica nos EUA",
+    summary:
+      "A startup sueca, cuja plataforma de IA para advogados é construída principalmente sobre modelos da Anthropic, triplicou sua avaliação em relação à rodada anterior, de outubro de 2025. A rodada Série D foi liderada pela Accel e a empresa já soma mais de 800 clientes em 50 mercados, com planos de ultrapassar 300 funcionários nos escritórios americanos até o fim de 2026.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-03-10/legal-ai-startup-legora-raises-550-million-for-us-expansion",
+    date: "2026-03-10",
+  },
+  {
+    slug: "etched-capta-700-milhoes-valuation-21-bilhoes",
+    title: "Etched capta US$ 700 milhões e dobra avaliação para US$ 21 bilhões em um mês",
+    summary:
+      "A fabricante de chips especializados em inferência de IA teve a rodada liderada pela gestora Jane Street, que também se tornou sua primeira cliente pagante. A empresa já acumula mais de US$ 1 bilhão em contratos com provedores de nuvem e empresas de IA, e levantou US$ 1,9 bilhão no total desde a fundação, com apoio de Sequoia, Andreessen Horowitz e Peter Thiel, entre outros.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+    date: "2026-08-18",
+  },
+  {
+    slug: "quatro-modelos-topo-lancados-mesma-semana-fadiga",
+    title: "Quatro modelos de IA de ponta são lançados na mesma semana, e imprensa fala em 'fadiga de modelos'",
+    summary:
+      "Entre 1º e 4 de setembro, Anthropic, Google, Meta e OpenAI lançaram praticamente ao mesmo tempo suas versões mais recentes — Claude Fable 5.1, Gemini 3.8 Flash, Muse Spark 1.3 e GPT-6 Astra —, com a Alibaba atualizando o Qwen3.8-Max na sequência. A avalanche de lançamentos simultâneos levou parte da imprensa internacional a cunhar o termo 'model fatigue' para descrever a dificuldade do público em acompanhar tantas novidades ao mesmo tempo.",
+    sourceName: "AI Weekly",
+    sourceUrl: "https://aiweekly.co/ai-news-today",
+    date: "2026-09-04",
+  },
+  {
+    slug: "microsoft-ia-generativa-atinge-17-8-por-cento-populacao-ativa",
+    title: "Uso de IA generativa chega a 17,8% da população mundial em idade ativa, segundo Microsoft",
+    summary:
+      "O AI Diffusion Report da Microsoft, referente ao primeiro trimestre de 2026, mostra um salto expressivo na adoção global de ferramentas de IA generativa no período, acompanhando a corrida de investimento em infraestrutura de nuvem, estimada em cerca de US$ 700 bilhões só neste ano pelos grandes provedores globais.",
+    sourceName: "Alura",
+    sourceUrl: "https://www.alura.com.br/artigos/mercado-de-ia",
+    date: "2026-09-10",
+  },
 ];
 
 export function sortedNews() {
