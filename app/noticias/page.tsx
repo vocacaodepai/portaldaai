@@ -35,6 +35,8 @@ export default function NoticiasPage() {
               <div className="flex items-center gap-2 text-xs text-muted">
                 <span>{formatDate(item.date)}</span>
                 <span aria-hidden>·</span>
+                <span>Por {item.author}</span>
+                <span aria-hidden>·</span>
                 <span>{item.sourceName}</span>
               </div>
               <h2 className="mt-2 font-display text-lg font-semibold sm:text-xl">
@@ -60,7 +62,7 @@ export default function NoticiasPage() {
       </div>
 
       <p className="mt-10 text-xs text-muted">
-        {`Os resumos acima são escritos pela nossa equipe editorial a partir de reportagens públicas; sempre confira a fonte original para o texto completo. Não somos afiliados a nenhuma das empresas citadas.`}
+        {`Os resumos acima são escritos por Bruno Danello a partir de reportagens públicas; sempre confira a fonte original para o texto completo. Não somos afiliados a nenhuma das empresas citadas.`}
       </p>
     </Container>
   );
