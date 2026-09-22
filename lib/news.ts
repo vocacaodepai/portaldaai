@@ -879,6 +879,58 @@ export const news: NewsItem[] = [
       <p>Independentemente de quantos desses resultados resistirem à checagem independente, o episódio ilustra até onde já se estica o debate sobre a velocidade dos anúncios de capacidades de IA: entre treinar um modelo e alegar avanços que levariam anos de trabalho humano, o intervalo agora se mede em semanas — o que torna ainda mais importante a existência de mecanismos de verificação independente, como o grupo que a própria OpenAI acabou de criar.</p>
     `,
   },
+  {
+    slug: "anthropic-lanca-claude-opus-5-5-mais-barato-rapido",
+    title: "Anthropic lança Claude Opus 5.5: 20% mais barato e 30% mais rápido que o Opus 5",
+    author: "Bruno Danello",
+    summary:
+      "O novo modelo de topo da Anthropic custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — 20% abaixo do Opus 5 — e gera respostas mais de 30% mais rápido, mantendo desempenho próximo ao do modelo principal Fable 5.1 em boa parte das tarefas.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/claude-opus-5-5",
+    date: "2026-09-22",
+    content: `
+      <p>A Anthropic anunciou em 22 de setembro o Claude Opus 5.5, atualização do seu modelo de topo focada em corte de custo e ganho de velocidade em vez de um salto isolado de capacidade. O novo modelo custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — 20% abaixo dos US$ 5 e US$ 25 cobrados pelo Opus 5, lançado em julho — e as leituras de cache caem 60%, de US$ 0,50 para US$ 0,20 por milhão de tokens.</p>
+
+      <p>Além do preço, a empresa afirma que o Opus 5.5 gera respostas mais de 30% mais rápido que seu antecessor e mantém desempenho próximo ao do Fable 5.1, o modelo principal da Anthropic, na maior parte das tarefas — apesar de custar cerca de 40% menos para rodar.</p>
+
+      <h2>Para quem já usa Claude no trabalho</h2>
+      <p>A Anthropic destaca ganhos em codificação, agentes autônomos e tarefas de conhecimento: um dos testadores iniciais completou uma migração de código de 680 mil linhas em menos de um dia, trabalho que levaria semanas para um time de engenharia. O modelo também alcançou os melhores resultados já registrados na auditoria comportamental automatizada da empresa, sua bateria de testes de alinhamento com milhares de cenários simulados.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Onde já está disponível</span>
+        <p>O Opus 5.5 já está no ar para assinantes Pro, Max, Team e Enterprise do Claude, e para desenvolvedores na Claude Platform, além de AWS, Google Cloud e Microsoft Foundry.</p>
+      </div>
+
+      <h2>Parte de uma guerra de preços mais ampla</h2>
+      <p>O lançamento aconteceu minutos antes de a OpenAI anunciar seus próprios modelos GPT-6 Sol e GPT-6 Luna com cortes de preço ainda mais agressivos — reforçando um padrão que já discutimos em nosso <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">comparativo entre ChatGPT, Claude e Gemini</a>: a diferença de preço entre os grandes modelos está encolhendo rápido, o que muda a conta de quem decide entre <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">usar IA gratuita ou paga</a> no dia a dia.</p>
+    `,
+  },
+  {
+    slug: "openai-lanca-gpt-6-sol-luna-corta-precos-pela-metade",
+    title: "OpenAI lança GPT-6 Sol e GPT-6 Luna e corta preços pela metade, minutos após novo Claude Opus 5.5",
+    author: "Bruno Danello",
+    summary:
+      "A OpenAI reduziu os preços de API em cerca de 50% com os novos modelos GPT-6 Sol e GPT-6 Luna, lançados quase ao mesmo tempo que o Claude Opus 5.5 da Anthropic — um sinal claro de que a guerra de preços entre os grandes laboratórios de IA está longe de esfriar.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    date: "2026-09-22",
+    content: `
+      <p>A OpenAI lançou em 22 de setembro dois novos modelos, GPT-6 Sol e GPT-6 Luna, com preços de API cerca de 50% mais baratos que os das versões anteriores. O GPT-6 Sol passa a custar US$ 2 por milhão de tokens de entrada e US$ 10 de saída, ante US$ 4 e US$ 20 do GPT-5.6 Sol; já o GPT-6 Luna cai para US$ 0,10 e US$ 0,50, contra US$ 0,20 e US$ 1,20 do modelo anterior.</p>
+
+      <p>O momento do anúncio chamou atenção: os novos modelos foram lançados poucos minutos depois de a Anthropic anunciar o Claude Opus 5.5, também com corte de preço. Segundo a OpenAI, o Sol usou técnicas de treinamento parecidas com as do GPT-6 Astra, com ganhos relatados em raciocínio, confiabilidade factual, programação, uso de computador e alinhamento.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Dois modelos, dois usos diferentes</span>
+        <p>O Sol é voltado para tarefas complexas como programação e agentes; o Luna, mais barato, mira trabalho de alto volume e objetivo claro — resumir documentos, extrair informação ou responder perguntas rápidas.</p>
+      </div>
+
+      <h2>Uma guerra de preços que já dura meses</h2>
+      <p>Segundo analistas do mercado, as duas empresas disputam em duas frentes: lançando modelos mais baratos e cortando o preço dos modelos mais caros já existentes. Com o corte, o GPT-6 Sol fica cerca de 50% mais barato que o Claude Opus 5.5 em preço de entrada e saída, e o Luna passa a custar menos até que a versão econômica do DeepSeek V4.1 Flash — pressionando a vantagem de custo que sustentava a escolha por modelos de peso aberto.</p>
+
+      <h2>Por que isso importa para quem usa IA no trabalho</h2>
+      <p>Para quem monta ferramentas ou automações em cima de modelos de IA, como já detalhamos no <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de termos essenciais de IA</a>, esse tipo de corte de preço muda diretamente a conta de qual modelo vale mais a pena para cada tarefa — e reforça que apostar em um único fornecedor fixo, sem acompanhar o mercado, pode custar caro a médio prazo, como já discutimos em nosso texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">ser especialista de nicho ou generalista em IA</a>.</p>
+    `,
+  },
 ];
 
 export function sortedNews() {
