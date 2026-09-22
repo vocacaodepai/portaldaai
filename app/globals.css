@@ -94,6 +94,105 @@ body {
   opacity: 0.75;
 }
 
+.prose-article .callout-box {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.prose-article .callout-box p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-article .callout-box .callout-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.prose-article .callout-ok {
+  background: color-mix(in srgb, #22c55e 10%, var(--surface));
+  border-color: color-mix(in srgb, #22c55e 35%, var(--border));
+}
+.prose-article .callout-ok .callout-label {
+  color: #16a34a;
+}
+
+.prose-article .callout-warn {
+  background: color-mix(in srgb, #f59e0b 12%, var(--surface));
+  border-color: color-mix(in srgb, #f59e0b 35%, var(--border));
+}
+.prose-article .callout-warn .callout-label {
+  color: #b45309;
+}
+
+.prose-article .callout-bad {
+  background: color-mix(in srgb, #ef4444 10%, var(--surface));
+  border-color: color-mix(in srgb, #ef4444 35%, var(--border));
+}
+.prose-article .callout-bad .callout-label {
+  color: #dc2626;
+}
+
+.prose-article .callout-tip {
+  background: color-mix(in srgb, var(--accent) 10%, var(--surface));
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+.prose-article .callout-tip .callout-label {
+  color: var(--accent);
+}
+
+.prose-article table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.prose-article th,
+.prose-article td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.85rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-article th {
+  background: var(--surface);
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.prose-article td {
+  color: var(--muted);
+}
+
+.prose-article .checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose-article .checklist li {
+  position: relative;
+  padding-left: 1.75rem;
+  color: var(--muted);
+}
+
+.prose-article .checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 ::selection {
   background: var(--accent);
   color: white;

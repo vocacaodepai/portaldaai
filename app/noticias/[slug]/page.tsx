@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/Container";
 import { AdSlot } from "@/components/AdSlot";
+import { FaqAccordion } from "@/components/FaqAccordion";
+import { QuizWidget } from "@/components/QuizWidget";
 import { news, getNewsBySlug, sortedNews } from "@/lib/news";
 import { site } from "@/lib/articles";
 
@@ -70,12 +72,31 @@ export default async function NewsPage({
     mainEntityOfPage: `${site.url}/noticias/${item.slug}`,
   };
 
+  const faqJsonLd =
+    item.faq && item.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: item.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : null;
+
   return (
     <article>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <Container className="pt-10">
         <nav className="mb-6 text-xs text-muted">
@@ -120,6 +141,9 @@ export default async function NewsPage({
               {item.sourceName}
             </a>
           </div>
+
+          {item.faq && <FaqAccordion items={item.faq} />}
+          {item.quiz && <QuizWidget questions={item.quiz} />}
         </div>
 
         <aside className="space-y-6 lg:sticky lg:top-24 lg:h-fit">

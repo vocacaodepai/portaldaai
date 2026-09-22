@@ -5,6 +5,8 @@ import { Container } from "@/components/Container";
 import { CoverImage } from "@/components/CoverImage";
 import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
+import { FaqAccordion } from "@/components/FaqAccordion";
+import { QuizWidget } from "@/components/QuizWidget";
 import {
   articles,
   categories,
@@ -66,16 +68,31 @@ export default async function ArticlePage({
     categories.find((c) => c.slug === article.category)?.label ?? article.category;
   const related = getRelatedArticles(article);
 
+  const authorName = article.author ?? "Bruno Danello";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.excerpt,
     datePublished: article.date,
-    author: { "@type": "Organization", name: site.name },
+    author: { "@type": "Person", name: authorName },
     publisher: { "@type": "Organization", name: site.name },
     mainEntityOfPage: `${site.url}/artigos/${article.slug}`,
   };
+
+  const faqJsonLd =
+    article.faq && article.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : null;
 
   return (
     <article>
@@ -83,6 +100,12 @@ export default async function ArticlePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <Container className="pt-10">
         <nav className="mb-6 text-xs text-muted">
@@ -98,8 +121,8 @@ export default async function ArticlePage({
         <h1 className="max-w-3xl font-display text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
           {article.title}
         </h1>
-        <div className="mt-4 flex items-center gap-3 text-sm text-muted">
-          <span>{site.name}</span>
+        <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
+          <span>Por {authorName}</span>
           <span aria-hidden>·</span>
           <span>{formatDate(article.date)}</span>
           <span aria-hidden>·</span>
@@ -118,10 +141,14 @@ export default async function ArticlePage({
       </Container>
 
       <Container className="grid grid-cols-1 gap-10 py-10 lg:grid-cols-[1fr_280px]">
-        <div
-          className="prose-article max-w-none"
-          dangerouslySetInnerHTML={{ __html: article.content }}
-        />
+        <div>
+          <div
+            className="prose-article max-w-none"
+            dangerouslySetInnerHTML={{ __html: article.content }}
+          />
+          {article.faq && <FaqAccordion items={article.faq} />}
+          {article.quiz && <QuizWidget questions={article.quiz} />}
+        </div>
 
         <aside className="space-y-6 lg:sticky lg:top-24 lg:h-fit">
           <AdSlot label="Publicidade" />

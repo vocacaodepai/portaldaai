@@ -1,3 +1,11 @@
+export type NewsFaqItem = { question: string; answer: string };
+export type NewsQuizQuestion = {
+  question: string;
+  options: string[];
+  answer: number; // índice da opção correta
+  explanation: string;
+};
+
 export type NewsItem = {
   slug: string;
   title: string;
@@ -12,6 +20,10 @@ export type NewsItem = {
    * publicadas antes dessa página existir — todo item novo deve ter content.
    */
   content?: string;
+  /** Perguntas frequentes exibidas em acordeão ao fim da matéria. */
+  faq?: NewsFaqItem[];
+  /** Quiz curto pra fixar o aprendizado, exibido ao fim da matéria. */
+  quiz?: NewsQuizQuestion[];
 };
 
 // Notícias curtas sobre o mercado de IA, com resumo próprio e link para a
