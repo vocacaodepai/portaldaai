@@ -6,6 +6,12 @@ export type NewsItem = {
   sourceName: string;
   sourceUrl: string;
   date: string; // ISO
+  /**
+   * Texto completo da notícia (HTML), escrito por Bruno Danello a partir da
+   * fonte, exibido em /noticias/[slug]. Opcional só pelas notícias antigas
+   * publicadas antes dessa página existir — todo item novo deve ter content.
+   */
+  content?: string;
 };
 
 // Notícias curtas sobre o mercado de IA, com resumo próprio e link para a
@@ -532,6 +538,15 @@ export const news: NewsItem[] = [
     sourceName: "Cognition",
     sourceUrl: "https://cognition.com/blog/factoring-rsa-260",
     date: "2026-09-03",
+    content: `
+      <p>Um desafio matemático lançado em 1991 e considerado praticamente intratável para computação convencional acaba de cair. Eric Lu, engenheiro da Cognition — empresa por trás do agente de codificação Devin —, conseguiu fatorar o RSA-260, um número de 260 dígitos (862 bits) que fazia parte do RSA Factoring Challenge, criado justamente para testar os limites da criptografia baseada em fatoração de números primos grandes.</p>
+
+      <p>O feito não veio de um avanço teórico isolado, mas de engenharia aplicada em escala: a equipe da Cognition construiu uma nova implementação do algoritmo GNFS (peneira geral do corpo de números) rodando em GPUs, e usou o próprio Devin para preparar, ajustar e operar essa infraestrutura. O resultado, segundo a empresa, é o siever em GPU de maior desempenho já construído para esse tipo de problema — permitindo fatorar números desse tamanho a um custo cerca de dez vezes menor do que o melhor método público anterior.</p>
+
+      <p>O recorde anterior, o RSA-250, havia sido estabelecido em fevereiro de 2020 e ficou de pé por mais de seis anos. O RSA-260 resistiu por 35 anos até agora.</p>
+
+      <p>Apesar do simbolismo, a Cognition faz questão de deixar claro que o feito não representa risco imediato para a segurança digital do dia a dia: a criptografia RSA-2048, usada hoje em conexões seguras, bancos e certificados digitais, continua sendo bilhões de vezes mais difícil de quebrar do que os números já fatorados. Ainda assim, o episódio reacende uma discussão de fundo na área de segurança: à medida que ferramentas de IA aceleram tarefas de engenharia e computação em larga escala, o intervalo de tempo até que certos padrões criptográficos precisem ser substituídos por alternativas mais robustas pode começar a encolher.</p>
+    `,
   },
   {
     slug: "legora-capta-550-milhoes-expansao-eua",
@@ -542,6 +557,15 @@ export const news: NewsItem[] = [
     sourceName: "Bloomberg",
     sourceUrl: "https://www.bloomberg.com/news/articles/2026-03-10/legal-ai-startup-legora-raises-550-million-for-us-expansion",
     date: "2026-03-10",
+    content: `
+      <p>A Legora, startup sueca de inteligência artificial voltada para advogados, acaba de captar US$ 550 milhões numa rodada Série D que avalia a empresa em US$ 5,55 bilhões — o triplo do valor alcançado na rodada anterior, de outubro de 2025, quando havia levantado US$ 150 milhões numa Série C.</p>
+
+      <p>A rodada foi liderada pela Accel e contou com a participação de fundos já presentes na empresa, como Benchmark, Bessemer Venture Partners, General Catalyst, ICONIQ, Redpoint Ventures e Y Combinator, além de novos investidores como Alkeon Capital, Bain Capital, FirstMark Capital, Menlo Ventures, Salesforce Ventures, Sands Capital e Starwood Capital — uma lista que mistura fundos de venture capital tradicionais com gestoras de private equity, sinal do apetite crescente por IA aplicada a setores regulados e de alto valor agregado, como o jurídico.</p>
+
+      <p>A plataforma da Legora é construída majoritariamente sobre modelos da Anthropic e já atende mais de 800 escritórios e departamentos jurídicos em 50 mercados diferentes, ajudando advogados em tarefas como revisão de contratos, due diligence e pesquisa jurídica. Com o novo aporte, a empresa planeja acelerar sua expansão nos Estados Unidos, mercado que considera prioritário, com a meta de ultrapassar 300 funcionários nos escritórios americanos até o fim de 2026.</p>
+
+      <p>O caso da Legora ilustra um padrão que vem se repetindo no mercado de IA aplicada a profissões regulamentadas: em vez de competir com modelos genéricos de propósito geral, startups que constroem uma camada específica — com confiabilidade, confidencialidade e fluxo de trabalho adaptados à rotina de um setor — conseguem justificar avaliações crescentes mesmo num mercado mais seletivo com capital de risco.</p>
+    `,
   },
   {
     slug: "etched-capta-700-milhoes-valuation-21-bilhoes",
@@ -552,6 +576,15 @@ export const news: NewsItem[] = [
     sourceName: "TechCrunch",
     sourceUrl: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
     date: "2026-08-18",
+    content: `
+      <p>A Etched, startup especializada em chips para inferência de inteligência artificial, dobrou sua avaliação de mercado em pouco mais de um mês. A empresa levantou US$ 700 milhões numa nova rodada que a avalia em US$ 21 bilhões — um salto em relação aos US$ 10,3 bilhões alcançados menos de trinta dias antes, quando havia fechado uma Série C de US$ 300 milhões.</p>
+
+      <p>A rodada foi liderada pela gestora de trading quantitativo Jane Street, que também se tornou a primeira cliente pagante da empresa: a Etched já entregou seu primeiro rack de servidores para a Jane Street, que está incorporando a tecnologia em suas próprias cargas de trabalho. Outros participantes da rodada incluem Kleiner Perkins, Sequoia, Andreessen Horowitz, Tiger Global, Bain Capital Ventures, Neo, Primary, Stripes, Positive Sum e Blackstone.</p>
+
+      <p>O modelo de negócio da Etched foca especificamente em acelerar a inferência — a etapa em que um modelo já treinado é usado para gerar respostas — tornando esse processo mais rápido, barato e eficiente do que soluções de propósito geral. Segundo a empresa, além do contrato com a Jane Street, ela já acumula mais de US$ 1 bilhão em contratos assinados com provedores de nuvem e outras empresas de inteligência artificial, tanto públicas quanto privadas.</p>
+
+      <p>Desde a fundação, a Etched já levantou US$ 1,9 bilhão no total, com um grupo de investidores que também inclui Sequoia, Andreessen Horowitz, a própria Jane Street, a fabricante de memórias SK Hynix e o investidor Peter Thiel. O ritmo de captação da empresa — dobrando de valor em menos de um mês — reflete a disputa acelerada por capacidade de inferência de IA, um gargalo que vem se tornando tão relevante quanto o treinamento de modelos na corrida das grandes empresas de tecnologia por infraestrutura.</p>
+    `,
   },
   {
     slug: "quatro-modelos-topo-lancados-mesma-semana-fadiga",
@@ -562,6 +595,13 @@ export const news: NewsItem[] = [
     sourceName: "AI Weekly",
     sourceUrl: "https://aiweekly.co/ai-news-today",
     date: "2026-09-04",
+    content: `
+      <p>Entre os dias 1º e 4 de setembro, quatro das maiores empresas de inteligência artificial do mundo lançaram, praticamente ao mesmo tempo, as versões mais recentes de seus modelos de ponta. A Anthropic apresentou o Claude Fable 5.1, o Google lançou o Gemini 3.8 Flash, a Meta trouxe o Muse Spark 1.3 e a OpenAI lançou o GPT-6 Astra. Na sequência, a chinesa Alibaba também atualizou sua linha própria, com o Qwen3.8-Max.</p>
+
+      <p>A concentração de lançamentos num intervalo de poucos dias não passou despercebida pela imprensa internacional, que passou a usar o termo "model fatigue" — algo como "fadiga de modelos" — para descrever a dificuldade crescente do público, e até de profissionais da área, em acompanhar o volume de novidades. Cada lançamento traz normalmente uma lista extensa de melhorias — desempenho em programação, raciocínio em múltiplas etapas, custo por token, novas modalidades — que, quando empilhadas semana após semana, tornam cada anúncio individual menos memorável.</p>
+
+      <p>Esse fenômeno reflete uma mudança de fase no mercado de IA generativa: se em 2023 e 2024 cada novo modelo de ponta era um evento isolado e amplamente comentado, em 2026 os lançamentos de topo das grandes empresas já ocorrem em ritmo quase trimestral simultâneo, empurrados pela concorrência direta entre poucos laboratórios líderes. Para quem usa essas ferramentas no dia a dia, a lição prática é menos sobre acompanhar cada anúncio e mais sobre acompanhar de perto uma ou duas ferramentas que já resolvem bem o próprio caso de uso — testar e trocar de modelo a cada semana raramente compensa o tempo investido.</p>
+    `,
   },
   {
     slug: "microsoft-ia-generativa-atinge-17-8-por-cento-populacao-ativa",
@@ -572,9 +612,20 @@ export const news: NewsItem[] = [
     sourceName: "Alura",
     sourceUrl: "https://www.alura.com.br/artigos/mercado-de-ia",
     date: "2026-09-10",
+    content: `
+      <p>Um relatório da Microsoft sobre difusão de inteligência artificial mostra que, no primeiro trimestre de 2026, o uso de ferramentas de IA generativa já alcançava 17,8% da população mundial em idade ativa — um salto expressivo se comparado aos números registrados poucos anos antes, quando esse tipo de tecnologia ainda era usado por uma fatia bem mais restrita de early adopters.</p>
+
+      <p>O crescimento na adoção acompanha, e em boa parte explica, a corrida de investimento em infraestrutura de nuvem que os grandes provedores globais vêm sustentando: estimativas do setor apontam para algo em torno de US$ 700 bilhões em gastos com data centers e capacidade computacional voltada a IA só neste ano. Quanto mais pessoas incorporam ferramentas de IA generativa na rotina — seja para trabalho, estudo ou uso pessoal —, maior a pressão sobre a capacidade de processamento disponível, o que por sua vez justifica, aos olhos das big techs, o ritmo acelerado de novos investimentos.</p>
+
+      <p>Esse tipo de dado ajuda a contextualizar por que a inteligência artificial deixou de ser um nicho técnico e passou a ser tratada como infraestrutura básica por governos e empresas: quando quase um em cada cinco adultos em idade produtiva no planeta já usa essas ferramentas, o impacto econômico e social deixa de ser hipotético. Para quem ainda não incorporou IA no dia a dia — seja no trabalho, seja para gerar renda extra —, o dado reforça um ponto prático: a curva de adoção já passou do estágio inicial, e esperar mais tempo para começar tende a significar competir por vagas, clientes e oportunidades com pessoas que já estão usando essas ferramentas com fluência.</p>
+    `,
   },
 ];
 
 export function sortedNews() {
   return [...news].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getNewsBySlug(slug: string) {
+  return news.find((n) => n.slug === slug);
 }
