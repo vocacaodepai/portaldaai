@@ -1200,6 +1200,32 @@ export const news: NewsItem[] = [
       <p>O caso da Chamelio é mais um exemplo de como agentes de IA especializados estão avançando sobre funções corporativas historicamente dependentes de profissionais altamente qualificados — um movimento parecido com o que já vimos em áreas como atendimento e vendas, e que discutimos em nosso texto sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>. Para quem presta consultoria ou monta pacotes de automação de IA para empresas, o setor jurídico corporativo desponta como mais uma vertical onde há demanda real e disposição para pagar por soluções especializadas, como já discutimos em <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">como vender consultoria de IA para pequenas empresas</a>.</p>
     `,
   },
+  {
+    slug: "amazon-bloqueia-agente-ia-muse-meta-compras",
+    title: "Amazon bloqueia agente de IA Muse, da Meta, de fazer compras em seu site",
+    author: "Bruno Danello",
+    summary:
+      "A Amazon cortou o acesso do assistente pessoal de IA da Meta ao site da varejista depois de tentar, sem sucesso, convencer a empresa a excluir voluntariamente a plataforma da experiência — o mais recente capítulo de uma disputa entre grandes empresas sobre quem controla a experiência de compra com agentes de IA.",
+    sourceName: "GeekWire",
+    sourceUrl: "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    date: "2026-09-20",
+    content: `
+      <p>A Amazon bloqueou, a partir da noite de domingo, 20 de setembro, o acesso do Muse — agente pessoal de IA da Meta — a compras em seu site em nome de clientes. Usuários que pedem ao Muse para navegar ou comprar produtos na Amazon passaram a ver um aviso informando que o acesso continuado por um agente de IA não autorizado viola os Termos de Uso da varejista.</p>
+
+      <p>Segundo a Amazon, o Muse acessava sua loja sem permissão e criava riscos de privacidade e segurança: a Meta não avisou a Amazon antes de permitir que o agente fizesse compras na plataforma, e o assistente não se identificava claramente, além de aparentemente capturar e armazenar credenciais de clientes.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O que está em jogo</span>
+        <p>O negócio de publicidade da Amazon gerou mais de US$ 68 bilhões em receita no último ano — um modelo que depende de pessoas navegando pelas páginas e vendo produtos patrocinados. Um assistente que escolhe produtos automaticamente por alguém reduz justamente essa navegação, o que ameaça diretamente essa fonte de receita.</p>
+      </div>
+
+      <h2>Não é a primeira barreira da Amazon contra agentes de IA</h2>
+      <p>O Muse foi bloqueado menos de duas semanas depois de seu lançamento, em 8 de setembro. A Amazon já vinha, havia cerca de um ano, tentando manter agentes concorrentes fora de seu site — miras anteriores incluíram ferramentas da Perplexity, do Google e da própria OpenAI.</p>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio ilustra uma tensão que só deve crescer conforme mais empresas lançam <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA capazes de comprar em nome das pessoas</a>: quem controla a "porta de entrada" do comércio digital tem forte incentivo para barrar assistentes de terceiros, mesmo que isso frustre a experiência prometida ao usuário final. O caso também reforça preocupações sobre como esses agentes lidam com credenciais e dados sensíveis dos usuários — tema que já tratamos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>.</p>
+    `,
+  },
 ];
 
 export function sortedNews() {
