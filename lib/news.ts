@@ -30,26 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "tavus-lanca-phoenix-4-5-renderizacao-humana-tempo-real",
-    title: "Tavus lança Phoenix-4.5, modelo de renderização humana em tempo real",
-    author: "Bruno Danello",
-    summary:
-      "O novo modelo gera corpo inteiro (não só o rosto) de um avatar digital com resposta emocional e movimento facial contínuo enquanto fala e escuta ao mesmo tempo, mantendo baixa latência entre áudio e vídeo. A empresa descreve o Phoenix-4.5 como o modelo de renderização humana em tempo real mais rápido e expressivo disponível atualmente.",
-    sourceName: "Tavus",
-    sourceUrl: "https://www.tavus.io/blog/phoenix-4-5",
-    date: "2026-09-15",
-  },
-  {
-    slug: "bytedance-lucro-cai-gastos-ia",
-    title: "Lucro da ByteDance cai para US$ 20 bilhões no semestre com gastos em IA",
-    author: "Bruno Danello",
-    summary:
-      "O lucro líquido da ByteDance no primeiro semestre de 2026 caiu em torno de um dígito percentual, pressionado pelo investimento pesado em infraestrutura de inteligência artificial, mesmo com a receita crescendo cerca de 30%. A empresa avalia elevar o investimento em IA para até US$ 70 bilhões no ano, mais do que o dobro do nível de 2025.",
-    sourceName: "The Information",
-    sourceUrl: "https://www.theinformation.com/articles/bytedances-first-half-profit-drops-20-billion-weighed-ai-spending",
-    date: "2026-09-15",
-  },
-  {
     slug: "altman-openai-nao-abre-capital-em-2026",
     title: "Sam Altman confirma que a OpenAI não vai abrir capital em 2026",
     author: "Bruno Danello",
@@ -1639,6 +1619,52 @@ export const news: NewsItem[] = [
 
       <h2>Consolidação entre desafiantes dos grandes laboratórios</h2>
       <p>A fusão reforça um movimento de consolidação entre empresas de IA que competem com os gigantes americanos — OpenAI, Anthropic e Google — sem o mesmo volume de capital, unindo forças de pesquisa e presença comercial já estabelecida em setores regulados e no setor público na Europa e no Canadá.</p>
+    `,
+  },
+  {
+    slug: "google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes",
+    title: "Google, OpenAI e Anthropic cortejam ex-assessor de Trump para liderar novo órgão de padrões de IA",
+    author: "Bruno Danello",
+    summary:
+      "As três empresas procuraram Sriram Krishnan, ex-assessor sênior de IA da Casa Branca, para chefiar a proposta 'Frontier AI Standards Agency', inspirada na reguladora financeira americana FINRA — ironia notável, já que Krishnan defendia publicamente, enquanto estava no governo, que 'não vai haver uma FDA para a IA'.",
+    sourceName: "AI Weekly",
+    sourceUrl: "https://aiweekly.co/alerts/google-openai-anthropic-court-sriram-krishnan-for-ai-safety-body",
+    date: "2026-09-23",
+    content: `
+      <p>Google, OpenAI e Anthropic procuraram Sriram Krishnan, ex-assessor sênior de políticas de inteligência artificial da Casa Branca, para liderar a proposta de autorregulação batizada provisoriamente de Frontier AI Standards Agency. Krishnan serviu no segundo governo Trump entre janeiro de 2025 e junho de 2026 e, durante esse período, defendia publicamente que "não vai haver uma FDA para a IA", argumentando que uma agência centralizada colocaria "areia nas engrenagens" da revolução da inteligência artificial.</p>
+
+      <p>O órgão proposto é inspirado no modelo da FINRA, a reguladora financeira americana responsável por supervisionar corretoras nos EUA. Chris Lehane, diretor de assuntos globais da OpenAI, confirmou em 15 de setembro que os três laboratórios vêm coordenando protocolos de segurança em conjunto há várias semanas.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">A ironia da escolha</span>
+        <p>O fato de as três empresas buscarem justamente alguém que defendia publicamente a ausência de um regulador centralizado para liderar seu próprio órgão de autorregulação levanta questionamentos sobre até que ponto essa estrutura terá dentes de verdade — ou vai funcionar mais como uma forma de as empresas definirem suas próprias regras antes que o governo o faça.</p>
+      </div>
+
+      <h2>Mais um capítulo na disputa sobre quem regula a IA</h2>
+      <p>A movimentação dá continuidade a um debate que já vínhamos acompanhando: a ideia de um órgão de padrões liderado pelos próprios laboratórios de IA, sem participação direta do governo americano, discutida desde julho por <a href="/noticias/altman-laboratorios-ia-orgao-padroes-sem-governo">Altman, Anthropic e Google DeepMind</a>. Para quem quer entender melhor os termos por trás desse tipo de debate regulatório, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "openai-libera-avaliacoes-seguranca-terceiros-durante-treinamento",
+    title: "OpenAI vai permitir que terceiros avaliem segurança de modelos já durante o treinamento",
+    author: "Bruno Danello",
+    summary:
+      "A empresa está em conversas com organizações independentes como METR e Redwood Research para conduzir avaliações técnicas de segurança ao longo de todo o ciclo de desenvolvimento — não mais só na revisão final antes do lançamento —, priorizando análise de salvaguardas críticas, avaliações de capacidade e investigação independente de incidentes de desalinhamento.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-22/openai-to-let-outside-groups-evaluate-ai-models-at-earlier-phase",
+    date: "2026-09-22",
+    content: `
+      <p>A OpenAI anunciou que vai abrir avaliações técnicas de segurança de seus modelos a organizações externas ao longo de todo o ciclo de desenvolvimento — treinamento, avaliação e implantação —, ampliando o que até agora era, em grande parte, uma revisão concentrada apenas na fase final, antes do lançamento. A empresa confirmou estar em conversas com a METR e a Redwood Research, duas organizações independentes que já avaliam capacidades e riscos de modelos de fronteira.</p>
+
+      <p>Segundo a OpenAI, a iniciativa vai priorizar quatro áreas: avaliação de casos de segurança que abrangem tanto o treinamento quanto a implantação, revisão de salvaguardas consideradas críticas, análise de avaliações de capacidade ligadas ao seu Preparedness Framework, e investigação independente de incidentes de comportamento desalinhado. A empresa afirma que as avaliações devem seguir princípios de independência, rigor científico, práticas de segurança robustas e responsabilidades bem definidas.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Detectar riscos mais cedo</span>
+        <p>Segundo a OpenAI, avaliações independentes ao longo de todo o desenvolvimento — e não só no fim — podem permitir detectar riscos de alinhamento, segurança e uso indevido mais cedo no ciclo de vida do modelo, evitando que problemas cheguem à fase de implantação. A empresa prevê revisões concorrentes em cronogramas variados, de algumas semanas a vários meses.</p>
+      </div>
+
+      <h2>Mais transparência, sob pressão crescente</h2>
+      <p>O anúncio acontece num momento em que laboratórios de IA enfrentam pressão crescente por mais transparência sobre como avaliam a segurança de seus próprios modelos antes de lançá-los ao público — um tema que já discutimos por aqui em relação a incidentes de comportamento inesperado em agentes de IA. Para quem quer entender melhor os termos técnicos por trás desse tipo de avaliação, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
     `,
   },
 ];
