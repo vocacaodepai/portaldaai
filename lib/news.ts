@@ -30,17 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "oracle-backlog-664-bilhoes-nuvem-ia",
-    title: "Oracle bate recorde com backlog de US$ 664 bilhões em contratos de IA",
-    author: "Bruno Danello",
-    summary:
-      "Impulsionada pela demanda por poder computacional para inteligência artificial, a Oracle acumulou contratos ainda não entregues no valor de US$ 664 bilhões, alta de US$ 209 bilhões em um ano. A receita de infraestrutura de nuvem cresceu 121% no trimestre, e a empresa afirma que o backlog fora de contratos com a OpenAI mais que dobrou no período.",
-    sourceName: "Reuters",
-    sourceUrl:
-      "https://www.investing.com/news/stock-market-news/oracle-shares-rise-as-ai-cloud-backlog-beats-estimates-4897401",
-    date: "2026-09-11",
-  },
-  {
     slug: "sam-altman-openai-aberta-desacelerar-desenvolvimento",
     title: "Sam Altman diz que a OpenAI está aberta a desacelerar o desenvolvimento de IA",
     author: "Bruno Danello",
@@ -1377,6 +1366,29 @@ export const news: NewsItem[] = [
 
       <h2>Mais um sinal do apetite por infraestrutura de IA</h2>
       <p>O movimento acontece na mesma semana em que a <a href="/noticias/amd-acoes-sobem-otimismo-chips-ia">AMD já vinha subindo com otimismo sobre chips de IA</a> e reforça como o mercado de infraestrutura para inteligência artificial segue impulsionando as maiores altas da bolsa americana em 2026 — um contexto que ajuda a explicar por que tantas empresas, de startups a gigantes de nuvem, continuam investindo pesado em capacidade computacional, tema que também aparece em nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "trump-xi-cupula-trégua-comercial-chips-ia-jensen-huang-altman",
+    title: "Trump e Xi estendem trégua comercial em cúpula na Casa Branca, com Jensen Huang e Sam Altman no jantar de estado",
+    author: "Bruno Danello",
+    summary:
+      "Os EUA e a China concordaram em estender por dois meses a trégua comercial que venceria em novembro, na primeira visita de Xi Jinping à Casa Branca desde 2015 — enquanto o acesso da China aos chips mais avançados de IA segue como um dos principais pontos de atrito entre os dois países.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+    date: "2026-09-24",
+    content: `
+      <p>Os presidentes Donald Trump e Xi Jinping se reuniram nesta quinta-feira na Casa Branca, na primeira visita do líder chinês ao local desde 2015 e no segundo encontro entre os dois em seis meses. Segundo o secretário do Tesouro americano, Scott Bessent, os dois países concordaram em estender por mais dois meses a trégua comercial que estava prevista para vencer em 10 de novembro — uma extensão de curto prazo, e não o acordo abrangente que alguns analistas esperavam.</p>
+
+      <p>Entre os temas discutidos estavam comércio, Taiwan, inteligência artificial, o Irã, terras raras e fentanil. No campo da IA, o principal ponto de atrito continua sendo o acesso chinês aos semicondutores mais avançados: a China pressiona os EUA para afrouxar os controles de exportação de chips de ponta, enquanto Washington resiste em liberar totalmente essa tecnologia.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Executivos de IA no jantar de estado</span>
+        <p>O jantar de estado que encerrou o dia reuniu figuras de peso da indústria de tecnologia, incluindo Jensen Huang, CEO da Nvidia, e Sam Altman, CEO da OpenAI — uma presença que reforça o quanto o setor de IA já é tratado como parte central da relação diplomática entre as duas maiores potências econômicas do mundo.</p>
+      </div>
+
+      <h2>Mais um capítulo da disputa EUA-China por IA</h2>
+      <p>O encontro acontece dias depois de <a href="/noticias/eua-china-acordo-dialogo-ia-cupula-trump-xi">EUA e China terem fechado um acordo para abrir um canal oficial de diálogo sobre IA</a>, sinalizando que, apesar das divergências sobre chips e tarifas, os dois governos reconhecem a necessidade de conversar sobre os riscos da tecnologia. Trump e Xi também devem se encontrar novamente em breve: o presidente americano planeja visitar a China em abril, dando sequência a uma relação que segue equilibrando cooperação pontual e disputa estratégica pela liderança em inteligência artificial.</p>
     `,
   },
 ];
