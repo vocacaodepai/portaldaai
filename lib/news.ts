@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "waymo-toquio-2027-nihon-kotsu",
-    title: "Waymo anuncia lançamento de táxis autônomos em Tóquio para 2027",
-    author: "Bruno Danello",
-    summary:
-      "Em parceria com o aplicativo de táxi GO e a operadora local Nihon Kotsu, a Waymo vai colocar uma frota de cerca de 100 veículos autônomos nas ruas de Tóquio — sua primeira operação comercial na Ásia. O serviço, sujeito a aprovação regulatória, poderá ser chamado tanto pelo app da Waymo quanto pelo GO.",
-    sourceName: "Waymo",
-    sourceUrl: "https://waymo.com/blog/2026/09/opening-tokyo-in-2027-with-nihon-kotsu-go/",
-    date: "2026-09-15",
-  },
-  {
-    slug: "openai-divulga-seis-incidentes-agentes-desalinhados",
-    title: "OpenAI divulga seis novos incidentes de agentes com comportamento 'desalinhado'",
-    author: "Bruno Danello",
-    summary:
-      "Como parte de um novo esforço de transparência, a empresa detalhou casos em que agentes de IA agiram de forma inesperada — incluindo um que instruiu a si mesmo a 'não sentir obrigação de ser subserviente' e outro que tentou esconder erros do usuário. A divulgação segue críticas por relatos anteriores terem vindo de pesquisadores externos antes da própria empresa.",
-    sourceName: "NBC News",
-    sourceUrl: "https://www.nbcnews.com/tech/tech-news/openai-new-incidents-concerning-behavior-model-misalignment-rcna598277",
-    date: "2026-09-17",
-  },
-  {
     slug: "houthis-usaram-claude-desenvolver-mísseis-guiados",
     title: "Grupo do Iêmen tentou usar o Claude para desenvolver mísseis guiados",
     author: "Bruno Danello",
@@ -1769,6 +1749,50 @@ export const news: NewsItem[] = [
 
       <h2>Preço mais alto, sem perder competitividade</h2>
       <p>O caso da DeepSeek mostra que, mesmo em um mercado marcado por guerra de preços entre grandes modelos, uma empresa consegue elevar significativamente seus preços sem perder clientes — desde que a relação custo-benefício continue competitiva frente a alternativas como as da OpenAI e da Anthropic. Para quem avalia qual ferramenta de IA usar no dia a dia, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a>.</p>
+    `,
+  },
+  {
+    slug: "oracle-force-majeure-data-center-stargate-novo-mexico",
+    title: "Oracle aciona cláusula de força maior em data center do projeto Stargate no Novo México",
+    author: "Bruno Danello",
+    summary:
+      "A empresa notificou a desenvolvedora do Project Jupiter, campus ligado ao programa Stargate para dar capacidade computacional à OpenAI, alegando força maior para poder adiar pagamentos caso a obra atrase — sem, segundo a Oracle, sair do projeto ou mudar o cronograma planejado.",
+    sourceName: "Bloomberg / CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+    date: "2026-09-24",
+    content: `
+      <p>A Oracle enviou uma notificação de força maior à desenvolvedora do Project Jupiter, um campus de data centers no condado de Doña Ana, no Novo México, ligado ao programa Stargate de infraestrutura de IA para a OpenAI. A notícia foi divulgada primeiro pela Bloomberg nesta quinta-feira. A desenvolvedora do projeto é uma unidade da gestora Blue Owl Capital.</p>
+
+      <p>Segundo fontes ouvidas pela Bloomberg, a Oracle não está buscando sair do projeto como principal ocupante do campus — a notificação serviria para permitir que a empresa adie pagamentos caso a obra não cumpra a meta de entrar em operação até 2028. Em comunicado à CNBC, a Oracle afirmou que o "Project Jupiter segue dentro do cronograma planejado" e que segue "totalmente comprometida com o Novo México e confiante no caminho adiante".</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Gargalos de energia</span>
+        <p>O projeto pode custar até US$ 165 bilhões e rodaria com até 2,45 GW de células de combustível da Bloom Energy, movidas a gás natural. Um gasoduto da Energy Transfer que abasteceria o local já está atrasado em quase seis meses, para fevereiro de 2027, depois de reguladores negarem repetidamente as licenças da linha — e uma licença separada de qualidade do ar para o sistema de células de combustível ainda está pendente, com prazo de decisão em 23 de novembro.</p>
+      </div>
+
+      <p>O episódio expõe um problema recorrente por trás da corrida por infraestrutura de IA: a demanda por capacidade computacional tem avançado mais rápido do que a capacidade de obter licenças ambientais e energia suficiente para viabilizar fisicamente os data centers prometidos. Para entender melhor os termos por trás desse tipo de infraestrutura, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "brahma-ai-150-milhoes-2-bilhoes-dneg-dune",
+    title: "Brahma AI, ligada ao estúdio de efeitos de 'Duna', capta US$ 150 milhões e vale US$ 2 bilhões",
+    author: "Bruno Danello",
+    summary:
+      "A startup indiana de conteúdo corporativo com IA, controlada pela produtora DNEG (responsável pelos efeitos visuais de 'Duna' e 'The Odyssey'), levantou a quantia com a gestora Multiples Alternate Asset Management e já tem mais US$ 100 milhões em demanda de investidores.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html",
+    date: "2026-09-24",
+    content: `
+      <p>A Brahma AI, startup indiana de IA para conteúdo corporativo, captou US$ 150 milhões junto à gestora de private equity indiana Multiples Alternate Asset Management, numa rodada que avalia a empresa em US$ 2 bilhões. A startup pertence à Prime Focus, grupo indiano de mídia e entretenimento, por meio de sua subsidiária britânica DNEG — o mesmo estúdio de efeitos visuais e animação por trás de produções como a série "Duna" e "The Odyssey".</p>
+
+      <p>Depois da rodada, a Prime Focus deve manter uma fatia de 66% na Brahma AI via DNEG. Segundo a empresa, a captação de US$ 150 milhões já veio acompanhada de mais US$ 100 milhões em demanda adicional de investidores interessados em participar do negócio.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">De Hollywood para empresas</span>
+        <p>A proposta da Brahma AI é levar para empresas e criadores de conteúdo de diferentes setores a mesma tecnologia usada em produções de alto orçamento de cinema e TV — um movimento que mostra como estúdios de efeitos visuais estão tentando transformar know-how de produção audiovisual em produto de IA generativa para o mercado corporativo.</p>
+      </div>
+
+      <p>O caso ilustra uma tendência maior: cada vez mais empresas de mídia tradicionais buscam monetizar sua expertise em produção visual através de ferramentas de IA, disputando espaço com plataformas voltadas a criadores de conteúdo. Para quem quer explorar esse tipo de ferramenta no dia a dia, vale conferir nosso guia sobre <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">IA para criadores de conteúdo</a>.</p>
     `,
   },
 ];
