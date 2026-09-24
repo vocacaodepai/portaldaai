@@ -30,27 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "amd-acoes-sobem-otimismo-chips-ia",
-    title: "Ações da AMD sobem com otimismo sobre chips de IA",
-    author: "Bruno Danello",
-    summary:
-      "As ações da AMD subiram cerca de 2,5% no dia, acumulando alta de mais de 8% na semana, após analistas elevarem o preço-alvo do papel para US$ 600 citando o crescimento da receita de CPUs para data center e projeções ambiciosas de IA para o fim da década.",
-    sourceName: "ad-hoc-news",
-    sourceUrl:
-      "https://www.ad-hoc-news.de/boerse/news/corporate-news/amd-stock-gains-as-analysts-lift-ai-expectations-and-price-targets/70095473",
-    date: "2026-09-13",
-  },
-  {
-    slug: "trump-chama-desaceleracao-ia-de-conspiracao",
-    title: "Trump chama pedido de desaceleração da IA de 'conspiração doentia'",
-    author: "Bruno Danello",
-    summary:
-      "Depois que Amodei, Altman e Musk defenderam publicamente reduzir o ritmo de avanço da IA, o presidente dos EUA rejeitou a ideia, afirmando que existe uma 'conspiração doentia' contra a IA e os data centers americanos, e que o país que vencer a corrida por essa tecnologia é quem vai sair na frente.",
-    sourceName: "CNBC",
-    sourceUrl: "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
-    date: "2026-09-14",
-  },
-  {
     slug: "openai-lanca-chatgpt-images-2-5",
     title: "OpenAI lança o ChatGPT Images 2.5",
     author: "Bruno Danello",
@@ -1513,6 +1492,52 @@ export const news: NewsItem[] = [
 
       <h2>Segurança tenta acompanhar a adoção acelerada</h2>
       <p>O lançamento reforça uma tendência que já vínhamos acompanhando por aqui: conforme agentes de IA ganham mais autonomia para acessar sistemas e dados corporativos, cresce também a corrida por ferramentas capazes de monitorar e conter esse acesso antes que vire um incidente de segurança. Para quem avalia como adotar ferramentas de IA com mais segurança no trabalho, vale revisitar nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist para escolher uma ferramenta de IA com segurança</a>.</p>
+    `,
+  },
+  {
+    slug: "adobe-conclui-compra-topaz-labs-upscaling-firefly-photoshop",
+    title: "Adobe conclui compra da Topaz Labs e traz upscaling premiado com Emmy para o Firefly e o Photoshop",
+    author: "Bruno Danello",
+    summary:
+      "A Adobe finalizou a aquisição da Topaz Labs, avaliada em US$ 340 milhões, e já integrou a tecnologia de aprimoramento e upscaling de imagem e vídeo da empresa — vencedora de um Emmy em 2025 — ao Firefly e ao Photoshop, mantendo a Topaz como marca independente.",
+    sourceName: "Adobe",
+    sourceUrl: "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+    date: "2026-09-23",
+    content: `
+      <p>A Adobe concluiu nesta semana a aquisição da Topaz Labs, empresa conhecida por suas ferramentas de aprimoramento e upscaling de imagem e vídeo por IA, num negócio avaliado em US$ 340 milhões. A tecnologia de processamento da Topaz, batizada de Neurostream, já está disponível no Firefly e no Photoshop para aumentar a resolução e melhorar a qualidade de imagens e vídeos preservando o detalhe do arquivo original — e pode rodar tanto localmente, no computador do usuário, quanto na nuvem da própria Topaz.</p>
+
+      <p>Apesar da aquisição, a Adobe optou por manter a Topaz Labs como marca independente: os aplicativos e modelos da empresa continuam disponíveis separadamente, fora do ecossistema Adobe. O CEO da Topaz, Eric Yang, passa a integrar o time de vídeo e áudio digital da Adobe. A tecnologia da empresa ganhou um Emmy em 2025, na categoria de tecnologia de vídeo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Consolidação no mercado de edição</span>
+        <p>O movimento segue um padrão comum entre grandes fabricantes de software criativo: em vez de desenvolver do zero cada capacidade de IA, comprar startups especializadas com tecnologia já validada e premiada acelera a entrega de recursos avançados aos usuários finais.</p>
+      </div>
+
+      <h2>Mais uma ferramenta de IA generativa nas mãos de quem já domina o mercado</h2>
+      <p>A aquisição reforça como grandes empresas de software estão absorvendo tecnologia de IA generativa desenvolvida por startups menores, em vez de competir diretamente com elas — um padrão que também vale para quem hoje presta serviços de edição e retoque de imagem usando essas ferramentas. Para quem trabalha ou quer começar a trabalhar nessa área, vale conferir nosso guia de <a href="/artigos/como-vender-servicos-de-edicao-de-fotos-e-retoque-com-ia">como vender serviços de edição de fotos e retoque com IA</a>.</p>
+    `,
+  },
+  {
+    slug: "amazon-abre-seller-central-agentes-ia-claude-beta",
+    title: "Amazon abre o Seller Central para agentes de IA externos, começando pelo Claude",
+    author: "Bruno Danello",
+    summary:
+      "Na conferência Amazon Accelerate, a empresa lançou um plugin em beta nos EUA que conecta dados de vendedores — estoque, preços, listagens e métricas — ao Claude e ao assistente próprio Amazon Quick, permitindo gerenciar uma loja inteira por fora do Seller Central, com mudanças de preço ou listagem ainda sujeitas à aprovação do vendedor.",
+    sourceName: "Amazon",
+    sourceUrl: "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+    date: "2026-09-23",
+    content: `
+      <p>A Amazon anunciou, durante sua conferência de vendedores Amazon Accelerate, em Seattle, a abertura das APIs do Seller Central para agentes de IA externos, começando por um plugin em beta nos Estados Unidos que conecta a inteligência do Seller Assistant ao Claude, da Anthropic, e ao Amazon Quick, assistente próprio da empresa. O plugin leva cerca de um minuto para ser configurado, sem necessidade de programação, e dá ao agente de IA acesso a listagens, níveis de estoque e métricas de desempenho e vendas do vendedor.</p>
+
+      <p>Com essa integração, um vendedor pode pedir ao Claude para analisar o desempenho de um produto ou sugerir ajustes de preço e listagem diretamente pela conversa — mas qualquer mudança efetiva de preço ou conteúdo de listagem continua exigindo aprovação explícita do vendedor antes de ser aplicada. A Amazon também lançou novos fluxos de trabalho automatizados para o Seller Assistant, capazes de monitorar o negócio 24 horas por dia e reagir quando condições predefinidas pelo vendedor acontecem.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Humano ainda decide</span>
+        <p>Mesmo com acesso ampliado a dados e a capacidade de propor mudanças, o desenho do sistema mantém o vendedor no controle final: sugestões de preço ou listagem geradas pela IA não são aplicadas automaticamente, precisam de aprovação manual antes de valer.</p>
+      </div>
+
+      <h2>Mais uma grande plataforma abrindo as portas para agentes externos</h2>
+      <p>O movimento da Amazon segue uma tendência maior de grandes plataformas de comércio abrindo seus sistemas para que agentes de IA de terceiros ajudem a gerenciar operações do dia a dia — reduzindo a necessidade de o lojista abrir manualmente cada painel separado. Para quem está montando ou já roda uma loja virtual, vale revisitar nosso guia de <a href="/artigos/como-montar-uma-loja-virtual-em-um-fim-de-semana-usando-ia">como montar uma loja virtual em um fim de semana usando IA</a>.</p>
     `,
   },
 ];
