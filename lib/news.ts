@@ -30,17 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "microsoft-triplica-capacidade-data-centers-ia",
-    title: "Microsoft planeja triplicar capacidade de data centers até 2032",
-    author: "Bruno Danello",
-    summary:
-      "Diante da falta de capacidade que já forçou a empresa a recusar clientes de nuvem e IA, a Microsoft pretende sair de 12 gigawatts para mais de 38 gigawatts de capacidade global até 2032 — cerca de um terço dedicado especificamente a cargas de inteligência artificial.",
-    sourceName: "Data Center Dynamics",
-    sourceUrl:
-      "https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report/",
-    date: "2026-09-11",
-  },
-  {
     slug: "anthropic-ipo-confidencial-965-bilhoes",
     title: "Anthropic apresenta pedido confidencial de IPO avaliado em US$ 965 bilhões",
     author: "Bruno Danello",
@@ -1315,6 +1304,29 @@ export const news: NewsItem[] = [
 
       <h2>Mais uma peça da corrida por assistentes de voz</h2>
       <p>A atualização chega na mesma semana em que a OpenAI cortou os preços da API pela metade com o lançamento do GPT-6 Sol e do GPT-6 Luna, reforçando a disputa direta com Google e Anthropic por quem oferece o assistente mais completo pelo menor custo. Para quem já usa assistentes de IA no dia a dia, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a> e o comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> para escolher a ferramenta certa — o suporte a plugins de voz também se soma às formas de <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automatizar tarefas repetitivas com IA</a> sem precisar abrir uma tela.</p>
+    `,
+  },
+  {
+    slug: "jensen-huang-rejeita-previsoes-extincao-ia-doomsday",
+    title: "Jensen Huang diz que chance de a IA acabar com a humanidade até 2030 é '0%' e chama previsões de 'irresponsáveis'",
+    author: "Bruno Danello",
+    summary:
+      "O CEO da Nvidia rejeitou publicamente estimativas de risco existencial feitas por pesquisadores ligados à OpenAI e à Anthropic, chamando-as de 'narrativas apocalípticas' sem base científica — mesmo reconhecendo que construir IA com segurança é uma preocupação legítima.",
+    sourceName: "CBS News",
+    sourceUrl: "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/",
+    date: "2026-09-21",
+    content: `
+      <p>Jensen Huang, CEO da Nvidia, afirmou publicamente que vê "0% de chance" de a inteligência artificial acabar com a humanidade até 2030, classificando como "irresponsáveis" as previsões de risco existencial feitas por pesquisadores ligados a laboratórios como OpenAI e Anthropic. Segundo Huang, "assustar as pessoas é desnecessário" e esse tipo de estimativa não está "fundamentado em ciência".</p>
+
+      <p>A declaração é uma resposta direta a alertas como o de Jacob Coxon, ex-pesquisador de OpenAI e Anthropic, e de Evan Hubinger, pesquisador da própria Anthropic, que estimou uma chance superior a 10% de a IA causar a extinção humana na próxima década. Huang argumenta que números sem embasamento científico distorcem o debate público, mesmo quando a intenção é chamar atenção para riscos reais.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Nem tudo é discordância</span>
+        <p>Apesar de rejeitar as previsões de extinção como "narrativas apocalípticas", Huang não descarta a preocupação de fundo: segundo ele, empresas de IA devem avançar rápido, mas nunca lançar produtos inseguros — reconhecendo que construir IA de forma responsável é uma questão legítima, mesmo sem concordar com os números específicos usados por outros líderes do setor.</p>
+      </div>
+
+      <h2>Mais um capítulo do debate sobre desaceleração</h2>
+      <p>A fala de Huang chega poucos dias depois de Dario Amodei, Sam Altman e Elon Musk defenderem publicamente uma desaceleração coordenada da fronteira da IA por motivos de segurança, e da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU dedicada a riscos da tecnologia</a>. O fabricante de chips, cujo negócio depende diretamente do ritmo de investimento em infraestrutura de IA, se junta a nomes como Yann LeCun ao questionar publicamente os cenários mais alarmistas sobre o tema — um contraponto que reforça como o debate sobre os limites e riscos da IA está longe de um consenso, mesmo entre quem constrói a tecnologia. Para quem quer entender melhor os termos por trás dessa discussão, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
     `,
   },
 ];
