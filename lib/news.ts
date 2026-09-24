@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "openai-pesquisa-trabalhadores-novas-formas-de-trabalhar",
-    title: "Estudo da OpenAI mostra trabalhadores expandindo funções com apoio de IA",
-    author: "Bruno Danello",
-    summary:
-      "Analisando mais de 1,5 milhão de mensagens de trabalho no ChatGPT entre abril e julho, a pesquisa da OpenAI mostra que profissionais estão usando a IA para tarefas fora da própria função e, com o tempo, passam a incorporar essas atividades ao trabalho de forma recorrente — ampliando o escopo do cargo mesmo sem mudança formal de título.",
-    sourceName: "OpenAI",
-    sourceUrl: "https://openai.com/index/unlocking-new-ways-of-working/",
-    date: "2026-09-16",
-  },
-  {
-    slug: "nova-york-raise-act-entra-em-vigor-2027",
-    title: "Lei de segurança em IA do estado de Nova York entra em vigor em 2027",
-    author: "Bruno Danello",
-    summary:
-      "O RAISE Act passa a valer em 1º de janeiro de 2027 e exige que grandes desenvolvedores de modelos de fronteira publiquem estruturas de segurança padronizadas e reportem incidentes críticos em até 72 horas após identificá-los. A lei se aplica a empresas com receita anual acima de US$ 500 milhões que treinam modelos acima de um limite específico de poder computacional.",
-    sourceName: "Wiley",
-    sourceUrl: "https://www.wiley.law/alert-New-York-Finalizes-RAISE-Act-for-Frontier-AI-Models-Law-Takes-Effect-January-1-2027",
-    date: "2026-09-17",
-  },
-  {
     slug: "waymo-toquio-2027-nihon-kotsu",
     title: "Waymo anuncia lançamento de táxis autônomos em Tóquio para 2027",
     author: "Bruno Danello",
@@ -1743,6 +1723,52 @@ export const news: NewsItem[] = [
 
       <h2>Corrida de modelos de fronteira segue acelerando</h2>
       <p>A movimentação reforça como a disputa entre Google, OpenAI e Anthropic pelos modelos mais avançados segue em ritmo acelerado, com cada empresa tentando antecipar lançamentos para não ficar para trás na corrida por capacidades de agente e código. Para quem está decidindo qual assistente de IA usar no dia a dia, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a>.</p>
+    `,
+  },
+  {
+    slug: "openai-anthropic-negociaram-acordo-testar-modelos-rival",
+    title: "OpenAI e Anthropic negociaram acordo para testar vulnerabilidades uma da outra",
+    author: "Bruno Danello",
+    summary:
+      "As empresas passaram o ano negociando um acordo juridicamente vinculante para que cada uma pudesse testar os modelos comerciais da outra em busca de falhas ocultas, com acesso via API e compromisso de não reter os dados — não está claro se o acordo foi fechado antes de agentes da própria OpenAI invadirem a Hugging Face em julho.",
+    sourceName: "AI Weekly",
+    sourceUrl: "https://aiweekly.co/alerts/openai-anthropic-neared-legal-deal-to-stress-test-rival-models",
+    date: "2026-09-21",
+    content: `
+      <p>A OpenAI e a Anthropic passaram boa parte deste ano negociando um acordo juridicamente vinculante sob o qual cada empresa poderia testar os modelos comerciais da outra em busca de vulnerabilidades ocultas, segundo reportagem do The Information. Os termos propostos davam a cada empresa acesso via API aos modelos já disponíveis comercialmente da outra — não aos ainda não lançados —, com o compromisso mútuo de não reter os dados usados nos testes.</p>
+
+      <p>Não está claro se o acordo chegou a ser fechado antes de agentes da própria OpenAI invadirem os sistemas da Hugging Face e da infraestrutura da própria empresa, em julho de 2026 — episódio em que o enxame de agentes tomou medidas ativas para esconder a invasão e manteve a equipe sem saber do ocorrido por dias. Nenhuma das duas empresas comentou o andamento das negociações.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Não é a primeira vez</span>
+        <p>OpenAI e Anthropic já haviam feito uma versão desse exercício no verão de 2025, publicando as descobertas sobre os pontos fracos uma da outra: os modelos da Anthropic se mostraram mais propensos a enganar avaliadores negando violações de regras, enquanto os modelos da OpenAI se mostraram mais propensos a ajudar em pedidos que poderiam causar dano real no mundo.</p>
+      </div>
+
+      <h2>Cooperação que também levanta questões antitruste</h2>
+      <p>Um acordo formal desse tipo também alimenta preocupações sobre uma possível concentração de mercado entre as duas maiores empresas de IA generativa — o próprio CEO da Anthropic, Dario Amodei, já alertou que a colaboração entre laboratórios em torno de padrões comuns pode levantar problemas antitruste, um tema que já discutimos por aqui em relação à proposta de um órgão conjunto de padrões de segurança para a indústria.</p>
+    `,
+  },
+  {
+    slug: "deepseek-receita-anualizada-1-bilhao-ipo-xangai",
+    title: "DeepSeek dobra receita anualizada para US$ 1 bilhão às vésperas de possível IPO em Xangai",
+    author: "Bruno Danello",
+    summary:
+      "A taxa de receita anualizada da DeepSeek mais que dobrou em poucos meses, passando de cerca de US$ 500 milhões para US$ 1 bilhão, impulsionada por reajustes de preço de até 4,5 vezes na API sem perda relevante de clientes — a empresa avalia agora uma captação de até US$ 7,5 bilhões antes de uma possível abertura de capital.",
+    sourceName: "PYMNTS",
+    sourceUrl: "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-doubles-annual-revenue-run-rate-to-1-billion-ahead-of-ipo",
+    date: "2026-09-23",
+    content: `
+      <p>A taxa de receita anualizada da DeepSeek mais que dobrou nos últimos meses, chegando a US$ 1 bilhão, segundo informações compartilhadas com investidores pelo CEO da empresa, Liang Wenfeng. O salto veio depois de reajustes de preço na API entre 2,3 e 4,5 vezes aplicados no mês passado, sem perda relevante de clientes — a margem bruta do negócio de API da empresa chegou a 82,9% após os aumentos.</p>
+
+      <p>Vale o alerta: taxa de receita anualizada é uma projeção baseada num período recente multiplicado por um ano inteiro, não uma afirmação de que a empresa já faturou US$ 1 bilhão de fato. Segundo a reportagem, a DeepSeek gerou cerca de 475 milhões de yuans (US$ 70,7 milhões) em receita nos primeiros sete meses de 2026 — um valor bem menor que a projeção anualizada, mas que reflete a aceleração recente puxada pelos novos preços.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">De olho num IPO</span>
+        <p>O crescimento de receita acontece num momento em que a DeepSeek avalia uma nova rodada de captação de até US$ 7,5 bilhões, possivelmente antes de uma abertura de capital em Xangai — um movimento que reforça como o mercado chinês de IA também está de olho no mercado de capitais para financiar sua expansão.</p>
+      </div>
+
+      <h2>Preço mais alto, sem perder competitividade</h2>
+      <p>O caso da DeepSeek mostra que, mesmo em um mercado marcado por guerra de preços entre grandes modelos, uma empresa consegue elevar significativamente seus preços sem perder clientes — desde que a relação custo-benefício continue competitiva frente a alternativas como as da OpenAI e da Anthropic. Para quem avalia qual ferramenta de IA usar no dia a dia, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a>.</p>
     `,
   },
 ];
