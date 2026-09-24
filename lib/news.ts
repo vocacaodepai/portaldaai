@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "biren-technology-1-bilhao-nova-captacao",
-    title: "Fabricante chinesa de chips de IA Biren avalia captar mais US$ 1 bilhão",
-    author: "Bruno Danello",
-    summary:
-      "Bancos já sondam investidores para uma nova venda de ações da Biren Technology, que seria a terceira captação da empresa desde sua estreia na bolsa de Hong Kong em janeiro. O período de restrição de 90 dias da colocação anterior, que levantou cerca de HK$ 7 bilhões, termina no início de outubro.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-15/chinese-ai-chip-darling-biren-said-to-mull-1-billion-share-sale",
-    date: "2026-09-15",
-  },
-  {
-    slug: "rei-charles-iii-lideres-ia-dumfries-house",
-    title: "Rei Charles III reúne líderes de IA e alerta sobre 'perigos existenciais'",
-    author: "Bruno Danello",
-    summary:
-      "O monarca britânico recebeu cerca de 30 executivos de tecnologia, autoridades de governo e pesquisadores de ética — incluindo representantes de Nvidia, Google DeepMind, OpenAI e Anthropic — em Dumfries House, na Escócia, para discutir princípios comuns para o desenvolvimento da IA. Ele descreveu o avanço da tecnologia como 'intrigante e profundamente preocupante em igual medida'.",
-    sourceName: "NBC News",
-    sourceUrl: "https://www.nbcnews.com/world/united-kingdom/king-ai-uk-monarch-charles-meets-artificial-intelligence-leaders-rcna598287",
-    date: "2026-09-17",
-  },
-  {
     slug: "openai-pesquisa-trabalhadores-novas-formas-de-trabalhar",
     title: "Estudo da OpenAI mostra trabalhadores expandindo funções com apoio de IA",
     author: "Bruno Danello",
@@ -1717,6 +1697,52 @@ export const news: NewsItem[] = [
 
       <h2>Data centers saindo da Terra?</h2>
       <p>A iniciativa do Google ilustra até que ponto a demanda por infraestrutura de IA está levando grandes empresas de tecnologia a considerar alternativas cada vez mais ambiciosas para resolver gargalos de energia e espaço físico — mesmo que, por enquanto, o projeto ainda esteja na fase de prova de conceito, longe de uma aplicação comercial viável.</p>
+    `,
+  },
+  {
+    slug: "meta-connect-2026-oculos-ray-ban-sem-camera-muse-charm-oculos-vr",
+    title: "Meta apresenta óculos Ray-Ban sem câmera, novos óculos de VR e o Muse Charm no Meta Connect 2026",
+    author: "Bruno Danello",
+    summary:
+      "No Meta Connect 2026, a empresa lançou o Ray-Ban Meta Audio, primeiros óculos inteligentes sem câmera, a partir de US$ 349, além de um novo óculos de realidade virtual de US$ 1.299 com tela micro OLED de 5K e apenas 100 gramas — ambos com o assistente de IA Muse integrado.",
+    sourceName: "Engadget",
+    sourceUrl: "https://www.engadget.com/2267230/everything-announced-at-meta-connect-2026/",
+    date: "2026-09-24",
+    content: `
+      <p>A Meta usou sua conferência anual, o Meta Connect 2026, para apresentar uma nova leva de dispositivos vestíveis com inteligência artificial integrada. O destaque foi o Ray-Ban Meta Audio, os primeiros óculos inteligentes da empresa sem câmera, voltados a quem quer usar o assistente de IA Muse e ouvir música ou podcasts o dia inteiro sem se preocupar com privacidade visual. Disponíveis em dois novos estilos (Clubmaster e Burbank), os óculos têm 12 horas de bateria, chegam às lojas em 13 de outubro e já estão disponíveis para pré-venda a partir de US$ 349.</p>
+
+      <p>A empresa também anunciou um novo óculos de realidade virtual voltado a entretenimento e produtividade, por US$ 1.299, com lançamento previsto para a primavera do hemisfério norte. O dispositivo pesa apenas 100 gramas e usa telas micro OLED com resolução 5K e 37 pixels por grau, com suporte a Dolby Vision. Em vez de concentrar todo o processamento no próprio óculos, o sistema é dividido em duas partes: os óculos cuidam da exibição e dos sensores, enquanto um "puck" conectado por cabo óptico concentra o processamento, o armazenamento e a bateria.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Tudo girando em torno do Muse</span>
+        <p>Tanto os óculos de áudio quanto o novo dispositivo de VR reforçam a aposta da Meta no assistente de IA Muse como fio condutor de todo o portfólio de hardware da empresa — incluindo também o Muse Charm, o chaveiro dedicado ao assistente já anunciado no mesmo evento.</p>
+      </div>
+
+      <h2>Corrida por hardware dedicado a assistentes de IA</h2>
+      <p>O evento reforça como grandes empresas de tecnologia estão apostando pesado em formatos físicos alternativos ao smartphone para dar acesso constante a assistentes de IA — óculos, chaveiros e headsets, cada um tentando reduzir a fricção entre o usuário e o assistente. Para quem já usa ou está pensando em configurar um assistente de IA no dia a dia, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a>.</p>
+    `,
+  },
+  {
+    slug: "google-deepmind-gemini-4-lancamento-antecipado-kavukcuoglu",
+    title: "Novo chefe do Google DeepMind quer lançar o Gemini 4 bem antes do previsto",
+    author: "Bruno Danello",
+    summary:
+      "Koray Kavukcuoglu, em sua primeira aparição pública como chefe do Google DeepMind, disse que o Gemini 4 já entrou na fase inicial de pós-treinamento e que a intenção é lançar uma versão antecipada 'o quanto antes', citando resultados promissores em código, agentes autônomos e fluxos de trabalho de longa duração.",
+    sourceName: "AI Weekly",
+    sourceUrl: "https://aiweekly.co/alerts/deepminds-kavukcuoglu-targets-pre-year-end-gemini-4-ship",
+    date: "2026-09-24",
+    content: `
+      <p>Koray Kavukcuoglu, novo chefe do Google DeepMind, revelou durante o AI Agenda Live Summit, do The Information — sua primeira aparição pública no novo cargo —, que o Gemini 4 já entrou na fase inicial de pós-treinamento e que a intenção da empresa é lançar uma versão antecipada do modelo "o quanto antes", adiantando o cronograma originalmente previsto para o fim do ano.</p>
+
+      <p>Segundo Kavukcuoglu, "nossa intenção é lançar uma versão inicial de pós-treinamento o quanto antes, porque já vimos resultados promissores e estamos bastante animados", acrescentando que a empresa pretende "continuar com iterações rápidas" depois do lançamento inicial. O foco declarado do modelo inclui código, agentes autônomos e fluxos de trabalho agênticos de longa duração — capacidades que vão além da simples geração de texto e apontam para execução ativa de tarefas.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Poucos detalhes confirmados</span>
+        <p>O que o Google ainda não revelou pesa tanto quanto o que já revelou: nenhuma informação sobre arquitetura, contagem de parâmetros, preço ou resultados de benchmarks foi divulgada até agora. O anúncio, por enquanto, é mais uma sinalização de intenção e ritmo do que um lançamento formal.</p>
+      </div>
+
+      <h2>Corrida de modelos de fronteira segue acelerando</h2>
+      <p>A movimentação reforça como a disputa entre Google, OpenAI e Anthropic pelos modelos mais avançados segue em ritmo acelerado, com cada empresa tentando antecipar lançamentos para não ficar para trás na corrida por capacidades de agente e código. Para quem está decidindo qual assistente de IA usar no dia a dia, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a>.</p>
     `,
   },
 ];
