@@ -30,26 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "deepseek-v4-1-flash-mantem-v4-pro",
-    title: "DeepSeek lança V4.1 Flash e recua de plano de aposentar o V4 Pro",
-    author: "Bruno Danello",
-    summary:
-      "A DeepSeek havia planejado migrar todo o tráfego do V4 Pro para o novo V4.1 Flash — menor, mas com desempenho superior na maioria dos testes — a partir de 14 de setembro. Diante da demanda dos usuários, a empresa recuou e vai manter os dois modelos disponíveis via API, com a cobrança do V4 Pro inalterada.",
-    sourceName: "Bitrue",
-    sourceUrl: "https://www.bitrue.com/blog/deepseek-v4-1-flash",
-    date: "2026-09-14",
-  },
-  {
-    slug: "tandem-health-100-milhoes-serie-b-ia-clinica",
-    title: "Startup sueca de IA clínica Tandem Health capta US$ 100 milhões",
-    author: "Bruno Danello",
-    summary:
-      "A Tandem Health, de Estocolmo, levantou uma rodada Série B liderada pelo Scaleup Europe Fund, gerido pela EQT — a primeira empresa de IA para saúde apoiada pelo fundo. O dinheiro vai expandir a ferramenta de assistente médico por IA, hoje usada por 10 mil organizações de saúde em 14 países, para um sistema mais amplo de gestão de atendimento e agenda de pacientes.",
-    sourceName: "Unite.AI",
-    sourceUrl: "https://www.unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system/",
-    date: "2026-09-14",
-  },
-  {
     slug: "cornelis-networks-205-milhoes-active-compute-fabric",
     title: "Cornelis Networks capta US$ 205 milhões para desafiar a Nvidia em redes de IA",
     author: "Bruno Danello",
@@ -1587,6 +1567,52 @@ export const news: NewsItem[] = [
 
       <h2>Um descompasso que já vinha sendo discutido</h2>
       <p>O episódio se soma a um debate mais amplo sobre a velocidade com que instituições públicas conseguem acompanhar — ou não — o ritmo de adoção da IA no setor privado e em outras áreas do próprio governo, incluindo o uso militar da tecnologia.</p>
+    `,
+  },
+  {
+    slug: "meta-lanca-muse-for-mac-agente-executa-acoes-computador",
+    title: "Meta lança o Muse for Mac, agente de IA que executa ações direto no computador",
+    author: "Bruno Danello",
+    summary:
+      "A nova versão para macOS do assistente pessoal da Meta ganha acesso a Arquivos, Mail, Mensagens, Calendário e Notas nativos do sistema, organizando arquivos, respondendo e-mails e agendando compromissos sozinho — mas qualquer ação sensível, como apagar um arquivo ou enviar um e-mail, exige aprovação explícita do usuário.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+    date: "2026-09-18",
+    content: `
+      <p>A Meta lançou o Muse for Mac, versão para computadores do seu assistente pessoal de IA, expandindo o alcance de um produto que já havia chegado ao topo da App Store dos EUA logo após o lançamento no celular, em 8 de setembro. No Mac, o Muse ganha acesso direto aos aplicativos nativos do sistema — Arquivos, Mail, Mensagens, Calendário e Notas — e passa a executar ações dentro deles em nome do usuário, em vez de apenas responder perguntas.</p>
+
+      <p>Na prática, isso significa que o assistente consegue organizar arquivos, extrair informações de threads de e-mail, adicionar compromissos ao calendário e rascunhar respostas de mensagens, coordenando tarefas entre aplicativos diferentes sem que o usuário precise alternar manualmente entre eles. Segundo a Meta, as ações são executadas por meio de uma VM segura na nuvem da própria empresa — ou seja, a infraestrutura da Meta fica entre as credenciais do usuário e os aplicativos nativos do macOS desde o primeiro momento.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Camada de aprovação para ações sensíveis</span>
+        <p>A empresa incluiu uma camada de controle chamada Sentinel, que exige aprovação explícita do usuário antes de qualquer ação considerada sensível — como apagar um arquivo, enviar um e-mail ou fazer uma compra —, uma tentativa de equilibrar autonomia do agente com controle humano sobre as consequências mais irreversíveis.</p>
+      </div>
+
+      <h2>Mais um assistente de IA ganhando as mãos, não só a voz</h2>
+      <p>O lançamento reforça uma tendência que já discutimos por aqui: assistentes de IA deixando de ser apenas interfaces de conversa e passando a executar tarefas diretamente nos aplicativos que já usamos no dia a dia. Para quem está configurando um assistente assim pela primeira vez, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a>.</p>
+    `,
+  },
+  {
+    slug: "mit-robo-voador-450-por-cento-mais-rapido-ia",
+    title: "Robô voador do MIT fica 450% mais rápido com novo sistema de controle por IA",
+    author: "Bruno Danello",
+    summary:
+      "Do tamanho de uma fita microcassete e mais leve que um clipe de papel, o microrrobô alado passou a completar manobras complexas — como dez cambalhotas em 11 segundos — graças a um controlador de IA que combina confiabilidade em movimentos rápidos com eficiência para operar em tempo real, abrindo caminho para buscas em escombros e resgates.",
+    sourceName: "ScienceDaily",
+    sourceUrl: "https://www.sciencedaily.com/releases/2026/09/260921081114.htm",
+    date: "2026-09-21",
+    content: `
+      <p>Pesquisadores do MIT desenvolveram um novo sistema de controle baseado em IA que tornou um microrrobô voador cerca de 450% mais rápido e 250% mais ágil na aceleração, permitindo que ele execute manobras aéreas complexas com a agilidade de um inseto real. O robô, do tamanho aproximado de uma fita microcassete e mais leve que um clipe de papel, completou dez cambalhotas seguidas em 11 segundos, mantendo-se a apenas 4 ou 5 centímetros da trajetória pretendida.</p>
+
+      <p>O design do microrrobô conta com asas batentes maiores que sustentam voos mais ágeis, impulsionadas por músculos artificiais macios capazes de contrair rápido o suficiente para produzir batidas de asa extremamente velozes. A equipe criou um sistema de controle por IA em duas etapas, combinando a confiabilidade necessária para manobras rápidas e complicadas com a eficiência exigida para operar em tempo real.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Aplicação prática: busca e resgate</span>
+        <p>Segundo os pesquisadores, a tecnologia pode eventualmente permitir que microrrobôs desse tipo vasculhem escombros de terremotos e naveguem por espaços perigosos inacessíveis a drones convencionais — passando por frestas estreitas enquanto desviam de paredes, entulho e objetos em queda.</p>
+      </div>
+
+      <h2>IA cada vez mais presente também em máquinas pequenas</h2>
+      <p>O avanço reforça como sistemas de controle baseados em IA não estão restritos a robôs de grande porte ou veículos autônomos — a mesma lógica de decisão em tempo real também está chegando a máquinas minúsculas, ampliando o leque de aplicações práticas da tecnologia além dos chatbots e assistentes que costumam dominar as manchetes.</p>
     `,
   },
 ];
