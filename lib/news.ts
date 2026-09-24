@@ -30,17 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "microsoft-google-modelos-codificacao-ia",
-    title: "Microsoft e Google se unem em modelos de codificação por IA",
-    author: "Bruno Danello",
-    summary:
-      "As duas gigantes de nuvem estão combinando forças em modelos de IA voltados a programação, numa resposta direta ao avanço de Anthropic e OpenAI nesse mercado — que hoje concentra boa parte da receita e da disputa por desenvolvedores no setor de inteligência artificial.",
-    sourceName: "CNBC",
-    sourceUrl:
-      "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
-    date: "2026-06-01",
-  },
-  {
     slug: "google-lanca-gemini-3-8-flash",
     title: "Google lança o Gemini 3.8 Flash",
     author: "Bruno Danello",
@@ -1340,6 +1329,29 @@ export const news: NewsItem[] = [
 
       <h2>Disputa e diálogo ao mesmo tempo</h2>
       <p>A criação do canal de diálogo chega em meio a uma rivalidade cada vez mais acirrada entre os dois países pela liderança em IA — Trump chegou a declarar, dias antes, que "quem vencer a corrida da IA, vence" — e pouco depois da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU sobre riscos da tecnologia</a>, na qual líderes de empresas americanas pediram mais cooperação internacional. O tema também tem implicações militares diretas, incluindo o uso de IA em sistemas de mira e sua possível integração à cadeia de comando nuclear — um contexto que reforça por que entender os fundamentos da tecnologia importa mesmo fora do mundo corporativo, como já discutimos em nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "xiaomi-lanca-mimo-v2-6-modelo-aberto-treinado-3-milhoes",
+    title: "Xiaomi lança o MiMo-V2.6, novo modelo aberto que treinou por apenas US$ 3 milhões",
+    author: "Bruno Danello",
+    summary:
+      "Sob licença MIT, o MiMo-V2.6-Pro tem 1 trilhão de parâmetros, entende texto, imagem, vídeo e áudio em um único modelo e alcançou o topo entre os modelos de peso aberto no índice da Artificial Analysis — com um custo de treinamento considerado baixo para o padrão do setor.",
+    sourceName: "Data North AI",
+    sourceUrl: "https://datanorth.ai/news/xiaomi-releases-mimo-v2-6-pro-and-flash",
+    date: "2026-09-21",
+    content: `
+      <p>A Xiaomi lançou o MiMo-V2.6-Pro e o MiMo-V2.6-Flash, dois modelos de IA de peso aberto sob licença MIT, com pesos publicados no Hugging Face. O Pro é um modelo de mistura de especialistas com 1,02 trilhão de parâmetros totais (42 bilhões ativos por token), enquanto o Flash, mais leve, tem 309 bilhões de parâmetros totais com 15 bilhões ativos — ambos com janela de contexto de até 1 milhão de tokens, suficiente para repositórios de código inteiros ou sessões longas de agentes.</p>
+
+      <p>Os dois modelos são "omnimodais nativos": processam texto, imagem, vídeo e áudio dentro da mesma arquitetura, sem depender de módulos separados para cada tipo de conteúdo. Segundo a Xiaomi, o MiMo-V2.6-Pro alcançou pontuação 46 no Índice de Inteligência da Artificial Analysis, colocando-o no topo entre os modelos de peso aberto disponíveis atualmente — com a API já ativa na própria plataforma da Xiaomi e também na OpenRouter.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O dado que chama atenção</span>
+        <p>Segundo estimativas do setor, o treinamento do MiMo-V2.6-Pro custou cerca de US$ 3 milhões — uma fração do que laboratórios como OpenAI e Anthropic gastam para treinar modelos de ponta, reforçando a tendência de empresas chinesas alcançarem desempenho competitivo com custos de treinamento bem menores.</p>
+      </div>
+
+      <h2>Mais uma peça na disputa por modelos abertos</h2>
+      <p>O lançamento reforça a corrida entre empresas chinesas por modelos de peso aberto competitivos, um movimento que já vimos com o <a href="/noticias/deepseek-v4-1-flash-mantem-v4-pro">DeepSeek V4.1 Flash</a> e que pressiona diretamente o preço cobrado por concorrentes ocidentais. Para quem avalia qual ferramenta de IA usar no dia a dia, vale lembrar que "melhor" nem sempre significa "mais caro" — como já discutimos em nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> — e que entender termos como "peso aberto" e "mistura de especialistas" ajuda a acompanhar esse tipo de notícia, algo que nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a> explica em detalhes.</p>
     `,
   },
 ];
