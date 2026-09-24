@@ -30,16 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "anthropic-ipo-confidencial-965-bilhoes",
-    title: "Anthropic apresenta pedido confidencial de IPO avaliado em US$ 965 bilhões",
-    author: "Bruno Danello",
-    summary:
-      "A Anthropic protocolou de forma confidencial os documentos para abrir capital na bolsa americana, após uma rodada de investimento de US$ 65 bilhões que avaliou a empresa em US$ 965 bilhões — superando, pela primeira vez, a avaliação de mercado da OpenAI.",
-    sourceName: "CNBC",
-    sourceUrl: "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
-    date: "2026-06-01",
-  },
-  {
     slug: "microsoft-google-modelos-codificacao-ia",
     title: "Microsoft e Google se unem em modelos de codificação por IA",
     author: "Bruno Danello",
@@ -1327,6 +1317,29 @@ export const news: NewsItem[] = [
 
       <h2>Mais um capítulo do debate sobre desaceleração</h2>
       <p>A fala de Huang chega poucos dias depois de Dario Amodei, Sam Altman e Elon Musk defenderem publicamente uma desaceleração coordenada da fronteira da IA por motivos de segurança, e da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU dedicada a riscos da tecnologia</a>. O fabricante de chips, cujo negócio depende diretamente do ritmo de investimento em infraestrutura de IA, se junta a nomes como Yann LeCun ao questionar publicamente os cenários mais alarmistas sobre o tema — um contraponto que reforça como o debate sobre os limites e riscos da IA está longe de um consenso, mesmo entre quem constrói a tecnologia. Para quem quer entender melhor os termos por trás dessa discussão, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "eua-china-acordo-dialogo-ia-cupula-trump-xi",
+    title: "EUA e China fecham acordo para criar canal oficial de diálogo sobre IA antes da cúpula Trump-Xi",
+    author: "Bruno Danello",
+    summary:
+      "Após oito horas de negociação em Nova York, autoridades dos dois países anunciaram a criação de um diálogo bilateral sobre inteligência artificial, dias antes do encontro entre os presidentes Donald Trump e Xi Jinping em Washington — sem previsão de grandes acordos concretos no encontro desta quinta-feira.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-21/bessent-hails-very-successful-china-talks-on-ai-threats-trade",
+    date: "2026-09-21",
+    content: `
+      <p>Estados Unidos e China concordaram em criar um canal oficial de diálogo sobre inteligência artificial, além de colocar em operação um órgão bilateral de comércio, após oito horas de negociação em Nova York. O anúncio foi feito pelo secretário do Tesouro americano, Scott Bessent, e pelo representante comercial Jamieson Greer, depois de se reunirem com o vice-premiê chinês He Lifeng na sede do JPMorgan.</p>
+
+      <p>O entendimento acontece dias antes da visita de estado do presidente chinês Xi Jinping a Washington, que inclui o principal encontro bilateral com o presidente Donald Trump nesta quinta-feira, 24 de setembro. Segundo autoridades dos dois governos, nenhum dos lados espera um avanço decisivo sobre IA na cúpula em si — mas consideram plausível uma declaração conjunta reafirmando o consenso de 2024 sobre controle nuclear, além de uma manifestação geral de preocupações compartilhadas.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que pode sair do encontro</span>
+        <p>Segundo analistas, as áreas mais prováveis de entendimento entre os dois países são definições e marcos comuns de segurança para modelos avançados de IA, além de um mecanismo de comunicação de emergência para discutir incidentes — um primeiro passo concreto, ainda que modesto, na direção de alguma coordenação entre as duas maiores potências de IA do mundo.</p>
+      </div>
+
+      <h2>Disputa e diálogo ao mesmo tempo</h2>
+      <p>A criação do canal de diálogo chega em meio a uma rivalidade cada vez mais acirrada entre os dois países pela liderança em IA — Trump chegou a declarar, dias antes, que "quem vencer a corrida da IA, vence" — e pouco depois da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU sobre riscos da tecnologia</a>, na qual líderes de empresas americanas pediram mais cooperação internacional. O tema também tem implicações militares diretas, incluindo o uso de IA em sistemas de mira e sua possível integração à cadeia de comando nuclear — um contexto que reforça por que entender os fundamentos da tecnologia importa mesmo fora do mundo corporativo, como já discutimos em nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
     `,
   },
 ];
