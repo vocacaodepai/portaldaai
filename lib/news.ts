@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "houthis-usaram-claude-desenvolver-mísseis-guiados",
-    title: "Grupo do Iêmen tentou usar o Claude para desenvolver mísseis guiados",
-    author: "Bruno Danello",
-    summary:
-      "Segundo relatório da Anthropic, agentes ligados ao Iêmen usaram múltiplas instâncias do Claude — cada uma com uma função, como escrever código, pesquisar e revisar — para tentar desenvolver software de guiagem de um foguete e de mísseis balísticos. A empresa afirma não ter evidência de que os equipamentos chegaram a funcionar e já baniu as contas envolvidas.",
-    sourceName: "The Washington Post",
-    sourceUrl: "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
-    date: "2026-09-11",
-  },
-  {
-    slug: "cohere-ceo-chama-orgao-padroes-ia-de-cartel",
-    title: "CEO da Cohere chama proposta de órgão de padrões da IA de 'cartel'",
-    author: "Bruno Danello",
-    summary:
-      "Aidan Gomez criticou o plano de OpenAI, Anthropic e Google de criar uma entidade nos moldes da reguladora financeira americana FINRA para testar modelos antes do lançamento, questionando quem controlaria as regras e a quem elas serviriam. Para ele, três empresas dominantes financiando e certificando seus próprios modelos — e os dos concorrentes — é 'um cartel com outro nome'.",
-    sourceName: "The Globe and Mail",
-    sourceUrl: "https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/",
-    date: "2026-09-18",
-  },
-  {
     slug: "claude-lidera-26-por-cento-pesquisa-proxima-versao",
     title: "Anthropic diz que o Claude já lidera 26% da pesquisa que cria sua próxima versão",
     author: "Bruno Danello",
@@ -1793,6 +1773,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O caso ilustra uma tendência maior: cada vez mais empresas de mídia tradicionais buscam monetizar sua expertise em produção visual através de ferramentas de IA, disputando espaço com plataformas voltadas a criadores de conteúdo. Para quem quer explorar esse tipo de ferramenta no dia a dia, vale conferir nosso guia sobre <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">IA para criadores de conteúdo</a>.</p>
+    `,
+  },
+  {
+    slug: "amazon-fabrica-robos-100-milhoes-indiana-greenwood",
+    title: "Amazon vai investir US$ 100 milhões em nova fábrica de robôs em Indiana",
+    author: "Bruno Danello",
+    summary:
+      "A instalação de 585 mil pés quadrados em Greenwood vai fabricar peças para as operações de robótica e centros de distribuição da Amazon na América do Norte, criando cerca de 300 empregos com salário médio de quase US$ 100 mil por ano — a quarta fábrica do tipo da empresa nos EUA.",
+    sourceName: "Amazon",
+    sourceUrl: "https://www.wthr.com/article/news/local/amazon-announces-100-million-manufacturing-facility-greenwood-johnson-county-indiana/531-90529ef5-981f-4848-a7f9-2cf2dbb0630f",
+    date: "2026-09-24",
+    content: `
+      <p>A Amazon anunciou nesta quinta-feira planos de investir mais de US$ 100 milhões numa nova fábrica de robótica em Greenwood, Indiana, elevando para quatro o número de plantas dedicadas à fabricação de robôs da empresa nos Estados Unidos. A unidade, de 585 mil pés quadrados, deve abrir até 2028 e vai fornecer peças para as operações de robótica e os centros de distribuição da Amazon em toda a América do Norte.</p>
+
+      <p>A fábrica deve gerar cerca de 300 empregos de manufatura e engenharia, com salário médio de quase US$ 100 mil por ano — incluindo vagas para operadores de CNC, soldadores, técnicos de pintura em pó, montadores, engenheiros de manufatura, especialistas em controle de qualidade e engenheiros de automação. Segundo a empresa, a planta vai abrigar operações avançadas de fabricação, solda robótica e pintura automatizada, apoiadas por sistemas de manufatura em nuvem e com uso de IA.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Corrida por capacidade robótica</span>
+        <p>O anúncio em Indiana segue um movimento parecido feito no mês passado em Austin, no Texas, e reforça como a Amazon está acelerando a construção de infraestrutura própria para sustentar sua frota crescente de robôs — a empresa afirma já ter fabricado mais de um milhão de unidades, hoje distribuídas por mais de 300 instalações ao redor do mundo.</p>
+      </div>
+
+      <p>A escolha de Indiana, segundo a Amazon, se deve à mão de obra qualificada em manufatura do estado, à infraestrutura logística favorável e à presença já estabelecida da empresa na região. O movimento acompanha uma tendência mais ampla do setor de logística, que tem investido pesado em automação e robótica assistida por IA para lidar com o crescimento constante da demanda por entregas rápidas.</p>
+    `,
+  },
+  {
+    slug: "accelevation-ipo-5-4-bilhoes-infraestrutura-data-centers-ia",
+    title: "Accelevation mira avaliação de até US$ 5,4 bilhões em IPO nos EUA",
+    author: "Bruno Danello",
+    summary:
+      "A fabricante de equipamentos de distribuição de energia e refrigeração para data centers, sediada em Ohio, busca levantar até US$ 720 milhões na oferta pública inicial, embalada pela demanda de investidores por ações ligadas à infraestrutura de inteligência artificial.",
+    sourceName: "Reuters",
+    sourceUrl: "https://www.investing.com/news/stock-market-news/accelevation-targets-up-to-54-billion-valuation-in-us-ipo-4910506",
+    date: "2026-09-22",
+    content: `
+      <p>A Accelevation, empresa de infraestrutura para data centers sediada em Miamisburg, Ohio, está mirando uma avaliação de até US$ 5,37 bilhões em sua oferta pública inicial nos Estados Unidos — mais uma companhia a aproveitar o apetite de investidores por ações ligadas à infraestrutura de inteligência artificial. A empresa e alguns acionistas vendedores pretendem levantar até US$ 720 milhões, oferecendo 30 milhões de ações a um preço entre US$ 20 e US$ 24 cada.</p>
+
+      <p>Fundada em 2017, a Accelevation projeta, fabrica e instala sistemas de distribuição de energia, refrigeração e infraestrutura modular para clientes de data centers. A demanda por esse tipo de equipamento disparou à medida que empresas de tecnologia aumentam os gastos para construir a capacidade computacional necessária para desenvolver e rodar modelos de IA. A oferta será coordenada por bancos como Morgan Stanley, J.P. Morgan, Goldman Sachs e BofA Securities, com as ações listadas na Nasdaq sob o código "ACCV".</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Onda de IPOs de infraestrutura</span>
+        <p>A Accelevation se junta a uma leva recente de aberturas de capital ligadas à infraestrutura de IA — como a também recente captação da Nscale, apoiada pela Nvidia — num sinal de que o mercado de capitais segue receptivo a empresas que fornecem os "bastidores" físicos da corrida por poder computacional, mesmo fora do circuito das grandes desenvolvedoras de modelos.</p>
+      </div>
+
+      <p>O movimento reforça como a demanda por capacidade de data center segue como um dos gargalos centrais do setor de IA — um tema que já discutimos em relação a projetos como o Stargate, da OpenAI, e que deve continuar pautando tanto decisões de investimento quanto disputas regulatórias sobre energia e licenciamento nos próximos meses.</p>
     `,
   },
 ];
