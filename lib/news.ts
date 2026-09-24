@@ -30,27 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "david-sacks-critica-pacto-desaceleracao-ia",
-    title: "David Sacks critica pacto de desaceleração entre Anthropic e OpenAI",
-    author: "Bruno Danello",
-    summary:
-      "O presidente do conselho de ciência e tecnologia da Casa Branca disse que as duas empresas podem desacelerar seus próprios lançamentos se quiserem, mas acusou o pedido conjunto por avaliadores independentes de ser uma tentativa de driblar a lei antitruste e formar um 'cartel', questionando se a motivação é puramente de segurança.",
-    sourceName: "Washington Examiner",
-    sourceUrl:
-      "https://www.washingtonexaminer.com/policy/technology/4725242/david-sacks-ai-pacing-anthropic-openai-regulations/",
-    date: "2026-09-13",
-  },
-  {
-    slug: "china-padroes-ia-corporificada",
-    title: "China planeja padrões nacionais para 'IA corporificada' (robôs com IA)",
-    author: "Bruno Danello",
-    summary:
-      "O regulador de dados chinês anunciou que vai desenvolver normas técnicas para sistemas de inteligência artificial corporificada — robôs e dispositivos físicos controlados por IA — e orientar autoridades locais na aplicação dessas regras, num movimento para padronizar um setor que cresce rapidamente no país.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai",
-    date: "2026-09-13",
-  },
-  {
     slug: "amd-acoes-sobem-otimismo-chips-ia",
     title: "Ações da AMD sobem com otimismo sobre chips de IA",
     author: "Bruno Danello",
@@ -1488,6 +1467,52 @@ export const news: NewsItem[] = [
 
       <h2>Energia renovável como vantagem competitiva</h2>
       <p>O caso da Verda ilustra como a disputa por infraestrutura de IA está deixando de ser só uma questão de quem tem mais GPUs disponíveis e passando a considerar também o custo e a origem da energia usada para alimentar data centers — um fator que ganha peso conforme cresce a demanda por capacidade computacional para treinar e rodar modelos cada vez maiores.</p>
+    `,
+  },
+  {
+    slug: "astroforge-solo-nave-espacial-totalmente-autonoma-2027",
+    title: "AstroForge vai lançar em 2027 a primeira missão espacial totalmente autônoma, pilotada por IA",
+    author: "Bruno Danello",
+    summary:
+      "A empresa de mineração de asteroides desenvolveu o Solo, um modelo de IA baseado em transformers que vai controlar a sonda Autonomy-1 do início ao fim da missão sem receber um único comando da Terra — um teste que precede o uso do sistema na sonda de mineração DeepSpace-2.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+    date: "2026-09-22",
+    content: `
+      <p>A AstroForge, startup americana de mineração de asteroides, anunciou que sua próxima sonda, batizada de Autonomy-1, será a primeira missão espacial da história a completar toda a sua operação sem receber um único comando enviado da Terra depois da separação do veículo de lançamento. Quem vai pilotar a sonda é o Solo, um modelo de IA desenvolvido internamente pela empresa e baseado em arquitetura transformer — a mesma família de tecnologia por trás dos grandes modelos de linguagem, adaptada aqui para lidar com navegação, rastreamento e tomada de decisão a bordo, sem esperar por instruções de controladores humanos.</p>
+
+      <p>A Autonomy-1 vai ao espaço a bordo do primeiro voo do foguete Nova Pathfinder, da Stoke Space, servindo como demonstração completa do Solo em órbita da Terra. Antes disso, porém, o sistema já vai voar em "modo sombra" na DeepSpace-2 — a sonda de mineração de asteroides da AstroForge com lançamento previsto para o quarto trimestre de 2026 — processando dados reais da espaçonave sem que suas decisões cheguem a ser executadas, uma forma de validar o comportamento do modelo antes de confiar a ele o controle total de uma missão.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Por que não usar comando remoto?</span>
+        <p>Missões distantes da Terra sofrem com atraso de comunicação — o sinal de rádio leva tempo para ir e voltar, o que torna o controle manual em tempo real inviável para decisões rápidas. Um sistema autônomo capaz de reagir sozinho a imprevistos reduz esse gargalo, mas também levanta a aposta: qualquer erro do modelo não tem como ser corrigido a tempo por um operador humano.</p>
+      </div>
+
+      <h2>Mais um passo da IA saindo do computador</h2>
+      <p>O projeto da AstroForge se soma a um movimento mais amplo de modelos de IA assumindo tarefas que exigem operar no mundo físico sem supervisão constante — a mesma lógica por trás de avanços recentes em robótica industrial e agentes autônomos. Para quem quer entender melhor os conceitos por trás desse tipo de sistema, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "proofpoint-lanca-sistema-unificado-seguranca-dados-agentes-ia",
+    title: "Proofpoint lança sistema que une segurança de dados e de agentes de IA numa só ferramenta",
+    author: "Bruno Danello",
+    summary:
+      "O Proofpoint Agentic Data and AI Security promete fechar uma lacuna comum nas empresas: ferramentas de IA que enxergam a intenção do agente mas não o acesso a dados sensíveis, e ferramentas de dados que enxergam o dado mas não a intenção — segundo a empresa, 87% das organizações já usam assistentes de IA além da fase piloto, mas só 48% confiam que detectariam uma violação.",
+    sourceName: "Proofpoint",
+    sourceUrl: "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-breaks-down-divide-between-data-security-and-ai-security",
+    date: "2026-09-22",
+    content: `
+      <p>A Proofpoint anunciou o Agentic Data and AI Security, um sistema que a empresa descreve como o primeiro do setor a tratar segurança de dados e segurança de IA como um único risco conectado, em vez de duas ferramentas separadas. A ideia parte de um problema comum em empresas que já adotaram assistentes e agentes de IA: ferramentas voltadas à IA costumam enxergar a intenção de um agente, mas não o que ele está acessando; já ferramentas de proteção de dados enxergam informações sensíveis, mas não entendem a intenção por trás do acesso. Segundo a Proofpoint, essa visão parcial deixa riscos importantes passarem despercebidos.</p>
+
+      <p>O sistema permite que empresas liberem agentes de IA para acessar apenas os dados necessários para cada tarefa específica, com base na intenção declarada, e traduz políticas de negócio já existentes em controles aplicados em tempo real. Três agentes autônomos operam continuamente: um de detecção automática, um de investigação instantânea e um de otimização de proteção — buscando acompanhar o ritmo de um risco que cresce junto com o uso corporativo de IA.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Confiança não acompanha a adoção</span>
+        <p>Segundo relatório da própria Proofpoint sobre risco humano e de IA em 2026, 87% das organizações já levaram assistentes de IA além da fase de piloto — mas 52% delas não têm confiança de que seus controles atuais conseguiriam detectar uma violação de segurança causada por esse uso.</p>
+      </div>
+
+      <h2>Segurança tenta acompanhar a adoção acelerada</h2>
+      <p>O lançamento reforça uma tendência que já vínhamos acompanhando por aqui: conforme agentes de IA ganham mais autonomia para acessar sistemas e dados corporativos, cresce também a corrida por ferramentas capazes de monitorar e conter esse acesso antes que vire um incidente de segurança. Para quem avalia como adotar ferramentas de IA com mais segurança no trabalho, vale revisitar nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist para escolher uma ferramenta de IA com segurança</a>.</p>
     `,
   },
 ];
