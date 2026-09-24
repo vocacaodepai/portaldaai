@@ -30,27 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "anthropic-lanca-claude-fable-5-1-mythos-5-1",
-    title: "Anthropic lança Claude Fable 5.1 e Mythos 5.1",
-    author: "Bruno Danello",
-    summary:
-      "Os novos modelos superam as versões anteriores em tarefas de programação, trabalho de conhecimento e problemas de longa duração, com destaque para uso de computador e tarefas de agente. O preço por token segue igual, mas a leitura de cache ficou 75% mais barata — e as salvaguardas de segurança passaram a gerar bem menos alertas falsos em perguntas benignas de biologia e cibersegurança.",
-    sourceName: "Anthropic",
-    sourceUrl: "https://www.anthropic.com/news/claude-opus-5",
-    date: "2026-09-01",
-  },
-  {
-    slug: "pesquisador-anthropic-pede-demissao-alerta-riscos",
-    title: "Mais um pesquisador de segurança deixa a Anthropic e alerta sobre riscos",
-    author: "Bruno Danello",
-    summary:
-      "Joe Benton deixou a equipe de segurança da Anthropic e passou a defender publicamente mais transparência sobre incidentes de segurança em laboratórios de IA, citando o caso em que agentes da empresa acessaram a internet aberta sem autorização. É a segunda saída da equipe de segurança da Anthropic com alerta público em poucos dias.",
-    sourceName: "NBC News",
-    sourceUrl:
-      "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
-    date: "2026-09-12",
-  },
-  {
     slug: "microsoft-codigo-conduta-modelos-mai-nadella",
     title: "Microsoft publica Código de Conduta para seus próprios modelos de IA",
     author: "Bruno Danello",
@@ -1437,6 +1416,52 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>Segundo a Talos, o design representa uma mudança relevante na forma como ataques cibernéticos podem ser conduzidos: partes cada vez maiores da cadeia de um ataque passam a poder ser executadas sem intervenção direta de uma pessoa, com o malware simplesmente consultando serviços de IA usados normalmente por aplicações legítimas. O caso reforça uma preocupação que já discutimos por aqui sobre os limites entre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">um agente de IA, um chatbot e uma automação comum</a> — e como essa mesma autonomia que torna ferramentas de IA úteis no trabalho também pode ser explorada por quem tem más intenções.</p>
+    `,
+  },
+  {
+    slug: "tse-lanca-chatvote-assistente-ia-eleicoes-2026",
+    title: "TSE lança o ChatVote, assistente de IA para tirar dúvidas sobre as Eleições 2026",
+    author: "Bruno Danello",
+    summary:
+      "O Tribunal Superior Eleitoral lançou um chatbot com inteligência artificial que responde em linguagem natural a perguntas sobre local de votação, justificativa de ausência e outras dúvidas do eleitor, disponível 24 horas no Portal do TSE e no aplicativo e-Título.",
+    sourceName: "TSE",
+    sourceUrl: "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-lanca-assistente-virtual-para-ampliar-acesso-a-informacoes-sobre-as-eleicoes-2026",
+    date: "2026-09-22",
+    content: `
+      <p>O Tribunal Superior Eleitoral lançou nesta semana o ChatVote, um assistente virtual com inteligência artificial voltado a responder dúvidas dos eleitores sobre as Eleições 2026. A ferramenta permite fazer perguntas em linguagem natural — como se fosse uma conversa comum — sobre temas como dia, horário e local de votação, justificativa de ausência às urnas, orientações para mesários e o conteúdo das resoluções eleitorais.</p>
+
+      <p>Segundo o TSE, o ChatVote já está disponível na página inicial do Portal do Tribunal e no aplicativo e-Título, funcionando 24 horas por dia, sete dias por semana. O presidente da Corte, ministro Kassio Nunes Marques, afirmou que o objetivo da iniciativa é ampliar o acesso da população às informações da Justiça Eleitoral, reduzindo a dependência de canais de atendimento tradicionais em um período de alta demanda como o de uma eleição nacional.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que vem a seguir</span>
+        <p>O TSE já sinalizou próximos passos para o assistente: um sistema para o eleitor avaliar as respostas recebidas, integração com o WhatsApp e testes para permitir interação por voz — sinal de que a ferramenta deve continuar evoluindo ao longo do calendário eleitoral.</p>
+      </div>
+
+      <h2>Mais um órgão público adotando IA de atendimento</h2>
+      <p>O lançamento confirma uma tendência que já vínhamos acompanhando por aqui: órgãos públicos brasileiros adotando assistentes de IA para tornar serviços essenciais mais acessíveis ao cidadão comum, sem exigir conhecimento técnico prévio. Para quem quer entender melhor a diferença entre esse tipo de assistente conversacional e outras formas de automação, vale conferir nosso texto sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">agente de IA, chatbot ou automação — qual a diferença</a>.</p>
+    `,
+  },
+  {
+    slug: "alphabet-intrinsic-core-codigo-aberto-robotica-roscon",
+    title: "Alphabet abre o código do Intrinsic Core, sua plataforma de robótica industrial",
+    author: "Bruno Danello",
+    summary:
+      "A Intrinsic, unidade de robótica da Alphabet, liberou como código aberto sob licença Apache 2.0 o núcleo de sua plataforma de robótica — compatível com o ROS e com módulos de controle, planejamento de movimento e integração de sensores — durante a ROSCon 2026, em Toronto.",
+    sourceName: "Intrinsic",
+    sourceUrl: "https://www.intrinsic.ai/blog/posts/introducing-intrinsic-core",
+    date: "2026-09-22",
+    content: `
+      <p>A Intrinsic, unidade de robótica da Alphabet, anunciou durante a ROSCon 2026, em Toronto, a liberação como código aberto do Intrinsic Core — o núcleo de sua plataforma de robótica industrial, compatível com o ROS (Robot Operating System) e distribuído sob a licença permissiva Apache 2.0. Segundo a empresa, o pacote inclui o Intrinsic Control, um framework de controle em tempo real agnóstico em relação ao hardware, além de módulos de estimativa de posição (construído sobre o FoundationPose, da Nvidia), planejamento de movimento e de preensão, simulação, calibração e drivers para integração de sensores e hardware de terceiros.</p>
+
+      <p>A proposta é reduzir a complexidade historicamente associada à programação de robôs industriais, oferecendo um ambiente de software pré-configurado que roda localmente, sem depender de nuvem. O código já está disponível no GitHub da Intrinsic.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Código aberto acelera o setor</span>
+        <p>Ao liberar componentes centrais da própria infraestrutura, a Intrinsic segue um movimento comum entre grandes empresas de tecnologia: abrir ferramentas de base para atrair desenvolvedores e padronizar o ecossistema ao seu redor, em vez de manter tudo fechado — uma aposta em volume e adoção no lugar de controle total sobre a pilha de software.</p>
+      </div>
+
+      <h2>Robótica física como nova fronteira da IA</h2>
+      <p>O anúncio reforça como a corrida por inteligência artificial deixou de se concentrar só em modelos de linguagem e passou a incluir também a chamada "IA física" — sistemas que precisam perceber, planejar e agir no mundo real, não apenas gerar texto ou imagem. Para quem quer entender melhor como a automação impulsionada por IA já está mudando rotinas de trabalho, vale revisitar nosso texto sobre <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">como usar automação com IA para economizar horas de trabalho</a>.</p>
     `,
   },
 ];
