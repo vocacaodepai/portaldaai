@@ -30,26 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "factory-triplica-avaliacao-5-bilhoes-codificacao-autonoma",
-    title: "Startup de codificação autônoma Factory triplica avaliação para US$ 5 bilhões",
-    author: "Bruno Danello",
-    summary:
-      "A Factory, que desenvolve agentes de IA chamados 'Droids' capazes de conduzir todo o ciclo de desenvolvimento de software, captou US$ 200 milhões numa rodada que triplicou sua avaliação em apenas cinco meses. Empresas como Nvidia, Adobe e T-Mobile já rodam suas próprias 'fábricas de software' usando a ferramenta.",
-    sourceName: "Reuters",
-    sourceUrl: "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4571DR:0-ai-coding-agent-startup-factory-triples-valuation-to-5-billion-in-latest-funding-round/",
-    date: "2026-09-16",
-  },
-  {
-    slug: "canada-alemanha-300-milhoes-lawzero-bengio",
-    title: "Canadá e Alemanha investem até US$ 300 milhões na ONG de IA segura de Bengio",
-    author: "Bruno Danello",
-    summary:
-      "O financiamento vai para a LawZero, organização sem fins lucrativos fundada pelo pesquisador Yoshua Bengio, e será usado para contratar equipe e custear o desenvolvimento da 'Scientist AI' — um sistema pensado para focar em verdades objetivas, sem perseguir metas próprias como agradar o usuário. O projeto também vai gerar 360 empregos no Canadá.",
-    sourceName: "The Globe and Mail",
-    sourceUrl: "https://www.theglobeandmail.com/business/article-yoshua-bengio-lawzero-receives-300-million-from-canada-germany/",
-    date: "2026-09-16",
-  },
-  {
     slug: "altman-laboratorios-ia-orgao-padroes-sem-governo",
     title: "Altman diz que laboratórios de IA podem ter que criar órgão de padrões sozinhos",
     author: "Bruno Danello",
@@ -1691,6 +1671,52 @@ export const news: NewsItem[] = [
 
       <h2>Disputa por infraestrutura de IA chega à bolsa</h2>
       <p>O IPO da Nscale reforça como a disputa por capacidade computacional para treinar e rodar modelos de IA está atraindo cada vez mais capital do mercado público, não só de fundos de venture capital — um movimento que deve se repetir com outras empresas de infraestrutura de IA em busca de capital para sustentar seu ritmo de crescimento.</p>
+    `,
+  },
+  {
+    slug: "openai-lanca-mentalhealthbench-avaliar-ia-saude-mental",
+    title: "OpenAI lança benchmark público para avaliar como a IA lida com conversas sobre saúde mental",
+    author: "Bruno Danello",
+    summary:
+      "O MentalHealthBench reúne 1.215 conversas sintéticas e 5.262 critérios de avaliação criados junto com mais de 80 psicólogos e psiquiatras licenciados de 22 países — no teste, o GPT-6 Astra liderou com 57,3% de acerto, à frente do Claude Opus 5.5 (52,4%) e bem acima do GPT-4o (32,1%) e do Gemini 2.5 Pro (29,5%).",
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/introducing-mentalhealthbench/",
+    date: "2026-09-23",
+    content: `
+      <p>A OpenAI lançou o MentalHealthBench, um benchmark público criado para avaliar como diferentes modelos de IA respondem em conversas sobre saúde mental — de temas cotidianos de bem-estar até emergências mais graves. O conjunto reúne 1.215 conversas sintéticas pareadas com 5.262 critérios de avaliação (rubrics), desenvolvidos em conjunto com mais de 80 psicólogos e psiquiatras licenciados de 22 países, falando 19 idiomas e cobrindo quase 20 subespecialidades da saúde mental.</p>
+
+      <p>O conteúdo do benchmark se divide em 53,5% de cenários não agudos, 18,2% de alta gravidade e 28,3% de emergência, representando quatro perfis de usuário: adultos (68,1%), adolescentes (21,2%), profissionais clínicos (5,8%) e cuidadores (4,9%). Nos primeiros resultados divulgados pela própria OpenAI, o GPT-6 Astra pontuou 57,3%, à frente do GPT-6 Sol (53,9%), do Claude Opus 5.5 (52,4%) e do GPT-6 Luna (50,2%) — todos bem acima do GPT-4o (32,1%) e do Gemini 2.5 Pro (29,5%).</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Benchmark aberto, uso com cautela</span>
+        <p>A OpenAI decidiu liberar o MentalHealthBench de forma aberta para que outros pesquisadores possam examinar a metodologia, rodar suas próprias avaliações e construir em cima do trabalho — mas a pontuação alta num teste desse tipo não substitui acompanhamento profissional real em situações de saúde mental, apenas mede a qualidade da resposta do modelo em cenários simulados.</p>
+      </div>
+
+      <h2>Mais um sinal de que conversas sensíveis pedem avaliação específica</h2>
+      <p>O lançamento reforça uma preocupação crescente entre laboratórios de IA: modelos de propósito geral, avaliados majoritariamente em tarefas de código e raciocínio, também precisam de testes específicos para temas delicados como saúde mental, onde uma resposta mal calibrada pode ter consequências sérias. Para quem quer entender melhor os termos técnicos por trás desse tipo de avaliação, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "google-lanca-satelite-tpu-project-suncatcher-espaco",
+    title: "Google vai lançar satélite com TPUs em órbita para testar data centers de IA no espaço",
+    author: "Bruno Danello",
+    summary:
+      "O satélite experimental do Project Suncatcher, carregando quatro TPUs e alimentado por painéis solares de cerca de 1 quilowatt, decola em 1º de outubro a bordo de um foguete Falcon 9 da SpaceX, para medir como os chips resistem às forças de lançamento, à radiação e às variações térmicas extremas da órbita baixa da Terra.",
+    sourceName: "Data Center Dynamics",
+    sourceUrl: "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs-envisions-1km-arrays-of-81-satellite-compute-clusters/",
+    date: "2026-09-24",
+    content: `
+      <p>O Google vai lançar, em 1º de outubro, um satélite experimental carregando quatro unidades de processamento tensorial (TPUs) — chips próprios usados para treinar e rodar modelos de IA — como parte do Project Suncatcher, programa de pesquisa que explora a viabilidade de longo prazo de instalar data centers de aprendizado de máquina em órbita baixa da Terra. O satélite, batizado de MVP, decola a bordo de um foguete Falcon 9 da SpaceX, na missão de carona Transporter-18, partindo da Base da Força Espacial de Vandenberg, na Califórnia.</p>
+
+      <p>O equipamento carrega o equivalente à capacidade computacional de um único servidor de data center, alimentado por painéis solares que fornecem cerca de 1 quilowatt de energia. A missão tem como objetivo medir como o hardware resiste às forças de lançamento — que podem chegar a até 10 vezes a força da gravidade sobre o satélite como um todo, e entre 50 e 100 vezes sobre componentes individuais como os chips TPU —, além de radiação e variações térmicas extremas do ambiente espacial.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Uma aposta de longo prazo</span>
+        <p>O Google vai fazer parceria com a Planet Labs no Project Suncatcher, com planos de lançar dois satélites adicionais até o início de 2027 para explorar o potencial de clusters maiores de computação em órbita — a empresa já imagina arranjos de até 81 satélites organizados em um formato de cerca de 1 quilômetro de extensão.</p>
+      </div>
+
+      <h2>Data centers saindo da Terra?</h2>
+      <p>A iniciativa do Google ilustra até que ponto a demanda por infraestrutura de IA está levando grandes empresas de tecnologia a considerar alternativas cada vez mais ambiciosas para resolver gargalos de energia e espaço físico — mesmo que, por enquanto, o projeto ainda esteja na fase de prova de conceito, longe de uma aplicação comercial viável.</p>
     `,
   },
 ];
