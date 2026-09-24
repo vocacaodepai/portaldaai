@@ -30,26 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "cornelis-networks-205-milhoes-active-compute-fabric",
-    title: "Cornelis Networks capta US$ 205 milhões para desafiar a Nvidia em redes de IA",
-    author: "Bruno Danello",
-    summary:
-      "A startup, derivada da Intel, lançou a Active Compute Fabric, uma arquitetura aberta de rede que processa dados enquanto os transmite, em vez de só conectar servidores — respondendo ao desperdício de tempo de GPU parada esperando dados chegarem. A empresa também anunciou colaboração com a Qualcomm em infraestrutura de IA em escala de rack.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
-    date: "2026-09-14",
-  },
-  {
-    slug: "euclyd-200-milhoes-chip-ia-samsung",
-    title: "Startup holandesa Euclyd capta mais de € 200 milhões para chip de IA sem GPU",
-    author: "Bruno Danello",
-    summary:
-      "A Euclyd, de Eindhoven, fechou uma rodada Série A com participação da Samsung e outros investidores, tendo o ex-presidente da ASML Peter Wennink como novo presidente do conselho. A empresa desenvolve uma arquitetura de chip alternativa à GPU voltada especificamente para inferência de modelos de IA, com produtos físicos previstos para 2028.",
-    sourceName: "Data Center Dynamics",
-    sourceUrl: "https://www.datacenterdynamics.com/en/news/dutch-ai-chip-startup-euclyd-raises-231-million-in-funding-round-co-led-by-samsung/",
-    date: "2026-09-15",
-  },
-  {
     slug: "tavus-lanca-phoenix-4-5-renderizacao-humana-tempo-real",
     title: "Tavus lança Phoenix-4.5, modelo de renderização humana em tempo real",
     author: "Bruno Danello",
@@ -1613,6 +1593,52 @@ export const news: NewsItem[] = [
 
       <h2>IA cada vez mais presente também em máquinas pequenas</h2>
       <p>O avanço reforça como sistemas de controle baseados em IA não estão restritos a robôs de grande porte ou veículos autônomos — a mesma lógica de decisão em tempo real também está chegando a máquinas minúsculas, ampliando o leque de aplicações práticas da tecnologia além dos chatbots e assistentes que costumam dominar as manchetes.</p>
+    `,
+  },
+  {
+    slug: "agentes-ia-roubam-600-mil-cartoes-credito-skimmers",
+    title: "Criminoso usa agentes de IA para roubar 600 mil cartões de crédito de mais de cem lojas online",
+    author: "Bruno Danello",
+    summary:
+      "Segundo pesquisadores de segurança, um único operador orquestrou agentes de IA de código aberto — rodando modelos como DeepSeek, Kimi e uma versão mais antiga do Claude — para instalar 'skimmers' de dados de pagamento em pelo menos 119 sites, incluindo uma rede hoteleira da Fortune 500 e uma grande companhia aérea dos EUA, a um custo médio de US$ 25 por empresa atacada.",
+    sourceName: "BleepingComputer",
+    sourceUrl: "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    date: "2026-09-22",
+    content: `
+      <p>Pesquisadores de segurança identificaram uma campanha criminosa em andamento desde pelo menos julho, na qual um único operador usa frameworks de agentes de IA de código aberto para atacar centenas de lojas online em escala e roubar dados de cartão de crédito. Em apenas cinco dias, o atacante comprometeu ao menos 27 empresas e lançou mais de cem ataques; no total, a campanha já soma pelo menos 119 sites comprometidos e mais de 600 mil registros de cartão de crédito roubados, incluindo uma rede hoteleira da lista Fortune 500 e uma grande companhia aérea americana.</p>
+
+      <p>Três frameworks de orquestração de agentes de IA disponíveis publicamente — Strix, Cairn e Hermes — formaram a espinha dorsal da operação, cada um responsável por uma etapa diferente da cadeia de ataque. Os modelos usados para conduzir os ataques incluíam os sistemas chineses DeepSeek e Kimi, além do Claude Opus 4.6, uma versão mais antiga do modelo de ponta da Anthropic. Segundo pesquisadores, rodar um ataque de skimmer orientado por agentes de IA custa em média apenas US$ 25 por empresa alvo — uma conta de OpenRouter usada na operação gastou pouco mais de US$ 7 mil ao longo de quatro semanas, com o custo total da campanha estimado entre US$ 12 mil e US$ 18 mil.</p>
+
+      <div class="callout-box callout-bad">
+        <span class="callout-label">Baixo custo, alto alcance</span>
+        <p>O operador, aparentemente de origem chinesa, deu instruções breves aos agentes sobre os objetivos da operação e deixou que eles cuidassem do resto — incluindo técnicas como inserir código malicioso em arquivos JavaScript legítimos, envenenar conteúdo de CDN e caches de servidor, alterar implantações Kubernetes e usar tarefas agendadas para restaurar o skimmer sempre que ele era removido.</p>
+      </div>
+
+      <h2>Crime cibernético cada vez mais barato e automatizado</h2>
+      <p>O caso ilustra como agentes de IA de código aberto, combinados com modelos relativamente acessíveis, já reduzem drasticamente o custo e a habilidade técnica necessários para conduzir ataques em escala industrial — uma tendência que reforça a importância de escolher e configurar com cuidado qualquer ferramenta de IA usada no ambiente de trabalho. Vale revisitar nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist para escolher uma ferramenta de IA com segurança</a>.</p>
+    `,
+  },
+  {
+    slug: "cohere-aleph-alpha-fusao-20-bilhoes-ia-soberana",
+    title: "Cohere e Aleph Alpha assinam fusão de US$ 20 bilhões para criar rival transatlântica de IA",
+    author: "Bruno Danello",
+    summary:
+      "As empresas canadense e alemã formalizaram o acordo de combinação de negócios anunciado em abril, criando uma companhia com sede dupla em Berlim e Toronto e recebendo US$ 600 milhões em investimento do grupo Schwarz — movimento que as empresas descrevem como a primeira solução de 'IA soberana' transatlântica.",
+    sourceName: "Unite.AI",
+    sourceUrl: "https://www.unite.ai/cohere-signs-definitive-combination-agreement-with-aleph-alpha/",
+    date: "2026-09-16",
+    content: `
+      <p>A canadense Cohere e a alemã Aleph Alpha assinaram um acordo definitivo de combinação de negócios, formalizando a fusão entre as duas empresas anunciada inicialmente em abril deste ano. A companhia resultante vai operar globalmente sob o nome Cohere, com sede dupla em Berlim e Toronto, mantendo o centro de pesquisa da Aleph Alpha em Heidelberg. Segundo as empresas, o negócio avalia a companhia combinada em US$ 20 bilhões.</p>
+
+      <p>Como parte do acordo, o grupo Schwarz — já um investidor relevante na Aleph Alpha — vai aportar US$ 600 milhões na nova Cohere. Ilhan Scheer, hoje co-CEO da Aleph Alpha, assume o cargo de diretor de operações (COO) da companhia combinada, liderando o modelo operacional global e a escala organizacional da empresa resultante. A transação ainda depende de aprovações regulatórias finais e deve ser concluída ainda em 2026.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que é "IA soberana"</span>
+        <p>As duas empresas descrevem a fusão como a criação da primeira solução transatlântica de "IA soberana" — termo usado para descrever infraestrutura de inteligência artificial desenvolvida e operada dentro de um bloco econômico ou país específico, reduzindo a dependência de provedores de nuvem e modelos americanos ou chineses, especialmente para clientes do setor público.</p>
+      </div>
+
+      <h2>Consolidação entre desafiantes dos grandes laboratórios</h2>
+      <p>A fusão reforça um movimento de consolidação entre empresas de IA que competem com os gigantes americanos — OpenAI, Anthropic e Google — sem o mesmo volume de capital, unindo forças de pesquisa e presença comercial já estabelecida em setores regulados e no setor público na Europa e no Canadá.</p>
     `,
   },
 ];
