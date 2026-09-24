@@ -30,17 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "google-lanca-gemini-3-8-flash",
-    title: "Google lança o Gemini 3.8 Flash",
-    author: "Bruno Danello",
-    summary:
-      "É o terceiro lançamento da linha Flash em seis semanas, com melhorias em engenharia de software, tarefas de agente e raciocínio em várias etapas, chegando perto do desempenho de modelos mais caros. O preço de entrada segue igual ao da versão anterior, e há também uma variante voltada a cibersegurança para governos e parceiros de confiança.",
-    sourceName: "Google",
-    sourceUrl:
-      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    date: "2026-09-02",
-  },
-  {
     slug: "meta-adquire-startup-sueca-stilla",
     title: "Meta compra a startup sueca Stilla.ai para reforçar IA de vendas",
     author: "Bruno Danello",
@@ -1352,6 +1341,29 @@ export const news: NewsItem[] = [
 
       <h2>Mais uma peça na disputa por modelos abertos</h2>
       <p>O lançamento reforça a corrida entre empresas chinesas por modelos de peso aberto competitivos, um movimento que já vimos com o <a href="/noticias/deepseek-v4-1-flash-mantem-v4-pro">DeepSeek V4.1 Flash</a> e que pressiona diretamente o preço cobrado por concorrentes ocidentais. Para quem avalia qual ferramenta de IA usar no dia a dia, vale lembrar que "melhor" nem sempre significa "mais caro" — como já discutimos em nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> — e que entender termos como "peso aberto" e "mistura de especialistas" ajuda a acompanhar esse tipo de notícia, algo que nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a> explica em detalhes.</p>
+    `,
+  },
+  {
+    slug: "ema-capta-77-milhoes-agentes-ia-substituem-software",
+    title: "Startup Ema capta US$ 77 milhões apostando que agentes de IA vão substituir softwares corporativos",
+    author: "Bruno Danello",
+    summary:
+      "A rodada Série B, liderada pela Creaegis, mais que quadruplicou a avaliação da empresa, que já soma mais de 50 clientes corporativos como Google, Microsoft, PwC e KPMG usando suas 'funcionárias de IA' para tarefas de RH, TI e financeiro.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+    date: "2026-09-23",
+    content: `
+      <p>A Ema, startup que desenvolve "funcionárias de IA" para automatizar tarefas corporativas, levantou uma rodada Série B de US$ 77 milhões liderada pela Creaegis, com aumento de aporte de investidores já existentes como Accel, S32 e Prosus. A rodada eleva o total captado pela empresa a US$ 140 milhões e mais que quadruplica sua avaliação em relação à rodada anterior — embora o valor exato não tenha sido divulgado.</p>
+
+      <p>Segundo a empresa, mais de 50 clientes corporativos já usam os agentes da Ema para rodar operações de RH, TI e financeiro, incluindo nomes como Google, Microsoft, PwC e KPMG. A Ema afirma ter mais de 1 milhão de usuários ativos e um crescimento de receita de 50 vezes em dois anos, com clientes processando milhões de interações por ano através dos agentes.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que está por trás da captação</span>
+        <p>A tese da Ema — e de um número crescente de investidores — é que agentes de IA vão substituir boa parte do software corporativo tradicional, não apenas complementá-lo: em vez de comprar uma licença de sistema e treinar funcionários para usá-lo, a empresa contrata um agente que já sabe operar o processo de ponta a ponta.</p>
+      </div>
+
+      <h2>Mais um sinal da pressão sobre o software empresarial</h2>
+      <p>A rodada reforça uma tendência que já discutimos em nosso artigo sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>: cada vez mais empresas de tecnologia apostam que agentes autônomos vão comer fatias do mercado de SaaS tradicional, e não só oferecer mais um recurso dentro dele. Para pequenos negócios que já usam automação no dia a dia, vale revisitar nosso guia de <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automação com IA para economizar horas de trabalho</a> — o mesmo princípio por trás de produtos como o da Ema, só que em escala corporativa.</p>
     `,
   },
 ];
