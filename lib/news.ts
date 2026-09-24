@@ -30,26 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "openai-lanca-chatgpt-images-2-5",
-    title: "OpenAI lança o ChatGPT Images 2.5",
-    author: "Bruno Danello",
-    summary:
-      "O novo modelo de geração de imagem da OpenAI promete iluminação mais natural, texturas mais ricas, melhor preservação de fotos de referência enviadas pelo usuário e até 50% menos tempo de geração em relação à versão anterior. A atualização também trouxe recursos como esboço à mão livre e comentários diretamente sobre partes específicas de uma imagem.",
-    sourceName: "OpenAI",
-    sourceUrl: "https://openai.com/index/introducing-chatgpt-images-2-5/",
-    date: "2026-09-08",
-  },
-  {
-    slug: "openai-pergunta-congresso-antitruste-desaceleracao",
-    title: "OpenAI pergunta ao Congresso dos EUA se pode coordenar desaceleração com rivais",
-    author: "Bruno Danello",
-    summary:
-      "A empresa levou a membros do Congresso americano a dúvida se combinar com concorrentes como Anthropic e Google uma redução conjunta no ritmo de lançamento de modelos de ponta, por motivos de segurança, poderia violar a lei antitruste dos Estados Unidos — já que coordenação entre concorrentes para limitar lançamentos é historicamente tratada como prática restritiva de mercado.",
-    sourceName: "TechRepublic",
-    sourceUrl: "https://www.techrepublic.com/article/news-openai-ai-slowdown-antitrust-congress/",
-    date: "2026-09-11",
-  },
-  {
     slug: "deepseek-v4-1-flash-mantem-v4-pro",
     title: "DeepSeek lança V4.1 Flash e recua de plano de aposentar o V4 Pro",
     author: "Bruno Danello",
@@ -1561,6 +1541,52 @@ export const news: NewsItem[] = [
 
       <h2>Guerra na Ucrânia acelera investimento em defesa com IA</h2>
       <p>O caso da Tekever ilustra como o conflito na Ucrânia vem funcionando como acelerador de investimento em tecnologia de defesa baseada em IA na Europa, com fundos institucionais tradicionalmente conservadores — como o de uma universidade pública americana — topando entrar em rodadas bilionárias desse setor pela primeira vez.</p>
+    `,
+  },
+  {
+    slug: "meta-lanca-muse-charm-chaveiro-assistente-ia",
+    title: "Meta lança o Muse Charm, um chaveiro dedicado ao seu assistente de IA",
+    author: "Bruno Danello",
+    summary:
+      "Apresentado como surpresa no Meta Connect 2026, o dispositivo do tamanho de um estojo de fones tem tela sensível ao toque, sensor de digital, conexão 5G própria e nenhuma câmera — permitindo conversar com o agente Muse sem precisar abrir o celular. Chega em dezembro, com preço estimado na faixa de um smartwatch.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+    date: "2026-09-23",
+    content: `
+      <p>A Meta apresentou, como surpresa de última hora no Meta Connect 2026, o Charm: um dispositivo dedicado ao seu assistente de IA Muse, do tamanho aproximado de um estojo de fones de ouvido sem fio. Mark Zuckerberg tirou o aparelho do bolso durante a apresentação e demonstrou como ativar uma conversa com o Muse usando o sensor de digital embutido no canto do dispositivo.</p>
+
+      <p>O Charm tem uma tela sensível ao toque de cerca de duas polegadas, que exibe um avatar animado e personalizável representando o assistente, além de conexão 5G própria — dispensando a necessidade de estar conectado ao celular para funcionar. Diferente de outros dispositivos vestíveis de IA lançados por concorrentes nos últimos meses, o Charm não tem câmera, uma escolha deliberada da empresa. O aparelho combina o Muse com a nova tecnologia de voz em tempo real da Meta, dando ao usuário mais uma forma de conversar com o assistente sem precisar abrir um aplicativo primeiro.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Quando chega e quanto custa</span>
+        <p>A Meta afirma que o Charm será lançado em dezembro, mas ainda não confirmou preço nem disponibilidade por país. Segundo pessoas a par dos planos, o valor deve ficar na faixa cobrada por um smartwatch.</p>
+      </div>
+
+      <h2>Mais uma aposta em dispositivos dedicados a assistentes de IA</h2>
+      <p>O lançamento reforça uma tendência que já vem se desenhando entre grandes empresas de tecnologia: criar hardware dedicado para reduzir a fricção de acessar um assistente de IA, em vez de depender só do aplicativo no celular. Para quem já usa ou está pensando em configurar um assistente de IA no dia a dia, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a>.</p>
+    `,
+  },
+  {
+    slug: "pentagono-meio-milhao-pessoas-dia-ia-senado-proibido",
+    title: "Pentágono tem meio milhão de pessoas por dia usando ferramentas de IA que o Senado dos EUA não pode tocar",
+    author: "Bruno Danello",
+    summary:
+      "Enquanto o Departamento de Defesa dos EUA usa ferramentas avançadas de IA em larga escala todos os dias, funcionários do Senado americano só têm acesso liberado a três chats básicos — Microsoft Copilot Chat, Gemini para Google Workspace e ChatGPT Enterprise —, sem autorização para as ferramentas mais avançadas no centro do próprio debate regulatório que eles conduzem.",
+    sourceName: "NPR",
+    sourceUrl: "https://www.hppr.org/npr-news/2026-09-23/as-congress-confronts-ai-senate-lawmakers-are-shut-off-from-its-most-advanced-tools",
+    date: "2026-09-23",
+    content: `
+      <p>Uma reportagem da NPR revelou um contraste chamativo dentro do próprio governo americano: enquanto o Pentágono já tem cerca de meio milhão de pessoas por dia usando ferramentas de inteligência artificial em suas operações diárias, os próprios funcionários do Senado dos Estados Unidos — que discutem e votam a regulação dessas mesmas tecnologias — estão proibidos de usar as ferramentas de IA mais avançadas disponíveis no mercado.</p>
+
+      <p>Segundo a reportagem, o pessoal do Senado tem acesso liberado, sem custo, a apenas três interfaces básicas de chat: Microsoft Copilot Chat, Gemini Chat para Google Workspace Enterprise Plus e ChatGPT Enterprise, da OpenAI. O sargento de armas do Senado, responsável por autorizar ferramentas de tecnologia no órgão, ainda não liberou o uso das ferramentas mais avançadas de IA que estão hoje no centro do debate regulatório em Washington. A Câmara dos Deputados, por outro lado, já havia liberado meses atrás ferramentas da Microsoft, OpenAI, Google e Anthropic para sua equipe — uma diferença específica do Senado, não um padrão geral do governo americano.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">A ironia do próprio regulador</span>
+        <p>O caso expõe uma contradição incômoda: as pessoas que decidem como o resto da população pode usar agentes de IA estão, elas mesmas, impedidas de usar essas ferramentas no próprio trabalho — o que levanta dúvidas sobre o quanto quem está regulando a tecnologia realmente entende, na prática, suas capacidades e limitações mais recentes.</p>
+      </div>
+
+      <h2>Um descompasso que já vinha sendo discutido</h2>
+      <p>O episódio se soma a um debate mais amplo sobre a velocidade com que instituições públicas conseguem acompanhar — ou não — o ritmo de adoção da IA no setor privado e em outras áreas do próprio governo, incluindo o uso militar da tecnologia.</p>
     `,
   },
 ];
