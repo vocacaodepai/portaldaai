@@ -30,17 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "sam-altman-openai-aberta-desacelerar-desenvolvimento",
-    title: "Sam Altman diz que a OpenAI está aberta a desacelerar o desenvolvimento de IA",
-    author: "Bruno Danello",
-    summary:
-      "Em reunião interna, o CEO da OpenAI afirmou que a empresa consideraria reduzir o ritmo de lançamento de modelos de ponta caso as avaliações de segurança recomendem isso, e que espera que outros laboratórios façam o mesmo. A declaração vem após incidentes de segurança recentes e uma pausa de duas semanas nos treinamentos da empresa em agosto.",
-    sourceName: "Bloomberg",
-    sourceUrl:
-      "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
-    date: "2026-09-11",
-  },
-  {
     slug: "amodei-altman-musk-pedem-desaceleracao-ia",
     title: "Amodei, Altman e Musk concordam: é preciso desacelerar a fronteira da IA",
     author: "Bruno Danello",
@@ -1389,6 +1378,29 @@ export const news: NewsItem[] = [
 
       <h2>Mais um capítulo da disputa EUA-China por IA</h2>
       <p>O encontro acontece dias depois de <a href="/noticias/eua-china-acordo-dialogo-ia-cupula-trump-xi">EUA e China terem fechado um acordo para abrir um canal oficial de diálogo sobre IA</a>, sinalizando que, apesar das divergências sobre chips e tarifas, os dois governos reconhecem a necessidade de conversar sobre os riscos da tecnologia. Trump e Xi também devem se encontrar novamente em breve: o presidente americano planeja visitar a China em abril, dando sequência a uma relação que segue equilibrando cooperação pontual e disputa estratégica pela liderança em inteligência artificial.</p>
+    `,
+  },
+  {
+    slug: "meta-muse-ultrapassa-chatgpt-app-mais-baixado-ios",
+    title: "Agente pessoal de IA da Meta, o Muse, ultrapassa o ChatGPT e vira o app gratuito mais baixado nos EUA",
+    author: "Bruno Danello",
+    summary:
+      "Lançado em 8 de setembro, o Muse somou 730 mil downloads em apenas cinco dias e chegou a 2,5 milhões de instalações em duas semanas — superando a velocidade inicial de ChatGPT, Claude e Grok, segundo dados da Sensor Tower.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
+    date: "2026-09-21",
+    content: `
+      <p>O Muse, agente pessoal de IA lançado pela Meta em 8 de setembro, se tornou o aplicativo gratuito mais baixado da App Store nos Estados Unidos, ultrapassando o ChatGPT já no dia 18 de setembro — dez dias após o lançamento. Segundo dados da Sensor Tower, o app somou 730 mil downloads em seus primeiros cinco dias e chegou a 2,5 milhões de instalações acumuladas até 21 de setembro, divididas entre 1,5 milhão no iOS e 1,1 milhão no Android.</p>
+
+      <p>A comparação com os concorrentes chama atenção: no mesmo período de 13 dias, o ChatGPT registrou 3,1 milhões de downloads, enquanto o Claude somou 400 mil e o Grok, 200 mil — o que significa que o Muse teve a velocidade inicial de crescimento mais rápida entre os principais assistentes pessoais de IA lançados recentemente.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Por que o Muse decolou tão rápido</span>
+        <p>Diferente do ChatGPT e do Claude, que competem principalmente como assistentes de produtividade e pesquisa, o Muse foi desenhado desde o início como um agente pessoal integrado ao ecossistema da Meta — com acesso nativo ao WhatsApp, Instagram e Messenger, plataformas onde a empresa já tem bilhões de usuários ativos.</p>
+      </div>
+
+      <h2>Mais um capítulo da corrida por assistentes pessoais</h2>
+      <p>O resultado reforça como a distribuição através de apps já instalados no celular de bilhões de pessoas pode ser uma vantagem competitiva tão importante quanto a qualidade do próprio modelo de IA. Para quem está decidindo qual assistente usar no dia a dia, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a> e o comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> — o Muse chega para disputar esse mesmo espaço, agora com a força de distribuição da Meta por trás.</p>
     `,
   },
 ];
