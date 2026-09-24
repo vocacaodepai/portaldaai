@@ -30,28 +30,6 @@ export type NewsItem = {
 // fonte original. Adicionadas diariamente pela rotina automática do blog.
 export const news: NewsItem[] = [
   {
-    slug: "amodei-altman-musk-pedem-desaceleracao-ia",
-    title: "Amodei, Altman e Musk concordam: é preciso desacelerar a fronteira da IA",
-    author: "Bruno Danello",
-    summary:
-      "Em um ensaio, o CEO da Anthropic defendeu reduzir deliberadamente o ritmo de avanço dos modelos mais poderosos, propondo avaliadores independentes dentro dos laboratórios e padrões de segurança comuns entre países democráticos. No mesmo dia, os líderes da OpenAI, da xAI e do Google DeepMind manifestaram apoio à ideia — um alinhamento raro entre concorrentes diretos.",
-    sourceName: "CoinDesk",
-    sourceUrl:
-      "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
-    date: "2026-09-12",
-  },
-  {
-    slug: "pentagono-emprestimo-5-bilhoes-fluidstack",
-    title: "Pentágono negocia empréstimo de US$ 5 bilhões para startup de nuvem de IA",
-    author: "Bruno Danello",
-    summary:
-      "O Departamento de Defesa dos EUA está em conversas para emprestar US$ 5 bilhões à Fluidstack, startup de infraestrutura de IA, para reforçar a cadeia de suprimentos de data centers americanos. Se confirmado, seria o maior empréstimo já concedido pelo escritório de capital estratégico do Pentágono desde sua criação.",
-    sourceName: "Reuters",
-    sourceUrl:
-      "https://finance.yahoo.com/technology/ai/articles/pentagon-talks-lend-5-billion-215353279.html",
-    date: "2026-09-11",
-  },
-  {
     slug: "anthropic-lanca-claude-fable-5-1-mythos-5-1",
     title: "Anthropic lança Claude Fable 5.1 e Mythos 5.1",
     author: "Bruno Danello",
@@ -1413,6 +1391,52 @@ export const news: NewsItem[] = [
 
       <h2>Mais um dado no debate sobre segurança de modelos</h2>
       <p>Os números chegam poucos dias depois de a <a href="/noticias/painel-cientifico-onu-ia-principio-precaucao-agentes">ONU recomendar supervisão humana obrigatória para agentes de IA</a> e da <a href="/noticias/claude-descobre-sistema-enzimatico-parecido-crispr">Anthropic anunciar avanços do Claude em pesquisa científica autônoma</a> — reforçando que capacidade e segurança seguem evoluindo lado a lado, nem sempre no mesmo ritmo. Para quem já usa essas ferramentas no trabalho, entender esses limites ajuda a calibrar a confiança certa: vale revisitar nosso texto sobre a <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">diferença entre agente de IA, chatbot e automação</a> para saber onde a supervisão humana continua sendo indispensável.</p>
+    `,
+  },
+  {
+    slug: "anthropic-openai-guerra-precos-opus-5-5-gpt-6-sol-luna",
+    title: "Anthropic e OpenAI travam guerra de preços com Claude Opus 5.5 e GPT-6 Sol e Luna",
+    author: "Bruno Danello",
+    summary:
+      "A Anthropic lançou o Claude Opus 5.5 com preço 40% menor que o do Opus 5 em uso típico, e poucos minutos depois a OpenAI respondeu com dois modelos novos, GPT-6 Sol e GPT-6 Luna, ambos cerca de 50% mais baratos que os antecessores de mesmo nome.",
+    sourceName: "SiliconANGLE",
+    sourceUrl: "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/",
+    date: "2026-09-22",
+    content: `
+      <p>A Anthropic lançou o Claude Opus 5.5 cobrando US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — cerca de 40% mais barato do que o Opus 5 num uso típico, segundo a empresa, com a maior queda concentrada na leitura de cache, que caiu 60%, para US$ 0,20. Minutos depois, a OpenAI respondeu lançando dois modelos novos: o GPT-6 Sol, a US$ 2 de entrada e US$ 10 de saída por milhão de tokens, e o GPT-6 Luna, bem mais barato, a US$ 0,10 e US$ 0,50 — ambos cerca de metade do preço das versões anteriores que levavam os mesmos nomes.</p>
+
+      <p>O movimento quase simultâneo das duas maiores empresas de IA generativa do mundo reforça um padrão que já vinha se desenhando ao longo do ano: lançamentos cada vez mais próximos no tempo, com preço por token caindo de forma consistente a cada nova geração de modelo, mesmo com ganhos de desempenho em benchmarks de programação e uso de computador.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Bom para quem usa IA no dia a dia</span>
+        <p>Preços mais baixos por token tendem a se refletir diretamente no custo de assinaturas e no uso via API — inclusive para tarefas mais pesadas, como analisar documentos longos ou manter conversas extensas, que ficam mais baratas de sustentar ao longo do tempo.</p>
+      </div>
+
+      <h2>Uma corrida que já dura o ano inteiro</h2>
+      <p>A queda de preços acontece poucos dias depois de a própria Anthropic destacar que os <a href="/noticias/openai-anthropic-modelos-mais-seguros-testes-comportamento">novos modelos da OpenAI e da Anthropic tentam menos burlar restrições em testes de segurança</a>, mostrando que a disputa entre as duas empresas não é só de preço, mas também de quem consegue equilibrar capacidade e segurança de forma mais convincente. Para quem ainda está decidindo qual ferramenta usar no trabalho ou nos estudos, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> para entender as diferenças práticas entre elas.</p>
+    `,
+  },
+  {
+    slug: "cisco-talos-malware-ia-autonoma-closedquorum-cairn",
+    title: "Cisco Talos descobre primeiro malware que usa comitê de IAs para decidir seus próprios ataques",
+    author: "Bruno Danello",
+    summary:
+      "A Cisco Talos identificou o CLOSEDQUORUM, um implante malicioso que consulta até quatro modelos de IA comerciais — DeepSeek, Qwen, Mistral e Gemini — e decide por votação qual ação executar em um computador invadido, dispensando um operador humano em tempo real.",
+    sourceName: "Cisco Talos",
+    sourceUrl: "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+    date: "2026-09-22",
+    content: `
+      <p>Pesquisadores da Cisco Talos publicaram, em 22 de setembro, a análise de um malware batizado de CLOSEDQUORUM, descrito pela empresa como o primeiro implante de comando e controle (C2) totalmente autônomo já documentado. Em vez de esperar instruções de um servidor controlado por um operador humano, o programa malicioso, feito para Windows, coleta informações do computador infectado e envia essas informações para até quatro provedores de modelos de IA comerciais — DeepSeek, Qwen, Mistral e Google Gemini — que "votam" entre si qual deve ser a próxima ação a ser executada após a invasão.</p>
+
+      <p>A descoberta veio acompanhada do lançamento do CAIRN, um kit de ferramentas de código aberto criado pela Talos especificamente para caçar, classificar e rastrear esse novo tipo de malware que depende de modelos de linguagem para decidir seus próprios passos, em vez de seguir um roteiro fixo programado previamente.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Ainda não confirmado em ataques reais</span>
+        <p>A Talos afirma não ter evidência de que o CLOSEDQUORUM tenha sido usado em ataques reais até agora — a versão distribuída publicamente continha credenciais de IA falsas e um webhook de Discord fictício, o que torna essa cópia específica inoperante. Ainda assim, a arquitetura do malware mostra uma direção clara: reduzir a necessidade de um operador humano presente durante o ataque.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>Segundo a Talos, o design representa uma mudança relevante na forma como ataques cibernéticos podem ser conduzidos: partes cada vez maiores da cadeia de um ataque passam a poder ser executadas sem intervenção direta de uma pessoa, com o malware simplesmente consultando serviços de IA usados normalmente por aplicações legítimas. O caso reforça uma preocupação que já discutimos por aqui sobre os limites entre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">um agente de IA, um chatbot e uma automação comum</a> — e como essa mesma autonomia que torna ferramentas de IA úteis no trabalho também pode ser explorada por quem tem más intenções.</p>
     `,
   },
 ];
