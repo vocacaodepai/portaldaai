@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "google-lanca-home-mcp-acesso-antecipado",
-    title: "Google abre acesso antecipado ao Home MCP para agentes de IA controlarem a casa",
-    author: "Bruno Danello",
-    summary:
-      "A novidade permite que agentes como Claude, ChatGPT e outros compatíveis com o protocolo MCP monitorem câmeras, revisem histórico de eventos e controlem dispositivos Nest e compatíveis com Matter usando linguagem natural. Por enquanto, o acesso está restrito a assinantes do plano Google Home Premium Advanced nos Estados Unidos.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-    date: "2026-09-16",
-  },
-  {
-    slug: "tv-estatal-chinesa-critica-politica-privacidade-anthropic",
-    title: "Veículo ligado à TV estatal chinesa critica política de privacidade da Anthropic",
-    author: "Bruno Danello",
-    summary:
-      "A conta Yuyuantantian, associada à CCTV, publicou um texto afirmando que a Anthropic já revisou sua política de privacidade 13 vezes desde 2023 e que pode compartilhar dados de usuários com agências de inteligência dos EUA sem processo legal prévio, quando julgar necessário. A crítica cita ainda um relatório da própria Anthropic sobre tentativas chinesas de replicar o Claude.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
-    date: "2026-09-19",
-  },
-  {
     slug: "arista-networks-entra-sp-100",
     title: "Arista Networks entra no índice S&P 100 no lugar da Nike",
     author: "Bruno Danello",
@@ -1865,6 +1845,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O fechamento da Dymocks Tutoring é um dos primeiros casos documentados de uma empresa de tutoria tradicional encerrando operações inteiras por conta direta da concorrência de assistentes de IA — um sinal de que o impacto da tecnologia sobre modelos de negócio educacionais já deixou de ser hipotético e passou a afetar diretamente a sobrevivência de negócios físicos no setor.</p>
+    `,
+  },
+  {
+    slug: "nvidia-google-emerald-ai-alianca-energia-data-centers",
+    title: "Nvidia, Google e Emerald AI lançam aliança para tornar data centers de IA flexíveis na rede elétrica",
+    author: "Bruno Danello",
+    summary:
+      "A AI Energy Management Alliance reúne as três empresas e mais 18 parceiros para desenvolver data centers capazes de ajustar dinamicamente o consumo de energia conforme as condições da rede elétrica, em troca de conexões mais rápidas à malha de energia — uma instalação piloto de quase 100 megawatts deve entrar em operação na Virgínia ainda este ano.",
+    sourceName: "NVIDIA Blog",
+    sourceUrl: "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+    date: "2026-09-18",
+    content: `
+      <p>A Emerald AI, o Google e a Nvidia anunciaram o lançamento da AI Energy Management Alliance (AEMA), uma coalizão inédita voltada a desenvolver data centers de inteligência artificial capazes de gerenciar dinamicamente o próprio consumo de eletricidade em resposta às condições da rede elétrica. A proposta central é simples: uma instalação que conseguir comprovar que sua demanda de energia pode variar quando a rede estiver sob pressão ganha, em troca, conexões mais rápidas e de menor risco à malha elétrica.</p>
+
+      <p>Segundo as empresas, um data center flexível consegue ajustar seu consumo de energia de várias formas — deslocando cargas de processamento, descarregando baterias, usando geração própria de energia ou respondendo a emergências da rede. A ideia da AEMA é que os data centers de IA passem a ter uma relação simbiótica com a rede elétrica, em vez de apenas extrair energia dela continuamente. Dezoito parceiros já se juntaram às três empresas fundadoras, reunindo provedores de tecnologia, operadoras de data center, geradoras de energia, concessionárias e operadores regionais de rede.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Primeiro piloto ainda em 2026</span>
+        <p>Ainda este ano, na Virgínia, a Nvidia, a Digital Realty e a Emerald AI vão ligar o que descrevem como a primeira "fábrica de IA" flexível em potência elétrica do mundo, com quase 100 megawatts de capacidade — projetada para comprovar, na prática, que um data center pode funcionar como uma carga precisa e controlável para a rede elétrica.</p>
+      </div>
+
+      <p>A iniciativa reflete uma preocupação crescente do setor: a demanda por capacidade computacional de IA está crescendo mais rápido do que a capacidade das redes elétricas de acompanhar esse ritmo, um gargalo que já discutimos em relação a projetos como o Stargate, da OpenAI. Tornar os data centers mais "flexíveis" no consumo de energia é uma das apostas da indústria para acelerar a expansão da infraestrutura de IA sem sobrecarregar ainda mais redes elétricas já pressionadas em diversas regiões dos Estados Unidos.</p>
+    `,
+  },
+  {
+    slug: "abbvie-iambic-colaboracao-ia-descoberta-medicamentos",
+    title: "AbbVie e Iambic fecham parceria para acelerar descoberta de medicamentos com IA",
+    author: "Bruno Danello",
+    summary:
+      "A colaboração multianual vai usar a plataforma de inteligência artificial da Iambic para identificar candidatos a medicamentos de moléculas pequenas nas áreas de imunologia, neurociência e oncologia, somando-se a uma onda recente de acordos bilionários entre farmacêuticas e empresas de IA para descoberta de fármacos.",
+    sourceName: "AbbVie",
+    sourceUrl: "https://news.abbvie.com/2026-09-21-AbbVie-and-Iambic-Announce-Collaboration-to-Accelerate-AI-driven-Drug-Discovery",
+    date: "2026-09-21",
+    content: `
+      <p>A farmacêutica AbbVie e a startup de IA para descoberta de medicamentos Iambic Therapeutics anunciaram uma colaboração multianual para acelerar a descoberta e o desenvolvimento de terapias de moléculas pequenas com potencial de serem primeiras ou melhores da classe em suas categorias. As empresas vão usar a plataforma de inteligência artificial da Iambic para tentar melhorar a eficiência e a taxa de sucesso na identificação de candidatos promissores a novos medicamentos nas áreas de imunologia, neurociência e oncologia.</p>
+
+      <p>A parceria se soma a uma leva recente de acordos entre farmacêuticas e empresas de IA especializadas em descoberta de fármacos — a própria Iambic já havia fechado, dias antes, uma colaboração avaliada em mais de US$ 1,7 bilhão com a Takeda, voltada a descoberta de moléculas pequenas com apoio de IA para oncologia e doenças gastrointestinais.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">IA acelerando a indústria farmacêutica</span>
+        <p>O movimento reflete uma tendência mais ampla do setor: grandes farmacêuticas estão cada vez mais dispostas a fechar acordos bilionários com startups especializadas em IA para tentar reduzir o tempo e o custo — historicamente altíssimos — de se desenvolver um novo medicamento, da identificação inicial de um composto até os testes clínicos.</p>
+      </div>
+
+      <p>Embora os termos financeiros específicos da parceria com a AbbVie não tenham sido divulgados, o acordo reforça como a aplicação de IA em biotecnologia deixou de ser experimental e passou a fazer parte da estratégia central de pesquisa e desenvolvimento das grandes empresas farmacêuticas, num momento em que laboratórios como a Anthropic também têm investido diretamente em pesquisa de ciências da vida.</p>
     `,
   },
 ];
