@@ -59,40 +59,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "quatro-modelos-topo-lancados-mesma-semana-fadiga",
-    title: "Quatro modelos de IA de ponta são lançados na mesma semana, e imprensa fala em 'fadiga de modelos'",
-    author: "Bruno Danello",
-    summary:
-      "Entre 1º e 4 de setembro, Anthropic, Google, Meta e OpenAI lançaram praticamente ao mesmo tempo suas versões mais recentes — Claude Fable 5.1, Gemini 3.8 Flash, Muse Spark 1.3 e GPT-6 Astra —, com a Alibaba atualizando o Qwen3.8-Max na sequência. A avalanche de lançamentos simultâneos levou parte da imprensa internacional a cunhar o termo 'model fatigue' para descrever a dificuldade do público em acompanhar tantas novidades ao mesmo tempo.",
-    sourceName: "AI Weekly",
-    sourceUrl: "https://aiweekly.co/ai-news-today",
-    date: "2026-09-04",
-    content: `
-      <p>Entre os dias 1º e 4 de setembro, quatro das maiores empresas de inteligência artificial do mundo lançaram, praticamente ao mesmo tempo, as versões mais recentes de seus modelos de ponta. A Anthropic apresentou o Claude Fable 5.1, o Google lançou o Gemini 3.8 Flash, a Meta trouxe o Muse Spark 1.3 e a OpenAI lançou o GPT-6 Astra. Na sequência, a chinesa Alibaba também atualizou sua linha própria, com o Qwen3.8-Max.</p>
-
-      <p>A concentração de lançamentos num intervalo de poucos dias não passou despercebida pela imprensa internacional, que passou a usar o termo "model fatigue" — algo como "fadiga de modelos" — para descrever a dificuldade crescente do público, e até de profissionais da área, em acompanhar o volume de novidades. Cada lançamento traz normalmente uma lista extensa de melhorias — desempenho em programação, raciocínio em múltiplas etapas, custo por token, novas modalidades — que, quando empilhadas semana após semana, tornam cada anúncio individual menos memorável.</p>
-
-      <p>Esse fenômeno reflete uma mudança de fase no mercado de IA generativa: se em 2023 e 2024 cada novo modelo de ponta era um evento isolado e amplamente comentado, em 2026 os lançamentos de topo das grandes empresas já ocorrem em ritmo quase trimestral simultâneo, empurrados pela concorrência direta entre poucos laboratórios líderes. Para quem usa essas ferramentas no dia a dia, a lição prática é menos sobre acompanhar cada anúncio e mais sobre acompanhar de perto uma ou duas ferramentas que já resolvem bem o próprio caso de uso — testar e trocar de modelo a cada semana raramente compensa o tempo investido.</p>
-    `,
-  },
-  {
-    slug: "microsoft-ia-generativa-atinge-17-8-por-cento-populacao-ativa",
-    title: "Uso de IA generativa chega a 17,8% da população mundial em idade ativa, segundo Microsoft",
-    author: "Bruno Danello",
-    summary:
-      "O AI Diffusion Report da Microsoft, referente ao primeiro trimestre de 2026, mostra um salto expressivo na adoção global de ferramentas de IA generativa no período, acompanhando a corrida de investimento em infraestrutura de nuvem, estimada em cerca de US$ 700 bilhões só neste ano pelos grandes provedores globais.",
-    sourceName: "Alura",
-    sourceUrl: "https://www.alura.com.br/artigos/mercado-de-ia",
-    date: "2026-09-10",
-    content: `
-      <p>Um relatório da Microsoft sobre difusão de inteligência artificial mostra que, no primeiro trimestre de 2026, o uso de ferramentas de IA generativa já alcançava 17,8% da população mundial em idade ativa — um salto expressivo se comparado aos números registrados poucos anos antes, quando esse tipo de tecnologia ainda era usado por uma fatia bem mais restrita de early adopters.</p>
-
-      <p>O crescimento na adoção acompanha, e em boa parte explica, a corrida de investimento em infraestrutura de nuvem que os grandes provedores globais vêm sustentando: estimativas do setor apontam para algo em torno de US$ 700 bilhões em gastos com data centers e capacidade computacional voltada a IA só neste ano. Quanto mais pessoas incorporam ferramentas de IA generativa na rotina — seja para trabalho, estudo ou uso pessoal —, maior a pressão sobre a capacidade de processamento disponível, o que por sua vez justifica, aos olhos das big techs, o ritmo acelerado de novos investimentos.</p>
-
-      <p>Esse tipo de dado ajuda a contextualizar por que a inteligência artificial deixou de ser um nicho técnico e passou a ser tratada como infraestrutura básica por governos e empresas: quando quase um em cada cinco adultos em idade produtiva no planeta já usa essas ferramentas, o impacto econômico e social deixa de ser hipotético. Para quem ainda não incorporou IA no dia a dia — seja no trabalho, seja para gerar renda extra —, o dado reforça um ponto prático: a curva de adoção já passou do estágio inicial, e esperar mais tempo para começar tende a significar competir por vagas, clientes e oportunidades com pessoas que já estão usando essas ferramentas com fluência.</p>
-    `,
-  },
-  {
     slug: "plugin4shell-falha-agentes-ia-codigo-claude-code-codex-copilot-gemini",
     title: "Falha 'Plugin4Shell' expõe os principais agentes de IA para programação a invasão remota",
     author: "Bruno Danello",
@@ -1919,6 +1885,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>Os termos financeiros da aquisição não foram divulgados. O movimento reforça uma tendência mais ampla entre grandes plataformas de dados e IA corporativa: comprar startups menores e especializadas para preencher lacunas específicas de interface e experiência do usuário, em vez de construir cada funcionalidade internamente do zero.</p>
+    `,
+  },
+  {
+    slug: "island-capta-400-milhoes-6-4-bilhoes-seguranca-navegador-ia",
+    title: "Island capta US$ 400 milhões e vale US$ 6,4 bilhões vendendo segurança contra agentes de IA descontrolados",
+    author: "Bruno Danello",
+    summary:
+      "A startup de navegador corporativo mais que dobrou sua avaliação em cerca de dois anos, à medida que empresas buscam ferramentas para conter agentes de IA capazes de navegar, acessar sistemas e agir com pouca supervisão humana — oito dos dez maiores bancos do mundo já usam o navegador da Island.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/24/island-ai-cybersecurity-funding.html",
+    date: "2026-09-24",
+    content: `
+      <p>A Island, startup de segurança para navegadores corporativos, captou US$ 400 milhões numa rodada que avalia a empresa em US$ 6,4 bilhões — mais que o dobro do valor alcançado há cerca de dois anos. A rodada foi liderada pela Evolution Equity Partners, com participação de investidores já presentes na empresa, como Prysm Capital e Sequoia Capital.</p>
+
+      <p>Fundada em 2022 pelo CEO Mike Fey, a Island oferece um navegador corporativo que incorpora diretamente controles de segurança, políticas de TI e ferramentas de produtividade na experiência de navegação dos funcionários. A empresa valia US$ 3 bilhões em 2024, saltou para US$ 4,8 bilhões após uma rodada de US$ 250 milhões em março de 2025, e agora chega a US$ 6,4 bilhões — mais que dobrando de valor em pouco menos de dois anos.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O novo problema: agentes descontrolados</span>
+        <p>Segundo a empresa, a captação reflete um problema de segurança cada vez mais comum entre grandes corporações: agentes de IA capazes de navegar por sites, acessar sistemas internos, manipular arquivos e executar ações com pouca ou nenhuma supervisão humana direta. A corrida para proteger negócios contra enxames desses agentes "descontrolados" está impulsionando a demanda por novas ferramentas de segurança especializadas.</p>
+      </div>
+
+      <p>Até setembro de 2026, a Island já havia atingido cerca de US$ 200 milhões em receita, crescendo a um ritmo de aproximadamente 100% ao ano, com oito dos dez maiores bancos do mundo usando seu navegador corporativo. O caso reforça como a expansão de agentes autônomos de IA dentro das empresas está criando, ao mesmo tempo, uma nova categoria de risco e um mercado bilionário para quem consegue oferecer controle sobre esse risco.</p>
+    `,
+  },
+  {
+    slug: "harvey-capta-550-milhoes-15-6-bilhoes-ia-juridica",
+    title: "Harvey capta US$ 550 milhões e chega a US$ 15,6 bilhões para construir modelos jurídicos próprios",
+    author: "Bruno Danello",
+    summary:
+      "A startup de IA jurídica mais valiosa do setor viu sua avaliação saltar de US$ 11 bilhões para US$ 15,6 bilhões em seis meses, com receita anualizada de cerca de US$ 400 milhões e mais de 3 mil organizações clientes — a captação vai financiar o desenvolvimento de modelos próprios de peso aberto para uso jurídico.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round",
+    date: "2026-09-09",
+    content: `
+      <p>A Harvey, startup de São Francisco especializada em inteligência artificial para o setor jurídico, fechou uma rodada de US$ 550 milhões que eleva sua avaliação a US$ 15,6 bilhões — ante US$ 11 bilhões apenas seis meses antes. A rodada foi liderada pela Lightspeed Venture Partners e pela Diffusion, com Sapphire Ventures e Whale Rock Capital entrando como novos investidores, além da participação de Sequoia, Andreessen Horowitz e Kleiner Perkins.</p>
+
+      <p>Com a nova captação, a Harvey já levantou mais de US$ 1,5 bilhão desde a fundação. A empresa afirma ter cerca de US$ 400 milhões em receita anualizada — o equivalente a cerca de 39 vezes o valor levantado nesta rodada — e uma base de mais de 3 mil organizações clientes, incluindo 80% dos escritórios do ranking Am Law 100, 20% das empresas da Fortune 500 e cinco das dez maiores empresas da Fortune 10.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Construindo modelo próprio</span>
+        <p>O novo aporte será usado principalmente para financiar o desenvolvimento de modelos de IA próprios voltados ao setor jurídico — a empresa já anunciou o Harvey Tenet, seu primeiro modelo de peso aberto pós-treinado especificamente para aplicações legais, um movimento que busca reduzir a dependência de modelos de terceiros e dar à Harvey mais controle sobre custo, desempenho e personalização.</p>
+      </div>
+
+      <p>O caso da Harvey segue o padrão observado em outras startups de IA aplicada a profissões regulamentadas, como o jurídico: em vez de competir diretamente com modelos genéricos de propósito geral, empresas que constroem uma camada especializada — com confiabilidade, confidencialidade e fluxo de trabalho adaptados à rotina do setor — conseguem sustentar avaliações crescentes mesmo num mercado de capital de risco mais seletivo.</p>
     `,
   },
 ];
