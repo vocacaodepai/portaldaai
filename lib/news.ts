@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "sony-warner-processam-anthropic-direitos-autorais",
-    title: "Sony Music e Warner Chappell processam a Anthropic por violação de direitos autorais",
-    author: "Bruno Danello",
-    summary:
-      "As editoras musicais acusam a Anthropic de baixar e usar dezenas de milhares de composições protegidas, via torrent e scraping em massa, para treinar o Claude — incluindo músicas famosas como 'Uptown Funk' e 'Hallelujah'. O processo também nomeia pessoalmente os fundadores Dario Amodei e Benjamin Mann, e busca indenização de até US$ 150 mil por obra infringida.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-    date: "2026-08-29",
-  },
-  {
-    slug: "openai-avalia-captacao-1-5-trilhao",
-    title: "OpenAI avalia nova rodada de captação com avaliação de US$ 1,5 trilhão",
-    author: "Bruno Danello",
-    summary:
-      "A empresa está em conversas iniciais com investidores para uma rodada que mais que dobraria sua última avaliação, de US$ 730 bilhões em março. O valor seria justificado pelo crescimento acelerado do Codex e dos modelos mais recentes — e, se confirmado, tornaria a OpenAI a empresa privada mais valiosa do mundo, ainda sem previsão de abrir capital antes de 2027.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation",
-    date: "2026-09-15",
-  },
-  {
     slug: "google-lanca-home-mcp-acesso-antecipado",
     title: "Google abre acesso antecipado ao Home MCP para agentes de IA controlarem a casa",
     author: "Bruno Danello",
@@ -1841,6 +1821,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O episódio mostra como o litígio entre gravadoras e plataformas de IA musical está longe de se encerrar, mesmo após acordos bilionários fechados por outras empresas do setor com grandes selos — a Suno segue como uma das poucas grandes plataformas de geração musical por IA ainda sem acordo com a indústria fonográfica, e agora enfrenta uma frente judicial mais ampla.</p>
+    `,
+  },
+  {
+    slug: "openai-demite-contratados-usar-ia-avaliar-chatgpt",
+    title: "OpenAI demite prestadores de serviço flagrados usando IA para avaliar respostas do ChatGPT",
+    author: "Bruno Danello",
+    summary:
+      "Documentos internos revelam que a empresa baniu ferramentas como GPTZero, Grammarly e qualquer chatbot do trabalho de mais de dez mil avaliadores contratados para classificar respostas do ChatGPT — usar IA para treinar a própria IA pode causar 'colapso de modelo' quando dados sintéticos se acumulam no treinamento.",
+    sourceName: "404 Media",
+    sourceUrl: "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
+    date: "2026-09-24",
+    content: `
+      <p>A OpenAI demitiu diversos prestadores de serviço contratados para avaliar e melhorar as respostas do ChatGPT depois de flagrá-los usando ferramentas de IA no próprio trabalho de avaliação, segundo documentos internos obtidos pela imprensa. As diretrizes da empresa proíbem explicitamente o uso de detectores de texto por IA como o GPTZero, de assistentes de escrita como o Grammarly, de tradutores automáticos e de qualquer chatbot durante as tarefas de anotação — a instrução aos revisores é direta: "não use ferramentas de detecção de IA, nem IA você mesmo".</p>
+
+      <p>Segundo os documentos, mais de dez mil prestadores atuam nos diferentes pipelines de avaliação da empresa. Um desses programas, batizado internamente de "Project Lily", tem centenas de avaliadores lendo prompts reais de usuários e classificando as respostas do ChatGPT quanto a bajulação excessiva ou tendência a antropomorfizar o próprio modelo. Segundo a reportagem, os sinais que denunciam o uso indevido de IA pelos próprios avaliadores incluem padrões repetitivos de palavras, uso excessivo de travessões e tempos de conclusão da tarefa anormalmente rápidos.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Por que a proibição existe</span>
+        <p>A OpenAI usa avaliadores humanos justamente para evitar que seus modelos aprendam a partir de dados sintéticos gerados por outras IAs — um fenômeno conhecido como "colapso de modelo" (model collapse), em que a qualidade de um sistema de IA se degrada progressivamente quando treinado repetidamente sobre conteúdo produzido por outros modelos, em vez de dados originais gerados por humanos.</p>
+      </div>
+
+      <p>O episódio expõe uma tensão pouco discutida na cadeia de produção dos grandes modelos de linguagem: por trás do treinamento de sistemas como o ChatGPT existe uma vasta força de trabalho humana dedicada a avaliar e corrigir respostas — e a integridade desse processo depende justamente de que esses avaliadores não recorram à própria tecnologia que estão ajudando a aperfeiçoar.</p>
+    `,
+  },
+  {
+    slug: "dymocks-tutoria-fecha-centros-sydney-recomenda-ia",
+    title: "Rede australiana de tutoria fecha centros em Sydney e recomenda que pais usem IA no lugar",
+    author: "Bruno Danello",
+    summary:
+      "A Dymocks Tutoring, com pacotes que podem passar de US$ 10 mil por ano para um estudante do ensino médio, encerrou as atividades de suas cinco unidades em Sydney depois que o CEO da empresa disse que o modelo tradicional de tutoria não consegue mais competir em preço ou utilidade com assinaturas de IA de US$ 30 a US$ 40 por mês.",
+    sourceName: "Australian Financial Review",
+    sourceUrl: "https://streamlinefeed.co.ke/news/dymocks-tutoring-arm-closes-sydney-centres-tells-parents-to-use-ai-instead",
+    date: "2026-09-24",
+    content: `
+      <p>A Dymocks Tutoring, braço de tutoria educacional ligado à rede de livrarias australiana Dymocks, encerrou as atividades de suas cinco unidades em Sydney ao fim desta semana, informando aos clientes que a tecnologia tornou o serviço obsoleto. Em entrevista ao jornal Australian Financial Review, o CEO da Dymocks Education, Mark Buckland, afirmou que o modelo tradicional de tutoria presencial não consegue mais competir em preço nem em utilidade com as ferramentas de IA disponíveis hoje.</p>
+
+      <p>Segundo a reportagem, os pacotes da Dymocks Tutoring podiam custar até US$ 900 por disciplina, por trimestre — o que, para um estudante do ensino médio cursando três matérias principais, facilmente ultrapassava US$ 10 mil por ano. Em comparação, assinaturas premium de modelos de IA como os da OpenAI, Anthropic e Google custam entre US$ 30 e US$ 40 por mês, oferecendo acesso ilimitado a métodos de ensino socrático, resolução de problemas matemáticos complexos e correção instantânea de redações.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Democratização do acesso</span>
+        <p>O caso ilustra como o acesso a ferramentas de apoio educacional personalizado, antes restrito a famílias que podiam pagar tutoria particular, vem se popularizando rapidamente com a chegada de assistentes de IA a preços muito mais acessíveis — uma mudança que já vínhamos discutindo em nosso guia sobre <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a>.</p>
+      </div>
+
+      <p>O fechamento da Dymocks Tutoring é um dos primeiros casos documentados de uma empresa de tutoria tradicional encerrando operações inteiras por conta direta da concorrência de assistentes de IA — um sinal de que o impacto da tecnologia sobre modelos de negócio educacionais já deixou de ser hipotético e passou a afetar diretamente a sobrevivência de negócios físicos no setor.</p>
     `,
   },
 ];
