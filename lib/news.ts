@@ -1096,28 +1096,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "pony-ai-verne-zagreb-robotaxi-sem-operador-europa",
-    title: "Pony.ai e Verne lançam robotáxi totalmente sem operador de segurança na Europa",
-    author: "Bruno Danello",
-    summary:
-      "Passageiros convidados já andam sem ninguém no banco do motorista numa rota de 22 quilômetros em Zagreb, na Croácia, cinco meses depois de a Verne lançar o que descreve como o primeiro serviço comercial de robotáxi da Europa — a frota já rodou mais de 200 mil quilômetros com nota média de 4,7 de 5 dos passageiros.",
-    sourceName: "Traffic Technology Today",
-    sourceUrl: "https://www.traffictechnologytoday.com/news/autonomous-vehicles/pony-ai-and-verne-launch-driverless-robotaxi-tests-in-zagreb-croatia.html",
-    date: "2026-09-10",
-    content: `
-      <p>A Pony.ai e a Verne começaram a levar passageiros sem nenhum operador de segurança no banco do motorista em vias públicas de Zagreb, capital da Croácia — um marco que as empresas descrevem como o primeiro serviço do tipo na Europa. Passageiros convidados agora podem andar numa rota de 22 quilômetros que conecta a sede da Verne e um importante distrito comercial ao Aeroporto Franjo Tuđman de Zagreb, sem qualquer supervisão humana dentro do veículo.</p>
-
-      <p>A Verne havia lançado, em abril, o que chama de primeiro serviço comercial de robotáxi da Europa, inicialmente operando com um supervisor humano a bordo. Em 19 de agosto, o serviço passou a estar disponível também pelo aplicativo da Uber, que passou a oferecer acesso aos veículos operados com a tecnologia de direção autônoma da Pony.ai. No modelo de parceria entre as três empresas, a Pony.ai fornece a tecnologia de condução autônoma, a Verne lidera a operação do serviço, e a Uber oferece acesso via seu aplicativo.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Resultados até aqui</span>
-        <p>Desde o lançamento em abril, a frota já rodou mais de 200 mil quilômetros, completou milhares de corridas com passageiros e mantém nota média de 4,7 em 5 nas avaliações. As empresas planejam ampliar gradualmente a área de operação sem supervisão humana nos próximos meses.</p>
-      </div>
-
-      <p>O caso reforça como a corrida por robotáxis totalmente autônomos, até agora concentrada principalmente nos Estados Unidos e na China, também avança na Europa — com uma combinação de tecnologia chinesa (Pony.ai), operação local (Verne) e distribuição via uma plataforma já estabelecida (Uber) como modelo de expansão para o continente.</p>
-    `,
-  },
-  {
     slug: "anthropic-project-swap-agentes-negociam-marketplace",
     title: "Anthropic testa agentes de IA negociando trocas de objetos em nome de humanos",
     author: "Bruno Danello",
@@ -1437,33 +1415,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa para além dos Estados Unidos e do Reino Unido</h2>
       <p>O episódio expõe uma tensão crescente entre países que buscam testar modelos de IA de forma independente antes de sua liberação pública e o desejo dos governos de origem das empresas — no caso, os EUA — de manter controle sobre quem tem acesso antecipado a essas tecnologias. Para usuários e empresas fora desses dois países, o caso é um lembrete de que o acesso a modelos de ponta, e a forma como eles são testados antes do lançamento, cada vez mais depende de decisões geopolíticas, e não só de decisões técnicas ou comerciais das próprias empresas de IA.</p>
-    `,
-  },
-  {
-    slug: "anthropic-relatorio-uso-indevido-ia-setembro-2026",
-    title: "Anthropic detalha oito meses de uso indevido do Claude em ataques cibernéticos, vigilância e operações de influência",
-    author: "Bruno Danello",
-    summary:
-      "O relatório cobre casos interrompidos entre dezembro de 2025 e agosto de 2026 em sete áreas de risco — de ciberataques a desenvolvimento de armas convencionais — e mostra atores cada vez mais usando o Claude como orquestrador de múltiplas etapas de um ataque, não apenas como assistente pontual.",
-    sourceName: "Anthropic",
-    sourceUrl: "https://www.anthropic.com/threat-intelligence-report-september-2026",
-    date: "2026-09-10",
-    content: `
-      <p>A Anthropic publicou um novo relatório de inteligência de ameaças detalhando casos de uso indevido do Claude que a empresa interrompeu entre dezembro de 2025 e agosto de 2026, cobrindo sete áreas de risco: operações cibernéticas, operações de influência, vigilância, golpes e fraudes, uso indevido em biologia, desenvolvimento de armas convencionais e destilação não autorizada de modelos.</p>
-
-      <h2>De assistente pontual a orquestrador de ataques</h2>
-      <p>Segundo a empresa, agentes maliciosos cada vez mais usam o Claude não apenas como um chatbot para tirar dúvidas ou ajudar em programação, mas como orquestrador de múltiplas etapas de um ataque — reconhecimento, exploração de vulnerabilidades, roubo de dados — com humanos ainda definindo objetivos e revisando resultados, mas usando em alguns casos frameworks multiagente que automatizam boa parte do trabalho.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O dado mais preocupante</span>
-        <p>Segundo a Anthropic, a IA já "reduziu a distância" de mão de obra e ferramental entre operações patrocinadas por Estados e indivíduos isolados — a maioria dos casos descritos no relatório foi viabilizada por IA, seja por execução direta, seja por orquestração via frameworks multiagente.</p>
-      </div>
-
-      <h2>Casos que vão além de ataques cibernéticos</h2>
-      <p>O relatório também documenta operações de influência — incluindo a interrupção de operações russas de manipulação de informação na República Centro-Africana, serviços comerciais de "influência como serviço" e plataformas de manipulação eleitoral — além de casos de vigilância comercial e fraude financeira facilitados por IA.</p>
-
-      <h2>Por que isso importa para quem usa ferramentas de IA</h2>
-      <p>O relatório reforça um ponto que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: à medida que modelos de IA ficam mais capazes, a mesma tecnologia que ajuda empresas legítimas a automatizar tarefas complexas também abre espaço para agentes maliciosos automatizarem etapas inteiras de ataques — o que torna sistemas de detecção e resposta como os descritos pela Anthropic cada vez mais parte essencial da infraestrutura de segurança, e não apenas um recurso opcional.</p>
     `,
   },
   {
@@ -1898,6 +1849,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O salto para mais da metade dos consumidores reforça o pano de fundo por trás de investimentos recentes de redes de pagamento em infraestrutura para <a href="/noticias/mastercard-alchemy-agentcard-agentes-ia-compras">agentes de IA fazerem compras</a> e da adoção de <a href="/noticias/worldline-protocolo-comercio-universal-pagamentos-agentes-ia">padrões abertos de comércio agêntico</a> por empresas de pagamento: a demanda do consumidor por compras assistidas por IA já é maioria nos EUA, o que aumenta a pressão para que varejistas e emissores de cartão construam trilhos de segurança e integração antes que o comportamento se torne ainda mais comum.</p>
+    `,
+  },
+  {
+    slug: "firecrawl-captacao-75-milhoes-alexandria-agentes-ia",
+    title: "Firecrawl capta US$ 75 milhões em rodada série B e lança biblioteca de dados para agentes de IA",
+    author: "Bruno Danello",
+    summary:
+      "A rodada, liderada pela Smash Capital com participação da Y Combinator, vem acompanhada do lançamento da Alexandria, plataforma que reúne provedores de dados oficiais, conectores personalizados e os próprios índices da Firecrawl para que agentes de IA encontrem e usem fontes de informação de forma mais confiável.",
+    sourceName: "Firecrawl",
+    sourceUrl: "https://www.firecrawl.dev/blog/introducing-alexandria-series-b",
+    date: "2026-09-23",
+    content: `
+      <p>A Firecrawl, startup de infraestrutura de dados para inteligência artificial cofundada pelo brasileiro Nicolas Camara, anunciou uma rodada de investimento série B de US$ 75 milhões, liderada pela Smash Capital e com participação da Altos, Nexus, Y Combinator, Freestyle e Offline Ventures. A captação chega cerca de um ano depois de uma rodada série A de US$ 14,5 milhões, também liderada por Nexus e Y Combinator.</p>
+
+      <h2>O que é a Alexandria</h2>
+      <p>Junto com o novo aporte, a empresa lançou a Alexandria, uma plataforma que combina provedores de dados oficiais, conectores personalizados e os próprios índices da Firecrawl com o conteúdo ao vivo da web — a ideia é dar a agentes de IA um único ponto de acesso para localizar uma fonte de informação, entender o que ela contém e extrair dados dela, em vez de depender apenas de buscas genéricas na internet.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Escala dos dados</span>
+        <p>Segundo a Firecrawl, a Alexandria já integra 82 provedores de dados e mais de 113 milhões de documentos técnicos organizados em 28 categorias — a empresa afirma que a plataforma melhora em 21% a qualidade das respostas em testes com mil perguntas do tipo catálogo, na comparação com ferramentas convencionais de busca na web.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento reflete uma disputa crescente entre startups de infraestrutura de IA para se tornar a camada de dados confiável que sustenta agentes autônomos — à medida que mais empresas dependem de agentes de IA para pesquisar, comparar e tomar decisões automatizadas, a qualidade e a rastreabilidade das fontes usadas por esses agentes se tornam um diferencial competitivo tão importante quanto a capacidade do próprio modelo de linguagem por trás deles.</p>
+    `,
+  },
+  {
+    slug: "biological-computing-aws-modelo-video-neuronios",
+    title: "Startup usa medições de neurônios biológicos reais para acelerar modelo de vídeo por IA em parceria com a AWS",
+    author: "Bruno Danello",
+    summary:
+      "A Biological Computing Co. afirma ter criado o primeiro modelo de vídeo por IA otimizado a partir de medições de atividade neural viva, alcançando geração 5 vezes mais rápida e custo de inferência 80% menor — os neurônios ficam no laboratório da empresa; o cliente final roda apenas uma camada de software leve em infraestrutura convencional.",
+    sourceName: "AWS",
+    sourceUrl: "https://press.aboutamazon.com/aws/2026/9/the-biological-computing-co-partners-with-aws-to-bring-worlds-first-neuron-derived-ai-video-model-to-market",
+    date: "2026-09-24",
+    content: `
+      <p>A Biological Computing Co. (TBC), empresa especializada em computação biológica aplicada, anunciou uma parceria com a AWS para levar ao mercado o que descreve como o primeiro modelo de vídeo por IA otimizado a partir de medições de neurônios biológicos reais. Segundo a empresa, o modelo resultante gera vídeo cerca de 5 vezes mais rápido e com custo de inferência 80% menor do que o modelo original em que se baseia, além de melhorar a qualidade do resultado.</p>
+
+      <h2>Como funciona, sem hardware biológico no cliente</h2>
+      <p>A tecnologia da TBC usa neurônios vivos apenas na etapa de pesquisa, dentro do laboratório da própria empresa, para descobrir padrões de processamento de informação mais eficientes. O que a empresa aprende com essas medições é transformado numa camada de software leve e proprietária — que adiciona menos de 0,1% de sobrecarga ao modelo original — capaz de rodar inteiramente em infraestrutura de IA convencional, sem exigir qualquer hardware biológico ou mudança no fluxo de trabalho do cliente final.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Onde vai rodar</span>
+        <p>Pela parceria, a TBC vai disponibilizar o modelo otimizado nos chips AWS Trainium, com implantação via Amazon SageMaker AI e distribuição comercial pelo AWS Marketplace — a empresa afirma pretender aplicar o mesmo processo a outros modelos e arquiteturas de IA no futuro.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O anúncio chama atenção porque propõe uma abordagem pouco convencional para reduzir o alto custo computacional de modelos de geração de vídeo — em vez de otimizar apenas via engenharia de software ou hardware mais potente, a empresa recorre a princípios observados em sistemas biológicos reais. Se os resultados se confirmarem em escala, a técnica pode se tornar mais uma ferramenta na busca constante do setor por reduzir o custo de rodar modelos de IA cada vez mais pesados, especialmente para tarefas de geração de vídeo, historicamente uma das mais caras em poder de processamento.</p>
     `,
   },
 ];
