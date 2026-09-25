@@ -163,29 +163,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "jensen-huang-rejeita-previsoes-extincao-ia-doomsday",
-    title: "Jensen Huang diz que chance de a IA acabar com a humanidade até 2030 é '0%' e chama previsões de 'irresponsáveis'",
-    author: "Bruno Danello",
-    summary:
-      "O CEO da Nvidia rejeitou publicamente estimativas de risco existencial feitas por pesquisadores ligados à OpenAI e à Anthropic, chamando-as de 'narrativas apocalípticas' sem base científica — mesmo reconhecendo que construir IA com segurança é uma preocupação legítima.",
-    sourceName: "CBS News",
-    sourceUrl: "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/",
-    date: "2026-09-21",
-    content: `
-      <p>Jensen Huang, CEO da Nvidia, afirmou publicamente que vê "0% de chance" de a inteligência artificial acabar com a humanidade até 2030, classificando como "irresponsáveis" as previsões de risco existencial feitas por pesquisadores ligados a laboratórios como OpenAI e Anthropic. Segundo Huang, "assustar as pessoas é desnecessário" e esse tipo de estimativa não está "fundamentado em ciência".</p>
-
-      <p>A declaração é uma resposta direta a alertas como o de Jacob Coxon, ex-pesquisador de OpenAI e Anthropic, e de Evan Hubinger, pesquisador da própria Anthropic, que estimou uma chance superior a 10% de a IA causar a extinção humana na próxima década. Huang argumenta que números sem embasamento científico distorcem o debate público, mesmo quando a intenção é chamar atenção para riscos reais.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Nem tudo é discordância</span>
-        <p>Apesar de rejeitar as previsões de extinção como "narrativas apocalípticas", Huang não descarta a preocupação de fundo: segundo ele, empresas de IA devem avançar rápido, mas nunca lançar produtos inseguros — reconhecendo que construir IA de forma responsável é uma questão legítima, mesmo sem concordar com os números específicos usados por outros líderes do setor.</p>
-      </div>
-
-      <h2>Mais um capítulo do debate sobre desaceleração</h2>
-      <p>A fala de Huang chega poucos dias depois de Dario Amodei, Sam Altman e Elon Musk defenderem publicamente uma desaceleração coordenada da fronteira da IA por motivos de segurança, e da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU dedicada a riscos da tecnologia</a>. O fabricante de chips, cujo negócio depende diretamente do ritmo de investimento em infraestrutura de IA, se junta a nomes como Yann LeCun ao questionar publicamente os cenários mais alarmistas sobre o tema — um contraponto que reforça como o debate sobre os limites e riscos da IA está longe de um consenso, mesmo entre quem constrói a tecnologia. Para quem quer entender melhor os termos por trás dessa discussão, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
-    `,
-  },
-  {
     slug: "eua-china-acordo-dialogo-ia-cupula-trump-xi",
     title: "EUA e China fecham acordo para criar canal oficial de diálogo sobre IA antes da cúpula Trump-Xi",
     author: "Bruno Danello",
@@ -206,29 +183,6 @@ export const news: NewsItem[] = [
 
       <h2>Disputa e diálogo ao mesmo tempo</h2>
       <p>A criação do canal de diálogo chega em meio a uma rivalidade cada vez mais acirrada entre os dois países pela liderança em IA — Trump chegou a declarar, dias antes, que "quem vencer a corrida da IA, vence" — e pouco depois da <a href="/noticias/conselho-seguranca-onu-sessao-ia-trump-globalist-scheme">sessão do Conselho de Segurança da ONU sobre riscos da tecnologia</a>, na qual líderes de empresas americanas pediram mais cooperação internacional. O tema também tem implicações militares diretas, incluindo o uso de IA em sistemas de mira e sua possível integração à cadeia de comando nuclear — um contexto que reforça por que entender os fundamentos da tecnologia importa mesmo fora do mundo corporativo, como já discutimos em nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
-    `,
-  },
-  {
-    slug: "xiaomi-lanca-mimo-v2-6-modelo-aberto-treinado-3-milhoes",
-    title: "Xiaomi lança o MiMo-V2.6, novo modelo aberto que treinou por apenas US$ 3 milhões",
-    author: "Bruno Danello",
-    summary:
-      "Sob licença MIT, o MiMo-V2.6-Pro tem 1 trilhão de parâmetros, entende texto, imagem, vídeo e áudio em um único modelo e alcançou o topo entre os modelos de peso aberto no índice da Artificial Analysis — com um custo de treinamento considerado baixo para o padrão do setor.",
-    sourceName: "Data North AI",
-    sourceUrl: "https://datanorth.ai/news/xiaomi-releases-mimo-v2-6-pro-and-flash",
-    date: "2026-09-21",
-    content: `
-      <p>A Xiaomi lançou o MiMo-V2.6-Pro e o MiMo-V2.6-Flash, dois modelos de IA de peso aberto sob licença MIT, com pesos publicados no Hugging Face. O Pro é um modelo de mistura de especialistas com 1,02 trilhão de parâmetros totais (42 bilhões ativos por token), enquanto o Flash, mais leve, tem 309 bilhões de parâmetros totais com 15 bilhões ativos — ambos com janela de contexto de até 1 milhão de tokens, suficiente para repositórios de código inteiros ou sessões longas de agentes.</p>
-
-      <p>Os dois modelos são "omnimodais nativos": processam texto, imagem, vídeo e áudio dentro da mesma arquitetura, sem depender de módulos separados para cada tipo de conteúdo. Segundo a Xiaomi, o MiMo-V2.6-Pro alcançou pontuação 46 no Índice de Inteligência da Artificial Analysis, colocando-o no topo entre os modelos de peso aberto disponíveis atualmente — com a API já ativa na própria plataforma da Xiaomi e também na OpenRouter.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O dado que chama atenção</span>
-        <p>Segundo estimativas do setor, o treinamento do MiMo-V2.6-Pro custou cerca de US$ 3 milhões — uma fração do que laboratórios como OpenAI e Anthropic gastam para treinar modelos de ponta, reforçando a tendência de empresas chinesas alcançarem desempenho competitivo com custos de treinamento bem menores.</p>
-      </div>
-
-      <h2>Mais uma peça na disputa por modelos abertos</h2>
-      <p>O lançamento reforça a corrida entre empresas chinesas por modelos de peso aberto competitivos, um movimento que já vimos com o <a href="/noticias/deepseek-v4-1-flash-mantem-v4-pro">DeepSeek V4.1 Flash</a> e que pressiona diretamente o preço cobrado por concorrentes ocidentais. Para quem avalia qual ferramenta de IA usar no dia a dia, vale lembrar que "melhor" nem sempre significa "mais caro" — como já discutimos em nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> — e que entender termos como "peso aberto" e "mistura de especialistas" ajuda a acompanhar esse tipo de notícia, algo que nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a> explica em detalhes.</p>
     `,
   },
   {
@@ -1891,6 +1845,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O caso da Dextr reforça como agentes de IA especializados por setor continuam atraindo investimento mesmo em nichos aparentemente distantes da fronteira tecnológica, como hotelaria — um padrão que já vimos em áreas como jurídico e atendimento ao cliente, e que discutimos em nosso texto sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>. Para pequenos negócios do setor de turismo e hospitalidade, esse tipo de ferramenta pode representar uma forma acessível de automatizar tarefas repetitivas sem precisar contratar equipe adicional.</p>
+    `,
+  },
+  {
+    slug: "chatgpt-ads-expande-sete-mercados-asiaticos-1-bilhao",
+    title: "ChatGPT Ads chega a sete novos mercados asiáticos e já opera num ritmo de US$ 1 bilhão em receita anual",
+    author: "Bruno Danello",
+    summary:
+      "A OpenAI expandiu sua plataforma de anúncios para Indonésia, Malásia, Filipinas, Cingapura, Tailândia, Vietnã e Taiwan, levando o serviço a mais de 60 países — menos de 200 dias após o lançamento, os anúncios no ChatGPT já atingiram uma receita anualizada de US$ 1 bilhão.",
+    sourceName: "OpenAI",
+    sourceUrl: "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/",
+    date: "2026-09-23",
+    content: `
+      <p>A OpenAI anunciou a expansão do ChatGPT Ads para sete novos mercados asiáticos — Indonésia, Malásia, Filipinas, Cingapura, Tailândia, Vietnã e Taiwan —, levando a disponibilidade da plataforma de anúncios a mais de 60 países. O movimento segue lançamentos anteriores na região Ásia-Pacífico em Austrália, Nova Zelândia, Japão, Coreia do Sul e Índia.</p>
+
+      <h2>Quem vê os anúncios</h2>
+      <p>Os anúncios aparecem apenas para usuários dos planos gratuito e Go do ChatGPT; assinantes dos planos Plus, Pro e Enterprise continuam usando o produto sem publicidade. A estratégia de segmentar apenas usuários de planos gratuitos ou de entrada busca equilibrar a geração de receita publicitária com a experiência premium paga.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Um negócio que já vale US$ 1 bilhão por ano</span>
+        <p>Segundo a OpenAI, o ChatGPT Ads atingiu uma receita anualizada de US$ 1 bilhão em menos de 200 dias desde o lançamento — um ritmo de crescimento raro mesmo para os padrões do setor de tecnologia, que reforça o quanto a base de usuários do ChatGPT já se tornou valiosa para anunciantes.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A expansão mostra como a OpenAI está diversificando suas fontes de receita para além das assinaturas e do acesso via API, apostando em publicidade como uma terceira frente de monetização em larga escala — um caminho parecido com o que Google e Meta já percorreram com seus próprios produtos gratuitos. Para usuários dos planos gratuitos nesses novos mercados, a mudança também é um lembrete prático de que "gratuito" quase sempre significa algum tipo de troca, tema que já exploramos em nosso texto sobre <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">usar IA gratuita ou paga</a>.</p>
+    `,
+  },
+  {
+    slug: "nscale-capta-3-36-bilhoes-financiamento-pre-ipo",
+    title: "Nscale capta US$ 3,36 bilhões em financiamento conversível antes de seu IPO nos EUA",
+    author: "Bruno Danello",
+    summary:
+      "A rodada, liderada pelo fundo Third Point, inclui um aporte inicial de US$ 2,36 bilhões mais um compromisso adicional de US$ 1 bilhão da própria Nvidia, com conversão automática em ações assim que o IPO da nuvem de IA britânica for concluído.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+    date: "2026-09-25",
+    content: `
+      <p>A Nscale, provedora britânica de infraestrutura de nuvem para inteligência artificial que já havia protocolado pedido de IPO nos Estados Unidos, anunciou nesta sexta-feira a captação de US$ 3,36 bilhões em notas conversíveis, numa rodada liderada pelo fundo Third Point. O financiamento inclui um aporte inicial de US$ 2,36 bilhões já disponível, além de um compromisso adicional de US$ 1 bilhão da própria Nvidia, com previsão de entrada em meados de novembro.</p>
+
+      <h2>Uma lista extensa de investidores</h2>
+      <p>Além da Nvidia, participaram da rodada fundos geridos pela Apollo, Citadel, Hudson Bay Capital, o Conselho de Investimentos de Abu Dhabi e a 8090 Industries, entre outros nomes como Davidson Kempner, Qube Research & Technologies, Wellington Management e LionTree. O Goldman Sachs atuou como agente de colocação da captação.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Como funciona a conversão</span>
+        <p>As notas são conversíveis em ações ordinárias — ou ações sem direito a voto, no caso da Nvidia — automaticamente na conclusão do IPO da Nscale, uma estrutura comum em rodadas pré-IPO que permite aos investidores travar uma posição antes da estreia em bolsa sem esperar pelo preço final de listagem.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A captação reforça o apetite do mercado por empresas de infraestrutura de nuvem para IA mesmo antes de comprovarem rentabilidade — a Nscale havia registrado salto de receita de 1.252% no primeiro semestre de 2026, acompanhado de um prejuízo líquido de US$ 1,02 bilhão no período, segundo seu <a href="/noticias/nscale-abre-capital-eua-avaliacao-35-bilhoes">pedido de abertura de capital</a>. O envolvimento direto da Nvidia como investidora, e não apenas fornecedora de chips, também ilustra como a fabricante vem usando capital próprio para garantir relações estreitas com provedores de infraestrutura que sustentam a demanda por seus produtos.</p>
     `,
   },
 ];
