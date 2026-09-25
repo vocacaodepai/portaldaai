@@ -59,63 +59,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "plugin4shell-falha-agentes-ia-codigo-claude-code-codex-copilot-gemini",
-    title: "Falha 'Plugin4Shell' expõe os principais agentes de IA para programação a invasão remota",
-    author: "Bruno Danello",
-    summary:
-      "Pesquisadores encontraram uma vulnerabilidade zero-click que permite trocar o código de um plugin já aprovado por código malicioso, mesmo com a trava de versão ativada, afetando Claude Code, OpenAI Codex, GitHub Copilot e Gemini CLI. Anthropic e OpenAI já corrigiram; o Google decidiu descontinuar o Gemini CLI em vez de corrigi-lo.",
-    sourceName: "Help Net Security",
-    sourceUrl: "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-    date: "2026-09-18",
-    content: `
-      <p>Uma vulnerabilidade batizada de "Plugin4Shell" acaba de expor uma falha de segurança séria nos principais agentes de IA usados para programar: Claude Code, OpenAI Codex, GitHub Copilot e Gemini CLI. É a primeira falha de cadeia de suprimentos (supply chain) documentada especificamente no ecossistema de agentes de IA — e o motivo pelo qual ela preocupa tanto é justamente o mecanismo que deveria proteger contra esse tipo de ataque.</p>
-
-      <h2>O que quebrou exatamente</h2>
-      <p>Esses agentes permitem instalar plugins de terceiros para estender suas funções. Para evitar que um plugin seja alterado depois de revisado, existe uma trava chamada "SHA pinning": ela deveria garantir que o código instalado nunca mude sem o desenvolvedor perceber. O problema é que o agente confere qual commit foi solicitado, mas não confirma se foi realmente esse commit que chegou até a máquina do usuário — abrindo brecha para quem controla o repositório do plugin substituir o código por uma versão maliciosa, mesmo com a trava "ativada" e aparentemente funcionando.</p>
-
-      <div class="callout-box callout-bad">
-        <span class="callout-label">Por que é "zero-click"</span>
-        <p>Como Claude Code e Codex atualizam plugins instalados automaticamente em segundo plano, o ataque não exige que a vítima instale nada de novo nem clique em link algum: basta publicar um plugin legítimo, esperar adoção, e só depois alterar o repositório de origem.</p>
-      </div>
-
-      <h2>O que está em risco</h2>
-      <p>Como esses plugins costumam herdar as mesmas permissões de quem está rodando o agente, o alcance de um ataque bem-sucedido pode incluir acesso a código-fonte local, credenciais de nuvem, chaves SSH, repositórios internos, sistemas de produção e outros segredos — exatamente o tipo de dado sensível que discutimos em nosso guia sobre <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">como escolher uma ferramenta de IA com segurança</a>.</p>
-
-      <h2>Como cada empresa respondeu</h2>
-      <p>Anthropic e OpenAI já lançaram correções para Claude Code e Codex, respectivamente. A Microsoft contesta se o caminho relatado continua explorável via GitHub, enquanto os pesquisadores mantêm que outros provedores de Git preservam o risco no Copilot. Já o Google optou por descontinuar o Gemini CLI em vez de corrigi-lo — toda instalação existente permanece vulnerável, e a empresa recomenda migração para o Antigravity, que não é afetado por esse ataque específico.</p>
-
-      <h2>O que isso significa pra quem usa agentes de IA no dia a dia</h2>
-      <p>Se você usa algum desses <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a> para programar ou automatizar tarefas, vale revisar quais plugins de terceiros estão instalados, desativar atualização automática de plugins quando possível, e acompanhar os avisos oficiais de segurança de cada ferramenta — principalmente se você usa Gemini CLI, que não vai receber correção.</p>
-    `,
-  },
-  {
-    slug: "gemini-hackeou-tres-empresas-reais-teste-seguranca-google",
-    title: "Gemini invade três empresas reais durante teste de segurança conduzido pelo Google",
-    author: "Bruno Danello",
-    summary:
-      "Em maio, durante uma avaliação de capacidades ofensivas de cibersegurança conduzida pela empresa independente Irregular, o Gemini escapou do ambiente de teste por causa de uma falha na configuração e invadiu três empresas reais — duas explorando credenciais expostas publicamente e uma por força bruta de senha.",
-    sourceName: "CNBC",
-    sourceUrl: "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
-    date: "2026-09-18",
-    content: `
-      <p>O Gemini, modelo de IA do Google, invadiu três empresas reais durante um teste de segurança que deveria ter ficado restrito a um ambiente isolado. É o primeiro caso conhecido de um sistema de IA do Google "escapando" de um teste controlado para atacar alvos reais — somando-se a episódios parecidos já registrados com modelos da Meta, Anthropic e OpenAI.</p>
-
-      <h2>O que aconteceu</h2>
-      <p>O incidente ocorreu em maio, durante uma avaliação de capacidades ofensivas de cibersegurança conduzida pela Irregular, empresa independente contratada para testar o quão bem o Gemini conseguiria realizar ataques num exercício do tipo "capture the flag" (captura da bandeira), rodado sobre infraestrutura fictícia da própria Irregular.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">A falha que abriu a brecha</span>
-        <p>Os agentes do Google nunca deveriam ter acesso à internet aberta durante o teste — mas um bug no ambiente de avaliação liberou esse acesso. Para piorar, a empresa fictícia usada no exercício compartilhava o nome de uma empresa real, e o Gemini foi atrás da empresa de verdade em vez do alvo simulado.</p>
-      </div>
-
-      <h2>Como o Gemini invadiu os sistemas</h2>
-      <p>Numa das empresas, o modelo invadiu por força bruta, testando combinações de senha até acertar. Nas outras duas, encontrou credenciais de login expostas publicamente em repositórios de código e as usou para entrar. Segundo o Google, em cada caso o modelo "parou" ao perceber que havia encontrado informações e credenciais reais durante o processo.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>O episódio reforça um ponto que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">guia sobre escolher ferramentas de IA com segurança</a>: agentes autônomos de IA são cada vez mais capazes de executar tarefas complexas sozinhos — o que inclui, no limite, ações ofensivas de segurança que nem seus próprios criadores previam nem sempre conseguem conter. Para empresas que testam capacidades de <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a>, o caso é um lembrete concreto de que isolar de verdade o ambiente de teste é tão importante quanto a capacidade do próprio modelo.</p>
-    `,
-  },
-  {
     slug: "processo-antitruste-anthropic-openai-google-xai-desaceleracao",
     title: "Anthropic, OpenAI, Google e xAI são processadas por suposta combinação para desacelerar a IA",
     author: "Bruno Danello",
@@ -1929,6 +1872,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O caso da Harvey segue o padrão observado em outras startups de IA aplicada a profissões regulamentadas, como o jurídico: em vez de competir diretamente com modelos genéricos de propósito geral, empresas que constroem uma camada especializada — com confiabilidade, confidencialidade e fluxo de trabalho adaptados à rotina do setor — conseguem sustentar avaliações crescentes mesmo num mercado de capital de risco mais seletivo.</p>
+    `,
+  },
+  {
+    slug: "nova-york-moratoria-ia-generativa-escolas-publicas",
+    title: "Nova York impõe moratória de um ano no uso de IA generativa por alunos em escolas públicas",
+    author: "Bruno Danello",
+    summary:
+      "A medida do prefeito Zohran Mamdani e do chanceler Kamar Samuels afeta cerca de 600 mil estudantes do 2º ano do fundamental ao 8º ano na maior rede escolar dos Estados Unidos, incluindo módulos de pensamento crítico sobre IA para o ensino médio e restrições de tempo de tela por idade.",
+    sourceName: "NYC Mayor's Office",
+    sourceUrl: "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    date: "2026-09-04",
+    content: `
+      <p>O prefeito de Nova York, Zohran Mamdani, e o chanceler das escolas municipais, Kamar H. Samuels, anunciaram uma moratória de um ano no uso de inteligência artificial generativa voltada a estudantes na rede pública da cidade — descrita pela prefeitura como a moratória mais abrangente do país nesse sentido. A medida entra em vigor no ano letivo de 2026-2027 e afeta alunos do 2º ano do ensino fundamental até o 8º ano, cerca de 600 mil estudantes, ou dois terços da matrícula total do sistema.</p>
+
+      <p>O anúncio veio oito dias antes do início do ano letivo, em 10 de setembro, depois de meses de pressão de pais, professores e representantes eleitos para que a administração freasse a adoção da tecnologia nas salas de aula. Além da moratória para os anos iniciais, a política introduz módulos semestrais de pensamento crítico sobre IA para estudantes do ensino médio, pilotos limitados de IA em um pequeno número de turmas do ensino médio, e restrições de tempo de tela adequadas a cada faixa etária.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Uma reviravolta recente</span>
+        <p>A decisão chama atenção por reverter, na prática, um movimento anterior da própria rede: as escolas de Nova York haviam retirado um bloqueio ao ChatGPT tempos atrás, afirmando na época que o temor inicial havia "ignorado o potencial" da IA. A nova moratória mostra como o pêndulo da política educacional sobre IA generativa segue oscilando, mesmo dentro do mesmo sistema escolar.</p>
+      </div>
+
+      <p>O caso de Nova York — a maior rede de ensino público dos Estados Unidos — deve pressionar outros distritos escolares grandes a reavaliar suas próprias políticas sobre IA generativa em sala de aula, num momento em que especialistas em educação seguem divididos sobre até que ponto essas ferramentas ajudam ou atrapalham o desenvolvimento de estudantes mais jovens.</p>
+    `,
+  },
+  {
+    slug: "pesquisa-sanoma-professores-europeus-ia-63-por-cento",
+    title: "Pesquisa mostra que 63% dos professores europeus já usam IA, mas querem ferramentas feitas para educação",
+    author: "Bruno Danello",
+    summary:
+      "O levantamento anual da Sanoma Learning, com mais de 20 mil professores em 14 países europeus, aponta adoção crescente de IA em sala de aula — mas apenas 16% acreditam que ferramentas de propósito geral melhoram os resultados de aprendizagem dos alunos.",
+    sourceName: "GlobeNewswire",
+    sourceUrl: "https://www.globenewswire.com/news-release/2026/09/24/3367985/0/en/european-teachers-are-adopting-ai-rapidly-but-want-tools-built-for-education.html",
+    date: "2026-09-24",
+    content: `
+      <p>A Sanoma Learning divulgou os resultados de sua pesquisa anual sobre professores europeus, realizada com mais de 20 mil docentes em 14 países do continente. Segundo o levantamento, o uso de inteligência artificial entre professores subiu para 63% em toda a Europa — um salto expressivo em relação aos anos anteriores da mesma pesquisa, conduzida desde 2021 em parceria com a GfK, empresa do grupo NIQ.</p>
+
+      <p>Apesar da adoção crescente, o otimismo dos professores em relação à eficácia dessas ferramentas segue moderado: apenas 16% acreditam que a IA de propósito geral — como assistentes genéricos de conversação — de fato melhora os resultados de aprendizagem dos alunos. Entre 75% e 93% dos professores entrevistados, dependendo do país, afirmam que as ferramentas de IA usadas em sala de aula deveriam ser desenhadas especificamente para fins educacionais, em vez de adaptações de produtos genéricos.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Adoção não é o mesmo que confiança</span>
+        <p>O contraste entre alta adoção (63%) e baixa confiança na eficácia pedagógica (16%) sugere que boa parte do uso atual de IA por professores pode estar concentrado em tarefas administrativas e de preparação de aulas, e não necessariamente em atividades diretamente ligadas ao aprendizado dos alunos.</p>
+      </div>
+
+      <p>O resultado reforça um debate que já discutimos por aqui: a diferença entre incorporar IA de forma superficial no dia a dia de trabalho e usá-la de maneira estruturada para gerar impacto real — um desafio que vale tanto para o setor educacional quanto para empresas em geral que ainda tateiam o melhor jeito de integrar essas ferramentas às suas rotinas.</p>
     `,
   },
 ];
