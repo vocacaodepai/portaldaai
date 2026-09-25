@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "arista-networks-entra-sp-100",
-    title: "Arista Networks entra no índice S&P 100 no lugar da Nike",
-    author: "Bruno Danello",
-    summary:
-      "A fabricante de equipamentos de rede usados em data centers de IA passa a integrar o índice a partir de 21 de setembro, num rebalanceamento trimestral que também inclui Dell, Palo Alto Networks e Sandisk. As ações da empresa acumulam alta de 45% no ano, impulsionadas pela demanda por infraestrutura de rede para IA.",
-    sourceName: "Parameter",
-    sourceUrl: "https://parameter.io/arista-networks-anet-stock-surges-37-ahead-of-sp-100-index-inclusion/",
-    date: "2026-09-18",
-  },
-  {
-    slug: "coreweave-backlog-104-bilhoes",
-    title: "CoreWeave encerra trimestre com backlog recorde de US$ 104 bilhões",
-    author: "Bruno Danello",
-    summary:
-      "A provedora de nuvem especializada em IA reportou receita contratada ainda não entregue de US$ 104,2 bilhões, alta de 246% em um ano, mas carrega US$ 35 bilhões em dívida para bancar GPUs e outros equipamentos. A despesa com juros já soma US$ 640 milhões no trimestre e deve continuar subindo com a expansão da infraestrutura.",
-    sourceName: "CNBC",
-    sourceUrl: "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-    date: "2026-08-11",
-  },
-  {
     slug: "engenheiro-cognition-fatora-rsa-260-com-devin",
     title: "Engenheiro da Cognition fatora o RSA-260, recorde histórico de 35 anos, com ajuda do Devin",
     author: "Bruno Danello",
@@ -1889,6 +1869,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>Embora os termos financeiros específicos da parceria com a AbbVie não tenham sido divulgados, o acordo reforça como a aplicação de IA em biotecnologia deixou de ser experimental e passou a fazer parte da estratégia central de pesquisa e desenvolvimento das grandes empresas farmacêuticas, num momento em que laboratórios como a Anthropic também têm investido diretamente em pesquisa de ciências da vida.</p>
+    `,
+  },
+  {
+    slug: "pony-ai-verne-zagreb-robotaxi-sem-operador-europa",
+    title: "Pony.ai e Verne lançam robotáxi totalmente sem operador de segurança na Europa",
+    author: "Bruno Danello",
+    summary:
+      "Passageiros convidados já andam sem ninguém no banco do motorista numa rota de 22 quilômetros em Zagreb, na Croácia, cinco meses depois de a Verne lançar o que descreve como o primeiro serviço comercial de robotáxi da Europa — a frota já rodou mais de 200 mil quilômetros com nota média de 4,7 de 5 dos passageiros.",
+    sourceName: "Traffic Technology Today",
+    sourceUrl: "https://www.traffictechnologytoday.com/news/autonomous-vehicles/pony-ai-and-verne-launch-driverless-robotaxi-tests-in-zagreb-croatia.html",
+    date: "2026-09-10",
+    content: `
+      <p>A Pony.ai e a Verne começaram a levar passageiros sem nenhum operador de segurança no banco do motorista em vias públicas de Zagreb, capital da Croácia — um marco que as empresas descrevem como o primeiro serviço do tipo na Europa. Passageiros convidados agora podem andar numa rota de 22 quilômetros que conecta a sede da Verne e um importante distrito comercial ao Aeroporto Franjo Tuđman de Zagreb, sem qualquer supervisão humana dentro do veículo.</p>
+
+      <p>A Verne havia lançado, em abril, o que chama de primeiro serviço comercial de robotáxi da Europa, inicialmente operando com um supervisor humano a bordo. Em 19 de agosto, o serviço passou a estar disponível também pelo aplicativo da Uber, que passou a oferecer acesso aos veículos operados com a tecnologia de direção autônoma da Pony.ai. No modelo de parceria entre as três empresas, a Pony.ai fornece a tecnologia de condução autônoma, a Verne lidera a operação do serviço, e a Uber oferece acesso via seu aplicativo.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Resultados até aqui</span>
+        <p>Desde o lançamento em abril, a frota já rodou mais de 200 mil quilômetros, completou milhares de corridas com passageiros e mantém nota média de 4,7 em 5 nas avaliações. As empresas planejam ampliar gradualmente a área de operação sem supervisão humana nos próximos meses.</p>
+      </div>
+
+      <p>O caso reforça como a corrida por robotáxis totalmente autônomos, até agora concentrada principalmente nos Estados Unidos e na China, também avança na Europa — com uma combinação de tecnologia chinesa (Pony.ai), operação local (Verne) e distribuição via uma plataforma já estabelecida (Uber) como modelo de expansão para o continente.</p>
+    `,
+  },
+  {
+    slug: "anthropic-project-swap-agentes-negociam-marketplace",
+    title: "Anthropic testa agentes de IA negociando trocas de objetos em nome de humanos",
+    author: "Bruno Danello",
+    summary:
+      "No experimento Project Swap, funcionários da Anthropic em seis escritórios levaram um livro para doar, conversaram por cinco minutos com o Claude sobre suas preferências de leitura e deixaram um agente barganhar com outros agentes num pregão aberto — a capacidade do modelo usado pesou mais no resultado da negociação do que as instruções de prompt dadas a ele.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/research/project-swap",
+    date: "2026-09-24",
+    content: `
+      <p>A Anthropic publicou os resultados do Project Swap, um experimento controlado que dá sequência ao Project Deal, sua primeira tentativa de colocar agentes de IA para interagir num mercado em nome de pessoas reais. Desta vez, funcionários da empresa em seis escritórios diferentes trouxeram um livro que queriam doar, tiveram uma conversa curta com o Claude sobre suas preferências de leitura, e depois enviaram um agente baseado no Claude para um "pregão" aberto, onde ele precisava negociar, fazer ofertas e fechar trocas com os agentes de outras pessoas.</p>
+
+      <p>O resultado chamou atenção da própria Anthropic: a partir de uma conversa de apenas cinco minutos, o ranking de livros feito pelo agente coincidiu com o do próprio funcionário em 61% dos pares comparados — um índice considerado surpreendentemente alto para um contexto tão curto de conversa. Segundo a empresa, isso indica que os agentes conseguiram representar razoavelmente bem as preferências humanas durante negociações de mercado, mesmo com informação limitada.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que mais pesa na negociação</span>
+        <p>A principal conclusão do estudo é que a capacidade do modelo subjacente usado pelo agente influencia mais a eficiência da negociação do que instruções específicas de prompt — ou seja, um raciocínio mais avançado parece ser pré-requisito para que um agente de IA participe bem de mercados autônomos, mais do que a forma como ele é instruído a agir.</p>
+      </div>
+
+      <p>O experimento se soma a uma linha de pesquisa da Anthropic sobre como agentes de IA podem agir de forma autônoma em nome de pessoas em contextos comerciais e de cadeia de suprimentos — um tema que já discutimos em nosso artigo sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>, e que ganha relevância à medida que empresas avaliam colocar agentes autônomos para tomar decisões de negociação em seu nome.</p>
     `,
   },
 ];
