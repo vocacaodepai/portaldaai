@@ -83,60 +83,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "brecha-base-principal-orgaos-federais-eua-driblam-supervisao-ia",
-    title: "Prazo de conformidade em IA do governo dos EUA vira alvo de crítica por 'brecha' que esvazia a fiscalização",
-    author: "Bruno Danello",
-    summary:
-      "Hoje, 22 de setembro, venceu o prazo para órgãos federais americanos reportarem como estão cumprindo as regras de segurança da OMB para sistemas de IA de 'alto impacto'. Uma reportagem mostra como o Departamento de Segurança Interna (DHS) usa uma interpretação da própria norma para escapar das exigências mais rígidas.",
-    sourceName: "Forkast",
-    sourceUrl: "https://forkast.news/the-principal-basis-loophole-how-dhs-evades-ai-oversight-2/",
-    date: "2026-09-22",
-    content: `
-      <p>Hoje, 22 de setembro, é o prazo final para que agências do governo federal dos Estados Unidos comprovem que estão cumprindo as regras mínimas de gestão de risco para sistemas de IA classificados como "alto impacto" — exigência criada pelo memorando OMB M-25-21, do Escritório de Administração e Orçamento da Casa Branca. Uma reportagem publicada hoje mostra como pelo menos um órgão, o Departamento de Segurança Interna (DHS), encontrou uma forma de escapar da parte mais rígida dessa fiscalização.</p>
-
-      <h2>Como funciona a "brecha da base principal"</h2>
-      <p>A norma define como "alto impacto" qualquer sistema de IA cuja saída sirva de "base principal" para decisões com efeito legal, material ou significativo sobre direitos ou segurança de uma pessoa. O DHS argumenta que, se um humano participa da decisão final — mesmo que só carimbando o que a IA recomendou — a saída do sistema deixa de ser considerada "base principal", e o órgão fica livre das exigências mais pesadas: testes prévios, avaliação de impacto, supervisão humana adequada e mecanismos de recurso para quem for afetado.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Por que isso importa</span>
-        <p>Essa interpretação permite manter a aparência de controle humano sobre a decisão, enquanto na prática o peso real da escolha continua vindo de um algoritmo pouco transparente — em decisões que podem afetar diretamente direitos e segurança de pessoas comuns.</p>
-      </div>
-
-      <h2>Um prazo que já nasce sem página oficial</h2>
-      <p>Reforçando a fragilidade do processo, a própria página da Casa Branca que hospedava o texto do memorando M-25-21 está retornando erro 404 no dia em que o prazo de conformidade vence — um detalhe simbólico que a reportagem usa para ilustrar o estado atual da supervisão federal sobre IA nos EUA.</p>
-
-      <h2>Por que isso importa mesmo fora dos EUA</h2>
-      <p>O episódio é um lembrete de um problema que não é exclusivo do governo americano: regras bem escritas sobre uso responsável de IA podem ser esvaziadas por interpretações técnicas quando não há fiscalização rigorosa por trás. Para quem acompanha o avanço de <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a> tomando decisões cada vez mais complexas, o caso reforça por que supervisão humana de verdade — não apenas formal — segue sendo um ponto central da discussão sobre uso responsável de inteligência artificial.</p>
-    `,
-  },
-  {
-    slug: "anthropic-laboratorio-fisico-life-sciences-verification-program",
-    title: "Anthropic confirma laboratório físico de biologia e abre programa para pesquisadores usarem o Claude sem as restrições padrão",
-    author: "Bruno Danello",
-    summary:
-      "A empresa por trás do Claude confirmou que opera um laboratório 'wet lab' na Bay Area, onde o modelo chega a dirigir protocolos robóticos de experimentos reais, e abriu inscrições para o Life Sciences Verification Program, que libera usos hoje bloqueados no Claude padrão para instituições de pesquisa verificadas.",
-    sourceName: "Anthropic",
-    sourceUrl: "https://www.anthropic.com/news/life-sciences-verification-program",
-    date: "2026-09-17",
-    content: `
-      <p>A Anthropic confirmou que opera um laboratório físico de biologia — um "wet lab", no jargão da área — na região da Baía de São Francisco, onde o Claude não só sugere hipóteses científicas como chega a dirigir protocolos robóticos que executam experimentos reais. Junto com essa confirmação, a empresa abriu inscrições para o Life Sciences Verification Program (LSVP), um programa que libera para instituições de pesquisa verificadas uma série de usos hoje bloqueados na versão padrão do Claude.</p>
-
-      <h2>Por que o modelo tem restrições nessa área</h2>
-      <p>Tarefas como pesquisa em descoberta de fármacos, biologia experimental, desenvolvimento clínico e manufatura biológica esbarram em bloqueios de segurança do Claude, criados justamente para evitar uso indevido em contextos sensíveis — como o mau uso de conhecimento biológico avançado. O LSVP existe para abrir uma exceção controlada: cada instituição que se inscreve passa por uma verificação que avalia credenciais de pesquisa, padrões de segurança da instituição e supervisão ética do trabalho.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que muda na prática</span>
-        <p>Segundo Eric Kauderer-Abrams, chefe da área de ciências da vida da Anthropic, o teste final de qualquer hipótese em biologia "ainda é, e vai continuar sendo por um bom tempo, o trabalho de laboratório real" — por isso a empresa decidiu integrar verticalmente até a execução física dos experimentos, não só a parte de análise e sugestão de hipóteses.</p>
-      </div>
-
-      <h2>Uma aposta que já vinha sendo construída</h2>
-      <p>O laboratório físico não surgiu do zero: a Anthropic adquiriu em abril a startup de biotecnologia em modo furtivo Coefficient Bio, por cerca de US$ 400 milhões — movimento que, visto em retrospecto, já sinalizava a intenção de ir além do software e assumir também a ponta de execução física da pesquisa científica.</p>
-
-      <h2>Por que isso importa para quem acompanha IA aplicada</h2>
-      <p>O caso ilustra um padrão que deve se repetir em outras áreas sensíveis: em vez de manter restrições genéricas para todo mundo, empresas de IA criam programas de acesso verificado que liberam capacidades mais avançadas só para quem comprova credenciais e supervisão adequada. Para profissionais e empresas de setores regulados, entender que esse tipo de acesso "sob verificação" existe pode ser o caminho para aproveitar capacidades de IA que o público geral ainda não tem acesso.</p>
-    `,
-  },
-  {
     slug: "cognition-capta-2-bilhoes-avaliacao-48-bilhoes-devin",
     title: "Cognition capta mais de US$ 2 bilhões e quase dobra avaliação para US$ 48 bilhões em quatro meses",
     author: "Bruno Danello",
@@ -1916,6 +1862,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O resultado reforça um debate que já discutimos por aqui: a diferença entre incorporar IA de forma superficial no dia a dia de trabalho e usá-la de maneira estruturada para gerar impacto real — um desafio que vale tanto para o setor educacional quanto para empresas em geral que ainda tateiam o melhor jeito de integrar essas ferramentas às suas rotinas.</p>
+    `,
+  },
+  {
+    slug: "figure-ai-helix-2-5-zero-shot-30-casas",
+    title: "Robô da Figure AI realiza tarefas domésticas em 30 casas nunca vistas antes, sem treinamento prévio no local",
+    author: "Bruno Danello",
+    summary:
+      "O Helix 2.5, rede neural humanoide da Figure AI pré-treinada com dados de comportamento humano, conseguiu arrumar salas, dobrar toalhas e fazer camas em 30 residências da Bay Area sem nenhuma coleta de dados ou ajuste fino prévio nesses ambientes — a taxa de sucesso saltou de 9% para 56% em comparação com uma versão treinada do zero.",
+    sourceName: "Figure AI",
+    sourceUrl: "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+    date: "2026-09-17",
+    content: `
+      <p>A Figure AI apresentou o Helix 2.5, sua mais nova rede neural para robôs humanoides, com um teste incomum: em vez de treinar o robô especificamente em cada ambiente onde ele atuaria, a empresa pré-treinou o modelo com um grande conjunto de dados de comportamento humano — chamado Index — e depois o testou "zero-shot" (sem nenhum treinamento adicional) em 30 casas da região da Baía de São Francisco que o robô nunca havia visto antes.</p>
+
+      <p>O robô realizou três tarefas domésticas de longa duração em cada residência: arrumar a sala de estar, dobrar toalhas e fazer a cama — sem coleta de dados, ajuste fino ou qualquer tipo de adaptação prévia nesses ambientes específicos ou nos objetos manipulados. Segundo a Figure AI, o pré-treinamento com o Index elevou a taxa de sucesso "zero-shot" de 9% para 56%, numa comparação controlada contra uma política idêntica treinada do zero, sem o mesmo pré-treinamento.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Uma "lei de escala" para robôs humanoides</span>
+        <p>A empresa descreve o resultado como, segundo seu conhecimento, a primeira lei de escala de transferência humano-para-robô já medida num humanoide — ainda que a Figure AI ressalte que a medição cobre apenas a escala de dados, não necessariamente outros fatores que também influenciam a capacidade de generalização do robô.</p>
+      </div>
+
+      <p>O experimento é relevante porque ataca um dos principais gargalos da robótica humanoide: a dificuldade de fazer um robô funcionar bem em ambientes que ele nunca viu, sem depender de treinamento específico para cada novo local — um requisito essencial para que humanoides consigam operar de forma prática em casas e ambientes de trabalho variados, em vez de ficarem restritos a fábricas ou depósitos com layout controlado.</p>
+    `,
+  },
+  {
+    slug: "universal-music-elevenlabs-plataforma-ia-musical-licenciada",
+    title: "Universal Music e ElevenLabs anunciam plataforma de IA musical construída com catálogo licenciado",
+    author: "Bruno Danello",
+    summary:
+      "O acordo multianual prevê uma plataforma voltada a fãs que permite remixar e criar novas versões de faixas de artistas participantes, com adesão faixa a faixa em vez da liberação automática de todo o catálogo — a primeira parceria da ElevenLabs com uma grande gravadora.",
+    sourceName: "Variety",
+    sourceUrl: "https://variety.com/2026/music/news/umg-elevenlabs-ai-powered-music-platform-licensing-1236857240/",
+    date: "2026-09-10",
+    content: `
+      <p>A Universal Music Group (UMG) fechou um acordo de licenciamento amplo com a ElevenLabs, startup de IA para áudio, para lançar uma plataforma de música com inteligência artificial construída a partir do catálogo de artistas da gravadora. É a primeira parceria da ElevenLabs com uma grande gravadora, combinando licenciamento de conteúdo e desenvolvimento conjunto de produto.</p>
+
+      <p>A plataforma vai permitir que fãs remixem e criem "mashups" de faixas de artistas, além de gerar novas interpretações de músicas e experiências vocais personalizadas. Diferente de uma liberação em massa do catálogo, os artistas participantes vão aderir faixa a faixa — ou seja, cada música precisa de autorização específica, em vez de todo o acervo da gravadora ficar automaticamente disponível para remixagem por IA.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Além da plataforma para fãs</span>
+        <p>O acordo também prevê que UMG e ElevenLabs desenvolvam juntas outros produtos de áudio com IA voltados a artistas e compositores — a plataforma para fãs é apenas o primeiro produto de uma parceria multianual mais ampla entre as duas empresas.</p>
+      </div>
+
+      <p>O movimento reforça uma mudança de postura das grandes gravadoras em relação à IA generativa: em vez de tratar apenas como ameaça — como no processo judicial que a própria Universal, junto com a Sony, mantém contra a Suno —, empresas como a UMG têm buscado fechar parcerias comerciais com empresas de IA dispostas a construir produtos sobre catálogos licenciados, com participação dos artistas na receita gerada.</p>
     `,
   },
 ];
