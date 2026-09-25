@@ -186,52 +186,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "ema-capta-77-milhoes-agentes-ia-substituem-software",
-    title: "Startup Ema capta US$ 77 milhões apostando que agentes de IA vão substituir softwares corporativos",
-    author: "Bruno Danello",
-    summary:
-      "A rodada Série B, liderada pela Creaegis, mais que quadruplicou a avaliação da empresa, que já soma mais de 50 clientes corporativos como Google, Microsoft, PwC e KPMG usando suas 'funcionárias de IA' para tarefas de RH, TI e financeiro.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
-    date: "2026-09-23",
-    content: `
-      <p>A Ema, startup que desenvolve "funcionárias de IA" para automatizar tarefas corporativas, levantou uma rodada Série B de US$ 77 milhões liderada pela Creaegis, com aumento de aporte de investidores já existentes como Accel, S32 e Prosus. A rodada eleva o total captado pela empresa a US$ 140 milhões e mais que quadruplica sua avaliação em relação à rodada anterior — embora o valor exato não tenha sido divulgado.</p>
-
-      <p>Segundo a empresa, mais de 50 clientes corporativos já usam os agentes da Ema para rodar operações de RH, TI e financeiro, incluindo nomes como Google, Microsoft, PwC e KPMG. A Ema afirma ter mais de 1 milhão de usuários ativos e um crescimento de receita de 50 vezes em dois anos, com clientes processando milhões de interações por ano através dos agentes.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que está por trás da captação</span>
-        <p>A tese da Ema — e de um número crescente de investidores — é que agentes de IA vão substituir boa parte do software corporativo tradicional, não apenas complementá-lo: em vez de comprar uma licença de sistema e treinar funcionários para usá-lo, a empresa contrata um agente que já sabe operar o processo de ponta a ponta.</p>
-      </div>
-
-      <h2>Mais um sinal da pressão sobre o software empresarial</h2>
-      <p>A rodada reforça uma tendência que já discutimos em nosso artigo sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>: cada vez mais empresas de tecnologia apostam que agentes autônomos vão comer fatias do mercado de SaaS tradicional, e não só oferecer mais um recurso dentro dele. Para pequenos negócios que já usam automação no dia a dia, vale revisitar nosso guia de <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automação com IA para economizar horas de trabalho</a> — o mesmo princípio por trás de produtos como o da Ema, só que em escala corporativa.</p>
-    `,
-  },
-  {
-    slug: "amd-atinge-1-trilhao-valor-mercado-ia",
-    title: "AMD atinge US$ 1 trilhão em valor de mercado pela primeira vez, impulsionada pela IA",
-    author: "Bruno Danello",
-    summary:
-      "As ações da AMD subiram 9,6% em um único dia, alcançando um recorde histórico e cinco dias seguidos de alta, tornando a empresa a quarta fabricante de chips dos EUA a superar a marca de US$ 1 trilhão — atrás apenas de Nvidia, Broadcom e Micron.",
-    sourceName: "CNBC",
-    sourceUrl: "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
-    date: "2026-09-21",
-    content: `
-      <p>A AMD atingiu pela primeira vez um valor de mercado de US$ 1 trilhão, depois de suas ações subirem 9,6% em um único pregão até um recorde histórico de US$ 613,92, no quinto dia seguido de alta — uma sequência que somou 24% de valorização. Com isso, a empresa se torna a quarta fabricante de chips americana a cruzar essa marca, atrás de Nvidia, Broadcom e Micron Technology.</p>
-
-      <p>A alta reflete a forte demanda por infraestrutura de data center para inteligência artificial: a receita da AMD nesse segmento cresceu 107% na comparação anual no segundo trimestre de 2026, chegando a US$ 6,7 bilhões. A empresa também tem ganhado espaço como fornecedora de aceleradores de IA, com aumento de cerca de 10% nos preços de suas GPUs voltadas a IA e consumo.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">A aposta de longo prazo</span>
-        <p>O diretor financeiro da AMD projeta que o mercado endereçável de chips de IA pode chegar a algo entre US$ 2 trilhões e US$ 3 trilhões até 2030 — uma das justificativas usadas por investidores para sustentar a valorização recente da ação, junto com a expansão da empresa de aceleradores individuais para sistemas completos de IA, como a plataforma em escala de rack Helios.</p>
-      </div>
-
-      <h2>Mais um sinal do apetite por infraestrutura de IA</h2>
-      <p>O movimento acontece na mesma semana em que a <a href="/noticias/amd-acoes-sobem-otimismo-chips-ia">AMD já vinha subindo com otimismo sobre chips de IA</a> e reforça como o mercado de infraestrutura para inteligência artificial segue impulsionando as maiores altas da bolsa americana em 2026 — um contexto que ajuda a explicar por que tantas empresas, de startups a gigantes de nuvem, continuam investindo pesado em capacidade computacional, tema que também aparece em nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
-    `,
-  },
-  {
     slug: "trump-xi-cupula-trégua-comercial-chips-ia-jensen-huang-altman",
     title: "Trump e Xi estendem trégua comercial em cúpula na Casa Branca, com Jensen Huang e Sam Altman no jantar de estado",
     author: "Bruno Danello",
@@ -1893,6 +1847,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>A captação reforça o apetite do mercado por empresas de infraestrutura de nuvem para IA mesmo antes de comprovarem rentabilidade — a Nscale havia registrado salto de receita de 1.252% no primeiro semestre de 2026, acompanhado de um prejuízo líquido de US$ 1,02 bilhão no período, segundo seu <a href="/noticias/nscale-abre-capital-eua-avaliacao-35-bilhoes">pedido de abertura de capital</a>. O envolvimento direto da Nvidia como investidora, e não apenas fornecedora de chips, também ilustra como a fabricante vem usando capital próprio para garantir relações estreitas com provedores de infraestrutura que sustentam a demanda por seus produtos.</p>
+    `,
+  },
+  {
+    slug: "mastercard-alchemy-agentcard-agentes-ia-compras",
+    title: "Mastercard e Alchemy lançam cartão virtual para agentes de IA fazerem compras sem aprovação a cada transação",
+    author: "Bruno Danello",
+    summary:
+      "Pelo Mastercard Agent Pay, integrado ao AgentCard da Alchemy, usuários conectam um agente de IA já existente ao próprio cartão e definem limites de gasto e restrições de onde ele pode comprar — a rede usa 'tokens agênticos' que empacotam a intenção declarada do usuário com os detalhes da transação.",
+    sourceName: "PYMNTS",
+    sourceUrl: "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-alchemy-partner-enable-everyday-agentic-payments/",
+    date: "2026-09-17",
+    content: `
+      <p>A Mastercard lançou o Agent Pay, uma ferramenta de pagamento por IA que permite emitir um cartão de crédito virtual diretamente para o agente de IA de um usuário, deixando o bot fazer compras sem precisar da aprovação do titular do cartão a cada transação. O produto chega ao mercado através de uma parceria com a startup Alchemy, cujo AgentCard já havia firmado integração semelhante com a Visa no início do ano — o que significa que a maioria dos cartões de crédito hoje pode funcionar com a ferramenta.</p>
+
+      <h2>Como funcionam os limites de segurança</h2>
+      <p>Usuários conectam um agente de IA que já utilizam ao próprio cartão Mastercard através da Alchemy e definem restrições sobre o que o agente pode fazer — incluindo tetos de gasto e limites sobre em quais lojas ele pode comprar. A integração usa "tokens agênticos", gerados pelo banco emissor do cartão, que empacotam a intenção declarada do titular junto com os detalhes da transação, permitindo que a rede de pagamentos confirme que o agente está operando dentro dos limites autorizados.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Da busca ao checkout</span>
+        <p>O lançamento é descrito pela Mastercard como um passo que leva as compras por IA "da busca ao checkout" — até agora, muitos agentes de IA conseguiam ajudar a pesquisar e comparar produtos, mas a etapa final de pagamento ainda exigia intervenção manual do usuário na maioria dos casos.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento reforça uma tendência que já discutimos em nosso texto sobre <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você no comércio</a>: à medida que redes de pagamento como Mastercard e Visa criam infraestrutura dedicada para agentes autônomos, o comércio "agêntico" deixa de ser conceito experimental e passa a ter trilhos formais de segurança e autorização — o mesmo tipo de controle de acesso e limites que já discutimos como fundamental em nosso guia sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>.</p>
+    `,
+  },
+  {
+    slug: "worldline-protocolo-comercio-universal-pagamentos-agentes-ia",
+    title: "Worldline se torna uma das primeiras na Europa a aceitar pagamentos iniciados por agentes de IA",
+    author: "Bruno Danello",
+    summary:
+      "A empresa de pagamentos lançou suporte ao Universal Commerce Protocol, padrão aberto de comércio agêntico co-desenvolvido com o Google, permitindo que comerciantes aceitem compras feitas por agentes de IA em várias plataformas com uma única integração via sua plataforma Global Collect.",
+    sourceName: "Worldline",
+    sourceUrl: "https://worldline.com/en/home/top-navigation/media-relations/press-release/pr-2026_09_14_01",
+    date: "2026-09-14",
+    content: `
+      <p>A Worldline anunciou o lançamento de um processador de pagamentos para o Universal Commerce Protocol (UCP), padrão aberto de comércio agêntico desenvolvido em conjunto com o Google e outros parceiros do setor, tornando-se uma das primeiras empresas de pagamentos na Europa a oferecer esse suporte. A funcionalidade já está disponível através da plataforma de pagamentos transfronteiriços Global Collect, da própria Worldline.</p>
+
+      <h2>O que muda para os comerciantes</h2>
+      <p>O comércio agêntico se refere a compras executadas por agentes de IA agindo em nome de um consumidor, em vez da jornada tradicional de navegação e finalização de compra feita diretamente por uma pessoa. Com a integração ao UCP, comerciantes que usam a Worldline conseguem aceitar esse tipo de compra iniciada por IA em múltiplas plataformas através de uma única configuração, sem precisar integrar separadamente com cada agente ou assistente de IA que queira comprar em seu site.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Um padrão aberto, não proprietário</span>
+        <p>Diferente de soluções fechadas construídas por uma única empresa, o Universal Commerce Protocol é um padrão aberto — o que significa que, em teoria, qualquer agente de IA compatível pode usar a mesma infraestrutura de pagamento, em vez de exigir integrações específicas para cada assistente de compras.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O movimento da Worldline se soma a outras iniciativas recentes do setor de pagamentos para viabilizar compras feitas diretamente por agentes de IA, incluindo esforços paralelos de redes de cartão como Mastercard e Visa. Para lojistas que vendem para o público europeu, ter suporte nativo a um padrão aberto de comércio agêntico pode significar captar vendas de consumidores que cada vez mais delegam tarefas de compra a assistentes de IA — um tema que já exploramos em nosso texto sobre <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você no comércio</a>.</p>
     `,
   },
 ];
