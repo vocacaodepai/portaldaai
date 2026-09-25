@@ -87,58 +87,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "a16z-lanca-academia-alternativa-faculdade-ia-grandes-empresas",
-    title: "a16z lança 'academia' de dois anos sem faculdade para formar talento em IA, com Anthropic, Google, Meta e OpenAI como parceiros",
-    author: "Bruno Danello",
-    summary:
-      "A gestora de venture capital Andreessen Horowitz está investindo US$ 35 milhões numa escola residencial gratuita em São Francisco para recém-formados do ensino médio e universitários que largaram a faculdade, com dez grandes empresas de tecnologia oferecendo infraestrutura e computação.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
-    date: "2026-09-22",
-    content: `
-      <p>A gestora de venture capital Andreessen Horowitz (a16z) anunciou em 22 de setembro o investimento de US$ 35 milhões numa "academia" residencial gratuita de dois anos em São Francisco, voltada a recém-formados do ensino médio e universitários que decidiram largar a faculdade para construir produtos de IA. A rodada de lançamento já soma US$ 42 milhões, incluindo o aporte da a16z.</p>
-
-      <p>Dez empresas de tecnologia entraram como parceiras fundadoras: Anthropic, Google, Meta, OpenAI, Nvidia, Anduril, Palantir, Coinbase, Replit e Stripe. Segundo a TechCrunch, elas vão fornecer recursos como hardware e capacidade de computação, ajudar a desenvolver o currículo e oferecer aos alunos oportunidades de trabalhar diretamente com suas equipes.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que cada aluno recebe</span>
-        <p>Mais de US$ 50 mil em poder de computação e recursos técnicos, além de um orçamento de US$ 5 mil para viagens e acesso à rede de contatos da a16z. A primeira turma da fellowship deve começar no outono (hemisfério norte) de 2027.</p>
-      </div>
-
-      <h2>Quem está por trás</h2>
-      <p>O cofundador da Udemy, Gagan Biyani, assume como CEO da academia, enquanto o cofundador da a16z, Marc Andreessen, e o sócio-geral Erik Torenberg entram para o conselho. A proposta é uma alternativa explícita à faculdade tradicional — sem provas, sem trabalhos de casa — apostando que quem já está construindo produtos de IA aprende mais rápido dentro de laboratórios reais do que em salas de aula.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>O movimento reforça uma tendência que já discutimos em nosso guia sobre <a href="/artigos/como-migrar-de-carreira-para-area-de-ia">como migrar de carreira para a área de IA</a>: cada vez mais, o caminho de entrada no setor passa menos por diplomas tradicionais e mais por portfólio prático e acesso direto a infraestrutura de ponta — o que também levanta a questão de como quem não tem acesso a programas como esse pode competir, tema que já tratamos ao falar sobre <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">como colocar habilidades de IA no currículo</a>.</p>
-    `,
-  },
-  {
-    slug: "baselayer-capta-35-milhoes-identidade-agentes-de-ia",
-    title: "Startup capta US$ 35 milhões para criar 'identidade digital' de agentes de IA e evitar fraudes",
-    author: "Bruno Danello",
-    summary:
-      "A Baselayer, que já protege mais de 2 mil instituições financeiras americanas contra fraudes, levantou uma rodada Série A de US$ 35 milhões liderada pela M13 para lançar um sistema que verifica quem controla cada agente de IA autônomo e se ele pode realizar transações.",
-    sourceName: "Crunchbase News",
-    sourceUrl: "https://news.crunchbase.com/ai/verifying-ai-agents-baselayer-35m-raise/",
-    date: "2026-09-22",
-    content: `
-      <p>A Baselayer, startup que ajuda instituições financeiras a verificar empresas e avaliar risco de fraude, anunciou em 22 de setembro uma rodada Série A de US$ 35 milhões liderada pela M13, com participação da Picus Capital, Torch Capital, Afore Capital e do executivo da Socure Matt Thompson. A captação eleva o total levantado pela empresa, fundada em 2023, a cerca de US$ 40 milhões.</p>
-
-      <p>Com o dinheiro, a empresa lança o Agentic Identity Suite, descrito como a primeira plataforma interoperável de confiança e prevenção de fraude pensada especificamente para a "economia agêntica" — o cenário em que agentes de IA autônomos passam a negociar, comprar e fechar transações em nome de pessoas e empresas.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que o produto faz</span>
-        <p>O núcleo da suíte é o "Know Your Agent" (numa alusão ao "Know Your Customer" bancário): um sistema que determina quem implantou determinado agente de IA, quem ele representa e se está autorizado a realizar transações — respondendo à pergunta cada vez mais comum de "como saber se estou negociando com um agente legítimo?"</p>
-      </div>
-
-      <h2>Por que bancos já confiam na empresa</h2>
-      <p>A Baselayer afirma ter mais de 2 mil clientes entre instituições financeiras americanas — mais de 20% do mercado — e diz já ter ajudado a evitar mais de US$ 1 bilhão em perdas por fraude antes mesmo de expandir para o universo de agentes de IA.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>Conforme mais empresas adotam <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a> para tarefas do dia a dia, a dificuldade de saber quem — ou o quê — está do outro lado de uma transação digital cresce junto. O caso da Baselayer ilustra uma nova categoria de infraestrutura de segurança nascendo especificamente para esse problema, complementando preocupações que já tratamos em nosso guia sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>.</p>
-    `,
-  },
-  {
     slug: "snorkel-ai-triplica-avaliacao-3-5-bilhoes-dados-treinamento",
     title: "Snorkel AI triplica avaliação para US$ 3,5 bilhões com demanda por dados de treinamento de IA",
     author: "Bruno Danello",
@@ -1893,6 +1841,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa além dos Estados Unidos</h2>
       <p>O caso ilustra um risco que acompanha a adoção de IA em setores regulados e sensíveis a custos: ferramentas pensadas para reduzir carga administrativa de profissionais de saúde também podem, sem intenção direta de fraude, inflar sistematicamente o faturamento ao identificar mais condições documentáveis sem uma mudança real no estado de saúde dos pacientes. À medida que sistemas de IA para documentação médica se espalham por hospitais fora dos Estados Unidos, o episódio é um alerta para que seguradoras e sistemas de saúde monitorem de perto o impacto financeiro dessas ferramentas, não apenas seu ganho de produtividade.</p>
+    `,
+  },
+  {
+    slug: "dataiku-lanca-agent-management-monitorar-agentes-ia",
+    title: "Dataiku lança produto para inventariar e monitorar agentes de IA espalhados por diferentes plataformas",
+    author: "Bruno Danello",
+    summary:
+      "O Agent Management se conecta a agentes criados em Microsoft Copilot Studio, Azure Foundry, Salesforce Agentforce, AWS Bedrock, Google Vertex, Databricks, Snowflake Cortex e outras plataformas, classificando cada um por nível de risco — resposta a uma lacuna em que menos de uma em cada cinco empresas mantém um inventário completo de seus sistemas de IA.",
+    sourceName: "SiliconANGLE",
+    sourceUrl: "https://siliconangle.com/2026/09/24/dataiku-debuts-cross-platform-agent-management-expands-cobuild-building-agent/",
+    date: "2026-09-24",
+    content: `
+      <p>A Dataiku anunciou o Agent Management, produto independente que promete inventariar todos os agentes de IA em uso numa empresa, não importa em qual plataforma foram criados, além de acompanhar indicadores de negócio e desempenho técnico e classificar cada agente por nível de risco. A disponibilidade geral está prevista para outubro.</p>
+
+      <h2>Um problema de visibilidade, não só de governança</h2>
+      <p>Segundo a Dataiku, grandes empresas já mantêm inventários detalhados de todo software que rodam — quem é o dono, quanto custa, quando renova — mas quase nenhuma consegue dizer o mesmo sobre os agentes de IA que já estão em produção. Uma pesquisa da IBM citada pela empresa mostra que menos de uma em cada cinco organizações mantém um inventário completo e atualizado de seus sistemas de IA, apesar do ritmo acelerado de criação e adoção desses agentes.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Compatibilidade ampla</span>
+        <p>O produto se conecta a agentes construídos em plataformas concorrentes como Microsoft Copilot Studio, Azure Foundry, Salesforce Agentforce, AWS Bedrock, Google Vertex, Databricks e Snowflake Cortex, além dos próprios agentes criados na Dataiku — uma aposta de que empresas preferem uma camada de governança única e independente de plataforma a soluções nativas fragmentadas.</p>
+      </div>
+
+      <h2>Por que isso importa para quem usa agentes de IA no trabalho</h2>
+      <p>O lançamento reflete uma preocupação crescente que já discutimos em nosso texto sobre <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">o futuro do trabalho autônomo com agentes de IA</a>: à medida que empresas adotam agentes de diferentes fornecedores para tarefas cada vez mais críticas, a falta de um inventário central e de métricas de risco consistentes vira um ponto cego real — não muito diferente do problema de segurança de dados que motivou soluções como a Baselayer para agentes que fazem transações financeiras.</p>
+    `,
+  },
+  {
+    slug: "openai-encerra-sora-api-fracasso-financeiro",
+    title: "OpenAI encerra a API do Sora após acordo bilionário fracassado com a Disney e prejuízo diário de US$ 1 milhão",
+    author: "Bruno Danello",
+    summary:
+      "A ferramenta de geração de vídeo custava cerca de US$ 1 milhão por dia para operar contra apenas US$ 2,1 milhões em receita total ao longo de toda sua vida — mesmo depois de um acordo de três anos com a Disney que previa investimento de US$ 1 bilhão da produtora, que acabou não se concretizando.",
+    sourceName: "OpenAI",
+    sourceUrl: "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    date: "2026-09-24",
+    content: `
+      <p>A OpenAI encerrou nesta quinta-feira a API do Sora, sua ferramenta de geração de vídeo por IA, completando um processo de desligamento em duas etapas que já havia tirado o aplicativo e a versão web do ar em abril. A decisão marca o fim de um produto que a empresa vinha tentando viabilizar financeiramente havia meses, sem sucesso.</p>
+
+      <h2>Uma conta que nunca fechou</h2>
+      <p>Segundo reportagens, o Sora custava à OpenAI cerca de US$ 1 milhão por dia para operar — um custo típico de modelos de geração de vídeo, que consomem muito mais poder computacional que modelos de texto — contra apenas US$ 2,1 milhões em receita acumulada ao longo de toda a vida do produto, enquanto o número de usuários ativos caía de forma acentuada.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O acordo bilionário que não segurou o produto</span>
+        <p>Em dezembro de 2025, a OpenAI e a Disney haviam anunciado um acordo de três anos que permitiria ao Sora gerar vídeos curtos com mais de 200 personagens da Disney, Marvel, Pixar e Star Wars, com a Disney também se comprometendo a investir US$ 1 bilhão em ações da OpenAI. Nem esse acordo foi suficiente para manter o produto vivo além de 24 de setembro.</p>
+      </div>
+
+      <h2>Por que a OpenAI está desistindo do vídeo por enquanto</h2>
+      <p>Além do peso financeiro, o Sora também enfrentava problemas recorrentes de direitos autorais e deepfakes. Segundo a empresa, o objetivo agora é redirecionar capacidade computacional para ferramentas de programação, clientes corporativos e um "super app" que reúne o ChatGPT e outros produtos numa única plataforma — sinal de que, pelo menos por ora, a aposta da OpenAI em geração de vídeo perde prioridade frente a áreas com retorno financeiro mais claro, um tema que já exploramos em nosso <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">comparativo entre os principais assistentes de IA do mercado</a>.</p>
     `,
   },
 ];
