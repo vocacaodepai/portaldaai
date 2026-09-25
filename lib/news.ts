@@ -87,55 +87,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "bernie-sanders-projeto-lei-proibir-superinteligencia-artificial",
-    title: "Bernie Sanders apresenta projeto de lei para proibir superinteligência artificial e criar agência federal de IA",
-    author: "Bruno Danello",
-    summary:
-      "O senador americano, junto com o deputado Greg Casar, propôs uma lei que pausaria temporariamente o desenvolvimento dos sistemas de IA mais avançados até que regras federais de segurança sejam criadas, e proibiria de forma permanente a chamada superinteligência artificial.",
-    sourceName: "Gabinete do Senador Bernie Sanders",
-    sourceUrl: "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
-    date: "2026-09-23",
-    content: `
-      <p>O senador americano Bernie Sanders e o deputado Greg Casar apresentaram em 23 de setembro um projeto de lei que pausaria temporariamente o desenvolvimento dos sistemas de IA mais avançados até que um novo órgão federal, o Departamento de Inteligência Artificial, estabeleça regras de segurança. A proposta também proíbe de forma permanente a chamada "superinteligência artificial" — definida no texto como um sistema que supera a capacidade cognitiva humana ou tem capacidade suficiente para planejar e executar a destruição ou o enfraquecimento da humanidade.</p>
-
-      <p>Pelo projeto, sistemas de IA avançada passariam a precisar de aprovação federal antes de serem implantados. Violações poderiam gerar penalidades significativas, incluindo até 20 anos de prisão em alguns casos.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O que o projeto propõe</span>
-        <p>Pausa temporária no desenvolvimento dos modelos mais avançados até haver regras de segurança federais, proibição permanente de superinteligência artificial e criação de um órgão regulador dedicado — o Departamento de Inteligência Artificial — para aprovar sistemas antes do lançamento.</p>
-      </div>
-
-      <h2>Apoio vindo de dentro das próprias empresas de IA</h2>
-      <p>Segundo Sanders, vários funcionários de grandes empresas de IA manifestaram apoio à proposta. "Não é preciso ser um gênio para dizer: vamos desacelerar isso", declarou o senador ao apresentar o projeto.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>A proposta chega poucas horas depois de <a href="/noticias/altman-amodei-conselho-seguranca-onu-riscos-ia">Sam Altman e Dario Amodei apresentarem os riscos da IA ao Conselho de Segurança da ONU</a>, reforçando que o debate sobre desacelerar o desenvolvimento de modelos cada vez mais poderosos deixou de ser só uma discussão técnica interna das empresas e passou a ganhar tração também no Congresso americano. Mesmo que o projeto ainda precise avançar no processo legislativo para virar lei, ele sinaliza que reguladores dos EUA estão cada vez mais dispostos a considerar limites formais e concretos ao ritmo de avanço da IA de fronteira — algo que já discutimos no contexto do <a href="/noticias/processo-antitruste-anthropic-openai-google-xai-desaceleracao">processo movido contra as grandes empresas de IA por suposto acordo de desaceleração</a>.</p>
-    `,
-  },
-  {
-    slug: "alibaba-chip-zhenwu-v900-modelo-10-trilhoes-parametros",
-    title: "Alibaba apresenta novo chip de IA e planeja modelo com até 10 trilhões de parâmetros",
-    author: "Bruno Danello",
-    summary:
-      "A gigante chinesa de tecnologia revelou o chip Zhenwu V900, que a empresa chama de mais potente já feito na China, e anunciou planos para treinar um modelo de IA de próxima geração até quatro vezes maior que seu atual carro-chefe, o Qwen 3.8 Max.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-22/alibaba-unveils-ai-chip-to-drive-20gw-of-data-centers-by-2032",
-    date: "2026-09-22",
-    content: `
-      <p>A Alibaba anunciou em 22 de setembro, durante a conferência anual Apsara de sua divisão de nuvem em Hangzhou, o chip de IA Zhenwu V900 — que a empresa descreve como o mais potente já produzido na China. Segundo a Alibaba, o novo chip entrega o triplo do desempenho de seu antecessor, o Zhenwu M890, e conta com memória e largura de banda suficientes para sustentar clusters de até 500 mil placas trabalhando juntas em treinamento e inferência de modelos. A produção em massa e o lançamento comercial estão previstos para o primeiro trimestre de 2027.</p>
-
-      <p>Na mesma ocasião, a empresa revelou planos para treinar um modelo de IA de próxima geração na escala de 5 a 10 trilhões de parâmetros — até quatro vezes maior que seu atual modelo carro-chefe, o Qwen 3.8 Max, lançado em julho com 2,4 trilhões de parâmetros. As ações da Alibaba subiram cerca de 5% após os anúncios.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que os anúncios sinalizam</span>
-        <p>Ao apresentar chip próprio e um roteiro claro para modelos maiores no mesmo evento, a Alibaba reforça a estratégia de construir cada camada de seu negócio de IA internamente — do hardware ao modelo — em vez de depender só de fornecedores externos de chips.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O movimento da Alibaba acontece em meio a uma corrida acelerada entre empresas chinesas e americanas para lançar modelos cada vez mais capazes — como vimos recentemente com o <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">avanço simultâneo de ChatGPT, Claude e Gemini</a> e, mais recentemente, com o lançamento do Claude Opus 5.5 e do GPT-6 Sol/Luna. Diferente dos laboratórios americanos, que dependem majoritariamente de chips da Nvidia, a aposta da Alibaba em desenvolver hardware próprio reflete também a pressão das restrições de exportação de semicondutores impostas pelos EUA à China — um fator que deve continuar moldando a competição global por infraestrutura de IA nos próximos anos.</p>
-    `,
-  },
-  {
     slug: "chamelio-capta-26-milhoes-agentes-ia-departamentos-juridicos",
     title: "Startup israelense capta US$ 26 milhões para substituir software jurídico tradicional por agentes de IA",
     author: "Bruno Danello",
@@ -1888,6 +1839,57 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O caso da Modular reforça uma tendência que já vimos em outras startups de infraestrutura de IA: conforme a demanda por poder computacional cresce, também cresce o interesse por camadas de software que tornam esse poder mais barato e portátil entre diferentes fornecedores de hardware — reduzindo a dependência de qualquer fabricante único de chips, tema que já tocamos em nosso <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "deepseek-receita-1-bilhao-alta-precos-api-ipo-xangai",
+    title: "DeepSeek dobra receita anualizada para US$ 1 bilhão após aumentar preços da API em até 4,5 vezes",
+    author: "Bruno Danello",
+    summary:
+      "O CEO Liang Wenfeng informou a investidores que a receita anualizada da chinesa mais que dobrou nos últimos meses, mesmo após reajustes de preço entre 2,3 e 4,5 vezes na API — sinal de demanda resiliente enquanto a empresa se prepara para uma segunda rodada de captação e um IPO na Bolsa de Xangai.",
+    sourceName: "The Information",
+    sourceUrl: "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-doubles-annual-revenue-run-rate-to-1-billion-ahead-of-ipo/",
+    date: "2026-09-24",
+    content: `
+      <p>A DeepSeek, startup chinesa de inteligência artificial, informou a investidores que sua receita anualizada ultrapassou US$ 1 bilhão — mais que o dobro dos cerca de US$ 500 milhões registrados poucos meses atrás, segundo o CEO Liang Wenfeng. O salto aconteceu mesmo depois de a empresa aumentar os preços de sua API entre 2,3 e 4,5 vezes no mês passado.</p>
+
+      <h2>Clientes não foram embora com o aumento de preço</h2>
+      <p>Segundo a empresa, a demanda pelos serviços da DeepSeek permaneceu forte mesmo após o reajuste — o negócio de API chegou a uma margem bruta de 82,9% até julho. O resultado surpreende parte do mercado, que esperava alguma fuga de clientes diante de preços mais altos, especialmente vindos de uma empresa conhecida justamente por oferecer modelos competitivos a custo baixo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">De olho num IPO em Xangai</span>
+        <p>A DeepSeek está finalizando uma segunda rodada de captação, buscando levantar 50 bilhões de yuans (cerca de US$ 7 bilhões) a uma avaliação de 500 bilhões de yuans, com meta de concluir o processo até o fim de outubro — parte da preparação da empresa para uma eventual abertura de capital na Bolsa de Xangai.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O caso da DeepSeek mostra que mesmo modelos de peso aberto, historicamente vendidos como alternativa barata aos laboratórios ocidentais, conseguem sustentar aumentos de preço agressivos quando a demanda é forte o suficiente — um sinal de que a guerra de preços no setor de IA, que já discutimos no contexto do <a href="/noticias/openai-lanca-gpt-6-sol-luna-corta-precos-pela-metade">lançamento do GPT-6 Sol e Luna</a>, pode ter limites diferentes do que se imaginava, mesmo para empresas chinesas.</p>
+    `,
+  },
+  {
+    slug: "ia-quase-provoca-interceptacao-navio-chines-eua",
+    title: "Relatório de IA com erro quase levou militares dos EUA a interceptar navio chinês no Oriente Médio",
+    author: "Bruno Danello",
+    summary:
+      "Um analista das forças especiais americanas usou um chatbot para avaliar a carga de um navio chinês e depois transformou a avaliação num relatório de inteligência formal — que alegava, de forma equivocada, que o navio carregava componentes de um programa de armas nucleares, levando o Pentágono a se preparar para abordá-lo.",
+    sourceName: "CNN",
+    sourceUrl: "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+    date: "2026-09-18",
+    content: `
+      <p>Um analista de operações especiais das Forças Armadas dos Estados Unidos usou um chatbot de IA para avaliar informações sobre um navio chinês durante o conflito da primavera de 2026 com o Irã, e depois usou a própria IA novamente para transformar essa avaliação num relatório de inteligência formal — documento que circulou dentro das Forças Armadas e chegou a desencadear preparativos para interceptar o navio, segundo a CNN.</p>
+
+      <h2>O que o relatório afirmava</h2>
+      <p>O relatório alegava, de forma equivocada, que o navio transportava componentes ligados a um programa de armas nucleares. Com base nessa informação, os militares avançaram com planos de interceptação: integrantes armados das Forças Armadas se prepararam para abordar a embarcação, e aviões militares chegaram a decolar.</p>
+
+      <div class="callout-box callout-bad">
+        <span class="callout-label">Quase um incidente internacional grave</span>
+        <p>A operação só foi interrompida depois que oficiais revisaram o relatório e perceberam que o chatbot havia identificado a carga de forma incorreta. Uma fonte descreveu o relatório como "inteiramente falso" e disse que o episódio quase desencadeou um conflito.</p>
+      </div>
+
+      <h2>Como a IA entrou nesse processo</h2>
+      <p>Segundo a reportagem, o analista alimentou o chatbot com uma mistura de inteligência de fontes abertas e inteligência de sinais classificada sobre o navio. Não ficou claro se o profissional usou um chatbot comercial disponível publicamente ou um sistema governamental como o GenAI.mil.</p>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio ilustra, num cenário de altíssimo risco, um problema que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: modelos de IA ainda cometem erros factuais graves (as chamadas "alucinações"), e usá-los sem verificação humana rigorosa em contextos de alto risco — como inteligência militar — pode ter consequências muito além de um erro comum de produtividade.</p>
     `,
   },
 ];
