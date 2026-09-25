@@ -87,55 +87,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "chamelio-capta-26-milhoes-agentes-ia-departamentos-juridicos",
-    title: "Startup israelense capta US$ 26 milhões para substituir software jurídico tradicional por agentes de IA",
-    author: "Bruno Danello",
-    summary:
-      "A Chamelio, que desenvolve uma plataforma de IA nativa para departamentos jurídicos internos de empresas, levantou uma rodada Série A liderada pela Entrée Capital depois de quadruplicar sua receita recorrente anual em apenas cinco meses.",
-    sourceName: "PR Newswire",
-    sourceUrl: "https://www.prnewswire.com/news-releases/chamelio-raises-26m-series-a-to-replace-legacy-clm-with-ai-native-in-house-legal-operations-302886011.html",
-    date: "2026-09-22",
-    content: `
-      <p>A Chamelio, startup israelense que desenvolve software de IA para departamentos jurídicos corporativos, anunciou em 22 de setembro uma rodada Série A de US$ 26 milhões liderada pela Entrée Capital, com participação dos investidores já existentes Work-Bench e Emerge Ventures, além da Bright Pixel Capital.</p>
-
-      <p>A proposta da empresa é substituir os sistemas tradicionais de gestão de contratos (CLM, na sigla em inglês) por uma plataforma nativa de IA capaz de executar boa parte do próprio trabalho jurídico — não apenas armazenar e organizar documentos, mas revisar, redigir e acompanhar contratos de forma mais autônoma. Segundo a empresa, a receita recorrente anual quadruplicou em apenas cinco meses, e a lista de clientes já inclui nomes como Wiz, monday.com, Socure, AppsFlyer e Wonderful.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Por que isso é diferente de um CLM tradicional</span>
-        <p>Sistemas de gestão de contratos clássicos funcionam como repositórios organizados, mas dependem de advogados humanos para toda a análise. A proposta da Chamelio é que agentes de IA assumam parte do trabalho analítico e repetitivo diretamente, deixando o time jurídico interno livre para decisões que exigem julgamento humano.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O caso da Chamelio é mais um exemplo de como agentes de IA especializados estão avançando sobre funções corporativas historicamente dependentes de profissionais altamente qualificados — um movimento parecido com o que já vimos em áreas como atendimento e vendas, e que discutimos em nosso texto sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>. Para quem presta consultoria ou monta pacotes de automação de IA para empresas, o setor jurídico corporativo desponta como mais uma vertical onde há demanda real e disposição para pagar por soluções especializadas, como já discutimos em <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">como vender consultoria de IA para pequenas empresas</a>.</p>
-    `,
-  },
-  {
-    slug: "amazon-bloqueia-agente-ia-muse-meta-compras",
-    title: "Amazon bloqueia agente de IA Muse, da Meta, de fazer compras em seu site",
-    author: "Bruno Danello",
-    summary:
-      "A Amazon cortou o acesso do assistente pessoal de IA da Meta ao site da varejista depois de tentar, sem sucesso, convencer a empresa a excluir voluntariamente a plataforma da experiência — o mais recente capítulo de uma disputa entre grandes empresas sobre quem controla a experiência de compra com agentes de IA.",
-    sourceName: "GeekWire",
-    sourceUrl: "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
-    date: "2026-09-20",
-    content: `
-      <p>A Amazon bloqueou, a partir da noite de domingo, 20 de setembro, o acesso do Muse — agente pessoal de IA da Meta — a compras em seu site em nome de clientes. Usuários que pedem ao Muse para navegar ou comprar produtos na Amazon passaram a ver um aviso informando que o acesso continuado por um agente de IA não autorizado viola os Termos de Uso da varejista.</p>
-
-      <p>Segundo a Amazon, o Muse acessava sua loja sem permissão e criava riscos de privacidade e segurança: a Meta não avisou a Amazon antes de permitir que o agente fizesse compras na plataforma, e o assistente não se identificava claramente, além de aparentemente capturar e armazenar credenciais de clientes.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O que está em jogo</span>
-        <p>O negócio de publicidade da Amazon gerou mais de US$ 68 bilhões em receita no último ano — um modelo que depende de pessoas navegando pelas páginas e vendo produtos patrocinados. Um assistente que escolhe produtos automaticamente por alguém reduz justamente essa navegação, o que ameaça diretamente essa fonte de receita.</p>
-      </div>
-
-      <h2>Não é a primeira barreira da Amazon contra agentes de IA</h2>
-      <p>O Muse foi bloqueado menos de duas semanas depois de seu lançamento, em 8 de setembro. A Amazon já vinha, havia cerca de um ano, tentando manter agentes concorrentes fora de seu site — miras anteriores incluíram ferramentas da Perplexity, do Google e da própria OpenAI.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>O episódio ilustra uma tensão que só deve crescer conforme mais empresas lançam <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA capazes de comprar em nome das pessoas</a>: quem controla a "porta de entrada" do comércio digital tem forte incentivo para barrar assistentes de terceiros, mesmo que isso frustre a experiência prometida ao usuário final. O caso também reforça preocupações sobre como esses agentes lidam com credenciais e dados sensíveis dos usuários — tema que já tratamos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>.</p>
-    `,
-  },
-  {
     slug: "digitalocean-lanca-managed-agents-infraestrutura-agentes-ia",
     title: "DigitalOcean lança 'Managed Agents' para rodar agentes de IA sem gerenciar infraestrutura",
     author: "Bruno Danello",
@@ -1890,6 +1841,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O episódio ilustra, num cenário de altíssimo risco, um problema que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: modelos de IA ainda cometem erros factuais graves (as chamadas "alucinações"), e usá-los sem verificação humana rigorosa em contextos de alto risco — como inteligência militar — pode ter consequências muito além de um erro comum de produtividade.</p>
+    `,
+  },
+  {
+    slug: "pesquisador-exporta-6gb-arquivos-agente-muse-meta",
+    title: "Pesquisador consegue exportar 6,8 GB de arquivos internos do agente Muse, da Meta, só com comandos de chat",
+    author: "Bruno Danello",
+    summary:
+      "Sem usar nenhum código de exploração, o pesquisador Peter James pediu ao Muse para compactar seu próprio sistema de arquivos e enviar para o Google Drive, obtendo acesso a documentação interna, chaves SSH e scripts de configuração do ambiente Linux que roda o agente — a Meta classificou o achado como 'não aplicável' em seu programa de recompensas.",
+    sourceName: "The Verge",
+    sourceUrl: "https://daily.dev/posts/i-asked-meta-s-muse-for-its-filesystem-and-it-sent-me-6-8-gb-vdevyqj0t",
+    date: "2026-09-24",
+    content: `
+      <p>O pesquisador de segurança Peter James publicou um relato detalhado de como conseguiu extrair 6,8 GB de arquivos internos do Muse, o agente pessoal de IA da Meta, usando apenas comandos de chat comuns — sem escrever uma linha de código de exploração. Ele simplesmente pediu ao próprio Muse para compactar seu sistema de arquivos e enviar o resultado para o Google Drive.</p>
+
+      <h2>O que estava dentro do arquivo</h2>
+      <p>O despejo obtido incluía arquivos de sistema do Ubuntu, documentação interna, chaves SSH, armazenamento de memória, diretórios de habilidades ("skills") e scripts de configuração de contêiner do ambiente Linux que roda o Muse. O material revelou detalhes da arquitetura interna do agente — internamente batizado de "Hatch" —, incluindo um sistema de memória baseado em Postgres com embeddings vetoriais, uma rotina noturna de "autorreflexão" chamada de "dream", cerca de 68 integrações de habilidades e indícios de uma integração de hardware ainda não lançada, batizada de "Home Link".</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Meta diz que não é uma falha de segurança</span>
+        <p>O programa de recompensas por bugs da Meta classificou o relato como "não aplicável", argumentando que cada máquina virtual do Muse pertence ao próprio usuário, e que exportar seu conteúdo não dá acesso à infraestrutura da Meta nem aos dados de outras pessoas.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio expõe, na prática, o quanto agentes de IA pessoais rodam sobre ambientes computacionais complexos e cheios de detalhes internos — memória persistente, credenciais, scripts de automação — que a maioria dos usuários nunca imaginaria estar acessível. Mesmo sem configurar um vazamento de dados de terceiros, o caso reforça uma preocupação que já discutimos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>: quanto mais autonomia e acesso um agente de IA recebe sobre o próprio ambiente de execução, mais superfície de exposição existe para quem souber pedir da forma certa.</p>
+    `,
+  },
+  {
+    slug: "openai-prepara-gpt-6-cyber-modelo-ciberseguranca",
+    title: "OpenAI prepara o GPT-6 Cyber, quarto modelo dedicado a cibersegurança lançado neste ano",
+    author: "Bruno Danello",
+    summary:
+      "O modelo, treinado especificamente para inteligência de ameaças, descoberta de vulnerabilidades e geração de código seguro, deve ser apresentado na DevDay da empresa em 29 de setembro, junto com um produto inédito para ajudar clientes a implantar automação de segurança e correção de vulnerabilidades com mais controle.",
+    sourceName: "Fortune",
+    sourceUrl: "https://fortune.com/2026/09/24/openai-launching-gpt-6-cyber-model-and-security-product-devday/",
+    date: "2026-09-24",
+    content: `
+      <p>A OpenAI se prepara para apresentar o GPT-6 Cyber, um modelo voltado especificamente a tarefas de cibersegurança, possivelmente durante sua conferência DevDay, em São Francisco, no dia 29 de setembro. É o quarto modelo dedicado a segurança digital lançado pela empresa neste ano, depois do GPT-5.4 Cyber em abril, do GPT-5.5 Cyber em junho e do GPT-5.6 Cyber em agosto.</p>
+
+      <h2>Um produto inédito para acompanhar o modelo</h2>
+      <p>Além do modelo em si, a empresa deve apresentar um produto novo que promete dar aos clientes uma forma mais segura de implantar o GPT-6 Cyber, permitindo automatizar fluxos de trabalho e correção de vulnerabilidades. Seria a primeira vez que a OpenAI lança um produto desse tipo — voltado a ajudar empresas a lidar com ataques cibernéticos cada vez mais sofisticados e também potencializados por IA, ao mesmo tempo em que dá à própria OpenAI mais visibilidade sobre como seus modelos estão sendo usados para fins de segurança.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Acesso ainda restrito</span>
+        <p>Por enquanto, apenas um pequeno grupo de clientes tem acesso ao GPT-6 Cyber, por meio do programa Daybreak Red, voltado a testes em fase alfa e só disponível mediante inscrição. O programa Daybreak Blue, mais amplo, dá acesso a outras ferramentas de cibersegurança da empresa.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento reforça uma corrida que já vimos entre outras gigantes de IA: como discutimos na notícia sobre <a href="/noticias/google-anthropic-openai-lancam-modelos-ia-ciberseguranca">os modelos de cibersegurança lançados por Google, Anthropic e OpenAI</a>, a disputa por quem oferece a IA mais confiável para equipes de defesa digital está cada vez mais acirrada — um reflexo direto de como os próprios atacantes já usam IA para tornar ataques mais rápidos e sofisticados, elevando a régua para quem precisa se defender.</p>
     `,
   },
 ];
