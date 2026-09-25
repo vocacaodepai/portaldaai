@@ -87,55 +87,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "snorkel-ai-triplica-avaliacao-3-5-bilhoes-dados-treinamento",
-    title: "Snorkel AI triplica avaliação para US$ 3,5 bilhões com demanda por dados de treinamento de IA",
-    author: "Bruno Danello",
-    summary:
-      "A empresa de São Francisco, que fornece dados de treinamento e ambientes de aprendizado por reforço para desenvolvedores de IA, captou US$ 350 milhões numa rodada que quase triplicou sua avaliação em pouco mais de um ano, puxada pelo crescimento explosivo da receita.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-    date: "2026-09-22",
-    content: `
-      <p>A Snorkel AI, empresa de São Francisco fundada em 2019 por pesquisadores do laboratório de IA de Stanford, anunciou em 22 de setembro uma rodada late-stage de US$ 350 milhões avaliando a companhia em US$ 3,5 bilhões — quase o triplo dos US$ 1,3 bilhão alcançados havia pouco mais de um ano, em maio de 2025, quando captou US$ 100 milhões. A rodada foi liderada pela Insight Partners e pela S32, com participação de investidores já existentes como Addition, Greylock e Wells Fargo.</p>
-
-      <p>A empresa fornece dados de treinamento e ambientes de aprendizado por reforço para desenvolvedores de IA, combinando especialistas humanos com milhares de modelos especializados numa plataforma que chama de "desenvolvimento de dados agêntico". Nos últimos meses, a Snorkel deixou de vender apenas software e passou a entregar conjuntos de dados prontos — uma mudança de modelo de negócio que impulsionou o crescimento.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O tamanho do salto</span>
-        <p>A receita anualizada da Snorkel ultrapassou US$ 350 milhões, ante cerca de US$ 20 milhões um ano antes — um crescimento puxado pelo negócio de "dados como serviço" lançado em setembro de 2025.</p>
-      </div>
-
-      <h2>Para onde vai o dinheiro</h2>
-      <p>Segundo a empresa, a nova captação será usada para contratar pesquisadores e engenheiros, expandir as operações com clientes corporativos e governamentais, e apoiar avaliações de modelos de terceiros — além de entrar em novas verticais e tipos de dados.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>O salto de avaliação da Snorkel reflete um padrão que já discutimos em relação a outras startups de infraestrutura de IA: à medida que os grandes laboratórios competem para lançar modelos cada vez mais capazes — como vimos recentemente com o <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">avanço geral da inteligência artificial</a> —, a demanda por dados de treinamento de alta qualidade e bem curados se torna um gargalo tão importante quanto o poder computacional em si. Empresas que fornecem essa "matéria-prima" de forma confiável acabam se tornando peças-chave da cadeia de produção de IA, ainda que fiquem menos visíveis do que os modelos que elas ajudam a treinar.</p>
-    `,
-  },
-  {
-    slug: "verda-capta-189-milhoes-vira-unicornio-europeu-nuvem-ia",
-    title: "Verda capta US$ 189 milhões e vira o mais novo unicórnio europeu de nuvem para IA",
-    author: "Bruno Danello",
-    summary:
-      "A startup finlandesa de infraestrutura de nuvem para IA levantou uma rodada Série B liderada pela Emergence Capital, avaliando a empresa em pelo menos US$ 1 bilhão, e já atinge receita anualizada de US$ 165 milhões.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-22/ai-cloud-startup-verda-raises-189-million-in-funding-round",
-    date: "2026-09-22",
-    content: `
-      <p>A Verda, startup finlandesa de infraestrutura de nuvem voltada a cargas de trabalho de inteligência artificial, anunciou em 22 de setembro uma rodada Série B de US$ 189 milhões liderada pela Emergence Capital, avaliando a empresa em pelo menos US$ 1 bilhão — tornando-a o mais recente "unicórnio" europeu do setor de IA. A rodada, que ficou acima da demanda esperada pelos investidores, contou também com participação da MUFG Innovation Partners, da fabricante de servidores Super Micro Computer, da seguradora finlandesa Varma e da Lifeline Ventures.</p>
-
-      <p>Com a nova captação, o total levantado pela Verda em capital próprio e dívida já passa de US$ 450 milhões. A empresa atende organizações em mais de 50 países e atingiu uma receita anualizada de US$ 165 milhões em julho de 2026.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Para onde vai o dinheiro</span>
-        <p>Segundo a empresa, os recursos serão usados para ampliar a capacidade de computação e continuar desenvolvendo a plataforma — reforçando a aposta em infraestrutura de nuvem especializada para treinar e rodar modelos de IA, um segmento que investidores antes consideravam intensivo demais em capital para valer o risco.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O caso da Verda mostra que a corrida por capacidade computacional para IA não está concentrada só nos gigantes americanos — provedores regionais especializados em infraestrutura de nuvem para IA também estão conseguindo captar rodadas expressivas, à medida que a demanda por poder de processamento segue superando a oferta disponível globalmente. Para quem acompanha o mercado de <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA e automação</a>, esse tipo de investimento em infraestrutura de base é o que sustenta, por trás das cenas, o ritmo acelerado de lançamento de novos modelos que temos visto nas últimas semanas.</p>
-    `,
-  },
-  {
     slug: "bernie-sanders-projeto-lei-proibir-superinteligencia-artificial",
     title: "Bernie Sanders apresenta projeto de lei para proibir superinteligência artificial e criar agência federal de IA",
     author: "Bruno Danello",
@@ -1889,6 +1840,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que a OpenAI está desistindo do vídeo por enquanto</h2>
       <p>Além do peso financeiro, o Sora também enfrentava problemas recorrentes de direitos autorais e deepfakes. Segundo a empresa, o objetivo agora é redirecionar capacidade computacional para ferramentas de programação, clientes corporativos e um "super app" que reúne o ChatGPT e outros produtos numa única plataforma — sinal de que, pelo menos por ora, a aposta da OpenAI em geração de vídeo perde prioridade frente a áreas com retorno financeiro mais claro, um tema que já exploramos em nosso <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">comparativo entre os principais assistentes de IA do mercado</a>.</p>
+    `,
+  },
+  {
+    slug: "ando-capta-20-milhoes-chat-equipe-agentes-de-ia",
+    title: "Ando sai da toca com US$ 20 milhões para criar um chat de equipe onde agentes de IA participam como membros",
+    author: "Bruno Danello",
+    summary:
+      "A startup construiu uma plataforma de mensagens do zero para humanos e agentes de IA trabalharem juntos, com agentes participando de canais, threads e conversas ao vivo com identidade, permissões e contexto compartilhado — já atendendo clientes em 15 países.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+    date: "2026-09-24",
+    content: `
+      <p>A Ando saiu da toca depois de quase um ano de desenvolvimento com uma proposta ambiciosa: construir uma plataforma de mensagens de equipe pensada desde o início para humanos e agentes de IA trabalharem lado a lado. A empresa anunciou US$ 20 milhões em financiamento, liderado por Accel, Index Ventures e Emergence Capital.</p>
+
+      <h2>Agentes como membros de verdade da equipe</h2>
+      <p>Diferente de integrações que apenas conectam um bot a um canal existente, a Ando dá aos agentes identidade própria, permissões e contexto compartilhado, permitindo que participem de canais, threads e conversas ao vivo como qualquer outro membro da equipe. A plataforma é agnóstica em relação a qual agente é usado — times podem trazer o Codex, o Claude, o Grokbot ou outros agentes que já utilizam.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Como funciona na prática</span>
+        <p>A Ando começa com recursos familiares de mensagens de equipe — canais, mensagens diretas e conversas em grupo — mas os agentes conseguem acompanhar o que acontece nas conversas de que participam, manter memória e contexto persistentes, contribuir de forma proativa quando fizer sentido, e participar em tempo real das "Jams", as conversas ao vivo da plataforma.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A empresa já diz atender clientes em setores como software, imobiliário e finanças em 15 países, embora muitos desses times ainda sejam pequenos. O lançamento reforça uma tendência que já discutimos em nosso texto sobre <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">o futuro do trabalho autônomo com agentes de IA</a>: à medida que agentes ganham autonomia para executar tarefas complexas, a própria infraestrutura de comunicação das empresas — historicamente pensada só para humanos, como o Slack — também precisa ser repensada para incluir esses novos "colegas de trabalho" digitais.</p>
+    `,
+  },
+  {
+    slug: "modular-capta-250-milhoes-camada-unificada-computacao-ia",
+    title: "Modular capta US$ 250 milhões para escalar 'camada de computação unificada' e desafiar domínio da Nvidia",
+    author: "Bruno Danello",
+    summary:
+      "A startup fundada por Chris Lattner, criador da linguagem Swift da Apple, quase triplicou sua avaliação para US$ 1,6 bilhão numa rodada Série C liderada pelo fundo de Thomas Tull, com participação de GV, Greylock e General Catalyst.",
+    sourceName: "SDxCentral",
+    sourceUrl: "https://www.sdxcentral.com/news/modular-raises-250m-for-ais-unified-compute-layer-at-16b-valuation/",
+    date: "2026-09-24",
+    content: `
+      <p>A Modular, startup de infraestrutura de IA fundada em 2022 por Chris Lattner — criador da linguagem de programação Swift, da Apple, e ex-chefe do Autopilot da Tesla —, captou US$ 250 milhões numa rodada Série C, elevando o total levantado desde a fundação a US$ 380 milhões. A rodada foi liderada pelo US Innovative Technology Fund, do investidor Thomas Tull, com participação da DFJ Growth e de investidores já presentes na empresa, como GV (o braço de venture capital do Google), General Catalyst e Greylock.</p>
+
+      <h2>Uma avaliação que quase triplicou</h2>
+      <p>Com a nova captação, a avaliação da Modular sobe para US$ 1,6 bilhão — quase o triplo do valor alcançado na rodada anterior da empresa. O objetivo declarado é escalar o que a Modular chama de "camada de computação unificada", uma plataforma de software que promete rodar cargas de trabalho de IA de forma mais eficiente em diferentes tipos de hardware, da nuvem a dispositivos de borda.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que a plataforma promete resolver</span>
+        <p>Segundo a empresa, o novo capital vai melhorar taxa de transferência, latência, custo e precisão para uma variedade de cargas de trabalho de IA — uma proposta de valor que mira diretamente a posição dominante da Nvidia no ecossistema de software para treinar e rodar modelos de IA em diferentes chips.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O caso da Modular reforça uma tendência que já vimos em outras startups de infraestrutura de IA: conforme a demanda por poder computacional cresce, também cresce o interesse por camadas de software que tornam esse poder mais barato e portátil entre diferentes fornecedores de hardware — reduzindo a dependência de qualquer fabricante único de chips, tema que já tocamos em nosso <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a>.</p>
     `,
   },
 ];
