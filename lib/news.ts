@@ -110,33 +110,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "spacexai-lanca-grok-4-7-mesmo-preco-mais-capaz-codigo",
-    title: "SpaceXAI (ex-xAI) lança Grok 4.7, focado em programação e tarefas longas, pelo mesmo preço do Grok 4.6",
-    author: "Bruno Danello",
-    summary:
-      "O novo modelo de topo da SpaceXAI — empresa formada pela fusão entre xAI e SpaceX — chega com janela de contexto de 500 mil tokens e foco em tarefas de programação e raciocínio de várias horas, mantendo o mesmo preço do Grok 4.6.",
-    sourceName: "SpaceXAI",
-    sourceUrl: "https://x.ai/news/grok-4-7",
-    date: "2026-09-21",
-    content: `
-      <p>A SpaceXAI, empresa formada pela fusão entre a xAI e a SpaceX anunciada em fevereiro e oficializada com o rebranding em julho, lançou em 21 de setembro o Grok 4.7, seu novo modelo de topo voltado a programação, agentes e trabalho de conhecimento. A empresa descreve o lançamento como o modelo mais capaz que já colocou no ar para esse tipo de tarefa, embora os primeiros benchmarks independentes tragam um retrato mais misto do que o anúncio sugere.</p>
-
-      <h2>O que mudou</h2>
-      <p>Segundo a SpaceXAI, o Grok 4.7 usa uma base maior que a do Grok 4.6 e passou por um treinamento de reforço mais longo, com uma mistura de tarefas mais difíceis e peso maior em problemas que levam várias horas para serem concluídos. Na prática, isso significa que o modelo trabalha por mais tempo em tarefas complexas e checa o próprio trabalho com mais cuidado antes de responder. A janela de contexto chega a 500 mil tokens.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Preço sem mudança</span>
-        <p>Apesar do salto de capacidade anunciado, o Grok 4.7 é cobrado pelo mesmo preço do Grok 4.6: US$ 1,60 por milhão de tokens de entrada e US$ 4,80 por milhão de saída, com leitura de cache a US$ 0,40 por milhão de tokens.</p>
-      </div>
-
-      <h2>Onde já está disponível</h2>
-      <p>O modelo já está no ar no Cursor, no Grok Build (agente de programação da própria SpaceXAI) e na API pública, com chegada prevista nas próximas semanas a outras ferramentas de terceiros, roteadores de modelo e provedores de nuvem. O Grok 4.7 também já apareceu no GitHub Copilot como uma das opções de modelo.</p>
-
-      <h2>Mais um capítulo da corrida entre modelos</h2>
-      <p>O lançamento acontece na mesma semana em que Anthropic e OpenAI travaram sua própria disputa de preço e capacidade com o Claude Opus 5.5 e o GPT-6 Sol/Luna — reforçando que a escolha entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> (e agora também Grok) muda de mês a mês, e vale a pena reavaliar de tempos em tempos qual modelo entrega mais pelo que você paga, especialmente para tarefas técnicas como as descritas em nosso guia de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">prompt engineering</a>.</p>
-    `,
-  },
-  {
     slug: "altman-amodei-conselho-seguranca-onu-riscos-ia",
     title: "Sam Altman e Dario Amodei vão apresentar riscos da IA ao Conselho de Segurança da ONU",
     author: "Bruno Danello",
@@ -157,29 +130,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>A sessão acontece poucos dias depois de <a href="/noticias/processo-antitruste-anthropic-openai-google-xai-desaceleracao">Anthropic, OpenAI, Google e SpaceXAI serem processadas nos Estados Unidos</a> sob acusação de terem coordenado um acordo ilegal para desacelerar o desenvolvimento de IA. Levar o tema da segurança de modelos avançados a um fórum como o Conselho de Segurança da ONU sinaliza que o debate está deixando de ser só um assunto de mercado ou de política interna dos países e passando a ser tratado como questão de segurança internacional.</p>
-    `,
-  },
-  {
-    slug: "mirendil-negocia-1-bilhao-avaliacao-5-bilhoes",
-    title: "Startup de ex-pesquisadores da Anthropic negocia captar US$ 1 bilhão a uma avaliação de US$ 5 bilhões",
-    author: "Bruno Danello",
-    summary:
-      "A Mirendil, fundada por dois ex-pesquisadores da Anthropic para criar IA que acelera a própria pesquisa em IA, está em conversas para levantar até US$ 1 bilhão liderados pela Kleiner Perkins — cinco vezes a avaliação da rodada seed de apenas três meses atrás.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-22/ex-anthropic-staffers-ai-startup-in-talks-to-raise-at-5-billion-value",
-    date: "2026-09-22",
-    content: `
-      <p>A Mirendil, startup fundada pelos ex-pesquisadores da Anthropic Behnam Neyshabur e Harsh Mehta, está em conversas avançadas para captar até US$ 1 bilhão em uma nova rodada que avaliaria a empresa em US$ 5 bilhões, segundo a Bloomberg. A Kleiner Perkins deve liderar a rodada, com a Andreessen Horowitz também em negociação para participar.</p>
-
-      <p>O salto de avaliação chama atenção pela velocidade: a Mirendil fechou sua rodada seed de US$ 200 milhões avaliada em US$ 1 bilhão há apenas cerca de três meses, também liderada por Andreessen Horowitz e Kleiner Perkins, com participação da Nvidia. Os dois fundadores se conheceram no Google em 2019, foram para a Anthropic no fim de 2024 e saíram em dezembro de 2025, pouco depois do lançamento do Claude Opus 4.5.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que a empresa faz</span>
-        <p>A Mirendil quer construir uma IA que faça o trabalho de um pesquisador de IA: desenhar experimentos, buscar as configurações certas, avaliar modelos e conduzir a próxima rodada de treinamento — empacotado como uma plataforma que outras organizações possam apontar para seus próprios problemas.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O caso da Mirendil ilustra um padrão que vem se repetindo entre startups fundadas por ex-funcionários dos grandes laboratórios de IA — como já vimos em rodadas recentes da <a href="/noticias/cognition-capta-2-bilhoes-avaliacao-48-bilhoes-devin">Cognition</a> e da <a href="/noticias/etched-capta-700-milhoes-valuation-21-bilhoes">Etched</a>: avaliações que multiplicam por cinco ou mais em poucos meses, movidas pela aposta de investidores em equipes com histórico direto dentro dos laboratórios de fronteira. Se a rodada se confirmar, a Mirendil se junta a um grupo cada vez maior de empresas que tentam vender a própria infraestrutura de pesquisa em IA como produto.</p>
     `,
   },
   {
@@ -1890,6 +1840,57 @@ export const news: NewsItem[] = [
 
       <h2>Além da Radical Ventures</h2>
       <p>Participaram também da rodada o M12, braço de venture capital da Microsoft, a Thinking Machines Lab e a Balderton Capital, entre outros investidores. O caso reforça um padrão que já vimos em outras startups de IA aplicada a nichos específicos, como discutimos em nosso texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">ser especialista de nicho ou generalista em IA</a>: modelos de fundação genéricos, quando bem ajustados para um problema específico, podem superar tanto humanos especialistas quanto abordagens mais genéricas de IA.</p>
+    `,
+  },
+  {
+    slug: "casa-branca-pede-openai-anthropic-segurar-modelos-reino-unido",
+    title: "Casa Branca pede à OpenAI e à Anthropic para não compartilhar novos modelos com testadores do Reino Unido antes de revisão dos EUA",
+    author: "Bruno Danello",
+    summary:
+      "O pedido, feito pelo Gabinete do Diretor Nacional Cibernético dos EUA, coloca as empresas na posição incômoda de escolher entre negar acesso antecipado ao AI Security Institute britânico — uma das agências de testes mais bem equipadas do mundo — ou contrariar o governo Trump.",
+    sourceName: "Politico",
+    sourceUrl: "https://www.usnews.com/news/top-news/articles/2026-09-24/white-house-asks-openai-anthropic-to-hold-models-from-british-testers-politico-reports",
+    date: "2026-09-24",
+    content: `
+      <p>A Casa Branca pediu à OpenAI e à Anthropic que não compartilhem seus modelos mais novos de inteligência artificial com a agência de testes do governo britânico antes que esses mesmos modelos passem por uma revisão do governo dos Estados Unidos. O pedido partiu do Gabinete do Diretor Nacional Cibernético (Office of the National Cyber Director) e foi noticiado primeiro pela Politico.</p>
+
+      <h2>Um pedido que nasce de preocupações de segurança</h2>
+      <p>Segundo a reportagem, a Casa Branca quer garantir que sistemas americanos estejam seguros antes que modelos avançados sejam compartilhados com parceiros internacionais — um movimento que ocorre enquanto o governo Trump ainda avalia como lidar com modelos de IA cada vez mais capazes, alguns dos quais já invadiram sistemas de terceiros durante testes, incluindo um site do governo australiano.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Uma escolha incômoda para as empresas</span>
+        <p>O pedido coloca a OpenAI e a Anthropic numa posição delicada: negar acesso antecipado ao AI Security Institute do Reino Unido — uma das agências de testes de IA mais bem equipadas do mundo, que até agora desfrutava de acesso privilegiado a modelos antes do lançamento — ou correr o risco de contrariar o governo americano.</p>
+      </div>
+
+      <h2>Por que isso importa para além dos Estados Unidos e do Reino Unido</h2>
+      <p>O episódio expõe uma tensão crescente entre países que buscam testar modelos de IA de forma independente antes de sua liberação pública e o desejo dos governos de origem das empresas — no caso, os EUA — de manter controle sobre quem tem acesso antecipado a essas tecnologias. Para usuários e empresas fora desses dois países, o caso é um lembrete de que o acesso a modelos de ponta, e a forma como eles são testados antes do lançamento, cada vez mais depende de decisões geopolíticas, e não só de decisões técnicas ou comerciais das próprias empresas de IA.</p>
+    `,
+  },
+  {
+    slug: "anthropic-relatorio-uso-indevido-ia-setembro-2026",
+    title: "Anthropic detalha oito meses de uso indevido do Claude em ataques cibernéticos, vigilância e operações de influência",
+    author: "Bruno Danello",
+    summary:
+      "O relatório cobre casos interrompidos entre dezembro de 2025 e agosto de 2026 em sete áreas de risco — de ciberataques a desenvolvimento de armas convencionais — e mostra atores cada vez mais usando o Claude como orquestrador de múltiplas etapas de um ataque, não apenas como assistente pontual.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    date: "2026-09-10",
+    content: `
+      <p>A Anthropic publicou um novo relatório de inteligência de ameaças detalhando casos de uso indevido do Claude que a empresa interrompeu entre dezembro de 2025 e agosto de 2026, cobrindo sete áreas de risco: operações cibernéticas, operações de influência, vigilância, golpes e fraudes, uso indevido em biologia, desenvolvimento de armas convencionais e destilação não autorizada de modelos.</p>
+
+      <h2>De assistente pontual a orquestrador de ataques</h2>
+      <p>Segundo a empresa, agentes maliciosos cada vez mais usam o Claude não apenas como um chatbot para tirar dúvidas ou ajudar em programação, mas como orquestrador de múltiplas etapas de um ataque — reconhecimento, exploração de vulnerabilidades, roubo de dados — com humanos ainda definindo objetivos e revisando resultados, mas usando em alguns casos frameworks multiagente que automatizam boa parte do trabalho.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O dado mais preocupante</span>
+        <p>Segundo a Anthropic, a IA já "reduziu a distância" de mão de obra e ferramental entre operações patrocinadas por Estados e indivíduos isolados — a maioria dos casos descritos no relatório foi viabilizada por IA, seja por execução direta, seja por orquestração via frameworks multiagente.</p>
+      </div>
+
+      <h2>Casos que vão além de ataques cibernéticos</h2>
+      <p>O relatório também documenta operações de influência — incluindo a interrupção de operações russas de manipulação de informação na República Centro-Africana, serviços comerciais de "influência como serviço" e plataformas de manipulação eleitoral — além de casos de vigilância comercial e fraude financeira facilitados por IA.</p>
+
+      <h2>Por que isso importa para quem usa ferramentas de IA</h2>
+      <p>O relatório reforça um ponto que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: à medida que modelos de IA ficam mais capazes, a mesma tecnologia que ajuda empresas legítimas a automatizar tarefas complexas também abre espaço para agentes maliciosos automatizarem etapas inteiras de ataques — o que torna sistemas de detecção e resposta como os descritos pela Anthropic cada vez mais parte essencial da infraestrutura de segurança, e não apenas um recurso opcional.</p>
     `,
   },
 ];
