@@ -40,26 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "claude-lidera-26-por-cento-pesquisa-proxima-versao",
-    title: "Anthropic diz que o Claude já lidera 26% da pesquisa que cria sua próxima versão",
-    author: "Bruno Danello",
-    summary:
-      "Em agosto, o Claude passou a conduzir sozinho, com supervisão humana, mais de um quarto do trabalho de pesquisa e desenvolvimento interno da Anthropic — ante menos de 1% em fevereiro. Mais de 90% desse trabalho já envolve o modelo como colaborador ou protagonista, embora a empresa diga não haver nenhuma área em que ele opere de forma totalmente autônoma.",
-    sourceName: "The Korea Times",
-    sourceUrl: "https://www.koreatimes.co.kr/world/20260918/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself",
-    date: "2026-09-18",
-  },
-  {
-    slug: "opentext-cohere-parceria-ia-agentica-setores-regulados",
-    title: "OpenText e Cohere firmam parceria para levar IA agêntica a setores regulados",
-    author: "Bruno Danello",
-    summary:
-      "A parceria combina a camada de dados e contexto empresarial da OpenText com a plataforma de IA agêntica North, da Cohere, voltada a governos e indústrias regulamentadas. A solução, que poderá ser hospedada localmente ou em nuvem privada, deve chegar a clientes corporativos no início de 2027.",
-    sourceName: "Cohere",
-    sourceUrl: "https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai",
-    date: "2026-09-16",
-  },
-  {
     slug: "sony-warner-processam-anthropic-direitos-autorais",
     title: "Sony Music e Warner Chappell processam a Anthropic por violação de direitos autorais",
     author: "Bruno Danello",
@@ -1817,6 +1797,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O movimento reforça como a demanda por capacidade de data center segue como um dos gargalos centrais do setor de IA — um tema que já discutimos em relação a projetos como o Stargate, da OpenAI, e que deve continuar pautando tanto decisões de investimento quanto disputas regulatórias sobre energia e licenciamento nos próximos meses.</p>
+    `,
+  },
+  {
+    slug: "akamai-anthropic-acordo-11-6-bilhoes-nuvem",
+    title: "Akamai fecha acordo de US$ 11,6 bilhões com a Anthropic para infraestrutura de nuvem",
+    author: "Bruno Danello",
+    summary:
+      "A Anthropic se comprometeu a comprar US$ 11,6 bilhões em serviços de nuvem da Akamai ao longo de sete anos, com possibilidade de expansão para até US$ 20 bilhões no total — em troca, a Akamai emitiu à Anthropic um warrant que pode chegar a cerca de 5% de suas ações.",
+    sourceName: "GlobeNewswire",
+    sourceUrl: "https://www.globenewswire.com/news-release/2026/09/24/3368729/0/en/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand.html",
+    date: "2026-09-24",
+    content: `
+      <p>A Akamai anunciou nesta quinta-feira um acordo multianual de US$ 11,6 bilhões com a Anthropic, no qual a empresa de IA se compromete a comprar serviços de nuvem da Akamai ao longo de sete anos para sustentar a demanda crescente por capacidade de processamento (CPU) de seus modelos Claude. O contrato prevê ainda a possibilidade de expansão em até US$ 9 bilhões adicionais, elevando o compromisso potencial total para cerca de US$ 20 bilhões.</p>
+
+      <p>Como parte do negócio, a Akamai emitiu à Anthropic um warrant para a compra de ações preferenciais conversíveis não votantes, equivalentes a até aproximadamente 5% do capital social da Akamai, com preço de exercício de US$ 111,33 por ação. Cerca de 2% desse total já deve ser adquirido com o compromisso inicial de US$ 11,6 bilhões, enquanto o restante fica condicionado à expansão do contrato dentro do prazo de sete anos do warrant. As ações da Akamai dispararam depois do anúncio.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Nuvem como moeda de troca</span>
+        <p>O modelo do acordo — capacidade de nuvem em troca de participação acionária — segue um padrão que já vimos em outros contratos recentes do setor, reforçando como fornecedores de infraestrutura estão dispostos a trocar parte do controle de suas empresas por garantias de receita bilionária vindas dos laboratórios de IA que mais crescem.</p>
+      </div>
+
+      <p>O acordo se soma a mais de US$ 2,8 bilhões em compromissos multianuais de serviços de infraestrutura em nuvem que a Akamai já havia fechado neste ano com outros clientes, evidenciando a demanda crescente por infraestrutura distribuída capaz de suportar cargas de trabalho de IA em escala. Para a Anthropic, o negócio se junta a outros grandes contratos de infraestrutura fechados nos últimos meses, num momento em que a empresa segue expandindo capacidade computacional para acompanhar o crescimento de uso do Claude.</p>
+    `,
+  },
+  {
+    slug: "universal-sony-processam-suno-novamente-modelo-v6",
+    title: "Universal e Sony processam a Suno pela segunda vez, agora por causa do modelo V6",
+    author: "Bruno Danello",
+    summary:
+      "As gravadoras acusam a empresa de IA musical de ter usado 60.202 gravações protegidas por direitos autorais, sem licença, para treinar seu mais novo modelo de geração de música — uma ação que pode chegar a mais de US$ 9 bilhões em indenizações pela lei americana de direitos autorais.",
+    sourceName: "Music Business Worldwide",
+    sourceUrl: "https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/",
+    date: "2026-09-18",
+    content: `
+      <p>A Universal Music Group e a Sony Music entraram com uma segunda ação de violação de direitos autorais contra a Suno, empresa de geração de música por IA, alegando que o modelo V6 da companhia foi treinado sem licença sobre 60.202 gravações das gravadoras. A ação conjunta foi protocolada em 18 de setembro num tribunal federal de Boston.</p>
+
+      <p>Segundo o processo, o novo modelo V6 da Suno também teria sido treinado a partir das interações de usuários com as versões anteriores da ferramenta — versões que, segundo as próprias gravadoras, já foram alvo de uma primeira ação por violação em massa de direitos autorais, movida em 2024. Pela lei americana de direitos autorais, danos por violação deliberada podem chegar a US$ 150 mil por obra — o que, para as 60.202 gravações citadas, representaria um teto teórico de indenização de mais de US$ 9 bilhões.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Litígio em escalada</span>
+        <p>A nova ação surge depois de um juiz negar, em 18 de agosto, o pedido das gravadoras para incluir essas 60.202 gravações diretamente no processo original — que trata de 560 obras e já está em fase avançada sobre a tese de uso justo (fair use). O magistrado sugeriu que as gravadoras movessem uma ação separada, o que agora aconteceu.</p>
+      </div>
+
+      <p>O episódio mostra como o litígio entre gravadoras e plataformas de IA musical está longe de se encerrar, mesmo após acordos bilionários fechados por outras empresas do setor com grandes selos — a Suno segue como uma das poucas grandes plataformas de geração musical por IA ainda sem acordo com a indústria fonográfica, e agora enfrenta uma frente judicial mais ampla.</p>
     `,
   },
 ];
