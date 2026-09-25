@@ -87,29 +87,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "digitalocean-lanca-managed-agents-infraestrutura-agentes-ia",
-    title: "DigitalOcean lança 'Managed Agents' para rodar agentes de IA sem gerenciar infraestrutura",
-    author: "Bruno Danello",
-    summary:
-      "O novo serviço, em prévia pública, combina ambiente de execução isolado, acesso controlado a mais de 16 mil ferramentas e inferência para mais de 75 modelos numa única plataforma — cobrando só pelo tempo em que o agente está realmente ativo.",
-    sourceName: "DigitalOcean",
-    sourceUrl: "https://www.digitalocean.com/blog/managed-agents-public-preview",
-    date: "2026-09-22",
-    content: `
-      <p>A DigitalOcean anunciou em 22 de setembro a prévia pública do Managed Agents, um conjunto de serviços que promete simplificar a infraestrutura necessária para rodar agentes de IA em produção — sem que times de desenvolvimento precisem construir e manter essa infraestrutura por conta própria.</p>
-
-      <p>O serviço reúne três componentes: um ambiente de execução isolado (Harness Runtime), que combina microVMs com ferramentas embutidas e sandbox para código; um gateway de ações (Action Gateway), que dá acesso controlado a mais de 16 mil ferramentas de mais de 500 provedores por meio de um endpoint gerenciado; e um motor de inferência (Inference Engine), que conecta os agentes a mais de 75 modelos, incluindo Nemotron 3 Ultra, Kimi K3, GLM 5.3, Claude Fable 5.1 e GPT-6 Astra.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Como funciona a cobrança</span>
-        <p>O preço é baseado em uso ativo: US$ 0,044 por vCPU-hora e US$ 0,0095 por GB-hora de memória. A empresa não cobra taxa de CPU enquanto o agente espera resposta de um modelo ou resultado de uma ferramenta — cada sessão "pausa" quando fica ociosa.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O lançamento reflete uma tendência maior no mercado de infraestrutura de IA: conforme mais empresas adotam <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a> no dia a dia, cresce a demanda por plataformas que abstraem a complexidade técnica de rodar esses agentes com segurança — combinando execução, acesso a ferramentas externas e escolha de modelo em um único lugar, em vez de exigir que cada equipe monte essa peça por peça. Esse tipo de infraestrutura gerenciada segue a mesma lógica que já discutimos em <a href="/artigos/notion-zapier-e-ia-automatize-seu-negocio-sem-programar">Notion, Zapier e IA: automatize seu negócio sem programar</a> — reduzir a barreira técnica para quem quer aplicar IA na prática, só que voltado a desenvolvedores que constroem agentes mais sofisticados.</p>
-    `,
-  },
-  {
     slug: "painel-cientifico-onu-ia-principio-precaucao-agentes",
     title: "Painel científico da ONU sobre IA pede que governos ajam agora, sem esperar certeza científica sobre riscos de agentes autônomos",
     author: "Bruno Danello",
@@ -183,29 +160,6 @@ export const news: NewsItem[] = [
 
       <h2>Cientistas humanos continuam no comando dos experimentos</h2>
       <p>Segundo a Anthropic, todos os experimentos de bancada do novo laboratório são conduzidos por cientistas humanos — o Claude é usado para buscar em bases de dados genômicos, gerar hipóteses, analisar candidatos e ajudar a interpretar resultados experimentais, mas a função do sistema ART ainda é desconhecida e precisa ser validada em laboratório. Ainda assim, o caso se soma a outros indícios recentes de que modelos de IA já conseguem contribuir de forma autônoma para pesquisa científica original, um tema que também aparece em nosso guia sobre o avanço dos <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA no trabalho autônomo</a>.</p>
-    `,
-  },
-  {
-    slug: "chatgpt-voice-ganha-gpt-6-plugins-chatgpt-work",
-    title: "ChatGPT Voice ganha modelos GPT-6, plugins de e-mail e agenda e acesso ao ChatGPT Work",
-    author: "Bruno Danello",
-    summary:
-      "A OpenAI atualizou o modo de voz do ChatGPT para rodar sobre os modelos GPT-6 Astra, Sol e Luna, liberou plugins de e-mail, calendário e Slack dentro da conversa por voz, e passou a permitir criar documentos, planilhas e apresentações pelo ChatGPT Work só falando.",
-    sourceName: "9to5Mac",
-    sourceUrl: "https://9to5mac.com/2026/09/23/openai-just-upgraded-chatgpt-voice-in-three-ways/",
-    date: "2026-09-23",
-    content: `
-      <p>A OpenAI anunciou nesta quarta-feira três atualizações para o ChatGPT Voice, o modo de conversa por voz do ChatGPT. A primeira é a troca dos modelos que respondem por voz para a nova geração GPT-6: o Astra (o mais capaz, já disponível há algumas semanas) e os recém-lançados Sol e Luna, atualizados de GPT-5.6 para GPT-6 no dia anterior junto com o corte de preços da API.</p>
-
-      <p>A segunda novidade é o suporte a plugins dentro da própria conversa por voz — incluindo conexões com e-mail, calendário e Slack. Na prática, isso permite pedir por voz para checar a agenda do dia, ler um e-mail específico ou responder uma mensagem no Slack, sem precisar trocar para o modo de texto.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que muda no dia a dia</span>
-        <p>A terceira mudança é a integração com o ChatGPT Work, o sistema de agentes conectados à nuvem da OpenAI: agora dá para criar documentos, planilhas, apresentações e sites, ou executar tarefas mais complexas no navegador, apenas conversando por voz — sem digitar um comando sequer. O recurso já está em lançamento global na versão mais recente do app.</p>
-      </div>
-
-      <h2>Mais uma peça da corrida por assistentes de voz</h2>
-      <p>A atualização chega na mesma semana em que a OpenAI cortou os preços da API pela metade com o lançamento do GPT-6 Sol e do GPT-6 Luna, reforçando a disputa direta com Google e Anthropic por quem oferece o assistente mais completo pelo menor custo. Para quem já usa assistentes de IA no dia a dia, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a> e o comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> para escolher a ferramenta certa — o suporte a plugins de voz também se soma às formas de <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automatizar tarefas repetitivas com IA</a> sem precisar abrir uma tela.</p>
     `,
   },
   {
@@ -1889,6 +1843,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O lançamento reforça uma corrida que já vimos entre outras gigantes de IA: como discutimos na notícia sobre <a href="/noticias/google-anthropic-openai-lancam-modelos-ia-ciberseguranca">os modelos de cibersegurança lançados por Google, Anthropic e OpenAI</a>, a disputa por quem oferece a IA mais confiável para equipes de defesa digital está cada vez mais acirrada — um reflexo direto de como os próprios atacantes já usam IA para tornar ataques mais rápidos e sofisticados, elevando a régua para quem precisa se defender.</p>
+    `,
+  },
+  {
+    slug: "unix-ai-expande-globalmente-prepara-ipo-robos-humanoides",
+    title: "Fabricante chinesa de robôs humanoides UniX AI se expande globalmente e mira IPO",
+    author: "Bruno Danello",
+    summary:
+      "Fundada em 2024, a empresa já atua em Singapura e Índia com robôs para limpeza de hotéis e varejo, captou cerca de US$ 57 milhões em rodadas de investimento e diz ter atingido produção em massa com entregas mensais de três dígitos — o CEO afirma que o momento do IPO depende do ambiente regulatório e de como os robôs se comportam em uso real.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/24/chinese-humanoid-robotics-firm-expanding-globally-and-readying-for-ipo.html",
+    date: "2026-09-24",
+    content: `
+      <p>A UniX AI, fabricante chinesa de robôs humanoides fundada em 2024, vem se expandindo rapidamente para mercados como Singapura e Índia desde o início do ano, aplicando seus robôs em tarefas como limpeza de hotéis e operações de varejo — mesmo com a China continuando a ser o maior mercado de demanda para a empresa. O fundador e CEO, Fengyu Yang, confirmou à CNBC que a companhia planeja abrir capital no futuro.</p>
+
+      <h2>Um IPO que depende de fatores além do mercado</h2>
+      <p>Segundo Yang, o momento do IPO "depende do ambiente de mercado e da regulação" e, mais importante, "de como nossos robôs estão sendo usados em ambientes reais por enquanto" — um sinal de que a empresa prioriza provar a utilidade prática dos robôs antes de buscar capital público, ao contrário de concorrentes que já aceleraram o processo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Os números da empresa</span>
+        <p>A UniX AI já captou cerca de US$ 57 milhões em múltiplas rodadas de investimento e afirma ter atingido produção em massa de seus modelos principais de robôs, com entregas mensais na casa das centenas já em 2025. Mais da metade dos pedidos da empresa vêm de clientes que já compraram antes e estão renovando ou recomprando.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O caso da UniX AI se soma a uma onda de startups chinesas de robótica humanoide correndo para abrir capital — a concorrente Unitree já completou seu IPO em Xangai em agosto, com valorização de 460% no primeiro dia de negociação. Segundo dados do setor, startups de robótica humanoide já captaram US$ 8,6 bilhões em 2026, quase o dobro do total investido em todo o ano de 2025 — um sinal de que o mercado aposta pesado na transição desses robôs de demonstrações chamativas para aplicações comerciais reais, como já discutimos em nosso <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a>.</p>
+    `,
+  },
+  {
+    slug: "dextr-ai-capta-6-7-milhoes-agentes-hotelaria",
+    title: "Dextr AI capta US$ 6,7 milhões para expandir agentes de IA que automatizam operações de hotéis",
+    author: "Bruno Danello",
+    summary:
+      "A startup já opera em propriedades das redes Hilton, Wyndham, Best Western e IHG nos EUA, Canadá, Reino Unido e Europa, processando mais de um milhão de interações por mês e dezenas de milhões de dólares em reservas por telefone — a rodada seed liderada pela Elevation Capital vai financiar a expansão para a Índia.",
+    sourceName: "Crunchbase News",
+    sourceUrl: "https://news.crunchbase.com/venture/dextr-ai-hospitality-agents-raises-seed-funding/",
+    date: "2026-09-25",
+    content: `
+      <p>A Dextr AI, plataforma de agentes de IA voltada especificamente para o setor hoteleiro, captou US$ 6,7 milhões numa rodada seed liderada pela Elevation Capital, com participação da Foundation Capital. A empresa, fundada em julho de 2025 por Sajid Shariff e Scott Arnold, já opera em centenas de propriedades nos Estados Unidos, Canadá, Reino Unido e Europa — incluindo hotéis franqueados das redes Hilton, Wyndham, Best Western e IHG.</p>
+
+      <h2>O que os agentes fazem no dia a dia de um hotel</h2>
+      <p>Os agentes especializados da Dextr automatizam fluxos de trabalho que vão desde a experiência do hóspede e reservas até operações internas de equipe, vendas e marketing. Segundo a empresa, a plataforma já processa mais de um milhão de interações por mês e consegue realizar pagamentos por voz, movimentando dezenas de milhões de dólares em reservas feitas por telefone todos os meses.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Para onde vai o dinheiro</span>
+        <p>Os recursos da rodada serão usados para acelerar o desenvolvimento de produto, expandir o time e escalar a operação para novos mercados de hotelaria ao redor do mundo — com a Índia entre os principais alvos de expansão da empresa.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O caso da Dextr reforça como agentes de IA especializados por setor continuam atraindo investimento mesmo em nichos aparentemente distantes da fronteira tecnológica, como hotelaria — um padrão que já vimos em áreas como jurídico e atendimento ao cliente, e que discutimos em nosso texto sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>. Para pequenos negócios do setor de turismo e hospitalidade, esse tipo de ferramenta pode representar uma forma acessível de automatizar tarefas repetitivas sem precisar contratar equipe adicional.</p>
     `,
   },
 ];
