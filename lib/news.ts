@@ -110,55 +110,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "openai-lanca-gpt-6-sol-luna-corta-precos-pela-metade",
-    title: "OpenAI lança GPT-6 Sol e GPT-6 Luna e corta preços pela metade, minutos após novo Claude Opus 5.5",
-    author: "Bruno Danello",
-    summary:
-      "A OpenAI reduziu os preços de API em cerca de 50% com os novos modelos GPT-6 Sol e GPT-6 Luna, lançados quase ao mesmo tempo que o Claude Opus 5.5 da Anthropic — um sinal claro de que a guerra de preços entre os grandes laboratórios de IA está longe de esfriar.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-    date: "2026-09-22",
-    content: `
-      <p>A OpenAI lançou em 22 de setembro dois novos modelos, GPT-6 Sol e GPT-6 Luna, com preços de API cerca de 50% mais baratos que os das versões anteriores. O GPT-6 Sol passa a custar US$ 2 por milhão de tokens de entrada e US$ 10 de saída, ante US$ 4 e US$ 20 do GPT-5.6 Sol; já o GPT-6 Luna cai para US$ 0,10 e US$ 0,50, contra US$ 0,20 e US$ 1,20 do modelo anterior.</p>
-
-      <p>O momento do anúncio chamou atenção: os novos modelos foram lançados poucos minutos depois de a Anthropic anunciar o Claude Opus 5.5, também com corte de preço. Segundo a OpenAI, o Sol usou técnicas de treinamento parecidas com as do GPT-6 Astra, com ganhos relatados em raciocínio, confiabilidade factual, programação, uso de computador e alinhamento.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Dois modelos, dois usos diferentes</span>
-        <p>O Sol é voltado para tarefas complexas como programação e agentes; o Luna, mais barato, mira trabalho de alto volume e objetivo claro — resumir documentos, extrair informação ou responder perguntas rápidas.</p>
-      </div>
-
-      <h2>Uma guerra de preços que já dura meses</h2>
-      <p>Segundo analistas do mercado, as duas empresas disputam em duas frentes: lançando modelos mais baratos e cortando o preço dos modelos mais caros já existentes. Com o corte, o GPT-6 Sol fica cerca de 50% mais barato que o Claude Opus 5.5 em preço de entrada e saída, e o Luna passa a custar menos até que a versão econômica do DeepSeek V4.1 Flash — pressionando a vantagem de custo que sustentava a escolha por modelos de peso aberto.</p>
-
-      <h2>Por que isso importa para quem usa IA no trabalho</h2>
-      <p>Para quem monta ferramentas ou automações em cima de modelos de IA, como já detalhamos no <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de termos essenciais de IA</a>, esse tipo de corte de preço muda diretamente a conta de qual modelo vale mais a pena para cada tarefa — e reforça que apostar em um único fornecedor fixo, sem acompanhar o mercado, pode custar caro a médio prazo, como já discutimos em nosso texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">ser especialista de nicho ou generalista em IA</a>.</p>
-    `,
-  },
-  {
-    slug: "openai-abre-avaliacoes-seguranca-terceiros-durante-treinamento",
-    title: "OpenAI vai deixar grupos independentes avaliarem segurança de seus modelos ainda durante o treinamento",
-    author: "Bruno Danello",
-    summary:
-      "A empresa anunciou que passará a permitir avaliações técnicas de segurança por organizações externas durante o treinamento e a avaliação de novos modelos, e não apenas perto do lançamento como era o padrão até agora.",
-    sourceName: "OpenAI",
-    sourceUrl: "https://openai.com/index/strengthening-safety-with-external-testing/",
-    date: "2026-09-22",
-    content: `
-      <p>A OpenAI anunciou em 22 de setembro que passará a permitir que grupos externos conduzam avaliações técnicas de segurança de seus modelos ao longo de todo o ciclo de desenvolvimento — durante o treinamento, a avaliação e a implantação — e não apenas nos testes que costumam acontecer perto do lançamento, como era prática padrão até então.</p>
-
-      <p>Segundo a empresa, o objetivo é dar a avaliadores independentes acesso profundo o suficiente para questionar premissas internas, identificar riscos que a própria equipe pode ter deixado passar e chegar a conclusões próprias sobre a eficácia das salvaguardas de segurança. A OpenAI diz estar em conversas com organizações como METR e Redwood Research, embora ainda não tenha confirmado publicamente parceiros nem os termos exatos de acesso.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que muda na prática</span>
-        <p>Até agora, avaliações externas de segurança costumavam acontecer só nos testes finais antes de um modelo ir ao ar. A mudança antecipa esse escrutínio para as fases de treinamento e avaliação, quando ainda é mais fácil corrigir um problema antes que ele chegue ao produto final.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>A decisão chega no mesmo dia em que a OpenAI e a Anthropic travaram uma nova rodada da guerra de preços entre modelos, com o lançamento do GPT-6 Sol e do GPT-6 Luna logo depois do Claude Opus 5.5 — um lembrete de que a corrida por modelos mais baratos e rápidos segue lado a lado com a pressão por mecanismos de verificação independente, tema que já tratamos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>.</p>
-    `,
-  },
-  {
     slug: "spacexai-lanca-grok-4-7-mesmo-preco-mais-capaz-codigo",
     title: "SpaceXAI (ex-xAI) lança Grok 4.7, focado em programação e tarefas longas, pelo mesmo preço do Grok 4.6",
     author: "Bruno Danello",
@@ -1891,6 +1842,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que a Sakana AI está de olho em autoaperfeiçoamento</h2>
       <p>Schmidhuber mantém seus cargos atuais e vai apenas visitar Tóquio com regularidade para orientar a direção científica do laboratório, sem se tornar funcionário em tempo integral. A contratação reforça uma tendência que já discutimos em nosso <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a>: mais laboratórios de pesquisa, inclusive fora dos Estados Unidos, vêm buscando nomes veteranos da área para orientar apostas de longo prazo em capacidades que hoje ainda são mais teóricas do que práticas, mas que podem se tornar decisivas se derem certo.</p>
+    `,
+  },
+  {
+    slug: "anthropic-pede-acionistas-controle-voto-fundadores-ipo",
+    title: "Anthropic pede aval de acionistas para dar aos sete fundadores 50,1% do poder de voto antes de eventual IPO",
+    author: "Bruno Danello",
+    summary:
+      "A estrutura, inspirada no modelo adotado pela Palantir, criaria uma classe especial de ações que garante ao CEO Dario Amodei e aos outros seis cofundadores controle conjunto de voto na maioria das decisões corporativas, desde que ao menos três deles mantenham uma participação mínima na empresa.",
+    sourceName: "The Information",
+    sourceUrl: "https://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo",
+    date: "2026-09-25",
+    content: `
+      <p>A Anthropic pediu aos seus acionistas aprovação para uma nova estrutura societária que concederia ao CEO Dario Amodei e aos outros seis cofundadores da empresa um controle conjunto de 50,1% do poder de voto. O modelo, inspirado na estrutura de controle fundador adotado pela Palantir, criaria uma classe especial de ações com voto ampliado para os fundadores, válida enquanto ao menos três dos sete mantiverem uma quantidade mínima de ações na empresa.</p>
+
+      <h2>Uma exceção importante: o conselho</h2>
+      <p>A proposta preserva um contrapeso: a eleição dos membros do conselho de administração da Anthropic, hoje com sete cadeiras (uma delas vaga), fica de fora do controle ampliado dos fundadores. O Long-Term Benefit Trust, órgão independente que inclui o ex-presidente do Federal Reserve Ben Bernanke, mantém a autoridade de nomear a maioria das cadeiras do conselho — ainda que a cota de indicações dos próprios cofundadores passe de duas para três cadeiras.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Voto também para funcionários</span>
+        <p>Como parte do mesmo pacote, a empresa planeja criar uma classe especial de ações para funcionários, que funcionaria como voto de desempate em algumas questões corporativas — uma forma de dar a eles algum peso institucional sem alterar o equilíbrio de controle entre fundadores e demais acionistas.</p>
+      </div>
+
+      <h2>Por que isso importa antes de uma possível abertura de capital</h2>
+      <p>Movimentos assim costumam anteceder um IPO: ao travar o controle de voto antes de vender ações ao público, os fundadores blindam a empresa contra pressões de investidores externos sobre decisões estratégicas de longo prazo — inclusive as relacionadas a segurança de IA, área que a Anthropic usa como diferencial de marca. É o mesmo tipo de estrutura que garantiu ao fundador da Palantir, Alex Karp, controle da empresa mesmo após sua listagem em bolsa.</p>
+    `,
+  },
+  {
+    slug: "mantic-capta-25-milhoes-previsao-sobre-humana-ia",
+    title: "Startup britânica Mantic capta US$ 25 milhões para IA de previsão 'sobre-humana' depois de vencer competição de humanos",
+    author: "Bruno Danello",
+    summary:
+      "A Mantic, de Londres, superou previsores humanos em precisão no Metaculus Cup do verão de 2026 ao atribuir probabilidades a eventos políticos, econômicos e culturais. A rodada seed foi liderada pela Radical Ventures, com o fundo M12 da Microsoft, a Thinking Machines Lab e a Balderton Capital entre os investidores.",
+    sourceName: "Tech Startups",
+    sourceUrl: "https://techstartups.com/2026/09/18/british-ai-startup-mantic-raises-25m-to-build-superhuman-ai-forecasting-after-metaculus-win/",
+    date: "2026-09-18",
+    content: `
+      <p>A Mantic, startup britânica de inteligência artificial fundada em 2024 por Toby Shevlane e Ben Day, captou US$ 25 milhões em uma rodada seed liderada pela Radical Ventures. A empresa ganhou atenção do mercado depois de superar previsores humanos em precisão no Metaculus Cup do verão de 2026, torneio em que participantes atribuem probabilidades a eventos futuros de natureza política, econômica e cultural.</p>
+
+      <h2>Como a tecnologia funciona</h2>
+      <p>Em vez de treinar modelos do zero, a Mantic parte de modelos de fundação já poderosos e os especializa em previsão, ajustando-os com dados históricos de resultados reais e conjuntos de dados específicos do domínio — uma abordagem que a empresa descreve como capaz de gerar previsões "sobre-humanas" em cenários de incerteza.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Quem está de olho nisso</span>
+        <p>Fundos de hedge e mesas de operação já demonstraram interesse direto nas previsões da Mantic — segundo um dos investidores da rodada, se a ferramenta realmente é sobre-humana como parece, dá para transformar isso em lucro de forma quase imediata no mercado financeiro.</p>
+      </div>
+
+      <h2>Além da Radical Ventures</h2>
+      <p>Participaram também da rodada o M12, braço de venture capital da Microsoft, a Thinking Machines Lab e a Balderton Capital, entre outros investidores. O caso reforça um padrão que já vimos em outras startups de IA aplicada a nichos específicos, como discutimos em nosso texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">ser especialista de nicho ou generalista em IA</a>: modelos de fundação genéricos, quando bem ajustados para um problema específico, podem superar tanto humanos especialistas quanto abordagens mais genéricas de IA.</p>
     `,
   },
 ];
