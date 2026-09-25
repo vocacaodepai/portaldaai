@@ -623,29 +623,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "cohere-aleph-alpha-fusao-20-bilhoes-ia-soberana",
-    title: "Cohere e Aleph Alpha assinam fusão de US$ 20 bilhões para criar rival transatlântica de IA",
-    author: "Bruno Danello",
-    summary:
-      "As empresas canadense e alemã formalizaram o acordo de combinação de negócios anunciado em abril, criando uma companhia com sede dupla em Berlim e Toronto e recebendo US$ 600 milhões em investimento do grupo Schwarz — movimento que as empresas descrevem como a primeira solução de 'IA soberana' transatlântica.",
-    sourceName: "Unite.AI",
-    sourceUrl: "https://www.unite.ai/cohere-signs-definitive-combination-agreement-with-aleph-alpha/",
-    date: "2026-09-16",
-    content: `
-      <p>A canadense Cohere e a alemã Aleph Alpha assinaram um acordo definitivo de combinação de negócios, formalizando a fusão entre as duas empresas anunciada inicialmente em abril deste ano. A companhia resultante vai operar globalmente sob o nome Cohere, com sede dupla em Berlim e Toronto, mantendo o centro de pesquisa da Aleph Alpha em Heidelberg. Segundo as empresas, o negócio avalia a companhia combinada em US$ 20 bilhões.</p>
-
-      <p>Como parte do acordo, o grupo Schwarz — já um investidor relevante na Aleph Alpha — vai aportar US$ 600 milhões na nova Cohere. Ilhan Scheer, hoje co-CEO da Aleph Alpha, assume o cargo de diretor de operações (COO) da companhia combinada, liderando o modelo operacional global e a escala organizacional da empresa resultante. A transação ainda depende de aprovações regulatórias finais e deve ser concluída ainda em 2026.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que é "IA soberana"</span>
-        <p>As duas empresas descrevem a fusão como a criação da primeira solução transatlântica de "IA soberana" — termo usado para descrever infraestrutura de inteligência artificial desenvolvida e operada dentro de um bloco econômico ou país específico, reduzindo a dependência de provedores de nuvem e modelos americanos ou chineses, especialmente para clientes do setor público.</p>
-      </div>
-
-      <h2>Consolidação entre desafiantes dos grandes laboratórios</h2>
-      <p>A fusão reforça um movimento de consolidação entre empresas de IA que competem com os gigantes americanos — OpenAI, Anthropic e Google — sem o mesmo volume de capital, unindo forças de pesquisa e presença comercial já estabelecida em setores regulados e no setor público na Europa e no Canadá.</p>
-    `,
-  },
-  {
     slug: "google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes",
     title: "Google, OpenAI e Anthropic cortejam ex-assessor de Trump para liderar novo órgão de padrões de IA",
     author: "Bruno Danello",
@@ -1225,28 +1202,6 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O experimento é relevante porque ataca um dos principais gargalos da robótica humanoide: a dificuldade de fazer um robô funcionar bem em ambientes que ele nunca viu, sem depender de treinamento específico para cada novo local — um requisito essencial para que humanoides consigam operar de forma prática em casas e ambientes de trabalho variados, em vez de ficarem restritos a fábricas ou depósitos com layout controlado.</p>
-    `,
-  },
-  {
-    slug: "universal-music-elevenlabs-plataforma-ia-musical-licenciada",
-    title: "Universal Music e ElevenLabs anunciam plataforma de IA musical construída com catálogo licenciado",
-    author: "Bruno Danello",
-    summary:
-      "O acordo multianual prevê uma plataforma voltada a fãs que permite remixar e criar novas versões de faixas de artistas participantes, com adesão faixa a faixa em vez da liberação automática de todo o catálogo — a primeira parceria da ElevenLabs com uma grande gravadora.",
-    sourceName: "Variety",
-    sourceUrl: "https://variety.com/2026/music/news/umg-elevenlabs-ai-powered-music-platform-licensing-1236857240/",
-    date: "2026-09-10",
-    content: `
-      <p>A Universal Music Group (UMG) fechou um acordo de licenciamento amplo com a ElevenLabs, startup de IA para áudio, para lançar uma plataforma de música com inteligência artificial construída a partir do catálogo de artistas da gravadora. É a primeira parceria da ElevenLabs com uma grande gravadora, combinando licenciamento de conteúdo e desenvolvimento conjunto de produto.</p>
-
-      <p>A plataforma vai permitir que fãs remixem e criem "mashups" de faixas de artistas, além de gerar novas interpretações de músicas e experiências vocais personalizadas. Diferente de uma liberação em massa do catálogo, os artistas participantes vão aderir faixa a faixa — ou seja, cada música precisa de autorização específica, em vez de todo o acervo da gravadora ficar automaticamente disponível para remixagem por IA.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Além da plataforma para fãs</span>
-        <p>O acordo também prevê que UMG e ElevenLabs desenvolvam juntas outros produtos de áudio com IA voltados a artistas e compositores — a plataforma para fãs é apenas o primeiro produto de uma parceria multianual mais ampla entre as duas empresas.</p>
-      </div>
-
-      <p>O movimento reforça uma mudança de postura das grandes gravadoras em relação à IA generativa: em vez de tratar apenas como ameaça — como no processo judicial que a própria Universal, junto com a Sony, mantém contra a Suno —, empresas como a UMG têm buscado fechar parcerias comerciais com empresas de IA dispostas a construir produtos sobre catálogos licenciados, com participação dos artistas na receita gerada.</p>
     `,
   },
   {
@@ -1897,6 +1852,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O anúncio chama atenção porque propõe uma abordagem pouco convencional para reduzir o alto custo computacional de modelos de geração de vídeo — em vez de otimizar apenas via engenharia de software ou hardware mais potente, a empresa recorre a princípios observados em sistemas biológicos reais. Se os resultados se confirmarem em escala, a técnica pode se tornar mais uma ferramenta na busca constante do setor por reduzir o custo de rodar modelos de IA cada vez mais pesados, especialmente para tarefas de geração de vídeo, historicamente uma das mais caras em poder de processamento.</p>
+    `,
+  },
+  {
+    slug: "philips-future-health-index-2026-ia-saude-brasil",
+    title: "Pesquisa da Philips mostra que IA já ajuda a evitar erros clínicos e economiza mais de 16 dias de trabalho por ano",
+    author: "Bruno Danello",
+    summary:
+      "O Future Health Index 2026, com mais de 2 mil profissionais de saúde e 20 mil pacientes em 10 países, incluindo o Brasil, mostra que 51% dos profissionais brasileiros relatam que a IA ajudou a identificar ou evitar uma falha clínica pelo menos três vezes nos últimos três meses.",
+    sourceName: "Philips",
+    sourceUrl: "https://www.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-future-health-index-2026-ai-is-already-saving-clinicians-time-and-delivering-measurable-impact-in-healthcare.html",
+    date: "2026-09-16",
+    content: `
+      <p>A Philips divulgou a 11ª edição do Future Health Index, pesquisa anual que ouviu mais de 2 mil profissionais de saúde e mais de 20 mil pacientes em dez países — incluindo Brasil, China, França, Alemanha, Índia, Indonésia, Holanda, Arábia Saudita, Reino Unido e Estados Unidos — entre fevereiro e abril de 2026. O levantamento deste ano teve como foco medir o impacto real da inteligência artificial na rotina clínica, além do potencial ainda teórico da tecnologia.</p>
+
+      <h2>Tempo economizado e erros evitados</h2>
+      <p>Segundo a pesquisa, a IA já economiza aos profissionais de saúde o equivalente a mais de 16 dias úteis de trabalho por ano — quase dois terços (65%) dos médicos relatam ter aumentado o uso de ferramentas de IA, e quase metade (46%) diz economizar ao menos 132 horas por ano com o uso dessas ferramentas. No Brasil, especificamente, 51% dos profissionais de saúde afirmam que a IA ajudou a identificar ou evitar uma potencial falha clínica pelo menos três vezes nos últimos três meses.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Otimismo alto entre profissionais brasileiros</span>
+        <p>Segundo o levantamento, 93% dos profissionais de saúde no Brasil se dizem otimistas de que a IA pode melhorar os resultados clínicos e a experiência dos pacientes — a IA já está sendo incorporada diretamente a tecnologias de diagnóstico avançado, como aparelhos de ultrassom, tomografia e ressonância magnética, ajudando a processar imagens em tempo real e automatizar medições.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>Os resultados reforçam uma tendência que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: a aplicação de IA em contextos de alto risco, como a saúde, já produz resultados mensuráveis quando bem implementada — mas o próprio otimismo elevado dos profissionais reforça a importância de escolher ferramentas confiáveis e validadas clinicamente, em vez de qualquer solução genérica de IA aplicada sem os devidos cuidados a decisões que afetam diretamente a segurança dos pacientes.</p>
+    `,
+  },
+  {
+    slug: "nvidia-sk-hynix-parceria-memoria-fabricas-ia",
+    title: "Nvidia e SK hynix fecham parceria plurianual para desenvolver memória de próxima geração para fábricas de IA",
+    author: "Bruno Danello",
+    summary:
+      "O acordo prevê a coengenharia de memória para os supercomputadores Vera Rubin da Nvidia, CPUs Vera, PCs com RTX Spark e a plataforma robótica Jetson Thor — as empresas também vão aplicar IA ao próprio design e fabricação de semicondutores, usando as bibliotecas CUDA-X e o PhysicsNeMo da Nvidia.",
+    sourceName: "Nvidia Newsroom",
+    sourceUrl: "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+    date: "2026-09-24",
+    content: `
+      <p>A Nvidia e a SK hynix anunciaram uma parceria tecnológica plurianual para desenvolver memória de próxima geração voltada à expansão global de "fábricas de IA" — infraestrutura de data centers dedicada a treinar e rodar modelos de inteligência artificial em larga escala. O acordo dá continuidade a anos de colaboração de coengenharia entre as duas empresas, que já sustentou algumas das plataformas de computação de IA mais avançadas do mercado.</p>
+
+      <h2>Memória para múltiplas frentes de produto</h2>
+      <p>Pela parceria, a SK hynix vai diversificar sua produção para atender a novos mercados que a Nvidia vem criando — infraestrutura de IA, IA pessoal e IA física —, desenvolvendo memória em conjunto para os supercomputadores Vera Rubin, as CPUs Vera, PCs equipados com RTX Spark e a plataforma de computação robótica Jetson Thor da Nvidia.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">IA aplicada à própria fabricação de chips</span>
+        <p>Além do desenvolvimento conjunto de produtos, as duas empresas vão aplicar inteligência artificial ao design e à fabricação de semicondutores, usando as bibliotecas CUDA-X e a ferramenta PhysicsNeMo da Nvidia para acelerar simulações de semicondutores, fluxos de trabalho de TCAD e códigos de engenharia interna.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O acordo reforça como o gargalo de memória avançada — e não apenas de unidades de processamento — se tornou um ponto crítico para sustentar a demanda crescente por capacidade de treinamento e inferência de IA em escala global. Para a SK hynix, a parceria amplia significativamente sua exposição a múltiplos mercados dentro do ecossistema Nvidia, enquanto reforça a posição da fabricante de chips como fornecedora estratégica central para a próxima geração de infraestrutura de inteligência artificial.</p>
     `,
   },
 ];
