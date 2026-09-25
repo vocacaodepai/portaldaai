@@ -110,59 +110,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "openai-modelo-resolve-100-problemas-matematica-abertos",
-    title: "OpenAI diz que modelo interno resolveu mais de 100 problemas matemáticos em aberto e forma grupo de matemáticos para checar os resultados",
-    author: "Bruno Danello",
-    summary:
-      "A empresa afirma que um modelo interno, treinado a partir de 28 de agosto, resolveu mais de 100 problemas matemáticos que permaneciam em aberto havia anos — o mesmo modelo por trás da polêmica solução para o problema de Navier-Stokes. Como a maioria dos resultados ainda não foi divulgada publicamente, a OpenAI recrutou nove matemáticos renomados para formar um grupo consultivo independente.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-    date: "2026-09-21",
-    content: `
-      <p>A OpenAI anunciou em 21 de setembro que um modelo interno resolveu mais de 100 problemas matemáticos que permaneciam em aberto havia anos, cobrindo a maior parte das áreas da matemática. O modelo começou a ser treinado em 28 de agosto — ou seja, o feito teria levado apenas 24 dias desde o início do treinamento até o anúncio.</p>
-
-      <h2>O mesmo modelo por trás de outra polêmica recente</h2>
-      <p>Segundo a empresa, esse é o mesmo modelo responsável pela solução anunciada há poucos dias para uma versão do problema de Navier-Stokes, um dos sete problemas do milênio do Instituto Clay — anúncio que já havia gerado controvérsia depois que um matemático da NYU acusou a OpenAI de tentar excluir um colaborador da publicação por ele trabalhar na Anthropic.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Uma ressalva importante</span>
-        <p>A OpenAI ainda não divulgou publicamente a maior parte dos mais de 100 resultados alegados, o que significa que pesquisadores externos não conseguem, por enquanto, avaliar de forma independente a qualidade ou a originalidade dessas soluções.</p>
-      </div>
-
-      <h2>Um grupo de matemáticos de peso para arbitrar os resultados</h2>
-      <p>Para lidar com a dificuldade de verificar tantos resultados de uma vez, a OpenAI formou o Advisory Group on Mathematics and Artificial Intelligence, sediado no Institute for Advanced Study de Princeton, com nove matemáticos fundadores — entre eles nomes de peso como Timothy Gowers, Edward Witten e Ravi Vakil.</p>
-
-      <h2>Por que isso importa mesmo para quem não é matemático</h2>
-      <p>Independentemente de quantos desses resultados resistirem à checagem independente, o episódio ilustra até onde já se estica o debate sobre a velocidade dos anúncios de capacidades de IA: entre treinar um modelo e alegar avanços que levariam anos de trabalho humano, o intervalo agora se mede em semanas — o que torna ainda mais importante a existência de mecanismos de verificação independente, como o grupo que a própria OpenAI acabou de criar.</p>
-    `,
-  },
-  {
-    slug: "anthropic-lanca-claude-opus-5-5-mais-barato-rapido",
-    title: "Anthropic lança Claude Opus 5.5: 20% mais barato e 30% mais rápido que o Opus 5",
-    author: "Bruno Danello",
-    summary:
-      "O novo modelo de topo da Anthropic custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — 20% abaixo do Opus 5 — e gera respostas mais de 30% mais rápido, mantendo desempenho próximo ao do modelo principal Fable 5.1 em boa parte das tarefas.",
-    sourceName: "Anthropic",
-    sourceUrl: "https://www.anthropic.com/claude-opus-5-5",
-    date: "2026-09-22",
-    content: `
-      <p>A Anthropic anunciou em 22 de setembro o Claude Opus 5.5, atualização do seu modelo de topo focada em corte de custo e ganho de velocidade em vez de um salto isolado de capacidade. O novo modelo custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — 20% abaixo dos US$ 5 e US$ 25 cobrados pelo Opus 5, lançado em julho — e as leituras de cache caem 60%, de US$ 0,50 para US$ 0,20 por milhão de tokens.</p>
-
-      <p>Além do preço, a empresa afirma que o Opus 5.5 gera respostas mais de 30% mais rápido que seu antecessor e mantém desempenho próximo ao do Fable 5.1, o modelo principal da Anthropic, na maior parte das tarefas — apesar de custar cerca de 40% menos para rodar.</p>
-
-      <h2>Para quem já usa Claude no trabalho</h2>
-      <p>A Anthropic destaca ganhos em codificação, agentes autônomos e tarefas de conhecimento: um dos testadores iniciais completou uma migração de código de 680 mil linhas em menos de um dia, trabalho que levaria semanas para um time de engenharia. O modelo também alcançou os melhores resultados já registrados na auditoria comportamental automatizada da empresa, sua bateria de testes de alinhamento com milhares de cenários simulados.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Onde já está disponível</span>
-        <p>O Opus 5.5 já está no ar para assinantes Pro, Max, Team e Enterprise do Claude, e para desenvolvedores na Claude Platform, além de AWS, Google Cloud e Microsoft Foundry.</p>
-      </div>
-
-      <h2>Parte de uma guerra de preços mais ampla</h2>
-      <p>O lançamento aconteceu minutos antes de a OpenAI anunciar seus próprios modelos GPT-6 Sol e GPT-6 Luna com cortes de preço ainda mais agressivos — reforçando um padrão que já discutimos em nosso <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">comparativo entre ChatGPT, Claude e Gemini</a>: a diferença de preço entre os grandes modelos está encolhendo rápido, o que muda a conta de quem decide entre <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">usar IA gratuita ou paga</a> no dia a dia.</p>
-    `,
-  },
-  {
     slug: "openai-lanca-gpt-6-sol-luna-corta-precos-pela-metade",
     title: "OpenAI lança GPT-6 Sol e GPT-6 Luna e corta preços pela metade, minutos após novo Claude Opus 5.5",
     author: "Bruno Danello",
@@ -1896,6 +1843,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa para quem usa modelos abertos</h2>
       <p>O tema conecta diretamente com o que já exploramos em <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">nosso guia sobre escolher ferramentas de IA com segurança</a>: modelos de pesos abertos oferecem flexibilidade e custo menor, mas colocam a responsabilidade pela segurança nas mãos de quem os implanta. Um padrão de indústria como o proposto pela Base Labs, se ganhar adesão, pode facilitar a vida de empresas menores que hoje não têm recursos para auditar sozinhas a segurança dos modelos abertos que usam.</p>
+    `,
+  },
+  {
+    slug: "anthropic-abre-escritorio-singapura-quinto-asia-pacifico",
+    title: "Anthropic vai abrir escritório em Singapura em outubro, o quinto na Ásia-Pacífico",
+    author: "Bruno Danello",
+    summary:
+      "O novo escritório chega depois de Tóquio, Bengaluru, Seul e Sydney, em meio à forte demanda por Claude na região — segundo o índice econômico da própria Anthropic, Singapura é o único país que usa mais o Claude.ai per capita do que o esperado pelo tamanho da população, entre 121 países analisados.",
+    sourceName: "Fortune",
+    sourceUrl: "https://fortune.com/2026/09/16/anthropic-open-singapore-office-october-chasing-openai-southeast-asia/",
+    date: "2026-09-24",
+    content: `
+      <p>A Anthropic confirmou que vai abrir um escritório em Singapura em outubro, seu quinto na região Ásia-Pacífico, depois de Tóquio, Bengaluru, Seul e Sydney. A expansão responde a uma demanda que a própria empresa considera fora da curva: segundo o índice econômico da Anthropic, que cobre 121 países, Singapura é a única nação que usa o Claude.ai mais do que o esperado pelo tamanho da população, com uso 5,81 vezes acima do previsto.</p>
+
+      <h2>Uma aposta na região como um todo</h2>
+      <p>Como parte da estrutura do novo escritório, a Anthropic contratou Dale Finlay como gerente-geral para o Sudeste Asiático (ASEAN). Finlay passou quase uma década no Google Cloud em funções de liderança comercial, atendendo clientes corporativos de serviços financeiros e inteligência artificial em toda a Ásia-Pacífico.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Corrida regional</span>
+        <p>O movimento acontece em meio a uma disputa direta com a OpenAI por presença no Sudeste Asiático, região que ambas as empresas identificam como uma das que mais cresce em adoção corporativa de IA, especialmente entre bancos, empresas de tecnologia e governo.</p>
+      </div>
+
+      <h2>Por que isso importa para quem usa IA fora dos Estados Unidos</h2>
+      <p>Expansões regionais como essa costumam vir acompanhadas de suporte local, parcerias com governos e empresas da região, e às vezes preços ou planos ajustados ao mercado — um padrão que já vimos com os escritórios anteriores da Anthropic na Ásia. Para empresas brasileiras que avaliam qual assistente de IA adotar, o ritmo de expansão internacional de cada fornecedor é um sinal indireto de quanto investimento em suporte e infraestrutura essa empresa está disposta a fazer fora do mercado americano.</p>
+    `,
+  },
+  {
+    slug: "sakana-ai-contrata-schmidhuber-conselheiro-cientifico",
+    title: "Sakana AI contrata Jürgen Schmidhuber, 'pai' da IA moderna, como conselheiro científico-chefe",
+    author: "Bruno Danello",
+    summary:
+      "Schmidhuber vai ajudar a orientar o novo RSI Lab da Sakana AI em Tóquio, focado em criar um ciclo de descoberta científica que se autoalimenta para melhorar a própria inteligência das máquinas — o pesquisador mantém seus cargos atuais e vai visitar Tóquio regularmente para guiar a direção científica do laboratório.",
+    sourceName: "Sakana AI",
+    sourceUrl: "https://sakana.ai/schmidhuber/",
+    date: "2026-09-24",
+    content: `
+      <p>A Sakana AI anunciou a contratação de Jürgen Schmidhuber, pesquisador com quase quatro décadas de trabalho em aprendizado de máquina e frequentemente descrito como um dos pais da IA moderna, como conselheiro científico-chefe. Ele vai ajudar a guiar o recém-criado RSI Lab da empresa em Tóquio — sigla para "recursive self-improvement" (autoaperfeiçoamento recursivo).</p>
+
+      <h2>Décadas de trabalho fundacional</h2>
+      <p>Schmidhuber é conhecido por trabalho pioneiro nos anos 1990 que ajudou a impulsionar avanços centrais do aprendizado profundo, além de estabelecer alguns dos primeiros modelos conceituais de "world models" e inovações em meta-aprendizado — a ideia de máquinas que aprendem a aprender, considerada um caminho possível para o autoaperfeiçoamento recursivo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O objetivo do RSI Lab</span>
+        <p>A Sakana AI descreve o objetivo do laboratório como disparar um ciclo de descoberta científica que se retroalimenta, mirando avanços tanto em inteligência de máquina quanto em modelos físicos e de mundo — reunindo em Tóquio uma massa crítica de pesquisadores de ponta para esse fim.</p>
+      </div>
+
+      <h2>Por que a Sakana AI está de olho em autoaperfeiçoamento</h2>
+      <p>Schmidhuber mantém seus cargos atuais e vai apenas visitar Tóquio com regularidade para orientar a direção científica do laboratório, sem se tornar funcionário em tempo integral. A contratação reforça uma tendência que já discutimos em nosso <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a>: mais laboratórios de pesquisa, inclusive fora dos Estados Unidos, vêm buscando nomes veteranos da área para orientar apostas de longo prazo em capacidades que hoje ainda são mais teóricas do que práticas, mas que podem se tornar decisivas se derem certo.</p>
     `,
   },
 ];
