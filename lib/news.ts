@@ -40,25 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "etched-capta-700-milhoes-valuation-21-bilhoes",
-    title: "Etched capta US$ 700 milhões e dobra avaliação para US$ 21 bilhões em um mês",
-    author: "Bruno Danello",
-    summary:
-      "A fabricante de chips especializados em inferência de IA teve a rodada liderada pela gestora Jane Street, que também se tornou sua primeira cliente pagante. A empresa já acumula mais de US$ 1 bilhão em contratos com provedores de nuvem e empresas de IA, e levantou US$ 1,9 bilhão no total desde a fundação, com apoio de Sequoia, Andreessen Horowitz e Peter Thiel, entre outros.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
-    date: "2026-08-18",
-    content: `
-      <p>A Etched, startup especializada em chips para inferência de inteligência artificial, dobrou sua avaliação de mercado em pouco mais de um mês. A empresa levantou US$ 700 milhões numa nova rodada que a avalia em US$ 21 bilhões — um salto em relação aos US$ 10,3 bilhões alcançados menos de trinta dias antes, quando havia fechado uma Série C de US$ 300 milhões.</p>
-
-      <p>A rodada foi liderada pela gestora de trading quantitativo Jane Street, que também se tornou a primeira cliente pagante da empresa: a Etched já entregou seu primeiro rack de servidores para a Jane Street, que está incorporando a tecnologia em suas próprias cargas de trabalho. Outros participantes da rodada incluem Kleiner Perkins, Sequoia, Andreessen Horowitz, Tiger Global, Bain Capital Ventures, Neo, Primary, Stripes, Positive Sum e Blackstone.</p>
-
-      <p>O modelo de negócio da Etched foca especificamente em acelerar a inferência — a etapa em que um modelo já treinado é usado para gerar respostas — tornando esse processo mais rápido, barato e eficiente do que soluções de propósito geral. Segundo a empresa, além do contrato com a Jane Street, ela já acumula mais de US$ 1 bilhão em contratos assinados com provedores de nuvem e outras empresas de inteligência artificial, tanto públicas quanto privadas.</p>
-
-      <p>Desde a fundação, a Etched já levantou US$ 1,9 bilhão no total, com um grupo de investidores que também inclui Sequoia, Andreessen Horowitz, a própria Jane Street, a fabricante de memórias SK Hynix e o investidor Peter Thiel. O ritmo de captação da empresa — dobrando de valor em menos de um mês — reflete a disputa acelerada por capacidade de inferência de IA, um gargalo que vem se tornando tão relevante quanto o treinamento de modelos na corrida das grandes empresas de tecnologia por infraestrutura.</p>
-    `,
-  },
-  {
     slug: "processo-antitruste-anthropic-openai-google-xai-desaceleracao",
     title: "Anthropic, OpenAI, Google e xAI são processadas por suposta combinação para desacelerar a IA",
     author: "Bruno Danello",
@@ -80,33 +61,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso é delicado</h2>
       <p>O caso expõe uma tensão real no setor: safety-conscious executivos concordando publicamente em desacelerar o ritmo de lançamentos pode, aos olhos da lei antitruste americana, parecer coordenação entre concorrentes para limitar a oferta de um produto — mesmo quando a intenção declarada é reduzir riscos de segurança, não proteger margem ou preço. Empresas de IA que participam de discussões públicas sobre "pacing" (ritmo de desenvolvimento) provavelmente vão precisar documentar com mais cuidado que decisões de segurança são tomadas de forma independente, não combinada.</p>
-    `,
-  },
-  {
-    slug: "cognition-capta-2-bilhoes-avaliacao-48-bilhoes-devin",
-    title: "Cognition capta mais de US$ 2 bilhões e quase dobra avaliação para US$ 48 bilhões em quatro meses",
-    author: "Bruno Danello",
-    summary:
-      "A empresa por trás do agente de codificação Devin fechou uma rodada Série E liderada por Andreessen Horowitz e Accel, com a receita recorrente anual saltando de US$ 492 milhões em maio para quase US$ 900 milhões — quase dobrando o valor da empresa no mesmo período.",
-    sourceName: "PYMNTS",
-    sourceUrl: "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/",
-    date: "2026-09-08",
-    content: `
-      <p>A Cognition, empresa por trás do agente de codificação autônomo Devin — que já apareceu por aqui pela fatoração recorde do RSA-260 —, fechou uma rodada Série E de mais de US$ 2 bilhões, elevando sua avaliação para US$ 48 bilhões. O anúncio foi feito em 8 de setembro, liderado pelos novos investidores Andreessen Horowitz e Accel, com participação de fundos já presentes na empresa como Founders Fund, General Catalyst e Avenir.</p>
-
-      <h2>Um crescimento raro mesmo para o mercado de IA</h2>
-      <p>O que chama atenção não é só o tamanho da rodada, mas a velocidade do crescimento: a receita recorrente anual da Cognition saltou de US$ 492 milhões na rodada anterior, em maio, para quase US$ 900 milhões agora — quase dobrando em quatro meses. A avaliação da empresa acompanhou esse ritmo, também praticamente dobrando no mesmo período.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Quem já usa a tecnologia</span>
-        <p>Entre os clientes citados pela empresa estão nomes como Citi, Mercedes-Benz, Goldman Sachs, Dell, Santander e até o Exército e a Marinha dos Estados Unidos — sinal de que agentes de codificação autônomos já saíram da fase experimental e entraram em uso real dentro de grandes organizações.</p>
-      </div>
-
-      <h2>Uma lista extensa de investidores</h2>
-      <p>Além dos líderes da rodada, participaram nomes conhecidos do mercado de venture capital como Benchmark, Bessemer, Kleiner Perkins, Greylock, Lightspeed e a própria Nvidia — reforçando que o interesse por empresas de agentes de IA para programação segue aquecido, mesmo em meio a discussões sobre se as avaliações do setor já não estariam infladas.</p>
-
-      <h2>Por que isso interessa a quem trabalha com tecnologia</h2>
-      <p>O caso da Cognition mostra, na prática, o que discutimos em <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">agente de IA, chatbot ou automação: qual a diferença de verdade</a> — a demanda por agentes que executam tarefas completas sozinhos, não só respondem perguntas, é real e cresce rápido. Para quem trabalha com desenvolvimento de software, entender essa tendência logo cedo pode significar a diferença entre se adaptar com tempo ou ser pego de surpresa por uma mudança de mercado que já está em curso.</p>
     `,
   },
   {
@@ -1891,6 +1845,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa para quem usa ferramentas de IA</h2>
       <p>O relatório reforça um ponto que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: à medida que modelos de IA ficam mais capazes, a mesma tecnologia que ajuda empresas legítimas a automatizar tarefas complexas também abre espaço para agentes maliciosos automatizarem etapas inteiras de ataques — o que torna sistemas de detecção e resposta como os descritos pela Anthropic cada vez mais parte essencial da infraestrutura de segurança, e não apenas um recurso opcional.</p>
+    `,
+  },
+  {
+    slug: "gates-foundation-coalizao-ia-idiomas-sub-representados",
+    title: "Gates Foundation lidera coalizão de 60 organizações para levar IA a 3,4 bilhões de pessoas em seus próprios idiomas",
+    author: "Bruno Danello",
+    summary:
+      "Anthropic, Google, Amazon, Microsoft, Nvidia e a OpenAI Foundation estão entre os signatários de um compromisso de cinco anos para reduzir a lacuna de dados de idiomas sub-representados em modelos de IA, permitindo que bilhões de pessoas usem ferramentas de IA na própria língua e voz.",
+    sourceName: "Gates Foundation",
+    sourceUrl: "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership",
+    date: "2026-09-21",
+    content: `
+      <p>A Gates Foundation anunciou uma coalizão de 60 organizações comprometidas com uma meta de cinco anos: ajudar um estimado de 3,4 bilhões de pessoas que falam idiomas hoje sub-representados nos modelos de IA a usar essas ferramentas na própria língua e voz. Entre os signatários estão gigantes de tecnologia como Anthropic, Google, Amazon, Microsoft e Nvidia, além da OpenAI Foundation e organizações dedicadas a tecnologia liderada por comunidades linguísticas específicas.</p>
+
+      <h2>Um problema de dados, não só de tradução</h2>
+      <p>O problema que a coalizão busca resolver vai além de simplesmente traduzir interfaces: a maioria dos grandes modelos de IA é treinada predominantemente em dados de um punhado de idiomas, principalmente inglês, o que faz com que o desempenho da IA caia significativamente para falantes de línguas com pouca presença digital — muitas delas faladas por dezenas ou centenas de milhões de pessoas, mas praticamente ausentes dos conjuntos de dados usados para treinar os modelos mais populares.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que muda na prática</span>
+        <p>O compromisso prevê investimento coordenado em conjuntos de dados mais representativos, incluindo voz, para idiomas hoje mal atendidos — um trabalho que exige parceria direta com comunidades locais e organizações que já trabalham com essas línguas, e não apenas decisão técnica das grandes empresas de IA.</p>
+      </div>
+
+      <h2>Por que isso importa além do Vale do Silício</h2>
+      <p>Iniciativas como essa têm relevância direta para o Brasil e outros países que não falam inglês como língua principal: modelos de IA mais capazes em português, com menos erros de tradução e melhor compreensão de contexto cultural, tendem a surgir como efeito colateral de esforços como esse — ainda que o português já tenha presença digital bem maior do que muitos dos idiomas prioritários dessa coalizão. O caso reforça como o acesso equitativo à IA depende não só de preço ou disponibilidade de ferramentas, mas também de quão bem essas ferramentas realmente funcionam para quem não fala inglês no dia a dia.</p>
+    `,
+  },
+  {
+    slug: "blue-cross-ia-codificacao-hospitalar-1-bilhao-custos",
+    title: "IA de codificação médica em hospitais adiciona quase US$ 1 bilhão em custos extras para seguradoras Blue Cross",
+    author: "Bruno Danello",
+    summary:
+      "Um estudo da Blue Cross Blue Shield Association encontrou US$ 942 milhões em custos adicionais entre 2024 e 2025 ligados ao uso de ferramentas de IA, incluindo sistemas de transcrição ambiente, para identificar condições secundárias em pacientes — sem aumento correspondente nos tratamentos realizados.",
+    sourceName: "PYMNTS",
+    sourceUrl: "https://www.pymnts.com/healthcare/2026/ai-generated-medical-coding-adds-nearly-1-billion-to-blue-cross-costs/",
+    date: "2026-09-24",
+    content: `
+      <p>Um estudo da Blue Cross Blue Shield Association (BCBSA) encontrou que a adoção generalizada de inteligência artificial em hospitais americanos adicionou quase US$ 1 bilhão em despesas extras para seguradoras ao longo dos últimos dois anos. Segundo o levantamento, hospitais passaram a faturar com mais frequência por condições secundárias de pacientes, gerando US$ 653 milhões a mais em custos, enquanto o aumento geral na intensidade de cuidados registrados somou US$ 942 milhões a mais em comparação com 2023.</p>
+
+      <h2>Como a IA entra nessa conta</h2>
+      <p>Segundo a BCBSA, hospitais têm usado tecnologia de IA — incluindo sistemas de "transcrição ambiente" (ambient scribes), que escutam conversas entre médico e paciente e rascunham automaticamente as anotações médicas — para identificar condições secundárias durante o atendimento. Quando condições adicionais ou coexistentes são documentadas, as cobranças hospitalares podem ser reclassificadas como casos de maior complexidade, resultando em pagamentos mais altos por parte das seguradoras.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O dado que levanta a suspeita</span>
+        <p>Apesar do aumento nos diagnósticos de maior complexidade, as taxas de tratamento correspondentes permaneceram praticamente estáveis — mais pacientes cirúrgicos saíram do hospital com diagnóstico de anemia registrado, por exemplo, mas as transfusões de sangue, tratamento comum para o problema, não aumentaram na mesma proporção.</p>
+      </div>
+
+      <h2>Por que isso importa além dos Estados Unidos</h2>
+      <p>O caso ilustra um risco que acompanha a adoção de IA em setores regulados e sensíveis a custos: ferramentas pensadas para reduzir carga administrativa de profissionais de saúde também podem, sem intenção direta de fraude, inflar sistematicamente o faturamento ao identificar mais condições documentáveis sem uma mudança real no estado de saúde dos pacientes. À medida que sistemas de IA para documentação médica se espalham por hospitais fora dos Estados Unidos, o episódio é um alerta para que seguradoras e sistemas de saúde monitorem de perto o impacto financeiro dessas ferramentas, não apenas seu ganho de produtividade.</p>
     `,
   },
 ];
