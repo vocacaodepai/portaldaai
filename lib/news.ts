@@ -1206,50 +1206,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "harvey-capta-550-milhoes-15-6-bilhoes-ia-juridica",
-    title: "Harvey capta US$ 550 milhões e chega a US$ 15,6 bilhões para construir modelos jurídicos próprios",
-    author: "Bruno Danello",
-    summary:
-      "A startup de IA jurídica mais valiosa do setor viu sua avaliação saltar de US$ 11 bilhões para US$ 15,6 bilhões em seis meses, com receita anualizada de cerca de US$ 400 milhões e mais de 3 mil organizações clientes — a captação vai financiar o desenvolvimento de modelos próprios de peso aberto para uso jurídico.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round",
-    date: "2026-09-09",
-    content: `
-      <p>A Harvey, startup de São Francisco especializada em inteligência artificial para o setor jurídico, fechou uma rodada de US$ 550 milhões que eleva sua avaliação a US$ 15,6 bilhões — ante US$ 11 bilhões apenas seis meses antes. A rodada foi liderada pela Lightspeed Venture Partners e pela Diffusion, com Sapphire Ventures e Whale Rock Capital entrando como novos investidores, além da participação de Sequoia, Andreessen Horowitz e Kleiner Perkins.</p>
-
-      <p>Com a nova captação, a Harvey já levantou mais de US$ 1,5 bilhão desde a fundação. A empresa afirma ter cerca de US$ 400 milhões em receita anualizada — o equivalente a cerca de 39 vezes o valor levantado nesta rodada — e uma base de mais de 3 mil organizações clientes, incluindo 80% dos escritórios do ranking Am Law 100, 20% das empresas da Fortune 500 e cinco das dez maiores empresas da Fortune 10.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Construindo modelo próprio</span>
-        <p>O novo aporte será usado principalmente para financiar o desenvolvimento de modelos de IA próprios voltados ao setor jurídico — a empresa já anunciou o Harvey Tenet, seu primeiro modelo de peso aberto pós-treinado especificamente para aplicações legais, um movimento que busca reduzir a dependência de modelos de terceiros e dar à Harvey mais controle sobre custo, desempenho e personalização.</p>
-      </div>
-
-      <p>O caso da Harvey segue o padrão observado em outras startups de IA aplicada a profissões regulamentadas, como o jurídico: em vez de competir diretamente com modelos genéricos de propósito geral, empresas que constroem uma camada especializada — com confiabilidade, confidencialidade e fluxo de trabalho adaptados à rotina do setor — conseguem sustentar avaliações crescentes mesmo num mercado de capital de risco mais seletivo.</p>
-    `,
-  },
-  {
-    slug: "nova-york-moratoria-ia-generativa-escolas-publicas",
-    title: "Nova York impõe moratória de um ano no uso de IA generativa por alunos em escolas públicas",
-    author: "Bruno Danello",
-    summary:
-      "A medida do prefeito Zohran Mamdani e do chanceler Kamar Samuels afeta cerca de 600 mil estudantes do 2º ano do fundamental ao 8º ano na maior rede escolar dos Estados Unidos, incluindo módulos de pensamento crítico sobre IA para o ensino médio e restrições de tempo de tela por idade.",
-    sourceName: "NYC Mayor's Office",
-    sourceUrl: "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
-    date: "2026-09-04",
-    content: `
-      <p>O prefeito de Nova York, Zohran Mamdani, e o chanceler das escolas municipais, Kamar H. Samuels, anunciaram uma moratória de um ano no uso de inteligência artificial generativa voltada a estudantes na rede pública da cidade — descrita pela prefeitura como a moratória mais abrangente do país nesse sentido. A medida entra em vigor no ano letivo de 2026-2027 e afeta alunos do 2º ano do ensino fundamental até o 8º ano, cerca de 600 mil estudantes, ou dois terços da matrícula total do sistema.</p>
-
-      <p>O anúncio veio oito dias antes do início do ano letivo, em 10 de setembro, depois de meses de pressão de pais, professores e representantes eleitos para que a administração freasse a adoção da tecnologia nas salas de aula. Além da moratória para os anos iniciais, a política introduz módulos semestrais de pensamento crítico sobre IA para estudantes do ensino médio, pilotos limitados de IA em um pequeno número de turmas do ensino médio, e restrições de tempo de tela adequadas a cada faixa etária.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Uma reviravolta recente</span>
-        <p>A decisão chama atenção por reverter, na prática, um movimento anterior da própria rede: as escolas de Nova York haviam retirado um bloqueio ao ChatGPT tempos atrás, afirmando na época que o temor inicial havia "ignorado o potencial" da IA. A nova moratória mostra como o pêndulo da política educacional sobre IA generativa segue oscilando, mesmo dentro do mesmo sistema escolar.</p>
-      </div>
-
-      <p>O caso de Nova York — a maior rede de ensino público dos Estados Unidos — deve pressionar outros distritos escolares grandes a reavaliar suas próprias políticas sobre IA generativa em sala de aula, num momento em que especialistas em educação seguem divididos sobre até que ponto essas ferramentas ajudam ou atrapalham o desenvolvimento de estudantes mais jovens.</p>
-    `,
-  },
-  {
     slug: "pesquisa-sanoma-professores-europeus-ia-63-por-cento",
     title: "Pesquisa mostra que 63% dos professores europeus já usam IA, mas querem ferramentas feitas para educação",
     author: "Bruno Danello",
@@ -1895,6 +1851,53 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O movimento da Worldline se soma a outras iniciativas recentes do setor de pagamentos para viabilizar compras feitas diretamente por agentes de IA, incluindo esforços paralelos de redes de cartão como Mastercard e Visa. Para lojistas que vendem para o público europeu, ter suporte nativo a um padrão aberto de comércio agêntico pode significar captar vendas de consumidores que cada vez mais delegam tarefas de compra a assistentes de IA — um tema que já exploramos em nosso texto sobre <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você no comércio</a>.</p>
+    `,
+  },
+  {
+    slug: "adobe-ferramentas-criativas-gemini-acrobat-claude",
+    title: "Adobe leva ferramentas do Photoshop e Firefly ao Gemini e traz o Acrobat para o Claude",
+    author: "Bruno Danello",
+    summary:
+      "A Adobe iniciou o lançamento global de ferramentas do Photoshop, Lightroom, Express e Firefly dentro do Gemini, do Google, disponíveis em todos os planos — e, em paralelo, passou a oferecer o Acrobat entre mais de 80 ferramentas dentro de um único plugin para o Claude, da Anthropic.",
+    sourceName: "Adobe Blog",
+    sourceUrl: "https://blog.adobe.com/en/publish/2026/09/24/adobe-comes-to-gemini-expands-what-you-can-do-in-claude",
+    date: "2026-09-24",
+    content: `
+      <p>A Adobe anunciou duas frentes de expansão de suas ferramentas criativas dentro de assistentes de IA concorrentes: o lançamento global de recursos do Photoshop, Lightroom, Adobe Express e Firefly dentro do Gemini, do Google, e a chegada do Acrobat ao plugin da Adobe já disponível no Claude, da Anthropic.</p>
+
+      <h2>O que muda no Gemini</h2>
+      <p>A partir de 24 de setembro, usuários do Gemini em qualquer plano passam a poder pedir para o assistente aprimorar fotos, criar peças de marketing e personalizar designs usando ferramentas da Adobe sem sair da conversa, acessando o recurso pelas configurações de Personal Intelligence do Gemini. A Adobe descreveu o lançamento como "o primeiro passo" de um trabalho conjunto com o Google, prometendo mais ferramentas no futuro.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Mais de 80 ferramentas num só plugin</span>
+        <p>No Claude, o Acrobat passa a integrar um plugin da Adobe que já reunia mais de 80 ferramentas da empresa, disponível no Claude e no Claude Code em desktop, na web e no celular — permitindo que profissionais de marketing e design editem PDFs e outros arquivos diretamente durante uma conversa com o assistente.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O movimento reforça uma tendência de assistentes de IA generalistas se tornarem hubs de produtividade ao incorporar ferramentas especializadas de terceiros, em vez de tentar recriar cada funcionalidade internamente — o mesmo racional por trás de integrações que já cobrimos, como a chegada de <a href="/noticias/amazon-abre-seller-central-agentes-ia-claude-beta">agentes do Claude ao Seller Central da Amazon</a>. Para quem usa Gemini ou Claude no dia a dia, a mudança pode reduzir a necessidade de alternar entre diferentes aplicativos para tarefas criativas ou de edição de documentos.</p>
+    `,
+  },
+  {
+    slug: "niq-51-por-cento-consumidores-eua-compras-ia",
+    title: "51% dos consumidores dos EUA já usaram ferramentas de IA para comprar, mostra levantamento da NIQ",
+    author: "Bruno Danello",
+    summary:
+      "Pela primeira vez, mais da metade dos consumidores americanos usou algum tipo de ferramenta de IA para apoiar decisões de compra no último mês, segundo o Agentic Commerce Tracker da NIQ — recomendações de produtos lideram o uso, seguidas por assistentes pessoais de compras.",
+    sourceName: "NIQ",
+    sourceUrl: "https://nielseniq.com/global/en/news-center/2026/42-of-consumers-now-use-ai-tools-to-shop-niq-data-shows/",
+    date: "2026-09-24",
+    content: `
+      <p>A NIQ (NielsenIQ) divulgou os resultados de setembro de seu Agentic Commerce Tracker, pesquisa mensal com cerca de 500 consumidores nos Estados Unidos: 51% dos entrevistados afirmaram ter usado ao menos uma ferramenta de IA para apoiar suas compras no último mês — a primeira vez que o indicador ultrapassa a marca de metade dos consumidores desde que o levantamento começou.</p>
+
+      <p>Entre os usos mais comuns está a recomendação de produtos por IA, citada por 20% dos entrevistados, seguida por assistentes pessoais de compras, usados por 16%. Segundo a presidente da NIQ para a América do Norte, o resultado mostra que o uso de IA para compras "agora é mainstream" — os consumidores recorrem à tecnologia principalmente para comparar opções, avaliar custo-benefício e reduzir o leque de escolhas, em vez de delegar a decisão final por completo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Compressão da decisão de compra</span>
+        <p>A NIQ descreve o fenômeno como uma "compressão" do processo de decisão: a IA não substitui a compra em si, mas acelera as etapas de pesquisa e comparação que antes exigiam mais tempo do consumidor navegando entre sites e avaliações.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O salto para mais da metade dos consumidores reforça o pano de fundo por trás de investimentos recentes de redes de pagamento em infraestrutura para <a href="/noticias/mastercard-alchemy-agentcard-agentes-ia-compras">agentes de IA fazerem compras</a> e da adoção de <a href="/noticias/worldline-protocolo-comercio-universal-pagamentos-agentes-ia">padrões abertos de comércio agêntico</a> por empresas de pagamento: a demanda do consumidor por compras assistidas por IA já é maioria nos EUA, o que aumenta a pressão para que varejistas e emissores de cartão construam trilhos de segurança e integração antes que o comportamento se torne ainda mais comum.</p>
     `,
   },
 ];
