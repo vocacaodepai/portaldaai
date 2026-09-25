@@ -110,64 +110,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "openai-blueprint-seguranca-jovens-australia-chatgpt-teens",
-    title: "OpenAI lança blueprint de segurança para adolescentes na Austrália com seis pilares de proteção",
-    author: "Bruno Danello",
-    summary:
-      "A empresa publicou um guia com seis pilares de segurança para uso de IA por adolescentes — de letramento em IA a verificação de idade que preserva privacidade, apoio em situações de crise e controles parentais acessíveis —, construído sobre a experiência ChatGPT for Teens já em teste no país para usuários de 13 a 17 anos.",
-    sourceName: "OpenAI",
-    sourceUrl: "https://openai.com/index/australian-youth-safety-blueprint/",
-    date: "2026-09-18",
-    content: `
-      <p>A OpenAI publicou o "Australian Youth Safety Blueprint", um documento que organiza em seis pilares as medidas de segurança que a empresa considera necessárias para o uso de IA por adolescentes. O guia foi construído em cima da experiência ChatGPT for Teens, que a empresa já vinha testando na Austrália desde agosto como configuração padrão para usuários identificados entre 13 e 17 anos.</p>
-
-      <h2>Os seis pilares do blueprint</h2>
-      <ul>
-        <li>Letramento em IA voltado para jovens, ensinando como usar a ferramenta de forma crítica e segura.</li>
-        <li>Salvaguardas adaptadas à fase de desenvolvimento de cada faixa etária.</li>
-        <li>Verificação de idade que preserva a privacidade do usuário, sem exigir excesso de dados pessoais.</li>
-        <li>Conexão com serviços reais de apoio em situações de crise.</li>
-        <li>Controles parentais acessíveis e fáceis de configurar.</li>
-        <li>Mecanismos de responsabilização (accountability) para a própria empresa.</li>
-      </ul>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Por que a Austrália primeiro</span>
-        <p>O país tem discutido de forma mais avançada regras específicas para uso de redes sociais e IA por menores de idade, o que torna a experiência australiana um laboratório natural para testar esse tipo de salvaguarda antes de expandir para outros mercados.</p>
-      </div>
-
-      <h2>Por que isso importa para famílias e educadores</h2>
-      <p>Iniciativas como essa reconhecem publicamente que ferramentas de IA de uso geral, pensadas originalmente para adultos, precisam de camadas extras de proteção quando usadas por adolescentes — um tema que ganha urgência à medida que o uso dessas ferramentas por jovens cresce mais rápido do que a regulamentação formal. Para pais e responsáveis, vale a pena verificar se as configurações de controle parental já estão disponíveis nas ferramentas de IA usadas em casa, independentemente de qual empresa fornece o serviço.</p>
-    `,
-  },
-  {
-    slug: "claude-opus-5-ajudou-pesquisadores-invadir-contas-openai",
-    title: "Pesquisadores usam Claude Opus 5 para invadir contas de funcionários da OpenAI e provar falha de segurança",
-    author: "Bruno Danello",
-    summary:
-      "Uma equipe da empresa de segurança Hacktron encadeou uma falha no fórum público de ajuda da OpenAI com uma brecha no sistema de login único da empresa, usando o Claude Opus 5 para conduzir o ataque — chegando a um repositório interno de código em menos de 72 horas. A OpenAI corrigiu a falha em 14 horas e pagou US$ 6.500 de recompensa.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-    date: "2026-09-18",
-    content: `
-      <p>Três pesquisadores da empresa de segurança Hacktron usaram o Claude Opus 5, da Anthropic, para encadear duas falhas de segurança e tomar controle de contas de funcionários da OpenAI no ChatGPT e no Codex — chegando, na sequência, a um repositório interno de código da própria OpenAI. O caso foi tratado como pesquisa de segurança responsável, não como ataque real, e terminou com a falha corrigida e uma recompensa paga pela OpenAI.</p>
-
-      <h2>Como o ataque funcionou</h2>
-      <p>A cadeia começou com uma vulnerabilidade de execução remota de código no processamento de imagens do Discourse, software que roda o fórum público de ajuda da OpenAI, e seguiu por uma fragilidade no sistema de login único (SSO) da empresa. Isso mostra como uma falha num serviço periférico, aparentemente de baixo risco, pode atravessar fronteiras de identidade e chegar a ambientes de desenvolvimento de alto valor.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">A velocidade importa</span>
-        <p>Da primeira descoberta até o acesso interno confirmado, o processo levou menos de 72 horas. A OpenAI confirmou a correção da falha cerca de 14 horas depois de receber o relato — um tempo de resposta rápido, mas que ainda assim deixa uma janela real de exposição quando uma vulnerabilidade em cadeia é descoberta.</p>
-      </div>
-
-      <h2>Uma pesquisa responsável, não um ataque real</h2>
-      <p>A equipe da Hacktron reportou as falhas à OpenAI, comprovou o acesso conseguido através de um pull request inofensivo, e parou por ali — sem explorar o acesso além do necessário para demonstrar o problema. Em 1º de setembro, a OpenAI pagou US$ 6.500 de recompensa (bug bounty) pela descoberta.</p>
-
-      <h2>Por que isso importa mesmo fora do universo técnico</h2>
-      <p>O episódio reforça um ponto que já tratamos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">guia sobre escolher ferramentas de IA com segurança</a>: até empresas com times de segurança robustos como a OpenAI enfrentam falhas em cadeia difíceis de prever, e agentes de IA cada vez mais capazes — como o próprio Claude Opus 5, usado aqui para o bem — também tornam mais rápido tanto encontrar quanto explorar esse tipo de vulnerabilidade, para o lado bom e para o lado ruim.</p>
-    `,
-  },
-  {
     slug: "openai-modelo-resolve-100-problemas-matematica-abertos",
     title: "OpenAI diz que modelo interno resolveu mais de 100 problemas matemáticos em aberto e forma grupo de matemáticos para checar os resultados",
     author: "Bruno Danello",
@@ -1906,6 +1848,54 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O movimento reforça uma mudança de postura das grandes gravadoras em relação à IA generativa: em vez de tratar apenas como ameaça — como no processo judicial que a própria Universal, junto com a Sony, mantém contra a Suno —, empresas como a UMG têm buscado fechar parcerias comerciais com empresas de IA dispostas a construir produtos sobre catálogos licenciados, com participação dos artistas na receita gerada.</p>
+    `,
+  },
+  {
+    slug: "pilgrim-capta-25-milhoes-biosseguranca-thiel-anthropic",
+    title: "Startup de biossegurança Pilgrim capta US$ 25 milhões com apoio pessoal de Thiel e pesquisadores da Anthropic",
+    author: "Bruno Danello",
+    summary:
+      "A rodada, liderada pela Buckley Ventures, avalia a Pilgrim em US$ 150 milhões e teve participação pessoal de Peter Thiel, Fred Ehrsam e dos pesquisadores de segurança da Anthropic Logan Graham e Sholto Douglas. A empresa combina sensores de ar com sequenciamento genômico no dispositivo 'Argus' para detectar ameaças biológicas, sob um acordo de biovigilância com o CDC dos EUA.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/23/pilgrim-raises-25m-to-build-ai-powered-biosecurity-sensors/",
+    date: "2026-09-23",
+    content: `
+      <p>A Pilgrim, startup de biossegurança que usa inteligência artificial para detectar ameaças biológicas antes que se espalhem, levantou uma rodada seed de US$ 25 milhões liderada pela Buckley Ventures, avaliando a empresa em US$ 150 milhões. Chama atenção a lista de investidores pessoais: Peter Thiel, o cofundador da Coinbase Fred Ehrsam e dois pesquisadores de segurança da própria Anthropic, Logan Graham e Sholto Douglas, participaram da rodada como pessoas físicas — um sinal de que o tema de biossegurança ligada a IA já atrai capital de fora do universo tradicional de venture capital em saúde.</p>
+
+      <h2>Como funciona o dispositivo Argus</h2>
+      <p>O produto central da Pilgrim é o "Argus", um dispositivo que combina amostragem contínua do ar com sequenciamento genômico, processado por modelos de IA treinados para reconhecer padrões associados a patógenos emergentes ou agentes biológicos manipulados. A proposta é reduzir o tempo entre a liberação de um agente biológico no ambiente e sua detecção, hoje medido em dias, para uma janela de horas.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Parceria com o CDC</span>
+        <p>A empresa já opera sob um acordo de biovigilância com o CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos), o que dá à tecnologia um primeiro cliente institucional de peso antes mesmo de uma expansão comercial mais ampla.</p>
+      </div>
+
+      <h2>Por que investidores de IA estão de olho em biossegurança</h2>
+      <p>A entrada de nomes ligados à segurança de modelos de IA, como Graham e Douglas, reflete uma preocupação que já discutimos em <a href="/noticias/altman-amodei-conselho-seguranca-onu-riscos-ia">como líderes do setor vêm tratando riscos catastróficos ligados à IA em fóruns como a ONU</a>: a mesma capacidade que torna modelos de IA úteis para design biológico também levanta o risco de uso indevido, e ferramentas de detecção como a da Pilgrim são vistas como parte da resposta defensiva a esse risco, não apenas como mais uma aposta de biotecnologia.</p>
+    `,
+  },
+  {
+    slug: "base-labs-parceria-seguranca-modelos-pesos-abertos",
+    title: "Base Labs, braço de pesquisa da Baseten, lança parceria de segurança para modelos de pesos abertos com Hugging Face e Goodfire",
+    author: "Bruno Danello",
+    summary:
+      "A iniciativa quer criar um padrão de segurança para modelos de pesos abertos, hoje vulneráveis à técnica de 'abliteração' que remove salvaguardas — a Hugging Face já lista mais de 6 mil modelos abliterados. A Goodfire cuida da interpretabilidade, a Hugging Face da distribuição e a Baseten promete monitoramento em tempo real na própria infraestrutura de deploy.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+    date: "2026-09-17",
+    content: `
+      <p>A Baseten lançou a Base Labs, seu novo braço de pesquisa dedicado a segurança de modelos de pesos abertos, em parceria com a Hugging Face e a startup de interpretabilidade Goodfire. A iniciativa nasce de um problema concreto: modelos abertos podem ter suas salvaguardas removidas por uma técnica chamada "abliteração", e a própria Hugging Face já hospeda mais de 6 mil versões abliteradas de modelos populares.</p>
+
+      <h2>Como as três empresas dividem o trabalho</h2>
+      <p>Cada parceiro contribui com uma peça diferente do problema. A Goodfire, especializada em abrir a "caixa-preta" dos modelos para explicar como eles tomam decisões, vai desenvolver os métodos de análise. A Hugging Face entra com a infraestrutura de hospedagem e distribuição necessária para escalar esses padrões para toda a comunidade de desenvolvedores que publica e baixa modelos na plataforma. Já a Baseten planeja integrar os resultados da pesquisa diretamente em sua infraestrutura de deploy, permitindo monitoramento de modelos em tempo real durante o uso.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Um padrão, não um remendo</span>
+        <p>A Base Labs descreve o objetivo como um "padrão" para modelos abertos que seja transparente e esteja embutido em como os modelos são treinados e implantados — em vez de uma camada de segurança adicionada depois, como acontece hoje na maioria dos casos.</p>
+      </div>
+
+      <h2>Por que isso importa para quem usa modelos abertos</h2>
+      <p>O tema conecta diretamente com o que já exploramos em <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">nosso guia sobre escolher ferramentas de IA com segurança</a>: modelos de pesos abertos oferecem flexibilidade e custo menor, mas colocam a responsabilidade pela segurança nas mãos de quem os implanta. Um padrão de indústria como o proposto pela Base Labs, se ganhar adesão, pode facilitar a vida de empresas menores que hoje não têm recursos para auditar sozinhas a segurança dos modelos abertos que usam.</p>
     `,
   },
 ];
