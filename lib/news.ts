@@ -40,44 +40,6 @@ export const news: NewsItem[] = [
     date: "2026-09-14",
   },
   {
-    slug: "engenheiro-cognition-fatora-rsa-260-com-devin",
-    title: "Engenheiro da Cognition fatora o RSA-260, recorde histórico de 35 anos, com ajuda do Devin",
-    author: "Bruno Danello",
-    summary:
-      "Eric Lu, engenheiro da Cognition, fatorou o número RSA-260, um desafio criptográfico de 260 dígitos que resistia desde 1991, usando uma nova implementação do algoritmo GNFS rodando em GPUs, preparada e operada com o agente de codificação Devin. O feito bate o recorde anterior (RSA-250, de 2020), mas a empresa reforça que não representa risco para a criptografia RSA-2048 usada hoje.",
-    sourceName: "Cognition",
-    sourceUrl: "https://cognition.com/blog/factoring-rsa-260",
-    date: "2026-09-03",
-    content: `
-      <p>Um desafio matemático lançado em 1991 e considerado praticamente intratável para computação convencional acaba de cair. Eric Lu, engenheiro da Cognition — empresa por trás do agente de codificação Devin —, conseguiu fatorar o RSA-260, um número de 260 dígitos (862 bits) que fazia parte do RSA Factoring Challenge, criado justamente para testar os limites da criptografia baseada em fatoração de números primos grandes.</p>
-
-      <p>O feito não veio de um avanço teórico isolado, mas de engenharia aplicada em escala: a equipe da Cognition construiu uma nova implementação do algoritmo GNFS (peneira geral do corpo de números) rodando em GPUs, e usou o próprio Devin para preparar, ajustar e operar essa infraestrutura. O resultado, segundo a empresa, é o siever em GPU de maior desempenho já construído para esse tipo de problema — permitindo fatorar números desse tamanho a um custo cerca de dez vezes menor do que o melhor método público anterior.</p>
-
-      <p>O recorde anterior, o RSA-250, havia sido estabelecido em fevereiro de 2020 e ficou de pé por mais de seis anos. O RSA-260 resistiu por 35 anos até agora.</p>
-
-      <p>Apesar do simbolismo, a Cognition faz questão de deixar claro que o feito não representa risco imediato para a segurança digital do dia a dia: a criptografia RSA-2048, usada hoje em conexões seguras, bancos e certificados digitais, continua sendo bilhões de vezes mais difícil de quebrar do que os números já fatorados. Ainda assim, o episódio reacende uma discussão de fundo na área de segurança: à medida que ferramentas de IA aceleram tarefas de engenharia e computação em larga escala, o intervalo de tempo até que certos padrões criptográficos precisem ser substituídos por alternativas mais robustas pode começar a encolher.</p>
-    `,
-  },
-  {
-    slug: "legora-capta-550-milhoes-expansao-eua",
-    title: "Legora capta US$ 550 milhões e é avaliada em US$ 5,55 bilhões para expandir IA jurídica nos EUA",
-    author: "Bruno Danello",
-    summary:
-      "A startup sueca, cuja plataforma de IA para advogados é construída principalmente sobre modelos da Anthropic, triplicou sua avaliação em relação à rodada anterior, de outubro de 2025. A rodada Série D foi liderada pela Accel e a empresa já soma mais de 800 clientes em 50 mercados, com planos de ultrapassar 300 funcionários nos escritórios americanos até o fim de 2026.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-03-10/legal-ai-startup-legora-raises-550-million-for-us-expansion",
-    date: "2026-03-10",
-    content: `
-      <p>A Legora, startup sueca de inteligência artificial voltada para advogados, acaba de captar US$ 550 milhões numa rodada Série D que avalia a empresa em US$ 5,55 bilhões — o triplo do valor alcançado na rodada anterior, de outubro de 2025, quando havia levantado US$ 150 milhões numa Série C.</p>
-
-      <p>A rodada foi liderada pela Accel e contou com a participação de fundos já presentes na empresa, como Benchmark, Bessemer Venture Partners, General Catalyst, ICONIQ, Redpoint Ventures e Y Combinator, além de novos investidores como Alkeon Capital, Bain Capital, FirstMark Capital, Menlo Ventures, Salesforce Ventures, Sands Capital e Starwood Capital — uma lista que mistura fundos de venture capital tradicionais com gestoras de private equity, sinal do apetite crescente por IA aplicada a setores regulados e de alto valor agregado, como o jurídico.</p>
-
-      <p>A plataforma da Legora é construída majoritariamente sobre modelos da Anthropic e já atende mais de 800 escritórios e departamentos jurídicos em 50 mercados diferentes, ajudando advogados em tarefas como revisão de contratos, due diligence e pesquisa jurídica. Com o novo aporte, a empresa planeja acelerar sua expansão nos Estados Unidos, mercado que considera prioritário, com a meta de ultrapassar 300 funcionários nos escritórios americanos até o fim de 2026.</p>
-
-      <p>O caso da Legora ilustra um padrão que vem se repetindo no mercado de IA aplicada a profissões regulamentadas: em vez de competir com modelos genéricos de propósito geral, startups que constroem uma camada específica — com confiabilidade, confidencialidade e fluxo de trabalho adaptados à rotina de um setor — conseguem justificar avaliações crescentes mesmo num mercado mais seletivo com capital de risco.</p>
-    `,
-  },
-  {
     slug: "etched-capta-700-milhoes-valuation-21-bilhoes",
     title: "Etched capta US$ 700 milhões e dobra avaliação para US$ 21 bilhões em um mês",
     author: "Bruno Danello",
@@ -1913,6 +1875,50 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O experimento se soma a uma linha de pesquisa da Anthropic sobre como agentes de IA podem agir de forma autônoma em nome de pessoas em contextos comerciais e de cadeia de suprimentos — um tema que já discutimos em nosso artigo sobre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">a diferença entre agente de IA, chatbot e automação</a>, e que ganha relevância à medida que empresas avaliam colocar agentes autônomos para tomar decisões de negociação em seu nome.</p>
+    `,
+  },
+  {
+    slug: "bessemer-5-75-bilhoes-dois-fundos-ia",
+    title: "Bessemer capta US$ 5,75 bilhões em dois novos fundos dedicados a investir em IA",
+    author: "Bruno Danello",
+    summary:
+      "A gestora de venture capital fechou US$ 1,75 bilhão para investimentos em estágio inicial (seed) e US$ 4 bilhões para rodadas de crescimento, somando-se aos mais de US$ 3 bilhões já investidos em mais de 260 empresas nativas de IA desde 2022 — entre elas Anthropic, Perplexity, Legora e Waymo.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+    date: "2026-09-23",
+    content: `
+      <p>A gestora de venture capital Bessemer Venture Partners anunciou o fechamento de US$ 5,75 bilhões em capital novo, divididos em dois fundos: US$ 1,75 bilhão voltado a investimentos em estágio inicial (seed e early-stage) e US$ 4 bilhões destinados a rodadas de crescimento. O objetivo declarado é acelerar os investimentos da gestora em praticamente toda a cadeia de valor da inteligência artificial.</p>
+
+      <p>Desde 2022, a Bessemer já investiu mais de US$ 3 bilhões em mais de 260 empresas nativas de IA, cobrindo desde infraestrutura de computação até modelos de fundação, ferramentas para desenvolvedores, aplicações e agentes autônomos. Entre as empresas do portfólio da gestora estão nomes como Anthropic, Cognition, Legora, Perplexity, Ramp, Shopify e Waymo.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Aposta em todo o "stack" de IA</span>
+        <p>O novo capital será direcionado a áreas como computação e infraestrutura de IA, modelos de fundação, ferramentas de desenvolvimento, empresas de camada de aplicação e tecnologias de agentes — reforçando uma estratégia de apostar em múltiplos elos da cadeia, em vez de se concentrar apenas nos modelos de linguagem mais visíveis.</p>
+      </div>
+
+      <p>O movimento reflete como os grandes fundos de venture capital seguem levantando capital específico para IA, mesmo em meio a discussões recorrentes no mercado sobre se as avaliações do setor já não estariam infladas — um sinal de que, ao menos entre investidores institucionais, o apetite por financiar a próxima geração de empresas de inteligência artificial continua forte.</p>
+    `,
+  },
+  {
+    slug: "databricks-adquire-row-zero-genie-planilhas",
+    title: "Databricks adquire startup de planilhas Row Zero para reforçar seu assistente de IA Genie",
+    author: "Bruno Danello",
+    summary:
+      "A aquisição traz para o Genie, assistente corporativo de IA da Databricks, uma interface de planilha capaz de lidar com bilhões de linhas conectadas a fontes de dados ao vivo e governadas — os termos financeiros do negócio não foram divulgados.",
+    sourceName: "Databricks",
+    sourceUrl: "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
+    date: "2026-09-24",
+    content: `
+      <p>A Databricks anunciou a aquisição da Row Zero, startup de Seattle que constrói uma planilha corporativa pensada para humanos e agentes de IA trabalharem juntos sobre os mesmos dados. Segundo Patrick Wendell, cofundador da Databricks, a compra tem como objetivo reforçar o Genie, o assistente de IA corporativo da empresa, com uma interface de planilha familiar que equipes de negócio já sabem usar.</p>
+
+      <p>Fundada em 2021 por ex-engenheiros da Amazon Web Services, a Row Zero havia captado uma rodada Série A de US$ 10 milhões no ano passado. A ferramenta se conecta diretamente a fontes de dados ao vivo e governadas, com um motor de processamento capaz de lidar com bilhões de linhas em velocidade interativa — diferente de planilhas tradicionais, que costumam travar diante de volumes de dados desse tamanho.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">De planilha para o assistente, e vice-versa</span>
+        <p>Com a integração, o Genie passa a oferecer uma camada de planilha para explorar, modelar e colaborar sobre dados, apoiada na Genie Ontology, no Unity Catalog e no Unity Gateway da Databricks — a empresa também sinalizou que planeja inverter o fluxo tradicional: em vez de começar numa planilha e depois consultar o assistente, o usuário poderá começar perguntando ao Genie e abrir a resposta para edição e colaboração diretamente numa planilha.</p>
+      </div>
+
+      <p>Os termos financeiros da aquisição não foram divulgados. O movimento reforça uma tendência mais ampla entre grandes plataformas de dados e IA corporativa: comprar startups menores e especializadas para preencher lacunas específicas de interface e experiência do usuário, em vez de construir cada funcionalidade internamente do zero.</p>
     `,
   },
 ];
