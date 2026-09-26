@@ -554,29 +554,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "meta-lanca-muse-for-mac-agente-executa-acoes-computador",
-    title: "Meta lança o Muse for Mac, agente de IA que executa ações direto no computador",
-    author: "Bruno Danello",
-    summary:
-      "A nova versão para macOS do assistente pessoal da Meta ganha acesso a Arquivos, Mail, Mensagens, Calendário e Notas nativos do sistema, organizando arquivos, respondendo e-mails e agendando compromissos sozinho — mas qualquer ação sensível, como apagar um arquivo ou enviar um e-mail, exige aprovação explícita do usuário.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-    date: "2026-09-18",
-    content: `
-      <p>A Meta lançou o Muse for Mac, versão para computadores do seu assistente pessoal de IA, expandindo o alcance de um produto que já havia chegado ao topo da App Store dos EUA logo após o lançamento no celular, em 8 de setembro. No Mac, o Muse ganha acesso direto aos aplicativos nativos do sistema — Arquivos, Mail, Mensagens, Calendário e Notas — e passa a executar ações dentro deles em nome do usuário, em vez de apenas responder perguntas.</p>
-
-      <p>Na prática, isso significa que o assistente consegue organizar arquivos, extrair informações de threads de e-mail, adicionar compromissos ao calendário e rascunhar respostas de mensagens, coordenando tarefas entre aplicativos diferentes sem que o usuário precise alternar manualmente entre eles. Segundo a Meta, as ações são executadas por meio de uma VM segura na nuvem da própria empresa — ou seja, a infraestrutura da Meta fica entre as credenciais do usuário e os aplicativos nativos do macOS desde o primeiro momento.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Camada de aprovação para ações sensíveis</span>
-        <p>A empresa incluiu uma camada de controle chamada Sentinel, que exige aprovação explícita do usuário antes de qualquer ação considerada sensível — como apagar um arquivo, enviar um e-mail ou fazer uma compra —, uma tentativa de equilibrar autonomia do agente com controle humano sobre as consequências mais irreversíveis.</p>
-      </div>
-
-      <h2>Mais um assistente de IA ganhando as mãos, não só a voz</h2>
-      <p>O lançamento reforça uma tendência que já discutimos por aqui: assistentes de IA deixando de ser apenas interfaces de conversa e passando a executar tarefas diretamente nos aplicativos que já usamos no dia a dia. Para quem está configurando um assistente assim pela primeira vez, vale revisitar nosso guia de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar seu primeiro assistente de IA pessoal</a>.</p>
-    `,
-  },
-  {
     slug: "mit-robo-voador-450-por-cento-mais-rapido-ia",
     title: "Robô voador do MIT fica 450% mais rápido com novo sistema de controle por IA",
     author: "Bruno Danello",
@@ -1026,28 +1003,6 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O fechamento da Dymocks Tutoring é um dos primeiros casos documentados de uma empresa de tutoria tradicional encerrando operações inteiras por conta direta da concorrência de assistentes de IA — um sinal de que o impacto da tecnologia sobre modelos de negócio educacionais já deixou de ser hipotético e passou a afetar diretamente a sobrevivência de negócios físicos no setor.</p>
-    `,
-  },
-  {
-    slug: "nvidia-google-emerald-ai-alianca-energia-data-centers",
-    title: "Nvidia, Google e Emerald AI lançam aliança para tornar data centers de IA flexíveis na rede elétrica",
-    author: "Bruno Danello",
-    summary:
-      "A AI Energy Management Alliance reúne as três empresas e mais 18 parceiros para desenvolver data centers capazes de ajustar dinamicamente o consumo de energia conforme as condições da rede elétrica, em troca de conexões mais rápidas à malha de energia — uma instalação piloto de quase 100 megawatts deve entrar em operação na Virgínia ainda este ano.",
-    sourceName: "NVIDIA Blog",
-    sourceUrl: "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-    date: "2026-09-18",
-    content: `
-      <p>A Emerald AI, o Google e a Nvidia anunciaram o lançamento da AI Energy Management Alliance (AEMA), uma coalizão inédita voltada a desenvolver data centers de inteligência artificial capazes de gerenciar dinamicamente o próprio consumo de eletricidade em resposta às condições da rede elétrica. A proposta central é simples: uma instalação que conseguir comprovar que sua demanda de energia pode variar quando a rede estiver sob pressão ganha, em troca, conexões mais rápidas e de menor risco à malha elétrica.</p>
-
-      <p>Segundo as empresas, um data center flexível consegue ajustar seu consumo de energia de várias formas — deslocando cargas de processamento, descarregando baterias, usando geração própria de energia ou respondendo a emergências da rede. A ideia da AEMA é que os data centers de IA passem a ter uma relação simbiótica com a rede elétrica, em vez de apenas extrair energia dela continuamente. Dezoito parceiros já se juntaram às três empresas fundadoras, reunindo provedores de tecnologia, operadoras de data center, geradoras de energia, concessionárias e operadores regionais de rede.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Primeiro piloto ainda em 2026</span>
-        <p>Ainda este ano, na Virgínia, a Nvidia, a Digital Realty e a Emerald AI vão ligar o que descrevem como a primeira "fábrica de IA" flexível em potência elétrica do mundo, com quase 100 megawatts de capacidade — projetada para comprovar, na prática, que um data center pode funcionar como uma carga precisa e controlável para a rede elétrica.</p>
-      </div>
-
-      <p>A iniciativa reflete uma preocupação crescente do setor: a demanda por capacidade computacional de IA está crescendo mais rápido do que a capacidade das redes elétricas de acompanhar esse ritmo, um gargalo que já discutimos em relação a projetos como o Stargate, da OpenAI. Tornar os data centers mais "flexíveis" no consumo de energia é uma das apostas da indústria para acelerar a expansão da infraestrutura de IA sem sobrecarregar ainda mais redes elétricas já pressionadas em diversas regiões dos Estados Unidos.</p>
     `,
   },
   {
@@ -1899,6 +1854,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O projeto enfrenta obstáculos consideráveis num Congresso controlado pelos republicanos, que até agora têm tido dificuldade para avançar mesmo em regulamentações de IA bem menos abrangentes. Ainda assim, a proposta marca um dos posicionamentos mais extremos já apresentados formalmente no Legislativo americano sobre o tema, e reforça como a preocupação com riscos catastróficos ligados à IA — tema que já discutimos em nossa cobertura sobre <a href="/noticias/altman-amodei-conselho-seguranca-onu-riscos-ia">como líderes do setor vêm tratando esses riscos em fóruns como a ONU</a> — também ganha força dentro da política americana, ainda que por enquanto sem perspectiva realista de aprovação.</p>
+    `,
+  },
+  {
+    slug: "tribunal-mantem-anthropic-risco-cadeia-suprimentos-pentagono",
+    title: "Tribunal de apelações mantém designação da Anthropic como 'risco à cadeia de suprimentos' pelo Pentágono",
+    author: "Bruno Danello",
+    summary:
+      "Numa decisão de 2 a 1, o tribunal de apelações de Washington confirmou uma das duas designações usadas pelo Departamento de Defesa dos EUA para classificar a Anthropic como risco à cadeia de suprimentos, depois que as negociações para colocar o Claude na plataforma GenAI.mil do Pentágono fracassaram no ano passado — a empresa disse discordar da decisão e estuda seus próximos passos.",
+    sourceName: "CNBC",
+    sourceUrl: "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+    date: "2026-09-25",
+    content: `
+      <p>Um tribunal de apelações dos Estados Unidos manteve, em decisão de 2 a 1, a designação do Departamento de Defesa (Pentágono) que classifica a Anthropic como um "risco à cadeia de suprimentos" — rótulo que dificulta ou impede contratos federais com a empresa. A decisão, divulgada na sexta-feira pelo Tribunal de Apelações dos Estados Unidos para o Circuito de Columbia, representa uma vitória para o governo americano na disputa judicial movida pela Anthropic.</p>
+
+      <h2>Como a disputa começou</h2>
+      <p>A Anthropic havia assinado um contrato de US$ 200 milhões com o Pentágono em julho de 2025, mas as negociações para implantar o Claude na plataforma GenAI.mil do Departamento de Defesa fracassaram em setembro daquele ano. O Pentágono classificou a Anthropic como risco à cadeia de suprimentos em março, e a empresa processou o governo dias depois.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Duas designações, dois tribunais</span>
+        <p>O Departamento de Defesa se apoiou em duas designações distintas para justificar a classificação de risco, cada uma litigada em um tribunal diferente. Um juiz federal em São Francisco já havia considerado uma das designações ilegal no mês passado — a decisão de sexta-feira do tribunal de Washington confirmou apenas a segunda designação, mantendo o quadro jurídico dividido entre as duas cortes.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>Um porta-voz da Anthropic disse à CNBC que a empresa "discorda respeitosamente da decisão do tribunal" e destacou que outro tribunal federal já considerou ilegal a designação paralela do governo, afirmando que a empresa "está considerando todas as opções, incluindo recorrer novamente". O caso ilustra como a disputa por contratos de IA com o governo americano pode se tornar tão contenciosa quanto a competição comercial entre laboratórios — e como decisões regulatórias, e não apenas técnicas, cada vez mais moldam quem tem acesso a contratos federais bilionários de infraestrutura de IA.</p>
+    `,
+  },
+  {
+    slug: "itau-ventures-simile-rodada-ia-simulacao-comportamento",
+    title: "Itaú Ventures entra em rodada da americana Simile, que usa IA para simular comportamento humano em massa",
+    author: "Bruno Danello",
+    summary:
+      "O aporte estende a série B de US$ 200 milhões da Simile, avaliando a startup em US$ 2 bilhões — a empresa construiu um modelo de fundação que simula como populações, organizações e mercados reagiriam a diferentes cenários, e o Itaú já era cliente da companhia na América Latina antes de investir.",
+    sourceName: "CNN Brasil",
+    sourceUrl: "https://www.cnnbrasil.com.br/economia/money/negocios/itau-ventures-firma-parceria-com-a-norte-americana-simile-para-ia/",
+    date: "2026-09-22",
+    content: `
+      <p>O Itaú Ventures, braço de investimentos do Itaú Unibanco, entrou numa extensão da rodada série B da Simile, startup americana de inteligência artificial avaliada em US$ 2 bilhões. Com o aporte do banco brasileiro, a rodada da Simile já soma US$ 300 milhões desde que a empresa saiu do modo confidencial, em fevereiro deste ano — o valor investido pelo Itaú não foi divulgado.</p>
+
+      <h2>O que a Simile faz</h2>
+      <p>A Simile desenvolveu um modelo de fundação que simula como populações inteiras, organizações e mercados reagiriam a diferentes cenários — mudanças em produtos, choques econômicos ou novas políticas de mercado, por exemplo —, entregando previsões acompanhadas de indicadores de confiança quantificáveis para cada projeção.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Já era cliente antes de investir</span>
+        <p>O Itaú foi o primeiro cliente da Simile na América Latina e já usava a tecnologia da startup desde os estágios iniciais — relacionamento que, segundo o banco, embasou diretamente a decisão de também entrar como investidor na rodada.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O investimento reforça a chamada estratégia "AI First" do Itaú, com o banco buscando não apenas usar ferramentas de IA internamente, mas também ganhar posição societária em startups estratégicas do setor. Para o mercado brasileiro de tecnologia, o caso mostra como grandes instituições financeiras locais estão dispostas a investir diretamente em startups de IA americanas early-stage quando já existe uma relação comercial comprovada, em vez de esperar rodadas mais tardias e avaliações já infladas.</p>
     `,
   },
 ];
