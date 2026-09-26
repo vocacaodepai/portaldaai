@@ -1605,30 +1605,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "itau-ventures-simile-rodada-ia-simulacao-comportamento",
-    title: "Itaú Ventures entra em rodada da americana Simile, que usa IA para simular comportamento humano em massa",
-    author: "Bruno Danello",
-    summary:
-      "O aporte estende a série B de US$ 200 milhões da Simile, avaliando a startup em US$ 2 bilhões — a empresa construiu um modelo de fundação que simula como populações, organizações e mercados reagiriam a diferentes cenários, e o Itaú já era cliente da companhia na América Latina antes de investir.",
-    sourceName: "CNN Brasil",
-    sourceUrl: "https://www.cnnbrasil.com.br/economia/money/negocios/itau-ventures-firma-parceria-com-a-norte-americana-simile-para-ia/",
-    date: "2026-09-22",
-    content: `
-      <p>O Itaú Ventures, braço de investimentos do Itaú Unibanco, entrou numa extensão da rodada série B da Simile, startup americana de inteligência artificial avaliada em US$ 2 bilhões. Com o aporte do banco brasileiro, a rodada da Simile já soma US$ 300 milhões desde que a empresa saiu do modo confidencial, em fevereiro deste ano — o valor investido pelo Itaú não foi divulgado.</p>
-
-      <h2>O que a Simile faz</h2>
-      <p>A Simile desenvolveu um modelo de fundação que simula como populações inteiras, organizações e mercados reagiriam a diferentes cenários — mudanças em produtos, choques econômicos ou novas políticas de mercado, por exemplo —, entregando previsões acompanhadas de indicadores de confiança quantificáveis para cada projeção.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Já era cliente antes de investir</span>
-        <p>O Itaú foi o primeiro cliente da Simile na América Latina e já usava a tecnologia da startup desde os estágios iniciais — relacionamento que, segundo o banco, embasou diretamente a decisão de também entrar como investidor na rodada.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O investimento reforça a chamada estratégia "AI First" do Itaú, com o banco buscando não apenas usar ferramentas de IA internamente, mas também ganhar posição societária em startups estratégicas do setor. Para o mercado brasileiro de tecnologia, o caso mostra como grandes instituições financeiras locais estão dispostas a investir diretamente em startups de IA americanas early-stage quando já existe uma relação comercial comprovada, em vez de esperar rodadas mais tardias e avaliações já infladas.</p>
-    `,
-  },
-  {
     slug: "anthropic-quarto-incidente-claude-metr-auditoria-independente",
     title: "Anthropic revela quarto incidente de acesso indevido do Claude e contrata a METR para auditoria independente",
     author: "Bruno Danello",
@@ -1722,30 +1698,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O movimento reforça uma tendência que já discutimos por aqui: startups de IA aplicada à saúde, que começaram resolvendo problemas mais estreitos como busca de informação clínica, cada vez mais expandem para áreas de maior risco e potencial retorno financeiro, como o desenvolvimento de fármacos — um caminho que outras empresas de IA e ciências da vida, incluindo a própria Anthropic, também vêm explorando nos últimos meses.</p>
-    `,
-  },
-  {
-    slug: "apple-acordo-250-milhoes-processo-siri-ia-atrasada",
-    title: "Apple abre site de reivindicação de acordo de US$ 250 milhões por atraso nos recursos de IA da Siri",
-    author: "Bruno Danello",
-    summary:
-      "Consumidores que compraram iPhone 15 Pro, 15 Pro Max ou qualquer modelo do iPhone 16 entre junho de 2024 e março de 2025 podem reivindicar até US$ 95 cada, depois que uma ação coletiva acusou a Apple de propaganda enganosa sobre recursos da Apple Intelligence prometidos na WWDC 2024 mas entregues com atraso.",
-    sourceName: "MacRumors",
-    sourceUrl: "https://www.macrumors.com/2026/09/20/siri-ai-settlement-website-now-live/",
-    date: "2026-09-21",
-    content: `
-      <p>A Apple abriu o site oficial de reivindicações do acordo de US$ 250 milhões firmado para encerrar uma ação coletiva nos Estados Unidos sobre o atraso no lançamento de recursos de IA da Siri prometidos como parte da Apple Intelligence. O processo alegava que a empresa fez propaganda enganosa ao anunciar, na WWDC de 2024, funcionalidades que só chegariam aos aparelhos muito depois do previsto — ou, em alguns casos, ainda não chegaram.</p>
-
-      <h2>Quem pode reivindicar e quanto</h2>
-      <p>Consumidores elegíveis são donos de iPhone 15 Pro, iPhone 15 Pro Max ou qualquer modelo da linha iPhone 16 comprado nos Estados Unidos entre 10 de junho de 2024 e 29 de março de 2025. O valor padrão da reivindicação é de US$ 25 por aparelho elegível, podendo chegar a até US$ 95 dependendo do número total de reivindicações válidas submetidas. O prazo para enviar uma reivindicação vai de 21 de setembro a 21 de dezembro deste ano.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O maior acordo do tipo já registrado</span>
-        <p>Segundo o advogado que liderou o processo, Ryan Clarkson, o fundo de US$ 250 milhões representa o maior acordo por propaganda enganosa da história dos Estados Unidos. A Apple nega todas as alegações feitas no processo e afirma ter aceitado o acordo para evitar os custos e riscos de um julgamento.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O caso ilustra um risco cada vez mais comum para grandes empresas de tecnologia: anunciar recursos de IA ainda em desenvolvimento antes de estarem prontos para uso pode gerar expectativas que, se não cumpridas no prazo prometido, resultam em processos judiciais caros — um lembrete de que o hype em torno de IA generativa também traz consequências legais concretas quando a promessa de marketing avança mais rápido do que a capacidade real do produto.</p>
     `,
   },
   {
@@ -1914,6 +1866,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O movimento acirra a disputa por modelos de áudio cada vez mais baratos e capazes entre grandes provedores de IA, num momento em que ferramentas de voz sintética ganham espaço em atendimento ao cliente, criação de conteúdo e produtos de acessibilidade — mas também alimentam preocupações sobre uso indevido de clonagem de voz, reforçando a importância de mecanismos claros de consentimento e rastreabilidade à medida que esse tipo de tecnologia fica mais barato e acessível.</p>
+    `,
+  },
+  {
+    slug: "google-lanca-googlebook-laptops-gemini-899-dolares",
+    title: "Google lança o Googlebook, nova categoria de laptop construída em torno do Gemini, a partir de US$ 899",
+    author: "Bruno Danello",
+    summary:
+      "Os primeiros cinco modelos vêm de Acer, Asus, Dell, HP e Lenovo, rodam Android com base do ChromeOS e trazem 12 meses do Google AI Pro incluídos, com 5 TB de armazenamento em nuvem — o aparelho também se integra ao celular Android do usuário, sincronizando senhas, redes Wi-Fi e mensagens durante a configuração.",
+    sourceName: "Google Blog",
+    sourceUrl: "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+    date: "2026-09-21",
+    content: `
+      <p>O Google apresentou o Googlebook, nova categoria de notebook construída sobre a base do Android com fundação do ChromeOS, pensada desde o início para funcionar em torno do assistente Gemini. Os preços começam em US$ 899, com cinco modelos de lançamento vindos de fabricantes parceiros: Acer, Asus, Dell, HP e Lenovo.</p>
+
+      <h2>Integração com o celular e recursos de IA</h2>
+      <p>O Googlebook foi pensado para fazer o celular Android e o notebook funcionarem como um único sistema: durante a configuração, senhas salvas, redes Wi-Fi e mensagens podem ser transferidas com criptografia de ponta a ponta. O recurso "Files" dá acesso direto a fotos e arquivos do celular pelo notebook, enquanto o "Cast My Apps" permite usar aplicativos do celular Android numa janela do desktop. Os aparelhos rodam processadores Intel e Qualcomm com NPUs dedicadas de mais de 45 TOPS de desempenho em IA.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que vem incluído</span>
+        <p>Toda compra de um Googlebook inclui 12 meses do Google AI Pro, com 5 TB de armazenamento em nuvem e acesso às ferramentas do Gemini Advanced — um empacotamento parecido com o que fabricantes de smartphone já fazem para incentivar a adoção de assinaturas de IA.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>As vendas começam em 4 de outubro nos Estados Unidos e um dia depois no Canadá, Reino Unido, França, Alemanha e Austrália. O lançamento mostra o Google apostando que a integração profunda entre celular e notebook, somada ao Gemini como assistente central, pode convencer consumidores a trocar de laptop — uma estratégia parecida com a que a Apple já usa há anos para vender o ecossistema iPhone-Mac, mas agora aplicada à disputa por quem vai concentrar o uso diário de IA generativa no computador pessoal.</p>
+    `,
+  },
+  {
+    slug: "meta-muse-chega-ao-mac-agente-arquivos-mensagens",
+    title: "Muse, assistente de IA da Meta, chega ao Mac e passa a agir diretamente em arquivos, mensagens e calendário",
+    author: "Bruno Danello",
+    summary:
+      "O aplicativo para macOS permite pedir ao Muse para organizar pastas, preparar um resumo a partir de e-mails, conversas e notas, ou preencher um formulário usando arquivos já salvos no computador — o acesso é opt-in por recurso, e ações sensíveis como apagar arquivos ou enviar mensagens exigem aprovação prévia do usuário.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+    date: "2026-09-18",
+    content: `
+      <p>A Meta lançou uma versão do Muse, seu assistente de IA de propósito geral, para Mac — dando ao agente capacidade de agir diretamente dentro de aplicativos nativos do macOS, como Arquivos, Mensagens, Calendário, Notas e Mail, em vez de apenas responder perguntas como um chatbot tradicional.</p>
+
+      <h2>O que o Muse consegue fazer no computador</h2>
+      <p>Com o app instalado, o usuário pode pedir ao Muse para organizar pastas bagunçadas, preparar um resumo com base em e-mails, conversas e notas recentes, ou usar arquivos já salvos no Mac para preencher um formulário pela metade — tarefas que antes exigiriam alternar manualmente entre vários aplicativos.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Controle de acesso e aprovação</span>
+        <p>O acesso do Muse a cada tipo de dado no Mac é opt-in, configurado pelo próprio usuário, e ações sensíveis — como apagar um arquivo ou enviar uma mensagem — exigem aprovação explícita antes de serem executadas. Ainda assim, especialistas em segurança já alertaram que esse tipo de agente com permissão para agir diretamente no sistema amplia a superfície de ataque do computador, tema que já discutimos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade: o que você entrega sem perceber</a>.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento reforça uma tendência maior no setor: assistentes de IA deixando de ser apenas uma janela de chat para passar a atuar diretamente no sistema operacional do usuário, com permissão para tomar ações reais em nome dele — um movimento que já discutimos ao configurar assistentes pessoais de IA em nosso <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">guia de como configurar seu primeiro assistente de IA pessoal</a>. Para quem já usa esse tipo de ferramenta no dia a dia, o cuidado redobrado na hora de conceder permissões tende a se tornar ainda mais importante à medida que agentes ganham acesso a mais partes sensíveis do computador.</p>
     `,
   },
 ];
