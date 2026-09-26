@@ -531,29 +531,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "agentes-ia-roubam-600-mil-cartoes-credito-skimmers",
-    title: "Criminoso usa agentes de IA para roubar 600 mil cartões de crédito de mais de cem lojas online",
-    author: "Bruno Danello",
-    summary:
-      "Segundo pesquisadores de segurança, um único operador orquestrou agentes de IA de código aberto — rodando modelos como DeepSeek, Kimi e uma versão mais antiga do Claude — para instalar 'skimmers' de dados de pagamento em pelo menos 119 sites, incluindo uma rede hoteleira da Fortune 500 e uma grande companhia aérea dos EUA, a um custo médio de US$ 25 por empresa atacada.",
-    sourceName: "BleepingComputer",
-    sourceUrl: "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    date: "2026-09-22",
-    content: `
-      <p>Pesquisadores de segurança identificaram uma campanha criminosa em andamento desde pelo menos julho, na qual um único operador usa frameworks de agentes de IA de código aberto para atacar centenas de lojas online em escala e roubar dados de cartão de crédito. Em apenas cinco dias, o atacante comprometeu ao menos 27 empresas e lançou mais de cem ataques; no total, a campanha já soma pelo menos 119 sites comprometidos e mais de 600 mil registros de cartão de crédito roubados, incluindo uma rede hoteleira da lista Fortune 500 e uma grande companhia aérea americana.</p>
-
-      <p>Três frameworks de orquestração de agentes de IA disponíveis publicamente — Strix, Cairn e Hermes — formaram a espinha dorsal da operação, cada um responsável por uma etapa diferente da cadeia de ataque. Os modelos usados para conduzir os ataques incluíam os sistemas chineses DeepSeek e Kimi, além do Claude Opus 4.6, uma versão mais antiga do modelo de ponta da Anthropic. Segundo pesquisadores, rodar um ataque de skimmer orientado por agentes de IA custa em média apenas US$ 25 por empresa alvo — uma conta de OpenRouter usada na operação gastou pouco mais de US$ 7 mil ao longo de quatro semanas, com o custo total da campanha estimado entre US$ 12 mil e US$ 18 mil.</p>
-
-      <div class="callout-box callout-bad">
-        <span class="callout-label">Baixo custo, alto alcance</span>
-        <p>O operador, aparentemente de origem chinesa, deu instruções breves aos agentes sobre os objetivos da operação e deixou que eles cuidassem do resto — incluindo técnicas como inserir código malicioso em arquivos JavaScript legítimos, envenenar conteúdo de CDN e caches de servidor, alterar implantações Kubernetes e usar tarefas agendadas para restaurar o skimmer sempre que ele era removido.</p>
-      </div>
-
-      <h2>Crime cibernético cada vez mais barato e automatizado</h2>
-      <p>O caso ilustra como agentes de IA de código aberto, combinados com modelos relativamente acessíveis, já reduzem drasticamente o custo e a habilidade técnica necessários para conduzir ataques em escala industrial — uma tendência que reforça a importância de escolher e configurar com cuidado qualquer ferramenta de IA usada no ambiente de trabalho. Vale revisitar nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist para escolher uma ferramenta de IA com segurança</a>.</p>
-    `,
-  },
-  {
     slug: "google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes",
     title: "Google, OpenAI e Anthropic cortejam ex-assessor de Trump para liderar novo órgão de padrões de IA",
     author: "Bruno Danello",
@@ -824,28 +801,6 @@ export const news: NewsItem[] = [
       </div>
 
       <p>A escolha de Indiana, segundo a Amazon, se deve à mão de obra qualificada em manufatura do estado, à infraestrutura logística favorável e à presença já estabelecida da empresa na região. O movimento acompanha uma tendência mais ampla do setor de logística, que tem investido pesado em automação e robótica assistida por IA para lidar com o crescimento constante da demanda por entregas rápidas.</p>
-    `,
-  },
-  {
-    slug: "accelevation-ipo-5-4-bilhoes-infraestrutura-data-centers-ia",
-    title: "Accelevation mira avaliação de até US$ 5,4 bilhões em IPO nos EUA",
-    author: "Bruno Danello",
-    summary:
-      "A fabricante de equipamentos de distribuição de energia e refrigeração para data centers, sediada em Ohio, busca levantar até US$ 720 milhões na oferta pública inicial, embalada pela demanda de investidores por ações ligadas à infraestrutura de inteligência artificial.",
-    sourceName: "Reuters",
-    sourceUrl: "https://www.investing.com/news/stock-market-news/accelevation-targets-up-to-54-billion-valuation-in-us-ipo-4910506",
-    date: "2026-09-22",
-    content: `
-      <p>A Accelevation, empresa de infraestrutura para data centers sediada em Miamisburg, Ohio, está mirando uma avaliação de até US$ 5,37 bilhões em sua oferta pública inicial nos Estados Unidos — mais uma companhia a aproveitar o apetite de investidores por ações ligadas à infraestrutura de inteligência artificial. A empresa e alguns acionistas vendedores pretendem levantar até US$ 720 milhões, oferecendo 30 milhões de ações a um preço entre US$ 20 e US$ 24 cada.</p>
-
-      <p>Fundada em 2017, a Accelevation projeta, fabrica e instala sistemas de distribuição de energia, refrigeração e infraestrutura modular para clientes de data centers. A demanda por esse tipo de equipamento disparou à medida que empresas de tecnologia aumentam os gastos para construir a capacidade computacional necessária para desenvolver e rodar modelos de IA. A oferta será coordenada por bancos como Morgan Stanley, J.P. Morgan, Goldman Sachs e BofA Securities, com as ações listadas na Nasdaq sob o código "ACCV".</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Onda de IPOs de infraestrutura</span>
-        <p>A Accelevation se junta a uma leva recente de aberturas de capital ligadas à infraestrutura de IA — como a também recente captação da Nscale, apoiada pela Nvidia — num sinal de que o mercado de capitais segue receptivo a empresas que fornecem os "bastidores" físicos da corrida por poder computacional, mesmo fora do circuito das grandes desenvolvedoras de modelos.</p>
-      </div>
-
-      <p>O movimento reforça como a demanda por capacidade de data center segue como um dos gargalos centrais do setor de IA — um tema que já discutimos em relação a projetos como o Stargate, da OpenAI, e que deve continuar pautando tanto decisões de investimento quanto disputas regulatórias sobre energia e licenciamento nos próximos meses.</p>
     `,
   },
   {
@@ -1909,6 +1864,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O caso ilustra um risco cada vez mais comum para grandes empresas de tecnologia: anunciar recursos de IA ainda em desenvolvimento antes de estarem prontos para uso pode gerar expectativas que, se não cumpridas no prazo prometido, resultam em processos judiciais caros — um lembrete de que o hype em torno de IA generativa também traz consequências legais concretas quando a promessa de marketing avança mais rápido do que a capacidade real do produto.</p>
+    `,
+  },
+  {
+    slug: "google-gemini-3-8-live-avatar-empresas",
+    title: "Google lança avatar animado em tempo real para o Gemini 3.8 Live, voltado a empresas",
+    author: "Bruno Danello",
+    summary:
+      "O Gemini 3.8 Live with Live Avatar gera vídeo a 24 quadros por segundo de uma pessoa ou personagem animado com boca e expressões sincronizadas à fala, suporta 97 idiomas e já está disponível para clientes do Gemini Enterprise — toda a saída de áudio e vídeo carrega marca d'água SynthID.",
+    sourceName: "Google Cloud Blog",
+    sourceUrl: "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
+    date: "2026-09-24",
+    content: `
+      <p>O Google anunciou a disponibilidade geral do Gemini 3.8 Live with Live Avatar para clientes do Gemini Enterprise, uma semana depois de lançar a versão apenas em áudio do Gemini 3.8 Live. A novidade acopla as capacidades de diálogo em tempo real do Gemini a geração de vídeo com baixa latência, criando uma presença visual dinâmica para o assistente de IA.</p>
+
+      <h2>Como funciona o avatar</h2>
+      <p>O recurso gera vídeo a 24 quadros por segundo de uma pessoa ou personagem animado, com boca e expressões faciais sincronizadas à fala em tempo real, suportando 97 idiomas. O sistema também consegue enxergar entradas de câmera ou tela e continuar falando enquanto ferramentas rodam em segundo plano, mantendo a conversa fluida mesmo durante tarefas mais demoradas.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Controle e segurança</span>
+        <p>Empresas clientes podem escolher entre uma biblioteca de avatares pré-construídos e com curadoria; já a criação de avatares personalizados fica restrita a um processo rigoroso de autorização e verificação empresarial. Todo o áudio e vídeo gerados carregam marcas d'água imperceptíveis SynthID, e o serviço já está disponível com endpoints nos EUA e na União Europeia, com governança de dados e conformidade empresarial.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento amplia a corrida entre grandes empresas de IA por assistentes com presença visual mais convincente, indo além de chatbots puramente textuais ou de voz — um recurso que pode se tornar relevante para atendimento ao cliente, treinamento corporativo e outras aplicações empresariais que se beneficiam de uma interface mais humana e expressiva. Para empresas que avaliam adotar esse tipo de tecnologia, o cuidado com autorização de avatares personalizados e marcas d'água reforça a importância de mecanismos claros de rastreabilidade à medida que conteúdo sintético com aparência humana se torna mais comum no ambiente corporativo.</p>
+    `,
+  },
+  {
+    slug: "strada-automacao-navegador-portais-seguradoras-sem-api",
+    title: "Strada lança automação de navegador para que agentes de IA operem portais de seguradoras sem precisar de API",
+    author: "Bruno Danello",
+    summary:
+      "A nova capacidade grava e reproduz fluxos de trabalho dentro de portais de operadoras e sistemas legados que não oferecem integração via API, usando as mesmas credenciais e permissões já atribuídas aos funcionários humanos — cada etapa fica registrada para fins de auditoria.",
+    sourceName: "IT Business Net",
+    sourceUrl: "https://itbusinessnet.com/2026/09/strada-launches-browser-automation-for-carrier-portals-and-legacy-systems-without-apis/",
+    date: "2026-09-24",
+    content: `
+      <p>A Strada, empresa de automação com IA voltada ao setor de seguros, lançou uma capacidade de automação de navegador que permite que seus agentes naveguem e completem tarefas diretamente em sistemas baseados na web, sem depender de integração via API. Muitos sistemas do setor — incluindo portais de operadoras e sistemas legados — simplesmente não oferecem API, o que até agora limitava a automação possível nesses ambientes.</p>
+
+      <h2>Como funciona na prática</h2>
+      <p>A automação de navegador permite que os agentes da Strada operem diretamente dentro desses sistemas usando as mesmas credenciais e permissões que uma operadora, MGA, corretora por atacado ou TPA (administrador terceirizado) já atribui aos próprios funcionários humanos. Um endosso de apólice, por exemplo, pode avançar de uma solicitação recebida até a atualização do registro no sistema, com cada etapa registrada ao longo do caminho para fins de auditoria.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Gravar uma vez, repetir sempre</span>
+        <p>A automação roda dentro dos fluxos de trabalho já existentes da Strada, ao lado dos agentes de voz, chat e e-mail já em produção — basta um usuário gravar uma tarefa uma única vez para que a empresa a capture como um fluxo de trabalho executável, que os agentes passam a rodar depois sobre dados reais.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento ilustra uma solução prática para um problema comum de automação corporativa: setores inteiros, como o de seguros, ainda dependem de sistemas legados sem API pronta para integração, o que historicamente travava iniciativas de automação mais ambiciosas. Ao operar diretamente pela interface visual — como faria um funcionário humano —, esse tipo de agente consegue contornar essa limitação sem exigir que cada seguradora modernize sua própria infraestrutura antes de adotar IA.</p>
     `,
   },
 ];
