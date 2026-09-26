@@ -1485,30 +1485,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "philips-future-health-index-2026-ia-saude-brasil",
-    title: "Pesquisa da Philips mostra que IA já ajuda a evitar erros clínicos e economiza mais de 16 dias de trabalho por ano",
-    author: "Bruno Danello",
-    summary:
-      "O Future Health Index 2026, com mais de 2 mil profissionais de saúde e 20 mil pacientes em 10 países, incluindo o Brasil, mostra que 51% dos profissionais brasileiros relatam que a IA ajudou a identificar ou evitar uma falha clínica pelo menos três vezes nos últimos três meses.",
-    sourceName: "Philips",
-    sourceUrl: "https://www.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-future-health-index-2026-ai-is-already-saving-clinicians-time-and-delivering-measurable-impact-in-healthcare.html",
-    date: "2026-09-16",
-    content: `
-      <p>A Philips divulgou a 11ª edição do Future Health Index, pesquisa anual que ouviu mais de 2 mil profissionais de saúde e mais de 20 mil pacientes em dez países — incluindo Brasil, China, França, Alemanha, Índia, Indonésia, Holanda, Arábia Saudita, Reino Unido e Estados Unidos — entre fevereiro e abril de 2026. O levantamento deste ano teve como foco medir o impacto real da inteligência artificial na rotina clínica, além do potencial ainda teórico da tecnologia.</p>
-
-      <h2>Tempo economizado e erros evitados</h2>
-      <p>Segundo a pesquisa, a IA já economiza aos profissionais de saúde o equivalente a mais de 16 dias úteis de trabalho por ano — quase dois terços (65%) dos médicos relatam ter aumentado o uso de ferramentas de IA, e quase metade (46%) diz economizar ao menos 132 horas por ano com o uso dessas ferramentas. No Brasil, especificamente, 51% dos profissionais de saúde afirmam que a IA ajudou a identificar ou evitar uma potencial falha clínica pelo menos três vezes nos últimos três meses.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Otimismo alto entre profissionais brasileiros</span>
-        <p>Segundo o levantamento, 93% dos profissionais de saúde no Brasil se dizem otimistas de que a IA pode melhorar os resultados clínicos e a experiência dos pacientes — a IA já está sendo incorporada diretamente a tecnologias de diagnóstico avançado, como aparelhos de ultrassom, tomografia e ressonância magnética, ajudando a processar imagens em tempo real e automatizar medições.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>Os resultados reforçam uma tendência que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: a aplicação de IA em contextos de alto risco, como a saúde, já produz resultados mensuráveis quando bem implementada — mas o próprio otimismo elevado dos profissionais reforça a importância de escolher ferramentas confiáveis e validadas clinicamente, em vez de qualquer solução genérica de IA aplicada sem os devidos cuidados a decisões que afetam diretamente a segurança dos pacientes.</p>
-    `,
-  },
-  {
     slug: "nvidia-sk-hynix-parceria-memoria-fabricas-ia",
     title: "Nvidia e SK hynix fecham parceria plurianual para desenvolver memória de próxima geração para fábricas de IA",
     author: "Bruno Danello",
@@ -1821,30 +1797,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "claude-unifica-cowork-chat-lanca-docs-slides",
-    title: "Anthropic unifica Cowork e chat num só Claude e lança o Claude Docs e o Claude Slides",
-    author: "Bruno Danello",
-    summary:
-      "O Claude agora decide sozinho o quanto de trabalho uma solicitação exige, usando as capacidades antes exclusivas do Cowork diretamente numa conversa comum — o Claude Docs permite escrever documentos junto com a IA, e o Claude Slides gera apresentações editáveis, exportáveis como PowerPoint ou PDF.",
-    sourceName: "Claude Blog",
-    sourceUrl: "https://claude.com/blog/cowork-is-now-claude",
-    date: "2026-09-16",
-    content: `
-      <p>A Anthropic anunciou a unificação do Claude Cowork e do chat tradicional numa única experiência do Claude, encerrando a separação entre os dois ambientes que confundia usuários sobre onde uma tarefa deveria começar. A partir de agora, o próprio Claude decide o quanto de trabalho uma solicitação exige e usa as capacidades antes exclusivas do Cowork diretamente numa conversa comum, mantendo o contexto, as skills e os conectores já configurados pelo usuário.</p>
-
-      <h2>Novas ferramentas: Docs, Slides e Design dentro da conversa</h2>
-      <p>Junto com a fusão, a empresa lançou o Claude Docs e o Claude Slides. Com o Docs, o usuário pede um documento e escreve o texto junto com o Claude, editando diretamente dentro da conversa. Com o Slides, basta pedir uma apresentação para que o Claude monte os slides, permitindo edição direta, apresentação sem sair do Claude ou exportação como PowerPoint ou PDF. O Claude Design, lançado anteriormente como ferramenta separada, também passou a funcionar integrado às conversas.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Rollout gradual</span>
-        <p>A experiência unificada começa a chegar a assinantes dos planos Pro e Max no navegador, no aplicativo de desktop e no celular nas próximas semanas — os planos Team e Free devem receber a atualização depois. Administradores de contas Enterprise vão receber pelo menos 30 dias de aviso prévio antes da mudança chegar às suas organizações.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>A unificação resolve uma fonte comum de frustração: usuários não sabiam onde uma tarefa deveria começar, especialmente porque o trabalho iniciado num ambiente não necessariamente seguia para o outro. A mudança também aproxima o Claude de concorrentes como o ChatGPT e o Copilot da Microsoft, que já vêm consolidando chat, produtividade e capacidades agênticas numa única superfície — um movimento que já discutimos em nossa cobertura sobre o <a href="/noticias/microsoft-relanca-copilot-super-app-agentes-autopilot">relançamento do Copilot como "super app"</a>.</p>
-    `,
-  },
-  {
     slug: "pesquisa-reuters-ipsos-73-por-cento-desconfia-ia",
     title: "Pesquisa Reuters/Ipsos mostra que 73% dos americanos acham que empresas de IA não fazem o suficiente para evitar desastres",
     author: "Bruno Danello",
@@ -1914,6 +1866,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O episódio expõe uma tensão que só deve crescer à medida que agentes de IA passam a fazer compras em nome dos usuários, tema que já exploramos em <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você: o novo comércio</a>: sem um protocolo aberto e acordado entre plataformas, cada grande loja pode decidir, por conta própria, quais agentes de terceiros tem permissão para operar em seu site — o que pode fragmentar a experiência de compra assistida por IA em vez de padronizá-la entre os grandes varejistas.</p>
+    `,
+  },
+  {
+    slug: "california-lei-sb-1050-divulgacao-performer-sintetico-anuncios",
+    title: "Califórnia sanciona lei que exige aviso claro quando um anúncio usa 'performer sintético' feito por IA",
+    author: "Bruno Danello",
+    summary:
+      "O governador Gavin Newsom assinou a SB 1050 na sede do sindicato de atores SAG-AFTRA, tornando a Califórnia o segundo estado americano, depois de Nova York, a exigir que anúncios em vídeo ou áudio avisem claramente quando usam uma representação de humano gerada por IA — violações podem custar até US$ 2.500 por infração.",
+    sourceName: "Governo da Califórnia",
+    sourceUrl: "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+    date: "2026-09-16",
+    content: `
+      <p>O governador da Califórnia, Gavin Newsom, sancionou a SB 1050, lei de autoria da senadora estadual Angelique Ashby que exige divulgação clara sempre que um anúncio em vídeo ou áudio usar um "performer sintético" — uma representação de humano gerada por inteligência artificial, seja falando ou aparecendo na peça publicitária. A lei entra em vigor em 1º de janeiro de 2027.</p>
+
+      <h2>O que a lei exige</h2>
+      <p>Sempre que um anúncio destinado ao público californiano usar um performer sintético para promover um produto ou serviço, ele precisa trazer um aviso claro e visível, com linguagem parecida com "esta performance apresenta um performer sintético" ou "nenhum performer humano está representado". A Procuradoria-Geral do estado, promotores distritais e procuradores municipais das principais cidades podem processar empresas que descumprirem a regra, com multas de até US$ 2.500 por violação.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Simbolismo da assinatura</span>
+        <p>Newsom assinou a lei na sede do SAG-AFTRA, sindicato que representa atores e dubladores nos Estados Unidos — um sinal deliberado de que a norma foi pensada para proteger essa categoria profissional da substituição por performers totalmente sintéticos sem aviso ao público.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A Califórnia se torna o segundo estado americano, depois de Nova York, a exigir esse tipo de divulgação em publicidade — um movimento que reflete uma preocupação crescente com conteúdo sintético indistinguível de material real, tema que já exploramos em <a href="/artigos/deepfakes-ia-identificar-conteudo-falso-proteger-reputacao">deepfakes de IA: como identificar conteúdo falso e proteger sua reputação</a>. Para marcas e agências que produzem publicidade com IA generativa, a exigência de rótulo claro deve se tornar cada vez mais comum, à medida que outros estados e países avaliam regras parecidas.</p>
+    `,
+  },
+  {
+    slug: "alibaba-qwen-audio-3-1-corta-precos-ate-95-por-cento",
+    title: "Alibaba lança Qwen-Audio 3.1 e corta preço de APIs de voz em até 95%",
+    author: "Bruno Danello",
+    summary:
+      "A nova geração de modelos de áudio da Alibaba reduz o preço da API de reconhecimento de fala em até 95%, da síntese de voz em cerca de 70% e do modelo de voz em tempo real em cerca de 85% — o lançamento inclui cinco modelos novos, com detecção de emoção, identificação de múltiplos falantes e som ambiente.",
+    sourceName: "Alibaba Cloud",
+    sourceUrl: "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
+    date: "2026-09-23",
+    content: `
+      <p>A equipe do Qwen, da Alibaba, lançou o Qwen-Audio 3.1, nova geração de modelos de áudio que evolui as três frentes principais da linha: reconhecimento de fala (ASR), síntese de voz (TTS) e interação de voz em tempo real. Junto com o lançamento, a empresa cortou drasticamente o preço das APIs correspondentes.</p>
+
+      <h2>Corte de preço e novos modelos</h2>
+      <p>Segundo a Alibaba, o preço da API de reconhecimento de fala caiu até 95%, o de síntese de voz (TTS) cerca de 70%, e o do modelo de voz em tempo real (Realtime) cerca de 85%. A linha ganhou dois modelos inéditos: o Qwen-Audio-3.1-TTS-Next, voltado à criação de voz, efeitos sonoros e áudio de fundo numa única passagem, e o Qwen-Audio-3.1-ASR-Next, de compreensão de áudio, capaz de identificar múltiplos falantes com marcação de tempo, detectar emoção na fala e reconhecer som ambiente.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Para quem usa IA de voz no dia a dia</span>
+        <p>Cortes de preço dessa magnitude tendem a baixar o custo de produtos que dependem de transcrição, dublagem ou narração automatizada em escala — o mesmo tipo de ferramenta que já discutimos em <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">IA para áudio: criar podcasts e narrações profissionais</a>.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O movimento acirra a disputa por modelos de áudio cada vez mais baratos e capazes entre grandes provedores de IA, num momento em que ferramentas de voz sintética ganham espaço em atendimento ao cliente, criação de conteúdo e produtos de acessibilidade — mas também alimentam preocupações sobre uso indevido de clonagem de voz, reforçando a importância de mecanismos claros de consentimento e rastreabilidade à medida que esse tipo de tecnologia fica mais barato e acessível.</p>
     `,
   },
 ];
