@@ -1750,30 +1750,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "california-lei-sb-1050-divulgacao-performer-sintetico-anuncios",
-    title: "Califórnia sanciona lei que exige aviso claro quando um anúncio usa 'performer sintético' feito por IA",
-    author: "Bruno Danello",
-    summary:
-      "O governador Gavin Newsom assinou a SB 1050 na sede do sindicato de atores SAG-AFTRA, tornando a Califórnia o segundo estado americano, depois de Nova York, a exigir que anúncios em vídeo ou áudio avisem claramente quando usam uma representação de humano gerada por IA — violações podem custar até US$ 2.500 por infração.",
-    sourceName: "Governo da Califórnia",
-    sourceUrl: "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
-    date: "2026-09-16",
-    content: `
-      <p>O governador da Califórnia, Gavin Newsom, sancionou a SB 1050, lei de autoria da senadora estadual Angelique Ashby que exige divulgação clara sempre que um anúncio em vídeo ou áudio usar um "performer sintético" — uma representação de humano gerada por inteligência artificial, seja falando ou aparecendo na peça publicitária. A lei entra em vigor em 1º de janeiro de 2027.</p>
-
-      <h2>O que a lei exige</h2>
-      <p>Sempre que um anúncio destinado ao público californiano usar um performer sintético para promover um produto ou serviço, ele precisa trazer um aviso claro e visível, com linguagem parecida com "esta performance apresenta um performer sintético" ou "nenhum performer humano está representado". A Procuradoria-Geral do estado, promotores distritais e procuradores municipais das principais cidades podem processar empresas que descumprirem a regra, com multas de até US$ 2.500 por violação.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Simbolismo da assinatura</span>
-        <p>Newsom assinou a lei na sede do SAG-AFTRA, sindicato que representa atores e dubladores nos Estados Unidos — um sinal deliberado de que a norma foi pensada para proteger essa categoria profissional da substituição por performers totalmente sintéticos sem aviso ao público.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>A Califórnia se torna o segundo estado americano, depois de Nova York, a exigir esse tipo de divulgação em publicidade — um movimento que reflete uma preocupação crescente com conteúdo sintético indistinguível de material real, tema que já exploramos em <a href="/artigos/deepfakes-ia-identificar-conteudo-falso-proteger-reputacao">deepfakes de IA: como identificar conteúdo falso e proteger sua reputação</a>. Para marcas e agências que produzem publicidade com IA generativa, a exigência de rótulo claro deve se tornar cada vez mais comum, à medida que outros estados e países avaliam regras parecidas.</p>
-    `,
-  },
-  {
     slug: "alibaba-qwen-audio-3-1-corta-precos-ate-95-por-cento",
     title: "Alibaba lança Qwen-Audio 3.1 e corta preço de APIs de voz em até 95%",
     author: "Bruno Danello",
@@ -1819,30 +1795,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>As vendas começam em 4 de outubro nos Estados Unidos e um dia depois no Canadá, Reino Unido, França, Alemanha e Austrália. O lançamento mostra o Google apostando que a integração profunda entre celular e notebook, somada ao Gemini como assistente central, pode convencer consumidores a trocar de laptop — uma estratégia parecida com a que a Apple já usa há anos para vender o ecossistema iPhone-Mac, mas agora aplicada à disputa por quem vai concentrar o uso diário de IA generativa no computador pessoal.</p>
-    `,
-  },
-  {
-    slug: "tribunal-nono-circuito-github-copilot-dmca-decisao",
-    title: "Tribunal dos EUA decide que Copilot e Codex criam obras novas, não cópias, em primeira decisão de apelação sobre IA generativa e DMCA",
-    author: "Bruno Danello",
-    summary:
-      "Um painel de três juízes do Nono Circuito manteve a rejeição de uma ação de programadores contra GitHub, Microsoft e OpenAI, considerando que o código gerado pelo Copilot e pelo Codex constitui obra nova, não uma cópia da qual se removeu informação de direitos autorais — duas alegações de quebra de contrato sobre licenças open-source seguem em curso.",
-    sourceName: "Haynes Boone",
-    sourceUrl: "https://www.haynesboone.com/news/alerts/ai-legal-news-ninth-circuit-rejects-dmca-section-1202(b)-theory",
-    date: "2026-09-16",
-    content: `
-      <p>Um painel de três juízes do Nono Circuito de Apelações dos Estados Unidos confirmou, em 16 de setembro, a rejeição de uma ação movida por programadores anônimos contra GitHub, Microsoft e OpenAI, na que é considerada a primeira decisão relevante de um tribunal de apelação sobre responsabilidade de ferramentas de IA generativa sob a Lei de Direitos Autorais do Milênio Digital (DMCA) dos Estados Unidos.</p>
-
-      <h2>O argumento dos programadores e a resposta do tribunal</h2>
-      <p>Os autores da ação, desenvolvedores que publicam código aberto, alegavam que o Copilot e o Codex reproduziam trechos do código deles sem atribuição, violando a seção 1202(b) da DMCA — dispositivo voltado a coibir a remoção de informação de gestão de direitos autorais de uma obra já existente. Segundo o juiz Eric Miller, relator do caso, essa seção da lei se aplica a atos contra informações vinculadas a uma obra que já existe, enquanto a reclamação descrevia uma ferramenta que cria "obras novas que nunca continham essa informação".</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que ficou de fora da decisão</span>
-        <p>O tribunal não decidiu o argumento mais amplo sobre os dados de treinamento em si, porque os próprios advogados dos programadores deixaram de sustentar essa tese perante o tribunal de origem — a corte também recusou considerar uma teoria alternativa sobre remoção de informação durante o treinamento, por entender que ela havia sido abandonada anteriormente no processo.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>A decisão não encerra o debate jurídico sobre uso de código protegido por direitos autorais no treinamento de IA — duas alegações de quebra de contrato sobre termos de licenças open-source seguem tramitando no tribunal de origem —, mas estabelece um precedente relevante ao distinguir entre gerar uma obra nova a partir de um modelo treinado e efetivamente copiar uma obra removendo sua atribuição original. Para desenvolvedores e empresas que usam ferramentas de programação assistida por IA no dia a dia, o caso reforça como a fronteira legal em torno de direitos autorais e IA generativa segue sendo definida processo a processo, sem uma resposta definitiva ainda sobre o uso de dados de treinamento.</p>
     `,
   },
   {
@@ -1915,6 +1867,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>A descoberta chega na mesma semana em que outros pesquisadores de segurança relataram falhas distintas no Muse, incluindo uma vulnerabilidade zero-day no aplicativo para macOS e um caso em que o assistente foi induzido, com poucos comandos, a expor todo o sistema de arquivos de sua máquina virtual interna. Somados, os episódios reforçam um ponto que já discutimos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade: o que você entrega sem perceber</a>: por trás da interface polida de um assistente de IA, usuários raramente sabem ao certo qual modelo está processando seus dados, nem quão bem protegida está essa infraestrutura.</p>
+    `,
+  },
+  {
+    slug: "espanha-primeira-notificacao-ataque-agente-ia-aepd",
+    title: "Espanha registra primeira notificação oficial de um ataque cibernético executado por um agente de IA autônomo",
+    author: "Bruno Danello",
+    summary:
+      "A Agência Espanhola de Proteção de Dados (AEPD) recebeu de uma organização afetada o primeiro alerta sobre um incidente em que um agente de IA, agindo de forma autônoma, encontrou uma vulnerabilidade num sistema, alterou dados pessoais e acessou faturas — sem que a imprensa espanhola tenha, até agora, pistas sobre quem estava por trás do ataque.",
+    sourceName: "Observador",
+    sourceUrl: "https://observador.pt/2026/09/16/protecao-de-dados-espanhola-recebeu-primeiro-alerta-sobre-um-ataque-feito-por-um-agente-de-ia/",
+    date: "2026-09-16",
+    content: `
+      <p>A Agência Espanhola de Proteção de Dados (AEPD) recebeu a primeira notificação oficial de um ataque cibernético executado por um agente de inteligência artificial agindo de forma autônoma. O alerta partiu da própria organização afetada, que identificou o incidente e cumpriu a obrigação legal de notificar o regulador.</p>
+
+      <h2>Como o ataque aconteceu</h2>
+      <p>Segundo o relato, o agente de IA conseguiu um login válido e, a partir daí, passou a pesquisar de forma autônoma vulnerabilidades na aplicação da organização. Ao encontrar uma falha explorável, o agente alterou dados pessoais e acessou registros de faturamento da empresa — tudo sem intervenção humana direta orientando cada passo do ataque.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Ainda não se sabe quem está por trás</span>
+        <p>Segundo a imprensa espanhola, não há, até o momento, pistas públicas sobre a autoria do ataque. A AEPD recebeu apenas o alerta da organização afetada, e o caso segue sob apuração.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio marca uma transição relevante: ataques apoiados por agentes de IA autônomos deixam de ser um risco discutido apenas em teoria e passam a aparecer como incidentes reais que afetam o processamento de dados pessoais de organizações concretas. Para empresas que avaliam adotar agentes de IA em seus próprios sistemas, o caso reforça a importância de aplicar os mesmos princípios básicos de segurança já discutidos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher uma ferramenta de IA com segurança</a> — mas também de entender que agentes autônomos, uma vez comprometidos, podem agir com uma velocidade e alcance que um invasor humano tradicional não teria.</p>
+    `,
+  },
+  {
+    slug: "perplexity-comet-navegador-ia-disponivel-todos-usuarios-ios",
+    title: "Perplexity libera o navegador Comet para todos os usuários de iOS, completando presença em iOS, Android, Mac e Windows",
+    author: "Bruno Danello",
+    summary:
+      "O Comet, navegador com IA integrada da Perplexity, que já vinha em lançamento gradual desde o início do ano, chega agora a todos os usuários de iPhone — completando a disponibilidade da ferramenta nas quatro principais plataformas de computador e celular.",
+    sourceName: "Perplexity",
+    sourceUrl: "https://www.perplexity.ai/hub/blog/meet-comet-for-ios",
+    date: "2026-09-24",
+    content: `
+      <p>A Perplexity liberou o navegador Comet, que integra um assistente de IA diretamente à experiência de navegação, para todos os usuários de iOS. Com isso, o Comet passa a estar disponível nas quatro principais plataformas de computador e celular: iOS, Android, Mac e Windows.</p>
+
+      <h2>O que o Comet faz</h2>
+      <p>Diferente de um navegador tradicional, o Comet permite que o usuário peça ao assistente de IA integrado para resumir páginas, comparar produtos entre abas abertas, preencher formulários ou executar tarefas de várias etapas diretamente durante a navegação — sem precisar copiar e colar conteúdo manualmente entre o navegador e um chat separado.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Rollout gradual até aqui</span>
+        <p>O Comet para iOS vinha sendo liberado de forma gradual desde o início de 2026, com atualizações sucessivas adicionando recursos ao longo dos meses, até a expansão completa a todos os usuários da plataforma agora anunciada.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A disputa por quem vai concentrar a experiência de navegação assistida por IA já reúne outros concorrentes trabalhando em produtos parecidos, e completar a presença em todas as principais plataformas de uma vez reforça a aposta da Perplexity em capturar esse hábito de uso antes que a concorrência amadureça produtos equivalentes. Para quem já usa assistentes de IA no dia a dia, a chegada de mais um navegador com IA nativa integrada amplia as opções disponíveis para quem busca unificar pesquisa, navegação e execução de tarefas numa única ferramenta.</p>
     `,
   },
 ];
