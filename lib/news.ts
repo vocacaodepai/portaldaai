@@ -1557,30 +1557,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "cohesity-agent-resilience-protecao-agentes-ia",
-    title: "Cohesity lança ferramenta para proteger e recuperar agentes de IA corporativos após falhas ou ataques",
-    author: "Bruno Danello",
-    summary:
-      "O Cohesity Agent Resilience usa a mesma arquitetura de snapshots e backups imutáveis já aplicada a dados sensíveis para proteger a memória e a configuração de agentes de IA, permitindo restaurá-los a um estado conhecido após corrupção de memória, configuração incorreta ou atividade maliciosa — pesquisa da própria empresa mostra que 56% das organizações não se sentem preparadas para lidar com ações não intencionais de agentes de IA.",
-    sourceName: "Cohesity",
-    sourceUrl: "https://www.cohesity.com/newsroom/press/cohesity-introduces-agent-resilience-to-protect-ai-agent-infrastructure/",
-    date: "2026-09-16",
-    content: `
-      <p>A Cohesity lançou o Agent Resilience, uma nova capacidade do Cohesity Data Cloud voltada a descobrir, proteger e recuperar a infraestrutura por trás de agentes de IA corporativos. A ferramenta chega num momento em que empresas ampliam rapidamente o uso de agentes autônomos, mas ainda têm pouca visibilidade sobre como recuperar esses sistemas quando algo dá errado.</p>
-
-      <h2>Como funciona a proteção</h2>
-      <p>No lançamento, o Agent Resilience protege a memória e a configuração dos agentes usando a mesma arquitetura de snapshots, backups imutáveis e recuperação em ambiente isolado que os clientes da Cohesity já usam para proteger dados sensíveis on-premises, na nuvem e em aplicações SaaS. A capacidade de recuperação em ponto específico no tempo permite restaurar um agente a um estado conhecido como seguro depois de corrupção de memória, configuração incorreta ou atividade maliciosa.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O problema que motivou o lançamento</span>
-        <p>Segundo pesquisa da própria Cohesity, 56% das organizações não se sentem bem preparadas para se recuperar de ações não intencionais tomadas por agentes de IA — um dado que reforça como a infraestrutura de segurança para agentes autônomos ainda está atrás da velocidade de adoção dessas ferramentas nas empresas.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>No lançamento, o Agent Resilience já é compatível com o Amazon Bedrock AgentCore e o Amazon Bedrock Agents, com suporte a plataformas de agentes da Microsoft e do Google planejado para os próximos meses. O produto reforça uma tendência mais ampla no mercado de segurança: à medida que agentes de IA ganham autonomia para executar ações reais dentro de sistemas corporativos, cresce também a demanda por ferramentas específicas de proteção e recuperação desses agentes — um mercado até pouco tempo inexistente, hoje tratado como extensão natural da segurança de dados tradicional.</p>
-    `,
-  },
-  {
     slug: "microsoft-relanca-copilot-super-app-agentes-autopilot",
     title: "Microsoft relança o Copilot como um 'super app' com agentes de IA, incluindo o novo Autopilot",
     author: "Bruno Danello",
@@ -1722,30 +1698,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>Pelo menos outras seis empresas chinesas de robótica humanoide, incluindo Deep Robotics, X Square Robot e AGIBOT, se preparam para abrir capital. O episódio reforça o esforço de Pequim em conter o entusiasmo dos investidores em um dos temas de investimento mais quentes do país, sem prejudicar uma tecnologia que o governo transformou em prioridade nacional — um equilíbrio que já discutimos em nossa cobertura sobre a expansão global de fabricantes chinesas como a <a href="/noticias/unix-ai-expande-globalmente-prepara-ipo-robos-humanoides">UniX AI</a>.</p>
-    `,
-  },
-  {
-    slug: "lula-sanciona-redata-incentivo-fiscal-data-centers-ia",
-    title: "Lula sanciona o Redata, regime fiscal que isenta impostos por 5 anos para data centers de IA no Brasil",
-    author: "Bruno Danello",
-    summary:
-      "A nova lei suspende Imposto de Importação, IPI e PIS/Cofins sobre equipamentos de data center por cinco anos, com renúncia fiscal estimada em R$ 5,2 bilhões só em 2026 — em troca, as empresas beneficiadas precisam reservar ao menos 10% da capacidade instalada para o mercado brasileiro e usar energia limpa ou renovável.",
-    sourceName: "Ministério da Fazenda",
-    sourceUrl: "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/regime-especial-de-tributacao-para-servicos-de-datacenter-e-sancionado",
-    date: "2026-09-15",
-    content: `
-      <p>O presidente Luiz Inácio Lula da Silva sancionou o Redata (Regime Especial de Tributação para Serviços de Datacenter), lei que cria incentivos fiscais para estimular a instalação e expansão de data centers no Brasil, com foco especial em computação em nuvem e projetos de inteligência artificial. O texto havia sido aprovado pelo Congresso em 1º de setembro.</p>
-
-      <h2>O que a lei suspende</h2>
-      <p>O Redata suspende, por cinco anos, quatro tributos federais sobre equipamentos de tecnologia da informação e comunicação: Imposto de Importação, IPI (Imposto sobre Produtos Industrializados) e as contribuições sociais PIS/Cofins, incluindo sobre importações. Depois de cumpridas as contrapartidas previstas em lei, o benefício pode ser convertido em isenção permanente.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Contrapartidas exigidas</span>
-        <p>Para acessar o regime, as empresas beneficiadas precisam reservar pelo menos 10% da capacidade instalada de processamento, armazenamento e manipulação de dados para atender ao mercado brasileiro — essa parcela não pode ser exportada nem usada pela própria empresa caso haja demanda interna — além de cumprir critérios ambientais, como uso de energia limpa (hidrelétrica) ou renovável (solar e eólica) e eficiência no consumo de água.</p>
-        </div>
-
-      <h2>Por que isso importa</h2>
-      <p>Segundo estimativas do governo federal, a renúncia fiscal deve somar cerca de R$ 5,2 bilhões em 2026, caindo para aproximadamente R$ 1 bilhão em cada um dos dois anos seguintes. O Redata se soma a outras iniciativas recentes do governo brasileiro para atrair investimento em infraestrutura de IA para o país — um movimento que compete diretamente com incentivos semelhantes oferecidos por outros países que disputam a instalação de data centers de grandes provedores de nuvem e laboratórios de inteligência artificial.</p>
     `,
   },
   {
@@ -1914,6 +1866,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O resultado reforça um contraste que já vínhamos observando: enquanto empresas como Google, OpenAI e Anthropic avançam em conjunto para criar órgãos voluntários de autorregulação — como discutimos em nossa cobertura sobre a <a href="/noticias/google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes">proposta de um órgão conjunto de padrões de segurança</a> —, uma parcela crescente do público americano segue cética de que essas iniciativas sejam suficientes, e prefere ver o governo assumindo um papel mais ativo na fiscalização do setor.</p>
+    `,
+  },
+  {
+    slug: "nyc-council-projetos-lei-regulacao-ia-kill-switch-denuncia",
+    title: "Câmara de Vereadores de Nova York propõe pacote de leis para regular IA, com 'kill switch' obrigatório",
+    author: "Bruno Danello",
+    summary:
+      "A presidente da Câmara, Julie Menin, convocou uma rara sessão com todos os 51 vereadores para 5 de outubro e convidou os CEOs de OpenAI, Anthropic, Google, SpaceXAI e Meta a comparecer, reservando-se o direito de usar poder de intimação — as propostas incluem validação externa obrigatória, botão de desligamento de emergência e recompensas para denunciantes.",
+    sourceName: "New York City Council",
+    sourceUrl: "https://council.nyc.gov/press/2026/09/25/3252/",
+    date: "2026-09-25",
+    content: `
+      <p>A presidente da Câmara de Vereadores de Nova York, Julie Menin, anunciou nesta sexta-feira um pacote de projetos de lei voltado a reduzir riscos da inteligência artificial para os moradores da cidade. As propostas serão discutidas numa sessão do tipo "Committee of the Whole", que reúne os 51 vereadores de uma só vez — formato que não acontece na Câmara desde 2022 — marcada para 5 de outubro.</p>
+
+      <h2>O que as leis propostas exigem</h2>
+      <p>O pacote inclui a proibição de empresas colocarem em operação sistemas de IA sem validação independente de terceiros, a exigência de que todo sistema de IA usado na cidade tenha um "kill switch" (botão de desligamento de emergência) e a criação de um programa inédito no país que permite a denunciantes receber parte de multas aplicadas a empresas de IA, além de exigir notificação de incidentes em até 24 horas.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Convocação direta às big techs de IA</span>
+        <p>Menin enviou cartas aos CEOs Dario Amodei (Anthropic), Sam Altman (OpenAI), Sundar Pichai (Google), Elon Musk (SpaceXAI) e Mark Zuckerberg (Meta) pedindo participação na sessão de 5 de outubro, deixando claro que espera comparecimento e que a Câmara pode recorrer a poder de intimação caso necessário.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A iniciativa chega num momento em que o Congresso americano ainda não aprovou nenhuma lei federal abrangente sobre segurança de IA, abrindo espaço para que cidades e estados avancem com suas próprias regras — mesmo com Nova York também disputando o título de "capital mundial da IA", já que boa parte das maiores empresas do setor mantém operações relevantes na cidade. O episódio se soma a um momento de escrutínio crescente sobre o setor, pouco depois de <a href="/noticias/processo-antitruste-anthropic-openai-google-xai-desaceleracao">Anthropic, OpenAI, Google e SpaceXAI serem processadas nos Estados Unidos</a> sob acusação de terem coordenado uma desaceleração conjunta do desenvolvimento de IA.</p>
+    `,
+  },
+  {
+    slug: "amazon-bloqueia-agente-ia-muse-meta-compras",
+    title: "Amazon bloqueia agente de IA Muse, da Meta, de fazer compras no site sem autorização",
+    author: "Bruno Danello",
+    summary:
+      "Usuários do assistente Muse começaram a receber uma mensagem de erro ao tentar comprar na Amazon informando que o acesso do agente de IA não foi autorizado — a Amazon diz que a Meta nunca pediu permissão, que o agente não se identifica ao navegar e que chega a armazenar credenciais de clientes.",
+    sourceName: "TechCrunch",
+    sourceUrl: "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+    date: "2026-09-21",
+    content: `
+      <p>A Amazon bloqueou o acesso do Muse, assistente de IA de propósito geral lançado pela Meta em 8 de setembro, à sua loja online. Desde o fim de semana, usuários que tentam usar o Muse para comprar produtos na Amazon passaram a receber uma mensagem de erro informando que "o acesso contínuo por um agente de IA não autorizado viola os Termos de Uso da Amazon, aos quais nossos clientes concordaram".</p>
+
+      <h2>A justificativa da Amazon</h2>
+      <p>Segundo a Amazon, a empresa não foi avisada previamente de que o Muse acessaria sua loja e não autorizou a atividade. Um porta-voz da Amazon afirmou que aplicativos de terceiros que se oferecem para fazer compras em nome de clientes em outras lojas devem operar de forma transparente e respeitar as decisões de cada provedor de serviço sobre participar ou não. A empresa também alega que o agente da Meta não se identifica como tal ao navegar pelo site, que consegue acessar informações da conta do cliente, como histórico de pedidos, e que aparenta armazenar credenciais dos usuários.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Versão da Meta</span>
+        <p>A Meta afirma que o Muse "não tem visibilidade sobre senhas ou meios de pagamento das pessoas" e que credenciais compartilhadas pelo usuário "vão para um armazenamento seguro, para que o Muse possa usá-las sem vê-las".</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio expõe uma tensão que só deve crescer à medida que agentes de IA passam a fazer compras em nome dos usuários, tema que já exploramos em <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você: o novo comércio</a>: sem um protocolo aberto e acordado entre plataformas, cada grande loja pode decidir, por conta própria, quais agentes de terceiros tem permissão para operar em seu site — o que pode fragmentar a experiência de compra assistida por IA em vez de padronizá-la entre os grandes varejistas.</p>
     `,
   },
 ];
