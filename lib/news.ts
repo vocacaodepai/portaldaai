@@ -554,29 +554,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "mit-robo-voador-450-por-cento-mais-rapido-ia",
-    title: "Robô voador do MIT fica 450% mais rápido com novo sistema de controle por IA",
-    author: "Bruno Danello",
-    summary:
-      "Do tamanho de uma fita microcassete e mais leve que um clipe de papel, o microrrobô alado passou a completar manobras complexas — como dez cambalhotas em 11 segundos — graças a um controlador de IA que combina confiabilidade em movimentos rápidos com eficiência para operar em tempo real, abrindo caminho para buscas em escombros e resgates.",
-    sourceName: "ScienceDaily",
-    sourceUrl: "https://www.sciencedaily.com/releases/2026/09/260921081114.htm",
-    date: "2026-09-21",
-    content: `
-      <p>Pesquisadores do MIT desenvolveram um novo sistema de controle baseado em IA que tornou um microrrobô voador cerca de 450% mais rápido e 250% mais ágil na aceleração, permitindo que ele execute manobras aéreas complexas com a agilidade de um inseto real. O robô, do tamanho aproximado de uma fita microcassete e mais leve que um clipe de papel, completou dez cambalhotas seguidas em 11 segundos, mantendo-se a apenas 4 ou 5 centímetros da trajetória pretendida.</p>
-
-      <p>O design do microrrobô conta com asas batentes maiores que sustentam voos mais ágeis, impulsionadas por músculos artificiais macios capazes de contrair rápido o suficiente para produzir batidas de asa extremamente velozes. A equipe criou um sistema de controle por IA em duas etapas, combinando a confiabilidade necessária para manobras rápidas e complicadas com a eficiência exigida para operar em tempo real.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Aplicação prática: busca e resgate</span>
-        <p>Segundo os pesquisadores, a tecnologia pode eventualmente permitir que microrrobôs desse tipo vasculhem escombros de terremotos e naveguem por espaços perigosos inacessíveis a drones convencionais — passando por frestas estreitas enquanto desviam de paredes, entulho e objetos em queda.</p>
-      </div>
-
-      <h2>IA cada vez mais presente também em máquinas pequenas</h2>
-      <p>O avanço reforça como sistemas de controle baseados em IA não estão restritos a robôs de grande porte ou veículos autônomos — a mesma lógica de decisão em tempo real também está chegando a máquinas minúsculas, ampliando o leque de aplicações práticas da tecnologia além dos chatbots e assistentes que costumam dominar as manchetes.</p>
-    `,
-  },
-  {
     slug: "agentes-ia-roubam-600-mil-cartoes-credito-skimmers",
     title: "Criminoso usa agentes de IA para roubar 600 mil cartões de crédito de mais de cem lojas online",
     author: "Bruno Danello",
@@ -1211,30 +1188,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa para além dos Estados Unidos e do Reino Unido</h2>
       <p>O episódio expõe uma tensão crescente entre países que buscam testar modelos de IA de forma independente antes de sua liberação pública e o desejo dos governos de origem das empresas — no caso, os EUA — de manter controle sobre quem tem acesso antecipado a essas tecnologias. Para usuários e empresas fora desses dois países, o caso é um lembrete de que o acesso a modelos de ponta, e a forma como eles são testados antes do lançamento, cada vez mais depende de decisões geopolíticas, e não só de decisões técnicas ou comerciais das próprias empresas de IA.</p>
-    `,
-  },
-  {
-    slug: "gates-foundation-coalizao-ia-idiomas-sub-representados",
-    title: "Gates Foundation lidera coalizão de 60 organizações para levar IA a 3,4 bilhões de pessoas em seus próprios idiomas",
-    author: "Bruno Danello",
-    summary:
-      "Anthropic, Google, Amazon, Microsoft, Nvidia e a OpenAI Foundation estão entre os signatários de um compromisso de cinco anos para reduzir a lacuna de dados de idiomas sub-representados em modelos de IA, permitindo que bilhões de pessoas usem ferramentas de IA na própria língua e voz.",
-    sourceName: "Gates Foundation",
-    sourceUrl: "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership",
-    date: "2026-09-21",
-    content: `
-      <p>A Gates Foundation anunciou uma coalizão de 60 organizações comprometidas com uma meta de cinco anos: ajudar um estimado de 3,4 bilhões de pessoas que falam idiomas hoje sub-representados nos modelos de IA a usar essas ferramentas na própria língua e voz. Entre os signatários estão gigantes de tecnologia como Anthropic, Google, Amazon, Microsoft e Nvidia, além da OpenAI Foundation e organizações dedicadas a tecnologia liderada por comunidades linguísticas específicas.</p>
-
-      <h2>Um problema de dados, não só de tradução</h2>
-      <p>O problema que a coalizão busca resolver vai além de simplesmente traduzir interfaces: a maioria dos grandes modelos de IA é treinada predominantemente em dados de um punhado de idiomas, principalmente inglês, o que faz com que o desempenho da IA caia significativamente para falantes de línguas com pouca presença digital — muitas delas faladas por dezenas ou centenas de milhões de pessoas, mas praticamente ausentes dos conjuntos de dados usados para treinar os modelos mais populares.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">O que muda na prática</span>
-        <p>O compromisso prevê investimento coordenado em conjuntos de dados mais representativos, incluindo voz, para idiomas hoje mal atendidos — um trabalho que exige parceria direta com comunidades locais e organizações que já trabalham com essas línguas, e não apenas decisão técnica das grandes empresas de IA.</p>
-      </div>
-
-      <h2>Por que isso importa além do Vale do Silício</h2>
-      <p>Iniciativas como essa têm relevância direta para o Brasil e outros países que não falam inglês como língua principal: modelos de IA mais capazes em português, com menos erros de tradução e melhor compreensão de contexto cultural, tendem a surgir como efeito colateral de esforços como esse — ainda que o português já tenha presença digital bem maior do que muitos dos idiomas prioritários dessa coalizão. O caso reforça como o acesso equitativo à IA depende não só de preço ou disponibilidade de ferramentas, mas também de quão bem essas ferramentas realmente funcionam para quem não fala inglês no dia a dia.</p>
     `,
   },
   {
@@ -1906,6 +1859,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>Pelo menos outras seis empresas chinesas de robótica humanoide, incluindo Deep Robotics, X Square Robot e AGIBOT, se preparam para abrir capital. O episódio reforça o esforço de Pequim em conter o entusiasmo dos investidores em um dos temas de investimento mais quentes do país, sem prejudicar uma tecnologia que o governo transformou em prioridade nacional — um equilíbrio que já discutimos em nossa cobertura sobre a expansão global de fabricantes chinesas como a <a href="/noticias/unix-ai-expande-globalmente-prepara-ipo-robos-humanoides">UniX AI</a>.</p>
+    `,
+  },
+  {
+    slug: "lula-sanciona-redata-incentivo-fiscal-data-centers-ia",
+    title: "Lula sanciona o Redata, regime fiscal que isenta impostos por 5 anos para data centers de IA no Brasil",
+    author: "Bruno Danello",
+    summary:
+      "A nova lei suspende Imposto de Importação, IPI e PIS/Cofins sobre equipamentos de data center por cinco anos, com renúncia fiscal estimada em R$ 5,2 bilhões só em 2026 — em troca, as empresas beneficiadas precisam reservar ao menos 10% da capacidade instalada para o mercado brasileiro e usar energia limpa ou renovável.",
+    sourceName: "Ministério da Fazenda",
+    sourceUrl: "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/regime-especial-de-tributacao-para-servicos-de-datacenter-e-sancionado",
+    date: "2026-09-15",
+    content: `
+      <p>O presidente Luiz Inácio Lula da Silva sancionou o Redata (Regime Especial de Tributação para Serviços de Datacenter), lei que cria incentivos fiscais para estimular a instalação e expansão de data centers no Brasil, com foco especial em computação em nuvem e projetos de inteligência artificial. O texto havia sido aprovado pelo Congresso em 1º de setembro.</p>
+
+      <h2>O que a lei suspende</h2>
+      <p>O Redata suspende, por cinco anos, quatro tributos federais sobre equipamentos de tecnologia da informação e comunicação: Imposto de Importação, IPI (Imposto sobre Produtos Industrializados) e as contribuições sociais PIS/Cofins, incluindo sobre importações. Depois de cumpridas as contrapartidas previstas em lei, o benefício pode ser convertido em isenção permanente.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Contrapartidas exigidas</span>
+        <p>Para acessar o regime, as empresas beneficiadas precisam reservar pelo menos 10% da capacidade instalada de processamento, armazenamento e manipulação de dados para atender ao mercado brasileiro — essa parcela não pode ser exportada nem usada pela própria empresa caso haja demanda interna — além de cumprir critérios ambientais, como uso de energia limpa (hidrelétrica) ou renovável (solar e eólica) e eficiência no consumo de água.</p>
+        </div>
+
+      <h2>Por que isso importa</h2>
+      <p>Segundo estimativas do governo federal, a renúncia fiscal deve somar cerca de R$ 5,2 bilhões em 2026, caindo para aproximadamente R$ 1 bilhão em cada um dos dois anos seguintes. O Redata se soma a outras iniciativas recentes do governo brasileiro para atrair investimento em infraestrutura de IA para o país — um movimento que compete diretamente com incentivos semelhantes oferecidos por outros países que disputam a instalação de data centers de grandes provedores de nuvem e laboratórios de inteligência artificial.</p>
+    `,
+  },
+  {
+    slug: "google-gemini-3-8-flash-tts-clonagem-voz",
+    title: "Google lança Gemini 3.8 Flash TTS, modelo de voz que clona timbres a partir de 30 segundos de áudio",
+    author: "Bruno Danello",
+    summary:
+      "Os novos modelos de conversão de texto em fala suportam mais de 100 idiomas e dialetos, oferecem mais de 2 mil vozes prontas e conseguem seguir instruções linha a linha sobre tom, ritmo, sotaque, sussurros e risadas — já disponíveis na API do Gemini e no Google AI Studio.",
+    sourceName: "Google Blog",
+    sourceUrl: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+    date: "2026-09-23",
+    content: `
+      <p>O Google lançou o Gemini 3.8 Flash TTS e o Gemini 3.8 Flash-Lite TTS, descritos pela empresa como seus modelos de geração de áudio mais expressivos até agora. Ambos já estão disponíveis na API do Gemini e no Google AI Studio, além de chegarem ao Gemini Notebook e ao Google Vids.</p>
+
+      <h2>O que os modelos conseguem fazer</h2>
+      <p>O Gemini 3.8 Flash TTS consegue criar uma voz original a partir de uma descrição em linguagem natural, com suporte a mais de 100 idiomas e dialetos e acesso a mais de 2 mil vozes prontas para uso — a replicação de voz consegue recriar um timbre consistente a partir de uma amostra de apenas 30 segundos de áudio. Os modelos também seguem instruções linha a linha sobre tom, ritmo, mudanças de sotaque, sussurros, risadas, suspiros e outras nuances de fala, e conseguem encenar conversas entre dois personagens a partir de um único roteiro, mantendo as vozes consistentes ao longo de horas de áudio.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Dois modelos, dois usos</span>
+        <p>O Gemini 3.8 Flash TTS é voltado a direção criativa mais profunda e criação de personagens para jogos, audiolivros imersivos, podcasts e mídia interativa. Já o Gemini 3.8 Flash-Lite TTS foi projetado para uso de alto volume e custo mais baixo, otimizado para dublagem, criação de conteúdo em áudio e agentes de voz que ainda precisam de controle fino sobre tom e ritmo.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O lançamento acirra a disputa entre grandes empresas de IA por modelos de voz cada vez mais realistas e controláveis — área que já reúne concorrentes como ElevenLabs e OpenAI, e que se conecta a debates recentes sobre uso indevido de clonagem de voz para golpes e desinformação. Para desenvolvedores e criadores de conteúdo, a chegada de mais um modelo de ponta com controle detalhado de tom e emoção amplia as opções disponíveis para produzir áudio sintético em escala, ao mesmo tempo em que aumenta a pressão por mecanismos claros de consentimento e rastreabilidade sobre vozes clonadas.</p>
     `,
   },
 ];
