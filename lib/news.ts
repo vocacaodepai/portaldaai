@@ -301,29 +301,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "alphabet-intrinsic-core-codigo-aberto-robotica-roscon",
-    title: "Alphabet abre o código do Intrinsic Core, sua plataforma de robótica industrial",
-    author: "Bruno Danello",
-    summary:
-      "A Intrinsic, unidade de robótica da Alphabet, liberou como código aberto sob licença Apache 2.0 o núcleo de sua plataforma de robótica — compatível com o ROS e com módulos de controle, planejamento de movimento e integração de sensores — durante a ROSCon 2026, em Toronto.",
-    sourceName: "Intrinsic",
-    sourceUrl: "https://www.intrinsic.ai/blog/posts/introducing-intrinsic-core",
-    date: "2026-09-22",
-    content: `
-      <p>A Intrinsic, unidade de robótica da Alphabet, anunciou durante a ROSCon 2026, em Toronto, a liberação como código aberto do Intrinsic Core — o núcleo de sua plataforma de robótica industrial, compatível com o ROS (Robot Operating System) e distribuído sob a licença permissiva Apache 2.0. Segundo a empresa, o pacote inclui o Intrinsic Control, um framework de controle em tempo real agnóstico em relação ao hardware, além de módulos de estimativa de posição (construído sobre o FoundationPose, da Nvidia), planejamento de movimento e de preensão, simulação, calibração e drivers para integração de sensores e hardware de terceiros.</p>
-
-      <p>A proposta é reduzir a complexidade historicamente associada à programação de robôs industriais, oferecendo um ambiente de software pré-configurado que roda localmente, sem depender de nuvem. O código já está disponível no GitHub da Intrinsic.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Código aberto acelera o setor</span>
-        <p>Ao liberar componentes centrais da própria infraestrutura, a Intrinsic segue um movimento comum entre grandes empresas de tecnologia: abrir ferramentas de base para atrair desenvolvedores e padronizar o ecossistema ao seu redor, em vez de manter tudo fechado — uma aposta em volume e adoção no lugar de controle total sobre a pilha de software.</p>
-      </div>
-
-      <h2>Robótica física como nova fronteira da IA</h2>
-      <p>O anúncio reforça como a corrida por inteligência artificial deixou de se concentrar só em modelos de linguagem e passou a incluir também a chamada "IA física" — sistemas que precisam perceber, planejar e agir no mundo real, não apenas gerar texto ou imagem. Para quem quer entender melhor como a automação impulsionada por IA já está mudando rotinas de trabalho, vale revisitar nosso texto sobre <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">como usar automação com IA para economizar horas de trabalho</a>.</p>
-    `,
-  },
-  {
     slug: "google-anthropic-openai-lancam-modelos-ia-ciberseguranca",
     title: "Google, Anthropic e OpenAI lançam modelos e salvaguardas de IA voltados à cibersegurança",
     author: "Bruno Danello",
@@ -367,29 +344,6 @@ export const news: NewsItem[] = [
 
       <h2>Energia renovável como vantagem competitiva</h2>
       <p>O caso da Verda ilustra como a disputa por infraestrutura de IA está deixando de ser só uma questão de quem tem mais GPUs disponíveis e passando a considerar também o custo e a origem da energia usada para alimentar data centers — um fator que ganha peso conforme cresce a demanda por capacidade computacional para treinar e rodar modelos cada vez maiores.</p>
-    `,
-  },
-  {
-    slug: "astroforge-solo-nave-espacial-totalmente-autonoma-2027",
-    title: "AstroForge vai lançar em 2027 a primeira missão espacial totalmente autônoma, pilotada por IA",
-    author: "Bruno Danello",
-    summary:
-      "A empresa de mineração de asteroides desenvolveu o Solo, um modelo de IA baseado em transformers que vai controlar a sonda Autonomy-1 do início ao fim da missão sem receber um único comando da Terra — um teste que precede o uso do sistema na sonda de mineração DeepSpace-2.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-    date: "2026-09-22",
-    content: `
-      <p>A AstroForge, startup americana de mineração de asteroides, anunciou que sua próxima sonda, batizada de Autonomy-1, será a primeira missão espacial da história a completar toda a sua operação sem receber um único comando enviado da Terra depois da separação do veículo de lançamento. Quem vai pilotar a sonda é o Solo, um modelo de IA desenvolvido internamente pela empresa e baseado em arquitetura transformer — a mesma família de tecnologia por trás dos grandes modelos de linguagem, adaptada aqui para lidar com navegação, rastreamento e tomada de decisão a bordo, sem esperar por instruções de controladores humanos.</p>
-
-      <p>A Autonomy-1 vai ao espaço a bordo do primeiro voo do foguete Nova Pathfinder, da Stoke Space, servindo como demonstração completa do Solo em órbita da Terra. Antes disso, porém, o sistema já vai voar em "modo sombra" na DeepSpace-2 — a sonda de mineração de asteroides da AstroForge com lançamento previsto para o quarto trimestre de 2026 — processando dados reais da espaçonave sem que suas decisões cheguem a ser executadas, uma forma de validar o comportamento do modelo antes de confiar a ele o controle total de uma missão.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Por que não usar comando remoto?</span>
-        <p>Missões distantes da Terra sofrem com atraso de comunicação — o sinal de rádio leva tempo para ir e voltar, o que torna o controle manual em tempo real inviável para decisões rápidas. Um sistema autônomo capaz de reagir sozinho a imprevistos reduz esse gargalo, mas também levanta a aposta: qualquer erro do modelo não tem como ser corrigido a tempo por um operador humano.</p>
-      </div>
-
-      <h2>Mais um passo da IA saindo do computador</h2>
-      <p>O projeto da AstroForge se soma a um movimento mais amplo de modelos de IA assumindo tarefas que exigem operar no mundo físico sem supervisão constante — a mesma lógica por trás de avanços recentes em robótica industrial e agentes autônomos. Para quem quer entender melhor os conceitos por trás desse tipo de sistema, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
     `,
   },
   {
@@ -1912,6 +1866,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O lançamento ilustra uma solução prática para um problema comum de automação corporativa: setores inteiros, como o de seguros, ainda dependem de sistemas legados sem API pronta para integração, o que historicamente travava iniciativas de automação mais ambiciosas. Ao operar diretamente pela interface visual — como faria um funcionário humano —, esse tipo de agente consegue contornar essa limitação sem exigir que cada seguradora modernize sua própria infraestrutura antes de adotar IA.</p>
+    `,
+  },
+  {
+    slug: "claude-unifica-cowork-chat-lanca-docs-slides",
+    title: "Anthropic unifica Cowork e chat num só Claude e lança o Claude Docs e o Claude Slides",
+    author: "Bruno Danello",
+    summary:
+      "O Claude agora decide sozinho o quanto de trabalho uma solicitação exige, usando as capacidades antes exclusivas do Cowork diretamente numa conversa comum — o Claude Docs permite escrever documentos junto com a IA, e o Claude Slides gera apresentações editáveis, exportáveis como PowerPoint ou PDF.",
+    sourceName: "Claude Blog",
+    sourceUrl: "https://claude.com/blog/cowork-is-now-claude",
+    date: "2026-09-16",
+    content: `
+      <p>A Anthropic anunciou a unificação do Claude Cowork e do chat tradicional numa única experiência do Claude, encerrando a separação entre os dois ambientes que confundia usuários sobre onde uma tarefa deveria começar. A partir de agora, o próprio Claude decide o quanto de trabalho uma solicitação exige e usa as capacidades antes exclusivas do Cowork diretamente numa conversa comum, mantendo o contexto, as skills e os conectores já configurados pelo usuário.</p>
+
+      <h2>Novas ferramentas: Docs, Slides e Design dentro da conversa</h2>
+      <p>Junto com a fusão, a empresa lançou o Claude Docs e o Claude Slides. Com o Docs, o usuário pede um documento e escreve o texto junto com o Claude, editando diretamente dentro da conversa. Com o Slides, basta pedir uma apresentação para que o Claude monte os slides, permitindo edição direta, apresentação sem sair do Claude ou exportação como PowerPoint ou PDF. O Claude Design, lançado anteriormente como ferramenta separada, também passou a funcionar integrado às conversas.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Rollout gradual</span>
+        <p>A experiência unificada começa a chegar a assinantes dos planos Pro e Max no navegador, no aplicativo de desktop e no celular nas próximas semanas — os planos Team e Free devem receber a atualização depois. Administradores de contas Enterprise vão receber pelo menos 30 dias de aviso prévio antes da mudança chegar às suas organizações.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A unificação resolve uma fonte comum de frustração: usuários não sabiam onde uma tarefa deveria começar, especialmente porque o trabalho iniciado num ambiente não necessariamente seguia para o outro. A mudança também aproxima o Claude de concorrentes como o ChatGPT e o Copilot da Microsoft, que já vêm consolidando chat, produtividade e capacidades agênticas numa única superfície — um movimento que já discutimos em nossa cobertura sobre o <a href="/noticias/microsoft-relanca-copilot-super-app-agentes-autopilot">relançamento do Copilot como "super app"</a>.</p>
+    `,
+  },
+  {
+    slug: "pesquisa-reuters-ipsos-73-por-cento-desconfia-ia",
+    title: "Pesquisa Reuters/Ipsos mostra que 73% dos americanos acham que empresas de IA não fazem o suficiente para evitar desastres",
+    author: "Bruno Danello",
+    summary:
+      "A parcela que vê a IA como prejudicial à sociedade subiu para 39%, a maior desde que a pesquisa começou a medir isso em março, e 55% dos entrevistados dizem que desacelerar o desenvolvimento da tecnologia seria algo bom — a maioria também acredita que o governo federal, e não as próprias empresas, deveria liderar a definição de padrões de segurança.",
+    sourceName: "Reuters",
+    sourceUrl: "https://www.usnews.com/news/politics/articles/2026-09-22/three-out-of-four-americans-say-ai-firms-not-doing-enough-to-prevent-disaster-reuters-ipsos-poll-finds",
+    date: "2026-09-22",
+    content: `
+      <p>Uma pesquisa da Reuters/Ipsos divulgada nesta semana mostra que 73% dos americanos acreditam que as empresas de inteligência artificial não fizeram o suficiente para evitar que a tecnologia cause danos sérios à sociedade. O levantamento ouviu 1.277 adultos nos Estados Unidos, com margem de erro de 3 pontos percentuais.</p>
+
+      <h2>Desconfiança crescente</h2>
+      <p>Segundo a pesquisa, 39% dos entrevistados veem a IA como algo que prejudica a sociedade — um aumento em relação aos 36% do mês anterior, e a maior parcela registrada desde que a Reuters/Ipsos começou a fazer essa pergunta, em março deste ano. Os entrevistados também demonstraram ceticismo generalizado quanto à capacidade das próprias empresas de IA de se autorregularem, com a maioria pedindo que o governo federal assuma a liderança na definição de padrões de segurança.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Maioria a favor de desacelerar</span>
+        <p>55% dos entrevistados disseram considerar positivo desacelerar o desenvolvimento da tecnologia, contra apenas 13% que viram isso como algo negativo — um sinal de que a cautela pública em relação ao ritmo de avanço da IA vem crescendo, mesmo enquanto laboratórios de ponta seguem lançando modelos cada vez mais capazes.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O resultado reforça um contraste que já vínhamos observando: enquanto empresas como Google, OpenAI e Anthropic avançam em conjunto para criar órgãos voluntários de autorregulação — como discutimos em nossa cobertura sobre a <a href="/noticias/google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes">proposta de um órgão conjunto de padrões de segurança</a> —, uma parcela crescente do público americano segue cética de que essas iniciativas sejam suficientes, e prefere ver o governo assumindo um papel mais ativo na fiscalização do setor.</p>
     `,
   },
 ];
