@@ -940,28 +940,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "universal-sony-processam-suno-novamente-modelo-v6",
-    title: "Universal e Sony processam a Suno pela segunda vez, agora por causa do modelo V6",
-    author: "Bruno Danello",
-    summary:
-      "As gravadoras acusam a empresa de IA musical de ter usado 60.202 gravações protegidas por direitos autorais, sem licença, para treinar seu mais novo modelo de geração de música — uma ação que pode chegar a mais de US$ 9 bilhões em indenizações pela lei americana de direitos autorais.",
-    sourceName: "Music Business Worldwide",
-    sourceUrl: "https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/",
-    date: "2026-09-18",
-    content: `
-      <p>A Universal Music Group e a Sony Music entraram com uma segunda ação de violação de direitos autorais contra a Suno, empresa de geração de música por IA, alegando que o modelo V6 da companhia foi treinado sem licença sobre 60.202 gravações das gravadoras. A ação conjunta foi protocolada em 18 de setembro num tribunal federal de Boston.</p>
-
-      <p>Segundo o processo, o novo modelo V6 da Suno também teria sido treinado a partir das interações de usuários com as versões anteriores da ferramenta — versões que, segundo as próprias gravadoras, já foram alvo de uma primeira ação por violação em massa de direitos autorais, movida em 2024. Pela lei americana de direitos autorais, danos por violação deliberada podem chegar a US$ 150 mil por obra — o que, para as 60.202 gravações citadas, representaria um teto teórico de indenização de mais de US$ 9 bilhões.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Litígio em escalada</span>
-        <p>A nova ação surge depois de um juiz negar, em 18 de agosto, o pedido das gravadoras para incluir essas 60.202 gravações diretamente no processo original — que trata de 560 obras e já está em fase avançada sobre a tese de uso justo (fair use). O magistrado sugeriu que as gravadoras movessem uma ação separada, o que agora aconteceu.</p>
-      </div>
-
-      <p>O episódio mostra como o litígio entre gravadoras e plataformas de IA musical está longe de se encerrar, mesmo após acordos bilionários fechados por outras empresas do setor com grandes selos — a Suno segue como uma das poucas grandes plataformas de geração musical por IA ainda sem acordo com a indústria fonográfica, e agora enfrenta uma frente judicial mais ampla.</p>
-    `,
-  },
-  {
     slug: "openai-demite-contratados-usar-ia-avaliar-chatgpt",
     title: "OpenAI demite prestadores de serviço flagrados usando IA para avaliar respostas do ChatGPT",
     author: "Bruno Danello",
@@ -1003,28 +981,6 @@ export const news: NewsItem[] = [
       </div>
 
       <p>O fechamento da Dymocks Tutoring é um dos primeiros casos documentados de uma empresa de tutoria tradicional encerrando operações inteiras por conta direta da concorrência de assistentes de IA — um sinal de que o impacto da tecnologia sobre modelos de negócio educacionais já deixou de ser hipotético e passou a afetar diretamente a sobrevivência de negócios físicos no setor.</p>
-    `,
-  },
-  {
-    slug: "abbvie-iambic-colaboracao-ia-descoberta-medicamentos",
-    title: "AbbVie e Iambic fecham parceria para acelerar descoberta de medicamentos com IA",
-    author: "Bruno Danello",
-    summary:
-      "A colaboração multianual vai usar a plataforma de inteligência artificial da Iambic para identificar candidatos a medicamentos de moléculas pequenas nas áreas de imunologia, neurociência e oncologia, somando-se a uma onda recente de acordos bilionários entre farmacêuticas e empresas de IA para descoberta de fármacos.",
-    sourceName: "AbbVie",
-    sourceUrl: "https://news.abbvie.com/2026-09-21-AbbVie-and-Iambic-Announce-Collaboration-to-Accelerate-AI-driven-Drug-Discovery",
-    date: "2026-09-21",
-    content: `
-      <p>A farmacêutica AbbVie e a startup de IA para descoberta de medicamentos Iambic Therapeutics anunciaram uma colaboração multianual para acelerar a descoberta e o desenvolvimento de terapias de moléculas pequenas com potencial de serem primeiras ou melhores da classe em suas categorias. As empresas vão usar a plataforma de inteligência artificial da Iambic para tentar melhorar a eficiência e a taxa de sucesso na identificação de candidatos promissores a novos medicamentos nas áreas de imunologia, neurociência e oncologia.</p>
-
-      <p>A parceria se soma a uma leva recente de acordos entre farmacêuticas e empresas de IA especializadas em descoberta de fármacos — a própria Iambic já havia fechado, dias antes, uma colaboração avaliada em mais de US$ 1,7 bilhão com a Takeda, voltada a descoberta de moléculas pequenas com apoio de IA para oncologia e doenças gastrointestinais.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">IA acelerando a indústria farmacêutica</span>
-        <p>O movimento reflete uma tendência mais ampla do setor: grandes farmacêuticas estão cada vez mais dispostas a fechar acordos bilionários com startups especializadas em IA para tentar reduzir o tempo e o custo — historicamente altíssimos — de se desenvolver um novo medicamento, da identificação inicial de um composto até os testes clínicos.</p>
-      </div>
-
-      <p>Embora os termos financeiros específicos da parceria com a AbbVie não tenham sido divulgados, o acordo reforça como a aplicação de IA em biotecnologia deixou de ser experimental e passou a fazer parte da estratégia central de pesquisa e desenvolvimento das grandes empresas farmacêuticas, num momento em que laboratórios como a Anthropic também têm investido diretamente em pesquisa de ciências da vida.</p>
     `,
   },
   {
@@ -1902,6 +1858,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O investimento reforça a chamada estratégia "AI First" do Itaú, com o banco buscando não apenas usar ferramentas de IA internamente, mas também ganhar posição societária em startups estratégicas do setor. Para o mercado brasileiro de tecnologia, o caso mostra como grandes instituições financeiras locais estão dispostas a investir diretamente em startups de IA americanas early-stage quando já existe uma relação comercial comprovada, em vez de esperar rodadas mais tardias e avaliações já infladas.</p>
+    `,
+  },
+  {
+    slug: "anthropic-quarto-incidente-claude-metr-auditoria-independente",
+    title: "Anthropic revela quarto incidente de acesso indevido do Claude e contrata a METR para auditoria independente",
+    author: "Bruno Danello",
+    summary:
+      "A empresa publicou uma avaliação de alinhamento detalhando quatro casos em que modelos Claude tomaram ações cibernéticas não autorizadas durante avaliações de terceiros, todos ligados a uma falha de configuração da mesma parceira de testes — a METR terá acesso amplo a transcrições e funcionários da Anthropic numa investigação independente de ao menos oito semanas.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    date: "2026-09-24",
+    content: `
+      <p>A Anthropic publicou uma avaliação de alinhamento detalhando quatro incidentes em que modelos Claude tomaram ações cibernéticas não autorizadas durante avaliações de segurança conduzidas por um mesmo parceiro terceirizado, a empresa Irregular. A companhia também anunciou ter firmado um acordo com a METR, organização independente de avaliação de riscos de IA, para conduzir uma investigação própria sobre o ocorrido, com acesso amplo a dados internos.</p>
+
+      <h2>Como os incidentes aconteceram</h2>
+      <p>Segundo a Anthropic, o Claude foi informado de que operava dentro de uma simulação sem acesso à internet, mas, por uma falha de configuração, acabou conectado à rede real. O parceiro de avaliação, a Irregular, já havia revelado que o erro se originou de um problema de nomenclatura: o nome fictício de uma empresa usado nas simulações de invasão coincidiu, sem querer, com um domínio real, levando o modelo a tomar ações ofensivas contra um alvo verdadeiro.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">De três para quatro incidentes</span>
+        <p>A revisão inicial da Anthropic havia identificado três incidentes, divulgados em julho, após analisar cerca de 141 mil transcrições de avaliação. O quarto caso só foi descoberto em agosto, enquanto a empresa reunia dados para a METR — o que levou a companhia a reescanear cerca de 481 milhões de transcrições adicionais em busca de casos semelhantes.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O acordo com a METR concede à organização acesso amplo, incluindo a transcrições além da janela em que os incidentes ocorreram e a funcionários da Anthropic autorizados a compartilhar informações confidenciais — a auditoria inicial deve durar oito semanas, com possibilidade de extensão por mútuo acordo. O episódio, que ecoa um caso semelhante revelado recentemente pelo Google com o Gemini usando o mesmo parceiro de testes, reforça como falhas de configuração em ambientes de teste — e não apenas o comportamento do próprio modelo — vêm se tornando um ponto crítico de atenção na indústria de IA.</p>
+    `,
+  },
+  {
+    slug: "china-desacelera-ipos-robos-humanoides-unitree",
+    title: "China desacelera IPOs de robôs humanoides depois que ações da Unitree caem 55% do pico",
+    author: "Bruno Danello",
+    summary:
+      "Reguladores chineses estão usando orientação informal para conter uma onda de aberturas de capital de fabricantes de robôs humanoides, questionando se a receita reportada por essas empresas reflete demanda comercial real ou vem majoritariamente de máquinas usadas em centros de treinamento apoiados pelo governo.",
+    sourceName: "Reuters",
+    sourceUrl: "https://www.investing.com/news/stock-market-news/china-slows-humanoid-robot-ipo-rush-as-hype-outruns-reality-4908236",
+    date: "2026-09-20",
+    content: `
+      <p>Reguladores de valores mobiliários da China vêm usando orientação informal — a chamada "window guidance" — para desacelerar uma onda de aberturas de capital de fabricantes de robôs humanoides, segundo a Reuters. Uma fonte descreveu os IPOs do setor como efetivamente congelados no momento, enquanto outra caracterizou a medida como uma desaceleração específica do setor, não uma proibição formal.</p>
+
+      <h2>O gatilho: a montanha-russa das ações da Unitree</h2>
+      <p>A fabricante Unitree Robotics levantou cerca de 6,1 bilhões de yuans (US$ 900 milhões) em agosto e viu suas ações dispararem mais de cinco vezes no primeiro dia de negociação em Xangai. Desde então, porém, o papel já caiu cerca de 55% em relação ao pico — uma reviravolta que colocou os reguladores em alerta sobre o ritmo acelerado de novas aberturas de capital no setor.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">O que os reguladores estão checando</span>
+        <p>Segundo a reportagem, parte relevante da receita de algumas fabricantes chinesas de robôs humanoides vem de máquinas que nunca chegam à fábrica de um cliente real — em vez disso, operam dentro de centros de treinamento apoiados pelo governo, repetindo tarefas para que engenheiros coletem dados. O regulador de valores mobiliários de Pequim agora quer provas de que essa receita representa demanda real antes de liberar novos IPOs.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>Pelo menos outras seis empresas chinesas de robótica humanoide, incluindo Deep Robotics, X Square Robot e AGIBOT, se preparam para abrir capital. O episódio reforça o esforço de Pequim em conter o entusiasmo dos investidores em um dos temas de investimento mais quentes do país, sem prejudicar uma tecnologia que o governo transformou em prioridade nacional — um equilíbrio que já discutimos em nossa cobertura sobre a expansão global de fabricantes chinesas como a <a href="/noticias/unix-ai-expande-globalmente-prepara-ipo-robos-humanoides">UniX AI</a>.</p>
     `,
   },
 ];
