@@ -255,29 +255,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "cisco-talos-malware-ia-autonoma-closedquorum-cairn",
-    title: "Cisco Talos descobre primeiro malware que usa comitê de IAs para decidir seus próprios ataques",
-    author: "Bruno Danello",
-    summary:
-      "A Cisco Talos identificou o CLOSEDQUORUM, um implante malicioso que consulta até quatro modelos de IA comerciais — DeepSeek, Qwen, Mistral e Gemini — e decide por votação qual ação executar em um computador invadido, dispensando um operador humano em tempo real.",
-    sourceName: "Cisco Talos",
-    sourceUrl: "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
-    date: "2026-09-22",
-    content: `
-      <p>Pesquisadores da Cisco Talos publicaram, em 22 de setembro, a análise de um malware batizado de CLOSEDQUORUM, descrito pela empresa como o primeiro implante de comando e controle (C2) totalmente autônomo já documentado. Em vez de esperar instruções de um servidor controlado por um operador humano, o programa malicioso, feito para Windows, coleta informações do computador infectado e envia essas informações para até quatro provedores de modelos de IA comerciais — DeepSeek, Qwen, Mistral e Google Gemini — que "votam" entre si qual deve ser a próxima ação a ser executada após a invasão.</p>
-
-      <p>A descoberta veio acompanhada do lançamento do CAIRN, um kit de ferramentas de código aberto criado pela Talos especificamente para caçar, classificar e rastrear esse novo tipo de malware que depende de modelos de linguagem para decidir seus próprios passos, em vez de seguir um roteiro fixo programado previamente.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Ainda não confirmado em ataques reais</span>
-        <p>A Talos afirma não ter evidência de que o CLOSEDQUORUM tenha sido usado em ataques reais até agora — a versão distribuída publicamente continha credenciais de IA falsas e um webhook de Discord fictício, o que torna essa cópia específica inoperante. Ainda assim, a arquitetura do malware mostra uma direção clara: reduzir a necessidade de um operador humano presente durante o ataque.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>Segundo a Talos, o design representa uma mudança relevante na forma como ataques cibernéticos podem ser conduzidos: partes cada vez maiores da cadeia de um ataque passam a poder ser executadas sem intervenção direta de uma pessoa, com o malware simplesmente consultando serviços de IA usados normalmente por aplicações legítimas. O caso reforça uma preocupação que já discutimos por aqui sobre os limites entre <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">um agente de IA, um chatbot e uma automação comum</a> — e como essa mesma autonomia que torna ferramentas de IA úteis no trabalho também pode ser explorada por quem tem más intenções.</p>
-    `,
-  },
-  {
     slug: "tse-lanca-chatvote-assistente-ia-eleicoes-2026",
     title: "TSE lança o ChatVote, assistente de IA para tirar dúvidas sobre as Eleições 2026",
     author: "Bruno Danello",
@@ -1629,30 +1606,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "china-desacelera-ipos-robos-humanoides-unitree",
-    title: "China desacelera IPOs de robôs humanoides depois que ações da Unitree caem 55% do pico",
-    author: "Bruno Danello",
-    summary:
-      "Reguladores chineses estão usando orientação informal para conter uma onda de aberturas de capital de fabricantes de robôs humanoides, questionando se a receita reportada por essas empresas reflete demanda comercial real ou vem majoritariamente de máquinas usadas em centros de treinamento apoiados pelo governo.",
-    sourceName: "Reuters",
-    sourceUrl: "https://www.investing.com/news/stock-market-news/china-slows-humanoid-robot-ipo-rush-as-hype-outruns-reality-4908236",
-    date: "2026-09-20",
-    content: `
-      <p>Reguladores de valores mobiliários da China vêm usando orientação informal — a chamada "window guidance" — para desacelerar uma onda de aberturas de capital de fabricantes de robôs humanoides, segundo a Reuters. Uma fonte descreveu os IPOs do setor como efetivamente congelados no momento, enquanto outra caracterizou a medida como uma desaceleração específica do setor, não uma proibição formal.</p>
-
-      <h2>O gatilho: a montanha-russa das ações da Unitree</h2>
-      <p>A fabricante Unitree Robotics levantou cerca de 6,1 bilhões de yuans (US$ 900 milhões) em agosto e viu suas ações dispararem mais de cinco vezes no primeiro dia de negociação em Xangai. Desde então, porém, o papel já caiu cerca de 55% em relação ao pico — uma reviravolta que colocou os reguladores em alerta sobre o ritmo acelerado de novas aberturas de capital no setor.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">O que os reguladores estão checando</span>
-        <p>Segundo a reportagem, parte relevante da receita de algumas fabricantes chinesas de robôs humanoides vem de máquinas que nunca chegam à fábrica de um cliente real — em vez disso, operam dentro de centros de treinamento apoiados pelo governo, repetindo tarefas para que engenheiros coletem dados. O regulador de valores mobiliários de Pequim agora quer provas de que essa receita representa demanda real antes de liberar novos IPOs.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>Pelo menos outras seis empresas chinesas de robótica humanoide, incluindo Deep Robotics, X Square Robot e AGIBOT, se preparam para abrir capital. O episódio reforça o esforço de Pequim em conter o entusiasmo dos investidores em um dos temas de investimento mais quentes do país, sem prejudicar uma tecnologia que o governo transformou em prioridade nacional — um equilíbrio que já discutimos em nossa cobertura sobre a expansão global de fabricantes chinesas como a <a href="/noticias/unix-ai-expande-globalmente-prepara-ipo-robos-humanoides">UniX AI</a>.</p>
-    `,
-  },
-  {
     slug: "google-gemini-3-8-flash-tts-clonagem-voz",
     title: "Google lança Gemini 3.8 Flash TTS, modelo de voz que clona timbres a partir de 30 segundos de áudio",
     author: "Bruno Danello",
@@ -1914,6 +1867,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O lançamento reforça uma tendência maior no setor: assistentes de IA deixando de ser apenas uma janela de chat para passar a atuar diretamente no sistema operacional do usuário, com permissão para tomar ações reais em nome dele — um movimento que já discutimos ao configurar assistentes pessoais de IA em nosso <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">guia de como configurar seu primeiro assistente de IA pessoal</a>. Para quem já usa esse tipo de ferramenta no dia a dia, o cuidado redobrado na hora de conceder permissões tende a se tornar ainda mais importante à medida que agentes ganham acesso a mais partes sensíveis do computador.</p>
+    `,
+  },
+  {
+    slug: "tribunal-nono-circuito-github-copilot-dmca-decisao",
+    title: "Tribunal dos EUA decide que Copilot e Codex criam obras novas, não cópias, em primeira decisão de apelação sobre IA generativa e DMCA",
+    author: "Bruno Danello",
+    summary:
+      "Um painel de três juízes do Nono Circuito manteve a rejeição de uma ação de programadores contra GitHub, Microsoft e OpenAI, considerando que o código gerado pelo Copilot e pelo Codex constitui obra nova, não uma cópia da qual se removeu informação de direitos autorais — duas alegações de quebra de contrato sobre licenças open-source seguem em curso.",
+    sourceName: "Haynes Boone",
+    sourceUrl: "https://www.haynesboone.com/news/alerts/ai-legal-news-ninth-circuit-rejects-dmca-section-1202(b)-theory",
+    date: "2026-09-16",
+    content: `
+      <p>Um painel de três juízes do Nono Circuito de Apelações dos Estados Unidos confirmou, em 16 de setembro, a rejeição de uma ação movida por programadores anônimos contra GitHub, Microsoft e OpenAI, na que é considerada a primeira decisão relevante de um tribunal de apelação sobre responsabilidade de ferramentas de IA generativa sob a Lei de Direitos Autorais do Milênio Digital (DMCA) dos Estados Unidos.</p>
+
+      <h2>O argumento dos programadores e a resposta do tribunal</h2>
+      <p>Os autores da ação, desenvolvedores que publicam código aberto, alegavam que o Copilot e o Codex reproduziam trechos do código deles sem atribuição, violando a seção 1202(b) da DMCA — dispositivo voltado a coibir a remoção de informação de gestão de direitos autorais de uma obra já existente. Segundo o juiz Eric Miller, relator do caso, essa seção da lei se aplica a atos contra informações vinculadas a uma obra que já existe, enquanto a reclamação descrevia uma ferramenta que cria "obras novas que nunca continham essa informação".</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">O que ficou de fora da decisão</span>
+        <p>O tribunal não decidiu o argumento mais amplo sobre os dados de treinamento em si, porque os próprios advogados dos programadores deixaram de sustentar essa tese perante o tribunal de origem — a corte também recusou considerar uma teoria alternativa sobre remoção de informação durante o treinamento, por entender que ela havia sido abandonada anteriormente no processo.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>A decisão não encerra o debate jurídico sobre uso de código protegido por direitos autorais no treinamento de IA — duas alegações de quebra de contrato sobre termos de licenças open-source seguem tramitando no tribunal de origem —, mas estabelece um precedente relevante ao distinguir entre gerar uma obra nova a partir de um modelo treinado e efetivamente copiar uma obra removendo sua atribuição original. Para desenvolvedores e empresas que usam ferramentas de programação assistida por IA no dia a dia, o caso reforça como a fronteira legal em torno de direitos autorais e IA generativa segue sendo definida processo a processo, sem uma resposta definitiva ainda sobre o uso de dados de treinamento.</p>
+    `,
+  },
+  {
+    slug: "higgsfield-video-ia-1-bilhao-receita-anualizada",
+    title: "Higgsfield se torna a primeira startup de vídeo por IA a atingir US$ 1 bilhão em receita anualizada",
+    author: "Bruno Danello",
+    summary:
+      "A receita sob contrato de clientes corporativos da Higgsfield cresceu dez vezes desde junho, puxada pela demanda de negócios que vendem direto ao consumidor e adotam vídeo gerado por IA para anúncios — a empresa foi fundada por um ex-executivo do Snap Inc.",
+    sourceName: "Bloomberg",
+    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-24/ai-video-startup-higgsfield-eyes-1-billion-in-12-month-sales",
+    date: "2026-09-24",
+    content: `
+      <p>A Higgsfield, startup de geração de vídeo por inteligência artificial fundada por um ex-executivo do Snap Inc., afirma estar no caminho para gerar mais de US$ 1 bilhão em receita anualizada com base no desempenho atual — tornando-se a primeira empresa do setor de vídeo gerado por IA a atingir essa marca.</p>
+
+      <h2>O que está puxando o crescimento</h2>
+      <p>Segundo o CEO Alex Mashrabov, o marco é impulsionado por forte demanda de negócios que vendem diretamente ao consumidor e cada vez mais adotam vídeo gerado por IA em suas campanhas publicitárias. A receita sob contrato vinda de clientes corporativos aumentou dez vezes desde junho, à medida que mais empresas passam a usar vídeo por IA como parte central da estratégia de marketing, em vez de apenas testar a tecnologia pontualmente.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Primeira do setor a chegar lá</span>
+        <p>Segundo a Bloomberg, a Higgsfield é a primeira startup dedicada especificamente à geração de vídeo por IA a atingir a marca de US$ 1 bilhão em receita anualizada — um sinal de que ferramentas de vídeo generativo já saíram da fase experimental e viraram parte real do orçamento de marketing de empresas de diferentes portes.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O crescimento acelerado reforça uma tendência que já discutimos em <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">IA para criadores de conteúdo: vídeos, textos e artes</a>: ferramentas de geração de vídeo deixaram de ser usadas só por criadores individuais e passaram a virar peça central de campanhas publicitárias de empresas maiores. Para quem já presta esse tipo de serviço, como já descrevemos em <a href="/artigos/como-ganhar-dinheiro-criando-videos-curtos-com-ia">como ganhar dinheiro criando vídeos curtos para redes sociais com IA</a>, o caso é mais um indício de que a demanda comercial por vídeo gerado por IA segue em trajetória de crescimento acelerado, não de um pico passageiro.</p>
     `,
   },
 ];
