@@ -1279,30 +1279,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "mantic-capta-25-milhoes-previsao-sobre-humana-ia",
-    title: "Startup britânica Mantic capta US$ 25 milhões para IA de previsão 'sobre-humana' depois de vencer competição de humanos",
-    author: "Bruno Danello",
-    summary:
-      "A Mantic, de Londres, superou previsores humanos em precisão no Metaculus Cup do verão de 2026 ao atribuir probabilidades a eventos políticos, econômicos e culturais. A rodada seed foi liderada pela Radical Ventures, com o fundo M12 da Microsoft, a Thinking Machines Lab e a Balderton Capital entre os investidores.",
-    sourceName: "Tech Startups",
-    sourceUrl: "https://techstartups.com/2026/09/18/british-ai-startup-mantic-raises-25m-to-build-superhuman-ai-forecasting-after-metaculus-win/",
-    date: "2026-09-18",
-    content: `
-      <p>A Mantic, startup britânica de inteligência artificial fundada em 2024 por Toby Shevlane e Ben Day, captou US$ 25 milhões em uma rodada seed liderada pela Radical Ventures. A empresa ganhou atenção do mercado depois de superar previsores humanos em precisão no Metaculus Cup do verão de 2026, torneio em que participantes atribuem probabilidades a eventos futuros de natureza política, econômica e cultural.</p>
-
-      <h2>Como a tecnologia funciona</h2>
-      <p>Em vez de treinar modelos do zero, a Mantic parte de modelos de fundação já poderosos e os especializa em previsão, ajustando-os com dados históricos de resultados reais e conjuntos de dados específicos do domínio — uma abordagem que a empresa descreve como capaz de gerar previsões "sobre-humanas" em cenários de incerteza.</p>
-
-      <div class="callout-box callout-tip">
-        <span class="callout-label">Quem está de olho nisso</span>
-        <p>Fundos de hedge e mesas de operação já demonstraram interesse direto nas previsões da Mantic — segundo um dos investidores da rodada, se a ferramenta realmente é sobre-humana como parece, dá para transformar isso em lucro de forma quase imediata no mercado financeiro.</p>
-      </div>
-
-      <h2>Além da Radical Ventures</h2>
-      <p>Participaram também da rodada o M12, braço de venture capital da Microsoft, a Thinking Machines Lab e a Balderton Capital, entre outros investidores. O caso reforça um padrão que já vimos em outras startups de IA aplicada a nichos específicos, como discutimos em nosso texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">ser especialista de nicho ou generalista em IA</a>: modelos de fundação genéricos, quando bem ajustados para um problema específico, podem superar tanto humanos especialistas quanto abordagens mais genéricas de IA.</p>
-    `,
-  },
-  {
     slug: "casa-branca-pede-openai-anthropic-segurar-modelos-reino-unido",
     title: "Casa Branca pede à OpenAI e à Anthropic para não compartilhar novos modelos com testadores do Reino Unido antes de revisão dos EUA",
     author: "Bruno Danello",
@@ -1492,33 +1468,6 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>O caso da DeepSeek mostra que mesmo modelos de peso aberto, historicamente vendidos como alternativa barata aos laboratórios ocidentais, conseguem sustentar aumentos de preço agressivos quando a demanda é forte o suficiente — um sinal de que a guerra de preços no setor de IA, que já discutimos no contexto do <a href="/noticias/openai-lanca-gpt-6-sol-luna-corta-precos-pela-metade">lançamento do GPT-6 Sol e Luna</a>, pode ter limites diferentes do que se imaginava, mesmo para empresas chinesas.</p>
-    `,
-  },
-  {
-    slug: "ia-quase-provoca-interceptacao-navio-chines-eua",
-    title: "Relatório de IA com erro quase levou militares dos EUA a interceptar navio chinês no Oriente Médio",
-    author: "Bruno Danello",
-    summary:
-      "Um analista das forças especiais americanas usou um chatbot para avaliar a carga de um navio chinês e depois transformou a avaliação num relatório de inteligência formal — que alegava, de forma equivocada, que o navio carregava componentes de um programa de armas nucleares, levando o Pentágono a se preparar para abordá-lo.",
-    sourceName: "CNN",
-    sourceUrl: "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-    date: "2026-09-18",
-    content: `
-      <p>Um analista de operações especiais das Forças Armadas dos Estados Unidos usou um chatbot de IA para avaliar informações sobre um navio chinês durante o conflito da primavera de 2026 com o Irã, e depois usou a própria IA novamente para transformar essa avaliação num relatório de inteligência formal — documento que circulou dentro das Forças Armadas e chegou a desencadear preparativos para interceptar o navio, segundo a CNN.</p>
-
-      <h2>O que o relatório afirmava</h2>
-      <p>O relatório alegava, de forma equivocada, que o navio transportava componentes ligados a um programa de armas nucleares. Com base nessa informação, os militares avançaram com planos de interceptação: integrantes armados das Forças Armadas se prepararam para abordar a embarcação, e aviões militares chegaram a decolar.</p>
-
-      <div class="callout-box callout-bad">
-        <span class="callout-label">Quase um incidente internacional grave</span>
-        <p>A operação só foi interrompida depois que oficiais revisaram o relatório e perceberam que o chatbot havia identificado a carga de forma incorreta. Uma fonte descreveu o relatório como "inteiramente falso" e disse que o episódio quase desencadeou um conflito.</p>
-      </div>
-
-      <h2>Como a IA entrou nesse processo</h2>
-      <p>Segundo a reportagem, o analista alimentou o chatbot com uma mistura de inteligência de fontes abertas e inteligência de sinais classificada sobre o navio. Não ficou claro se o profissional usou um chatbot comercial disponível publicamente ou um sistema governamental como o GenAI.mil.</p>
-
-      <h2>Por que isso importa</h2>
-      <p>O episódio ilustra, num cenário de altíssimo risco, um problema que já discutimos em nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramentas de IA com segurança</a>: modelos de IA ainda cometem erros factuais graves (as chamadas "alucinações"), e usá-los sem verificação humana rigorosa em contextos de alto risco — como inteligência militar — pode ter consequências muito além de um erro comum de produtividade.</p>
     `,
   },
   {
@@ -1902,6 +1851,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>No lançamento, o Agent Resilience já é compatível com o Amazon Bedrock AgentCore e o Amazon Bedrock Agents, com suporte a plataformas de agentes da Microsoft e do Google planejado para os próximos meses. O produto reforça uma tendência mais ampla no mercado de segurança: à medida que agentes de IA ganham autonomia para executar ações reais dentro de sistemas corporativos, cresce também a demanda por ferramentas específicas de proteção e recuperação desses agentes — um mercado até pouco tempo inexistente, hoje tratado como extensão natural da segurança de dados tradicional.</p>
+    `,
+  },
+  {
+    slug: "microsoft-relanca-copilot-super-app-agentes-autopilot",
+    title: "Microsoft relança o Copilot como um 'super app' com agentes de IA, incluindo o novo Autopilot",
+    author: "Bruno Danello",
+    summary:
+      "A nova versão une chat, ferramentas de produtividade e capacidades agênticas em três frentes — Home, Code e Autopilot —, com o Office in Copilot trazendo Word, Excel e PowerPoint direto para dentro do app e o Autopilot funcionando como um agente pessoal persistente que continua trabalhando mesmo quando o usuário não está online.",
+    sourceName: "Microsoft Blog",
+    sourceUrl: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+    date: "2026-09-25",
+    content: `
+      <p>A Microsoft relançou o Copilot como uma espécie de "super app" de inteligência artificial, reunindo em uma única interface o chat com IA, ferramentas de produtividade e capacidades agênticas voltadas tanto a usuários pessoais quanto corporativos. A nova versão chega estruturada em três frentes: Home, Code e Autopilot.</p>
+
+      <h2>O que muda em cada frente</h2>
+      <p>O Home une o chat tradicional do Copilot com o Cowork, além de trazer o "Office in Copilot" — acesso direto a recursos do Word, Excel e PowerPoint sem precisar sair do aplicativo. Já o Code permite criar aplicativos, painéis e fluxos de trabalho a partir de instruções em linguagem natural, sem exigir conhecimento de programação. A novidade mais ambiciosa é o Autopilot: um agente pessoal descrito como persistente e proativo, que continua executando tarefas mesmo quando o usuário está offline.</p>
+
+      <div class="callout-box callout-tip">
+        <span class="callout-label">Lançamento em etapas</span>
+        <p>Home e Code começam a chegar ao programa Frontier nas próximas semanas, enquanto o Autopilot vai para uma prévia privada apenas no fim do mês — ou seja, o recurso mais ambicioso da atualização ainda vai levar um tempo para chegar ao público em geral.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O relançamento reforça a aposta da Microsoft em transformar o Copilot de um simples assistente de chat em uma plataforma central de trabalho com IA — movimento que acompanha esforços parecidos de outras big techs em consolidar chat, produtividade e agentes autônomos numa única superfície, como discutimos em nosso texto sobre a <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">diferença entre agentes de IA e automações tradicionais</a>. Para quem já usa o Copilot no trabalho, a mudança sinaliza que tarefas hoje feitas manualmente devem passar cada vez mais para agentes que operam de forma contínua, e não apenas quando acionados diretamente pelo usuário.</p>
+    `,
+  },
+  {
+    slug: "sanders-casar-projeto-lei-banir-superinteligencia-ia",
+    title: "Sanders e Casar apresentam projeto de lei para banir 'superinteligência' de IA nos EUA, com pena de até 20 anos de prisão",
+    author: "Bruno Danello",
+    summary:
+      "O 'Ban Artificial Superintelligence Act' criaria um novo Departamento de Inteligência Artificial em nível de gabinete, pausaria o desenvolvimento de IA avançada até a agência estar em funcionamento e proibiria modelos que superem o desempenho cognitivo humano na maioria dos domínios — violações poderiam resultar em dissolução da empresa ou até 20 anos de prisão.",
+    sourceName: "Gabinete do Senador Bernie Sanders",
+    sourceUrl: "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+    date: "2026-09-23",
+    content: `
+      <p>O senador Bernie Sanders e o deputado Greg Casar apresentaram nesta semana o "Ban Artificial Superintelligence Act", projeto de lei que cria um Departamento de Inteligência Artificial em nível de gabinete e pausa o desenvolvimento de IA avançada até que essa nova agência reguladora federal esteja em pleno funcionamento. A proposta bane explicitamente modelos de "superinteligência" — definidos como sistemas de IA que superam o desempenho e a capacidade cognitiva humana na maioria dos domínios, ou que têm capacidade suficiente para destruir ou desempoderar a humanidade, incluindo derrubar o governo federal.</p>
+
+      <h2>O que a lei proíbe especificamente</h2>
+      <p>Além de mirar a "superinteligência" em si, o projeto também teria efeito imediato sobre outras capacidades consideradas perigosas, como o desenvolvimento de armas biológicas ou químicas por IA, e a chamada "auto-aperfeiçoamento recursivo" — quando um modelo de IA constrói versões mais avançadas de si mesmo sem intervenção humana direta.</p>
+
+      <div class="callout-box callout-bad">
+        <span class="callout-label">Penas pesadas para quem violar a lei</span>
+        <p>Segundo o texto, empresas que violarem a lei poderiam enfrentar o que os autores chamam de "pena de morte corporativa" — a dissolução forçada da empresa — ou executivos responsáveis poderiam ser presos por até 20 anos, penalidade comparável à prevista para o desenvolvimento ilegal de armas nucleares.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O projeto enfrenta obstáculos consideráveis num Congresso controlado pelos republicanos, que até agora têm tido dificuldade para avançar mesmo em regulamentações de IA bem menos abrangentes. Ainda assim, a proposta marca um dos posicionamentos mais extremos já apresentados formalmente no Legislativo americano sobre o tema, e reforça como a preocupação com riscos catastróficos ligados à IA — tema que já discutimos em nossa cobertura sobre <a href="/noticias/altman-amodei-conselho-seguranca-onu-riscos-ia">como líderes do setor vêm tratando esses riscos em fóruns como a ONU</a> — também ganha força dentro da política americana, ainda que por enquanto sem perspectiva realista de aprovação.</p>
     `,
   },
 ];
