@@ -16,7 +16,7 @@ const NEWS_DIR = resolve(ROOT, "content/news");
 
 // Artigos com data igual ou posterior a esta seguem o padrão editorial novo
 // (>= 10 links internos, >= 900 palavras, 3 keyPoints, FAQ). Os mais antigos só geram aviso.
-const STRICT_FROM_DATE = "2026-09-28";
+const STRICT_FROM_DATE = "2026-09-27";
 const MIN_INTERNAL_LINKS = 10;
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
