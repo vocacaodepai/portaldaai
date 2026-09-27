@@ -110,7 +110,12 @@ const organizationJsonLd = {
     width: 512,
     height: 512,
   },
-  founder: { "@type": "Person", name: author.name, url: `${site.url}${author.url}` },
+  founder: {
+    "@type": "Person",
+    name: author.name,
+    url: `${site.url}${author.url}`,
+    image: `${site.url}${author.image}`,
+  },
   foundingDate: String(site.foundingYear),
   email: author.email,
   inLanguage: "pt-BR",

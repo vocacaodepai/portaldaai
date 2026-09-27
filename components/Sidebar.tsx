@@ -69,7 +69,18 @@ export function AuthorMini() {
   return (
     <section className="rounded-xl border border-border bg-surface p-5">
       <p className="label-mono text-muted">Quem escreve</p>
-      <p className="mt-2 font-display text-base font-semibold">{author.name}</p>
+      <div className="mt-3 flex items-center gap-3">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={author.imageSmall}
+          alt={`Foto de ${author.name}`}
+          width={48}
+          height={48}
+          loading="lazy"
+          className="h-12 w-12 rounded-lg border border-border object-cover"
+        />
+        <p className="font-display text-base font-semibold">{author.name}</p>
+      </div>
       <p className="mt-1 text-sm leading-relaxed text-muted">{author.shortBio}</p>
       <Link href={author.url} className="mt-3 inline-block font-mono text-xs font-medium text-accent hover:underline">
         Conheça o editor →

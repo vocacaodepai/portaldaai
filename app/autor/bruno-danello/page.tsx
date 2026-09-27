@@ -22,10 +22,6 @@ export default function AutorPage() {
   const all = sortedArticles();
   const recent = all.slice(0, 12);
   const counts = countByCategory();
-  const initials = author.name
-    .split(" ")
-    .map((n) => n[0])
-    .join("");
 
   const profile = {
     "@context": "https://schema.org",
@@ -40,6 +36,7 @@ export default function AutorPage() {
       name: author.name,
       url: absoluteUrl(author.url),
       jobTitle: author.role,
+      image: absoluteUrl(author.image),
       description: author.bio,
       email: author.email,
       worksFor: { "@id": `${site.url}/#organization` },
@@ -57,12 +54,15 @@ export default function AutorPage() {
       />
       <Container className="py-10 sm:py-14">
         <header className="grid gap-6 sm:grid-cols-[auto_1fr] sm:items-start sm:gap-8">
-          <div
-            className="flex h-24 w-24 items-center justify-center rounded-xl bg-gradient-to-br from-accent to-accent-2 font-display text-3xl font-bold text-white sm:h-32 sm:w-32 sm:text-4xl"
-            aria-hidden="true"
-          >
-            {initials}
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={author.image}
+            alt={`Foto de ${author.name}`}
+            width={160}
+            height={160}
+            fetchPriority="high"
+            className="h-24 w-24 rounded-xl border border-border object-cover sm:h-40 sm:w-40"
+          />
           <div className="max-w-3xl">
             <p className="label-mono text-accent">Autor</p>
             <h1 className="mt-2 font-display text-3xl font-bold leading-[1.1] tracking-tight sm:text-4xl lg:text-5xl">

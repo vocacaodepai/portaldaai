@@ -7,4 +7,7 @@ export const author = {
     "Criador do Portal da AI. Escreve diariamente sobre como usar e monetizar inteligência artificial na prática.",
   email: "contato@portaldaai.com.br",
   url: "/autor/bruno-danello",
+  /** Foto oficial (800x800) e miniatura (256x256), em public/autor. */
+  image: "/autor/bruno-danello.jpg",
+  imageSmall: "/autor/bruno-danello-256.jpg",
 } as const;

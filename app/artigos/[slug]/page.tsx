@@ -95,7 +95,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
   const cover = await getCoverPhoto(article.imageQuery, article.seed);
 
   const authorLd = isHouseAuthor
-    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url) }
+    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url), image: absoluteUrl(author.image) }
     : { "@type": "Person", name: authorName };
 
   const blogPosting = {
