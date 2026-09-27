@@ -2082,7 +2082,7 @@ export const articles: Article[] = [
       <p>Evitar completamente a tecnologia que "tirou seu emprego" por ressentimento é compreensível, mas raramente ajuda na recolocação. Entender minimamente como ela funciona costuma abrir mais portas do que evitá-la.</p>
 
       <h2>Isso conecta com o que já vimos</h2>
-      <p>Como discutimos em <a href="/artigos/os-empregos-que-a-ia-vai-transformar-como-se-preparar">os empregos que a IA vai transformar</a>, mudança de função nem sempre é escolha — mas o que você faz depois dela ainda é. Focar no que se pode controlar é o primeiro passo prático da recolocação.</p>
+      <p>Como discutimos em <a href="/artigos/empregos-que-a-ia-vai-transformar-como-se-preparar">os empregos que a IA vai transformar</a>, mudança de função nem sempre é escolha — mas o que você faz depois dela ainda é. Focar no que se pode controlar é o primeiro passo prático da recolocação.</p>
     `,
   },
   {
