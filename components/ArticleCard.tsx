@@ -152,6 +152,7 @@ export function ArticleCard({
           className="h-full w-full"
           priority={priority}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          showCredit={false}
           label={label}
         />
         <span className="label-mono absolute left-3 top-3 rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">

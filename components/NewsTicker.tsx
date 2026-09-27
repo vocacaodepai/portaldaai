@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { sortedNews } from "@/lib/news";
+import { NewsTickerShell } from "./NewsTickerShell";
 
 function shortDate(iso: string) {
   return new Date(iso + "T12:00:00").toLocaleDateString("pt-BR", {
@@ -24,7 +25,7 @@ export function NewsTicker({ limit = 8 }: { limit?: number }) {
           <span className="pulse-dot inline-block h-1.5 w-1.5 rounded-full bg-success" aria-hidden="true" />
           Últimas
         </Link>
-        <div className="ticker relative flex-1 overflow-hidden" aria-label="Últimas notícias">
+        <NewsTickerShell>
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-8 bg-gradient-to-r from-ink to-transparent" />
           <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-8 bg-gradient-to-l from-ink to-transparent" />
           <ul className="ticker-track flex w-max items-center gap-8 whitespace-nowrap">
@@ -44,7 +45,7 @@ export function NewsTicker({ limit = 8 }: { limit?: number }) {
               </li>
             ))}
           </ul>
-        </div>
+        </NewsTickerShell>
       </div>
     </div>
   );

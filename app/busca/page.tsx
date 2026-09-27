@@ -1,3 +1,4 @@
+import { alternatesFor } from "@/lib/seo";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Container } from "@/components/Container";
@@ -6,7 +7,7 @@ import { SearchPage } from "@/components/SearchPage";
 export const metadata: Metadata = {
   title: "Buscar",
   description: "Busque artigos e notícias sobre inteligência artificial no Portal da AI.",
-  alternates: { canonical: "/busca" },
+  alternates: alternatesFor("/busca"),
   robots: { index: false, follow: true },
 };
 

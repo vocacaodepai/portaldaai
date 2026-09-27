@@ -16,9 +16,10 @@ export function FeaturedList({
   const items = getPopularArticles(limit + exclude.length)
     .filter((a) => !exclude.includes(a.slug))
     .slice(0, limit);
+  const headingId = `featured-${title.normalize("NFD").replace(/[^a-zA-Z0-9]+/g, "-").toLowerCase()}`;
   return (
-    <section aria-labelledby="featured-list" className="rounded-xl border border-border bg-surface p-5">
-      <h2 id="featured-list" className="label-mono text-muted">
+    <section aria-labelledby={headingId} className="rounded-xl border border-border bg-surface p-5">
+      <h2 id={headingId} className="label-mono text-muted">
         {title}
       </h2>
       <ol className="mt-3 divide-y divide-border">

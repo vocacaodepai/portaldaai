@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { hrefFor, searchItems, type SearchItem } from "@/lib/search";
+import { withBasePath } from "@/lib/seo";
 
 export function SearchPage() {
   const params = useSearchParams();
@@ -19,7 +20,7 @@ export function SearchPage() {
 
   useEffect(() => {
     let active = true;
-    fetch("/search-index.json")
+    fetch(withBasePath("/search-index.json"))
       .then((r) => (r.ok ? r.json() : { items: [] }))
       .then((data: { items?: SearchItem[] }) => {
         if (active) setItems(Array.isArray(data.items) ? data.items : []);
@@ -56,7 +57,7 @@ export function SearchPage() {
         />
         <button
           type="submit"
-          className="h-12 shrink-0 rounded-lg bg-accent px-5 text-sm font-semibold text-white hover:opacity-90"
+          className="h-12 shrink-0 rounded-lg bg-accent px-5 text-sm font-semibold text-accent-foreground hover:opacity-90"
         >
           Buscar
         </button>

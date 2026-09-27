@@ -5,7 +5,49 @@
  * (scripts/check-content.mjs), então aqui só se organiza, não se sanitiza.
  */
 
+import sanitizeHtml from "sanitize-html";
+
 export type TocEntry = { id: string; text: string; level: 2 | 3 };
+
+/** Lista de tags e atributos permitidos (a mesma do scripts/check-content.mjs). */
+const SANITIZE_OPTIONS: sanitizeHtml.IOptions = {
+  allowedTags: [
+    "p", "h2", "h3", "h4", "ul", "ol", "li", "a", "strong", "em", "b", "i", "u",
+    "br", "hr", "blockquote", "code", "pre", "table", "thead", "tbody", "tr",
+    "th", "td", "div", "span", "img", "figure", "figcaption", "sup", "sub",
+    "small", "mark", "del", "ins", "dl", "dt", "dd", "cite", "abbr", "kbd",
+  ],
+  allowedAttributes: {
+    a: ["href", "title", "rel", "target"],
+    img: ["src", "alt", "width", "height", "loading"],
+    th: ["colspan", "rowspan", "scope"],
+    td: ["colspan", "rowspan"],
+    div: ["class"],
+    span: ["class"],
+    ul: ["class"],
+    ol: ["class", "start"],
+    abbr: ["title"],
+  },
+  allowedSchemes: ["https", "mailto"],
+  allowedSchemesAppliedToAttributes: ["href", "src"],
+  allowProtocolRelative: false,
+  disallowedTagsMode: "discard",
+  allowedClasses: {
+    div: ["callout-box", "callout-ok", "callout-warn", "callout-bad", "callout-tip", "table-wrap"],
+    span: ["callout-label"],
+    ul: ["checklist"],
+    ol: ["checklist"],
+  },
+};
+
+/**
+ * Sanitiza o HTML editorial antes de renderizar. O guarda-corpo em build já
+ * barra conteúdo fora do padrão; isto é a segunda camada, que vale mesmo se
+ * alguém escrever HTML à mão fora das rotinas.
+ */
+export function sanitizeContent(html: string): string {
+  return sanitizeHtml(html, SANITIZE_OPTIONS);
+}
 
 export function slugifyHeading(text: string): string {
   return text
@@ -52,10 +94,11 @@ export type PreparedHtml = {
  * - divide o HTML antes do 3º e do 6º <h2> para inserir anúncios (se `adsAfterH2` > 0)
  */
 export function prepareArticleHtml(html: string, { adBreaks = [2, 5] as number[] } = {}): PreparedHtml {
+  // (o conteúdo passa por sanitizeContent antes de qualquer transformação)
   const toc: TocEntry[] = [];
   const used = new Set<string>();
 
-  let out = html.replace(/<(h2|h3)\b([^>]*)>([\s\S]*?)<\/\1>/gi, (_m, tag: string, attrs: string, inner: string) => {
+  let out = sanitizeContent(html).replace(/<(h2|h3)\b([^>]*)>([\s\S]*?)<\/\1>/gi, (_m, tag: string, attrs: string, inner: string) => {
     const text = stripTags(inner);
     let id = slugifyHeading(text);
     let i = 2;

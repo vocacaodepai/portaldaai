@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useConsent } from "@/lib/consent";
 
 declare global {
   interface Window {
@@ -29,19 +30,23 @@ export function AdUnit({
   className?: string;
 }) {
   const pushed = useRef(false);
+  const consent = useConsent();
 
   useEffect(() => {
-    if (pushed.current) return;
+    if (!consent || pushed.current) return;
     pushed.current = true;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {
       // bloqueador de anúncios ou script ainda não carregado: ignora
     }
-  }, []);
+  }, [consent]);
+
+  // Antes da escolha de cookies o script nem carrega: não reserva espaço nem rotula.
+  if (!consent) return null;
 
   return (
-    <div
+    <aside
       className={`w-full bg-surface-2/60 ${className}`}
       style={{ minHeight: MIN_HEIGHT[format] + 18 }}
       aria-label="Publicidade"
@@ -56,6 +61,6 @@ export function AdUnit({
         data-ad-layout={format === "in-article" ? "in-article" : undefined}
         data-full-width-responsive="true"
       />
-    </div>
+    </aside>
   );
 }

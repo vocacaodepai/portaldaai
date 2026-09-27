@@ -27,7 +27,7 @@ export function Footer() {
             </a>
           </p>
           <div className="mt-5 flex items-center gap-3">
-            <a
+            <Link
               href="/feed.xml"
               className="inline-flex h-9 items-center gap-2 rounded-lg border border-border px-3 text-xs font-medium text-muted transition hover:border-accent/50 hover:text-foreground"
             >
@@ -36,7 +36,7 @@ export function Footer() {
                 <path d="M3 10a11 11 0 0 1 11 11h-3a8 8 0 0 0-8-8v-3zm0-7a18 18 0 0 1 18 18h-3A15 15 0 0 0 3 6V3z" />
               </svg>
               RSS
-            </a>
+            </Link>
             <ThemeToggle />
           </div>
         </div>

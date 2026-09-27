@@ -18,6 +18,7 @@
   --danger: #dc2626;
   --ink: #0b0f17;
   --ink-foreground: #e8ecf5;
+  --accent-foreground: #ffffff;
   --ring: color-mix(in srgb, var(--accent) 55%, transparent);
   color-scheme: light;
 }
@@ -36,6 +37,7 @@
     --success: #4ade80;
     --warn: #fbbf24;
     --danger: #f87171;
+    --accent-foreground: #0b0f17;
     color-scheme: dark;
   }
 }
@@ -53,6 +55,7 @@
   --success: #4ade80;
   --warn: #fbbf24;
   --danger: #f87171;
+  --accent-foreground: #0b0f17;
   color-scheme: dark;
 }
 
@@ -64,6 +67,7 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-accent-2: var(--accent-2);
   --color-success: var(--success);
   --color-warn: var(--warn);
@@ -98,7 +102,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-foreground);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -123,7 +127,7 @@ body {
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-foreground);
   font-size: 0.875rem;
   font-weight: 600;
 }
@@ -188,7 +192,8 @@ body {
   animation: ticker 70s linear infinite;
 }
 .ticker:hover .ticker-track,
-.ticker:focus-within .ticker-track {
+.ticker:focus-within .ticker-track,
+.ticker[data-paused] .ticker-track {
   animation-play-state: paused;
 }
 @media (prefers-reduced-motion: reduce) {

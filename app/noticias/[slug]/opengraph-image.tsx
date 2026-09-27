@@ -5,6 +5,7 @@ import { formatDate } from "@/lib/seo";
 export const alt = "Capa da notícia no Portal da AI";
 export const size = OG_SIZE;
 export const contentType = "image/png";
+export const dynamic = "force-static";
 
 export function generateStaticParams() {
   return news.map((n) => ({ slug: n.slug }));

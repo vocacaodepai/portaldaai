@@ -62,6 +62,7 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  env: { NEXT_PUBLIC_BASE_PATH: isStaticExport ? `/${repoName}` : "" },
   poweredByHeader: false,
   images: { unoptimized: true },
   ...(isStaticExport

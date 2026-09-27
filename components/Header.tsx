@@ -49,7 +49,6 @@ export function Header() {
             <button
               type="button"
               className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground group-focus-within:text-foreground"
-              aria-haspopup="true"
             >
               Categorias
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -87,7 +86,7 @@ export function Header() {
           <ThemeToggle className="hidden lg:inline-flex" />
           <Link
             href="/categoria/iniciantes"
-            className="hidden h-9 items-center rounded-lg bg-accent px-3.5 text-sm font-semibold text-white transition hover:opacity-90 lg:inline-flex"
+            className="hidden h-9 items-center rounded-lg bg-accent px-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90 lg:inline-flex"
           >
             Comece aqui
           </Link>

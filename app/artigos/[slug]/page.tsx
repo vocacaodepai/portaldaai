@@ -26,7 +26,7 @@ import { faqJsonLd, parseOffer } from "@/components/article/schema";
 import { articles, getArticleBySlug, getCategory, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml, tocH2 } from "@/lib/html";
-import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title,
     description,
-    alternates: { canonical: path },
+    alternates: alternatesFor(path),
     openGraph: {
       type: "article",
       url: absoluteUrl(path),
@@ -297,7 +297,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
       <Container className="mt-14 pb-20">
         <AdSlot format="leaderboard" className="mb-12" />
         {related.length > 0 && (
-          <section aria-labelledby="continue-lendo">
+          <section aria-label="Continue lendo">
             <SectionHeading
               label={label}
               title="Continue lendo"

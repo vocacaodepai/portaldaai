@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { hrefFor, searchItems, type SearchItem } from "@/lib/search";
+import { withBasePath } from "@/lib/seo";
 
 let cache: SearchItem[] | null = null;
 let pending: Promise<SearchItem[]> | null = null;
@@ -10,7 +11,7 @@ let pending: Promise<SearchItem[]> | null = null;
 async function loadIndex(): Promise<SearchItem[]> {
   if (cache) return cache;
   if (!pending) {
-    pending = fetch("/search-index.json")
+    pending = fetch(withBasePath("/search-index.json"))
       .then((r) => (r.ok ? r.json() : { items: [] }))
       .then((data: { items?: SearchItem[] }) => {
         cache = Array.isArray(data.items) ? data.items : [];

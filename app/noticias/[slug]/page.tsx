@@ -17,7 +17,7 @@ import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml } from "@/lib/html";
 import { getNewsBySlug, getRelatedNews, news } from "@/lib/news";
-import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, relativeDay } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title: item.title,
     description,
-    alternates: { canonical: path },
+    alternates: alternatesFor(path),
     openGraph: {
       type: "article",
       url: absoluteUrl(path),

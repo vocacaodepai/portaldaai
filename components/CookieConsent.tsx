@@ -65,7 +65,7 @@ export function CookieConsent({ enabled }: { enabled: boolean }) {
           <button
             type="button"
             onClick={() => choose(true)}
-            className="h-9 rounded-lg bg-accent px-3.5 text-sm font-semibold text-white transition hover:opacity-90"
+            className="h-9 rounded-lg bg-accent px-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
           >
             Aceitar
           </button>

@@ -20,7 +20,7 @@ import {
   sortedArticles,
 } from "@/lib/articles";
 import { news, sortedNews } from "@/lib/news";
-import { absoluteUrl, metaDescription, safeJsonLd } from "@/lib/seo";
+import { absoluteUrl, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
 
 const HOME_TITLE = "Portal da AI: inteligência artificial simples, prática e lucrativa";
 const HOME_DESCRIPTION = metaDescription(site.description);
@@ -28,7 +28,7 @@ const HOME_DESCRIPTION = metaDescription(site.description);
 export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },
   description: HOME_DESCRIPTION,
-  alternates: { canonical: "/" },
+  alternates: alternatesFor("/"),
   openGraph: {
     type: "website",
     url: site.url,
@@ -217,7 +217,7 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   href="/categoria/iniciantes"
-                  className="inline-flex h-11 items-center rounded-lg bg-accent px-5 text-sm font-semibold text-white transition hover:opacity-90"
+                  className="inline-flex h-11 items-center rounded-lg bg-accent px-5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
                 >
                   Comece pelo guia de iniciantes
                 </Link>

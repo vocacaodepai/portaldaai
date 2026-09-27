@@ -10,6 +10,21 @@ export function safeJsonLd(data: unknown): string {
     .replace(/\u2029/g, "\\u2029");
 }
 
+/** Prefixo de caminho (só no export estático do GitHub Pages). */
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+/** Caminho com o basePath, para fetch/manifest (o <Link> já faz isso sozinho). */
+export function withBasePath(path: string): string {
+  return `${BASE_PATH}${path}`;
+}
+
+export const FEED_TYPES = { "application/rss+xml": `${site.url}/feed.xml` } as const;
+
+/** alternates de metadata com canonical próprio e o link do RSS em toda página. */
+export function alternatesFor(path: string) {
+  return { canonical: path, types: FEED_TYPES };
+}
+
 /** URL absoluta do site a partir de um caminho. */
 export function absoluteUrl(path: string): string {
   if (/^https?:\/\//.test(path)) return path;

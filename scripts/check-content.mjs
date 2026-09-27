@@ -43,7 +43,11 @@ const FORBIDDEN = [
   { re: /<\s*base\b/i, label: "<base>" },
   { re: /<\s*svg\b/i, label: "<svg> inline" },
   { re: /<\s*math\b/i, label: "<math>" },
-  { re: /\son[a-z]+\s*=/i, label: "atributo on*= (handler inline)" },
+  { re: /(?:^|[\s"'/])on[a-z]+\s*=/i, label: "atributo on*= (handler inline)" },
+  { re: /<[a-z][a-z0-9]*\b[^>]*?\s[a-z:-]+\s*=\s*[^"'\s>]/i, label: "atributo sem aspas (use sempre aspas duplas)" },
+  { re: /<[a-z][a-z0-9]*\/[a-z]/i, label: "barra colada em atributo (<img/src=...)" },
+  { re: /&(?:#x?[0-9a-f]+|[a-z]+);?\s*[a-z]*:/i, label: "entidade HTML formando esquema de URL" },
+  { re: /\b(?:srcset|ping|formaction|xlink:href|dynsrc)\s*=/i, label: "atributo perigoso" },
   { re: /javascript\s*:/i, label: "javascript: em URL" },
   { re: /vbscript\s*:/i, label: "vbscript: em URL" },
   { re: /data\s*:\s*text\/html/i, label: "data:text/html" },
@@ -69,8 +73,18 @@ function readField(block, name) {
 }
 
 function readContent(block) {
-  const m = /\n\s*content:\s*`([\s\S]*?)`/.exec(block);
+  // Respeita crase escapada; o escape em si é rejeitado depois (padrão editorial: nada de crase).
+  const m = /\n\s*content:\s*`((?:\\[\s\S]|[^`\\])*)`/.exec(block);
   return m ? m[1] : "";
+}
+
+function decodeEntities(text) {
+  return text
+    .replace(/&#x([0-9a-f]+);?/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);?/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&colon;/gi, ":")
+    .replace(/&tab;|&newline;/gi, "")
+    .replace(/&amp;/gi, "&");
 }
 
 function extractArticles() {
@@ -162,7 +176,8 @@ function check() {
 
   for (const it of [...articles, ...news]) {
     const where = `${it.kind}/${it.slug}`;
-    const strict = it.kind === "artigos" && it.date >= STRICT_FROM_DATE;
+    const strict =
+      it.kind === "artigos" && (it.date >= STRICT_FROM_DATE || (it.updated && it.updated >= STRICT_FROM_DATE));
 
     if (!slugRe.test(it.slug)) {
       errors.push(`${where}: slug com caracteres inválidos (use só a-z, 0-9 e hífen, sem acentos)`);
@@ -196,8 +211,17 @@ function check() {
     }
     if (!it.content) continue;
 
+    if (/\\/.test(it.content)) errors.push(`${where}: barra invertida/crase escapada dentro de content (não use crase nem \\ no HTML)`);
+    const decoded = decodeEntities(it.content);
     for (const { re, label } of FORBIDDEN) {
-      if (re.test(it.content)) errors.push(`${where}: HTML proibido (${label})`);
+      if (re.test(it.content) || re.test(decoded)) errors.push(`${where}: HTML proibido (${label})`);
+    }
+    // Travessão: proibido pelo padrão editorial (marca de texto de máquina).
+    const editorial = [it.title, it.excerpt ?? "", it.summary ?? "", it.content].join("\n");
+    if (/—/.test(editorial)) {
+      const msg = `${where}: travessão (—) no texto; use dois-pontos, vírgula, parênteses ou ponto`;
+      if (strict || (it.kind === "noticias" && it.date >= STRICT_FROM_DATE)) errors.push(msg);
+      else warnings.push(msg);
     }
 
     const tagRe = /<\s*\/?\s*([a-zA-Z][a-zA-Z0-9]*)\b/g;

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { site } from "@/lib/articles";
-import { absoluteUrl, metaDescription } from "@/lib/seo";
+import { absoluteUrl, metaDescription, alternatesFor } from "@/lib/seo";
 
 /**
  * Metadata completo de uma página de listagem: título (o layout aplica o
@@ -22,7 +22,7 @@ export function listingMetadata({
   return {
     title,
     description: desc,
-    alternates: { canonical: path },
+    alternates: alternatesFor(path),
     openGraph: {
       type,
       url: absoluteUrl(path),
