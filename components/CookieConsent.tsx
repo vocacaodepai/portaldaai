@@ -47,8 +47,8 @@ export function CookieConsent({ enabled }: { enabled: boolean }) {
     >
       <div className="mx-auto flex max-w-3xl flex-col gap-3 rounded-xl border border-border bg-surface p-4 text-sm shadow-2xl sm:flex-row sm:items-center sm:gap-5">
         <p className="flex-1 leading-relaxed text-foreground">
-          Usamos cookies para medir audiência e exibir anúncios do Google AdSense. Você pode
-          aceitar todos ou manter só os essenciais. Detalhes na{" "}
+          Usamos cookies do Google Analytics para medir audiência e, quando houver anúncios, do
+          Google AdSense. Você pode aceitar todos ou manter só os essenciais. Detalhes na{" "}
           <Link href="/politica-de-privacidade" className="font-medium text-accent underline">
             Política de Privacidade
           </Link>

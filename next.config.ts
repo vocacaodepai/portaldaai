@@ -8,6 +8,10 @@ const repoName = "portaldaai";
 // Domínios que o Google AdSense e o consentimento do Google usam. Sem eles na
 // CSP os anúncios quebram em silêncio depois da aprovação.
 const googleAds = [
+  // Google Analytics 4 (gtag) e Consent Mode
+  "https://www.googletagmanager.com",
+  "https://*.google-analytics.com",
+  "https://*.analytics.google.com",
   "https://pagead2.googlesyndication.com",
   "https://*.googlesyndication.com",
   "https://*.doubleclick.net",
