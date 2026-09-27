@@ -1,33 +1,81 @@
 import Link from "next/link";
 import { categories, site } from "@/lib/articles";
+import { author } from "@/lib/author";
+import { Logo } from "./Logo";
+import { ThemeToggle } from "./ThemeToggle";
+import { CookiePreferencesButton } from "./CookiePreferencesButton";
+import { INSTITUTIONAL_NAV } from "./Header";
+
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 
 export function Footer() {
+  const year = new Date().getFullYear();
   return (
-    <footer className="border-t border-border bg-surface/40">
-      <div className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-8 px-5 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
-        <div className="col-span-2">
-          <Link href="/" className="flex items-center gap-2.5">
-            <span className="flex h-7 w-7 items-center justify-center rounded-full border border-foreground/15 text-[11px] font-semibold tracking-tight">
-              AI
-            </span>
-            <span className="font-display text-[17px] font-semibold tracking-tight">
-              Portal da AI
-            </span>
-          </Link>
-          <p className="mt-3 max-w-sm text-sm text-muted">{site.description}</p>
+    <footer className="mt-16 border-t border-border bg-surface">
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-2 gap-x-8 gap-y-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:grid-cols-5 lg:px-8">
+        <div className="col-span-2 lg:col-span-2">
+          <Logo id="footer" />
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">{site.description}</p>
+          <p className="mt-4 text-sm text-muted">
+            Editado por{" "}
+            <Link href={author.url} className="font-medium text-foreground hover:text-accent">
+              {author.name}
+            </Link>
+            . Fale com a gente:{" "}
+            <a href={`mailto:${author.email}`} className="text-foreground hover:text-accent">
+              {author.email}
+            </a>
+          </p>
+          <div className="mt-5 flex items-center gap-3">
+            <Link
+              href="/feed.xml"
+              className="inline-flex h-9 items-center gap-2 rounded-lg border border-border px-3 text-xs font-medium text-muted transition hover:border-accent/50 hover:text-foreground"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <circle cx="5" cy="19" r="2" />
+                <path d="M3 10a11 11 0 0 1 11 11h-3a8 8 0 0 0-8-8v-3zm0-7a18 18 0 0 1 18 18h-3A15 15 0 0 0 3 6V3z" />
+              </svg>
+              RSS
+            </Link>
+            <ThemeToggle />
+          </div>
         </div>
 
         <div>
-          <h4 className="mb-3 text-sm font-semibold text-foreground">Categorias</h4>
-          <ul className="space-y-2 text-sm text-muted">
+          <h4 className="label-mono text-muted">Conteúdo</h4>
+          <ul className="mt-3 space-y-2 text-sm">
             <li>
-              <Link href="/noticias" className="transition hover:text-foreground">
-                Notícias
+              <Link href="/noticias" className="text-foreground/90 transition hover:text-accent">
+                Notícias de IA
               </Link>
             </li>
+            <li>
+              <Link href="/artigos" className="text-foreground/90 transition hover:text-accent">
+                Todos os artigos
+              </Link>
+            </li>
+            <li>
+              <Link href="/reviews" className="text-foreground/90 transition hover:text-accent">
+                Reviews de ferramentas
+              </Link>
+            </li>
+            <li>
+              <Link href="/busca" className="text-foreground/90 transition hover:text-accent">
+                Buscar no site
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="label-mono text-muted">Categorias</h4>
+          <ul className="mt-3 space-y-2 text-sm">
             {categories.map((c) => (
               <li key={c.slug}>
-                <Link href={`/categoria/${c.slug}`} className="transition hover:text-foreground">
+                <Link
+                  href={`/categoria/${c.slug}`}
+                  className="text-foreground/90 transition hover:text-accent"
+                >
                   {c.label}
                 </Link>
               </li>
@@ -36,36 +84,31 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-3 text-sm font-semibold text-foreground">Institucional</h4>
-          <ul className="space-y-2 text-sm text-muted">
-            <li>
-              <Link href="/sobre" className="transition hover:text-foreground">
-                Sobre o Portal da AI
-              </Link>
-            </li>
-            <li>
-              <Link href="/contato" className="transition hover:text-foreground">
-                Contato
-              </Link>
-            </li>
-            <li>
-              <Link href="/politica-de-privacidade" className="transition hover:text-foreground">
-                Política de Privacidade
-              </Link>
-            </li>
-            <li>
-              <Link href="/termos-de-uso" className="transition hover:text-foreground">
-                Termos de Uso
-              </Link>
-            </li>
+          <h4 className="label-mono text-muted">Institucional</h4>
+          <ul className="mt-3 space-y-2 text-sm">
+            {INSTITUTIONAL_NAV.map((i) => (
+              <li key={i.href}>
+                <Link href={i.href} className="text-foreground/90 transition hover:text-accent">
+                  {i.label}
+                </Link>
+              </li>
+            ))}
+            {ADSENSE_CLIENT && (
+              <li>
+                <CookiePreferencesButton className="text-foreground/90 transition hover:text-accent" />
+              </li>
+            )}
           </ul>
         </div>
       </div>
 
       <div className="border-t border-border">
-        <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-2 px-5 py-6 text-xs text-muted sm:flex-row sm:px-6 lg:px-8">
-          <p>© {new Date().getFullYear()} Portal da AI. Todos os direitos reservados.</p>
-          <p>Feito para ajudar pessoas reais a prosperarem com inteligência artificial.</p>
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+          <p>
+            © {year} {site.name}. Todos os direitos reservados. Conteúdo original em português do
+            Brasil.
+          </p>
+          <p className="font-mono text-[11px]">Feito no Brasil · portaldaai.com.br</p>
         </div>
       </div>
     </footer>

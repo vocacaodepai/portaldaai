@@ -1,136 +1,253 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Container } from "@/components/Container";
-import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
-import { categories, sortedArticles } from "@/lib/articles";
-import { sortedNews } from "@/lib/news";
+import { ArticleCard } from "@/components/ArticleCard";
+import { CategoryChips } from "@/components/CategoryChips";
+import { Container } from "@/components/Container";
+import { NewsList } from "@/components/NewsRow";
+import { NewsTicker } from "@/components/NewsTicker";
+import { SectionHeading } from "@/components/SectionHeading";
+import { FeaturedList, Sidebar } from "@/components/Sidebar";
+import {
+  type Article,
+  type Category,
+  articles,
+  categories,
+  getArticlesByCategory,
+  getPopularArticles,
+  getReviews,
+  site,
+  sortedArticles,
+} from "@/lib/articles";
+import { news, sortedNews } from "@/lib/news";
+import { absoluteUrl, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
 
-function formatNewsDate(iso: string) {
-  return new Date(iso + "T12:00:00").toLocaleDateString("pt-BR", {
-    day: "2-digit",
-    month: "short",
-  });
+const HOME_TITLE = "Portal da AI: inteligência artificial simples, prática e lucrativa";
+const HOME_DESCRIPTION = metaDescription(site.description);
+
+export const metadata: Metadata = {
+  title: { absolute: HOME_TITLE },
+  description: HOME_DESCRIPTION,
+  alternates: alternatesFor("/"),
+  openGraph: {
+    type: "website",
+    url: site.url,
+    siteName: site.name,
+    locale: site.locale,
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
+  },
+};
+
+/** Títulos curtos das seções por categoria (a description completa é longa demais para um título). */
+const CATEGORY_TITLES: Record<Category, string> = {
+  iniciantes: "Primeiros passos com IA",
+  monetizacao: "Ganhe dinheiro com IA",
+  negocios: "IA no seu negócio",
+  ferramentas: "Ferramentas que valem o tempo",
+  carreira: "IA na sua carreira",
+  futuro: "O trabalho que vem aí",
+};
+
+/** Quantos artigos por bloco de categoria e por seção de reviews. */
+const PER_SECTION = 3;
+
+/** Mesma seleção que a FeaturedList faz, para o hero e a sidebar não repetirem itens. */
+function featuredSlugs(exclude: string[], limit = 5): string[] {
+  return getPopularArticles(limit + exclude.length)
+    .filter((a) => !exclude.includes(a.slug))
+    .slice(0, limit)
+    .map((a) => a.slug);
+}
+
+function CategoryBlock({ category, items }: { category: (typeof categories)[number]; items: Article[] }) {
+  return (
+    <section aria-label={category.label}>
+      <SectionHeading
+        label={category.label}
+        title={CATEGORY_TITLES[category.slug] ?? category.label}
+        href={`/categoria/${category.slug}`}
+        linkText="Ver categoria"
+      />
+      <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        {items.map((a) => (
+          <ArticleCard key={a.slug} article={a} />
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default function Home() {
-  const articles = sortedArticles();
-  const [featured, ...rest] = articles;
-  const latestNews = sortedNews().slice(0, 3);
+  const all = sortedArticles();
+  const [lead, ...others] = all;
+  const secondary = others.slice(0, 2);
+  const heroSlugs = [lead, ...secondary].filter(Boolean).map((a) => a.slug);
+  const heroFeatured = featuredSlugs(heroSlugs);
+
+  // Tudo o que já apareceu acima da dobra não se repete nos blocos de baixo.
+  const shown = new Set<string>(heroSlugs);
+  const reviews = getReviews()
+    .filter((a) => !shown.has(a.slug))
+    .slice(0, PER_SECTION);
+  for (const r of reviews) shown.add(r.slug);
+
+  const categoryBlocks = categories
+    .map((c) => ({
+      category: c,
+      items: getArticlesByCategory(c.slug)
+        .filter((a) => !shown.has(a.slug))
+        .slice(0, PER_SECTION),
+    }))
+    .filter((b) => b.items.length > 0);
+
+  const latestNews = sortedNews().slice(0, 8);
+  const sidebarExclude = [...heroSlugs, ...heroFeatured];
+
+  // Os 8 artigos do topo: os 3 do hero + os 5 de "Comece por aqui".
+  const topArticles = [
+    ...[lead, ...secondary].filter(Boolean),
+    ...heroFeatured.map((slug) => all.find((a) => a.slug === slug)).filter((a): a is Article => Boolean(a)),
+  ];
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Destaques do Portal da AI",
+    numberOfItems: topArticles.length,
+    itemListElement: topArticles.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: a.title,
+      url: absoluteUrl(`/artigos/${a.slug}`),
+    })),
+  };
 
   return (
     <>
-      <section className="border-b border-border">
-        <Container className="py-16 sm:py-24">
-          <span className="inline-flex items-center gap-2 rounded-full border border-border px-3 py-1 text-xs text-muted">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            Novo artigo publicado todos os dias
-          </span>
-          <h1 className="mt-5 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            Entenda e <span className="text-accent">monetize</span> a inteligência
-            artificial, sem jargão técnico.
-          </h1>
-          <p className="mt-5 max-w-xl text-base text-muted sm:text-lg">
-            {`O Portal da AI traz, todos os dias, guias práticos para você usar IA no dia a dia, criar novos negócios e transformar essa tecnologia em uma fonte real de renda — para qualquer idade e nível de conhecimento.`}
-          </p>
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <Link
-              href="/artigos"
-              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
-            >
-              Explorar artigos
-            </Link>
-            <Link
-              href="/categoria/monetizacao"
-              className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition hover:border-accent/50"
-            >
-              Como monetizar IA
-            </Link>
+      <h1 className="sr-only">{HOME_TITLE}</h1>
+
+      <NewsTicker />
+
+      {/* Hero: destaque 8/4 com um único brilho ao fundo */}
+      {lead && (
+        <Container as="section" className="pt-6 sm:pt-8">
+          <div className="relative isolate">
+            <div
+              aria-hidden="true"
+              className="hero-glow pointer-events-none absolute inset-x-0 -top-8 -z-10 h-3/4 opacity-30 blur-3xl"
+            />
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
+              <div className="lg:col-span-8">
+                <ArticleCard article={lead} variant="featured" priority headingLevel="h2" />
+              </div>
+              <div className="flex flex-col gap-4 lg:col-span-4">
+                {secondary.map((a) => (
+                  <ArticleCard key={a.slug} article={a} variant="horizontal" />
+                ))}
+                <FeaturedList exclude={heroSlugs} />
+              </div>
+            </div>
+          </div>
+        </Container>
+      )}
+
+      <Container className="mt-8">
+        <CategoryChips />
+      </Container>
+
+      <Container className="mt-6">
+        <AdSlot format="leaderboard" />
+      </Container>
+
+      {/* Notícias de hoje */}
+      {latestNews.length > 0 && (
+        <Container as="section" className="mt-12">
+          <SectionHeading label="Últimas" title="Notícias de IA" href="/noticias" linkText="Ver todas" />
+          <div className="rounded-xl border border-border bg-surface px-5 sm:px-6">
+            <NewsList items={latestNews} columns={2} />
+          </div>
+        </Container>
+      )}
+
+      {/* Grid principal: blocos editoriais + sidebar */}
+      <Container className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-12">
+        <div className="min-w-0 space-y-12">
+          {reviews.length > 0 && (
+            <section aria-label="Reviews de ferramentas">
+              <SectionHeading
+                label="Testamos"
+                title="Reviews de ferramentas"
+                href="/reviews"
+                linkText="Todos os reviews"
+              />
+              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+                {reviews.map((a) => (
+                  <ArticleCard key={a.slug} article={a} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {categoryBlocks.map((b) => (
+            <CategoryBlock key={b.category.slug} category={b.category} items={b.items} />
+          ))}
+        </div>
+
+        <Sidebar exclude={sidebarExclude} featuredTitle="Destaques" />
+      </Container>
+
+      {/* Faixa final */}
+      <section className="mt-16 bg-ink text-ink-foreground">
+        <Container className="py-14">
+          <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
+            <div className="lg:col-span-8">
+              <p className="label-mono text-ink-foreground/60">{site.name}</p>
+              <h2 className="mt-3 font-display text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
+                Aprenda IA de um jeito prático
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-foreground/80 sm:text-lg">
+                {site.description}
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link
+                  href="/categoria/iniciantes"
+                  className="inline-flex h-11 items-center rounded-lg bg-accent px-5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
+                >
+                  Comece pelo guia de iniciantes
+                </Link>
+                <Link
+                  href="/artigos"
+                  className="inline-flex h-11 items-center rounded-lg border border-white/40 px-5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/5"
+                >
+                  Ver todos os artigos
+                </Link>
+              </div>
+            </div>
+            <dl className="grid grid-cols-3 gap-4 lg:col-span-4">
+              <div className="border-l border-white/15 pl-4">
+                <dt className="label-mono text-ink-foreground/60">Guias</dt>
+                <dd className="mt-1 font-mono text-2xl font-semibold text-white">{articles.length}</dd>
+              </div>
+              <div className="border-l border-white/15 pl-4">
+                <dt className="label-mono text-ink-foreground/60">Notícias</dt>
+                <dd className="mt-1 font-mono text-2xl font-semibold text-white">{news.length}</dd>
+              </div>
+              <div className="border-l border-white/15 pl-4">
+                <dt className="label-mono text-ink-foreground/60">Categorias</dt>
+                <dd className="mt-1 font-mono text-2xl font-semibold text-white">{categories.length}</dd>
+              </div>
+            </dl>
           </div>
         </Container>
       </section>
 
-      <Container className="py-14">
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="font-display text-2xl font-semibold">Destaque de hoje</h2>
-        </div>
-        <ArticleCard article={featured} featured />
-      </Container>
-
-      <Container className="pb-6">
-        <AdSlot />
-      </Container>
-
-      <Container className="py-10">
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-          <h2 className="font-display text-2xl font-semibold">Últimos artigos</h2>
-          <div className="flex flex-wrap gap-2">
-            {categories.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/categoria/${c.slug}`}
-                className="rounded-full border border-border px-3 py-1.5 text-xs text-muted transition hover:border-accent/50 hover:text-foreground"
-              >
-                {c.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {rest.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
-          ))}
-        </div>
-      </Container>
-
-      <Container className="py-10">
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="font-display text-2xl font-semibold">Notícias do mercado de IA</h2>
-          <Link
-            href="/noticias"
-            className="text-sm font-medium text-accent transition hover:opacity-80"
-          >
-            Ver todas →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          {latestNews.map((item) => (
-            <a
-              key={item.slug}
-              href={item.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              className="flex flex-col rounded-2xl border border-border bg-surface p-5 transition hover:border-accent/40"
-            >
-              <div className="flex items-center gap-2 text-xs text-muted">
-                <span>{formatNewsDate(item.date)}</span>
-                <span aria-hidden>·</span>
-                <span>{item.sourceName}</span>
-              </div>
-              <h3 className="mt-2 font-display text-sm font-semibold leading-snug">
-                {item.title}
-              </h3>
-            </a>
-          ))}
-        </div>
-      </Container>
-
-      <Container className="pb-16">
-        <div className="rounded-2xl border border-border bg-surface p-8 text-center sm:p-12">
-          <h2 className="font-display text-2xl font-semibold sm:text-3xl">
-            Todo dia, um novo caminho para lucrar com IA
-          </h2>
-          <p className="mx-auto mt-3 max-w-xl text-sm text-muted sm:text-base">
-            Volte amanhã — publicamos conteúdo novo diariamente para te manter
-            sempre um passo à frente na corrida da inteligência artificial.
-          </p>
-          <Link
-            href="/artigos"
-            className="mt-6 inline-block rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition hover:opacity-90"
-          >
-            Ver todos os artigos
-          </Link>
-        </div>
-      </Container>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(itemListJsonLd) }} />
     </>
   );
 }

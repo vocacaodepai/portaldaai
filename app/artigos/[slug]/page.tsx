@@ -1,178 +1,318 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import { notFound } from "next/navigation";
-import { Container } from "@/components/Container";
-import { CoverImage } from "@/components/CoverImage";
-import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
+import { ArticleCard } from "@/components/ArticleCard";
+import { Container } from "@/components/Container";
+import { CoverImage, getCoverPhoto } from "@/components/CoverImage";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { QuizWidget } from "@/components/QuizWidget";
-import {
-  articles,
-  categories,
-  getArticleBySlug,
-  getRelatedArticles,
-  site,
-} from "@/lib/articles";
+import { ReadingProgress } from "@/components/ReadingProgress";
+import { SectionHeading } from "@/components/SectionHeading";
+import { FeaturedList } from "@/components/Sidebar";
+import { AuthorAvatar } from "@/components/article/AuthorAvatar";
+import { AuthorBox } from "@/components/article/AuthorBox";
+import { Breadcrumbs } from "@/components/article/Breadcrumbs";
+import { JsonLd } from "@/components/article/JsonLd";
+import { KeyTakeaways } from "@/components/article/KeyTakeaways";
+import { NextArticle } from "@/components/article/NextArticle";
+import { ReviewDisclosure, ReviewVerdict } from "@/components/article/ReviewVerdict";
+import { ShareBar } from "@/components/article/ShareBar";
+import { SourcesList } from "@/components/article/SourcesList";
+import { TableOfContents } from "@/components/article/TableOfContents";
+import { TocDetails } from "@/components/article/TocDetails";
+import { faqJsonLd, parseOffer } from "@/components/article/schema";
+import { articles, getArticleBySlug, getCategory, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
+import { author } from "@/lib/author";
+import { prepareArticleHtml, tocH2 } from "@/lib/html";
+import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
+
+type Params = Promise<{ slug: string }>;
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
+  const path = `/artigos/${article.slug}`;
+  const title = article.seoTitle ?? article.title;
+  const description = metaDescription(article.metaDescription ?? article.excerpt);
+  const label = getCategory(article.category)?.label ?? article.category;
+
   return {
-    title: article.title,
-    description: article.excerpt,
-    alternates: { canonical: `/artigos/${article.slug}` },
+    title,
+    description,
+    alternates: alternatesFor(path),
     openGraph: {
       type: "article",
+      url: absoluteUrl(path),
       title: article.title,
-      description: article.excerpt,
-      url: `${site.url}/artigos/${article.slug}`,
+      description,
+      siteName: site.name,
+      locale: site.locale,
       publishedTime: article.date,
+      modifiedTime: article.updated ?? article.date,
+      authors: [absoluteUrl(author.url)],
+      section: label,
+      tags: [label, article.kind === "review" ? "Review" : "Guia"],
     },
     twitter: {
       card: "summary_large_image",
       title: article.title,
-      description: article.excerpt,
+      description,
     },
   };
 }
 
-function formatDate(iso: string) {
-  return new Date(iso + "T12:00:00").toLocaleDateString("pt-BR", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-export default async function ArticlePage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function ArticlePage({ params }: { params: Params }) {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
-  const categoryLabel =
-    categories.find((c) => c.slug === article.category)?.label ?? article.category;
-  const related = getRelatedArticles(article);
+  const path = `/artigos/${article.slug}`;
+  const url = absoluteUrl(path);
+  const category = getCategory(article.category);
+  const label = category?.label ?? article.category;
+  const isReview = article.kind === "review" && !!article.review;
+  const authorName = article.author ?? author.name;
+  const isHouseAuthor = authorName === author.name;
+  const updated = article.updated && article.updated !== article.date ? article.updated : undefined;
+  const minutes = readingTime(article.content);
 
-  const authorName = article.author ?? "Bruno Danello";
+  // Uma passada só: `words` não depende dos cortes. Abaixo de 900 palavras,
+  // o corpo fica inteiro (nenhum anúncio in-article).
+  const withAds = prepareArticleHtml(article.content, { adBreaks: [2, 5] });
+  const prepared = withAds.words >= 900 ? withAds : { ...withAds, parts: [withAds.parts.join("")] };
+  const toc = tocH2(prepared.toc);
 
-  const jsonLd = {
+  const related = getRelatedArticles(article, 3);
+  const next = getNextArticle(article);
+  const cover = await getCoverPhoto(article.imageQuery, article.seed);
+
+  const authorLd = isHouseAuthor
+    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url) }
+    : { "@type": "Person", name: authorName };
+
+  const blogPosting = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
     headline: article.title,
-    description: article.excerpt,
+    description: metaDescription(article.metaDescription ?? article.excerpt),
+    image: [absoluteUrl(`${path}/opengraph-image`), ...(cover ? [cover.url] : [])],
     datePublished: article.date,
-    author: { "@type": "Person", name: authorName },
-    publisher: { "@type": "Organization", name: site.name },
-    mainEntityOfPage: `${site.url}/artigos/${article.slug}`,
+    dateModified: article.updated ?? article.date,
+    author: authorLd,
+    publisher: { "@id": `${site.url}/#organization` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    isPartOf: { "@id": `${site.url}/#website` },
+    articleSection: label,
+    keywords: label,
+    wordCount: prepared.words,
+    inLanguage: "pt-BR",
+    url,
   };
 
-  const faqJsonLd =
-    article.faq && article.faq.length > 0
+  const breadcrumbs = breadcrumbJsonLd([
+    { name: "Início", path: "/" },
+    { name: label, path: `/categoria/${article.category}` },
+    { name: article.title, path },
+  ]);
+
+  const review = article.review;
+  const offer = review ? parseOffer(review.price) : null;
+  const reviewLd =
+    isReview && review
       ? {
           "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: article.faq.map((f) => ({
-            "@type": "Question",
-            name: f.question,
-            acceptedAnswer: { "@type": "Answer", text: f.answer },
-          })),
+          "@type": "Review",
+          name: article.title,
+          url,
+          author: authorLd,
+          publisher: { "@id": `${site.url}/#organization` },
+          datePublished: article.date,
+          dateModified: article.updated ?? article.date,
+          inLanguage: "pt-BR",
+          itemReviewed: {
+            "@type": "SoftwareApplication",
+            name: review.tool,
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            url: review.url,
+            ...(offer ? { offers: offer } : {}),
+          },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: review.score,
+            bestRating: 10,
+            worstRating: 0,
+          },
+          reviewBody: article.excerpt,
+          positiveNotes: {
+            "@type": "ItemList",
+            itemListElement: review.pros.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p })),
+          },
+          negativeNotes: {
+            "@type": "ItemList",
+            itemListElement: review.cons.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c })),
+          },
         }
       : null;
 
+  const faqLd = faqJsonLd(article.faq);
+
   return (
-    <article>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      {faqJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-      )}
+    <>
+      <ReadingProgress />
+      <JsonLd data={blogPosting} />
+      <JsonLd data={breadcrumbs} />
+      {reviewLd && <JsonLd data={reviewLd} />}
+      {faqLd && <JsonLd data={faqLd} />}
 
-      <Container className="pt-10">
-        <nav className="mb-6 text-xs text-muted">
-          <Link href="/" className="hover:text-foreground">
-            Início
-          </Link>
-          <span className="mx-2">/</span>
-          <Link href={`/categoria/${article.category}`} className="hover:text-foreground">
-            {categoryLabel}
-          </Link>
-        </nav>
+      <article>
+        <Container className="pt-8 sm:pt-10">
+          <header className="max-w-3xl">
+            <Breadcrumbs
+              items={[
+                { name: "Início", href: "/" },
+                { name: label, href: `/categoria/${article.category}` },
+                { name: article.title },
+              ]}
+            />
+            <div className="mt-6 flex flex-wrap items-center gap-2">
+              <Link
+                href={`/categoria/${article.category}`}
+                className="label-mono rounded-lg border border-border bg-surface px-2.5 py-1 text-accent transition hover:border-accent"
+              >
+                {label}
+              </Link>
+              {isReview && (
+                <span className="label-mono rounded-lg bg-ink px-2.5 py-1 text-ink-foreground">
+                  <span className="text-accent-2">★</span> Review
+                </span>
+              )}
+            </div>
+            <h1 className="mt-4 font-display text-3xl font-bold leading-[1.1] tracking-tight sm:text-4xl lg:text-5xl">
+              {article.title}
+            </h1>
+            <p className="mt-4 text-lg leading-relaxed text-muted">{article.excerpt}</p>
 
-        <h1 className="max-w-3xl font-display text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
-          {article.title}
-        </h1>
-        <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
-          <span>Por {authorName}</span>
-          <span aria-hidden>·</span>
-          <span>{formatDate(article.date)}</span>
-          <span aria-hidden>·</span>
-          <span>{article.readTime} min de leitura</span>
-        </div>
+            <div className="mt-6 flex flex-col gap-4 border-y border-border py-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 font-mono text-xs text-muted">
+                <span className="flex items-center gap-2">
+                  <AuthorAvatar name={authorName} />
+                  {isHouseAuthor ? (
+                    <Link href={author.url} className="font-medium text-foreground transition hover:text-accent">
+                      {author.name}
+                    </Link>
+                  ) : (
+                    <span className="font-medium text-foreground">{authorName}</span>
+                  )}
+                </span>
+                <span aria-hidden="true" className="hidden sm:inline">
+                  ·
+                </span>
+                <span>
+                  Publicado em <time dateTime={article.date}>{formatDate(article.date)}</time>
+                </span>
+                {updated && (
+                  <>
+                    <span aria-hidden="true" className="hidden sm:inline">
+                      ·
+                    </span>
+                    <span>
+                      Atualizado em <time dateTime={updated}>{formatDate(updated)}</time>
+                    </span>
+                  </>
+                )}
+                <span aria-hidden="true" className="hidden sm:inline">
+                  ·
+                </span>
+                <span>{minutes} min de leitura</span>
+              </div>
+              <ShareBar url={url} title={article.title} />
+            </div>
+          </header>
 
-        <div className="relative mt-8 aspect-[16/8] w-full overflow-hidden rounded-2xl border border-border">
           <CoverImage
             query={article.imageQuery}
             seed={article.seed}
             alt={article.title}
-            className="h-full w-full"
+            className="mt-8 max-w-3xl"
             priority
+            sizes="(max-width: 1024px) 100vw, 800px"
+            showCredit
+            creditPlacement="below"
+            label={label}
           />
-        </div>
-      </Container>
-
-      <Container className="grid grid-cols-1 gap-10 py-10 lg:grid-cols-[1fr_280px]">
-        <div>
-          <div
-            className="prose-article max-w-none"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
-          {article.faq && <FaqAccordion items={article.faq} />}
-          {article.quiz && <QuizWidget questions={article.quiz} />}
-        </div>
-
-        <aside className="space-y-6 lg:sticky lg:top-24 lg:h-fit">
-          <AdSlot label="Publicidade" />
-          <div className="rounded-2xl border border-border bg-surface p-5">
-            <h3 className="font-display text-base font-semibold">Sobre o Portal da AI</h3>
-            <p className="mt-2 text-sm text-muted">{site.description}</p>
-          </div>
-        </aside>
-      </Container>
-
-      <Container className="pb-16">
-        <AdSlot />
-      </Container>
-
-      {related.length > 0 && (
-        <Container className="pb-20">
-          <h2 className="mb-6 font-display text-2xl font-semibold">Continue lendo</h2>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {related.map((r) => (
-              <ArticleCard key={r.slug} article={r} />
-            ))}
-          </div>
         </Container>
-      )}
-    </article>
+
+        <Container className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+          <div className="min-w-0">
+            {isReview && review && (
+              <div className="mb-8">
+                <ReviewVerdict review={review} />
+                <ReviewDisclosure affiliate={review.affiliate} />
+              </div>
+            )}
+
+            {article.keyPoints && article.keyPoints.length > 0 && (
+              <div className="mb-8 max-w-[68ch]">
+                <KeyTakeaways points={article.keyPoints} />
+              </div>
+            )}
+
+            <TocDetails entries={toc} className="mb-8 max-w-[68ch] lg:hidden" />
+
+            {prepared.parts.map((html, i) => (
+              <Fragment key={i}>
+                {i > 0 && <AdSlot format="in-article" className="ad-in-article my-8 max-w-[68ch]" />}
+                <div className="prose-article max-w-[68ch]" dangerouslySetInnerHTML={{ __html: html }} />
+              </Fragment>
+            ))}
+
+            <div className="max-w-[68ch]">
+              <SourcesList sources={article.sources} />
+              <AuthorBox className="mt-10" />
+              {article.faq && <FaqAccordion items={article.faq} />}
+              {article.quiz && <QuizWidget questions={article.quiz} />}
+            </div>
+          </div>
+
+          <aside className="space-y-6" aria-label="Barra lateral do artigo">
+            <AdSlot format="rectangle" />
+            <div className="space-y-6 lg:sticky lg:top-20">
+              <TableOfContents entries={toc} className="hidden lg:block" />
+              <FeaturedList exclude={[article.slug]} title="Leia também" limit={4} />
+            </div>
+          </aside>
+        </Container>
+      </article>
+
+      <Container className="mt-14 pb-20">
+        <AdSlot format="leaderboard" className="mb-12" />
+        {related.length > 0 && (
+          <section aria-label="Continue lendo">
+            <SectionHeading
+              label={label}
+              title="Continue lendo"
+              href={`/categoria/${article.category}`}
+              linkText={`Mais em ${label}`}
+            />
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {related.map((r) => (
+                <ArticleCard key={r.slug} article={r} />
+              ))}
+            </div>
+          </section>
+        )}
+        <NextArticle article={next} />
+      </Container>
+    </>
   );
 }

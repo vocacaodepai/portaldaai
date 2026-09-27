@@ -24,11 +24,11 @@ export function QuizWidget({ questions }: { questions: QuizQuestion[] }) {
   }
 
   return (
-    <div className="mt-10 rounded-2xl border border-border bg-surface p-6">
+    <div className="mt-10 rounded-xl border border-border bg-surface p-6">
       <div className="flex items-center justify-between gap-3">
-        <h2 className="font-display text-xl font-semibold sm:text-2xl">Teste o que você aprendeu</h2>
+        <h2 className="font-display text-xl font-bold tracking-tight sm:text-2xl">Teste o que você aprendeu</h2>
         {answeredCount === questions.length && (
-          <span className="shrink-0 rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+          <span className="label-mono shrink-0 rounded-lg border border-accent/30 bg-accent/10 px-2.5 py-1 text-accent">
             {correctCount}/{questions.length} certas
           </span>
         )}
@@ -45,11 +45,11 @@ export function QuizWidget({ questions }: { questions: QuizQuestion[] }) {
                 {q.options.map((opt, oi) => {
                   const isCorrect = oi === q.answer;
                   const isChosen = chosen === oi;
-                  let stateClasses = "border-border hover:border-accent/40";
+                  let stateClasses = "border-border bg-background hover:border-accent/40";
                   if (answered && isCorrect) {
-                    stateClasses = "border-green-500/60 bg-green-500/10";
+                    stateClasses = "border-success/60 bg-success/10";
                   } else if (answered && isChosen && !isCorrect) {
-                    stateClasses = "border-red-500/60 bg-red-500/10";
+                    stateClasses = "border-danger/60 bg-danger/10";
                   }
                   return (
                     <button
