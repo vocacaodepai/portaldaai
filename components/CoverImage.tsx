@@ -63,6 +63,7 @@ export async function CoverImage({
   priority = false,
   sizes = "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
   showCredit = true,
+  creditPlacement = "overlay",
   label,
 }: {
   query: string;
@@ -72,6 +73,8 @@ export async function CoverImage({
   priority?: boolean;
   sizes?: string;
   showCredit?: boolean;
+  /** Crédito sobre a foto (cards) ou abaixo dela (página de artigo, para não parecer anúncio). */
+  creditPlacement?: "overlay" | "below";
   /** Texto pequeno impresso no fallback (ex.: categoria). */
   label?: string;
 }) {
@@ -81,30 +84,48 @@ export async function CoverImage({
     return <FallbackCover seed={seed} className={className} label={label} />;
   }
 
+  const img = (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={photo.url}
+      alt={alt}
+      width={photo.width}
+      height={photo.height}
+      sizes={sizes}
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : "auto"}
+      decoding={priority ? "sync" : "async"}
+      className="h-full w-full object-cover"
+    />
+  );
+  const credit = showCredit ? (
+    <a
+      href={photo.photographerUrl}
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      className={
+        creditPlacement === "below"
+          ? "mt-2 block font-mono text-[11px] text-muted transition hover:text-foreground"
+          : "absolute bottom-1.5 right-2 rounded bg-ink/60 px-1.5 py-0.5 font-mono text-[10px] text-white/75 backdrop-blur-sm transition hover:text-white"
+      }
+    >
+      Foto: {photo.photographer} / {photo.source}
+    </a>
+  ) : null;
+
+  if (creditPlacement === "below") {
+    return (
+      <figure className={className ?? ""}>
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl border border-border bg-surface-2">{img}</div>
+        {credit && <figcaption>{credit}</figcaption>}
+      </figure>
+    );
+  }
+
   return (
     <div className={`relative overflow-hidden bg-surface-2 ${className ?? ""}`}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={photo.url}
-        alt={alt}
-        width={photo.width}
-        height={photo.height}
-        sizes={sizes}
-        loading={priority ? "eager" : "lazy"}
-        fetchPriority={priority ? "high" : "auto"}
-        decoding={priority ? "sync" : "async"}
-        className="h-full w-full object-cover"
-      />
-      {showCredit && (
-        <a
-          href={photo.photographerUrl}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className="absolute bottom-1.5 right-2 rounded bg-ink/60 px-1.5 py-0.5 font-mono text-[10px] text-white/75 backdrop-blur-sm transition hover:text-white"
-        >
-          Foto: {photo.photographer} / {photo.source}
-        </a>
-      )}
+      {img}
+      {credit}
     </div>
   );
 }

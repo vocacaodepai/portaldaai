@@ -499,7 +499,7 @@ body {
   font-weight: 700;
 }
 
-/* Anúncio inserido no meio do texto pelo renderizador */
-.prose-article .ad-in-article {
+/* Anúncio inserido entre os pedaços do texto pelo renderizador */
+.ad-in-article {
   margin: 2rem 0;
 }

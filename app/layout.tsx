@@ -7,6 +7,8 @@ import { CookieConsent } from "@/components/CookieConsent";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
 import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
+import { safeJsonLd } from "@/lib/seo";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -152,9 +154,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <CookieConsent enabled={Boolean(ADSENSE_CLIENT)} />
         <AdSenseLoader client={ADSENSE_CLIENT} />
+        <Analytics />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify([organizationJsonLd, websiteJsonLd]) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd([organizationJsonLd, websiteJsonLd]) }}
         />
       </body>
     </html>

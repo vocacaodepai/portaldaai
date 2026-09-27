@@ -11,8 +11,8 @@ export function FaqAccordion({ items }: { items: FaqItem[] }) {
 
   return (
     <div className="mt-10">
-      <h2 className="font-display text-xl font-semibold sm:text-2xl">Perguntas frequentes</h2>
-      <div className="mt-4 divide-y divide-border rounded-2xl border border-border bg-surface">
+      <h2 className="font-display text-xl font-bold tracking-tight sm:text-2xl">Perguntas frequentes</h2>
+      <div className="mt-4 divide-y divide-border rounded-xl border border-border bg-surface">
         {items.map((item, i) => {
           const open = openIndex === i;
           return (
@@ -21,12 +21,12 @@ export function FaqAccordion({ items }: { items: FaqItem[] }) {
                 type="button"
                 onClick={() => setOpenIndex(open ? null : i)}
                 aria-expanded={open}
-                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+                className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition hover:text-accent"
               >
                 <span className="font-medium text-foreground">{item.question}</span>
                 <span
                   aria-hidden
-                  className={`shrink-0 text-muted transition-transform ${open ? "rotate-45" : ""}`}
+                  className={`shrink-0 font-mono text-muted transition-transform ${open ? "rotate-45" : ""}`}
                 >
                   +
                 </span>
