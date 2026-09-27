@@ -113,7 +113,7 @@ export function ArticleCard({
   if (variant === "horizontal") {
     return (
       <article className="group grid grid-cols-[40%_1fr] overflow-hidden rounded-xl border border-border bg-surface card-hover">
-        <Link href={href} className="relative block aspect-[4/3] h-full" tabIndex={-1} aria-hidden="true">
+        <Link href={href} className="relative block aspect-[4/3] h-full overflow-hidden" tabIndex={-1} aria-hidden="true">
           <CoverImage
             query={article.imageQuery}
             seed={article.seed}
@@ -144,7 +144,7 @@ export function ArticleCard({
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover">
-      <Link href={href} className="relative block aspect-[16/10] w-full" tabIndex={-1} aria-hidden="true">
+      <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
         <CoverImage
           query={article.imageQuery}
           seed={article.seed}
