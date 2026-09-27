@@ -1,48 +1,103 @@
 import Link from "next/link";
-import { categories, site } from "@/lib/articles";
+import { categories } from "@/lib/articles";
+import { Logo } from "./Logo";
+import { ThemeToggle } from "./ThemeToggle";
+import { SearchDialog } from "./SearchDialog";
+import { MobileMenu } from "./MobileMenu";
+
+export const PRIMARY_NAV = [
+  { href: "/noticias", label: "Notícias" },
+  { href: "/artigos", label: "Artigos" },
+  { href: "/reviews", label: "Reviews" },
+  { href: "/sobre", label: "Sobre" },
+];
+
+export const INSTITUTIONAL_NAV = [
+  { href: "/sobre", label: "Sobre o Portal da AI" },
+  { href: "/autor/bruno-danello", label: "Quem escreve" },
+  { href: "/contato", label: "Contato" },
+  { href: "/politica-editorial", label: "Política editorial" },
+  { href: "/publicidade-e-afiliados", label: "Publicidade e afiliados" },
+  { href: "/politica-de-privacidade", label: "Política de privacidade" },
+  { href: "/termos-de-uso", label: "Termos de uso" },
+];
 
 export function Header() {
-  return (
-    <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2.5">
-          <span className="flex h-7 w-7 items-center justify-center rounded-full border border-foreground/15 text-[11px] font-semibold tracking-tight">
-            AI
-          </span>
-          <span className="font-display text-[17px] font-semibold tracking-tight">
-            Portal da AI
-          </span>
-        </Link>
+  const categoryItems = categories.map((c) => ({
+    href: `/categoria/${c.slug}`,
+    label: c.label,
+    description: c.description,
+  }));
 
-        <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
-          <Link href="/artigos" className="transition hover:text-foreground">
-            Artigos
-          </Link>
-          <Link href="/noticias" className="transition hover:text-foreground">
-            Notícias
-          </Link>
-          {categories.slice(0, 3).map((c) => (
+  return (
+    <header className="sticky top-0 z-40 border-b border-border/80 bg-surface/85 backdrop-blur-md supports-[backdrop-filter]:bg-surface/75">
+      <div className="mx-auto flex h-16 w-full max-w-7xl items-center gap-4 px-4 sm:px-6 lg:px-8">
+        <Logo priority className="mr-2" />
+
+        <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
+          {PRIMARY_NAV.slice(0, 3).map((i) => (
             <Link
-              key={c.slug}
-              href={`/categoria/${c.slug}`}
-              className="transition hover:text-foreground"
+              key={i.href}
+              href={i.href}
+              className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
             >
-              {c.label}
+              {i.label}
             </Link>
           ))}
-          <Link href="/sobre" className="transition hover:text-foreground">
+
+          <div className="group relative">
+            <button
+              type="button"
+              className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground group-focus-within:text-foreground"
+              aria-haspopup="true"
+            >
+              Categorias
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            <div className="invisible absolute left-0 top-full z-50 w-[520px] translate-y-1 pt-2 opacity-0 transition group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+              <div className="grid grid-cols-2 gap-1 rounded-xl border border-border bg-surface p-2 shadow-xl">
+                {categoryItems.map((c) => (
+                  <Link
+                    key={c.href}
+                    href={c.href}
+                    className="rounded-lg px-3 py-2.5 transition hover:bg-surface-2"
+                  >
+                    <span className="block text-sm font-semibold">{c.label}</span>
+                    <span className="mt-0.5 line-clamp-2 block text-xs leading-snug text-muted">
+                      {c.description}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <Link
+            href="/sobre"
+            className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
+          >
             Sobre
           </Link>
         </nav>
 
-        <Link
-          href="/artigos"
-          className="rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition hover:opacity-90"
-        >
-          Ler artigos
-        </Link>
+        <div className="ml-auto flex items-center gap-2">
+          <SearchDialog />
+          <ThemeToggle className="hidden lg:inline-flex" />
+          <Link
+            href="/categoria/iniciantes"
+            className="hidden h-9 items-center rounded-lg bg-accent px-3.5 text-sm font-semibold text-white transition hover:opacity-90 lg:inline-flex"
+          >
+            Comece aqui
+          </Link>
+          <MobileMenu
+            primary={PRIMARY_NAV}
+            categories={categoryItems}
+            institutional={INSTITUTIONAL_NAV}
+          />
+        </div>
       </div>
-      <span className="sr-only">{site.name}</span>
     </header>
   );
 }

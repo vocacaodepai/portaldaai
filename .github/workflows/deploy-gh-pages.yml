@@ -1,10 +1,8 @@
 name: Deploy to GitHub Pages
 
+# Preview auxiliar, só manual: o deploy de referência é a Vercel (ver CLAUDE.md).
+# Disparo automático desligado para não publicar uma cópia do site em outro domínio.
 on:
-  push:
-    branches:
-      - main
-      - claude/portal-ai-blog-iujjht
   workflow_dispatch:
 
 permissions:
