@@ -1,53 +1,18 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { Container } from "@/components/Container";
-import { ArticleCard } from "@/components/ArticleCard";
-import { categories, getArticlesByCategory } from "@/lib/articles";
+import { CategoriaPage, categoriaMetadata, categoriaParams } from "@/components/listing/CategoriaPage";
+
+type Params = Promise<{ slug: string }>;
 
 export function generateStaticParams() {
-  return categories.map((c) => ({ slug: c.slug }));
+  return categoriaParams();
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { slug } = await params;
-  const category = categories.find((c) => c.slug === slug);
-  if (!category) return {};
-  return {
-    title: category.label,
-    description: `Artigos do Portal da AI sobre ${category.label.toLowerCase()}.`,
-    alternates: { canonical: `/categoria/${category.slug}` },
-  };
+  return categoriaMetadata(slug, 1);
 }
 
-export default async function CategoryPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function Page({ params }: { params: Params }) {
   const { slug } = await params;
-  const category = categories.find((c) => c.slug === slug);
-  if (!category) notFound();
-
-  const articles = getArticlesByCategory(category.slug);
-
-  return (
-    <Container className="py-14">
-      <h1 className="font-display text-3xl font-semibold sm:text-4xl">
-        {category.label}
-      </h1>
-      <p className="mt-3 text-sm text-muted sm:text-base">
-        {articles.length} artigo{articles.length === 1 ? "" : "s"} nessa categoria.
-      </p>
-
-      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {articles.map((article) => (
-          <ArticleCard key={article.slug} article={article} />
-        ))}
-      </div>
-    </Container>
-  );
+  return <CategoriaPage slug={slug} page={1} />;
 }

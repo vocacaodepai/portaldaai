@@ -81,12 +81,19 @@ export function AuthorMini() {
  * Sidebar padrão da home e das listagens. O anúncio (se existir) fica no topo
  * e NÃO é sticky; só os blocos editoriais grudam ao rolar.
  */
-export function Sidebar({ exclude = [] }: { exclude?: string[] }) {
+export function Sidebar({
+  exclude = [],
+  featuredTitle = "Comece por aqui",
+}: {
+  exclude?: string[];
+  /** Título do bloco de destaques (ex.: "Destaques" quando a página já tem "Comece por aqui"). */
+  featuredTitle?: string;
+}) {
   return (
     <aside className="space-y-6" aria-label="Barra lateral">
       <AdSlot format="rectangle" />
       <div className="space-y-6 lg:sticky lg:top-20">
-        <FeaturedList exclude={exclude} />
+        <FeaturedList exclude={exclude} title={featuredTitle} />
         <CategoryList />
         <AuthorMini />
       </div>
