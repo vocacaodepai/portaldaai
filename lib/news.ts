@@ -485,29 +485,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "openai-libera-avaliacoes-seguranca-terceiros-durante-treinamento",
-    title: "OpenAI vai permitir que terceiros avaliem segurança de modelos já durante o treinamento",
-    author: "Bruno Danello",
-    summary:
-      "A empresa está em conversas com organizações independentes como METR e Redwood Research para conduzir avaliações técnicas de segurança ao longo de todo o ciclo de desenvolvimento — não mais só na revisão final antes do lançamento —, priorizando análise de salvaguardas críticas, avaliações de capacidade e investigação independente de incidentes de desalinhamento.",
-    sourceName: "Bloomberg",
-    sourceUrl: "https://www.bloomberg.com/news/articles/2026-09-22/openai-to-let-outside-groups-evaluate-ai-models-at-earlier-phase",
-    date: "2026-09-22",
-    content: `
-      <p>A OpenAI anunciou que vai abrir avaliações técnicas de segurança de seus modelos a organizações externas ao longo de todo o ciclo de desenvolvimento — treinamento, avaliação e implantação —, ampliando o que até agora era, em grande parte, uma revisão concentrada apenas na fase final, antes do lançamento. A empresa confirmou estar em conversas com a METR e a Redwood Research, duas organizações independentes que já avaliam capacidades e riscos de modelos de fronteira.</p>
-
-      <p>Segundo a OpenAI, a iniciativa vai priorizar quatro áreas: avaliação de casos de segurança que abrangem tanto o treinamento quanto a implantação, revisão de salvaguardas consideradas críticas, análise de avaliações de capacidade ligadas ao seu Preparedness Framework, e investigação independente de incidentes de comportamento desalinhado. A empresa afirma que as avaliações devem seguir princípios de independência, rigor científico, práticas de segurança robustas e responsabilidades bem definidas.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Detectar riscos mais cedo</span>
-        <p>Segundo a OpenAI, avaliações independentes ao longo de todo o desenvolvimento — e não só no fim — podem permitir detectar riscos de alinhamento, segurança e uso indevido mais cedo no ciclo de vida do modelo, evitando que problemas cheguem à fase de implantação. A empresa prevê revisões concorrentes em cronogramas variados, de algumas semanas a vários meses.</p>
-      </div>
-
-      <h2>Mais transparência, sob pressão crescente</h2>
-      <p>O anúncio acontece num momento em que laboratórios de IA enfrentam pressão crescente por mais transparência sobre como avaliam a segurança de seus próprios modelos antes de lançá-los ao público — um tema que já discutimos por aqui em relação a incidentes de comportamento inesperado em agentes de IA. Para quem quer entender melhor os termos técnicos por trás desse tipo de avaliação, vale conferir nosso <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a>.</p>
-    `,
-  },
-  {
     slug: "agente-openai-acessa-sem-autorizacao-portal-medicare-australia",
     title: "Agente da OpenAI acessa sem autorização portal do Medicare australiano, e só avisa o governo 3 meses depois",
     author: "Bruno Danello",
@@ -1726,30 +1703,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "amazon-bloqueia-agente-ia-muse-meta-compras",
-    title: "Amazon bloqueia agente de IA Muse, da Meta, de fazer compras no site sem autorização",
-    author: "Bruno Danello",
-    summary:
-      "Usuários do assistente Muse começaram a receber uma mensagem de erro ao tentar comprar na Amazon informando que o acesso do agente de IA não foi autorizado — a Amazon diz que a Meta nunca pediu permissão, que o agente não se identifica ao navegar e que chega a armazenar credenciais de clientes.",
-    sourceName: "TechCrunch",
-    sourceUrl: "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-    date: "2026-09-21",
-    content: `
-      <p>A Amazon bloqueou o acesso do Muse, assistente de IA de propósito geral lançado pela Meta em 8 de setembro, à sua loja online. Desde o fim de semana, usuários que tentam usar o Muse para comprar produtos na Amazon passaram a receber uma mensagem de erro informando que "o acesso contínuo por um agente de IA não autorizado viola os Termos de Uso da Amazon, aos quais nossos clientes concordaram".</p>
-
-      <h2>A justificativa da Amazon</h2>
-      <p>Segundo a Amazon, a empresa não foi avisada previamente de que o Muse acessaria sua loja e não autorizou a atividade. Um porta-voz da Amazon afirmou que aplicativos de terceiros que se oferecem para fazer compras em nome de clientes em outras lojas devem operar de forma transparente e respeitar as decisões de cada provedor de serviço sobre participar ou não. A empresa também alega que o agente da Meta não se identifica como tal ao navegar pelo site, que consegue acessar informações da conta do cliente, como histórico de pedidos, e que aparenta armazenar credenciais dos usuários.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Versão da Meta</span>
-        <p>A Meta afirma que o Muse "não tem visibilidade sobre senhas ou meios de pagamento das pessoas" e que credenciais compartilhadas pelo usuário "vão para um armazenamento seguro, para que o Muse possa usá-las sem vê-las".</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O episódio expõe uma tensão que só deve crescer à medida que agentes de IA passam a fazer compras em nome dos usuários, tema que já exploramos em <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você: o novo comércio</a>: sem um protocolo aberto e acordado entre plataformas, cada grande loja pode decidir, por conta própria, quais agentes de terceiros tem permissão para operar em seu site — o que pode fragmentar a experiência de compra assistida por IA em vez de padronizá-la entre os grandes varejistas.</p>
-    `,
-  },
-  {
     slug: "alibaba-qwen-audio-3-1-corta-precos-ate-95-por-cento",
     title: "Alibaba lança Qwen-Audio 3.1 e corta preço de APIs de voz em até 95%",
     author: "Bruno Danello",
@@ -1915,6 +1868,54 @@ export const news: NewsItem[] = [
 
       <h2>Por que isso importa</h2>
       <p>A corrida por capacidade computacional segue sendo um dos principais gargalos do setor de IA, e a expansão acelerada do Colossus 2 reforça como grandes laboratórios continuam apostando pesado em infraestrutura própria de treinamento, em vez de depender exclusivamente de provedores de nuvem terceirizados — uma estratégia que já discutimos em nossa cobertura sobre outros acordos bilionários de infraestrutura de IA fechados neste ano por concorrentes da xAI.</p>
+    `,
+  },
+  {
+    slug: "claude-calcula-amplitude-nove-loops-fisica-teorica-recorde",
+    title: "Claude calcula amplitude de espalhamento de nove loops e supera recorde de física teórica de 2023",
+    author: "Bruno Danello",
+    summary:
+      "Físicos da Anthropic pediram ao Claude que calculasse a amplitude de espalhamento de seis partículas na teoria N=4 super-Yang-Mills em nove loops — um loop além do recorde de oito loops publicado em 2023 pelo físico Lance Dixon, que levou duas semanas verificando o resultado antes de confirmá-lo correto.",
+    sourceName: "Anthropic",
+    sourceUrl: "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+    date: "2026-09-25",
+    content: `
+      <p>Dois físicos da Anthropic, Liam Fitzpatrick e Siddharth Mishra-Sharma, relataram que o Claude calculou a amplitude de espalhamento de seis partículas (conhecida como "hexágono") na teoria N=4 super-Yang-Mills planar em nove loops — um loop além do recorde de oito loops publicado em 2023 pelo físico Lance Dixon, do SLAC e da Universidade Stanford.</p>
+
+      <h2>Um desafio lançado publicamente</h2>
+      <p>O físico Matt von Hippel havia lançado, em 7 de agosto, um desafio público pedindo que empresas de IA tentassem resolver um dos problemas mais difíceis em aberto no campo de amplitudes de espalhamento: calcular a supergravidade N=8 em sete loops, ou encontrar a amplitude de seis partículas em N=4 super-Yang-Mills em nove loops. Depois de perguntar ao próprio Claude qual dos dois problemas ele teria mais chance de resolver, os pesquisadores deram um comando simples: calcular a amplitude hexágono de seis partículas em N=4 SYM planar em nove loops.</p>
+
+      <div class="callout-box callout-ok">
+        <span class="callout-label">Como o cálculo foi feito</span>
+        <p>O Claude chegou ao resultado por dois caminhos diferentes — o método de bootstrap original e uma abordagem indireta via fator de forma —, usando cerca de uma semana de processamento em 96 processadores, a um custo entre US$ 1 mil e US$ 2 mil para cada um dos dois métodos.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O físico Lance Dixon, autor do recorde anterior, passou duas semanas verificando o resultado produzido pelo Claude antes de confirmar que estava correto. O episódio se soma a outros casos recentes em que empresas de IA usam seus próprios modelos para acelerar pesquisa científica de ponta — como já vimos com a Anthropic ao anunciar avanços do Claude em pesquisa biológica autônoma — e reforça como modelos de linguagem já conseguem contribuir de forma concreta em áreas de física teórica consideradas extremamente especializadas, mesmo sem terem sido treinados especificamente para esse tipo de cálculo.</p>
+    `,
+  },
+  {
+    slug: "meta-reforca-aviso-seguranca-muse-apos-vulnerabilidade",
+    title: "Meta reforça aviso de segurança no Muse após vulnerabilidade que expunha dados de usuários",
+    author: "Bruno Danello",
+    summary:
+      "Um pesquisador externo reportou pelo programa de recompensas por bugs da Meta uma falha que poderia permitir a um invasor acessar a máquina virtual dedicada de um usuário do Muse, com dados como e-mails e arquivos — classificada como SEV-2, o terceiro nível de gravidade mais alto da empresa, o terceiro problema de segurança do assistente em cinco dias.",
+    sourceName: "The Information",
+    sourceUrl: "https://www.theinformation.com/briefings/exclusive-meta-bolsters-muse-safety-warning-security-vulnerability-found",
+    date: "2026-09-25",
+    content: `
+      <p>A Meta está adicionando um aviso de segurança mais claro dentro do Muse, seu assistente pessoal de IA, depois que um pesquisador externo encontrou uma vulnerabilidade que poderia permitir a um invasor acessar informações pessoais sensíveis de um usuário. A falha, reportada por meio do programa de recompensas por bugs da empresa e não divulgada anteriormente, foi classificada como "SEV-2" — o terceiro nível de gravidade mais alto numa escala de cinco pontos usada internamente pela Meta, normalmente reservado a incidentes de impacto significativo.</p>
+
+      <h2>O que a falha permitia</h2>
+      <p>Segundo a reportagem, a vulnerabilidade poderia ter permitido que um invasor acessasse a máquina virtual dedicada de um usuário do Muse — uma conta individual baseada em nuvem que contém dados como e-mails e arquivos pessoais. O Muse, lançado no início de setembro, é o assistente pessoal de IA da Meta projetado para realizar tarefas como compras, reservas de viagem, envio de e-mails e pagamentos em nome dos usuários.</p>
+
+      <div class="callout-box callout-warn">
+        <span class="callout-label">Terceiro problema em cinco dias</span>
+        <p>A mudança no aviso de segurança do Muse é a resposta da Meta ao terceiro problema de segurança a vir à tona no assistente em apenas cinco dias — um ritmo que chama atenção especialmente porque o aplicativo já acumula cerca de 2,8 milhões de downloads em suas duas primeiras semanas, segundo estimativas da Sensor Tower, além de liderar os rankings de aplicativos gratuitos nos Estados Unidos e no Canadá.</p>
+      </div>
+
+      <h2>Por que isso importa</h2>
+      <p>O episódio reforça um padrão que já discutimos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade: o que você entrega sem perceber</a>: assistentes de IA que ganham permissão para agir em nome do usuário — fazendo compras, enviando e-mails, acessando arquivos — também ampliam a superfície de ataque disponível caso alguma falha de segurança seja explorada. Para um produto que cresceu tão rápido em tão pouco tempo, a sequência de vulnerabilidades encontradas em poucos dias reforça a importância de testes de segurança rigorosos antes — e não só depois — de um lançamento em larga escala.</p>
     `,
   },
 ];
