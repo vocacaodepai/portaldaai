@@ -82,7 +82,7 @@ export default async function NewsPage({ params }: { params: Params }) {
   const host = sourceHost(item.sourceUrl);
 
   const authorLd = isHouseAuthor
-    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url) }
+    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url), image: absoluteUrl(author.image) }
     : { "@type": "Person", name: item.author };
 
   const newsArticle = {
