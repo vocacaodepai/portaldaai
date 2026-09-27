@@ -58,10 +58,14 @@ export default function PoliticaPrivacidadePage() {
       </p>
       <h3 id="analytics">2.2 Medição de audiência</h3>
       <p>
-        A única medição de audiência prevista para o site é o Vercel Web Analytics, que funciona
-        sem cookies e sem identificar pessoas: ele conta visitas de forma agregada a partir de um
-        identificador temporário derivado da requisição, que não é armazenado no seu dispositivo e
-        não permite acompanhar você entre sites. Não há Google Analytics nem pixel de rede social.
+        O site usa duas ferramentas de medição. O Vercel Web Analytics funciona sem cookies e sem
+        identificar pessoas: conta visitas de forma agregada a partir de um identificador temporário
+        derivado da requisição, que não é armazenado no seu dispositivo. O Google Analytics 4 (ID
+        G-J2V2PCNK2T) só é carregado depois da sua escolha no aviso de cookies. Se você aceitar, ele
+        grava cookies próprios (como o _ga) para reconhecer visitas repetidas e medir quais páginas
+        são lidas, com o endereço IP anonimizado. Se você escolher “Só o essencial”, o Google
+        Analytics roda em modo de consentimento negado: não grava cookies nem identificadores no seu
+        navegador e recebe apenas sinais agregados. Não há pixel de rede social.
       </p>
       <h3 id="cookies-publicidade">2.3 Cookies de publicidade (Google AdSense)</h3>
       <p>
@@ -109,9 +113,14 @@ export default function PoliticaPrivacidadePage() {
               <td>Segurança, disponibilidade e diagnóstico de erros</td>
             </tr>
             <tr>
-              <td>Medição de audiência sem cookies</td>
+              <td>Medição de audiência sem cookies (Vercel)</td>
               <td>Legítimo interesse (art. 7º, IX)</td>
               <td>Saber quais conteúdos são lidos, de forma agregada</td>
+            </tr>
+            <tr>
+              <td>Cookies do Google Analytics</td>
+              <td>Consentimento (art. 7º, I)</td>
+              <td>Medir visitas repetidas e páginas lidas, com IP anonimizado</td>
             </tr>
             <tr>
               <td>Cookies de publicidade personalizada</td>

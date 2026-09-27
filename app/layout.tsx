@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { safeJsonLd } from "@/lib/seo";
@@ -31,6 +32,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+// Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("pdai-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
@@ -157,8 +160,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
         </main>
         <Footer />
-        <CookieConsent enabled={Boolean(ADSENSE_CLIENT)} />
+        <CookieConsent enabled={Boolean(ADSENSE_CLIENT || GA_ID)} />
         <AdSenseLoader client={ADSENSE_CLIENT} />
+        <GoogleAnalytics id={GA_ID || undefined} />
         <Analytics />
         <script
           type="application/ld+json"
