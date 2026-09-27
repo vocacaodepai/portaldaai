@@ -232,29 +232,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "anthropic-openai-guerra-precos-opus-5-5-gpt-6-sol-luna",
-    title: "Anthropic e OpenAI travam guerra de preços com Claude Opus 5.5 e GPT-6 Sol e Luna",
-    author: "Bruno Danello",
-    summary:
-      "A Anthropic lançou o Claude Opus 5.5 com preço 40% menor que o do Opus 5 em uso típico, e poucos minutos depois a OpenAI respondeu com dois modelos novos, GPT-6 Sol e GPT-6 Luna, ambos cerca de 50% mais baratos que os antecessores de mesmo nome.",
-    sourceName: "SiliconANGLE",
-    sourceUrl: "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/",
-    date: "2026-09-22",
-    content: `
-      <p>A Anthropic lançou o Claude Opus 5.5 cobrando US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída — cerca de 40% mais barato do que o Opus 5 num uso típico, segundo a empresa, com a maior queda concentrada na leitura de cache, que caiu 60%, para US$ 0,20. Minutos depois, a OpenAI respondeu lançando dois modelos novos: o GPT-6 Sol, a US$ 2 de entrada e US$ 10 de saída por milhão de tokens, e o GPT-6 Luna, bem mais barato, a US$ 0,10 e US$ 0,50 — ambos cerca de metade do preço das versões anteriores que levavam os mesmos nomes.</p>
-
-      <p>O movimento quase simultâneo das duas maiores empresas de IA generativa do mundo reforça um padrão que já vinha se desenhando ao longo do ano: lançamentos cada vez mais próximos no tempo, com preço por token caindo de forma consistente a cada nova geração de modelo, mesmo com ganhos de desempenho em benchmarks de programação e uso de computador.</p>
-
-      <div class="callout-box callout-ok">
-        <span class="callout-label">Bom para quem usa IA no dia a dia</span>
-        <p>Preços mais baixos por token tendem a se refletir diretamente no custo de assinaturas e no uso via API — inclusive para tarefas mais pesadas, como analisar documentos longos ou manter conversas extensas, que ficam mais baratas de sustentar ao longo do tempo.</p>
-      </div>
-
-      <h2>Uma corrida que já dura o ano inteiro</h2>
-      <p>A queda de preços acontece poucos dias depois de a própria Anthropic destacar que os <a href="/noticias/openai-anthropic-modelos-mais-seguros-testes-comportamento">novos modelos da OpenAI e da Anthropic tentam menos burlar restrições em testes de segurança</a>, mostrando que a disputa entre as duas empresas não é só de preço, mas também de quem consegue equilibrar capacidade e segurança de forma mais convincente. Para quem ainda está decidindo qual ferramenta usar no trabalho ou nos estudos, vale revisitar nosso comparativo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> para entender as diferenças práticas entre elas.</p>
-    `,
-  },
-  {
     slug: "tse-lanca-chatvote-assistente-ia-eleicoes-2026",
     title: "TSE lança o ChatVote, assistente de IA para tirar dúvidas sobre as Eleições 2026",
     author: "Bruno Danello",
@@ -1655,30 +1632,6 @@ export const news: NewsItem[] = [
     `,
   },
   {
-    slug: "pesquisa-reuters-ipsos-73-por-cento-desconfia-ia",
-    title: "Pesquisa Reuters/Ipsos mostra que 73% dos americanos acham que empresas de IA não fazem o suficiente para evitar desastres",
-    author: "Bruno Danello",
-    summary:
-      "A parcela que vê a IA como prejudicial à sociedade subiu para 39%, a maior desde que a pesquisa começou a medir isso em março, e 55% dos entrevistados dizem que desacelerar o desenvolvimento da tecnologia seria algo bom — a maioria também acredita que o governo federal, e não as próprias empresas, deveria liderar a definição de padrões de segurança.",
-    sourceName: "Reuters",
-    sourceUrl: "https://www.usnews.com/news/politics/articles/2026-09-22/three-out-of-four-americans-say-ai-firms-not-doing-enough-to-prevent-disaster-reuters-ipsos-poll-finds",
-    date: "2026-09-22",
-    content: `
-      <p>Uma pesquisa da Reuters/Ipsos divulgada nesta semana mostra que 73% dos americanos acreditam que as empresas de inteligência artificial não fizeram o suficiente para evitar que a tecnologia cause danos sérios à sociedade. O levantamento ouviu 1.277 adultos nos Estados Unidos, com margem de erro de 3 pontos percentuais.</p>
-
-      <h2>Desconfiança crescente</h2>
-      <p>Segundo a pesquisa, 39% dos entrevistados veem a IA como algo que prejudica a sociedade — um aumento em relação aos 36% do mês anterior, e a maior parcela registrada desde que a Reuters/Ipsos começou a fazer essa pergunta, em março deste ano. Os entrevistados também demonstraram ceticismo generalizado quanto à capacidade das próprias empresas de IA de se autorregularem, com a maioria pedindo que o governo federal assuma a liderança na definição de padrões de segurança.</p>
-
-      <div class="callout-box callout-warn">
-        <span class="callout-label">Maioria a favor de desacelerar</span>
-        <p>55% dos entrevistados disseram considerar positivo desacelerar o desenvolvimento da tecnologia, contra apenas 13% que viram isso como algo negativo — um sinal de que a cautela pública em relação ao ritmo de avanço da IA vem crescendo, mesmo enquanto laboratórios de ponta seguem lançando modelos cada vez mais capazes.</p>
-      </div>
-
-      <h2>Por que isso importa</h2>
-      <p>O resultado reforça um contraste que já vínhamos observando: enquanto empresas como Google, OpenAI e Anthropic avançam em conjunto para criar órgãos voluntários de autorregulação — como discutimos em nossa cobertura sobre a <a href="/noticias/google-openai-anthropic-cortejam-sriram-krishnan-orgao-padroes">proposta de um órgão conjunto de padrões de segurança</a> —, uma parcela crescente do público americano segue cética de que essas iniciativas sejam suficientes, e prefere ver o governo assumindo um papel mais ativo na fiscalização do setor.</p>
-    `,
-  },
-  {
     slug: "nyc-council-projetos-lei-regulacao-ia-kill-switch-denuncia",
     title: "Câmara de Vereadores de Nova York propõe pacote de leis para regular IA, com 'kill switch' obrigatório",
     author: "Bruno Danello",
@@ -1917,6 +1870,76 @@ export const news: NewsItem[] = [
       <h2>Por que isso importa</h2>
       <p>O episódio reforça um padrão que já discutimos em nosso texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade: o que você entrega sem perceber</a>: assistentes de IA que ganham permissão para agir em nome do usuário — fazendo compras, enviando e-mails, acessando arquivos — também ampliam a superfície de ataque disponível caso alguma falha de segurança seja explorada. Para um produto que cresceu tão rápido em tão pouco tempo, a sequência de vulnerabilidades encontradas em poucos dias reforça a importância de testes de segurança rigorosos antes — e não só depois — de um lançamento em larga escala.</p>
     `,
+  },
+  {
+    slug: "microsoft-novo-copilot-home-code-autopilot-agente-persistente",
+    title: "Microsoft refaz o Copilot com Home, Code e Autopilot, um agente que trabalha enquanto você está fora",
+    summary:
+      "Novo Copilot junta chat e Cowork em uma tela inicial, deixa qualquer pessoa criar apps e automações sem programar e estreia o Autopilot, agente que segue executando tarefas sozinho. Cobrança passa a ter parte por uso.",
+    author: "Bruno Danello",
+    sourceName: "Microsoft",
+    sourceUrl: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+    date: "2026-09-25",
+    content: `
+      <p>A Microsoft apresentou nesta quinta-feira (25) uma reformulação do Copilot, seu assistente de IA para o trabalho. Segundo o anúncio assinado por Jared Spataro, vice-presidente de marketing de IA no trabalho, o produto passa a girar em torno de três peças: <strong>Home</strong>, <strong>Code</strong> e <strong>Autopilot</strong>.</p>
+      <p>O Home vira a tela inicial do aplicativo, reunindo o chat e o modo Cowork com Word, Excel e PowerPoint no mesmo lugar: a pessoa vê o que fez recentemente, recebe sugestões e retoma o trabalho de onde parou. O Code é a aposta em quem não programa: pela mesma tecnologia do GitHub Copilot, dá para descrever em linguagem natural um aplicativo, um painel ou um fluxo de automação e ter tudo rodando dentro do ambiente da própria empresa, em um serviço novo chamado Copilot Managed Runtime.</p>
+
+      <h2>O que muda com o Autopilot</h2>
+      <p>A novidade mais falada é o Autopilot, descrito pela Microsoft como um agente persistente, proativo e pessoal, que continua trabalhando mesmo quando a pessoa fecha o computador. Ele recebe tarefas e as executa em Teams, Outlook e documentos, sem depender de alguém acompanhando cada passo. É a mesma lógica dos <a href="/artigos/agentes-de-ia-o-futuro-do-trabalho-autonomo-explicado">agentes de IA autônomos</a> que vêm ganhando espaço no mercado, agora dentro do pacote que boa parte das empresas brasileiras já assina.</p>
+      <p>O calendário é escalonado: Home e Code começam a chegar nas próximas semanas para quem participa do programa Frontier, o Autopilot entra em prévia privada até o fim de setembro e a prévia do Code para assinantes do Microsoft 365 Premium e Pro fica para mais adiante no ano. Também estão previstos um centro de comando chamado Today (prévia em outubro) e a menção @Copilot dentro de canais do Teams.</p>
+
+      <h2>Cobrança por uso</h2>
+      <p>Junto com o produto, a Microsoft muda o modelo comercial. A licença por usuário segue cobrindo o uso do dia a dia, com roteamento automático entre modelos, mas o trabalho "agêntico" (Cowork, Code e Autopilot) passa a ser cobrado por consumo. Para segurar a conta, a empresa anunciou controles de FinOps para IA, que mostram quanto cada agente gasta.</p>
+
+      <div class="callout-box callout-tip"><span class="callout-label">Por que isso importa para você</span><p>Se a sua empresa já paga Microsoft 365, o Copilot novo é o caminho mais curto para testar um agente de verdade sem contratar nada extra. A conta por uso, porém, exige regra clara de quem pode acionar o Autopilot e para quê. Vale revisar o <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">passo a passo de configurar um assistente de IA</a> e o guia de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">automação de relatórios em Excel e Sheets</a>, que são os usos onde o Code tende a render mais rápido.</p></div>
+    `,
+    faq: [
+      {
+        question: "O Autopilot do Copilot já está disponível para qualquer usuário?",
+        answer:
+          "Ainda não. Segundo a Microsoft, o Autopilot entra em prévia privada até o fim de setembro de 2026. Home e Code chegam primeiro para participantes do programa Frontier, e a prévia do Code para assinantes do Microsoft 365 Premium e Pro fica para mais adiante no ano.",
+      },
+      {
+        question: "Quanto vai custar usar os agentes do novo Copilot?",
+        answer:
+          "A Microsoft não divulgou valores, mas informou que o trabalho com agentes (Cowork, Code e Autopilot) será cobrado por uso, separado da licença mensal por usuário. Os novos controles de FinOps para IA servem para acompanhar esse consumo.",
+      },
+    ],
+  },
+  {
+    slug: "google-gemini-3-8-live-avatar-video-tempo-real-97-idiomas",
+    title: "Google lança Gemini 3.8 Live com avatar em vídeo que conversa em tempo real em 97 idiomas",
+    summary:
+      "Disponível no Gemini Enterprise, o Live Avatar gera um rosto animado que fala, faz sincronia labial e troca de idioma no meio da conversa, com marca d'água SynthID em todo áudio e vídeo. Google mira atendimento ao cliente e tutoriais interativos.",
+    author: "Bruno Danello",
+    sourceName: "Google",
+    sourceUrl: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+    date: "2026-09-24",
+    content: `
+      <p>O Google colocou à venda o <strong>Gemini 3.8 Live com Live Avatar</strong>, um recurso do Gemini Enterprise que junta o modelo de conversa por voz a um gerador de vídeo de baixa latência. O resultado é um avatar que aparece na tela, responde falando, faz sincronia labial e expressões faciais e consegue mudar de idioma no meio da conversa sem desalinhar o vídeo. Segundo o anúncio, assinado pelos pesquisadores Shuo-yiin Chang e CJ Zheng, o recurso cobre 97 idiomas, incluindo o português.</p>
+      <p>Na prática, a empresa pode escolher um rosto de uma biblioteca de avatares prontos, cada um com aparência e voz próprias, ou, mediante liberação, gerar um avatar a partir de uma imagem de referência, preservando a identidade visual da marca. O avatar também executa ferramentas em segundo plano, como consultar um sistema ou registrar um pedido, enquanto segue conversando.</p>
+
+      <h2>Onde o Google quer usar isso</h2>
+      <p>Os exemplos citados pelo Google são atendimento ao cliente, tutoriais interativos e recepção de hotel. É o mesmo terreno dos <a href="/artigos/como-criar-chatbot-de-atendimento-para-seu-site-sem-programar">chatbots de atendimento</a> que pequenos negócios já montam sem programar, só que com um rosto e voz na frente. Para quem atende clientes de fora, a troca automática de idioma resolve um problema que hoje exige ferramenta separada, como mostramos no guia de <a href="/artigos/como-atender-clientes-em-varios-idiomas-usando-ia">atendimento em vários idiomas com IA</a>.</p>
+      <p>O produto está disponível com endpoints nos Estados Unidos e na Europa, com capacidade provisionada e as regras de governança de dados do Gemini Enterprise. O Google não divulgou preço no anúncio; a cobrança segue a tabela do Gemini Enterprise.</p>
+
+      <h2>Marca d'água em tudo</h2>
+      <p>Todo áudio e vídeo gerado pelo Live Avatar sai com o SynthID, a marca d'água invisível do Google, para que o conteúdo continue identificável como produzido por IA. É uma resposta direta à preocupação com <a href="/artigos/deepfakes-ia-identificar-conteudo-falso-proteger-reputacao">deepfakes e vídeos falsos</a>, que cresce junto com a qualidade desses geradores.</p>
+
+      <div class="callout-box callout-warn"><span class="callout-label">Por que isso importa para você</span><p>Avatares em vídeo deixam de ser brinquedo de demonstração e viram produto corporativo, com contrato, governança e marca d'água. Para criadores e pequenos negócios, o caminho ainda passa por ferramentas mais acessíveis, como as do guia de <a href="/artigos/ia-para-video-criar-avatar-digital-que-fala-por-voce">avatar digital que fala por você</a>, mas o padrão de qualidade que o cliente vai esperar acaba de subir.</p></div>
+    `,
+    faq: [
+      {
+        question: "O Gemini 3.8 Live com Live Avatar funciona em português?",
+        answer:
+          "Sim. O Google informa suporte a 97 idiomas com sincronia labial e troca de idioma durante a conversa, e o português está entre eles. O recurso, porém, é vendido dentro do Gemini Enterprise, voltado a empresas, e não no aplicativo Gemini para consumidores.",
+      },
+      {
+        question: "Dá para saber se um vídeo foi feito pelo Live Avatar?",
+        answer:
+          "O Google afirma que todo áudio e vídeo gerado recebe a marca d'água SynthID, invisível para as pessoas, mas detectável por ferramentas de verificação. Isso ajuda a identificar conteúdo sintético, embora não impeça usos indevidos por si só.",
+      },
+    ],
   },
 ];
 
