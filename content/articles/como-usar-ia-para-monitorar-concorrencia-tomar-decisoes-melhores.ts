@@ -2,97 +2,189 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores",
-  title: "Como Usar IA para Monitorar a Concorrência e Tomar Decisões Melhores",
+  title: "Monitorar a concorrência com IA: guia prático para decidir melhor",
+  seoTitle: "Monitorar a concorrência com IA: guia prático",
   excerpt:
-    "Acompanhar preço, lançamentos e reputação dos concorrentes manualmente consome tempo demais. Veja como usar IA para automatizar esse monitoramento.",
+    "Monitorar a concorrência com IA: veja como acompanhar preço, lançamentos e avaliações dos rivais em 1 hora por semana, com alertas grátis e prompts prontos.",
+  metaDescription:
+    "Monitorar a concorrência com IA sem gastar horas: alertas gratuitos, prompts para resumir avaliações e uma rotina semanal que vira decisão de preço e produto.",
   category: "negocios",
   date: "2026-09-26",
-  readTime: 7,
+  updated: "2026-09-27",
+  readTime: 9,
   imageQuery: "business competitor analysis dashboard screen",
   seed: 88,
+  kind: "guia",
   author: "Bruno Danello",
+  keyPoints: [
+    "Monitorar a concorrência com IA significa automatizar a coleta (alertas, resumos de avaliações, comparação de preços) e reservar seu tempo para a decisão.",
+    "Uma rotina de 1 hora por semana com Google Alerts, um assistente de IA com busca e uma planilha simples já cobre preço, lançamentos e reputação de 3 concorrentes.",
+    "A IA erra data e inventa detalhe: toda informação que vira decisão de preço ou de estoque precisa ser confirmada na fonte antes.",
+  ],
+  sources: [
+    { label: "Google: como criar e gerenciar Alertas", url: "https://support.google.com/websearch/answer/4815696" },
+    { label: "Google: perguntas frequentes sobre o Google Trends", url: "https://support.google.com/trends/answer/4365533" },
+    { label: "Google: como usar o Deep Research no Gemini", url: "https://support.google.com/gemini/answer/15719111" },
+    { label: "Google: ler e responder avaliações no Perfil da Empresa", url: "https://support.google.com/business/answer/3474050" },
+  ],
   content: `
-    <p>Toda empresa pequena sabe que precisa "ficar de olho na concorrência", mas na prática isso quase nunca acontece de forma consistente — falta tempo para checar site, redes sociais e avaliações de cada concorrente com regularidade. IA não substitui a estratégia de negócio, mas consegue automatizar boa parte da coleta de informação que hoje simplesmente não acontece por falta de tempo.</p>
+    <p>Monitorar a concorrência com IA é a forma mais barata de fazer algo que todo dono de negócio sabe que deveria fazer e quase nunca faz: acompanhar preço, lançamentos e reputação dos rivais com regularidade. A IA cuida da coleta e do resumo. Você fica com a parte que importa, que é decidir o que fazer com a informação.</p>
 
-    <p>Esse é o mesmo princípio por trás de outras automações que já cobrimos aqui: tirar do seu prato tarefas repetitivas de monitoramento para sobrar tempo de decidir o que fazer com a informação, como já discutimos em <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como usar IA para reduzir custos operacionais em pequenos negócios</a>.</p>
+    <p>Este guia mostra uma rotina de 1 hora por semana, usando ferramentas gratuitas na maior parte do caminho: alertas do Google, um assistente de IA com busca na web e uma planilha simples. No fim, você terá três prompts prontos, uma tabela do que observar e uma lista dos erros que transformam monitoramento em perda de tempo.</p>
 
-    <h2>O que dá para monitorar com apoio de IA</h2>
-    <p>Preço de produtos e serviços comparáveis, novos lançamentos anunciados nas redes sociais dos concorrentes, e o tom das avaliações que clientes deixam sobre eles são os três pontos mais fáceis de acompanhar com ferramentas de IA combinadas a alertas simples. Ferramentas de automação como as que descrevemos em <a href="/artigos/notion-zapier-e-ia-automatize-seu-negocio-sem-programar">Notion, Zapier e IA: automatize seu negócio sem programar</a> permitem montar alertas automáticos quando uma página de concorrente muda de preço ou publica algo novo.</p>
+    <h2>O que dá para monitorar na concorrência com IA?</h2>
+    <p>Existem quatro frentes que rendem decisão de verdade para um pequeno negócio. A primeira é preço: quanto o concorrente cobra pelo produto ou serviço comparável ao seu, incluindo frete, parcelamento e promoção. A segunda é lançamento: novo produto, novo serviço, nova cidade atendida, tudo isso costuma aparecer primeiro nas redes sociais e no site do rival.</p>
 
-    <div class="callout-box callout-tip">
-      <span class="callout-label">Dica prática</span>
-      <p>Peça a um assistente de IA para resumir semanalmente as avaliações públicas mais recentes de até três concorrentes diretos, destacando reclamações recorrentes. Isso revela pontos fracos reais que você pode transformar em diferencial no seu próprio negócio.</p>
-    </div>
+    <p>A terceira frente é reputação: o que os clientes dizem do concorrente em avaliações públicas, no Google, em marketplaces e em sites de reclamação. Reclamação recorrente do rival é oportunidade sua. A quarta é demanda: o que as pessoas estão buscando na sua região, algo que o <a href="https://support.google.com/trends/answer/4365533" rel="noopener noreferrer">Google Trends</a> mostra de graça, com comparação entre termos ao longo do tempo e por cidade.</p>
 
-    <h2>Diferença entre monitorar e copiar</h2>
-    <p>Monitorar concorrência serve para entender o mercado, não para copiar cada movimento. A IA pode até sugerir "o concorrente X lançou tal produto, considere fazer parecido" — mas a decisão final precisa levar em conta a identidade e o público real do seu próprio negócio, algo que já discutimos em <a href="/artigos/como-validar-ideia-de-negocio-com-ia-antes-de-investir">como validar uma ideia de negócio com IA antes de investir</a>.</p>
+    <p>Tudo isso é informação pública. Você não precisa de nenhum acesso especial, só de um jeito de coletar sem gastar a tarde inteira. O <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">guia de IA para vender mais no negócio local</a> mostra o outro lado dessa moeda: usar a mesma informação para atrair cliente, não só para observar.</p>
 
-    <div class="callout-box callout-bad">
-      <span class="callout-label">Nunca faça</span>
-      <p>Nunca copie textos, imagens ou estratégias de marketing de concorrentes só porque a IA facilitou coletar esse material. Além do risco legal por violação de direitos autorais, isso mina a identidade única do seu próprio negócio.</p>
-    </div>
+    <h2>Ferramentas gratuitas que fazem a coleta por você</h2>
+    <p>Você não precisa assinar nada para começar. A combinação abaixo cobre as quatro frentes e cabe no plano gratuito de cada serviço (limites e planos mudam, então consulte a página oficial antes de contar com algum recurso específico).</p>
 
-    <h2>Transformando dado em decisão</h2>
-    <p>Ter uma tabela de preços da concorrência atualizada só ajuda se isso virar decisão real — ajustar seu próprio preço, criar um diferencial, ou simplesmente confirmar que sua posição no mercado já está adequada. Esse processo de transformar dado bruto em decisão prática é o mesmo que já descrevemos em <a href="/artigos/como-fazer-previsao-de-vendas-planejamento-financeiro-com-ia">como fazer previsão de vendas e planejamento financeiro com IA</a>.</p>
+    <h3>Google Alerts para lançamentos e menções</h3>
+    <p>O <a href="https://support.google.com/websearch/answer/4815696" rel="noopener noreferrer">Google Alerts</a> envia um e-mail sempre que aparece resultado novo para um termo de busca. Crie um alerta para o nome de cada concorrente direto e outro para a categoria do seu produto com o nome da sua cidade. Ajuste a frequência para "uma vez por semana" e o alerta vira sua pauta semanal.</p>
+
+    <h3>Assistente de IA com busca para resumir</h3>
+    <p>ChatGPT, Claude e Gemini já buscam na web quando você pede. O Gemini tem o recurso <a href="https://support.google.com/gemini/answer/15719111" rel="noopener noreferrer">Deep Research</a>, que consulta várias fontes e entrega um relatório com links, o que ajuda a conferir cada afirmação. O <a href="/artigos/perplexity-notebooklm-ia-de-pesquisa-estudar-mais-rapido">Perplexity segue a mesma lógica</a> e costuma ser ainda mais direto na hora de citar fonte.</p>
+
+    <h3>Planilha para guardar o histórico</h3>
+    <p>Uma aba no Google Sheets com colunas para data, concorrente, preço, promoção e observação resolve. Sem histórico você não enxerga padrão, e padrão é o que vale dinheiro. Quem quer ir além pode aplicar as ideias de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a> e deixar a própria IA preencher o resumo do mês.</p>
+
+    <h2>Três prompts prontos para monitorar concorrentes</h2>
+    <p>Prompt vago devolve resposta genérica. Os três abaixo já trazem contexto, formato de saída e a exigência de fonte, que é o que evita invenção. Cole, troque o que está entre colchetes e use em qualquer assistente com busca na web.</p>
+
+    <h3>1. Comparação de preço com fonte</h3>
+    <pre><code>Você é analista de mercado de um pequeno negócio de [segmento] em [cidade].
+Pesquise o preço atual de [produto ou serviço] nos sites de [concorrente A], [concorrente B] e [concorrente C].
+Para cada um, traga: preço à vista, parcelamento, frete ou taxa de deslocamento, promoção ativa e o link da página onde encontrou.
+Se não encontrar o preço, escreva "não encontrado" em vez de estimar.
+Entregue em tabela e termine com uma linha dizendo qual é o mais barato e o mais caro.</code></pre>
+
+    <h3>2. Resumo de avaliações com padrões</h3>
+    <pre><code>Vou colar abaixo 30 avaliações públicas recentes do concorrente [nome].
+Agrupe as reclamações em no máximo 5 temas, com a quantidade de menções em cada tema e uma frase de exemplo.
+Depois liste os 3 elogios mais frequentes.
+Por fim, aponte 2 oportunidades para um negócio concorrente que queira se diferenciar, sem sugerir copiar nada.
+Avaliações:
+[cole aqui]</code></pre>
+
+    <h3>3. Radar de lançamentos da semana</h3>
+    <pre><code>Busque nas redes sociais e no site de [concorrente A] e [concorrente B] o que foi publicado nos últimos 7 dias.
+Liste apenas novidades concretas: produto novo, serviço novo, mudança de preço, evento, nova cidade atendida.
+Para cada item, inclua a data e o link. Ignore posts genéricos de motivação ou bastidores.
+Se não houver novidade, diga isso em uma linha.</code></pre>
+
+    <p>O <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">guia de prompt engineering</a> explica por que pedir formato de saída e exigir "não encontrado" melhora tanto o resultado.</p>
+
+    <h2>Exemplo: uma loja de suplementos com 3 concorrentes</h2>
+    <p>Cenário ilustrativo para mostrar a rotina inteira. Uma loja de suplementos em Curitiba vende whey, creatina e pré-treino, com ticket médio de R$ 180. A dona escolhe três concorrentes: duas lojas físicas do mesmo bairro e um e-commerce grande que entrega na cidade. Ela usa o plano gratuito do Gemini, Google Alerts e uma planilha no Sheets. Custo do monitoramento: zero em ferramentas e cerca de 1 hora por semana.</p>
 
     <table>
       <thead>
         <tr>
           <th>O que monitorar</th>
-          <th>Frequência sugerida</th>
-          <th>Ação possível</th>
+          <th>Ferramenta</th>
+          <th>Frequência</th>
+          <th>Decisão possível</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Preço de produtos comparáveis</td>
-          <td>Semanal</td>
-          <td>Ajustar posicionamento de preço</td>
+          <td>Preço de 5 produtos comparáveis</td>
+          <td>Prompt 1 + planilha</td>
+          <td>Semanal (20 min)</td>
+          <td>Ajustar preço, kit ou frete</td>
         </tr>
         <tr>
-          <td>Novos lançamentos anunciados</td>
-          <td>Quinzenal</td>
-          <td>Antecipar diferencial ou resposta</td>
+          <td>Lançamentos e promoções</td>
+          <td>Google Alerts + prompt 3</td>
+          <td>Semanal (15 min)</td>
+          <td>Antecipar resposta ou ignorar</td>
         </tr>
         <tr>
-          <td>Avaliações e reclamações públicas</td>
-          <td>Mensal</td>
-          <td>Corrigir pontos fracos no seu próprio serviço</td>
+          <td>Avaliações públicas</td>
+          <td>Prompt 2</td>
+          <td>Mensal (25 min)</td>
+          <td>Corrigir ponto fraco, criar diferencial</td>
+        </tr>
+        <tr>
+          <td>Interesse de busca na cidade</td>
+          <td>Google Trends</td>
+          <td>Mensal (10 min)</td>
+          <td>Decidir estoque e conteúdo</td>
         </tr>
       </tbody>
     </table>
 
-    <h2>Cuidado com dados desatualizados</h2>
-    <p>Assistentes de IA generalistas nem sempre têm acesso a informação em tempo real sobre preço ou lançamentos recentes — a resposta pode estar defasada sem que isso fique claro. Sempre confirme diretamente na fonte (site ou redes sociais do concorrente) antes de tomar uma decisão importante baseada só na resposta da IA, o mesmo cuidado que já recomendamos em <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade: o que você entrega sem perceber</a> ao lidar com ferramentas conectadas a dados externos.</p>
+    <p>Na terceira semana, a planilha mostra que o e-commerce grande baixa o preço da creatina toda primeira semana do mês. A dona para de tentar competir nesse produto naqueles dias e passa a oferecer um kit creatina + whey com margem melhor. Esse tipo de decisão de preço fica mais segura com o processo do <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">guia de precificação com IA</a>, que olha custo e margem, não só o vizinho.</p>
 
-    <p>Esse tipo de checagem cruzada também vale para decisões de preço: antes de reajustar valores só com base no que a IA sugeriu sobre a concorrência, confira com o processo mais completo que descrevemos em <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">como precificar serviços usando IA no trabalho</a>.</p>
+    <p>No resumo mensal de avaliações, a IA agrupa 11 reclamações de uma loja física sobre demora no atendimento pelo WhatsApp. A dona responde com um horário de resposta garantido de 15 minutos anunciado na vitrine. Não copiou nada: usou a fraqueza do outro para definir o próprio padrão, o mesmo raciocínio de quem quer <a href="/artigos/como-usar-ia-para-reduzir-cancelamento-de-clientes">reduzir o cancelamento de clientes</a>.</p>
 
-    <div class="callout-box callout-ok">
-      <span class="callout-label">Sinal de que está funcionando</span>
-      <p>Você começa a notar padrões que passavam despercebidos antes — como um concorrente sempre lançar promoções no mesmo período do mês, ou reclamações recorrentes sobre prazo de entrega que você pode transformar em diferencial de rapidez.</p>
+    <div class="callout-box callout-tip">
+      <span class="callout-label">Dica</span>
+      <p>Faça o mesmo resumo de avaliações para a sua própria loja. Responder rápido às avaliações no <a href="https://support.google.com/business/answer/3474050" rel="noopener noreferrer">Perfil da Empresa no Google</a> costuma render mais do que descobrir mais um dado do concorrente. O <a href="/artigos/como-melhorar-avaliacoes-e-reputacao-online-com-ia">guia de reputação online com IA</a> mostra como fazer isso sem gastar a manhã.</p>
     </div>
 
-    <h2>Monitoramento também vale para sua própria reputação</h2>
-    <p>Enquanto observa a concorrência, aproveite para aplicar o mesmo processo à sua própria marca — acompanhar e responder avaliações rapidamente é tão importante quanto saber o que os concorrentes estão fazendo, tema que já detalhamos em <a href="/artigos/como-melhorar-avaliacoes-e-reputacao-online-com-ia">como melhorar avaliações e reputação online com IA</a>. Combinar os dois hábitos — monitorar fora e cuidar de dentro — é o que costuma diferenciar negócios que crescem de forma consistente, como já vimos em <a href="/artigos/como-validar-ideia-de-negocio-com-ia-antes-de-investir">como validar uma ideia de negócio com IA antes de investir</a>.</p>
+    <h2>Como transformar o que a IA coletou em decisão</h2>
+    <p>Dado parado na planilha não paga conta. A regra que funciona é simples: toda semana, depois de atualizar a planilha, você escreve uma única linha chamada "decisão da semana". Pode ser "não mudar nada", e muitas vezes será. O ponto é obrigar a leitura a terminar em algo.</p>
 
-    <h2>Continue lendo</h2>
-    <p>Para aprofundar, veja também <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no seu negócio local</a>, <a href="/artigos/como-times-pequenos-competem-com-grandes-empresas-usando-ia">como times pequenos competem com grandes empresas usando IA</a> e <a href="/artigos/como-usar-ia-para-reduzir-cancelamento-de-clientes">como usar IA para reduzir cancelamento de clientes</a>.</p>
+    <p>Existem só quatro decisões possíveis a partir do monitoramento. Ajustar preço ou condição (parcelamento, frete, kit). Ajustar oferta (incluir ou tirar produto, criar serviço novo). Ajustar comunicação (responder a uma fraqueza do concorrente com um diferencial visível). Ou confirmar que a posição atual está boa e seguir. Quando a decisão envolve compra de estoque, o <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">guia de IA para estoque no pequeno comércio</a> ajuda a não exagerar na aposta.</p>
+
+    <p>Uma decisão maior, como abrir uma linha nova porque o concorrente abriu, merece o filtro do <a href="/artigos/como-validar-ideia-de-negocio-com-ia-antes-de-investir">processo de validação de ideia com IA</a> antes de qualquer investimento. E se o monitoramento mostrar tendência de queda ou alta de demanda, vale alimentar a <a href="/artigos/como-fazer-previsao-de-vendas-planejamento-financeiro-com-ia">previsão de vendas do próximo trimestre</a> com esse dado.</p>
+
+    <h2>Erros comuns ao monitorar a concorrência com IA</h2>
+    <p>O primeiro erro é confiar em preço que a IA "lembrou" em vez de buscou. Modelo sem acesso à web responde com dado de treinamento, que pode ter meses ou anos. Peça sempre link e data, e confira na página antes de mexer na sua tabela de preços.</p>
+
+    <ul class="checklist">
+      <li>Pedi link e data para cada preço e cada lançamento que a IA trouxe</li>
+      <li>Confirmei no site ou na rede social do concorrente antes de decidir</li>
+      <li>Escolhi no máximo 3 concorrentes diretos, não 10</li>
+      <li>Registrei a decisão da semana, mesmo que seja "não mudar nada"</li>
+      <li>Não copiei texto, foto nem oferta de ninguém</li>
+    </ul>
+
+    <p>O segundo erro é monitorar demais. Dez concorrentes geram ruído, não decisão. Três bem escolhidos, incluindo um grande que dita preço, bastam. O terceiro é usar a facilidade de coleta para copiar texto, imagem ou estratégia. Além do risco legal por direitos autorais, você vira uma versão pior do outro.</p>
+
+    <div class="callout-box callout-bad">
+      <span class="callout-label">Nunca faça</span>
+      <p>Nunca use IA para tentar acessar dados que não são públicos, como cadastro de clientes ou preço de custo de um concorrente, nem para criar avaliações falsas contra ele. Além de ser ilegal, esse tipo de coisa costuma aparecer e destrói a reputação do seu negócio.</p>
+    </div>
+
+    <p>O quarto erro é reagir a tudo. Concorrente baixou preço na sexta e você baixa na segunda: em três meses, os dois vendem com margem zero. Times pequenos vencem quando escolhem onde competir, e o texto sobre <a href="/artigos/como-times-pequenos-competem-com-grandes-empresas-usando-ia">como times pequenos competem com grandes empresas usando IA</a> mostra que a vantagem está em velocidade de decisão, não em copiar preço.</p>
+
+    <h2>Quando automatizar de vez (e quando não)</h2>
+    <p>Depois de dois ou três meses de rotina manual, você sabe exatamente o que precisa ver toda semana. Aí vale automatizar: uma automação simples pode juntar os e-mails do Google Alerts, mandar para a IA resumir e gravar o resultado na planilha, sem você abrir nada. O <a href="/artigos/notion-zapier-e-ia-automatize-seu-negocio-sem-programar">guia de Notion, Zapier e IA</a> mostra como montar esse tipo de fluxo sem programar, e o plano gratuito dessas ferramentas costuma dar conta de uma tarefa por semana (consulte a página oficial de cada uma para os limites atuais).</p>
+
+    <p>Não automatize antes de entender o que importa. Automação de coleta que ninguém lê é só mais um e-mail ignorado. Também não vale a pena para negócio com um único concorrente relevante ou com preço tabelado: nesses casos, 15 minutos por mês olhando o site do rival resolvem. E fique atento a uma tendência: à medida que <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA passam a comprar pelo consumidor</a>, comparação de preço vai ficar instantânea do lado do cliente, o que torna ainda mais importante competir em algo além do valor.</p>
+
+    <p>Comece esta semana com um concorrente, um alerta e o prompt de preço. Se a rotina render uma decisão boa no primeiro mês, ela já se pagou. Os outros guias da categoria <a href="/categoria/negocios">Negócios com IA</a> cobrem o passo seguinte, que é fazer essa decisão virar venda.</p>
   `,
   faq: [
     {
-      question: "É antiético usar IA para monitorar a concorrência?",
+      question: "Monitorar a concorrência com IA é legal?",
       answer:
-        "Não, desde que a informação usada seja pública — preço divulgado, posts nas redes sociais, avaliações abertas de clientes. O problema ético surge apenas se você copiar conteúdo protegido ou usar meios indevidos de coleta de dados.",
+        "Sim, desde que você use apenas informação pública: preço no site, posts em redes sociais, avaliações abertas de clientes, dados do Google Trends. O problema começa quando alguém tenta acessar dados privados, copia conteúdo protegido por direitos autorais ou cria avaliações falsas. Nada disso é necessário para tomar boas decisões, e todos trazem risco jurídico e de reputação.",
+    },
+    {
+      question: "Qual IA é melhor para monitorar concorrentes?",
+      answer:
+        "Qualquer assistente com busca na web funciona: ChatGPT, Claude, Gemini ou Perplexity. O que muda o resultado é o prompt, que precisa exigir link, data e a resposta 'não encontrado' quando a informação não existe. O Deep Research do Gemini e o Perplexity se destacam por citar fontes de forma clara, o que facilita a conferência antes de decidir.",
     },
     {
       question: "Com que frequência devo monitorar a concorrência?",
       answer:
-        "Depende do tipo de informação: preços podem ser checados semanalmente, lançamentos de produtos a cada duas semanas, e avaliações de clientes mensalmente costuma ser suficiente para a maioria dos pequenos negócios.",
+        "Para a maioria dos pequenos negócios, preço e lançamentos semanalmente, avaliações e interesse de busca mensalmente. Isso cabe em cerca de 1 hora por semana. Mais do que isso costuma gerar ruído e reação exagerada. O importante é ter histórico em planilha, porque padrão só aparece depois de algumas semanas de registro.",
     },
     {
-      question: "A IA consegue acessar dados de concorrentes em tempo real?",
+      question: "A IA consegue ver preço de concorrente em tempo real?",
       answer:
-        "Depende da ferramenta. Assistentes com busca ativa na web conseguem trazer informação mais recente, mas mesmo assim vale sempre confirmar diretamente na fonte antes de qualquer decisão importante.",
+        "Só quando faz busca na web no momento da pergunta. Se o modelo responde de memória, o preço pode estar defasado por meses. Por isso o prompt deve pedir o link da página e a data, e você deve abrir o link antes de tomar qualquer decisão de preço. Trate a resposta da IA como ponto de partida, nunca como confirmação.",
+    },
+    {
+      question: "Dá para monitorar a concorrência de graça?",
+      answer:
+        "Dá. Google Alerts, Google Trends, o plano gratuito de assistentes como Gemini e ChatGPT e uma planilha no Google Sheets cobrem preço, lançamentos, avaliações e demanda. Planos pagos só passam a valer a pena quando você quer automatizar a coleta ou monitorar muitos concorrentes, e mesmo assim confira os limites atuais na página oficial de cada ferramenta.",
     },
   ],
   quiz: [
@@ -100,25 +192,25 @@ export const article: Article = {
       question: "Qual é o principal risco de usar IA para monitorar a concorrência?",
       options: [
         "Não existe nenhum risco relevante",
-        "Copiar conteúdo ou estratégias de concorrentes de forma indevida",
+        "Decidir com base em dado desatualizado ou copiar conteúdo do concorrente",
         "A IA sempre inventa dados sobre concorrentes",
-        "Monitorar concorrência é sempre proibido por lei",
+        "Monitorar concorrência é proibido por lei",
       ],
       answer: 1,
       explanation:
-        "O principal risco é usar a facilidade de coleta de dados para copiar conteúdo ou estratégias de concorrentes de forma indevida, o que pode gerar problema legal e mina a identidade própria do negócio.",
+        "Os dois riscos reais são confiar em preço ou lançamento que a IA respondeu de memória, sem buscar, e usar a facilidade de coleta para copiar texto, imagem ou estratégia. Monitorar informação pública é legal e comum.",
     },
     {
-      question: "Qual é o objetivo real de monitorar a concorrência com apoio de IA?",
+      question: "O que fazer toda semana depois de atualizar a planilha de monitoramento?",
       options: [
-        "Copiar cada movimento do concorrente",
-        "Entender o mercado e transformar informação em decisões próprias",
-        "Ignorar completamente o que os concorrentes fazem",
-        "Apenas comparar preços sem nenhuma outra ação",
+        "Baixar o preço para igualar o concorrente",
+        "Registrar uma decisão da semana, mesmo que seja não mudar nada",
+        "Adicionar mais concorrentes à lista",
+        "Apagar o histórico e começar de novo",
       ],
       answer: 1,
       explanation:
-        "O objetivo é entender o mercado e usar essa informação para tomar decisões próprias — ajustar preço, criar diferencial ou corrigir pontos fracos — não copiar o que o concorrente faz.",
+        "O monitoramento só vale a pena quando termina em decisão. Escrever a decisão da semana, inclusive 'não mudar nada', obriga a leitura a virar ação e evita reação automática a cada movimento do rival.",
     },
   ],
 };
