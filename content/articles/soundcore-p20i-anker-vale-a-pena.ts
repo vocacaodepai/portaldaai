@@ -14,9 +14,9 @@ export const article: Article = {
   imageQuery: "wireless earbuds charging case on desk",
   seed: 98,
   coverImage: {
-    url: "/images/products/soundcore-p20i.jpg",
-    width: 679,
-    height: 954,
+    url: "/images/products/soundcore-p20i-capa.jpg",
+    width: 1600,
+    height: 900,
     credit: "Anker Soundcore (imagem oficial do produto)",
     creditUrl: "https://www.soundcore.com/eu/products/a3949",
   },
