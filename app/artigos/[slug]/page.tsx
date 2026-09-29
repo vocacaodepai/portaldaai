@@ -126,6 +126,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const review = article.review;
   const offer = review ? parseOffer(review.price) : null;
+  const isProduct = article.category === "ai-indica";
   const reviewLd =
     isReview && review
       ? {
@@ -138,14 +139,21 @@ export default async function ArticlePage({ params }: { params: Params }) {
           datePublished: article.date,
           dateModified: article.updated ?? article.date,
           inLanguage: "pt-BR",
-          itemReviewed: {
-            "@type": "SoftwareApplication",
-            name: review.tool,
-            applicationCategory: "BusinessApplication",
-            operatingSystem: "Web",
-            url: review.url,
-            ...(offer ? { offers: offer } : {}),
-          },
+          itemReviewed: isProduct
+            ? {
+                "@type": "Product",
+                name: review.tool,
+                url: review.url,
+                ...(offer ? { offers: offer } : {}),
+              }
+            : {
+                "@type": "SoftwareApplication",
+                name: review.tool,
+                applicationCategory: "BusinessApplication",
+                operatingSystem: "Web",
+                url: review.url,
+                ...(offer ? { offers: offer } : {}),
+              },
           reviewRating: {
             "@type": "Rating",
             ratingValue: review.score,

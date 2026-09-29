@@ -14,4 +14,6 @@ export const categoryIntros: Record<Category, string> = {
     "Usar IA na carreira é hoje uma das formas mais rápidas de se destacar em qualquer área. Esta categoria reúne guias para preparar currículo e entrevistas com ajuda da inteligência artificial, aprender novas habilidades, produzir mais no trabalho atual e mostrar valor para o chefe ou para os clientes. Sem promessas vazias, com o que dá para aplicar já na segunda-feira.",
   futuro:
     "O futuro do trabalho com IA já começou a mudar profissões inteiras, e ninguém precisa esperar para se preparar. Aqui você acompanha quais funções estão mudando, quais habilidades ganham valor e o que empresas e governos estão decidindo. Análises diretas para você tomar decisões sobre estudo, carreira e negócio com base em fatos, não em medo.",
+  "ai-indica":
+    "AI Indica é a seleção de produtos de eletrônicos que testamos e comparamos com apoio de inteligência artificial, sempre com nota por critério, prós e contras reais e link direto para comprar. Nenhum produto paga para aparecer aqui: a nota é fechada antes de verificarmos se existe programa de afiliado, e isso está detalhado na nossa política de publicidade e afiliados.",
 };

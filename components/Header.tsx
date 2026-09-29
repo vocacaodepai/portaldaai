@@ -9,6 +9,7 @@ export const PRIMARY_NAV = [
   { href: "/noticias", label: "Notícias" },
   { href: "/artigos", label: "Artigos" },
   { href: "/reviews", label: "Reviews" },
+  { href: "/categoria/ai-indica", label: "AI Indica" },
   { href: "/sobre", label: "Sobre" },
 ];
 
@@ -23,11 +24,13 @@ export const INSTITUTIONAL_NAV = [
 ];
 
 export function Header() {
-  const categoryItems = categories.map((c) => ({
-    href: `/categoria/${c.slug}`,
-    label: c.label,
-    description: c.description,
-  }));
+  const categoryItems = categories
+    .filter((c) => c.slug !== "ai-indica")
+    .map((c) => ({
+      href: `/categoria/${c.slug}`,
+      label: c.label,
+      description: c.description,
+    }));
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-surface/85 backdrop-blur-md supports-[backdrop-filter]:bg-surface/75">
@@ -35,7 +38,7 @@ export function Header() {
         <Logo priority className="mr-2" />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
-          {PRIMARY_NAV.slice(0, 3).map((i) => (
+          {PRIMARY_NAV.slice(0, 4).map((i) => (
             <Link
               key={i.href}
               href={i.href}

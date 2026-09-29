@@ -97,7 +97,7 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
             rel={rel}
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-3 font-display text-sm font-semibold text-accent-foreground transition hover:opacity-90"
           >
-            Conhecer {review.tool} <span aria-hidden="true">↗</span>
+            {review.ctaLabel ?? `Conhecer ${review.tool}`} <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
