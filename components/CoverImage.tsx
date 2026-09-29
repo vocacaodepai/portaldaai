@@ -100,7 +100,7 @@ export async function CoverImage({
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
       decoding={priority ? "sync" : "async"}
-      className="h-full w-full object-cover"
+      className={override ? "h-full w-full object-contain p-3 sm:p-6" : "h-full w-full object-cover"}
     />
   );
   const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
