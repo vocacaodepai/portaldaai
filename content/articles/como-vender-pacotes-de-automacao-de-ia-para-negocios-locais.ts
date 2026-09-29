@@ -21,12 +21,6 @@ export const article: Article = {
     "Cobra-se instalação (faixa de R$ 500 a R$ 2.000) mais mensalidade de manutenção (R$ 150 a R$ 500), com custo de ferramenta que começa no plano gratuito do Make.",
     "O dono do negócio local compra tempo e clientes que deixa de perder, não tecnologia: diagnóstico curto, proposta de uma página e relatório mensal simples fecham mais que jargão.",
   ],
-  sources: [
-    { label: "gov.br: Mapa de Empresas (empresas ativas no Brasil)", url: "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas" },
-    { label: "Sebrae RN: inteligência artificial para pequenos negócios", url: "https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/" },
-    { label: "Make: planos e preços", url: "https://www.make.com/en/pricing" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-  ],
   content: `
     <p>Vender pacotes de automação de IA para negócios locais é montar um combo fechado (lembrete de agendamento, resposta automática no WhatsApp, pedido de avaliação) e instalar o mesmo combo em dezenas de salões, clínicas e oficinas da sua cidade. Você cobra pela instalação e por uma mensalidade de manutenção. Este guia mostra o que colocar no pacote, quanto cobrar e como vender.</p>
 

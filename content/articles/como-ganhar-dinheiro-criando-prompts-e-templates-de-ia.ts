@@ -21,12 +21,6 @@ export const article: Article = {
     "Na Hotmart a taxa inicial é de 9,9% mais R$ 2,49 por venda aprovada e no Gumroad é de 10% mais US$ 0,50 na venda direta (ambas verificadas em 27/09/2026), então produto barato demais mal cobre a taxa.",
     "A faixa realista para quem começa sem audiência é de algumas vendas por mês, entre R$ 27 e R$ 97 cada; o que muda esse número é nicho, prova de resultado e canal de divulgação.",
   ],
-  sources: [
-    { label: "OpenAI, Guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "Anthropic, Visão geral de prompt engineering (Claude)", url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" },
-    { label: "Hotmart, Taxas para produtores", url: "https://internal-pages.hotmart.com/pt-br/taxa-hotmart" },
-    { label: "Gumroad, Pricing", url: "https://gumroad.com/pricing" },
-  ],
   content: `
     <p>Ganhar dinheiro criando prompts e templates de IA é possível, mas não do jeito que os anúncios prometem. Ninguém paga por um prompt de três linhas que aparece de graça em qualquer post. As pessoas pagam por um pacote que resolve uma tarefa chata de um nicho específico, com instruções de uso, exemplos do resultado e a garantia de que alguém já testou antes delas. É produto digital, e segue as regras de produto digital.</p>
 

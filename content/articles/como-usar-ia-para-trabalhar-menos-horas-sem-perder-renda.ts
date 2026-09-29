@@ -21,13 +21,6 @@ export const article: Article = {
     "E-mail, reuniões, relatórios e pesquisa são as tarefas que mais devolvem horas para quem começa hoje, com ferramentas gratuitas ou baratas.",
     "Autônomo protege o ganho cobrando por entrega; funcionário CLT protege negociando com dados de resultado, não com a alegação de estar mais rápido.",
   ],
-  sources: [
-    {
-      label: "Microsoft Work Trend Index 2024: AI at Work Is Here",
-      url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
-    },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>Trabalhar menos horas sem perder renda usando IA é possível quando você faz três coisas em ordem: medir para onde as horas vão, automatizar o que a IA já faz bem e mudar a forma de cobrar (ou de negociar) para que o ganho de tempo fique com você e não vire mais tarefa. A ferramenta é a parte fácil; a estrutura é o que decide.</p>
 

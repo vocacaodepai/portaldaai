@@ -20,24 +20,6 @@ export const article: Article = {
     "Mesmo sem a lei aprovada, LGPD, ANPD e a Resolução do TSE 23.755/2026 já obrigam transparência, identificação de conteúdo gerado por IA e cuidado com dados pessoais.",
     "Para quem usa IA no trabalho, o risco imediato não é a lei futura: é usar dado de cliente sem base legal, cortar corners na eleição ou ignorar aviso obrigatório de conteúdo sintético.",
   ],
-  sources: [
-    {
-      label: "Câmara dos Deputados - Comissão Especial sobre o PL 2338/23",
-      url: "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/especiais/57a-legislatura/comissao-especial-sobre-inteligencia-artificial-pl-2338-23",
-    },
-    {
-      label: "Migalhas - IA nas campanhas eleitorais 2026: o que o TSE autoriza ou proíbe",
-      url: "https://www.migalhas.com.br/quentes/455672/ia-nas-campanhas-eleitorais-2026-veja-o-que-tse-autoriza-ou-proibe",
-    },
-    {
-      label: "ANPD (gov.br) - Mapa de Temas Prioritários 2026-2027",
-      url: "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-mapa-de-temas-prioritarios-para-o-bienio-2026-2027-e-atualiza-agenda-regulatoria-2025-2026",
-    },
-    {
-      label: "Politize! - Regras e legislações para limitar os efeitos da IA nas eleições de 2026",
-      url: "https://www.politize.com.br/regras-e-legislacoes-para-limitar-os-efeitos-da-ia-nas-eleicoes-de-2026/",
-    },
-  ],
   content: `
     <p>A lei da IA no Brasil ainda não saiu do papel, mas quem usa ChatGPT, Copilot ou qualquer outra ferramenta de inteligência artificial no trabalho já precisa seguir regras que valem hoje. Enquanto o PL 2338/2023 tramita na Câmara dos Deputados sem data certa de votação, LGPD, ANPD e Resolução do TSE já cobram transparência, cuidado com dado pessoal e identificação de conteúdo sintético.</p>
     <p>Este guia não é para advogado. É para quem usa IA para escrever proposta, atender cliente, rodar campanha ou <a href="/artigos/automacao-com-ia-economize-horas-de-trabalho">automatizar tarefa no negócio</a> e quer saber, na prática, o que já é obrigação, o que é só projeto de lei e onde mora o risco real de multa ou dor de cabeça em 2026.</p>

@@ -21,24 +21,6 @@ export const article: Article = {
     "Na prática isso já funciona hoje nos assistentes gratuitos: foto de um problema, áudio de uma reunião, tela de uma planilha; o ganho é cortar etapas entre o problema real e a resposta.",
     "A máquina ainda erra em texto pequeno, imagem girada, contagem de objetos e áudio com ruído, como a documentação oficial da OpenAI e da Anthropic reconhece; decisão importante continua passando por gente.",
   ],
-  sources: [
-    {
-      label: "OpenAI: documentação de imagens e visão (capacidades e limitações)",
-      url: "https://developers.openai.com/api/docs/guides/images-vision",
-    },
-    {
-      label: "Anthropic: documentação de visão do Claude (limites e limitações)",
-      url: "https://platform.claude.com/docs/en/build-with-claude/vision",
-    },
-    {
-      label: "Google: documentação de compreensão de áudio da API Gemini",
-      url: "https://ai.google.dev/gemini-api/docs/audio",
-    },
-    {
-      label: "OpenAI: documentação da Realtime API (conversa por voz em tempo real)",
-      url: "https://developers.openai.com/api/docs/guides/realtime",
-    },
-  ],
   content: `
     <p>IA multimodal é a inteligência artificial que recebe texto, imagem, áudio e vídeo na mesma conversa e responde a partir de tudo isso junto. Em vez de descrever a foto do produto quebrado, você manda a foto. Em vez de transcrever a reunião, você manda o áudio. A máquina passa a "ver" e "ouvir" o problema, e o texto vira só uma das formas de falar com ela.</p>
 

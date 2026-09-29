@@ -21,12 +21,6 @@ export const article: Article = {
     "Gemini Live e o modo de voz do Claude fazem simulação falada de graça; o método STAR organiza suas histórias e os prompts deste guia cobrem cada etapa.",
     "O erro que mais derruba candidato é decorar resposta gerada; o plano de 5 dias mostra como treinar raciocínio e chegar com números e perguntas próprias.",
   ],
-  sources: [
-    { label: "Grow with Google: guia de preparação para entrevistas", url: "https://grow.google/certificates/interview-warmup/" },
-    { label: "Ajuda do Gemini: Gemini Live", url: "https://support.google.com/gemini/answer/15274899" },
-    { label: "Anthropic: modo de voz do Claude", url: "https://support.claude.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Como se preparar para entrevistas de emprego usando IA se resume a três usos: pesquisar a empresa e a vaga em minutos, simular a conversa em voz alta com um assistente que pergunta e devolve feedback, e estruturar suas histórias sem decorar texto pronto. Este guia traz o passo a passo, os prompts e as ferramentas gratuitas.</p>
 

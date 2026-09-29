@@ -21,13 +21,6 @@ export const article: Article = {
     "Existem três portas de entrada (IA aplicada na própria função, operação de automações sem código e consultoria), e todas dispensam programação no começo.",
     "Um plano de 90 dias com um projeto real, documentado e visível pesa mais em entrevista do que um certificado sozinho.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Microsoft: Work Trend Index 2025", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born" },
-    { label: "Google: curso AI Essentials", url: "https://grow.google/ai-essentials/" },
-    { label: "OpenAI Academy", url: "https://academy.openai.com/" },
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Migrar de carreira para a área de IA não exige uma nova graduação nem aprender a programar. A maior parte das vagas que estão surgindo pede alguém que entende bem um setor (vendas, saúde, direito, RH, logística) e sabe usar IA para resolver os problemas desse setor. Este guia mostra os três caminhos de entrada, um plano de 90 dias e o que estudar de verdade.</p>
 

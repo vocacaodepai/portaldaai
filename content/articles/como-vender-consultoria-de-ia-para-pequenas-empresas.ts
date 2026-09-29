@@ -21,24 +21,6 @@ export const article: Article = {
     "O modelo que sustenta o negócio tem três cobranças: diagnóstico fixo, implementação por entrega e mensalidade de acompanhamento; a receita recorrente vem da terceira.",
     "Os primeiros clientes saem do seu círculo (comerciantes locais, prestadores conhecidos) e o primeiro projeto bem documentado vira o argumento de venda do segundo.",
   ],
-  sources: [
-    {
-      label: "Sebrae RN: guia de inteligência artificial para pequenos negócios",
-      url: "https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/",
-    },
-    {
-      label: "gov.br: o que você precisa saber antes de se tornar um MEI (limite de faturamento)",
-      url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei",
-    },
-    {
-      label: "gov.br: Mapa de Empresas (empresas ativas no Brasil)",
-      url: "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
-    },
-    {
-      label: "WhatsApp Business Platform (página oficial)",
-      url: "https://whatsappbusiness.com/products/business-platform/",
-    },
-  ],
   content: `
     <p>Consultoria de IA para pequenas empresas é o serviço de entrar em um negócio pequeno, encontrar a tarefa que mais rouba tempo do dono e resolver essa tarefa com uma ferramenta de IA configurada, testada e acompanhada. Não exige programar nem ser "especialista": exige método, uma proposta específica e coragem de cobrar por resultado.</p>
 

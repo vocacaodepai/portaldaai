@@ -21,12 +21,6 @@ export const article: Article = {
     "Token, janela de contexto e alucinação são os três termos que mais mudam o resultado do seu uso diário, porque explicam limite de texto, custo e por que a IA erra com confiança.",
     "Você não precisa decorar nada: basta reconhecer o termo quando ele aparecer e saber o que ele muda na prática, e a tabela rápida deste guia serve de consulta.",
   ],
-  sources: [
-    { label: "Anthropic: glossário de termos (contexto, fine-tuning, RAG, RLHF, temperatura)", url: "https://platform.claude.com/docs/en/about-claude/glossary" },
-    { label: "Anthropic: como funciona a janela de contexto", url: "https://platform.claude.com/docs/en/build-with-claude/context-windows" },
-    { label: "Google: entenda e conte tokens na API Gemini", url: "https://ai.google.dev/gemini-api/docs/tokens" },
-    { label: "OpenAI: otimização de modelos e quando usar fine-tuning", url: "https://developers.openai.com/api/docs/guides/model-optimization" },
-  ],
   content: `
     <p>Este dicionário de inteligência artificial explica, em português simples, os 25 termos que mais aparecem quando você abre o ChatGPT, lê uma notícia ou compara planos de ferramentas: prompt, token, janela de contexto, alucinação, agente, fine-tuning e companhia. Cada verbete tem definição curta, um exemplo do dia a dia e o que aquilo muda na prática para você.</p>
 

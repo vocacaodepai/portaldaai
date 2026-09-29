@@ -21,12 +21,6 @@ export const article: Article = {
     "As tarefas mais afetadas são repetitivas e baseadas em texto ou dados; julgamento, relacionamento e responsabilidade por decisões seguem com as pessoas.",
     "Um plano de 90 dias (mapear tarefas, dominar uma ferramenta na sua área, documentar resultados) é o que separa quem supervisiona a IA de quem compete com ela.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "OIT: Generative AI and Jobs, índice global de exposição ocupacional", url: "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure" },
-    { label: "Microsoft: Work Trend Index 2026", url: "https://www.microsoft.com/en-us/worklab/work-trend-index" },
-    { label: "Ministério do Trabalho e Emprego: Novo Caged", url: "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged" },
-  ],
   content: `
     <p>Os empregos que a IA vai transformar não são só os de tecnologia. Atendimento, administrativo, contabilidade, redação, vendas e programação já têm tarefas inteiras sendo feitas por assistentes de IA. O que os dados mostram até agora é que a IA muda o conteúdo do trabalho antes de eliminar o cargo, e quem entende essa diferença consegue se preparar com um plano, não com medo.</p>
 

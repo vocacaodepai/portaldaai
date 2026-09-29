@@ -21,24 +21,6 @@ export const article: Article = {
     "Os cinco caminhos que funcionam são afiliados, newsletter ou canal de curadoria, consultoria de escolha de ferramenta, vídeos e plataformas de teste pago, e os três primeiros dependem de audiência ou de rede de contatos.",
     "Todo link de afiliado e todo conteúdo patrocinado precisam de aviso visível, perto da recomendação; sem isso você perde o público e a conta na plataforma.",
   ],
-  sources: [
-    {
-      label: "Google Search Central: como escrever reviews de alta qualidade",
-      url: "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews",
-    },
-    {
-      label: "FTC: guia de endossos e divulgação de links de afiliado",
-      url: "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
-    },
-    {
-      label: "UserTesting: como funciona o pagamento por teste",
-      url: "https://www.usertesting.com/get-paid-to-test",
-    },
-    {
-      label: "YouTube: requisitos do Programa de Parcerias",
-      url: "https://support.google.com/youtube/answer/72851",
-    },
-  ],
   content: `
     <p>Ganhar dinheiro testando ferramentas de IA é viável por cinco caminhos: comissão de afiliado, newsletter ou canal de curadoria, consultoria para quem precisa escolher uma ferramenta, vídeos de comparação e plataformas que pagam por teste de usabilidade. Nenhum deles paga por opinião solta. Todos pagam por um teste feito em uma tarefa real, de um público específico, com resultado que dá para conferir.</p>
 

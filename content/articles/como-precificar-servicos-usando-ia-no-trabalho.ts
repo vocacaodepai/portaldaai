@@ -21,12 +21,6 @@ export const article: Article = {
     "O preço de um serviço vem de três referências que o Sebrae descreve: custo mais margem, markup e valor percebido. A IA muda o custo, não o valor que o cliente recebe.",
     "Migrar de hora para entrega leva quatro passos: listar o que entrega, calcular o piso, definir pacotes e comunicar prazo menor como vantagem, não como desconto.",
   ],
-  sources: [
-    { label: "Sebrae RN: como calcular o preço do seu produto (custo, markup e valor percebido)", url: "https://blog.rn.sebrae.com.br/precificar-produto-2026/" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI (limite de faturamento)", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "OpenAI: guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "Stanford HAI: AI Index Report", url: "https://hai.stanford.edu/ai-index" },
-  ],
   content: `
     <p>Precificar serviços usando IA no trabalho começa por uma decisão: parar de vender horas e passar a vender entregas. Se um roteiro que levava 3 horas agora leva 1, quem cobra por hora perde dois terços da receita; quem cobra pelo roteiro pronto mantém o preço e ganha tempo para atender mais gente. A velocidade é lucro seu, não desconto para o cliente.</p>
 

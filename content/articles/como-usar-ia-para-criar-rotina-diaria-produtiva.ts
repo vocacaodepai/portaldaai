@@ -21,11 +21,6 @@ export const article: Article = {
     "Três prompts resolvem o principal e funcionam em conta gratuita de Gemini, ChatGPT ou Claude; a rotina só vira hábito quando sai do chat e entra na agenda.",
     "Os erros que derrubam a rotina são pedido vago, agenda sem folga e dependência total da ferramenta; mantenha uma versão manual do que não pode falhar.",
   ],
-  sources: [
-    { label: "Ajuda do Gemini: ações agendadas", url: "https://support.google.com/gemini/answer/16316416" },
-    { label: "Ajuda do Gemini: criar e gerenciar eventos da agenda", url: "https://support.google.com/gemini/answer/15305236" },
-    { label: "Todoist: método time blocking", url: "https://www.todoist.com/productivity-methods/time-blocking" },
-  ],
   content: `
     <p>Usar IA para criar uma rotina diária produtiva funciona quando você trata o assistente como um planejador que replaneja rápido, não como uma agenda que manda em você. Com conta gratuita do Gemini, do ChatGPT ou do Claude dá para mapear onde o tempo vai, montar o dia em blocos e reorganizar tudo em um minuto quando a reunião estoura.</p>
 

@@ -21,12 +21,6 @@ export const article: Article = {
     "Dá para começar de graça: Zapier e Make têm planos gratuitos e o ChatGPT, Claude e Gemini resolvem a parte de texto.",
     "Comece com uma tarefa por semana, revise o resultado por 30 dias e só então automatize a próxima.",
   ],
-  sources: [
-    { label: "Zapier: planos e preços", url: "https://zapier.com/pricing" },
-    { label: "Make: planos e preços", url: "https://www.make.com/en/pricing" },
-    { label: "Zapier Help: conceitos de Zap, trigger, action e task", url: "https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zapier" },
-    { label: "Microsoft Work Trend Index 2025", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born" },
-  ],
   content: `
     <p>Automação com IA é usar uma ferramenta de inteligência artificial para fazer, sem você, as tarefas pequenas que se repetem todo dia: resumir e-mail, passar pedido para a planilha, transformar reunião em lista de tarefas, rascunhar o post da semana. Não exige programar. Exige escolher a tarefa certa e ter um processo para conferir o resultado.</p>
 

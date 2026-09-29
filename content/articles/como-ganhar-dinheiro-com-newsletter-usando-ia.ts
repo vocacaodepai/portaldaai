@@ -21,12 +21,6 @@ export const article: Article = {
     "Beehiiv, Substack e Mailchimp têm plano gratuito para começar; no Substack o autor fica com 90% das assinaturas pagas, descontadas as taxas de cartão, e nas outras o custo sobe conforme a lista cresce.",
     "A ordem que se repete é lista gratuita, patrocínio, produto próprio e só depois assinatura paga; ninguém deveria esperar renda no primeiro mês.",
   ],
-  sources: [
-    { label: "Substack: página oficial sobre assinaturas pagas (autor fica com 90%)", url: "https://substack.com/going-paid" },
-    { label: "Beehiiv: página oficial de preços", url: "https://www.beehiiv.com/pricing" },
-    { label: "Mailchimp: página oficial de preços", url: "https://mailchimp.com/pricing/" },
-    { label: "ANPD: Autoridade Nacional de Proteção de Dados (LGPD)", url: "https://www.gov.br/anpd/pt-br" },
-  ],
   content: `
     <p>Ganhar dinheiro com newsletter usando IA é possível, mas o dinheiro vem da audiência, não da ferramenta. A IA corta o tempo de pesquisa, estrutura e revisão de cada edição; quem escolhe o nicho, dá opinião e conquista o leitor é você. Este guia mostra plataforma, custo, prompts e as quatro formas de monetizar que funcionam no Brasil.</p>
 

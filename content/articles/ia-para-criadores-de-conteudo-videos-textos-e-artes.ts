@@ -21,15 +21,6 @@ export const article: Article = {
     "Um kit inicial pode custar R$ 0: ChatGPT, Claude e Gemini têm planos gratuitos, e Canva e CapCut também; pagar só faz sentido quando o volume de produção justifica.",
     "Publicar o que a IA entregou sem revisar, ignorar a regra de divulgação do YouTube e usar voz ou imagem de terceiros são os erros que mais custam caro.",
   ],
-  sources: [
-    { label: "ElevenLabs: planos e preços", url: "https://elevenlabs.io/pricing" },
-    { label: "Google: planos Gemini e Google AI", url: "https://gemini.google/subscriptions/" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-    {
-      label: "Ajuda do YouTube: divulgação de conteúdo alterado ou sintético",
-      url: "https://support.google.com/youtube/answer/14328491",
-    },
-  ],
   content: `
     <p>IA para criadores de conteúdo funciona melhor como esteira de produção, não como substituta da sua voz. Roteiro bruto, legenda, corte de silêncio, narração e capa são etapas que a IA resolve em minutos. Gravar, dar opinião e revisar continuam sendo seu trabalho. Este guia mostra o fluxo inteiro, com ferramentas, planos e prompts prontos.</p>
 

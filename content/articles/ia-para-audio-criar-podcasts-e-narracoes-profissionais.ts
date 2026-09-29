@@ -21,13 +21,6 @@ export const article: Article = {
     "Voz sintética em português já serve para narração de curso, vídeo institucional e audiodescrição; para podcast de opinião, a voz real ainda conecta mais.",
     "Dá para começar gastando zero (Audacity, Adobe Podcast Enhance, planos gratuitos de Descript e ElevenLabs) e só pagar quando o volume justificar.",
   ],
-  sources: [
-    { label: "Adobe Podcast: Enhance Speech", url: "https://podcast.adobe.com/en/enhance" },
-    { label: "Descript: planos e preços", url: "https://www.descript.com/pricing" },
-    { label: "ElevenLabs: planos e preços", url: "https://elevenlabs.io/pricing" },
-    { label: "Audacity: editor de áudio gratuito", url: "https://www.audacityteam.org/" },
-    { label: "Google: anúncio do Gemini 3.8 Flash TTS", url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/" },
-  ],
   content: `
     <p>IA para áudio é o conjunto de ferramentas que limpa, edita e até gera voz a partir de texto, e hoje ela resolve as três barreiras clássicas de quem quer fazer podcast ou narração: não ter estúdio, não saber editar e não ter "voz de locutor". Com um celular, um quarto com cortina e duas ferramentas gratuitas, o resultado já é publicável.</p>
 

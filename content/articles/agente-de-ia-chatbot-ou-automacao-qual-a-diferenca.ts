@@ -21,12 +21,6 @@ export const article: Article = {
     "Comece sempre pelo degrau mais simples que resolve o processo e só suba de nível quando ele travar, medindo o volume antes de pagar por autonomia.",
     "Agente que executa ações precisa de freios (limite de gasto, aprovação humana) porque erra de forma criativa, enquanto automação erra de forma previsível.",
   ],
-  sources: [
-    { label: "Anthropic: Building effective agents", url: "https://www.anthropic.com/engineering/building-effective-agents" },
-    { label: "OpenAI: guia de agentes para desenvolvedores", url: "https://developers.openai.com/api/docs/guides/agents" },
-    { label: "Zapier: página oficial de preços", url: "https://zapier.com/pricing" },
-    { label: "Sebrae RN: chatbot para atendimento ao cliente", url: "https://blog.rn.sebrae.com.br/chatbot-para-atendimento-ao-cliente/" },
-  ],
   content: `
     <p>Agente de IA, chatbot ou automação: a diferença real está em quanto o sistema decide sozinho. A automação segue regras fixas e não decide nada. O chatbot conversa em linguagem natural, mas dentro de um tema. O agente de IA planeja etapas, usa ferramentas e executa a tarefa inteira com pouca supervisão. Cada um custa e erra de um jeito.</p>
 

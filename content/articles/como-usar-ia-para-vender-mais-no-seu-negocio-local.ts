@@ -21,25 +21,6 @@ export const article: Article = {
     "Os seis usos deste guia (WhatsApp, redes sociais, avaliações, promoções, preço e presença digital) cabem em ferramentas gratuitas ou de até US$ 20 por mês.",
     "Toda mensagem gerada por IA passa por revisão sua antes de chegar ao cliente, e quem quer falar com uma pessoa precisa conseguir em um toque.",
   ],
-  sources: [
-    {
-      label: "Agência Sebrae: WhatsApp se consolida nas vendas on-line (Pulso dos Pequenos Negócios, 2026)",
-      url: "https://agenciasebrae.com.br/dados/whatsapp-se-consolida-nas-vendas-on-line-enquanto-facebook-e-lojas-proprias-perdem-folego/",
-    },
-    {
-      label: "CNN Brasil: 44% dos pequenos negócios usam inteligência artificial, diz Sebrae",
-      url: "https://www.cnnbrasil.com.br/economia/macroeconomia/44-dos-pequenos-negocios-usam-inteligencia-artificial-diz-sebrae/",
-    },
-    {
-      label: "Central de Ajuda do WhatsApp: como usar respostas rápidas",
-      url: "https://faq.whatsapp.com/1791149784551042/",
-    },
-    {
-      label: "Ajuda do Perfil da Empresa no Google: ler e responder avaliações",
-      url: "https://support.google.com/business/answer/3474050",
-    },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Usar IA para vender mais no negócio local é o caso em que a tecnologia mais devolve por real investido. A padaria, o salão, a clínica de estética e a loja de roupa do bairro nunca tiveram agência, fotógrafo nem alguém só para responder WhatsApp. O dono faz tudo. E é justamente esse dono, sem tempo e sem equipe de marketing, que mais ganha quando um assistente de IA assume a parte repetitiva.</p>
 

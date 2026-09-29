@@ -20,12 +20,6 @@ export const article: Article = {
     "Os dois já têm construção de fluxo por IA (Maia no Make, Copilot no Zapier) e agentes de IA em beta, com preços e limites verificados em 28/09/2026.",
     "Para quem está começando, o critério que decide não é preço nem IA: é a curva de aprendizado, porque um fluxo mal montado custa mais tempo do que qualquer plano pago.",
   ],
-  sources: [
-    { label: "Make: planos e preços", url: "https://www.make.com/en/pricing" },
-    { label: "Zapier: planos e preços", url: "https://zapier.com/pricing" },
-    { label: "Make: IA e automação (Maia, AI Agents)", url: "https://www.make.com/en/ai-automation" },
-    { label: "Zapier Agents: recursos de agentes de IA", url: "https://zapier.com/agents" },
-  ],
   content: `
     <p>Make ou Zapier é a primeira dúvida de quem quer automatizar tarefas repetitivas com IA sem escrever código. Os dois fazem a mesma promessa: ligar aplicativos que não conversam entre si, poupando o trabalho de copiar dado de um lugar para outro. A diferença está em como cada um cobra, como organiza o fluxo na tela e o quanto a IA já vem embutida.</p>
 

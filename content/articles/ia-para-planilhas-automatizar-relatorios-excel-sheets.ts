@@ -21,24 +21,6 @@ export const article: Article = {
     "Copilot no Excel é um complemento pago ao Microsoft 365 e o Gemini no Sheets pede plano Workspace ou Google AI elegível; para relatório simples, um chat gratuito com upload do arquivo já dá conta.",
     "O ganho vem da repetição: arrume o cabeçalho, monte uma aba de resumo, salve o prompt e rode o mesmo fluxo toda semana, conferindo os três números que importam.",
   ],
-  sources: [
-    {
-      label: "Microsoft: primeiros passos com o Copilot no Excel",
-      url: "https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a",
-    },
-    {
-      label: "Microsoft Learn: opções de licença do Microsoft 365 Copilot",
-      url: "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-licensing",
-    },
-    {
-      label: "Google: usar o Gemini no Google Sheets",
-      url: "https://support.google.com/docs/answer/14218565",
-    },
-    {
-      label: "Google Workspace: planos e preços",
-      url: "https://workspace.google.com/pricing",
-    },
-  ],
   content: `
     <p>IA para planilhas é o uso de assistentes como o Copilot no Excel, o Gemini no Google Sheets ou o ChatGPT para criar fórmulas, limpar dados e montar relatórios a partir de um pedido escrito em português. O relatório semanal que tomava uma tarde inteira vira uma rotina de poucos minutos, desde que o processo esteja bem montado.</p>
 

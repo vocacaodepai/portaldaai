@@ -21,12 +21,6 @@ export const article: Article = {
     "Roteiro, legenda, narração e avatar saem de ferramentas com plano gratuito ou de entrada barato: CapCut, HeyGen (Creator a US$ 29/mês) e ElevenLabs (Starter a US$ 6/mês), preços verificados em 27/09/2026.",
     "Conteúdo realista gerado por IA (avatar, voz clonada) precisa ser sinalizado no YouTube e recebe rótulo na Meta; a regra faz parte da entrega e o cliente precisa saber.",
   ],
-  sources: [
-    { label: "HeyGen: página oficial de preços", url: "https://www.heygen.com/pricing" },
-    { label: "ElevenLabs: página oficial de preços", url: "https://elevenlabs.io/pricing" },
-    { label: "YouTube: divulgação de conteúdo alterado ou sintético", url: "https://support.google.com/youtube/answer/14328491" },
-    { label: "Meta: abordagem para rotular conteúdo gerado por IA", url: "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/" },
-  ],
   content: `
     <p>Ganhar dinheiro criando vídeos curtos com IA funciona de duas formas: produzindo Reels, Shorts e TikToks para pequenas empresas que não têm tempo de gravar, ou crescendo um perfil próprio que depois vende produto, patrocínio ou serviço. Este guia cobre ferramentas com preço verificado, prompts de roteiro, pacotes, um exemplo com números e as regras de sinalização de conteúdo feito com IA.</p>
 

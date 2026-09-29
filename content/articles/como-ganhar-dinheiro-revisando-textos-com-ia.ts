@@ -21,12 +21,6 @@ export const article: Article = {
     "Venda por lauda em três pacotes (simples, estilo e completa), com faixas de referência entre R$ 8 e R$ 60 por lauda, e nunca cobre por hora, porque você fica mais rápido e ganharia menos.",
     "Nunca entregue a saída da IA sem ler duas vezes e sem controle de alterações: ela corrige o que estava certo e muda o sentido de frases sem avisar.",
   ],
-  sources: [
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-    { label: "LanguageTool: planos, versão gratuita e idiomas", url: "https://languagetool.org/pt-BR/pricing" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "gov.br: valor das contribuições mensais do MEI em 2026", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/pagamento-da-contribuicao-mensal-carne-mensal/qual-o-valor-das-contribuicoes" },
-  ],
   content: `
     <p>Ganhar dinheiro revisando textos com IA funciona assim: a ferramenta faz a varredura de ortografia, gramática e repetição em segundos, e você cobra pelo que ela não faz, que é manter a voz do autor, entender o contexto e assinar a entrega. O serviço continua sendo procurado; o que mudou foi quanto tempo cada texto leva.</p>
 

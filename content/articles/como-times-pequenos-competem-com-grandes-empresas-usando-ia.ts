@@ -21,12 +21,6 @@ export const article: Article = {
     "A vantagem real do time pequeno é decidir e mudar em horas; a grande empresa precisa se reorganizar para chegar nisso, o pequeno só precisa das ferramentas.",
     "O plano prático tem quatro passos: listar as tarefas que mais consomem horas, aplicar IA em duas ou três, usar o tempo liberado com o cliente e medir por 30 dias.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Microsoft: Work Trend Index 2025", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born" },
-    { label: "gov.br: Mapa de Empresas", url: "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Como times pequenos competem com grandes empresas usando IA é a pergunta de quem toca um negócio com duas, três ou cinco pessoas. Resposta curta: a IA reduz a vantagem de escala em execução (conteúdo, atendimento, análise, design), não em capital nem em relacionamento. Saber onde passa essa fronteira evita o otimismo ingênuo e o pessimismo que paralisa.</p>
 

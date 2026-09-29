@@ -21,20 +21,6 @@ export const article: Article = {
     "Antes da conversa, descubra a faixa de mercado do seu cargo em bases públicas como o Novo CAGED e o Salário.com.br, e peça um valor dentro dela, com justificativa.",
     "Ensaie a negociação com a própria IA fazendo o papel do gestor, e evite os erros clássicos: dizer só que usa IA, dar a entender que a ferramenta fez tudo e pedir na hora errada.",
   ],
-  sources: [
-    {
-      label: "Microsoft e LinkedIn, Work Trend Index 2024: IA no trabalho",
-      url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
-    },
-    {
-      label: "Ministério do Trabalho e Emprego, Novo CAGED",
-      url: "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
-    },
-    {
-      label: "Salário.com.br, pesquisa salarial com base no Novo CAGED",
-      url: "https://www.salario.com.br/",
-    },
-  ],
   content: `
     <p>Negociar salário fica bem menos desconfortável quando você chega com números na mão, e saber usar IA no trabalho é uma das formas mais rápidas de produzir esses números. O argumento nunca é "eu uso ChatGPT". O argumento é "entreguei 30% mais relatórios no mesmo prazo e o time passou a responder o cliente em um dia em vez de três".</p>
 

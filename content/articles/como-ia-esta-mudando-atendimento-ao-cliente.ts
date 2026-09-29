@@ -21,12 +21,6 @@ export const article: Article = {
     "Segundo a Zendesk, 75% dos líderes de CX esperam que 80% das interações sejam resolvidas sem humano nos próximos anos, então o valor do atendente migra para os casos difíceis e para a supervisão do robô.",
     "Um negócio pequeno consegue montar atendimento automático no WhatsApp com plano gratuito de IA e algumas horas de configuração, desde que exista um caminho claro para falar com gente.",
   ],
-  sources: [
-    { label: "Zendesk, CX Trends Report 2025", url: "https://www.zendesk.com/newsroom/articles/2025-cx-trends-report/" },
-    { label: "Sebrae RN, Chatbot para atendimento ao cliente", url: "https://blog.rn.sebrae.com.br/chatbot-para-atendimento-ao-cliente/" },
-    { label: "Meta, Preços da Plataforma WhatsApp Business", url: "https://developers.facebook.com/docs/whatsapp/pricing" },
-    { label: "Stanford HAI, AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>Como a IA está mudando o atendimento ao cliente? Na prática, ela assumiu a parte repetitiva: responder horário, informar rastreio, explicar troca, emitir segunda via. Isso acontece a qualquer hora, sem fila. O que sobra para as pessoas são os casos que exigem julgamento: reclamação grave, negociação, exceção à regra. Essa divisão muda o trabalho de quem atende e abre espaço para negócios pequenos que nunca tiveram equipe.</p>
 

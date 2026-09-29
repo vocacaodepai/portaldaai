@@ -20,24 +20,6 @@ export const article: Article = {
     "O caminho mais confiável é enviar o material oficial (edital, apostila, PDF de aula) para a IA e pedir resumo, questões e explicação a partir dele, em vez de perguntar de memória e arriscar uma informação errada.",
     "Um plano de estudo com IA funciona melhor dividido em blocos semanais por matéria, com revisão espaçada e simulados cronometrados perto da prova, sempre conferindo datas e regras no edital oficial.",
   ],
-  sources: [
-    {
-      label: "Google Workspace: recursos e planos do Gemini Notebook (ex-NotebookLM)",
-      url: "https://workspace.google.com/products/gemini-notebook/",
-    },
-    {
-      label: "Google: central de ajuda do Gemini Notebook",
-      url: "https://support.google.com/notebooklm/?hl=pt-BR",
-    },
-    {
-      label: "Anthropic: suporte a PDF do Claude (documentos e resumo)",
-      url: "https://platform.claude.com/docs/en/build-with-claude/pdf-support",
-    },
-    {
-      label: "Gov.br: página oficial do Concurso Nacional Unificado (CNU)",
-      url: "https://www.gov.br/gestao/pt-br/concursonacional",
-    },
-  ],
   content: `
     <p>Como usar IA para estudar para provas e concursos é uma dúvida cada vez mais comum entre quem tem pouco tempo e uma pilha de apostila pela frente. A resposta curta: dá para resumir matéria, gerar questões de prática e tirar dúvida de conceito difícil em minutos, desde que você alimente a IA com o material certo e confira o que ela responde.</p>
     <p>Este guia mostra um método prático com ChatGPT, Gemini, Claude e o Gemini Notebook (o antigo NotebookLM), com prompts prontos, um plano de estudo semanal e os erros que mais atrapalham quem começa a usar IA para estudar. Se você ainda não sabe diferenciar as ferramentas, o <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a> é um bom ponto de partida antes de seguir.</p>

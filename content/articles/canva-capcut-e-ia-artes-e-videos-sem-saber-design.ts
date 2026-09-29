@@ -21,12 +21,6 @@ export const article: Article = {
     "Dá para produzir uma arte em 20 minutos e um vídeo curto em 30, nos planos gratuitos, seguindo o passo a passo e os prompts deste guia.",
     "O que denuncia post de modelo pronto é falta de ajuste: cor, fonte, foto real e legenda revisada. Esse é o trabalho que continua sendo seu.",
   ],
-  sources: [
-    { label: "CapCut: recursos de IA listados no site oficial", url: "https://www.capcut.com/" },
-    { label: "CapCut: legendas automáticas em vídeo", url: "https://www.capcut.com/tools/add-subtitles-to-video" },
-    { label: "CapCut: remoção de fundo de vídeo", url: "https://www.capcut.com/tools/video-background-remover" },
-    { label: "Google: como escrever instruções para um Gem (persona, tarefa, contexto, formato)", url: "https://support.google.com/gemini/answer/15235603" },
-  ],
   content: `
     <p>Canva, CapCut e IA formam a combinação mais barata que existe hoje para quem precisa de artes e vídeos com cara profissional e não sabe design. O Canva monta o layout a partir de uma descrição, o CapCut corta, legenda e limpa o vídeo sozinho, e um assistente como ChatGPT ou Gemini escreve o texto que vai dentro. Você entra com a ideia e com a revisão final.</p>
 

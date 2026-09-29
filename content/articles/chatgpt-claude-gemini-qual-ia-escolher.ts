@@ -21,12 +21,6 @@ export const article: Article = {
     "Os planos pagos ficam na faixa de US$ 17 a US$ 20 por mês (Claude e Gemini verificados em 27/09/2026); para o ChatGPT, consulte a página oficial.",
     "Teste as três com a mesma tarefa real do seu dia antes de assinar qualquer plano: o gratuito de cada uma dá conta de decidir.",
   ],
-  sources: [
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-    { label: "Google Gemini: planos Google AI", url: "https://gemini.google/subscriptions/" },
-    { label: "OpenAI: guia oficial de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "Claude: como criar e gerenciar Projetos", url: "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects" },
-  ],
   content: `
     <p>ChatGPT, Claude ou Gemini: qual IA escolher depende menos de qual é "a melhor" e mais do que você faz no dia a dia. As três escrevem, resumem, traduzem e respondem perguntas em português com qualidade parecida. A diferença aparece quando você cola um contrato de 40 páginas, precisa mexer no Gmail ou quer gerar imagem e áudio no mesmo lugar.</p>
 

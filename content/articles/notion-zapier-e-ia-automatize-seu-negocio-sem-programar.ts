@@ -21,13 +21,6 @@ export const article: Article = {
     "Dá para começar com R$ 0 no Notion Free e no Make Free; no Zapier, o fluxo com IA exige o plano Professional (US$ 19,99 por mês no anual, verificado em 27/09/2026).",
     "O primeiro fluxo vale mais que os próximos dez: escolha uma tarefa repetitiva, teste com cinco casos reais e só então ligue de vez.",
   ],
-  sources: [
-    { label: "Zapier: planos e preços", url: "https://zapier.com/pricing" },
-    { label: "Notion: planos e preços", url: "https://www.notion.com/pricing" },
-    { label: "Zapier: integrações com Notion (gatilhos e ações)", url: "https://zapier.com/apps/notion/integrations" },
-    { label: "Notion Help: tudo que o Notion AI faz", url: "https://www.notion.com/help/guides/everything-you-can-do-with-notion-ai" },
-    { label: "Make: planos e preços", url: "https://www.make.com/en/pricing" },
-  ],
   content: `
     <p>Notion, Zapier e IA formam o trio mais simples para automatizar seu negócio sem programar: o Notion guarda clientes, pedidos e tarefas em tabelas fáceis de montar, o Zapier avisa um aplicativo quando algo acontece em outro, e a IA lê, resume e classifica o que chega. Nenhum dos três exige uma linha de código.</p>
 

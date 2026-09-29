@@ -21,12 +21,6 @@ export const article: Article = {
     "Um programa de recompensas bom tem uma regra que cabe numa frase, um prêmio alcançável em poucas compras e revisão mensal dos números.",
     "Mensagem personalizada funciona, mas excesso de contato e uso de dados sem consentimento afastam o cliente e ainda criam risco com a LGPD.",
   ],
-  sources: [
-    { label: "Sebrae SC: como fidelizar clientes", url: "https://www.sebrae-sc.com.br/blog/como-fidelizar-clientes" },
-    { label: "Google: Gemini no Planilhas Google", url: "https://support.google.com/docs/answer/14218565" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-    { label: "Serpro: o que muda com a LGPD", url: "https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd" },
-  ],
   content: `
     <p>Usar IA para fidelizar clientes é, na prática, usar dados que você já tem (histórico de compras, frequência, ticket médio) para decidir quem recompensar, quando falar com cada pessoa e o que oferecer. Um programa de recompensas com esse apoio sai do achismo e vira rotina: regra clara, mensagem no momento certo e revisão mensal dos números.</p>
 

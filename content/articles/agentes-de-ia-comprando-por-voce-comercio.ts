@@ -21,11 +21,6 @@ export const article: Article = {
     "Para quem vende, a página de produto precisa ser legível por máquina: dados estruturados, preço e estoque atualizados, avaliações reais e frete claro.",
     "Para quem compra, o segredo é limitar valor e categoria, revisar as compras recorrentes e lembrar que o direito de arrependimento de 7 dias continua valendo.",
   ],
-  sources: [
-    { label: "Google Cloud: anúncio do Agent Payments Protocol (AP2)", url: "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol" },
-    { label: "Google Search Central: dados estruturados de Product", url: "https://developers.google.com/search/docs/appearance/structured-data/product" },
-    { label: "Câmara dos Deputados: Lei 8.078/1990 (Código de Defesa do Consumidor)", url: "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html" },
-  ],
   content: `
     <p>Agentes de IA comprando por você já saíram da demonstração: são assistentes que recebem um pedido do tipo "compre o melhor filtro de água até R$ 300 com entrega em 3 dias", pesquisam em várias lojas, comparam preço, frete e avaliações e finalizam a compra com um cartão que você autorizou antes.</p>
 

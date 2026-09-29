@@ -21,12 +21,6 @@ export const article: Article = {
     "O plano gratuito de ChatGPT, Claude ou Gemini dá conta da tarefa; o que muda o resultado é limpar o extrato antes de colar e usar um prompt com formato de saída definido.",
     "Extrato é dado sensível: tire número de conta, cartão e nome completo, desligue o uso das conversas para treinamento e nunca cole senha ou código de acesso.",
   ],
-  sources: [
-    { label: "Serasa: 5 em cada 10 brasileiros adultos estão inadimplentes (abril de 2026)", url: "https://www.serasa.com.br/imprensa/5-em-cada-10-brasileiros-adultos-estao-inadimplentes-no-brasil-aponta-serasa/" },
-    { label: "gov.br: curso gratuito de gestão de finanças pessoais do Banco Central", url: "https://www.gov.br/pt-br/servicos/aprender-a-administrar-suas-financas-pessoais" },
-    { label: "Google: Atividade nos apps Gemini e revisão humana", url: "https://support.google.com/gemini/answer/13594961" },
-    { label: "Anthropic: política de privacidade do Claude", url: "https://www.anthropic.com/privacy" },
-  ],
   content: `
     <p>Organizar finanças pessoais com IA é a saída para quem já tentou planilha, desistiu na terceira aba e hoje só sabe que o dinheiro acaba antes do mês. Você cola o extrato limpo em um assistente como ChatGPT, Claude ou Gemini, pede para categorizar, e em minutos tem o retrato do mês em linguagem normal, sem fórmula.</p>
 

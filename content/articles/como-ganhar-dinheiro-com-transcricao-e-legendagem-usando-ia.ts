@@ -21,12 +21,6 @@ export const article: Article = {
     "Precifique pelo seu tempo de revisão (em geral 2 a 4 minutos de trabalho por minuto de vídeo), não pelo custo da ferramenta.",
     "Os primeiros clientes estão perto: criadores de curso, podcasters, escolas e empresas que gravam treinamento e reunião.",
   ],
-  sources: [
-    { label: "OpenAI: guia de speech-to-text (limite de 25 MB, formatos e modelos)", url: "https://developers.openai.com/api/docs/guides/speech-to-text" },
-    { label: "OpenAI: tabela de preços dos modelos de transcrição", url: "https://developers.openai.com/api/docs/pricing" },
-    { label: "Ajuda do YouTube: formatos de legenda aceitos (SRT, VTT e outros)", url: "https://support.google.com/youtube/answer/2734698" },
-    { label: "gov.br: o que você precisa saber antes de se tornar MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-  ],
   content: `
     <p>Transcrição e legendagem com IA é um dos serviços mais simples de começar a vender: a ferramenta gera o texto bruto em minutos, você revisa ouvindo o áudio, ajusta a sincronia e entrega um arquivo SRT pronto para o YouTube, o curso ou o Instagram do cliente. O cliente paga pela revisão e pelo arquivo que funciona, não pela transcrição automática.</p>
 

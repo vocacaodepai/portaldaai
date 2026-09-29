@@ -21,12 +21,6 @@ export const article: Article = {
     "Triagem só funciona com critérios objetivos escritos antes de abrir o primeiro currículo, e sempre com revisão humana de quem ficou de fora.",
     "Dados de candidato são dados pessoais: colete só o necessário, anonimize antes de colar em qualquer ferramenta e descarte após o processo.",
   ],
-  sources: [
-    { label: "Sebrae SC: contratação de colaboradores", url: "https://www.sebrae-sc.com.br/blog/contratacao-de-colaboradores-dicas-para-encontrar-o-ideal" },
-    { label: "gov.br: buscar trabalhador no Sine", url: "https://www.gov.br/pt-br/servicos/buscar-trabalhador-no-sistema-nacional-de-emprego-sine" },
-    { label: "Notion: planos e preços", url: "https://www.notion.com/pricing" },
-    { label: "Serpro: o que muda com a LGPD", url: "https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd" },
-  ],
   content: `
     <p>Contratação com IA em pequenas empresas não significa deixar um algoritmo escolher quem entra. Significa usar o assistente nas etapas que comem o tempo do dono: escrever a descrição da vaga, organizar 60 currículos por critérios que você definiu, montar o roteiro de entrevista e comparar candidatos com a mesma régua. A decisão continua humana, mas chega mais cedo e com menos achismo.</p>
 

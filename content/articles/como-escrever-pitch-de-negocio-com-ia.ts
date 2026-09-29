@@ -21,11 +21,6 @@ export const article: Article = {
     "A IA organiza, corta e simula as perguntas difíceis; os números, os clientes e a história continuam sendo seus, e todo dado citado precisa de fonte real.",
     "Investimento-anjo no Brasil começa em R$ 10 mil por investidor e costuma ficar entre R$ 400 mil e R$ 1,5 milhão por startup, segundo a Anjos do Brasil.",
   ],
-  sources: [
-    { label: "Sebrae RN: pitch, como montar a apresentação do seu negócio", url: "https://blog.rn.sebrae.com.br/pitch/" },
-    { label: "Anjos do Brasil: o que é investidor-anjo", url: "https://anjosdobrasil.net/o-que-e-investidor-anjo/" },
-    { label: "OpenAI: guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-  ],
   content: `
     <p>Escrever um pitch de negócio com IA é usar ChatGPT, Claude ou Gemini para transformar uma ideia solta em uma apresentação de 3 a 5 minutos com cinco blocos claros: problema, solução, mercado, modelo de negócio e tração. A IA não inventa o negócio nem os números. Ela organiza o que você já sabe, corta o excesso e faz o papel do investidor chato antes da reunião de verdade.</p>
 

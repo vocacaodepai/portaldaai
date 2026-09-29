@@ -21,12 +21,6 @@ export const article: Article = {
     "A IA entra em quatro pontos: mensagem de boas-vindas personalizada, dúvidas fora do horário, materiais adaptados ao perfil e alerta quando o cliente some.",
     "O fluxo de 7 dias deste guia roda com WhatsApp Business, um assistente de IA e uma automação simples, sem programar e começando pelos planos gratuitos.",
   ],
-  sources: [
-    { label: "Meta: documentação da WhatsApp Business Platform (templates e mensagens)", url: "https://developers.facebook.com/docs/whatsapp/" },
-    { label: "Google: como escrever instruções para um Gem (persona, tarefa, contexto, formato)", url: "https://support.google.com/gemini/answer/15235603" },
-    { label: "OpenAI: guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "ANPD: Autoridade Nacional de Proteção de Dados", url: "https://www.gov.br/anpd/pt-br" },
-  ],
   content: `
     <p>Onboarding de clientes com IA é usar um assistente e uma automação simples para que o cliente novo receba, nos primeiros dias, exatamente o que precisa para ter o primeiro resultado: boas-vindas personalizadas, resposta rápida às dúvidas iniciais, material no ritmo dele e um aviso para a sua equipe quando ele some. Sem depender de alguém lembrar de mandar mensagem.</p>
 

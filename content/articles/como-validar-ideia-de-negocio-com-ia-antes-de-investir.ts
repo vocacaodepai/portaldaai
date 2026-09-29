@@ -21,12 +21,6 @@ export const article: Article = {
     "A IA acelera quatro dos cinco passos (descrever o problema, medir demanda, mapear concorrência e simular objeções), mas o quinto, uma oferta real com meta em número, só acontece com gente de verdade pagando ou dizendo não.",
     "Tudo cabe no plano gratuito de um assistente; o plano pago (Claude Pro a US$ 20 por mês, conferido em 27/09/2026) só vale se você for rodar várias ideias por mês.",
   ],
-  sources: [
-    { label: "Sebrae RN: por que você deve validar a sua ideia antes de empreender", url: "https://blog.rn.sebrae.com.br/validacao-de-ideias/" },
-    { label: "Exame: 60% das empresas não sobrevivem após cinco anos no Brasil, aponta IBGE", url: "https://exame.com/negocios/60-das-empresas-nao-sobrevivem-apos-cinco-anos-no-brasil-aponta-ibge/" },
-    { label: "Google Trends: como os dados de interesse de busca são calculados", url: "https://support.google.com/trends/answer/4365533" },
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Validar ideia de negócio com IA significa usar um assistente como ChatGPT, Claude ou Gemini para descrever o problema, medir a demanda, mapear concorrentes e simular objeções em dias, e não em meses, antes de gastar qualquer dinheiro em estoque, site ou CNPJ. Este guia mostra o método em 5 passos, com prompts prontos e um exemplo brasileiro com números.</p>
 

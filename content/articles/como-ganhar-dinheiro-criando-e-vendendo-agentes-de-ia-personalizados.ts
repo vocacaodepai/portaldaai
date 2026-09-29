@@ -21,12 +21,6 @@ export const article: Article = {
     "Dá para montar sem programar com Make (plano Core a US$ 12/mês), Zapier (Professional a partir de US$ 19,99/mês no anual) ou n8n (versão comunitária gratuita para instalar no próprio servidor, com código-fonte aberto sob licença fair-code e restrições de uso comercial), preços verificados em 27/09/2026.",
     "O preço se justifica pelo que o cliente economiza, não pelas suas horas; projeto fechado mais mensalidade de manutenção é o modelo que protege os dois lados.",
   ],
-  sources: [
-    { label: "OpenAI: documentação oficial sobre agentes", url: "https://developers.openai.com/api/docs/guides/agents" },
-    { label: "Anthropic: Building effective agents (comece simples)", url: "https://www.anthropic.com/research/building-effective-agents" },
-    { label: "Make: página oficial de preços", url: "https://www.make.com/en/pricing" },
-    { label: "Zapier: página oficial de preços", url: "https://zapier.com/pricing" },
-  ],
   content: `
     <p>Criar e vender agentes de IA personalizados virou um serviço com demanda real em pequenas empresas: um agente que faz triagem de e-mails de suporte, outro que qualifica leads no WhatsApp, outro que confere o estoque e avisa o que repor. Este guia mostra o que vale construir, com quais ferramentas, quanto cobrar e como fechar os primeiros clientes sem saber programar.</p>
 

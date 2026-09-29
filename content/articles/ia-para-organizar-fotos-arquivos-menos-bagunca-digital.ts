@@ -21,20 +21,6 @@ export const article: Article = {
     "Para documentos, a IA ajuda mais em criar um padrão de nomes e pastas a partir de uma lista de arquivos do que em mexer nos arquivos por conta própria.",
     "Backup antes de qualquer limpeza em massa e revisão manual das duplicatas são o que separa organização de arrependimento.",
   ],
-  sources: [
-    {
-      label: "Google Fotos: pesquisar por pessoas, coisas e lugares",
-      url: "https://support.google.com/photos/answer/6128838?hl=pt-BR",
-    },
-    {
-      label: "Apple: buscar fotos e vídeos no iPhone",
-      url: "https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios",
-    },
-    {
-      label: "Google Drive: armazenamento compartilhado entre Drive, Gmail e Fotos",
-      url: "https://support.google.com/drive/answer/6374270",
-    },
-  ],
   content: `
     <p>IA para organizar fotos e arquivos resolve dois problemas diferentes: achar a foto certa entre milhares sem ter organizado nada, e dar nome e lugar para documentos que hoje vivem em "nova pasta (3)". No primeiro caso, o app que você já usa faz quase tudo sozinho. No segundo, o assistente de IA cria o sistema e você aplica em uma tarde.</p>
 

@@ -21,12 +21,6 @@ export const article: Article = {
     "O fluxo que funciona combina um gerador de imagens para explorar direções, uma ferramenta forte em texto para a versão com o nome e um editor para montar o kit.",
     "Antes de imprimir qualquer coisa, faça a busca gratuita no banco de marcas do INPI e teste o logo em 48 pixels e em fundo escuro.",
   ],
-  sources: [
-    { label: "OpenAI: guia de geração de imagens (limites de texto)", url: "https://developers.openai.com/api/docs/guides/image-generation" },
-    { label: "Ideogram: documentação oficial (tipografia e logos)", url: "https://docs.ideogram.ai/" },
-    { label: "INPI: serviços de marcas", url: "https://www.gov.br/inpi/pt-br/servicos/marcas" },
-    { label: "INPI: guia básico para registro de marca", url: "https://www.gov.br/inpi/pt-br/servicos/marcas/guia-basico" },
-  ],
   content: `
     <p>IA para design de logotipo funciona bem para quem precisa de uma marca simples, legível e barata para começar a vender. Em uma tarde, com ferramentas gratuitas ou de plano básico, dá para sair de uma ideia vaga para um arquivo pronto para o perfil do Instagram, o cartão e a etiqueta. O que a IA não faz é decidir por você.</p>
 

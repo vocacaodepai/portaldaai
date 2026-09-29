@@ -21,11 +21,6 @@ export const article: Article = {
     "Dá para gravar e publicar um curso curto com R$ 0 de ferramenta: celular, Descript Free e Hotmart, que só cobra quando vende (9,9% + R$ 2,49 por venda, verificado em 27/09/2026).",
     "Venda antes de gravar tudo: um módulo piloto com 10 alunos mostra se a promessa do curso se sustenta e evita meses de gravação sem retorno.",
   ],
-  sources: [
-    { label: "Hotmart: página oficial (cadastro gratuito e taxa por venda)", url: "https://hotmart.com/pt-br" },
-    { label: "Descript: planos e preços", url: "https://www.descript.com/pricing" },
-    { label: "Ajuda do YouTube: legendas automáticas", url: "https://support.google.com/youtube/answer/6373554" },
-  ],
   content: `
     <p>Como criar e vender curso online usando IA é uma pergunta que hoje tem resposta prática: a IA monta a estrutura dos módulos, escreve o roteiro de cada aula, corta os silêncios da gravação, gera legendas e rascunha a página de vendas. O que ela não faz é saber o assunto no seu lugar nem convencer alguém a pagar por algo que não entrega resultado.</p>
 

@@ -21,21 +21,6 @@ export const article: Article = {
     "Preço de passagem, regra de visto e vacina obrigatória nunca vêm da IA: confira no Google Flights, no site da companhia e nas páginas oficiais do gov.br.",
     "O segredo está no contexto: destino, datas, orçamento, ritmo e quem viaja. Com isso, o roteiro sai em tabela por dia, com tempo de deslocamento e plano B para chuva.",
   ],
-  sources: [
-    {
-      label: "gov.br: Obter passaporte comum para brasileiro",
-      url: "https://www.gov.br/pt-br/servicos/obter-passaporte-comum-para-brasileiro",
-    },
-    {
-      label: "Ministério da Saúde: Vacinação para os viajantes",
-      url: "https://www.gov.br/saude/pt-br/vacinacao/vacinacao-para-os-viajantes",
-    },
-    {
-      label: "Google Flights: Acompanhar voos e preços",
-      url: "https://support.google.com/travel/answer/6235879",
-    },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Usar IA para planejar viagens resolve o problema clássico de quem viaja: vinte abas abertas, três planilhas e um roteiro que muda toda hora. Com um assistente como ChatGPT, Claude ou Gemini, você monta o esqueleto da viagem em uma conversa de 20 minutos e gasta o tempo que sobra decidindo o que importa de verdade: para onde ir, quanto gastar e o que não pode faltar.</p>
 

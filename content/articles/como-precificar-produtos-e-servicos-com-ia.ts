@@ -21,11 +21,6 @@ export const article: Article = {
     "O método do Sebrae (custos diretos, variáveis, fixos e pró-labore, depois margem ou markup) continua sendo a base; o assistente só acelera e questiona o que você digitou.",
     "Teste de preço tem que ser pequeno e comunicado: mude um produto ou um pacote por vez, meça duas ou três semanas e só depois estenda para o resto.",
   ],
-  sources: [
-    { label: "Sebrae RN, Como calcular o preço do seu produto em 2026", url: "https://blog.rn.sebrae.com.br/precificar-produto-2026/" },
-    { label: "OpenAI, Guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "Google, Estratégias de design de prompt (Gemini API)", url: "https://ai.google.dev/gemini-api/docs/prompting-strategies" },
-  ],
   content: `
     <p>Precificar produtos e serviços com IA significa usar um assistente como ChatGPT, Claude ou Gemini para fazer o que quase ninguém faz sozinho: listar todos os custos, calcular margem e markup sem erro, comparar com a concorrência e simular o que acontece se o preço subir 10%. O achismo ("cobro o que o mercado cobra") continua sendo a regra em negócio pequeno, e é onde o lucro vaza.</p>
 

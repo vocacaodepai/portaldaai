@@ -21,24 +21,6 @@ export const article: Article = {
     "O plano gratuito do NotebookLM dá 100 cadernos, 50 fontes por caderno, 3 Audio Overviews e 50 perguntas por dia (verificado em 27/09/2026), o bastante para um concurso ou uma disciplina inteira.",
     "O método é buscar no Perplexity, filtrar fontes primárias, organizar no NotebookLM e se testar com quiz, sempre abrindo a citação antes de confiar em qualquer resposta.",
   ],
-  sources: [
-    {
-      label: "Google: limites de uso do Gemini Notebook por plano",
-      url: "https://support.google.com/notebooklm/answer/16213268",
-    },
-    {
-      label: "Google: central de ajuda do Gemini Notebook",
-      url: "https://support.google.com/notebooklm/",
-    },
-    {
-      label: "Perplexity: documentação da Agent API (busca com citações)",
-      url: "https://docs.perplexity.ai/docs/agent-api/quickstart",
-    },
-    {
-      label: "Stanford HAI: AI Index 2026",
-      url: "https://hai.stanford.edu/ai-index",
-    },
-  ],
   content: `
     <p>Perplexity e NotebookLM são duas ferramentas de IA de pesquisa que mudam a forma de estudar. A primeira busca na web e responde com as fontes citadas. A segunda, que o Google passou a chamar de Gemini Notebook, responde só com base nos documentos que você envia e gera resumo, quiz e áudio. Juntas, cortam horas de garimpo por semana.</p>
 

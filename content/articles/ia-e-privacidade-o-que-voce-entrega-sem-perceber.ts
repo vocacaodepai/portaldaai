@@ -21,24 +21,6 @@ export const article: Article = {
     "Gemini e Claude têm uma chave de ajuste que desliga o uso das conversas para treino; a LGPD garante o direito de acesso, correção e eliminação dos seus dados.",
     "O risco real está no hábito: colar dado de cliente, senha ou contrato em conta pessoal gratuita. Um checklist de dois minutos resolve a maior parte dos casos.",
   ],
-  sources: [
-    {
-      label: "Lei 13.709/2018 (LGPD), texto integral na Câmara dos Deputados",
-      url: "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-publicacaooriginal-156212-pl.html",
-    },
-    {
-      label: "Google: Atividade nos apps Gemini e revisão humana",
-      url: "https://support.google.com/gemini/answer/13594961",
-    },
-    {
-      label: "Anthropic: meus dados são usados para treinar o modelo?",
-      url: "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training",
-    },
-    {
-      label: "ANPD, Autoridade Nacional de Proteção de Dados",
-      url: "https://www.gov.br/anpd/pt-br",
-    },
-  ],
   content: `
     <p>IA e privacidade andam juntas desde a primeira mensagem que você manda para o ChatGPT, o Gemini ou o Claude. O texto que você digita, o arquivo que anexa e o horário em que usa ficam guardados no servidor da empresa e, dependendo da configuração da sua conta, podem ser lidos por revisores humanos e usados para treinar o próximo modelo.</p>
 

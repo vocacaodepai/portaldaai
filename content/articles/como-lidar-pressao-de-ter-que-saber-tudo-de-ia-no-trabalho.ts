@@ -21,11 +21,6 @@ export const article: Article = {
     "O que o mercado paga é profundidade em duas ou três ferramentas aplicadas ao seu trabalho, não conhecimento superficial de cinquenta.",
     "Uma hora fixa por semana, uma fonte de notícias e um critério simples (resolve um problema que já tenho?) substituem a ansiedade por rotina.",
   ],
-  sources: [
-    { label: "Microsoft Work Trend Index 2024", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-    { label: "Pew Research Center: trabalhadores dos EUA e IA no trabalho (2025)", url: "https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>A pressão de ter que saber tudo de IA no trabalho nasce de uma meta impossível: acompanhar cada lançamento, testar cada ferramenta e ainda entregar o próprio serviço. Ninguém faz isso, nem quem trabalha em empresa de IA. O que o mercado valoriza é outra coisa: usar bem duas ou três ferramentas nas tarefas que já são suas.</p>
 

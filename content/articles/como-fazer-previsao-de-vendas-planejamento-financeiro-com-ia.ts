@@ -21,12 +21,6 @@ export const article: Article = {
     "Excel (Planilha de Previsão), Google Sheets (função FORECAST) e o ChatGPT resolvem a maioria dos casos de pequeno negócio sem custo extra.",
     "A previsão vira planejamento financeiro quando você a transforma em três cenários (pessimista, base, otimista) e decide compras e contratações pelo cenário pessimista.",
   ],
-  sources: [
-    { label: "Microsoft Support: criar uma previsão no Excel (Planilha de Previsão)", url: "https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd" },
-    { label: "Google: função FORECAST no Planilhas Google", url: "https://support.google.com/docs/answer/3094000" },
-    { label: "Microsoft Support: primeiros passos com o Copilot no Excel", url: "https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a" },
-    { label: "Sebrae: Fluxo de Caixa Online", url: "https://fluxocaixa.sebrae.com.br/" },
-  ],
   content: `
     <p>Previsão de vendas com IA é pegar o histórico do seu negócio (o que vendeu em cada mês, semana ou dia) e pedir para uma ferramenta de inteligência artificial encontrar o padrão e projetar o próximo período. Serve para responder a pergunta que tira o sono de quem empreende: quanto vai entrar no mês que vem, e quanto eu posso gastar sem apertar o caixa.</p>
 

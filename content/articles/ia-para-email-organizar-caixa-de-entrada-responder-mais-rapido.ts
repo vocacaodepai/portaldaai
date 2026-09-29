@@ -21,11 +21,6 @@ export const article: Article = {
     "Uma rotina de três blocos (triagem, respostas rápidas, respostas complexas) com prompts fixos reduz o tempo de e-mail sem depender de assinatura paga.",
     "Nunca envie rascunho de IA sem ler, e nunca cole dados sensíveis de clientes em ferramenta que você não conferiu.",
   ],
-  sources: [
-    { label: "Google: Gemini e o recurso Help me write no Gmail", url: "https://support.google.com/mail/answer/13955415" },
-    { label: "Google: como criar filtros no Gmail", url: "https://support.google.com/mail/answer/6579" },
-    { label: "Microsoft: Copilot no Outlook", url: "https://support.microsoft.com/en-us/copilot-outlook" },
-  ],
   content: `
     <p>IA para e-mail funciona em duas frentes: resumir o que chegou e escrever o que precisa sair. Gemini dentro do Gmail e Copilot dentro do Outlook fazem as duas coisas na própria caixa de entrada, e ChatGPT ou Claude fazem o mesmo em uma janela ao lado, com qualquer provedor. O ganho real vem de montar uma rotina, não de instalar mais um aplicativo.</p>
 

@@ -17,6 +17,9 @@ const NEWS_DIR = resolve(ROOT, "content/news");
 // Artigos com data igual ou posterior a esta seguem o padrão editorial novo
 // (>= 10 links internos, >= 900 palavras, 3 keyPoints, FAQ). Os mais antigos só geram aviso.
 const STRICT_FROM_DATE = "2026-09-27";
+// Notícias com data igual ou posterior a esta precisam do mesmo tamanho de texto
+// dos artigos (>= 900 palavras, >= 3 h2). As notícias já publicadas antes ficam como estão.
+const NEWS_STRICT_FROM_DATE = "2026-09-29";
 const MIN_INTERNAL_LINKS = 10;
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
@@ -178,6 +181,7 @@ function check() {
     const where = `${it.kind}/${it.slug}`;
     const strict =
       it.kind === "artigos" && (it.date >= STRICT_FROM_DATE || (it.updated && it.updated >= STRICT_FROM_DATE));
+    const strictNews = it.kind === "noticias" && it.date >= NEWS_STRICT_FROM_DATE;
 
     if (!slugRe.test(it.slug)) {
       errors.push(`${where}: slug com caracteres inválidos (use só a-z, 0-9 e hífen, sem acentos)`);
@@ -284,21 +288,24 @@ function check() {
     const imgNoAlt = /<img\b(?![^>]*\balt\s*=)[^>]*>/i;
     if (imgNoAlt.test(it.content)) errors.push(`${where}: <img> sem alt`);
 
-    if (it.kind === "artigos") {
+    if (it.kind === "artigos" || it.kind === "noticias") {
       const words = it.content.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
       const h2s = (it.content.match(/<h2\b/gi) ?? []).length;
       const uniqueInternal = internalTargets.size;
       const issues = [];
       if (words < MIN_WORDS_STRICT) issues.push(`só ${words} palavras (mínimo ${MIN_WORDS_STRICT})`);
-      if (uniqueInternal < MIN_INTERNAL_LINKS) issues.push(`${uniqueInternal} link(s) interno(s) distinto(s) (mínimo ${MIN_INTERNAL_LINKS})`);
-      if (external < 1) issues.push("nenhum link externo para fonte");
       if (h2s < 3) issues.push(`só ${h2s} <h2>`);
-      if (!it.hasKeyPoints) issues.push("sem keyPoints");
-      if (!it.hasFaq) issues.push("sem faq");
+      if (it.kind === "artigos") {
+        if (uniqueInternal < MIN_INTERNAL_LINKS) issues.push(`${uniqueInternal} link(s) interno(s) distinto(s) (mínimo ${MIN_INTERNAL_LINKS})`);
+        if (external < 1) issues.push("nenhum link externo para fonte");
+        if (!it.hasKeyPoints) issues.push("sem keyPoints");
+        if (!it.hasFaq) issues.push("sem faq");
+      }
       if (issues.length) {
         const msg = `${where}: ${issues.join("; ")}`;
-        if (strict) errors.push(msg);
-        else if (words < MIN_WORDS_WARN || uniqueInternal < 3) warnings.push(msg);
+        const isStrict = it.kind === "artigos" ? strict : strictNews;
+        if (isStrict) errors.push(msg);
+        else if (words < MIN_WORDS_WARN || (it.kind === "artigos" && uniqueInternal < 3)) warnings.push(msg);
       }
     }
   }

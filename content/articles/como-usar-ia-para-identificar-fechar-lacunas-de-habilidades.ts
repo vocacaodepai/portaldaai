@@ -21,12 +21,6 @@ export const article: Article = {
     "O plano funciona quando prioriza o que está parcialmente coberto e cabe em 90 dias, com cursos gratuitos e um projeto prático por habilidade.",
     "A análise da IA é ponto de partida, não veredito: valide com uma pessoa da área e registre o progresso no currículo e no portfólio.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Ministério do Trabalho: Caminho Digital e Escola do Trabalhador 4.0", url: "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/qualificacao-profissional/caminho-digital" },
-    { label: "Claude: o que são Projetos", url: "https://support.claude.com/en/articles/9517075-what-are-projects" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Identificar lacunas de habilidades com IA é um exercício de comparação: você coloca a descrição da vaga (ou do cargo que quer) de um lado, seu currículo do outro, e pede para o assistente listar o que já tem, o que tem em parte e o que falta. O resultado troca a sensação vaga de "preciso estudar mais" por uma lista curta, com ordem de prioridade e prazo.</p>
 

@@ -21,24 +21,6 @@ export const article: Article = {
     "Três casos bem documentados, um prompt comentado e um projeto pequeno publicado bastam; Notion, GitHub Pages e a seção Destaques do LinkedIn hospedam tudo de graça.",
     "Nunca publique dados reais de cliente ou da empresa: troque por dados fictícios equivalentes e diga isso no próprio caso.",
   ],
-  sources: [
-    {
-      label: "Microsoft Work Trend Index 2024: AI at work is here",
-      url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
-    },
-    {
-      label: "LinkedIn Economic Graph: Work Change Report",
-      url: "https://economicgraph.linkedin.com/research/work-change-report",
-    },
-    {
-      label: "Notion: publicar páginas na web",
-      url: "https://www.notion.com/help/public-pages-and-web-publishing",
-    },
-    {
-      label: "GitHub Docs: sobre o GitHub Pages",
-      url: "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages",
-    },
-  ],
   content: `
     <p>Um portfólio de habilidades de IA é uma página, ou um PDF de poucas folhas, com dois a quatro casos reais em que você usou ChatGPT, Claude, Gemini ou uma automação para resolver um problema de trabalho, com o antes, o depois e o número que mudou. É a diferença entre dizer "sei usar IA" e provar isso em cinco minutos de leitura.</p>
 

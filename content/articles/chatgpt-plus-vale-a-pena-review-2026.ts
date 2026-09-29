@@ -20,13 +20,6 @@ export const article: Article = {
     "Compensa para quem usa IA todos os dias no trabalho ou para renda extra; para uso ocasional, o plano gratuito continua resolvendo bem.",
     "Você pode desativar o uso das suas conversas para treinar modelos nas configurações, e o cancelamento é feito em poucos cliques na aba de cobrança.",
   ],
-  sources: [
-    { label: "Página oficial de planos e preços do ChatGPT", url: "https://chatgpt.com/pricing/" },
-    { label: "Central de ajuda da OpenAI: o que é o ChatGPT Plus", url: "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus" },
-    { label: "Central de ajuda da OpenAI: como cancelar a assinatura", url: "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription" },
-    { label: "Central de ajuda da OpenAI: controles de dados", url: "https://help.openai.com/en/articles/7730893-data-controls-faq" },
-    { label: "Central de ajuda da OpenAI: cobrança em moeda local", url: "https://help.openai.com/en/articles/10421635-multicurrency-billing" },
-  ],
   review: {
     tool: "ChatGPT Plus",
     score: 7.8,
