@@ -1,3 +1,18 @@
+## Categorização editorial: Ferramentas vs. AI Indica
+
+- **Ferramentas** (`category: "ferramentas"`): reviews e novidades sobre
+  ferramentas de IA em si (softwares, apps, modelos), incluindo as
+  atualizações mais recentes de cada uma. Sem link de compra/afiliado nem
+  nota por critério no estilo produto físico.
+- **AI Indica** (`category: "ai-indica"`): todo review que tem link direto
+  de compra (afiliado Amazon ou outro), com nota por critério — produto
+  físico ou não. É a categoria de "review com CTA de compra", não só
+  eletrônico. Ver `kind: "review"` e o campo `review` em `lib/types.ts`.
+
+Ao criar um artigo novo, decidir a categoria por essa regra: se tem link de
+compra com afiliado, é AI Indica; se é sobre a ferramenta de IA e sua
+evolução, é Ferramentas.
+
 ## Imagens de produto (categoria AI Indica)
 
 Nunca usar gerador de imagem por IA (ElevenLabs ou qualquer outro) para criar

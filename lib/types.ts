@@ -53,7 +53,7 @@ export const categories = [
     slug: "ai-indica",
     label: "AI Indica",
     description:
-      "Produtos de eletrônicos testados e comparados com apoio de IA, com nota por critério e link direto para comprar.",
+      "Reviews com apoio de IA e link direto para comprar, com nota por critério, produtos e ferramentas indicadas de verdade.",
   },
 ] as const;
 
