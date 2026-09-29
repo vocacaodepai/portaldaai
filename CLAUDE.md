@@ -21,9 +21,12 @@ usada no projeto, sem custo e sem inventar nenhum pixel do produto):
 - **Produto único com foto só vertical** (o que deixa espaço vazio nas
   laterais da capa 16:9): rodar
   `node scripts/build-product-cover.mjs <foto-de-entrada> <arquivo-de-saida>`
-  antes de usar a foto como `coverImage`. O script preenche o fundo com uma
-  versão borrada e clara da própria foto (sem inventar nada) em vez de deixar
-  espaço vazio, e mantém o produto nítido e centralizado por cima.
+  antes de usar a foto como `coverImage`. O script amostra a cor real de
+  fundo da própria foto (mediana dos pixels da borda, pra não pegar o
+  produto por engano) e preenche o resto do quadro 16:9 com essa cor sólida,
+  em vez de blur ou espaço vazio, mantendo o produto nítido e centralizado
+  por cima. Sem blur: cor chapada igual à da foto original, sem inventar
+  nada.
 
 ## Deploy
 

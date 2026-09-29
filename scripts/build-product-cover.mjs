@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
  * Gera uma capa 1600x900 a partir de uma foto de produto vertical (ou que não
- * seja 16:9), preenchendo as laterais com um fundo borrado da própria foto em
- * vez de deixar espaço vazio. Usado nos reviews de produto da AI Indica.
+ * seja 16:9), preenchendo as laterais com a cor de fundo da própria foto
+ * (amostrada dos cantos) em vez de deixar espaço vazio ou usar blur.
  *
  *   node scripts/build-product-cover.mjs <foto-de-entrada> <arquivo-de-saida>
  *
  * Nunca usar gerador de imagem por IA (ElevenLabs ou qualquer outro) para
  * compor capa de produto: já testamos e o resultado errava marca/logo dos
- * produtos reais (ver CLAUDE.md). Esta técnica (fundo borrado da própria
+ * produtos reais (ver CLAUDE.md). Esta técnica (cor de fundo real da própria
  * foto + produto nítido centralizado) é 100% local, gratuita e não inventa
  * nenhum pixel do produto.
  */
@@ -26,19 +26,43 @@ const H = 900;
 const SRC = resolve(input);
 const OUT = resolve(output);
 
-const backdrop = await sharp(SRC)
-  .resize(W, H, { fit: "cover" })
-  .blur(60)
-  .modulate({ brightness: 1.35, saturation: 0.5 })
-  .toBuffer();
+/**
+ * Amostra a cor de fundo real da foto a partir da moldura (borda fina em
+ * volta da imagem inteira), usando a MEDIANA por canal em vez da média: em
+ * fotos de produto o objeto às vezes encosta num canto, e a mediana ignora
+ * esses pixels do produto que aparecem em minoria na borda.
+ */
+async function backgroundColor(path) {
+  const { data, info } = await sharp(path).raw().toBuffer({ resolveWithObject: true });
+  const { width, height, channels } = info;
+  const ring = Math.max(2, Math.round(Math.min(width, height) * 0.015));
+  const rs = [], gs = [], bs = [];
+  const push = (x, y) => {
+    const i = (y * width + x) * channels;
+    rs.push(data[i]);
+    gs.push(data[i + 1]);
+    bs.push(data[i + 2]);
+  };
+  for (let y = 0; y < height; y++) {
+    for (let t = 0; t < ring; t++) {
+      push(t, y);
+      push(width - 1 - t, y);
+    }
+  }
+  for (let x = 0; x < width; x++) {
+    for (let t = 0; t < ring; t++) {
+      push(x, t);
+      push(x, height - 1 - t);
+    }
+  }
+  const median = (arr) => {
+    arr.sort((a, b) => a - b);
+    return arr[Math.floor(arr.length / 2)];
+  };
+  return { r: median(rs), g: median(gs), b: median(bs) };
+}
 
-// Véu claro forte por cima do borrão: fundo pastel suave que combina com o
-// branco de fundo típico das fotos oficiais de produto, sem seam visível.
-const veil = await sharp({
-  create: { width: W, height: H, channels: 4, background: { r: 247, g: 248, b: 251, alpha: 0.72 } },
-})
-  .png()
-  .toBuffer();
+const bg = await backgroundColor(SRC);
 
 const productH = H - 80;
 const product = await sharp(SRC)
@@ -49,12 +73,11 @@ const productMeta = await sharp(product).metadata();
 const left = Math.round((W - productMeta.width) / 2);
 const top = Math.round((H - productMeta.height) / 2);
 
-await sharp(backdrop)
-  .composite([
-    { input: veil, left: 0, top: 0 },
-    { input: product, left, top },
-  ])
+await sharp({
+  create: { width: W, height: H, channels: 3, background: bg },
+})
+  .composite([{ input: product, left, top }])
   .jpeg({ quality: 92 })
   .toFile(OUT);
 
-console.log(`build-product-cover: gerado ${output} (${W}x${H})`);
+console.log(`build-product-cover: gerado ${output} (${W}x${H}, fundo rgb(${bg.r},${bg.g},${bg.b}))`);
