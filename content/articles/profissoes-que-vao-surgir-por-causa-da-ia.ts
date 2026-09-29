@@ -21,12 +21,6 @@ export const article: Article = {
     "Das 7 profissões listadas, nenhuma exige programar; todas exigem dominar uma ferramenta, entender um problema de negócio e traduzir um no outro.",
     "Quem se posiciona cedo escolhe um setor que já conhece, resolve um problema real com IA e documenta o resultado em público antes de a concorrência chegar.",
   ],
-  sources: [
-    { label: "Microsoft: Work Trend Index 2025", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Google: curso AI Essentials", url: "https://grow.google/ai-essentials/" },
-    { label: "Google: planos Gemini (Google AI)", url: "https://gemini.google/subscriptions/" },
-  ],
   content: `
     <p>As profissões que vão surgir com a IA não são as de quem constrói os modelos. São as de quem supervisiona, ajusta, implanta e explica a IA dentro de empresas e negócios comuns. Este guia lista 7 funções que já aparecem em vagas e em pedidos de clientes, explica o que cada uma faz, se exige programar e como se posicionar nos próximos 60 dias.</p>
 

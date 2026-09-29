@@ -21,12 +21,6 @@ export const article: Article = {
     "Um plano de 90 dias resolve a maior parte dos casos: dinheiro e documentos na semana 1, mapa de habilidades e currículo até o dia 30, candidaturas e entrevistas até o dia 90.",
     "Quem aprende o básico da ferramenta que substituiu sua função vira candidato a supervisionar o processo, e isso muda a conversa na entrevista.",
   ],
-  sources: [
-    { label: "gov.br: solicitar o seguro-desemprego", url: "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego" },
-    { label: "Sebrae: cursos online gratuitos", url: "https://loja.sebrae.com.br/cursos/cursos-online" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Microsoft Work Trend Index 2024", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-  ],
   content: `
     <p>Se recolocar no mercado depois de ser substituído por automação é possível, e costuma ser mais rápido do que parece quando se segue um plano. A função que acabou tinha um nome de cargo; o que você sabe fazer é maior que esse nome. Este guia organiza os primeiros 90 dias: dinheiro, documentos, mapa de habilidades, currículo, candidaturas e entrevista.</p>
 

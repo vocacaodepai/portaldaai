@@ -21,24 +21,6 @@ export const article: Article = {
     "Antes de colar qualquer contrato, apague CPF, endereço, dados bancários e nomes de terceiros, e prefira ferramentas que não usam seu texto para treinar modelos.",
     "Contrato de imóvel, sociedade ou propriedade intelectual continua exigindo revisão humana; a IA prepara a conversa, não assina por você.",
   ],
-  sources: [
-    {
-      label: "Anthropic: uso de dados de produtos comerciais no treinamento",
-      url: "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
-    },
-    {
-      label: "Anthropic: uso de conversas de usuários (Free, Pro, Max) no treinamento",
-      url: "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training",
-    },
-    {
-      label: "Google: central de privacidade dos apps Gemini",
-      url: "https://support.google.com/gemini/answer/13594961",
-    },
-    {
-      label: "Planalto: Lei 13.709/2018 (LGPD), texto compilado",
-      url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
-    },
-  ],
   content: `
     <p>IA para contratos funciona assim: você cola o texto (ou envia o PDF), pede um resumo em português simples, uma lista separada das cláusulas de risco e as perguntas que deve levar ao advogado. Em dez minutos você sai de "não entendi nada" para "sei exatamente onde está o problema". Ela não substitui o advogado, mas faz a primeira leitura por você.</p>
 

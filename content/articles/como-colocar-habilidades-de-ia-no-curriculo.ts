@@ -21,11 +21,6 @@ export const article: Article = {
     "Segundo a Microsoft, 66% dos líderes não contratariam alguém sem habilidades de IA e 71% prefeririam um candidato menos experiente que as tenha.",
     "Na entrevista, o que convence é um caso real de antes e depois, incluindo o que a IA errou e como você corrigiu.",
   ],
-  sources: [
-    { label: "Microsoft Work Trend Index 2024: AI at Work Is Here", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "LinkedIn Economic Graph: Work Change Report", url: "https://economicgraph.linkedin.com/research/work-change-report" },
-  ],
   content: `
     <p>Habilidades de IA no currículo entram do mesmo jeito que qualquer outra competência que o recrutador leva a sério: com uma tarefa concreta, a ferramenta usada e o resultado medido. "Conhecimento em inteligência artificial" ou "uso ChatGPT" não diz nada. "Reduzi de 4 horas para 40 minutos a montagem do relatório semanal usando ChatGPT e Google Sheets" diz tudo.</p>
 

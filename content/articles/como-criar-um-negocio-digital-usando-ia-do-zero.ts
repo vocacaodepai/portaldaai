@@ -21,12 +21,6 @@ export const article: Article = {
     "O produto mínimo cabe em um fim de semana: página de vendas, forma de pagamento e um atendimento configurado, tudo com plano gratuito ou de até US$ 20 por mês.",
     "A IA acelera validação, produção e venda, mas o negócio depende de cobrar desde o primeiro cliente, medir toda semana e formalizar como MEI quando a receita virar rotina.",
   ],
-  sources: [
-    { label: "Sebrae RN: como validar ideia de negócio antes de investir", url: "https://blog.rn.sebrae.com.br/como-validar-ideia/" },
-    { label: "Sebrae RN: o que é MVP (produto mínimo viável)", url: "https://blog.rn.sebrae.com.br/mvp/" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "Hotmart: página de preços e taxas", url: "https://hotmart.com/en/pricing" },
-  ],
   content: `
     <p>Criar um negócio digital usando IA do zero ficou mais barato e mais rápido, mas não ficou automático. O que a inteligência artificial faz é encurtar cada etapa: validar a ideia em dias, montar a página de vendas em horas, atender o primeiro cliente sem contratar ninguém. O método continua sendo o seu.</p>
 

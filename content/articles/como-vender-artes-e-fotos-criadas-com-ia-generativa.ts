@@ -21,11 +21,6 @@ export const article: Article = {
     "Nos Estados Unidos, o Escritório de Direitos Autorais não registra imagem gerada só por prompt; no Brasil não há regra específica, então o valor está na curadoria, no ajuste manual e no contrato com o cliente.",
     "Comece por um nicho visual, um portfólio de doze peças e um único canal de venda; ferramentas como o Adobe Firefly têm plano a partir de R$ 47,00 por mês (verificado em 27/09/2026).",
   ],
-  sources: [
-    { label: "Adobe Firefly: uso comercial e planos no Brasil", url: "https://www.adobe.com/br/products/firefly.html" },
-    { label: "U.S. Copyright Office: inteligência artificial e direito autoral", url: "https://www.copyright.gov/ai/" },
-    { label: "Printful: como funciona o custo no print on demand", url: "https://www.printful.com/pricing" },
-  ],
   content: `
     <p>Vender artes criadas com IA é possível, mas o dinheiro não está no ato de gerar a imagem: está em escolher o nicho, fazer a curadoria, ajustar a peça e colocá-la no canal certo com as regras certas. Quem aprende isso transforma uma ferramenta que qualquer pessoa tem em um serviço que poucos entregam bem.</p>
 

@@ -21,24 +21,6 @@ export const article: Article = {
     "Um plano de 90 dias funciona: 30 dias aplicando em silêncio, 30 dias mostrando resultado com número, 30 dias criando um formato de troca recorrente.",
     "Os erros que mais queimam essa reputação são prometer o que a ferramenta não entrega, colar dado sigiloso em conta pessoal e falar de IA sem exemplo do trabalho de quem ouve.",
   ],
-  sources: [
-    {
-      label: "Microsoft e LinkedIn, Work Trend Index 2024: AI at work is here",
-      url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
-    },
-    {
-      label: "Stanford HAI, AI Index Report 2025, capítulo Economia",
-      url: "https://hai.stanford.edu/ai-index/2025-ai-index-report/economy",
-    },
-    {
-      label: "Microsoft Learn: o que é o Microsoft Copilot (licenças e proteção de dados)",
-      url: "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-overview",
-    },
-    {
-      label: "Anthropic: planos e preços do Claude (Team e Enterprise)",
-      url: "https://claude.com/pricing",
-    },
-  ],
   content: `
     <p>Ser a referência em IA na empresa não exige crachá de TI, curso de programação nem cargo novo. Exige três coisas: resolver um problema real do seu setor com a ferramenta, mostrar o resultado com número e ensinar quem senta do lado. Quem faz isso por 90 dias vira a pessoa que todo mundo procura quando o assunto aparece.</p>
 

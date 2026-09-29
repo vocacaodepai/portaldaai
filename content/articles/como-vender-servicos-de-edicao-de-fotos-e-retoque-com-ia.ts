@@ -21,11 +21,6 @@ export const article: Article = {
     "Os nichos com demanda constante são foto de produto para loja online, imóveis para anúncio, perfil profissional e álbuns de evento, cada um com um pacote e um preço por foto.",
     "Cobre por pacote de fotos entregues, nunca por hora: o ganho de velocidade da IA precisa virar margem sua, não desconto para o cliente.",
   ],
-  sources: [
-    { label: "Adobe: recursos de IA generativa no Photoshop (Brasil)", url: "https://www.adobe.com/br/products/photoshop/ai.html" },
-    { label: "Adobe: Lightroom, recursos de IA e planos no Brasil", url: "https://www.adobe.com/br/products/photoshop-lightroom.html" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-  ],
   content: `
     <p>Edição de fotos com IA virou um serviço vendável porque o trabalho pesado (tirar fundo, acertar luz, limpar pele, aumentar resolução) hoje leva segundos no Photoshop ou no Canva. O que sobra para você é a parte que o cliente paga: critério, consistência no lote inteiro e entrega no prazo. Este guia mostra como transformar isso em pacotes com preço.</p>
 

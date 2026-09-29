@@ -21,11 +21,6 @@ export const article: Article = {
     "Pagar faz sentido quando você bate no limite várias vezes por semana ou quando a IA já gera dinheiro no seu trabalho; nesse caso os US$ 20 mensais se pagam em poucas horas economizadas.",
     "A decisão certa vem de um teste de 14 dias no gratuito, anotando onde ele travou, e não de assinar antes de saber para que vai usar.",
   ],
-  sources: [
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-    { label: "Google AI: planos de assinatura do Gemini", url: "https://gemini.google/subscriptions/" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>IA grátis ou paga? Para quem usa inteligência artificial algumas vezes por semana, o plano gratuito de ChatGPT, Claude ou Gemini resolve. Pagar passa a valer quando você esbarra no limite de mensagens com frequência, precisa do modelo mais forte para tarefas longas ou já usa a ferramenta para ganhar dinheiro.</p>
 

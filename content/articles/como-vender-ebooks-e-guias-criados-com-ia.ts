@@ -21,12 +21,6 @@ export const article: Article = {
     "A Amazon KDP exige informar conteúdo gerado por IA e paga 35% ou 70% do preço sem impostos; plataformas brasileiras como a Kiwify cobram uma taxa por venda.",
     "Comece com um guia de 20 a 40 páginas, preço abaixo de R$ 40,00 e uma página de venda simples; use as primeiras vendas para decidir se vale ampliar.",
   ],
-  sources: [
-    { label: "Amazon KDP: royalties de eBooks", url: "https://kdp.amazon.com/pt_BR/help/topic/G200644210" },
-    { label: "Amazon KDP: requisitos de preço de lista de eBooks", url: "https://kdp.amazon.com/pt_BR/help/topic/G200634560" },
-    { label: "Amazon KDP: diretrizes de conteúdo (inclui conteúdo gerado por IA)", url: "https://kdp.amazon.com/pt_BR/help/topic/G200672390" },
-    { label: "Kiwify: taxas por venda", url: "https://kiwify.com.br/" },
-  ],
   content: `
     <p>Vender ebooks criados com IA funciona quando o material resolve um problema estreito e carrega a experiência de quem assina. A inteligência artificial corta a parte braçal (sumário, rascunho, revisão, capa) e transforma semanas de trabalho em alguns dias. O que ela não faz é dar motivo para alguém pagar por um texto que o Google entrega de graça.</p>
 

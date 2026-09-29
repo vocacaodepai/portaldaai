@@ -21,12 +21,6 @@ export const article: Article = {
     "O ganho vem de duas regras no prompt: receitas que compartilham ingredientes e lista organizada por seção do mercado, o que reduz item esquecido e compra por impulso.",
     "A IA não sabe o preço do mercado perto de você; use a estimativa como teto, confira os valores na loja e ajuste o cardápio na semana seguinte.",
   ],
-  sources: [
-    { label: "Correio Braziliense: desperdício de alimentos chega a R$ 1 mil por família por ano, diz Embrapa", url: "https://www.correiobraziliense.com.br/app/noticia/economia/2019/05/30/internas_economia,758805/desperdicio-de-alimentos-chega-a-r-1-mil-por-familia-por-ano-diz-emb.shtml" },
-    { label: "Embrapa: dados expandidos da pesquisa sobre desperdício de alimentos em famílias", url: "https://www.embrapa.br/en/noticias-mais-lidas/-/asset_publisher/HA73uEmvroGS/content/id/40838634" },
-    { label: "Poder360: preço da cesta básica cai em 25 de 27 capitais em agosto de 2026 (Dieese/Conab)", url: "https://www.poder360.com.br/poder-economia/preco-da-cesta-basica-cai-em-25-de-27-capitais-em-agosto-de-2026/" },
-    { label: "UNA-SUS: Ministério da Saúde lança Guia Alimentar para a População Brasileira", url: "https://www.unasus.gov.br/noticia/ministerio-da-saude-lanca-guia-alimentar-para-populacao-brasileira" },
-  ],
   content: `
     <p>Planejar refeições com IA resolve dois problemas de uma vez: o "o que vou fazer de janta hoje" e a compra de mercado que estoura o orçamento. Em uma conversa de 15 minutos com ChatGPT, Claude ou Gemini, você sai com o cardápio da semana, a lista de compras por seção do mercado e o modo de preparo de cada prato.</p>
 

@@ -21,12 +21,6 @@ export const article: Article = {
     "O segredo é um glossário fixo (nomes de produto, políticas, tom) colado em todo prompt, para que a tradução não mude de uma mensagem para outra.",
     "Contratos, questões de segurança e disputas seguem exigindo revisão humana; a IA cuida do volume de perguntas repetidas.",
   ],
-  sources: [
-    { label: "Google Tradutor: tradução de conversas ao vivo (ajuda oficial)", url: "https://support.google.com/translate/answer/6142474" },
-    { label: "DeepL Pro: planos e recursos", url: "https://www.deepl.com/pt-BR/pro" },
-    { label: "WhatsApp Business: aplicativo para pequenos negócios", url: "https://whatsappbusiness.com/products/business-app/" },
-    { label: "Shopify: vender em vários idiomas (Translate & Adapt)", url: "https://help.shopify.com/pt-BR/manual/markets/languages" },
-  ],
   content: `
     <p>Atender clientes em vários idiomas com IA deixou de exigir equipe bilíngue ou tradutor contratado. Com um assistente como ChatGPT ou Claude, um tradutor especializado para conferir e o WhatsApp Business para padronizar, um negócio de uma pessoa só responde em espanhol e inglês com qualidade suficiente para vender, agendar e resolver dúvidas.</p>
 

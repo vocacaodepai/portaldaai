@@ -19,7 +19,6 @@ import { KeyTakeaways } from "@/components/article/KeyTakeaways";
 import { NextArticle } from "@/components/article/NextArticle";
 import { ReviewDisclosure, ReviewVerdict } from "@/components/article/ReviewVerdict";
 import { ShareBar } from "@/components/article/ShareBar";
-import { SourcesList } from "@/components/article/SourcesList";
 import { TableOfContents } from "@/components/article/TableOfContents";
 import { TocDetails } from "@/components/article/TocDetails";
 import { faqJsonLd, parseOffer } from "@/components/article/schema";
@@ -285,7 +284,6 @@ export default async function ArticlePage({ params }: { params: Params }) {
             ))}
 
             <div className="max-w-[68ch]">
-              <SourcesList sources={article.sources} />
               <AuthorBox className="mt-10" />
               {article.faq && <FaqAccordion items={article.faq} />}
               {article.quiz && <QuizWidget questions={article.quiz} />}

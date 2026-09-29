@@ -21,11 +21,6 @@ export const article: Article = {
     "Em 2026 já existem agentes de uso geral, como a Agents API da OpenAI e o Autopilot do Copilot, e agentes de compras com cartão próprio.",
     "Comece com tarefas repetitivas e de baixo risco, com supervisão e limite de gasto; a própria Anthropic alerta que autonomia traz custo e erro acumulado.",
   ],
-  sources: [
-    { label: "Anthropic: Building effective agents (workflows x agentes)", url: "https://www.anthropic.com/research/building-effective-agents" },
-    { label: "OpenAI: guia de agentes na plataforma", url: "https://developers.openai.com/api/docs/guides/agents" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>Agentes de IA são sistemas que recebem um objetivo, decidem sozinhos os passos necessários e usam ferramentas como navegador, e-mail, planilha ou sistema de pagamento até entregar o resultado. É a diferença entre pedir a um chatbot "escreva uma resposta para este cliente" e pedir a um agente "resolva o problema deste cliente e me avise quando terminar".</p>
 

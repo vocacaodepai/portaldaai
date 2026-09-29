@@ -21,14 +21,6 @@ export const article: Article = {
     "HeyGen e Synthesia têm plano gratuito para testar e planos pagos a partir de US$ 29 por mês, com limites de minutos ou créditos.",
     "O avatar funciona bem em aula, treinamento e vídeo de apoio; para construir marca pessoal, aparecer de verdade ainda rende mais.",
   ],
-  sources: [
-    { label: "HeyGen: planos e preços", url: "https://www.heygen.com/pricing" },
-    { label: "Synthesia: planos e preços", url: "https://www.synthesia.io/pricing" },
-    {
-      label: "YouTube: divulgação de conteúdo alterado ou sintético",
-      url: "https://support.google.com/youtube/answer/14328491",
-    },
-  ],
   content: `
     <p>IA para vídeo já permite criar um avatar digital que fala por você: você escreve o roteiro, escolhe um rosto e uma voz, e a ferramenta gera um apresentador com boca e expressão sincronizadas. HeyGen e Synthesia fazem isso em minutos, a partir de planos gratuitos, e o resultado serve para aula, treinamento, anúncio e vídeo de apoio ao cliente.</p>
 

@@ -21,20 +21,6 @@ export const article: Article = {
     "A rotina de 15 minutos tem cinco blocos: revisar as palavras de ontem, escolher uma situação real, conversar por voz sem correção, pedir os 3 erros principais e anotar 5 palavras novas.",
     "A IA constrói base e constância; imersão cultural, prova de certificação e pronúncia fina continuam pedindo contato humano e material real.",
   ],
-  sources: [
-    {
-      label: "EF English Proficiency Index: Brasil",
-      url: "https://www.ef.com/wwen/epi/regions/latin-america/brazil/",
-    },
-    {
-      label: "Manual do Anki: repetição espaçada e recordação ativa",
-      url: "https://docs.ankiweb.net/background.html",
-    },
-    {
-      label: "Google: como usar o Gemini Live",
-      url: "https://support.google.com/gemini/answer/15274899",
-    },
-  ],
   content: `
     <p>Usar IA para aprender um novo idioma todos os dias funciona porque resolve o maior problema de quem estuda sozinho: não ter com quem praticar. Com o modo de voz do ChatGPT, o Gemini Live ou o Claude, você conversa, erra, recebe correção e repete no dia seguinte, sem agenda de professor e sem pagar por aula.</p>
 

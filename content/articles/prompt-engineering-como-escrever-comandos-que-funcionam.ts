@@ -21,12 +21,6 @@ export const article: Article = {
     "As documentações da OpenAI, Anthropic e Google concordam em três pontos: instruções claras, exemplos e tarefas divididas em etapas.",
     "Um prompt bom raramente sai de primeira. Peça uma versão, ajuste o que não gostou e salve o que funcionou para reutilizar.",
   ],
-  sources: [
-    { label: "OpenAI: guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-    { label: "Anthropic: visão geral de prompt engineering", url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" },
-    { label: "Google: estratégias de prompt para o Gemini", url: "https://ai.google.dev/gemini-api/docs/prompting-strategies" },
-    { label: "Google Workspace: guia para escrever prompts eficazes", url: "https://workspace.google.com/resources/ai/writing-effective-prompts/" },
-  ],
   content: `
     <p>Prompt engineering é a habilidade de escrever o pedido (o prompt) de um jeito que o ChatGPT, o Claude ou o Gemini entendam exatamente o que você quer: quem eles devem ser, qual é a tarefa, para quem é, em que formato responder e o que evitar. Não é programação. É clareza por escrito, com um pouco de método.</p>
 

@@ -21,14 +21,6 @@ export const article: Article = {
     "Uma planilha com histórico de clientes, o ChatGPT ou o Gemini no Google Sheets e 30 minutos por semana bastam para montar um radar de risco.",
     "A IA aponta quem está saindo; segurar o cliente depende de contato humano rápido, oferta específica e correção da causa.",
   ],
-  sources: [
-    {
-      label: "Harvard Business Review: The Value of Keeping the Right Customers",
-      url: "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers",
-    },
-    { label: "Sebrae RN: Customer Success, conceito e como implementar", url: "https://blog.rn.sebrae.com.br/customer-success/" },
-    { label: "Google: usar o Gemini no Planilhas Google", url: "https://support.google.com/docs/answer/14218565" },
-  ],
   content: `
     <p>Usar IA para reduzir o cancelamento de clientes é, na prática, usar os dados que você já tem (uso, compras, atendimento) para descobrir quem está prestes a sair e agir antes. Não precisa de sistema caro: uma planilha, o ChatGPT ou o Gemini no Google Sheets e uma rotina semanal de 30 minutos já resolvem boa parte do problema.</p>
 

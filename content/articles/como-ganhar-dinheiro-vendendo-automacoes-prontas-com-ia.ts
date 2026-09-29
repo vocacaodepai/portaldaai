@@ -21,16 +21,6 @@ export const article: Article = {
     "Make, Zapier e n8n têm planos gratuitos ou de entrada entre R$ 0 e cerca de US$ 20 por mês, o que permite montar e testar o produto antes de gastar.",
     "Faixas de R$ 97 a R$ 1.500 por pacote são comuns em análise de mercado, mas o resultado depende de nicho, suporte incluído e da sua capacidade de mostrar o fluxo funcionando.",
   ],
-  sources: [
-    { label: "Make: planos e preços", url: "https://www.make.com/en/pricing" },
-    { label: "Zapier: planos e preços", url: "https://zapier.com/pricing" },
-    { label: "n8n: planos e preços", url: "https://n8n.io/pricing/" },
-    { label: "Sebrae RN: Guia MEI 2026", url: "https://blog.rn.sebrae.com.br/guia-mei/" },
-    {
-      label: "gov.br: Portal do Empreendedor (MEI)",
-      url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-    },
-  ],
   content: `
     <p>Vender automações prontas com IA é transformar um fluxo que você já montou (formulário que vira linha na planilha, e-mail que vira tarefa, lead que recebe resposta) em um produto instalável, documentado e cobrado por pacote. O comprador não quer aprender Make ou Zapier; quer o resultado funcionando na conta dele em uma hora.</p>
 

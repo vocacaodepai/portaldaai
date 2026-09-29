@@ -21,12 +21,6 @@ export const article: Article = {
     "Freelancer insubstituível vende resultado (não hora), escolhe um nicho, domina as ferramentas do setor e mostra o trabalho em público.",
     "Formalizar como MEI, precificar por pacote e revisar o portfólio são passos que cabem em uma semana e mudam como o cliente te vê.",
   ],
-  sources: [
-    { label: "OpenAI e Univ. da Pensilvânia: GPTs are GPTs (arXiv)", url: "https://arxiv.org/abs/2303.10130" },
-    { label: "Microsoft Work Trend Index 2024", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-    { label: "Stanford AI Index 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-  ],
   content: `
     <p>Freelancer na era da IA precisa de uma resposta honesta para uma pergunta desconfortável: se o cliente consegue pedir para o ChatGPT o que ele pedia para você, por que ainda vai te pagar? A resposta existe, e ela não é "trabalhe mais rápido e cobre menos". É mudar o que você vende: de execução para resultado, de tarefa para responsabilidade.</p>
 

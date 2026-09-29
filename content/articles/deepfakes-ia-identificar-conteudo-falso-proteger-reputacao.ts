@@ -21,12 +21,6 @@ export const article: Article = {
     "O golpe mais comum no Brasil é o da voz clonada em pedido urgente de Pix; uma palavra de segurança combinada com a família e a regra de ligar de volta para o número conhecido cortam a maioria dos casos.",
     "Se você for alvo, documente tudo antes de pedir remoção, denuncie na plataforma e na SaferNet, registre boletim de ocorrência e, no caso de mulheres, saiba que a Lei 15.123/2025 aumenta a pena de quem usa IA para esse tipo de violência.",
   ],
-  sources: [
-    { label: "Senado Notícias: lei agrava pena em crime de violência contra a mulher com uso de IA (Lei 15.123/2025)", url: "https://www12.senado.leg.br/noticias/materias/2025/04/25/lei-agrava-pena-em-crime-de-violencia-contra-a-mulher-com-uso-de-ia" },
-    { label: "FTC: golpistas usam IA para clonar voz em golpes de emergência familiar", url: "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes" },
-    { label: "Google DeepMind: SynthID, marca d'água para conteúdo gerado por IA", url: "https://deepmind.google/technologies/synthid/" },
-    { label: "SaferNet Brasil: canal de denúncia anônima de crimes na internet", url: "https://new.safernet.org.br/denuncie" },
-  ],
   content: `
     <p>Deepfakes são vídeos, áudios e imagens gerados por inteligência artificial que imitam uma pessoa real dizendo ou fazendo algo que nunca aconteceu. Eles já aparecem em golpe de Pix por áudio de WhatsApp, em propaganda falsa com rosto de médico e em ataques à reputação de gente comum. Este guia mostra como identificar, o que fazer nas primeiras 24 horas se você for alvo e como reduzir o risco antes.</p>
 

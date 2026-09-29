@@ -21,11 +21,6 @@ export const article: Article = {
     "Ferramenta séria deixa claro se usa seu conteúdo para treinar modelos, permite desligar isso e oferece um jeito de apagar a conta, como exigem os direitos do titular na LGPD.",
     "Nunca cole senha, cartão, dado de saúde ou documento de cliente em uma ferramenta que você ainda não checou: depois de enviado, o dado não volta.",
   ],
-  sources: [
-    { label: "ANPD: direitos dos titulares de dados (LGPD)", url: "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares" },
-    { label: "Google: central de privacidade dos apps Gemini", url: "https://support.google.com/gemini/answer/13594961" },
-    { label: "Anthropic: meus dados são usados para treinar o Claude?", url: "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training" },
-  ],
   content: `
     <p>Como escolher ferramenta de IA com segurança se resume a quatro perguntas antes de assinar: quem está por trás, o que fazem com o que você digita, como cancelar e quanto custa de verdade. Este checklist cobre as quatro em dez minutos e serve para um app de R$ 30 por mês ou para a assinatura da empresa inteira.</p>
 

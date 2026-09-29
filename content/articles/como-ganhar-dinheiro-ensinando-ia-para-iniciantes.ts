@@ -21,12 +21,6 @@ export const article: Article = {
     "Quatro formatos cobrem o mercado: aula particular (R$ 80 a R$ 200), oficina em grupo (R$ 60 a R$ 150 por pessoa), treinamento in company e curso gravado, sempre começando pelo ao vivo.",
     "A regra que faz a aula vender é uma aula, uma tarefa: o aluno sai com o WhatsApp respondido ou o roteiro de viagem pronto, não com uma visão geral de IA.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "gov.br: valor das contribuições mensais do MEI em 2026", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/pagamento-da-contribuicao-mensal-carne-mensal/qual-o-valor-das-contribuicoes" },
-    { label: "Hotmart: página oficial de preços e taxas", url: "https://hotmart.com/en/pricing" },
-  ],
   content: `
     <p>Ganhar dinheiro ensinando IA para iniciantes é um dos caminhos mais curtos para a primeira renda com inteligência artificial, porque o produto é a sua paciência e a sua didática, não um conhecimento técnico raro. Milhões de brasileiros ouviram falar de ChatGPT, querem usar e travam no primeiro passo. Você cobra para destravar.</p>
 

@@ -21,13 +21,6 @@ export const article: Article = {
     "O que muda o resultado não é o plano pago, e sim três coisas: contexto salvo, pedidos com formato definido e uma tarefa real testada no primeiro dia.",
     "Os planos pagos ficam entre US$ 4,99 e US$ 20 por mês (Claude e Gemini verificados em 27/09/2026), mas o gratuito basta para a primeira semana inteira.",
   ],
-  sources: [
-    { label: "Anthropic: recursos de personalização do Claude", url: "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features" },
-    { label: "Google: personalização do Gemini (memória e instruções)", url: "https://support.google.com/gemini/answer/15637730?hl=pt-BR" },
-    { label: "Google: planos Google AI", url: "https://gemini.google/subscriptions/" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-    { label: "OpenAI: guia de prompt engineering", url: "https://developers.openai.com/api/docs/guides/prompt-engineering" },
-  ],
   content: `
     <p>Um assistente de IA pessoal é uma conta no ChatGPT, no Claude ou no Gemini que já sabe quem você é, o que faz e como gosta de receber resposta. Configurar isso leva uns 15 minutos: criar a conta, salvar três ou quatro frases de contexto, testar uma tarefa real e instalar o aplicativo no celular. Não precisa pagar nada nem entender de tecnologia.</p>
 

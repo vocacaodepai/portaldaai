@@ -21,11 +21,6 @@ export const article: Article = {
     "Nicho em IA é a soma de setor, problema e ferramenta (automação de atendimento para clínicas, por exemplo), nunca uma ferramenta sozinha, porque ferramenta muda de nome todo ano.",
     "O plano de 90 dias funciona assim: 30 dias testando frentes em tarefas reais, 30 dias medindo onde alguém pagou ou agradeceu, 30 dias aprofundando só na frente que teve demanda.",
   ],
-  sources: [
-    { label: "LinkedIn Economic Graph: Work Change Report", url: "https://economicgraph.linkedin.com/research/work-change-report" },
-    { label: "Stanford HAI: AI Index Report 2026", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report" },
-    { label: "Microsoft WorkLab: Work Trend Index", url: "https://www.microsoft.com/en-us/worklab/work-trend-index" },
-  ],
   content: `
     <p>Especialista em nicho de IA ou generalista: a resposta depende do momento da sua carreira, não de preferência. No começo, o generalista descobre onde existe demanda e onde ele tem talento. Depois de seis a doze meses, o especialista em um nicho é quem cobra mais e fecha mais rápido. Este guia mostra como decidir, com tabela comparativa, plano de 90 dias e um exemplo em reais.</p>
 

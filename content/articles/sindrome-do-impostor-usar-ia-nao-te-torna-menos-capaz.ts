@@ -21,11 +21,6 @@ export const article: Article = {
     "O que continua sendo seu é a pergunta, o contexto, a curadoria e a responsabilidade pelo que sai, e é isso que o mercado paga.",
     "Esconder o uso de IA custa mais caro do que assumir: quem documenta o processo e mostra o antes e depois vira referência, não impostor.",
   ],
-  sources: [
-    { label: "Microsoft Work Trend Index 2024 (AI at Work Is Here)", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-    { label: "Bravata et al. (2020): Prevalence, Predictors, and Treatment of Impostor Syndrome, J Gen Intern Med", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7174434/" },
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-  ],
   content: `
     <p>Síndrome do impostor com IA é aquela sensação de que o relatório, o texto ou a planilha que você entregou "não é mérito seu" porque o ChatGPT, o Claude ou o Gemini fizeram parte do trabalho. Ela é comum, tem nome, e não descreve o que está acontecendo de verdade: a ferramenta mudou, a competência de saber o que pedir, avaliar e assumir continua sendo sua.</p>
 

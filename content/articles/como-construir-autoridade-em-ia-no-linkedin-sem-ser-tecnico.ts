@@ -21,12 +21,6 @@ export const article: Article = {
     "Um post útil por semana, em um tema só, durante seis meses constrói mais autoridade do que um post viral, e cabe em uma hora semanal.",
     "Só publique o que você testou de verdade: repostar novidade sem experiência própria é o caminho mais rápido para perder credibilidade.",
   ],
-  sources: [
-    { label: "Microsoft e LinkedIn: Work Trend Index 2024", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" },
-    { label: "LinkedIn Economic Graph: Work Change Report", url: "https://economicgraph.linkedin.com/research/work-change-report" },
-    { label: "LinkedIn Help: publicar e compartilhar atualizações", url: "https://www.linkedin.com/help/linkedin/answer/a528176" },
-    { label: "LinkedIn Help: primeiros passos para publicar", url: "https://www.linkedin.com/help/linkedin/answer/a518996" },
-  ],
   content: `
     <p>Construir autoridade em IA no LinkedIn sem ser técnico é possível porque o público que mais cresce na rede não quer saber como um modelo é treinado. Quer saber como usar IA na rotina de vendas, RH, marketing ou operações. Quem mostra isso com exemplo real, toda semana, vira referência mais rápido do que quem posta sobre redes neurais.</p>
 

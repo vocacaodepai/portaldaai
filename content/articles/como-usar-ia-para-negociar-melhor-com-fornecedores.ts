@@ -20,21 +20,6 @@ export const article: Article = {
     "O ganho maior aparece em três pontos: comparar cotações com frete e prazo embutidos, montar uma lista de argumentos com dados e escrever o e-mail final.",
     "O exemplo de uma copiadora mostra economia de R$ 600 por mês só organizando a negociação de papel com três fornecedores antes de fechar o pedido.",
   ],
-  sources: [
-    {
-      label: "Agência Sebrae: pequenos negócios abraçam a inteligência artificial",
-      url: "https://agenciasebrae.com.br/dados/pequenos-negocios-abracam-a-inteligencia-artificial-para-otimizar-o-tempo-e-inovar/",
-    },
-    {
-      label: "Nex: gestão de compras, como negociar com fornecedores",
-      url: "https://www.nextar.com.br/blog/gestao-de-compras-como-negociar-com-fornecedores",
-    },
-    {
-      label: "Exame: como usar o ChatGPT para analisar contratos",
-      url: "https://exame.com/tecnologia/examelab/como-usar-o-chatgpt-para-analisar-contratos/",
-    },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Usar IA para negociar melhor com fornecedores significa colocar um assistente para ler as propostas, montar a comparação de preço, prazo e frete, e ajudar a escrever o e-mail que leva o pedido de desconto adiante. A ferramenta não substitui a conversa nem assina nada por você.</p>
 

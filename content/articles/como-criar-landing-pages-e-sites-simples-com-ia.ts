@@ -21,13 +21,6 @@ export const article: Article = {
     "Há opção gratuita (Google Sites, plano Free do Framer) e opção paga a partir de R$ 10,99 por mês na Hostinger, preço promocional verificado em 27/09/2026.",
     "O que faz a página vender não é o visual gerado, e sim um objetivo único, uma chamada para ação clara e um texto que soa como o seu negócio.",
   ],
-  sources: [
-    { label: "Hostinger: criador de sites com IA (preços em R$)", url: "https://www.hostinger.com/br/criador-de-sites" },
-    { label: "Framer: planos e preços", url: "https://www.framer.com/pricing/" },
-    { label: "Google: como criar um site no Google Sites", url: "https://support.google.com/sites/answer/6372878" },
-    { label: "Google Search Central: experiência na página", url: "https://developers.google.com/search/docs/appearance/page-experience" },
-    { label: "web.dev: Core Web Vitals", url: "https://web.dev/articles/vitals" },
-  ],
   content: `
     <p>Criar uma landing page com IA é o jeito mais rápido de ter uma página própria na internet sem contratar ninguém e sem escrever código. Você descreve o negócio em um parágrafo, a ferramenta monta estrutura, texto e layout, e o seu trabalho passa a ser revisar, trocar as fotos e publicar. Dá para fazer em uma tarde, com plano gratuito.</p>
 

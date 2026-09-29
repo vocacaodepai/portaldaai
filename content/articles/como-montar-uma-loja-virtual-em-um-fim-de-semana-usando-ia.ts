@@ -21,13 +21,6 @@ export const article: Article = {
     "A IA acelera as partes lentas (pesquisa, descrições, políticas, tratamento de fotos, posts de lançamento), e a plataforma gratuita da Nuvemshop segura o custo inicial.",
     "O que a IA não faz: escolher um produto com demanda real, atender bem no WhatsApp e divulgar toda semana depois do lançamento.",
   ],
-  sources: [
-    { label: "Sebrae RN: como montar loja virtual em 2026", url: "https://blog.rn.sebrae.com.br/como-montar-uma-loja-virtual/" },
-    { label: "Nuvemshop: planos e preços", url: "https://www.nuvemshop.com.br/planos-e-precos" },
-    { label: "Shopify Brasil: planos e preços", url: "https://www.shopify.com/br/precos" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "Câmara dos Deputados: Código de Defesa do Consumidor (Lei 8.078/1990)", url: "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html" },
-  ],
   content: `
     <p>Montar uma loja virtual em um fim de semana usando IA é possível quando o produto, as fotos e o cadastro já estão prontos antes de sexta-feira. A IA cuida da parte lenta: pesquisa de público, descrições, políticas de troca, tratamento de imagem e posts de lançamento. Este roteiro mostra o que fazer em cada turno, com prompts prontos e o custo em reais.</p>
 

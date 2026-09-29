@@ -21,18 +21,6 @@ export const article: Article = {
     "Atendimento, relatórios e estoque são as três frentes com retorno mais rápido; cada uma cabe em uma ferramenta gratuita ou de até US$ 20 por mês.",
     "Antes de assinar qualquer coisa, faça a conta: horas economizadas por mês vezes o custo da hora, menos a assinatura. Se não fecha em 3 meses, ainda não é a hora.",
   ],
-  sources: [
-    {
-      label: "Agência Sebrae: pequenos negócios abraçam a inteligência artificial (pesquisa Sebrae, FGV IBRE e Google)",
-      url: "https://agenciasebrae.com.br/dados/pequenos-negocios-abracam-a-inteligencia-artificial-para-otimizar-o-tempo-e-inovar/",
-    },
-    {
-      label: "Estado de Minas: uso de IA por pequenos negócios atinge 52% no Brasil (pesquisa Sebrae 2026)",
-      url: "https://www.em.com.br/mundo-corporativo/2026/09/7507917-uso-de-ia-por-pequenos-negocios-atinge-52-no-brasil.html",
-    },
-    { label: "Zapier: planos e preços", url: "https://zapier.com/pricing" },
-    { label: "Claude: planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Usar IA para reduzir custos operacionais em pequenos negócios não é cortar gente nem apagar a luz mais cedo. É atacar o custo que não aparece em nenhuma linha do extrato: as três horas por dia que alguém gasta respondendo "vocês abrem sábado?", o relatório refeito porque a fórmula quebrou, o produto parado no estoque há quatro meses.</p>
 

@@ -106,8 +106,6 @@ export type Article = {
   author?: string;
   /** Resumo em 3 pontos exibido logo após a capa. */
   keyPoints?: string[];
-  /** Fontes consultadas, exibidas ao fim do artigo. */
-  sources?: { label: string; url: string }[];
   /** Dados do review (só para kind: "review"). */
   review?: ReviewData;
   /** Perguntas frequentes exibidas em acordeão ao fim do artigo. */

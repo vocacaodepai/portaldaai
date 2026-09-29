@@ -20,11 +20,6 @@ export const article: Article = {
     "O ponto forte é o grave potente e a bateria: cerca de 9 a 10 horas por carga nos fones, mais duas recargas completas guardadas no estojo.",
     "Não tem cancelamento de ruído ativo e a qualidade em chamada é apenas mediana, então não é a escolha certa pra quem faz reunião por vídeo o dia todo.",
   ],
-  sources: [
-    { label: "Página do produto na Amazon Brasil", url: "https://www.amazon.com.br/dp/B0BTYCRJSS" },
-    { label: "Review técnico do Soundcore P20i (TechGearLab)", url: "https://www.techgearlab.com/reviews/audio/wireless-earbuds/soundcore-p20i" },
-    { label: "Comparativo Soundcore P20i vs. A20i e P2i (Scarbir)", url: "https://www.scarbir.com/tws/soundcore-p20i-review" },
-  ],
   review: {
     tool: "Soundcore P20i da Anker",
     score: 7.6,

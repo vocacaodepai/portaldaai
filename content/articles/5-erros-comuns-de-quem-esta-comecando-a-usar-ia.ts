@@ -21,21 +21,6 @@ export const article: Article = {
     "A correção é barata: um pedido com contexto, objetivo e formato, uma conferência rápida do que a IA afirmou e uma tarefa pequena repetida por uma semana já mudam o resultado.",
     "Não pague por plano nenhum antes de usar a versão gratuita por 15 dias em uma tarefa real do seu dia; a assinatura só faz sentido quando o limite gratuito atrapalha.",
   ],
-  sources: [
-    {
-      label: "OpenAI: guia de prompt engineering (exemplos e contexto)",
-      url: "https://developers.openai.com/api/docs/guides/prompt-engineering",
-    },
-    {
-      label: "Anthropic: boas práticas de prompt para o Claude",
-      url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-    },
-    {
-      label: "Google: aviso oficial de que o Gemini pode apresentar informação incorreta como fato",
-      url: "https://support.google.com/gemini/answer/13594961",
-    },
-    { label: "Claude: página oficial de planos e preços", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Os erros comuns de quem está começando a usar IA quase nunca têm a ver com a ferramenta. Têm a ver com o jeito de pedir, com a pressa de aceitar a primeira resposta e com a ideia de que é preciso "entender tudo" antes de abrir o ChatGPT, o Claude ou o Gemini. Este guia mostra os cinco erros mais frequentes e o que fazer em cada um.</p>
 

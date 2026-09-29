@@ -21,12 +21,6 @@ export const article: Article = {
     "Você já usa IA todo dia sem perceber: recomendação da Netflix, filtro de spam, análise de fraude do banco e corretor do teclado; a IA generativa (ChatGPT, Claude, Gemini) é só a parte que conversa.",
     "Ela erra com confiança, não sabe o que não sabe e guarda o que você digita; por isso o caminho é começar com tarefas de baixo risco, no plano gratuito, e revisar tudo antes de usar.",
   ],
-  sources: [
-    { label: "IBM: o que é inteligência artificial", url: "https://www.ibm.com/think/topics/artificial-intelligence" },
-    { label: "Stanford HAI: AI Index Report 2026", url: "https://hai.stanford.edu/ai-index/2026-ai-index-report" },
-    { label: "Sebrae RN: inteligência artificial para pequenos negócios", url: "https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/" },
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-  ],
   content: `
     <p>Inteligência artificial é a capacidade de um programa de computador fazer tarefas que antes exigiam uma pessoa: escrever um texto, resumir um documento, traduzir, reconhecer o que há numa foto, responder uma pergunta. Ela aprende padrões a partir de muitos exemplos, em vez de seguir regras escritas uma a uma. Este guia explica o que é inteligência artificial sem jargão e mostra como começar a usar hoje.</p>
 

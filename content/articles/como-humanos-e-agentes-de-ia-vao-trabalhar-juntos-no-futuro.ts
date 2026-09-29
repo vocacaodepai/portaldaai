@@ -21,11 +21,6 @@ export const article: Article = {
     "As pesquisas mostram a virada em curso: 78% das organizações usavam IA em 2024 (Stanford) e 81% dos líderes esperam integrar agentes em 12 a 18 meses (Microsoft), com a chefia bem mais familiarizada que a equipe.",
     "Nenhuma habilidade necessária exige programar; todas exigem prática com uma ferramenta real, começando com acesso mínimo e uma etapa de aprovação humana para tudo que envolve dinheiro, contrato ou dado de cliente.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "Microsoft WorkLab: Work Trend Index 2025, The Year the Frontier Firm Is Born", url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born" },
-    { label: "OpenAI para desenvolvedores: guia de agentes", url: "https://developers.openai.com/api/docs/guides/agents" },
-  ],
   content: `
     <p>Humanos e agentes de IA vão trabalhar juntos de um jeito parecido com o de um gestor e sua equipe: a pessoa define o objetivo, o agente executa as etapas, e a pessoa revisa, corrige e assina. Não é "a IA substitui" nem "nada muda". É uma troca de função: de quem opera a ferramenta para quem coordena o que ela faz.</p>
 

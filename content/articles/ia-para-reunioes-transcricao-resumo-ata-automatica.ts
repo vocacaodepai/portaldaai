@@ -21,24 +21,6 @@ export const article: Article = {
     "A ata boa nasce de um prompt que separa decisões, ações com responsável e prazo, e pontos em aberto, seguido de revisão humana de nomes e números.",
     "Gravar reunião é tratar dado pessoal: avise todo mundo antes, escolha ferramenta com política de retenção clara e apague a gravação depois da ata.",
   ],
-  sources: [
-    {
-      label: "Google: Fazer anotações para mim no Google Meet (Ajuda do Google Meet)",
-      url: "https://support.google.com/meet/answer/14754931",
-    },
-    {
-      label: "Microsoft: Usar o Copilot em reuniões do Microsoft Teams (Suporte da Microsoft)",
-      url: "https://support.microsoft.com/en-us/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1",
-    },
-    {
-      label: "Otter.ai: planos e preços (página oficial)",
-      url: "https://otter.ai/pricing",
-    },
-    {
-      label: "ANPD: perguntas frequentes sobre a LGPD (gov.br)",
-      url: "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes",
-    },
-  ],
   content: `
     <p>IA para reuniões é o conjunto de ferramentas que grava a conversa, transcreve quem disse o quê, resume os pontos principais e monta a ata com decisões, responsáveis e prazos. Hoje isso já vem embutido no Google Meet, no Microsoft Teams e no Zoom, e também em aplicativos separados, como o Otter.ai, que entram na reunião como mais um participante.</p>
 

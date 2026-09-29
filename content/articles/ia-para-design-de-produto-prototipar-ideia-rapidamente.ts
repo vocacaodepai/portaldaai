@@ -21,13 +21,6 @@ export const article: Article = {
     "Para produto digital, Lovable, v0 e Figma Make geram telas clicáveis a partir de um texto; para produto físico, geradores de imagem criam renders para validar antes de fabricar.",
     "O protótipo de IA acelera a exploração, mas não substitui teste com gente real nem, no físico, ergonomia, material e segurança.",
   ],
-  sources: [
-    { label: "Figma Make: prompt to code", url: "https://www.figma.com/make/" },
-    { label: "Figma: planos e preços", url: "https://www.figma.com/pricing/" },
-    { label: "Lovable Docs: introdução", url: "https://docs.lovable.dev/introduction" },
-    { label: "Lovable: planos e preços", url: "https://lovable.dev/pricing" },
-    { label: "v0: planos e preços", url: "https://v0.app/pricing" },
-  ],
   content: `
     <p>IA para design de produto é usar geradores de interface e de imagem para sair da ideia na cabeça e chegar a algo que dá para mostrar, clicar e criticar em poucas horas. Para um app, isso significa telas funcionais geradas a partir de um texto. Para um objeto físico, significa renders realistas antes de gastar com molde ou fornecedor.</p>
 

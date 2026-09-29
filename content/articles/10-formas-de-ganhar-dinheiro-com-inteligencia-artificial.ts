@@ -21,12 +21,6 @@ export const article: Article = {
     "Nenhuma exige programar; todas exigem escolher um público, um problema e uma ferramenta, e cobrar por entrega, não por hora gasta.",
     "O caminho mais seguro é começar por um serviço, formalizar como MEI quando passar de dois clientes e só então investir em automação ou produto.",
   ],
-  sources: [
-    { label: "Stanford HAI: AI Index Report 2025", url: "https://hai.stanford.edu/ai-index/2025-ai-index-report" },
-    { label: "gov.br: o que você precisa saber antes de se tornar um MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-    { label: "Hotmart: página de preços e taxas", url: "https://hotmart.com/en/pricing" },
-  ],
   content: `
     <p>Ganhar dinheiro com inteligência artificial em 2026 passa por três caminhos: vender um serviço que a IA deixa mais rápido, montar automações para quem não quer aprender a ferramenta, ou criar produtos digitais com ajuda dela. Este guia mostra 10 formas concretas, com o que vender, para quem, quanto cobrar e por onde começar.</p>
 

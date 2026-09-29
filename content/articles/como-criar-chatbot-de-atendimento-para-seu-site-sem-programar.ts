@@ -21,11 +21,6 @@ export const article: Article = {
     "O trabalho de verdade está na base de conhecimento: 15 a 20 perguntas com respostas curtas, valores e prazos reais.",
     "Todo chatbot precisa de uma saída para humano e de revisão semanal nas primeiras semanas; sem isso, ele piora com o tempo.",
   ],
-  sources: [
-    { label: "Tidio: página oficial de preços", url: "https://www.tidio.com/pricing/" },
-    { label: "Chatbase: página oficial de preços", url: "https://www.chatbase.co/pricing" },
-    { label: "Botpress: página oficial de preços", url: "https://botpress.com/pricing" },
-  ],
   content: `
     <p>Criar um chatbot de atendimento para o seu site sem programar deixou de ser promessa. Hoje você sobe o conteúdo do seu FAQ em uma ferramenta como Tidio, Chatbase ou Botpress, ajusta o tom das respostas, cola um trecho de código pronto na página e o assistente começa a responder clientes em poucas horas, 24 horas por dia.</p>
 

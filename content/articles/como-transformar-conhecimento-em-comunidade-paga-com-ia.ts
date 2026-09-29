@@ -21,18 +21,6 @@ export const article: Article = {
     "Dá para começar com Skool Hobby a US$ 9 por mês ou um grupo de WhatsApp com cobrança à parte; a plataforma importa menos que a rotina semanal de manutenção.",
     "O erro que mais gera cancelamento é automatizar demais: quando o membro sente que responde a um robô, ele para de pagar.",
   ],
-  sources: [
-    { label: "Skool: planos e preços", url: "https://www.skool.com/pricing" },
-    { label: "Circle: planos e preços", url: "https://circle.so/pricing" },
-    {
-      label: "Claude: o que são Projetos",
-      url: "https://support.claude.com/en/articles/9517075-what-are-projects",
-    },
-    {
-      label: "gov.br: o que você precisa saber antes de se tornar um MEI",
-      url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei",
-    },
-  ],
   content: `
     <p>Comunidade paga com IA é um grupo de assinantes mensais em torno do que você sabe (Excel para comércio, nutrição esportiva, inglês para entrevistas), em que a inteligência artificial cuida do trabalho repetitivo: resumir as discussões da semana, responder dúvidas que já foram respondidas, dar boas-vindas e sugerir o conteúdo seguinte. Você fica com a parte que faz as pessoas pagarem: a sua presença.</p>
 

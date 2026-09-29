@@ -21,20 +21,6 @@ export const article: Article = {
     "Meta Business Suite agenda de graça no Facebook e Instagram; Buffer e Metricool têm planos gratuitos com limite de posts, com preços verificados em 27/09/2026.",
     "Para analisar, exporte os números do mês, cole no assistente e peça padrões por formato, horário e tema; a IA resume, você decide o que repetir.",
   ],
-  sources: [
-    {
-      label: "Meta: criar e gerenciar posts no Meta Business Suite",
-      url: "https://www.facebook.com/business/help/942827662903020",
-    },
-    {
-      label: "Buffer: planos e preços",
-      url: "https://buffer.com/pricing",
-    },
-    {
-      label: "Metricool: planos e preços",
-      url: "https://metricool.com/pricing/",
-    },
-  ],
   content: `
     <p>IA para redes sociais resolve o problema de quem cuida do Instagram do próprio negócio sem equipe: criar posts sem encarar a tela em branco, agendar um mês inteiro em uma tarde e entender o que está funcionando sem estudar análise de dados. O assistente escreve as variações, o agendador publica e você fica com a parte que só você sabe fazer, que é falar com o cliente.</p>
 

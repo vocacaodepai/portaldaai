@@ -21,12 +21,6 @@ export const article: Article = {
     "Uma rotina de 1 hora por semana com Google Alerts, um assistente de IA com busca e uma planilha simples já cobre preço, lançamentos e reputação de 3 concorrentes.",
     "A IA erra data e inventa detalhe: toda informação que vira decisão de preço ou de estoque precisa ser confirmada na fonte antes.",
   ],
-  sources: [
-    { label: "Google: como criar e gerenciar Alertas", url: "https://support.google.com/websearch/answer/4815696" },
-    { label: "Google: perguntas frequentes sobre o Google Trends", url: "https://support.google.com/trends/answer/4365533" },
-    { label: "Google: como usar o Deep Research no Gemini", url: "https://support.google.com/gemini/answer/15719111" },
-    { label: "Google: ler e responder avaliações no Perfil da Empresa", url: "https://support.google.com/business/answer/3474050" },
-  ],
   content: `
     <p>Monitorar a concorrência com IA é a forma mais barata de fazer algo que todo dono de negócio sabe que deveria fazer e quase nunca faz: acompanhar preço, lançamentos e reputação dos rivais com regularidade. A IA cuida da coleta e do resumo. Você fica com a parte que importa, que é decidir o que fazer com a informação.</p>
 

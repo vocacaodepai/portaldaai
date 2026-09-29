@@ -20,12 +20,6 @@ export const article: Article = {
     "O que o cliente paga é a curadoria: escolher a voz certa, revisar pronúncia e ritmo, sincronizar com a boca e garantir que o vídeo final soa natural em português ou no idioma de destino.",
     "Os primeiros clientes estão em canais do YouTube que querem alcance internacional, produtores de curso e agências de anúncio que precisam de várias versões de um mesmo vídeo.",
   ],
-  sources: [
-    { label: "ElevenLabs: página oficial de preços (planos e custo de dublagem por minuto)", url: "https://elevenlabs.io/pricing" },
-    { label: "HeyGen: página oficial de preços (planos e créditos de tradução de vídeo)", url: "https://www.heygen.com/pricing" },
-    { label: "ElevenLabs: como automatizar o trabalho de dublagem e licenciar a própria voz", url: "https://elevenlabs.io/pt/blog/automate-voice-acting-work" },
-    { label: "gov.br: o que você precisa saber antes de se tornar MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-  ],
   content: `
     <p>Ganhar dinheiro dublando vídeos com IA já é uma opção real para quem tem paciência para revisar áudio e algum ouvido para ritmo de fala. As ferramentas de clonagem de voz pegam um vídeo em português, inglês ou espanhol e entregam uma versão em outro idioma mantendo o timbre de quem fala, sem contratar um estúdio de dublagem tradicional. O trabalho pago não é apertar o botão, é fazer aquilo soar natural.</p>
 

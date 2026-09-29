@@ -21,12 +21,6 @@ export const article: Article = {
     "Gemini no Google Slides e Copilot no PowerPoint geram a apresentação inteira a partir de um pedido em texto; Gamma e Canva fazem o mesmo fora dessas suítes.",
     "O fluxo que funciona é roteiro primeiro, slides depois e revisão sempre: apresentação boa tem um tópico por slide e menos texto do que a IA sugere.",
   ],
-  sources: [
-    { label: "Google: gerar apresentação com o Gemini no Slides", url: "https://support.google.com/docs/answer/14206696?hl=pt-BR" },
-    { label: "Microsoft: criar apresentação com o Copilot no PowerPoint", url: "https://support.microsoft.com/en-us/copilot-powerpoint" },
-    { label: "Google Gemini: planos Google AI", url: "https://gemini.google/subscriptions/" },
-    { label: "Google Workspace: planos e Gemini incluído", url: "https://workspace.google.com/pricing" },
-  ],
   content: `
     <p>Criar apresentações com IA é o caminho mais curto entre "preciso apresentar isso na quinta" e um conjunto de slides que dá para mostrar sem vergonha. A IA monta o roteiro a partir da sua ideia, escreve o título de cada slide, sugere o visual e ainda gera as imagens. O que antes tomava uma noite passa a caber em uma hora, com a maior parte do tempo gasta em revisão.</p>
 

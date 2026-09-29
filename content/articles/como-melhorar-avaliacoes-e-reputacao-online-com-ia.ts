@@ -21,12 +21,6 @@ export const article: Article = {
     "Responder rápido pesa: na pesquisa da BrightLocal, 89% dos consumidores esperam resposta do dono e a maioria quer isso em até uma semana.",
     "Pedir avaliação é permitido, mas oferecer desconto em troca ou filtrar só clientes satisfeitos viola a política do Google e pode derrubar o perfil.",
   ],
-  sources: [
-    { label: "BrightLocal: Local Consumer Review Survey 2026", url: "https://www.brightlocal.com/research/local-consumer-review-survey/" },
-    { label: "Google: como ler e responder avaliações no Perfil da Empresa", url: "https://support.google.com/business/answer/3474050" },
-    { label: "Google: política de conteúdo gerado pelo usuário no Maps", url: "https://support.google.com/contributionpolicy/answer/7400114" },
-    { label: "Consumidor.gov.br: plataforma oficial de resolução de conflitos", url: "https://www.consumidor.gov.br/pages/principal/?1" },
-  ],
   content: `
     <p>Avaliações online são o primeiro contato que a maioria dos clientes tem com o seu negócio, antes de ligar, entrar na loja ou mandar mensagem. Usar IA para melhorar avaliações e reputação online significa três coisas práticas: ler tudo o que falam de você sem gastar horas, responder cada comentário com tom certo em minutos e descobrir o problema que se repete antes que ele vire nota baixa permanente.</p>
 

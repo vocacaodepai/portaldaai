@@ -21,12 +21,6 @@ export const article: Article = {
     "O primeiro passo é organizar os dados (produto, entrada, saída, data) e só depois pedir previsão, curva ABC e alerta de reposição.",
     "Dá para começar com R$ 0 usando ChatGPT, Claude ou Gemini no plano gratuito e uma planilha no Google Sheets ou Excel.",
   ],
-  sources: [
-    { label: "Google: usar o Gemini no Planilhas Google", url: "https://support.google.com/docs/answer/14356410" },
-    { label: "Microsoft: primeiros passos com o Copilot no Excel", url: "https://support.microsoft.com/en-us/office/get-started-with-copilot-in-excel-d7110502-0334-4b4f-a175-a73abdfc118a" },
-    { label: "Portal do Empreendedor (gov.br): o que saber antes de ser MEI", url: "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/o-que-voce-precisa-saber-antes-de-se-tornar-um-mei" },
-    { label: "Sebrae RN: guia do MEI (gestão de estoque)", url: "https://blog.rn.sebrae.com.br/guia-mei/" },
-  ],
   content: `
     <p>Usar IA para gerenciar estoque no pequeno comércio é transformar a planilha (ou o caderno) que você já tem em três respostas: o que comprar, quanto comprar e o que parar de comprar. Não precisa de sistema caro nem de consultor. Precisa de dados organizados, um assistente de IA no plano gratuito e uma rotina semanal de 30 minutos.</p>
 

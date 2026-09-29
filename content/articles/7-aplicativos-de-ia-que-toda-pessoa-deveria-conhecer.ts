@@ -21,12 +21,6 @@ export const article: Article = {
     "Seis dos sete têm plano gratuito suficiente para começar; a IA dentro da planilha depende de assinatura. Planos pagos conferidos em 27/09/2026: Claude Pro US$ 20 e Google AI Pro R$ 96,99 por mês.",
     "O caminho certo é instalar um app por vez, resolver a tarefa mais chata da sua rotina com ele e só depois passar para o próximo.",
   ],
-  sources: [
-    { label: "Claude: planos e preços (Anthropic)", url: "https://claude.com/pricing" },
-    { label: "Google AI: planos de assinatura do Gemini", url: "https://gemini.google/br/subscriptions/" },
-    { label: "Otter.ai: planos e limites de transcrição", url: "https://otter.ai/pricing" },
-    { label: "CapCut: editor de vídeo com legendas automáticas", url: "https://www.capcut.com/" },
-  ],
   content: `
     <p>Aplicativos de IA vão muito além do ChatGPT, e quem está começando costuma parar na primeira ferramenta sem saber que existe um app certo para transcrever reunião, outro para pesquisar com fonte, outro para tirar o fundo de uma foto. Esta lista reúne os 7 tipos que resolvem tarefas reais do dia a dia, com nome, plano gratuito e preço conferido.</p>
 
