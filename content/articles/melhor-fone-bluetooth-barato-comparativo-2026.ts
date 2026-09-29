@@ -78,6 +78,9 @@ export const article: Article = {
       <img src="/images/products/redmi-buds-6-play.png" alt="Xiaomi Redmi Buds 6 Play com o estojo aberto e os dois fones ao lado" />
       <figcaption>Foto oficial: Xiaomi</figcaption>
     </figure>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0DBHT1BT9?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redmi Buds 6 Play agora ↗</a>
+    </div>
     <p>Pelo preço mais baixo do grupo, o <a href="https://www.amazon.com.br/dp/B0DBHT1BT9?tag=portaldaai-20" rel="sponsored noopener noreferrer">Redmi Buds 6 Play</a> entrega a maior autonomia total de bateria (36 horas somando fones e estojo) e uma nota de compradores praticamente igual à dos outros dois, com mais de 7 mil avaliações reais na Amazon Brasil. O driver de 10mm ajustado pelo laboratório acústico da Xiaomi entrega grave presente, embora o acabamento em plástico seja mais simples e o encaixe menos ajustável. É a opção que faz mais sentido pra quem quer só ouvir música e podcast sem gastar muito, sem abrir mão de bateria de verdade.</p>
 
     <h2>Soundcore P20i: o equilíbrio entre preço e grave</h2>
@@ -85,6 +88,9 @@ export const article: Article = {
       <img src="/images/products/soundcore-p20i.jpg" alt="Soundcore P20i da Anker com o estojo de carregamento" />
       <figcaption>Foto oficial: Anker Soundcore</figcaption>
     </figure>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BTYCRJSS?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore P20i agora ↗</a>
+    </div>
     <p>No meio do caminho em preço, o Soundcore P20i é também o que tem mais avaliações reais no total (mais de 100 mil), sinal de volume de venda bem maior que os outros dois. Detalhamos prós, contras e ficha técnica completa no <a href="/artigos/soundcore-p20i-anker-vale-a-pena">review dedicado ao P20i</a>: resumindo, ele ganha em grave e é mais leve que fones premium, mas perde em qualidade de chamada e agudo. Pra quem já decidiu que quer esse equilíbrio específico (grave forte, bateria boa, sem gastar muito), ele segue sendo a escolha mais testada do grupo.</p>
 
     <h2>JBL Wave Flex: quando vale pagar mais</h2>
@@ -92,6 +98,9 @@ export const article: Article = {
       <img src="/images/products/jbl-wave-flex.png" alt="JBL Wave Flex azul com o estojo aberto mostrando os dois fones" />
       <figcaption>Foto oficial: JBL</figcaption>
     </figure>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BHDRW3MK?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Wave Flex agora ↗</a>
+    </div>
     <p>O <a href="https://www.amazon.com.br/dp/B0BHDRW3MK?tag=portaldaai-20" rel="sponsored noopener noreferrer">JBL Wave Flex</a> custa mais que o dobro do P20i e quase 5 vezes o Redmi Buds 6 Play, mas não vence em bateria total nem em nota de compradores. O que ele entrega de diferente é o design "stick" aberto (sem ponta de silicone entrando fundo no ouvido), som JBL com equalização mais equilibrada entre grave e agudo segundo avaliações técnicas, e a reputação de marca e suporte da JBL no Brasil. Faz sentido pra quem já teve problema de conforto com fone intra-auricular tradicional ou prioriza acabamento e assistência técnica sobre economizar.</p>
 
     <h2>Por que isso importa antes de comprar</h2>

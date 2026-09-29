@@ -43,6 +43,36 @@ usada no projeto, sem custo e sem inventar nenhum pixel do produto):
   por cima. Sem blur: cor chapada igual à da foto original, sem inventar
   nada.
 
+## Botão de compra (categoria AI Indica)
+
+Todo artigo de AI Indica precisa converter, não só linkar. Além dos links
+normais no texto, usar o botão de destaque `buy-btn` (classe liberada em
+`lib/html.ts` e estilizada em `app/globals.css`):
+
+```html
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Nome do produto> agora ↗</a>
+</div>
+```
+
+- Sempre um `buy-btn` logo abaixo da foto de cada produto (`<figure>`) num
+  comparativo, um por produto.
+- Em review de produto único, pelo menos um `buy-btn` no meio do corpo
+  (além do botão que já existe no topo, no bloco de veredito), por exemplo
+  depois da seção "para quem vale a pena".
+- `href` sempre com o link de afiliado real (`tag=portaldaai-20`), nunca um
+  link genérico de busca. `rel="sponsored noopener noreferrer"` e
+  `target="_blank"` sempre presentes.
+
+## Continue lendo (categoria AI Indica)
+
+A seção "Continue lendo" ao fim de todo artigo (`app/artigos/[slug]/page.tsx`,
+via `getRelatedArticles`) já prioriza artigos da mesma categoria antes de
+completar com outras categorias (`lib/articles.ts`). Isso já mantém quem lê
+um AI Indica dentro do fluxo de outros comparativos e reviews de produto:
+não precisa de nenhuma seção nova, só continuar publicando AI Indica
+suficiente pra essa seção ter o que mostrar.
+
 ## Rotina editorial diária: 10 artigos por dia
 
 O Portal da AI publica 10 artigos por dia, em duas rotinas automáticas

@@ -33,7 +33,7 @@ const SANITIZE_OPTIONS: sanitizeHtml.IOptions = {
   allowProtocolRelative: false,
   disallowedTagsMode: "discard",
   allowedClasses: {
-    div: ["callout-box", "callout-ok", "callout-warn", "callout-bad", "callout-tip", "table-wrap"],
+    div: ["callout-box", "callout-ok", "callout-warn", "callout-bad", "callout-tip", "table-wrap", "buy-btn"],
     span: ["callout-label"],
     ul: ["checklist"],
     ol: ["checklist"],
