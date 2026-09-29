@@ -1,0 +1,33 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "openai-devday-2026-dots-agentes-sempre-ativos",
+  title: "OpenAI lança Dots, agente de IA sempre ativo, no DevDay 2026",
+  summary:
+    "No maior DevDay da empresa, com mais de 20 anúncios, a OpenAI apresentou um agente pessoal permanente, o modelo GPT-6.1 Sol e um plano Pro de US$ 500 por mês.",
+  author: "Bruno Danello",
+  sourceName: "CNBC",
+  sourceUrl: "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+  date: "2026-09-29",
+  content: `
+    <p>A OpenAI apresentou nesta terça-feira (29), no DevDay 2026, mais de 20 novidades para desenvolvedores e usuários, com destaque para o Dots, um agente de IA "sempre ativo" que promete acompanhar tarefas do usuário continuamente, e não só responder quando é chamado. Segundo a <a href="https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html" rel="noopener noreferrer nofollow">cobertura da CNBC</a>, o CEO Sam Altman chamou o evento de "o melhor DevDay" da empresa até aqui, com cerca de 2.500 pessoas presentes em São Francisco.</p>
+    <p>O Dots roda sobre o modelo GPT-6 Astra, tem computador próprio na nuvem, se conecta a mais de 4 mil aplicativos e aprende com o feedback do usuário ao longo do tempo. Ele já está disponível dentro do ChatGPT para assinantes dos planos Pro e Business Premium em mercados elegíveis, com integração ao Slack e ao Teams, e mensagens por texto chegando em breve. Segundo Altman, o agente "bate no seu ombro" para lembrar compromissos e ajudar a organizar o dia, na descrição da CFO Sarah Friar à emissora.</p>
+
+    <h2>O que mais saiu do DevDay</h2>
+    <p>Ao lado do Dots, a OpenAI lançou o GPT-6.1 Sol, uma atualização do modelo GPT-6 Sol apenas uma semana depois de seu lançamento, com desempenho mais forte em tarefas de trabalho profissional, uso de computador e programação agêntica a um custo menor. A empresa também estreou o Ultrafast, camada de velocidade premium disponível no ChatGPT, no Codex e na API, que gera tokens até 8 vezes mais rápido no Codex e até 6 vezes mais rápido na API.</p>
+    <p>Outro anúncio foi o plano Pro 500, tier de assinatura com o maior limite de uso da empresa e acesso ao Ultrafast tanto no ChatGPT quanto no Codex. A OpenAI ainda apresentou o OpenAI Private Intelligence, recurso de privacidade que promete não armazenar o conteúdo do usuário nos servidores da empresa nem durante a inferência, desenvolvido com clientes como Cisco, Databricks e Snowflake. Completam a lista de novidades as extensões de plugin, que permitem construir aplicativos inteiros dentro do ChatGPT e do Codex, o ChatGPT Space, para times trabalharem junto com os Dots, e um novo formato de documento colaborativo chamado Pages.</p>
+    <p>O lançamento do Dots veio um dia depois de a empresa cancelar o <a href="/noticias/openai-cancela-lancamento-gpt-6-1-astra-seguranca">GPT-6.1 Astra por falha de segurança</a>, episódio que Altman minimizou durante o evento, dizendo que colocaria a decisão na categoria de "curso normal" do desenvolvimento de modelos. Ele também comentou o <a href="/noticias/nvidia-lanca-plataforma-seguranca-agentes-ia">lançamento da plataforma de segurança para agentes da Nvidia</a> nesta semana, chamando a iniciativa de "coisa boa", mas "não uma solução completa" para os riscos da tecnologia.</p>
+
+    <h2>Por que isso importa para você</h2>
+    <p>O Dots marca uma mudança de formato importante: em vez de um chat que só responde quando você pergunta, é um agente que fica rodando em segundo plano, monitorando tarefas e agindo por conta própria dentro do que foi autorizado. Para quem já usa <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">agente de IA em vez de chatbot ou automação simples</a>, esse é o tipo de ferramenta que muda o fluxo de trabalho de fato: menos tempo digitando comandos, mais tempo revisando o que o agente já fez.</p>
+    <p>Para quem empreende com IA no Brasil, o Dots reforça uma tendência que já vinha aparecendo em ferramentas como a Manus e a Perplexity: assistentes que assumem tarefas inteiras, não só passos isolados. Quem já monta ou vende <a href="/artigos/como-ganhar-dinheiro-criando-e-vendendo-agentes-de-ia-personalizados">agentes de IA personalizados para clientes</a> ganha aqui um concorrente direto embutido no próprio ChatGPT, mas também um argumento de venda mais forte: se a OpenAI está apostando pesado nesse formato, é sinal de que a demanda por automação de tarefas do dia a dia só deve crescer.</p>
+
+    <h2>O corte de preço que chama atenção</h2>
+    <p>Um dos pontos mais comentados pela CFO Sarah Friar foi a estratégia de preços da empresa. Ela lembrou que quando a OpenAI lançou o plano de US$ 200 por mês, "as pessoas acharam que a gente tinha perdido a cabeça", e que agora vê o oposto: usuários dispostos a pagar ainda mais, migrando de um modelo de assinatura fixa para consumo por créditos conforme a necessidade. O plano Pro 500 é a prova disso, mirando quem já usa IA de forma intensiva no trabalho.</p>
+    <p>Essa lógica de preço por consumo, e não só por assinatura, é algo que já discutimos ao comparar <a href="/artigos/make-ou-zapier-qual-automacao-com-ia-vale-mais-a-pena">automação por créditos versus assinatura fixa entre Make e Zapier</a>. A tendência parece se confirmar: quanto mais uma ferramenta de IA entrega resultado direto (como um agente que executa tarefa completa), mais espaço a empresa por trás dela tem para cobrar por uso em vez de cobrar um valor fixo mensal, e isso vale tanto para quem compra quanto para quem revende esse tipo de serviço.</p>
+
+    <h2>O que observar daqui pra frente</h2>
+    <p>Vale acompanhar como o Dots se comporta fora da demonstração controlada do DevDay, já que a OpenAI vem de uma sequência de recuos de segurança nas últimas semanas, incluindo o cancelamento do GPT-6.1 Astra e o pedido de desculpas ao governo australiano por acesso indevido de agentes a sites públicos. Um agente que fica ativo o tempo todo, conectado a milhares de aplicativos, amplia a superfície de risco se algo sair do controle, e a própria empresa reconhece isso ao liberar o recurso primeiro para planos pagos mais caros, onde o uso tende a ser mais monitorado.</p>
+    <p>Para quem já usa <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">IA para automatizar reuniões e tarefas administrativas</a> ou pensa em migrar o fluxo de trabalho para um agente permanente, o conselho de sempre se aplica aqui: testar primeiro com tarefas de baixo risco, revisar o que o agente decide fazer antes de dar autonomia total, e acompanhar se a OpenAI expande o acesso ao Dots para planos mais baratos nas próximas semanas.</p>
+  `,
+};
