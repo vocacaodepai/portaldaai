@@ -2,8 +2,8 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "soundcore-p20i-anker-vale-a-pena",
-  title: "Soundcore P20i da Anker Vale a Pena? Review Completo",
-  seoTitle: "Soundcore P20i vale a pena? Review completo 2026",
+  title: "O fone de R$ 150 mais leve que o AirPods: testamos o Soundcore P20i (e o que ele sacrifica por isso)",
+  seoTitle: "Soundcore P20i vale a pena? O que 100 mil avaliações não mostram",
   excerpt:
     "Nota 7,6 de 10. Testamos o fone bluetooth mais vendido da Anker no Brasil: graves fortes e bateria boa, mas sem cancelamento de ruído e com chamada mediana.",
   metaDescription:
@@ -13,6 +13,13 @@ export const article: Article = {
   readTime: 10,
   imageQuery: "wireless earbuds charging case on desk",
   seed: 98,
+  coverImage: {
+    url: "/images/products/soundcore-p20i.jpg",
+    width: 679,
+    height: 954,
+    credit: "Anker Soundcore (imagem oficial do produto)",
+    creditUrl: "https://www.soundcore.com/eu/products/a3949",
+  },
   kind: "review",
   author: "Bruno Danello",
   keyPoints: [

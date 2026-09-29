@@ -37,6 +37,7 @@ export function NextArticle({ article }: { article?: Article }) {
             sizes="(max-width: 640px) 100vw, 280px"
             showCredit={false}
             label={label}
+            override={article.coverImage}
           />
         </div>
       </article>

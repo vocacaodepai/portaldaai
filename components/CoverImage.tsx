@@ -1,6 +1,8 @@
 import { getPexelsImage } from "@/lib/pexels";
 import { getPixabayImage } from "@/lib/pixabay";
 
+export type CoverOverride = { url: string; width: number; height: number; credit: string; creditUrl: string };
+
 // Fallback quando não há foto: gradiente escuro com um brilho da marca,
 // coerente com o tema (funciona no claro e no escuro).
 const GLOWS = ["#2457FF", "#7C3AED", "#2457FF", "#0EA5E9", "#7C3AED", "#6366F1"];
@@ -65,6 +67,7 @@ export async function CoverImage({
   showCredit = true,
   creditPlacement = "overlay",
   label,
+  override,
 }: {
   query: string;
   seed: number;
@@ -77,8 +80,10 @@ export async function CoverImage({
   creditPlacement?: "overlay" | "below";
   /** Texto pequeno impresso no fallback (ex.: categoria). */
   label?: string;
+  /** Foto real do produto (self-hosted), usada no lugar do banco de imagens quando presente. */
+  override?: CoverOverride;
 }) {
-  const photo = (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
+  const photo = override ?? (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
 
   if (!photo) {
     return <FallbackCover seed={seed} className={className} label={label} />;
@@ -98,9 +103,11 @@ export async function CoverImage({
       className="h-full w-full object-cover"
     />
   );
+  const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
+  const creditHref = override ? override.creditUrl : (photo as { photographerUrl: string }).photographerUrl;
   const credit = showCredit ? (
     <a
-      href={photo.photographerUrl}
+      href={creditHref}
       target="_blank"
       rel="noopener noreferrer nofollow"
       className={
@@ -109,7 +116,7 @@ export async function CoverImage({
           : "absolute bottom-1.5 right-2 rounded bg-ink/60 px-1.5 py-0.5 font-mono text-[10px] text-white/75 backdrop-blur-sm transition hover:text-white"
       }
     >
-      Foto: {photo.photographer} / {photo.source}
+      {creditText}
     </a>
   ) : null;
 
@@ -131,6 +138,6 @@ export async function CoverImage({
 }
 
 /** Só a URL da foto (para JSON-LD e Open Graph), sem renderizar nada. */
-export async function getCoverPhoto(query: string, seed: number) {
-  return (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
+export async function getCoverPhoto(query: string, seed: number, override?: CoverOverride) {
+  return override ?? (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
 }
