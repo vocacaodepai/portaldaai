@@ -99,6 +99,11 @@ export type Article = {
   readTime: number;
   imageQuery: string;
   seed: number;
+  /**
+   * Foto real do produto (self-hosted em /public/images/products), usada no lugar do
+   * banco de imagens só para reviews de produto físico (categoria ai-indica).
+   */
+  coverImage?: { url: string; width: number; height: number; credit: string; creditUrl: string };
   content: string; // HTML
   /** Tipo do artigo. Padrão: "guia". */
   kind?: "guia" | "review";

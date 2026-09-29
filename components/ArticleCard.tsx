@@ -57,6 +57,7 @@ export function ArticleCard({
             priority={priority}
             sizes="(max-width: 1024px) 100vw, 66vw"
             showCredit={false}
+            override={article.coverImage}
             label={label}
           />
         </div>
@@ -95,6 +96,7 @@ export function ArticleCard({
             className="h-full w-full"
             sizes="96px"
             showCredit={false}
+            override={article.coverImage}
           />
         </Link>
         <div className="min-w-0">
@@ -121,6 +123,7 @@ export function ArticleCard({
             className="h-full w-full"
             sizes="(max-width: 1024px) 40vw, 160px"
             showCredit={false}
+            override={article.coverImage}
             label={label}
           />
         </Link>
@@ -154,6 +157,7 @@ export function ArticleCard({
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           showCredit={false}
           label={label}
+          override={article.coverImage}
         />
         <span className="label-mono absolute left-3 top-3 rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">
           {label}

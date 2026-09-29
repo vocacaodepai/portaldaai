@@ -91,7 +91,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const related = getRelatedArticles(article, 3);
   const next = getNextArticle(article);
-  const cover = await getCoverPhoto(article.imageQuery, article.seed);
+  const cover = await getCoverPhoto(article.imageQuery, article.seed, article.coverImage);
 
   const authorLd = isHouseAuthor
     ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url), image: absoluteUrl(author.image) }
@@ -256,6 +256,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
             showCredit
             creditPlacement="below"
             label={label}
+            override={article.coverImage}
           />
         </Container>
 

@@ -96,8 +96,8 @@ export default function PublicidadeEAfiliadosPage() {
           de uma avaliação.
         </li>
         <li>
-          As imagens usadas nos reviews de produto são fotos ilustrativas de banco de imagens, não
-          fotos oficiais do fabricante ou da Amazon.
+          As imagens usadas nos reviews de produto são fotos oficiais divulgadas pelo próprio
+          fabricante em seu site, nunca capturadas da página de venda da Amazon.
         </li>
       </ul>
 
