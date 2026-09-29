@@ -43,6 +43,33 @@ usada no projeto, sem custo e sem inventar nenhum pixel do produto):
   por cima. Sem blur: cor chapada igual à da foto original, sem inventar
   nada.
 
+## Rotina editorial diária: 10 artigos por dia
+
+O Portal da AI publica 10 artigos por dia, em duas rotinas automáticas
+separadas (dois triggers agendados):
+
+- **5 artigos gerais** (rotina "Portal da AI — 5 artigos por dia", 05:00
+  Brasília): um por categoria entre iniciantes, monetização, negócios,
+  ferramentas, carreira/futuro. Sem link de afiliado.
+- **5 artigos AI Indica** (rotina "Portal da AI — 5 AI Indica por dia",
+  06:00 Brasília): sempre `category: "ai-indica"`, sempre com produto real
+  vendido na Amazon Brasil e link de afiliado `tag=portaldaai-20`. Dividido
+  todo dia em:
+  - **3 comparativos** (`kind: "guia"`, tipo `melhor-fone-bluetooth-barato-comparativo-2026`):
+    2 ou 3 produtos reais da mesma categoria (celular, carregador,
+    fone, mouse etc.) comparados lado a lado, com tabela e nota por
+    critério, pra indicar qual compensa mais.
+  - **2 reviews de produto único** (`kind: "review"`, tipo
+    `soundcore-p20i-anker-vale-a-pena`): um produto só, com o campo
+    `review` completo (nota, critérios, prós, contras, preço, `url` de
+    afiliado).
+
+Todo artigo de AI Indica segue as regras de imagem da seção acima (foto
+real oficial do fabricante, nunca gerador de IA, `build-product-cover.mjs`
+para foto vertical de produto único, composição em cards pra comparativo) e
+nunca alega teste físico pessoal que não aconteceu: é análise a partir da
+ficha técnica oficial e das avaliações reais de compradores na Amazon.
+
 ## Deploy
 
 O deploy de produção do Portal da AI é feito sempre pela Vercel (projeto
