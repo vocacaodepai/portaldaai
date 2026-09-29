@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ContactForm } from "@/components/ContactForm";
 import { InstitutionalPage, institutionalMetadata } from "@/components/InstitutionalPage";
 import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
@@ -7,7 +8,7 @@ import { author } from "@/lib/author";
 const PATH = "/contato";
 const TITLE = "Contato";
 const DESCRIPTION =
-  "Fale com o editor do Portal da AI por e-mail: correções, sugestões de pauta, parcerias, imprensa e pedidos sobre dados pessoais (LGPD). Resposta em até 5 dias úteis.";
+  "Fale com o editor do Portal da AI: correções, sugestões de pauta, parcerias, imprensa e pedidos sobre dados pessoais (LGPD). Resposta em até 5 dias úteis.";
 
 const REASONS = [
   {
@@ -42,15 +43,11 @@ const REASONS = [
   },
 ] as const;
 
-function mailto(subject: string): string {
-  return `mailto:${author.email}?subject=${encodeURIComponent(`[${site.name}] ${subject}`)}`;
-}
-
 function ContactCard() {
   return (
     <section aria-labelledby="canal-de-contato" className="rounded-xl border border-border bg-surface p-5">
       <h2 id="canal-de-contato" className="label-mono text-muted">
-        Canal único
+        Ou por e-mail
       </h2>
       <a
         href={`mailto:${author.email}`}
@@ -92,13 +89,26 @@ export default function ContatoPage() {
     <InstitutionalPage
       label="Institucional"
       title={TITLE}
-      lead="O Portal da AI não tem formulário nem central de atendimento: tem um e-mail, lido pelo editor. Escreva e você recebe resposta em até 5 dias úteis."
+      lead="O Portal da AI não tem central de atendimento: tem um e-mail, lido pelo editor. Preencha o formulário ao lado e você recebe resposta em até 5 dias úteis."
       path={PATH}
       type="ContactPage"
-      aside={<ContactCard />}
+      aside={
+        <div className="space-y-6">
+          <section aria-labelledby="formulario-de-contato" className="rounded-xl border border-border bg-surface p-5">
+            <h2 id="formulario-de-contato" className="label-mono text-muted">
+              Fale com a gente
+            </h2>
+            <div className="mt-3">
+              <ContactForm />
+            </div>
+          </section>
+          <ContactCard />
+        </div>
+      }
     >
       <p>
-        O único canal de contato do site é o e-mail{" "}
+        O canal oficial de contato do site é o formulário ao lado, que chega direto na caixa de
+        entrada do editor, ou o e-mail{" "}
         <a href={`mailto:${author.email}`}>
           <strong>{author.email}</strong>
         </a>
@@ -107,17 +117,14 @@ export default function ContatoPage() {
       </p>
       <p>
         Respondo em até 5 dias úteis. Mensagens de correção e pedidos sobre dados pessoais têm
-        prioridade. Para agilizar, use um dos assuntos abaixo (o link já abre o e-mail preenchido).
+        prioridade.
       </p>
 
-      <h2 id="para-que-serve">Para que serve este e-mail</h2>
+      <h2 id="para-que-serve">Para que serve este canal</h2>
       {REASONS.map((r) => (
         <section key={r.id} aria-labelledby={r.id}>
           <h3 id={r.id}>{r.title}</h3>
           <p>{r.text}</p>
-          <p>
-            <a href={mailto(r.subject)}>Escrever com o assunto &quot;{r.subject}&quot;</a>
-          </p>
         </section>
       ))}
 
