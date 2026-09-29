@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como o Portal da AI se sustenta: anúncios do Google AdSense identificados como publicidade e, no futuro, links de afiliado sinalizados que não mudam nota nem opinião.";
+  "Como o Portal da AI se sustenta: anúncios do Google AdSense e links de afiliado da Amazon, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -34,7 +34,7 @@ export default function PublicidadeEAfiliadosPage() {
       <h2 id="como-o-site-se-sustenta">1. Como o site se sustenta</h2>
       <p>
         O {site.name} não cobra assinatura, não vende curso e não tem área paga. A receita vem de
-        duas fontes, uma em uso e outra planejada:
+        duas fontes:
       </p>
       <ul>
         <li>
@@ -42,10 +42,10 @@ export default function PublicidadeEAfiliadosPage() {
           escolhe o anúncio, não o editor. O site recebe uma fração pequena do que o anunciante paga.
         </li>
         <li>
-          <strong>Links de afiliado</strong> (ainda não ativos): em alguns reviews, o link para
-          assinar ou comprar uma ferramenta poderá gerar comissão para o site, sem custo adicional
-          para você. Quando o primeiro link de afiliado entrar no ar, esta página será atualizada
-          com os programas usados.
+          <strong>Amazon Associates</strong>: nos reviews de produto da seção{" "}
+          <Link href="/categoria/ai-indica">AI Indica</Link>, o link para comprar o produto na Amazon
+          é um link de afiliado e pode gerar comissão para o site, sem custo adicional para você.
+          Como Associado da Amazon, o {site.name} ganha com compras qualificadas.
         </li>
       </ul>
       <p>Não há conteúdo patrocinado, publieditorial nem &quot;matéria paga&quot;, e não haverá.</p>
@@ -68,11 +68,11 @@ export default function PublicidadeEAfiliadosPage() {
       <h2 id="afiliados-nao-mudam-a-nota">3. Afiliado não muda nota nem opinião</h2>
       <p>
         A ordem é sempre esta: primeiro o review, com nota e opinião fechadas pelos critérios da{" "}
-        <Link href="/politica-editorial">política editorial</Link>; só depois se verifica se a
-        ferramenta tem programa de afiliado. Uma ferramenta com comissão não ganha nota melhor, não
-        aparece mais vezes e não deixa de ter os contras listados. Uma ferramenta sem comissão não
-        deixa de ser recomendada por isso. Se a ferramenta mais indicada para um caso for a
-        gratuita, o texto diz que é a gratuita.
+        <Link href="/politica-editorial">política editorial</Link>; só depois se verifica se o
+        produto ou a ferramenta tem programa de afiliado. Um produto com comissão não ganha nota
+        melhor, não aparece mais vezes e não deixa de ter os contras listados. Um produto sem
+        comissão não deixa de ser recomendado por isso. Se o produto mais indicado para um caso for
+        outro, sem link de afiliado, o texto diz que é esse outro.
       </p>
 
       <h2 id="sinalizacao">4. Como um link de afiliado é sinalizado</h2>
@@ -87,12 +87,17 @@ export default function PublicidadeEAfiliadosPage() {
           <code>noopener</code> por segurança.
         </li>
         <li>
-          O preço informado é o preço público da ferramenta, sem inflar para justificar a comissão.
-          Quando há plano gratuito, ele é citado.
+          O preço informado é o preço público do produto no momento da escrita do review, sem
+          inflar para justificar a comissão. Preço muda com frequência na Amazon; o valor exato
+          sempre aparece atualizado na própria página do produto.
         </li>
         <li>
           Um link de afiliado nunca aparece em notícia, em artigo de conceito ou fora do contexto
           de uma avaliação.
+        </li>
+        <li>
+          As imagens usadas nos reviews de produto são fotos ilustrativas de banco de imagens, não
+          fotos oficiais do fabricante ou da Amazon.
         </li>
       </ul>
 
@@ -150,7 +155,7 @@ export default function PublicidadeEAfiliadosPage() {
       </p>
 
       <p>
-        Versão desta página: 27 de setembro de 2026. Veja também os{" "}
+        Versão desta página: 29 de setembro de 2026. Veja também os{" "}
         <Link href="/termos-de-uso">termos de uso</Link>.
       </p>
     </InstitutionalPage>

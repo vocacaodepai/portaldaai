@@ -49,6 +49,12 @@ export const categories = [
     description:
       "Tendências, profissões que vão mudar e o que fazer hoje para se preparar para o que vem aí.",
   },
+  {
+    slug: "ai-indica",
+    label: "AI Indica",
+    description:
+      "Produtos de eletrônicos testados e comparados com apoio de IA, com nota por critério e link direto para comprar.",
+  },
 ] as const;
 
 export type Category = (typeof categories)[number]["slug"];
@@ -67,12 +73,14 @@ export type ReviewData = {
   price: string;
   /** Para quem a ferramenta é ideal, em uma frase. */
   bestFor: string;
-  /** Site oficial da ferramenta (https). */
+  /** Site oficial da ferramenta, ou link de compra/afiliado para produtos físicos (https). */
   url: string;
   /** Quantos dias a ferramenta foi testada antes do review. */
   testedDays?: number;
   /** Se há links de afiliado no artigo (exibe o aviso). Padrão: false. */
   affiliate?: boolean;
+  /** Texto do botão principal. Padrão: "Conhecer {tool}". */
+  ctaLabel?: string;
 };
 
 export type Article = {

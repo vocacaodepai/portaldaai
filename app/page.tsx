@@ -52,6 +52,7 @@ const CATEGORY_TITLES: Record<Category, string> = {
   ferramentas: "Ferramentas que valem o tempo",
   carreira: "IA na sua carreira",
   futuro: "O trabalho que vem aí",
+  "ai-indica": "AI Indica: o que vale comprar",
 };
 
 /** Quantos artigos por bloco de categoria e por seção de reviews. */
@@ -93,11 +94,18 @@ export default function Home() {
   // Tudo o que já apareceu acima da dobra não se repete nos blocos de baixo.
   const shown = new Set<string>(heroSlugs);
   const reviews = getReviews()
+    .filter((a) => a.category !== "ai-indica")
     .filter((a) => !shown.has(a.slug))
     .slice(0, PER_SECTION);
   for (const r of reviews) shown.add(r.slug);
 
+  const aiIndicaPicks = getArticlesByCategory("ai-indica")
+    .filter((a) => !shown.has(a.slug))
+    .slice(0, PER_SECTION);
+  for (const p of aiIndicaPicks) shown.add(p.slug);
+
   const categoryBlocks = categories
+    .filter((c) => c.slug !== "ai-indica")
     .map((c) => ({
       category: c,
       items: getArticlesByCategory(c.slug)
@@ -188,6 +196,22 @@ export default function Home() {
               />
               <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 {reviews.map((a) => (
+                  <ArticleCard key={a.slug} article={a} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {aiIndicaPicks.length > 0 && (
+            <section aria-label="AI Indica">
+              <SectionHeading
+                label="AI Indica"
+                title="Produtos testados e comparados com IA"
+                href="/categoria/ai-indica"
+                linkText="Ver todas as indicações"
+              />
+              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+                {aiIndicaPicks.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
               </div>
