@@ -1,0 +1,40 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "jadepuffer-ransomware-ia-azure-microsoft",
+  title: "Microsoft flagra agente de IA sozinho invadindo e destruindo conta na Azure",
+  summary:
+    "Grupo JadePuffer usou um agente de IA para invadir, mapear e apagar recursos na nuvem Azure em 7 minutos, sem operador humano guiando cada passo do ataque.",
+  author: "Bruno Danello",
+  sourceName: "Microsoft Security Blog",
+  sourceUrl:
+    "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+  date: "2026-09-30",
+  content: `
+    <p>A equipe de pesquisa em segurança da Microsoft publicou nesta semana um relatório técnico detalhando como o grupo de ransomware JadePuffer, batizado internamente de Storm-3168, usou um agente de inteligência artificial para invadir, mapear e destruir recursos dentro de uma conta corporativa na nuvem Microsoft Azure. Segundo o <a href="https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/" rel="noopener noreferrer nofollow">relatório oficial da Microsoft</a>, o ataque usou duas identidades de serviço comprometidas: uma passou mais de 15 horas mapeando máquinas virtuais, assinaturas e grupos de recursos, enquanto a outra, minutos depois de terminar essa varredura, iniciou uma sequência destrutiva de apenas 7 minutos que apagou mais de 100 contas de armazenamento, um cofre de chaves, um Function App e tentou (sem sucesso, por uma limitação técnica) apagar bancos de dados SQL inteiros.</p>
+    <p>O JadePuffer havia sido descoberto originalmente em julho de 2026 pela empresa de segurança Sysdig, que o descreveu como a primeira operação de ransomware documentada conduzida inteiramente por um agente de linguagem, sem um humano digitando cada comando durante a invasão. O novo relatório da Microsoft é a primeira análise detalhada de como esse mesmo grupo age especificamente dentro do Azure, e mostra um padrão de automação coordenada: os dois "service principals" comprometidos usaram a mesma infraestrutura de rede e o mesmo identificador de programa (user agent), sugerindo que um único sistema orquestrava as duas frentes do ataque ao mesmo tempo.</p>
+
+    <h2>Como o agente entrou e por que ninguém percebeu a tempo</h2>
+    <p>A Microsoft não conseguiu confirmar com certeza como a credencial inicial foi obtida, mas encontrou uma pista forte: o identificador de cliente, o segredo de cliente e o identificador de locatário (tenant ID) da conta comprometida haviam sido publicados, em texto puro, num issue público do GitHub por um funcionário da organização vítima. O segredo foi removido depois, editando o texto do issue, mas continuou acessível pelo histórico de edições públicas da página, algo que muita gente esquece de checar. A Microsoft também identificou, desde o início do ano, sondagens repetidas da mesma infraestrutura do Storm-3168 contra caminhos sensíveis de outras aplicações Azure, incluindo rotas ligadas a WordPress, PHP-CGI e ao endpoint de validação de código da ferramenta LangFlow, embora não tenha encontrado ligação direta entre essas sondagens e o ataque específico analisado no relatório.</p>
+    <p>Depois de mapear o ambiente por horas, o agente levou menos de um minuto entre a última operação de reconhecimento e o início da destruição propriamente dita. Nesse intervalo curtíssimo, ele emitiu cinco tokens de acesso diferentes, alguns ativos simultaneamente, dividindo tarefas de apagar contas de armazenamento e bancos de dados ao mesmo tempo. É esse tipo de coordenação, decidir o próximo passo, adaptar a estratégia quando uma tentativa falha e distribuir tarefas entre múltiplas identidades sem intervenção manual visível, que os pesquisadores da Microsoft chamam de comportamento "agêntico": mais parecido com um operador humano reagindo a obstáculos do que com um script fixo repetindo os mesmos comandos.</p>
+
+    <h2>Por que isso importa para você</h2>
+    <p>Se a sua empresa guarda dados, planilhas, automações ou modelos treinados na nuvem, seja Azure, AWS ou Google Cloud, esse caso é um aviso concreto de que o mesmo tipo de agente que ajuda você a programar mais rápido com o <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> também pode ser usado, nas mãos erradas, para automatizar um ataque inteiro do início ao fim. A diferença prática para quem usa IA no trabalho ou administra a infraestrutura de um negócio pequeno é que a velocidade do ataque muda de patamar: sete minutos entre reconhecimento e destruição total de dezenas de recursos é um intervalo em que praticamente nenhuma equipe humana teria tempo de reagir olhando alertas manualmente.</p>
+    <p>Isso reforça uma lição que vale para qualquer negócio que usa serviços em nuvem, mesmo sem ser alvo direto de grupos sofisticados: nunca deixar credenciais, chaves de API ou segredos de acesso em repositórios públicos do GitHub, nem mesmo temporariamente. O relatório da Microsoft é enfático nesse ponto: apagar ou editar um segredo exposto publicamente não invalida a credencial, porque ela pode continuar acessível pelo histórico de edições, por caches, por cópias arquivadas ou por logs de terceiros. A credencial exposta precisa ser revogada e trocada de verdade, não só escondida da vista.</p>
+
+    <h2>O que fazer na prática para reduzir o risco</h2>
+    <p>A Microsoft recomenda um conjunto de medidas que qualquer negócio que usa nuvem, não só grandes corporações, consegue aplicar. A primeira é nunca guardar segredos de aplicação (chaves de armazenamento, strings de conexão, credenciais de serviço) em código-fonte, arquivos de configuração ou repositórios públicos, mesmo que temporariamente. A segunda é aplicar o princípio do menor privilégio: cada identidade de serviço deve ter acesso só ao que precisa para funcionar, não a toda a conta na nuvem. A terceira é proteger especificamente a infraestrutura de backup e recuperação, já que o JadePuffer mirou também travas de proteção de recuperação, numa tentativa aparente de impedir que a vítima restaurasse os dados depois do ataque.</p>
+    <p>Para quem opera negócio pequeno ou é freelancer usando ferramentas de IA no dia a dia, o caso também serve de lembrete prático sobre como avaliar qualquer ferramenta antes de conectar suas contas e seus dados a ela. Nosso <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist de como escolher ferramenta de IA com segurança</a> cobre justamente esse tipo de cuidado, e o guia sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber ao usar IA</a> ajuda a entender que tipo de acesso cada permissão concedida realmente libera. Episódios como o do JadePuffer também tendem a acelerar a corrida por ferramentas de defesa igualmente automatizadas: a própria Microsoft cita o Project Perception, um sistema que usa agentes de IA para investigar e responder a incidentes na mesma velocidade em que ataques agênticos como esse acontecem, sinal de que a defesa também vai precisar de IA para acompanhar o ritmo do ataque.</p>
+
+    <div class="callout-box callout-warning">
+      <span class="callout-label">Checklist rápido contra ataques como o do JadePuffer</span>
+      <ul>
+        <li>Nunca deixar chaves de API, senhas ou strings de conexão em repositórios públicos, mesmo em rascunhos ou issues.</li>
+        <li>Tratar qualquer segredo já exposto publicamente como comprometido, e trocá-lo, mesmo que a publicação tenha sido apagada depois.</li>
+        <li>Dar a cada aplicação e integração só o nível de acesso que ela realmente precisa, nunca acesso total à conta.</li>
+        <li>Proteger e testar regularmente backups, para garantir que continuam restauráveis mesmo se a conta principal for comprometida.</li>
+        <li>Ativar alertas de segurança do próprio provedor de nuvem (Defender, GuardDuty ou equivalente) em vez de depender só de revisão manual.</li>
+      </ul>
+    </div>
+  `,
+};
