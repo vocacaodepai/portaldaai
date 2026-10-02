@@ -1,0 +1,32 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "perplexity-decisions-api-probabilidades-sim-nao",
+  title: "Perplexity lança Decisions API, que responde com probabilidade, não texto",
+  summary:
+    "A nova API da Perplexity devolve a chance de sim, a opção mais provável entre várias ou uma nota numa escala, pensada para triagem e automação de decisões em massa.",
+  author: "Bruno Danello",
+  sourceName: "Perplexity AI",
+  sourceUrl: "https://docs.perplexity.ai/docs/decisions/quickstart",
+  date: "2026-10-01",
+  content: `
+    <p>A Perplexity lançou nesta quinta-feira (1º) a Decisions API, um produto diferente dos chatbots de IA generativa que a empresa já oferece: em vez de devolver um texto corrido, a API responde perguntas com um número. Para uma pergunta do tipo sim ou não, o retorno é a probabilidade de "sim", numa escala de 0 a 1. Para perguntas de múltipla escolha, o retorno é a opção mais provável entre as alternativas dadas. E para perguntas com uma rubrica definida pelo usuário, o retorno é uma nota dentro daquela escala. Segundo a documentação oficial da empresa, a ideia é dar a times de produto e de dados uma forma de tomar decisões repetitivas em massa sem depender de um modelo gerar e o sistema interpretar um texto livre toda vez.</p>
+    <p>A API é alimentada por um modelo próprio batizado de pplx-decider-v1-27b, com 27 bilhões de parâmetros, multimodal (aceita texto e imagem) e com janela de contexto de 250 mil tokens. O modelo foi ajustado a partir do Qwen3.8-27B e treinado especificamente para devolver uma distribuição de probabilidade sobre um conjunto fixo de respostas possíveis, em vez de gerar texto livre como um chatbot tradicional. A Perplexity abriu o modelo (open source) no Hugging Face, e cobra pelo uso hospedado da API US$ 0,04 por milhão de tokens de entrada, sem custo pela saída e sem taxa por requisição.</p>
+
+    <h2>Como a Decisions API se compara a outros "modelos de decisão"</h2>
+    <p>O lançamento da Perplexity entra numa onda recente de modelos especializados em decisão, não em conversa. No mesmo dia, a Cloudflare lançou um produto chamado Clef com proposta parecida, e já existia no mercado o Jev, outro modelo voltado a classificar e pontuar conteúdo em vez de escrevê-lo. Em testes internos divulgados pela própria Perplexity, cobrindo 11 avaliações e mais de 7.200 amostras, o pplx-decider-v1-27b acertou 85,71% das respostas, ligeiramente acima dos 84,51% do Jev no mesmo conjunto de testes.</p>
+    <p>A diferença técnica em relação a usar um modelo de linguagem genérico, como o ChatGPT ou o próprio assistente da Perplexity, para a mesma tarefa está na forma como a resposta é estruturada. Pedir a um chatbot comum para "classificar este texto como spam ou não spam" costuma funcionar, mas exige que o sistema que recebe a resposta interprete um texto livre, trate variações de formato e lide com respostas ambíguas ou verborrágicas. Um modelo de decisão, como o da Perplexity, devolve direto um número dentro de um conjunto previsível de saídas, o que facilita integrar a resposta a um sistema automatizado que decide o próximo passo sem intervenção humana.</p>
+
+    <h2>Por que isso importa para você</h2>
+    <p>Para quem usa IA para automatizar parte de um negócio no Brasil, a Decisions API endereça um problema prático comum: triagem em massa. A própria documentação da Perplexity traz como exemplo o uso da API para triagem de tickets de suporte, decidindo automaticamente se um chamado é urgente, se precisa escalar para um humano ou qual categoria se aplica, sem precisar escrever um prompt longo nem tratar a resposta como texto solto. O mesmo raciocínio vale para quem recebe um grande volume de leads, mensagens no WhatsApp ou avaliações de clientes e precisa decidir rápido o que priorizar, como já discutimos em <a href="/artigos/como-automatizar-atendimento-no-whatsapp-com-ia">como automatizar atendimento no WhatsApp com IA</a>.</p>
+    <p>O preço também chama atenção para quem opera em escala: US$ 0,04 por milhão de tokens de entrada é uma fração do custo de rodar um modelo de linguagem completo para a mesma tarefa, porque o modelo de decisão não precisa gerar texto de saída, apenas calcular uma probabilidade. Isso torna viável aplicar IA a decisões de alto volume e baixo valor individual, como classificar milhares de avaliações de produto por dia, algo que seria caro demais usando um modelo generativo convencional cobrado por token de saída.</p>
+    <div class="callout-box callout-tip">
+      <span class="callout-label">Para quem vende automação com IA</span>
+      <p>Se você monta fluxos de automação para pequenas empresas, como já tratamos em <a href="/artigos/make-ou-zapier-qual-automacao-com-ia-vale-mais-a-pena">Make ou Zapier</a> e em <a href="/artigos/notion-zapier-e-ia-automatize-seu-negocio-sem-programar">Notion, Zapier e IA</a>, vale testar modelos de decisão como esse para etapas de classificação dentro do fluxo, deixando o modelo generativo só para as partes que realmente exigem gerar um texto novo, como responder um e-mail. Isso reduz custo e torna o comportamento do fluxo mais previsível.</p>
+    </div>
+
+    <h2>O que acompanhar na prática</h2>
+    <p>Vale observar se outras gigantes de IA, além da Perplexity e da Cloudflare, vão lançar produtos equivalentes nos próximos meses: a tendência de separar "modelos que decidem" de "modelos que conversam" sugere uma divisão de trabalho parecida com a que já existe entre bancos de dados relacionais e mecanismos de busca, cada ferramenta otimizada para um tipo de tarefa. Para empresas brasileiras que já usam a <a href="/noticias/perplexity-computer-automations-slack-gmail">Perplexity em automações via Computer</a>, a Decisions API pode se tornar peça complementar dentro do mesmo ecossistema, usada para as decisões de triagem que alimentam automações mais complexas.</p>
+    <p>Outro ponto de atenção é a precisão real em português e em contextos brasileiros: os números de acerto divulgados pela Perplexity vêm de testes majoritariamente em inglês, e modelos de decisão especializados tendem a perder precisão quando aplicados a nuances culturais ou linguísticas específicas do Brasil, como gírias, regionalismos ou jargão de um setor local. Antes de confiar a API a uma decisão que afeta diretamente o cliente, como aprovar ou negar automaticamente um reembolso, o recomendável é rodar um período de teste comparando a resposta do modelo com a decisão que um humano tomaria no mesmo caso.</p>
+  `,
+};
