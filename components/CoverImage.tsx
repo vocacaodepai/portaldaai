@@ -1,7 +1,31 @@
 import { getPexelsImage } from "@/lib/pexels";
 import { getPixabayImage } from "@/lib/pixabay";
+import { getWikimediaImage } from "@/lib/wikimedia";
+import { getGoogleCseWikimediaImage } from "@/lib/google-cse";
 
 export type CoverOverride = { url: string; width: number; height: number; credit: string; creditUrl: string };
+
+/**
+ * Cascata de imagem de capa: foto real licenciada antes de banco de imagem
+ * genérico. Pessoas, empresas e produtos reais citados no texto (ex.: Elon
+ * Musk, logo de uma empresa) merecem foto real, nunca uma ilustração
+ * genérica de banco de imagem — por isso o Wikimedia Commons (fotos sob
+ * Creative Commons/domínio público, com crédito) vem antes do Pexels/
+ * Pixabay. A Google Custom Search entra só como localizador dentro do
+ * próprio Wikimedia Commons quando a busca direta não acha nada com essa
+ * frase; nunca baixa imagem de outro domínio ou de resultado de busca
+ * genérico. Pexels/Pixabay seguem como último recurso, para temas
+ * abstratos sem pessoa/empresa real identificável.
+ */
+async function resolveCoverPhoto(query: string, seed: number, override?: CoverOverride) {
+  return (
+    override ??
+    (await getWikimediaImage(query, seed)) ??
+    (await getGoogleCseWikimediaImage(query, seed)) ??
+    (await getPexelsImage(query, seed)) ??
+    (await getPixabayImage(query, seed))
+  );
+}
 
 // Fallback quando não há foto: gradiente escuro com um brilho da marca,
 // coerente com o tema (funciona no claro e no escuro).
@@ -53,9 +77,10 @@ function FallbackCover({
 }
 
 /**
- * Capa do artigo: Pexels → Pixabay → gradiente. Sempre com width/height
- * (evita CLS) e crédito visível da foto (licença). `priority` marca a imagem
- * principal da página (LCP).
+ * Capa do artigo: Wikimedia Commons → Google CSE (restrito ao Wikimedia) →
+ * Pexels → Pixabay → gradiente. Sempre com width/height (evita CLS) e
+ * crédito visível da foto (licença). `priority` marca a imagem principal da
+ * página (LCP).
  */
 export async function CoverImage({
   query,
@@ -83,7 +108,7 @@ export async function CoverImage({
   /** Foto real do produto (self-hosted), usada no lugar do banco de imagens quando presente. */
   override?: CoverOverride;
 }) {
-  const photo = override ?? (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
+  const photo = await resolveCoverPhoto(query, seed, override);
 
   if (!photo) {
     return <FallbackCover seed={seed} className={className} label={label} />;
@@ -139,5 +164,5 @@ export async function CoverImage({
 
 /** Só a URL da foto (para JSON-LD e Open Graph), sem renderizar nada. */
 export async function getCoverPhoto(query: string, seed: number, override?: CoverOverride) {
-  return override ?? (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
+  return resolveCoverPhoto(query, seed, override);
 }

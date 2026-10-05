@@ -13,6 +13,36 @@ Ao criar um artigo novo, decidir a categoria por essa regra: se tem link de
 compra com afiliado, é AI Indica; se é sobre a ferramenta de IA e sua
 evolução, é Ferramentas.
 
+## Imagens de pessoas e empresas reais (artigos e notícias, qualquer categoria)
+
+Quando o texto fala de uma pessoa real (ex.: Elon Musk, Sam Altman) ou de uma
+empresa específica, a capa deve ser uma foto real dessa pessoa/empresa, não
+uma ilustração genérica de banco de imagem. Isso já é automático: o
+`imageQuery` do artigo/notícia (mesmo campo de sempre, texto livre descrevendo
+a foto desejada) passa primeiro pela cascata abaixo antes de cair em
+Pexels/Pixabay — não precisa de nenhum campo novo, só escrever o `imageQuery`
+descrevendo a pessoa/empresa (ex.: `"Elon Musk portrait"`, `"OpenAI logo"`).
+
+- **Wikimedia Commons** (`lib/wikimedia.ts`) é a primeira fonte: só fotos sob
+  Creative Commons ou domínio público, com crédito e licença sempre visíveis
+  no site. Não precisa de chave de API.
+- **Google Custom Search** (`lib/google-cse.ts`, variáveis
+  `GOOGLE_CUSTOM_SEARCH_API_KEY` e `GOOGLE_CUSTOM_SEARCH_ENGINE_ID`) entra só
+  como localizador dentro do próprio Wikimedia Commons
+  (`site:commons.wikimedia.org`), quando a busca direta na API do Commons não
+  acha nada com aquela frase. Nunca usar para baixar imagem de outro domínio
+  ou de resultado de busca genérico: o fato de uma foto aparecer em vários
+  sites não significa que ela tem licença para reuso (fotos de agência/
+  imprensa de uma pessoa pública costumam ser protegidas por direito de autor
+  mesmo quando circulam bastante), e isso vale tanto para risco de direitos de
+  autor quanto para direito de imagem da pessoa retratada.
+- **Pexels/Pixabay** seguem como último recurso, só para temas abstratos sem
+  pessoa/empresa real identificável (ex.: "inteligência artificial
+  conceitual").
+- Para **produto físico** (categoria AI Indica), a regra já existente abaixo
+  continua valendo e tem prioridade sobre toda essa cascata: foto oficial do
+  fabricante, baixada manualmente, nunca Wikimedia/banco de imagem.
+
 ## Imagens de produto (categoria AI Indica)
 
 Nunca usar gerador de imagem por IA (ElevenLabs ou qualquer outro) para criar

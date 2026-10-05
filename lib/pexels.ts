@@ -5,7 +5,7 @@ export type StockPhoto = {
   alt: string;
   photographer: string;
   photographerUrl: string;
-  source: "Pexels" | "Pixabay";
+  source: "Pexels" | "Pixabay" | "Wikimedia Commons";
 };
 
 const PEXELS_API = "https://api.pexels.com/v1/search";
