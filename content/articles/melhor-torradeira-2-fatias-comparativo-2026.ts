@@ -33,7 +33,7 @@ export const article: Article = {
       <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços mudam com frequência: confira sempre o valor atual na página de cada produto antes de comprar.</p>
     </div>
 
-    <p>Torradeira parece eletroportátil simples até você notar que existe diferença real entre modelos de marca conhecida. Comparamos duas torradeiras de 2 fatias vendidas de verdade na <a href="https://www.amazon.com.br/dp/B076HY5BH7" rel="noopener noreferrer nofollow">Amazon Brasil</a>: a Philco French Toast Inox e a Mondial T-18 Pratic, ambas com mais de 700 avaliações reais e nota acima de 4,5 de 5 estrelas.</p>
+    <p>Torradeira parece eletroportátil simples até você notar que existe diferença real entre modelos de marca conhecida. Comparamos duas torradeiras de 2 fatias vendidas de verdade na <a href="https://www.amazon.com.br/dp/B076HY5BH7?tag=portaldaai-20" rel="sponsored noopener noreferrer">Amazon Brasil</a>: a Philco French Toast Inox e a Mondial T-18 Pratic, ambas com mais de 700 avaliações reais e nota acima de 4,5 de 5 estrelas.</p>
 
     <h2>As 2 torradeiras que comparamos</h2>
     <p>As duas são torradeiras de bancada para 2 fatias, com acabamento em aço inox e bandeja removível para recolher as migalhas. A diferença começa na potência e nos níveis de tostagem disponíveis no seletor.</p>
