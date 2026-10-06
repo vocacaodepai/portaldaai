@@ -31,12 +31,14 @@ export function ArticleCard({
   priority = false,
   headingLevel = "h3",
   showExcerpt = true,
+  className = "",
 }: {
   article: Article;
   variant?: Variant;
   priority?: boolean;
   headingLevel?: "h2" | "h3";
   showExcerpt?: boolean;
+  className?: string;
 }) {
   const Heading = headingLevel;
   const href = `/artigos/${article.slug}`;
@@ -47,9 +49,11 @@ export function ArticleCard({
 
   if (variant === "featured") {
     return (
-      <article className="group relative isolate overflow-hidden rounded-xl border border-border bg-ink text-white card-hover">
+      <article
+        className={`group relative isolate flex flex-col overflow-hidden rounded-xl border border-border bg-ink text-white card-hover ${className}`}
+      >
         <Link href={href} className="absolute inset-0 z-10" aria-label={article.title} />
-        <div className="aspect-[16/10] sm:aspect-[16/9] lg:aspect-[16/10]">
+        <div className="aspect-[16/10] flex-1 sm:aspect-[16/9] lg:aspect-auto lg:min-h-[22rem]">
           <CoverImage
             query={article.imageQuery}
             seed={article.seed}
