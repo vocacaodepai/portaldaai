@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Fotos de produto com IA: como trocar fundo, melhorar iluminação e deixar a imagem profissional para vender em marketplace ou rede social, sem estúdio fotográfico.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "product photography smartphone white background",

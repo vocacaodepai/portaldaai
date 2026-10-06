@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Vender ebooks criados com IA sem parecer texto de máquina: tema, prompts, capa, regras da Amazon KDP sobre uso de IA, taxas por venda e exemplo em reais.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-09-13",
   updated: "2026-09-27",
   readTime: 9,

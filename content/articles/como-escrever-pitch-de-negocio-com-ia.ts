@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Pitch de negócio com IA: aprenda a estruturar problema, solução, mercado, modelo e tração, simular perguntas de investidor e treinar a versão de 30 segundos.",
   category: "negocios",
+  articleSubcategory: "vendas-e-marketing",
   date: "2026-09-14",
   updated: "2026-09-27",
   readTime: 9,

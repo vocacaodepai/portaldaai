@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Assistente virtual com IA: quanto cobrar por cliente, quais ferramentas usar para entregar mais rápido e como conseguir os primeiros contratos no Brasil.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "remote worker laptop calendar desk",

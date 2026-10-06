@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { CoverImage } from "@/components/CoverImage";
-import type { NewsItem } from "@/lib/news";
+import { site } from "@/lib/articles";
+import { newsPopularity, type NewsItem } from "@/lib/news";
+import { formatTime } from "@/lib/seo";
 
 function shortDate(iso: string) {
   return new Date(`${iso}T12:00:00-03:00`).toLocaleDateString("pt-BR", {
@@ -26,9 +28,14 @@ export async function NewsRow({
   headingLevel?: "h2" | "h3";
 }) {
   const Heading = headingLevel;
+  const time = formatTime(item.publishedAt);
+  const dateLabel = time ? `${shortDate(item.date)} · ${time}` : shortDate(item.date);
   return (
     <article
+      data-news-row
       data-topic={item.topic ?? "geral"}
+      data-date={item.publishedAt ?? item.date}
+      data-popularity={newsPopularity(item.slug)}
       className="group flex gap-4 border-b border-border py-3.5 last:border-b-0"
     >
       {item.imageQuery && (
@@ -44,16 +51,19 @@ export async function NewsRow({
       )}
       {showDate && !item.imageQuery && (
         <time
-          dateTime={item.date}
-          className="w-14 shrink-0 pt-0.5 font-mono text-[11px] uppercase tracking-wider text-muted"
+          dateTime={item.publishedAt ?? item.date}
+          className="w-20 shrink-0 pt-0.5 font-mono text-[11px] uppercase tracking-wider text-muted"
         >
-          {shortDate(item.date)}
+          {dateLabel}
         </time>
       )}
       <div className="min-w-0">
         {showDate && item.imageQuery && (
-          <time dateTime={item.date} className="font-mono text-[11px] uppercase tracking-wider text-muted">
-            {shortDate(item.date)}
+          <time
+            dateTime={item.publishedAt ?? item.date}
+            className="font-mono text-[11px] uppercase tracking-wider text-muted"
+          >
+            {dateLabel}
           </time>
         )}
         <Heading className="font-display text-[15px] font-semibold leading-snug">
@@ -61,7 +71,7 @@ export async function NewsRow({
             {item.title}
           </Link>
         </Heading>
-        <p className="mt-1 font-mono text-[11px] text-muted">via {item.sourceName}</p>
+        <p className="mt-1 font-mono text-[11px] text-muted">via {site.name}</p>
       </div>
     </article>
   );
@@ -77,7 +87,7 @@ export function NewsList({
   headingLevel?: "h2" | "h3";
 }) {
   return (
-    <div className={columns === 2 ? "grid gap-x-10 md:grid-cols-2" : ""}>
+    <div data-news-rows className={columns === 2 ? "grid gap-x-10 md:grid-cols-2" : ""}>
       {items.map((n) => (
         <NewsRow key={n.slug} item={n} headingLevel={headingLevel} />
       ))}

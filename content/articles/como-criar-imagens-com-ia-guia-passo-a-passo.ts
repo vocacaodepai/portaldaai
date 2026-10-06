@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como criar imagens com IA do zero: ferramentas gratuitas e pagas, prompt em português, exemplo prático e os erros mais comuns de quem está começando.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-09-29",
   readTime: 8,
   imageQuery: "digital art tablet colorful illustration",

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como humanos e agentes de IA vão trabalhar juntos: o que é um agente, o que dizem Stanford e Microsoft, exemplo brasileiro com números e o que estudar agora.",
   category: "futuro",
+  articleSubcategory: "agentes-de-ia",
   date: "2026-09-25",
   updated: "2026-09-27",
   readTime: 8,

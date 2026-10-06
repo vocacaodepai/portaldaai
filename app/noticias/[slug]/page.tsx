@@ -18,7 +18,7 @@ import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml } from "@/lib/html";
 import { getNewsBySlug, getRelatedNews, news } from "@/lib/news";
-import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, formatDate, formatTime, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -75,6 +75,7 @@ export default async function NewsPage({ params }: { params: Params }) {
   const path = `/noticias/${item.slug}`;
   const url = absoluteUrl(path);
   const isHouseAuthor = item.author === author.name;
+  const timeLabel = formatTime(item.publishedAt);
   // Notícia não tem anúncio no meio do texto: o corpo vem inteiro (adBreaks vazio).
   const prepared = item.content ? prepareArticleHtml(item.content, { adBreaks: [] }) : null;
   const body = prepared?.parts.join("") ?? "";
@@ -163,20 +164,15 @@ export default async function NewsPage({ params }: { params: Params }) {
                 <span aria-hidden="true" className="hidden sm:inline">
                   ·
                 </span>
-                <time dateTime={item.date}>{formatDate(item.date)}</time>
+                <time dateTime={item.publishedAt ?? item.date}>
+                  {formatDate(item.date)}
+                  {timeLabel && ` · ${timeLabel}`}
+                </time>
                 <span aria-hidden="true" className="hidden sm:inline">
                   ·
                 </span>
                 <span>
-                  via{" "}
-                  <a
-                    href={item.sourceUrl}
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    className="font-medium text-foreground transition hover:text-accent"
-                  >
-                    {item.sourceName} <span aria-hidden="true">↗</span>
-                  </a>
+                  via <span className="font-medium text-foreground">{site.name}</span>
                 </span>
               </div>
             </header>

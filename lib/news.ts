@@ -5,6 +5,7 @@
  * content/news/index.ts (gerado por scripts/build-content-index.mjs).
  * Notícias nunca são apagadas: URL indexada é URL que continua no ar.
  */
+import { articles } from "@/content/articles";
 import { news as allNews } from "@/content/news";
 import type { NewsItem } from "@/lib/types";
 
@@ -22,6 +23,38 @@ export function getNewsBySlug(slug: string): NewsItem | undefined {
 
 export function sortedNews(): NewsItem[] {
   return [...news].sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
+}
+
+let popularityCache: Map<string, number> | null = null;
+
+/**
+ * "Mais lidas" sem analytics: nº de links internos recebidos de artigos e de
+ * outras notícias. Mesmo proxy de relevância usado em getPopularArticles
+ * (lib/articles.ts), aplicado a notícia.
+ */
+function newsPopularityCounts(): Map<string, number> {
+  if (!popularityCache) {
+    const counts = new Map<string, number>();
+    const re = /href="\/noticias\/([a-z0-9-]+)"/g;
+    const sources: { slug: string; content?: string }[] = [...articles, ...news];
+    for (const a of sources) {
+      if (!a.content) continue;
+      let m: RegExpExecArray | null;
+      const seen = new Set<string>();
+      while ((m = re.exec(a.content))) {
+        if (m[1] !== a.slug && !seen.has(m[1])) {
+          seen.add(m[1]);
+          counts.set(m[1], (counts.get(m[1]) ?? 0) + 1);
+        }
+      }
+    }
+    popularityCache = counts;
+  }
+  return popularityCache;
+}
+
+export function newsPopularity(slug: string): number {
+  return newsPopularityCounts().get(slug) ?? 0;
 }
 
 /** Agrupa por dia, mantendo a ordem (mais recente primeiro). */

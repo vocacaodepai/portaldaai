@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro com dropshipping usando IA: escolha de produto, criação de anúncio, automação de atendimento e os custos reais antes de começar a vender.",
   category: "monetizacao",
+  articleSubcategory: "negocios-online",
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "online store packages laptop warehouse",

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia prático de como usar IA para negociar com fornecedores em pequenos negócios: comparar propostas, montar argumentos e redigir o e-mail, com exemplo em reais.",
   category: "negocios",
+  articleSubcategory: "gestao-e-operacao",
   date: "2026-09-28",
   readTime: 9,
   imageQuery: "supplier negotiation meeting small business",

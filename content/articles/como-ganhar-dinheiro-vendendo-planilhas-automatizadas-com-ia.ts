@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro vendendo planilhas automatizadas com IA: ferramentas para montar, onde vender (Hotmart, Gumroad), taxas de cada plataforma e exemplo com números.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "spreadsheet laptop desk calculator",

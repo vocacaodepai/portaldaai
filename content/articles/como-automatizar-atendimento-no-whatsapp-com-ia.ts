@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Automatizar atendimento no WhatsApp com IA: preços verificados, passo a passo para pequenos negócios e os erros que espantam cliente em vez de reter.",
   category: "negocios",
+  articleSubcategory: "atendimento",
   date: "2026-09-29",
   readTime: 9,
   imageQuery: "small business owner smartphone customer chat",

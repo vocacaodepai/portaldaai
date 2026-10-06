@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como vender consultoria de IA para pequenas empresas: diagnóstico de 1 hora, proposta específica, implementação enxuta, faixas de preço e onde achar clientes.",
   category: "negocios",
+  articleSubcategory: "lancamento-e-estrategia",
   date: "2026-09-12",
   updated: "2026-09-27",
   readTime: 9,

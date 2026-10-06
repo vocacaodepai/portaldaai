@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA multimodal explicada sem jargão: o que a máquina já faz com foto, voz e vídeo, exemplos de uso no dia a dia e no negócio, limites e quando não usar.",
   category: "futuro",
+  articleSubcategory: "tecnologia-emergente",
   date: "2026-09-15",
   updated: "2026-09-27",
   readTime: 9,

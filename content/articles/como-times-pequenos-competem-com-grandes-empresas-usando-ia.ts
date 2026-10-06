@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Times pequenos com IA: veja onde dá para competir com grandes empresas (conteúdo, atendimento, análise), onde não dá e como aplicar em 4 passos medidos.",
   category: "futuro",
+  articleSubcategory: "trabalho-e-profissoes",
   date: "2026-09-22",
   updated: "2026-09-27",
   readTime: 8,

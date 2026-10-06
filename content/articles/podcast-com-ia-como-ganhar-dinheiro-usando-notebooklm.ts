@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Podcast com IA no NotebookLM (Gemini Notebook): como gerar o áudio, publicar no Spotify, monetizar com nicho e os limites de quem faz isso sozinho.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-29",
   readTime: 8,
   imageQuery: "podcast microphone home studio setup",

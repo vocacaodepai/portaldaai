@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro criando vídeos curtos com IA: ferramentas com preço verificado (CapCut, HeyGen, ElevenLabs), prompts de roteiro, pacotes e exemplo.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-26",
   updated: "2026-09-27",
   readTime: 8,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Planejar refeições com IA em 15 minutos: cardápio semanal dentro do orçamento, lista de compras por corredor e prompts para usar o que já tem em casa.",
   category: "iniciantes",
+  articleSubcategory: "vida-pratica",
   date: "2026-09-25",
   updated: "2026-09-27",
   readTime: 8,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "3 passos para usar IA e trabalhar menos horas sem perder renda: diário de tempo, tarefas que mais devolvem horas, cobrança por entrega e negociação no CLT.",
   category: "carreira",
+  articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-09-20",
   updated: "2026-09-27",
   readTime: 9,

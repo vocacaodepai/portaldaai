@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Precificar serviços usando IA: entenda por que a hora pune quem ficou rápido, migre para preço por entrega com um exemplo em reais e use prompts prontos.",
   category: "carreira",
+  articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-09-12",
   updated: "2026-09-27",
   readTime: 8,

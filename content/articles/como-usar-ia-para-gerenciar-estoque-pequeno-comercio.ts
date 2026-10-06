@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Use IA para gerenciar estoque no pequeno comércio: planilha organizada, previsão de reposição, curva ABC e alerta de produto parado, com prompts prontos.",
   category: "negocios",
+  articleSubcategory: "gestao-e-operacao",
   date: "2026-09-16",
   updated: "2026-09-27",
   readTime: 9,

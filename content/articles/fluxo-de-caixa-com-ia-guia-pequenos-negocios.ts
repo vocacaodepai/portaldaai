@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Fluxo de caixa com IA: como prever entradas e saídas, ferramentas gratuitas, passo a passo prático e um exemplo de pequeno negócio com números reais.",
   category: "negocios",
+  articleSubcategory: "financas-e-precificacao",
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "small business finance calculator desk",

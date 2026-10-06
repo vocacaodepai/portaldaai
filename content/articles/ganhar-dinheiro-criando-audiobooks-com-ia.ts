@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Ganhar dinheiro criando audiobooks com IA: como narrar livros e e-books com ferramentas de voz sintética, quanto cobrar e onde publicar o resultado em 2026.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "headphones audiobook recording studio",

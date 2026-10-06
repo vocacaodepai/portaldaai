@@ -152,6 +152,7 @@ export function ArticleCard({
       data-product-category={article.productCategory}
       data-product-subcategory={article.productSubcategory}
       data-review-tool={article.review?.tool}
+      data-article-subcategory={article.articleSubcategory}
     >
       <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
         <CoverImage

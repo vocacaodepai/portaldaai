@@ -59,6 +59,46 @@ export const categories = [
 
 export type Category = (typeof categories)[number]["slug"];
 
+/**
+ * Subtipo de artigo, usado só pelo subfiltro dentro de cada categoria geral
+ * (iniciantes, monetização, negócios, carreira, futuro — nunca ferramentas
+ * nem ai-indica, que têm filtro próprio). Cada entrada aponta pro slug de
+ * `categories` a que pertence.
+ */
+export const articleSubcategories = [
+  { slug: "conceitos", label: "Conceitos e fundamentos", category: "iniciantes" },
+  { slug: "apps-e-tarefas", label: "Apps e tarefas do dia a dia", category: "iniciantes" },
+  { slug: "vida-pratica", label: "Vida prática com IA", category: "iniciantes" },
+  { slug: "estudos", label: "Estudos e aprendizado", category: "iniciantes" },
+
+  { slug: "freelance-servicos", label: "Freelas e serviço", category: "monetizacao" },
+  { slug: "produtos-digitais", label: "Produtos digitais", category: "monetizacao" },
+  { slug: "automacao-e-agentes", label: "Automação e agentes", category: "monetizacao" },
+  { slug: "conteudo-e-midia", label: "Conteúdo e mídia", category: "monetizacao" },
+  { slug: "negocios-online", label: "Negócios online", category: "monetizacao" },
+
+  { slug: "atendimento", label: "Atendimento ao cliente", category: "negocios" },
+  { slug: "retencao-e-experiencia", label: "Retenção e experiência do cliente", category: "negocios" },
+  { slug: "financas-e-precificacao", label: "Finanças e precificação", category: "negocios" },
+  { slug: "vendas-e-marketing", label: "Vendas e marketing", category: "negocios" },
+  { slug: "gestao-e-operacao", label: "Gestão e operação", category: "negocios" },
+  { slug: "lancamento-e-estrategia", label: "Lançamento e estratégia", category: "negocios" },
+
+  { slug: "entrevistas-e-recolocacao", label: "Entrevistas e recolocação", category: "carreira" },
+  { slug: "curriculo-e-portfolio", label: "Currículo e portfólio", category: "carreira" },
+  { slug: "posicionamento-pessoal", label: "Posicionamento e autoridade", category: "carreira" },
+  { slug: "mentalidade-e-adaptacao", label: "Mentalidade e adaptação", category: "carreira" },
+  { slug: "desenvolvimento-de-habilidades", label: "Desenvolvimento de habilidades", category: "carreira" },
+  { slug: "trabalho-e-remuneracao", label: "Trabalho e remuneração", category: "carreira" },
+
+  { slug: "agentes-de-ia", label: "Agentes de IA", category: "futuro" },
+  { slug: "trabalho-e-profissoes", label: "Trabalho e profissões", category: "futuro" },
+  { slug: "regulacao-e-etica", label: "Regulação, privacidade e ética", category: "futuro" },
+  { slug: "tecnologia-emergente", label: "Tecnologia emergente", category: "futuro" },
+] as const;
+
+export type ArticleSubcategory = (typeof articleSubcategories)[number]["slug"];
+
 /** Dados estruturados de um review de ferramenta (artigos com kind: "review"). */
 export type ReviewData = {
   /** Nome da ferramenta avaliada. */
@@ -143,6 +183,12 @@ export type Article = {
   /** Meta description (120-160 caracteres). Padrão: excerpt. */
   metaDescription?: string;
   category: Category;
+  /**
+   * Subtipo dentro da categoria geral (iniciantes, monetização, negócios,
+   * carreira, futuro — nunca ferramentas/ai-indica), pro subfiltro em
+   * /categoria/[slug]. Ver `articleSubcategories` acima.
+   */
+  articleSubcategory?: ArticleSubcategory;
   /** Taxonomia de produto (só artigos de `category: "ai-indica"`), para o filtro em /categoria/ai-indica. */
   productCategory?: ProductCategory;
   productSubcategory?: ProductSubcategory;
@@ -205,6 +251,12 @@ export type NewsItem = {
   sourceName: string;
   sourceUrl: string;
   date: string; // ISO (AAAA-MM-DD)
+  /**
+   * Horário exato de publicação (ISO 8601 com offset, ex.:
+   * "2026-10-05T14:32:00-03:00"), mostrado ao lado da data na listagem.
+   * Opcional: notícia sem `publishedAt` mostra só a data, como sempre foi.
+   */
+  publishedAt?: string;
   /**
    * Texto completo da notícia (HTML), escrito a partir da fonte e exibido em
    * /noticias/[slug]. Opcional só nas notícias antigas; todo item novo deve ter.

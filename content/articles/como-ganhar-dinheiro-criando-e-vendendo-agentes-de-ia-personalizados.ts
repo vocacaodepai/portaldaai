@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro criando e vendendo agentes de IA personalizados: tipos que vendem, Make, Zapier e n8n com preço verificado, prompt e quanto cobrar.",
   category: "monetizacao",
+  articleSubcategory: "automacao-e-agentes",
   date: "2026-09-25",
   updated: "2026-09-27",
   readTime: 8,

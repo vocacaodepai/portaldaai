@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Agentes de IA explicados de forma simples: como diferem de chatbot e automação, como funcionam por dentro, o que já existe em 2026, prompts e riscos.",
   category: "futuro",
+  articleSubcategory: "agentes-de-ia",
   date: "2026-09-07",
   updated: "2026-09-27",
   readTime: 9,

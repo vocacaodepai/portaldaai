@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AuthorAvatar } from "@/components/article/AuthorAvatar";
 import { InstitutionalPage, institutionalMetadata } from "@/components/InstitutionalPage";
 import { categories, site } from "@/lib/articles";
 import { author } from "@/lib/author";
@@ -23,6 +24,14 @@ export default function SobrePage() {
       lead="Um site independente sobre inteligência artificial, escrito em português do Brasil para quem quer entender, usar e ganhar dinheiro com IA sem precisar de formação técnica."
       path={PATH}
     >
+      <div className="mb-8 flex items-center gap-4 rounded-xl border border-border bg-surface p-5">
+        <AuthorAvatar name={author.name} size="lg" />
+        <div>
+          <p className="font-display text-lg font-semibold leading-tight">{author.name}</p>
+          <p className="mt-0.5 text-sm text-muted">Editor e fundador do {site.name}</p>
+        </div>
+      </div>
+
       <h2 id="o-que-e">O que é o Portal da AI</h2>
       <p>
         Meu nome é <Link href={author.url}>{author.name}</Link> e eu edito o {site.name}. O site

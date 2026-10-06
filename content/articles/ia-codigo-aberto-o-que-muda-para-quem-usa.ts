@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA de código aberto: entenda a diferença entre modelo aberto e fechado, quando vale rodar um modelo próprio e quando o ChatGPT comum ainda é a opção mais simples.",
   category: "futuro",
+  articleSubcategory: "tecnologia-emergente",
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "open source server data center",

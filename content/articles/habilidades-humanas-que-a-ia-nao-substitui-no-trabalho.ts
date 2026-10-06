@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Quais habilidades humanas a IA não substitui no trabalho: pensamento crítico, controle de qualidade e julgamento, segundo pesquisa da Microsoft em 2026.",
   category: "carreira",
+  articleSubcategory: "mentalidade-e-adaptacao",
   date: "2026-10-05",
   readTime: 7,
   imageQuery: "professional thinking office meeting discussion",

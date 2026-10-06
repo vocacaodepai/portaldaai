@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como a IA está mudando o atendimento ao cliente: tarefas que o robô já resolve, casos que continuam humanos, um cenário com números em R$ e como se preparar.",
   category: "futuro",
+  articleSubcategory: "tecnologia-emergente",
   date: "2026-09-13",
   updated: "2026-09-27",
   readTime: 8,

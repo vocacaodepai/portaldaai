@@ -60,6 +60,14 @@ export function formatDate(iso: string, style: "long" | "short" = "long"): strin
   });
 }
 
+/** "14:32" a partir de um ISO datetime com horário (ex.: publishedAt de notícia); vazio se não tiver horário. */
+export function formatTime(iso?: string): string {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo", hour: "2-digit", minute: "2-digit" });
+}
+
 /** "há 2 dias", "hoje", "ontem". Só para uso em componentes renderizados no build diário. */
 export function relativeDay(iso: string, today = new Date()): string {
   const d = new Date(`${iso}T12:00:00-03:00`);

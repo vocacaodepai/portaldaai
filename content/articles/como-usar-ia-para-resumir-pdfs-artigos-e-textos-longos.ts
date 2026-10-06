@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como usar IA para resumir PDFs, artigos e textos longos: ferramentas, prompts prontos e os cuidados para o resumo não distorcer o que o texto original diz.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-10-05",
   readTime: 7,
   imageQuery: "person reading laptop documents desk",

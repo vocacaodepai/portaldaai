@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Traduzir documentos com IA para ganhar dinheiro: ferramentas, preços verificados em 2026, como precificar por página e os erros mais comuns do iniciante.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "translation document laptop desk",

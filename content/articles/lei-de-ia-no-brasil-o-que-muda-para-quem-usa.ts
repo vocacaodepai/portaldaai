@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Lei da IA no Brasil em 2026: status do PL 2338/2023 na Câmara, regras da ANPD e da Resolução do TSE que já valem e o que muda para quem usa IA no trabalho.",
   category: "futuro",
+  articleSubcategory: "regulacao-e-etica",
   date: "2026-09-28",
   readTime: 8,
   imageQuery: "government building law documents",

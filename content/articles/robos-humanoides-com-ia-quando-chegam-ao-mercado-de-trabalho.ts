@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Robôs humanoides com IA: o que já funciona em fábricas da Tesla e da Figure AI em 2026, quando devem chegar ao público e quais profissões sentem o impacto primeiro.",
   category: "futuro",
+  articleSubcategory: "trabalho-e-profissoes",
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "humanoid robot factory warehouse",

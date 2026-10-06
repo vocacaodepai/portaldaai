@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro testando ferramentas de IA: cinco formatos que pagam, método de teste que vira conteúdo útil, transparência e exemplo brasileiro.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-16",
   updated: "2026-09-27",
   readTime: 9,

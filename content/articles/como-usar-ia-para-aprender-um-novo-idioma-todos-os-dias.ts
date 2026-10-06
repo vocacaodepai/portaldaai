@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Aprenda a usar IA para aprender um novo idioma todos os dias: rotina de 15 minutos por voz, prompts prontos, ferramentas gratuitas e o que a IA não substitui.",
   category: "iniciantes",
+  articleSubcategory: "estudos",
   date: "2026-09-20",
   updated: "2026-09-27",
   readTime: 8,
