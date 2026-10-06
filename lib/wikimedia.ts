@@ -2,6 +2,14 @@ import type { StockPhoto } from "./pexels";
 
 const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 
+// A política de uso da API do Wikimedia (https://meta.wikimedia.org/wiki/User-Agent_policy)
+// exige um User-Agent identificando a aplicação com um jeito de contato;
+// sem isso o tráfego é tratado como anônimo e sofre limite de taxa mais
+// agressivo (já vimos erro 429 em produção sem esse header).
+const COMMONS_HEADERS = {
+  "User-Agent": "PortalDaAI/1.0 (https://www.portaldaai.com.br; contato@portaldaai.com.br)",
+};
+
 function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, "").trim();
 }
@@ -58,6 +66,7 @@ export async function getWikimediaImage(query: string, seed = 0): Promise<StockP
       origin: "*",
     });
     const res = await fetch(`${COMMONS_API}?${params.toString()}`, {
+      headers: COMMONS_HEADERS,
       next: { revalidate: 60 * 60 * 24 * 7 },
     });
     if (!res.ok) return null;
@@ -98,6 +107,7 @@ export async function getWikimediaFileInfo(title: string, query: string): Promis
       origin: "*",
     });
     const res = await fetch(`${COMMONS_API}?${params.toString()}`, {
+      headers: COMMONS_HEADERS,
       next: { revalidate: 60 * 60 * 24 * 7 },
     });
     if (!res.ok) return null;
