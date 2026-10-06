@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Trust GXT 212 Mico ou Fifine K669B: comparativo real de microfone USB para podcast, streaming e reunião, com preço, ficha técnica e para quem cada um vale a pena.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "microfone",
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "usb condenser microphone desk setup",

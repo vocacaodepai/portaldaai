@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre Redmi Buds 6 Play, Soundcore P20i e JBL Wave Flex: preço, bateria, som e para quem cada um vale a pena, com nota por critério.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "fone-bluetooth",
   date: "2026-09-29",
   readTime: 11,
   imageQuery: "three wireless earbuds cases side by side comparison",

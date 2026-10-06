@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre Mondial L-99-FB, Philco PH900 e Oster 1400 Full: potência, capacidade, velocidades e para quem cada liquidificador vale a pena.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "liquidificador",
   date: "2026-10-04",
   readTime: 9,
   imageQuery: "three kitchen blenders side by side comparison",

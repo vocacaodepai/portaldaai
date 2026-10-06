@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Electrolux ECM30 vale a pena? Review independente com nota por critério, prós, contras e para quem essa cafeteira elétrica programável compensa.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "cafeteira",
   date: "2026-10-04",
   readTime: 10,
   imageQuery: "stainless steel coffee maker on kitchen counter",

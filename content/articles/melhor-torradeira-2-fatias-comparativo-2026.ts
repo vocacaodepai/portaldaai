@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Philco French Toast Inox ou Mondial T-18 Pratic: comparativo de torradeira de 2 fatias com preço, níveis de tostagem e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "torradeira",
   date: "2026-10-05",
   readTime: 10,
   imageQuery: "two slice toaster on kitchen counter",

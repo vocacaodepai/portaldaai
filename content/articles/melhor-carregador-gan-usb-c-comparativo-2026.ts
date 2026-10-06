@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo entre o carregador Anker Nano 45W e o Baseus GaN5 Pro 65W: preço, portas, potência real e para quem cada carregador USB-C GaN vale a pena.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "carregador",
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "usb-c gan wall charger compact travel",

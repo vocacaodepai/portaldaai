@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Soundcore Life Q30 da Anker vale a pena? Review com nota por critério, prós, contras, preço e para quem esse fone com cancelamento de ruído compensa.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "fone-bluetooth",
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "over ear noise cancelling headphones black desk",

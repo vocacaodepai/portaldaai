@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Agratto CE Inox ou Mondial CE-06-R: comparativo de chaleira elétrica com preço, capacidade e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "chaleira",
   date: "2026-10-05",
   readTime: 10,
   imageQuery: "electric kettle on kitchen counter stainless steel",

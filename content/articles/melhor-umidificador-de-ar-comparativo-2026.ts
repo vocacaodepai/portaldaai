@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre WAP Air Flow e WAP Air Flow U2: capacidade, autonomia e para quem cada umidificador de ar vale a pena, com nota de compradores.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "umidificador",
   date: "2026-10-04",
   readTime: 8,
   imageQuery: "two air humidifiers side by side comparison",

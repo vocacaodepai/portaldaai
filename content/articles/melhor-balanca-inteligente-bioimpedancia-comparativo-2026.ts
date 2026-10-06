@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo de balança inteligente com bioimpedância: Multilaser HC059N e HC060N lado a lado, com preço, sensores, app e para quem cada uma vale a pena.",
   category: "ai-indica",
+  productCategory: "saude-bem-estar",
+  productSubcategory: "balanca-inteligente",
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "smart bathroom scale bioimpedance app bluetooth",

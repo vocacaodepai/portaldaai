@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre Logitech MK220, K400 Plus e K380: preço, bateria, conexão e para quem cada teclado sem fio vale a pena, com nota por critério.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "teclado",
   date: "2026-10-01",
   readTime: 10,
   imageQuery: "three wireless keyboards side by side comparison desk",

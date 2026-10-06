@@ -83,6 +83,57 @@ export type ReviewData = {
   ctaLabel?: string;
 };
 
+/**
+ * Taxonomia de produto, usada só pelo filtro de `/categoria/ai-indica` (não
+ * confundir com `categories` acima, que é a categoria editorial do artigo).
+ * Cada `productSubcategories` aponta pra um `category` daqui.
+ */
+export const productCategories = [
+  { slug: "cozinha", label: "Cozinha" },
+  { slug: "casa-inteligente", label: "Casa Inteligente" },
+  { slug: "seguranca", label: "Segurança" },
+  { slug: "audio-video", label: "Áudio e Vídeo" },
+  { slug: "informatica", label: "Informática e Acessórios" },
+  { slug: "saude-bem-estar", label: "Saúde e Bem-estar" },
+] as const;
+
+export type ProductCategory = (typeof productCategories)[number]["slug"];
+
+export const productSubcategories = [
+  { slug: "cafeteira", label: "Cafeteira", category: "cozinha" },
+  { slug: "air-fryer", label: "Air Fryer", category: "cozinha" },
+  { slug: "chaleira", label: "Chaleira", category: "cozinha" },
+  { slug: "liquidificador", label: "Liquidificador", category: "cozinha" },
+  { slug: "sanduicheira", label: "Sanduicheira", category: "cozinha" },
+  { slug: "torradeira", label: "Torradeira", category: "cozinha" },
+  { slug: "multiprocessador", label: "Multiprocessador", category: "cozinha" },
+  { slug: "panela-pressao", label: "Panela de Pressão", category: "cozinha" },
+  { slug: "lampada-inteligente", label: "Lâmpada Inteligente", category: "casa-inteligente" },
+  { slug: "robo-aspirador", label: "Robô Aspirador", category: "casa-inteligente" },
+  { slug: "tomada-inteligente", label: "Tomada Inteligente", category: "casa-inteligente" },
+  { slug: "roteador-wifi", label: "Roteador Wi-Fi", category: "casa-inteligente" },
+  { slug: "umidificador", label: "Umidificador", category: "casa-inteligente" },
+  { slug: "ventilador", label: "Ventilador", category: "casa-inteligente" },
+  { slug: "lavadora-alta-pressao", label: "Lavadora de Alta Pressão", category: "casa-inteligente" },
+  { slug: "fechadura-digital", label: "Fechadura Digital", category: "seguranca" },
+  { slug: "camera-seguranca", label: "Câmera de Segurança", category: "seguranca" },
+  { slug: "webcam", label: "Webcam", category: "audio-video" },
+  { slug: "caixa-de-som", label: "Caixa de Som", category: "audio-video" },
+  { slug: "fone-bluetooth", label: "Fone Bluetooth", category: "audio-video" },
+  { slug: "microfone", label: "Microfone", category: "audio-video" },
+  { slug: "carregador", label: "Carregador", category: "informatica" },
+  { slug: "mouse", label: "Mouse", category: "informatica" },
+  { slug: "power-bank", label: "Power Bank", category: "informatica" },
+  { slug: "ssd-externo", label: "SSD Externo", category: "informatica" },
+  { slug: "teclado", label: "Teclado", category: "informatica" },
+  { slug: "impressora-etiquetas", label: "Impressora de Etiquetas", category: "informatica" },
+  { slug: "hub-usb-c", label: "Hub USB-C", category: "informatica" },
+  { slug: "balanca-inteligente", label: "Balança Inteligente", category: "saude-bem-estar" },
+  { slug: "smartwatch", label: "Smartwatch", category: "saude-bem-estar" },
+] as const;
+
+export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
+
 export type Article = {
   slug: string;
   title: string;
@@ -92,6 +143,9 @@ export type Article = {
   /** Meta description (120-160 caracteres). Padrão: excerpt. */
   metaDescription?: string;
   category: Category;
+  /** Taxonomia de produto (só artigos de `category: "ai-indica"`), para o filtro em /categoria/ai-indica. */
+  productCategory?: ProductCategory;
+  productSubcategory?: ProductSubcategory;
   date: string; // ISO (AAAA-MM-DD)
   /** Data da última atualização editorial (AAAA-MM-DD). */
   updated?: string;

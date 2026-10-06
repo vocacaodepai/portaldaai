@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre Logitech M170, M240 e Pebble M350: conexão, bateria, clique silencioso e para quem cada mouse sem fio vale a pena, com nota por critério.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "mouse",
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "wireless computer mouse on desk comparison",

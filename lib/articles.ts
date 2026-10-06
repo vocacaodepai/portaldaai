@@ -9,8 +9,8 @@ import { articles as allArticles } from "@/content/articles";
 import type { Article, Category } from "@/lib/types";
 import { categories } from "@/lib/types";
 
-export type { Article, Category, FaqItem, QuizQuestion, ReviewData } from "@/lib/types";
-export { categories } from "@/lib/types";
+export type { Article, Category, FaqItem, QuizQuestion, ReviewData, ProductCategory, ProductSubcategory } from "@/lib/types";
+export { categories, productCategories, productSubcategories } from "@/lib/types";
 
 export const site = {
   name: "Portal da AI",
@@ -53,9 +53,23 @@ export function getArticlesByCategory(category: string): Article[] {
   return sortedArticles().filter((a) => a.category === category);
 }
 
+/**
+ * Reviews de ferramenta de IA (não produto físico): só `category: "ferramentas"`
+ * com `kind: "review"`. Os reviews de produto (`category: "ai-indica"`) têm seu
+ * próprio filtro em /categoria/ai-indica, não aparecem aqui.
+ */
 export function getReviews(): Article[] {
-  return sortedArticles().filter((a) => a.kind === "review");
+  return sortedArticles().filter((a) => a.kind === "review" && a.category === "ferramentas");
 }
+
+/**
+ * Categorias mostradas no filtro de /artigos e /categoria/[slug]: todas menos
+ * "ferramentas" (que tem o próprio filtro por ferramenta em /reviews) e
+ * "ai-indica" (que tem o próprio filtro por categoria de produto).
+ */
+export const articleFilterCategories = categories.filter(
+  (c) => c.slug !== "ferramentas" && c.slug !== "ai-indica"
+);
 
 /**
  * Relacionados: primeiro os da mesma categoria (mais novos primeiro), depois

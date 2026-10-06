@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { categories, getArticlesByCategory, getCategory, isCategory, site } from "@/lib/articles";
+import {
+  categories,
+  getArticlesByCategory,
+  getCategory,
+  isCategory,
+  productCategories,
+  productSubcategories,
+  site,
+} from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { ArticleListing } from "./ArticleListing";
 import { JsonLd } from "./JsonLd";
@@ -9,12 +17,23 @@ import { listingMetadata, pagedTitle } from "./metadata";
 import { ARTICLES_PER_PAGE, countPages, slicePage } from "./paginate";
 import { pageHref } from "@/components/Pagination";
 
+/**
+ * AI Indica mostra tudo numa página só (sem paginar): o filtro de categoria
+ * de produto (ver ProductCategoryFilter) só funciona dentro dos cards que já
+ * estão na página, então paginar quebraria o filtro pra quem está numa
+ * página diferente da do produto buscado.
+ */
+function perPageFor(slug: string, total: number): number {
+  return slug === "ai-indica" ? Math.max(total, 1) : ARTICLES_PER_PAGE;
+}
+
 export function categoriaBase(slug: string): string {
   return `/categoria/${slug}`;
 }
 
 export function categoriaTotalPages(slug: string): number {
-  return countPages(getArticlesByCategory(slug).length, ARTICLES_PER_PAGE);
+  const total = getArticlesByCategory(slug).length;
+  return countPages(total, perPageFor(slug, total));
 }
 
 /** Params de todas as categorias (para a rota raiz). */
@@ -38,11 +57,20 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
   if (!category) notFound();
 
   const all = getArticlesByCategory(slug);
-  const totalPages = countPages(all.length, ARTICLES_PER_PAGE);
+  const perPage = perPageFor(slug, all.length);
+  const totalPages = countPages(all.length, perPage);
   if (page > totalPages) notFound();
-  const items = slicePage(all, page, ARTICLES_PER_PAGE);
+  const items = slicePage(all, page, perPage);
   const base = categoriaBase(slug);
   const path = pageHref(base, page);
+
+  const productFilter =
+    slug === "ai-indica"
+      ? {
+          categories: productCategories.filter((c) => all.some((a) => a.productCategory === c.slug)),
+          subcategories: productSubcategories.filter((s) => all.some((a) => a.productSubcategory === s.slug)),
+        }
+      : undefined;
 
   const collection = {
     "@context": "https://schema.org",
@@ -85,6 +113,7 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
         totalPages={totalPages}
         basePath={base}
         active={slug}
+        productFilter={productFilter}
         emptyTitle="Os primeiros artigos desta categoria estão a caminho"
         emptyText="Publicamos conteúdo novo todos os dias. Enquanto isso, veja o que já está no ar nas outras categorias."
       />

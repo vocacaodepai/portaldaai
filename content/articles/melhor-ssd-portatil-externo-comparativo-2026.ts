@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre Samsung T7 e T7 Shield 1TB: velocidade, resistência, preço e para quem cada SSD externo vale a pena, com nota por critério.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "ssd-externo",
   date: "2026-10-01",
   readTime: 10,
   imageQuery: "two portable external ssd drives comparison desk",

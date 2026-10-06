@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre o power bank i2GO PRO 20.000mAh e o Geonav por indução MagSafe: capacidade, velocidade de carga e para quem cada um vale a pena.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "power-bank",
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "portable power bank charger on desk with phone",

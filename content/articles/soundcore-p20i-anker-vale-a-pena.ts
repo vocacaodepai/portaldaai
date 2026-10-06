@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Soundcore P20i da Anker vale a pena? Review independente com nota por critério, prós, contras e para quem esse fone bluetooth de custo-benefício compensa.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "fone-bluetooth",
   date: "2026-09-29",
   readTime: 10,
   imageQuery: "wireless earbuds charging case on desk",
