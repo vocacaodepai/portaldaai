@@ -1,0 +1,45 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "workday-relatorio-ia-nao-reduz-vagas-mas-muda-tudo",
+  title: "Relatório da Workday mostra que IA muda as vagas mais do que corta empregos",
+  summary:
+    "Pesquisa com mais de 11 mil respondentes aponta que só 28% dos líderes esperam reduzir equipe com IA, mas habilidades avançadas de IA já pesam 51% mais nas vagas.",
+  author: "Bruno Danello",
+  sourceName: "Workday / PR Newswire",
+  sourceUrl:
+    "https://prnewswire.com/news-releases/workday-global-workforce-report-ai-is-rewriting-jobs-more-than-its-cutting-them-302898076.html",
+  date: "2026-10-05",
+  publishedAt: "2026-10-06T03:45:00-03:00",
+  topic: "mercado-trabalho",
+  imageQuery: "pessoas trabalhando em escritório com computadores",
+  content: `
+    <p>A Workday divulgou, em 5 de outubro, a edição de outubro de 2026 do seu Relatório Global da Força de Trabalho, mostrando que a maioria dos líderes empresariais não espera que a inteligência artificial reduza o tamanho de suas equipes, mesmo com a adoção de IA avançando rápido dentro das empresas. Segundo o levantamento, divulgado pela <a href="https://prnewswire.com/news-releases/workday-global-workforce-report-ai-is-rewriting-jobs-more-than-its-cutting-them-302898076.html" target="_blank" rel="noopener noreferrer nofollow">PR Newswire</a>, 40% dos líderes esperam que a IA ajude a tirar mais proveito dos funcionários que já têm, contra apenas 28% que esperam reduzir o quadro de pessoal.</p>
+
+    <p>A pesquisa reuniu 6.001 respondentes globais, incluindo cerca de 1.780 tomadores de decisão, além de uma pesquisa pulso específica sobre IA no trabalho com 5.944 trabalhadores e uma análise de cerca de 550 vagas publicadas por empresas que usam o sistema de recrutamento da própria Workday, entre setembro de 2025 e julho de 2026. O recado central do relatório é que a IA está reorganizando funções existentes numa velocidade maior do que está eliminando postos de trabalho, pelo menos até agora.</p>
+
+    <h2>O que os números mostram sobre habilidades em alta e em queda</h2>
+    <p>O dado mais chamativo do relatório está na mudança de perfil de habilidade exigida nas vagas. A demanda por habilidades básicas de IA, como escrever comandos simples (prompting), caiu 25% depois de atingir o pico em janeiro de 2026. Ao mesmo tempo, a demanda por habilidades avançadas, como construir ferramentas de IA, automação e engenharia de sistemas inteligentes, subiu 51% entre setembro de 2025 e julho de 2026. Menções a habilidades de gestão caíram 7% e a habilidades de treinamento de equipe caíram 13% no mesmo período.</p>
+    <p>O relatório também mostra um mercado de trabalho mais competitivo: o número mediano de candidatos por vaga preenchida subiu de 58 para 69, enquanto o tempo médio para preencher uma vaga ficou estável, em cerca de 60 dias. As candidaturas para vagas em serviços financeiros subiram 27% no ano, e as de tecnologia e mídia subiram 40%, sinal de que a disputa por vagas ligadas a tecnologia está mais acirrada mesmo com a adoção de IA crescendo nessas áreas. Segundo Phil Willburn, vice-presidente de sistemas de pessoas da Workday, "os funcionários podem não estar trocando de emprego, mas o próprio emprego deles está mudando ao redor", e "existe um desconforto silencioso grande no ambiente de trabalho agora".</p>
+
+    <h2>Por que isso importa para quem trabalha ou contrata no Brasil</h2>
+    <p>Para quem trabalha no Brasil e tenta entender se a IA vai ou não "tomar o emprego", o relatório da Workday traz um recado mais sutil e, de certa forma, mais útil: a ameaça real não costuma ser o corte direto de vagas, mas a mudança do que cada vaga passa a exigir. Uma habilidade básica de usar ferramentas de IA, que até pouco tempo era um diferencial, já virou expectativa mínima, enquanto o que separa quem cresce na carreira de quem fica estagnado é a capacidade de ir além do uso básico: construir automações, integrar ferramentas de IA a processos reais e entender os limites técnicos do que cada modelo consegue fazer.</p>
+    <p>Esse movimento está alinhado com o que o Portal da AI já vem mostrando em textos como <a href="/artigos/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades">como identificar e fechar lacunas de habilidades de IA</a> e <a href="/artigos/certificacoes-de-ia-que-valem-a-pena-para-a-carreira">quais certificações de IA realmente valem a pena para a carreira</a>. O dado da Workday sobre a queda de 13% nas menções a habilidades de treinamento também chama atenção: menos empresas estão investindo tempo formal para ensinar a própria equipe, o que empurra a responsabilidade de aprender para o próprio profissional. É um padrão que o texto sobre <a href="/artigos/habilidades-humanas-que-a-ia-nao-substitui-no-trabalho">quais habilidades humanas a IA não substitui no trabalho</a> já discutia: dominar a ferramenta sozinho não é mais suficiente, é preciso combinar isso com julgamento e habilidades que a própria IA ainda não replica bem.</p>
+
+    <h2>Um retrato que contrasta com previsões mais alarmistas</h2>
+    <p>O relatório da Workday chega num momento em que outras pesquisas pintam um quadro bem mais pessimista sobre o impacto da IA no emprego. Levantamentos recentes do mercado americano indicam que a IA já é citada como motivo em 41% dos eventos de corte de vagas registrados em 2026, afetando quase 180 mil trabalhadores em mais de 200 empresas, um salto enorme em relação aos cerca de 55 mil casos atribuídos à IA em todo o ano de 2025. A diferença de tom entre as pesquisas mostra como o debate sobre "quanto a IA realmente custa em empregos" ainda está em aberto, dependendo muito de qual recorte, setor e metodologia cada estudo usa.</p>
+    <p>O Portal da AI já tinha mostrado um retrato de prazo mais longo nessa mesma linha quando cobriu a <a href="/noticias/mckinsey-11-milhoes-trabalhadores-ia-2035">estimativa da McKinsey de que 11 milhões de trabalhadores vão precisar trocar de ocupação até 2035</a> por causa da automação ligada à IA. Colocando os dois lados juntos, o quadro que emerge é o de uma transição gradual, mais parecida com uma readequação em etapas do que com um corte abrupto e generalizado de vagas, pelo menos na maioria dos setores fora de funções muito expostas, como atendimento ao cliente e entrada de dados.</p>
+
+    <h2>A lacuna entre o que se espera do trabalhador e o suporte que ele recebe</h2>
+    <p>Um dos pontos mais relevantes do relatório é a diferença entre o que as empresas esperam que seus funcionários já saibam fazer com IA e o suporte real que oferecem para isso. Segundo a Workday, 79% dos trabalhadores dizem saber quais habilidades de IA precisam desenvolver, mas apenas 66% recebem apoio do empregador para isso, uma lacuna de 13 pontos percentuais. Ainda assim, 65% dizem estar confiantes de que conseguiriam aprender uma nova habilidade se fosse exigido, e entre os usuários mais intensos de IA no trabalho, 76% dizem esperar novas oportunidades de carreira por causa disso, mesmo que 62% desse mesmo grupo acredite que as habilidades que têm hoje vão perder valor em breve.</p>
+    <p>Esse contraste é relevante para quem está pensando em como se posicionar profissionalmente diante da IA: a maioria sabe, em teoria, o que precisa aprender, mas poucos recebem o suporte estruturado da própria empresa para isso. Na prática, isso reforça a importância de buscar formação por conta própria, seja com certificações, cursos específicos ou simplesmente praticando ferramentas de IA em projetos reais, algo que detalhamos no texto sobre <a href="/artigos/como-montar-portfolio-de-habilidades-de-ia-para-recrutadores">como montar um portfólio de habilidades de IA para recrutadores</a>, voltado justamente para quem quer provar competência prática além do que aparece num currículo tradicional.</p>
+
+    <div class="callout-box callout-tip">
+      <span class="callout-label">Na prática</span>
+      <p>O relatório não diz que a IA é inofensiva para o emprego, mas sugere que o risco maior, hoje, não é perder a vaga da noite para o dia: é ficar atrás de colegas que aprenderam a usar a IA em nível avançado enquanto a função que você exerce vai, pouco a pouco, mudando de conteúdo ao seu redor.</p>
+    </div>
+
+    <h2>O que acompanhar daqui para a frente</h2>
+    <p>Vale observar se a demanda por habilidades avançadas de IA, que já subiu 51% no período analisado, continua crescendo no ritmo atual ou se estabiliza conforme mais profissionais se qualificam. Também é interessante acompanhar se empresas brasileiras, que ainda adotam IA em ritmo mais lento que os Estados Unidos, vão repetir esse mesmo padrão de exigir habilidades mais avançadas em vagas que hoje pedem apenas conhecimento básico, como já discutimos no panorama sobre <a href="/artigos/vagas-de-ia-no-brasil-quais-cargos-contratando-2026">quais cargos ligados a IA estão contratando no Brasil em 2026</a>. Se a tendência global se confirmar por aqui, o diferencial competitivo vai continuar migrando de "saber usar IA" para "saber construir e integrar soluções de IA" dentro do trabalho do dia a dia.</p>
+  `,
+};
