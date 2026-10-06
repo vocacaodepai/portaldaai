@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
-import { CategoryChips } from "@/components/CategoryChips";
+import { ReviewToolChips } from "@/components/ReviewToolChips";
 import { Container } from "@/components/Container";
 import { Sidebar } from "@/components/Sidebar";
 import { JsonLd } from "@/components/listing/JsonLd";
@@ -19,9 +19,12 @@ const DESCRIPTION =
 
 export const metadata: Metadata = listingMetadata({ title: TITLE, description: DESCRIPTION, path: PATH });
 
+const REVIEWS_GRID_ID = "reviews-grid";
+
 export default function ReviewsPage() {
   const reviews = getReviews();
   const meanwhile = reviews.length === 0 ? getArticlesByCategory("ferramentas").slice(0, 6) : [];
+  const tools = [...new Set(reviews.map((a) => a.review?.tool).filter((t): t is string => Boolean(t)))];
 
   const collection = {
     "@context": "https://schema.org",
@@ -61,9 +64,9 @@ export default function ReviewsPage() {
           intro="Testamos as ferramentas como um usuário comum no Brasil testaria: criando conta, pagando o plano quando é preciso e usando no trabalho de verdade. A nota resume a experiência; o texto explica o porquê."
           count={countLabel(reviews.length, "review", "reviews")}
         />
-        <CategoryChips active="reviews" className="mt-8 border-y border-border py-3" />
+        <ReviewToolChips tools={tools} rootId={REVIEWS_GRID_ID} />
         <ReviewCriteria />
-        <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+        <div id={REVIEWS_GRID_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
           <div className="min-w-0">
             {reviews.length > 0 ? (
               <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

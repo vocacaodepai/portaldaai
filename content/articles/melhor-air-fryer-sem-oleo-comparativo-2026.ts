@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Oster OFRT520 ou Mondial Grand Family AFN-50-BI: comparativo de air fryer com preço, capacidade, potência e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "air-fryer",
   date: "2026-10-03",
   readTime: 9,
   imageQuery: "air fryer kitchen counter french fries",

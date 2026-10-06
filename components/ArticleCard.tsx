@@ -146,7 +146,12 @@ export function ArticleCard({
   }
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover">
+    <article
+      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover"
+      data-product-category={article.productCategory}
+      data-product-subcategory={article.productSubcategory}
+      data-review-tool={article.review?.tool}
+    >
       <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
         <CoverImage
           query={article.imageQuery}

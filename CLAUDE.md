@@ -13,6 +13,48 @@ Ao criar um artigo novo, decidir a categoria por essa regra: se tem link de
 compra com afiliado, é AI Indica; se é sobre a ferramenta de IA e sua
 evolução, é Ferramentas.
 
+## Filtros de navegação (desde out/2026): cada aba filtra pelo próprio tema
+
+Cada listagem tem o filtro certo pro que ela mostra, em vez do mesmo chip de
+categoria do site inteiro repetido em toda aba:
+
+- **`/artigos` e `/categoria/[slug]`** (exceto ferramentas e ai-indica):
+  `ArticleCategoryChips` (`components/ArticleCategoryChips.tsx`), só com as
+  categorias gerais (`articleFilterCategories` em `lib/articles.ts`:
+  iniciantes, monetização, negócios, carreira, futuro). Ferramentas e AI
+  Indica não aparecem aqui — cada uma tem a aba e o filtro próprios abaixo.
+- **`/reviews`**: só reviews de ferramenta de IA (`category: "ferramentas"`
+  **e** `kind: "review"` — `getReviews()` em `lib/articles.ts`). Reviews de
+  produto físico (`category: "ai-indica"`) não aparecem mais aqui, têm o
+  filtro próprio em `/categoria/ai-indica`. O filtro é `ReviewToolChips`
+  (`components/ReviewToolChips.tsx`), por `review.tool` (ex.: "ChatGPT
+  Plus", "Claude Pro") — fica escondido sozinho enquanto só existir 1
+  ferramenta revisada.
+- **`/categoria/ai-indica`**: filtro de duas camadas por categoria de
+  produto (`ProductCategoryFilter`, `components/ProductCategoryFilter.tsx`),
+  não pela categoria de artigo. Todo artigo de AI Indica (comparativo ou
+  review de produto único) precisa ter `productCategory` e
+  `productSubcategory` (`lib/types.ts`: `productCategories`/
+  `productSubcategories`) — ex.: `productCategory: "cozinha"`,
+  `productSubcategory: "air-fryer"`. Sem esses dois campos o artigo some do
+  filtro (continua listado em "Todos", só não aparece ao filtrar por
+  categoria/subcategoria específica). Essa página mostra todos os artigos
+  de ai-indica numa página só (sem paginar), porque o filtro só funciona
+  dentro dos cards que já estão na página.
+- **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
+  sem chip de filtro extra — o conteúdo de ferramenta agora vive
+  conceitualmente em `/reviews` (quando é review) e nos artigos gerais
+  (quando é guia).
+- A home (`/`) e a página 404 continuam usando o `CategoryChips` original
+  (site inteiro: todas as categorias + Reviews + Notícias) — ali faz
+  sentido mostrar tudo, é navegação geral, não filtro de uma listagem.
+
+Taxonomia de produto hoje (`lib/types.ts`): Cozinha, Casa Inteligente,
+Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar, cada
+uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
+encaixa em nenhuma subcategoria existente, adicionar a subcategoria nova
+(e, se precisar, a categoria nova) em `lib/types.ts` antes de publicar.
+
 ## Imagens de pessoas e empresas reais (artigos e notícias, qualquer categoria)
 
 Quando o texto fala de uma pessoa real (ex.: Elon Musk, Sam Altman) ou de uma

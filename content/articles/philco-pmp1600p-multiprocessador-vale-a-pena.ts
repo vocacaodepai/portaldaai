@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Philco PMP1600P vale a pena? Análise do multiprocessador 9 em 1 com nota por critério, prós, contras e preço verificado na Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "multiprocessador",
   date: "2026-10-05",
   readTime: 11,
   imageQuery: "kitchen food processor blender countertop",

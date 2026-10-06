@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre a lâmpada inteligente Wi-Fi da Positivo e a EWS 410 da Intelbras: cores, app, compatibilidade e qual vale mais a pena.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "lampada-inteligente",
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "two smart wifi light bulbs comparison white background",

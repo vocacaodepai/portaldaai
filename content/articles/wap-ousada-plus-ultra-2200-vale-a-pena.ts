@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "WAP Ousada Plus Ultra 2200 vale a pena? Review com nota por critério, prós, contras e para quem essa lavadora de alta pressão doméstica compensa o preço.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "lavadora-alta-pressao",
   date: "2026-10-03",
   readTime: 10,
   imageQuery: "pressure washer yellow black driveway cleaning",

@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Philco PPP01P vale a pena? Análise da panela de pressão elétrica digital 6L com nota por critério, prós, contras e preço verificado na Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "panela-pressao",
   date: "2026-10-05",
   readTime: 11,
   imageQuery: "digital electric pressure cooker kitchen counter",

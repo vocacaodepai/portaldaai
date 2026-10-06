@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre JBL Go Essential 2, JBL Go 4 e Anker Soundcore Select 3: bateria, potência, resistência à água e para quem cada caixa de som bluetooth vale a pena.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "caixa-de-som",
   date: "2026-09-30",
   readTime: 11,
   imageQuery: "portable bluetooth speaker outdoors comparison",

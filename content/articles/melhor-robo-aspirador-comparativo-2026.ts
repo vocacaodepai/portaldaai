@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "WAP Robot W400 ou Xiaomi Robot Vacuum S40C: comparativo de robô aspirador com preço, mapeamento, sucção e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "robo-aspirador",
   date: "2026-10-03",
   readTime: 10,
   imageQuery: "robot vacuum cleaner on wood floor living room",

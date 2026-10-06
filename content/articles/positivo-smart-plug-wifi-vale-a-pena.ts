@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Positivo Smart Plug Wi-Fi vale a pena? Review independente com nota por critério, prós, contras e para quem essa tomada inteligente compensa.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "tomada-inteligente",
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "white smart plug wifi outlet close up",

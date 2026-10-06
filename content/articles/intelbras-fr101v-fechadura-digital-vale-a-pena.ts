@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Intelbras FR 101 V vale a pena? Review independente com nota por critério, prós, contras e para quem essa fechadura digital de sobrepor compensa.",
   category: "ai-indica",
+  productCategory: "seguranca",
+  productSubcategory: "fechadura-digital",
   date: "2026-10-04",
   readTime: 10,
   imageQuery: "black digital door lock keypad close up",

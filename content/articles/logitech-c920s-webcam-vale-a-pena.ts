@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Webcam Logitech C920s vale a pena? Review independente com nota por critério, prós, contras e para quem essa webcam Full HD de custo-benefício compensa.",
   category: "ai-indica",
+  productCategory: "audio-video",
+  productSubcategory: "webcam",
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "webcam mounted on laptop screen home office",

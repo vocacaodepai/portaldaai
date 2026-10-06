@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Cadence Click SAN400 ou Mondial S-12 Fast Grill: comparativo de sanduicheira elétrica com preço, potência e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "cozinha",
+  productSubcategory: "sanduicheira",
   date: "2026-10-05",
   readTime: 10,
   imageQuery: "electric sandwich maker grill on kitchen counter",

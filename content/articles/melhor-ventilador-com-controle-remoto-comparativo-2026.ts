@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Comparativo real entre WAP Air Silence, Mallory Max Control e Mondial VSP-30: potência, oscilação, controle remoto e para quem cada ventilador vale a pena.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "ventilador",
   date: "2026-10-04",
   readTime: 10,
   imageQuery: "three electric fans side by side comparison",

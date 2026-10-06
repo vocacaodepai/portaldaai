@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Tapo C110 ou Xiaomi Mi Camera 2K: comparativo real de câmera de segurança wi-fi com preço, resolução, armazenamento e nota de compradores da Amazon Brasil.",
   category: "ai-indica",
+  productCategory: "seguranca",
+  productSubcategory: "camera-seguranca",
   date: "2026-10-03",
   readTime: 9,
   imageQuery: "indoor wifi security camera on shelf",

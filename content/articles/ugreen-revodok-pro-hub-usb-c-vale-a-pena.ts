@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "UGREEN Revodok Pro hub USB-C 6 em 1 vale a pena? Review com nota por critério, prós, contras e para quem esse hub multiportas compensa o investimento.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "hub-usb-c",
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "usb-c hub multiport adapter laptop desk",

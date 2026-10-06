@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "TP-Link Deco M4 vale a pena? Review independente com nota por critério, prós, contras e para quem esse roteador Wi-Fi mesh compensa o investimento.",
   category: "ai-indica",
+  productCategory: "casa-inteligente",
+  productSubcategory: "roteador-wifi",
   date: "2026-10-01",
   readTime: 10,
   imageQuery: "wifi mesh router white tower on desk",

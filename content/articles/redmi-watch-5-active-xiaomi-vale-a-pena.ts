@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Redmi Watch 5 Active da Xiaomi vale a pena? Review independente com nota por critério, prós, contras e para quem esse smartwatch de custo-benefício compensa.",
   category: "ai-indica",
+  productCategory: "saude-bem-estar",
+  productSubcategory: "smartwatch",
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "smartwatch on wrist showing fitness dashboard",

@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Phomemo M110 vale a pena? Review com nota por critério, prós, contras e para quem essa mini impressora de etiquetas bluetooth compensa o preço.",
   category: "ai-indica",
+  productCategory: "informatica",
+  productSubcategory: "impressora-etiquetas",
   date: "2026-10-03",
   readTime: 10,
   imageQuery: "portable label printer bluetooth white desk",
