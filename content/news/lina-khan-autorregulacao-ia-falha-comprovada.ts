@@ -10,6 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://abcnews.com/Politics/former-ftc-chair-khan-dismisses-constitution-signed-ai/story?id=136984695",
   date: "2026-10-05",
+  publishedAt: "2026-10-05T23:42:00-03:00",
   imageQuery: "Lina Khan portrait",
   topic: "regulacao",
   content: `
