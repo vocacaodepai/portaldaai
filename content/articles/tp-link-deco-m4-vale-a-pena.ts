@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O TP-Link Deco M4 é um dos kits de Wi-Fi mesh mais vendidos da <a href="https://www.amazon.com.br/Roteador-Dispositivos-Deco-M4-Roteadores/dp/B07KJ2TDMR" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 15 mil avaliações e nota 4,8 de 5 estrelas na versão de 2 unidades. O sistema usa tecnologia mesh pra cobrir até 185m² com sinal estável, substituindo um roteador único por dois ou três pontos que conversam entre si. Analisamos a ficha técnica oficial da TP-Link e cruzamos com reviews técnicos independentes e relatos reais de compradores, pra separar o que é marketing do que é uso real.</p>
 
     <h2>O que o Deco M4 entrega</h2>

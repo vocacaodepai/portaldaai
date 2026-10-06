@@ -60,11 +60,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>Notebook moderno ficou elegante e fino, mas perdeu porta. O <a href="https://www.amazon.com.br/dp/B0D1XLNWP2" rel="noopener noreferrer nofollow">UGREEN Revodok Pro Hub USB-C 6 em 1</a> é hoje um dos hubs multiportas mais vendidos da Amazon Brasil, com mais de 7 mil avaliações e nota 4,6 de 5. Ele promete resolver de uma vez a falta de HDMI, USB-A e leitor de cartão em notebooks que só têm porta USB-C, sem precisar carregar vários adaptadores avulsos na mochila.</p>
 
     <h2>O que o UGREEN Revodok Pro entrega</h2>

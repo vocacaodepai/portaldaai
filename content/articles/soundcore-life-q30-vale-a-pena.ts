@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>Cancelamento de ruído ativo (ANC) costumava ser recurso só de fone acima de R$ 1.000. O <a href="https://www.amazon.com.br/dp/B08Q8C3LHT" rel="noopener noreferrer nofollow">Soundcore Life Q30</a>, da Anker, é hoje um dos fones over-ear mais vendidos da Amazon Brasil nessa faixa de preço, com mais de 50 mil avaliações e nota 4,8 de 5. Usa Bluetooth 5.3, ANC híbrido com três modos e promete até 60 horas de bateria sem o cancelamento ligado. Cruzamos a ficha técnica oficial com o volume de avaliação real de compradores pra entender onde ele entrega e onde decepciona.</p>
 
     <h2>O que o Soundcore Life Q30 entrega</h2>
@@ -75,6 +70,7 @@ export const article: Article = {
     <h2>Onde ele deixa a desejar</h2>
     <p>O ANC é mais eficiente contra ruído grave e constante, como motor de avião, ônibus ou ar-condicionado, mas tem desempenho mais fraco contra voz humana e som agudo de ambiente aberto, como escritório compartilhado cheio de conversa. Quem espera silêncio total (tipo fone de estúdio profissional) pode se decepcionar com a expectativa, mesmo o produto cumprindo o que promete na ficha técnica.</p>
     <p>O encaixe over-ear (que cobre a orelha inteira) é confortável por mais tempo que fone intra-auricular, mas ocupa mais espaço na mochila e não é prático pra quem se exercita: não tem resistência à água declarada, então fica fora de cogitação pra treino com suor ou corrida na chuva. As hastes em plástico também passam sensação de menor robustez que fones com estrutura metálica, embora isso não tenha aparecido como queixa recorrente nas avaliações de compradores. Quem já comparou <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">fone bluetooth intra-auricular barato</a> sabe que o formato over-ear troca portabilidade por conforto em sessão longa, decisão que vale pensar antes de comprar.</p>
+    <p>O aplicativo Soundcore também concentra o controle de firmware: atualizações de software chegam por ele, e é lá que fica o ajuste fino de cada modo de ANC, algo que concorrentes sem aplicativo dedicado não oferecem. Vale instalar antes mesmo de abrir a caixa do fone, pra já sair usando com o perfil de som calibrado.</p>
 
     <h2>Para quem vale a pena</h2>
     <p>Faz sentido pra quem trabalha em home office ou escritório aberto e precisa de silêncio pra focar, seja escrevendo relatório, gravando <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">podcast e narração com apoio de IA</a> ou participando de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">reunião com transcrição automática</a> o dia inteiro. Também ajuda quem viaja de ônibus ou avião com frequência e quer isolar o ruído do motor sem gastar o preço de um fone premium, inclusive pra quem usa <a href="/artigos/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando">IA para planejar viagem</a> e passa longas horas em trânsito.</p>

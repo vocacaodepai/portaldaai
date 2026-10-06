@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Electrolux ECM30 é hoje uma das cafeteiras elétricas mais vendidas da <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 3,4 mil avaliações e nota 4,8 de 5 estrelas. O modelo tem painel digital, timer programável de até 24 horas, filtro permanente removível e capacidade pra 38 xícaras pequenas por ciclo. Analisamos a ficha técnica oficial da Electrolux contra as avaliações reais de quem já comprou, pra separar o que realmente entrega no dia a dia do que é só especificação de caixa.</p>
 
     <h2>O que a Electrolux ECM30 entrega</h2>

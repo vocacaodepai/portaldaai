@@ -62,11 +62,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O Xiaomi Robot Vacuum S40 Pro é um dos robôs aspiradores mais bem avaliados da <a href="https://www.amazon.com.br/dp/B0FD9CXF2W" rel="noopener noreferrer nofollow">Amazon Brasil</a> na faixa premium, com mais de 450 avaliações, nota 4,6 de 5 e mais de 500 compras registradas só no mês passado. Tem sucção de 15.000 Pa, navegação a laser com mapeamento real do ambiente e dois braços mecânicos que se estendem sozinhos para limpar rente à parede. Cruzamos a <a href="https://www.mi.com/global/product/xiaomi-robot-vacuum-s40-pro/" rel="noopener noreferrer nofollow">ficha técnica oficial da Xiaomi</a> com avaliações reais de quem já comprou, para separar o que é diferencial de verdade do que é só número de marketing na caixa.</p>
 
     <h2>O que o Xiaomi S40 Pro entrega</h2>

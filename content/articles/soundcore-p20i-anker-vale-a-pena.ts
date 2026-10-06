@@ -62,11 +62,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O Soundcore P20i, da Anker, é hoje um dos fones de ouvido bluetooth mais vendidos da <a href="https://www.amazon.com.br/dp/B0BTYCRJSS" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 100 mil avaliações e nota 4,6 de 5 estrelas. O modelo (A3949) usa Bluetooth 5.3, tem dois microfones com redução de ruído por IA para chamada, resistência à água IPX5 e promete até 30 horas de bateria somando fones e estojo. Testamos as especificações contra reviews técnicos independentes, como o do <a href="https://www.techgearlab.com/reviews/audio/wireless-earbuds/soundcore-p20i" rel="noopener noreferrer nofollow">TechGearLab</a> e o comparativo do <a href="https://www.scarbir.com/tws/soundcore-p20i-review" rel="noopener noreferrer nofollow">Scarbir</a>, pra separar o que é real do que é só especificação de caixa.</p>
 
     <h2>O que o Soundcore P20i entrega</h2>
