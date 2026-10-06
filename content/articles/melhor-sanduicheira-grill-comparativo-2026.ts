@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "cozinha",
   productSubcategory: "sanduicheira",
+  productScore: 7.7,
   date: "2026-10-05",
   readTime: 10,
   imageQuery: "electric sandwich maker grill on kitchen counter",

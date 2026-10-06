@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "audio-video",
   productSubcategory: "microfone",
+  productScore: 7.6,
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "usb condenser microphone desk setup",

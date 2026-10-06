@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "cozinha",
   productSubcategory: "air-fryer",
+  productScore: 8.0,
   date: "2026-10-03",
   readTime: 9,
   imageQuery: "air fryer kitchen counter french fries",

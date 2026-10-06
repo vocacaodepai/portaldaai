@@ -146,6 +146,15 @@ export type Article = {
   /** Taxonomia de produto (só artigos de `category: "ai-indica"`), para o filtro em /categoria/ai-indica. */
   productCategory?: ProductCategory;
   productSubcategory?: ProductSubcategory;
+  /**
+   * Nota editorial de 0 a 10 (uma casa decimal) do produto recomendado,
+   * usada pra mostrar o selo de nota no card de todo artigo `ai-indica`,
+   * comparativo ou review único. Em `kind: "review"`, normalmente igual a
+   * `review.score`; em comparativo (`kind: "guia"`), é a nota do produto
+   * que a gente indica no fim do texto (não existe campo `review` nesse
+   * caso, por comparar mais de um produto).
+   */
+  productScore?: number;
   date: string; // ISO (AAAA-MM-DD)
   /** Data da última atualização editorial (AAAA-MM-DD). */
   updated?: string;

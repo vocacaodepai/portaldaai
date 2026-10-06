@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "audio-video",
   productSubcategory: "caixa-de-som",
+  productScore: 7.9,
   date: "2026-09-30",
   readTime: 11,
   imageQuery: "portable bluetooth speaker outdoors comparison",

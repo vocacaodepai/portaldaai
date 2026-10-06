@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "audio-video",
   productSubcategory: "fone-bluetooth",
+  productScore: 7.9,
   date: "2026-09-29",
   readTime: 11,
   imageQuery: "three wireless earbuds cases side by side comparison",

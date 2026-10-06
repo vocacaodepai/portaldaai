@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "seguranca",
   productSubcategory: "camera-seguranca",
+  productScore: 8.0,
   date: "2026-10-03",
   readTime: 9,
   imageQuery: "indoor wifi security camera on shelf",
