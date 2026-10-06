@@ -21,6 +21,20 @@ export function getNewsBySlug(slug: string): NewsItem | undefined {
   return bySlug.get(slug);
 }
 
+/**
+ * Seed estável pra escolher a foto de capa (CoverImage) de uma notícia, que
+ * não tem o campo `seed` sequencial do Article. Hash simples (djb2) da slug
+ * inteira, não só o tamanho: duas notícias de tamanho de slug igual não
+ * podem cair no mesmo índice do resultado de busca e repetir a mesma foto.
+ */
+export function newsImageSeed(slug: string): number {
+  let hash = 5381;
+  for (let i = 0; i < slug.length; i++) {
+    hash = (hash * 33) ^ slug.charCodeAt(i);
+  }
+  return Math.abs(hash);
+}
+
 export function sortedNews(): NewsItem[] {
   return [...news].sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
 }

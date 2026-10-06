@@ -17,14 +17,25 @@ export type CoverOverride = { url: string; width: number; height: number; credit
  * genérico. Pexels/Pixabay seguem como último recurso, para temas
  * abstratos sem pessoa/empresa real identificável.
  */
+// "Dario Amodei portrait", "OpenAI logo": aponta pra uma pessoa ou empresa
+// real específica. Pexels/Pixabay não sabem quem é essa pessoa/empresa —
+// fazem busca por palavra-chave solta e podem devolver qualquer foto com
+// "portrait" ou "logo" na tag (já aconteceu de vir foto de gato pra "Dario
+// Amodei portrait"). Por isso, sem achado no Wikimedia/CSE pra esse tipo de
+// busca, não cai no banco de imagem genérico: fica no gradiente de
+// fallback, que é neutro, em vez de uma foto sem nenhuma relação com o fato.
+function isNamedEntityQuery(query: string): boolean {
+  return /\b(portrait|logo)$/i.test(query.trim());
+}
+
 async function resolveCoverPhoto(query: string, seed: number, override?: CoverOverride) {
-  return (
-    override ??
-    (await getWikimediaImage(query, seed)) ??
-    (await getGoogleCseWikimediaImage(query, seed)) ??
-    (await getPexelsImage(query, seed)) ??
-    (await getPixabayImage(query, seed))
-  );
+  if (override) return override;
+
+  const wikimedia = (await getWikimediaImage(query, seed)) ?? (await getGoogleCseWikimediaImage(query, seed));
+  if (wikimedia) return wikimedia;
+  if (isNamedEntityQuery(query)) return null;
+
+  return (await getPexelsImage(query, seed)) ?? (await getPixabayImage(query, seed));
 }
 
 // Fallback quando não há foto: gradiente escuro com um brilho da marca,
@@ -125,7 +136,7 @@ export async function CoverImage({
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
       decoding={priority ? "sync" : "async"}
-      className={override ? "h-full w-full object-contain p-3 sm:p-6" : "h-full w-full object-cover"}
+      className="h-full w-full object-cover"
     />
   );
   const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;

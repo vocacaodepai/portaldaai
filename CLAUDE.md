@@ -189,8 +189,13 @@ usada no projeto, sem custo e sem inventar nenhum pixel do produto):
 - **Foto real do produto**: baixar do site oficial do fabricante (nunca
   capturar da página da Amazon), salvar em `public/images/products/`, e
   referenciar via `coverImage` no `Article` (ver `lib/types.ts` e
-  `components/CoverImage.tsx`). O componente usa `object-contain` para nunca
-  esticar nem cortar a foto real.
+  `components/CoverImage.tsx`). O componente usa `object-cover` pra preencher
+  a caixa 16:9/16:10 do card por completo, sem faixa vazia nas bordas — por
+  isso a foto de produto sempre precisa chegar já enquadrada em 16:9 (foto
+  horizontal do fabricante, ou vertical processada por
+  `build-product-cover.mjs`, ver abaixo), nunca uma foto vertical crua: nesse
+  componente `object-cover` corta o excesso pra preencher a caixa, em vez de
+  esticar.
 - **Comparativo com várias fotos**: montar um card branco com sombra suave
   para cada produto, com o nome do modelo escrito por nós (não gerado por
   IA) embaixo, sobre um fundo com leve gradiente. Ver
@@ -283,6 +288,24 @@ real oficial do fabricante, nunca gerador de IA, `build-product-cover.mjs`
 para foto vertical de produto único, composição em cards pra comparativo) e
 nunca alega teste físico pessoal que não aconteceu: é análise a partir da
 ficha técnica oficial e das avaliações reais de compradores na Amazon.
+
+### Título do artigo de AI Indica: variar o formato (desde out/2026)
+
+`title` (e `seoTitle`, quando usado) não pode cair sempre no mesmo molde
+("`<produto>` vale a pena"). Olhe como site de afiliado de verdade escreve
+chamada e alterne entre formatos ao longo da semana, por exemplo:
+
+- Superlativo/ano: "Os 3 melhores fones bluetooth baratos de 2026"
+- Pergunta direta: "Vale a pena comprar a air fryer Philco PFR11P?"
+- Comparação direta: "Soundcore P20i ou JBL Tune 510BT: qual comprar?"
+- Uso/cenário: "Fone bluetooth até R$ 150: o que realmente vale o dinheiro"
+- Veredito antecipado: "Testamos o teclado Logitech K380: compacto, mas
+  com uma falha que pesa no preço"
+
+Evite repetir a mesma estrutura de título em dois artigos da mesma rodada
+(3 comparativos + 2 reviews) ou de rodadas consecutivas. O `seoTitle`
+(quando o `title` editorial for mais criativo/curto) pode levar a palavra-
+chave de busca por extenso; o `title` do card não precisa.
 
 ## Deploy
 

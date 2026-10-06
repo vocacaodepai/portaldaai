@@ -13,8 +13,16 @@ const TITLE = "Todos os artigos";
 const DESCRIPTION =
   "Guias práticos de inteligência artificial para iniciantes, monetização, pequenos negócios, ferramentas, carreira e futuro do trabalho. Artigos novos todo dia.";
 
+// AI Indica tem página própria (/categoria/ai-indica) e não é review de
+// ferramenta (/reviews é só kind:review de category:"ferramentas"): não
+// pertence a "todos os artigos", nem como comparativo nem como review de
+// produto único.
+function nonProductArticles() {
+  return sortedArticles().filter((a) => a.category !== "ai-indica");
+}
+
 export function artigosTotalPages(): number {
-  return countPages(sortedArticles().length, ARTICLES_PER_PAGE);
+  return countPages(nonProductArticles().length, ARTICLES_PER_PAGE);
 }
 
 export function artigosMetadata(page: number): Metadata {
@@ -26,7 +34,7 @@ export function artigosMetadata(page: number): Metadata {
 }
 
 export function ArtigosPage({ page }: { page: number }) {
-  const all = sortedArticles();
+  const all = nonProductArticles();
   const totalPages = countPages(all.length, ARTICLES_PER_PAGE);
   if (page > totalPages) notFound();
   const items = slicePage(all, page, ARTICLES_PER_PAGE);

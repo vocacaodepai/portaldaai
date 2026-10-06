@@ -17,7 +17,7 @@ import { faqJsonLd } from "@/components/article/schema";
 import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml } from "@/lib/html";
-import { getNewsBySlug, getRelatedNews, news } from "@/lib/news";
+import { getNewsBySlug, getRelatedNews, news, newsImageSeed } from "@/lib/news";
 import { absoluteUrl, breadcrumbJsonLd, formatDate, formatTime, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
@@ -180,7 +180,7 @@ export default async function NewsPage({ params }: { params: Params }) {
             {item.imageQuery && (
               <CoverImage
                 query={item.imageQuery}
-                seed={item.slug.length}
+                seed={newsImageSeed(item.slug)}
                 alt={item.title}
                 priority
                 className="mt-6"
