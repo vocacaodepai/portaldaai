@@ -9,6 +9,8 @@ export const item: NewsItem = {
   sourceName: "NPR",
   sourceUrl: "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
   date: "2026-10-05",
+  imageQuery: "Vote Here Election Polling Place",
+  topic: "regulacao",
   content: `
     <p>Eleitores americanos estão recorrendo a chatbots de inteligência artificial como ChatGPT, Gemini e Claude para pesquisar candidatos e até ajudar a decidir o próprio voto nas eleições de meio de mandato deste ano nos Estados Unidos. Segundo reportagem da <a href="https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election" target="_blank" rel="noopener noreferrer nofollow">NPR</a> publicada nesta segunda-feira (5), é a primeira eleição de meio de mandato depois que o uso de IA generativa se popularizou em massa no país, e isso já aparece no comportamento de quem vota.</p>
 
@@ -21,6 +23,11 @@ export const item: NewsItem = {
     <h2>Por que especialistas estão preocupados</h2>
     <p>Rafael Batista, pesquisador de pós-doutorado da Universidade Johns Hopkins especializado em impactos comportamentais da inteligência artificial, alertou que chatbots "podem selecionar coisas que reforçariam ainda mais a opinião que a pessoa já tinha antes de perguntar", um efeito de câmara de eco que fica mais difícil de perceber quando a resposta parece neutra e bem escrita. O próprio Johnson reconheceu o problema na prática: segundo ele, o ChatGPT é "meio um agradador de pessoas", numa referência à tendência bem documentada de modelos de linguagem de preferir concordar com quem pergunta em vez de confrontar a opinião do usuário, mesmo quando isso significa reforçar um raciocínio equivocado.</p>
     <p>Há ainda o risco, mais básico, de alucinação: chatbots de uso geral ocasionalmente geram informações falsas ou fabricadas sobre candidatos, datas de votação ou propostas, sem sinalizar incerteza. Como não existe transparência pública sobre os dados exatos usados para treinar cada modelo, Batista aponta que "é difícil saber quais preconceitos moldam as respostas" que o usuário recebe, problema que fica ainda mais sensível quando a resposta errada pode influenciar como alguém vota.</p>
+
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/GMU_Mason_Votes_GMU_Election_Day_Polling_Place_%288167172843%29.jpg" alt="Local de votação nos Estados Unidos no dia da eleição" />
+      <figcaption>Foto: Mason Votes / Wikimedia Commons (CC BY 2.0)</figcaption>
+    </figure>
 
     <h2>O que as empresas de IA dizem sobre uso político</h2>
     <p>Procurada pela NPR, a OpenAI direcionou a reportagem para sua página de salvaguardas eleitorais, afirmando que monitora viés nos modelos para manter respostas "politicamente neutras". Anthropic e Google, por outro lado, não responderam aos pedidos de comentário sobre o uso político de Claude e Gemini, silêncio que chama atenção justamente num momento em que as próprias empresas vêm sendo cobradas publicamente sobre segurança e responsabilidade, como mostrou a <a href="/noticias/nyc-council-audiencia-ia-coxon-reckless">audiência da Câmara de Nova York</a> com executivos de OpenAI, Anthropic, Google e Meta na semana passada.</p>

@@ -122,6 +122,17 @@ export type Article = {
 export type NewsFaqItem = FaqItem;
 export type NewsQuizQuestion = QuizQuestion;
 
+/** Tópicos de notícia, usados só pelo filtro em /noticias (não confundir com `categories` dos artigos). */
+export const newsTopics = [
+  { slug: "lancamentos", label: "Lançamentos" },
+  { slug: "regulacao", label: "Regulação" },
+  { slug: "mercado-trabalho", label: "Mercado de trabalho" },
+  { slug: "seguranca", label: "Segurança" },
+  { slug: "negocios", label: "Negócios" },
+] as const;
+
+export type NewsTopic = (typeof newsTopics)[number]["slug"];
+
 export type NewsItem = {
   slug: string;
   title: string;
@@ -136,6 +147,15 @@ export type NewsItem = {
    * /noticias/[slug]. Opcional só nas notícias antigas; todo item novo deve ter.
    */
   content?: string;
+  /**
+   * Texto livre descrevendo a foto da capa (ex.: "Sam Altman portrait",
+   * "OpenAI logo"), passado pela mesma cascata do CoverImage (Wikimedia
+   * Commons primeiro). Opcional: notícia sem imageQuery não mostra capa,
+   * mantendo o comportamento antigo.
+   */
+  imageQuery?: string;
+  /** Tópico usado só pelo filtro em /noticias. Opcional nas notícias antigas. */
+  topic?: NewsTopic;
   /** Perguntas frequentes exibidas em acordeão ao fim da matéria. */
   faq?: NewsFaqItem[];
   /** Quiz curto pra fixar o aprendizado, exibido ao fim da matéria. */

@@ -18,10 +18,11 @@ evolução, é Ferramentas.
 Quando o texto fala de uma pessoa real (ex.: Elon Musk, Sam Altman) ou de uma
 empresa específica, a capa deve ser uma foto real dessa pessoa/empresa, não
 uma ilustração genérica de banco de imagem. Isso já é automático: o
-`imageQuery` do artigo/notícia (mesmo campo de sempre, texto livre descrevendo
-a foto desejada) passa primeiro pela cascata abaixo antes de cair em
-Pexels/Pixabay — não precisa de nenhum campo novo, só escrever o `imageQuery`
-descrevendo a pessoa/empresa (ex.: `"Elon Musk portrait"`, `"OpenAI logo"`).
+`imageQuery` (texto livre descrevendo a foto desejada, ex.: `"Elon Musk
+portrait"`, `"OpenAI logo"`) passa primeiro pela cascata abaixo antes de cair
+em Pexels/Pixabay. Em artigo é campo de sempre; em notícia (`NewsItem`, ver
+"Padrão de imagem em notícias" abaixo) é opcional e novo — sem ele, a notícia
+simplesmente não mostra capa, como sempre foi.
 
 - **Wikimedia Commons** (`lib/wikimedia.ts`) é a primeira fonte: só fotos sob
   Creative Commons ou domínio público, com crédito e licença sempre visíveis
@@ -42,6 +43,37 @@ descrevendo a pessoa/empresa (ex.: `"Elon Musk portrait"`, `"OpenAI logo"`).
 - Para **produto físico** (categoria AI Indica), a regra já existente abaixo
   continua valendo e tem prioridade sobre toda essa cascata: foto oficial do
   fabricante, baixada manualmente, nunca Wikimedia/banco de imagem.
+
+## Padrão de imagem em notícias (desde out/2026)
+
+Toda notícia nova deve, a partir de agora, ter:
+
+- **`imageQuery`** (campo opcional em `NewsItem`, `lib/types.ts`): texto livre
+  descrevendo a capa, igual ao de artigo (ex.: `"Dario Amodei portrait"`,
+  `"OpenAI logo"`). Passa pela mesma cascata Wikimedia-primeiro da seção
+  acima. Sem pessoa/empresa identificável no fato (ex.: um lançamento de
+  modelo), descreva o tema mesmo assim (ex.: `"servidor data center"`) — a
+  cascata cai em Pexels/Pixabay sozinha quando o Wikimedia não acha nada.
+- **`topic`** (campo opcional em `NewsItem`): um dos slugs de `newsTopics`
+  (`lib/types.ts`): `lancamentos`, `regulacao`, `mercado-trabalho`,
+  `seguranca`, `negocios`. Alimenta o filtro em `/noticias`
+  (`components/NewsTopicFilter.tsx`), que é diferente do `CategoryChips` de
+  artigo (iniciantes, monetização...) — não usar esse último em notícia.
+- **1 ou 2 imagens no corpo**, nas notícias com pelo menos 900 palavras, pra
+  não ficar só texto corrido. Mesmo esquema de `<figure><img><figcaption>`
+  dos comparativos de produto (ver seção abaixo), mas aqui a foto vem direto
+  de uma URL real do Wikimedia Commons (`https://upload.wikimedia.org/...`),
+  igual ao processo de busca da cascata: buscar na API do Commons
+  (`action=query&generator=search&gsrsearch=<termo> filetype:bitmap...`),
+  confirmar a licença (`extmetadata.LicenseShortName`) e usar o `url`/
+  `thumburl` retornado, com `<figcaption>Foto: <autor> / Wikimedia Commons
+  (<licença>)</figcaption>`. `scripts/check-content.mjs` já libera
+  `upload.wikimedia.org` como domínio permitido em `<img src>` de notícia.
+  Nunca inventar uma URL de imagem: só usar a que a própria API retornou.
+
+Notícia sem `imageQuery` continua publicando normalmente (sem capa, como
+sempre foi) — isso é só o padrão daqui pra frente, não uma obrigação
+retroativa nas ~380 notícias antigas.
 
 ## Imagens de produto (categoria AI Indica)
 
@@ -72,6 +104,14 @@ usada no projeto, sem custo e sem inventar nenhum pixel do produto):
   em vez de blur ou espaço vazio, mantendo o produto nítido e centralizado
   por cima. Sem blur: cor chapada igual à da foto original, sem inventar
   nada.
+
+Essas fotos de produto, quando usadas dentro do corpo do comparativo em
+`<figure><img></figure>` (uma por seção, uma por produto), já saem com
+tamanho padronizado automaticamente: `.prose-article figure img` em
+`app/globals.css` força a mesma caixa (proporção 4:3, `object-fit: contain`,
+fundo neutro) pra toda foto de produto, não importa a resolução original do
+fabricante. Não precisa editar a foto nem adicionar `width`/`height` manual
+no HTML pra igualar o tamanho entre produtos — isso é só CSS, automático.
 
 ## Botão de compra (categoria AI Indica)
 

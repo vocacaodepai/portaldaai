@@ -281,7 +281,7 @@ function check() {
     let s;
     while ((s = srcRe.exec(it.content))) {
       const src = s[1].trim();
-      if (!/^(https:\/\/(images\.pexels\.com|pixabay\.com|cdn\.pixabay\.com)\/|\/)/i.test(src)) {
+      if (!/^(https:\/\/(images\.pexels\.com|pixabay\.com|cdn\.pixabay\.com|upload\.wikimedia\.org)\/|\/)/i.test(src)) {
         errors.push(`${where}: <img src> fora dos domínios permitidos -> ${src}`);
       }
     }

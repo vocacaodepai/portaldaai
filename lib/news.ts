@@ -8,7 +8,8 @@
 import { news as allNews } from "@/content/news";
 import type { NewsItem } from "@/lib/types";
 
-export type { NewsItem, NewsFaqItem, NewsQuizQuestion } from "@/lib/types";
+export type { NewsItem, NewsFaqItem, NewsQuizQuestion, NewsTopic } from "@/lib/types";
+export { newsTopics } from "@/lib/types";
 
 /** Todas as notícias, mais recentes primeiro (ordem definida pelo índice gerado). */
 export const news: NewsItem[] = allNews;
