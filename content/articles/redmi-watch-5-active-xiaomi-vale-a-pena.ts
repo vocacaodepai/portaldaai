@@ -62,11 +62,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O Redmi Watch 5 Active, da Xiaomi, é um dos smartwatches mais vendidos da <a href="https://www.amazon.com.br/dp/B0DFZPR9Z4" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 16 mil avaliações e nota 4,7 de 5 estrelas. Tem tela LCD de 2 polegadas, chamada por Bluetooth, mais de 140 modos de treino e promete até 18 dias de bateria em uso normal. Cruzamos a ficha técnica oficial da <a href="https://www.mi.com/global/product/redmi-watch-5-active/specs/" rel="noopener noreferrer nofollow">Xiaomi</a> com análises técnicas independentes para separar o que é real do que é só número de marketing na caixa.</p>
 
     <h2>O que o Redmi Watch 5 Active entrega</h2>

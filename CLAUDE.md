@@ -235,6 +235,19 @@ normais no texto, usar o botão de destaque `buy-btn` (classe liberada em
   link genérico de busca. `rel="sponsored noopener noreferrer"` e
   `target="_blank"` sempre presentes.
 
+## Transparência Amazon: uma vez só (desde out/2026)
+
+Em review de produto único (`kind: "review"`), a página já mostra a caixa
+"Transparência" automaticamente logo abaixo do veredito
+(`ReviewDisclosure` em `components/article/ReviewVerdict.tsx`, renderizada
+por `app/artigos/[slug]/page.tsx` sempre que o artigo tem `review`). Por
+isso, o `content` de um review único **não leva** o callout
+`<div class="callout-box"><span class="callout-label">Transparência
+Amazon</span>...</div>` — isso duplicava o mesmo aviso duas vezes na
+mesma página. Só o comparativo (`kind: "guia"`, sem campo `review`, sem
+`ReviewDisclosure` automática) precisa desse callout de transparência no
+corpo, uma vez, perto do início do texto.
+
 ## Continue lendo (categoria AI Indica)
 
 A seção "Continue lendo" ao fim de todo artigo (`app/artigos/[slug]/page.tsx`,

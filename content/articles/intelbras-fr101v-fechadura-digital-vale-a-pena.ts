@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Intelbras FR 101 V é a versão atual da fechadura digital de sobrepor mais vendida da marca no Brasil, disponível na <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38" rel="noopener noreferrer nofollow">Amazon Brasil</a>. O modelo usa teclado touch screen, cadastra até 105 senhas, tem entrada de emergência via USB-C e funciona em portas de madeira ou alumínio com espessura de 25 a 70mm. Analisamos a ficha técnica oficial da Intelbras cruzada com avaliações reais de compradores, pra separar o que entrega no dia a dia do que é só promessa de embalagem.</p>
 
     <h2>O que a Intelbras FR 101 V entrega</h2>

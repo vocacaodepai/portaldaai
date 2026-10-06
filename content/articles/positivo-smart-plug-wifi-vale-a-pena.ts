@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Smart Plug Wi-Fi da Positivo Casa Inteligente é hoje uma das tomadas inteligentes mais vendidas da <a href="https://www.amazon.com.br/Positivo-Casa-Inteligente-eletrodom%C3%A9sticos-Compat%C3%ADvel/dp/B07S14JHF2" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 13,8 mil avaliações e nota 4,7 de 5 estrelas. Ela suporta até 10A/1000W, conecta direto no Wi-Fi de 2,4GHz da casa e é compatível com Alexa e Google Assistente. Cruzamos a ficha técnica oficial da Positivo com avaliações reais de compradores na Amazon, pra entender o que ela resolve de verdade no dia a dia.</p>
 
     <h2>O que a Smart Plug entrega</h2>

@@ -62,11 +62,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O Logitech K380 é um dos teclados bluetooth mais vendidos da <a href="https://www.amazon.com.br/dp/B0BK9Y563Y" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com quase 7 mil avaliações e nota 4,8 de 5 estrelas. Compacto, sem fio por bluetooth e com três botões dedicados para trocar de dispositivo pareado, ele resolve um problema específico: quem usa mais de um aparelho no mesmo espaço de trabalho e cansou de digitar em teclados diferentes o dia inteiro. Cruzamos a <a href="https://www.logitech.com/en-us/shop/p/k380-multi-device-bluetooth-keyboard" rel="noopener noreferrer nofollow">ficha técnica oficial da Logitech</a> com avaliações reais de quem já comprou, para separar o que é diferencial de fato do que é só número de marketing.</p>
 
     <h2>O que o Logitech K380 entrega</h2>

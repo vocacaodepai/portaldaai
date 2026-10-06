@@ -60,11 +60,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box callout-tip">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Phomemo M110 é uma mini impressora de etiquetas térmica, do tamanho de uma caixa de fósforo grande, vendida na <a href="https://www.amazon.com.br/dp/B07YN44WLV" rel="noopener noreferrer nofollow">Amazon Brasil</a> com mais de 1,2 mil avaliações e nota 4,3 de 5. Segundo a <a href="https://phomemo.com/products/m110-label-maker" rel="noopener noreferrer">página oficial da Phomemo</a>, o modelo imprime por bluetooth direto do celular, sem tinta nem cartucho, usando papel térmico adesivo parecido com o de recibo de cartão de crédito.</p>
 
     <h2>O que a Phomemo M110 entrega</h2>

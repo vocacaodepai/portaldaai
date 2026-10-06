@@ -60,11 +60,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Philco PPP01P é uma panela de pressão elétrica digital de 6 litros, com mais de 2,5 mil avaliações na <a href="https://www.amazon.com.br/dp/B076HYCMZ2" rel="noopener noreferrer nofollow">Amazon Brasil</a> e nota 4,7 de 5 estrelas. Ela promete resolver o maior medo de quem usa panela de pressão tradicional: a possibilidade de a válvula travar ou o aparelho explodir por erro de manuseio. Analisamos a ficha técnica oficial da <a href="https://www.philco.com.br/panela-de-pressao-digital-6l-inox-preta-pppp-127v-056401054/p" rel="noopener noreferrer nofollow">Philco</a> e cruzamos com avaliações reais de quem já usa no dia a dia, pra separar o que funciona na prática do que é só promessa de caixa.</p>
 
     <h2>O que a Philco PPP01P entrega</h2>

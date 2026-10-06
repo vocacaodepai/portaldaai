@@ -60,11 +60,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>O Philco PMP1600P é o multiprocessador mais vendido da categoria na <a href="https://www.amazon.com.br/dp/B07QN1RW8K" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 3 mil avaliações e nota 4,4 de 5 estrelas. A proposta é ambiciosa: substituir liquidificador, processador de alimentos e espremedor de frutas num só aparelho de 1700W. Cruzamos a ficha técnica oficial da <a href="https://www.philco.com.br/multiprocessador-philco-1700w-pmp1600p/p" rel="noopener noreferrer nofollow">Philco</a> com avaliações reais de quem usa no dia a dia pra ver se a promessa de "9 em 1" realmente se sustenta fora da caixa.</p>
 
     <h2>O que o Philco PMP1600P entrega</h2>

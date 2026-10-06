@@ -62,11 +62,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A Logitech C920s é hoje uma das webcams mais vendidas da <a href="https://www.amazon.com.br/dp/B07K986YLL" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 32 mil avaliações e nota 4,8 de 5 estrelas. A própria Logitech descreve o modelo como a webcam mais vendida do mundo, dado que aparece na página oficial do produto. Grava em Full HD 1080p a 30fps, tem microfone duplo embutido e obturador físico de privacidade. Cruzamos a ficha técnica oficial da <a href="https://www.logitech.com/pt-br/shop/p/c920s-pro-hd-webcam" rel="noopener noreferrer nofollow">Logitech</a> com relatos de uso real de quem já comprou, para separar o que é diferencial de fato do que é só número na caixa.</p>
 
     <h2>O que a Logitech C920s entrega</h2>

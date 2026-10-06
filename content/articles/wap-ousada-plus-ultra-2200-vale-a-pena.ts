@@ -61,11 +61,6 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <div class="callout-box callout-tip">
-      <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelo link deste review, sem custo adicional para você. O preço muda com frequência: sempre confira o valor atual na página do produto antes de comprar.</p>
-    </div>
-
     <p>A WAP Ousada Plus Ultra 2200 é uma lavadora de alta pressão doméstica vendida na <a href="https://www.amazon.com.br/dp/B08DH78TK4" rel="noopener noreferrer nofollow">Amazon Brasil</a> com mais de 6 mil avaliações, nota 4,6 de 5 e o selo "Escolha da Amazon". Segundo a <a href="https://wap.ind.br/produtos/lavadora-desobstruidora-de-alta-pressao-wap-ousada-plus-2200-ultra/" rel="noopener noreferrer">página oficial da WAP</a>, o modelo tem motor de 1500W, pressão de até 1750 psi e vazão de 342 litros por hora, além de vir com uma mangueira extra pensada pra desentupir cano e calha.</p>
 
     <h2>O que a WAP Ousada Plus Ultra 2200 entrega</h2>
