@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CoverImage } from "@/components/CoverImage";
 import { site } from "@/lib/articles";
-import { newsPopularity, type NewsItem } from "@/lib/news";
+import { newsImageSeed, newsPopularity, type NewsItem } from "@/lib/news";
 import { formatTime } from "@/lib/seo";
 
 function shortDate(iso: string) {
@@ -42,7 +42,7 @@ export async function NewsRow({
         <Link href={`/noticias/${item.slug}`} className="block shrink-0 self-start">
           <CoverImage
             query={item.imageQuery}
-            seed={item.slug.length}
+            seed={newsImageSeed(item.slug)}
             alt=""
             showCredit={false}
             className="h-14 w-20 rounded-lg sm:h-16 sm:w-24"
