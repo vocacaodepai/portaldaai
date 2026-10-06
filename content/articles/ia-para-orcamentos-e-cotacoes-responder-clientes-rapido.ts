@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA para orçamentos e cotações: como montar modelo padrão, gerar propostas rápidas e responder cliente no mesmo dia, antes que ele feche com o concorrente.",
   category: "negocios",
+  articleSubcategory: "atendimento",
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "small business invoice quote laptop",

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA e privacidade: o que ChatGPT, Gemini e Claude guardam das suas conversas, como desligar o uso para treino de modelo e quais direitos a LGPD garante.",
   category: "futuro",
+  articleSubcategory: "regulacao-e-etica",
   date: "2026-09-19",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como editar fotos com IA no celular usando apps gratuitos como Gemini, ChatGPT e Google Fotos: remover objeto, melhorar nitidez e corrigir imagem em minutos.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-10-02",
   readTime: 7,
   imageQuery: "smartphone photo editing app screen",

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Monte um chatbot de atendimento para o seu site sem programar: ferramentas com plano gratuito, passo a passo, prompts prontos, custo em reais e exemplo real.",
   category: "negocios",
+  articleSubcategory: "atendimento",
   date: "2026-09-17",
   updated: "2026-09-27",
   readTime: 8,

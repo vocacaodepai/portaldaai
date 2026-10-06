@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Certificações de IA que valem a pena para a carreira em 2026: certificado do Google para não técnicos, Microsoft Azure AI-900, AWS e IBM. Veja duração, custo e para quem serve.",
   category: "carreira",
+  articleSubcategory: "curriculo-e-portfolio",
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "online course certificate laptop study",

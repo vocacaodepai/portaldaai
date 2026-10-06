@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro revisando textos com IA: pacotes com faixa de preço por lauda, ferramentas e custos, prompts prontos e erros que afastam clientes.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-09-23",
   updated: "2026-09-27",
   readTime: 8,

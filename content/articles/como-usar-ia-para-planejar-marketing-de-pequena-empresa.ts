@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA para planejar marketing de pequena empresa: calendário de conteúdo, ideias de post por nicho e como medir resultado sem precisar de agência ou equipe grande.",
   category: "negocios",
+  articleSubcategory: "vendas-e-marketing",
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "small business owner planning marketing notebook",

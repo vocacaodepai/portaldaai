@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "As profissões que vão surgir com a IA: 7 funções novas explicadas, o que fazem, se exigem programar, exemplo brasileiro e plano de 60 dias para entrar.",
   category: "futuro",
+  articleSubcategory: "trabalho-e-profissoes",
   date: "2026-09-12",
   updated: "2026-09-27",
   readTime: 9,

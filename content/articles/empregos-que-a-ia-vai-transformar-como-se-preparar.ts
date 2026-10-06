@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Veja os empregos que a IA vai transformar segundo Stanford e OIT, quais tarefas mudam em atendimento, administrativo, conteúdo e vendas, e um plano de 90 dias para se preparar.",
   category: "futuro",
+  articleSubcategory: "trabalho-e-profissoes",
   date: "2026-09-06",
   updated: "2026-09-27",
   readTime: 8,

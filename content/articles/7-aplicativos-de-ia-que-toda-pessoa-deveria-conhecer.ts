@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Aplicativos de IA além do ChatGPT: os 7 tipos que resolvem tarefas do dia a dia, com nome, plano gratuito, preço conferido e por onde começar sem se perder.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-09-16",
   updated: "2026-09-27",
   readTime: 8,

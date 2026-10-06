@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Edição de fotos com IA como serviço: ferramentas com preço conferido, fluxo de trabalho, pacotes por foto, exemplo em reais e erros que derrubam a margem.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-09-21",
   updated: "2026-09-27",
   readTime: 9,

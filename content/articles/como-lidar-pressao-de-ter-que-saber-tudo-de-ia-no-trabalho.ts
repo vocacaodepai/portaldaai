@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Pressão de ter que saber tudo de IA no trabalho? Veja por que ninguém acompanha tudo, o método das 3 ferramentas, a rotina de 1 hora semanal e prompts.",
   category: "carreira",
+  articleSubcategory: "mentalidade-e-adaptacao",
   date: "2026-09-21",
   updated: "2026-09-27",
   readTime: 8,

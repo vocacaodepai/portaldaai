@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Agente de IA, chatbot ou automação: veja a diferença real entre os três, uma tabela comparativa, um exemplo com números e um checklist antes de contratar.",
   category: "iniciantes",
+  articleSubcategory: "conceitos",
   date: "2026-09-22",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Gestão de equipe com IA no pequeno negócio: como montar escala de funcionários, distribuir tarefas automaticamente e acompanhar prazo sem contratar gerente.",
   category: "negocios",
+  articleSubcategory: "gestao-e-operacao",
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "small team meeting schedule whiteboard",

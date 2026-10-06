@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia prático para usar IA e reduzir o cancelamento de clientes: sinais de churn, radar semanal em planilha, prompts, exemplo com números e erros a evitar.",
   category: "negocios",
+  articleSubcategory: "retencao-e-experiencia",
   date: "2026-09-18",
   updated: "2026-09-27",
   readTime: 9,

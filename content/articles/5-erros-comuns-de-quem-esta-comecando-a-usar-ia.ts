@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Erros comuns de quem está começando a usar IA: pedido vago, resposta sem conferir, tarefa grande demais e falta de exemplo. Corrija todos em uma semana.",
   category: "iniciantes",
+  articleSubcategory: "conceitos",
   date: "2026-09-11",
   updated: "2026-09-27",
   readTime: 9,

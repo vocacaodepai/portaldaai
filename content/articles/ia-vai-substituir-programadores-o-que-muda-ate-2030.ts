@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA vai substituir programadores? Dados de pesquisas recentes, o que muda na profissão até 2030 e como qualquer pessoa da área pode se preparar desde já.",
   category: "futuro",
+  articleSubcategory: "trabalho-e-profissoes",
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "programmer laptop code office",

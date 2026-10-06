@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Previsão de vendas com IA para pequenos negócios: quais dados juntar, prompts prontos, Excel e Google Sheets, exemplo com números e erros que distorcem tudo.",
   category: "negocios",
+  articleSubcategory: "financas-e-precificacao",
   date: "2026-09-21",
   updated: "2026-09-27",
   readTime: 9,

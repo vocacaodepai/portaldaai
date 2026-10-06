@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Vagas de IA no Brasil em 2026: cargo que lidera o ranking do LinkedIn, habilidades mais pedidas, salário de referência e como entrar sem ser da área técnica.",
   category: "carreira",
+  articleSubcategory: "desenvolvimento-de-habilidades",
   date: "2026-09-29",
   readTime: 9,
   imageQuery: "professional office job interview laptop",

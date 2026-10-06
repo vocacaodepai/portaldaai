@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como usar IA para investir na bolsa sem complicar: ferramentas como Bridgewise e assistentes generativos, o que a CVM regula e os erros que custam dinheiro.",
   category: "iniciantes",
+  articleSubcategory: "vida-pratica",
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "stock market chart laptop finance",

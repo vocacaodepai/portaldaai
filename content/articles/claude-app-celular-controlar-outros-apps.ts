@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Claude no celular controla WhatsApp, Gmail, Calendário e mapas direto da conversa. Veja como funciona no Android e no iPhone, quais dados ele acessa e os limites de 2026.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "smartphone chat assistant app screen",

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Micro-SaaS com IA: como criar um pequeno software pago usando ferramentas como Lovable, validar com clientes reais e cobrar mensalidade sem saber programar.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "laptop app screen dashboard startup",

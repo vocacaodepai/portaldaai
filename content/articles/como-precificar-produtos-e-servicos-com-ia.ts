@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como precificar produtos e serviços com IA: custos que o achismo esquece, prompts prontos, exemplo brasileiro em R$ e os erros que fazem o preço sair errado.",
   category: "negocios",
+  articleSubcategory: "financas-e-precificacao",
   date: "2026-09-19",
   updated: "2026-09-27",
   readTime: 8,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como criar um negócio digital usando IA do zero: 6 passos, do problema validado ao primeiro cliente, com ferramentas, custo inicial em reais e erros a evitar.",
   category: "negocios",
+  articleSubcategory: "lancamento-e-estrategia",
   date: "2026-08-31",
   updated: "2026-09-27",
   readTime: 9,

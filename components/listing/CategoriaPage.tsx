@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
+  articleSubcategories,
   categories,
   getArticlesByCategory,
   getCategory,
@@ -19,13 +20,14 @@ import { ARTICLES_PER_PAGE, countPages, slicePage } from "./paginate";
 import { pageHref } from "@/components/Pagination";
 
 /**
- * AI Indica mostra tudo numa página só (sem paginar): o filtro de categoria
- * de produto (ver ProductCategoryFilter) só funciona dentro dos cards que já
- * estão na página, então paginar quebraria o filtro pra quem está numa
- * página diferente da do produto buscado.
+ * ai-indica e as 5 categorias gerais (todas com subfiltro próprio) mostram
+ * tudo numa página só: o filtro (ProductCategoryFilter/ArticleSubcategoryFilter)
+ * só funciona dentro dos cards que já estão na página, então paginar
+ * quebraria o filtro pra quem está numa página diferente do que busca.
+ * Só "ferramentas" (sem subfiltro) continua paginando normalmente.
  */
 function perPageFor(slug: string, total: number): number {
-  return slug === "ai-indica" ? Math.max(total, 1) : ARTICLES_PER_PAGE;
+  return slug === "ferramentas" ? ARTICLES_PER_PAGE : Math.max(total, 1);
 }
 
 export function categoriaBase(slug: string): string {
@@ -73,6 +75,13 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
         }
       : undefined;
 
+  const subcategoryFilter =
+    slug !== "ai-indica" && slug !== "ferramentas"
+      ? articleSubcategories
+          .filter((s) => s.category === slug)
+          .filter((s) => all.some((a) => a.articleSubcategory === s.slug))
+      : undefined;
+
   const collection = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -115,6 +124,7 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
         basePath={base}
         active={slug}
         productFilter={productFilter}
+        subcategoryFilter={subcategoryFilter}
         emptyTitle="Os primeiros artigos desta categoria estão a caminho"
         emptyText="Publicamos conteúdo novo todos os dias. Enquanto isso, veja o que já está no ar nas outras categorias."
       >

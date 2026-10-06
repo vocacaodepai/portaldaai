@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como validar ideia de negócio com IA antes de investir: 5 passos com prompts, Google Trends, teste de oferta em 7 dias e exemplo brasileiro com números.",
   category: "negocios",
+  articleSubcategory: "lancamento-e-estrategia",
   date: "2026-09-13",
   updated: "2026-09-27",
   readTime: 9,

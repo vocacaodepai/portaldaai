@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro criando prompts e templates de IA: formatos que vendem, passo a passo do pacote, taxas de Hotmart e Gumroad e exemplo com números.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-09-18",
   updated: "2026-09-27",
   readTime: 8,

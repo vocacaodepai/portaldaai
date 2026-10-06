@@ -1,6 +1,7 @@
 import { AdSlot } from "@/components/AdSlot";
 import { Container } from "@/components/Container";
 import { NewsList } from "@/components/NewsRow";
+import { NewsSortControl } from "@/components/NewsSortControl";
 import { NewsTopicFilter } from "@/components/NewsTopicFilter";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
@@ -60,6 +61,7 @@ export function NewsListing({
       {topicOptions.length > 0 && (
         <NewsTopicFilter topics={topicOptions} rootId={NEWS_LIST_ID} className="mt-8 border-y border-border py-3" />
       )}
+      <NewsSortControl rootId={NEWS_LIST_ID} />
       <div id={NEWS_LIST_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           {groups.length === 0 && (

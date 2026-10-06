@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como usar IA para estudar para provas e concursos: resumir edital e apostila, gerar questões de prática, explicar conceitos difíceis e montar plano de estudo.",
   category: "iniciantes",
+  articleSubcategory: "estudos",
   date: "2026-09-28",
   readTime: 7,
   imageQuery: "student notebook laptop studying desk",

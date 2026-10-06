@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Onboarding de clientes com IA: monte um fluxo de 7 dias com prompts prontos, WhatsApp automatizado e métricas, com um cenário em reais de um pequeno negócio.",
   category: "negocios",
+  articleSubcategory: "retencao-e-experiencia",
   date: "2026-09-22",
   updated: "2026-09-27",
   readTime: 8,

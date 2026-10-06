@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "10 formas de ganhar dinheiro com inteligência artificial em 2026: serviços, automação e produtos digitais, com faixa de preço, ferramenta e plano de 60 dias.",
   category: "monetizacao",
+  articleSubcategory: "negocios-online",
   date: "2026-08-30",
   updated: "2026-09-27",
   readTime: 9,

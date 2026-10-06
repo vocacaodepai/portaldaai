@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Freelancer na era da IA: veja o que perde valor, o que passa a valer mais, como cobrar por resultado, formalizar como MEI e se reposicionar em uma semana.",
   category: "carreira",
+  articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-09-04",
   updated: "2026-09-27",
   readTime: 8,

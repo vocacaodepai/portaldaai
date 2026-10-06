@@ -152,8 +152,8 @@ export default function Home() {
               className="hero-glow pointer-events-none absolute inset-x-0 -top-8 -z-10 h-3/4 opacity-30 blur-3xl"
             />
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
-              <div className="lg:col-span-8">
-                <ArticleCard article={lead} variant="featured" priority headingLevel="h2" />
+              <div className="lg:col-span-8 lg:h-full">
+                <ArticleCard article={lead} variant="featured" priority headingLevel="h2" className="lg:h-full" />
               </div>
               <div className="flex flex-col gap-4 lg:col-span-4">
                 {secondary.map((a) => (

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Monte um portfólio de habilidades de IA que recrutadores levam a sério: 4 tipos de prova, prompts prontos, exemplo brasileiro e onde publicar de graça.",
   category: "carreira",
+  articleSubcategory: "curriculo-e-portfolio",
   date: "2026-09-19",
   updated: "2026-09-27",
   readTime: 9,

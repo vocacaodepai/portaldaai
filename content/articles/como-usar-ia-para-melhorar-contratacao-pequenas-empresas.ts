@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia de contratação com IA para pequenas empresas: descrição da vaga, triagem de currículos com critérios objetivos, roteiro de entrevista, custos e LGPD.",
   category: "negocios",
+  articleSubcategory: "gestao-e-operacao",
   date: "2026-09-24",
   updated: "2026-09-27",
   readTime: 9,
