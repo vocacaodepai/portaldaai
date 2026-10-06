@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA para reduzir devoluções e trocas no e-commerce: provador virtual, recomendação de tamanho e automação de pós-venda. Veja números reais e como aplicar em loja pequena.",
   category: "negocios",
+  articleSubcategory: "retencao-e-experiencia",
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "online shop packages returns warehouse",

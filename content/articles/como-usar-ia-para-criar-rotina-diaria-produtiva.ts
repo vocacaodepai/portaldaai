@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Rotina diária produtiva com IA: três prompts para diagnosticar o dia, montar blocos e replanejar quando tudo muda, usando Gemini, ChatGPT ou Claude grátis.",
   category: "iniciantes",
+  articleSubcategory: "vida-pratica",
   date: "2026-09-24",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como migrar de carreira para a área de IA aproveitando o que você já sabe: caminhos de entrada, plano de 90 dias, cursos, custo das ferramentas e erros.",
   category: "carreira",
+  articleSubcategory: "desenvolvimento-de-habilidades",
   date: "2026-09-14",
   updated: "2026-09-27",
   readTime: 9,

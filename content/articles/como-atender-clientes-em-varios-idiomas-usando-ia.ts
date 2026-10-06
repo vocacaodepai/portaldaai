@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Atender clientes em vários idiomas com IA: comparativo de ferramentas, fluxo de trabalho, prompts para WhatsApp e e-mail, cenário brasileiro com custos e quando não usar.",
   category: "negocios",
+  articleSubcategory: "atendimento",
   date: "2026-09-15",
   updated: "2026-09-27",
   readTime: 8,

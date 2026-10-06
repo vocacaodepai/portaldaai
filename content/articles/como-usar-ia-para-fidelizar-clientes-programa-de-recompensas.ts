@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia prático para usar IA para fidelizar clientes em pequenos negócios: segmentação, regras do programa de recompensas, prompts prontos e exemplo com números.",
   category: "negocios",
+  articleSubcategory: "retencao-e-experiencia",
   date: "2026-09-25",
   updated: "2026-09-27",
   readTime: 9,

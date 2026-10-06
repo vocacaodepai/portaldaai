@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ArticleCategoryChips } from "@/components/ArticleCategoryChips";
+import { ArticleSubcategoryFilter } from "@/components/ArticleSubcategoryFilter";
 import { ProductCategoryFilter } from "@/components/ProductCategoryFilter";
 import { Container } from "@/components/Container";
 import { Pagination } from "@/components/Pagination";
@@ -27,6 +28,7 @@ export function ArticleListing({
   basePath,
   active,
   productFilter,
+  subcategoryFilter,
   emptyTitle = "Nenhum artigo por aqui ainda",
   emptyText = "Publicamos conteúdo novo todos os dias. Enquanto isso, explore as outras categorias.",
   children,
@@ -49,6 +51,8 @@ export function ArticleListing({
     categories: { slug: string; label: string }[];
     subcategories: { slug: string; label: string; category: string }[];
   };
+  /** Só nas categorias gerais (iniciantes, monetização...): subtipos presentes nos itens desta categoria. */
+  subcategoryFilter?: { slug: string; label: string }[];
   emptyTitle?: string;
   emptyText?: string;
   /** Conteúdo extra entre o cabeçalho e a grade (ex.: "Como avaliamos"). */
@@ -76,6 +80,13 @@ export function ArticleListing({
       ) : active !== "ferramentas" ? (
         <ArticleCategoryChips active={active} className="mt-8 border-y border-border py-3" />
       ) : null}
+      {subcategoryFilter && subcategoryFilter.length > 0 && (
+        <ArticleSubcategoryFilter
+          subcategories={subcategoryFilter}
+          rootId={ARTICLES_GRID_ID}
+          className="mt-3"
+        />
+      )}
       {children}
       <div id={ARTICLES_GRID_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">

@@ -9,8 +9,17 @@ import { articles as allArticles } from "@/content/articles";
 import type { Article, Category } from "@/lib/types";
 import { categories } from "@/lib/types";
 
-export type { Article, Category, FaqItem, QuizQuestion, ReviewData, ProductCategory, ProductSubcategory } from "@/lib/types";
-export { categories, productCategories, productSubcategories } from "@/lib/types";
+export type {
+  Article,
+  Category,
+  FaqItem,
+  QuizQuestion,
+  ReviewData,
+  ProductCategory,
+  ProductSubcategory,
+  ArticleSubcategory,
+} from "@/lib/types";
+export { categories, productCategories, productSubcategories, articleSubcategories } from "@/lib/types";
 
 export const site = {
   name: "Portal da AI",

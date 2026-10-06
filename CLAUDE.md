@@ -62,6 +62,20 @@ categoria do site inteiro repetido em toda aba:
   categoria/subcategoria específica). Essa página mostra todos os artigos
   de ai-indica numa página só (sem paginar), porque o filtro só funciona
   dentro dos cards que já estão na página.
+- **`/categoria/[slug]`** das 5 categorias gerais (iniciantes, monetização,
+  negócios, carreira, futuro) ganham, abaixo do `ArticleCategoryChips`, um
+  subfiltro de uma camada só (`ArticleSubcategoryFilter`,
+  `components/ArticleSubcategoryFilter.tsx`) pelo subtipo de artigo dentro
+  daquela categoria — ex., em Monetização: Freelas e serviço, Produtos
+  digitais, Automação e agentes... Todo artigo novo dessas 5 categorias
+  precisa ter `articleSubcategory` (`lib/types.ts`:
+  `articleSubcategories`, cada entrada aponta pro slug de `categories` a
+  que pertence) — sem o campo, o artigo só não aparece ao filtrar por um
+  subtipo específico (continua em "Todos"). Essas 5 categorias também
+  mostram tudo numa página só (sem paginar), mesmo motivo do ai-indica.
+  Cobrindo um tema que não se encaixa em nenhum subtipo existente da
+  categoria, adicionar o subtipo novo em `articleSubcategories` antes de
+  publicar.
 - **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
   sem chip de filtro extra — o conteúdo de ferramenta agora vive
   conceitualmente em `/reviews` (quando é review) e nos artigos gerais
@@ -137,6 +151,30 @@ Toda notícia nova deve, a partir de agora, ter:
 Notícia sem `imageQuery` continua publicando normalmente (sem capa, como
 sempre foi) — isso é só o padrão daqui pra frente, não uma obrigação
 retroativa nas ~380 notícias antigas.
+
+## Horário, ordenação e crédito de fonte em notícias (desde out/2026)
+
+- **`publishedAt`** (campo opcional em `NewsItem`, `lib/types.ts`): horário
+  exato de publicação em ISO 8601 com offset (ex.:
+  `"2026-10-05T14:32:00-03:00"`, fuso America/Sao_Paulo). Toda notícia nova
+  deve ter esse campo, com o horário real em que a rotina publica (use a
+  hora atual em Brasília no momento de escrever o esqueleto do arquivo, não
+  um horário fixo). Mostrado ao lado da data na listagem e no topo da
+  notícia (`lib/seo.ts`: `formatTime`). Notícia antiga sem `publishedAt`
+  mostra só a data, como sempre foi.
+- **Listagem em `/noticias`** tem um controle de ordenação
+  (`components/NewsSortControl.tsx`, "Ordenar: Mais recentes / Mais
+  antigas / Mais lidas") — não é filtro, só reordena o que já está na
+  página. "Mais lidas" usa o mesmo proxy sem analytics que
+  `getPopularArticles` (nº de links internos recebidos, ver
+  `newsPopularity` em `lib/news.ts`), não existe contagem de visualização
+  real no site.
+- **Crédito de fonte**: a listagem (`NewsRow`) e o topo da página da
+  notícia mostram só `"via Portal da AI"` (nunca o nome do veículo
+  original, tipo "via TechCrunch" ou "via Central de Ajuda") — o crédito à
+  fonte real (`sourceName`/`sourceUrl`) fica só dentro da matéria: citado
+  no texto (já é regra) e na caixa "Fonte original" ao fim do corpo (já
+  existe, não precisa de nada novo).
 
 ## Imagens de produto (categoria AI Indica)
 

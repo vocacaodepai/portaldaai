@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Perdeu a função para automação ou IA? Plano de 90 dias para se recolocar no mercado: seguro-desemprego, mapa de habilidades, currículo, prompts e onde buscar.",
   category: "carreira",
+  articleSubcategory: "entrevistas-e-recolocacao",
   date: "2026-09-18",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Organizar finanças pessoais com IA sem planilha complicada: prompts prontos para categorizar o extrato, montar orçamento e cortar gastos invisíveis.",
   category: "iniciantes",
+  articleSubcategory: "vida-pratica",
   date: "2026-09-23",
   updated: "2026-09-27",
   readTime: 8,

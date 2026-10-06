@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Síndrome do impostor com IA no trabalho: de onde vem a sensação, o que segue sendo mérito seu, um exercício prático e como falar do uso com o chefe.",
   category: "carreira",
+  articleSubcategory: "mentalidade-e-adaptacao",
   date: "2026-09-15",
   updated: "2026-09-27",
   readTime: 9,

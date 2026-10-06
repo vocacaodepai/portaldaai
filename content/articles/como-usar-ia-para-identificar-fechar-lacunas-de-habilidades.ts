@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia para usar IA e identificar lacunas de habilidades: comparar vaga com currículo, priorizar o que estudar, plano de 90 dias com cursos gratuitos e prompts.",
   category: "carreira",
+  articleSubcategory: "desenvolvimento-de-habilidades",
   date: "2026-09-26",
   updated: "2026-09-27",
   readTime: 8,

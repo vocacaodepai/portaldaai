@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Agentes de IA comprando por você: como funcionam os agentes de compras, o que muda para lojas e consumidores e um checklist para preparar sua loja.",
   category: "futuro",
+  articleSubcategory: "agentes-de-ia",
   date: "2026-09-21",
   updated: "2026-09-27",
   readTime: 8,

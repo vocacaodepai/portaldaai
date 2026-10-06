@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Assistente de voz com IA em 2026: entenda a troca do Google Assistant pelo Gemini, como configurar no celular e exemplos práticos de comando por voz.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-09-30",
   readTime: 7,
   imageQuery: "smartphone voice assistant hand kitchen",

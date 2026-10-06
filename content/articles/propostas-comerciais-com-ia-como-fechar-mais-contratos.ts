@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Propostas comerciais com IA: como gerar documento personalizado em minutos, enviar no momento certo e evitar os erros que fazem o cliente desistir da compra.",
   category: "negocios",
+  articleSubcategory: "vendas-e-marketing",
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "business proposal document laptop meeting",

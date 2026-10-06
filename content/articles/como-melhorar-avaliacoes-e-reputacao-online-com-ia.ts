@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Avaliações online e reputação: guia com prompts para responder críticas, análise de padrões, regras do Google para pedir avaliações e um cenário brasileiro com números.",
   category: "negocios",
+  articleSubcategory: "retencao-e-experiencia",
   date: "2026-09-20",
   updated: "2026-09-27",
   readTime: 8,

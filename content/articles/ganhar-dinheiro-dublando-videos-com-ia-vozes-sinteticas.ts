@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Ganhar dinheiro dublando vídeos com IA é possível com clonagem de voz. Veja ferramentas, preço verificado, passo a passo e como precificar o serviço.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-09-28",
   readTime: 9,
   imageQuery: "microphone headphones audio waveform",

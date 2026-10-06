@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Dicionário de inteligência artificial com 25 termos sem jargão: prompt, token, contexto, alucinação, agente, RAG e fine-tuning, com exemplos e fontes.",
   category: "iniciantes",
+  articleSubcategory: "conceitos",
   date: "2026-09-12",
   updated: "2026-09-27",
   readTime: 9,

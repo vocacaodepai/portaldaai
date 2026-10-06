@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como construir autoridade em IA no LinkedIn sem ser da área técnica: formatos de post que funcionam, rotina semanal, prompts e um exemplo com números reais.",
   category: "carreira",
+  articleSubcategory: "posicionamento-pessoal",
   date: "2026-09-23",
   updated: "2026-09-27",
   readTime: 8,

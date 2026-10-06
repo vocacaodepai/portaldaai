@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Assistente de IA pessoal: passo a passo de 15 minutos para configurar ChatGPT, Claude ou Gemini com instruções fixas, memória e prompts prontos para usar.",
   category: "iniciantes",
+  articleSubcategory: "apps-e-tarefas",
   date: "2026-09-18",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como negociar salário melhor sabendo usar IA: monte um dossiê com horas economizadas e resultados, pesquise a faixa de mercado e ensaie a conversa.",
   category: "carreira",
+  articleSubcategory: "entrevistas-e-recolocacao",
   date: "2026-09-16",
   updated: "2026-09-27",
   readTime: 9,

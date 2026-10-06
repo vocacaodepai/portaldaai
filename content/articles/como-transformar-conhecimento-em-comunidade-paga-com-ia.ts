@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Transforme conhecimento em comunidade paga usando IA para resumo, dúvidas e onboarding: preços verificados de Skool e Circle, rotina semanal e prompts.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-19",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como se tornar referência em IA na empresa sem ser do TI: plano de 90 dias, formatos para compartilhar o que aprendeu, prompts prontos e os erros que queimam a reputação.",
   category: "carreira",
+  articleSubcategory: "posicionamento-pessoal",
   date: "2026-09-17",
   updated: "2026-09-27",
   readTime: 8,

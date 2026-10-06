@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como montar e vender pacotes de automação de IA para negócios locais: automações que o dono entende, faixa de preço, ferramentas, exemplo com números e erros.",
   category: "monetizacao",
+  articleSubcategory: "automacao-e-agentes",
   date: "2026-09-22",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Aprenda a usar IA para planejar viagens: roteiro por dia, orçamento estimado, documentos e apoio durante a viagem, com prompts prontos e exemplo em reais.",
   category: "iniciantes",
+  articleSubcategory: "vida-pratica",
   date: "2026-09-26",
   updated: "2026-09-27",
   readTime: 9,

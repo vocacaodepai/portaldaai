@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Vender automações prontas com IA: o que empacotar, quanto cobrar, ferramentas com preço verificado e um passo a passo para entregar um produto que funciona.",
   category: "monetizacao",
+  articleSubcategory: "automacao-e-agentes",
   date: "2026-09-20",
   updated: "2026-09-27",
   readTime: 8,

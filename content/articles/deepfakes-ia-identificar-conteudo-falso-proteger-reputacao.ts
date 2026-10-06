@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Deepfakes: aprenda a identificar vídeo, áudio e imagem falsos feitos com IA, o que fazer nas primeiras 24 horas se for alvo e como proteger família e negócio.",
   category: "futuro",
+  articleSubcategory: "regulacao-e-etica",
   date: "2026-09-17",
   updated: "2026-09-27",
   readTime: 9,

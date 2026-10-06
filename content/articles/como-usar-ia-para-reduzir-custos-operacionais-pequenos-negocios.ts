@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia de IA para reduzir custos operacionais em pequenos negócios: onde a economia aparece primeiro, quanto custam as ferramentas e como calcular se compensa.",
   category: "negocios",
+  articleSubcategory: "financas-e-precificacao",
   date: "2026-09-23",
   updated: "2026-09-27",
   readTime: 9,

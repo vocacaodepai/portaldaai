@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Vender artes criadas com IA: print on demand, pacotes para negócios, encomendas e bancos de imagem, com regras de direito autoral, prompts e exemplo em reais.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-09-14",
   updated: "2026-09-27",
   readTime: 9,

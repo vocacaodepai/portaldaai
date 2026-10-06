@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Especialista em nicho de IA ou generalista? Veja quando cada caminho vale mais, uma tabela comparativa, um plano de 90 dias e um exemplo brasileiro com números.",
   category: "carreira",
+  articleSubcategory: "posicionamento-pessoal",
   date: "2026-09-22",
   updated: "2026-09-27",
   readTime: 8,

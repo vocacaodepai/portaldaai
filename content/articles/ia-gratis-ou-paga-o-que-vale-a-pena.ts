@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "IA grátis ou paga: o que os planos gratuitos de ChatGPT, Claude e Gemini entregam, quando vale pagar US$ 20 por mês e como decidir com um teste de 14 dias.",
   category: "iniciantes",
+  articleSubcategory: "conceitos",
   date: "2026-09-14",
   updated: "2026-09-27",
   readTime: 8,

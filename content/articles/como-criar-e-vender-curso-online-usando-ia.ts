@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como criar e vender curso online usando IA: passo a passo do roteiro à gravação, prompts prontos, custos verificados e os erros que derrubam a venda.",
   category: "monetizacao",
+  articleSubcategory: "produtos-digitais",
   date: "2026-09-15",
   updated: "2026-09-27",
   readTime: 9,

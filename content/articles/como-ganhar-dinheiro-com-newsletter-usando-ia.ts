@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro com newsletter usando IA: nicho, plataforma com preço verificado, prompts para rascunho e revisão, formas de monetizar e exemplo real.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-24",
   updated: "2026-09-27",
   readTime: 8,

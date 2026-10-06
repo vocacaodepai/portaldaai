@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Transcrição e legendagem com IA como renda extra: ferramentas, custo por minuto verificado, entrega em SRT, precificação e onde achar os primeiros clientes.",
   category: "monetizacao",
+  articleSubcategory: "freelance-servicos",
   date: "2026-09-17",
   updated: "2026-09-27",
   readTime: 9,

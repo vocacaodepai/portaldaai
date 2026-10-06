@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Avaliação de desempenho com IA: como grandes empresas já usam a tecnologia, o que muda para quem é avaliado e como documentar resultado antes do ciclo.",
   category: "carreira",
+  articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "office performance review meeting laptop",

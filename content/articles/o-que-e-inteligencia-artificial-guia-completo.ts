@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Entenda o que é inteligência artificial em linguagem simples: como funciona, exemplos do dia a dia, limites, prompts prontos e um passo a passo para começar.",
   category: "iniciantes",
+  articleSubcategory: "conceitos",
   date: "2026-08-29",
   updated: "2026-09-27",
   readTime: 8,

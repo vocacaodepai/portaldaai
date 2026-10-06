@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Como ganhar dinheiro ensinando IA para iniciantes: públicos que pagam, aula, oficina e curso com preços de referência, roteiro de 7 dias e erros a evitar.",
   category: "monetizacao",
+  articleSubcategory: "conteudo-e-midia",
   date: "2026-09-11",
   updated: "2026-09-27",
   readTime: 9,

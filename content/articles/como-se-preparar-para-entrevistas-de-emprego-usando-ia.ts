@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia para se preparar para entrevistas de emprego usando IA: prompts prontos, simulação por voz no Gemini e no Claude e um plano de 5 dias com custo zero.",
   category: "carreira",
+  articleSubcategory: "entrevistas-e-recolocacao",
   date: "2026-09-24",
   updated: "2026-09-27",
   readTime: 9,

@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Monitorar a concorrência com IA sem gastar horas: alertas gratuitos, prompts para resumir avaliações e uma rotina semanal que vira decisão de preço e produto.",
   category: "negocios",
+  articleSubcategory: "gestao-e-operacao",
   date: "2026-09-26",
   updated: "2026-09-27",
   readTime: 9,

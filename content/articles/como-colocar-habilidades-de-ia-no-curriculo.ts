@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Habilidades de IA no currículo: a fórmula tarefa, ferramenta e resultado, onde colocar, prompts para reescrever experiências e erros que eliminam candidatos.",
   category: "carreira",
+  articleSubcategory: "curriculo-e-portfolio",
   date: "2026-09-13",
   updated: "2026-09-27",
   readTime: 9,

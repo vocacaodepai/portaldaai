@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Roteiro para montar uma loja virtual em um fim de semana usando IA: preparação, plataforma, descrições, fotos, políticas, divulgação e custo em reais.",
   category: "negocios",
+  articleSubcategory: "lancamento-e-estrategia",
   date: "2026-09-10",
   updated: "2026-09-27",
   readTime: 9,

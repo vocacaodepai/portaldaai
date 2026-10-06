@@ -9,6 +9,7 @@ export const article: Article = {
   metaDescription:
     "Guia de IA para vender mais no negócio local: WhatsApp que responde rápido, posts da semana, avaliações no Google e promoções com base nos seus números.",
   category: "negocios",
+  articleSubcategory: "vendas-e-marketing",
   date: "2026-09-08",
   updated: "2026-09-27",
   readTime: 9,
