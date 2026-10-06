@@ -372,6 +372,24 @@ body {
   border: 1px solid var(--border);
 }
 
+/*
+ * Fotos de produto dentro de <figure> (comparativos de AI Indica) vêm do
+ * fabricante em resoluções bem diferentes (algumas quadradas e pequenas,
+ * outras grandes e verticais). Sem essa regra, cada uma aparece num
+ * tamanho diferente na página. Aqui todas ganham a mesma caixa (altura e
+ * proporção fixas) com object-fit: contain, que nunca estica nem corta a
+ * foto real, só centraliza sobre um fundo neutro igual para todas.
+ */
+.prose-article figure img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  object-fit: contain;
+  background: var(--surface-2);
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
 .prose-article figure {
   margin: 1.5rem 0;
 }

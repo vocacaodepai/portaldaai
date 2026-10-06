@@ -30,6 +30,7 @@ export function NoticiasPage({ page }: { page: number }) {
   const items = slicePage(all, page, NEWS_PER_PAGE);
   const groups = groupNewsByDay(items);
   const path = pageHref(BASE, page);
+  const availableTopics: string[] = [...new Set(all.flatMap((n) => (n.topic ? [n.topic] : [])))];
 
   const collection = {
     "@context": "https://schema.org",
@@ -61,7 +62,14 @@ export function NoticiasPage({ page }: { page: number }) {
           { name: "Notícias", path: BASE },
         ])}
       />
-      <NewsListing groups={groups} total={all.length} page={page} totalPages={totalPages} basePath={BASE} />
+      <NewsListing
+        groups={groups}
+        total={all.length}
+        page={page}
+        totalPages={totalPages}
+        basePath={BASE}
+        availableTopics={availableTopics}
+      />
     </>
   );
 }

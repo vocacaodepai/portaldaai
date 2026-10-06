@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
 import { Container } from "@/components/Container";
+import { CoverImage } from "@/components/CoverImage";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
@@ -179,6 +180,17 @@ export default async function NewsPage({ params }: { params: Params }) {
                 </span>
               </div>
             </header>
+
+            {item.imageQuery && (
+              <CoverImage
+                query={item.imageQuery}
+                seed={item.slug.length}
+                alt={item.title}
+                priority
+                className="mt-6"
+                creditPlacement="below"
+              />
+            )}
 
             {prepared ? (
               <div className="prose-article mt-8 max-w-[68ch]" dangerouslySetInnerHTML={{ __html: body }} />

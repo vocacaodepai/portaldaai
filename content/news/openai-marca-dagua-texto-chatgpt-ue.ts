@@ -9,6 +9,8 @@ export const item: NewsItem = {
   sourceName: "TechCrunch",
   sourceUrl: "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
   date: "2026-10-05",
+  imageQuery: "OpenAI logo",
+  topic: "regulacao",
   content: `
     <p>A OpenAI anunciou nesta segunda-feira (5) que vai passar a marcar com uma espécie de assinatura invisível todo texto gerado pelo ChatGPT e pelo Codex para usuários na União Europeia, nas próximas semanas. Segundo reportagem do <a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a tecnologia, batizada de textGrain, não insere nenhum símbolo visível no conteúdo: ela molda sutilmente as escolhas de palavras do modelo, criando um padrão estatístico que um leitor comum não percebe, mas que um detector da própria OpenAI consegue identificar depois.</p>
     <p>A medida nasce de uma obrigação legal, não de uma escolha espontânea da empresa. As regras de transparência do AI Act da União Europeia, que entraram em vigor em 2 de agosto, exigem que empresas de inteligência artificial sinalizem de alguma forma quando um conteúdo foi gerado por máquina. A marcação vai valer para todos os planos do ChatGPT na Europa, para o Codex e, em caráter opcional, para alguns modelos disponíveis via API em outras regiões do mundo, segundo o anúncio da própria OpenAI.</p>
@@ -18,6 +20,10 @@ export const item: NewsItem = {
     <p>A própria OpenAI reconheceu limites técnicos relevantes do método. Editar apenas 10% de um texto gerado pelo ChatGPT já reduz a taxa de detecção de 92% para 66%, e passagens curtas, respostas matemáticas e textos traduzidos para outro idioma são particularmente difíceis de identificar com confiança. Por isso, segundo a empresa, "essas limitações contribuíram para a decisão de oferecer acesso inicial ao detector apenas a pesquisadores aprovados e organizações especializadas", e não ao público em geral, ao menos nesta primeira fase.</p>
 
     <h2>Uma corrida regulatória que já vinha de outras frentes</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Person_holding_the_OpenAI_icon.jpg" alt="Pessoa segurando um ícone da OpenAI" />
+      <figcaption>Foto: FoxTPNL / Wikimedia Commons (CC BY 4.0)</figcaption>
+    </figure>
     <p>A exigência da União Europeia não é um caso isolado: o tema da rastreabilidade de conteúdo gerado por IA já apareceu em outras frentes regulatórias recentes, incluindo a tentativa, descartada no encontro entre Trump e Xi Jinping, de alinhar <a href="/noticias/marco-legal-ia-congresso-trump-xi-descarta-regulacao">regras internacionais comuns para inteligência artificial</a>. Sem esse acordo multilateral, cada bloco segue regulando por conta própria, e a União Europeia, historicamente mais rígida em privacidade e proteção de dados desde o GDPR, assumiu a dianteira nesse ponto específico de transparência de conteúdo sintético.</p>
     <p>O movimento também reflete uma pressão crescente sobre as grandes empresas de IA para que demonstrem mais responsabilidade pública, tema que ficou evidente na recente <a href="/noticias/nyc-council-audiencia-ia-coxon-reckless">audiência da Câmara de Vereadores de Nova York, em que executivos de OpenAI, Anthropic, Google e Meta testemunharam sob juramento</a> sobre riscos da tecnologia. Naquele mesmo pacote de projetos de lei em discussão em Nova York, aliás, já constava a exigência de validação externa antes de lançamentos, como mostrou o <a href="/noticias/nyc-council-projetos-lei-regulacao-ia-kill-switch-denuncia">resumo dos dez projetos de lei que a cidade avalia</a>. A marcação de texto é um tipo de exigência mais técnica e específica, mas caminha na mesma direção de maior prestação de contas.</p>
 

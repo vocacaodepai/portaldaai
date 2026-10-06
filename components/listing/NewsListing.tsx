@@ -1,13 +1,16 @@
 import { AdSlot } from "@/components/AdSlot";
-import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { NewsList } from "@/components/NewsRow";
+import { NewsTopicFilter } from "@/components/NewsTopicFilter";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
 import type { NewsItem } from "@/lib/news";
+import { newsTopics } from "@/lib/news";
 import { formatDate, relativeDay } from "@/lib/seo";
 import { ListingHeader } from "./ListingHeader";
 import { countLabel } from "./paginate";
+
+const NEWS_LIST_ID = "noticias-lista";
 
 export const NEWS_TITLE = "Notícias de inteligência artificial";
 export const NEWS_DESCRIPTION =
@@ -32,13 +35,18 @@ export function NewsListing({
   page,
   totalPages,
   basePath,
+  availableTopics = [],
 }: {
   groups: { date: string; items: NewsItem[] }[];
   total: number;
   page: number;
   totalPages: number;
   basePath: string;
+  /** Tópicos que já aparecem em alguma notícia publicada; sem nenhum, o filtro fica escondido. */
+  availableTopics?: string[];
 }) {
+  const topicOptions = newsTopics.filter((t) => availableTopics.includes(t.slug));
+
   return (
     <Container className="py-10 sm:py-14">
       <ListingHeader
@@ -49,8 +57,10 @@ export function NewsListing({
         page={page}
         totalPages={totalPages}
       />
-      <CategoryChips active="noticias" className="mt-8 border-y border-border py-3" />
-      <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+      {topicOptions.length > 0 && (
+        <NewsTopicFilter topics={topicOptions} rootId={NEWS_LIST_ID} className="mt-8 border-y border-border py-3" />
+      )}
+      <div id={NEWS_LIST_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           {groups.length === 0 && (
             <div className="rounded-xl border border-dashed border-border bg-surface p-8 text-center">
@@ -61,7 +71,7 @@ export function NewsListing({
             </div>
           )}
           {groups.map((group, i) => (
-            <section key={group.date} aria-labelledby={`dia-${group.date}`} className="mb-8">
+            <section key={group.date} data-day-section aria-labelledby={`dia-${group.date}`} className="mb-8">
               <h2
                 id={`dia-${group.date}`}
                 className="sticky top-16 z-10 -mx-4 flex items-baseline justify-between gap-3 border-b border-border bg-background/90 px-4 py-2.5 backdrop-blur sm:mx-0 sm:px-0"
