@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "casa-inteligente",
   productSubcategory: "umidificador",
+  productScore: 7.7,
   date: "2026-10-04",
   readTime: 8,
   imageQuery: "two air humidifiers side by side comparison",

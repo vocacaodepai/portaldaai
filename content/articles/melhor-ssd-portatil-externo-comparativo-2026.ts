@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "ssd-externo",
+  productScore: 8.0,
   date: "2026-10-01",
   readTime: 10,
   imageQuery: "two portable external ssd drives comparison desk",

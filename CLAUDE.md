@@ -13,6 +13,27 @@ Ao criar um artigo novo, decidir a categoria por essa regra: se tem link de
 compra com afiliado, é AI Indica; se é sobre a ferramenta de IA e sua
 evolução, é Ferramentas.
 
+## Nota (0-10) em todo artigo AI Indica, não só nos reviews (desde out/2026)
+
+Todo artigo de AI Indica mostra o selo de nota no card (`ReviewBadge` em
+`components/ArticleCard.tsx`), comparativo ou review único:
+
+- **Review de produto único** (`kind: "review"`): a nota já vem de
+  `review.score` (campo existente, 0-10, uma casa decimal).
+- **Comparativo** (`kind: "guia"`, 2-3 produtos): não tem campo `review`
+  (compara mais de um produto), então usa o campo novo `productScore`
+  (`lib/types.ts`), mesma escala 0-10 — a nota editorial do produto que o
+  texto recomenda no fim, não a média/estrela da Amazon citada na tabela
+  ("nota de compradores" é outra coisa, mantém como está no texto).
+- `ArticleCard` resolve a nota com `article.review?.score ??
+  article.productScore`: todo artigo ai-indica precisa ter um dos dois
+  preenchido pra mostrar o selo.
+- A régua de nota (o que significa 7, 8, 9...) é explicada pelo componente
+  `components/ScoreScaleNote.tsx`, mostrado na home (seção AI Indica) e no
+  topo de `/categoria/ai-indica`. Nota quebrada (ex.: 7,8) é proposital,
+  não erro de arredondamento — mostra diferença real entre dois produtos
+  que em nota inteira pareceriam iguais.
+
 ## Filtros de navegação (desde out/2026): cada aba filtra pelo próprio tema
 
 Cada listagem tem o filtro certo pro que ela mostra, em vez do mesmo chip de

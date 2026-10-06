@@ -10,6 +10,7 @@ import {
   site,
 } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
+import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { ArticleListing } from "./ArticleListing";
 import { JsonLd } from "./JsonLd";
 import { categoryIntros } from "./categoryIntros";
@@ -116,7 +117,9 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
         productFilter={productFilter}
         emptyTitle="Os primeiros artigos desta categoria estão a caminho"
         emptyText="Publicamos conteúdo novo todos os dias. Enquanto isso, veja o que já está no ar nas outras categorias."
-      />
+      >
+        {slug === "ai-indica" && <ScoreScaleNote />}
+      </ArticleListing>
     </>
   );
 }

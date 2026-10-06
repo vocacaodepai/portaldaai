@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "power-bank",
+  productScore: 7.7,
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "portable power bank charger on desk with phone",

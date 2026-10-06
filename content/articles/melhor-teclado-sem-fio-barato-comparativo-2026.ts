@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "teclado",
+  productScore: 7.8,
   date: "2026-10-01",
   readTime: 10,
   imageQuery: "three wireless keyboards side by side comparison desk",

@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "cozinha",
   productSubcategory: "liquidificador",
+  productScore: 7.8,
   date: "2026-10-04",
   readTime: 9,
   imageQuery: "three kitchen blenders side by side comparison",

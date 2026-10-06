@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "casa-inteligente",
   productSubcategory: "ventilador",
+  productScore: 7.6,
   date: "2026-10-04",
   readTime: 10,
   imageQuery: "three electric fans side by side comparison",

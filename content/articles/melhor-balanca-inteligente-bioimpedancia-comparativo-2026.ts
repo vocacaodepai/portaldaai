@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "saude-bem-estar",
   productSubcategory: "balanca-inteligente",
+  productScore: 7.8,
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "smart bathroom scale bioimpedance app bluetooth",

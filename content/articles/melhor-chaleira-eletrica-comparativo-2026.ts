@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "cozinha",
   productSubcategory: "chaleira",
+  productScore: 7.6,
   date: "2026-10-05",
   readTime: 10,
   imageQuery: "electric kettle on kitchen counter stainless steel",

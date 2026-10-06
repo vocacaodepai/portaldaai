@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "mouse",
+  productScore: 8.1,
   date: "2026-09-30",
   readTime: 10,
   imageQuery: "wireless computer mouse on desk comparison",

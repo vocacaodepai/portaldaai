@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "carregador",
+  productScore: 7.8,
   date: "2026-10-02",
   readTime: 10,
   imageQuery: "usb-c gan wall charger compact travel",

@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "casa-inteligente",
   productSubcategory: "robo-aspirador",
+  productScore: 7.6,
   date: "2026-10-03",
   readTime: 10,
   imageQuery: "robot vacuum cleaner on wood floor living room",

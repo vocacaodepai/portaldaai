@@ -11,6 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "casa-inteligente",
   productSubcategory: "lampada-inteligente",
+  productScore: 7.7,
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "two smart wifi light bulbs comparison white background",

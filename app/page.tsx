@@ -6,6 +6,7 @@ import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { NewsList } from "@/components/NewsRow";
 import { NewsTicker } from "@/components/NewsTicker";
+import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { SectionHeading } from "@/components/SectionHeading";
 import { FeaturedList, Sidebar } from "@/components/Sidebar";
 import {
@@ -210,7 +211,8 @@ export default function Home() {
                 href="/categoria/ai-indica"
                 linkText="Ver todas as indicações"
               />
-              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              <ScoreScaleNote />
+              <div className="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 {aiIndicaPicks.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
