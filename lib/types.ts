@@ -170,6 +170,11 @@ export const productSubcategories = [
   { slug: "hub-usb-c", label: "Hub USB-C", category: "informatica" },
   { slug: "balanca-inteligente", label: "Balança Inteligente", category: "saude-bem-estar" },
   { slug: "smartwatch", label: "Smartwatch", category: "saude-bem-estar" },
+  { slug: "escova-dental-eletrica", label: "Escova Dental Elétrica", category: "saude-bem-estar" },
+  { slug: "monitor", label: "Monitor", category: "informatica" },
+  { slug: "aspirador-vertical", label: "Aspirador de Pó Vertical", category: "casa-inteligente" },
+  { slug: "projetor-portatil", label: "Projetor Portátil", category: "audio-video" },
+  { slug: "campainha-inteligente", label: "Campainha Inteligente", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
