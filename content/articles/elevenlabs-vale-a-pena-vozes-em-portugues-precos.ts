@@ -20,12 +20,6 @@ export const article: Article = {
     "Português do Brasil e de Portugal funciona nos modelos Multilingual v2 e Flash v2.5, e a conta certa depende de quantos minutos de áudio você gera por mês.",
     "Clonar voz exige consentimento: o clone profissional só pode ser da sua própria voz, e imitar outra pessoa sem autorização viola a política de uso.",
   ],
-  sources: [
-    { label: "ElevenLabs: preços e planos", url: "https://elevenlabs.io/pricing" },
-    { label: "ElevenLabs: documentação de texto para fala", url: "https://elevenlabs.io/docs/overview/capabilities/text-to-speech" },
-    { label: "ElevenLabs: documentação de clonagem de voz", url: "https://elevenlabs.io/docs/creative-platform/voices/voice-cloning" },
-    { label: "ElevenLabs: política de uso proibido", url: "https://elevenlabs.io/use-policy" },
-  ],
   content: `
     <p>ElevenLabs vale a pena se você precisa de narração em português com voz natural para vídeo, audiobook ou podcast e gera áudio com frequência. Para quem só quer testar ou narrar um vídeo ocasional, o plano gratuito basta para descobrir se o resultado serve antes de pagar.</p>
 

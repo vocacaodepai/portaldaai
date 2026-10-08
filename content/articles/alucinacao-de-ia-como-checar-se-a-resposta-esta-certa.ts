@@ -21,16 +21,6 @@ export const article: Article = {
     "Números, datas, leis, links e citações são os alvos preferidos do erro, e um método de 5 passos com fonte primária resolve a maior parte dos casos.",
     "Em saúde, direito e finanças a IA serve para organizar perguntas, nunca para decidir: a palavra final é do profissional ou do documento oficial.",
   ],
-  sources: [
-    {
-      label: "Anthropic: Reduce hallucinations (documentação oficial)",
-      url: "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations",
-    },
-    {
-      label: "Kalai et al.: Why Language Models Hallucinate (arXiv, 2025)",
-      url: "https://arxiv.org/abs/2509.04664",
-    },
-  ],
   content: `
     <p>Alucinação de IA é quando um chatbot como ChatGPT, Gemini ou Claude entrega uma informação falsa com o mesmo tom de segurança que usaria para uma verdadeira. Pode ser uma lei que não existe, um número inventado ou um link que leva a lugar nenhum. A defesa é um hábito simples de checagem, e ele cabe em cinco passos.</p>
 

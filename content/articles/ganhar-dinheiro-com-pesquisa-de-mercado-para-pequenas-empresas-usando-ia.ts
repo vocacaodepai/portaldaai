@@ -21,20 +21,6 @@ export const article: Article = {
     "O pacote que funciona tem escopo fechado: concorrentes, preços e público em um relatório curto, com fontes citadas e uma recomendação de ação, e não uma pilha de dados soltos.",
     "A IA acelera coleta e organização, mas você confere cada número na fonte, protege os dados do cliente e cobra pela decisão que o relatório permite, não pelas horas gastas.",
   ],
-  sources: [
-    {
-      label: "Sebrae PR: como fazer uma pesquisa de mercado",
-      url: "https://sebraepr.com.br/comunidade/artigo/pesquisa-de-mercado-como-fazer-uma-pesquisa-de-mercado",
-    },
-    {
-      label: "Google Trends",
-      url: "https://trends.google.com/trends/",
-    },
-    {
-      label: "ANPD: Autoridade Nacional de Proteção de Dados",
-      url: "https://www.gov.br/anpd/pt-br",
-    },
-  ],
   content: `
     <p>Pesquisa de mercado com IA é o serviço de levantar concorrentes, preços e perfil do público de uma pequena empresa usando ferramentas de inteligência artificial para coletar e organizar a informação, e entregar um relatório curto com recomendação. O cliente paga pela decisão mais segura, não pela ferramenta.</p>
 

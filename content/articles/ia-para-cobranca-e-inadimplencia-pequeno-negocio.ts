@@ -21,11 +21,6 @@ export const article: Article = {
     "Uma planilha de recebíveis simples, com vencimento, valor e status de cada cliente, é a base que permite à IA indicar quem cobrar hoje.",
     "Dados de clientes usados na cobrança entram na LGPD: compartilhe com a IA só o necessário, de preferência sem CPF e sem dados bancários.",
   ],
-  sources: [
-    { label: "ANPD: Autoridade Nacional de Proteção de Dados", url: "https://www.gov.br/anpd/pt-br" },
-    { label: "Serpro: o que muda com a LGPD", url: "https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd" },
-    { label: "Sebrae RN: inteligência artificial para pequenos negócios", url: "https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/" },
-  ],
   content: `
     <p>Cobrança com IA é usar inteligência artificial para organizar quem deve, quando lembrar cada cliente e como escrever a mensagem de cobrança sem constrangimento. Na prática, você mantém uma planilha de recebíveis, define uma régua de lembretes e pede para a IA redigir e ajustar o tom de cada aviso.</p>
 

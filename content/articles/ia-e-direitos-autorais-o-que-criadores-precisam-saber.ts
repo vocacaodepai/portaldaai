@@ -21,20 +21,6 @@ export const article: Article = {
     "O treino de modelos com obras protegidas segue em disputa judicial no mundo e em projetos de lei no Brasil, então o criador deve proteger o que publica e escolher ferramentas com termos claros.",
     "Para usar IA com segurança em trabalho comercial, vale registrar o processo, editar de forma humana relevante, ler os termos da ferramenta e avisar o cliente por escrito.",
   ],
-  sources: [
-    {
-      label: "Câmara dos Deputados: tramitação do PL 2338/2023 e projetos apensados sobre direitos autorais e IA",
-      url: "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
-    },
-    {
-      label: "U.S. Copyright Office: Copyright and Artificial Intelligence",
-      url: "https://www.copyright.gov/ai/",
-    },
-    {
-      label: "WIPO: WIPO and Artificial Intelligence",
-      url: "https://www.wipo.int/about-ip/en/artificial_intelligence/",
-    },
-  ],
   content: `
     <p>IA e direitos autorais é o assunto que todo criador brasileiro que usa ChatGPT, Midjourney ou Claude acaba encontrando: quem é o dono do que a IA gerou, o que pode ser vendido e o que precisa ser avisado ao cliente. A resposta curta é que a Lei 9.610 protege a criação humana, e o resto ainda depende de contrato, termos de uso e decisões que estão sendo tomadas agora.</p>
     <p>Este guia organiza o que já é claro e o que ainda está em aberto, com um exemplo de freelancer e um checklist de declaração. Quem já produz com IA, seja <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">vídeos, textos e artes</a> ou material para vender, encontra aqui o que ajustar na rotina.</p>
