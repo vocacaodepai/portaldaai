@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "thoughtworks-pesquisa-ceos-lideram-agenda-ia-brasil-governanca",
-  title: "Pesquisa: no Brasil, CEOs lideram a agenda de IA, mas governança gera atrito",
+  title: "CEOs lideram a agenda de IA no Brasil, mas governança gera atrito",
   summary:
     "Pesquisa com 400 executivos no Brasil mostra o CEO como maior influenciador das decisões de IA, mas a divisão de papéis entre CIO e CAIO gera atrito.",
   author: "Bruno Danello",
