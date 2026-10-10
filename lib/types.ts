@@ -135,6 +135,7 @@ export const productCategories = [
   { slug: "audio-video", label: "Áudio e Vídeo" },
   { slug: "informatica", label: "Informática e Acessórios" },
   { slug: "saude-bem-estar", label: "Saúde e Bem-estar" },
+  { slug: "automotivo", label: "Automotivo" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -175,6 +176,11 @@ export const productSubcategories = [
   { slug: "aspirador-vertical", label: "Aspirador de Pó Vertical", category: "casa-inteligente" },
   { slug: "projetor-portatil", label: "Projetor Portátil", category: "audio-video" },
   { slug: "campainha-inteligente", label: "Campainha Inteligente", category: "seguranca" },
+  { slug: "headset-gamer", label: "Headset Gamer", category: "informatica" },
+  { slug: "monitor-pressao", label: "Monitor de Pressão", category: "saude-bem-estar" },
+  { slug: "compressor-ar", label: "Compressor de Ar Portátil", category: "automotivo" },
+  { slug: "camera-instantanea", label: "Câmera Instantânea", category: "audio-video" },
+  { slug: "impressora", label: "Impressora", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
