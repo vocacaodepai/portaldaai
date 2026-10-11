@@ -181,6 +181,11 @@ export const productSubcategories = [
   { slug: "compressor-ar", label: "Compressor de Ar Portátil", category: "automotivo" },
   { slug: "camera-instantanea", label: "Câmera Instantânea", category: "audio-video" },
   { slug: "impressora", label: "Impressora", category: "informatica" },
+  { slug: "batedeira", label: "Batedeira", category: "cozinha" },
+  { slug: "forno-eletrico", label: "Forno Elétrico", category: "cozinha" },
+  { slug: "ferro-de-passar", label: "Ferro de Passar", category: "casa-inteligente" },
+  { slug: "secador-cabelo", label: "Secador de Cabelo", category: "saude-bem-estar" },
+  { slug: "barbeador", label: "Barbeador e Aparador", category: "saude-bem-estar" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
