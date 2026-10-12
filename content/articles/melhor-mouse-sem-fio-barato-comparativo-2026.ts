@@ -2,10 +2,10 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "melhor-mouse-sem-fio-barato-comparativo-2026",
-  title: "O mouse de R$ 58 que 70 mil pessoas aprovam: comparamos 3 modelos sem fio da Logitech",
+  title: "O mouse sem fio barato que 70 mil pessoas aprovam: comparamos 3 da Logitech",
   seoTitle: "Melhor mouse sem fio 2026: comparativo Logitech com nota real",
   excerpt:
-    "Colocamos lado a lado o Logitech M170 (R$ 58), o M240 Bluetooth com clique silencioso e o Pebble M350 para ver qual mouse sem fio vale mais o seu dinheiro.",
+    "Colocamos lado a lado o Logitech M170, o M240 Bluetooth com clique silencioso e o Pebble M350 para ver qual mouse sem fio vale mais o seu dinheiro.",
   metaDescription:
     "Comparativo real entre Logitech M170, M240 e Pebble M350: conexão, bateria, clique silencioso e para quem cada mouse sem fio vale a pena, com nota por critério.",
   category: "ai-indica",
@@ -26,7 +26,7 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "Comparamos 3 mouses sem fio reais da Logitech vendidos na Amazon Brasil: M170 (R$ 58, nano receptor USB), M240 (Bluetooth, clique silencioso) e Pebble M350 (Bluetooth ou USB, o mais fino dos três).",
+    "Comparamos 3 mouses sem fio reais da Logitech vendidos na Amazon Brasil: M170 (nano receptor USB), M240 (Bluetooth, clique silencioso) e Pebble M350 (Bluetooth ou USB, o mais fino dos três).",
     "O mais barato dos três, o M170, tem 4,8 de 5 estrelas em mais de 70 mil avaliações, prova de que preço baixo não significa qualidade ruim nesse caso.",
     "A diferença real entre eles está no tipo de conexão e no nível de silêncio do clique, não em precisão para uso do dia a dia, que é parecida nos três.",
   ],
@@ -44,7 +44,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço aprox.</th>
+          <th>Faixa de preço</th>
           <th>Conexão</th>
           <th>Clique silencioso</th>
           <th>Bateria</th>
@@ -53,21 +53,21 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Logitech M170</td>
-          <td>R$ 58 (verificado em 30/09/2026)</td>
+          <td>R$ 50 a R$ 65</td>
           <td>Nano receptor USB (2,4GHz)</td>
           <td>Não</td>
           <td>Até 12 meses (1 pilha AA)</td>
         </tr>
         <tr>
           <td>Logitech M240</td>
-          <td>R$ 79 (verificado em 30/09/2026)</td>
+          <td>R$ 70 a R$ 90</td>
           <td>Bluetooth (sem receptor)</td>
           <td>Sim (redução de até 90%)</td>
           <td>Até 18 meses (1 pilha AA)</td>
         </tr>
         <tr>
           <td>Logitech Pebble M350</td>
-          <td>R$ 244 (verificado em 30/09/2026)</td>
+          <td>R$ 210 a R$ 280</td>
           <td>Bluetooth ou nano receptor USB</td>
           <td>Sim</td>
           <td>Até 18 meses (1 pilha AAA)</td>
@@ -82,7 +82,7 @@ export const article: Article = {
       <figcaption>Foto oficial: Logitech</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B01A9GXMW2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M170 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B01A9GXMW2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M170 na Amazon agora ↗</a>
     </div>
     <p>O <a href="https://www.amazon.com.br/dp/B01A9GXMW2?tag=portaldaai-20" rel="sponsored noopener noreferrer">M170</a> é hoje um dos mouses mais vendidos da Amazon Brasil, com nota 4,8 de 5 em mais de 70 mil avaliações. Conecta por um nano receptor USB que fica praticamente invisível na entrada do notebook, sensor óptico preciso para a maioria das superfícies e bateria que dura até 12 meses com uma pilha AA só. O clique não é silencioso, então em ambiente que exige silêncio (biblioteca, home office compartilhado) pode incomodar. Fora isso, é a opção mais racional para quem só quer trocar o touchpad por um mouse de verdade sem gastar quase nada.</p>
 
@@ -92,7 +92,7 @@ export const article: Article = {
       <figcaption>Foto oficial: Logitech</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0BXNR9DB6?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M240 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0BXNR9DB6?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M240 na Amazon agora ↗</a>
     </div>
     <p>O <a href="https://www.amazon.com.br/dp/B0BXNR9DB6?tag=portaldaai-20" rel="sponsored noopener noreferrer">M240</a> resolve dois problemas do M170 de uma vez: conecta por Bluetooth direto (sem ocupar porta USB nem depender de receptor que pode se perder) e tem clique silencioso, com até 90% menos ruído de clique segundo a Logitech, mantendo a sensação tátil do botão. É a escolha certa para quem usa notebook com poucas portas USB ou trabalha perto de outras pessoas e não quer o barulho constante de clique. A bateria dura até 18 meses com uma pilha AA.</p>
 
@@ -102,19 +102,63 @@ export const article: Article = {
       <figcaption>Foto oficial: Logitech</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0B8LBH55N?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Pebble M350 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0B8LBH55N?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Pebble M350 na Amazon agora ↗</a>
     </div>
     <p>O <a href="https://www.amazon.com.br/dp/B0B8LBH55N?tag=portaldaai-20" rel="sponsored noopener noreferrer">Pebble M350</a> custa mais que o triplo do M240, mas entrega o que nenhum dos outros dois tem: alterna entre Bluetooth e nano receptor USB (útil para quem usa mais de um dispositivo, como notebook e tablet) e um design fino, de perfil baixo, que cabe melhor em bolsa ou mochila apertada. O clique também é silencioso. É a opção para quem prioriza design discreto e flexibilidade de conexão acima de economizar.</p>
 
     <h2>Bateria dura mesmo o que o fabricante promete?</h2>
     <p>Nos três casos, o tempo de bateria anunciado (12 a 18 meses) é consistente com relatos de usuários em avaliações reais na Amazon, desde que o mouse não fique ligado sem uso por longos períodos sem entrar em modo de espera. Os três têm hibernação automática, que corta o consumo quando o mouse fica parado. Isso é bem diferente de fone bluetooth, por exemplo, onde a autonomia real costuma ficar abaixo da anunciada, como mostramos no nosso <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">comparativo de fones bluetooth baratos</a>.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B01A9GXMW2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M170 na Amazon agora ↗</a>
+    </div>
 
     <h2>Por que isso importa para quem trabalha com IA</h2>
     <p>Quem passa o dia inteiro usando ferramenta de IA para trabalho (seja <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">escolher a ferramenta certa</a>, revisar texto gerado ou organizar planilha) sente diferença real num mouse com boa precisão e conforto na mão, mesmo em tarefas simples. Um clique ruidoso o dia inteiro cansa mais do que parece, e a ergonomia de um mouse fino como o Pebble ajuda quem trabalha muitas horas seguidas. Para quem monta o primeiro <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">setup pessoal com apoio de IA</a>, um mouse sem fio decente é um dos acessórios mais baratos de acertar de primeira.</p>
     <p>Isso vale também para quem passa o dia navegando em planilha ao <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">automatizar relatório no Excel e Sheets com IA</a>, organizando a caixa de entrada com <a href="/artigos/ia-para-email-organizar-caixa-de-entrada-responder-mais-rapido">IA para email</a>, ou montando slide com <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">apresentações profissionais feitas com IA</a>: são tarefas de clique repetitivo, onde um mouse ruim cansa a mão bem mais rápido que um bom. Quem ainda está decidindo entre <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> para o trabalho do dia a dia já sabe que o acessório físico também faz parte da produtividade, não só o software.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0B8LBH55N?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Pebble M350 na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>Mouse sem fio muda de preço conforme vendedor, cor e época do ano. Como faixa larga de mercado, o Logitech M170 costuma variar de R$ 50 a R$ 65, o M240 costuma variar de R$ 70 a R$ 90, e o Pebble M350 costuma variar de R$ 210 a R$ 280. Black Friday e promoções de periféricos puxam os três para a parte de baixo da faixa.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Faixa de preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Logitech M170</td>
+          <td>R$ 50 a R$ 65</td>
+        </tr>
+        <tr>
+          <td>Logitech M240</td>
+          <td>R$ 70 a R$ 90</td>
+        </tr>
+        <tr>
+          <td>Logitech Pebble M350</td>
+          <td>R$ 210 a R$ 280</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Pelas faixas, o M170 costuma sair mais em conta e o M240 tem o melhor custo-benefício para quem quer Bluetooth e clique silencioso, combinando com a nossa recomendação. O Pebble M350 só compensa o valor bem mais alto para quem valoriza design fino e troca entre dispositivos. O preço do dia aparece ao clicar no botão de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B01A9GXMW2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M170 na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BXNR9DB6?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M240 na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0B8LBH55N?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Pebble M350 na Amazon agora ↗</a>
+    </div>
 
     <h2>Qual comprar</h2>
     <p>Orçamento apertado e uso é só navegar e digitar no dia a dia: o M170 resolve com sobra, e a nota de 70 mil avaliações mostra que não é aposta arriscada. Quer economizar porta USB e não gostar de ouvir clique o tempo todo: o M240 é o equilíbrio certo entre preço e recurso. Já usa mais de um dispositivo (notebook e tablet, por exemplo) ou valoriza um design mais fino e premium, mesmo pagando mais: o Pebble M350 entrega isso. Para quem já pensa em <a href="/artigos/como-ganhar-dinheiro-testando-e-avaliando-ferramentas-de-ia">ganhar dinheiro testando e avaliando produtos</a> como fonte de renda extra, comparar assim, direto e com número, vale mais que decidir só pela marca.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BXNR9DB6?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech M240 na Amazon agora ↗</a>
+    </div>
     <p>Vale lembrar que nenhum dos três é voltado para jogos: quem joga no computador e precisa de resposta mais rápida deve procurar um mouse com fio ou sem fio de categoria gamer, com sensor de maior sensibilidade e menor latência. Para o uso comum de escritório, estudo e ferramenta de IA no navegador, qualquer um dos três cumpre bem o papel. Quem está começando agora e ainda confunde os termos básicos pode aproveitar para ler o <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo sobre o que é inteligência artificial</a> antes de montar o resto do setup, e quem já usa IA para escrever no dia a dia se beneficia de revisar as boas práticas de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">como escrever comandos que funcionam</a> enquanto usa o mouse novo para digitar mais rápido.</p>
   `,
   faq: [
