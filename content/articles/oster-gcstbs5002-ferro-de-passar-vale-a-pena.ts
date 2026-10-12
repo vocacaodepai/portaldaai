@@ -26,7 +26,7 @@ export const article: Article = {
   kind: "review",
   author: "Bruno Danello",
   keyPoints: [
-    "O Oster GCSTBS5002 tem 4,7 de 5 em quase 3 mil avaliações na Amazon Brasil (verificado em 12/10/2026). A Amazon não exibiu o preço principal nessa checagem, mas listava ofertas de outros vendedores a partir de R$ 67,92; confira o preço atual.",
+    "O Oster GCSTBS5002 tem 4,7 de 5 em quase 3 mil avaliações na Amazon Brasil (verificado em 12/10/2026). O preço costuma ficar entre R$ 60 e R$ 85 (faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra).",
     "A ficha oficial traz base antiaderente, 25 saídas de vapor, botão de spray, filtro anticalcário e apenas 780 g, o que pesa pouco na mão.",
     "O reservatório é de 200 ml e a ficha não declara vapor vertical nem jato extra, então ele atende roupa do dia a dia, não grande volume.",
   ],
@@ -41,7 +41,7 @@ export const article: Article = {
       { label: "Nota de compradores", score: 8.5 },
     ],
     pros: [
-      "Preço de entrada baixo: ofertas de outros vendedores na Amazon a partir de R$ 67,92 em 12/10/2026 (confira o preço atual, que varia)",
+      "Preço de entrada baixo: costuma ficar entre R$ 60 e R$ 85",
       "Nota de 4,7 de 5 com quase 3 mil avaliações de compradores, base grande o bastante para dar segurança",
       "Leve: 780 g segundo a ficha oficial, o que cansa menos o braço em sessões longas",
       "25 saídas de vapor distribuídas pela base, com botão de spray para umedecer vincos teimosos",
@@ -55,7 +55,7 @@ export const article: Article = {
       "Base antiaderente tende a riscar com zíper, botão e rebite, mais que bases de cerâmica",
       "Garantia de 12 meses, no padrão básico da categoria",
     ],
-    price: "Confira o preço atual na Amazon (o preço principal não foi exibido em 12/10/2026; ofertas de outros vendedores a partir de R$ 67,92; o valor varia com frequência)",
+    price: "aprox. R$ 60 a R$ 85 (varia)",
     bestFor:
       "Quem passa roupa de uma a três vezes por semana, quer um ferro leve e barato de marca conhecida e não precisa de vapor vertical.",
     url: "https://www.amazon.com.br/dp/B09LNKQYND?tag=portaldaai-20",
@@ -64,7 +64,7 @@ export const article: Article = {
   },
   content: `
     <p>O ferro de passar a vapor Oster GCSTBS5002 vale a pena para quem passa pouca roupa e quer um modelo leve, barato e bem avaliado. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B09LNKQYND" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com quase 3 mil avaliações (verificado em 12/10/2026), e a ficha oficial da Oster traz base antiaderente, 25 saídas de vapor e 780 g. O que ele não tem é reservatório grande nem vapor vertical declarado.</p>
-    <p>Este review é uma análise a partir da ficha técnica oficial da Oster, da página da Amazon e das avaliações de compradores. Não fizemos teste físico com o ferro, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço principal a Amazon não exibiu nessa checagem, então confira o valor atual.</p>
+    <p>Este review é uma análise a partir da ficha técnica oficial da Oster, da página da Amazon e das avaliações de compradores. Não fizemos teste físico com o ferro, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço aparece como faixa de mercado aproximada, porque varia entre vendedores.</p>
 
     <h2>O que é o Oster GCSTBS5002</h2>
     <p>É um ferro de passar a vapor de entrada da Oster, vendido em versão 127 V (1.200 W) e 220 V (1.400 W). A base é antiaderente e colorida, e o corpo mede cerca de 24 cm por 11,5 cm, formato compacto para uso doméstico. A garantia declarada é de 12 meses contra defeitos de fabricação.</p>
@@ -127,7 +127,7 @@ export const article: Article = {
   faq: [
     {
       question: "O ferro Oster GCSTBS5002 vale a pena?",
-      answer: "Para quem passa pouca roupa, sim. Tem nota 4,7 em quase 3 mil avaliações (verificado em 12/10/2026), pesa 780 g e o preço de entrada é baixo; confira o valor atual na Amazon. Para volume grande, o reservatório de 200 ml é um limite.",
+      answer: "Para quem passa pouca roupa, sim. Tem nota 4,7 em quase 3 mil avaliações (verificado em 12/10/2026), pesa 780 g e o preço de entrada é baixo (costuma ficar entre R$ 60 e R$ 85); veja o valor atual no botão de compra. Para volume grande, o reservatório de 200 ml é um limite.",
     },
     {
       question: "O Oster GCSTBS5002 tem vapor vertical?",

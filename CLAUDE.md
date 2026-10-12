@@ -307,19 +307,29 @@ Evite repetir a mesma estrutura de título em dois artigos da mesma rodada
 (quando o `title` editorial for mais criativo/curto) pode levar a palavra-
 chave de busca por extenso; o `title` do card não precisa.
 
-### Preços da Amazon (AI Indica): checar ao vivo e datar
+### Preços da Amazon (AI Indica): faixa de mercado, nunca preço exato
 
-- Todo preço, nota e número de avaliações citado em artigo AI Indica deve
-  ter sido lido na página da Amazon Brasil no próprio dia da publicação,
-  com "verificado em dd/mm/aaaa" ao lado. Nunca copiar preço de memória ou
-  de outra fonte sem checar.
-- Se não for possível confirmar, não cite o número: use "confira o preço
-  atual na Amazon".
-- Preço muda: o artigo deve levar o botão de compra (o preço atual é o da
-  Amazon ao clicar) e a frase de que o valor pode variar.
-- Futuro: os preços serão atualizados automaticamente no site por
-  integração com a API da Amazon (pendente de credenciais do dono);
-  enquanto isso, valem as regras acima.
+- Preço exato nunca: não escrever valor de centavos nem "R$ X a menos" que
+  compare preço exato entre produtos. Comparação de preço só qualitativa
+  ("costuma ser mais em conta").
+- Usar faixa larga e arredondada: o preço visto no dia na Amazon Brasil
+  menos e mais ~15%, arredondado para múltiplos de R$ 5 (R$ 10 acima de
+  R$ 500). Se a base já for uma faixa, alargar ~10% e arredondar. Texto:
+  "costuma ficar entre R$ X e R$ Y"; em tabela, "aprox. R$ X a R$ Y"; em
+  `review.price`, "aprox. R$ X a R$ Y (varia)". Uma vez por artigo, perto
+  da primeira faixa, a frase: "faixa de mercado aproximada em dd/mm/aaaa; o
+  valor varia, veja o preço atual no botão de compra". Chamar sempre de
+  "faixa de mercado", nunca "da Amazon".
+- Se a Amazon não exibir o preço no dia, usar outra fonte (site do
+  fabricante, Zoom, Buscapé) com a mesma tolerância. Se nenhuma fonte der o
+  valor, não pôr faixa e escrever "confira o preço atual".
+- Nunca pôr faixa ou preço no `title`, `seoTitle`, `excerpt`,
+  `metaDescription`, nem no botão `buy-btn` ou no texto dele.
+- Nota e número de avaliações: continuam lidos na página da Amazon Brasil
+  no dia, com "verificado em dd/mm/aaaa" ao lado.
+- Futuro: preços automáticos via API ou bloco do painel de Associados da
+  Amazon, quando disponível (pendente de credenciais do dono); enquanto
+  isso, valem as regras acima.
 
 ## Deploy
 

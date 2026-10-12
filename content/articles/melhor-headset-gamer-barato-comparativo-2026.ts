@@ -40,7 +40,7 @@ export const article: Article = {
     <p>O melhor headset gamer barato do momento depende do que você quer pagar: recursos como som 7.1 virtual e luz RGB, ou conforto e garantia longa. Colocamos lado a lado o <a href="https://www.amazon.com.br/dp/B09GBMRHVF?tag=portaldaai-20" rel="sponsored noopener noreferrer">Redragon Zeus X RGB (H510-RGB)</a> e o <a href="https://www.amazon.com.br/dp/B0B8PGDMWK?tag=portaldaai-20" rel="sponsored noopener noreferrer">HyperX Cloud Stinger 2</a>, dois modelos com fio vendidos na Amazon Brasil. A análise cruza a ficha técnica dos fabricantes com a nota e a quantidade de avaliações dos compradores. Não é teste de bancada: nós não medimos som nem microfone em laboratório.</p>
 
     <h2>Os dois headsets lado a lado</h2>
-    <p>Os dois são fechados, com fio e voltados a quem joga no PC. Mudam a forma de conexão, o peso, os recursos extras e o preço. Os dados abaixo vêm das páginas oficiais da <a href="https://redragonshop.com/products/h510-zeus-x-rgb-white-wired-gaming-headset" rel="noopener noreferrer nofollow">Redragon</a> e da <a href="https://hyperx.com/products/hyperx-cloud-stinger-2-wired-gaming-headset" rel="noopener noreferrer nofollow">HyperX</a> e das páginas da Amazon Brasil, consultadas em 12/10/2026 (o preço a Amazon não exibiu nessa checagem, então confira o valor atual).</p>
+    <p>Os dois são fechados, com fio e voltados a quem joga no PC. Mudam a forma de conexão, o peso, os recursos extras e o preço. Os dados abaixo vêm das páginas oficiais da <a href="https://redragonshop.com/products/h510-zeus-x-rgb-white-wired-gaming-headset" rel="noopener noreferrer nofollow">Redragon</a> e da <a href="https://hyperx.com/products/hyperx-cloud-stinger-2-wired-gaming-headset" rel="noopener noreferrer nofollow">HyperX</a> e das páginas da Amazon Brasil, consultadas em 12/10/2026 (preços em faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra).</p>
     <table>
       <thead>
         <tr>
@@ -51,9 +51,9 @@ export const article: Article = {
       </thead>
       <tbody>
         <tr>
-          <td>Preço na Amazon</td>
-          <td>confira o preço atual na Amazon (varia por vendedor)</td>
-          <td>confira o preço atual na Amazon</td>
+          <td>Preço (faixa de mercado)</td>
+          <td>aprox. R$ 225 a R$ 385 (varia por vendedor)</td>
+          <td>aprox. R$ 180 a R$ 245</td>
         </tr>
         <tr>
           <td>Nota de compradores</td>

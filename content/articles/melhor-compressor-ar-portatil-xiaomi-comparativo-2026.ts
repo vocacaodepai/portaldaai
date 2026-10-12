@@ -40,7 +40,7 @@ export const article: Article = {
     <p>O melhor compressor de ar portátil para quem só precisa calibrar pneu de vez em quando é o Xiaomi Compressor 2, e o Pro só compensa para quem enche muitos pneus ou precisa de mais velocidade. Comparamos o <a href="https://www.amazon.com.br/dp/B0CBBP8BQX?tag=portaldaai-20" rel="sponsored noopener noreferrer">Xiaomi Compressor de Ar Portátil 2</a> com o <a href="https://www.amazon.com.br/dp/B0DLBGZG3N?tag=portaldaai-20" rel="sponsored noopener noreferrer">Compressor 2 Pro</a>, usando as páginas oficiais da Xiaomi <a href="https://www.mi.com/global/product/xiaomi-portable-electric-air-compressor-2/" rel="noopener noreferrer nofollow">do modelo 2</a> e <a href="https://www.mi.com/global/product/xiaomi-portable-electric-air-compressor-2-pro/" rel="noopener noreferrer nofollow">do modelo 2 Pro</a> e as avaliações da Amazon Brasil. Não medimos tempo de enchimento: os números de velocidade são da Xiaomi, em condições de teste do fabricante.</p>
 
     <h2>Os dois compressores lado a lado</h2>
-    <p>Os dois são portáteis, recarregáveis por USB-C, vão até 150 psi (10,3 bar) e têm seis modos de enchimento: manual, bicicleta, moto, carro, patinete elétrico e bola. Eles pausam sozinhos quando chegam à pressão escolhida e a Xiaomi informa precisão de mais ou menos 1 psi. Notas e avaliações foram verificadas na Amazon em 12/10/2026; o preço a página não exibiu nessa checagem e varia por vendedor, então confira o valor atual.</p>
+    <p>Os dois são portáteis, recarregáveis por USB-C, vão até 150 psi (10,3 bar) e têm seis modos de enchimento: manual, bicicleta, moto, carro, patinete elétrico e bola. Eles pausam sozinhos quando chegam à pressão escolhida e a Xiaomi informa precisão de mais ou menos 1 psi. Notas e avaliações foram verificadas na Amazon em 12/10/2026; o preço do modelo 2 costuma ficar entre R$ 225 e R$ 305 e o do 2 Pro entre R$ 340 e R$ 435 (faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra).</p>
     <table>
       <thead>
         <tr>
@@ -51,9 +51,9 @@ export const article: Article = {
       </thead>
       <tbody>
         <tr>
-          <td>Preço na Amazon</td>
-          <td>confira o preço atual na Amazon</td>
-          <td>confira o preço atual na Amazon</td>
+          <td>Preço (faixa de mercado)</td>
+          <td>aprox. R$ 225 a R$ 305</td>
+          <td>aprox. R$ 340 a R$ 435</td>
         </tr>
         <tr>
           <td>Nota de compradores</td>

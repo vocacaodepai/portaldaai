@@ -26,7 +26,7 @@ export const article: Article = {
   kind: "review",
   author: "Bruno Danello",
   keyPoints: [
-    "O Philips OneBlade QP2724/10 tem 4,7 de 5 em mais de 13 mil avaliações na Amazon Brasil (verificado em 12/10/2026). A Amazon não exibiu o preço principal nessa checagem; confira o preço atual, que oscila entre vendedores.",
+    "O Philips OneBlade QP2724/10 tem 4,7 de 5 em mais de 13 mil avaliações na Amazon Brasil (verificado em 12/10/2026). O preço costuma ficar entre R$ 125 e R$ 210 (faixa de mercado aproximada em 12/10/2026; o valor oscila entre vendedores, veja o preço atual no botão de compra).",
     "Apara, contorna e raspa com a mesma lâmina de dupla face, usa 3 pentes (1, 3 e 5 mm), funciona a seco ou molhado e recarrega por cabo USB-A.",
     "O custo recorrente é a lâmina, que a marca diz durar até 4 meses, e o carregador de tomada não vem na caixa.",
   ],
@@ -52,10 +52,10 @@ export const article: Article = {
       "A lâmina precisa de troca periódica (a marca diz até 4 meses), um custo que não existe num aparador comum",
       "O adaptador de tomada geralmente não está incluído, só o cabo USB-A",
       "Esta versão é voltada ao rosto, e quem quer usar no corpo deve olhar o QP2824, que a Philips vende com kit de proteção",
-      "Preço oscila bastante entre vendedores (confira o preço atual na Amazon)",
+      "Preço oscila bastante entre vendedores (costuma ficar entre R$ 125 e R$ 210)",
       "Não substitui uma máquina de barbear de lâmina convencional para quem busca acabamento rente",
     ],
-    price: "Confira o preço atual na Amazon (o preço principal não foi exibido em 12/10/2026; o valor oscila entre vendedores e varia com frequência)",
+    price: "aprox. R$ 125 a R$ 210 (varia)",
     bestFor:
       "Quem usa barba curta ou por fazer e quer um único aparelho para aparar, contornar e fazer o acabamento, em casa ou em viagem, sem espuma obrigatória.",
     url: "https://www.amazon.com.br/dp/B0C2J8DQC1?tag=portaldaai-20",
@@ -64,7 +64,7 @@ export const article: Article = {
   },
   content: `
     <p>O Philips OneBlade QP2724/10 vale o preço para quem usa barba curta ou por fazer e quer um aparelho só para aparar, contornar e fazer o acabamento. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B0C2J8DQC1" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 13 mil avaliações (verificado em 12/10/2026), funciona a seco ou molhado e recarrega por USB. O custo escondido é a troca periódica da lâmina.</p>
-    <p>Este review é uma análise a partir da página oficial da Philips, da ficha do anúncio na Amazon e das avaliações de compradores. Não fizemos teste físico, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço principal a Amazon não exibiu nessa checagem, então confira o valor atual.</p>
+    <p>Este review é uma análise a partir da página oficial da Philips, da ficha do anúncio na Amazon e das avaliações de compradores. Não fizemos teste físico, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço aparece como faixa de mercado aproximada, porque oscila entre vendedores.</p>
 
     <h2>O que é o OneBlade QP2724</h2>
     <p>O OneBlade é um aparelho híbrido da Philips: ele faz o trabalho de um aparador de barba, de uma máquina de contorno e, até certo ponto, de um barbeador. A diferença para um aparador comum está na lâmina de dupla face, que corta em movimento rápido de vaivém, e a Philips informa 12.000 movimentos por minuto. A versão QP2724/10 é a voltada ao rosto, na cor verde-limão com cinza-chumbo.</p>
