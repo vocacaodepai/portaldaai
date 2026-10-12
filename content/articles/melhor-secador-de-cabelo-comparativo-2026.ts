@@ -3,16 +3,17 @@ import type { Article } from "@/lib/types";
 export const article: Article = {
   slug: "melhor-secador-de-cabelo-comparativo-2026",
   title: "Secador de 2.000 W ou compacto de 1.200 W: qual vale mais?",
-  seoTitle: "Melhor secador de cabelo até R$ 150: Mondial, Philco ou Philips",
+  seoTitle: "Melhor secador de cabelo: Mondial, Philco ou Philips (comparativo)",
   excerpt:
     "Comparamos o Mondial SC-12, o Philco PH3700 e o Philips BHC010 em potência, acessórios, preço e nota de compradores, para decidir entre secador potente e compacto.",
   metaDescription:
-    "Qual secador de cabelo comprar até R$ 150? Comparativo entre Mondial SC-12, Philco PH3700 e Philips BHC010 com tabela, nota por critério e para quem cada um serve.",
+    "Qual secador de cabelo comprar? Comparativo entre Mondial SC-12, Philco PH3700 e Philips BHC010 com tabela, nota por critério e para quem cada um serve.",
   category: "ai-indica",
   productCategory: "saude-bem-estar",
   productSubcategory: "secador-cabelo",
   productScore: 8.1,
   date: "2026-10-11",
+  updated: "2026-10-12",
   readTime: 8,
   imageQuery: "hair dryer bathroom shelf",
   seed: 201,
@@ -26,7 +27,7 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "Comparamos 3 secadores de cabelo reais da Amazon Brasil, todos com mais de mil avaliações e preço entre R$ 129 e R$ 149 em 11/10/2026.",
+    "Comparamos 3 secadores de cabelo reais da Amazon Brasil, todos com mais de mil avaliações na Amazon (verificado em 12/10/2026).",
     "O Philco PH3700 (2.000 W, difusor e nota 4,6) é o que indicamos para a maioria; o Mondial SC-12 é a opção mais barata com íon e grade cerâmica.",
     "O Philips BHC010 tem só 1.200 W e é compacto: serve para viagem e cabelo curto, não para quem quer secar rápido cabelo longo ou cheio.",
   ],
@@ -37,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>O melhor secador de cabelo para o dia a dia é o de 2.000 W com três temperaturas, bocal concentrador e, de preferência, difusor, porque seca mais rápido e dá mais controle. O compacto de 1.200 W só vale para viagem ou cabelo curto. Comparamos três opções vendidas na <a href="https://www.amazon.com.br/dp/B076HZNP4C" rel="noopener noreferrer nofollow">Amazon Brasil</a>: o Mondial SC-12 Infinity, o Philco PH3700 e o Philips Essential BHC010.</p>
-    <p>Os três têm entre 1.100 e 2.700 avaliações de compradores e custam entre R$ 129 e R$ 149, valores que a página exibia em 11/10/2026. A pergunta é onde esses poucos reais fazem diferença.</p>
+    <p>Os três têm entre 1.100 e 2.700 avaliações de compradores verificadas em 12/10/2026. O preço a Amazon não exibiu nessa checagem, então confira o valor atual de cada um. A pergunta é onde a diferença de preço faz diferença.</p>
 
     <h2>Os 3 secadores lado a lado</h2>
     <p>Potência é o número que mais pesa na velocidade de secagem, mas acessório e ajuste de temperatura mudam o resultado no fio. A tabela reúne o que a ficha da Amazon e a página oficial de cada marca informam.</p>
@@ -45,7 +46,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço na Amazon (11/10/2026)</th>
+          <th>Preço na Amazon</th>
           <th>Potência</th>
           <th>Recursos</th>
           <th>Nota de compradores</th>
@@ -54,28 +55,28 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Mondial SC-12 Infinity Íon 2500</td>
-          <td>cerca de R$ 129 (110 V)</td>
+          <td>confira o preço atual na Amazon (110 V)</td>
           <td>1.900 W</td>
           <td>Turmalina íon, grade cerâmica, bocal direcionador, 3 temperaturas e 2 velocidades</td>
-          <td>4,5 de 5 (1.139 avaliações)</td>
+          <td>4,5 de 5 (1.139 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Philco PH3700 Pink Tourmaline</td>
-          <td>cerca de R$ 149 (127 V)</td>
-          <td>2.000 W (ficha da Amazon)</td>
+          <td>confira o preço atual na Amazon (127 V)</td>
+          <td>2.000 W na ficha da Amazon (a loja oficial da Philco informa 2.200 W)</td>
           <td>3 temperaturas, bocal concentrador, difusor, grade traseira removível</td>
-          <td>4,6 de 5 (2.647 avaliações)</td>
+          <td>4,6 de 5 (2.647 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Philips Essential BHC010/81</td>
-          <td>cerca de R$ 139 (110 V)</td>
+          <td>confira o preço atual na Amazon (110 V)</td>
           <td>1.200 W</td>
           <td>3 ajustes, ThermoProtect, bico concentrador removível, formato compacto e dobrável</td>
-          <td>4,5 de 5 (1.778 avaliações)</td>
+          <td>4,5 de 5 (1.778 avaliações, verificado em 12/10/2026)</td>
         </tr>
       </tbody>
     </table>
-    <p>Uma ressalva sobre o Philco: a página oficial da marca descreve o PH3700 com 2.200 W, enquanto a ficha da Amazon traz 2.000 W. Como as versões mudam entre lotes e cores, confira a potência no rótulo da caixa.</p>
+    <p>Uma ressalva sobre o Philco, conferida em 12/10/2026: a loja oficial da Philco descreve o PH3700 Pink Tourmaline com 2.200 W e seletor de 127 V ou 220 V (e informava o produto como indisponível no momento), enquanto a ficha da Amazon, para a versão 127 V que indicamos, traz 2.000 W. Não encontramos manual ou ficha em PDF que desempatasse. A fonte mais confiável é a do fabricante, mas a versão vendida na Amazon pode ser outra, então trate 2.000 W como o valor mínimo anunciado e confira a potência no rótulo da caixa.</p>
 
     <h2>Mondial SC-12 Infinity: o mais barato com íon</h2>
     <figure>
@@ -96,7 +97,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PH3700 agora ↗</a>
     </div>
-    <p>O <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer">Philco PH3700</a> tem a maior nota (4,6 de 5) e a maior base de avaliações (2.647) do grupo, e custa apenas uns R$ 20 a mais que o Mondial. Entrega 2.000 W, três temperaturas, bocal concentrador e um difusor, acessório que espalha o ar e ajuda a secar cabelo cacheado ou ondulado sem desmanchar o formato.</p>
+    <p>O <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer">Philco PH3700</a> tem a maior nota (4,6 de 5) e a maior base de avaliações (2.647) do grupo, e costuma custar um pouco mais que o Mondial (confira os preços atuais). Entrega de 2.000 W a 2.200 W conforme a fonte (veja a ressalva acima), três temperaturas, bocal concentrador e um difusor, acessório que espalha o ar e ajuda a secar cabelo cacheado ou ondulado sem desmanchar o formato.</p>
     <p>A grade traseira é removível, o que facilita a limpeza, e a garantia é de 12 meses. Como o Philco também usa turmalina, o apelo anti-frizz é parecido com o do Mondial; a vantagem está em potência e acessório.</p>
 
     <h2>Philips BHC010: compacto, mas com limite de potência</h2>
@@ -131,7 +132,7 @@ export const article: Article = {
     </table>
 
     <h2>Qual comprar</h2>
-    <p>Para a maioria, o Philco PH3700 é a melhor escolha: mais potência, difusor e a nota mais alta por pouco a mais. Se o orçamento é de até R$ 130 e você não precisa de difusor, o Mondial SC-12 entrega o essencial. O Philips BHC010 só compensa se o uso principal for viagem ou cabelo curto.</p>
+    <p>Para a maioria, o Philco PH3700 é a melhor escolha: mais potência, difusor e a nota mais alta por uma diferença pequena de preço, que deve ser conferida no dia. Se o orçamento é mais apertado e você não precisa de difusor, o Mondial SC-12 entrega o essencial. O Philips BHC010 só compensa se o uso principal for viagem ou cabelo curto.</p>
     <p>Quem monta a rotina de cuidados pessoais pode olhar também o <a href="/artigos/philips-oneblade-qp2724-barbeador-vale-a-pena">review do barbeador Philips OneBlade</a>, a <a href="/artigos/melhor-escova-de-dente-eletrica-comparativo-2026">comparação de escovas de dente elétricas</a> e a <a href="/artigos/melhor-balanca-inteligente-bioimpedancia-comparativo-2026">de balanças inteligentes</a>. Para o quarto, o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">comparativo de umidificadores</a> e o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">de ventiladores</a> completam.</p>
     <p>Se você viaja a trabalho, o guia de <a href="/artigos/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando">planejar viagens sem perder horas pesquisando</a> ajuda a decidir o que levar na mala, e o <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">guia de rotina diária produtiva</a> mostra como ganhar tempo de manhã. Quem pesquisa produto para revender pode ler <a href="/artigos/fotos-de-produto-para-vender-online-com-ia">fotos de produto para vender online</a> e <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">vender mais no negócio local</a>. Para quem atende em salão ou faz serviços de beleza em casa, <a href="/artigos/como-melhorar-avaliacoes-e-reputacao-online-com-ia">melhorar avaliações e reputação online</a> traz ideias para atrair clientes.</p>
 

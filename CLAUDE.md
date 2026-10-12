@@ -307,6 +307,20 @@ Evite repetir a mesma estrutura de título em dois artigos da mesma rodada
 (quando o `title` editorial for mais criativo/curto) pode levar a palavra-
 chave de busca por extenso; o `title` do card não precisa.
 
+### Preços da Amazon (AI Indica): checar ao vivo e datar
+
+- Todo preço, nota e número de avaliações citado em artigo AI Indica deve
+  ter sido lido na página da Amazon Brasil no próprio dia da publicação,
+  com "verificado em dd/mm/aaaa" ao lado. Nunca copiar preço de memória ou
+  de outra fonte sem checar.
+- Se não for possível confirmar, não cite o número: use "confira o preço
+  atual na Amazon".
+- Preço muda: o artigo deve levar o botão de compra (o preço atual é o da
+  Amazon ao clicar) e a frase de que o valor pode variar.
+- Futuro: os preços serão atualizados automaticamente no site por
+  integração com a API da Amazon (pendente de credenciais do dono);
+  enquanto isso, valem as regras acima.
+
 ## Deploy
 
 O deploy de produção do Portal da AI é feito sempre pela Vercel (projeto

@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "monitor-pressao",
   productScore: 8.5,
   date: "2026-10-10",
+  updated: "2026-10-12",
   readTime: 7,
   imageQuery: "digital blood pressure monitor arm cuff on table",
   seed: 191,
@@ -27,8 +28,8 @@ export const article: Article = {
   author: "Bruno Danello",
   keyPoints: [
     "O HEM-7122 (Control+) tem braçadeira universal de 22 a 42 cm e memória de 30 leituras, e é o mais vendido da linha, com nota 4,8 de 5 na Amazon.",
-    "O HEM-7142 é a entrada mais barata (cerca de R$ 135 a R$ 166 na Amazon), com memória menor e braçadeira padrão de 22 a 32 cm.",
-    "O HEM-7156T conecta por Bluetooth ao aplicativo Omron connect e usa a braçadeira Intelliwrap, mas custa quase o dobro do modelo mais simples.",
+    "O HEM-7142 é a entrada da linha (confira o preço atual na Amazon), com memória menor e braçadeira padrão de 22 a 32 cm.",
+    "O HEM-7156T conecta por Bluetooth ao aplicativo Omron connect e usa a braçadeira Intelliwrap, mas costuma custar mais que o modelo mais simples (confira os preços atuais).",
   ],
   content: `
     <div class="callout-box">
@@ -39,7 +40,7 @@ export const article: Article = {
     <p>O melhor monitor de pressão Omron para casa, entre os três modelos de braço mais procurados da marca, é o HEM-7122 para a maioria das famílias. Comparamos o <a href="https://www.amazon.com.br/dp/B07FFCY5QD?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7122 Control+</a>, o <a href="https://www.amazon.com.br/dp/B0CFFZFG1B?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7142</a> e o <a href="https://www.amazon.com.br/dp/B0CCXR54WM?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7156T Progress</a> com base nas páginas oficiais da <a href="https://www.omronhealthcare.com.br/monitores-de-pressao" rel="noopener noreferrer nofollow">Omron Healthcare Brasil</a> e nas avaliações da Amazon. Não medimos a precisão dos aparelhos: usamos a ficha técnica do fabricante e a opinião de quem comprou.</p>
 
     <h2>Os 3 monitores lado a lado</h2>
-    <p>Os três são de braço, automáticos, com tecnologia Intellisense de inflação e detector de batimentos irregulares, e a Omron informa 5 anos de garantia nas páginas oficiais dos três. As diferenças estão na memória, na braçadeira, na conexão com o celular e no preço. Valores consultados na Amazon em 10/10/2026, e eles variam por vendedor.</p>
+    <p>Os três são de braço, automáticos, com tecnologia Intellisense de inflação e detector de batimentos irregulares, e a Omron informa 5 anos de garantia nas páginas oficiais dos três. As diferenças estão na memória, na braçadeira, na conexão com o celular e no preço. Notas e avaliações foram verificadas na Amazon em 12/10/2026; o preço a página não exibiu nessa checagem e varia por vendedor, então confira o valor atual.</p>
     <table>
       <thead>
         <tr>
@@ -51,16 +52,16 @@ export const article: Article = {
       </thead>
       <tbody>
         <tr>
-          <td>Preço na Amazon (verificado em 10/10/2026)</td>
-          <td>R$ 180 a R$ 210</td>
-          <td>R$ 135 a R$ 166</td>
-          <td>cerca de R$ 224 (de R$ 299)</td>
+          <td>Preço na Amazon</td>
+          <td>confira o preço atual na Amazon</td>
+          <td>confira o preço atual na Amazon</td>
+          <td>confira o preço atual na Amazon</td>
         </tr>
         <tr>
           <td>Nota de compradores</td>
-          <td>4,8 de 5 (cerca de 6,9 mil avaliações)</td>
-          <td>4,7 de 5 (818 avaliações)</td>
-          <td>4,8 de 5 (288 avaliações)</td>
+          <td>4,8 de 5 (6.989 avaliações, verificado em 12/10/2026)</td>
+          <td>4,7 de 5 (818 avaliações, verificado em 12/10/2026)</td>
+          <td>4,8 de 5 (345 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Memória</td>
@@ -90,7 +91,7 @@ export const article: Article = {
     </table>
     <p>Um alerta sobre a Amazon: algumas páginas de terceiros listam o mesmo código de modelo com a marca genérica, por preços diferentes. Use os links deste artigo, que seguem os endereços indicados pela própria Omron no site oficial, e confira se o vendedor é confiável antes de fechar.</p>
 
-    <p>Outro ponto prático é a energia: segundo a Amazon, os modelos usam pilhas AA e elas acompanham o produto, então não há carregador nem tomada no caminho, o que ajuda a medir em qualquer cômodo. Também considere a garantia de 5 anos informada pela Omron: para um aparelho usado durante anos, ela pesa mais que uma diferença de R$ 40 no preço.</p>
+    <p>Outro ponto prático é a energia: segundo a Amazon, os modelos usam pilhas AA e elas acompanham o produto, então não há carregador nem tomada no caminho, o que ajuda a medir em qualquer cômodo. Também considere a garantia de 5 anos informada pela Omron: para um aparelho usado durante anos, ela pesa mais que uma pequena diferença no preço.</p>
 
     <h2>Omron HEM-7122 Control+: o mais completo do básico</h2>
     <figure>
@@ -111,7 +112,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0CFFZFG1B?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Omron HEM-7142 agora ↗</a>
     </div>
-    <p>O HEM-7142 faz o essencial: mede, avisa se detectar batimento irregular e traz a braçadeira Intellisense inclusa, na faixa de preço de R$ 135 a R$ 166 que vimos na Amazon. A memória é menor (14 leituras segundo a Omron) e a braçadeira padrão é indicada para 22 a 32 cm. A página oficial também cita faixa aplicável de 17 a 42 cm, e como os dois números divergem, meça a circunferência do braço antes de decidir. Algumas páginas da Amazon citam memória e garantia diferentes da ficha oficial, por isso vale conferir o anúncio escolhido.</p>
+    <p>O HEM-7142 faz o essencial: mede, avisa se detectar batimento irregular e traz a braçadeira Intellisense inclusa, e costuma ser o mais em conta dos três (confira o preço atual na Amazon). A memória é menor (14 leituras segundo a Omron) e a braçadeira padrão é indicada para 22 a 32 cm. A página oficial também cita faixa aplicável de 17 a 42 cm, e como os dois números divergem, meça a circunferência do braço antes de decidir. Algumas páginas da Amazon citam memória e garantia diferentes da ficha oficial, por isso vale conferir o anúncio escolhido.</p>
 
     <h2>Omron HEM-7156T Progress: para quem quer acompanhar no celular</h2>
     <figure>
@@ -121,7 +122,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0CCXR54WM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Omron HEM-7156T agora ↗</a>
     </div>
-    <p>O Progress guarda 60 leituras, sincroniza por Bluetooth com o aplicativo Omron connect e usa a braçadeira Intelliwrap. A Omron informa validação clínica para gestantes e pessoas com diabetes e um indicador de hipertensão. Dentro do app, o histórico aparece em gráfico e dá para ter um perfil por pessoa. Esse conforto custa mais: cerca de R$ 224 na Amazon, quase o dobro do HEM-7142. Como o app guarda dados de saúde, vale ler o que a <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade de dados em aplicativos</a> envolve antes de cadastrar tudo.</p>
+    <p>O Progress guarda 60 leituras, sincroniza por Bluetooth com o aplicativo Omron connect e usa a braçadeira Intelliwrap. A Omron informa validação clínica para gestantes e pessoas com diabetes e um indicador de hipertensão. Dentro do app, o histórico aparece em gráfico e dá para ter um perfil por pessoa. Esse conforto costuma custar mais que o HEM-7142 (confira o preço atual na Amazon). Como o app guarda dados de saúde, vale ler o que a <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade de dados em aplicativos</a> envolve antes de cadastrar tudo.</p>
 
     <h2>Nota por critério</h2>
     <p>As notas são editoriais, de 0 a 10, e resumem ficha técnica e avaliações públicas, sem medição própria de precisão.</p>
@@ -159,7 +160,7 @@ export const article: Article = {
     {
       question: "Qual o melhor monitor de pressão Omron para usar em casa?",
       answer:
-        "Para a maioria, o HEM-7122 Control+: braçadeira universal de 22 a 42 cm, memória de 30 leituras, 5 anos de garantia pela Omron e nota 4,8 de 5 na Amazon. O HEM-7142 é a opção mais barata e o HEM-7156T traz Bluetooth.",
+        "Para a maioria, o HEM-7122 Control+: braçadeira universal de 22 a 42 cm, memória de 30 leituras, 5 anos de garantia pela Omron e nota 4,8 de 5 na Amazon (verificado em 12/10/2026). O HEM-7142 é a opção de entrada e o HEM-7156T traz Bluetooth.",
     },
     {
       question: "O Omron HEM-7156T conecta no celular?",

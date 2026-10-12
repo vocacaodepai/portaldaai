@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "headset-gamer",
   productScore: 7.9,
   date: "2026-10-10",
+  updated: "2026-10-12",
   readTime: 7,
   imageQuery: "two gaming headsets side by side on desk",
   seed: 190,
@@ -26,7 +27,7 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "O HyperX Cloud Stinger 2 custa cerca de R$ 212 na Amazon, pesa menos de 300 g e tem 2 anos de garantia, o que o torna a escolha mais segura para sessões longas.",
+    "O HyperX Cloud Stinger 2 pesa menos de 300 g e tem 2 anos de garantia, o que o torna a escolha mais segura para sessões longas.",
     "O Redragon Zeus X entrega drivers de 53 mm, som 7.1 virtual por USB e iluminação RGB, mas costuma custar mais e tem garantia de 12 meses na Amazon.",
     "As duas opções têm nota de 4,7 a 4,8 de 5 entre compradores, então a decisão depende de recursos (Redragon) ou de conforto e preço (HyperX).",
   ],
@@ -39,7 +40,7 @@ export const article: Article = {
     <p>O melhor headset gamer barato do momento depende do que você quer pagar: recursos como som 7.1 virtual e luz RGB, ou conforto e garantia longa. Colocamos lado a lado o <a href="https://www.amazon.com.br/dp/B09GBMRHVF?tag=portaldaai-20" rel="sponsored noopener noreferrer">Redragon Zeus X RGB (H510-RGB)</a> e o <a href="https://www.amazon.com.br/dp/B0B8PGDMWK?tag=portaldaai-20" rel="sponsored noopener noreferrer">HyperX Cloud Stinger 2</a>, dois modelos com fio vendidos na Amazon Brasil. A análise cruza a ficha técnica dos fabricantes com a nota e a quantidade de avaliações dos compradores. Não é teste de bancada: nós não medimos som nem microfone em laboratório.</p>
 
     <h2>Os dois headsets lado a lado</h2>
-    <p>Os dois são fechados, com fio e voltados a quem joga no PC. Mudam a forma de conexão, o peso, os recursos extras e o preço. Os dados abaixo vêm das páginas oficiais da <a href="https://redragonshop.com/products/h510-zeus-x-rgb-white-wired-gaming-headset" rel="noopener noreferrer nofollow">Redragon</a> e da <a href="https://hyperx.com/products/hyperx-cloud-stinger-2-wired-gaming-headset" rel="noopener noreferrer nofollow">HyperX</a> e das páginas da Amazon Brasil, consultadas em 10/10/2026.</p>
+    <p>Os dois são fechados, com fio e voltados a quem joga no PC. Mudam a forma de conexão, o peso, os recursos extras e o preço. Os dados abaixo vêm das páginas oficiais da <a href="https://redragonshop.com/products/h510-zeus-x-rgb-white-wired-gaming-headset" rel="noopener noreferrer nofollow">Redragon</a> e da <a href="https://hyperx.com/products/hyperx-cloud-stinger-2-wired-gaming-headset" rel="noopener noreferrer nofollow">HyperX</a> e das páginas da Amazon Brasil, consultadas em 12/10/2026 (o preço a Amazon não exibiu nessa checagem, então confira o valor atual).</p>
     <table>
       <thead>
         <tr>
@@ -50,14 +51,14 @@ export const article: Article = {
       </thead>
       <tbody>
         <tr>
-          <td>Preço na Amazon (verificado em 10/10/2026)</td>
-          <td>R$ 250 a R$ 350, conforme o vendedor</td>
-          <td>cerca de R$ 212 (vendido pela Amazon)</td>
+          <td>Preço na Amazon</td>
+          <td>confira o preço atual na Amazon (varia por vendedor)</td>
+          <td>confira o preço atual na Amazon</td>
         </tr>
         <tr>
           <td>Nota de compradores</td>
-          <td>4,8 de 5 (2.678 avaliações)</td>
-          <td>4,7 de 5 (7.749 avaliações)</td>
+          <td>4,8 de 5 (2.678 avaliações, verificado em 12/10/2026)</td>
+          <td>4,7 de 5 (7.749 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Driver</td>
@@ -108,7 +109,7 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0B8PGDMWK?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar HyperX Cloud Stinger 2 agora ↗</a>
     </div>
     <p>O Stinger 2 aposta em leveza: pesa menos de 300 g, tem almofadas de espuma com memória e courino e conchas que giram 90 graus para repousar no pescoço. Os drivers são de 50 mm, com resposta de 10 Hz a 28 kHz e sensibilidade de 97,5 dB, segundo a HyperX. O microfone gira para silenciar: levantou, está mudo. O volume fica na própria concha, sem caixinha no cabo.</p>
-    <p>Na Amazon o modelo aparece com a marca Escolha da Amazon, nota 4,7 em quase 7,8 mil avaliações e preço próximo de R$ 212, com 2 anos de garantia. A conexão é P2 de 3,5 mm, com extensão e divisor para PC na caixa. Ela é simples e funciona em qualquer entrada analógica, mas a ficha oficial lista compatibilidade com PC, então confira a entrada do seu console ou celular antes de comprar. Quem usa o headset para reunião também pode olhar o <a href="/artigos/melhor-microfone-usb-para-podcast-comparativo-2026">comparativo de microfones USB</a> se a voz for prioridade.</p>
+    <p>Na Amazon o modelo aparece com a marca Escolha da Amazon, nota 4,7 em quase 7,8 mil avaliações (verificado em 12/10/2026), com 2 anos de garantia. A conexão é P2 de 3,5 mm, com extensão e divisor para PC na caixa. Ela é simples e funciona em qualquer entrada analógica, mas a ficha oficial lista compatibilidade com PC, então confira a entrada do seu console ou celular antes de comprar. Quem usa o headset para reunião também pode olhar o <a href="/artigos/melhor-microfone-usb-para-podcast-comparativo-2026">comparativo de microfones USB</a> se a voz for prioridade.</p>
 
     <h2>Nota por critério</h2>
     <p>As notas abaixo são editoriais, de 0 a 10, e resumem ficha técnica e avaliações públicas. Não vêm de medição própria.</p>
@@ -148,13 +149,13 @@ export const article: Article = {
     <p>Um bom headset também ajuda quem usa IA no dia a dia. Com microfone razoável, os <a href="/artigos/comandos-de-voz-com-ia-no-computador-windows-e-mac">comandos de voz com IA no computador</a> funcionam melhor, e as ferramentas de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">transcrição e ata de reunião</a> erram menos quando a voz chega limpa. Para quem grava <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">podcast ou narração</a> ou produz <a href="/artigos/como-ganhar-dinheiro-criando-videos-curtos-com-ia">vídeos curtos com IA</a>, nenhum dos dois substitui um microfone dedicado, mas servem para começar. O guia de <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">IA para criadores de conteúdo</a> mostra como montar o resto do fluxo.</p>
 
     <h2>Qual comprar</h2>
-    <p>Para a maioria das pessoas, o HyperX Cloud Stinger 2 é a escolha mais segura: custa menos, pesa pouco, tem garantia de 2 anos e uma base de quase 7,8 mil avaliações com nota 4,7. Ele ficou com nota 7,9 na nossa análise. O Redragon Zeus X faz sentido para quem dá valor a surround virtual e RGB e aceita pagar mais e ficar com 12 meses de garantia. Em qualquer caso, compare o preço do dia nas duas páginas, porque o valor do Zeus X varia bastante entre vendedores.</p>
+    <p>Para a maioria das pessoas, o HyperX Cloud Stinger 2 é a escolha mais segura: costuma custar menos (confira o preço atual), pesa pouco, tem garantia de 2 anos e uma base de quase 7,8 mil avaliações com nota 4,7. Ele ficou com nota 7,9 na nossa análise. O Redragon Zeus X faz sentido para quem dá valor a surround virtual e RGB e aceita pagar mais e ficar com 12 meses de garantia. Em qualquer caso, compare o preço do dia nas duas páginas, porque o valor do Zeus X varia bastante entre vendedores.</p>
   `,
   faq: [
     {
       question: "Qual headset gamer barato vale mais a pena em 2026?",
       answer:
-        "Para a maioria, o HyperX Cloud Stinger 2: custa cerca de R$ 212 na Amazon (verificado em 10/10/2026), pesa menos de 300 g e tem 2 anos de garantia. O Redragon Zeus X compensa para quem quer som 7.1 virtual e RGB e aceita pagar mais.",
+        "Para a maioria, o HyperX Cloud Stinger 2: pesa menos de 300 g e tem 2 anos de garantia. O Redragon Zeus X compensa para quem quer som 7.1 virtual e RGB e aceita pagar mais.",
     },
     {
       question: "O som 7.1 do Redragon Zeus X é real?",

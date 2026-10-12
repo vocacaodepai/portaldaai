@@ -7,11 +7,12 @@ export const article: Article = {
   excerpt:
     "Nota 8,2 de 10. Analisamos o Philips OneBlade QP2724/10: 4,7 de 5 em mais de 13 mil avaliações, uso a seco ou molhado e carga por USB, mas lâmina com troca periódica.",
   metaDescription:
-    "Philips OneBlade QP2724 vale a pena? Review com nota por critério, prós, contras, ficha técnica, preço verificado e para quem esse aparador e barbeador serve.",
+    "Philips OneBlade QP2724 vale a pena? Review com nota por critério, prós, contras, ficha técnica, preço na Amazon e para quem esse aparador e barbeador serve.",
   category: "ai-indica",
   productCategory: "saude-bem-estar",
   productSubcategory: "barbeador",
   date: "2026-10-11",
+  updated: "2026-10-12",
   readTime: 8,
   imageQuery: "man trimming beard bathroom mirror",
   seed: 204,
@@ -25,7 +26,7 @@ export const article: Article = {
   kind: "review",
   author: "Bruno Danello",
   keyPoints: [
-    "O Philips OneBlade QP2724/10 tem 4,7 de 5 em mais de 13 mil avaliações na Amazon Brasil e custava cerca de R$ 189 em 11/10/2026, com ofertas a partir de R$ 139 na mesma página.",
+    "O Philips OneBlade QP2724/10 tem 4,7 de 5 em mais de 13 mil avaliações na Amazon Brasil (verificado em 12/10/2026). A Amazon não exibiu o preço principal nessa checagem; confira o preço atual, que oscila entre vendedores.",
     "Apara, contorna e raspa com a mesma lâmina de dupla face, usa 3 pentes (1, 3 e 5 mm), funciona a seco ou molhado e recarrega por cabo USB-A.",
     "O custo recorrente é a lâmina, que a marca diz durar até 4 meses, e o carregador de tomada não vem na caixa.",
   ],
@@ -51,10 +52,10 @@ export const article: Article = {
       "A lâmina precisa de troca periódica (a marca diz até 4 meses), um custo que não existe num aparador comum",
       "O adaptador de tomada geralmente não está incluído, só o cabo USB-A",
       "Esta versão é voltada ao rosto, e quem quer usar no corpo deve olhar o QP2824, que a Philips vende com kit de proteção",
-      "Preço oscila bastante entre vendedores, de R$ 139 a R$ 189 na mesma página",
+      "Preço oscila bastante entre vendedores (confira o preço atual na Amazon)",
       "Não substitui uma máquina de barbear de lâmina convencional para quem busca acabamento rente",
     ],
-    price: "R$ 189,37 na Amazon em 11/10/2026 (outras ofertas da mesma página a partir de R$ 139,00; confira o valor atual, que varia com frequência)",
+    price: "Confira o preço atual na Amazon (o preço principal não foi exibido em 12/10/2026; o valor oscila entre vendedores e varia com frequência)",
     bestFor:
       "Quem usa barba curta ou por fazer e quer um único aparelho para aparar, contornar e fazer o acabamento, em casa ou em viagem, sem espuma obrigatória.",
     url: "https://www.amazon.com.br/dp/B0C2J8DQC1?tag=portaldaai-20",
@@ -62,8 +63,8 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <p>O Philips OneBlade QP2724/10 vale o preço para quem usa barba curta ou por fazer e quer um aparelho só para aparar, contornar e fazer o acabamento. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B0C2J8DQC1" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 13 mil avaliações, funciona a seco ou molhado e recarrega por USB. O custo escondido é a troca periódica da lâmina.</p>
-    <p>Este review é uma análise a partir da página oficial da Philips, da ficha do anúncio na Amazon e das avaliações de compradores. Não fizemos teste físico, e os preços citados foram verificados em 11/10/2026.</p>
+    <p>O Philips OneBlade QP2724/10 vale o preço para quem usa barba curta ou por fazer e quer um aparelho só para aparar, contornar e fazer o acabamento. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B0C2J8DQC1" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 13 mil avaliações (verificado em 12/10/2026), funciona a seco ou molhado e recarrega por USB. O custo escondido é a troca periódica da lâmina.</p>
+    <p>Este review é uma análise a partir da página oficial da Philips, da ficha do anúncio na Amazon e das avaliações de compradores. Não fizemos teste físico, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço principal a Amazon não exibiu nessa checagem, então confira o valor atual.</p>
 
     <h2>O que é o OneBlade QP2724</h2>
     <p>O OneBlade é um aparelho híbrido da Philips: ele faz o trabalho de um aparador de barba, de uma máquina de contorno e, até certo ponto, de um barbeador. A diferença para um aparador comum está na lâmina de dupla face, que corta em movimento rápido de vaivém, e a Philips informa 12.000 movimentos por minuto. A versão QP2724/10 é a voltada ao rosto, na cor verde-limão com cinza-chumbo.</p>
@@ -100,7 +101,7 @@ export const article: Article = {
     </ul>
 
     <h2>Alternativas</h2>
-    <p>Dentro da própria Philips, o OneBlade QP2824/10 aparece na Amazon por cerca de R$ 235 (outras ofertas a R$ 139 e R$ 149), com nota 4,7 em quase 8 mil avaliações; segundo o anúncio, ele serve a rosto e corpo e inclui um kit de proteção. Se o uso for só no rosto, o QP2724 resolve e costuma sair por menos.</p>
+    <p>Dentro da própria Philips, o OneBlade QP2824/10 aparece na Amazon com nota 4,7 em quase 8 mil avaliações (não reconferida em 12/10/2026; compare os preços atuais); segundo o anúncio, ele serve a rosto e corpo e inclui um kit de proteção. Se o uso for só no rosto, o QP2724 resolve e costuma sair por menos.</p>
     <p>Na rotina de cuidados pessoais, vale olhar o <a href="/artigos/melhor-secador-de-cabelo-comparativo-2026">comparativo de secadores de cabelo</a>, a <a href="/artigos/melhor-escova-de-dente-eletrica-comparativo-2026">comparação de escovas de dente elétricas</a> e a <a href="/artigos/melhor-balanca-inteligente-bioimpedancia-comparativo-2026">de balanças inteligentes</a>. Como o aparelho carrega por USB, um bom <a href="/artigos/melhor-carregador-gan-usb-c-comparativo-2026">carregador GaN</a> ou um <a href="/artigos/melhor-power-bank-carregador-portatil-comparativo-2026">power bank</a> resolvem a recarga fora de casa, e o <a href="/artigos/redmi-watch-5-active-xiaomi-vale-a-pena">review do Redmi Watch 5 Active</a> cobre quem quer acompanhar a saúde no pulso.</p>
     <p>Quem organiza o dia com mais método pode ler <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">como criar uma rotina diária produtiva</a>, e o guia de <a href="/artigos/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando">planejar viagens sem perder horas pesquisando</a> ajuda a decidir o que levar na mala.</p>
 
