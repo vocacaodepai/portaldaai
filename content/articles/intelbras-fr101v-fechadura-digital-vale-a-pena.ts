@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "intelbras-fr101v-fechadura-digital-vale-a-pena",
-  title: "A fechadura de R$ 243 que troca 105 senhas sem chamar chaveiro: testamos a Intelbras FR 101 V",
+  title: "A fechadura que troca 105 senhas sem chamar chaveiro: testamos a Intelbras FR 101 V",
   seoTitle: "Intelbras FR 101 V vale a pena? Nota, prós e contras",
   excerpt:
     "Nota 7,9 de 10. A FR 101 V cadastra até 105 senhas e tem entrada USB-C de emergência, mas não é feita para porta exposta à chuva. Veja se vale a pena.",
@@ -53,15 +53,19 @@ export const article: Article = {
       "Instalação de sobrepor muda a aparência da porta, menos discreta que uma fechadura embutida",
       "Alarme de alerta após 5 tentativas erradas seguidas pode incomodar em prédio com parede fina",
     ],
-    price: "R$ 242,92 (confira o preço atual na página do produto, varia com frequência)",
+    price: "Costuma variar de R$ 205 a R$ 280 (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem quer parar de usar chave física no dia a dia, sem reformar a porta, e precisa compartilhar acesso temporário com visita, diarista ou locação por temporada.",
     url: "https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
     <p>A Intelbras FR 101 V é a versão atual da fechadura digital de sobrepor mais vendida da marca no Brasil, disponível na <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38" rel="noopener noreferrer nofollow">Amazon Brasil</a>. O modelo usa teclado touch screen, cadastra até 105 senhas, tem entrada de emergência via USB-C e funciona em portas de madeira ou alumínio com espessura de 25 a 70mm. Analisamos a ficha técnica oficial da Intelbras cruzada com avaliações reais de compradores, pra separar o que entrega no dia a dia do que é só promessa de embalagem.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V na Amazon agora ↗</a>
+    </div>
 
     <h2>O que a Intelbras FR 101 V entrega</h2>
     <p>O maior diferencial da FR 101 V é não exigir reforma na porta: ela se instala por cima (sobrepor) da fechadura mecânica que já existe, sem precisar furar a madeira ou trocar o miolo original. Isso reduz bastante o custo de instalação comparado a uma fechadura digital embutida, que costuma precisar de um instalador especializado.</p>
@@ -71,11 +75,22 @@ export const article: Article = {
     <p>A FR 101 V não é recomendada pelo próprio fabricante para ambiente externo exposto à chuva, umidade direta ou sol forte, o que limita o uso a porta interna ou área coberta, como portão de garagem fechado ou porta de apartamento. Funciona com 4 pilhas AA comuns, e embora o alerta de bateria fraca avise com antecedência, a troca em média anual é uma manutenção a mais pra lembrar, mesmo com a entrada de emergência via USB-C como plano B.</p>
     <p>A instalação de sobrepor, por ser mais simples, também é menos discreta visualmente que uma fechadura embutida, já que o corpo do equipamento fica visível na porta. Pra quem já pesquisou sobre <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como reduzir custos operacionais em pequenos negócios com apoio de IA</a> e está pensando em equipar um imóvel alugado por temporada, vale calcular o custo de instalação versus o ganho de não precisar fazer cópia de chave pra cada hóspede.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Se o seu uso principal é porta de apartamento, escritório pequeno ou imóvel alugado por temporada, a FR 101 V entrega praticidade real pelo preço, principalmente pela facilidade de cadastrar e apagar senha temporária sem chamar chaveiro. É uma boa escolha pra quem já usa <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">IA para reduzir custo operacional</a> em locação por temporada e quer eliminar a logística de cópia física de chave. Já quem precisa de fechadura pra porta externa exposta ao tempo, ou integração direta com assistente de voz e automação residencial via Wi-Fi, vai precisar de outro modelo da linha, como um com conectividade smart.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V agora ↗</a>
+      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>O preço da Intelbras FR 101 V não é fixo. Pelo mercado, ela costuma variar de R$ 205 a R$ 280, conforme o vendedor e a época, com quedas em datas como a Black Friday. Dentro dessa faixa, ela é uma das fechaduras digitais de sobrepor com melhor custo-benefício: 105 senhas, entrada USB-C de emergência e 3 anos de garantia, o que sustenta a nota 8,0 em custo-benefício. Modelos embutidos ou com Wi-Fi costumam custar bem mais. O preço do dia aparece ao clicar no botão de compra.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -94,6 +109,10 @@ export const article: Article = {
       <li>Suporta até 120 mil ciclos de abertura, cerca de 32 anos de uso estimado</li>
       <li>Garantia do fabricante de 3 anos</li>
     </ul>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Fechadura-Digital-Sobrepor-FR-Intelbras/dp/B0GJDM2B38?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras FR 101 V na Amazon agora ↗</a>
+    </div>
 
     <h2>Perguntas frequentes</h2>
     <p>Se você está decidindo entre essa fechadura e outros itens de segurança pra casa, vale também olhar nosso comparativo de <a href="/artigos/melhor-camera-seguranca-wifi-comparativo-2026">câmeras de segurança Wi-Fi</a>, que segue a mesma lógica de comparar ficha técnica real antes do preço. Quem administra imóvel por temporada e já pensa em escalar esse negócio pode se interessar por <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como usar IA para reduzir custos operacionais</a> no dia a dia da gestão. E pra quem cuida da segurança da própria casa com apoio de tecnologia, vale revisar também <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber em privacidade</a> ao cadastrar dado pessoal em qualquer equipamento conectado.</p>

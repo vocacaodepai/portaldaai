@@ -28,8 +28,8 @@ export const article: Article = {
   author: "Bruno Danello",
   keyPoints: [
     "A Instax Mini 12 tem exposição automática, flash automático, modo close-up com correção de paralaxe e espelho para selfie, o que a torna fácil para quem nunca usou câmera instantânea.",
-    "A câmera costuma ficar entre R$ 460 e R$ 610 (faixa de mercado aproximada em 12/10/2026; o valor varia por vendedor e por cor, veja o preço atual no botão de compra), e o filme, vendido separado, pesa em cada foto de apenas 62 x 46 mm, então o custo mora no filme.",
-    "Com nota 4,6 de 5 em mais de 6,4 mil avaliações (verificado em 12/10/2026), funciona bem como presente e para festas, mas não substitui o celular para quem quer nitidez.",
+    "A câmera costuma variar de R$ 460 a R$ 610, conforme o vendedor e a cor, e o filme, vendido separado, pesa em cada foto de apenas 62 x 46 mm, então o custo mora no filme.",
+    "Com nota 4,6 de 5 em mais de 6,4 mil avaliações, funciona bem como presente e para festas, mas não substitui o celular para quem quer nitidez.",
   ],
   review: {
     tool: "Fujifilm Instax Mini 12",
@@ -49,41 +49,53 @@ export const article: Article = {
       "Cinco cores pastel e nota 4,6 de 5 em mais de 6,4 mil avaliações na Amazon",
     ],
     cons: [
-      "O filme é vendido separado e o custo por foto pesa no uso frequente (confira o preço do pacote na Amazon)",
+      "O filme é vendido separado e o custo por foto pesa no uso frequente (o preço do pacote varia)",
       "Foto pequena (62 x 46 mm) e com visual suave, sem a nitidez de um celular",
       "Sem tela, zoom ou modos manuais: o que o flash e o sensor decidem é o que sai",
       "Usa duas pilhas AA alcalinas, e as que acompanham a câmera são para teste",
       "Distância mínima de 30 cm: sem modo close-up, o objeto precisa estar longe",
     ],
-    price: "aprox. R$ 460 a R$ 610 (varia)",
+    price: "Costuma variar de R$ 460 a R$ 610 (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem quer uma câmera instantânea simples para festas, viagens e presentes, e aceita pagar por filme a cada foto impressa.",
     url: "https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
-    <p>A Fujifilm Instax Mini 12 vale a pena para quem quer uma câmera instantânea fácil de usar, pensada para festas, viagens e presentes, e não se importa com o custo do filme. A câmera usa o filme Instax Mini, imprime fotos de 62 x 46 mm e revela em cerca de 90 segundos. A versão <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer">Lilac Purple</a> tem nota 4,6 de 5 em mais de 6,4 mil avaliações na Amazon Brasil (verificado em 12/10/2026). Esta análise usa a <a href="https://www.fujifilm.com/br/en/consumer/instax/cameras/mini12/specifications" rel="noopener noreferrer nofollow">ficha técnica oficial da Fujifilm</a> e as opiniões de compradores. Nós não testamos a câmera fisicamente.</p>
+    <p>A Fujifilm Instax Mini 12 vale a pena para quem quer uma câmera instantânea fácil de usar, pensada para festas, viagens e presentes, e não se importa com o custo do filme. A câmera usa o filme Instax Mini, imprime fotos de 62 x 46 mm e revela em cerca de 90 segundos. A versão <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer">Lilac Purple</a> tem nota 4,6 de 5 em mais de 6,4 mil avaliações na Amazon Brasil. Esta análise usa a <a href="https://www.fujifilm.com/br/en/consumer/instax/cameras/mini12/specifications" rel="noopener noreferrer nofollow">ficha técnica oficial da Fujifilm</a> e as opiniões de compradores. Nós não testamos a câmera fisicamente.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que a Instax Mini 12 entrega</h2>
     <p>O funcionamento é simples. Você gira o anel da lente para ligar, gira de novo para ativar o modo close-up e dispara. Segundo a Fujifilm, a velocidade do obturador, o brilho do flash e os outros ajustes se adaptam à luz do ambiente, então não há o que configurar. A lente tem 60 mm e abertura f/12,7, o controle de exposição é automático e o flash tem alcance de 0,3 a 2,2 metros, com recarga de até 7 segundos com pilhas novas.</p>
     <p>O modo close-up serve para fotografar de 30 a 50 cm e corrige o paralaxe, que é a diferença entre o que o visor mostra e o que a lente enxerga. Na prática, isso ajuda a centralizar o objeto em fotos de perto, como um prato, um detalhe ou um rosto. O espelho de selfie ao lado da lente permite se enquadrar sem ver a imagem. Existem cinco cores: lilás, rosa, verde menta, branco argila e azul pastel.</p>
 
-    <h2>Quanto custa de verdade</h2>
-    <p>A câmera costuma ficar entre R$ 460 e R$ 610, e o valor varia com o vendedor e a cor; veja o preço atual no botão de compra antes de comprar. O custo recorrente está no filme: divida o preço do pacote pelo número de fotos para saber quanto custa cada uma.</p>
-    <p>Isso muda a conta de quem pensa em usar a câmera todo dia. Para um evento com 40 fotos, são dois pacotes duplos de filme, um gasto que soma rápido. Quem só quer registrar momentos especiais gasta pouco, e quem quer treinar com muitas fotos deve considerar o custo antes de comprar.</p>
+    <h2>Variação de preço</h2>
+    <p>A câmera costuma variar de R$ 460 a R$ 610 no mercado, e a diferença vem do vendedor, da cor, de kits com acessórios e da época do ano, com quedas em datas como a Black Friday. O custo recorrente está no filme: divida o preço do pacote pelo número de fotos para saber quanto custa cada uma.</p>
+    <p>Isso muda a conta de quem pensa em usar a câmera todo dia. Para um evento com 40 fotos, são dois pacotes duplos de filme, um gasto que soma rápido. Em custo-benefício, ela compensa para registrar momentos especiais e presentear, mas não para treinar com muitas fotos, o que explica a nota 5,5 em custo por foto. O preço do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 na Amazon agora ↗</a>
     </div>
 
     <h2>Qualidade da foto e limites</h2>
     <p>O filme Instax tem aspecto de foto analógica: cores suaves, contraste baixo e menos detalhe que um celular. É parte do charme, mas é preciso saber que a foto é pequena e que, com flash sempre ativo, rostos de perto podem sair estourados em ambientes escuros. Não existe tela para conferir o enquadramento, nem zoom: a distância mínima é de 30 cm, ou de 30 a 50 cm no modo close-up.</p>
     <p>A câmera pesa 306 g sem pilhas, alça e filme, e mede 104 x 66,6 x 122 mm. Usa duas pilhas AA alcalinas, com autonomia estimada pela Fujifilm em cerca de 10 pacotes de 10 fotos, e desliga sozinha depois de 5 minutos. As pilhas que acompanham a câmera são para uso de teste, e a Fujifilm avisa que pilhas de manganês não funcionam.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>A Mini 12 funciona bem como presente, para festas de aniversário, casamentos e viagens em grupo, em que a graça é a foto sair na mão. Também é uma opção para quem faz <a href="/artigos/como-usar-ia-para-planejar-festa-de-aniversario-com-orcamento">festa de aniversário com orçamento planejado</a>, pois dá um mimo extra aos convidados. Para criadores, vale como fonte de cenas físicas para <a href="/artigos/ia-para-redes-sociais-criar-agendar-analisar-posts">posts em redes sociais</a>, que depois podem ser fotografadas e editadas.</p>
     <p>Quem precisa de foto nítida, zoom ou edição deve ficar com o celular e usar IA para melhorar a imagem, como mostram os guias de <a href="/artigos/como-editar-fotos-com-ia-no-celular-guia-iniciantes">edição de fotos com IA no celular</a> e de <a href="/artigos/fotos-de-produto-para-vender-online-com-ia">fotos de produto com IA</a>. Quem trabalha com imagem pode ver ainda como <a href="/artigos/como-vender-servicos-de-edicao-de-fotos-e-retoque-com-ia">vender serviços de edição e retoque com IA</a> e como <a href="/artigos/como-vender-artes-e-fotos-criadas-com-ia-generativa">vender artes e fotos criadas com IA generativa</a>.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que vem na caixa e como usar melhor</h2>
     <p>Segundo uma das páginas da Amazon, a versão Lilac Purple vem com alça de mão, manual, duas pilhas AA e 1 ano de garantia limitada. O filme não está incluso, então a primeira compra completa é câmera mais pelo menos um pacote de filme. Antes de disparar, confira se a distância está certa: de 30 cm em diante no modo normal e de 30 a 50 cm no close-up. Fotografar mais perto que isso sem ativar o close-up é a causa mais comum de foto cortada ou descentralizada.</p>
@@ -99,12 +111,15 @@ export const article: Article = {
     <h2>Nota final</h2>
     <p>A nota 7,3 vem de cinco critérios: facilidade de uso, qualidade da foto, custo por foto, design e recursos. Cruzamos a ficha técnica oficial com a nota e as avaliações da Amazon, e não houve teste físico da nossa parte. A Mini 12 ganha muito em facilidade e perde em custo por foto, que é o preço da brincadeira. É a mesma lógica de comparar especificação antes de decidir que o guia de <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">como escolher ferramenta de IA com segurança</a> defende.</p>
     <p>Somando tudo, a Instax Mini 12 fica com nota 7,3 de 10. É uma câmera feita para divertir, fácil de usar e bonita, que cobra o preço no filme e na foto pequena. Se esse é o seu uso, pode comprar. Se você quer registrar o dia a dia com qualidade, é melhor investir em outro caminho.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Instax Mini 12 na Amazon agora ↗</a>
+    </div>
   `,
   faq: [
     {
       question: "A Instax Mini 12 vem com filme?",
       answer:
-        "Não. O filme Instax Mini é vendido separado, segundo a Fujifilm. Para saber o custo por foto, divida o preço do pacote pelo número de fotos (confira o preço atual na Amazon; o valor varia).",
+        "Não. O filme Instax Mini é vendido separado, segundo a Fujifilm. Para saber o custo por foto, divida o preço do pacote pelo número de fotos (o valor varia por vendedor e época).",
     },
     {
       question: "Qual o tamanho da foto da Instax Mini 12?",

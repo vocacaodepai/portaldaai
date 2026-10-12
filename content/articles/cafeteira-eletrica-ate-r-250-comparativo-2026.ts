@@ -27,13 +27,13 @@ export const article: Article = {
   author: "Bruno Danello",
   keyPoints: [
     "Comparamos 3 cafeteiras elétricas de filtro vendidas na Amazon Brasil, todas abaixo de R$ 250: Mondial Dolce Arome C-30-18X, Oster OCAF600 e Cadence Urban Pop CAF810.",
-    "A Mondial é a mais barata (cerca de R$ 99) e serve bem para uma casa pequena; Oster e Cadence entregam 750 W e jarra de 1,2 litro por quase o dobro do preço.",
+    "A Mondial costuma ser a mais barata e serve bem para uma casa pequena; Oster e Cadence entregam 750 W e jarra de 1,2 litro por uma faixa de preço bem mais alta.",
     "A Oster OCAF600 fica com a recomendação: melhor equilíbrio entre potência, jarra de vidro fácil de limpar e nota de compradores (4,7 de 5 na Amazon).",
   ],
   content: `
     <div class="callout-box">
       <span class="callout-label">Transparência Amazon</span>
-      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços e voltagem mudam de anúncio para anúncio: confira os dois na página de cada produto antes de comprar. Valores citados verificados em 08/10/2026.</p>
+      <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços e voltagem mudam de anúncio para anúncio: confira os dois na página de cada produto antes de comprar.</p>
     </div>
 
     <p>Uma boa cafeteira elétrica até R$ 250 resolve o café da manhã de uma família sem gastar com cápsula ou máquina de espresso. Comparamos três modelos de filtro reais da <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer">Amazon Brasil</a>: a Mondial Dolce Arome C-30-18X, a Oster OCAF600 e a Cadence Urban Pop CAF810.</p>
@@ -46,7 +46,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço aprox.</th>
+          <th>Faixa de preço</th>
           <th>Potência</th>
           <th>Capacidade</th>
           <th>Jarra</th>
@@ -56,7 +56,7 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Mondial Dolce Arome C-30-18X</td>
-          <td>R$ 99</td>
+          <td>R$ 85 a R$ 120</td>
           <td>550 W</td>
           <td>18 xícaras</td>
           <td>Vidro</td>
@@ -64,7 +64,7 @@ export const article: Article = {
         </tr>
         <tr>
           <td>Oster OCAF600</td>
-          <td>R$ 119 a R$ 180</td>
+          <td>R$ 110 a R$ 200</td>
           <td>750 W</td>
           <td>1,2 L (32 cafezinhos de 40 ml)</td>
           <td>Vidro</td>
@@ -72,7 +72,7 @@ export const article: Article = {
         </tr>
         <tr>
           <td>Cadence Urban Pop CAF810</td>
-          <td>R$ 170</td>
+          <td>R$ 145 a R$ 200</td>
           <td>750 W</td>
           <td>1,2 L (até 30 cafezinhos)</td>
           <td>Inox</td>
@@ -80,7 +80,7 @@ export const article: Article = {
         </tr>
       </tbody>
     </table>
-    <p>Os preços são os vistos nos anúncios e nas lojas oficiais em 08/10/2026 e oscilam bastante, principalmente na Amazon. Use a tabela como régua de comparação, não como preço garantido.</p>
+    <p>As faixas são aproximadas e oscilam bastante, principalmente na Amazon. Use a tabela como régua de comparação, não como preço garantido.</p>
 
     <h2>Mondial Dolce Arome C-30-18X: a mais barata</h2>
     <figure>
@@ -88,9 +88,9 @@ export const article: Article = {
       <figcaption>Foto oficial: Mondial</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0955QFBH2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial Dolce Arome agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0955QFBH2?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial Dolce Arome na Amazon agora ↗</a>
     </div>
-    <p>A <a href="https://www.amazon.com.br/dp/B0955QFBH2?tag=portaldaai-20" rel="sponsored noopener noreferrer">Mondial Dolce Arome</a> custa cerca de R$ 99 na versão preta de 110 V e é a escolha de quem quer gastar o mínimo. Segundo o fabricante, são 550 W, jarra de vidro, filtro removível e lavável, indicador de nível de água e luz indicadora. O conjunto pesa só 0,94 kg e ocupa pouco espaço na bancada.</p>
+    <p>A <a href="https://www.amazon.com.br/dp/B0955QFBH2?tag=portaldaai-20" rel="sponsored noopener noreferrer">Mondial Dolce Arome</a> costuma ficar entre as mais baratas da categoria e é a escolha de quem quer gastar o mínimo. Segundo o fabricante, são 550 W, jarra de vidro, filtro removível e lavável, indicador de nível de água e luz indicadora. O conjunto pesa só 0,94 kg e ocupa pouco espaço na bancada.</p>
     <p>O ponto de atenção é a potência: com 550 W, o preparo tende a ser mais lento que nas outras duas, e a jarra de vidro pede cuidado com choque térmico, como qualquer jarra de vidro. Para uma ou duas pessoas que tomam café de manhã e não precisam de volume grande, é suficiente. Quem recebe visita toda semana vai sentir falta de capacidade.</p>
 
     <h2>Oster OCAF600: o equilíbrio do grupo</h2>
@@ -99,10 +99,10 @@ export const article: Article = {
       <figcaption>Foto oficial: Oster</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OCAF600 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OCAF600 na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer">Oster OCAF600</a> tem 750 W, jarra de vidro de 1,2 litro (32 cafezinhos de 40 ml), sistema corta-pingos, base de aquecimento e filtro com porta-filtro removíveis. O painel tem acabamento em inox, o que melhora o visual na cozinha. A loja oficial da Oster anota 12 meses de garantia e 1,58 kg de peso.</p>
-    <p>Na Amazon, ela aparece com 4,7 de 5 em mais de 1.100 avaliações, a melhor média do trio, e o preço visto variou de R$ 119 a R$ 180 (o preço sugerido pelo anúncio é R$ 214,90). Entre as reclamações, alguns compradores falam da fragilidade da jarra de vidro, então vale ter atenção na lavagem. Se a jarra quebrar, a reposição avulsa pode ser difícil de achar.</p>
+    <p>Na Amazon, ela aparece com 4,7 de 5 em mais de 1.100 avaliações, a melhor média do trio, e o preço costuma variar bastante conforme o vendedor e a época. Entre as reclamações, alguns compradores falam da fragilidade da jarra de vidro, então vale ter atenção na lavagem. Se a jarra quebrar, a reposição avulsa pode ser difícil de achar.</p>
 
     <h2>Cadence Urban Pop CAF810: a única com jarra de inox</h2>
     <figure>
@@ -110,7 +110,7 @@ export const article: Article = {
       <figcaption>Foto oficial: Cadence</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B085SPLLFN?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Cadence Urban Pop agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B085SPLLFN?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Cadence Urban Pop na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B085SPLLFN?tag=portaldaai-20" rel="sponsored noopener noreferrer">Cadence Urban Pop CAF810</a> tem os mesmos 750 W e a mesma jarra de 1,2 litro, mas em inox de parede simples, com tampa. A base é aquecida e tem pés antiderrapantes. Pesa 1,06 kg, menos que a Oster, e o fabricante informa 12 meses de garantia.</p>
     <p>A vantagem da jarra de inox é a resistência: ela não quebra se cair da pia. A desvantagem é que você não enxerga o nível do café sem abrir a tampa, e a parede simples não isola o calor, então o café depende da base ligada para ficar quente. Atenção à voltagem: o anúncio da Amazon que confirmamos é o de 220 V, e a Cadence vende a CAF810 também em 127 V. Confira antes de fechar a compra.</p>
@@ -137,15 +137,22 @@ export const article: Article = {
     </table>
     <p>Oster e Cadence ficam separadas por um décimo, mas a Oster leva a recomendação por custo e por nota de compradores. A Cadence só vale mais se a jarra de inox for decisiva para você.</p>
 
+    <h2>Variação de preço</h2>
+    <p>O preço de cafeteira elétrica muda muito de um vendedor para outro e de uma época para outra. Pelo mercado, a Mondial Dolce Arome costuma variar de R$ 85 a R$ 120, a Oster OCAF600 de R$ 110 a R$ 200 e a Cadence Urban Pop CAF810 de R$ 145 a R$ 200. A voltagem do anúncio e as promoções de datas como a Black Friday explicam boa parte da diferença.</p>
+    <p>A Mondial costuma sair mais em conta, mas a Oster tem o melhor custo-benefício do trio: potência de 750 W, jarra de 1,2 litro e a maior nota de compradores por uma faixa que muitas vezes se aproxima da Mondial. O preço do dia aparece ao clicar no botão de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OCAF600 na Amazon agora ↗</a>
+    </div>
+
     <h2>Quando não comprar uma cafeteira de filtro</h2>
     <p>Se você toma um café por dia, uma cafeteira de 1,2 litro vai gerar sobra e desperdício, e uma opção individual é mais coerente. Se você quer café com crema ou bebidas com leite, nenhuma das três serve: aí o caminho é espresso ou cápsula, com preço bem maior. E se você precisa que o café esteja pronto quando acorda, nenhuma delas tem programação de horário.</p>
     <p>Vale também olhar o resto da cozinha antes de gastar: o mesmo raciocínio de comparar ficha técnica aparece em nosso <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">comparativo de liquidificadores</a> e no guia para <a href="/artigos/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado">planejar refeições e economizar no mercado</a>. Quem monta a casa aos poucos pode ver também o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">ventilador com controle remoto</a>, o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">umidificador de ar</a> e a <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">lâmpada inteligente</a>.</p>
 
     <h2>Qual comprar</h2>
-    <p>Orçamento curto e casa pequena: a Mondial Dolce Arome resolve por cerca de R$ 99. Quer o melhor equilíbrio entre potência, jarra de vidro de 1,2 litro e nota de compradores: a Oster OCAF600, que é a nossa recomendação. Prefere uma jarra que aguente queda e não se importa em não ver o café: a Cadence Urban Pop CAF810.</p>
+    <p>Orçamento curto e casa pequena: a Mondial Dolce Arome resolve pelo menor preço do trio. Quer o melhor equilíbrio entre potência, jarra de vidro de 1,2 litro e nota de compradores: a Oster OCAF600, que é a nossa recomendação. Prefere uma jarra que aguente queda e não se importa em não ver o café: a Cadence Urban Pop CAF810.</p>
     <p>Por último, um conselho que vale para qualquer compra online: compare o preço dos três anúncios no dia e confirme a voltagem. Se você gosta de decidir com critério, veja como <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">avaliar uma ferramenta antes de assinar</a> ou como <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">organizar a rotina da manhã com ajuda de IA</a>, café quente incluído. Para quem <a href="/artigos/como-usar-ia-para-estudar-para-provas-e-concursos">estuda para prova ou concurso</a> ou trabalha como <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">freelancer em casa</a>, uma jarra cheia de manhã costuma durar a primeira metade do dia. Se o assunto é renda extra, o guia de <a href="/artigos/como-ganhar-dinheiro-testando-e-avaliando-ferramentas-de-ia">testar e avaliar ferramentas</a> mostra como transformar comparação em trabalho.</p>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OCAF600 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B093RXHCLR?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OCAF600 na Amazon agora ↗</a>
     </div>
   `,
   faq: [

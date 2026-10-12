@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "logitech-k380-teclado-vale-a-pena",
-  title: "O teclado de R$ 299 que troca de notebook pro celular em 1 segundo: testamos o Logitech K380",
+  title: "O teclado que troca de notebook pro celular em 1 segundo: testamos o Logitech K380",
   seoTitle: "Logitech K380 vale a pena? Preço e o que ele entrega em 2026",
   excerpt:
     "Nota 8,3 de 10. O Logitech K380 troca entre 3 aparelhos no mesmo teclado sem parear de novo, mas não tem numérico nem iluminação para quem digita no escuro.",
@@ -54,15 +54,19 @@ export const article: Article = {
       "Conexão só por Bluetooth, sem opção de receptor USB para quem prefere conexão sem parear",
       "Preço mais alto que teclado sem fio básico com fio USB incluso, mesmo sem ser mecânico nem ter iluminação",
     ],
-    price: "R$ 299,00 a R$ 409,98 (confira o preço atual na página do produto, varia bastante com cor e promoção)",
+    price: "Costuma variar de R$ 270 a R$ 420, conforme cor e promoção (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem alterna entre notebook, tablet e celular no dia a dia e quer um teclado só para os três, sem precisar parear de novo toda vez que troca de aparelho.",
     url: "https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
     <p>O Logitech K380 é um dos teclados bluetooth mais vendidos da <a href="https://www.amazon.com.br/dp/B0BK9Y563Y" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com quase 7 mil avaliações e nota 4,8 de 5 estrelas. Compacto, sem fio por bluetooth e com três botões dedicados para trocar de dispositivo pareado, ele resolve um problema específico: quem usa mais de um aparelho no mesmo espaço de trabalho e cansou de digitar em teclados diferentes o dia inteiro. Cruzamos a <a href="https://www.logitech.com/en-us/shop/p/k380-multi-device-bluetooth-keyboard" rel="noopener noreferrer nofollow">ficha técnica oficial da Logitech</a> com avaliações reais de quem já comprou, para separar o que é diferencial de fato do que é só número de marketing.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que o Logitech K380 entrega</h2>
     <p>O recurso que define o K380 é o Easy-Switch: três botões no canto superior do teclado, cada um pareado com um dispositivo diferente. Na prática, isso significa escrever no notebook, apertar um botão e continuar digitando no tablet sem precisar abrir o menu de bluetooth e parear de novo. Para quem alterna entre <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">computador, celular e tablet numa rotina de trabalho remoto</a>, é o tipo de atrito pequeno que, resolvido, economiza tempo real todo dia.</p>
@@ -72,16 +76,31 @@ export const article: Article = {
     <p>O K380 não é mecânico: usa switch de borracha tipo scissor, silencioso e confortável, mas sem o toque mais preciso que quem já usa teclado mecânico vai sentir falta. Também não tem iluminação, então digitar no escuro sem luz adicional fica mais difícil de enxergar a tecla certa. O layout compacto corta o teclado numérico e reduz o tamanho das setas, o que pesa bastante para quem passa o dia em planilha ou faz <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">gestão financeira de pequeno negócio</a> com entrada de número constante.</p>
     <p>A conexão é só por bluetooth, sem opção de receptor USB dedicado. Isso raramente é problema em notebook e celular modernos, mas pode incomodar quem usa desktop mais antigo sem bluetooth embutido, exigindo comprar um adaptador USB bluetooth à parte.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Se você alterna entre notebook, tablet e celular ao longo do dia e já se irritou com o processo de parear de novo cada vez, o K380 resolve isso bem, com o Easy-Switch funcionando exatamente como promete. É uma boa peça para quem está montando um <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">espaço de trabalho remoto mais enxuto</a> e prefere um teclado só em vez de um para cada aparelho. Já quem passa o dia inteiro em planilha, precisa de teclado numérico ou já está acostumado com switch mecânico, vai sentir falta de recurso que o K380 não tem, cabendo melhor um teclado tradicional com fio.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>O preço do Logitech K380 muda bastante. Pelo mercado, ele costuma variar de R$ 270 a R$ 420, e a diferença depende da cor, do vendedor e da época, com quedas em datas como a Black Friday. Em custo-benefício ele não é o teclado sem fio mais barato, e por isso a nota 6,5 nesse critério: você paga pela troca rápida entre três aparelhos e pela bateria de até 24 meses. Para quem alterna entre notebook, tablet e celular todo dia, a faixa se justifica. O preço do dia aparece ao clicar no botão de compra.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
     <p>A nota final considera facilidade de uso no dia a dia, portabilidade, qualidade da troca entre dispositivos pareados, autonomia real de bateria e custo-benefício frente a alternativas do mercado, sempre cruzando a ficha técnica oficial da Logitech com avaliações reais de compradores na Amazon Brasil. É o mesmo cuidado que recomendamos para quem quer <a href="/artigos/como-ganhar-dinheiro-testando-e-avaliando-ferramentas-de-ia">ganhar dinheiro testando e avaliando ferramenta e produto de tecnologia</a>: comparar fonte independente em vez de confiar só na propaganda do fabricante.</p>
     <p>Vale reforçar o que a nota de 8,3 significa na prática: não é um teclado para quem busca desempenho de digitação no nível de um mecânico, é um teclado de uso geral muito bem posicionado para quem valoriza portabilidade e troca rápida entre aparelho. Comparado a teclados sem fio básicos e mais baratos, o K380 vence em compatibilidade e praticidade do Easy-Switch, mas perde em recurso de digitação avançada, como teclado numérico e iluminação. Para quem já decidiu que o uso principal é alternar entre notebook e celular, o preço compensa.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
+    </div>
 
     <h2>Ficha técnica resumida</h2>
     <ul>
@@ -93,6 +112,10 @@ export const article: Article = {
       <li>Peso leve, indicado para transporte frequente em mochila</li>
       <li>Disponível em diferentes cores, incluindo grafite, areia e lavanda</li>
     </ul>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0BK9Y563Y?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech K380 na Amazon agora ↗</a>
+    </div>
 
     <h2>Perguntas frequentes</h2>
     <p>Quem está equipando o espaço de trabalho remoto também pode conferir nosso comparativo de <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">mouses sem fio baratos</a> e o review da <a href="/artigos/logitech-c920s-webcam-vale-a-pena">webcam Logitech C920s</a>, pra fechar o combo de acessório sem gastar além do necessário. Para quem usa o teclado para escrever prompt o dia todo, vale também olhar nosso guia de <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">qual IA escolher</a> entre as opções mais usadas no Brasil. E quem já pensa em transformar a rotina de trabalho remoto em renda extra, seja como <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">freelancer</a> ou vendendo <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">consultoria de IA para pequenas empresas</a>, um teclado confortável é parte do equipamento básico que vale a pena ajustar antes de aumentar o volume de trabalho.</p>

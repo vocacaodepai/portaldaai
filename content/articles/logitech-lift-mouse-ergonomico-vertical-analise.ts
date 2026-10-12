@@ -54,15 +54,19 @@ export const article: Article = {
       "Exige alguns dias de adaptação e não é indicado para jogos",
       "Não resolve dor já instalada no punho: ajuda mais na prevenção do desconforto leve",
     ],
-    price: "Anúncios na Amazon Brasil ficaram na faixa de R$ 300 a R$ 380 em 08/10/2026 (consulte a página da Amazon, o valor varia com a cor e o vendedor)",
+    price: "Costuma variar de R$ 275 a R$ 400, conforme cor e vendedor (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem passa horas por dia no computador, tem mão pequena ou média e quer um mouse vertical sem fio, silencioso e que dura meses com uma pilha só.",
     url: "https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
     <p>O Logitech Lift é um mouse ergonômico vertical sem fio que inclina a mão em 57 graus, perto da posição natural de um aperto de mão, para aliviar a tensão no punho. Ele é vendido na <a href="https://www.amazon.com.br/dp/B09J1TB35S" rel="noopener noreferrer nofollow">Amazon Brasil</a> na versão grafite e foi desenhado para mão pequena ou média. Analisamos a ficha técnica oficial, as avaliações de compradores e reviews independentes para dizer a quem ele serve e a quem não serve.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
+    </div>
 
     <p>Quem trabalha o dia inteiro no computador, seja no <a href="/artigos/como-usar-ia-para-trabalhar-menos-horas-sem-perder-renda">ritmo de quem quer trabalhar menos horas sem perder renda</a> ou em jornada cheia de reunião, sente o punho antes de sentir qualquer outra coisa. O mouse vertical promete atacar esse problema com uma mudança de formato, e não com um truque de software.</p>
 
@@ -78,16 +82,20 @@ export const article: Article = {
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para quem passa a maior parte do dia no mouse e já sente cansaço no punho ou no cotovelo, ou quer prevenir. Também faz sentido para quem divide mesa em escritório ou coworking, porque o clique silencioso incomoda menos os vizinhos de mesa. Quem alterna entre notebook, tablet e desktop ganha com a conexão Bluetooth e com o receptor USB Logi Bolt incluído na caixa.</p>
-    <p>Para quem trabalha como <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">freelancer e passa o dia diante da tela</a>, o mouse é uma ferramenta de trabalho como qualquer outra. Um acessório de R$ 300 a R$ 380 que evita pausa forçada por dor no punho se paga mais rápido do que parece, desde que o formato combine com a sua mão.</p>
+    <p>Para quem trabalha como <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">freelancer e passa o dia diante da tela</a>, o mouse é uma ferramenta de trabalho como qualquer outra. Um acessório na faixa de R$ 275 a R$ 400 que evita pausa forçada por dor no punho se paga mais rápido do que parece, desde que o formato combine com a sua mão.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
     </div>
 
     <h2>Onde o Lift deixa a desejar</h2>
     <p>O primeiro limite é o tamanho. A própria Logitech posiciona o Lift para mão pequena e média, e o review da PCWorld relata que a base é larga demais mesmo para uma mão que o autor não considera pequena. Quem tem mão grande deve procurar um mouse vertical maior e conferir as medidas antes de comprar.</p>
     <p>O segundo limite é o clique. Ele é silencioso, mas o retorno tátil é suave, e há quem descreva a sensação como mole. Quem gosta de clique firme e audível tende a estranhar. O terceiro é a pilha: a AA dura bastante, mas não é recarregável, e o modelo não tem opção de uso com cabo.</p>
     <p>Reviewers também apontam que o ângulo de 57 graus não chega a um aperto de mão totalmente vertical, e que o mouse ajuda mais na prevenção do desconforto leve do que no tratamento de dor já instalada. Em caso de dor persistente, a conversa é com um profissional de saúde, não com o acessório.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
+    </div>
 
     <h3>Ficha técnica resumida</h3>
     <ul>
@@ -137,11 +145,22 @@ export const article: Article = {
     </table>
     <p>Se o seu setup inclui um <a href="/artigos/logitech-k380-teclado-vale-a-pena">teclado compacto como o Logitech K380</a> ou um dos modelos do <a href="/artigos/melhor-teclado-sem-fio-barato-comparativo-2026">comparativo de teclados sem fio</a>, o Lift combina bem: os três falam Bluetooth e dão para alternar entre dispositivos sem trocar de receptor.</p>
 
-    <p>Também vale olhar o custo ao longo do tempo. Como a pilha AA dura meses, o gasto recorrente é baixo, e a Logitech anuncia plástico reciclado na construção. O custo real está na compra inicial: é ali que o Lift pesa no bolso, e é por isso que recomendamos conferir o preço atual antes de decidir, já que ele muda com a cor, o vendedor e as promoções.</p>
+    <p>Também vale olhar o custo ao longo do tempo. Como a pilha AA dura meses, o gasto recorrente é baixo, e a Logitech anuncia plástico reciclado na construção. O custo real está na compra inicial: é ali que o Lift pesa no bolso, e é por isso que o preço merece uma seção própria logo abaixo.</p>
+
+    <h2>Variação de preço</h2>
+    <p>O preço do Logitech Lift não é fixo. Pelo mercado, ele costuma variar de R$ 275 a R$ 400, e a diferença vem da cor, do vendedor e da época, com quedas em datas como a Black Friday. É bem mais caro que um mouse sem fio comum, e por isso a nota 7,0 em custo-benefício: o prêmio compensa quem passa muitas horas por dia no computador e quer prevenir o desconforto no punho, e pesa para quem usa pouco. O preço do dia aparece ao clicar no botão de compra.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
+    </div>
 
     <h2>Como avaliamos</h2>
     <p>A nota final é a média de cinco critérios: ergonomia e conforto (8,5), cliques e silêncio (7,5), bateria (9,0), conectividade (8,5) e custo-benefício (7,0). A conta dá 8,1. Não alegamos teste físico: cruzamos a ficha técnica oficial da Logitech com as avaliações de compradores na Amazon e com reviews independentes como o da PCWorld.</p>
     <p>O critério mais fraco é o custo-benefício, e é de propósito. O Lift custa várias vezes o preço de um mouse comum, e esse prêmio só se justifica para quem realmente sente desconforto ou passa muitas horas por dia no computador. Para quem usa pouco, a nota de custo-benefício seria ainda menor.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
+    </div>
 
     <h2>Erros comuns na hora de comprar</h2>
     <ul class="checklist">
@@ -155,7 +174,10 @@ export const article: Article = {
     <p>O mouse é só uma parte do ergonômico. Um <a href="/artigos/melhor-monitor-24-polegadas-comparativo-2026">monitor na altura dos olhos</a>, uma câmera bem posicionada como mostram o <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">comparativo de webcams para reunião</a> e o <a href="/artigos/logitech-c920s-webcam-vale-a-pena">review da Logitech C920s</a>, e pausas regulares pesam tanto quanto o formato do mouse. Quem organiza o dia com apoio de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">uma rotina diária produtiva com IA</a> pode incluir lembretes de pausa, e quem vive de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">reuniões com transcrição automática</a> tende a passar menos tempo digitando e clicando.</p>
 
     <h2>Nota final</h2>
-    <p>Nota 8,1 de 10 para o Logitech Lift. É um mouse vertical bem resolvido, silencioso, com bateria que dura e conexão flexível, que cobra um preço alto e só serve direito para mão pequena ou média. Se esse é o seu caso e o punho já pede socorro, o Lift está entre as escolhas mais seguras da categoria. Antes de fechar, confira o preço e o estoque na <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">página do Logitech Lift na Amazon</a>. Para montar o resto da mesa, veja também o <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">comparativo de SSDs portáteis</a>.</p>
+    <p>Nota 8,1 de 10 para o Logitech Lift. É um mouse vertical bem resolvido, silencioso, com bateria que dura e conexão flexível, que cobra um preço alto e só serve direito para mão pequena ou média. Se esse é o seu caso e o punho já pede socorro, o Lift está entre as escolhas mais seguras da categoria. Antes de fechar, veja o preço do dia na <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">página do Logitech Lift na Amazon</a>. Para montar o resto da mesa, veja também o <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">comparativo de SSDs portáteis</a>.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B09J1TB35S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech Lift na Amazon agora ↗</a>
+    </div>
   `,
   faq: [
     {

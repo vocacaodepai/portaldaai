@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "electrolux-ecm30-cafeteira-vale-a-pena",
-  title: "A cafeteira de R$ 269 que programa o café pra te acordar: testamos a Electrolux ECM30",
+  title: "A cafeteira que programa o café pra te acordar: testamos a Electrolux ECM30",
   seoTitle: "Electrolux ECM30 vale a pena? Nota, prós e contras",
   excerpt:
     "Nota 8,2 de 10. A Electrolux ECM30 rende 38 xícaras por ciclo e programa o horário do café, mas a jarra de vidro exige cuidado. Veja se vale a pena.",
@@ -53,15 +53,19 @@ export const article: Article = {
       "Função manter aquecido não substitui garrafa térmica em termos de retenção de calor",
       "Acabamento em aço escovado risca com mais facilidade que inox polido ao longo dos anos",
     ],
-    price: "R$ 269,00 (confira o preço atual na página do produto, varia com frequência)",
+    price: "Costuma variar de R$ 230 a R$ 310 (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem toma café todos os dias em casa e quer programar o horário de preparo, sem precisar de cafeteira de cápsula nem jarra inox reforçada.",
     url: "https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
     <p>A Electrolux ECM30 é hoje uma das cafeteiras elétricas mais vendidas da <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 3,4 mil avaliações e nota 4,8 de 5 estrelas. O modelo tem painel digital, timer programável de até 24 horas, filtro permanente removível e capacidade pra 38 xícaras pequenas por ciclo. Analisamos a ficha técnica oficial da Electrolux contra as avaliações reais de quem já comprou, pra separar o que realmente entrega no dia a dia do que é só especificação de caixa.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que a Electrolux ECM30 entrega</h2>
     <p>O ponto forte da ECM30 é a praticidade de quem toma café todos os dias no mesmo horário. O timer programável permite deixar tudo pronto (água e pó) na noite anterior e agendar o horário exato em que o café deve começar a coar, até 24 horas de antecedência. É o tipo de recurso que faz diferença real pra quem sai cedo de casa e não quer perder tempo esperando o café ficar pronto.</p>
@@ -71,11 +75,22 @@ export const article: Article = {
     <p>A jarra é de vidro, não de aço inox, o que é o principal ponto de atenção pra quem já teve experiência ruim com jarra quebrando em casa com criança ou pet por perto. O desligamento automático em até 2 horas sem uso também incomoda quem gosta de deixar a chapa ligada por mais tempo pra manter o café quente ao longo da manhã inteira, sendo necessário religar manualmente depois desse período.</p>
     <p>O acabamento em aço escovado, apesar de bonito, tende a riscar com mais facilidade que inox polido em uso de longo prazo, principalmente se limpo com esponja mais áspera. Nenhum desses pontos compromete a função básica da cafeteira, mas valem considerar antes de comprar, principalmente se você já pesquisou sobre <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">como organizar as finanças pessoais com apoio de IA</a> e está pensando no custo de reposição de peça no futuro.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Se o seu uso principal é café coado tradicional em casa, com uma a três pessoas bebendo ao longo do dia, a ECM30 entrega isso muito bem pelo preço. É uma boa escolha pra quem está montando a <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina matinal mais produtiva com apoio de IA</a> e quer eliminar a etapa manual de preparar o café assim que acorda. Já quem prefere café espresso, cápsula ou tem o hábito de deixar o café quente por horas seguidas sem religar, vai sentir falta de outro tipo de equipamento.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 agora ↗</a>
+      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>O preço da Electrolux ECM30 não é fixo. Pelo mercado, ela costuma variar de R$ 230 a R$ 310, conforme o vendedor, a voltagem (127 V ou 220 V) e a época do ano, com quedas em datas como a Black Friday. Dentro dessa faixa, ela fica entre as cafeteiras com timer mais acessíveis, e o custo-benefício é um dos pontos fortes da nota 8,2: poucos modelos nessa faixa trazem programação de horário e AromaStrength. O preço do dia aparece ao clicar no botão de compra.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -93,6 +108,10 @@ export const article: Article = {
       <li>Função manter aquecido</li>
       <li>Disponível em versões 127V e 220V</li>
     </ul>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC3QFDX?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux ECM30 na Amazon agora ↗</a>
+    </div>
 
     <h2>Perguntas frequentes</h2>
     <p>Se você está decidindo entre essa cafeteira e outros itens pra equipar a cozinha, vale também comparar nosso <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">comparativo de liquidificadores</a>, que segue a mesma lógica de olhar nota real de compradores antes do preço. Quem já pensa em transformar rotina de casa em conteúdo pode considerar <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">criar e vender guias com apoio de IA</a> sobre organização doméstica, área que vem crescendo bastante. E pra quem gerencia o orçamento do mês usando <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">IA para organizar finanças pessoais</a>, vale sempre comparar o custo por xícara de cafeteira elétrica contra cápsula antes de decidir qual compensa mais no seu caso.</p>
