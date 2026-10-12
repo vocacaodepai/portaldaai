@@ -2,10 +2,10 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "soundcore-life-q30-vale-a-pena",
-  title: "O fone com ANC de R$ 399 que vendeu mais de 50 mil unidades: testamos o Soundcore Life Q30",
+  title: "O fone com ANC que acumula mais de 50 mil avaliações: analisamos o Soundcore Life Q30",
   seoTitle: "Soundcore Life Q30 vale a pena? Review com nota e preço",
   excerpt:
-    "Nota 8,4 de 10. O Soundcore Life Q30 entrega cancelamento de ruído híbrido e até 60 horas de bateria por menos de R$ 400, mas o encaixe over-ear não é para todo mundo.",
+    "Nota 8,4 de 10. O Soundcore Life Q30 entrega cancelamento de ruído híbrido e até 60 horas de bateria com preço acessível, mas o encaixe over-ear não é para todo mundo.",
   metaDescription:
     "Soundcore Life Q30 da Anker vale a pena? Review com nota por critério, prós, contras, preço e para quem esse fone com cancelamento de ruído compensa.",
   category: "ai-indica",
@@ -53,7 +53,7 @@ export const article: Article = {
       "Hastes todas em plástico, o que passa sensação de menor robustez em uso muito intenso",
       "Sem resistência à água declarada, não indicado para treino com suor intenso ou chuva",
     ],
-    price: "R$ 399,00 (confira o preço atual na página do produto, varia com frequência)",
+    price: "costuma variar de R$ 340 a R$ 460 (veja o preço atual no botão de compra)",
     bestFor:
       "Quem trabalha em home office ou escritório aberto e quer isolar ruído de fundo (conversa, trânsito, ar-condicionado) sem pagar o preço de um fone premium com ANC.",
     url: "https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20",
@@ -62,6 +62,10 @@ export const article: Article = {
   },
   content: `
     <p>Cancelamento de ruído ativo (ANC) costumava ser recurso só de fone acima de R$ 1.000. O <a href="https://www.amazon.com.br/dp/B08Q8C3LHT" rel="noopener noreferrer nofollow">Soundcore Life Q30</a>, da Anker, é hoje um dos fones over-ear mais vendidos da Amazon Brasil nessa faixa de preço, com mais de 50 mil avaliações e nota 4,8 de 5. Usa Bluetooth 5.3, ANC híbrido com três modos e promete até 60 horas de bateria sem o cancelamento ligado. Cruzamos a ficha técnica oficial com o volume de avaliação real de compradores pra entender onde ele entrega e onde decepciona.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que o Soundcore Life Q30 entrega</h2>
     <p>A bateria é o grande diferencial: até 40 horas com ANC ligado e 60 horas com ANC desligado, números bem acima da média da categoria. Na prática, isso significa usar o fone a semana inteira de trabalho sem precisar lembrar de carregar todo dia, algo que ajuda demais numa <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina diária corrida</a>. O carregamento rápido também ajuda: 5 minutos na tomada rendem até 4 horas de uso, o suficiente pra salvar o dia quando a bateria acaba de surpresa.</p>
@@ -72,16 +76,31 @@ export const article: Article = {
     <p>O encaixe over-ear (que cobre a orelha inteira) é confortável por mais tempo que fone intra-auricular, mas ocupa mais espaço na mochila e não é prático pra quem se exercita: não tem resistência à água declarada, então fica fora de cogitação pra treino com suor ou corrida na chuva. As hastes em plástico também passam sensação de menor robustez que fones com estrutura metálica, embora isso não tenha aparecido como queixa recorrente nas avaliações de compradores. Quem já comparou <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">fone bluetooth intra-auricular barato</a> sabe que o formato over-ear troca portabilidade por conforto em sessão longa, decisão que vale pensar antes de comprar.</p>
     <p>O aplicativo Soundcore também concentra o controle de firmware: atualizações de software chegam por ele, e é lá que fica o ajuste fino de cada modo de ANC, algo que concorrentes sem aplicativo dedicado não oferecem. Vale instalar antes mesmo de abrir a caixa do fone, pra já sair usando com o perfil de som calibrado.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Faz sentido pra quem trabalha em home office ou escritório aberto e precisa de silêncio pra focar, seja escrevendo relatório, gravando <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">podcast e narração com apoio de IA</a> ou participando de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">reunião com transcrição automática</a> o dia inteiro. Também ajuda quem viaja de ônibus ou avião com frequência e quer isolar o ruído do motor sem gastar o preço de um fone premium, inclusive pra quem usa <a href="/artigos/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando">IA para planejar viagem</a> e passa longas horas em trânsito.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>O Soundcore Life Q30 costuma variar de R$ 340 a R$ 460, uma faixa aproximada de mercado, não um valor fixo. O preço sobe ou desce conforme o vendedor, a cor e a época: em Black Friday e promoções de áudio ele tende a ficar na parte de baixo da faixa.</p>
+    <p>Para quem quer cancelamento de ruído sem pagar preço de fone premium, o custo-benefício é o ponto mais forte dele (nota 9,0 nesse critério), principalmente pela bateria de até 60 horas. O preço do dia aparece ao clicar no botão de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
     <p>A nota final pondera custo-benefício, bateria real anunciada pelo fabricante, eficácia do cancelamento de ruído por tipo de ambiente, qualidade de som e conforto para uso prolongado. Cruzamos a ficha técnica oficial da Soundcore com as mais de 50 mil avaliações reais de compradores na Amazon Brasil, sem alegar teste físico próprio: é análise de especificação técnica e de relato consistente de quem já comprou e usa no dia a dia.</p>
     <p>Vale reforçar o que a nota 8,4 significa na prática: não é um fone perfeito, é um fone muito bem posicionado pra faixa de preço em que compete. Frente a concorrentes com ANC na mesma faixa de valor, o Life Q30 costuma vencer em bateria e em variedade de modo de cancelamento, mas perde em robustez de material pra modelos levemente mais caros. Se o uso principal é trabalho e viagem, ele entrega mais do que o preço sugere; se o uso é treino ou atividade ao ar livre com chuva, vale olhar outro modelo com resistência à água, como o <a href="/artigos/soundcore-p20i-anker-vale-a-pena">Soundcore P20i</a> que já testamos aqui, com certificação IPX5.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
 
     <h2>Ficha técnica resumida</h2>
     <ul>
@@ -95,8 +114,15 @@ export const article: Article = {
       <li>Sem certificação de resistência à água</li>
     </ul>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
+
     <h2>Perguntas frequentes</h2>
     <p>Quem está decidindo entre esse fone e outras formas de equipar o espaço de trabalho pode olhar também nosso <a href="/artigos/ugreen-revodok-pro-hub-usb-c-vale-a-pena">review do hub USB-C UGREEN Revodok Pro</a>, pra resolver a falta de porta do notebook junto com o fone com ANC. Quem usa o tempo de deslocamento pra <a href="/artigos/como-usar-ia-para-estudar-para-provas-e-concursos">estudar com apoio de IA</a> ou ouvir resumo de leitura com <a href="/artigos/perplexity-notebooklm-ia-de-pesquisa-estudar-mais-rapido">Perplexity e NotebookLM</a> agradece o cancelamento de ruído pra focar sem distração do ambiente. E quem já pensa em transformar horas de trabalho remoto em renda extra, como <a href="/artigos/como-ganhar-dinheiro-com-transcricao-e-legendagem-usando-ia">transcrição e legendagem com IA</a>, sabe que um bom isolamento de ruído facilita escutar áudio com atenção por mais tempo sem cansar.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08Q8C3LHT?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Soundcore Life Q30 na Amazon agora ↗</a>
+    </div>
   `,
   faq: [
     {

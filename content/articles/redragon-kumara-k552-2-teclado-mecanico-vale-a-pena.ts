@@ -55,7 +55,7 @@ export const article: Article = {
       "Sem apoio de pulso e sem ajuste de altura que valha o nome, então sessões longas pedem um suporte à parte",
     ],
     price:
-      "Consulte a página da Amazon (varia conforme o vendedor e a data, e lojas brasileiras anunciam a família K552 em faixa aproximada de R$ 140 a R$ 285)",
+      "costuma variar de R$ 140 a R$ 285 conforme a variante e o vendedor (veja o preço atual no botão de compra)",
     bestFor:
       "Quem quer o primeiro teclado mecânico em ABNT2 para escrever, estudar ou jogar, gastando pouco e aceitando abrir mão de RGB, software e conexão sem fio.",
     url: "https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20",
@@ -75,7 +75,7 @@ export const article: Article = {
     <p>Para quem vai escrever textos, estudar e jogar de vez em quando, o Brown é a escolha mais segura. Pense nele como o meio-termo: mais firme que a membrana de um teclado comum, menos escandaloso que o Blue. Se você faz muita reunião por vídeo, o <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">fluxo de reunião com transcrição automática</a> ajuda a não precisar digitar anotações durante a chamada, e o barulho do teclado deixa de ser problema.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>
@@ -98,18 +98,26 @@ export const article: Article = {
     <p>A versão K552-2 tem LED de uma cor só, vermelho. Quem quer efeito RGB precisa procurar as variantes RGB da família, que custam mais. Também não existe software, então macros, mapeamento de teclas e perfis estão fora. O que o teclado faz, ele faz pelo atalho com a tecla Fn.</p>
     <p>Outro ponto é a conexão: só cabo. Quem trabalha com notebook e celular alternando, como no <a href="/artigos/logitech-k380-teclado-vale-a-pena">Logitech K380</a>, vai sentir falta do Bluetooth. E o Brown, por ser mecânico, faz mais barulho que um teclado de membrana, mesmo sem clique. Em quarto compartilhado de madrugada, isso aparece.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>O K552-2 é a escolha certa para quem quer um primeiro mecânico para <a href="/artigos/como-usar-ia-para-estudar-para-provas-e-concursos">estudar e escrever resumos</a>, para quem trabalha como <a href="/artigos/freelancer-na-era-da-ia-como-se-tornar-insubstituivel">freelancer escrevendo muito por dia</a> e para quem joga no PC e quer um TKL barato com anti-ghosting. Também funciona bem para quem monta um setup de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina produtiva com apoio de IA</a> e precisa de um teclado que aguente horas de digitação.</p>
     <p>Não é a melhor ideia para quem precisa de bloco numérico (planilhas, contabilidade), para quem quer RGB, ou para quem prefere um teclado sem fio. Nesses casos, vale olhar o <a href="/artigos/melhor-teclado-sem-fio-barato-comparativo-2026">comparativo de teclados sem fio baratos</a>, onde a lógica de escolha é outra.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
     </div>
 
     <h2>Como deve ser a digitação no dia a dia</h2>
     <p>Quem sai de um teclado de membrana, desses que vêm junto com o computador de escritório, costuma notar três diferenças nos primeiros dias. A primeira é o curso da tecla: no mecânico, o dedo percorre uma distância maior e sente o ponto em que a tecla registra. No Brown, esse ponto é o pequeno relevo tátil, e com o tempo você aprende a soltar o dedo logo depois dele, o que reduz o cansaço.</p>
     <p>A segunda é o som. Mesmo sem o clique do Blue, o Brown produz o barulho das teclas batendo no fundo e da mola. Em casa, tudo bem. Em escritório compartilhado ou em chamada de vídeo com microfone aberto, ele aparece. Quem se incomoda pode trocar os keycaps por modelos de borracha ou colocar anéis de silicone sob as teclas, acessórios baratos que reduzem o impacto.</p>
     <p>A terceira é a postura. Como o teclado é baixo e não tem apoio de pulso, sessões longas pedem um apoio separado, de espuma ou gel, para manter o punho reto. Isso vale para qualquer teclado, mas o mecânico, que convida a digitar por mais tempo, deixa o problema mais visível.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
+    </div>
 
     <h2>Alternativas e quando considerar outra opção</h2>
     <p>Se o que você precisa é de teclado sem fio para alternar entre notebook e celular, o caminho é outro: o <a href="/artigos/logitech-k380-teclado-vale-a-pena">K380</a> e os modelos do comparativo de teclados sem fio resolvem melhor, ainda que com digitação de membrana. Se você escreve muito e quer algo ainda mais macio, vale pesar o Red no lugar do Brown, que é linear e mais silencioso.</p>
@@ -119,9 +127,19 @@ export const article: Article = {
     <p>A nota 7,5 vem da média de cinco critérios com pesos diferentes: custo-benefício (30%), experiência de digitação (25%), construção (20%), recursos extras (15%) e ruído em ambiente compartilhado (10%). A nota de cada critério se baseia na ficha oficial do fabricante e no que compradores relatam em loja, sem teste físico próprio. Se você usa o teclado também para <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">montar planilhas e relatórios</a>, vale pesar o bloco numérico que falta aqui.</p>
     <p>Uma nota quebrada como 7,5 é proposital: ela mostra a distância real entre este teclado e um modelo de R$ 400 com software e RGB, que ficaria perto de 8,5, ou um teclado de membrana simples, que ficaria abaixo de 6. O Kumara fica numa faixa honesta: muito bom pelo preço, limitado em recursos.</p>
 
+    <h2>Variação de preço</h2>
+    <p>O Redragon Kumara K552-2 costuma variar de R$ 140 a R$ 285, uma faixa larga de mercado, não um valor fixo. A diferença vem da variante (Red, Blue ou Brown, com ou sem RGB), do vendedor e da época: em Black Friday e promoções de periféricos o modelo tende a ficar na parte de baixo da faixa. Como a família K552 tem muitos códigos parecidos, confira o anúncio antes de comparar valores.</p>
+    <p>Para um teclado mecânico ABNT2 com estrutura de metal, o custo-benefício é o ponto mais forte dele (nota 8,5 nesse critério). Quem quer RGB, software ou conexão sem fio vai pagar mais em outra linha. O preço do dia aparece ao clicar no botão de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
+    </div>
+
     <h2>Cuidados antes de comprar</h2>
     <p>Como a família K552 tem muitos códigos parecidos, confira no anúncio se aparece K552-2, Outemu Brown, ABNT2 e LED vermelho. Dê preferência a anúncios vendidos e enviados pela própria Amazon, que reduzem o risco de unidade com defeito sem nota fiscal, queixa que aparece em avaliações de vendedores terceiros. O preço varia bastante com a data e a variante, então consulte a página da Amazon antes de decidir.</p>
     <p>Se você está montando um posto de trabalho completo, o <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">comparativo de mouses sem fio</a>, o <a href="/artigos/melhor-monitor-24-polegadas-comparativo-2026">de monitores de 24 polegadas</a> e a análise do <a href="/artigos/logitech-lift-mouse-ergonomico-vertical-analise">Logitech Lift</a> completam o conjunto. E para quem digita muito para escrever <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">comandos para IA</a>, um teclado confortável faz diferença no fim do dia.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08F6QCG19?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Redragon Kumara K552-2 na Amazon agora ↗</a>
+    </div>
   `,
   faq: [
     {

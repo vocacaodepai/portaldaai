@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "phomemo-m110-impressora-etiquetas-vale-a-pena",
-  title: "A impressora de etiquetas de R$ 389 que cabe na bolsa: testamos a Phomemo M110",
+  title: "A impressora de etiquetas que cabe na bolsa: analisamos a Phomemo M110",
   seoTitle: "Phomemo M110 vale a pena? Preço e o que entrega em 2026",
   excerpt:
     "Nota 7,8 de 10. A Phomemo M110 imprime etiqueta térmica sem tinta direto do celular por bluetooth, útil pra quem organiza casa, estoque pequeno ou pede muita entrega.",
@@ -52,7 +52,7 @@ export const article: Article = {
       "Etiquetas genéricas de outras marcas às vezes não encaixam perfeitamente no sensor de papel",
       "Resolução de impressão é boa para texto e código de barras, mas não para foto ou imagem detalhada",
     ],
-    price: "R$ 389,00 (confira o preço atual na página do produto, varia com frequência)",
+    price: "costuma variar de R$ 330 a R$ 450 (veja o preço atual no botão de compra)",
     bestFor:
       "Quem organiza casa, pequeno estoque, armário de roupa ou recebe muita entrega e quer etiquetar sem depender de impressora grande com tinta.",
     url: "https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20",
@@ -61,6 +61,10 @@ export const article: Article = {
   },
   content: `
     <p>A Phomemo M110 é uma mini impressora de etiquetas térmica, do tamanho de uma caixa de fósforo grande, vendida na <a href="https://www.amazon.com.br/dp/B07YN44WLV" rel="noopener noreferrer nofollow">Amazon Brasil</a> com mais de 1,2 mil avaliações e nota 4,3 de 5. Segundo a <a href="https://phomemo.com/products/m110-label-maker" rel="noopener noreferrer">página oficial da Phomemo</a>, o modelo imprime por bluetooth direto do celular, sem tinta nem cartucho, usando papel térmico adesivo parecido com o de recibo de cartão de crédito.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
+    </div>
 
     <h2>O que a Phomemo M110 entrega</h2>
     <p>A proposta é simples: etiquetar qualquer coisa rápido, sem complicação de impressora grande. Conecta por bluetooth ao celular (Android ou iPhone), e o aplicativo Phomemo Print tem dezenas de modelos prontos, fontes diferentes e até gerador de código de barras e QR code. Pra quem organiza casa, separa roupa por temporada, etiqueta pote de mantimento na cozinha ou marca caixa de mudança, a impressão sai pronta em segundos sem precisar ligar em tomada.</p>
@@ -71,16 +75,24 @@ export const article: Article = {
     <p>Para quem já monta um pequeno negócio digital e físico ao mesmo tempo, como ensinamos em <a href="/artigos/como-montar-uma-loja-virtual-em-um-fim-de-semana-usando-ia">como montar uma loja virtual em um fim de semana usando IA</a>, uma impressora de etiqueta portátil ajuda bastante na hora de embalar e despachar pedido sem depender de serviço terceirizado de etiquetagem.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
     </div>
 
     <h2>Onde ela deixa a desejar</h2>
     <p>O maior ponto fraco é o idioma do aplicativo principal: os menus do Phomemo Print vêm em inglês, o que exige um pouco de adaptação pra quem não tem familiaridade com o idioma, mesmo os ícones sendo intuitivos na maior parte das funções. A bateria interna também não é das maiores: uso moderado (algumas dezenas de etiquetas por dia) dura poucos dias antes de precisar recarregar pela entrada USB-C.</p>
     <p>Etiqueta de marca genérica, comprada fora da loja oficial da Phomemo, às vezes não encaixa perfeitamente no sensor que detecta o fim do rolo, o que pode gerar corte torto ocasional. Vale comprar rolo de reposição original ou de marca compatível testada por outros compradores nas avaliações.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Faz sentido pra quem organiza casa com frequência, revende produto por conta própria, ou trabalha com pequeno estoque e precisa de etiqueta rápida sem complicação. Também ajuda quem já usa <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">inteligência artificial para gerenciar estoque de pequeno comércio</a>, já que a etiqueta física complementa bem o controle digital de produto.</p>
     <p>Não é a escolha certa pra quem precisa imprimir documento, foto ou texto longo: ela serve só pra etiqueta de tamanho pequeno a médio, nada além disso.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
+    </div>
 
     <h2>Quem mais usa esse tipo de impressora</h2>
     <p>Além de pequeno comércio, a M110 aparece bastante em relato de quem organiza home office, etiquetando pasta, caixa de arquivo e fio de equipamento. Quem monta um espaço de trabalho mais produtivo em casa, como descrevemos em <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar o primeiro assistente de IA pessoal</a>, pode usar a etiquetadora pra manter tudo identificado e fácil de achar, o que ajuda a manter o foco sem perder tempo procurando material.</p>
@@ -90,7 +102,14 @@ export const article: Article = {
     <p>A Phomemo também vende modelos maiores, como a M120 e a M220, com rolo de papel mais largo e impressão mais rápida, voltados pra quem imprime centenas de etiqueta por dia em operação comercial. Para o uso comum de casa ou pequeno negócio, a M110 já cobre bem a demanda sem pagar a mais por capacidade que não vai usar. Quem já pensa em escalar o negócio e vender mais pode revisar nosso guia de <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no negócio local</a>, que trata de organização de processo além só do equipamento.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>A Phomemo M110 costuma variar de R$ 330 a R$ 450, uma faixa aproximada de mercado, não um valor fixo. O preço muda conforme o vendedor, o kit (alguns anúncios já vêm com rolos de etiqueta extras) e a época: em Black Friday e promoções de informática ele tende a ficar na parte de baixo da faixa. O papel térmico de reposição é um custo à parte, mas pequeno, já que não existe tinta nem cartucho.</p>
+    <p>Para quem etiqueta com frequência, o custo-benefício é um dos pontos fortes dela (nota 8,5 nesse critério), porque o gasto recorrente fica só no rolo de papel. Para uso raro, o valor do aparelho pesa mais. O preço do dia aparece ao clicar no botão de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -106,6 +125,10 @@ export const article: Article = {
       <li>Suporta rolos de papel térmico adesivo de larguras variadas</li>
       <li>Compacta: cabe em bolsa ou gaveta pequena</li>
     </ul>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07YN44WLV?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Phomemo M110 na Amazon agora ↗</a>
+    </div>
 
     <h2>Perguntas frequentes</h2>
     <p>Quem já pensa em transformar organização e produtividade em fonte de renda extra pode gostar de ver também <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">como ganhar dinheiro ensinando IA para iniciantes</a>, já que ferramenta simples como essa costuma ser um bom gancho de conteúdo pra quem cria vídeo curto sobre organização. E quem revende produto e grava o processo de preparo de pedido pra rede social pode achar útil <a href="/artigos/como-ganhar-dinheiro-criando-videos-curtos-com-ia">como ganhar dinheiro criando vídeos curtos com IA</a>. Quem já pensa em abrir um pequeno negócio do zero pode também aproveitar o guia de <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">como criar um negócio digital usando IA do zero</a>, que trata de organização e processo além só do equipamento físico.</p>
