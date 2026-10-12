@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "logitech-c920s-webcam-vale-a-pena",
-  title: "A webcam mais vendida do mundo custa R$ 360: testamos a Logitech C920s",
+  title: "A webcam mais vendida do mundo: testamos a Logitech C920s",
   seoTitle: "Logitech C920s vale a pena? Preço e o que ela entrega em 2026",
   excerpt:
     "Nota 8,1 de 10. A Logitech C920s grava em Full HD 1080p, tem obturador de privacidade e microfone embutido, mas o autofoco pode falhar em pouca luz.",
@@ -54,15 +54,19 @@ export const article: Article = {
       "Sem suporte nativo a 4K, se limita a Full HD 1080p mesmo em computadores mais potentes",
       "Cabo USB relativamente curto para quem usa monitor mais afastado do computador",
     ],
-    price: "R$ 359,99 (confira o preço atual na página do produto, varia com frequência)",
+    price: "Costuma variar de R$ 305 a R$ 415 (o preço do dia aparece no botão de compra)",
     bestFor:
       "Quem faz reunião de trabalho remoto com frequência, grava aula ou conteúdo simples e quer uma webcam confiável sem precisar configurar software complexo.",
     url: "https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20",
     affiliate: true,
-    ctaLabel: "Ver preço na Amazon",
+    ctaLabel: "Comprar na Amazon agora",
   },
   content: `
     <p>A Logitech C920s é hoje uma das webcams mais vendidas da <a href="https://www.amazon.com.br/dp/B07K986YLL" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com mais de 32 mil avaliações e nota 4,8 de 5 estrelas. A própria Logitech descreve o modelo como a webcam mais vendida do mundo, dado que aparece na página oficial do produto. Grava em Full HD 1080p a 30fps, tem microfone duplo embutido e obturador físico de privacidade. Cruzamos a ficha técnica oficial da <a href="https://www.logitech.com/pt-br/shop/p/c920s-pro-hd-webcam" rel="noopener noreferrer nofollow">Logitech</a> com relatos de uso real de quem já comprou, para separar o que é diferencial de fato do que é só número na caixa.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
+    </div>
 
     <h2>O que a Logitech C920s entrega</h2>
     <p>O ponto forte da C920s é a simplicidade de uso: basta plugar na porta USB e ela já funciona em Zoom, Teams, Google Meet ou qualquer outro programa de vídeo chamada, sem precisar instalar driver específico na maioria dos casos. A lente de vidro de cinco elementos com correção automática de luz (tecnologia RightLight 2) entrega vídeo nítido mesmo em ambiente com iluminação mediana, algo que webcams mais baratas costumam sacrificar. O campo de visão de 78 graus é generoso o suficiente para enquadrar duas pessoas ao mesmo tempo, útil para quem grava aula ou faz call em dupla.</p>
@@ -72,11 +76,22 @@ export const article: Article = {
     <p>O autofoco da C920s pode demorar para ajustar ou falhar em ambientes com pouca luz, especialmente ao entrar ou sair do quadro rapidamente. Não é uma webcam voltada para gravação profissional de vídeo: quem cria conteúdo em <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">vídeo e narração com apoio de IA</a> de forma mais séria vai sentir falta de recurso como 4K nativo ou controle manual de foco mais preciso, presentes em câmeras dedicadas de faixa de preço mais alta.</p>
     <p>Também não é a webcam mais barata do mercado. Existem opções de entrada por menos da metade do preço que entregam Full HD básico, mas sem o conjunto completo de microfone estéreo, obturador físico e correção de luz que a C920s oferece.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
+    </div>
+
     <h2>Para quem vale a pena</h2>
     <p>Se você faz reunião de trabalho remoto com frequência, dá aula online ou grava conteúdo simples e quer uma webcam confiável sem complicação de configuração, a C920s entrega isso muito bem pelo conjunto de recursos. É uma escolha sólida para quem já usa <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">IA para transcrição e resumo de reunião</a> e quer que a qualidade de imagem acompanhe a qualidade do áudio transcrito. Já quem cria conteúdo de vídeo profissional com edição mais elaborada deve considerar uma câmera dedicada com mais controle manual.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
+    </div>
+
+    <h2>Variação de preço</h2>
+    <p>O preço da Logitech C920s não é fixo. Pelo mercado, ela costuma variar de R$ 305 a R$ 415, conforme o vendedor e a época, com quedas em datas como a Black Friday. Existem webcams de entrada por menos da metade desse valor, mas sem o conjunto de microfone estéreo, obturador físico e correção de luz. O custo-benefício é bom para quem usa a webcam todo dia em reunião e aula, e menos justificável para quem liga a câmera uma vez por mês. O preço do dia aparece ao clicar no botão de compra.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -95,8 +110,16 @@ export const article: Article = {
       <li>Compatível com Zoom, Microsoft Teams, Google Meet e OBS Studio</li>
     </ul>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
+    </div>
+
     <h2>Webcam boa também ajuda a vender mais</h2>
     <p>Quem já pensa em <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">vender consultoria de IA para pequenas empresas</a> ou em <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">ensinar IA para iniciantes</a> em videochamada sabe que a primeira impressão em vídeo pesa na negociação. Uma imagem nítida e bem iluminada transmite mais profissionalismo do que a câmera padrão da maioria dos notebooks, que costuma ter sensor de qualidade bem inferior. O mesmo vale para quem grava aula ou treinamento para vender depois, como em <a href="/artigos/como-criar-e-vender-curso-online-usando-ia">como criar e vender curso online usando IA</a>: a webcam é parte do material de venda, não só um detalhe técnico.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07K986YLL?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Logitech C920s na Amazon agora ↗</a>
+    </div>
 
     <h2>Perguntas frequentes</h2>
     <p>Se você está decidindo entre essa webcam e outros itens para equipar seu espaço de trabalho remoto, vale também olhar nosso guia de <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">como escolher ferramenta de IA com segurança</a>, que ajuda a pensar em custo-benefício além de hardware. Quem já usa reunião gravada como parte da rotina pode aproveitar para revisar como funciona <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">transcrição, resumo e ata automática com IA</a>, já que uma imagem mais nítida ajuda até a qualidade da transcrição em alguns casos. Para quem pensa em transformar aula ou conteúdo gravado em renda extra, vale também considerar <a href="/artigos/como-ganhar-dinheiro-com-transcricao-e-legendagem-usando-ia">transcrição e legendagem com IA</a> como complemento ao vídeo gravado. Quem cria apresentação para reunião ou aula pode combinar a webcam com as dicas de <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">como criar apresentações e slides profissionais com IA</a>, e quem ainda está decidindo qual assinatura de IA vale o investimento pode conferir nosso review do <a href="/artigos/chatgpt-plus-vale-a-pena-review-2026">ChatGPT Plus</a> antes de fechar o orçamento do home office.</p>

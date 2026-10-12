@@ -38,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>A melhor batedeira planetária para a maioria das cozinhas brasileiras é a que combina motor de 700 W ou mais, tigela de 4 litros ou mais e três batedores diferentes, e as três comparadas aqui cumprem isso. A diferença está no material da tigela, no número de batedores, na potência real e no preço. Colocamos lado a lado a <a href="https://www.amazon.com.br/dp/B07WDCZWFW" rel="noopener noreferrer nofollow">Mondial BP-01P-B</a>, a Britânia BBP760P e a Oster OBAT641, todas vendidas na Amazon Brasil.</p>
-    <p>Quem faz bolo no domingo, pão caseiro ou doce para vender precisa de motivos concretos para pagar mais, e é isso que a tabela abaixo mostra. Notas e avaliações foram verificadas na Amazon em 12/10/2026; os preços da tabela são uma faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra.</p>
+    <p>Quem faz bolo no domingo, pão caseiro ou doce para vender precisa de motivos concretos para pagar mais, e é isso que a tabela abaixo mostra. Os preços da tabela são faixas aproximadas de mercado e variam por voltagem e vendedor.</p>
 
     <h2>Os 3 modelos lado a lado</h2>
     <p>Todos são planetários: o batedor gira sobre o próprio eixo e ao mesmo tempo percorre a tigela, o que mistura a massa por inteiro sem precisar raspar toda hora. As três têm 12 velocidades e tampa com proteção contra respingos.</p>
@@ -46,7 +46,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço na Amazon</th>
+          <th>Faixa de preço</th>
           <th>Potência</th>
           <th>Tigela</th>
           <th>Batedores</th>
@@ -56,27 +56,27 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Mondial Premium BP-01P-B</td>
-          <td>aprox. R$ 270 a R$ 360 (110 V)</td>
+          <td>R$ 270 a R$ 360 (110 V)</td>
           <td>700 W</td>
           <td>2 tigelas de 4,5 L</td>
           <td>3</td>
-          <td>4,7 de 5 (283 avaliações, verificado em 12/10/2026)</td>
+          <td>4,7 de 5 (283 avaliações)</td>
         </tr>
         <tr>
           <td>Britânia BBP760P Power Plus Turbo</td>
-          <td>aprox. R$ 260 a R$ 350 (127 V)</td>
+          <td>R$ 260 a R$ 350 (127 V)</td>
           <td>700 W</td>
           <td>1 tigela plástica de 4,5 L</td>
           <td>4</td>
-          <td>4,5 de 5 (492 avaliações, verificado em 12/10/2026)</td>
+          <td>4,5 de 5 (492 avaliações)</td>
         </tr>
         <tr>
           <td>Oster Bowl Inox III OBAT641</td>
-          <td>aprox. R$ 350 a R$ 470 (127 V)</td>
+          <td>R$ 350 a R$ 470 (127 V)</td>
           <td>850 W</td>
           <td>1 tigela de inox de 4 L</td>
           <td>3 + medidor</td>
-          <td>4,6 de 5 (2.116 avaliações, verificado em 12/10/2026)</td>
+          <td>4,6 de 5 (2.116 avaliações)</td>
         </tr>
       </tbody>
     </table>
@@ -88,7 +88,7 @@ export const article: Article = {
       <figcaption>Foto oficial: Mondial</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial BP-01P-B agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial BP-01P-B na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer">Mondial Premium BP-01P-B</a> é a única do grupo que acompanha duas tigelas de 4,5 litros (uma de polipropileno e outra de inox, segundo a ficha da marca). Na prática, dá para preparar duas receitas em sequência sem lavar nada no meio: a massa do bolo numa, a cobertura na outra. Ela tem 700 W, 12 velocidades, três batedores para massas leves, médias e pesadas, cabo de 1,5 m e garantia de 12 meses.</p>
     <p>A nota de compradores é a maior do grupo, 4,7 de 5, mas com a menor base de avaliações das três (283), então o número tem menos peso estatístico que o da Oster. Outro cuidado: a versão da Amazon é 110 V, e os 3,9 kg pedem bancada firme.</p>
@@ -99,7 +99,7 @@ export const article: Article = {
       <figcaption>Foto oficial: Britânia</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BBP760P agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BBP760P na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=portaldaai-20" rel="sponsored noopener noreferrer">Britânia BBP760P Power Plus Turbo</a> é a mais barata das três na Amazon e traz um diferencial real: quatro batedores de inox, incluindo um específico para massas delicadas, como suspiro, mousse e macarons, além dos de claras em neve, massas leves e pesadas. O motor é de 700 W, com 12 velocidades turbo e partida suave, que começa devagar para a farinha não voar da tigela.</p>
     <p>O ponto fraco está na tigela: é de plástico, com alça, de 4,5 litros. Plástico risca e pode manchar com o tempo, e claras em neve costumam render melhor em inox. A garantia declarada pela marca é de 360 dias, e a nota de 4,5 de 5 fica um pouco abaixo das outras duas.</p>
@@ -110,10 +110,23 @@ export const article: Article = {
       <figcaption>Foto oficial: Oster</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0C4CF2F67?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OBAT641 agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0C4CF2F67?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OBAT641 na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B0C4CF2F67?tag=portaldaai-20" rel="sponsored noopener noreferrer">Oster Bowl Inox III</a> é a mais cara e a mais potente: 850 W, 12 velocidades com partida suave, tigela de inox de 4 litros, ventosas de sucção na base e um acessório medidor exclusivo. A ventosa importa porque massa pesada, de pão, faz a máquina trepidar; a base presa na bancada reduz o problema. O peso declarado é de 3,955 kg e a garantia, de 12 meses.</p>
     <p>É também a de maior volume de avaliação, mais de 2 mil, com nota de 4,6 de 5. A tigela de 4 litros é a menor do trio, o que limita o tamanho de uma receita de pão. Em comparação, a Mondial e a Britânia aceitam 4,5 litros.</p>
+
+    <h2>Variação de preço</h2>
+    <p>O preço de batedeira planetária muda com a voltagem, o vendedor e a época do ano, com quedas em datas como a Black Friday. Pelo mercado, a Mondial BP-01P-B costuma variar de R$ 270 a R$ 360, a Britânia BBP760P de R$ 260 a R$ 350 e a Oster OBAT641 de R$ 350 a R$ 470.</p>
+    <p>A Britânia costuma sair mais em conta, mas a Mondial tem o melhor custo-benefício: faixa próxima à da Britânia, duas tigelas e a maior nota de compradores, o que sustenta a nota 8,1 e a recomendação do comparativo. A Oster cobra a faixa mais alta pelo motor de 850 W e pela tigela de inox. O preço do dia aparece ao clicar nos botões de compra.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial BP-01P-B na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BBP760P na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0C4CF2F67?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OBAT641 na Amazon agora ↗</a>
+    </div>
 
     <h2>Nota por critério</h2>
     <p>Pontuamos de 0 a 10 cada critério a partir da ficha técnica, do preço e da base de avaliações, sem teste físico. Os pesos são iguais, e a nota final é a média simples.</p>
@@ -141,6 +154,10 @@ export const article: Article = {
     <p>Quem pensa em <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">vender doces e bolos como negócio local</a> pode usar esse tipo de máquina como investimento inicial, e ajuda saber <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">como precificar produtos e serviços</a> antes de definir quanto cobrar. Na mesma cozinha, o <a href="/artigos/philco-pmp1600p-multiprocessador-vale-a-pena">multiprocessador Philco PMP1600P</a>, o <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">comparativo de liquidificadores</a> e a <a href="/artigos/melhor-air-fryer-sem-oleo-comparativo-2026">comparação de air fryers</a> completam o conjunto, enquanto o <a href="/artigos/philco-ppp01p-panela-pressao-eletrica-vale-a-pena">review da panela de pressão elétrica</a> cobre a parte do almoço.</p>
     <p>Para organizar as receitas e a lista de compras, o guia de <a href="/artigos/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado">planejar refeições e economizar no mercado</a> ajuda, e quem quer transformar receitas em renda pode ler como <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">vender ebooks e guias</a>. Pelo lado dos eletroportáteis de café da manhã, vale ver também o <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">comparativo de sanduicheiras</a>, o <a href="/artigos/melhor-torradeira-2-fatias-comparativo-2026">de torradeiras</a> e o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">de chaleiras elétricas</a>.</p>
 
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial BP-01P-B na Amazon agora ↗</a>
+    </div>
+
     <h2>Erros comuns ao comprar batedeira</h2>
     <ul class="checklist">
       <li>Esquecer a voltagem: a Mondial da Amazon é 110 V e a Oster e a Britânia aparecem em 127 V, e cada versão tem anúncio e preço próprios.</li>
@@ -148,12 +165,22 @@ export const article: Article = {
       <li>Usar o batedor de massa leve para pão: cada batedor tem uma função, e o gancho de massa pesada existe para isso.</li>
       <li>Bater massa pesada em velocidade alta logo de início: comece devagar e suba aos poucos para não forçar o motor.</li>
     </ul>
-    <p>Confira o preço atual dos três modelos nos botões acima antes de decidir, e se a faixa de preço pesar, compare também as lojas oficiais.</p>
+    <p>O preço do dia aparece ao clicar em cada botão, e se a faixa de preço pesar, compare também as lojas oficiais.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B07WDCZWFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial BP-01P-B na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B08K1B2NHM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BBP760P na Amazon agora ↗</a>
+    </div>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0C4CF2F67?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Oster OBAT641 na Amazon agora ↗</a>
+    </div>
+
   `,
   faq: [
     {
       question: "Qual a melhor batedeira planetária custo-benefício em 2026?",
-      answer: "Entre as três comparadas, a Mondial BP-01P-B tem a melhor nota de compradores (4,7 de 5), duas tigelas (verificado em 12/10/2026) e preço que costuma ficar entre R$ 270 e R$ 360, variando com voltagem e vendedor. A Oster OBAT641 compensa quem faz muita massa pesada, pelo motor de 850 W.",
+      answer: "Entre as três comparadas, a Mondial BP-01P-B tem a melhor nota de compradores (4,7 de 5), duas tigelas e preço que costuma variar de R$ 270 a R$ 360, conforme voltagem e vendedor. A Oster OBAT641 compensa quem faz muita massa pesada, pelo motor de 850 W.",
     },
     {
       question: "Batedeira planetária amassa pão?",
