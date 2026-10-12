@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "batedeira",
   productScore: 8.1,
   date: "2026-10-11",
+  updated: "2026-10-12",
   readTime: 8,
   imageQuery: "stand mixer kitchen counter baking",
   seed: 200,
@@ -37,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>A melhor batedeira planetária para a maioria das cozinhas brasileiras é a que combina motor de 700 W ou mais, tigela de 4 litros ou mais e três batedores diferentes, e as três comparadas aqui cumprem isso. A diferença está no material da tigela, no número de batedores, na potência real e no preço. Colocamos lado a lado a <a href="https://www.amazon.com.br/dp/B07WDCZWFW" rel="noopener noreferrer nofollow">Mondial BP-01P-B</a>, a Britânia BBP760P e a Oster OBAT641, todas vendidas na Amazon Brasil.</p>
-    <p>Quem faz bolo no domingo, pão caseiro ou doce para vender precisa de motivos concretos para pagar mais, e é isso que a tabela abaixo mostra. Os preços são os que a página da Amazon exibia em 11/10/2026 e mudam com frequência.</p>
+    <p>Quem faz bolo no domingo, pão caseiro ou doce para vender precisa de motivos concretos para pagar mais, e é isso que a tabela abaixo mostra. Notas e avaliações foram verificadas na Amazon em 12/10/2026; o preço a página não exibiu nessa checagem, então confira o valor atual de cada uma.</p>
 
     <h2>Os 3 modelos lado a lado</h2>
     <p>Todos são planetários: o batedor gira sobre o próprio eixo e ao mesmo tempo percorre a tigela, o que mistura a massa por inteiro sem precisar raspar toda hora. As três têm 12 velocidades e tampa com proteção contra respingos.</p>
@@ -45,7 +46,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço na Amazon (11/10/2026)</th>
+          <th>Preço na Amazon</th>
           <th>Potência</th>
           <th>Tigela</th>
           <th>Batedores</th>
@@ -55,31 +56,31 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Mondial Premium BP-01P-B</td>
-          <td>cerca de R$ 315 (110 V)</td>
+          <td>confira o preço atual na Amazon (110 V)</td>
           <td>700 W</td>
           <td>2 tigelas de 4,5 L</td>
           <td>3</td>
-          <td>4,7 de 5 (283 avaliações)</td>
+          <td>4,7 de 5 (283 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Britânia BBP760P Power Plus Turbo</td>
-          <td>cerca de R$ 304 (127 V)</td>
+          <td>confira o preço atual na Amazon (127 V)</td>
           <td>700 W</td>
           <td>1 tigela plástica de 4,5 L</td>
           <td>4</td>
-          <td>4,5 de 5 (492 avaliações)</td>
+          <td>4,5 de 5 (492 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Oster Bowl Inox III OBAT641</td>
-          <td>cerca de R$ 409 (127 V)</td>
+          <td>confira o preço atual na Amazon (127 V)</td>
           <td>850 W</td>
           <td>1 tigela de inox de 4 L</td>
           <td>3 + medidor</td>
-          <td>4,6 de 5 (2.116 avaliações)</td>
+          <td>4,6 de 5 (2.116 avaliações, verificado em 12/10/2026)</td>
         </tr>
       </tbody>
     </table>
-    <p>Nas lojas oficiais das marcas, o preço sai mais alto: a Mondial BP-01P-B aparecia a partir de R$ 434,61, a Britânia BBP760P a R$ 349,90 e a Oster OBAT641 a R$ 599,90 (riscada de R$ 899,90). Na hora de comparar, vale conferir o preço do dia nos dois lugares.</p>
+    <p>Nas lojas oficiais das marcas o preço costuma ser diferente do da Amazon. Na hora de comparar, vale conferir o preço do dia nos dois lugares.</p>
 
     <h2>Mondial BP-01P-B: duas tigelas e a melhor nota</h2>
     <figure>
@@ -152,7 +153,7 @@ export const article: Article = {
   faq: [
     {
       question: "Qual a melhor batedeira planetária custo-benefício em 2026?",
-      answer: "Entre as três comparadas, a Mondial BP-01P-B tem a melhor nota de compradores (4,7 de 5), duas tigelas e preço de cerca de R$ 315 na Amazon em 11/10/2026. A Oster OBAT641 compensa quem faz muita massa pesada, pelo motor de 850 W.",
+      answer: "Entre as três comparadas, a Mondial BP-01P-B tem a melhor nota de compradores (4,7 de 5), duas tigelas (verificado em 12/10/2026). Confira o preço atual na Amazon, que varia com voltagem e vendedor. A Oster OBAT641 compensa quem faz muita massa pesada, pelo motor de 850 W.",
     },
     {
       question: "Batedeira planetária amassa pão?",

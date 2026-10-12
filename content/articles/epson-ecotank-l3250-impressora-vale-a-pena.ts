@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "impressora",
   productScore: 8.0,
   date: "2026-10-10",
+  updated: "2026-10-12",
   readTime: 8,
   imageQuery: "inkjet tank printer home office desk",
   seed: 194,
@@ -29,7 +30,7 @@ export const article: Article = {
   keyPoints: [
     "A Epson EcoTank L3250 é uma multifuncional 3 em 1 com tanque de tinta que, segundo a Epson, imprime até 4.500 páginas pretas ou 7.500 coloridas com cada kit de garrafas.",
     "Tem Wi-Fi, Wi-Fi Direct e USB, mas a velocidade ISO é de 10 ppm em preto e 5 ppm em cores e não há duplex automático nem alimentador de documentos.",
-    "Custa cerca de R$ 1.030 a R$ 1.200 na Amazon, onde tem nota 4,8 de 5 em mais de 30 mil avaliações, então o preço da impressora é alto e o custo por página é baixo.",
+    "Na Amazon tem nota 4,8 de 5 em mais de 30 mil avaliações (verificado em 12/10/2026); confira o preço atual na página do produto, mas o preço inicial da impressora é alto e o custo por página é baixo.",
   ],
   review: {
     tool: "Epson EcoTank L3250",
@@ -51,11 +52,11 @@ export const article: Article = {
     cons: [
       "Velocidade ISO baixa: 10 ppm em preto e 5 ppm em cores (os 33 ppm são em modo rascunho)",
       "Sem impressão frente e verso automática e sem alimentador automático de documentos",
-      "Preço inicial alto frente a uma impressora de cartucho, de cerca de R$ 1.030 a R$ 1.200",
+      "Preço inicial alto frente a uma impressora de cartucho (confira o preço atual na Amazon)",
       "A cópia é lenta (7,7 cpm em preto e 3,8 cpm em cores) e a digitalização leva 11 segundos por página em preto",
       "Garantia estendida de até 2 anos exige registro do produto no site da Epson",
     ],
-    price: "R$ 1.030 a R$ 1.200 na Amazon (verificado em 10/10/2026, varia por vendedor)",
+    price: "Confira o preço atual na Amazon (a página não exibiu o valor na checagem de 12/10/2026; varia por vendedor)",
     bestFor:
       "Famílias, estudantes e pequenos negócios que imprimem com frequência e querem baixo custo por página, sem precisar de velocidade nem de frente e verso automático.",
     url: "https://www.amazon.com.br/dp/B098YHFT9S?tag=portaldaai-20",
@@ -63,7 +64,7 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <p>A Epson EcoTank L3250 vale a pena para quem imprime com frequência em casa, no trabalho escolar ou em um pequeno negócio e quer pagar pouco por página impressa. É uma multifuncional 3 em 1 com tanque de tinta, Wi-Fi e Wi-Fi Direct, vendida na <a href="https://www.amazon.com.br/dp/B098YHFT9S?tag=portaldaai-20" rel="sponsored noopener noreferrer">Amazon Brasil</a> por cerca de R$ 1.030 a R$ 1.200, com nota 4,8 de 5 em mais de 30 mil avaliações. A análise abaixo usa a <a href="https://epson.com.br/Para-casa/Impressoras/Impressoras-jato-de-tinta/Impressora-Multifuncional-3-em-1-Epson-EcoTank%C2%AE-L3250/p/C11CJ67303" rel="noopener noreferrer nofollow">ficha técnica oficial da Epson Brasil</a> e as avaliações de compradores. Nós não testamos a impressora fisicamente.</p>
+    <p>A Epson EcoTank L3250 vale a pena para quem imprime com frequência em casa, no trabalho escolar ou em um pequeno negócio e quer pagar pouco por página impressa. É uma multifuncional 3 em 1 com tanque de tinta, Wi-Fi e Wi-Fi Direct, vendida na <a href="https://www.amazon.com.br/dp/B098YHFT9S?tag=portaldaai-20" rel="sponsored noopener noreferrer">Amazon Brasil</a> com nota 4,8 de 5 em mais de 30 mil avaliações (verificado em 12/10/2026). Confira o preço atual na página do produto, porque o valor varia por vendedor. A análise abaixo usa a <a href="https://epson.com.br/Para-casa/Impressoras/Impressoras-jato-de-tinta/Impressora-Multifuncional-3-em-1-Epson-EcoTank%C2%AE-L3250/p/C11CJ67303" rel="noopener noreferrer nofollow">ficha técnica oficial da Epson Brasil</a> e as avaliações de compradores. Nós não testamos a impressora fisicamente.</p>
 
     <h2>O que a L3250 entrega</h2>
     <p>É uma impressora a jato de tinta com sistema 100% sem cartuchos: as garrafas de tinta abastecem os tanques frontais, onde dá para ver o nível. A Epson usa a tecnologia MicroPiezo Heat-Free e informa resolução máxima de 5.760 x 1.440 dpi. A caixa traz um kit de garrafas originais T544 (preta, ciano, magenta e amarela), cabo de energia e cabo USB. A conexão é USB, Wi-Fi e Wi-Fi Direct, e o aplicativo Epson Smart Panel permite configurar e operar pelo celular.</p>
@@ -123,7 +124,7 @@ export const article: Article = {
     {
       question: "Quanto custa a Epson L3250 e qual a garantia?",
       answer:
-        "Cerca de R$ 1.030 a R$ 1.200 na Amazon (verificado em 10/10/2026), com variação por vendedor. A garantia na Amazon costuma ser de 12 meses, e a Epson informa até 2 anos de garantia limitada estendida ao registrar o produto no site.",
+        "Confira o preço atual na Amazon, porque o valor varia por vendedor e não pôde ser confirmado em 12/10/2026. A garantia na Amazon costuma ser de 12 meses, e a Epson informa até 2 anos de garantia limitada estendida ao registrar o produto no site.",
     },
   ],
 };

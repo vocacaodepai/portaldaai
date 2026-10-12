@@ -7,11 +7,12 @@ export const article: Article = {
   excerpt:
     "Nota 7,8 de 10. Analisamos o ferro a vapor Oster GCSTBS5002: 4,7 de 5 em quase 3 mil avaliações, 780 g e 25 saídas de vapor, mas com reservatório de só 200 ml.",
   metaDescription:
-    "Ferro de passar Oster GCSTBS5002 vale a pena? Review com nota por critério, prós, contras, ficha técnica oficial, preço verificado e para quem esse ferro a vapor serve.",
+    "Ferro de passar Oster GCSTBS5002 vale a pena? Review com nota por critério, prós, contras, ficha técnica oficial, preço na Amazon e para quem esse ferro a vapor serve.",
   category: "ai-indica",
   productCategory: "casa-inteligente",
   productSubcategory: "ferro-de-passar",
   date: "2026-10-11",
+  updated: "2026-10-12",
   readTime: 8,
   imageQuery: "steam iron ironing board clothes",
   seed: 203,
@@ -25,7 +26,7 @@ export const article: Article = {
   kind: "review",
   author: "Bruno Danello",
   keyPoints: [
-    "O Oster GCSTBS5002 tem 4,7 de 5 em quase 3 mil avaliações na Amazon Brasil e custava cerca de R$ 74 em 11/10/2026, segundo a página do produto.",
+    "O Oster GCSTBS5002 tem 4,7 de 5 em quase 3 mil avaliações na Amazon Brasil (verificado em 12/10/2026). A Amazon não exibiu o preço principal nessa checagem, mas listava ofertas de outros vendedores a partir de R$ 67,92; confira o preço atual.",
     "A ficha oficial traz base antiaderente, 25 saídas de vapor, botão de spray, filtro anticalcário e apenas 780 g, o que pesa pouco na mão.",
     "O reservatório é de 200 ml e a ficha não declara vapor vertical nem jato extra, então ele atende roupa do dia a dia, não grande volume.",
   ],
@@ -40,7 +41,7 @@ export const article: Article = {
       { label: "Nota de compradores", score: 8.5 },
     ],
     pros: [
-      "Preço baixo para a marca: a página da Amazon exibia cerca de R$ 74 em 11/10/2026, contra R$ 99,90 na loja oficial da Oster",
+      "Preço de entrada baixo: ofertas de outros vendedores na Amazon a partir de R$ 67,92 em 12/10/2026 (confira o preço atual, que varia)",
       "Nota de 4,7 de 5 com quase 3 mil avaliações de compradores, base grande o bastante para dar segurança",
       "Leve: 780 g segundo a ficha oficial, o que cansa menos o braço em sessões longas",
       "25 saídas de vapor distribuídas pela base, com botão de spray para umedecer vincos teimosos",
@@ -54,7 +55,7 @@ export const article: Article = {
       "Base antiaderente tende a riscar com zíper, botão e rebite, mais que bases de cerâmica",
       "Garantia de 12 meses, no padrão básico da categoria",
     ],
-    price: "R$ 74,14 na Amazon em 11/10/2026 (R$ 99,90 na loja oficial da Oster; confira o valor atual, que varia com frequência)",
+    price: "Confira o preço atual na Amazon (o preço principal não foi exibido em 12/10/2026; ofertas de outros vendedores a partir de R$ 67,92; o valor varia com frequência)",
     bestFor:
       "Quem passa roupa de uma a três vezes por semana, quer um ferro leve e barato de marca conhecida e não precisa de vapor vertical.",
     url: "https://www.amazon.com.br/dp/B09LNKQYND?tag=portaldaai-20",
@@ -62,12 +63,12 @@ export const article: Article = {
     ctaLabel: "Ver preço na Amazon",
   },
   content: `
-    <p>O ferro de passar a vapor Oster GCSTBS5002 vale a pena para quem passa pouca roupa e quer um modelo leve, barato e bem avaliado. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B09LNKQYND" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com quase 3 mil avaliações, e a ficha oficial da Oster traz base antiaderente, 25 saídas de vapor e 780 g. O que ele não tem é reservatório grande nem vapor vertical declarado.</p>
-    <p>Este review é uma análise a partir da ficha técnica oficial da Oster, da página da Amazon e das avaliações de compradores. Não fizemos teste físico com o ferro, e os preços citados são os verificados em 11/10/2026.</p>
+    <p>O ferro de passar a vapor Oster GCSTBS5002 vale a pena para quem passa pouca roupa e quer um modelo leve, barato e bem avaliado. Ele tem nota de 4,7 de 5 na <a href="https://www.amazon.com.br/dp/B09LNKQYND" rel="noopener noreferrer nofollow">Amazon Brasil</a>, com quase 3 mil avaliações (verificado em 12/10/2026), e a ficha oficial da Oster traz base antiaderente, 25 saídas de vapor e 780 g. O que ele não tem é reservatório grande nem vapor vertical declarado.</p>
+    <p>Este review é uma análise a partir da ficha técnica oficial da Oster, da página da Amazon e das avaliações de compradores. Não fizemos teste físico com o ferro, e a nota e o número de avaliações foram verificados em 12/10/2026. O preço principal a Amazon não exibiu nessa checagem, então confira o valor atual.</p>
 
     <h2>O que é o Oster GCSTBS5002</h2>
     <p>É um ferro de passar a vapor de entrada da Oster, vendido em versão 127 V (1.200 W) e 220 V (1.400 W). A base é antiaderente e colorida, e o corpo mede cerca de 24 cm por 11,5 cm, formato compacto para uso doméstico. A garantia declarada é de 12 meses contra defeitos de fabricação.</p>
-    <p>O modelo vende bem: a Amazon o coloca entre os mais vendidos de Casa, e a versão 127 V soma 2.973 avaliações com nota 4,7. Na página oficial da Oster, o preço aparece a R$ 99,90, riscado de R$ 154,90.</p>
+    <p>O modelo vende bem: a Amazon o coloca entre os mais vendidos de Casa, e a página soma 2.968 avaliações com nota 4,7 (verificado em 12/10/2026). O preço varia entre vendedores e na loja oficial da Oster, então compare antes de comprar.</p>
 
     <h2>O que ele entrega na prática</h2>
     <p>As 25 saídas de vapor cobrem boa parte da base, o que distribui o vapor de maneira mais uniforme do que ferros com poucos furos. O botão de spray libera um jato de água para umedecer a roupa, útil em algodão e linho com vincos fundos. O reservatório aceita até 200 ml, e o filtro anticalcário com limpeza automática ajuda a manter as saídas desobstruídas.</p>
@@ -100,7 +101,7 @@ export const article: Article = {
     </ul>
 
     <h2>Alternativas na mesma faixa</h2>
-    <p>Na própria Amazon, o Electrolux Efficient ESI10 aparecia a cerca de R$ 76, com nota 4,6 e mais de 3 mil avaliações, e o Black+Decker FX3060 a cerca de R$ 147, com 4,7 e mais de 5 mil avaliações. Os dois são concorrentes diretos: o primeiro na mesma faixa de preço, o segundo mais caro e com base de cerâmica.</p>
+    <p>Na própria Amazon, o Electrolux Efficient ESI10 (nota 4,6 e mais de 3 mil avaliações) e o Black+Decker FX3060 (nota 4,7 e mais de 5 mil avaliações) são concorrentes diretos; essas notas não foram reconferidas em 12/10/2026 e os preços mudam, então compare os valores atuais. O primeiro é da mesma faixa de entrada, o segundo costuma ser mais caro e tem base de cerâmica.</p>
     <p>Para quem quer cuidar da casa de maneira mais ampla, o <a href="/artigos/melhor-aspirador-po-vertical-comparativo-2026">comparativo de aspiradores verticais</a>, o <a href="/artigos/melhor-robo-aspirador-comparativo-2026">de robôs aspiradores</a> e o review da <a href="/artigos/wap-ousada-plus-ultra-2200-vale-a-pena">lavadora de alta pressão WAP</a> ajudam. No quarto e no banheiro, o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">comparativo de umidificadores</a> e o <a href="/artigos/melhor-secador-de-cabelo-comparativo-2026">de secadores de cabelo</a> completam a lista, e a <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparação de chaleiras elétricas</a> cobre a cozinha.</p>
 
     <h2>Dicas de uso e cuidados</h2>
@@ -126,7 +127,7 @@ export const article: Article = {
   faq: [
     {
       question: "O ferro Oster GCSTBS5002 vale a pena?",
-      answer: "Para quem passa pouca roupa, sim. Ele custava cerca de R$ 74 na Amazon em 11/10/2026, tem nota 4,7 em quase 3 mil avaliações e pesa 780 g. Para volume grande, o reservatório de 200 ml é um limite.",
+      answer: "Para quem passa pouca roupa, sim. Tem nota 4,7 em quase 3 mil avaliações (verificado em 12/10/2026), pesa 780 g e o preço de entrada é baixo; confira o valor atual na Amazon. Para volume grande, o reservatório de 200 ml é um limite.",
     },
     {
       question: "O Oster GCSTBS5002 tem vapor vertical?",

@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "forno-eletrico",
   productScore: 7.5,
   date: "2026-10-11",
+  updated: "2026-10-12",
   readTime: 7,
   imageQuery: "countertop electric oven baking kitchen",
   seed: 202,
@@ -28,7 +29,7 @@ export const article: Article = {
   keyPoints: [
     "Os dois fornos são quase gêmeos na ficha: 43 a 44 litros, dupla resistência, 1.500 W em 127 V, temperatura de 100 a 250 °C e timer de 60 minutos.",
     "O Philco PFE44P tem 4,3 de 5 em mais de mil avaliações; o Britânia BFE43 tem 4,6, mas só 19 avaliações, então a nota ainda diz pouco.",
-    "Os dois aparecem a cerca de R$ 370 na Amazon em 11/10/2026: o desempate fica entre histórico de compradores (Philco) e luz interna e bandeja coletora (Britânia).",
+    "Na checagem de 12/10/2026 a Amazon não exibiu o preço de nenhum dos dois, então confira o valor atual na página de cada um: o desempate fica entre histórico de compradores (Philco) e luz interna e bandeja coletora (Britânia).",
   ],
   content: `
     <div class="callout-box">
@@ -37,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>O melhor forno elétrico de bancada de 40 a 45 litros é o que tem dupla resistência com controle separado, temperatura de até 250 °C e timer com desligamento automático, e tanto o Philco PFE44P quanto o Britânia BFE43 entregam isso. Comparamos os dois modelos vendidos na <a href="https://www.amazon.com.br/dp/B0BZTB8GQ1" rel="noopener noreferrer nofollow">Amazon Brasil</a> para mostrar o que muda de verdade entre eles.</p>
-    <p>Este é um comparativo de dois produtos, porque são os que encontramos com a mesma capacidade, o mesmo preço e a versão em 127 V disponível na Amazon. Os valores são os que a página exibia em 11/10/2026.</p>
+    <p>Este é um comparativo de dois produtos, porque são os que encontramos com a mesma capacidade, o mesmo preço e a versão em 127 V disponível na Amazon. As notas e o número de avaliações foram verificados em 12/10/2026; o preço a Amazon não exibiu nessa checagem, então confira o valor atual na página de cada produto.</p>
 
     <h2>Os 2 fornos lado a lado</h2>
     <p>As duas marcas pertencem ao mesmo grupo, e a semelhança aparece na ficha técnica: o conjunto de funções e a faixa de temperatura são os mesmos. A tabela mostra onde há diferença.</p>
@@ -50,7 +51,7 @@ export const article: Article = {
         </tr>
       </thead>
       <tbody>
-        <tr><td>Preço na Amazon (127 V)</td><td>cerca de R$ 370</td><td>cerca de R$ 370</td></tr>
+        <tr><td>Preço na Amazon (127 V)</td><td>confira o preço atual na Amazon</td><td>confira o preço atual na Amazon</td></tr>
         <tr><td>Capacidade</td><td>44 litros</td><td>43 litros</td></tr>
         <tr><td>Potência</td><td>1.500 W (127 V) e 2.000 W (220 V)</td><td>1.500 W (127 V) e 2.000 W (220 V)</td></tr>
         <tr><td>Temperatura</td><td>100 a 250 °C</td><td>100 a 250 °C</td></tr>
@@ -58,11 +59,11 @@ export const article: Article = {
         <tr><td>Timer</td><td>60 minutos, sinal sonoro</td><td>60 minutos, desligamento automático</td></tr>
         <tr><td>Luz interna</td><td>Luz indicadora de funcionamento</td><td>Luz interna e indicadora</td></tr>
         <tr><td>Peso (Amazon)</td><td>cerca de 7 kg</td><td>cerca de 6,5 kg</td></tr>
-        <tr><td>Nota de compradores</td><td>4,3 de 5 (1.080 avaliações)</td><td>4,6 de 5 (19 avaliações)</td></tr>
+        <tr><td>Nota de compradores</td><td>4,3 de 5 (1.080 avaliações, verificado em 12/10/2026)</td><td>4,6 de 5 (19 avaliações, verificado em 12/10/2026)</td></tr>
         <tr><td>Garantia</td><td>360 dias</td><td>conforme a ficha da marca</td></tr>
       </tbody>
     </table>
-    <p>Nas lojas oficiais, o preço varia por voltagem: a Philco listava o PFE44P a partir de R$ 369,90 e a Britânia, o BFE43 a partir de R$ 399,90.</p>
+    <p>Nas lojas oficiais das marcas o preço também varia por voltagem, então compare o valor do dia nos dois lugares antes de comprar.</p>
 
     <h2>Philco PFE44P: o de maior histórico</h2>
     <figure>
@@ -106,7 +107,7 @@ export const article: Article = {
     </table>
 
     <h2>Qual comprar</h2>
-    <p>Pelo mesmo preço, a escolha segura é o Philco PFE44P, porque o histórico de mais de mil compradores reduz a chance de surpresa. O Britânia BFE43 faz sentido para quem dá valor à luz interna e à bandeja coletora, e aceita apostar num modelo com poucas avaliações. Se algum dos dois estiver bem mais barato no dia, essa diferença deve pesar mais que qualquer item da ficha.</p>
+    <p>Se os dois estiverem no mesmo preço, a escolha segura é o Philco PFE44P, porque o histórico de mais de mil compradores reduz a chance de surpresa. O Britânia BFE43 faz sentido para quem dá valor à luz interna e à bandeja coletora, e aceita apostar num modelo com poucas avaliações. Se algum dos dois estiver bem mais barato no dia, essa diferença deve pesar mais que qualquer item da ficha.</p>
     <p>Um forno de bancada divide espaço com outros eletroportáteis. O <a href="/artigos/melhor-air-fryer-sem-oleo-comparativo-2026">comparativo de air fryers</a> ajuda a decidir se uma fritadeira já resolve o seu caso, e o <a href="/artigos/melhor-batedeira-planetaria-comparativo-2026">de batedeiras planetárias</a> serve a quem assa bolo toda semana. Para o preparo rápido, vale ver a <a href="/artigos/melhor-torradeira-2-fatias-comparativo-2026">comparação de torradeiras</a>, o <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">comparativo de sanduicheiras</a> e o <a href="/artigos/philco-ppp01p-panela-pressao-eletrica-vale-a-pena">review da panela de pressão elétrica Philco</a>.</p>
     <p>Quem quer cozinhar melhor gastando menos pode usar o guia de <a href="/artigos/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado">planejar refeições e economizar no mercado</a>. Para quem cozinha para vender, <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">vender mais no negócio local</a>, <a href="/artigos/ia-para-restaurante-e-delivery-cardapio-pedidos-e-avaliacoes">IA para restaurante e delivery</a> e <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como reduzir custos operacionais</a> trazem ideias práticas, e o <a href="/artigos/philco-pmp1600p-multiprocessador-vale-a-pena">review do multiprocessador Philco PMP1600P</a> completa a bancada.</p>
 
@@ -122,7 +123,7 @@ export const article: Article = {
   faq: [
     {
       question: "Qual o melhor forno elétrico de bancada de 44 litros?",
-      answer: "Entre os dois comparados, o Philco PFE44P é a escolha segura, com 4,3 de 5 em mais de mil avaliações e preço de cerca de R$ 370 na Amazon em 11/10/2026. O Britânia BFE43 tem recursos parecidos, mas poucas avaliações.",
+      answer: "Entre os dois comparados, o Philco PFE44P é a escolha segura, com 4,3 de 5 em mais de mil avaliações (verificado em 12/10/2026). Confira o preço atual na Amazon, que varia com voltagem e vendedor. O Britânia BFE43 tem recursos parecidos, mas poucas avaliações.",
     },
     {
       question: "Forno elétrico de bancada gasta muita energia?",
