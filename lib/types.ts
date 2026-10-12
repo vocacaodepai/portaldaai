@@ -186,6 +186,9 @@ export const productSubcategories = [
   { slug: "ferro-de-passar", label: "Ferro de Passar", category: "casa-inteligente" },
   { slug: "secador-cabelo", label: "Secador de Cabelo", category: "saude-bem-estar" },
   { slug: "barbeador", label: "Barbeador e Aparador", category: "saude-bem-estar" },
+  { slug: "balanca-cozinha", label: "Balança de Cozinha", category: "cozinha" },
+  { slug: "purificador-ar", label: "Purificador de Ar", category: "casa-inteligente" },
+  { slug: "tablet", label: "Tablet", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
