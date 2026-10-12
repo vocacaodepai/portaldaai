@@ -310,26 +310,39 @@ chave de busca por extenso; o `title` do card não precisa.
 ### Preços da Amazon (AI Indica): faixa de mercado, nunca preço exato
 
 - Preço exato nunca: não escrever valor de centavos nem "R$ X a menos" que
-  compare preço exato entre produtos. Comparação de preço só qualitativa
-  ("costuma ser mais em conta").
-- Usar faixa larga e arredondada: o preço visto no dia na Amazon Brasil
-  menos e mais ~15%, arredondado para múltiplos de R$ 5 (R$ 10 acima de
-  R$ 500). Se a base já for uma faixa, alargar ~10% e arredondar. Texto:
-  "costuma ficar entre R$ X e R$ Y"; em tabela, "aprox. R$ X a R$ Y"; em
-  `review.price`, "aprox. R$ X a R$ Y (varia)". Uma vez por artigo, perto
-  da primeira faixa, a frase: "faixa de mercado aproximada em dd/mm/aaaa; o
-  valor varia, veja o preço atual no botão de compra". Chamar sempre de
-  "faixa de mercado", nunca "da Amazon".
-- Se a Amazon não exibir o preço no dia, usar outra fonte (site do
-  fabricante, Zoom, Buscapé) com a mesma tolerância. Se nenhuma fonte der o
-  valor, não pôr faixa e escrever "confira o preço atual".
+  compare preço exato entre produtos.
+- Todo artigo de AI Indica tem uma seção h2 própria, "Variação de preço"
+  (ou título parecido), que dá a faixa aproximada de mercado de cada
+  produto ("costuma variar de R$ X a R$ Y"), faixa larga e arredondada
+  (±15%, múltiplos de R$ 5; R$ 10 acima de R$ 500), a partir de pesquisa
+  de mercado (preço visto na Amazon Brasil, Zoom, Buscapé, site do
+  fabricante). Em comparativo, uma faixa por produto e a conclusão de qual
+  costuma sair mais em conta e qual tem melhor custo-benefício. Em review
+  único, a faixa, o que faz o preço subir ou cair e o custo-benefício.
+  A seção fecha dizendo que o preço do dia aparece ao clicar no botão de
+  compra.
+- Sem data de verificação no texto: não escrever "verificado em dd/mm/aaaa",
+  "faixa aproximada em dd/mm" nem "o preço da Amazon não exibiu nessa
+  checagem". Chamar de "faixa de mercado", nunca "da Amazon". Se nenhuma
+  fonte der o valor, escrever a seção sem números ("o preço varia entre
+  vendedores e épocas, veja o valor atual no botão").
 - Nunca pôr faixa ou preço no `title`, `seoTitle`, `excerpt`,
   `metaDescription`, nem no botão `buy-btn` ou no texto dele.
-- Nota e número de avaliações: continuam lidos na página da Amazon Brasil
-  no dia, com "verificado em dd/mm/aaaa" ao lado.
+- Nota e número de avaliações podem ser citados, sem data.
 - Futuro: preços automáticos via API ou bloco do painel de Associados da
-  Amazon, quando disponível (pendente de credenciais do dono); enquanto
-  isso, valem as regras acima.
+  Amazon, quando disponível (pendente de credenciais do dono).
+
+### Botão de compra espalhado pelo artigo e "na Amazon" (AI Indica)
+
+- Texto do botão sempre cita a Amazon (passa mais segurança): `Comprar
+  <Nome curto do produto> na Amazon agora ↗`, sem preço. Vale para o
+  `buy-btn` do corpo e para o rótulo do botão do bloco de veredito.
+- Botões espalhados pelo artigo todo, mínimo 5 por artigo e nunca mais de
+  ~3 parágrafos longos seguidos sem um botão. Comparativo: abaixo da foto
+  de cada produto, depois da seção de preço e no veredito final. Review
+  único: depois da introdução/veredito curto, depois de prós e contras,
+  depois de "para quem vale a pena", depois da seção de preço e no fecho.
+- ASIN e link sempre reais (`tag=portaldaai-20`); sem ASIN real, sem botão.
 
 ## Deploy
 
