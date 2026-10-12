@@ -38,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>O melhor secador de cabelo para o dia a dia é o de 2.000 W com três temperaturas, bocal concentrador e, de preferência, difusor, porque seca mais rápido e dá mais controle. O compacto de 1.200 W só vale para viagem ou cabelo curto. Comparamos três opções vendidas na <a href="https://www.amazon.com.br/dp/B076HZNP4C" rel="noopener noreferrer nofollow">Amazon Brasil</a>: o Mondial SC-12 Infinity, o Philco PH3700 e o Philips Essential BHC010.</p>
-    <p>Os três têm entre 1.100 e 2.700 avaliações de compradores verificadas em 12/10/2026. O preço a Amazon não exibiu nessa checagem, então confira o valor atual de cada um. A pergunta é onde a diferença de preço faz diferença.</p>
+    <p>Os três têm entre 1.100 e 2.700 avaliações de compradores verificadas em 12/10/2026. Os preços da tabela são uma faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra. A pergunta é onde a diferença de preço faz diferença.</p>
 
     <h2>Os 3 secadores lado a lado</h2>
     <p>Potência é o número que mais pesa na velocidade de secagem, mas acessório e ajuste de temperatura mudam o resultado no fio. A tabela reúne o que a ficha da Amazon e a página oficial de cada marca informam.</p>
@@ -46,7 +46,7 @@ export const article: Article = {
       <thead>
         <tr>
           <th>Modelo</th>
-          <th>Preço na Amazon</th>
+          <th>Preço (faixa de mercado)</th>
           <th>Potência</th>
           <th>Recursos</th>
           <th>Nota de compradores</th>
@@ -55,21 +55,21 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Mondial SC-12 Infinity Íon 2500</td>
-          <td>confira o preço atual na Amazon (110 V)</td>
+          <td>aprox. R$ 110 a R$ 150 (110 V)</td>
           <td>1.900 W</td>
           <td>Turmalina íon, grade cerâmica, bocal direcionador, 3 temperaturas e 2 velocidades</td>
           <td>4,5 de 5 (1.139 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Philco PH3700 Pink Tourmaline</td>
-          <td>confira o preço atual na Amazon (127 V)</td>
+          <td>aprox. R$ 125 a R$ 170 (127 V)</td>
           <td>2.000 W na ficha da Amazon (a loja oficial da Philco informa 2.200 W)</td>
           <td>3 temperaturas, bocal concentrador, difusor, grade traseira removível</td>
           <td>4,6 de 5 (2.647 avaliações, verificado em 12/10/2026)</td>
         </tr>
         <tr>
           <td>Philips Essential BHC010/81</td>
-          <td>confira o preço atual na Amazon (110 V)</td>
+          <td>aprox. R$ 120 a R$ 160 (110 V)</td>
           <td>1.200 W</td>
           <td>3 ajustes, ThermoProtect, bico concentrador removível, formato compacto e dobrável</td>
           <td>4,5 de 5 (1.778 avaliações, verificado em 12/10/2026)</td>

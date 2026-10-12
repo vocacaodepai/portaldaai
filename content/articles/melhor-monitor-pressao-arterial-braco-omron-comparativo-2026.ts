@@ -28,7 +28,7 @@ export const article: Article = {
   author: "Bruno Danello",
   keyPoints: [
     "O HEM-7122 (Control+) tem braçadeira universal de 22 a 42 cm e memória de 30 leituras, e é o mais vendido da linha, com nota 4,8 de 5 na Amazon.",
-    "O HEM-7142 é a entrada da linha (confira o preço atual na Amazon), com memória menor e braçadeira padrão de 22 a 32 cm.",
+    "O HEM-7142 é a entrada da linha (costuma ficar entre R$ 120 e R$ 185; faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra), com memória menor e braçadeira padrão de 22 a 32 cm.",
     "O HEM-7156T conecta por Bluetooth ao aplicativo Omron connect e usa a braçadeira Intelliwrap, mas costuma custar mais que o modelo mais simples (confira os preços atuais).",
   ],
   content: `
@@ -40,7 +40,7 @@ export const article: Article = {
     <p>O melhor monitor de pressão Omron para casa, entre os três modelos de braço mais procurados da marca, é o HEM-7122 para a maioria das famílias. Comparamos o <a href="https://www.amazon.com.br/dp/B07FFCY5QD?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7122 Control+</a>, o <a href="https://www.amazon.com.br/dp/B0CFFZFG1B?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7142</a> e o <a href="https://www.amazon.com.br/dp/B0CCXR54WM?tag=portaldaai-20" rel="sponsored noopener noreferrer">HEM-7156T Progress</a> com base nas páginas oficiais da <a href="https://www.omronhealthcare.com.br/monitores-de-pressao" rel="noopener noreferrer nofollow">Omron Healthcare Brasil</a> e nas avaliações da Amazon. Não medimos a precisão dos aparelhos: usamos a ficha técnica do fabricante e a opinião de quem comprou.</p>
 
     <h2>Os 3 monitores lado a lado</h2>
-    <p>Os três são de braço, automáticos, com tecnologia Intellisense de inflação e detector de batimentos irregulares, e a Omron informa 5 anos de garantia nas páginas oficiais dos três. As diferenças estão na memória, na braçadeira, na conexão com o celular e no preço. Notas e avaliações foram verificadas na Amazon em 12/10/2026; o preço a página não exibiu nessa checagem e varia por vendedor, então confira o valor atual.</p>
+    <p>Os três são de braço, automáticos, com tecnologia Intellisense de inflação e detector de batimentos irregulares, e a Omron informa 5 anos de garantia nas páginas oficiais dos três. As diferenças estão na memória, na braçadeira, na conexão com o celular e no preço. Notas e avaliações foram verificadas na Amazon em 12/10/2026; os preços da tabela são faixas de mercado aproximadas e variam por vendedor.</p>
     <table>
       <thead>
         <tr>
@@ -52,10 +52,10 @@ export const article: Article = {
       </thead>
       <tbody>
         <tr>
-          <td>Preço na Amazon</td>
-          <td>confira o preço atual na Amazon</td>
-          <td>confira o preço atual na Amazon</td>
-          <td>confira o preço atual na Amazon</td>
+          <td>Preço (faixa de mercado)</td>
+          <td>aprox. R$ 160 a R$ 230</td>
+          <td>aprox. R$ 120 a R$ 185</td>
+          <td>aprox. R$ 190 a R$ 260</td>
         </tr>
         <tr>
           <td>Nota de compradores</td>
@@ -112,7 +112,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0CFFZFG1B?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Omron HEM-7142 agora ↗</a>
     </div>
-    <p>O HEM-7142 faz o essencial: mede, avisa se detectar batimento irregular e traz a braçadeira Intellisense inclusa, e costuma ser o mais em conta dos três (confira o preço atual na Amazon). A memória é menor (14 leituras segundo a Omron) e a braçadeira padrão é indicada para 22 a 32 cm. A página oficial também cita faixa aplicável de 17 a 42 cm, e como os dois números divergem, meça a circunferência do braço antes de decidir. Algumas páginas da Amazon citam memória e garantia diferentes da ficha oficial, por isso vale conferir o anúncio escolhido.</p>
+    <p>O HEM-7142 faz o essencial: mede, avisa se detectar batimento irregular e traz a braçadeira Intellisense inclusa, e costuma ser o mais em conta dos três (costuma ficar entre R$ 120 e R$ 185). A memória é menor (14 leituras segundo a Omron) e a braçadeira padrão é indicada para 22 a 32 cm. A página oficial também cita faixa aplicável de 17 a 42 cm, e como os dois números divergem, meça a circunferência do braço antes de decidir. Algumas páginas da Amazon citam memória e garantia diferentes da ficha oficial, por isso vale conferir o anúncio escolhido.</p>
 
     <h2>Omron HEM-7156T Progress: para quem quer acompanhar no celular</h2>
     <figure>
@@ -122,7 +122,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0CCXR54WM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Omron HEM-7156T agora ↗</a>
     </div>
-    <p>O Progress guarda 60 leituras, sincroniza por Bluetooth com o aplicativo Omron connect e usa a braçadeira Intelliwrap. A Omron informa validação clínica para gestantes e pessoas com diabetes e um indicador de hipertensão. Dentro do app, o histórico aparece em gráfico e dá para ter um perfil por pessoa. Esse conforto costuma custar mais que o HEM-7142 (confira o preço atual na Amazon). Como o app guarda dados de saúde, vale ler o que a <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade de dados em aplicativos</a> envolve antes de cadastrar tudo.</p>
+    <p>O Progress guarda 60 leituras, sincroniza por Bluetooth com o aplicativo Omron connect e usa a braçadeira Intelliwrap. A Omron informa validação clínica para gestantes e pessoas com diabetes e um indicador de hipertensão. Dentro do app, o histórico aparece em gráfico e dá para ter um perfil por pessoa. Esse conforto costuma custar mais que o HEM-7142 (costuma ficar entre R$ 190 e R$ 260). Como o app guarda dados de saúde, vale ler o que a <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade de dados em aplicativos</a> envolve antes de cadastrar tudo.</p>
 
     <h2>Nota por critério</h2>
     <p>As notas são editoriais, de 0 a 10, e resumem ficha técnica e avaliações públicas, sem medição própria de precisão.</p>

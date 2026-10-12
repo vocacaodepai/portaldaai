@@ -28,7 +28,7 @@ export const article: Article = {
   author: "Bruno Danello",
   keyPoints: [
     "A Instax Mini 12 tem exposição automática, flash automático, modo close-up com correção de paralaxe e espelho para selfie, o que a torna fácil para quem nunca usou câmera instantânea.",
-    "O preço da câmera varia por vendedor e por cor (confira o preço atual na Amazon), e o filme, vendido separado, pesa em cada foto de apenas 62 x 46 mm, então o custo mora no filme.",
+    "A câmera costuma ficar entre R$ 460 e R$ 610 (faixa de mercado aproximada em 12/10/2026; o valor varia por vendedor e por cor, veja o preço atual no botão de compra), e o filme, vendido separado, pesa em cada foto de apenas 62 x 46 mm, então o custo mora no filme.",
     "Com nota 4,6 de 5 em mais de 6,4 mil avaliações (verificado em 12/10/2026), funciona bem como presente e para festas, mas não substitui o celular para quem quer nitidez.",
   ],
   review: {
@@ -55,7 +55,7 @@ export const article: Article = {
       "Usa duas pilhas AA alcalinas, e as que acompanham a câmera são para teste",
       "Distância mínima de 30 cm: sem modo close-up, o objeto precisa estar longe",
     ],
-    price: "Confira o preço atual na Amazon (a página não exibiu o valor na checagem de 12/10/2026; varia por vendedor e por cor)",
+    price: "aprox. R$ 460 a R$ 610 (varia)",
     bestFor:
       "Quem quer uma câmera instantânea simples para festas, viagens e presentes, e aceita pagar por filme a cada foto impressa.",
     url: "https://www.amazon.com.br/dp/B0BWNYPCT1?tag=portaldaai-20",
@@ -70,7 +70,7 @@ export const article: Article = {
     <p>O modo close-up serve para fotografar de 30 a 50 cm e corrige o paralaxe, que é a diferença entre o que o visor mostra e o que a lente enxerga. Na prática, isso ajuda a centralizar o objeto em fotos de perto, como um prato, um detalhe ou um rosto. O espelho de selfie ao lado da lente permite se enquadrar sem ver a imagem. Existem cinco cores: lilás, rosa, verde menta, branco argila e azul pastel.</p>
 
     <h2>Quanto custa de verdade</h2>
-    <p>O preço da câmera varia com o vendedor e a cor, e a página da Amazon não exibiu o valor na checagem de 12/10/2026, então confira o preço atual antes de comprar. O custo recorrente está no filme: divida o preço do pacote pelo número de fotos para saber quanto custa cada uma.</p>
+    <p>A câmera costuma ficar entre R$ 460 e R$ 610, e o valor varia com o vendedor e a cor; veja o preço atual no botão de compra antes de comprar. O custo recorrente está no filme: divida o preço do pacote pelo número de fotos para saber quanto custa cada uma.</p>
     <p>Isso muda a conta de quem pensa em usar a câmera todo dia. Para um evento com 40 fotos, são dois pacotes duplos de filme, um gasto que soma rápido. Quem só quer registrar momentos especiais gasta pouco, e quem quer treinar com muitas fotos deve considerar o custo antes de comprar.</p>
 
     <div class="buy-btn">

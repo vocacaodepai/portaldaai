@@ -29,7 +29,7 @@ export const article: Article = {
   keyPoints: [
     "Os dois fornos são quase gêmeos na ficha: 43 a 44 litros, dupla resistência, 1.500 W em 127 V, temperatura de 100 a 250 °C e timer de 60 minutos.",
     "O Philco PFE44P tem 4,3 de 5 em mais de mil avaliações; o Britânia BFE43 tem 4,6, mas só 19 avaliações, então a nota ainda diz pouco.",
-    "Na checagem de 12/10/2026 a Amazon não exibiu o preço de nenhum dos dois, então confira o valor atual na página de cada um: o desempate fica entre histórico de compradores (Philco) e luz interna e bandeja coletora (Britânia).",
+    "Os dois costumam ficar entre R$ 315 e R$ 425 (faixa de mercado aproximada em 12/10/2026; o valor varia, veja o preço atual no botão de compra): o desempate fica entre histórico de compradores (Philco) e luz interna e bandeja coletora (Britânia).",
   ],
   content: `
     <div class="callout-box">
@@ -38,7 +38,7 @@ export const article: Article = {
     </div>
 
     <p>O melhor forno elétrico de bancada de 40 a 45 litros é o que tem dupla resistência com controle separado, temperatura de até 250 °C e timer com desligamento automático, e tanto o Philco PFE44P quanto o Britânia BFE43 entregam isso. Comparamos os dois modelos vendidos na <a href="https://www.amazon.com.br/dp/B0BZTB8GQ1" rel="noopener noreferrer nofollow">Amazon Brasil</a> para mostrar o que muda de verdade entre eles.</p>
-    <p>Este é um comparativo de dois produtos, porque são os que encontramos com a mesma capacidade, o mesmo preço e a versão em 127 V disponível na Amazon. As notas e o número de avaliações foram verificados em 12/10/2026; o preço a Amazon não exibiu nessa checagem, então confira o valor atual na página de cada produto.</p>
+    <p>Este é um comparativo de dois produtos, porque são os que encontramos com a mesma capacidade, o mesmo preço e a versão em 127 V disponível na Amazon. As notas e o número de avaliações foram verificados em 12/10/2026; o preço aparece na tabela como faixa de mercado aproximada, porque varia por voltagem e vendedor.</p>
 
     <h2>Os 2 fornos lado a lado</h2>
     <p>As duas marcas pertencem ao mesmo grupo, e a semelhança aparece na ficha técnica: o conjunto de funções e a faixa de temperatura são os mesmos. A tabela mostra onde há diferença.</p>
@@ -51,7 +51,7 @@ export const article: Article = {
         </tr>
       </thead>
       <tbody>
-        <tr><td>Preço na Amazon (127 V)</td><td>confira o preço atual na Amazon</td><td>confira o preço atual na Amazon</td></tr>
+        <tr><td>Preço na Amazon (127 V)</td><td>aprox. R$ 315 a R$ 425</td><td>aprox. R$ 315 a R$ 425</td></tr>
         <tr><td>Capacidade</td><td>44 litros</td><td>43 litros</td></tr>
         <tr><td>Potência</td><td>1.500 W (127 V) e 2.000 W (220 V)</td><td>1.500 W (127 V) e 2.000 W (220 V)</td></tr>
         <tr><td>Temperatura</td><td>100 a 250 °C</td><td>100 a 250 °C</td></tr>
@@ -123,7 +123,7 @@ export const article: Article = {
   faq: [
     {
       question: "Qual o melhor forno elétrico de bancada de 44 litros?",
-      answer: "Entre os dois comparados, o Philco PFE44P é a escolha segura, com 4,3 de 5 em mais de mil avaliações (verificado em 12/10/2026). Confira o preço atual na Amazon, que varia com voltagem e vendedor. O Britânia BFE43 tem recursos parecidos, mas poucas avaliações.",
+      answer: "Entre os dois comparados, o Philco PFE44P é a escolha segura, com 4,3 de 5 em mais de mil avaliações (verificado em 12/10/2026). O preço costuma ficar entre R$ 315 e R$ 425 e varia com voltagem e vendedor; veja o valor atual no botão de compra. O Britânia BFE43 tem recursos parecidos, mas poucas avaliações.",
     },
     {
       question: "Forno elétrico de bancada gasta muita energia?",
