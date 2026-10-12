@@ -53,14 +53,14 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Samsung T7</td>
-          <td>R$ 1.360 a R$ 1.840</td>
+          <td>R$ 1.100 a R$ 1.700</td>
           <td>Até 1.050 MB/s</td>
           <td>Sem certificação IP</td>
           <td>4,7 de 5 (mais de 38 mil avaliações)</td>
         </tr>
         <tr>
           <td>Samsung T7 Shield</td>
-          <td>R$ 1.370 a R$ 1.850</td>
+          <td>R$ 1.200 a R$ 1.800</td>
           <td>Até 1.050 MB/s</td>
           <td>IP65 (água e poeira) + queda de até 3m</td>
           <td>4,7 de 5 (mais de mil avaliações)</td>
@@ -99,7 +99,7 @@ export const article: Article = {
     </div>
 
     <h2>Variação de preço</h2>
-    <p>SSD externo é um dos itens com maior oscilação de preço na Amazon, porque o valor muda com vendedor, capacidade e câmbio. Como faixa larga de mercado, o Samsung T7 de 1TB costuma variar de R$ 1.360 a R$ 1.840, e o T7 Shield de 1TB costuma variar de R$ 1.370 a R$ 1.850. As duas faixas praticamente se sobrepõem, e Black Friday costuma trazer os melhores valores.</p>
+    <p>SSD externo é um dos itens com maior oscilação de preço na Amazon, porque o valor muda com vendedor, capacidade e câmbio. Como faixa larga de mercado, o Samsung T7 de 1TB costuma variar de R$ 1.100 a R$ 1.700, e o T7 Shield de 1TB costuma variar de R$ 1.200 a R$ 1.800. As duas faixas praticamente se sobrepõem, e Black Friday costuma trazer os melhores valores.</p>
     <table>
       <thead>
         <tr>
@@ -110,11 +110,11 @@ export const article: Article = {
       <tbody>
         <tr>
           <td>Samsung T7 1TB</td>
-          <td>R$ 1.360 a R$ 1.840</td>
+          <td>R$ 1.100 a R$ 1.700</td>
         </tr>
         <tr>
           <td>Samsung T7 Shield 1TB</td>
-          <td>R$ 1.370 a R$ 1.850</td>
+          <td>R$ 1.200 a R$ 1.800</td>
         </tr>
       </tbody>
     </table>
