@@ -192,6 +192,8 @@ export const productSubcategories = [
   { slug: "repetidor-wifi", label: "Repetidor Wi-Fi", category: "informatica" },
   { slug: "caixa-som-pc", label: "Caixa de Som para PC", category: "audio-video" },
   { slug: "cartao-memoria", label: "Cartão de Memória", category: "informatica" },
+  { slug: "hd-externo", label: "HD Externo", category: "informatica" },
+  { slug: "panela-arroz", label: "Panela de Arroz Elétrica", category: "cozinha" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
