@@ -63,7 +63,7 @@ export const article: Article = {
         <tr>
           <td>Philco PH3700 Pink Tourmaline</td>
           <td>R$ 125 a R$ 170 (127 V)</td>
-          <td>2.000 W na ficha da Amazon (a loja oficial da Philco informa 2.200 W)</td>
+          <td>2.000 W na ficha da Amazon</td>
           <td>3 temperaturas, bocal concentrador, difusor, grade traseira removível</td>
           <td>4,6 de 5 (2.647 avaliações)</td>
         </tr>
@@ -76,7 +76,6 @@ export const article: Article = {
         </tr>
       </tbody>
     </table>
-    <p>Uma ressalva sobre o Philco: a loja oficial da Philco descreve o PH3700 Pink Tourmaline com 2.200 W e seletor de 127 V ou 220 V (e informava o produto como indisponível no momento), enquanto a ficha da Amazon, para a versão 127 V que indicamos, traz 2.000 W. Não encontramos manual ou ficha em PDF que desempatasse. A fonte mais confiável é a do fabricante, mas a versão vendida na Amazon pode ser outra, então trate 2.000 W como o valor mínimo anunciado e confira a potência no rótulo da caixa.</p>
 
     <h2>Mondial SC-12 Infinity: o mais barato com íon</h2>
     <figure>
@@ -97,7 +96,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PH3700 na Amazon agora ↗</a>
     </div>
-    <p>O <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer">Philco PH3700</a> tem a maior nota (4,6 de 5) e a maior base de avaliações (2.647) do grupo, e costuma custar um pouco mais que o Mondial. Entrega de 2.000 W a 2.200 W conforme a fonte (veja a ressalva acima), três temperaturas, bocal concentrador e um difusor, acessório que espalha o ar e ajuda a secar cabelo cacheado ou ondulado sem desmanchar o formato.</p>
+    <p>O <a href="https://www.amazon.com.br/dp/B076HZNP4C?tag=portaldaai-20" rel="sponsored noopener noreferrer">Philco PH3700</a> tem a maior nota (4,6 de 5) e a maior base de avaliações (2.647) do grupo, e costuma custar um pouco mais que o Mondial. Entrega 2.000 W, três temperaturas, bocal concentrador e um difusor, acessório que espalha o ar e ajuda a secar cabelo cacheado ou ondulado sem desmanchar o formato.</p>
     <p>A grade traseira é removível, o que facilita a limpeza, e a garantia é de 12 meses. Como o Philco também usa turmalina, o apelo anti-frizz é parecido com o do Mondial; a vantagem está em potência e acessório.</p>
 
     <h2>Philips BHC010: compacto, mas com limite de potência</h2>
