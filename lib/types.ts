@@ -193,6 +193,8 @@ export const productSubcategories = [
   { slug: "caixa-som-pc", label: "Caixa de Som para PC", category: "audio-video" },
   { slug: "cartao-memoria", label: "Cartão de Memória", category: "informatica" },
   { slug: "hd-externo", label: "HD Externo", category: "informatica" },
+  { slug: "pen-drive", label: "Pen Drive", category: "informatica" },
+  { slug: "mousepad", label: "Mousepad", category: "informatica" },
   { slug: "panela-arroz", label: "Panela de Arroz Elétrica", category: "cozinha" },
 ] as const;
 
