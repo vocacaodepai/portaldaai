@@ -14,7 +14,7 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "smart tv box remote living room television",
-  seed: 291,
+  seed: 293,
   coverImage: {
     url: "/images/products/intelbras-izy-play-full-hd.jpg",
     width: 1600,

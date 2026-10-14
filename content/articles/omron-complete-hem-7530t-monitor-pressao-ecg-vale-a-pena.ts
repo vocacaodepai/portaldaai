@@ -14,7 +14,7 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "blood pressure monitor home health",
-  seed: 292,
+  seed: 294,
   coverImage: {
     url: "/images/products/omron-complete-hem-7530t.jpg",
     width: 1600,
