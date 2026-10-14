@@ -194,6 +194,7 @@ export const productSubcategories = [
   { slug: "cartao-memoria", label: "Cartão de Memória", category: "informatica" },
   { slug: "hd-externo", label: "HD Externo", category: "informatica" },
   { slug: "panela-arroz", label: "Panela de Arroz Elétrica", category: "cozinha" },
+  { slug: "tv-box", label: "TV Box", category: "audio-video" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
