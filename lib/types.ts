@@ -136,6 +136,8 @@ export const productCategories = [
   { slug: "informatica", label: "Informática e Acessórios" },
   { slug: "saude-bem-estar", label: "Saúde e Bem-estar" },
   { slug: "automotivo", label: "Automotivo" },
+  { slug: "casa-utilidades", label: "Casa e Utilidades" },
+  { slug: "ferramentas-casa", label: "Ferramentas Domésticas" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -197,6 +199,9 @@ export const productSubcategories = [
   { slug: "mousepad", label: "Mousepad", category: "informatica" },
   { slug: "panela-arroz", label: "Panela de Arroz Elétrica", category: "cozinha" },
   { slug: "tv-box", label: "TV Box", category: "audio-video" },
+  { slug: "mixer", label: "Mixer", category: "cozinha" },
+  { slug: "garrafa-termica", label: "Garrafa Térmica", category: "casa-utilidades" },
+  { slug: "parafusadeira", label: "Parafusadeira e Furadeira", category: "ferramentas-casa" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
