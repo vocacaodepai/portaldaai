@@ -32,8 +32,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-// Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
+// Google Analytics 4: ID fixo do Portal da AI (não depende de variável de ambiente).
+const GA_ID = "G-J2V2PCNK2T";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("pdai-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
