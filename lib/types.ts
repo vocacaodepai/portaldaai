@@ -202,6 +202,8 @@ export const productSubcategories = [
   { slug: "mixer", label: "Mixer", category: "cozinha" },
   { slug: "garrafa-termica", label: "Garrafa Térmica", category: "casa-utilidades" },
   { slug: "parafusadeira", label: "Parafusadeira e Furadeira", category: "ferramentas-casa" },
+  { slug: "filtro-de-linha", label: "Filtro de Linha", category: "casa-inteligente" },
+  { slug: "apresentador-sem-fio", label: "Apresentador sem Fio", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
