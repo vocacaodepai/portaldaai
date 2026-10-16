@@ -204,6 +204,8 @@ export const productSubcategories = [
   { slug: "parafusadeira", label: "Parafusadeira e Furadeira", category: "ferramentas-casa" },
   { slug: "filtro-de-linha", label: "Filtro de Linha", category: "casa-inteligente" },
   { slug: "apresentador-sem-fio", label: "Apresentador sem Fio", category: "informatica" },
+  { slug: "cabo-usb-c", label: "Cabo USB-C", category: "informatica" },
+  { slug: "luminaria-monitor", label: "Luminária de Monitor", category: "informatica" },
   { slug: "moedor-cafe", label: "Moedor de Café", category: "cozinha" },
   { slug: "pistola-massageadora", label: "Pistola Massageadora", category: "saude-bem-estar" },
   { slug: "lixeira-sensor", label: "Lixeira com Sensor", category: "casa-utilidades" },
