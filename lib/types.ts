@@ -209,6 +209,8 @@ export const productSubcategories = [
   { slug: "moedor-cafe", label: "Moedor de Café", category: "cozinha" },
   { slug: "pistola-massageadora", label: "Pistola Massageadora", category: "saude-bem-estar" },
   { slug: "lixeira-sensor", label: "Lixeira com Sensor", category: "casa-utilidades" },
+  { slug: "seladora-vacuo", label: "Seladora a Vácuo", category: "cozinha" },
+  { slug: "trena-laser", label: "Trena a Laser", category: "ferramentas-casa" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
