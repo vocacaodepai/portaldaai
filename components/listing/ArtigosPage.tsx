@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { site, sortedArticles } from "@/lib/articles";
+import { articleFilterCategories, getReviews, site, sortedArticles } from "@/lib/articles";
+import { ArtigosAreaFilter, type Area } from "@/components/ArtigosAreaFilter";
+import { buildAiIndicaFilterData } from "./aiIndicaFilterData";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { ArticleListing } from "./ArticleListing";
 import { JsonLd } from "./JsonLd";
 import { listingMetadata, pagedTitle } from "./metadata";
-import { ARTICLES_PER_PAGE, countPages, slicePage } from "./paginate";
 import { pageHref } from "@/components/Pagination";
 
 const BASE = "/artigos";
@@ -13,16 +14,15 @@ const TITLE = "Todos os artigos";
 const DESCRIPTION =
   "Guias práticos de inteligência artificial para iniciantes, monetização, pequenos negócios, ferramentas, carreira e futuro do trabalho. Artigos novos todo dia.";
 
-// AI Indica tem página própria (/categoria/ai-indica) e não é review de
-// ferramenta (/reviews é só kind:review de category:"ferramentas"): não
-// pertence a "todos os artigos", nem como comparativo nem como review de
-// produto único.
-function nonProductArticles() {
-  return sortedArticles().filter((a) => a.category !== "ai-indica");
+// /artigos mostra todos os artigos numa página só (inclusive AI Indica e
+// reviews de ferramenta), porque o filtro por área e os subfiltros funcionam
+// no navegador, sobre os cards que já estão na página; paginar quebraria o filtro.
+function allArticles() {
+  return sortedArticles();
 }
 
 export function artigosTotalPages(): number {
-  return countPages(nonProductArticles().length, ARTICLES_PER_PAGE);
+  return 1;
 }
 
 export function artigosMetadata(page: number): Metadata {
@@ -34,10 +34,17 @@ export function artigosMetadata(page: number): Metadata {
 }
 
 export function ArtigosPage({ page }: { page: number }) {
-  const all = nonProductArticles();
-  const totalPages = countPages(all.length, ARTICLES_PER_PAGE);
+  const all = allArticles();
+  const totalPages = 1;
   if (page > totalPages) notFound();
-  const items = slicePage(all, page, ARTICLES_PER_PAGE);
+  const items = all;
+  const areas: Area[] = [
+    ...articleFilterCategories.map((c) => ({ key: c.slug, label: c.label, category: c.slug })),
+    { key: "reviews-ferramentas", label: "Reviews de ferramentas", category: "ferramentas", kind: "review" as const },
+    { key: "guias-ferramentas", label: "Guias de ferramentas", category: "ferramentas", kind: "not-review" as const },
+    { key: "ai-indica", label: "AI Indica", category: "ai-indica" },
+  ];
+  const tools = [...new Set(getReviews().map((a) => a.review?.tool).filter((t): t is string => Boolean(t)))];
   const path = pageHref(BASE, page);
 
   const collection = {
@@ -54,7 +61,7 @@ export function ArtigosPage({ page }: { page: number }) {
       numberOfItems: all.length,
       itemListElement: items.map((a, i) => ({
         "@type": "ListItem",
-        position: (page - 1) * ARTICLES_PER_PAGE + i + 1,
+        position: i + 1,
         name: a.title,
         url: absoluteUrl(`/artigos/${a.slug}`),
       })),
@@ -80,6 +87,7 @@ export function ArtigosPage({ page }: { page: number }) {
         totalPages={totalPages}
         basePath={BASE}
         active="todos"
+        areaFilter={<ArtigosAreaFilter areas={areas} tools={tools} aiData={buildAiIndicaFilterData(all)} rootId="artigos-grid" />}
       />
     </>
   );

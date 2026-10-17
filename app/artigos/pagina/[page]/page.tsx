@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
-import { ArtigosPage, artigosMetadata, artigosTotalPages } from "@/components/listing/ArtigosPage";
+import { artigosMetadata, artigosTotalPages } from "@/components/listing/ArtigosPage";
 import { pageParams, parsePage } from "@/components/listing/paginate";
 
 type Params = Promise<{ page: string }>;
@@ -18,6 +18,6 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 export default async function Page({ params }: { params: Params }) {
   const page = parsePage((await params).page);
   if (!page) notFound();
-  if (page === 1) permanentRedirect("/artigos");
-  return <ArtigosPage page={page} />;
+  // /artigos agora mostra tudo numa página só (filtros no navegador).
+  permanentRedirect("/artigos");
 }

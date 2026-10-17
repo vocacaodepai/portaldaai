@@ -138,6 +138,7 @@ export const productCategories = [
   { slug: "automotivo", label: "Automotivo" },
   { slug: "casa-utilidades", label: "Casa e Utilidades" },
   { slug: "ferramentas-casa", label: "Ferramentas Domésticas" },
+  { slug: "acessorios-celular", label: "Acessórios de Celular" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -209,6 +210,9 @@ export const productSubcategories = [
   { slug: "moedor-cafe", label: "Moedor de Café", category: "cozinha" },
   { slug: "pistola-massageadora", label: "Pistola Massageadora", category: "saude-bem-estar" },
   { slug: "lixeira-sensor", label: "Lixeira com Sensor", category: "casa-utilidades" },
+  { slug: "irrigador-oral", label: "Irrigador Oral", category: "saude-bem-estar" },
+  { slug: "luz-emergencia", label: "Luminária de Emergência", category: "casa-utilidades" },
+  { slug: "ring-light", label: "Ring Light para Celular", category: "acessorios-celular" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];

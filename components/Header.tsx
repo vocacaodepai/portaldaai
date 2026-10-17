@@ -5,13 +5,15 @@ import { ThemeToggle } from "./ThemeToggle";
 import { SearchDialog } from "./SearchDialog";
 import { MobileMenu } from "./MobileMenu";
 
-export const PRIMARY_NAV = [
-  { href: "/noticias", label: "Notícias" },
-  { href: "/artigos", label: "Artigos" },
-  { href: "/reviews", label: "Reviews" },
-  { href: "/categoria/ai-indica", label: "AI Indica" },
-  { href: "/sobre", label: "Sobre" },
-];
+export type NavItem = {
+  href: string;
+  label: string;
+  description?: string;
+  /** Submenu (ex.: Artigos -> categorias). */
+  children?: NavItem[];
+  /** Botão de destaque no menu (AI Indica). */
+  highlight?: boolean;
+};
 
 export const INSTITUTIONAL_NAV = [
   { href: "/sobre", label: "Sobre o Portal da AI" },
@@ -24,13 +26,33 @@ export const INSTITUTIONAL_NAV = [
 ];
 
 export function Header() {
-  const categoryItems = categories
-    .filter((c) => c.slug !== "ai-indica")
-    .map((c) => ({
-      href: `/categoria/${c.slug}`,
-      label: c.label,
-      description: c.description,
-    }));
+  const articleItems: NavItem[] = [
+    { href: "/artigos", label: "Todos os artigos", description: "Tudo o que publicamos, com filtro por área." },
+    ...categories
+      .filter((c) => c.slug !== "ai-indica" && c.slug !== "ferramentas")
+      .map((c) => ({ href: `/categoria/${c.slug}`, label: c.label, description: c.description })),
+    {
+      href: "/reviews",
+      label: "Reviews de ferramentas",
+      description: "Reviews independentes de ferramentas de IA, com nota de 0 a 10.",
+    },
+    {
+      href: "/categoria/ai-indica",
+      label: "AI Indica",
+      description: "Reviews individuais e comparativos de produtos, com nota e link de compra.",
+    },
+  ];
+
+  const primary: NavItem[] = [
+    { href: "/noticias", label: "Notícias" },
+    { href: "/artigos", label: "Artigos", children: articleItems },
+    { href: "/reviews", label: "Reviews" },
+    { href: "/categoria/ai-indica", label: "AI Indica", highlight: true },
+    { href: "/sobre", label: "Sobre" },
+  ];
+
+  const linkClass =
+    "rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground";
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-surface/85 backdrop-blur-md supports-[backdrop-filter]:bg-surface/75">
@@ -38,50 +60,46 @@ export function Header() {
         <Logo priority className="mr-2" />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
-          {PRIMARY_NAV.slice(0, 4).map((i) => (
-            <Link
-              key={i.href}
-              href={i.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
-            >
-              {i.label}
-            </Link>
-          ))}
-
-          <div className="group relative">
-            <button
-              type="button"
-              className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground group-focus-within:text-foreground"
-            >
-              Categorias
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </button>
-            <div className="invisible absolute left-0 top-full z-50 w-[520px] translate-y-1 pt-2 opacity-0 transition group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-              <div className="grid grid-cols-2 gap-1 rounded-xl border border-border bg-surface p-2 shadow-xl">
-                {categoryItems.map((c) => (
-                  <Link
-                    key={c.href}
-                    href={c.href}
-                    className="rounded-lg px-3 py-2.5 transition hover:bg-surface-2"
-                  >
-                    <span className="block text-sm font-semibold">{c.label}</span>
-                    <span className="mt-0.5 line-clamp-2 block text-xs leading-snug text-muted">
-                      {c.description}
-                    </span>
-                  </Link>
-                ))}
+          {primary.map((i) =>
+            i.children ? (
+              <div key={i.href} className="group relative">
+                <button
+                  type="button"
+                  aria-haspopup="true"
+                  className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground group-focus-within:text-foreground"
+                >
+                  {i.label}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </button>
+                <div className="invisible absolute left-0 top-full z-50 w-[520px] translate-y-1 pt-2 opacity-0 transition group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="grid grid-cols-2 gap-1 rounded-xl border border-border bg-surface p-2 shadow-xl">
+                    {i.children.map((c) => (
+                      <Link key={c.href} href={c.href} className="rounded-lg px-3 py-2.5 transition hover:bg-surface-2">
+                        <span className="block text-sm font-semibold">{c.label}</span>
+                        <span className="mt-0.5 line-clamp-2 block text-xs leading-snug text-muted">
+                          {c.description}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-
-          <Link
-            href="/sobre"
-            className="rounded-lg px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-foreground"
-          >
-            Sobre
-          </Link>
+            ) : i.highlight ? (
+              <Link
+                key={i.href}
+                href={i.href}
+                className="mx-1 inline-flex h-9 items-center rounded-lg bg-gradient-to-br from-accent to-accent-2 px-3.5 text-sm font-semibold text-accent-foreground shadow-sm ring-1 ring-accent-2/40 transition hover:opacity-90"
+              >
+                {i.label}
+              </Link>
+            ) : (
+              <Link key={i.href} href={i.href} className={linkClass}>
+                {i.label}
+              </Link>
+            ),
+          )}
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
@@ -93,11 +111,7 @@ export function Header() {
           >
             Comece aqui
           </Link>
-          <MobileMenu
-            primary={PRIMARY_NAV}
-            categories={categoryItems}
-            institutional={INSTITUTIONAL_NAV}
-          />
+          <MobileMenu primary={primary} institutional={INSTITUTIONAL_NAV} />
         </div>
       </div>
     </header>
