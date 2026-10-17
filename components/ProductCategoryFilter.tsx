@@ -1,16 +1,7 @@
 "use client";
 
-import { useState } from "react";
-
-function chipClass(active: boolean, small = false): string {
-  return `inline-flex items-center whitespace-nowrap rounded-lg border font-medium transition ${
-    small ? "h-7 px-2.5 text-[11px]" : "h-8 px-3 text-xs"
-  } ${
-    active
-      ? "border-foreground bg-foreground text-background"
-      : "border-border bg-surface text-muted hover:border-accent/50 hover:text-foreground"
-  }`;
-}
+import { useEffect, useState } from "react";
+import { cardsOf, chipClass, clearKey, setHidden } from "./filterVisibility";
 
 /**
  * Filtro de /categoria/ai-indica: categoria de produto (Cozinha, Casa
@@ -36,14 +27,15 @@ export function ProductCategoryFilter({
   const [activeSub, setActiveSub] = useState("todos");
 
   function apply(category: string, sub: string) {
-    const root = document.getElementById(rootId);
-    if (!root) return;
-    root.querySelectorAll<HTMLElement>("[data-product-category]").forEach((card) => {
+    cardsOf(rootId).forEach((card) => {
       const catMatch = category === "todos" || card.dataset.productCategory === category;
       const subMatch = sub === "todos" || card.dataset.productSubcategory === sub;
-      card.style.display = catMatch && subMatch ? "" : "none";
+      setHidden(card, "prod", !(catMatch && subMatch));
     });
   }
+
+  // Ao sair da tela (ex.: trocou o tipo de review), devolve os cards.
+  useEffect(() => () => clearKey(rootId, "prod"), [rootId]);
 
   function selectCategory(slug: string) {
     setActiveCategory(slug);

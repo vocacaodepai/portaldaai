@@ -6,13 +6,12 @@ import {
   getArticlesByCategory,
   getCategory,
   isCategory,
-  productCategories,
-  productSubcategories,
   site,
 } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { ArticleListing } from "./ArticleListing";
+import { buildAiIndicaFilterData } from "./aiIndicaFilterData";
 import { JsonLd } from "./JsonLd";
 import { categoryIntros } from "./categoryIntros";
 import { listingMetadata, pagedTitle } from "./metadata";
@@ -69,10 +68,7 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
 
   const productFilter =
     slug === "ai-indica"
-      ? {
-          categories: productCategories.filter((c) => all.some((a) => a.productCategory === c.slug)),
-          subcategories: productSubcategories.filter((s) => all.some((a) => a.productSubcategory === s.slug)),
-        }
+      ? buildAiIndicaFilterData(all)
       : undefined;
 
   const subcategoryFilter =
@@ -116,7 +112,8 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
         label="Categoria"
         title={category.label}
         description={category.description}
-        intro={categoryIntros[slug]}
+        intro={slug === "ai-indica" ? undefined : categoryIntros[slug]}
+        footerText={slug === "ai-indica" ? categoryIntros[slug] : undefined}
         items={items}
         total={all.length}
         page={page}

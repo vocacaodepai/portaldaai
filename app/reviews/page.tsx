@@ -13,11 +13,16 @@ import { getArticlesByCategory, getReviews, site } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 
 const PATH = "/reviews";
-const TITLE = "Reviews de ferramentas de IA";
+const TITLE = "Reviews de ferramentas";
 const DESCRIPTION =
-  "Reviews independentes de ferramentas de IA com nota de 0 a 10 por critérios públicos: facilidade, recursos, preço em reais, português e privacidade.";
+  "Reviews independentes de ferramentas de IA, com nota de 0 a 10 por critérios públicos.";
 
-export const metadata: Metadata = listingMetadata({ title: TITLE, description: DESCRIPTION, path: PATH });
+export const metadata: Metadata = listingMetadata({
+  title: TITLE,
+  description:
+    "Reviews independentes de ferramentas de IA com nota de 0 a 10 por critérios públicos: facilidade, recursos, preço em reais, português e privacidade.",
+  path: PATH,
+});
 
 const REVIEWS_GRID_ID = "reviews-grid";
 
@@ -61,11 +66,9 @@ export default function ReviewsPage() {
           label="Reviews"
           title={TITLE}
           description={DESCRIPTION}
-          intro="Testamos as ferramentas como um usuário comum no Brasil testaria: criando conta, pagando o plano quando é preciso e usando no trabalho de verdade. A nota resume a experiência; o texto explica o porquê."
           count={countLabel(reviews.length, "review", "reviews")}
         />
         <ReviewToolChips tools={tools} rootId={REVIEWS_GRID_ID} />
-        <ReviewCriteria />
         <div id={REVIEWS_GRID_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
           <div className="min-w-0">
             {reviews.length > 0 ? (
@@ -127,6 +130,12 @@ export default function ReviewsPage() {
           </div>
           <Sidebar />
         </div>
+        <ReviewCriteria />
+        <p className="mt-6 max-w-3xl text-sm leading-relaxed text-muted sm:text-base">
+          Testamos as ferramentas como um usuário comum no Brasil testaria: criando conta, pagando o plano
+          quando é preciso e usando no trabalho de verdade. A nota resume a experiência; o texto explica o
+          porquê.
+        </p>
       </Container>
     </>
   );

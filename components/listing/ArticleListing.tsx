@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ArticleCategoryChips } from "@/components/ArticleCategoryChips";
 import { ArticleSubcategoryFilter } from "@/components/ArticleSubcategoryFilter";
-import { ProductCategoryFilter } from "@/components/ProductCategoryFilter";
+import { AiIndicaFilter, type AiIndicaFilterData } from "@/components/AiIndicaFilter";
 import { Container } from "@/components/Container";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
@@ -29,6 +29,8 @@ export function ArticleListing({
   active,
   productFilter,
   subcategoryFilter,
+  areaFilter,
+  footerText,
   emptyTitle = "Nenhum artigo por aqui ainda",
   emptyText = "Publicamos conteúdo novo todos os dias. Enquanto isso, explore as outras categorias.",
   children,
@@ -47,12 +49,13 @@ export function ArticleListing({
   /** Chip ativo: "todos" ou slug de categoria. */
   active: string;
   /** Só quando active === "ai-indica": categorias/subcategorias de produto presentes nos itens. */
-  productFilter?: {
-    categories: { slug: string; label: string }[];
-    subcategories: { slug: string; label: string; category: string }[];
-  };
+  productFilter?: AiIndicaFilterData;
   /** Só nas categorias gerais (iniciantes, monetização...): subtipos presentes nos itens desta categoria. */
   subcategoryFilter?: { slug: string; label: string }[];
+  /** Filtro de área já pronto (/artigos); substitui os chips de categoria. */
+  areaFilter?: React.ReactNode;
+  /** Texto longo mostrado só depois da lista (o cabeçalho fica curto). */
+  footerText?: string;
   emptyTitle?: string;
   emptyText?: string;
   /** Conteúdo extra entre o cabeçalho e a grade (ex.: "Como avaliamos"). */
@@ -71,12 +74,9 @@ export function ArticleListing({
         totalPages={totalPages}
       />
       {productFilter ? (
-        <ProductCategoryFilter
-          categories={productFilter.categories}
-          subcategories={productFilter.subcategories}
-          rootId={ARTICLES_GRID_ID}
-          className="mt-8 border-y border-border py-3"
-        />
+        <AiIndicaFilter data={productFilter} rootId={ARTICLES_GRID_ID} className="mt-8 border-y border-border py-3" />
+      ) : areaFilter ? (
+        <div className="mt-8 border-y border-border py-3">{areaFilter}</div>
       ) : active !== "ferramentas" ? (
         <ArticleCategoryChips active={active} className="mt-8 border-y border-border py-3" />
       ) : null}
@@ -117,6 +117,11 @@ export function ArticleListing({
         </div>
         <Sidebar />
       </div>
+      {footerText && (
+        <section aria-label="Sobre esta seção" className="mt-12 max-w-3xl border-t border-border pt-6">
+          <p className="text-sm leading-relaxed text-muted sm:text-base">{footerText}</p>
+        </section>
+      )}
     </Container>
   );
 }
