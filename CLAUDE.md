@@ -227,7 +227,7 @@ normais no texto, usar o botão de destaque `buy-btn` (classe liberada em
 
 ```html
 <div class="buy-btn">
-  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Nome do produto> agora ↗</a>
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
 </div>
 ```
 
@@ -326,6 +326,12 @@ chave de busca por extenso; o `title` do card não precisa.
   checagem". Chamar de "faixa de mercado", nunca "da Amazon". Se nenhuma
   fonte der o valor, escrever a seção sem números ("o preço varia entre
   vendedores e épocas, veja o valor atual no botão").
+- A faixa vem de pesquisa na internet como um todo (lojas, comparadores e
+  site do fabricante), não só da Amazon. Por isso a seção "Variação de
+  preço" leva sempre uma observação curta dizendo isso, por exemplo:
+  `<p><em>Observação: esta faixa é o preço consultado na internet como um
+  todo (lojas, comparadores de preço e site do fabricante), não apenas na
+  Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>`.
 - Nunca pôr faixa ou preço no `title`, `seoTitle`, `excerpt`,
   `metaDescription`, nem no botão `buy-btn` ou no texto dele.
 - Nota e número de avaliações podem ser citados, sem data.
@@ -334,9 +340,12 @@ chave de busca por extenso; o `title` do card não precisa.
 
 ### Botão de compra espalhado pelo artigo e "na Amazon" (AI Indica)
 
-- Texto do botão sempre cita a Amazon (passa mais segurança): `Comprar
-  <Nome curto do produto> na Amazon agora ↗`, sem preço. Vale para o
-  `buy-btn` do corpo e para o rótulo do botão do bloco de veredito.
+- Texto do botão sempre igual e sempre cita a Amazon (passa mais
+  segurança): `Comprar agora na Amazon ↗`, sem nome de produto e sem
+  preço. Vale para o `buy-btn` do corpo e para o rótulo do botão do bloco
+  de veredito (`review.ctaLabel`: "Comprar agora na Amazon"). Num
+  comparativo, o botão fica logo abaixo da foto/título de cada produto, então
+  o contexto de qual produto é vem do bloco onde ele está.
 - Botões espalhados pelo artigo todo, mínimo 5 por artigo e nunca mais de
   ~3 parágrafos longos seguidos sem um botão. Comparativo: abaixo da foto
   de cada produto, depois da seção de preço e no veredito final. Review
