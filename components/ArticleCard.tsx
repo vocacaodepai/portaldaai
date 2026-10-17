@@ -2,6 +2,7 @@ import Link from "next/link";
 import { type Article, categories } from "@/lib/articles";
 import { formatDate, readingTime } from "@/lib/seo";
 import { CoverImage } from "./CoverImage";
+import { reviewKindLabels } from "./reviewKinds";
 
 type Variant = "default" | "featured" | "horizontal" | "compact";
 
@@ -14,6 +15,21 @@ function ReviewBadge({ score }: { score: number }) {
     <span className="inline-flex items-center gap-1 rounded-md bg-ink/80 px-1.5 py-0.5 font-mono text-[11px] font-semibold text-white backdrop-blur-sm">
       <span className="text-accent-2">★</span>
       {score.toFixed(1)}
+    </span>
+  );
+}
+
+/** Sub-rótulo do selo AI Indica: review individual ou comparativo, com explicação no title. */
+function ReviewKindTag({ article }: { article: Article }) {
+  if (article.category !== "ai-indica") return null;
+  const k = article.kind === "review" ? "review" : "guia";
+  const { label, help } = reviewKindLabels[k];
+  return (
+    <span
+      title={`${label}: ${help}`}
+      className="rounded-md bg-white/90 px-1.5 py-1 text-[10px] font-semibold leading-none text-ink backdrop-blur-sm"
+    >
+      {label}
     </span>
   );
 }
@@ -133,8 +149,16 @@ export function ArticleCard({
           />
         </Link>
         <div className="flex flex-col justify-center gap-1.5 p-4">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <span className="label-mono text-accent">{label}</span>
+            {article.category === "ai-indica" && (
+              <span
+                title={`${reviewKindLabels[article.kind === "review" ? "review" : "guia"].label}: ${reviewKindLabels[article.kind === "review" ? "review" : "guia"].help}`}
+                className="text-[10px] font-semibold text-muted"
+              >
+                {reviewKindLabels[article.kind === "review" ? "review" : "guia"].label}
+              </span>
+            )}
             {hasScore && <ReviewBadge score={score} />}
           </div>
           <Heading className="line-clamp-3 font-display text-base font-semibold leading-snug">
@@ -153,6 +177,8 @@ export function ArticleCard({
   return (
     <article
       className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover"
+      data-category={article.category}
+      data-kind={article.kind ?? "guia"}
       data-product-category={article.productCategory}
       data-product-subcategory={article.productSubcategory}
       data-review-tool={article.review?.tool}
@@ -170,8 +196,9 @@ export function ArticleCard({
           label={label}
           override={article.coverImage}
         />
-        <span className="label-mono absolute left-3 top-3 rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">
-          {label}
+        <span className="absolute left-3 top-3 flex flex-wrap items-center gap-1.5">
+          <span className="label-mono rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">{label}</span>
+          <ReviewKindTag article={article} />
         </span>
         {hasScore && (
           <span className="absolute right-3 top-3">

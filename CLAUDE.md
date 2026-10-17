@@ -76,6 +76,35 @@ categoria do site inteiro repetido em toda aba:
   Cobrindo um tema que não se encaixa em nenhum subtipo existente da
   categoria, adicionar o subtipo novo em `articleSubcategories` antes de
   publicar.
+- **Menu do topo** (`components/Header.tsx`, `MobileMenu.tsx`): não existe mais
+  o item solto "Categorias". "Artigos" abre um submenu (hover/foco no desktop,
+  toque no mobile, via `<details>`) com Todos os artigos, as 5 categorias
+  gerais, "Reviews de ferramentas" (aponta para `/reviews`; o slug
+  `/categoria/ferramentas` segue existindo por SEO, mas não aparece no menu) e
+  "AI Indica". O botão "AI Indica" do menu tem cor de destaque (gradiente
+  accent -> accent-2).
+- **`/artigos`**: mostra todos os artigos numa página só (sem paginar;
+  `/artigos/pagina/N` redireciona para `/artigos`), incluindo AI Indica e
+  reviews de ferramenta, com `ArtigosAreaFilter`
+  (`components/ArtigosAreaFilter.tsx`): chips por área (5 categorias gerais,
+  Reviews de ferramentas, Guias de ferramentas, AI Indica). "Reviews de
+  ferramentas" abre o `ReviewToolChips`; "AI Indica" abre o `AiIndicaFilter`.
+  Tudo filtra no navegador sobre os cards (atributos `data-category`,
+  `data-kind` etc. em `ArticleCard`), combinando filtros por
+  `components/filterVisibility.ts`.
+- **Tipo de review na AI Indica** (`components/AiIndicaFilter.tsx`): em
+  `/categoria/ai-indica` (e em `/artigos` > AI Indica), antes dos filtros de
+  produto há "Todos / Review individual / Review comparativo" (`kind: "review"`
+  = individual, `kind: "guia"` = comparativo). Só depois de escolher um tipo
+  aparece o `ProductCategoryFilter`, aplicado dentro do tipo escolhido. O card
+  de AI Indica mostra ao lado do selo da categoria o sub-rótulo "Review
+  individual" ou "Review comparativo", com `title` explicando as duas.
+- **`ScoreScaleNote`** é retrátil (`<details>`, fechada por padrão, com seta);
+  mesmo conteúdo de antes.
+- **Abertura curta**: `/reviews` (título "Reviews de ferramentas") e
+  `/categoria/ai-indica` têm no máximo ~2 linhas antes do filtro; o texto
+  longo (intro da categoria, "Como avaliamos") vai para o fim da página,
+  depois da lista (`footerText` em `ArticleListing`).
 - **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
   sem chip de filtro extra — o conteúdo de ferramenta agora vive
   conceitualmente em `/reviews` (quando é review) e nos artigos gerais
