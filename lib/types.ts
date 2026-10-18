@@ -213,6 +213,8 @@ export const productSubcategories = [
   { slug: "irrigador-oral", label: "Irrigador Oral", category: "saude-bem-estar" },
   { slug: "luz-emergencia", label: "Luminária de Emergência", category: "casa-utilidades" },
   { slug: "ring-light", label: "Ring Light para Celular", category: "acessorios-celular" },
+  { slug: "espremedor", label: "Espremedor de Frutas", category: "cozinha" },
+  { slug: "pipoqueira", label: "Pipoqueira", category: "cozinha" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
