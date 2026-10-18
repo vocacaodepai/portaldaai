@@ -213,6 +213,9 @@ export const productSubcategories = [
   { slug: "irrigador-oral", label: "Irrigador Oral", category: "saude-bem-estar" },
   { slug: "luz-emergencia", label: "Luminária de Emergência", category: "casa-utilidades" },
   { slug: "ring-light", label: "Ring Light para Celular", category: "acessorios-celular" },
+  { slug: "mesa-digitalizadora", label: "Mesa Digitalizadora", category: "informatica" },
+  { slug: "prancha-alisadora", label: "Prancha Alisadora", category: "saude-bem-estar" },
+  { slug: "camera-veicular", label: "Câmera Veicular", category: "automotivo" },
   { slug: "espremedor", label: "Espremedor de Frutas", category: "cozinha" },
   { slug: "pipoqueira", label: "Pipoqueira", category: "cozinha" },
 ] as const;
