@@ -139,6 +139,7 @@ export const productCategories = [
   { slug: "casa-utilidades", label: "Casa e Utilidades" },
   { slug: "ferramentas-casa", label: "Ferramentas Domésticas" },
   { slug: "acessorios-celular", label: "Acessórios de Celular" },
+  { slug: "jardim-quintal", label: "Jardim e Quintal" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -218,6 +219,8 @@ export const productSubcategories = [
   { slug: "camera-veicular", label: "Câmera Veicular", category: "automotivo" },
   { slug: "espremedor", label: "Espremedor de Frutas", category: "cozinha" },
   { slug: "pipoqueira", label: "Pipoqueira", category: "cozinha" },
+  { slug: "faca-cozinha", label: "Faca de Cozinha", category: "cozinha" },
+  { slug: "mangueira-jardim", label: "Mangueira de Jardim", category: "jardim-quintal" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
