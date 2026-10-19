@@ -219,6 +219,9 @@ export const productSubcategories = [
   { slug: "camera-veicular", label: "Câmera Veicular", category: "automotivo" },
   { slug: "espremedor", label: "Espremedor de Frutas", category: "cozinha" },
   { slug: "pipoqueira", label: "Pipoqueira", category: "cozinha" },
+  { slug: "churrasqueira-eletrica", label: "Churrasqueira Elétrica", category: "cozinha" },
+  { slug: "maquina-waffle", label: "Máquina de Waffle", category: "cozinha" },
+  { slug: "vaporizador-roupas", label: "Vaporizador de Roupas", category: "casa-utilidades" },
   { slug: "faca-cozinha", label: "Faca de Cozinha", category: "cozinha" },
   { slug: "mangueira-jardim", label: "Mangueira de Jardim", category: "jardim-quintal" },
 ] as const;
