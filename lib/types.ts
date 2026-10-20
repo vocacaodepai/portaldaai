@@ -224,6 +224,9 @@ export const productSubcategories = [
   { slug: "vaporizador-roupas", label: "Vaporizador de Roupas", category: "casa-utilidades" },
   { slug: "faca-cozinha", label: "Faca de Cozinha", category: "cozinha" },
   { slug: "mangueira-jardim", label: "Mangueira de Jardim", category: "jardim-quintal" },
+  { slug: "cooktop-inducao", label: "Cooktop de Indução", category: "cozinha" },
+  { slug: "fragmentadora", label: "Fragmentadora de Papel", category: "informatica" },
+  { slug: "soprador-aspirador", label: "Soprador e Aspirador de Folhas", category: "jardim-quintal" },
   { slug: "aspirador-carro", label: "Aspirador de Carro", category: "automotivo" },
   { slug: "aspirador-po-agua", label: "Aspirador de Pó e Água", category: "casa-utilidades" },
 ] as const;
