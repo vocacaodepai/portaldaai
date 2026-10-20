@@ -227,6 +227,8 @@ export const productSubcategories = [
   { slug: "cooktop-inducao", label: "Cooktop de Indução", category: "cozinha" },
   { slug: "fragmentadora", label: "Fragmentadora de Papel", category: "informatica" },
   { slug: "soprador-aspirador", label: "Soprador e Aspirador de Folhas", category: "jardim-quintal" },
+  { slug: "aspirador-carro", label: "Aspirador de Carro", category: "automotivo" },
+  { slug: "aspirador-po-agua", label: "Aspirador de Pó e Água", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
