@@ -231,6 +231,8 @@ export const productSubcategories = [
   { slug: "aspirador-po-agua", label: "Aspirador de Pó e Água", category: "casa-utilidades" },
   { slug: "tesoura-poda", label: "Tesoura de Poda", category: "jardim-quintal" },
   { slug: "nobreak", label: "Nobreak", category: "informatica" },
+  { slug: "multimetro", label: "Multímetro Digital", category: "ferramentas-casa" },
+  { slug: "esmerilhadeira", label: "Esmerilhadeira Angular", category: "ferramentas-casa" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
