@@ -140,6 +140,7 @@ export const productCategories = [
   { slug: "ferramentas-casa", label: "Ferramentas Domésticas" },
   { slug: "acessorios-celular", label: "Acessórios de Celular" },
   { slug: "jardim-quintal", label: "Jardim e Quintal" },
+  { slug: "pet", label: "Pet" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -231,6 +232,9 @@ export const productSubcategories = [
   { slug: "aspirador-po-agua", label: "Aspirador de Pó e Água", category: "casa-utilidades" },
   { slug: "tesoura-poda", label: "Tesoura de Poda", category: "jardim-quintal" },
   { slug: "nobreak", label: "Nobreak", category: "informatica" },
+  { slug: "mop-giratorio", label: "Mop e Esfregão", category: "casa-utilidades" },
+  { slug: "cuscuzeira", label: "Cuscuzeira", category: "cozinha" },
+  { slug: "escova-pet", label: "Escova e Rasqueadeira Pet", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
