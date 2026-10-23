@@ -239,6 +239,9 @@ export const productSubcategories = [
   { slug: "mop-giratorio", label: "Mop e Esfregão", category: "casa-utilidades" },
   { slug: "cuscuzeira", label: "Cuscuzeira", category: "cozinha" },
   { slug: "escova-pet", label: "Escova e Rasqueadeira Pet", category: "pet" },
+  { slug: "soundbar", label: "Soundbar", category: "audio-video" },
+  { slug: "switch-rede", label: "Switch de Rede", category: "informatica" },
+  { slug: "sensor-temperatura", label: "Sensor de Temperatura e Umidade", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
