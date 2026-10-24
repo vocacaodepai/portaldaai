@@ -242,6 +242,8 @@ export const productSubcategories = [
   { slug: "soundbar", label: "Soundbar", category: "audio-video" },
   { slug: "switch-rede", label: "Switch de Rede", category: "informatica" },
   { slug: "sensor-temperatura", label: "Sensor de Temperatura e Umidade", category: "casa-inteligente" },
+  { slug: "chaves-fenda", label: "Chaves de Fenda", category: "ferramentas-casa" },
+  { slug: "carrinho-mao", label: "Carrinho de Mão", category: "jardim-quintal" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
