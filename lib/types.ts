@@ -245,6 +245,8 @@ export const productSubcategories = [
   { slug: "tanquinho", label: "Tanquinho e Lavadora", category: "casa-utilidades" },
   { slug: "panificadora", label: "Panificadora", category: "cozinha" },
   { slug: "alimentador-pet", label: "Alimentador Automático Pet", category: "pet" },
+  { slug: "chaves-fenda", label: "Chaves de Fenda", category: "ferramentas-casa" },
+  { slug: "carrinho-mao", label: "Carrinho de Mão", category: "jardim-quintal" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
