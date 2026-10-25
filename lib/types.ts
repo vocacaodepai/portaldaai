@@ -247,6 +247,8 @@ export const productSubcategories = [
   { slug: "alimentador-pet", label: "Alimentador Automático Pet", category: "pet" },
   { slug: "chaves-fenda", label: "Chaves de Fenda", category: "ferramentas-casa" },
   { slug: "carrinho-mao", label: "Carrinho de Mão", category: "jardim-quintal" },
+  { slug: "escova-rotativa", label: "Escova Secadora e Rotativa", category: "saude-bem-estar" },
+  { slug: "inalador", label: "Inalador e Nebulizador", category: "saude-bem-estar" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
