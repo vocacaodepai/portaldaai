@@ -252,6 +252,8 @@ export const productSubcategories = [
   { slug: "gamepad", label: "Controle e Gamepad", category: "informatica" },
   { slug: "escova-rotativa", label: "Escova Secadora e Rotativa", category: "saude-bem-estar" },
   { slug: "inalador", label: "Inalador e Nebulizador", category: "saude-bem-estar" },
+  { slug: "termometro", label: "Termômetro", category: "saude-bem-estar" },
+  { slug: "controle-universal", label: "Controle Universal Infravermelho", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
