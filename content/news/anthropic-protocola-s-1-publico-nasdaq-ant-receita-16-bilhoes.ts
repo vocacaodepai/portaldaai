@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "anthropic-protocola-s-1-publico-nasdaq-ant-receita-16-bilhoes",
-  title: "Anthropic abre S-1: ANT na Nasdaq e US$ 16,3 bi de receita no semestre",,
+  title: "Anthropic abre S-1: ANT na Nasdaq e US$ 16,3 bi de receita no semestre",
   summary:
     "Prospecto público na SEC mostra receita de US$ 16,3 bilhões no 1º semestre de 2026, mais de 11,9 mil clientes grandes e pedido de listagem na Nasdaq.",
   author: "Bruno Danello",
