@@ -257,6 +257,9 @@ export const productSubcategories = [
   { slug: "inalador", label: "Inalador e Nebulizador", category: "saude-bem-estar" },
   { slug: "termometro", label: "Termômetro", category: "saude-bem-estar" },
   { slug: "controle-universal", label: "Controle Universal Infravermelho", category: "casa-inteligente" },
+  { slug: "micro-ondas", label: "Micro-ondas", category: "cozinha" },
+  { slug: "shampoo-automotivo", label: "Shampoo e Lavagem Automotiva", category: "automotivo" },
+  { slug: "pote-hermetico", label: "Potes Herméticos", category: "casa-utilidades" },
   { slug: "microfone-lapela", label: "Microfone de Lapela sem Fio", category: "audio-video" },
   { slug: "oximetro", label: "Oxímetro de Dedo", category: "saude-bem-estar" },
 ] as const;
