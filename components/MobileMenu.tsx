@@ -4,8 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
-
-type Item = { href: string; label: string; description?: string };
+import type { NavItem as Item } from "./Header";
 
 /**
  * Menu lateral do mobile em <dialog> nativo (showModal): foco preso, Esc fecha,
@@ -13,11 +12,9 @@ type Item = { href: string; label: string; description?: string };
  */
 export function MobileMenu({
   primary,
-  categories,
   institutional,
 }: {
   primary: Item[];
-  categories: Item[];
   institutional: Item[];
 }) {
   const pathname = usePathname();
@@ -78,25 +75,38 @@ export function MobileMenu({
           </div>
 
           <nav className="mt-6 space-y-1" aria-label="Principal">
-            {primary.map((i) => (
-              <Link
-                key={i.href}
-                href={i.href}
-                className="block rounded-lg px-3 py-2.5 font-display text-lg font-semibold hover:bg-surface-2"
-              >
-                {i.label}
-              </Link>
-            ))}
-          </nav>
-
-          <p className="label-mono mt-6 px-3 text-muted">Categorias</p>
-          <nav className="mt-2 space-y-1" aria-label="Categorias">
-            {categories.map((c) => (
-              <Link key={c.href} href={c.href} className="block rounded-lg px-3 py-2 hover:bg-surface-2">
-                <span className="block text-[15px] font-medium">{c.label}</span>
-                {c.description && <span className="block text-xs text-muted">{c.description}</span>}
-              </Link>
-            ))}
+            {primary.map((i) =>
+              i.children ? (
+                <details key={i.href} className="group rounded-lg">
+                  <summary className="flex cursor-pointer list-none items-center justify-between rounded-lg px-3 py-2.5 font-display text-lg font-semibold hover:bg-surface-2 [&::-webkit-details-marker]:hidden">
+                    {i.label}
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="transition-transform group-open:rotate-180">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div className="mt-1 space-y-1 border-l border-border pl-2 ml-3">
+                    {i.children.map((c) => (
+                      <Link key={c.href} href={c.href} className="block rounded-lg px-3 py-2 hover:bg-surface-2">
+                        <span className="block text-[15px] font-medium">{c.label}</span>
+                        {c.description && <span className="block text-xs text-muted">{c.description}</span>}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ) : i.highlight ? (
+                <Link
+                  key={i.href}
+                  href={i.href}
+                  className="my-1 block rounded-lg bg-gradient-to-br from-accent to-accent-2 px-3 py-2.5 font-display text-lg font-semibold text-accent-foreground"
+                >
+                  {i.label}
+                </Link>
+              ) : (
+                <Link key={i.href} href={i.href} className="block rounded-lg px-3 py-2.5 font-display text-lg font-semibold hover:bg-surface-2">
+                  {i.label}
+                </Link>
+              ),
+            )}
           </nav>
 
           <p className="label-mono mt-6 px-3 text-muted">Institucional</p>

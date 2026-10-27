@@ -76,6 +76,35 @@ categoria do site inteiro repetido em toda aba:
   Cobrindo um tema que não se encaixa em nenhum subtipo existente da
   categoria, adicionar o subtipo novo em `articleSubcategories` antes de
   publicar.
+- **Menu do topo** (`components/Header.tsx`, `MobileMenu.tsx`): não existe mais
+  o item solto "Categorias". "Artigos" abre um submenu (hover/foco no desktop,
+  toque no mobile, via `<details>`) com Todos os artigos, as 5 categorias
+  gerais, "Reviews de ferramentas" (aponta para `/reviews`; o slug
+  `/categoria/ferramentas` segue existindo por SEO, mas não aparece no menu) e
+  "AI Indica". O botão "AI Indica" do menu tem cor de destaque (gradiente
+  accent -> accent-2).
+- **`/artigos`**: mostra todos os artigos numa página só (sem paginar;
+  `/artigos/pagina/N` redireciona para `/artigos`), incluindo AI Indica e
+  reviews de ferramenta, com `ArtigosAreaFilter`
+  (`components/ArtigosAreaFilter.tsx`): chips por área (5 categorias gerais,
+  Reviews de ferramentas, Guias de ferramentas, AI Indica). "Reviews de
+  ferramentas" abre o `ReviewToolChips`; "AI Indica" abre o `AiIndicaFilter`.
+  Tudo filtra no navegador sobre os cards (atributos `data-category`,
+  `data-kind` etc. em `ArticleCard`), combinando filtros por
+  `components/filterVisibility.ts`.
+- **Tipo de review na AI Indica** (`components/AiIndicaFilter.tsx`): em
+  `/categoria/ai-indica` (e em `/artigos` > AI Indica), antes dos filtros de
+  produto há "Todos / Review individual / Review comparativo" (`kind: "review"`
+  = individual, `kind: "guia"` = comparativo). Só depois de escolher um tipo
+  aparece o `ProductCategoryFilter`, aplicado dentro do tipo escolhido. O card
+  de AI Indica mostra ao lado do selo da categoria o sub-rótulo "Review
+  individual" ou "Review comparativo", com `title` explicando as duas.
+- **`ScoreScaleNote`** é retrátil (`<details>`, fechada por padrão, com seta);
+  mesmo conteúdo de antes.
+- **Abertura curta**: `/reviews` (título "Reviews de ferramentas") e
+  `/categoria/ai-indica` têm no máximo ~2 linhas antes do filtro; o texto
+  longo (intro da categoria, "Como avaliamos") vai para o fim da página,
+  depois da lista (`footerText` em `ArticleListing`).
 - **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
   sem chip de filtro extra — o conteúdo de ferramenta agora vive
   conceitualmente em `/reviews` (quando é review) e nos artigos gerais
@@ -175,6 +204,29 @@ retroativa nas ~380 notícias antigas.
   fonte real (`sourceName`/`sourceUrl`) fica só dentro da matéria: citado
   no texto (já é regra) e na caixa "Fonte original" ao fim do corpo (já
   existe, não precisa de nada novo).
+
+## Política de fonte das notícias (desde 27/10/2026)
+
+Notícia apoiada em fonte única ou secundária (CNBC, The Verge, The Decoder,
+The Register, TechCrunch, TNW etc.) **pode e deve** ser publicada, desde que
+o fato seja relevante, verificável na própria matéria aberta e a reportagem
+seja detalhada. Fonte primária continua preferida quando existe, mas a falta
+dela não descarta a notícia. Segue proibido boato, fato sem data, cópia de
+trechos e invenção.
+
+- O texto é do Portal da AI (análise própria). A fonte é creditada no fim,
+  como texto simples: `sourceName` com o(s) veículo(s) de onde veio o fato,
+  ex.: `CNBC` ou `CNBC, OpenAI`. A caixa "Fonte original" ao fim da notícia já
+  mostra esse nome. Link no meio do texto não é mais obrigatório.
+- `sourceUrl` continua obrigatório (o `check-content` exige https): use a
+  matéria real que foi aberta.
+- Topo e listagem seguem só com "via Portal da AI".
+
+## Merge automático
+
+Toda PR criada pelas rotinas e pelo Claude é mesclada por squash assim que a
+Vercel fica Ready, sem pedir aprovação (autorização permanente do dono).
+Rate limit da Vercel: não mesclar, relatar.
 
 ## Imagens de produto (categoria AI Indica)
 

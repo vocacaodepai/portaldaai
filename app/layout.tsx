@@ -133,11 +133,6 @@ const websiteJsonLd = {
   description: site.description,
   inLanguage: "pt-BR",
   publisher: { "@id": `${site.url}/#organization` },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: { "@type": "EntryPoint", urlTemplate: `${site.url}/busca?q={search_term_string}` },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
