@@ -215,6 +215,8 @@ export const productSubcategories = [
   { slug: "pistola-massageadora", label: "Pistola Massageadora", category: "saude-bem-estar" },
   { slug: "cortador-cabelo", label: "Cortador de Cabelo", category: "saude-bem-estar" },
   { slug: "lixeira-sensor", label: "Lixeira com Sensor", category: "casa-utilidades" },
+  { slug: "seladora-vacuo", label: "Seladora a Vácuo", category: "cozinha" },
+  { slug: "trena-laser", label: "Trena a Laser", category: "ferramentas-casa" },
   { slug: "irrigador-oral", label: "Irrigador Oral", category: "saude-bem-estar" },
   { slug: "luz-emergencia", label: "Luminária de Emergência", category: "casa-utilidades" },
   { slug: "ring-light", label: "Ring Light para Celular", category: "acessorios-celular" },
