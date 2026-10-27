@@ -141,6 +141,7 @@ export const productCategories = [
   { slug: "acessorios-celular", label: "Acessórios de Celular" },
   { slug: "jardim-quintal", label: "Jardim e Quintal" },
   { slug: "pet", label: "Pet" },
+  { slug: "escritorio", label: "Escritório" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -260,6 +261,8 @@ export const productSubcategories = [
   { slug: "micro-ondas", label: "Micro-ondas", category: "cozinha" },
   { slug: "shampoo-automotivo", label: "Shampoo e Lavagem Automotiva", category: "automotivo" },
   { slug: "pote-hermetico", label: "Potes Herméticos", category: "casa-utilidades" },
+  { slug: "antena-tv", label: "Antena de TV", category: "audio-video" },
+  { slug: "telefone-sem-fio", label: "Telefone sem Fio", category: "escritorio" },
   { slug: "microfone-lapela", label: "Microfone de Lapela sem Fio", category: "audio-video" },
   { slug: "oximetro", label: "Oxímetro de Dedo", category: "saude-bem-estar" },
 ] as const;
