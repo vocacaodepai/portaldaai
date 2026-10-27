@@ -39,7 +39,7 @@ export function ScoreScaleNote() {
       </summary>
       <div className="px-4 pb-5 sm:px-6 sm:pb-6">
         <p className="max-w-3xl text-sm leading-relaxed text-muted">
-          A nota não é a avaliação de estrelas da Amazon: é a nossa análise do produto, considerando preço,
+          A nota não é a avaliação de estrelas da loja (Amazon ou Shopee): é a nossa análise do produto, considerando preço,
           ficha técnica e o volume real de avaliação de quem já comprou. A casa decimal (ex.: 7,8) é
           proposital — mostra a diferença entre dois produtos que, arredondados, pareceriam iguais.
         </p>
