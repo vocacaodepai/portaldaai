@@ -257,6 +257,8 @@ export const productSubcategories = [
   { slug: "inalador", label: "Inalador e Nebulizador", category: "saude-bem-estar" },
   { slug: "termometro", label: "Termômetro", category: "saude-bem-estar" },
   { slug: "controle-universal", label: "Controle Universal Infravermelho", category: "casa-inteligente" },
+  { slug: "microfone-lapela", label: "Microfone de Lapela sem Fio", category: "audio-video" },
+  { slug: "oximetro", label: "Oxímetro de Dedo", category: "saude-bem-estar" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
