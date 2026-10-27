@@ -39,7 +39,7 @@ export const item: NewsItem = {
     <p>Para quem apenas usa voz no dia a dia, o efeito é indireto: assistentes mais naturais tendem a aparecer em apps e serviços. Se você quer entender a base, o guia <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">assistente de voz com IA no dia a dia</a> ajuda, e a análise <a href="/artigos/elevenlabs-vale-a-pena-vozes-em-portugues-precos">ElevenLabs vale a pena? Vozes em português e preços</a> mostra como a empresa se comporta em nosso idioma.</p>
 
     <h2>Limites e cuidados</h2>
-    <p>O lançamento chega de forma gradual: o acesso pelo ElevenAgents está sendo liberado por área de trabalho. Segundo o resumo de um agregador que acompanhou o anúncio, o Mini não está disponível no Modo de Retenção Zero nem em ambientes com HIPAA, e o Max não está disponível na Índia e em Singapura. Esses pontos devem ser confirmados na documentação oficial antes de qualquer contrato.</p>
+    <p>O anúncio oficial não detalha restrições de disponibilidade, como compatibilidade com o Modo de Retenção Zero, com ambientes HIPAA ou com regiões específicas. Quem trabalha com dados sensíveis ou precisa de residência de dados em determinado país deve confirmar esses pontos com a ElevenLabs antes de contratar. A única limitação técnica citada é que a Realtime API funciona só por WebSocket.</p>
     <p>Agentes de voz também levantam questões de privacidade e consentimento: avisar o cliente de que ele fala com uma IA, gravar apenas com autorização e tratar os dados conforme a LGPD. Voz sintética convincente é útil para atendimento, mas também alimenta golpes, algo que o Portal da AI já mostrou em casos de voz clonada.</p>
 
     <h2>O que acompanhar daqui para a frente</h2>

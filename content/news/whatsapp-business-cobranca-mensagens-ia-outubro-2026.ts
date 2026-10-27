@@ -4,17 +4,17 @@ export const item: NewsItem = {
   slug: "whatsapp-business-cobranca-mensagens-ia-outubro-2026",
   title: "WhatsApp Business API começa a cobrar mensagens de atendimento",
   summary:
-    "Desde 1º de outubro, Meta cobra R$ 0,035 por mensagem de serviço e por template de utilidade após franquia mensal de 1.000 mensagens gratuitas por número.",
+    "Desde 1º de outubro, a Meta cobra por mensagem de serviço e por template de utilidade na API do WhatsApp Business, após franquia mensal de 1.000 mensagens de serviço gratuitas por número. A Forbes Brasil cita R$ 0,035 por mensagem.",
   author: "Bruno Danello",
   sourceName: "Forbes Brasil",
   sourceUrl: "https://forbes.com.br/forbes-tech/2026/10/entenda-o-que-muda-para-as-empresas-com-a-cobranca-no-whatsapp-business/",
   date: "2026-10-03",
   content: `
-    <p>A Meta começou a cobrar, a partir de 1º de outubro, por mensagens de atendimento enviadas por empresas através da API oficial do WhatsApp Business. A mudança afeta dois tipos de mensagem que até então eram gratuitas dentro da janela de 24 horas de conversa com o cliente: as mensagens de serviço, que são as respostas em texto livre escritas por atendentes humanos ou por agentes de inteligência artificial, e os templates de utilidade, usados para confirmações de compra e atualizações de status de pedido. Segundo reportagem da <a href="https://forbes.com.br/forbes-tech/2026/10/entenda-o-que-muda-para-as-empresas-com-a-cobranca-no-whatsapp-business/" target="_blank" rel="noopener noreferrer nofollow">Forbes Brasil</a> publicada nesta semana, cada mensagem cobrada custa R$ 0,035 (US$ 0,0068) para contas faturadas no Brasil.</p>
-    <p>A cobrança só entra em vigor depois que a empresa ultrapassa uma franquia mensal de 1.000 mensagens de serviço gratuitas por número de telefone comercial, cota que reinicia todo mês e não acumula saldo para o mês seguinte. O WhatsApp Business comum, aplicativo gratuito usado diretamente do celular por pequenos negócios sem integração via API, não é afetado pela mudança: a cobrança vale só para quem usa a API oficial, geralmente através de plataformas de atendimento, CRMs ou agentes de automação conectados ao número da empresa.</p>
+    <p>A Meta começou a cobrar, a partir de 1º de outubro, por mensagens de atendimento enviadas por empresas através da API oficial do WhatsApp Business. A mudança afeta dois tipos de mensagem que até então eram gratuitas dentro da janela de 24 horas de conversa com o cliente: as mensagens de serviço, que são as respostas em texto livre escritas por atendentes humanos ou por agentes de inteligência artificial, e os templates de utilidade, usados para confirmações de compra e atualizações de status de pedido. Segundo reportagem da <a href="https://forbes.com.br/forbes-tech/2026/10/entenda-o-que-muda-para-as-empresas-com-a-cobranca-no-whatsapp-business/" target="_blank" rel="noopener noreferrer nofollow">Forbes Brasil</a> publicada nesta semana, cada mensagem cobrada custa R$ 0,035 (US$ 0,0068) para contas faturadas no Brasil. Esse valor vem da reportagem: a página de preços da Meta confirma a data, a franquia e os tipos de mensagem, mas não traz o valor em reais no texto (ele fica na tabela de tarifas em BRL), então confira a tabela da sua conta antes de orçar.</p>
+    <p>A cobrança só entra em vigor depois que a empresa ultrapassa uma franquia mensal de 1.000 mensagens de serviço gratuitas por número de telefone comercial, cota que reinicia todo mês e não acumula saldo para o mês seguinte. Segundo a documentação da Meta, governos e organizações sem fins lucrativos elegíveis seguem sem cobrança além da franquia até 31 de dezembro de 2027, e provedores de IA (empresas que oferecem assistentes de uso geral pela plataforma) seguem uma política separada. O WhatsApp Business comum, aplicativo gratuito usado diretamente do celular por pequenos negócios sem integração via API, não é afetado pela mudança: a cobrança vale só para quem usa a API oficial, geralmente através de plataformas de atendimento, CRMs ou agentes de automação conectados ao número da empresa.</p>
 
     <h2>Do modelo gratuito à conta por mensagem</h2>
-    <p>Até setembro de 2026, o modelo de cobrança do WhatsApp Business API já previa pagamento por templates de marketing e por conversas iniciadas pela empresa fora da janela de atendimento, mas deixava de fora as respostas de texto livre dentro da janela de 24 horas, que ficaram gratuitas desde novembro de 2024. A Meta vinha sinalizando a mudança desde julho, quando lançou a Meta Business Agent Platform, sua própria camada de agentes de IA para atendimento no WhatsApp, cobrada por token processado a partir de agosto. A publicação das tarifas por país aconteceu em setembro, mercado por mercado, mantendo o mesmo valor já praticado para mensagens de utilidade e autenticação.</p>
+    <p>Até 30 de setembro de 2026, as respostas de texto livre dentro da janela de 24 horas eram gratuitas, e os templates de utilidade enviados com a janela aberta eram gratuitos desde 1º de julho de 2025. Templates de marketing e de utilidade enviados fora da janela já eram cobrados. A partir de 1º de outubro, os templates de utilidade dentro da janela passam à tarifa de utilidade publicada, e as mensagens de serviço passam a ser cobradas por mensagem entregue acima da franquia. Segundo a Forbes Brasil, o valor é o mesmo já praticado para mensagens de utilidade e autenticação.</p>
     <p>A exceção que permanece sem custo é a janela de 72 horas aberta quando o cliente inicia a conversa a partir de um anúncio do tipo "clique para o WhatsApp" ou de um botão de chamada para ação em páginas do Facebook ou Instagram. Nesses casos, toda a troca de mensagens dentro desse período continua gratuita, o que preserva o incentivo da Meta para empresas anunciarem dentro do próprio ecossistema de redes sociais do grupo. Mensagens enviadas pelo cliente para a empresa, em qualquer situação, também continuam sem custo: a cobrança incide apenas sobre o que a empresa envia de volta.</p>
 
     <h2>Por que isso importa para você</h2>
@@ -27,19 +27,19 @@ export const item: NewsItem = {
 
     <div class="callout-box callout-tip">
       <span class="callout-label">Resumo rápido</span>
-      <p>Desde 1º de outubro de 2026: mensagens de serviço e templates de utilidade dentro da janela de 24h passam a custar R$ 0,035 cada no Brasil, após franquia mensal gratuita de 1.000 mensagens por número. WhatsApp Business comum (sem API) não é afetado. Janela de 72h de anúncios "clique para o WhatsApp" continua gratuita.</p>
+      <p>Desde 1º de outubro de 2026: mensagens de serviço e templates de utilidade dentro da janela de 24h passam a ser cobrados (a Forbes Brasil cita R$ 0,035 por mensagem no Brasil; confira a tabela em BRL da Meta), com franquia mensal gratuita de 1.000 mensagens de serviço por número. WhatsApp Business comum (sem API) não é afetado. Janela de 72h de anúncios "clique para o WhatsApp" continua gratuita.</p>
     </div>
   `,
   faq: [
     {
       question: "A partir de quando o WhatsApp Business API cobra por mensagem de atendimento?",
       answer:
-        "Desde 1º de outubro de 2026. Antes dessa data, mensagens de texto livre enviadas por atendentes ou agentes de IA dentro da janela de 24 horas de conversa eram gratuitas desde novembro de 2024.",
+        "Desde 1º de outubro de 2026. Antes dessa data, as mensagens de texto livre enviadas dentro da janela de 24 horas de conversa eram gratuitas.",
     },
     {
       question: "Quanto custa cada mensagem cobrada no Brasil?",
       answer:
-        "R$ 0,035 (equivalente a US$ 0,0068) por mensagem de serviço ou template de utilidade entregue, segundo valores publicados pela Meta e confirmados pela Forbes Brasil. O valor é o mesmo já praticado para mensagens de utilidade e autenticação no país.",
+        "Segundo a Forbes Brasil, R$ 0,035 (US$ 0,0068) por mensagem de serviço ou template de utilidade entregue, valor igual ao já praticado para utilidade e autenticação. A página de preços da Meta confirma a cobrança, mas o valor em reais fica na tabela de tarifas em BRL, que cada empresa deve conferir.",
     },
     {
       question: "O WhatsApp Business normal, usado pelo celular, também passa a cobrar?",
