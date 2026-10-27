@@ -265,6 +265,9 @@ export const productSubcategories = [
   { slug: "telefone-sem-fio", label: "Telefone sem Fio", category: "escritorio" },
   { slug: "microfone-lapela", label: "Microfone de Lapela sem Fio", category: "audio-video" },
   { slug: "oximetro", label: "Oxímetro de Dedo", category: "saude-bem-estar" },
+  { slug: "crepeira", label: "Crepeira e Hot Dog no Palito", category: "cozinha" },
+  { slug: "cortador-grama", label: "Cortador de Grama Elétrico", category: "jardim-quintal" },
+  { slug: "comedouro-pet", label: "Comedouro e Pote Pet", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
