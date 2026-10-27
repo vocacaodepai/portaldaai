@@ -111,7 +111,7 @@ Pitch:
 
     <p>Também vale um alerta sobre confidencialidade: não cole no chat dados de clientes identificáveis, contratos com terceiros nem informação que você não mostraria em uma reunião aberta.</p>
 
-    <p>Um bom pitch é o começo de uma conversa, não o fim. Escreva o rascunho hoje com o primeiro prompt, rode o interrogatório amanhã e teste a versão de 30 segundos com alguém que não conhece o seu setor. Se a pessoa consegue repetir o que você faz e o que você pede, o pitch está pronto. Para o que vem depois do sim, a categoria <a href="/negocios">Negócios com IA</a> tem o caminho, e o guia de <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">criar um negócio digital com IA do zero</a> mostra o que fazer com o dinheiro que entrou.</p>
+    <p>Um bom pitch é o começo de uma conversa, não o fim. Escreva o rascunho hoje com o primeiro prompt, rode o interrogatório amanhã e teste a versão de 30 segundos com alguém que não conhece o seu setor. Se a pessoa consegue repetir o que você faz e o que você pede, o pitch está pronto. Para o que vem depois do sim, a categoria <a href="/categoria/negocios">Negócios com IA</a> tem o caminho, e o guia de <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">criar um negócio digital com IA do zero</a> mostra o que fazer com o dinheiro que entrou.</p>
   `,
   faq: [
     {
