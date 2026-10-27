@@ -205,6 +205,29 @@ retroativa nas ~380 notícias antigas.
   no texto (já é regra) e na caixa "Fonte original" ao fim do corpo (já
   existe, não precisa de nada novo).
 
+## Política de fonte das notícias (desde 27/10/2026)
+
+Notícia apoiada em fonte única ou secundária (CNBC, The Verge, The Decoder,
+The Register, TechCrunch, TNW etc.) **pode e deve** ser publicada, desde que
+o fato seja relevante, verificável na própria matéria aberta e a reportagem
+seja detalhada. Fonte primária continua preferida quando existe, mas a falta
+dela não descarta a notícia. Segue proibido boato, fato sem data, cópia de
+trechos e invenção.
+
+- O texto é do Portal da AI (análise própria). A fonte é creditada no fim,
+  como texto simples: `sourceName` com o(s) veículo(s) de onde veio o fato,
+  ex.: `CNBC` ou `CNBC, OpenAI`. A caixa "Fonte original" ao fim da notícia já
+  mostra esse nome. Link no meio do texto não é mais obrigatório.
+- `sourceUrl` continua obrigatório (o `check-content` exige https): use a
+  matéria real que foi aberta.
+- Topo e listagem seguem só com "via Portal da AI".
+
+## Merge automático
+
+Toda PR criada pelas rotinas e pelo Claude é mesclada por squash assim que a
+Vercel fica Ready, sem pedir aprovação (autorização permanente do dono).
+Rate limit da Vercel: não mesclar, relatar.
+
 ## Imagens de produto (categoria AI Indica)
 
 Nunca usar gerador de imagem por IA (ElevenLabs ou qualquer outro) para criar
