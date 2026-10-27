@@ -268,6 +268,8 @@ export const productSubcategories = [
   { slug: "crepeira", label: "Crepeira e Hot Dog no Palito", category: "cozinha" },
   { slug: "cortador-grama", label: "Cortador de Grama Elétrico", category: "jardim-quintal" },
   { slug: "comedouro-pet", label: "Comedouro e Pote Pet", category: "pet" },
+  { slug: "cera-automotiva", label: "Cera Automotiva", category: "automotivo" },
+  { slug: "areia-gato", label: "Areia Higiênica para Gatos", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
