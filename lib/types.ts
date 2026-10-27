@@ -229,7 +229,6 @@ export const productSubcategories = [
   { slug: "soprador-aspirador", label: "Soprador e Aspirador de Folhas", category: "jardim-quintal" },
   { slug: "aspirador-carro", label: "Aspirador de Carro", category: "automotivo" },
   { slug: "aspirador-po-agua", label: "Aspirador de Pó e Água", category: "casa-utilidades" },
-  { slug: "tesoura-poda", label: "Tesoura de Poda", category: "jardim-quintal" },
   { slug: "suporte-notebook", label: "Suporte de Notebook", category: "informatica" },
   { slug: "escada-domestica", label: "Escada Doméstica", category: "ferramentas-casa" },
 ] as const;
