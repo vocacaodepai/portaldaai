@@ -275,6 +275,8 @@ export const productSubcategories = [
   { slug: "suporte-monitor", label: "Suporte de Monitor", category: "escritorio" },
   { slug: "cera-automotiva", label: "Cera Automotiva", category: "automotivo" },
   { slug: "areia-gato", label: "Areia Higiênica para Gatos", category: "pet" },
+  { slug: "placa-wifi-pcie", label: "Placa Wi-Fi PCIe", category: "informatica" },
+  { slug: "adaptador-bluetooth", label: "Adaptador Bluetooth USB", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
