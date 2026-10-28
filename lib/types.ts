@@ -278,6 +278,8 @@ export const productSubcategories = [
   { slug: "frigideira", label: "Frigideira", category: "cozinha" },
   { slug: "aparador-grama", label: "Aparador de Grama", category: "jardim-quintal" },
   { slug: "caixa-transporte", label: "Caixa de Transporte Pet", category: "pet" },
+  { slug: "placa-wifi-pcie", label: "Placa Wi-Fi PCIe", category: "informatica" },
+  { slug: "adaptador-bluetooth", label: "Adaptador Bluetooth USB", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
