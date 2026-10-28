@@ -282,6 +282,9 @@ export const productSubcategories = [
   { slug: "caixa-transporte", label: "Caixa de Transporte Pet", category: "pet" },
   { slug: "placa-wifi-pcie", label: "Placa Wi-Fi PCIe", category: "informatica" },
   { slug: "adaptador-bluetooth", label: "Adaptador Bluetooth USB", category: "informatica" },
+  { slug: "panela-pressao-fogao", label: "Panela de Pressão de Fogão", category: "cozinha" },
+  { slug: "tapete-higienico", label: "Tapete Higiênico para Cães", category: "pet" },
+  { slug: "extratora", label: "Extratora e Higienizadora", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
