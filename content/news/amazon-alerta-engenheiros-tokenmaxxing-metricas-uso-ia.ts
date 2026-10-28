@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T09:50:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Amazon headquarters Seattle",
+  coverImage: {
+    url: "/images/news/tokenmaxxing-uso-de-ia-nao-e-produtividade.jpg",
+    width: 1600,
+    height: 900,
+    credit: "Arte original do Portal da AI",
+    creditUrl: "https://www.portaldaai.com.br",
+  },
   content: `
     <p>A Amazon publicou um memorando que manda um recado direto aos seus engenheiros de software: usar o máximo possível de inteligência artificial, sem olhar para o resultado, não é sinal de bom trabalho. O texto, divulgado em 27 de outubro de 2026 junto com uma atualização das diretrizes para engenheiros de desenvolvimento de software, foi assinado por Terk Terkowitz, vice-presidente e engenheiro de destaque da área de lojas da empresa. Segundo a cobertura do The Next Web, que cita a CNBC, a mensagem já circulava internamente desde setembro.</p>
 

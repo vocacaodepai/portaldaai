@@ -179,6 +179,7 @@ export default async function NewsPage({ params }: { params: Params }) {
 
             {item.imageQuery && (
               <CoverImage
+                override={item.coverImage}
                 query={item.imageQuery}
                 seed={newsImageSeed(item.slug)}
                 alt={item.title}

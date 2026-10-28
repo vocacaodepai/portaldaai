@@ -4,7 +4,7 @@ import { AdSlot } from "@/components/AdSlot";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
-import { NewsList } from "@/components/NewsRow";
+import { NewsFrontPage } from "@/components/NewsFrontPage";
 import { NewsTicker } from "@/components/NewsTicker";
 import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -115,7 +115,9 @@ export default function Home() {
     }))
     .filter((b) => b.items.length > 0);
 
-  const latestNews = sortedNews().slice(0, 8);
+  const latestNews = [...sortedNews()]
+    .sort((a, b) => (b.publishedAt ?? b.date).localeCompare(a.publishedAt ?? a.date))
+    .slice(0, 8);
   const sidebarExclude = [...heroSlugs, ...heroFeatured];
 
   // Os 8 artigos do topo: os 3 do hero + os 5 de "Comece por aqui".
@@ -178,9 +180,7 @@ export default function Home() {
       {latestNews.length > 0 && (
         <Container as="section" className="mt-12">
           <SectionHeading label="Últimas" title="Notícias de IA" href="/noticias" linkText="Ver todas" />
-          <div className="rounded-xl border border-border bg-surface px-5 sm:px-6">
-            <NewsList items={latestNews} columns={2} />
-          </div>
+          <NewsFrontPage items={latestNews} />
         </Container>
       )}
 
