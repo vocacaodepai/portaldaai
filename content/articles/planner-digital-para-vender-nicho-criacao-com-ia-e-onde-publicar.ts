@@ -78,7 +78,7 @@ export const article: Article = {
 
     <h2>Passo 5: onde publicar e como vender</h2>
 
-    <p>Segundo a Nuvemshop, a loja virtual própria é uma opção, o Elo7 é indicado para planners impressos e a Eduzz para versões digitais. A Hotmart é outra plataforma comum, e o comparativo <a href="/artigos/kiwify-ou-hotmart-qual-plataforma-para-vender-produto-digital">Kiwify ou Hotmart</a> ajuda a escolher. Quem prefere loja própria pode ver o texto sobre o <a href="/artigos/nuvemshop-plano-gratis-ou-pago-taxas-e-recursos-de-ia-para-vender">plano grátis ou pago da Nuvemshop</a>.</p>
+    <p>Segundo a Nuvemshop, a loja virtual própria é uma opção e a Eduzz serve para versões digitais. O Elo7, que ela indicava para planners impressos, encerrou as vendas em maio de 2026, como mostra o texto sobre <a href="/artigos/vender-artesanato-e-produto-personalizado-apos-o-fim-do-elo7-onde-vender-e-como-usar-ia">onde vender artesanato depois do Elo7</a>. A Hotmart é outra plataforma comum, e o comparativo <a href="/artigos/kiwify-ou-hotmart-qual-plataforma-para-vender-produto-digital">Kiwify ou Hotmart</a> ajuda a escolher. Quem prefere loja própria pode ver o texto sobre o <a href="/artigos/nuvemshop-plano-gratis-ou-pago-taxas-e-recursos-de-ia-para-vender">plano grátis ou pago da Nuvemshop</a>.</p>
 
     <p>Capriche na vitrine: capa limpa, imagens do planner aberto em um tablet, lista do que está incluso e instruções de uso. O artigo sobre <a href="/artigos/fotos-de-produto-para-vender-online-com-ia">fotos de produto com IA</a> traz ideias para as imagens de divulgação. Para organizar toda a criação como um negócio, o roteiro de <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">plano de negócios com IA</a> ajuda.</p>
 
@@ -118,7 +118,7 @@ export const article: Article = {
     {
       question: "Onde vender planner digital?",
       answer:
-        "As opções incluem loja virtual própria, plataformas de produtos digitais como Hotmart ou Eduzz e marketplaces como o Elo7, mais indicado para versões impressas. Cada uma tem regras e taxas próprias, então compare antes de publicar.",
+        "As opções incluem loja virtual própria, plataformas de produtos digitais como Hotmart ou Eduzz e marketplaces gerais, para versões impressas (o Elo7 encerrou em maio de 2026). Cada uma tem regras e taxas próprias, então compare antes de publicar.",
     },
     {
       question: "Posso usar modelos prontos do Canva para vender?",
