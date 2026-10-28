@@ -220,6 +220,8 @@ export const productSubcategories = [
   { slug: "irrigador-oral", label: "Irrigador Oral", category: "saude-bem-estar" },
   { slug: "luz-emergencia", label: "Luminária de Emergência", category: "casa-utilidades" },
   { slug: "ring-light", label: "Ring Light para Celular", category: "acessorios-celular" },
+  { slug: "suporte-celular-veicular", label: "Suporte de Celular Veicular", category: "acessorios-celular" },
+  { slug: "localizador-bluetooth", label: "Localizador Bluetooth", category: "acessorios-celular" },
   { slug: "mesa-digitalizadora", label: "Mesa Digitalizadora", category: "informatica" },
   { slug: "prancha-alisadora", label: "Prancha Alisadora", category: "saude-bem-estar" },
   { slug: "camera-veicular", label: "Câmera Veicular", category: "automotivo" },
