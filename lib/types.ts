@@ -275,6 +275,9 @@ export const productSubcategories = [
   { slug: "suporte-monitor", label: "Suporte de Monitor", category: "escritorio" },
   { slug: "cera-automotiva", label: "Cera Automotiva", category: "automotivo" },
   { slug: "areia-gato", label: "Areia Higiênica para Gatos", category: "pet" },
+  { slug: "frigideira", label: "Frigideira", category: "cozinha" },
+  { slug: "aparador-grama", label: "Aparador de Grama", category: "jardim-quintal" },
+  { slug: "caixa-transporte", label: "Caixa de Transporte Pet", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
