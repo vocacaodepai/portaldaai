@@ -384,6 +384,12 @@ export type NewsItem = {
    * mantendo o comportamento antigo.
    */
   imageQuery?: string;
+  /**
+   * Capa própria (self-hosted em /public/images/news), usada no lugar da busca
+   * por imageQuery. Reservada a arte original feita pelo Portal da AI, caso
+   * excepcional pedido pelo editor; o padrão continua sendo foto real.
+   */
+  coverImage?: { url: string; width: number; height: number; credit: string; creditUrl: string };
   /** Tópico usado só pelo filtro em /noticias. Opcional nas notícias antigas. */
   topic?: NewsTopic;
   /** Perguntas frequentes exibidas em acordeão ao fim da matéria. */
