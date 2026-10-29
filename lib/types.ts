@@ -285,6 +285,8 @@ export const productSubcategories = [
   { slug: "panela-pressao-fogao", label: "Panela de Pressão de Fogão", category: "cozinha" },
   { slug: "tapete-higienico", label: "Tapete Higiênico para Cães", category: "pet" },
   { slug: "extratora", label: "Extratora e Higienizadora", category: "casa-utilidades" },
+  { slug: "calculadora-cientifica", label: "Calculadora Científica", category: "escritorio" },
+  { slug: "sensor-porta-janela", label: "Sensor de Porta e Janela", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
