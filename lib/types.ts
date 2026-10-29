@@ -285,6 +285,9 @@ export const productSubcategories = [
   { slug: "panela-pressao-fogao", label: "Panela de Pressão de Fogão", category: "cozinha" },
   { slug: "tapete-higienico", label: "Tapete Higiênico para Cães", category: "pet" },
   { slug: "extratora", label: "Extratora e Higienizadora", category: "casa-utilidades" },
+  { slug: "pulverizador", label: "Pulverizador de Jardim", category: "jardim-quintal" },
+  { slug: "tabua-corte", label: "Tábua de Corte", category: "cozinha" },
+  { slug: "arranhador", label: "Arranhador para Gatos", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
