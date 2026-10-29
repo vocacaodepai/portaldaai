@@ -293,6 +293,7 @@ export const productSubcategories = [
   { slug: "limpa-vidros", label: "Limpa-vidros Automotivo", category: "automotivo" },
   { slug: "adubo-fertilizante", label: "Adubo e Fertilizante", category: "jardim-quintal" },
   { slug: "ralador", label: "Ralador", category: "cozinha" },
+  { slug: "sensor-presenca", label: "Sensor de Presença para Iluminação", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
