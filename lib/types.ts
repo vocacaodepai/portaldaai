@@ -290,6 +290,9 @@ export const productSubcategories = [
   { slug: "pulverizador", label: "Pulverizador de Jardim", category: "jardim-quintal" },
   { slug: "tabua-corte", label: "Tábua de Corte", category: "cozinha" },
   { slug: "arranhador", label: "Arranhador para Gatos", category: "pet" },
+  { slug: "limpa-vidros", label: "Limpa-vidros Automotivo", category: "automotivo" },
+  { slug: "adubo-fertilizante", label: "Adubo e Fertilizante", category: "jardim-quintal" },
+  { slug: "ralador", label: "Ralador", category: "cozinha" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
