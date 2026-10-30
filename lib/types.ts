@@ -294,6 +294,9 @@ export const productSubcategories = [
   { slug: "adubo-fertilizante", label: "Adubo e Fertilizante", category: "jardim-quintal" },
   { slug: "ralador", label: "Ralador", category: "cozinha" },
   { slug: "sensor-presenca", label: "Sensor de Presença para Iluminação", category: "casa-inteligente" },
+  { slug: "varal-chao", label: "Varal de Chão", category: "casa-utilidades" },
+  { slug: "kit-jardinagem", label: "Kit de Jardinagem", category: "jardim-quintal" },
+  { slug: "escorredor-louca", label: "Escorredor de Louça", category: "cozinha" },
   { slug: "powerline", label: "Adaptador Powerline", category: "informatica" },
   { slug: "receptor-bluetooth", label: "Receptor Bluetooth P2", category: "audio-video" },
 ] as const;
