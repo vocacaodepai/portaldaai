@@ -297,6 +297,8 @@ export const productSubcategories = [
   { slug: "varal-chao", label: "Varal de Chão", category: "casa-utilidades" },
   { slug: "kit-jardinagem", label: "Kit de Jardinagem", category: "jardim-quintal" },
   { slug: "escorredor-louca", label: "Escorredor de Louça", category: "cozinha" },
+  { slug: "powerline", label: "Adaptador Powerline", category: "informatica" },
+  { slug: "receptor-bluetooth", label: "Receptor Bluetooth P2", category: "audio-video" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
