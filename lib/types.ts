@@ -304,6 +304,8 @@ export const productSubcategories = [
   { slug: "cama-pet", label: "Cama para Cães e Gatos", category: "pet" },
   { slug: "tabua-passar", label: "Tábua e Mesa de Passar", category: "casa-utilidades" },
   { slug: "regador", label: "Regador", category: "jardim-quintal" },
+  { slug: "fone-com-fio", label: "Fone de Ouvido com Fio", category: "audio-video" },
+  { slug: "interruptor-inteligente", label: "Interruptor e Mini Controlador Wi-Fi", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
