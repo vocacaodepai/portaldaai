@@ -307,6 +307,9 @@ export const productSubcategories = [
   { slug: "regador", label: "Regador", category: "jardim-quintal" },
   { slug: "fone-com-fio", label: "Fone de Ouvido com Fio", category: "audio-video" },
   { slug: "interruptor-inteligente", label: "Interruptor e Mini Controlador Wi-Fi", category: "casa-inteligente" },
+  { slug: "pilhas", label: "Pilhas e Baterias", category: "casa-utilidades" },
+  { slug: "shampoo-pet", label: "Shampoo e Higiene Pet", category: "pet" },
+  { slug: "lubrificante", label: "Lubrificante e Desengripante", category: "ferramentas-casa" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
