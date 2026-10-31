@@ -301,6 +301,8 @@ export const productSubcategories = [
   { slug: "receptor-bluetooth", label: "Receptor Bluetooth P2", category: "audio-video" },
   { slug: "vassoura-rodo", label: "Vassoura, Rodo e Pá", category: "casa-utilidades" },
   { slug: "lenco-umedecido-pet", label: "Lenços Umedecidos Pet", category: "pet" },
+  { slug: "fone-com-fio", label: "Fone de Ouvido com Fio", category: "audio-video" },
+  { slug: "interruptor-inteligente", label: "Interruptor e Mini Controlador Wi-Fi", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
