@@ -288,6 +288,8 @@ export const productSubcategories = [
   { slug: "calculadora-cientifica", label: "Calculadora Científica", category: "escritorio" },
   { slug: "apoio-pes", label: "Apoio para os Pés", category: "escritorio" },
   { slug: "sensor-porta-janela", label: "Sensor de Porta e Janela", category: "seguranca" },
+  { slug: "cadeado", label: "Cadeado", category: "seguranca" },
+  { slug: "carregador-pilhas", label: "Carregador de Pilhas", category: "informatica" },
   { slug: "pulverizador", label: "Pulverizador de Jardim", category: "jardim-quintal" },
   { slug: "tabua-corte", label: "Tábua de Corte", category: "cozinha" },
   { slug: "arranhador", label: "Arranhador para Gatos", category: "pet" },
