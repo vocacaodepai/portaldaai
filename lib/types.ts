@@ -315,6 +315,9 @@ export const productSubcategories = [
   { slug: "martelo", label: "Martelo", category: "ferramentas-casa" },
   { slug: "hub-casa-inteligente", label: "Hub de Casa Inteligente", category: "casa-inteligente" },
   { slug: "carregador-sem-fio", label: "Carregador sem Fio", category: "acessorios-celular" },
+  { slug: "assadeira-vidro", label: "Assadeiras e Travessas de Vidro", category: "cozinha" },
+  { slug: "caixa-areia-gato", label: "Caixa de Areia para Gatos", category: "pet" },
+  { slug: "fita-dupla-face", label: "Fita Dupla Face e Fixação", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
