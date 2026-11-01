@@ -310,6 +310,8 @@ export const productSubcategories = [
   { slug: "pilhas", label: "Pilhas e Baterias", category: "casa-utilidades" },
   { slug: "shampoo-pet", label: "Shampoo e Higiene Pet", category: "pet" },
   { slug: "lubrificante", label: "Lubrificante e Desengripante", category: "ferramentas-casa" },
+  { slug: "hub-casa-inteligente", label: "Hub de Casa Inteligente", category: "casa-inteligente" },
+  { slug: "carregador-sem-fio", label: "Carregador sem Fio", category: "acessorios-celular" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
