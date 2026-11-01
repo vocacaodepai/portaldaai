@@ -313,6 +313,8 @@ export const productSubcategories = [
   { slug: "kit-churrasco", label: "Kit de Churrasco", category: "cozinha" },
   { slug: "serrote-poda", label: "Serrote de Poda", category: "jardim-quintal" },
   { slug: "martelo", label: "Martelo", category: "ferramentas-casa" },
+  { slug: "hub-casa-inteligente", label: "Hub de Casa Inteligente", category: "casa-inteligente" },
+  { slug: "carregador-sem-fio", label: "Carregador sem Fio", category: "acessorios-celular" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
