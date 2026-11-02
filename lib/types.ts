@@ -325,6 +325,7 @@ export const productSubcategories = [
   { slug: "caixa-termica", label: "Caixa Térmica (Cooler)", category: "casa-utilidades" },
   { slug: "alicate", label: "Alicate", category: "ferramentas-casa" },
   { slug: "garrafa-hidratacao", label: "Garrafa de Hidratação", category: "casa-utilidades" },
+  { slug: "petisco-pet", label: "Petiscos e Higiene Bucal Pet", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
