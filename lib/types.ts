@@ -320,6 +320,9 @@ export const productSubcategories = [
   { slug: "assadeira-vidro", label: "Assadeiras e Travessas de Vidro", category: "cozinha" },
   { slug: "caixa-areia-gato", label: "Caixa de Areia para Gatos", category: "pet" },
   { slug: "fita-dupla-face", label: "Fita Dupla Face e Fixação", category: "casa-utilidades" },
+  { slug: "caixa-termica", label: "Caixa Térmica (Cooler)", category: "casa-utilidades" },
+  { slug: "alicate", label: "Alicate", category: "ferramentas-casa" },
+  { slug: "garrafa-hidratacao", label: "Garrafa de Hidratação", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
