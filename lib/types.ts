@@ -287,6 +287,8 @@ export const productSubcategories = [
   { slug: "extratora", label: "Extratora e Higienizadora", category: "casa-utilidades" },
   { slug: "calculadora-cientifica", label: "Calculadora Científica", category: "escritorio" },
   { slug: "apoio-pes", label: "Apoio para os Pés", category: "escritorio" },
+  { slug: "cabo-hdmi", label: "Cabo HDMI", category: "audio-video" },
+  { slug: "leitor-cartao", label: "Leitor de Cartão", category: "informatica" },
   { slug: "sensor-porta-janela", label: "Sensor de Porta e Janela", category: "seguranca" },
   { slug: "cadeado", label: "Cadeado", category: "seguranca" },
   { slug: "carregador-pilhas", label: "Carregador de Pilhas", category: "informatica" },
