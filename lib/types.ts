@@ -325,6 +325,8 @@ export const productSubcategories = [
   { slug: "caixa-termica", label: "Caixa Térmica (Cooler)", category: "casa-utilidades" },
   { slug: "alicate", label: "Alicate", category: "ferramentas-casa" },
   { slug: "garrafa-hidratacao", label: "Garrafa de Hidratação", category: "casa-utilidades" },
+  { slug: "case-hd-ssd", label: "Case para HD e SSD", category: "informatica" },
+  { slug: "receptor-satelite", label: "Receptor de TV via Satélite", category: "audio-video" },
   { slug: "petisco-pet", label: "Petiscos e Higiene Bucal Pet", category: "pet" },
 ] as const;
 
