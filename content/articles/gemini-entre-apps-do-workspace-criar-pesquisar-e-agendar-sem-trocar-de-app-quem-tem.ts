@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "laptop multiple windows office collaboration desk",
+  coverImage: {
+    url: "/images/covers/gemini-entre-apps-do-workspace-criar-pesquisar-e-agendar-sem-trocar-de-app-quem-tem.webp",
+    width: 1280,
+    height: 807,
+    credit: "Mohamed_hassan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3213924/",
+  },
   seed: 874,
   kind: "guia",
   author: "Bruno Danello",

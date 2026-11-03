@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-07T06:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Pentagon building Department of Defense",
+  coverImage: {
+    url: "/images/covers/pentagono-cessa-uso-anthropic-claude.webp",
+    width: 1280,
+    height: 808,
+    credit: "\"DoD photo by Master Sgt. Ken Hammond, U.S. Air Force.\" (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AThe%20Pentagon%20US%20Department%20of%20Defense%20building.jpg",
+  },
   content: `
     <p>O Departamento de Defesa dos Estados Unidos confirmou que parou de usar as ferramentas de inteligência artificial da Anthropic, segundo um oficial do governo ouvido pela <a href="https://www.yahoo.com/news/politics/articles/pentagon-stops-using-anthropic-ai-161451282.html" rel="noopener noreferrer nofollow">BBC</a> nesta segunda-feira (5 de outubro). O comunicado chega quase dois meses depois do prazo de agosto que o próprio Pentágono havia estabelecido para encerrar o uso do Claude, depois de classificar a empresa como "risco à cadeia de suprimentos" em fevereiro.</p>
 

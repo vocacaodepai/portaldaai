@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T00:22:28-03:00",
   imageQuery: "Meta Platforms logo",
+  coverImage: {
+    url: "/images/covers/meta-muse-chega-ao-ipad-conectores-parceiros-varejo.webp",
+    width: 1280,
+    height: 720,
+    credit: "Ana.pullse (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20face.jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A Meta anunciou na quarta-feira (7) um aplicativo dedicado do Muse para iPad, pouco mais de um mês depois da estreia do assistente de inteligência artificial no iPhone e no Android. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Sarah Perez, o ritmo contrasta com o do Instagram, que levou cerca de 15 anos para ganhar um app próprio para o tablet da Apple.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T07:42:00-03:00",
   topic: "regulacao",
   imageQuery: "Meta Platforms headquarters Menlo Park",
+  coverImage: {
+    url: "/images/covers/cma-abre-investigacao-termos-ia-meta-editores.webp",
+    width: 1280,
+    height: 853,
+    credit: "LPS.1 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg",
+  },
   content: `
     <p>O órgão de concorrência do Reino Unido, a CMA (Competition and Markets Authority), abriu uma investigação sobre os termos comerciais que a Meta pretende impor a empresas e editores. A apuração, anunciada na sexta-feira, 30 de outubro de 2026, quer saber se a Meta abusa de uma posição dominante ao exigir condições consideradas abusivas, que poderiam permitir a coleta de conteúdo de sites para alimentar produtos da própria empresa, inclusive recursos de IA. O caso foi relatado neste domingo, 1º de novembro, pelo The Next Web, que cita a Reuters.</p>
     <p>É a continuação de uma polêmica que já cobrimos. Em outubro, a Meta apagou dos termos comerciais um trecho que previa o uso de "qualquer conteúdo" de sites de anunciantes, como contamos em <a href="/noticias/meta-remove-trecho-termos-raspagem-treino-ia">Meta retira dos termos comerciais trecho sobre raspagem e treino de IA</a>. Agora a discussão deixa de ser só de bastidores e vira processo formal de um regulador.</p>

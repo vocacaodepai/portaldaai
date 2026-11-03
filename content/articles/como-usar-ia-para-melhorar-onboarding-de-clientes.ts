@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "welcome onboarding new client handshake",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-melhorar-onboarding-de-clientes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Open_Arms_Initiative / Pixabay",
+    creditUrl: "https://pixabay.com/photos/ai-generated-counseling-9603565/",
+  },
   seed: 68,
   kind: "guia",
   author: "Bruno Danello",

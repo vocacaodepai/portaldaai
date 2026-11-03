@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-20T02:25:00-03:00",
   topic: "regulacao",
   imageQuery: "Zohran Mamdani",
+  coverImage: {
+    url: "/images/covers/mamdani-ia-governo-federal-abdicou-nova-york-assembleia.webp",
+    width: 1280,
+    height: 720,
+    credit: "White House (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AZohran%20Mamdani%20at%20the%20White%20House%20(cropped).jpg",
+  },
   content: `
     <p>O prefeito de Nova York, Zohran Mamdani, disse que o governo federal dos Estados Unidos abdicou de legislar sobre inteligência artificial e pediu que os nova-iorquinos reajam. A fala foi feita na noite desta segunda-feira (19), segundo reportagem de Rebecca Bellan publicada pelo <a href="https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, durante um evento chamado The People's AI Assembly, no Webster Hall, em Manhattan.</p>
 

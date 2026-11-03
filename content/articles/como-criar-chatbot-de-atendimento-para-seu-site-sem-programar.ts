@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "chatbot website customer service",
+  coverImage: {
+    url: "/images/covers/como-criar-chatbot-de-atendimento-para-seu-site-sem-programar.webp",
+    width: 1280,
+    height: 720,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/call-center-headset-woman-service-2275745/",
+  },
   seed: 42,
   kind: "guia",
   author: "Bruno Danello",

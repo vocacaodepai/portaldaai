@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "smartphone messaging app chat screen",
+  coverImage: {
+    url: "/images/covers/meta-ai-no-whatsapp-o-que-faz-privacidade-e-como-usar.webp",
+    width: 1280,
+    height: 720,
+    credit: "AzamKamolov / Pixabay",
+    creditUrl: "https://pixabay.com/photos/social-media-communication-network-6557345/",
+  },
   seed: 223,
   kind: "guia",
   author: "Bruno Danello",

@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "skill development learning path career growth",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades.webp",
+    width: 1280,
+    height: 853,
+    credit: "FeeLoona / Pixabay",
+    creditUrl: "https://pixabay.com/photos/christmas-background-child-tower-1864718/",
+  },
   seed: 90,
   kind: "guia",
   author: "Bruno Danello",

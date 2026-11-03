@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T17:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Dario Amodei",
+  coverImage: {
+    url: "/images/covers/anthropic-projeto-lei-seguranca-ia-bloquear-modelo-50-mortes.webp",
+    width: 1280,
+    height: 853,
+    credit: "TechCrunch (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADario%20Amodei%20at%20TechCrunch%20Disrupt%202023%2007.jpg",
+  },
   content: `
     <p>A Anthropic tem circulado entre parlamentares dos Estados Unidos o rascunho de um projeto de lei de segurança para inteligência artificial que permitiria bloquear o lançamento de um modelo quando houver risco "previsível e iminente" de matar mais de 50 pessoas ou causar mais de US$ 1 bilhão em danos materiais. A informação foi publicada em 20 de outubro de 2026 pelo <a href="https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em reportagem de Lucas Ropek que se apoia em apuração anterior da Politico sobre o texto.</p>
 

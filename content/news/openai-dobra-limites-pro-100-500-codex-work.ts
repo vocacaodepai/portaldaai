@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T17:25:00-03:00",
   topic: "negocios",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-dobra-limites-pro-100-500-codex-work.webp",
+    width: 1280,
+    height: 720,
+    credit: "openAI (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Logo.png",
+  },
   content: `
     <p>A OpenAI dobrou, nesta quinta-feira, 29 de outubro de 2026, os limites de uso de vários planos pagos do ChatGPT. A mudança atinge as cotas de Work e de Codex nos planos Pro 100 e Pro 500, que passam a ter o dobro do que tinham antes. No Pro 200, a empresa dobrou a cota menor e recuou de um corte que estava previsto depois da reação de usuários. O plano Plus continua exatamente como era. As informações foram publicadas pelo The Decoder, que se baseia na página de ajuda da própria OpenAI sobre os níveis do ChatGPT Pro.</p>
     <p>Quem assinar agora já entra com as novas cotas, e quem já é cliente recebe o aumento automaticamente, sem precisar pedir nem trocar de plano. A reportagem não menciona data de término para a medida, o que sugere que o aumento vale por tempo indeterminado, embora a empresa não tenha prometido que ele será permanente.</p>

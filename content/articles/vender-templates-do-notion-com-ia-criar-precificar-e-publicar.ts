@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "desk planner dashboard laptop minimal",
+  coverImage: {
+    url: "/images/covers/vender-templates-do-notion-com-ia-criar-precificar-e-publicar.webp",
+    width: 1280,
+    height: 768,
+    credit: "theglassdesk / Pixabay",
+    creditUrl: "https://pixabay.com/photos/desk-office-space-workspace-tidy-2325627/",
+  },
   seed: 301,
   kind: "guia",
   author: "Bruno Danello",

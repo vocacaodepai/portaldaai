@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T21:25:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Deloitte logo",
+  coverImage: {
+    url: "/images/covers/deloitte-australia-corta-170-vagas-terceirizacao-ia.webp",
+    width: 1280,
+    height: 720,
+    credit: "DeloitteDeutschland (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeloitte-Stiftung.png",
+  },
   content: `
     <p>A Deloitte, uma das quatro maiores empresas de auditoria e consultoria do mundo, anunciou que vai cortar cerca de 170 vagas na Austrália e, ao mesmo tempo, contratar mais de 500 pessoas para a sua divisão de serviços terceirizados. A informação foi publicada primeiro pelo jornal Australian Financial Review no dia 18 de outubro de 2026 e resumida no boletim de segunda-feira do <a href="https://www.goingconcern.com/monday-morning-accounting-news-brief-deloitte-starts-the-week-with-layoffs-ai-agent-audits-are-here-10-19-26/" target="_blank" rel="noopener noreferrer nofollow">Going Concern</a>, site especializado em contabilidade.</p>
 

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "handmade crafts workshop table packaging",
+  coverImage: {
+    url: "/images/covers/vender-artesanato-e-produto-personalizado-apos-o-fim-do-elo7-onde-vender-e-como-usar-ia.webp",
+    width: 1280,
+    height: 850,
+    credit: "wal_172619 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/pottery-clay-craft-hobby-potters-8026823/",
+  },
   seed: 876,
   kind: "guia",
   author: "Bruno Danello",

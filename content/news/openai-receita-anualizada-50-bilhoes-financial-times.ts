@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-08",
   publishedAt: "2026-10-09T04:22:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-receita-anualizada-50-bilhoes-financial-times.webp",
+    width: 1280,
+    height: 720,
+    credit: "openAI (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Logo.png",
+  },
   topic: "negocios",
   content: `
     <p>A receita anualizada da OpenAI está "perto de US$ 50 bilhões", segundo informações que a empresa passou a investidores e que foram reportadas pelo Financial Times, em matéria repercutida pelo <a href="https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/" rel="noopener noreferrer nofollow">TechCrunch</a> em 8 de outubro de 2026. O número é cerca de US$ 20 bilhões menor do que o divulgado cerca de uma semana antes, quando a receita anualizada da empresa era descrita como próxima de US$ 70 bilhões.</p>

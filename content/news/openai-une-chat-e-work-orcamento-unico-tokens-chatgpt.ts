@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T07:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-une-chat-e-work-orcamento-unico-tokens-chatgpt.webp",
+    width: 1280,
+    height: 853,
+    credit: "ChatGPT (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20brain%20network%20visualization.png",
+  },
   content: `
     <p>A OpenAI vai juntar os dois modos de uso do ChatGPT, Chat e Work, numa única interface a partir de dezembro, e vai mudar a forma de medir o uso dos planos pagos. Em vez de cotas separadas, os planos Plus, Pro e Business passarão a consumir de um orçamento único de tokens, compartilhado entre o ChatGPT e o Codex. A informação foi publicada neste domingo, 1º de novembro de 2026, pelo The Decoder, que se apoia na página de ajuda da OpenAI sobre os limites de uso e em um anúncio anterior da empresa sobre a fusão.</p>
     <p>Para o The Decoder, o movimento marca o fim do "tudo que você conseguir digitar" nos planos de assinatura. A leitura é do veículo, não uma declaração da OpenAI, mas os detalhes da mudança ajudam a entender por quê. A reportagem não traz preços de plano, preço de créditos extras nem o tamanho exato dos orçamentos de tokens, então esses números ainda precisam ser conferidos na página oficial quando a mudança entrar em vigor.</p>

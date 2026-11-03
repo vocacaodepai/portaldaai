@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T18:40:00-03:00",
   topic: "seguranca",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/chatgpt-limita-armas-ataques-passados-adolescentes-relatorio-seguranca.webp",
+    width: 1280,
+    height: 720,
+    credit: "FoxTPNL (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APerson%20holding%20the%20OpenAI%20icon.jpg",
+  },
   content: `
     <p>A OpenAI anunciou na sexta-feira (30) um pacote de novas travas de segurança no ChatGPT voltadas a conversas sobre violência. Segundo a reportagem do The Next Web, publicada neste sábado (31), o chatbot deixará de dar a adolescentes informação prática sobre armas e sistemas de segurança, mesmo quando a pergunta parecer inofensiva, e todos os usuários, de qualquer idade, receberão menos detalhes sobre ataques em massa do passado. A empresa também prometeu publicar um Community Safety Report, um relatório de segurança da comunidade, sobre prevenção da violência. As mudanças começam a chegar nas próximas semanas.</p>
 

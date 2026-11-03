@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T12:30:00-03:00",
   imageQuery: "Avenida Paulista São Paulo",
+  coverImage: {
+    url: "/images/covers/thoughtworks-pesquisa-ceos-lideram-agenda-ia-brasil-governanca.webp",
+    width: 1280,
+    height: 847,
+    credit: "Mural by João Eduardo, photo by Wilfredor (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMural%20com%20refer%C3%AAncias%20a%20Lisboa%20e%20S%C3%A3o%20Paulo%20no%20emp%C3%B3rio%20Arte%20Nata%20na%20Rua%20Frei%20Caneca%2C%201380%20-%20bem%20perto%20da%20Avenida%20Paulista.jpg",
+  },
   topic: "negocios",
   content: `
     <p>No Brasil, quem mais influencia as decisões sobre inteligência artificial nas empresas é o CEO, mas a relação entre as áreas que cuidam de tecnologia e de IA ainda gera atrito. A conclusão vem do Global CIO Survey 2026 da Thoughtworks, divulgada em 7 de outubro em um <a href="https://prnewswire.com/br/comunicados-para-a-imprensa/pesquisa-da-thoughtworks-revela-que-ceos-lideram-agenda-de-ia-no-brasil-mas-governanca-ainda-gera-atritos-302900160.html" target="_blank" rel="noopener noreferrer nofollow">comunicado distribuído pela PR Newswire</a>.</p>

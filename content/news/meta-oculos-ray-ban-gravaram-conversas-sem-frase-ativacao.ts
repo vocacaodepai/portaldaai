@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-18",
   publishedAt: "2026-10-18T09:23:00-03:00",
   imageQuery: "Ray-Ban Meta smart glasses",
+  coverImage: {
+    url: "/images/covers/meta-oculos-ray-ban-gravaram-conversas-sem-frase-ativacao.webp",
+    width: 1280,
+    height: 1600,
+    credit: "Tessa Bury (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AYouna%20Kang%20in%20Ray-Ban%20Meta%20Glasses.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>Donos dos óculos inteligentes Ray-Ban Meta relataram ter encontrado, no aplicativo Meta AI, gravações de áudio e transcrições de conversas que eles não pediram para registrar. Segundo reportagem do <a href="https://www.channelnews.com.au/meta-ray-ban-smart-glasses-accused-of-secretly-recording-conversations-company-says-issue-fixed/" rel="noopener noreferrer nofollow">ChannelNews</a>, publicada em 16 de outubro, o caso apareceu primeiro numa discussão no Reddit, onde um usuário afirmou que os óculos salvaram conversas sem que ele dissesse a frase de ativação "Hey Meta" e sem acionar o assistente de forma manual. Ele disse que o comportamento se repetiu em três pares diferentes de óculos, entre modelos de segunda e terceira geração, e outros donos relataram algo parecido.</p>

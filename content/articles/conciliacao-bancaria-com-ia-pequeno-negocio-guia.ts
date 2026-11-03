@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "bank statement spreadsheet calculator desk",
+  coverImage: {
+    url: "/images/covers/conciliacao-bancaria-com-ia-pequeno-negocio-guia.webp",
+    width: 1280,
+    height: 848,
+    credit: "niklaspatzig / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-work-office-desk-business-5224082/",
+  },
   seed: 227,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T13:50:00-03:00",
   topic: "regulacao",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-lehane-memo-eleicao-2028-ia-moratoria-data-centers.webp",
+    width: 1280,
+    height: 720,
+    credit: "openAI (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Logo.png",
+  },
   content: `
     <p>A OpenAI quer que a inteligência artificial seja o assunto número um da corrida presidencial americana de 2028, e já tem um roteiro para isso. Chris Lehane, diretor global de assuntos públicos da empresa, escreveu um memorando chamado "2028: The AI Election", publicado na íntegra pelo Politico nesta segunda-feira (2 de novembro), um dia antes das eleições legislativas de meio de mandato dos EUA. Segundo a cobertura do <a href="https://thenextweb.com/news/chris-lehane-memo-openai-2028-ai-election" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>, o texto compara a possível defesa de uma moratória de data centers por candidatos democratas ao voto de 2002 a favor da guerra do Iraque. Ao mesmo tempo, <a href="https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/" target="_blank" rel="noopener noreferrer nofollow">o The Decoder</a>, citando uma reportagem do Axios, conta que a empresa prepara uma ofensiva de lobby em Washington para depois da votação.</p>
 

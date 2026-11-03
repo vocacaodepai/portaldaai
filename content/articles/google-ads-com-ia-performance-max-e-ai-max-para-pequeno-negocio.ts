@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 9,
   imageQuery: "shop owner reviewing ad campaign laptop",
+  coverImage: {
+    url: "/images/covers/google-ads-com-ia-performance-max-e-ai-max-para-pequeno-negocio.webp",
+    width: 1280,
+    height: 853,
+    credit: "makieni777 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cat-work-technology-pet-cute-pc-5331883/",
+  },
   seed: 340,
   kind: "guia",
   author: "Bruno Danello",

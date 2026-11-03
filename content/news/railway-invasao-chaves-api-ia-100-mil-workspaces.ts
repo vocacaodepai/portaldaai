@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T10:30:00-03:00",
   topic: "seguranca",
   imageQuery: "servidor data center chaves de API",
+  coverImage: {
+    url: "/images/covers/railway-invasao-chaves-api-ia-100-mil-workspaces.webp",
+    width: 1280,
+    height: 853,
+    credit: "CapeCom / Pixabay",
+    creditUrl: "https://pixabay.com/photos/beach-bar-beach-vacations-summer-5298364/",
+  },
   content: `
     <p>A Railway, plataforma de nuvem muito usada por desenvolvedores e criadores de apps com IA para publicar sites, bancos de dados e agentes, confirmou que sofreu uma invasão que mirava um alvo bem específico: as chaves de API de provedores de inteligência artificial guardadas pelos clientes. A empresa diz que o ataque durou de 20 a 22 de outubro e que, no pior cenário validado, até 1,85% de todos os workspaces (cerca de 100 mil) tiveram variáveis de ambiente potencialmente comprometidas. Os dados estão no <a href="https://blog.railway.com/p/preliminary-report-october-security-incident" rel="noopener noreferrer nofollow" target="_blank">relatório preliminar publicado pela própria Railway em 22 de outubro</a>, que complementa o <a href="https://blog.railway.com/p/security-disclosure-wednesday-october-21st" rel="noopener noreferrer nofollow" target="_blank">aviso de segurança de 21 de outubro</a>.</p>
 

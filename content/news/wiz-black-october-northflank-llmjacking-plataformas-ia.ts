@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T20:24:00-03:00",
   topic: "seguranca",
   imageQuery: "servidor data center chaves de API",
+  coverImage: {
+    url: "/images/covers/wiz-black-october-northflank-llmjacking-plataformas-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "nuno_lopes / Pixabay",
+    creditUrl: "https://pixabay.com/photos/sugarloaf-mountain-cable-car-1679285/",
+  },
   content: `
     <p>A empresa de segurança Wiz publicou em 30 de outubro um relatório chamado &quot;Black October&quot; (Outubro Negro) para plataformas de desenvolvimento de IA. A conta é direta: pelo menos nove plataformas onde equipes publicam apps, agentes e modelos foram invadidas ao longo do mês, quase sempre com o mesmo alvo, as variáveis de ambiente onde ficam guardadas as chaves de API de provedores de IA. No mesmo dia, a Northflank, a nona da lista, avisou clientes que o ambiente deles deve ser tratado como comprometido e confirmou que chaves de IA já estão sendo usadas por terceiros.</p>
 

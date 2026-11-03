@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T07:40:00-03:00",
   topic: "seguranca",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/claude-code-variavel-rm-sem-aprovacao-skip-permissions.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic adicionou ao Claude Code, seu agente de programação que roda no terminal, uma opção que remove o último freio do modo mais permissivo da ferramenta. Na versão 2.1.311, uma variável de ambiente com o nome propositalmente exagerado <strong>CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS</strong>, quando definida como 1, permite que o agente execute o comando <strong>rm</strong>, que apaga arquivos, sem pedir aprovação. A novidade foi divulgada por Daisy Hollman, integrante da equipe técnica da Anthropic, em uma rede social, e reportada pelo The Register em 27 de outubro de 2026.</p>
 

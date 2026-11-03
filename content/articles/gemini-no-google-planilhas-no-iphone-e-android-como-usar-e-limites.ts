@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-21",
   readTime: 7,
   imageQuery: "smartphone spreadsheet chart finance",
+  coverImage: {
+    url: "/images/covers/gemini-no-google-planilhas-no-iphone-e-android-como-usar-e-limites.webp",
+    width: 1280,
+    height: 853,
+    credit: "AS_Photography / Pixabay",
+    creditUrl: "https://pixabay.com/photos/digital-marketing-seo-google-1725340/",
+  },
   seed: 501,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 6,
   imageQuery: "student writing essay laptop library",
+  coverImage: {
+    url: "/images/covers/detector-de-texto-de-ia-funciona-ou-nao-como-saber-se-foi-escrito-por-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "vgnk / Pixabay",
+    creditUrl: "https://pixabay.com/photos/studies-student-dictation-pen-text-921885/",
+  },
   seed: 214,
   kind: "guia",
   author: "Bruno Danello",

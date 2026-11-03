@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T15:40:00-03:00",
   topic: "negocios",
   imageQuery: "San Francisco office startup",
+  coverImage: {
+    url: "/images/covers/serval-capta-150-milhoes-avaliacao-3-bilhoes-agentes-ia-ti.webp",
+    width: 1280,
+    height: 853,
+    credit: "Tony Webster from Minneapolis, Minnesota, United States (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AStartup%20Office%20in%20San%20Francisco%20with%20Indoor%20Bike%20Parking%20(31834868058).jpg",
+  },
   content: `
     <p>A Serval, startup de São Francisco que vende agentes de IA para resolver pedidos de funcionários dentro das empresas, anunciou nesta quinta-feira, 29 de outubro de 2026, uma Série C de US$ 150 milhões liderada pela Sequoia. A rodada avalia a empresa em US$ 3 bilhões, o triplo dos US$ 1 bilhão de dezembro de 2025. A informação é do The Next Web, que se baseou no comunicado e no post de blog da própria empresa.</p>
 

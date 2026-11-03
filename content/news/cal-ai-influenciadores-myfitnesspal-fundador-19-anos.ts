@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T03:25:00-03:00",
   topic: "negocios",
   imageQuery: "TechCrunch Disrupt stage",
+  coverImage: {
+    url: "/images/covers/cal-ai-influenciadores-myfitnesspal-fundador-19-anos.webp",
+    width: 1280,
+    height: 854,
+    credit: "TechCrunch (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ATechCrunch%20Disrupt%202024%20D1%20Industry%20Stage-Space%20Space%20Investing-9%20(54101467148).jpg",
+  },
   content: `
     <p>Zach Yadegari, fundador do Cal AI, um aplicativo de contagem de calorias movido por inteligência artificial, contou no palco do TechCrunch Disrupt como a empresa cresceu com uma estratégia simples: recrutar o maior número possível de influenciadores e pagá-los para postar. Segundo o <a href="https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, o Cal AI foi fundado em 2024, gerou mais de US$ 30 milhões em receita em dois anos e foi comprado pelo MyFitnessPal em março, por um valor não divulgado.</p>
     <p>O fundador tem 19 anos e terminou o ensino médio há pouco tempo. Ele disse que o primeiro sinal de que o método funcionava veio quando o post de um único influenciador trouxe cerca de mil novos usuários em dois dias. A partir dali, a equipe passou a recrutar criadores "o mais rápido possível", pagando quantas pessoas conseguisse para divulgar o app.</p>

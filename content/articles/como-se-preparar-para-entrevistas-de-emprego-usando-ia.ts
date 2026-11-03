@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "job interview preparation resume confidence",
+  coverImage: {
+    url: "/images/covers/como-se-preparar-para-entrevistas-de-emprego-usando-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "5138153 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/application-curriculum-vitae-2580867/",
+  },
   seed: 80,
   kind: "guia",
   author: "Bruno Danello",

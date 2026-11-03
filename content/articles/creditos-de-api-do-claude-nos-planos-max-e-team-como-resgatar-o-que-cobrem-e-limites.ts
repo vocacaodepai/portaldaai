@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "developer laptop code dashboard billing",
+  coverImage: {
+    url: "/images/covers/creditos-de-api-do-claude-nos-planos-max-e-team-como-resgatar-o-que-cobrem-e-limites.webp",
+    width: 1280,
+    height: 852,
+    credit: "yeiferr / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-laptop-tech-blue-computer-4795762/",
+  },
   seed: 851,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 9,
   imageQuery: "business meeting laptop office handshake",
+  coverImage: {
+    url: "/images/covers/ia-para-prospeccao-b2b-no-linkedin-gerar-leads.webp",
+    width: 1280,
+    height: 686,
+    credit: "tungnguyen0905 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/business-handshake-business-deal-7111764/",
+  },
   seed: 162,
   kind: "guia",
   author: "Bruno Danello",

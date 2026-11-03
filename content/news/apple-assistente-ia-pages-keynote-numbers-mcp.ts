@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T14:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "Apple Park Cupertino",
+  coverImage: {
+    url: "/images/covers/apple-assistente-ia-pages-keynote-numbers-mcp.webp",
+    width: 1200,
+    height: 674,
+    credit: "Mr. 889977 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AApple-Park%20Cupertino%201254.jpg",
+  },
   content: `
     <p>A Apple anunciou nesta terça-feira (27) um assistente de inteligência artificial para a sua suíte de produtividade. Segundo a reportagem do The Verge, assinada por Emma Roth, o recurso chega ao Pages (textos), ao Keynote (apresentações) e ao Numbers (planilhas), e é construído sobre modelos de IA da própria Apple e da OpenAI. Além do assistente, os três apps passam a aceitar o Model Context Protocol (MCP) no macOS 27 ou posterior, o que permite que agentes de IA de terceiros se conectem a eles.</p>
 

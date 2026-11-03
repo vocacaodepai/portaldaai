@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-10",
   readTime: 7,
   imageQuery: "research notebook laptop sources desk",
+  coverImage: {
+    url: "/images/covers/gemini-notebook-antigo-notebooklm-o-que-mudou.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/man-writing-laptop-computer-write-2562325/",
+  },
   seed: 190,
   kind: "guia",
   author: "Bruno Danello",

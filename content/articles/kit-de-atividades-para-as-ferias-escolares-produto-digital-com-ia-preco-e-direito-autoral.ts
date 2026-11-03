@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "children printable activity worksheets crayons",
+  coverImage: {
+    url: "/images/covers/kit-de-atividades-para-as-ferias-escolares-produto-digital-com-ia-preco-e-direito-autoral.webp",
+    width: 1280,
+    height: 853,
+    credit: "Tho-Ge / Pixabay",
+    creditUrl: "https://pixabay.com/photos/school-child-draw-paint-teaching-8391795/",
+  },
   seed: 1108,
   kind: "guia",
   author: "Bruno Danello",

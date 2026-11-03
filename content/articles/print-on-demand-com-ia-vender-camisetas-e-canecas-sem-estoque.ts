@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "t-shirt printing design studio",
+  coverImage: {
+    url: "/images/covers/print-on-demand-com-ia-vender-camisetas-e-canecas-sem-estoque.webp",
+    width: 1280,
+    height: 853,
+    credit: "Locies / Pixabay",
+    creditUrl: "https://pixabay.com/photos/asian-man-portrait-young-man-man-1468032/",
+  },
   seed: 231,
   kind: "guia",
   author: "Bruno Danello",

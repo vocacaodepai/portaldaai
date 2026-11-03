@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T23:22:00-03:00",
   topic: "regulacao",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/dhs-proibe-deepseek-orgaos-federais-civis-eua.webp",
+    width: 1280,
+    height: 720,
+    credit: "RoadMaster19 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20purple.png",
+  },
   content: `
     <p>O Departamento de Segurança Interna dos Estados Unidos (DHS) emitiu na segunda-feira (19) uma ordem que manda todas as agências civis do governo federal pararem de usar produtos da DeepSeek, laboratório chinês de IA, e retirarem qualquer implementação que já exista. A informação é da <a href="https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010" target="_blank" rel="noopener noreferrer nofollow">The Register</a>, em reportagem de Thomas Claburn. O texto cobre "todos os produtos da DeepSeek e de afiliadas" e também "produtos e serviços de terceiros desenvolvidos com implementações da DeepSeek", e é justamente essa segunda parte que gera dúvida.</p>
 

@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-20",
   publishedAt: "2026-10-20T18:41:00-03:00",
   imageQuery: "Sam Altman portrait",
+  coverImage: {
+    url: "/images/covers/altman-openai-vai-construir-robo-humanoide-demo-2027.webp",
+    width: 704,
+    height: 396,
+    credit: "Einstein00x (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACharles%20Kantor%20French%20Sam%20Altman%20Le%20Point.png",
+  },
   topic: "negocios",
   content: `
     <p>O CEO da OpenAI, Sam Altman, confirmou publicamente que a empresa vai construir um robô humanoide. A declaração foi dada no podcast Sources e noticiada pelo <a href="https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/" rel="noopener noreferrer nofollow">Engadget</a> em 17 de outubro de 2026. Perguntado diretamente se a OpenAI iria fabricar um robô com forma humana, Altman respondeu que sim, a empresa fará isso. Até agora, a companhia era conhecida sobretudo por modelos de linguagem, pelo ChatGPT e por ferramentas para programadores.</p>

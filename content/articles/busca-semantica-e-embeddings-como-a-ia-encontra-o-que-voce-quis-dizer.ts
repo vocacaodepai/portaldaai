@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "magnifying glass over document pages",
+  coverImage: {
+    url: "/images/covers/busca-semantica-e-embeddings-como-a-ia-encontra-o-que-voce-quis-dizer.webp",
+    width: 1280,
+    height: 850,
+    credit: "bohdanchreptak / Pixabay",
+    creditUrl: "https://pixabay.com/photos/books-old-antique-literature-4812032/",
+  },
   seed: 842,
   kind: "guia",
   author: "Bruno Danello",

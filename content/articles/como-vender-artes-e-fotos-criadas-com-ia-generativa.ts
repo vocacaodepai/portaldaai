@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "digital art illustration creative",
+  coverImage: {
+    url: "/images/covers/como-vender-artes-e-fotos-criadas-com-ia-generativa.webp",
+    width: 1280,
+    height: 720,
+    credit: "Muhammadi (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMuhammadi%20-%20Picnic%20in%20the%20Mountains%3B%20Single%20Page%20Illustration%20-%201944.491%20-%20Cleveland%20Museum%20of%20Art.tif",
+  },
   seed: 28,
   kind: "guia",
   author: "Bruno Danello",

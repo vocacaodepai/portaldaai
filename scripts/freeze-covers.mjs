@@ -7,7 +7,7 @@
  * Para cada item sem `coverImage` (notícia só quando tem `imageQuery`):
  *   1. abre a página publicada e lê a foto de capa e o crédito exibidos;
  *   2. baixa a foto, reduz para no máximo 1280 px de largura em WebP
- *      (fotos muito largas ou estreitas, como logos, vão centralizadas num
+ *      (fotos muito largas ou muito estreitas, como logos, vão centralizadas num
  *      quadro 16:9 com a cor de fundo da própria foto, sem cortar nada);
  *   3. salva em public/images/covers/<slug>.webp e escreve `coverImage` no
  *      arquivo, logo abaixo de `imageQuery`.
@@ -55,10 +55,29 @@ async function edgeColor(buf) {
   return { r: med(rs), g: med(gs), b: med(bs) };
 }
 
-async function toWebp(buf) {
-  const meta = await sharp(buf).metadata();
+/**
+ * Fundo para imagem com transparência (logos em PNG): branco quando o
+ * desenho é escuro, quase preto quando é claro, para o logo não sumir.
+ */
+async function contrastBackground(buf) {
+  const { data, info } = await sharp(buf).ensureAlpha().resize(64, 64, { fit: "inside" }).raw().toBuffer({ resolveWithObject: true });
+  let sum = 0, n = 0;
+  for (let i = 0; i < data.length; i += info.channels) {
+    if (data[i + 3] < 128) continue;
+    sum += 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+    n++;
+  }
+  const lum = n ? sum / n : 0;
+  return lum > 150 ? { r: 11, g: 15, b: 23 } : { r: 255, g: 255, b: 255 };
+}
+
+async function toWebp(raw) {
+  const meta = await sharp(raw).metadata();
+  const buf = meta.hasAlpha
+    ? await sharp(raw).flatten({ background: await contrastBackground(raw) }).png().toBuffer()
+    : raw;
   const ratio = meta.width / meta.height;
-  if (ratio < 1.2 || ratio > 2.4) {
+  if (ratio < 0.8 || ratio > 2.4) {
     const W = MAX_W, H = Math.round(MAX_W * 9 / 16);
     const background = await edgeColor(buf);
     const out = await sharp(buf)
@@ -129,7 +148,7 @@ async function main() {
       }
     }
   }
-  await Promise.all(Array.from({ length: 6 }, worker));
+  await Promise.all(Array.from({ length: Number(process.env.FREEZE_CONCURRENCY || 6) }, worker));
   console.log(`capas gravadas: ${stats.ok}, ainda no gradiente: ${stats.gradient}, falhas: ${stats.fail} (de ${todo.length})`);
 }
 

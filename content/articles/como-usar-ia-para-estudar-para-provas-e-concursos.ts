@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-28",
   readTime: 7,
   imageQuery: "student notebook laptop studying desk",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-estudar-para-provas-e-concursos.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 96,
   kind: "guia",
   author: "Bruno Danello",

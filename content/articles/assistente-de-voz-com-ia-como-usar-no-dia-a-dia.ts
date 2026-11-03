@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 7,
   imageQuery: "smartphone voice assistant hand kitchen",
+  coverImage: {
+    url: "/images/covers/assistente-de-voz-com-ia-como-usar-no-dia-a-dia.webp",
+    width: 1280,
+    height: 853,
+    credit: "niekverlaan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telephone-mobile-call-samsung-586268/",
+  },
   seed: 109,
   kind: "guia",
   author: "Bruno Danello",

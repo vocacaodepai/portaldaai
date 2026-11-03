@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T17:30:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Andy Yen Proton CEO",
+  coverImage: {
+    url: "/images/covers/proton-reentrevista-funcionarios-uso-de-ia-emprego.webp",
+    width: 768,
+    height: 710,
+    credit: "Stifterverband (CC BY 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAndy%20Yen%20-%20Is%20Privacy%20Supporting%20Cybercrime.jpg",
+  },
   content: `
     <p>A Proton, empresa por trás do ProtonMail e de outros produtos focados em privacidade, avisou os funcionários nesta segunda-feira (26) que vai "reentrevistar" a equipe sobre como cada pessoa usa inteligência artificial no trabalho. A informação vem da <a href="https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/" target="_blank" rel="noopener noreferrer nofollow">reportagem do 404 Media</a>, que obteve o e-mail interno. Pelo texto, as conversas podem pesar na decisão sobre quem continua na empresa. A Proton não respondeu de imediato ao pedido de comentário do veículo, e o Portal da AI não encontrou, até a publicação, nenhuma confirmação em fonte independente. Por isso, vale tratar os detalhes como a versão do documento interno citado pela reportagem.</p>
 

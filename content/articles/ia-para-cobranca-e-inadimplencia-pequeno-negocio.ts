@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-08",
   readTime: 7,
   imageQuery: "invoice payment laptop desk",
+  coverImage: {
+    url: "/images/covers/ia-para-cobranca-e-inadimplencia-pequeno-negocio.webp",
+    width: 1280,
+    height: 796,
+    credit: "yourschantz / Pixabay",
+    creditUrl: "https://pixabay.com/photos/taxes-calculate-pay-lifestyle-740202/",
+  },
   seed: 182,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 7,
   imageQuery: "subscription plans comparison smartphone app",
+  coverImage: {
+    url: "/images/covers/google-ai-plus-pro-ou-ultra-qual-plano-do-gemini-escolher.webp",
+    width: 1280,
+    height: 546,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/face-woman-old-infant-young-child-1987212/",
+  },
   seed: 208,
   kind: "guia",
   author: "Bruno Danello",

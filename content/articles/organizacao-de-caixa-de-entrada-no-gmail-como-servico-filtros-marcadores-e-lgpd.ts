@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "inbox email laptop organized desk",
+  coverImage: {
+    url: "/images/covers/organizacao-de-caixa-de-entrada-no-gmail-como-servico-filtros-marcadores-e-lgpd.webp",
+    width: 1280,
+    height: 852,
+    credit: "Ylanite / Pixabay",
+    creditUrl: "https://pixabay.com/photos/desk-smartphone-iphone-notebook-3076954/",
+  },
   seed: 913,
   kind: "guia",
   author: "Bruno Danello",

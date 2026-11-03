@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-24",
   readTime: 7,
   imageQuery: "robot hand signing contract desk",
+  coverImage: {
+    url: "/images/covers/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer.webp",
+    width: 1280,
+    height: 853,
+    credit: "epicioci / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mayor-signature-sign-adult-917149/",
+  },
   seed: 627,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-10",
   readTime: 6,
   imageQuery: "small business owner tablet workshop",
+  coverImage: {
+    url: "/images/covers/ia-para-mei-tarefas-que-voce-pode-automatizar.webp",
+    width: 1280,
+    height: 854,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+  },
   seed: 192,
   kind: "guia",
   author: "Bruno Danello",

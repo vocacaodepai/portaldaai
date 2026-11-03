@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T13:22:38-03:00",
   topic: "negocios",
   imageQuery: "retro video game console cartridges",
+  coverImage: {
+    url: "/images/covers/decomp-dev-encerra-indice-ia-ports-jogos.webp",
+    width: 1280,
+    height: 853,
+    credit: "RickSp / Pixabay",
+    creditUrl: "https://pixabay.com/photos/gameboy-video-game-retro-1788971/",
+  },
   content: `
     <p>O Decomp.dev, considerado o maior site dedicado à decompilação de jogos antigos, anunciou que está encerrando suas funções públicas. Em um comunicado intitulado "Sunsetting decomp.dev", assinado pelo mantenedor conhecido como encounter, a equipe informa que o índice principal e a possibilidade de adicionar novos projetos foram desativados. O motivo apontado é o uso de inteligência artificial por terceiros para concluir, em poucas horas, projetos que a comunidade levou anos para construir.</p>
 

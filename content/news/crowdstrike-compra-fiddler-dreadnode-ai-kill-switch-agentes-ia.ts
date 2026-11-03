@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-03",
   publishedAt: "2026-11-03T10:26:00-03:00",
   imageQuery: "CrowdStrike logo",
+  coverImage: {
+    url: "/images/covers/crowdstrike-compra-fiddler-dreadnode-ai-kill-switch-agentes-ia.webp",
+    width: 1280,
+    height: 668,
+    credit: "™/®CrowdStrike (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACrowdStrike%20Logo%202023%20Secondary%20Red.png",
+  },
   topic: "seguranca",
   content: `
     <p>A CrowdStrike, uma das maiores empresas de cibersegurança do mundo, anunciou nesta terça-feira (3) a compra de duas startups especializadas em segurança de inteligência artificial: a Fiddler AI e a Dreadnode. No mesmo dia, a empresa colocou no ar um recurso chamado AI Kill Switch, uma espécie de botão de emergência que permite à equipe de segurança parar um agente de IA que começou a agir fora do combinado. Os anúncios foram feitos na conferência Fal.Con Europe, em Barcelona, e constam em comunicados oficiais da própria CrowdStrike, repercutidos pelo site The Next Web.</p>

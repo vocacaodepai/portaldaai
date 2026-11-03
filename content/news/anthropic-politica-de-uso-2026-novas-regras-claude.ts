@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-08",
   publishedAt: "2026-10-08T15:30:00-03:00",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-politica-de-uso-2026-novas-regras-claude.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   topic: "regulacao",
   content: `
     <p>A Anthropic publicou, em 8 de outubro, a atualização anual da política de uso do Claude. As novas regras entram em vigor em 12 de novembro, segundo o <a href="https://www.anthropic.com/news/2026-usage-policy-update" target="_blank" rel="noopener noreferrer nofollow">comunicado da empresa</a>. A maior parte das mudanças, diz a Anthropic, esclarece regras que já existiam, mas há ajustes que afetam diretamente quem usa o Claude para trabalhar, vender ou automatizar tarefas.</p>

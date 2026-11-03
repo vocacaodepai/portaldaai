@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "meal planning groceries kitchen table",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado.webp",
+    width: 1280,
+    height: 850,
+    credit: "midascode / Pixabay",
+    creditUrl: "https://pixabay.com/photos/kitchen-dining-room-dining-table-1336160/",
+  },
   seed: 81,
   kind: "guia",
   author: "Bruno Danello",

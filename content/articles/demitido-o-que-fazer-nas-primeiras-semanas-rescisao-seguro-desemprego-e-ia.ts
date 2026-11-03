@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "person packing desk belongings office box",
+  coverImage: {
+    url: "/images/covers/demitido-o-que-fazer-nas-primeiras-semanas-rescisao-seguro-desemprego-e-ia.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 841,
   kind: "guia",
   author: "Bruno Danello",

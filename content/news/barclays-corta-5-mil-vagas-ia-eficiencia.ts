@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T09:45:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Barclays bank branch",
+  coverImage: {
+    url: "/images/covers/barclays-corta-5-mil-vagas-ia-eficiencia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Jaggery (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AFormer%20Barclays%20Bank%20branch%20in%20Pontypool%20town%20centre%20-%20geograph.org.uk%20-%206336883.jpg",
+  },
   content: `
     <p>O Barclays informou nesta quinta-feira (22) que espera ter cortado cerca de 5.000 funcionários até o fim de 2026, o equivalente a aproximadamente 5% do quadro de pessoal. Segundo a reportagem da agência PA Media publicada pelo <a href="https://news.stv.tv/scotland/barclays-to-cut-5000-staff-by-end-of-2026-after-increasing-use-of-ai" target="_blank" rel="noopener noreferrer nofollow">STV News</a>, o banco britânico atribui a redução, em parte, ao uso de inteligência artificial para tornar processos mais eficientes, o que reduz a necessidade de pessoas em alguns cargos, como o de desenvolvedores.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T20:45:00-03:00",
   topic: "seguranca",
   imageQuery: "Cloudflare logo",
+  coverImage: {
+    url: "/images/covers/cloudflare-workers-ai-glm-5-3-vazamento-cache-kv-155-respostas.webp",
+    width: 1280,
+    height: 960,
+    credit: "HaeB (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACloudflare%20office%20entrance%20area.jpg",
+  },
   content: `
     <p>A Cloudflare publicou nesta segunda-feira, 26 de outubro, o <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/" rel="noopener noreferrer nofollow" target="_blank">relatório de um incidente de isolamento entre clientes</a> no Workers AI, sua plataforma de inferência de modelos de IA. Entre 27 de agosto e 9 de setembro de 2026, um número pequeno de clientes que usavam o modelo GLM-5.3, da Z.ai, recebeu respostas com trechos de pedidos feitos por outras pessoas ao mesmo modelo pouco antes. No total, foram 155 respostas afetadas, todas a prompts com mais de 681.280 tokens.</p>
 

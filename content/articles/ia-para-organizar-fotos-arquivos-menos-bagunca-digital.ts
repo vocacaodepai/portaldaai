@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "organized digital files folders computer screen",
+  coverImage: {
+    url: "/images/covers/ia-para-organizar-fotos-arquivos-menos-bagunca-digital.webp",
+    width: 1280,
+    height: 856,
+    credit: "JoshuaWoroniecki / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-digital-device-technology-5673901/",
+  },
   seed: 89,
   kind: "guia",
   author: "Bruno Danello",

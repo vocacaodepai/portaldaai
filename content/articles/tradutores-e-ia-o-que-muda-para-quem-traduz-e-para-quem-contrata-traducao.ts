@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 8,
   imageQuery: "translator desk dictionary laptop",
+  coverImage: {
+    url: "/images/covers/tradutores-e-ia-o-que-muda-para-quem-traduz-e-para-quem-contrata-traducao.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 1107,
   kind: "guia",
   author: "Bruno Danello",

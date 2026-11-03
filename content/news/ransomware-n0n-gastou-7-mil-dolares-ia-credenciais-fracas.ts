@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T06:40:00-03:00",
   topic: "seguranca",
   imageQuery: "ransomware cybersecurity",
+  coverImage: {
+    url: "/images/covers/ransomware-n0n-gastou-7-mil-dolares-ia-credenciais-fracas.webp",
+    width: 1280,
+    height: 853,
+    credit: "Chad Davis from Minneapolis, United States (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMGM%20Grand%20Ransomware%20Attack%20Slot%20Machines%20(53190748828).jpg",
+  },
   content: `
     <p>Um grupo de extorsão que usa IA para atacar empresas acabou entregando o próprio manual de operação: deixou um servidor aberto na internet com todos os seus arquivos à vista. A descoberta é da empresa de inteligência de ameaças SOCRadar e foi contada pelo The Register em 30 de outubro de 2026. O grupo se chama <strong>n0n</strong>, tentou invadir 23 organizações em 14 países e, só em serviços de IA, gastou <strong>mais de US$ 7.216</strong> até 22 de outubro. O ponto mais interessante para quem trabalha com tecnologia: apesar de toda a conversa sobre IA descobrindo falhas, nenhuma das invasões documentadas dependeu de uma brecha de software.</p>
 

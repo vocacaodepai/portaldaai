@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T23:24:00-03:00",
   topic: "regulacao",
   imageQuery: "United States Department of the Treasury building",
+  coverImage: {
+    url: "/images/covers/eua-tesouro-regra-investimento-exterior-ia-china-coins-act.webp",
+    width: 1280,
+    height: 720,
+    credit: "颐园居 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAmerica%20Treasury%20Department%20Building%2020240601.jpg",
+  },
   content: `
     <p>O Departamento do Tesouro dos Estados Unidos publicou na quinta-feira (22) uma proposta de regra que endurece as restrições a investimentos de americanos em empresas de tecnologia estratégica de países considerados adversários, com a China à frente. Segundo o <a href="https://home.treasury.gov/news/press-releases/sb0667" target="_blank" rel="noopener noreferrer nofollow">comunicado oficial do Tesouro</a>, o texto é um aviso de proposta de regulamentação (NPRM, na sigla em inglês) que coloca em prática a lei COINS, sigla de Comprehensive Outbound Investment National Security Act, aprovada dentro da lei de defesa dos EUA para o ano fiscal de 2026. A minuta ficou aberta a comentários públicos até 7 de dezembro de 2026, e só depois disso o governo emite as regras finais, que definirão a data de início.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T14:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google Chrome logo",
+  coverImage: {
+    url: "/images/covers/chrome-autofill-ia-gmail-formularios-google.webp",
+    width: 955,
+    height: 780,
+    credit: "Google (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20Chrome%20OS%20browser%20ru.png",
+  },
   content: `
     <p>O Google anunciou nesta quarta-feira (28) uma atualização do autofill do Chrome que usa inteligência artificial para buscar informações no seu Gmail e sugerir esses dados quando você preenche um formulário na web. O anúncio saiu no blog do Google, assinado pela gerente de produto do Chrome Amanda Lim, e foi noticiado pelo TechCrunch. Esta matéria é uma análise própria a partir desses relatos; o crédito das fontes está no fim do texto.</p>
 

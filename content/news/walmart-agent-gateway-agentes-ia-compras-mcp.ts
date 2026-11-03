@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T19:22:00-03:00",
   topic: "negocios",
   imageQuery: "Walmart store exterior",
+  coverImage: {
+    url: "/images/covers/walmart-agent-gateway-agentes-ia-compras-mcp.webp",
+    width: 1178,
+    height: 768,
+    credit: "see Image talk:Walmart exterior.jpg\n\n\n\nThis file was made by User:Sven\n\n\n Translation\nIf this image contains text, it can be translated easily into your\nlanguage. If you need help, contact me\n\n\n Flexible licenses\nIf you want to use this picture with another license than stated below,\ncontact me\n\n\n Contact the author\nIf you need a really fast answer, mail me. If you\nneed only a fast answer, write me here. (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AWalmart%20exterior.jpg",
+  },
   content: `
     <p>O Walmart anunciou nesta quarta-feira, 21 de outubro de 2026, o Agent Gateway, uma nova porta de entrada para que agentes de IA conectem-se à varejista e façam compras em nome dos clientes. A informação foi publicada pelo <a href="https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>. O movimento acontece justamente quando a Amazon bloqueia agentes de IA que tentam comprar por usuários, o que expõe duas estratégias opostas para o comércio na era dos assistentes de IA.</p>
 

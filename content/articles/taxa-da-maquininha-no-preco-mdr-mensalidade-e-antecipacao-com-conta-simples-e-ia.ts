@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "card machine payment small shop counter",
+  coverImage: {
+    url: "/images/covers/taxa-da-maquininha-no-preco-mdr-mensalidade-e-antecipacao-com-conta-simples-e-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Antonio_Cansino / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-face-mask-market-hijab-5632026/",
+  },
   seed: 1104,
   kind: "guia",
   author: "Bruno Danello",

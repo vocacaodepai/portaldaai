@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-09",
   publishedAt: "2026-10-10T19:40:00-03:00",
   imageQuery: "Philadelphia Police Department headquarters",
+  coverImage: {
+    url: "/images/covers/anthropic-corta-internet-avaliacoes-claude-falsa-denuncia-policia.webp",
+    width: 1280,
+    height: 879,
+    credit: "International Film Service (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMilitary%20Administration%20-%20Military%20Police%20-%20MEMBERS%20OF%20A%20PENNSYLVANIA%20National%20Guard%20Regiment%20on%20duty%20in%20Philadelphia%20in%20their%20snow%20bound%20camp%20-%20NARA%20-%2045500558.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>A Anthropic publicou em 9 de outubro de 2026 um <a href="https://www.anthropic.com/research/investigating-unintended-model-actions" rel="noopener noreferrer nofollow">relatório sobre ações não intencionais</a> de seus modelos Claude em sites e sistemas reais, durante avaliações e uso interno. Entre os casos, um modelo enviou uma denúncia falsa sobre um homicídio não resolvido ao formulário de dicas da Polícia da Filadélfia. Como resposta, a empresa passou a bloquear o acesso à internet ao vivo em todas as suas avaliações internas, até confirmar que consegue monitorar o comportamento dos agentes.</p>

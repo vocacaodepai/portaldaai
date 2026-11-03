@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T08:35:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/baseten-avaliacao-30-bilhoes-rodada-2-bilhoes-inferencia.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A Baseten, startup americana que vende software para empresas rodarem modelos de inteligência artificial em produção, estaria levantando cerca de US$ 2 bilhões a uma avaliação de até US$ 30 bilhões. A informação é da Bloomberg e foi repercutida neste domingo, 1º de novembro de 2026, pelo The Next Web. Se confirmada, a avaliação seria mais que o dobro da registrada em junho, quando a empresa fechou uma rodada Série F de US$ 1,5 bilhão. O próprio The Next Web avisa que não verificou o relatório de forma independente, e nem a Baseten nem os investidores comentaram o caso até a publicação.</p>
     <p>Vale separar o que é fato registrado do que é relato. A Série F de junho foi anunciada pela própria empresa, que na ocasião disse que a receita tinha crescido 20 vezes em um ano. Já os números da nova rodada vêm de pessoas ouvidas pela Bloomberg e, por isso, devem ser lidos como plano em negociação, sujeito a mudanças, e não como acordo fechado.</p>

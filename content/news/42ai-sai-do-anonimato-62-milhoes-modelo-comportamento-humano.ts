@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T00:40:00-03:00",
   topic: "negocios",
   imageQuery: "bolsa de valores operadores telas gráficos",
+  coverImage: {
+    url: "/images/covers/42ai-sai-do-anonimato-62-milhoes-modelo-comportamento-humano.webp",
+    width: 1280,
+    height: 853,
+    credit: "BMeyendriesch / Pixabay",
+    creditUrl: "https://pixabay.com/photos/river-architecture-water-6858013/",
+  },
   content: `
     <p>A 42AI, startup de Israel, saiu do modo furtivo na segunda-feira (2 de novembro) anunciando US$ 62,5 milhões em capital semente e um produto que ela chama de "modelo de mundo comportamental". A promessa é estimar a probabilidade de uma pessoa tomar determinada decisão em cada situação. Segundo a <a href="https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a tecnologia já é usada por 10 grandes corretoras para prever como seus clientes operadores reagem a momentos de volatilidade.</p>
 

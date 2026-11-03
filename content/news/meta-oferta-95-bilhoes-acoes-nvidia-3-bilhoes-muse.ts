@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T11:52:00-03:00",
   topic: "negocios",
   imageQuery: "Meta Platforms headquarters Menlo Park",
+  coverImage: {
+    url: "/images/covers/meta-oferta-95-bilhoes-acoes-nvidia-3-bilhoes-muse.webp",
+    width: 1280,
+    height: 853,
+    credit: "LPS.1 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg",
+  },
   content: `
     <p>A Meta anunciou na segunda-feira (26) um plano para levantar até US$ 95 bilhões vendendo ações, com o objetivo de bancar a construção de infraestrutura de inteligência artificial. Nesta terça-feira (27), veio o segundo capítulo: a Nvidia, fabricante dos chips que sustentam boa parte desse investimento, disse que vai colocar US$ 3 bilhões na própria Meta e ampliar a parceria em torno do Muse, o agente de IA da empresa. Os fatos foram relatados por veículos como CNBC, Yahoo Finance e The Decoder. Esta matéria é uma análise própria a partir dessas reportagens.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T08:40:00-03:00",
   topic: "regulacao",
   imageQuery: "Ken Paxton portrait",
+  coverImage: {
+    url: "/images/covers/texas-processa-openai-altman-chatgpt-menores.webp",
+    width: 1280,
+    height: 720,
+    credit: "Xuthoria (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAmericaFest%202025%20-%20Ken%20Paxton%2005.jpg",
+  },
   content: `
     <p>O estado do Texas processou a OpenAI e o seu presidente-executivo, Sam Altman. Em <a href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-openai-and-ceo-sam-altman-lying-users-and-harming-texans" target="_blank" rel="noopener noreferrer nofollow">comunicado de 23 de outubro</a>, o procurador-geral Ken Paxton afirma que a empresa vendeu o ChatGPT como uma ferramenta segura e confiável, mas não protegeu os texanos, incluindo crianças, dos danos de depender do chatbot. Altman é réu na ação junto com as empresas da OpenAI.</p>
 

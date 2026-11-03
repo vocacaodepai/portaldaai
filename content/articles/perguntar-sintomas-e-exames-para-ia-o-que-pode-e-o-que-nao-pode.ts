@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "doctor patient tablet consultation",
+  coverImage: {
+    url: "/images/covers/perguntar-sintomas-e-exames-para-ia-o-que-pode-e-o-que-nao-pode.webp",
+    width: 1280,
+    height: 854,
+    credit: "sasint / Pixabay",
+    creditUrl: "https://pixabay.com/photos/surgery-hospital-doctor-care-1822458/",
+  },
   seed: 299,
   kind: "guia",
   author: "Bruno Danello",

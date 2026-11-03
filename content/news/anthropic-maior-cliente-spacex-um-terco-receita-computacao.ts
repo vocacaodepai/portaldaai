@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T19:22:00-03:00",
   topic: "negocios",
   imageQuery: "SpaceX Starship launch",
+  coverImage: {
+    url: "/images/covers/anthropic-maior-cliente-spacex-um-terco-receita-computacao.webp",
+    width: 1280,
+    height: 856,
+    credit: "Steve Jurvetson (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASpaceX%20Starship%20before%20IFT-5.jpg",
+  },
   content: `
     <p>A Anthropic, empresa por trás do Claude, é o maior cliente da SpaceX. Segundo reportagem publicada nesta quinta-feira, 29 de outubro de 2026, pelo The Next Web com base em informações da Bloomberg, a empresa de IA é o cliente que o balanço da SpaceX chama apenas de "Cliente B" e que respondeu por cerca de 34,5% da receita do terceiro trimestre. Com isso, a Anthropic passa à frente do governo dos Estados Unidos, que por muito tempo foi a principal fonte de dinheiro da fabricante de foguetes.</p>
 

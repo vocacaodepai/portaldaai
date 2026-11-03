@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "credit card statement laptop coffee",
+  coverImage: {
+    url: "/images/covers/fatura-do-cartao-com-ia-assinaturas-esquecidas-rotativo-e-o-que-nao-enviar.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 898,
   kind: "guia",
   author: "Bruno Danello",

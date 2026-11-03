@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-20",
   publishedAt: "2026-10-20T06:35:00-03:00",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/blackwall-capta-100-milhoes-seguranca-trafego-agentes-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   topic: "negocios",
   content: `
     <p>A Blackwall, empresa de segurança de tráfego web sediada na Estônia, anunciou nesta terça-feira (20) uma rodada Série C de US$ 100 milhões que a avalia em US$ 2,2 bilhões, segundo reportagem exclusiva do <a href="https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/" rel="noopener noreferrer nofollow" target="_blank">TechCrunch</a>. A rodada foi liderada pela AVP, com participação dos investidores que já estavam na empresa: Dawn Capital, MMC Ventures e Tera Ventures. O presidente executivo, Roi Carthy, disse que o valor da empresa quadruplicou desde a captação anterior, feita em 2025.</p>

@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T15:54:02-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/chatgpt-intelligent-ui-visuais-interativos-gpt-6.webp",
+    width: 1280,
+    height: 720,
+    credit: "openAI (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Logo.png",
+  },
   topic: "lancamentos",
   content: `
     <p>A OpenAI começou a liberar nesta quarta-feira (7) o Intelligent UI, uma nova camada visual para o ChatGPT que passa a responder com diagramas, mapas, gráficos e pequenas ferramentas interativas, em vez de depender só de texto. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Lucas Ropek, o recurso chega junto com um novo modelo GPT-6 e tem como objetivo declarado tornar "mais fácil aprender temas complexos".</p>

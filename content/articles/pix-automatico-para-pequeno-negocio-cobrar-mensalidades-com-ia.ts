@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "small business owner smartphone payment counter",
+  coverImage: {
+    url: "/images/covers/pix-automatico-para-pequeno-negocio-cobrar-mensalidades-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "niekverlaan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telephone-mobile-call-samsung-586268/",
+  },
   seed: 335,
   kind: "guia",
   author: "Bruno Danello",

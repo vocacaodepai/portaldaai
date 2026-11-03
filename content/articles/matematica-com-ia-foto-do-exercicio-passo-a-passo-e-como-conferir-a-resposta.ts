@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "student math notebook phone photo",
+  coverImage: {
+    url: "/images/covers/matematica-com-ia-foto-do-exercicio-passo-a-passo-e-como-conferir-a-resposta.webp",
+    width: 1280,
+    height: 853,
+    credit: "kaboompics / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-write-notepad-girl-female-792162/",
+  },
   seed: 1110,
   kind: "guia",
   author: "Bruno Danello",

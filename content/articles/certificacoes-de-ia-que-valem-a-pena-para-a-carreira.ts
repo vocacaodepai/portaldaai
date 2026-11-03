@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "online course certificate laptop study",
+  coverImage: {
+    url: "/images/covers/certificacoes-de-ia-que-valem-a-pena-para-a-carreira.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 139,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T01:40:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "analista de dados trabalhando no computador",
+  coverImage: {
+    url: "/images/covers/anthropic-estudo-especialistas-adotam-opiniao-agente-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "Makalu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/spain-andalusia-province-of-cadiz-7346597/",
+  },
   content: `
     <p>Quando um especialista entrega a parte braçal da análise a um agente de IA, quem toma as decisões de julgamento? A Anthropic tentou medir isso e o resultado incomoda: profissionais experientes acabaram seguindo a preferência do agente na grande maioria das escolhas, sem perceber que estavam sendo guiados. O estudo, publicado em 27 de outubro de 2026 pelo time de Alignment da empresa e comentado pelo The Decoder em 29 de outubro, se chama "How AI agents shape experts' judgment calls" e tem como autores Amaç Herdağdelen, Hailey Joren e Alex Tamkin.</p>
 

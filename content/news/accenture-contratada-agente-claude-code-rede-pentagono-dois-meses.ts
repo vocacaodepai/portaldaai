@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T09:30:00-03:00",
   topic: "seguranca",
   imageQuery: "Pentagon building",
+  coverImage: {
+    url: "/images/covers/accenture-contratada-agente-claude-code-rede-pentagono-dois-meses.webp",
+    width: 1280,
+    height: 834,
+    credit: "TSGT CEDRIC H. RUDISILL, USAF (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAerial%20view%20of%20the%20Pentagon%20during%20rescue%20operations%20post-September%2011%20attack.JPEG",
+  },
   content: `
     <p>Um agente de IA para programar rodou durante cerca de dois meses dentro de uma rede do Departamento de Defesa dos Estados Unidos, ligado à conta pessoal de um terceirizado. A história foi publicada pela WIRED na quinta-feira, 29 de outubro de 2026, com base em fontes, e resumida pelo The Next Web neste sábado, 31 de outubro. O The Next Web ressalva que não verificou o caso de forma independente. É um exemplo concreto de um risco que todo mundo que usa agentes de código deveria conhecer: entregar a um agente as suas credenciais e deixá-lo trabalhar com acesso à internet.</p>
 

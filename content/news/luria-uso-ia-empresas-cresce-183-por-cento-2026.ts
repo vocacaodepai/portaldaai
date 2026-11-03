@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T10:30:00-03:00",
   imageQuery: "office workers using computers",
+  coverImage: {
+    url: "/images/covers/luria-uso-ia-empresas-cresce-183-por-cento-2026.webp",
+    width: 1280,
+    height: 1028,
+    credit: "Seattle Municipal Archives (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASeattle%20City%20Light%20worker%20with%20office%20machine%2C%201954.jpg",
+  },
   topic: "negocios",
   content: `
     <p>O número de pessoas que usam inteligência artificial no trabalho cresceu 183% entre janeiro e agosto de 2026, na comparação com o mesmo período de 2025, e o volume mensal de consultas subiu 240%. Os dados são da Luria, empresa que oferece uma plataforma de IA para clientes corporativos, e foram divulgados em reportagem do <a href="https://olhardigital.com.br/2026/10/07/inteligencia-artificial/uso-de-ia-nas-empresas-quase-triplica-em-2026-aponta-levantamento" target="_blank" rel="noopener noreferrer nofollow">Olhar Digital</a> em 7 de outubro.</p>

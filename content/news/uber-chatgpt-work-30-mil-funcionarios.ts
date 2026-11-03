@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T14:40:00-03:00",
   topic: "negocios",
   imageQuery: "Uber headquarters San Francisco",
+  coverImage: {
+    url: "/images/covers/uber-chatgpt-work-30-mil-funcionarios.webp",
+    width: 1280,
+    height: 692,
+    credit: "Dllu (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AUber%20Self%20Driving%20Volvo%20at%20Otto%20Headquarters%20at%20737%20Harrison.jpg",
+  },
   content: `
     <p>A Uber vai levar o ChatGPT Work, agente de IA corporativo da OpenAI, para toda a empresa. Segundo reportagem publicada nesta quinta-feira (22) pelo <a href="https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a companhia contou que toda a sua força de trabalho global, algo em torno de 30 mil pessoas, passa a usar a ferramenta a partir de agora. O anúncio faz parte de uma parceria ampliada entre Uber e OpenAI.</p>
 

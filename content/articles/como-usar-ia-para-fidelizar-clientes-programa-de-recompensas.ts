@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "loyalty rewards program customer store",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-fidelizar-clientes-programa-de-recompensas.webp",
+    width: 1280,
+    height: 850,
+    credit: "Lepale / Pixabay",
+    creditUrl: "https://pixabay.com/photos/dog-labrador-pet-canine-companion-1861839/",
+  },
   seed: 83,
   kind: "guia",
   author: "Bruno Danello",

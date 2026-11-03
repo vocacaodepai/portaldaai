@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-12T15:23:05-03:00",
   topic: "lancamentos",
   imageQuery: "Alexandr Wang",
+  coverImage: {
+    url: "/images/covers/meta-muse-wonder-primeiro-modelo-fronteira.webp",
+    width: 1280,
+    height: 852,
+    credit: "Village Global (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANick%20Fajt%2C%20Roham%20Gharegozlou%2C%20Amjad%20Masad%2C%20Alexandr%20Wang%2C%20Alicia%20Boler%20Davis%2C%20Anne%20Dwane%20-%20The%20Grove%202022.jpg",
+  },
   content: `
     <p>A Meta lançou nesta segunda-feira o Muse Wonder e o Muse Wonder Full, os primeiros modelos de fronteira da empresa, criados pelo Meta Superintelligence Lab. De acordo com a <a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, os dois são maiores e mais capazes do que o Muse Spark, modelo leve que a companhia havia apresentado antes, e se saem melhor em tarefas complexas, como programação.</p>
 

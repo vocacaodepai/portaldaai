@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "online store packages laptop warehouse",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-com-dropshipping-usando-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "tianya1223 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/store-stacks-shelves-stock-5619201/",
+  },
   seed: 151,
   kind: "guia",
   author: "Bruno Danello",

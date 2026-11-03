@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "shopping cart agent checkout online",
+  coverImage: {
+    url: "/images/covers/agentes-de-ia-comprando-por-voce-comercio.webp",
+    width: 1280,
+    height: 960,
+    credit: "652234 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/shopping-carts-grocery-shopping-1275480/",
+  },
   seed: 60,
   kind: "guia",
   author: "Bruno Danello",

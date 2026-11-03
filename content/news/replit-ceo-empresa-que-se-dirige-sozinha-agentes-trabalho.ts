@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-18",
   publishedAt: "2026-10-18T07:25:00-03:00",
   imageQuery: "Amjad Masad Replit CEO",
+  coverImage: {
+    url: "/images/covers/replit-ceo-empresa-que-se-dirige-sozinha-agentes-trabalho.webp",
+    width: 1280,
+    height: 852,
+    credit: "Village Global (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAmjad%20Masad%20with%20Reid%20Hoffman%20and%20Aria%20Finger%20(52530742581).jpg",
+  },
   topic: "mercado-trabalho",
   content: `
     <p>O CEO e cofundador da Replit, Amjad Masad, apresentou no palco do TechCrunch Disrupt, em San Francisco, a ideia de uma "empresa que se dirige sozinha" (em inglês, "self-driving company"). Segundo a <a href="https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/" rel="noopener noreferrer nofollow">reportagem do TechCrunch</a>, o termo não tem relação com carros autônomos: descreve uma organização em que agentes de IA fazem boa parte do trabalho braçal, enquanto as pessoas passam a ser valorizadas pelo julgamento e pelo gosto.</p>

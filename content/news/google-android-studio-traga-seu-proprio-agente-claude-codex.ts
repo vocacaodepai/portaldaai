@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T03:45:00-03:00",
   topic: "lancamentos",
   imageQuery: "Android Studio logo",
+  coverImage: {
+    url: "/images/covers/google-android-studio-traga-seu-proprio-agente-claude-codex.webp",
+    width: 500,
+    height: 500,
+    credit: "Олим Ширинов (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AJC%20Records%20Studio%20Logo.jpg",
+  },
   content: `
     <p>O Google usou o Android Dev Summit, relatado nesta quarta-feira (28), para concentrar suas ferramentas de desenvolvimento em agentes de IA. A principal mudança é que o Android Studio, o ambiente oficial para criar aplicativos Android, deixa de ficar preso às ferramentas de IA do próprio Google e passa a aceitar agentes de terceiros, como o Claude Agent, da Anthropic, e o Codex, da OpenAI. A novidade foi detalhada pelo The Decoder. Esta matéria é uma análise própria a partir desse relato; o crédito da fonte está no fim do texto.</p>
 

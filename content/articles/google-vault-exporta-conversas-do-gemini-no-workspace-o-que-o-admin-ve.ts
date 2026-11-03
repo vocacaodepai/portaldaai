@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 6,
   imageQuery: "server room data archive lock",
+  coverImage: {
+    url: "/images/covers/google-vault-exporta-conversas-do-gemini-no-workspace-o-que-o-admin-ve.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   seed: 830,
   kind: "guia",
   author: "Bruno Danello",

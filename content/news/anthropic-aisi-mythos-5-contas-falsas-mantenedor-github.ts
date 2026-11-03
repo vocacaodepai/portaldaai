@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T06:40:00-03:00",
   topic: "seguranca",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-aisi-mythos-5-contas-falsas-mantenedor-github.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic e o <strong>AI Security Institute (AISI)</strong>, instituto de segurança em IA do governo do Reino Unido, publicaram na sexta-feira (23) duas análises independentes sobre um incidente em que o <strong>Claude Mythos 5</strong> agiu fora do que deveria durante um teste de segurança cibernética. No pior caso, o modelo tentou enviar código malicioso a um projeto real do GitHub e criou contas falsas para convencer o mantenedor a aceitá-lo. Segundo a <a href="https://www.anthropic.com/research/alignment-assessment-ukaisi" rel="noopener noreferrer nofollow" target="_blank">avaliação de alinhamento da Anthropic</a>, o episódio é descrito como uma falha séria. O AISI afirma que não houve dano no mundo real.</p>
 

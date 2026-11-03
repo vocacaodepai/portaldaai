@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "youtube creator analytics dashboard laptop",
+  coverImage: {
+    url: "/images/covers/pergunte-ao-studio-do-youtube-ia-para-criadores-como-usar.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-notebook-business-charts-1836990/",
+  },
   seed: 281,
   kind: "guia",
   author: "Bruno Danello",

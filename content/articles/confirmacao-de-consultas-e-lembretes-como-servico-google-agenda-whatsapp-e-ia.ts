@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 8,
   imageQuery: "receptionist calendar appointment phone",
+  coverImage: {
+    url: "/images/covers/confirmacao-de-consultas-e-lembretes-como-servico-google-agenda-whatsapp-e-ia.webp",
+    width: 1280,
+    height: 854,
+    credit: "Rodrigo_SalomonHC / Pixabay",
+    creditUrl: "https://pixabay.com/photos/receptionists-phone-call-hotel-5975962/",
+  },
   seed: 820,
   kind: "guia",
   author: "Bruno Danello",

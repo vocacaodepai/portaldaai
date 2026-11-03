@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "shop owner handing product warranty card customer",
+  coverImage: {
+    url: "/images/covers/garantia-legal-e-contratual-o-que-a-loja-deve-cumprir-e-como-explicar-ao-cliente.webp",
+    width: 1280,
+    height: 853,
+    credit: "Surprising_Media / Pixabay",
+    creditUrl: "https://pixabay.com/photos/girls-jewelry-shop-outdoors-women-7922980/",
+  },
   seed: 877,
   kind: "guia",
   author: "Bruno Danello",

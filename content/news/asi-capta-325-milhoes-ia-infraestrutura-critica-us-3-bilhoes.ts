@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T04:25:06-03:00",
   topic: "negocios",
   imageQuery: "Boston skyline",
+  coverImage: {
+    url: "/images/covers/asi-capta-325-milhoes-ia-infraestrutura-critica-us-3-bilhoes.webp",
+    width: 1280,
+    height: 720,
+    credit: "King of Hearts (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABoston%20skyline%20from%20Cambridge%20November%202015%20panorama%201.jpg",
+  },
   content: `
     <p>A ASI, empresa de inteligência artificial sediada em Boston, anunciou nesta semana uma rodada Série C de US$ 325 milhões, que avalia a companhia em US$ 3 bilhões. Segundo o <a href="https://www.airspace-intelligence.com/news/asi-secures-usd325m-series-c-at-usd3b-valuation" target="_blank" rel="noopener noreferrer nofollow">comunicado da própria ASI</a>, a rodada foi liderada pela Spark Capital e contou com afiliadas da Citadel Securities, Meritech Capital, Craft Ventures, Energy Impact Partners e Andreessen Horowitz. O dinheiro vai financiar a expansão em energia, logística e ambientes táticos de ponta, além de ampliar as equipes de pesquisa e desenvolvimento em Boston.</p>
 

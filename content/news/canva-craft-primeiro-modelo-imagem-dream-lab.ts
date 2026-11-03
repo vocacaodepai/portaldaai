@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-25",
   publishedAt: "2026-10-25T07:40:00-03:00",
   imageQuery: "Canva logo",
+  coverImage: {
+    url: "/images/covers/canva-craft-primeiro-modelo-imagem-dream-lab.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHomepage%20of%20CANVA%20Website%20magnified%20on%20logo%20with%20magnifying%20glass%20(53147379985).jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>O Canva apresentou o Craft, o primeiro modelo de geração de imagens desenvolvido pela própria equipe de pesquisa da empresa. A novidade foi publicada na quinta-feira, 22 de outubro de 2026, em reportagem de Ivan Mehta no <a href="https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/" rel="noopener noreferrer nofollow">TechCrunch</a>. Segundo a reportagem, o modelo já está disponível para todos os usuários na aba Dream Lab e também pela API do Canva, e a empresa não divulgou preço específico para ele.</p>

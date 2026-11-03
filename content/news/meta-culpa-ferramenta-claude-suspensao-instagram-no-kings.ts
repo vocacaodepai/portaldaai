@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T11:27:00-03:00",
   topic: "seguranca",
   imageQuery: "Instagram logo",
+  coverImage: {
+    url: "/images/covers/meta-culpa-ferramenta-claude-suspensao-instagram-no-kings.webp",
+    width: 1127,
+    height: 742,
+    credit: "Instagram (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AInstagram%20screenshot.png",
+  },
   content: `
     <p>A Meta afirmou que uma ferramenta ligada ao Claude, da Anthropic, foi o gatilho da suspensão da conta do Instagram da No Kings Coalition, ocorrida no sábado (17). Segundo reportagem de Ana-Maria Stanciuc publicada pelo <a href="https://thenextweb.com/news/meta-claude-no-kings-instagram-suspension" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a> nesta segunda-feira (19), a conta ficou fora do ar por cerca de 90 minutos, e a explicação foi dada pelo vice-presidente de comunicação da Meta, Andy Stone, em uma publicação em rede social no domingo (18).</p>
 

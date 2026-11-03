@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "headphones mixing console music studio",
+  coverImage: {
+    url: "/images/covers/musica-com-ia-monetizar-no-spotify-e-youtube-regras-e-riscos.webp",
+    width: 1280,
+    height: 720,
+    credit: "Marvin_ahlers / Pixabay",
+    creditUrl: "https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272176/",
+  },
   seed: 279,
   kind: "guia",
   author: "Bruno Danello",

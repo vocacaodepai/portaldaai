@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T05:35:00-03:00",
   topic: "seguranca",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/agente-atacante-modo-skynet-sequestra-modelos-expostos-symantec.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>Criminosos construíram um agente de IA que procura na internet modelos de linguagem mal protegidos, toma o controle deles e os usa como motor de planejamento para ataques quase sem supervisão humana. A descoberta é da equipe de caça a ameaças da Symantec e foi relatada neste sábado, 24 de outubro de 2026, pelo <a href="https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215" target="_blank" rel="noopener noreferrer nofollow">The Register</a>, em reportagem de Jessica Lyons. Os próprios operadores batizaram o ciclo principal da ferramenta de "modo Skynet".</p>
 

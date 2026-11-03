@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-25",
   readTime: 6,
   imageQuery: "person editing resume laptop desk",
+  coverImage: {
+    url: "/images/covers/adaptar-curriculo-para-cada-vaga-com-ia-palavras-da-vaga-sem-inventar.webp",
+    width: 1280,
+    height: 848,
+    credit: "TheAngryTeddy / Pixabay",
+    creditUrl: "https://pixabay.com/photos/keyboard-keys-hardware-pc-computer-338505/",
+  },
   seed: 718,
   kind: "guia",
   author: "Bruno Danello",

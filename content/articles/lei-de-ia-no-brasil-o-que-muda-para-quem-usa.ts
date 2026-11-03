@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-28",
   readTime: 8,
   imageQuery: "government building law documents",
+  coverImage: {
+    url: "/images/covers/lei-de-ia-no-brasil-o-que-muda-para-quem-usa.webp",
+    width: 1280,
+    height: 847,
+    credit: "Ministry of Law and Justice (GODL-India) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AThe%20Minister%20of%20Revenue%20and%20Law%2C%20Government%20of%20Tamil%20Nadu%2C%20Shri%20I.Periyaswamy%20along%20with%20Minister%20of%20State%20for%20Law%20and%20Justice%2C%20Shri%20K.%20Venkatapathy%20calls%20on%20the%20Law%20%26%20Justice%20Minister%2C%20Shri%20H.R.%20Bhardwaj%2C%20in%20New%20Delhi.jpg",
+  },
   seed: 94,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T05:22:00-03:00",
   topic: "negocios",
   imageQuery: "civil engineer surveying construction site",
+  coverImage: {
+    url: "/images/covers/mach9-capta-34-milhoes-software-cad-ia-engenharia.webp",
+    width: 1280,
+    height: 853,
+    credit: "U.S. Air National Guard photo by Staff Sgt. Brandon Keys (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A134%20Civil%20Engineer%20Airmen%20Conduct%20Site%20Surveys%20in%20Korea%20(9741411).jpg",
+  },
   content: `
     <p>A Mach9, startup americana que nasceu fabricando equipamentos para engenheiros civis e hoje vende software de projeto assistido por computador (CAD) com inteligência artificial, levantou US$ 34 milhões em uma rodada Série A. Segundo a <a href="https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a rodada foi co-liderada pela First Round Capital e pela Bessemer Venture Partners, com participação da Prudence, gestora focada em IA para construção e mercado imobiliário, e da Quiet Capital, que já era investidora. O valor de mercado da empresa não foi divulgado.</p>
 

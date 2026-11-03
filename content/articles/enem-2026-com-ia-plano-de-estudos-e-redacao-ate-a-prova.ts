@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 7,
   imageQuery: "student exam preparation desk notebook",
+  coverImage: {
+    url: "/images/covers/enem-2026-com-ia-plano-de-estudos-e-redacao-ate-a-prova.webp",
+    width: 1280,
+    height: 853,
+    credit: "27707 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/studying-exams-preparation-951818/",
+  },
   seed: 205,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T06:25:00-03:00",
   topic: "seguranca",
   imageQuery: "Microsoft headquarters Redmond",
+  coverImage: {
+    url: "/images/covers/hackers-chineses-artex-ia-connectwise-2250-tenants-microsoft.webp",
+    width: 1280,
+    height: 853,
+    credit: "Atomic Taco (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMicrosoft%20Redmond%20Campus%20redevelopment%20aerial%20view%2C%20Sept.%202021.jpg",
+  },
   content: `
     <p>A Microsoft revelou na quarta-feira (21) que um grupo de hackers alinhado ao Estado chinês usou um agente de inteligência artificial para comprometer aplicativos em nuvem da ConnectWise, uma das maiores fornecedoras de software para provedores de serviços gerenciados (MSPs), e tentar acessar mais de 2.250 ambientes de clientes. Segundo a reportagem do <a href="https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html" target="_blank" rel="noopener noreferrer nofollow">The Hacker News</a>, o grupo, rastreado pela Microsoft como Storm-0940, usou uma ferramenta chamada ARTEX para automatizar varredura, ataque de senhas e abuso de aplicativos OAuth em velocidade de máquina.</p>
 

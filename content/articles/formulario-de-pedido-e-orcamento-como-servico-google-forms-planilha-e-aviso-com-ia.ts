@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "small business owner laptop spreadsheet orders",
+  coverImage: {
+    url: "/images/covers/formulario-de-pedido-e-orcamento-como-servico-google-forms-planilha-e-aviso-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "makieni777 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cat-work-technology-pet-cute-pc-5331883/",
+  },
   seed: 832,
   kind: "guia",
   author: "Bruno Danello",

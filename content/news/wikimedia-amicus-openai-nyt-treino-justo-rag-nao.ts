@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T08:34:00-03:00",
   topic: "regulacao",
   imageQuery: "Wikimedia Foundation logo",
+  coverImage: {
+    url: "/images/covers/wikimedia-amicus-openai-nyt-treino-justo-rag-nao.webp",
+    width: 1280,
+    height: 958,
+    credit: "Victorgrigas (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AWikimedia%20Foundation%20logo.jpg",
+  },
   content: `
     <p>A Wikimedia Foundation, organização que mantém a Wikipédia, pediu à Justiça dos Estados Unidos para entrar como "amiga da corte" (amicus curiae) no maior processo de direitos autorais contra a OpenAI. O pedido foi feito na quinta-feira (29) e o parecer foi divulgado nesta sexta-feira (30), segundo a reportagem do The Next Web. A tese é incomum porque não agrada totalmente nenhum dos dois lados: para a Wikimedia, treinar um modelo de IA é provavelmente uso justo, mas o chatbot que copia o texto de um site para montar uma resposta, não.</p>
     <p>O caso, chamado <em>In re: OpenAI, Inc. Copyright Infringement Litigation</em>, corre no Tribunal Distrital do Distrito Sul de Nova York e reúne 12 ações contra a OpenAI, entre elas a que o New York Times moveu em 2023 contra a empresa e a Microsoft. O juiz Sidney H. Stein vai decidir se usar conteúdo protegido para construir grandes modelos de linguagem se enquadra em uso justo (fair use). Ele ainda não decidiu essa questão nem se aceita o parecer da Wikimedia.</p>

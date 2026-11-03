@@ -10,6 +10,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T20:40:00-03:00",
   topic: "negocios",
   imageQuery: "Goldman Sachs headquarters New York",
+  coverImage: {
+    url: "/images/covers/goldman-sachs-restringe-ferramentas-ia-codigo-traders-bankers.webp",
+    width: 1280,
+    height: 720,
+    credit: "Eden, Janine and Jim from New York City (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoldman%20Sachs%20Headquarters%20(53876567922).jpg",
+  },
   date: "2026-11-02",
   content: `
     <p>O Goldman Sachs recuou no uso de ferramentas de IA para programar entre quem não é engenheiro. Segundo uma reportagem da Bloomberg publicada na segunda-feira (2) e resumida pelo <a href="https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/" target="_blank" rel="noopener noreferrer nofollow">The Decoder</a>, a maior parte dos funcionários perdeu o acesso a esse tipo de ferramenta. Diretrizes internas de outubro, citadas pela Bloomberg, deixam o uso só para engenheiros. Entre as ferramentas afetadas estariam o Claude Code, da Anthropic, e produtos de programação da Microsoft ligados ao GitHub.</p>

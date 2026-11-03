@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T07:45:00-03:00",
   topic: "negocios",
   imageQuery: "OpenAI headquarters San Francisco",
+  coverImage: {
+    url: "/images/covers/openai-capta-11-bilhoes-de-30-meta-investidores-recuam.webp",
+    width: 1280,
+    height: 643,
+    credit: "HaeB (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APioneer%20Building%2C%20San%20Francisco%20(2019)%20-1.jpg",
+  },
   content: `
     <p>A OpenAI levantou cerca de US$ 11 bilhões na rodada de investimento que vinha negociando, menos da metade dos US$ 30 bilhões que tinha como meta. A informação foi publicada neste sábado (31) pelo The Decoder, que se baseia em reportagem do Wall Street Journal. Pelo mesmo relato, a avaliação da empresa ficou em US$ 1,25 trilhão, abaixo do US$ 1,4 trilhão que a OpenAI teria almejado. A leitura é que grandes investidores perderam parte do apetite por IA depois da queda recente das ações de tecnologia.</p>
 

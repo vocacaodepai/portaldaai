@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-18",
   readTime: 7,
   imageQuery: "self driving car city street",
+  coverImage: {
+    url: "/images/covers/robotaxi-no-brasil-quando-carros-autonomos-chegam-e-o-que-ja-existe.webp",
+    width: 1280,
+    height: 960,
+    credit: "MusikAnimal (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACar%20driving%20over%20Toynbee%20tile%20at%202nd%20St%20and%202nd%20Ave%20in%20New%20York%20City%20September%202012%202.jpg",
+  },
   seed: 424,
   kind: "guia",
   author: "Bruno Danello",

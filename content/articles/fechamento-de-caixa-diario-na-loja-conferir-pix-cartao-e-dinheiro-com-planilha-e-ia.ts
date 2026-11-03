@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "cash register small shop counter",
+  coverImage: {
+    url: "/images/covers/fechamento-de-caixa-diario-na-loja-conferir-pix-cartao-e-dinheiro-com-planilha-e-ia.webp",
+    width: 1280,
+    height: 894,
+    credit: "4262159 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/exhibition-visitors-of-the-exhibition-4415589/",
+  },
   seed: 903,
   kind: "guia",
   author: "Bruno Danello",

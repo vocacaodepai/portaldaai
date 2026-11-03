@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "remote worker laptop calendar desk",
+  coverImage: {
+    url: "/images/covers/assistente-virtual-com-ia-quanto-se-ganha-e-como-comecar.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 116,
   kind: "guia",
   author: "Bruno Danello",

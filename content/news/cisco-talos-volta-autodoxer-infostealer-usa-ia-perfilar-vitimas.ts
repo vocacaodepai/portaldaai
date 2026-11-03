@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T17:30:00-03:00",
   topic: "seguranca",
   imageQuery: "Cisco logo",
+  coverImage: {
+    url: "/images/covers/cisco-talos-volta-autodoxer-infostealer-usa-ia-perfilar-vitimas.webp",
+    width: 400,
+    height: 343,
+    credit: "Labcisco (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ALogo%20Laborat%C3%B3rio%20Cisco%20preto%20pequeno.png",
+  },
   content: `
     <p>Um tipo de vírus que já roubava senhas e cookies ganhou um novo truque: pedir a um modelo de inteligência artificial que leia tudo o que foi roubado e diga quem vale mais a pena atacar. A descoberta é de pesquisadores da Cisco Talos, divisão de inteligência de ameaças da Cisco, e foi revelada em primeira mão na newsletter Kernel Panic, da <strong>WIRED</strong>, publicada em 31 de outubro. O malware foi batizado de <strong>Volta-Autodoxer</strong>, nome que ele próprio usa para se referir internamente, e é um infostealer, categoria de programa feito para furtar credenciais de computadores infectados.</p>
 

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "spreadsheet code laptop small business",
+  coverImage: {
+    url: "/images/covers/google-apps-script-com-ia-servico-de-automacao-para-sheets-e-gmail.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coding-programming-css-1853305/",
+  },
   seed: 306,
   kind: "guia",
   author: "Bruno Danello",

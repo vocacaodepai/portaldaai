@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T20:21:54-03:00",
   imageQuery: "Meta Platforms headquarters Menlo Park",
+  coverImage: {
+    url: "/images/covers/meta-ia-detecta-anuncios-abuso-sexual-infantil.webp",
+    width: 1280,
+    height: 853,
+    credit: "LPS.1 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>A Meta anunciou nesta quarta-feira (7) novas ferramentas de inteligência artificial para detectar anúncios que parecem inofensivos, mas que levam o usuário a material de abuso sexual infantil ou a outras atividades ilegais. A informação foi publicada pelo <a href="https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em reportagem de Lauren Forristal.</p>

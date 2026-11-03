@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 8,
   imageQuery: "student desk notebook index cards laptop",
+  coverImage: {
+    url: "/images/covers/flashcards-com-ia-estudar-melhor-notebooklm-e-anki.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 273,
   kind: "guia",
   author: "Bruno Danello",

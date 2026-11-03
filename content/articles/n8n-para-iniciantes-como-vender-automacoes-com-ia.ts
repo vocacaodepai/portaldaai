@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "workflow diagram nodes laptop screen office",
+  coverImage: {
+    url: "/images/covers/n8n-para-iniciantes-como-vender-automacoes-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/children-win-success-video-game-593313/",
+  },
   seed: 274,
   kind: "guia",
   author: "Bruno Danello",

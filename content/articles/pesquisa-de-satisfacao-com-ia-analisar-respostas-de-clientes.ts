@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "small shop customer feedback tablet",
+  coverImage: {
+    url: "/images/covers/pesquisa-de-satisfacao-com-ia-analisar-respostas-de-clientes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Antonio_Cansino / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-face-mask-market-hijab-5632026/",
+  },
   seed: 232,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T13:45:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Microsoft headquarters Redmond",
+  coverImage: {
+    url: "/images/covers/microsoft-oferta-saida-voluntaria-60-mil-funcionarios.webp",
+    width: 1280,
+    height: 853,
+    credit: "Atomic Taco (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMicrosoft%20Redmond%20Campus%20redevelopment%20aerial%20view%2C%20Sept.%202021.jpg",
+  },
   content: `
     <p>A Microsoft anunciou nesta segunda-feira (26) uma oferta de saída voluntária para funcionários de times selecionados nos Estados Unidos, no Reino Unido, no Canadá e na Índia. No texto publicado no <a href="https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/" target="_blank" rel="noopener noreferrer nofollow">blog oficial da empresa</a>, a vice-presidente executiva e diretora de pessoas, Amy Coleman, apresenta o programa como uma oportunidade de deixar a companhia "com apoio financeiro e recursos de planejamento de carreira". Segundo a reportagem do The Verge, até 60 mil pessoas estariam elegíveis.</p>
 

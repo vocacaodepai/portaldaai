@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "ai video generation editing screen",
+  coverImage: {
+    url: "/images/covers/sora-2-da-openai-precos-limites-como-usar.webp",
+    width: 1280,
+    height: 853,
+    credit: "Recklessstudios / Pixabay",
+    creditUrl: "https://pixabay.com/photos/editing-video-computer-1141505/",
+  },
   seed: 143,
   kind: "guia",
   author: "Bruno Danello",

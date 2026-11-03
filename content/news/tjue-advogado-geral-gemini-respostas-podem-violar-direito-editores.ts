@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T11:23:00-03:00",
   topic: "regulacao",
   imageQuery: "Court of Justice of the European Union Luxembourg",
+  coverImage: {
+    url: "/images/covers/tjue-advogado-geral-gemini-respostas-podem-violar-direito-editores.webp",
+    width: 1280,
+    height: 720,
+    credit: "FrDr (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACourt%20of%20Justice%20of%20the%20European%20Union%20Luxembourg%202026%20402.jpg",
+  },
   content: `
     <p>O primeiro processo sobre inteligência artificial generativa a chegar ao Tribunal de Justiça da União Europeia (TJUE) ganhou nesta terça-feira, 3 de novembro, a sua peça mais importante até agora. O advogado-geral Maciej Szpunar apresentou suas conclusões no caso C-250/25, em que a empresa húngara Like Company, dona de vários portais de notícias, processa a Google pelo uso de seus artigos no chatbot Gemini. A conclusão tem dois lados: treinar um modelo de linguagem com conteúdo protegido é, em regra, permitido pela lei europeia, mas a resposta que o chatbot dá ao usuário, quando busca e reaproveita uma reportagem em tempo real, pode violar o direito dos editores em determinadas circunstâncias. O parecer está no <a href="https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155pt.pdf" rel="noopener noreferrer nofollow" target="_blank">comunicado de imprensa n.º 155/26 do tribunal</a> e foi noticiado pela Reuters e pela AFP.</p>
 

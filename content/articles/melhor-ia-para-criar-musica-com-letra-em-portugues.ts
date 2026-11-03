@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "music production headphones laptop studio",
+  coverImage: {
+    url: "/images/covers/melhor-ia-para-criar-musica-com-letra-em-portugues.webp",
+    width: 1280,
+    height: 853,
+    credit: "citypraiser / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-music-dj-sound-studio-4838060/",
+  },
   seed: 153,
   kind: "guia",
   author: "Bruno Danello",

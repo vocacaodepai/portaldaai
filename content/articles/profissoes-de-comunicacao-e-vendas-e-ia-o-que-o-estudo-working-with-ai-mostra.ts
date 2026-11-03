@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-01",
   readTime: 7,
   imageQuery: "newsroom marketing team brainstorming whiteboard",
+  coverImage: {
+    url: "/images/covers/profissoes-de-comunicacao-e-vendas-e-ia-o-que-o-estudo-working-with-ai-mostra.webp",
+    width: 1280,
+    height: 853,
+    credit: "DiggityMarketing / Pixabay",
+    creditUrl: "https://pixabay.com/photos/software-development-guest-post-4165307/",
+  },
   seed: 1023,
   kind: "guia",
   author: "Bruno Danello",

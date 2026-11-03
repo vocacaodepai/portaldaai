@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 7,
   imageQuery: "student studying textbook laptop library",
+  coverImage: {
+    url: "/images/covers/livros-didaticos-gratis-no-gemini-notebook-openstax-como-adicionar-e-limites.webp",
+    width: 1280,
+    height: 695,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/books-stack-white-stack-of-books-1845614/",
+  },
   seed: 1093,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-01",
   readTime: 7,
   imageQuery: "payment terminal cash register shop",
+  coverImage: {
+    url: "/images/covers/preco-diferente-no-pix-no-debito-e-no-credito-o-que-a-lei-13455-permite.webp",
+    width: 1280,
+    height: 1024,
+    credit: "Ryan Hodnett (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACash%20Register-Payment%20Terminal%20Store%20Display%20-%20Bergen%2C%20Norway%202021-07-30%20(01).jpg",
+  },
   seed: 1030,
   kind: "guia",
   author: "Bruno Danello",

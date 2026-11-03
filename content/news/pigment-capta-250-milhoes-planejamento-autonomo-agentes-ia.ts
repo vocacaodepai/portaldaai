@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T22:22:00-03:00",
   topic: "negocios",
   imageQuery: "Paris La Défense skyline",
+  coverImage: {
+    url: "/images/covers/pigment-capta-250-milhoes-planejamento-autonomo-agentes-ia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Dimitri Destugues (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APanorama%20La%20D%C3%A9fense.jpg",
+  },
   content: `
     <p>A Pigment, startup de Paris que vende uma plataforma de planejamento empresarial com inteligência artificial, anunciou nesta quarta-feira (21) uma rodada Série E de US$ 250 milhões. A empresa passa a valer US$ 2,3 bilhões, segundo o <a href="https://www.siliconrepublic.com/start-ups/ai-platform-pigment-raises-series-e-funding-round-france-paris" target="_blank" rel="noopener noreferrer nofollow">Silicon Republic</a>, que noticiou o aporte. O dinheiro vai financiar o que a Pigment chama de planejamento autônomo, em que agentes de IA fazem parte do trabalho que hoje cabe a analistas de finanças, vendas e pessoas.</p>
 

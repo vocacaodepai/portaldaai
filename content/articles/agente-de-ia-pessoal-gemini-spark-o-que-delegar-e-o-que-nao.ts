@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "woman laptop calendar tasks phone",
+  coverImage: {
+    url: "/images/covers/agente-de-ia-pessoal-gemini-spark-o-que-delegar-e-o-que-nao.webp",
+    width: 1280,
+    height: 851,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/desk-laptop-office-notebook-mac-1284085/",
+  },
   seed: 300,
   kind: "guia",
   author: "Bruno Danello",

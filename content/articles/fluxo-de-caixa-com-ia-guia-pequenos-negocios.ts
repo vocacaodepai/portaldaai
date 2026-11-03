@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "small business finance calculator desk",
+  coverImage: {
+    url: "/images/covers/fluxo-de-caixa-com-ia-guia-pequenos-negocios.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/analysis-analytics-business-charts-1841158/",
+  },
   seed: 107,
   kind: "guia",
   author: "Bruno Danello",

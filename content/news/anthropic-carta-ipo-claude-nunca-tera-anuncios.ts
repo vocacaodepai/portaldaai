@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T12:58:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-carta-ipo-claude-nunca-tera-anuncios.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic aproveitou a carta que abre o seu pedido público de abertura de capital para repetir um compromisso que já havia feito antes: o Claude não vai exibir anúncios nas conversas. A informação foi reportada pelo The Decoder nesta terça-feira (27), com base no documento S-1 protocolado na SEC, a comissão de valores mobiliários dos Estados Unidos. A empresa admite que a publicidade é uma grande fonte de receita para boa parte da internet e, mesmo assim, diz ter escolhido ficar de fora.</p>
 

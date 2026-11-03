@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T15:30:00-03:00",
   topic: "negocios",
   imageQuery: "Meta Platforms headquarters Menlo Park",
+  coverImage: {
+    url: "/images/covers/meta-diretor-rohit-patel-deixa-meta-ndoc-alternativa-office-workspace.webp",
+    width: 1280,
+    height: 853,
+    credit: "LPS.1 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg",
+  },
   content: `
     <p>Rohit Patel, diretor de IA que passou oito anos na Meta, deixou a empresa para fundar a Ndoc, uma startup que quer ser uma alternativa nativa de IA ao Microsoft Office e ao Google Workspace. A saída foi noticiada nesta terça-feira (27) pelo TechCrunch. Esta matéria é uma análise própria a partir do que foi relatado; o crédito da fonte está no fim do texto.</p>
 

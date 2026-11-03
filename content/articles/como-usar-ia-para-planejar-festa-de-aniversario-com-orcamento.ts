@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "birthday party planning table balloons",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-planejar-festa-de-aniversario-com-orcamento.webp",
+    width: 1280,
+    height: 732,
+    credit: "Artturi_Mantysaari / Pixabay",
+    creditUrl: "https://pixabay.com/photos/balloons-heart-sky-decoration-1786430/",
+  },
   seed: 170,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 6,
   imageQuery: "restaurant kitchen chef plating",
+  coverImage: {
+    url: "/images/covers/ia-para-restaurante-e-delivery-cardapio-pedidos-e-avaliacoes.webp",
+    width: 1280,
+    height: 819,
+    credit: "salahgraphic / Pixabay",
+    creditUrl: "https://pixabay.com/photos/chef-catering-food-4625935/",
+  },
   seed: 197,
   kind: "guia",
   author: "Bruno Danello",

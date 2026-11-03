@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T04:25:00-03:00",
   topic: "seguranca",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/agentes-ia-injecao-prompt-cabecalhos-http-sites.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>Quem usa agentes de IA para pesquisar na web, ler páginas e executar tarefas ganhou um motivo concreto de atenção. Uma análise da empresa de segurança Signals Corps, descrita em reportagem da <a href="https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434" target="_blank" rel="noopener noreferrer nofollow">The Register</a> assinada por Thomas Claburn e publicada na quinta-feira (15), encontrou sites que passaram a esconder instruções para agentes de IA nos cabeçalhos HTTP, a parte "invisível" da resposta que um servidor envia antes mesmo do conteúdo da página. É a chamada injeção indireta de prompt, agora num lugar onde quase ninguém olhava.</p>
 

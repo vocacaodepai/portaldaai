@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T12:40:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/runware-fabrica-data-centers-modulares-como-carros-romenia.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A corrida por capacidade de computação para IA esbarra num problema pouco glamouroso: construir data centers leva tempo demais. A Runware, startup de infraestrutura de IA, aposta que a resposta é tratar o data center como produto de fábrica. Segundo reportagem publicada nesta sexta-feira, 30 de outubro, pelo TechCrunch, a empresa pretende montar módulos prontos numa linha de produção "como se fossem carros" e colocá-los no ar em até 48 horas depois da entrega. A reportagem é de Dominic-Madori Davis e ouviu o cofundador e presidente-executivo, Flaviu Radulescu.</p>
 

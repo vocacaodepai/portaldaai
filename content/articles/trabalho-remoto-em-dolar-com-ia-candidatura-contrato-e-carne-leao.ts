@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 8,
   imageQuery: "remote worker laptop home office video call",
+  coverImage: {
+    url: "/images/covers/trabalho-remoto-em-dolar-com-ia-candidatura-contrato-e-carne-leao.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-desk-business-working-925806/",
+  },
   seed: 209,
   kind: "guia",
   author: "Bruno Danello",

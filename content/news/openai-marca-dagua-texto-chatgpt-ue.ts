@@ -10,6 +10,13 @@ export const item: NewsItem = {
   sourceUrl: "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
   date: "2026-10-05",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-marca-dagua-texto-chatgpt-ue.webp",
+    width: 1280,
+    height: 970,
+    credit: "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever (MIT) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Whisper%20architecture.png",
+  },
   topic: "regulacao",
   content: `
     <p>A OpenAI anunciou nesta segunda-feira (5) que vai passar a marcar com uma espécie de assinatura invisível todo texto gerado pelo ChatGPT e pelo Codex para usuários na União Europeia, nas próximas semanas. Segundo reportagem do <a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a tecnologia, batizada de textGrain, não insere nenhum símbolo visível no conteúdo: ela molda sutilmente as escolhas de palavras do modelo, criando um padrão estatístico que um leitor comum não percebe, mas que um detector da própria OpenAI consegue identificar depois.</p>

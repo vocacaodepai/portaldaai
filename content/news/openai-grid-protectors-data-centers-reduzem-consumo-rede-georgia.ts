@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T14:55:00-03:00",
   topic: "negocios",
   imageQuery: "linhas de transmissão de energia elétrica",
+  coverImage: {
+    url: "/images/covers/openai-grid-protectors-data-centers-reduzem-consumo-rede-georgia.webp",
+    width: 1280,
+    height: 848,
+    credit: "Makalu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/spain-andalusia-province-of-cadiz-7346597/",
+  },
   content: `
     <p>A conta de luz virou um dos maiores obstáculos da corrida da inteligência artificial. Nesta segunda-feira, 2 de novembro, a OpenAI anunciou em seu site o Grid Protectors Program, um programa nacional pelo qual os futuros data centers da empresa vão reduzir o consumo de eletricidade quando as redes locais estiverem sob pressão. A informação foi relatada pelo The Next Web e tem como base o comunicado da própria OpenAI. É uma resposta direta a um problema que vem travando projetos de data center nos Estados Unidos: a revolta com o aumento das contas de energia.</p>
 

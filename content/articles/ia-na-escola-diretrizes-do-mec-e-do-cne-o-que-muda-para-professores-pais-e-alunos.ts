@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-20",
   readTime: 7,
   imageQuery: "teacher classroom students tablet",
+  coverImage: {
+    url: "/images/covers/ia-na-escola-diretrizes-do-mec-e-do-cne-o-que-muda-para-professores-pais-e-alunos.webp",
+    width: 1280,
+    height: 978,
+    credit: "Pierce, C.C. (Charles C.), 1861-1946 (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AClassroom%20of%20students%20with%20their%20teachers%20inside%20a%20Walapai%20Indian%20school%20at%20Hackbury%2C%20Arizona%2C%20circa%201900%20(CHS-3140).jpg",
+  },
   seed: 474,
   kind: "guia",
   author: "Bruno Danello",

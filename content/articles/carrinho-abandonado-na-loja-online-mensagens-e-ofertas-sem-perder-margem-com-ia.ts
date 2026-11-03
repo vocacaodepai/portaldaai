@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "online store shopping cart laptop packages",
+  coverImage: {
+    url: "/images/covers/carrinho-abandonado-na-loja-online-mensagens-e-ofertas-sem-perder-margem-com-ia.webp",
+    width: 1280,
+    height: 960,
+    credit: "652234 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/shopping-carts-grocery-shopping-1275480/",
+  },
   seed: 846,
   kind: "guia",
   author: "Bruno Danello",

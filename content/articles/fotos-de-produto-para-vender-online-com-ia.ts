@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "product photography smartphone white background",
+  coverImage: {
+    url: "/images/covers/fotos-de-produto-para-vender-online-com-ia.webp",
+    width: 1280,
+    height: 960,
+    credit: "GeekImagination / Pixabay",
+    creditUrl: "https://pixabay.com/photos/iphone-telephone-smartphone-4982096/",
+  },
   seed: 144,
   kind: "guia",
   author: "Bruno Danello",

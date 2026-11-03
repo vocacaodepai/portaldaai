@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T03:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Australian Parliament House Canberra",
+  coverImage: {
+    url: "/images/covers/openai-anthropic-australia-apoiam-lei-vazamento-dados.webp",
+    width: 1280,
+    height: 853,
+    credit: "Dietmar Rabich (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACanberra%20(AU)%2C%20Parliament%20House%20and%20Old%20Parliament%20House%20--%202019%20--%201767.jpg",
+  },
   content: `
     <p>A OpenAI e a Anthropic disseram ao Parlamento da Austrália, em depoimento nesta semana, que apoiariam uma lei que tornasse obrigatório avisar o governo sempre que um agente de inteligência artificial acessar dados sem autorização. Segundo reportagem da <a href="https://lufkindailynews.com/news_reuters/business/anthropic-tells-australia-its-open-to-laws-requiring-reporting-of-ai-agent-hacks/article_c9eabde1-0f15-5970-bf28-77f46d53aa38.html" target="_blank" rel="noopener noreferrer nofollow">Reuters</a>, publicada em 6 de outubro, o diretor de estratégia da OpenAI, Jason Kwon, afirmou durante a audiência em Sydney que "apoiaríamos um arcabouço de divulgação obrigatória", reconhecendo que hoje a decisão de notificar ou não uma autoridade fica a critério exclusivo da própria empresa.</p>
 

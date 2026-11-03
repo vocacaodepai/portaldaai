@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "student laptop notebook study desk",
+  coverImage: {
+    url: "/images/covers/hub-do-estudante-do-gemini-cadernos-de-estudo-quiz-e-plano-gratis.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/man-writing-laptop-computer-write-2562325/",
+  },
   seed: 840,
   kind: "guia",
   author: "Bruno Danello",

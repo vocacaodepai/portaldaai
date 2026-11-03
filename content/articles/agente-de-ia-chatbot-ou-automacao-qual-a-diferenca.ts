@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "flowchart decision technology desk",
+  coverImage: {
+    url: "/images/covers/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 66,
   kind: "guia",
   author: "Bruno Danello",

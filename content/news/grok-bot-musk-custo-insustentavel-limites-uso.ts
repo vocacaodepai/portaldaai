@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T12:35:00-03:00",
   topic: "negocios",
   imageQuery: "Elon Musk portrait",
+  coverImage: {
+    url: "/images/covers/grok-bot-musk-custo-insustentavel-limites-uso.webp",
+    width: 1280,
+    height: 720,
+    credit: "Duncan.Hull (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AElon%20Musk%20Royal%20Society%20(crop1).jpg",
+  },
   content: `
     <p>Elon Musk afirmou no domingo (1º de novembro), em uma resposta no X, que o custo de operar o Grok Bot é "insustentavelmente alto em relação à receita". A frase foi dita a assinantes que reclamavam de ficar sem a cota semanal de uso dias antes de ela renovar. Segundo a cobertura do <a href="https://thenextweb.com/news/grok-bot-costs-unsustainably-high-musk-usage-limits" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>, que cita a Business Insider e o jornal britânico Telegraph, o episódio mostra como é difícil vender um agente de IA que trabalha sozinho por uma mensalidade fixa.</p>
 

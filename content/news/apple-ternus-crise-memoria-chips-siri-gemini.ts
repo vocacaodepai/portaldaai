@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-18",
   publishedAt: "2026-10-18T19:35:00-03:00",
   imageQuery: "John Ternus Apple",
+  coverImage: {
+    url: "/images/covers/apple-ternus-crise-memoria-chips-siri-gemini.webp",
+    width: 1280,
+    height: 720,
+    credit: "Amy Osborne / European Union (European Parliament) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AJohn%20Ternus%20-%2020260528%20(EP-206032A)%20(cropped).jpg",
+  },
   topic: "negocios",
   content: `
     <p>O novo CEO da Apple, John Ternus, deu uma entrevista à revista TIME na qual classificou a escassez de chips de memória como uma crise. Segundo o resumo publicado pelo <a href="https://thenextweb.com/news/john-ternus-time-interview-memory-crisis-iphone-duo" rel="noopener noreferrer nofollow">The Next Web</a>, que se baseia na conversa da TIME, Ternus disse que "as restrições de memória são absolutamente uma crise" e que "todas as opções devem estar na mesa" para lidar com o problema. Vale registrar que não conseguimos abrir a entrevista original da TIME, então os detalhes abaixo vêm do relato do The Next Web.</p>

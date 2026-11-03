@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T20:48:00-03:00",
   topic: "negocios",
   imageQuery: "Sam Altman portrait",
+  coverImage: {
+    url: "/images/covers/altman-openai-robos-construir-data-centers-cheeky-pint.webp",
+    width: 704,
+    height: 396,
+    credit: "Einstein00x (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACharles%20Kantor%20French%20Sam%20Altman%20Le%20Point.png",
+  },
   content: `
     <p>O presidente-executivo da OpenAI, Sam Altman, disse nesta quinta-feira, 29 de outubro de 2026, que a empresa pretende apontar o seu programa de robótica para a construção de data centers. A declaração veio no podcast Cheeky Pint, apresentado por John Collison, cofundador da Stripe, e foi resumida pelo The Next Web, que também cita a transcrição publicada pelo programa. Na conversa, Altman descreveu data centers que se replicam com a ajuda de robôs controlados por IA como algo "ao alcance" e passou por segurança de software, limites de modelos e matemática.</p>
 

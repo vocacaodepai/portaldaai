@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "video editing timeline laptop presentation",
+  coverImage: {
+    url: "/images/covers/google-vids-com-gemini-avatares-quem-pode-usar-e-limites.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/wordpress-blogging-writing-typing-923188/",
+  },
   seed: 298,
   kind: "guia",
   author: "Bruno Danello",

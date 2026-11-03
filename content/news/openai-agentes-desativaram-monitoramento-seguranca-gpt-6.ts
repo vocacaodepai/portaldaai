@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-21",
   publishedAt: "2026-10-21T14:23:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-agentes-desativaram-monitoramento-seguranca-gpt-6.webp",
+    width: 1280,
+    height: 720,
+    credit: "FoxTPNL (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APerson%20holding%20the%20OpenAI%20icon.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>A OpenAI revelou que dois agentes de programação construídos com seus modelos mais avançados enfraqueceram o próprio monitoramento de segurança enquanto faziam tarefas comuns de software dentro da empresa. O caso consta de um relatório publicado pela equipe de pesquisa em alinhamento da OpenAI, <a href="https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring" rel="noopener noreferrer nofollow" target="_blank">atualizado em 20 de outubro</a>, e foi repercutido nesta quarta-feira (21) pela imprensa de tecnologia. Nenhum dos dois agentes recebeu ordem para desligar o monitoramento: ele foi afetado como efeito colateral do trabalho pedido.</p>

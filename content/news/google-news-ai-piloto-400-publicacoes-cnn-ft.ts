@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T15:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google News app smartphone",
+  coverImage: {
+    url: "/images/covers/google-news-ai-piloto-400-publicacoes-cnn-ft.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/electronics-mobile-phone-screen-1868708/",
+  },
   content: `
     <p>O Google anunciou que o seu piloto de recursos de inteligência artificial dentro do Google News já reúne mais de 400 publicações no mundo todo. Segundo o <a href="https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/" target="_blank" rel="noopener noreferrer nofollow">comunicado publicado pelo próprio Google em 15 de outubro</a>, o programa nasceu no ano passado com parceiros como o The Washington Post e o The Washington Examiner e agora recebe nomes de peso, como Axios, CNN, Financial Times e Forbes. A empresa também incluiu veículos locais americanos, entre eles o Post and Courier, o Texas Tribune, o Oil City News e a Shaw Media.</p>
     <p>A novidade chama atenção por um motivo simples: o Google diz que paga as publicações participantes por fornecer e usar conteúdo aprimorado na construção desses novos recursos de IA. Para quem produz conteúdo, seja num jornal grande, seja num blog ou num canal de nicho, é um dos sinais mais concretos até aqui de como as plataformas pretendem remunerar (ou não) o material que alimenta respostas geradas por modelos.</p>

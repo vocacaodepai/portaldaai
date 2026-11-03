@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 6,
   imageQuery: "office team meeting laptop review",
+  coverImage: {
+    url: "/images/covers/responsabilidade-pela-entrega-do-agente-de-ia-no-trabalho-revisar-registrar-e-se-posicionar-na-equipe.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptops-meeting-businessmen-593296/",
+  },
   seed: 1092,
   kind: "guia",
   author: "Bruno Danello",

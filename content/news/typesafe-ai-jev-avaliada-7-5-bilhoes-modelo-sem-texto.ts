@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-09",
   publishedAt: "2026-10-10T19:48:00-03:00",
   imageQuery: "Andreessen Horowitz",
+  coverImage: {
+    url: "/images/covers/typesafe-ai-jev-avaliada-7-5-bilhoes-modelo-sem-texto.webp",
+    width: 1280,
+    height: 853,
+    credit: "Vice-Presidência da República (VPR) (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A2024-07-21%20Reuni%C3%A3o%20de%20Geraldo%20Alckmin%20com%20Ben%20Horowitz%2022.jpg",
+  },
   topic: "negocios",
   content: `
     <p>A TypeSafe AI, startup que desenvolve o modelo Jev, levantou US$ 870 milhões com avaliação de US$ 7,5 bilhões, informou o <a href="https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/" rel="noopener noreferrer nofollow">TechCrunch</a> em 9 de outubro de 2026. A rodada foi liderada pela Andreessen Horowitz (a16z), com participação da Sequoia e da DCVC, que já era investidora da empresa. O Jev foi lançado em 15 de setembro de 2026, ou seja, a avaliação chegou menos de um mês depois.</p>

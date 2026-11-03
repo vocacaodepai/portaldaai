@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T20:40:00-03:00",
   topic: "negocios",
   imageQuery: "Amazon Web Services data center",
+  coverImage: {
+    url: "/images/covers/amazon-linha-80-bilhoes-fornecedores-hardware-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "alvaroas8a0 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/parrot-macaw-head-beak-colorful-2756488/",
+  },
   content: `
     <p>A Amazon montou uma nova forma de pagar a corrida por infraestrutura de inteligência artificial: uma linha de financiamento de fornecedores que permite tomar emprestado até US$ 80 bilhões, tendo como garantia parte do próprio hardware de IA que a empresa compra. A informação foi publicada nesta sexta-feira, 30 de outubro de 2026, pelo The Next Web, que atribui a primeira notícia à Bloomberg e diz que a Amazon revelou o arranjo em seu relatório trimestral enviado à SEC, o órgão regulador do mercado de capitais dos Estados Unidos, depois do balanço de quinta-feira. Este texto é análise nossa a partir dessa reportagem.</p>
 

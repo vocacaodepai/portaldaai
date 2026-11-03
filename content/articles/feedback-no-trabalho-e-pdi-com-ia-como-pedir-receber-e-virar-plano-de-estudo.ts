@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "office conversation notebook development plan",
+  coverImage: {
+    url: "/images/covers/feedback-no-trabalho-e-pdi-com-ia-como-pedir-receber-e-virar-plano-de-estudo.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 847,
   kind: "guia",
   author: "Bruno Danello",

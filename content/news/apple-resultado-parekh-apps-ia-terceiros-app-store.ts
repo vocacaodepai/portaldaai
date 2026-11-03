@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T03:26:00-03:00",
   topic: "negocios",
   imageQuery: "Apple Park Cupertino aerial view",
+  coverImage: {
+    url: "/images/covers/apple-resultado-parekh-apps-ia-terceiros-app-store.webp",
+    width: 1280,
+    height: 960,
+    credit: "Nils Huenerfuerst (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AApple%20Park%20aerial%20view%2C%20June%202024.jpg",
+  },
   content: `
     <p>Depois da teleconferência de resultados da Apple na segunda-feira (2 de novembro), uma frase do diretor financeiro, Kevan Parekh, chamou a atenção do mercado: a empresa vê "oportunidades em apps de terceiros e parcerias, além de oportunidades próprias" ligadas à inteligência artificial. Ele não disse quais são essas oportunidades. A leitura vem da cobertura da TechCrunch, que cita também uma reportagem da Reuters sobre o que os investidores estariam se perguntando.</p>
 

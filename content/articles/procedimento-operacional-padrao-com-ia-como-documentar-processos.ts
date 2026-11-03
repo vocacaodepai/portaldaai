@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 6,
   imageQuery: "checklist clipboard workshop team",
+  coverImage: {
+    url: "/images/covers/procedimento-operacional-padrao-com-ia-como-documentar-processos.webp",
+    width: 1280,
+    height: 851,
+    credit: "jarmoluk / Pixabay",
+    creditUrl: "https://pixabay.com/photos/control-work-clerk-form-business-427510/",
+  },
   seed: 213,
   kind: "guia",
   author: "Bruno Danello",

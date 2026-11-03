@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "programmer laptop code office",
+  coverImage: {
+    url: "/images/covers/ia-vai-substituir-programadores-o-que-muda-ate-2030.webp",
+    width: 1280,
+    height: 854,
+    credit: "Innovalabs / Pixabay",
+    creditUrl: "https://pixabay.com/photos/software-developer-web-developer-6521720/",
+  },
   seed: 105,
   kind: "guia",
   author: "Bruno Danello",

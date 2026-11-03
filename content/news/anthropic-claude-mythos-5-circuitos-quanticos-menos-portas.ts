@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-19",
   publishedAt: "2026-10-19T22:22:39-03:00",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-claude-mythos-5-circuitos-quanticos-menos-portas.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   topic: "lancamentos",
   content: `
     <p>A Anthropic publicou, em 16 de outubro, um estudo em que o modelo Claude Mythos 5 desenhou circuitos quânticos mais eficientes do que os melhores projetos já divulgados em vários problemas. Segundo o <a href="https://www.anthropic.com/research/designing-efficient-quantum-circuits" rel="noopener noreferrer nofollow">post da Anthropic</a>, em alguns casos a melhoria foi de uma ordem de grandeza ou mais. O trabalho foi liderado por Andi Gu, do programa de bolsistas STEM da empresa, com mentoria de Alek Kemeny e colaboração de pesquisadores de Harvard e da QuEra Computing. Há também um artigo completo no arXiv.</p>

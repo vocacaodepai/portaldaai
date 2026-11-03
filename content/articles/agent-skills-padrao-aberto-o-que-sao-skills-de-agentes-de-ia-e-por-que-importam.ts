@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-01",
   readTime: 7,
   imageQuery: "folder documents checklist workflow",
+  coverImage: {
+    url: "/images/covers/agent-skills-padrao-aberto-o-que-sao-skills-de-agentes-de-ia-e-por-que-importam.webp",
+    width: 1280,
+    height: 854,
+    credit: "Angelo_Giordano / Pixabay",
+    creditUrl: "https://pixabay.com/photos/collector-documents-office-folder-3930337/",
+  },
   seed: 1028,
   kind: "guia",
   author: "Bruno Danello",

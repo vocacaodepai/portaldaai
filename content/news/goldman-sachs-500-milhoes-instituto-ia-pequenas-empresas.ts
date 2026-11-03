@@ -5,6 +5,13 @@ export const item: NewsItem = {
   title: "Goldman Sachs põe US$ 500 milhões em instituto de IA para pequenos negócios",
   topic: "negocios",
   imageQuery: "Goldman Sachs headquarters New York",
+  coverImage: {
+    url: "/images/covers/goldman-sachs-500-milhoes-instituto-ia-pequenas-empresas.webp",
+    width: 1280,
+    height: 720,
+    credit: "Eden, Janine and Jim from New York City (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoldman%20Sachs%20Headquarters%20(53876567922).jpg",
+  },
   publishedAt: "2026-10-25T02:22:00-03:00",
   summary:
     "Com Anthropic, Google, Meta e OpenAI, banco cria o Small Business AI Institute; pesquisa mostra 86% de uso de IA, mas só 15% com integração total.",

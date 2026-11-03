@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "office software laptop workspace desk",
+  coverImage: {
+    url: "/images/covers/microsoft-copilot-vale-a-pena-preco-2026.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coding-programming-working-macbook-924920/",
+  },
   seed: 108,
   kind: "guia",
   author: "Bruno Danello",

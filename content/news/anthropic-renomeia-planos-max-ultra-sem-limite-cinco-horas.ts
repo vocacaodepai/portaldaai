@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T11:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-renomeia-planos-max-ultra-sem-limite-cinco-horas.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic reorganizou os nomes dos planos mais caros do Claude e mexeu em uma regra que incomodava quem usa a ferramenta o dia inteiro. O plano de US$ 100 por mês, antes chamado Max 5x, passa a se chamar apenas Max. O de US$ 200 por mês, antes Max 20x, agora é o Ultra, e para contas verificadas ele deixa de ter o limite que zerava a cada cinco horas. Os preços não mudaram. A informação foi publicada neste domingo, 1º de novembro de 2026, pelo The Next Web, e confere com a página de preços da própria Anthropic, que consultamos para esta matéria.</p>
 

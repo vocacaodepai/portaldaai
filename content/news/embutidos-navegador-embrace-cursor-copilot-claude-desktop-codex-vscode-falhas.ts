@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T04:30:00-03:00",
   topic: "seguranca",
   imageQuery: "programador notebook código segurança",
+  coverImage: {
+    url: "/images/covers/embutidos-navegador-embrace-cursor-copilot-claude-desktop-codex-vscode-falhas.webp",
+    width: 1280,
+    height: 775,
+    credit: "congerdesign / Pixabay",
+    creditUrl: "https://pixabay.com/photos/pencil-notebook-crumpled-paper-1891732/",
+  },
   content: `
     <p>Cinco dos assistentes de programação com IA mais usados do mercado têm um ponto fraco em comum: o navegador que vem embutido dentro do aplicativo. É o que mostra uma pesquisa da empresa de segurança Forever Security, divulgada na quinta-feira (29) e detalhada pelo veículo The Register. As ferramentas atingidas são o Cursor, o GitHub Copilot, o Claude Desktop, o VS Code e o Codex, da OpenAI. Segundo a reportagem, as falhas ligadas ao Codex e ao VS Code continuam sem correção.</p>
 

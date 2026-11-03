@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T11:30:00-03:00",
   topic: "lancamentos",
   imageQuery: "computer vision camera robot",
+  coverImage: {
+    url: "/images/covers/elorian-glimpse-modelo-raciocina-com-imagens-seed-55-milhoes.webp",
+    width: 1280,
+    height: 853,
+    credit: "JESHOOTS-com / Pixabay",
+    creditUrl: "https://pixabay.com/photos/technology-camera-sport-laptop-2125547/",
+  },
   content: `
     <p>A Elorian, startup de inteligência artificial sediada em Palo Alto, na Califórnia, lançou na sexta-feira (16) o seu primeiro modelo, chamado Glimpse. Segundo reportagem da <a href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, o Glimpse está disponível como prévia de pesquisa, por API e por uma interface de chat, e foi desenhado para raciocinar com imagens, e não apenas sobre elas. A empresa é liderada por Andrew Dai, ex-pesquisador do Google DeepMind, e chega ao mercado com uma rodada seed de US$ 55 milhões, avaliada em US$ 300 milhões, levantada antes mesmo de ter produto.</p>
 

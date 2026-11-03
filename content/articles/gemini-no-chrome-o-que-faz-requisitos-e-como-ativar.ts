@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 6,
   imageQuery: "web browser address bar laptop",
+  coverImage: {
+    url: "/images/covers/gemini-no-chrome-o-que-faz-requisitos-e-como-ativar.webp",
+    width: 1280,
+    height: 792,
+    credit: "377053 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/macbook-laptop-google-display-459196/",
+  },
   seed: 210,
   kind: "guia",
   author: "Bruno Danello",

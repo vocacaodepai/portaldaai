@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-08",
   readTime: 9,
   imageQuery: "copyright law books desk",
+  coverImage: {
+    url: "/images/covers/ia-e-direitos-autorais-o-que-criadores-precisam-saber.webp",
+    width: 1280,
+    height: 720,
+    credit: "Célestin Nanteuil (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASeated%20Man%20with%20Quill%20in%20his%20Right%20Hand%20at%20Desk%20Littered%20with%20Books%20MET%20DP882978.jpg",
+  },
   seed: 180,
   kind: "guia",
   author: "Bruno Danello",

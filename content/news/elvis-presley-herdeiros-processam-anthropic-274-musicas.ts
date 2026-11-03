@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T00:40:00-03:00",
   topic: "regulacao",
   imageQuery: "Elvis Presley portrait",
+  coverImage: {
+    url: "/images/covers/elvis-presley-herdeiros-processam-anthropic-274-musicas.webp",
+    width: 1280,
+    height: 720,
+    credit: "20th Century Fox (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AElvis%20Presley%20Love%20Me%20Tender%20promotional%20portrait.png",
+  },
   content: `
     <p>A Authentic Brands Group, empresa de licenciamento que controla tanto o catálogo musical quanto a imagem de Elvis Presley, abriu um processo contra a Anthropic, dona do Claude. A ação, protocolada na sexta-feira (23 de outubro) e revelada primeiro pela Billboard, acusa a empresa de usar 274 músicas do Rei do Rock para treinar seus modelos de IA sem permissão. A informação consta na <a href="https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music" rel="noopener noreferrer nofollow">reportagem do The Guardian</a>, publicada neste domingo (25 de outubro), e foi repercutida por veículos como a Rolling Stone, a NBC News e o Hollywood Reporter.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-24T18:25:00-03:00",
   topic: "seguranca",
   imageQuery: "Tapan Parikh Cornell Tech",
+  coverImage: {
+    url: "/images/covers/ia-recomenda-candidatos-grok-republicano-gpt-democrata-estudo.webp",
+    width: 1280,
+    height: 853,
+    credit: "EliFrancis / Pixabay",
+    creditUrl: "https://pixabay.com/photos/books-stack-book-store-1163695/",
+  },
   content: `
     <p>Dois dos modelos de IA mais usados do mercado, quando obrigados a escolher um candidato, tomam lados quase opostos. É o que mostra um estudo noticiado neste sábado (24) pelo <a href="https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, feito pela Convovo, um estúdio de pesquisa e design de IA conversacional liderado por Tapan Parikh, professor da Universidade Cornell. O Grok 4.7, da SpaceXAI, recomendou o candidato republicano em 92% das respostas. O GPT-6.1 Sol, da OpenAI, apontou o democrata em 97%.</p>
 

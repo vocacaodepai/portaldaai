@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "video editing timeline clips smartphone screen",
+  coverImage: {
+    url: "/images/covers/opus-clip-ou-vizard-qual-ia-corta-videos-em-clipes-virais.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+  },
   seed: 173,
   kind: "guia",
   author: "Bruno Danello",

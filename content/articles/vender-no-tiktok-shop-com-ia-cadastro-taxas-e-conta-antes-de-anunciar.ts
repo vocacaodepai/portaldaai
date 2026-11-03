@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "smartphone live selling products table",
+  coverImage: {
+    url: "/images/covers/vender-no-tiktok-shop-com-ia-cadastro-taxas-e-conta-antes-de-anunciar.webp",
+    width: 1280,
+    height: 853,
+    credit: "SplitShire / Pixabay",
+    creditUrl: "https://pixabay.com/photos/smartphone-hands-screen-407108/",
+  },
   seed: 1103,
   kind: "guia",
   author: "Bruno Danello",

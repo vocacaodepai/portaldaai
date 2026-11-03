@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T13:22:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/gartner-custo-agentes-ia-quintuplica-2028.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A consultoria Gartner projeta que o custo de inferência por fluxo de trabalho com inteligência artificial agêntica vai crescer mais de cinco vezes até 2028, mesmo com o preço do token continuando a cair. A previsão aparece em reportagem publicada em 16 de outubro pelo <a href="https://venturebeat.com/orchestration/gartner-says-agent-costs-will-rise-fivefold-by-2028-even-as-tokens-get-cheaper-here-is-how-to-keep-them-in-check" target="_blank" rel="noopener noreferrer nofollow">VentureBeat</a>, assinada por Sean Michael Kerner, e vem do chamado Tokenomics Forecast da Gartner, um modelo econométrico que usa mais de 300 variáveis. Para quem usa agentes de IA para trabalhar ou toca um pequeno negócio, o recado é direto: a conta de IA pode subir justamente quando tudo parece ficar mais barato.</p>
 

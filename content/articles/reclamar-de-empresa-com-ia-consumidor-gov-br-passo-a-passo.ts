@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "customer complaint laptop papers desk",
+  coverImage: {
+    url: "/images/covers/reclamar-de-empresa-com-ia-consumidor-gov-br-passo-a-passo.webp",
+    width: 1280,
+    height: 853,
+    credit: "markusspiske / Pixabay",
+    creditUrl: "https://pixabay.com/photos/home-office-laptop-notebook-startup-599475/",
+  },
   seed: 230,
   kind: "guia",
   author: "Bruno Danello",

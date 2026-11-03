@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-08",
   readTime: 9,
   imageQuery: "magnifying glass checking document",
+  coverImage: {
+    url: "/images/covers/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa.webp",
+    width: 1280,
+    height: 754,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/audit-auditor-analysis-examination-4190944/",
+  },
   seed: 184,
   kind: "guia",
   author: "Bruno Danello",

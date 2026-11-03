@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T20:30:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "ServiceNow logo",
+  coverImage: {
+    url: "/images/covers/servicenow-employeeworks-agentes-sem-codigo-toolsmith.webp",
+    width: 1280,
+    height: 720,
+    credit: "The original uploader was Whoisjohngalt at English Wikipedia. (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AServiceNow%20Logo%202018.png",
+  },
   content: `
     <p>A ServiceNow anunciou, em 16 de outubro, uma atualização grande do EmployeeWorks, a plataforma de experiência do funcionário que, segundo a empresa, agora roda sobre uma terceira geração de "harness" de IA centrado no colaborador. Como informou a <a href="https://cxotoday.com/media-coverage/servicenow-debuts-3rd-gen-employee-ai-harness-to-democratize-no-code-enterprise-agentic-workflows" target="_blank" rel="noopener noreferrer nofollow">CXOtoday</a>, a novidade permite que pessoas sem formação técnica montem seus próprios agentes de IA dentro de regras definidas pelo time de TI, e que desenvolvedores criem as ferramentas usadas por esses agentes com um novo ambiente chamado ToolSmith.</p>
 

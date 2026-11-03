@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T16:40:00-03:00",
   topic: "regulacao",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-model-spec-cinco-valores-fidelidade-intencao.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   content: `
     <p>A OpenAI anunciou nesta quinta-feira, 29 de outubro de 2026, uma reescrita completa do Model Spec, o documento público que descreve como seus modelos devem se comportar. A nova versão organiza todas as regras em torno de cinco valores, tira da frente a maior parte das orientações de estilo e passa a chamar o modelo de "GPT" onde antes o texto dizia "o assistente". A informação é do The Next Web. Para quem usa o ChatGPT no trabalho, em atendimento ou em automações, o documento é a referência de por que a IA responde como responde e do que dá para ajustar.</p>
 

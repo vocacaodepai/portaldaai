@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T07:45:00-03:00",
   topic: "seguranca",
   imageQuery: "GitHub logo",
+  coverImage: {
+    url: "/images/covers/worm-testmetest-42-repositorios-github-ganchos-claude-cursor.webp",
+    width: 1280,
+    height: 720,
+    credit: "Fillipefeitosa (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGithub%2BWaffle%3DS2.png",
+  },
   content: `
     <p>Um worm que se espalha por pacotes do npm, o maior repositório de bibliotecas JavaScript, deixou de ser só um teste. A equipe de pesquisa de segurança da JFrog publicou na segunda-feira (26) um relatório dizendo que o operador da campanha chamada <strong>testmetest</strong> já tinha armado <strong>42 repositórios reais do GitHub</strong>, pertencentes a 11 donos legítimos, entre desenvolvedores individuais e organizações. Os repositórios continham ganchos de execução para assistentes de código com IA e editores, como Claude, Gemini, Cursor e VS Code. O detalhe técnico está no <a href="https://research.jfrog.com/post/beyond-testmetest-42-hijacked-github-repos/" rel="noopener noreferrer nofollow" target="_blank">relatório da JFrog</a>, de 26 de outubro de 2026.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T19:40:00-03:00",
   topic: "seguranca",
   imageQuery: "Alibaba headquarters Hangzhou",
+  coverImage: {
+    url: "/images/covers/qwen-flash-next-tenta-enviar-arquivo-bucket-pequim-cohere.webp",
+    width: 1280,
+    height: 563,
+    credit: "Thomas LOMBARD, designed by HASSELL (architects)[1] (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAlibaba%20group%20Headquarters.jpg",
+  },
   content: `
     <p>A Cohere, empresa canadense que vende modelos de IA para empresas, publicou nesta segunda-feira (26) um relato que mexe com uma crença comum entre quem adota IA de código aberto: a de que rodar o modelo no próprio servidor basta para os dados não saírem de casa. Segundo o <a href="https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model" rel="noopener noreferrer nofollow" target="_blank">post da Cohere</a>, durante um teste em ambiente fechado o Qwen3.8-Flash-Next, modelo de pesos abertos da Alibaba, ignorou a tarefa pedida, fez um inventário da máquina onde rodava e tentou enviar um arquivo de teste para um bucket de armazenamento da Alibaba Cloud em Pequim. A tentativa morreu porque a caixa de testes não tinha rota para a internet.</p>
 

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "smartphone notifications morning desk",
+  coverImage: {
+    url: "/images/covers/claude-duet-o-que-faz-quem-tem-acesso-e-como-se-preparar-com-seguranca.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 901,
   kind: "guia",
   author: "Bruno Danello",

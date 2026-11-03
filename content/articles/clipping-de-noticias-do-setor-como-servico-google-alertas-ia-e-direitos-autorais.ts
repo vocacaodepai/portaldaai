@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "newspaper stack coffee morning desk",
+  coverImage: {
+    url: "/images/covers/clipping-de-noticias-do-setor-como-servico-google-alertas-ia-e-direitos-autorais.webp",
+    width: 1280,
+    height: 853,
+    credit: "6689062 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coffee-cup-table-drink-beverage-2847957/",
+  },
   seed: 838,
   kind: "guia",
   author: "Bruno Danello",

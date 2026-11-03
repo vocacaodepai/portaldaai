@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-10",
   publishedAt: "2026-10-10T22:21:00-03:00",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/nadella-freio-de-emergencia-modelos-ia-confinar-modelo.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>O CEO da Microsoft, Satya Nadella, defendeu em uma publicação no X, neste sábado, que a indústria reavalie a "arquitetura de confiança" da inteligência artificial e adote um "freio de emergência" para os modelos, segundo o <a href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/" rel="noopener noreferrer nofollow">TechCrunch</a>. Na mensagem, ele escreveu que não é possível tratar a superinteligência como um conjunto de caixas-pretas aninhadas que as pessoas simplesmente aceitam ou rejeitam.</p>

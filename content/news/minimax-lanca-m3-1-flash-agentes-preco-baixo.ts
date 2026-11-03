@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T15:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "MiniMax logo",
+  coverImage: {
+    url: "/images/covers/minimax-lanca-m3-1-flash-agentes-preco-baixo.webp",
+    width: 481,
+    height: 518,
+    credit: "MiniMax (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMiniMax.png",
+  },
   content: `
     <p>A MiniMax, empresa chinesa de inteligência artificial, lançou nesta segunda-feira (19) o M3.1 Flash, um modelo pensado para rodar agentes de IA de forma rápida e barata. Segundo o <a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer nofollow">anúncio publicado pela própria MiniMax</a>, o modelo já está disponível na API da empresa, no plano M Plan e na ferramenta MiniMax Code. Os pesos do modelo, ou seja, os arquivos que permitem rodá-lo por conta própria, ainda não saíram: a página diz apenas que serão liberados mais tarde.</p>
 

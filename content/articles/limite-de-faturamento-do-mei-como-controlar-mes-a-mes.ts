@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "calculator receipts desk small shop",
+  coverImage: {
+    url: "/images/covers/limite-de-faturamento-do-mei-como-controlar-mes-a-mes.webp",
+    width: 1280,
+    height: 807,
+    credit: "Mohamed_hassan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3213924/",
+  },
   seed: 285,
   kind: "guia",
   author: "Bruno Danello",

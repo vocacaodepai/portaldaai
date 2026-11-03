@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "business proposal document laptop meeting",
+  coverImage: {
+    url: "/images/covers/propostas-comerciais-com-ia-como-fechar-mais-contratos.webp",
+    width: 1280,
+    height: 807,
+    credit: "Mohamed_hassan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3213924/",
+  },
   seed: 117,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "doctor stethoscope tablet patient consultation",
+  coverImage: {
+    url: "/images/covers/medicos-e-ia-o-que-a-resolucao-do-cfm-exige-do-medico-e-do-paciente.webp",
+    width: 1280,
+    height: 854,
+    credit: "fernandozhiminaicela / Pixabay",
+    creditUrl: "https://pixabay.com/photos/treatment-hospital-clinic-medicine-4099432/",
+  },
   seed: 815,
   kind: "guia",
   author: "Bruno Danello",

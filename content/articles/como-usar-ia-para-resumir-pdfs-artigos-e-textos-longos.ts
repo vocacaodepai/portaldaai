@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 7,
   imageQuery: "person reading laptop documents desk",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-resumir-pdfs-artigos-e-textos-longos.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 150,
   kind: "guia",
   author: "Bruno Danello",

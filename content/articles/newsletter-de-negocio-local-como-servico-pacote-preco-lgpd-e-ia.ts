@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 8,
   imageQuery: "freelancer writing email newsletter laptop cafe",
+  coverImage: {
+    url: "/images/covers/newsletter-de-negocio-local-como-servico-pacote-preco-lgpd-e-ia.webp",
+    width: 1280,
+    height: 854,
+    credit: "Engin_Akyurt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coffee-caffeine-beverage-table-2425303/",
+  },
   seed: 1095,
   kind: "guia",
   author: "Bruno Danello",

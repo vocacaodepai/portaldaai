@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "business competitor analysis dashboard screen",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores.webp",
+    width: 1280,
+    height: 960,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/blur-chart-computer-data-finance-1853262/",
+  },
   seed: 88,
   kind: "guia",
   author: "Bruno Danello",

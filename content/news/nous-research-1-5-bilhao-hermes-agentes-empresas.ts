@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T19:22:20-03:00",
   imageQuery: "Nvidia logo",
+  coverImage: {
+    url: "/images/covers/nous-research-1-5-bilhao-hermes-agentes-empresas.webp",
+    width: 600,
+    height: 450,
+    credit: "John000823 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ALogo-nvidia-transparent-PNG.png",
+  },
   topic: "negocios",
   content: `
     <p>A Nous Research, desenvolvedora do agente de código aberto Hermes Agent, confirmou nesta quarta-feira (7) uma rodada Série B de US$ 90 milhões com avaliação de US$ 1,5 bilhão. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Marina Temkin, a empresa confirma informações que o próprio veículo havia adiantado em 13 de julho de 2026.</p>

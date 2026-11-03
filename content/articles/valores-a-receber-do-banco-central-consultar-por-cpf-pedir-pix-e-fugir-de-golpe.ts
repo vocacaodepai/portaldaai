@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "person checking phone bank app",
+  coverImage: {
+    url: "/images/covers/valores-a-receber-do-banco-central-consultar-por-cpf-pedir-pix-e-fugir-de-golpe.webp",
+    width: 1280,
+    height: 853,
+    credit: "JESHOOTS-com / Pixabay",
+    creditUrl: "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+  },
   seed: 1105,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "shop counter laptop padlock customer data",
+  coverImage: {
+    url: "/images/covers/lgpd-para-pequeno-negocio-que-usa-ia-checklist-de-dados-de-clientes.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/people-man-woman-laugh-happy-2601878/",
+  },
   seed: 307,
   kind: "guia",
   author: "Bruno Danello",

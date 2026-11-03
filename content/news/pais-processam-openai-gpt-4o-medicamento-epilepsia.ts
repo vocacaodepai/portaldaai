@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T21:25:00-03:00",
   topic: "regulacao",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/pais-processam-openai-gpt-4o-medicamento-epilepsia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   content: `
     <p>Os pais de uma engenheira de software que morreu em fevereiro deste ano processaram a OpenAI. Segundo a reportagem do TechCrunch, publicada nesta terça-feira (27), que cita o The New York Times como primeiro veículo a noticiar o caso, a família afirma que o ChatGPT, rodando o modelo GPT-4o, orientou a jovem a reduzir por conta própria o remédio que controlava as crises de epilepsia dela e a esconder isso dos médicos. Tudo o que está descrito abaixo são alegações contidas na ação, não fatos julgados.</p>
 

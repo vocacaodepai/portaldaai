@@ -10,6 +10,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T18:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-chatgpt-junta-abas-chat-work-codex-fica-separado.webp",
+    width: 1280,
+    height: 970,
+    credit: "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever (MIT) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Whisper%20architecture.png",
+  },
   date: "2026-11-02",
   content: `
     <p>A OpenAI vai juntar, no aplicativo de computador do ChatGPT, as abas Chat e Work em uma experiência única. A informação vem de um e-mail enviado aos usuários, segundo reportagem publicada pelo TechCrunch nesta segunda-feira (2). Hoje o app tem duas grandes áreas, ChatGPT e Codex, e a parte do ChatGPT ainda se divide entre conversar (Chat) e executar tarefas (Work). A mudança tira essa divisão de dentro do ChatGPT, mas mantém o Codex como um espaço à parte.</p>

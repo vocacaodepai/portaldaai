@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-20T12:35:00-03:00",
   topic: "negocios",
   imageQuery: "Dylan Field Figma CEO",
+  coverImage: {
+    url: "/images/covers/figma-dylan-field-mcp-nao-e-protocolo-perfeito-20-parceiros.webp",
+    width: 1280,
+    height: 853,
+    credit: "TechCrunch (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADylan%20Field%20TechCrunch%20Disrupt%202022%201435088540.jpg",
+  },
   content: `
     <p>O Figma ampliou o suporte ao Model Context Protocol (MCP), o padrão aberto que define como agentes de IA se conectam a dados e ferramentas externas, e ao mesmo tempo ouviu do próprio cofundador e CEO, Dylan Field, que o protocolo está longe de ser perfeito. Segundo o <a href="https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em reportagem de Ivan Mehta publicada em 20 de outubro, a empresa anunciou 20 novos parceiros de MCP durante a primeira edição da sua conferência Config realizada na Índia.</p>
 

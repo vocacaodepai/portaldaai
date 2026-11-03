@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T16:52:00-03:00",
   topic: "lancamentos",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-gpt-6-1-terra-modelo-uso-de-computador-metade-preco-sol.webp",
+    width: 1280,
+    height: 720,
+    credit: "FoxTPNL (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APerson%20holding%20the%20OpenAI%20icon.jpg",
+  },
   content: `
     <p>A OpenAI colocou no ar nesta segunda-feira (26) o GPT-6.1 Terra, um modelo descrito pela própria empresa como "rápido e eficiente para raciocínio visual, uso preciso de computador e escrita clara e natural". Na <a href="https://developers.openai.com/api/docs/models/gpt-6.1-terra" target="_blank" rel="noopener noreferrer nofollow">página do modelo na documentação da API</a>, a OpenAI lista o identificador gpt-6.1-terra, o preço de US$ 1 por milhão de tokens de entrada e US$ 5 por milhão de saída, uma janela de contexto de 1.050.000 tokens e conhecimento até 1º de junho de 2026. A empresa também publicou o <a href="https://deploymentsafety.openai.com/gpt-6-1-terra" target="_blank" rel="noopener noreferrer nofollow">adendo ao cartão de sistema do GPT-6 Astra</a> com as avaliações de segurança do novo modelo.</p>
 

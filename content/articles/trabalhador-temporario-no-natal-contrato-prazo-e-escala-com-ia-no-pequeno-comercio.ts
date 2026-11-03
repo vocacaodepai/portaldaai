@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "retail store staff christmas shelves",
+  coverImage: {
+    url: "/images/covers/trabalhador-temporario-no-natal-contrato-prazo-e-escala-com-ia-no-pequeno-comercio.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/hangers-clothing-shopping-market-1850082/",
+  },
   seed: 833,
   kind: "guia",
   author: "Bruno Danello",

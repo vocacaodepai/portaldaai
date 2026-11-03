@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T07:23:45-03:00",
   topic: "lancamentos",
   imageQuery: "Panos Panay portrait",
+  coverImage: {
+    url: "/images/covers/amazon-bee-frontier-eclipse-pulseira-ia-panay.webp",
+    width: 750,
+    height: 747,
+    credit: "Kimberly Thompson Panay (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APanos%20Panay.jpg",
+  },
   content: `
     <p>A Amazon apresentou na quinta-feira (15) dois novos dispositivos vestíveis com inteligência artificial da linha Bee, a startup de São Francisco que a empresa comprou em julho de 2025. A informação aparece na <a href="https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em texto de Sarah Perez sobre a palestra de Panos Panay, vice-presidente sênior de Dispositivos, Alexa e Leo da Amazon, no evento TechCrunch Disrupt. Os aparelhos ouvem o que acontece ao redor e transformam as conversas em anotações, lembretes e listas de tarefas.</p>
 

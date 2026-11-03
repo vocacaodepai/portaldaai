@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T20:27:00-03:00",
   topic: "negocios",
   imageQuery: "Elon Musk portrait",
+  coverImage: {
+    url: "/images/covers/musk-spacex-cobre-erros-compra-grok-bot.webp",
+    width: 1280,
+    height: 720,
+    credit: "U.S. Air Force / Trevor Cokley (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AElon%20Musk%20Colorado%202022%20(cropped2).jpg",
+  },
   content: `
     <p>Elon Musk prometeu publicamente, em uma resposta no X, que a SpaceX vai "deixar você inteiro" se o Grok Bot errar uma compra ou vazar o cartão de crédito de alguém. A promessa, segundo a <a href="https://thenextweb.com/news/musk-grok-bot-credit-card-spacex-make-you-whole" target="_blank" rel="noopener noreferrer nofollow">cobertura do The Next Web</a>, veio depois de um usuário dizer que o agente reservou um voo para ele após receber a foto do seu cartão. O problema é que o texto dos termos de uso da própria empresa diz algo bem diferente, e é essa distância entre o post e o contrato que interessa a quem pensa em deixar um agente de IA gastar dinheiro por conta própria.</p>
 

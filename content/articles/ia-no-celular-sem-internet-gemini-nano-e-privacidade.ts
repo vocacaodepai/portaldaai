@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "smartphone chip processor circuit closeup",
+  coverImage: {
+    url: "/images/covers/ia-no-celular-sem-internet-gemini-nano-e-privacidade.webp",
+    width: 1280,
+    height: 720,
+    credit: "Monoar_CGI_Artist / Pixabay",
+    creditUrl: "https://pixabay.com/photos/processor-mobile-snapdragon-4987614/",
+  },
   seed: 283,
   kind: "guia",
   author: "Bruno Danello",

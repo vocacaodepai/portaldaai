@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-08",
   readTime: 7,
   imageQuery: "podcast microphone headphones studio",
+  coverImage: {
+    url: "/images/covers/elevenlabs-vale-a-pena-vozes-em-portugues-precos.webp",
+    width: 1280,
+    height: 853,
+    credit: "melojordan94 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/microphone-music-rec-studio-shure-7495739/",
+  },
   seed: 183,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T06:48:00-03:00",
   topic: "lancamentos",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/deepseek-search-fetch-api-preco-por-busca.webp",
+    width: 1280,
+    height: 720,
+    credit: "PantheraLeo1359531 (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20%E2%80%93%20zuk%C3%BCnftige%20autorit%C3%A4re%20Systeme%2020250324.jpg",
+  },
   content: `
     <p>A DeepSeek abriu para desenvolvedores externos o sistema de busca na web que alimenta o seu próprio aplicativo. Segundo a <a href="https://api-docs.deepseek.com/zh-cn/guides/search" target="_blank" rel="noopener noreferrer nofollow">documentação oficial da DeepSeek</a>, são duas APIs novas: a Search, que devolve resultados ranqueados de uma pesquisa, e a Fetch, que recebe o endereço de uma página e devolve o conteúdo dela em Markdown, um formato de texto simples que modelos de IA leem com facilidade. O preço informado é de 5 yuans a cada 1.000 requisições bem-sucedidas em cada uma, o que o relato do site <a href="https://sessionwatcher.com/news/deepseek-search-fetch-api-pricing-claude-code-codex-web-search" target="_blank" rel="noopener noreferrer nofollow">SessionWatcher</a> converte para cerca de US$ 0,75.</p>
 

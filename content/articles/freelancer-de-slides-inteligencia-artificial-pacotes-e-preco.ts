@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "designer desk laptop slide deck coffee",
+  coverImage: {
+    url: "/images/covers/freelancer-de-slides-inteligencia-artificial-pacotes-e-preco.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-start-up-people-593341/",
+  },
   seed: 284,
   kind: "guia",
   author: "Bruno Danello",

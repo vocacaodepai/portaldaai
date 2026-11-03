@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 8,
   imageQuery: "translation document laptop desk",
+  coverImage: {
+    url: "/images/covers/traduzir-documentos-com-ia-como-ganhar-dinheiro.webp",
+    width: 1280,
+    height: 807,
+    credit: "Mohamed_hassan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3213924/",
+  },
   seed: 106,
   kind: "guia",
   author: "Bruno Danello",

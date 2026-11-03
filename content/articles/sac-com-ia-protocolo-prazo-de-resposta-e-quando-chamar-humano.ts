@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "customer support headset desk laptop",
+  coverImage: {
+    url: "/images/covers/sac-com-ia-protocolo-prazo-de-resposta-e-quando-chamar-humano.webp",
+    width: 1280,
+    height: 853,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/webinar-video-conference-skype-4216601/",
+  },
   seed: 280,
   kind: "guia",
   author: "Bruno Danello",

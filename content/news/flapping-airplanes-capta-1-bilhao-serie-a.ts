@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T23:30:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center GPU",
+  coverImage: {
+    url: "/images/covers/flapping-airplanes-capta-1-bilhao-serie-a.webp",
+    width: 1280,
+    height: 853,
+    credit: "LauraTara / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mining-ethereum-market-digital-2648005/",
+  },
   content: `
     <p>O Flapping Airplanes, laboratório de inteligência artificial fundado há cerca de um ano, anunciou nesta quarta-feira, 21 de outubro de 2026, uma rodada Série A de US$ 1 bilhão, coliderada pelos fundos Index e Lux. A informação foi publicada pelo <a href="https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, que cita a Bloomberg para a avaliação de US$ 6 bilhões. A cifra é quatro vezes a de janeiro, quando a empresa levantou uma rodada semente de US$ 180 milhões avaliada em US$ 1,5 bilhão.</p>
 

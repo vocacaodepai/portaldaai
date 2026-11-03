@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 9,
   imageQuery: "small business owner smartphone customer chat",
+  coverImage: {
+    url: "/images/covers/como-automatizar-atendimento-no-whatsapp-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "niekverlaan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telephone-mobile-call-samsung-586268/",
+  },
   seed: 102,
   kind: "guia",
   author: "Bruno Danello",

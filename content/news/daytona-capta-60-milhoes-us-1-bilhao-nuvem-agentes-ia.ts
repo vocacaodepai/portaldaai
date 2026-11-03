@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T01:27:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/daytona-capta-60-milhoes-us-1-bilhao-nuvem-agentes-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A Daytona, startup de infraestrutura para agentes de IA, anunciou em 20 de outubro de 2026 uma rodada Série B de US$ 60 milhões, que a avalia em US$ 1 bilhão. A informação foi publicada pelo <a href="https://techfundingnews.com/daytona-raises-60m-at-1b-valuation-to-build-a-cloud-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">Tech Funding News</a>. A rodada foi liderada pela FirstMark Growth e leva o total captado pela empresa a US$ 91 milhões. O recado do mercado é que, além de modelos e aplicativos, existe dinheiro grande para quem fornece o "chão" onde os agentes de IA trabalham.</p>
 

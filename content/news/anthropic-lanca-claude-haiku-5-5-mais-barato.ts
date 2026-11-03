@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T19:22:20-03:00",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-lanca-claude-haiku-5-5-mais-barato.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   topic: "lancamentos",
   content: `
     <p>A Anthropic lançou nesta quarta-feira (7) o Claude Haiku 5.5, que a empresa descreve como "o modelo pequeno mais barato, mais rápido e mais capaz que já lançamos". Segundo o <a href="https://www.anthropic.com/claude-haiku-5-5" target="_blank" rel="noopener noreferrer nofollow">anúncio oficial</a>, o modelo foi pensado para trabalho de alto volume e sensível a custo, como resumos, compactação de contexto, consultas a bancos de dados e classificação. Ele também pode atuar como subagente ao lado do Opus 5.5 e do Sonnet 5.5 em tarefas de programação.</p>

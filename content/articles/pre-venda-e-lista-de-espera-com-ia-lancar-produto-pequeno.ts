@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "small business packages shipping table",
+  coverImage: {
+    url: "/images/covers/pre-venda-e-lista-de-espera-com-ia-lancar-produto-pequeno.webp",
+    width: 1280,
+    height: 853,
+    credit: "konkapo / Pixabay",
+    creditUrl: "https://pixabay.com/photos/small-business-e-commerce-10207329/",
+  },
   seed: 302,
   kind: "guia",
   author: "Bruno Danello",

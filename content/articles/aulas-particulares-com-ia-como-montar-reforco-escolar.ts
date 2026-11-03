@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-10",
   readTime: 6,
   imageQuery: "tutor student desk notebook lesson",
+  coverImage: {
+    url: "/images/covers/aulas-particulares-com-ia-como-montar-reforco-escolar.webp",
+    width: 1280,
+    height: 853,
+    credit: "kaboompics / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-write-notepad-girl-female-792162/",
+  },
   seed: 193,
   kind: "guia",
   author: "Bruno Danello",

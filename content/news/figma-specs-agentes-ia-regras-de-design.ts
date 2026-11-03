@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-15",
   publishedAt: "2026-10-15T02:21:36-03:00",
   imageQuery: "Figma logo",
+  coverImage: {
+    url: "/images/covers/figma-specs-agentes-ia-regras-de-design.webp",
+    width: 166,
+    height: 80,
+    credit: "w:Good Smile Company (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AFigma%20Series%20Logo.jpg",
+  },
   topic: "lancamentos",
   faq: [
     {

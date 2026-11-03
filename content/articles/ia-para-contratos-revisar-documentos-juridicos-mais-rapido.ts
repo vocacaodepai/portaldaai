@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "contract document review desk pen",
+  coverImage: {
+    url: "/images/covers/ia-para-contratos-revisar-documentos-juridicos-mais-rapido.webp",
+    width: 1280,
+    height: 961,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/notebook-notes-pen-writing-diary-1840276/",
+  },
   seed: 84,
   kind: "guia",
   author: "Bruno Danello",

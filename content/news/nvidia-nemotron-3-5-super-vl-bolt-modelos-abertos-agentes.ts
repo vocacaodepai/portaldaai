@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T21:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "Nvidia headquarters",
+  coverImage: {
+    url: "/images/covers/nvidia-nemotron-3-5-super-vl-bolt-modelos-abertos-agentes.webp",
+    width: 1280,
+    height: 1041,
+    credit: "Will Buckner (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANvidia%20sign.jpg",
+  },
   content: `
     <p>A Nvidia apresentou em 15 de outubro a nova leva da família Nemotron 3.5, três modelos de IA com pesos abertos pensados para rodar agentes em data centers, em estações de trabalho e em dispositivos de borda. Segundo o <a href="https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/" target="_blank" rel="noopener noreferrer nofollow">blog oficial da Nvidia</a>, assinado por Kari Briski, o grupo reúne o Nemotron 3.5 Super VL, o Bolt 74B-A9B e o Bolt E4B. A empresa, mais conhecida por vender chips, tenta ocupar também o espaço dos modelos que ficam sob controle de quem os usa.</p>
 

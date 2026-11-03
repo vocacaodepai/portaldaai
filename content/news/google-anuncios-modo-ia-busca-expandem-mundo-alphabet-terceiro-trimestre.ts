@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T23:35:00-03:00",
   topic: "negocios",
   imageQuery: "Sundar Pichai portrait",
+  coverImage: {
+    url: "/images/covers/google-anuncios-modo-ia-busca-expandem-mundo-alphabet-terceiro-trimestre.webp",
+    width: 640,
+    height: 428,
+    credit: "Consulate General of Indonesia in San Francisco (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AJokowi%20and%20Sundar%20Pichai%20Googleplex.jpg",
+  },
   content: `
     <p>O Google vai levar para o resto do mundo os anúncios que aparecem dentro das experiências de busca com inteligência artificial. O anúncio saiu na quarta-feira, 28 de outubro de 2026, durante a teleconferência de resultados do terceiro trimestre da Alphabet, controladora do Google. Segundo o TechCrunch, Philipp Schindler, diretor de negócios da empresa, afirmou que a iniciativa inclui "levar nossa pegada de monetização para o mundo todo pela primeira vez". Ele também citou a expansão dos anúncios no Modo IA para mercados internacionais, junto com anúncios de múltiplas interações e o Modo IA nos Estados Unidos.</p>
 

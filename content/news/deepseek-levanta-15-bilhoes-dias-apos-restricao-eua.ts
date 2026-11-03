@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-22",
   publishedAt: "2026-10-22T22:23:00-03:00",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/deepseek-levanta-15-bilhoes-dias-apos-restricao-eua.webp",
+    width: 1280,
+    height: 720,
+    credit: "RoadMaster19 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20purple.png",
+  },
   topic: "negocios",
   content: `
     <p>A DeepSeek, startup chinesa de inteligência artificial sediada em Hangzhou, levantou cerca de US$ 15 bilhões (aproximadamente 100 bilhões de yuans) numa nova rodada de financiamento, segundo reportagem da Bloomberg repercutida pelo <a href="https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/" rel="noopener noreferrer nofollow">TechCrunch</a> nesta quinta-feira (22). O valor colocaria a captação entre as maiores já feitas por uma empresa chinesa de tecnologia. A DeepSeek não respondeu de imediato ao pedido de comentário do veículo e, até aqui, não há anúncio oficial da companhia.</p>

@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "short video content creator phone editing",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-criando-videos-curtos-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Sunriseforever / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-screen-tv-social-media-6977452/",
+  },
   seed: 87,
   kind: "guia",
   author: "Bruno Danello",

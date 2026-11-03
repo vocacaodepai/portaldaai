@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-07T05:30:00-03:00",
   imageQuery: "content moderation chat messages smartphone screen",
+  coverImage: {
+    url: "/images/covers/musubi-policylm-moderacao-conteudo-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "LoboStudioHamburg / Pixabay",
+    creditUrl: "https://pixabay.com/photos/internet-whatsapp-smartphone-3113279/",
+  },
   topic: "seguranca",
   content: `
     <p>A startup americana Musubi anunciou nesta terça-feira (6) a PolicyLM-1.7B, um "modelo de decisão" de inteligência artificial feito especificamente para moderação de conteúdo em tempo real. Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, o modelo foi lançado com pesos abertos e consegue aplicar políticas de conteúdo escritas em linguagem comum a mensagens em menos de 50 milissegundos, velocidade compatível com os classificadores de IA que plataformas de rede social já usam hoje para filtrar spam, discurso de ódio e outros conteúdos proibidos.</p>

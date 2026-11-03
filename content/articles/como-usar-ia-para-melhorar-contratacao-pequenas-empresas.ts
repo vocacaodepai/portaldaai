@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "job interview hiring office resumes",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-melhorar-contratacao-pequenas-empresas.webp",
+    width: 1280,
+    height: 853,
+    credit: "loufre / Pixabay",
+    creditUrl: "https://pixabay.com/photos/application-write-to-1756281/",
+  },
   seed: 78,
   kind: "guia",
   author: "Bruno Danello",

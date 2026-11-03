@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T05:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Beijing skyline",
+  coverImage: {
+    url: "/images/covers/china-controle-exportacao-ia-modelos-agentes-rascunho-catalogo.webp",
+    width: 639,
+    height: 479,
+    credit: "Wikimedia Commons (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AModern%20Beijing%20Skyline%20Oct2004.jpg",
+  },
   content: `
     <p>A China deu o primeiro passo para controlar a saída de tecnologia de inteligência artificial do país. Segundo reportagem da <a href="https://forkast.news/china-proposes-export-controls-on-23-ai-technologies-including-ai-agents/" target="_blank" rel="noopener noreferrer nofollow">Forkast</a>, o Ministério do Comércio e o Ministério da Ciência e Tecnologia publicaram na sexta-feira (16) o Anúncio nº 48 de 2026, um rascunho de revisão do catálogo de tecnologias de exportação proibida ou restrita. A lista tem 40 tecnologias, e 23 delas pertencem à pilha de IA: grandes modelos de linguagem, agentes, clusters de computação e métodos de projeto de chips.</p>
 

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 9,
   imageQuery: "headphones podcast microphone laptop desk",
+  coverImage: {
+    url: "/images/covers/melhores-ias-para-transcrever-audio-e-video-em-portugues.webp",
+    width: 1280,
+    height: 853,
+    credit: "Joe007 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/studio-microphone-rec-music-radio-4065105/",
+  },
   seed: 163,
   kind: "guia",
   author: "Bruno Danello",

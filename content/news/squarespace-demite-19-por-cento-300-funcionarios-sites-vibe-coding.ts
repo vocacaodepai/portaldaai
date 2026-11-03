@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T21:23:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Squarespace logo",
+  coverImage: {
+    url: "/images/covers/squarespace-demite-19-por-cento-300-funcionarios-sites-vibe-coding.webp",
+    width: 1280,
+    height: 720,
+    credit: "Tan2005FG (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASquarespace-logo-white.png",
+  },
   content: `
     <p>A Squarespace, empresa americana que ajuda clientes a montar e hospedar os próprios sites, vai demitir cerca de um quinto de sua equipe. A companhia confirmou à imprensa nesta segunda-feira (2 de novembro) que reduz a força de trabalho global em aproximadamente 19%, o que representa cerca de 300 funcionários. A informação foi publicada primeiro pelo The Verge e depois confirmada ao TechCrunch por um porta-voz da empresa.</p>
 

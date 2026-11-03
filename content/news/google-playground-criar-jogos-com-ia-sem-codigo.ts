@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T16:21:50-03:00",
   imageQuery: "Google logo",
+  coverImage: {
+    url: "/images/covers/google-playground-criar-jogos-com-ia-sem-codigo.webp",
+    width: 1280,
+    height: 720,
+    credit: "Google (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20Logo%20(1998).png",
+  },
   topic: "lancamentos",
   content: `
     <p>O Google Labs, espaço de experimentos públicos da empresa, lançou nesta quarta-feira (7) o Playground, uma plataforma que cria jogos para navegador a partir de comandos em texto, sem exigir conhecimento de programação. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Lauren Forristal, a ferramenta está inicialmente restrita a usuários dos Estados Unidos com 18 anos ou mais, com expansão para outros países prevista.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T20:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "gavel and law books courtroom",
+  coverImage: {
+    url: "/images/covers/claude-for-legal-artifacts-galeria-cite-check-advogados.webp",
+    width: 1280,
+    height: 853,
+    credit: "VBlock / Pixabay",
+    creditUrl: "https://pixabay.com/photos/law-gavel-justice-judge-auction-6808677/",
+  },
   content: `
     <p>A Anthropic anunciou nesta quarta-feira, 28 de outubro de 2026, uma galeria de artefatos prontos para o Claude for Legal, a versão do Claude voltada a equipes jurídicas, lançada em maio. Artefatos são ferramentas interativas, como painéis, tabelas e quadros de acompanhamento, que a equipe abre dentro do Claude, adapta aos seus próprios dados e compartilha com colegas. A novidade foi publicada pela própria Anthropic e comentada pelo site The Decoder.</p>
 

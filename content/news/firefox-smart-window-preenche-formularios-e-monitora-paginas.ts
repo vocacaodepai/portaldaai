@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T16:45:00-03:00",
   topic: "lancamentos",
   imageQuery: "Firefox browser logo",
+  coverImage: {
+    url: "/images/covers/firefox-smart-window-preenche-formularios-e-monitora-paginas.webp",
+    width: 300,
+    height: 288,
+    credit: "Mozilla (MPL 1.1) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMozilla%20Firefox%200.8%20logo.png",
+  },
   content: `
     <p>A Mozilla atualizou nesta terça-feira (27) o Smart Window, a experiência de navegação com inteligência artificial do Firefox, com dois recursos novos: preencher formulários da web a partir das informações das abas que você escolher e vigiar páginas em busca de mudanças, como uma promoção ou uma vaga nova. A novidade foi publicada no blog da própria Mozilla e noticiada pelo The Verge. Esta matéria é uma análise própria a partir desses relatos; o crédito das fontes está no fim do texto.</p>
 

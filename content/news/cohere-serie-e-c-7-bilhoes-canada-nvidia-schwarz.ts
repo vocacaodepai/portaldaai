@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T18:23:00-03:00",
   topic: "negocios",
   imageQuery: "Aidan Gomez portrait",
+  coverImage: {
+    url: "/images/covers/cohere-serie-e-c-7-bilhoes-canada-nvidia-schwarz.webp",
+    width: 1280,
+    height: 720,
+    credit: "Gabriel Hutchinson (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAidan%20Gomez%20at%20%22ALL%20IN%22%202025%2004.jpg",
+  },
   content: `
     <p>A canadense Cohere anunciou nesta quinta-feira, 29 de outubro de 2026, o primeiro fechamento de uma rodada Série E que pode chegar a 7 bilhões de dólares canadenses, o que dá em torno de US$ 5 bilhões segundo a Bloomberg. A empresa afirma que é a maior captação privada já feita por uma companhia de tecnologia do Canadá e diz que a rodada a avalia em 35,7 bilhões de dólares canadenses.</p>
 

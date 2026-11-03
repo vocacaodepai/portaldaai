@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T16:45:00-03:00",
   topic: "lancamentos",
   imageQuery: "scorpion",
+  coverImage: {
+    url: "/images/covers/anthropic-claude-projeta-proteinas-contra-toxinas-escorpiao.webp",
+    width: 1280,
+    height: 960,
+    credit: "Wolle8ball (CC BY 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AScorpion%20(Busch%20Gardens%20Afrika).JPG",
+  },
   content: `
     <p>A Anthropic publicou nesta terça-feira (20) um estudo em que um modelo de pesquisa interno, rodando dentro do Claude Science, projetou pequenas proteínas capazes de se ligar com força a toxinas de escorpião. O trabalho foi feito em parceria com a Citrini Research e descrito pela equipe de ciência da empresa no <a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design" target="_blank" rel="noopener noreferrer nofollow">artigo original da Anthropic</a>. O objetivo declarado é apoiar pesquisas futuras de antivenenos, e não entregar um medicamento pronto.</p>
 

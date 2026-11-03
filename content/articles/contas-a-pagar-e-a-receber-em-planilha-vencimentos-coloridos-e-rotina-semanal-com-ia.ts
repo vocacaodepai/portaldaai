@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "calendar calculator invoices small shop",
+  coverImage: {
+    url: "/images/covers/contas-a-pagar-e-a-receber-em-planilha-vencimentos-coloridos-e-rotina-semanal-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "stevepb / Pixabay",
+    creditUrl: "https://pixabay.com/photos/calculator-calculation-insurance-1044172/",
+  },
   seed: 914,
   kind: "guia",
   author: "Bruno Danello",

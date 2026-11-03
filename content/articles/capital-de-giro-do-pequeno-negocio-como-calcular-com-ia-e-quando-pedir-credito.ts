@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "small shop owner calculator cash register",
+  coverImage: {
+    url: "/images/covers/capital-de-giro-do-pequeno-negocio-como-calcular-com-ia-e-quando-pedir-credito.webp",
+    width: 1280,
+    height: 853,
+    credit: "anncapictures / Pixabay",
+    creditUrl: "https://pixabay.com/photos/toy-cash-register-to-play-money-2922214/",
+  },
   seed: 821,
   kind: "guia",
   author: "Bruno Danello",

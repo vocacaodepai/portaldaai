@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "student laptop notebook studying desk",
+  coverImage: {
+    url: "/images/covers/modo-estudo-do-chatgpt-e-aprendizado-guiado-do-gemini-como-usar.webp",
+    width: 1280,
+    height: 893,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-woman-startup-business-849821/",
+  },
   seed: 333,
   kind: "guia",
   author: "Bruno Danello",

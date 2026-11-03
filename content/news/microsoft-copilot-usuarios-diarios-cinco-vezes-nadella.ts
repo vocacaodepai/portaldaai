@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T21:35:00-03:00",
   topic: "negocios",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/microsoft-copilot-usuarios-diarios-cinco-vezes-nadella.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22%20(cropped).jpg",
+  },
   content: `
     <p>O Copilot, assistente de IA da Microsoft, tem hoje mais de cinco vezes os usuários diários que tinha há um ano. O número foi dado pelo presidente-executivo da empresa, Satya Nadella, na teleconferência de resultados de quarta-feira, 28 de outubro de 2026, e detalhado em uma sequência de mensagens que ele publicou depois na rede X. A reportagem é do The Next Web, publicada em 29 de outubro, e reúne ainda informações de CNBC, Bloomberg, Fortune e Reuters sobre a mesma teleconferência.</p>
 

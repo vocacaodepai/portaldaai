@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T00:22:28-03:00",
   imageQuery: "Penn Medicine Hospital of the University of Pennsylvania",
+  coverImage: {
+    url: "/images/covers/healthleap-capta-38-milhoes-ia-pacientes-hospitalares-risco.webp",
+    width: 1280,
+    height: 853,
+    credit: "Parentingupstream / Pixabay",
+    creditUrl: "https://pixabay.com/photos/stethoscope-hospital-doctor-health-840125/",
+  },
   topic: "negocios",
   content: `
     <p>A Healthleap, startup de inteligência artificial para hospitais, captou US$ 38 milhões somando rodadas seed e Série A. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Ram Iyer, a seed de US$ 8 milhões foi co-liderada pela Sequoia Capital e pela First Round Capital, e a Série A, de US$ 30 milhões, foi liderada pela Hummingbird Ventures. A avaliação da empresa não foi divulgada.</p>
