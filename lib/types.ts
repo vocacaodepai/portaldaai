@@ -258,6 +258,8 @@ export const productSubcategories = [
   { slug: "chaves-fenda", label: "Chaves de Fenda", category: "ferramentas-casa" },
   { slug: "carrinho-mao", label: "Carrinho de Mão", category: "jardim-quintal" },
   { slug: "adaptador-wifi-usb", label: "Adaptador Wi-Fi USB", category: "informatica" },
+  { slug: "cooler-notebook", label: "Cooler e Base Ventilada", category: "informatica" },
+  { slug: "estabilizador-celular", label: "Estabilizador de Celular (Gimbal)", category: "acessorios-celular" },
   { slug: "adaptador-rede-usb", label: "Adaptador de Rede USB", category: "informatica" },
   { slug: "gamepad", label: "Controle e Gamepad", category: "informatica" },
   { slug: "escova-rotativa", label: "Escova Secadora e Rotativa", category: "saude-bem-estar" },
