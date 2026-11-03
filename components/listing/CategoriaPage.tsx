@@ -33,6 +33,11 @@ export function categoriaBase(slug: string): string {
   return `/categoria/${slug}`;
 }
 
+/** Artigos por página da categoria (o sitemap usa a mesma conta das rotas). */
+export function categoriaPerPage(slug: string): number {
+  return perPageFor(slug, getArticlesByCategory(slug).length);
+}
+
 export function categoriaTotalPages(slug: string): number {
   const total = getArticlesByCategory(slug).length;
   return countPages(total, perPageFor(slug, total));

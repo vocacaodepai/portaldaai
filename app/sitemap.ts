@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { INSTITUTIONAL_PATHS, INSTITUTIONAL_UPDATED } from "@/components/InstitutionalPage";
-import { ARTICLES_PER_PAGE, NEWS_PER_PAGE, countPages, slicePage } from "@/components/listing/paginate";
+import { artigosTotalPages } from "@/components/listing/ArtigosPage";
+import { categoriaPerPage } from "@/components/listing/CategoriaPage";
+import { NEWS_PER_PAGE, countPages, slicePage } from "@/components/listing/paginate";
 import { categories, getArticlesByCategory, getReviews, site, sortedArticles } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { sortedNews } from "@/lib/news";
@@ -23,7 +25,9 @@ function newest(dates: string[]): string | undefined {
 
 /**
  * Entradas de uma listagem paginada: a raiz (página 1) e /pagina/n para n >= 2,
- * com a mesma paginação das rotas. O lastModified de cada página é o item mais
+ * com a mesma paginação das rotas (perPage vem das próprias listagens: /artigos
+ * e as categorias com filtro mostram tudo numa página só, e /pagina/n delas
+ * redireciona ou dá 404, então não pode entrar no sitemap). O lastModified de cada página é o item mais
  * novo daquela página (as datas chegam já ordenadas, mais recentes primeiro).
  */
 function paginated(
@@ -61,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const artigos = paginated(
     "/artigos",
     articleDates,
-    ARTICLES_PER_PAGE,
+    Math.ceil(Math.max(articleDates.length, 1) / artigosTotalPages()),
     { changeFrequency: "daily", priority: 0.9 },
     { changeFrequency: "weekly", priority: 0.5 }
   );
@@ -87,7 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     paginated(
       `/categoria/${c.slug}`,
       getArticlesByCategory(c.slug).map(articleModified),
-      ARTICLES_PER_PAGE,
+      categoriaPerPage(c.slug),
       { changeFrequency: "daily", priority: 0.7 },
       { changeFrequency: "weekly", priority: 0.4 }
     )
