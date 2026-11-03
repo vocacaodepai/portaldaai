@@ -333,6 +333,8 @@ export const productSubcategories = [
   { slug: "brinquedo-pet", label: "Brinquedos para Cães", category: "pet" },
   { slug: "pa-jardim", label: "Pás e Ferramentas de Cova", category: "jardim-quintal" },
   { slug: "descascador", label: "Descascador e Utensílios", category: "cozinha" },
+  { slug: "faixa-elastica", label: "Faixas Elásticas de Treino", category: "saude-bem-estar" },
+  { slug: "notas-adesivas", label: "Notas Adesivas (Post-it)", category: "escritorio" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
