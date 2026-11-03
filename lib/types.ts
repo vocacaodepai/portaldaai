@@ -330,6 +330,8 @@ export const productSubcategories = [
   { slug: "case-hd-ssd", label: "Case para HD e SSD", category: "informatica" },
   { slug: "receptor-satelite", label: "Receptor de TV via Satélite", category: "audio-video" },
   { slug: "petisco-pet", label: "Petiscos e Higiene Bucal Pet", category: "pet" },
+  { slug: "racao-umida-gato", label: "Ração Úmida para Gatos", category: "pet" },
+  { slug: "pretinho-pneu", label: "Pretinho e Cuidado de Pneus", category: "automotivo" },
   { slug: "brinquedo-pet", label: "Brinquedos para Cães", category: "pet" },
   { slug: "pa-jardim", label: "Pás e Ferramentas de Cova", category: "jardim-quintal" },
   { slug: "descascador", label: "Descascador e Utensílios", category: "cozinha" },
