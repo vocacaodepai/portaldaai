@@ -9,6 +9,13 @@ export const item: NewsItem = {
   sourceUrl: "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
   date: "2026-10-05",
   imageQuery: "Anthropic office San Francisco",
+  coverImage: {
+    url: "/images/covers/anthropic-cowork-nuvem-pro-max-outubro.webp",
+    width: 1280,
+    height: 758,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/adult-blur-bokeh-city-evening-1867665/",
+  },
   topic: "lancamentos",
   content: `
     <p>A partir desta terça-feira (6), as novas tarefas criadas no Claude Cowork pelos planos Pro e Max da Anthropic passam a rodar exclusivamente nos servidores da empresa, em vez de rodar localmente no computador do usuário. Segundo a <a href="https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork" target="_blank" rel="noopener noreferrer nofollow">central de ajuda da Anthropic</a>, a mudança remove a opção "Somente no seu computador", que ficava em Configurações, dentro da aba Geral, para quem está nesses dois planos.</p>

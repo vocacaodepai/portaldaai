@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "researcher reading reports laptop library",
+  coverImage: {
+    url: "/images/covers/gemini-deep-research-como-usar-limites-e-planos.webp",
+    width: 1280,
+    height: 902,
+    credit: "AhmadArdity / Pixabay",
+    creditUrl: "https://pixabay.com/photos/books-bookshelf-library-education-2463779/",
+  },
   seed: 233,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "person typing laptop code editor coffee",
+  coverImage: {
+    url: "/images/covers/vibe-coding-para-nao-programadores-carreira-e-riscos.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/",
+  },
   seed: 277,
   kind: "guia",
   author: "Bruno Danello",

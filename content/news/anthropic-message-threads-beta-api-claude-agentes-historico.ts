@@ -10,6 +10,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T18:45:00-03:00",
   topic: "lancamentos",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-message-threads-beta-api-claude-agentes-historico.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   date: "2026-11-02",
   content: `
     <p>A Anthropic anunciou nesta segunda-feira (2) o message threads, um recurso em beta público da API do Claude pensado para quem constrói agentes de IA. A ideia é simples: em vez de reenviar o histórico completo da conversa a cada pedido, o agente manda o conteúdo inteiro uma única vez e, nas chamadas seguintes, envia apenas as mensagens novas junto com o identificador da última resposta do Claude. A informação foi resumida pelo The Next Web, com base no anúncio da própria Anthropic.</p>

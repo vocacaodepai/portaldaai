@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "blogger laptop notebook coffee desk",
+  coverImage: {
+    url: "/images/covers/blog-com-ia-e-adsense-o-que-o-google-permite-e-proibe.webp",
+    width: 1280,
+    height: 853,
+    credit: "kaboompics / Pixabay",
+    creditUrl: "https://pixabay.com/photos/girl-woman-typing-writing-blogger-791177/",
+  },
   seed: 296,
   kind: "guia",
   author: "Bruno Danello",

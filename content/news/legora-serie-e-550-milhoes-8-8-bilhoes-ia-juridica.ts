@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T12:40:00-03:00",
   topic: "negocios",
   imageQuery: "escritório de advocacia advogados reunião",
+  coverImage: {
+    url: "/images/covers/legora-serie-e-550-milhoes-8-8-bilhoes-ia-juridica.webp",
+    width: 1280,
+    height: 853,
+    credit: "CapeCom / Pixabay",
+    creditUrl: "https://pixabay.com/photos/beach-bar-beach-vacations-summer-5298364/",
+  },
   content: `
     <p>A Legora, startup de inteligência artificial para o mercado jurídico, anunciou nesta quarta-feira (21) uma rodada Série E de US$ 550 milhões que a avalia em US$ 8,8 bilhões. Segundo a <a href="https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a rodada foi liderada pela Atreides Management e contou com Baron Capital, Bessemer Venture Partners, General Catalyst, Menlo Ventures e outros investidores que a reportagem não nomeia.</p>
 

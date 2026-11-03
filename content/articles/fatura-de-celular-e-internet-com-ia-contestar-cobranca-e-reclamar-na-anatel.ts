@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 8,
   imageQuery: "person checking phone bill at kitchen table",
+  coverImage: {
+    url: "/images/covers/fatura-de-celular-e-internet-com-ia-contestar-cobranca-e-reclamar-na-anatel.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/camera-phone-girl-hands-1869430/",
+  },
   seed: 1094,
   kind: "guia",
   author: "Bruno Danello",

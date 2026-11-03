@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "small business owner planning marketing notebook",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-planejar-marketing-de-pequena-empresa.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+  },
   seed: 152,
   kind: "guia",
   author: "Bruno Danello",

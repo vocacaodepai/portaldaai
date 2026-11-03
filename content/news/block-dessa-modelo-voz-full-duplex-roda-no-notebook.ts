@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-24",
   publishedAt: "2026-10-24T19:25:00-03:00",
   imageQuery: "Jack Dorsey portrait",
+  coverImage: {
+    url: "/images/covers/block-dessa-modelo-voz-full-duplex-roda-no-notebook.webp",
+    width: 1280,
+    height: 853,
+    credit: "Brian Solis (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AJack%20Dorsey%20-%20TechCrunch%20Real-Time%20Stream%20Crunchup%20-%202009%20-%202.jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A Block, empresa de pagamentos comandada por Jack Dorsey, apresentou neste sábado, 24 de outubro de 2026, o Dessa, um modelo de voz que ouve e fala ao mesmo tempo e que, segundo a empresa, foi treinado apenas com fala humana. A informação está na reportagem de Ivan Mehta no <a href="https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/" rel="noopener noreferrer nofollow">TechCrunch</a> e na <a href="https://block.xyz/dessa" rel="noopener noreferrer nofollow">página oficial do Dessa</a>, no site da Block. O modelo ainda não está aberto ao público: há lista de espera e acesso antecipado para um grupo pequeno de pesquisadores de segurança.</p>

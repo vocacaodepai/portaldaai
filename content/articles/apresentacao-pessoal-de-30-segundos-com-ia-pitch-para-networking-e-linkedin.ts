@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "woman introducing herself networking event",
+  coverImage: {
+    url: "/images/covers/apresentacao-pessoal-de-30-segundos-com-ia-pitch-para-networking-e-linkedin.webp",
+    width: 1280,
+    height: 800,
+    credit: "narleymedia / Pixabay",
+    creditUrl: "https://pixabay.com/photos/conference-business-meeting-7693055/",
+  },
   seed: 891,
   kind: "guia",
   author: "Bruno Danello",

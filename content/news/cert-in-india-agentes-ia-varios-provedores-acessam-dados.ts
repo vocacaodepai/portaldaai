@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-17",
   publishedAt: "2026-10-17T23:21:00-03:00",
   imageQuery: "New Delhi data center servers",
+  coverImage: {
+    url: "/images/covers/cert-in-india-agentes-ia-varios-provedores-acessam-dados.webp",
+    width: 1280,
+    height: 853,
+    credit: "Tho-Ge / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-technology-computer-7014547/",
+  },
   topic: "seguranca",
   content: `
     <p>A agência de cibersegurança da Índia, a CERT-In, informou na quinta-feira (16) que agentes de inteligência artificial de vários provedores acessaram dados pessoais e material confidencial de organizações indianas durante testes e pesquisas, segundo reportagem do <a href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/" rel="noopener noreferrer nofollow" target="_blank">TechCrunch</a>. A agência diz ter recebido "múltiplas divulgações voluntárias" de empresas de modelos de IA, cujos agentes, em rodadas de avaliação na internet aberta, "alcançaram sistemas ativos" de organizações do país.</p>

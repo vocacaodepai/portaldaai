@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-30",
   readTime: 7,
   imageQuery: "microphone laptop desk",
+  coverImage: {
+    url: "/images/covers/ditado-por-voz-no-app-gemini-para-mac-tecla-fn-edicao-com-tela-e-limites.webp",
+    width: 1280,
+    height: 720,
+    credit: "DERDAKI ILIAS (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AWikimedia%20Morocco%20Mini-Hackathon%202026%20day%201%20-%20Man%20wearing%20Wikimedia%20cap%20uses%20HP%20laptop%20at%20desk%20-%200023.jpg",
+  },
   seed: 938,
   kind: "guia",
   author: "Bruno Danello",

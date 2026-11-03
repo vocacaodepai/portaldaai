@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-23",
   publishedAt: "2026-10-23T19:25:00-03:00",
   imageQuery: "Mistral AI logo",
+  coverImage: {
+    url: "/images/covers/mistral-nvidia-engenharia-industrial-benchmarks-agentes-cae-eda.webp",
+    width: 1280,
+    height: 1562,
+    credit: "Prime Minister's Office (GODL-India) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APrime%20Minister%20of%20Bharat%2C%20Shri%20Narendra%20Damodardas%20Modi%20with%20the%20Co-Founder%20and%20CEO%20of%20Mistral%20AI%2C%20Mr.%20Arthur%20Mensch.jpg",
+  },
   topic: "negocios",
   content: `
     <p>A francesa Mistral AI e a Nvidia anunciaram, em 21 de outubro, uma colaboração para criar fluxos de trabalho de engenharia nativos de inteligência artificial, rodando em computação acelerada da Nvidia. Segundo o <a href="https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/" target="_blank" rel="noopener noreferrer nofollow">comunicado da Mistral</a>, a ideia é encurtar o tempo entre ter uma ideia de produto e validá-la em simulação, um gargalo antigo em setores como aeroespacial, automotivo e de semicondutores.</p>

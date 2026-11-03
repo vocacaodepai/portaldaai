@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T13:27:00-03:00",
   topic: "negocios",
   imageQuery: "Accenture headquarters",
+  coverImage: {
+    url: "/images/covers/accenture-limita-gasto-claude-29-dolares-por-funcionario.webp",
+    width: 955,
+    height: 758,
+    credit: "Christoph Wagener (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAccenture%20Campus%20Kronberg.JPG",
+  },
   content: `
     <p>A Accenture, uma das maiores consultorias do mundo, colocou um teto no quanto cada funcionário pode gastar com o Claude usando o orçamento central da empresa. Segundo a reportagem do <a href="https://404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month" target="_blank" rel="noopener noreferrer nofollow">404 Media</a>, que teve acesso a um comunicado interno, a regra vale desde 1º de outubro de 2026: a empresa paga até US$ 29 por pessoa a cada mês, e o que passar disso precisa ser cobrado de um projeto ou de uma equipe. Segundo o mesmo relato, houve gente que chegava a gastar de US$ 500 a US$ 1.000 por mês.</p>
 

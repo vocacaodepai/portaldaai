@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T21:40:00-03:00",
   topic: "negocios",
   imageQuery: "Microsoft headquarters Redmond",
+  coverImage: {
+    url: "/images/covers/big-techs-recompra-de-acoes-cai-83-por-cento-gastos-ia.webp",
+    width: 1280,
+    height: 851,
+    credit: "Jiaqian AirplaneFan (CC BY 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABuilding%2092%20of%20Microsoft%20Redmond%20Campus%20-%20panoramio.jpg",
+  },
   content: `
     <p>As cinco maiores empresas de tecnologia que lideram a corrida da inteligência artificial passaram a devolver muito menos dinheiro aos próprios acionistas. Uma análise da Reuters sobre dados da LSEG e relatórios das companhias, publicada neste sábado (31) e resumida pelo <a href="https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>, mostra que Microsoft, Alphabet, Amazon, Meta e Oracle destinaram apenas 9,3% da geração de caixa a dividendos e recompra de ações nos primeiros nove meses de 2026. É a menor fatia em pelo menos 15 anos. No mesmo período do ano passado, o índice era de 27,4%.</p>
 

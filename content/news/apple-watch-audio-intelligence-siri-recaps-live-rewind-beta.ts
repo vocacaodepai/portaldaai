@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T04:23:15-03:00",
   topic: "lancamentos",
   imageQuery: "Apple Watch",
+  coverImage: {
+    url: "/images/covers/apple-watch-audio-intelligence-siri-recaps-live-rewind-beta.webp",
+    width: 560,
+    height: 585,
+    credit: "Wiyre Media (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AApple%20Watch-yellow.jpg",
+  },
   content: `
     <p>A Apple começou a testar com desenvolvedores um conjunto de recursos de inteligência artificial para o Apple Watch chamado Audio Intelligence. Segundo a reportagem do TechCrunch publicada na noite de segunda-feira (2), os recursos chegam em beta dentro do iOS 27.3, depois de terem sido apresentados no evento de hardware de setembro, e só depois seguirão para o beta público e para os usuários em geral. São quatro funções, todas opcionais: reconhecimento de sons, reconhecimento de músicas, Live Rewind e Siri Recaps. As duas últimas são as que mais chamam atenção, porque colocam o relógio para ouvir conversas e devolver um resumo.</p>
 

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "small business owner tablet customers storefront",
+  coverImage: {
+    url: "/images/covers/programa-de-indicacao-de-clientes-com-ia-pequeno-negocio.webp",
+    width: 1280,
+    height: 807,
+    credit: "Mohamed_hassan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3213924/",
+  },
   seed: 172,
   kind: "guia",
   author: "Bruno Danello",

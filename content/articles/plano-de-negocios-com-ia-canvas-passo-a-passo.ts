@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "sticky notes whiteboard business planning team",
+  coverImage: {
+    url: "/images/covers/plano-de-negocios-com-ia-canvas-passo-a-passo.webp",
+    width: 1280,
+    height: 720,
+    credit: "vandesart / Pixabay",
+    creditUrl: "https://pixabay.com/photos/team-office-board-grades-adhesives-10181201/",
+  },
   seed: 275,
   kind: "guia",
   author: "Bruno Danello",

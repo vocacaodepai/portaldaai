@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 8,
   imageQuery: "job seeker laptop resume desk",
+  coverImage: {
+    url: "/images/covers/curriculo-no-portal-emprega-brasil-sine-como-preencher-o-cadastro-com-ia.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 1036,
   kind: "guia",
   author: "Bruno Danello",

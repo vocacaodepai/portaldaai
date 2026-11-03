@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-08",
   publishedAt: "2026-10-08T06:30:00-03:00",
   imageQuery: "Parliament House Canberra Australia",
+  coverImage: {
+    url: "/images/covers/australia-padroes-obrigatorios-seguranca-ia-prova-de-testes.webp",
+    width: 1280,
+    height: 761,
+    credit: "JJ Harrison (https://www.jjharrison.com.au/) (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAustralian%20House%20of%20Representatives%20-%20Parliament%20of%20Australia.jpg",
+  },
   topic: "regulacao",
   content: `
     <p>O governo da Austrália quer que as empresas que desenvolvem inteligência artificial avançada provem, na prática, que testam seus modelos contra riscos e que conseguem evitar danos. O plano foi detalhado nesta quinta-feira (8) por Andrew Charlton, ministro assistente de Ciência, Tecnologia e Economia Digital, em discurso em Sydney, segundo a <a href="https://www.abc.net.au/news/2026-10-08/federal-politics-ai-regulation-andrew-charlton-speech/107241674" target="_blank" rel="noopener noreferrer nofollow">reportagem da ABC News</a>.</p>

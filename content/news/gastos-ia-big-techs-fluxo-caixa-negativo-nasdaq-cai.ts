@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T18:22:00-03:00",
   topic: "negocios",
   imageQuery: "Nasdaq MarketSite Times Square",
+  coverImage: {
+    url: "/images/covers/gastos-ia-big-techs-fluxo-caixa-negativo-nasdaq-cai.webp",
+    width: 1280,
+    height: 720,
+    credit: "NASA Headquarters / NASA/Emma Howells (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANASA%20Mars%20Perseverance%20on%20Nasdaq%20MarketSite%20(NHQ202102180117).jpg",
+  },
   content: `
     <p>Durante dois anos, quem anunciava mais gasto em data centers de IA era premiado pela bolsa. Nesta sexta-feira, 30 de outubro de 2026, o humor mudou. Segundo reportagem de Rebecca Bellan, no TechCrunch, a Nasdaq caiu 2,9% no pregão, a Nvidia recuou 4%, a Broadcom mais de 5% e a Qualcomm 11%. Na véspera, a Alphabet tinha perdido 12% e cerca de US$ 500 bilhões em valor de mercado, o pior dia da história da empresa, e voltou a cair nesta sexta. Este texto é análise nossa a partir dessa reportagem, que é a nossa fonte única para os números abaixo.</p>
 

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "android phone text message warning",
+  coverImage: {
+    url: "/images/covers/protecao-avancada-do-google-mensagens-contra-golpes-como-ativar-celulares-e-limites.webp",
+    width: 1280,
+    height: 1333,
+    credit: "Josh Robillard (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAlert%20Ready%20Message%20on%20Android%20Phones.png",
+  },
   seed: 1106,
   kind: "guia",
   author: "Bruno Danello",

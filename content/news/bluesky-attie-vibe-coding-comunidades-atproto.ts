@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T00:32:00-03:00",
   topic: "lancamentos",
   imageQuery: "Bluesky logo",
+  coverImage: {
+    url: "/images/covers/bluesky-attie-vibe-coding-comunidades-atproto.webp",
+    width: 407,
+    height: 352,
+    credit: "Nekoprogram (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABluesky%20Verified.png",
+  },
   content: `
     <p>O Bluesky ampliou o Attie, seu app experimental com IA, para que qualquer pessoa consiga criar sites, jogos e outras experiências sociais sem saber programar. A novidade foi relatada pelo <a href="https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a> a partir de uma entrevista do CEO da rede, Toni Schneider, durante o evento Disrupt. Até agora, o Attie servia para montar feeds personalizados com ajuda de IA. Com a expansão, a ideia é permitir que gente comum faça o tipo de coisa que antes dependia de desenvolvedores.</p>
     <p>Schneider resumiu assim: "Estamos adicionando ao Attie um recurso que permite construir sites e experiências sociais para um grupo de pessoas. Pense nisso como... vibe coding social, ou vibe coding para a sua comunidade." As criações ficam no AT Protocol (ATProto), o protocolo aberto que sustenta o Bluesky e outros apps da chamada web social descentralizada, apelidada de Atmosphere.</p>

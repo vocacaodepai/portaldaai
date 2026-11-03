@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 8,
   imageQuery: "digital art tablet colorful illustration",
+  coverImage: {
+    url: "/images/covers/como-criar-imagens-com-ia-guia-passo-a-passo.webp",
+    width: 1280,
+    height: 986,
+    credit: "john-i / Pixabay",
+    creditUrl: "https://pixabay.com/photos/art-creativity-computers-technology-747921/",
+  },
   seed: 100,
   kind: "guia",
   author: "Bruno Danello",

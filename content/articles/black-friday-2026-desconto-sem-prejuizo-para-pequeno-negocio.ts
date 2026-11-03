@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-16",
   readTime: 7,
   imageQuery: "shop owner calculator price tags",
+  coverImage: {
+    url: "/images/covers/black-friday-2026-desconto-sem-prejuizo-para-pequeno-negocio.webp",
+    width: 1280,
+    height: 960,
+    credit: "analogicus / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cards-vintage-sale-collection-8594729/",
+  },
   seed: 345,
   kind: "guia",
   author: "Bruno Danello",

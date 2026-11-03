@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "person planning career notebook window",
+  coverImage: {
+    url: "/images/covers/mudar-de-area-com-ia-mapa-de-habilidades-cbo-e-primeiros-passos.webp",
+    width: 1280,
+    height: 771,
+    credit: "RonaldCandonga / Pixabay",
+    creditUrl: "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+  },
   seed: 902,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 7,
   imageQuery: "clinic reception desk appointment calendar",
+  coverImage: {
+    url: "/images/covers/ia-para-clinica-e-consultorio-agenda-confirmacao-e-lgpd.webp",
+    width: 1280,
+    height: 854,
+    credit: "fernandozhiminaicela / Pixabay",
+    creditUrl: "https://pixabay.com/photos/treatment-hospital-clinic-medicine-4099432/",
+  },
   seed: 207,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "laptop screen document slides desk",
+  coverImage: {
+    url: "/images/covers/criar-e-editar-arquivos-no-app-gemini-pdf-slides-e-planilhas-como-usar-e-limites.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 911,
   kind: "guia",
   author: "Bruno Danello",

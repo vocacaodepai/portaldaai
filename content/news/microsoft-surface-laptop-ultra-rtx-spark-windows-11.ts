@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T20:21:54-03:00",
   imageQuery: "Microsoft logo",
+  coverImage: {
+    url: "/images/covers/microsoft-surface-laptop-ultra-rtx-spark-windows-11.webp",
+    width: 1280,
+    height: 720,
+    credit: "Microsoft (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMicrosoft%20logo%202012.png",
+  },
   topic: "lancamentos",
   content: `
     <p>A Microsoft apresentou nesta quarta-feira (7), em San Francisco, durante a Tech Week, dois novos computadores com chip da Nvidia pensados para rodar inteligência artificial no próprio aparelho, além de uma versão renovada do Windows 11 com recursos voltados a agentes de IA. Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Julie Bort, os produtos usam o chip RTX Spark, anunciado pela Nvidia em junho em acordos com a Microsoft e outros fabricantes de PCs.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 6,
   imageQuery: "magnifying glass photo authenticity",
+  coverImage: {
+    url: "/images/covers/content-credentials-c2pa-como-saber-se-imagem-foi-feita-por-ia.webp",
+    width: 1280,
+    height: 960,
+    credit: "422737 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/magnifying-glass-enlargement-enlarge-450691/",
+  },
   seed: 211,
   kind: "guia",
   author: "Bruno Danello",

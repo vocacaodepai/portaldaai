@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "small and large engine comparison tools",
+  coverImage: {
+    url: "/images/covers/modelo-pequeno-ou-grande-de-ia-velocidade-custo-e-qualidade-para-quem-usa.webp",
+    width: 1280,
+    height: 853,
+    credit: "haujord / Pixabay",
+    creditUrl: "https://pixabay.com/photos/watermelon-illusion-paint-715608/",
+  },
   seed: 823,
   kind: "guia",
   author: "Bruno Danello",

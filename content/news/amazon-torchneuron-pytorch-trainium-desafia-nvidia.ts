@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T17:32:00-03:00",
   topic: "lancamentos",
   imageQuery: "Amazon Web Services data center",
+  coverImage: {
+    url: "/images/covers/amazon-torchneuron-pytorch-trainium-desafia-nvidia.webp",
+    width: 1280,
+    height: 853,
+    credit: "AS_Photography / Pixabay",
+    creditUrl: "https://pixabay.com/photos/digital-marketing-seo-google-1725340/",
+  },
   content: `
     <p>A Amazon Web Services (AWS) lançou nesta segunda-feira o TorchNeuron, uma ferramenta que permite rodar aplicativos feitos em PyTorch no Trainium, o chip de IA desenvolvido pela própria Amazon, com uma única linha de configuração e sem reescrever código. A informação é da <a href="https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/" target="_blank" rel="noopener noreferrer nofollow">reportagem do TechCrunch assinada por Julie Bort</a>, que descreve o movimento como a maior investida da Amazon até agora contra a vantagem de software da Nvidia. O TorchNeuron foi adaptado do próprio PyTorch, o que, segundo a Amazon, permite que quem já programa nesse framework use a ferramenta sem aprender nada novo.</p>
 

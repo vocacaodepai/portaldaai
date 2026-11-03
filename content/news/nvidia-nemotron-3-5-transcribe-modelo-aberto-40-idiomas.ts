@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-28",
   publishedAt: "2026-10-28T13:40:00-03:00",
   imageQuery: "Nvidia headquarters Santa Clara",
+  coverImage: {
+    url: "/images/covers/nvidia-nemotron-3-5-transcribe-modelo-aberto-40-idiomas.webp",
+    width: 1280,
+    height: 783,
+    credit: "Coolcaesar (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANVIDIA%20Headquarters.jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A Nvidia lançou nesta quarta-feira, 28 de outubro de 2026, o Nemotron 3.5 Transcribe, um modelo de transcrição de voz em texto com pesos abertos e uso gratuito. A informação é do TechCrunch, que publicou a nota assinada por Julie Bort, e o modelo já aparece na página da Nvidia no Hugging Face com o nome NVIDIA-Nemotron-3.5-Transcribe-30B-A4B. É mais um passo na corrida dos modelos de voz, que ganhou ritmo em outubro.</p>

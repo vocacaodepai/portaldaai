@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T08:35:00-03:00",
   topic: "seguranca",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-invadida-agentes-ia-cathedral-bug-bounty.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>Uma startup de segurança digital chamada Cathedral usou agentes de IA para invadir sistemas da Anthropic, a empresa que faz o Claude, dentro do programa de recompensas por falhas (o chamado bug bounty) da própria Anthropic. O caso foi noticiado pelo Washington Post em 26 de outubro de 2026 e detalhado nesta quarta-feira, 28, pelo The Decoder. A Anthropic afirma que conversas do Claude, código-fonte e pesos dos modelos nunca foram expostos, mas as duas partes discordam sobre quanto tempo o ataque levou e até onde o acesso chegou.</p>
 

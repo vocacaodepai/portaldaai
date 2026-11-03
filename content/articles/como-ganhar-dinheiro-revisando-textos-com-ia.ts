@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "editing text document proofreading screen",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-revisando-textos-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Lalmch / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-macbook-tablet-editing-767781/",
+  },
   seed: 72,
   kind: "guia",
   author: "Bruno Danello",

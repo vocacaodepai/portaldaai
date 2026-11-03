@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 8,
   imageQuery: "freelancer laptop dictionary notes desk",
+  coverImage: {
+    url: "/images/covers/traducao-de-textos-como-servico-com-ia-pacote-preco-e-quando-exige-juramentada.webp",
+    width: 1280,
+    height: 640,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/entrepreneur-begin-start-up-career-696976/",
+  },
   seed: 816,
   kind: "guia",
   author: "Bruno Danello",

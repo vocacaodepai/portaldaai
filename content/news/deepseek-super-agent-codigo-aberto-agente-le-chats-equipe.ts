@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T09:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/deepseek-super-agent-codigo-aberto-agente-le-chats-equipe.webp",
+    width: 1280,
+    height: 720,
+    credit: "RoadMaster19 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20purple.png",
+  },
   content: `
     <p>A DeepSeek, laboratório chinês de inteligência artificial, liberou neste fim de semana o código do Super-Agent, um agente experimental de programação pensado para trabalhar dentro de uma equipe de software, e não apenas ao lado de uma pessoa. A informação foi publicada na manhã deste domingo, 1º de novembro de 2026, pelo The Next Web, que cita reportagens da Bloomberg e do South China Morning Post, além da documentação do próprio projeto. O código está no GitHub, sob licença MIT, com o nome dsh-superagent.</p>
     <p>A própria DeepSeek trata o material como protótipo de pesquisa e diz que ele não é um produto oficial da empresa. Mesmo assim, o lançamento chama atenção porque mira de frente uma categoria que hoje é dominada por ferramentas como o Claude Code, da Anthropic, e porque vem de um laboratório que costuma abrir seu trabalho ao público.</p>

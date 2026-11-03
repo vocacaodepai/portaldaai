@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "moodboard pinboard creative desk photos",
+  coverImage: {
+    url: "/images/covers/pinterest-com-ia-trafego-para-blog-e-afiliados-regras-e-rotulo-de-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "sweetlouise / Pixabay",
+    creditUrl: "https://pixabay.com/photos/pencils-colored-pencils-art-draw-6099511/",
+  },
   seed: 334,
   kind: "guia",
   author: "Bruno Danello",

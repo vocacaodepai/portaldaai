@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "storm clouds radar weather forecast city",
+  coverImage: {
+    url: "/images/covers/ia-na-previsao-do-tempo-tupann-do-impa-monan-do-inpe-e-o-que-muda-para-voce.webp",
+    width: 1280,
+    height: 855,
+    credit: "dexmac / Pixabay",
+    creditUrl: "https://pixabay.com/photos/clouds-storm-rain-weather-cloudy-5368435/",
+  },
   seed: 875,
   kind: "guia",
   author: "Bruno Danello",

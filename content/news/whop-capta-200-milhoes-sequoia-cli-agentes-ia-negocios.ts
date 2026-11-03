@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T20:45:00-03:00",
   topic: "negocios",
   imageQuery: "Sequoia Capital",
+  coverImage: {
+    url: "/images/covers/whop-capta-200-milhoes-sequoia-cli-agentes-ia-negocios.webp",
+    width: 1280,
+    height: 853,
+    credit: "Robert Simmon (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASequoia%20National%20Park.jpg",
+  },
   content: `
     <p>A Whop, plataforma americana onde pessoas montam e vendem negócios digitais, fechou uma rodada Série D de US$ 200 milhões liderada pela Sequoia Capital e pela Shopify Ventures, que avalia a empresa em US$ 5,1 bilhões. A informação foi divulgada nesta terça-feira, 27 de outubro de 2026, em texto publicado no The Next Web (um conteúdo contribuído, ou seja, com os números apresentados pela própria empresa). Para quem pensa em ganhar dinheiro vendendo na internet, o detalhe mais interessante não é o valor, e sim o que a Whop colocou no produto: uma interface de linha de comando que agentes de IA conseguem usar para operar um negócio inteiro.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-24",
   publishedAt: "2026-10-24T10:24:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-treinar-modelos-sem-internet-ao-vivo-copia-da-web.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   topic: "seguranca",
   content: `
     <p>A OpenAI anunciou na sexta-feira, 23 de outubro de 2026, que deixará de treinar seus modelos de ponta com acesso à internet ao vivo. Segundo a reportagem de Tim Fernholz no <a href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/" rel="noopener noreferrer nofollow">TechCrunch</a>, a empresa passará a usar cópias em cache e versões simuladas da internet, porque considera os modelos imprevisíveis demais para ter acesso direto à web durante o treinamento.</p>

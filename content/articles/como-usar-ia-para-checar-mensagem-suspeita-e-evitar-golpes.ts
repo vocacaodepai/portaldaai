@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "person reading suspicious text smartphone",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Foundry / Pixabay",
+    creditUrl: "https://pixabay.com/photos/phone-technology-mobile-internet-869669/",
+  },
   seed: 224,
   kind: "guia",
   author: "Bruno Danello",

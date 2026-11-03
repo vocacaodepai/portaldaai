@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "smartphone chat assistant app on desk",
+  coverImage: {
+    url: "/images/covers/gemini-gems-viram-skills-o-que-muda-e-como-migrar.webp",
+    width: 1280,
+    height: 853,
+    credit: "tranmautritam / Pixabay",
+    creditUrl: "https://pixabay.com/photos/iphone-hand-phone-mobile-phone-5537230/",
+  },
   seed: 276,
   kind: "guia",
   author: "Bruno Danello",

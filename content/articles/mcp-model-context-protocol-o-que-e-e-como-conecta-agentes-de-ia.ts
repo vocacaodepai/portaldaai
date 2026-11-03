@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "usb c cable plugged laptop port",
+  coverImage: {
+    url: "/images/covers/mcp-model-context-protocol-o-que-e-e-como-conecta-agentes-de-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "rmartinr / Pixabay",
+    creditUrl: "https://pixabay.com/photos/phone-iphone-mobile-green-8594571/",
+  },
   seed: 220,
   kind: "guia",
   author: "Bruno Danello",

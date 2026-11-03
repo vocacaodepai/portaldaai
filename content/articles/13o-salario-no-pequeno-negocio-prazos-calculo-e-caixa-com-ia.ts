@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "small business owner calculator payroll desk",
+  coverImage: {
+    url: "/images/covers/13o-salario-no-pequeno-negocio-prazos-calculo-e-caixa-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "AlexanderStein / Pixabay",
+    creditUrl: "https://pixabay.com/photos/calculator-paperclip-ballpoint-pen-178127/",
+  },
   seed: 853,
   kind: "guia",
   author: "Bruno Danello",

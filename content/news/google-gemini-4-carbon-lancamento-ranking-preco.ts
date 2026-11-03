@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T16:24:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google DeepMind logo",
+  coverImage: {
+    url: "/images/covers/google-gemini-4-carbon-lancamento-ranking-preco.webp",
+    width: 1280,
+    height: 720,
+    credit: "DeepMind Technologies Limited (Alphabet, Inc.). (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20DeepMind%20logo.png",
+  },
   content: `
     <p>O Google DeepMind lançou nesta quarta-feira (28) o Gemini 4 Carbon, apenas duas semanas depois do Gemini 4 Argon. Segundo a reportagem do The Decoder, o novo modelo assumiu o primeiro lugar no índice de inteligência v5 da Artificial Analysis, com 59 pontos, contra 50 do Argon. É um salto grande para um intervalo tão curto entre versões, e ele vem acompanhado de uma decisão de distribuição incomum: o acesso começa fechado.</p>
     <p>O Carbon foi pensado para trabalho de engenharia longo, de vários dias, em que o modelo precisa tentar caminhos, errar, voltar atrás e continuar sem supervisão constante. Equipes internas do Google relataram que ele consegue sair de becos sem saída sozinho em execuções de múltiplos dias. Para quem usa IA no trabalho, isso importa porque o ponto fraco dos agentes até aqui tem sido perder o fio da meada em tarefas compridas.</p>

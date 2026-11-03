@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-31",
   readTime: 7,
   imageQuery: "customer reading reviews smartphone cafe",
+  coverImage: {
+    url: "/images/covers/avaliacoes-no-google-como-responder-com-ia-sem-parecer-robo-e-sem-quebrar-regras.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/camera-phone-girl-hands-1869430/",
+  },
   seed: 949,
   kind: "guia",
   author: "Bruno Danello",

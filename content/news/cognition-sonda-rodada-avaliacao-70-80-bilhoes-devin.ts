@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T13:45:00-03:00",
   topic: "negocios",
   imageQuery: "San Francisco skyline",
+  coverImage: {
+    url: "/images/covers/cognition-sonda-rodada-avaliacao-70-80-bilhoes-devin.webp",
+    width: 1280,
+    height: 720,
+    credit: "Tuxyso (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASan%20Francisco%20Panorama%20from%20Twin%20Peaks%202013.jpg",
+  },
   content: `
     <p>A Cognition, startup de São Francisco que criou o agente de programação Devin, recebeu ofertas de investidores que a avaliam entre US$ 70 bilhões e US$ 80 bilhões. A informação foi publicada nesta sexta-feira, 30 de outubro de 2026, pelo The Next Web, que se baseia em reportagem da Business Insider divulgada na quarta-feira por Katie Roof, com fontes não identificadas. Segundo o relato, a empresa estaria "levando a sério" a possibilidade de levantar uma nova rodada ainda este ano. Nem a Cognition nem os investidores confirmaram os números, e o próprio The Next Web avisa que não verificou a informação de forma independente.</p>
 

@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T19:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "laboratório de neurociência camundongo pesquisa",
+  coverImage: {
+    url: "/images/covers/claude-sonnet-5-agente-escolhe-terapia-genica-opera-camundongo.webp",
+    width: 1280,
+    height: 853,
+    credit: "BMeyendriesch / Pixabay",
+    creditUrl: "https://pixabay.com/photos/river-architecture-water-6858013/",
+  },
   content: `
     <p>Um agente de IA baseado no Claude Sonnet 5 escolheu sozinho uma terapia gênica, definiu onde aplicá-la no cérebro de um camundongo com epilepsia e conduziu a cirurgia, com um médico-veterinário aprovando cada passo irreversível. O relato é de Gabriel Ocana-Santero, cofundador e presidente da Exin Therapeutics e doutorando na Universidade de Oxford, que descreveu o experimento numa sequência de posts na rede X. A história foi publicada em 30 de outubro de 2026 pelo The Decoder, e é essa a base desta notícia. Os resultados não passaram por revisão de pares e um relatório técnico ainda deve sair.</p>
 

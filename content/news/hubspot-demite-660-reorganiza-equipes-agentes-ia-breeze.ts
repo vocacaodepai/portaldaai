@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-09T03:25:00-03:00",
   imageQuery: "HubSpot headquarters Cambridge Massachusetts",
+  coverImage: {
+    url: "/images/covers/hubspot-demite-660-reorganiza-equipes-agentes-ia-breeze.webp",
+    width: 1280,
+    height: 851,
+    credit: "okmarian / Pixabay",
+    creditUrl: "https://pixabay.com/photos/college-buildings-university-school-5757815/",
+  },
   topic: "mercado-trabalho",
   content: `
     <p>A HubSpot, empresa americana de software de marketing, vendas e atendimento, anunciou em 6 de outubro de 2026 que vai cortar cerca de 660 funcionários, o equivalente a aproximadamente 7% da força de trabalho. A informação foi detalhada em reportagem do <a href="https://startupfortune.com/hubspot-cuts-660-jobs-while-pushing-hard-into-ai-customer-agents/" rel="noopener noreferrer nofollow">Startup Fortune</a>, publicada em 8 de outubro. No último relatório trimestral, a empresa listava 9.016 funcionários em tempo integral em 30 de junho de 2026.</p>

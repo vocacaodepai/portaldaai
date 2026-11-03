@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-10",
   publishedAt: "2026-10-10T22:30:00-03:00",
   imageQuery: "Apple Park Cupertino",
+  coverImage: {
+    url: "/images/covers/apple-huxe-reverse-acquihire-podcast-personalizado-ia.webp",
+    width: 1280,
+    height: 855,
+    credit: "IPhone01 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AApple%20Park.jpg",
+  },
   topic: "negocios",
   content: `
     <p>A Apple revelou um acordo para contratar integrantes e licenciar a tecnologia da Huxe, startup de áudio personalizado com inteligência artificial, segundo o <a href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/" rel="noopener noreferrer nofollow">TechCrunch</a>. A informação consta de um documento enviado pela empresa à Comissão Europeia e foi noticiada primeiro pelo MacRumors em 9 de outubro.</p>

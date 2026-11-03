@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "video editing timeline screen creator",
+  coverImage: {
+    url: "/images/covers/runway-ou-pika-qual-ia-de-video-escolher.webp",
+    width: 1280,
+    height: 853,
+    credit: "Lalmch / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-macbook-tablet-editing-767781/",
+  },
   seed: 128,
   kind: "guia",
   author: "Bruno Danello",

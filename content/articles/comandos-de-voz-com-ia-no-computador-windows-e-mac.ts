@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 8,
   imageQuery: "person speaking laptop home office",
+  coverImage: {
+    url: "/images/covers/comandos-de-voz-com-ia-no-computador-windows-e-mac.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 164,
   kind: "guia",
   author: "Bruno Danello",

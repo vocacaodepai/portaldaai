@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T14:26:00-03:00",
   topic: "negocios",
   imageQuery: "Googleplex Mountain View headquarters",
+  coverImage: {
+    url: "/images/covers/alphabet-queda-12-por-cento-modo-ia-monetiza-menos.webp",
+    width: 1280,
+    height: 720,
+    credit: "Carol M. Highsmith (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20Headquarters%2C%20Mountain%20View%2C%20California%20LCCN2013630578.tif",
+  },
   content: `
     <p>A quinta-feira, 29 de outubro de 2026, entrou para a história do Google pelo motivo errado. Segundo a Bloomberg, citada pelo The Next Web, às 9h35 em Nova York (10h35 em Brasília) a Alphabet, controladora do Google, já tinha perdido US$ 511 bilhões em valor de mercado, com as ações em queda de mais de 12%. É a maior perda de valor de mercado da empresa em um único pregão. A CNBC lembrou que, se o papel fechasse mais de 9,77% abaixo, seria a pior reação a um balanço desde a abertura de capital, em 2004.</p>
 

@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T09:30:00-03:00",
   imageQuery: "Google headquarters Mountain View",
+  coverImage: {
+    url: "/images/covers/google-estudo-advogados-ia-experiencia-juniores-seniores.webp",
+    width: 1200,
+    height: 800,
+    credit: "Mutante (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20street%20sign%20Mountain%20view%20traffic%20light.JPG",
+  },
   topic: "mercado-trabalho",
   content: `
     <p>Um experimento de três meses com 133 advogados de patentes indica que a inteligência artificial melhora o trabalho de quase todo mundo, mas não ensina da mesma forma. Os resultados foram publicados em 7 de outubro no <a href="https://research.google/blog/does-better-work-always-mean-better-workers" target="_blank" rel="noopener noreferrer nofollow">blog do Google Research</a>, assinado por David Autor e Tanya Rodchenko, e vêm de um artigo do NBER, o centro americano de pesquisa econômica.</p>

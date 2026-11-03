@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T16:46:00-03:00",
   topic: "negocios",
   imageQuery: "ElevenLabs logo",
+  coverImage: {
+    url: "/images/covers/elevenlabs-lanca-eleven-realtime-agentes-de-voz.webp",
+    width: 1280,
+    height: 720,
+    credit: "Ammaarreshi (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AElevenLabs%20Logo%2004.png",
+  },
   content: `
     <p>A ElevenLabs lançou na terça-feira (20) o Eleven Realtime, uma família de modelos de fala para fala pensada para agentes de voz. Em vez de transcrever o áudio, mandar o texto para um modelo de linguagem e depois sintetizar a resposta, o modelo recebe voz e devolve voz diretamente. Os detalhes constam no <a href="https://elevenlabs.io/blog/realtime" target="_blank" rel="noopener noreferrer nofollow">anúncio oficial da ElevenLabs</a>.</p>
 

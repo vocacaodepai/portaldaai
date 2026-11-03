@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T11:35:00-03:00",
   topic: "negocios",
   imageQuery: "DoorDash delivery",
+  coverImage: {
+    url: "/images/covers/doordash-so-centenas-pedidos-agentes-ia-terceiros.webp",
+    width: 1280,
+    height: 853,
+    credit: "The White House (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APresident%20Donald%20Trump%20accepts%20a%20DoorDash%20delivery%20outside%20of%20the%20Oval%20Office%20(55211935999).jpg",
+  },
   content: `
     <p>Enquanto boa parte do setor de tecnologia aposta que assistentes de IA vão fazer compras por nós, a DoorDash trouxe um dado que esfria o entusiasmo. Na teleconferência do balanço do terceiro trimestre de 2026, divulgada nesta sexta-feira, 30 de outubro, a empresa de entregas dos Estados Unidos afirmou ter recebido apenas "algumas centenas" de pedidos vindos de agentes de IA de terceiros, como o Muse, o Instinct e o Fo. A informação foi publicada pelo TechCrunch, em texto de Ivan Mehta.</p>
 

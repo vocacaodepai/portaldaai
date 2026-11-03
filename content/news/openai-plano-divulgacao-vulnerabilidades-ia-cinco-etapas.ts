@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T09:42:00-03:00",
   topic: "seguranca",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-plano-divulgacao-vulnerabilidades-ia-cinco-etapas.webp",
+    width: 1280,
+    height: 853,
+    credit: "European Commission - Photographer: Aurore Martignoni (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AVisit%20of%20OpenAI%20representatives%20to%20the%20European%20Commission%20-%20P061880-380830.jpg",
+  },
   content: `
     <p>A OpenAI publicou nesta quinta-feira (22) um plano de cinco etapas para lidar com vulnerabilidades críticas descobertas com ajuda de inteligência artificial. Segundo a reportagem do <a href="https://www.helpnetsecurity.com/2026/10/22/openai-vulnerability-disclosure-plan/" target="_blank" rel="noopener noreferrer nofollow">Help Net Security</a>, assinada por Mirko Zorz, o roteiro nasceu de dois meses de trabalho na resposta a duas falhas graves no PHP, a linguagem de código aberto que roda uma enorme fatia dos sites do mundo. O texto original da empresa está no <a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/" target="_blank" rel="noopener noreferrer nofollow">blog da OpenAI</a>.</p>
 

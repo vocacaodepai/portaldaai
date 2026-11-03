@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-20T04:30:00-03:00",
   topic: "negocios",
   imageQuery: "Jim Keller Tenstorrent",
+  coverImage: {
+    url: "/images/covers/tenstorrent-capta-1-5-bilhao-chips-inferencia-modelos-abertos.webp",
+    width: 1280,
+    height: 960,
+    credit: "Hans / Pixabay",
+    creditUrl: "https://pixabay.com/photos/franz-keller-house-hiking-hut-hut-59960/",
+  },
   content: `
     <p>A Tenstorrent, startup de chips focada em inferência e vista como uma desafiante da Nvidia, levantou US$ 1,5 bilhão em uma nova rodada que a avalia em US$ 6,2 bilhões. A informação foi publicada pelo <a href="https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a> em 19 de outubro de 2026. O valor mais que dobra a avaliação de US$ 2,6 bilhões que a empresa tinha no fim de 2024 e coloca no mapa uma pergunta que interessa a qualquer pessoa que paga por IA: quem vai fabricar os chips que fazem os modelos responderem, e a que preço.</p>
 

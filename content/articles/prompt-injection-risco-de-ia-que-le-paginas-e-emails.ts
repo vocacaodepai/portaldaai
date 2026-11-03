@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 8,
   imageQuery: "hidden text warning laptop security",
+  coverImage: {
+    url: "/images/covers/prompt-injection-risco-de-ia-que-le-paginas-e-emails.webp",
+    width: 1280,
+    height: 853,
+    credit: "stevepb / Pixabay",
+    creditUrl: "https://pixabay.com/photos/censorship-limitations-610101/",
+  },
   seed: 225,
   kind: "guia",
   author: "Bruno Danello",

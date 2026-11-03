@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-20",
   publishedAt: "2026-10-20T19:22:23-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/chatgpt-chats-bloqueados-pin-face-id.webp",
+    width: 1280,
+    height: 853,
+    credit: "ChatGPT (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20brain%20network%20visualization.png",
+  },
   topic: "lancamentos",
   content: `
     <p>A OpenAI começou a liberar nesta terça-feira (20) o recurso de chats bloqueados no ChatGPT, que permite proteger conversas sensíveis com um PIN de quatro dígitos ou, em aparelhos compatíveis, com Face ID ou Touch ID. A novidade foi detalhada em reportagem do <a href="https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/" rel="noopener noreferrer nofollow" target="_blank">TechCrunch</a> e vale para todos os planos, inclusive o gratuito.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 6,
   imageQuery: "professional laptop video call freelancer",
+  coverImage: {
+    url: "/images/covers/perfil-do-linkedin-como-servico-revisao-de-sobre-e-em-destaque-pacote-preco-e-limites.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/entrepreneur-start-up-man-planning-593371/",
+  },
   seed: 1090,
   kind: "guia",
   author: "Bruno Danello",

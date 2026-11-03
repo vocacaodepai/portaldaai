@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "real estate agent keys apartment",
+  coverImage: {
+    url: "/images/covers/anuncio-de-imovel-para-corretores-como-servico-com-ia-pacote-preco-e-creci.webp",
+    width: 1280,
+    height: 850,
+    credit: "wal_172619_II / Pixabay",
+    creditUrl: "https://pixabay.com/photos/houses-apartments-buildings-8618837/",
+  },
   seed: 899,
   kind: "guia",
   author: "Bruno Danello",

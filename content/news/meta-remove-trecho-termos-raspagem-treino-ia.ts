@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-17T22:35:00-03:00",
   topic: "regulacao",
   imageQuery: "Meta Platforms headquarters Menlo Park",
+  coverImage: {
+    url: "/images/covers/meta-remove-trecho-termos-raspagem-treino-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "LPS.1 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg",
+  },
   content: `
     <p>A Meta retirou dos seus termos comerciais um trecho que dizia que a empresa poderia usar "qualquer conteúdo" dos domínios, páginas e URLs de uma conta empresarial para "fornecer, desenvolver, melhorar, pesquisar, treinar e manter a integridade" dos seus produtos e serviços. A mudança foi noticiada neste sábado pelo <a href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, que por sua vez cita reportagem do <a href="https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites" target="_blank" rel="noopener noreferrer nofollow">The Verge</a>. A frase havia sido incluída numa atualização recente da página de termos comerciais e levantou suspeitas de que daria à empresa uma licença ampla para raspar sites de quem tem conta de negócios na plataforma.</p>
     <p>Segundo o TechCrunch, especialistas em direito ouvidos pelo Nieman Lab chamaram o texto de "disposição notável", porque ele poderia permitir que a Meta coletasse o conteúdo de qualquer editor com uma conta empresarial e o usasse para treinar seus modelos de IA. Um porta-voz da empresa havia respondido que a atualização não representava mudança na forma como a Meta rastreia a web. Agora, depois da repercussão, a própria empresa tirou o trecho e disse, em nota: "Ouvimos vocês e queremos esclarecer: os termos de rastreamento que consolidamos valiam apenas para nossos produtos de anúncios e negócios, e deixamos isso claro nos próprios termos. Isso não muda a forma como a Meta usa seus rastreadores."</p>

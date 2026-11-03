@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "newsroom journalist laptop desk",
+  coverImage: {
+    url: "/images/covers/jornalismo-e-ia-o-que-muda-para-quem-produz-noticia-e-para-quem-publica.webp",
+    width: 1280,
+    height: 970,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/new-york-times-journal-press-room-1159719/",
+  },
   seed: 885,
   kind: "guia",
   author: "Bruno Danello",

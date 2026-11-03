@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 7,
   imageQuery: "smartphone privacy lock screen",
+  coverImage: {
+    url: "/images/covers/apagar-historico-do-gemini-e-usar-chat-temporario.webp",
+    width: 1280,
+    height: 853,
+    credit: "BiljaST / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cyber-security-smartphone-cell-phone-2765707/",
+  },
   seed: 195,
   kind: "guia",
   author: "Bruno Danello",

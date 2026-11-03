@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "person laptop browsing search results",
+  coverImage: {
+    url: "/images/covers/ia-com-busca-na-web-como-funciona-citacoes-e-quando-desconfiar.webp",
+    width: 1280,
+    height: 893,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-woman-startup-business-849821/",
+  },
   seed: 912,
   kind: "guia",
   author: "Bruno Danello",

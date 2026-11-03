@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-16",
   publishedAt: "2026-10-16T02:23:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-extensao-chatgpt-chrome-abas-abertas.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A OpenAI atualizou a extensão do ChatGPT para o Google Chrome, e a principal novidade é que o assistente agora consegue ver e usar as abas que o usuário já deixou abertas no navegador. Segundo a reportagem do <a href="https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs" target="_blank" rel="noopener noreferrer nofollow">The Verge</a>, publicada na noite de quinta-feira (15), basta ter a extensão instalada e marcar o Chrome dentro do app web ou do aplicativo de desktop do ChatGPT para que o assistente enxergue o conteúdo dessas abas. A mudança chega depois do fim do navegador próprio da empresa, o ChatGPT Atlas, e mostra para onde a OpenAI decidiu levar sua aposta em navegação assistida por IA: em vez de pedir que o usuário troque de navegador, ela passa a morar dentro do que as pessoas já usam.</p>

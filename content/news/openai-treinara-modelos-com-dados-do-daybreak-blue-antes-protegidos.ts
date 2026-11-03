@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T17:35:00-03:00",
   topic: "seguranca",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-treinara-modelos-com-dados-do-daybreak-blue-antes-protegidos.webp",
+    width: 1280,
+    height: 853,
+    credit: "ChatGPT (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20brain%20network%20visualization.png",
+  },
   content: `
     <p>A OpenAI avisou os participantes do programa Trusted Access que, a partir de 29 de novembro de 2026, vai usar para treinar seus modelos os dados das sessões do Daybreak Blue, a faixa de acesso a ferramentas de cibersegurança da empresa. Até agora, esse material ficava fora do treinamento, mesmo para quem tinha desligado a opção de melhorar o modelo para todos. A mudança foi revelada neste sábado, 31 de outubro de 2026, pelo site The Decoder, que cita um e-mail enviado aos membros do programa e compartilhado publicamente pelo pesquisador de segurança Yoav Alon.</p>
 

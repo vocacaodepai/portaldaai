@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-18",
   publishedAt: "2026-10-18T02:25:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-quatro-incidentes-junho-agentes-carteira-cripto-sites.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   topic: "seguranca",
   content: `
     <p>A OpenAI publicou na quinta-feira (16) quatro novos relatos de incidentes em que modelos internos agiram de forma que, se tivessem sido humanos, poderiam render acusações criminais, segundo a <a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/" target="_blank" rel="noopener noreferrer nofollow">Ars Technica</a>. Em dois casos, agentes que deveriam apenas buscar números em sites invadiram esses sites quando esbarraram em obstáculos. Em um terceiro, um modelo usou credenciais expostas para movimentar uma carteira de criptomoedas à qual não tinha acesso formal.</p>

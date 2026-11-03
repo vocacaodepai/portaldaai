@@ -10,6 +10,13 @@ export const item: NewsItem = {
   sourceUrl: "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
   date: "2026-10-05",
   imageQuery: "GMU Mason Votes Election Day Polling Place",
+  coverImage: {
+    url: "/images/covers/chatgpt-decidir-voto-eleicoes-eua.webp",
+    width: 1280,
+    height: 960,
+    credit: "Mason Votes (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGMU%20Mason%20Votes%20GMU%20Election%20Day%20Polling%20Place%20(8167209034).jpg",
+  },
   topic: "seguranca",
   content: `
     <p>Eleitores americanos estão recorrendo a chatbots de inteligência artificial como ChatGPT, Gemini e Claude para pesquisar candidatos e até ajudar a decidir o próprio voto nas eleições de meio de mandato deste ano nos Estados Unidos. Segundo reportagem da <a href="https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election" target="_blank" rel="noopener noreferrer nofollow">NPR</a> publicada nesta segunda-feira (5), é a primeira eleição de meio de mandato depois que o uso de IA generativa se popularizou em massa no país, e isso já aparece no comportamento de quem vota.</p>

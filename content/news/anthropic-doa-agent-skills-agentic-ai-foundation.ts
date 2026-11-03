@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T12:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-doa-agent-skills-agentic-ai-foundation.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic anunciou na quinta-feira (22) que está doando o <strong>Agent Skills</strong>, o padrão aberto que dá conhecimento e rotinas especializadas a agentes de IA, para a <strong>Agentic AI Foundation (AAIF)</strong>, entidade ligada à Linux Foundation. A informação está no <a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" rel="noopener noreferrer nofollow" target="_blank">comunicado oficial da Anthropic</a>. Na prática, o formato que milhares de pessoas já usam para ensinar tarefas a um agente deixa de ser controlado por uma única empresa e passa a ter uma casa neutra.</p>
 

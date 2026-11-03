@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-09-27",
   readTime: 11,
   imageQuery: "person typing laptop chat interface desk",
+  coverImage: {
+    url: "/images/covers/chatgpt-plus-vale-a-pena-review-2026.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 91,
   kind: "review",
   author: "Bruno Danello",

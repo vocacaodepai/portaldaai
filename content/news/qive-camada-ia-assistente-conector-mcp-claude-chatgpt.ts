@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-20T01:30:00-03:00",
   topic: "lancamentos",
   imageQuery: "nota fiscal eletrônica escritório contabilidade",
+  coverImage: {
+    url: "/images/covers/qive-camada-ia-assistente-conector-mcp-claude-chatgpt.webp",
+    width: 1280,
+    height: 853,
+    credit: "Obsahovka / Pixabay",
+    creditUrl: "https://pixabay.com/photos/eet-electronic-records-sales-4764501/",
+  },
   content: `
     <p>A Qive, empresa brasileira que captura e organiza documentos fiscais para áreas financeiras e tributárias, anunciou uma camada de inteligência artificial para a sua plataforma. Segundo a publicação do <a href="https://www.em.com.br/mundo-corporativo/2026/10/7523197-qive-lanca-camada-de-inteligencia-artificial.html" target="_blank" rel="noopener noreferrer nofollow">Estado de Minas</a>, na seção Mundo Corporativo, em 19 de outubro, o lançamento tem duas frentes: um assistente que funciona dentro da própria plataforma e um conector baseado no Model Context Protocol (MCP) que leva os dados da Qive para outras ferramentas de IA, entre elas Claude e ChatGPT.</p>
 

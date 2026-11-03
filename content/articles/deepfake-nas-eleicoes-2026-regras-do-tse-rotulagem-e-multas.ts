@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-22",
   readTime: 7,
   imageQuery: "voting ballot box election polling station",
+  coverImage: {
+    url: "/images/covers/deepfake-nas-eleicoes-2026-regras-do-tse-rotulagem-e-multas.webp",
+    width: 1280,
+    height: 625,
+    credit: "Per Meistrup (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A2023%20TH-election%20polling-station%20IMG%204072.jpg",
+  },
   seed: 534,
   kind: "guia",
   author: "Bruno Danello",

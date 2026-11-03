@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "student watching explainer video tablet",
+  coverImage: {
+    url: "/images/covers/resumo-em-video-no-gemini-notebook-formatos-estilos-e-limites.webp",
+    width: 1280,
+    height: 720,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-desk-computer-technology-1834294/",
+  },
   seed: 303,
   kind: "guia",
   author: "Bruno Danello",

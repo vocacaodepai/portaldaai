@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T16:23:00-03:00",
   topic: "regulacao",
   imageQuery: "Google headquarters Googleplex",
+  coverImage: {
+    url: "/images/covers/google-politica-privacidade-gmail-fotos-anuncios-personal-intelligence.webp",
+    width: 1280,
+    height: 847,
+    credit: "Michael Shick (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20self%20driving%20car%20at%20the%20Googleplex.jpg",
+  },
   content: `
     <p>A política de privacidade do Google, atualizada com vigência a partir de 16 de outubro de 2026, ganhou uma ressalva importante sobre anúncios personalizados. A página oficial, disponível em <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer nofollow">policies.google.com/privacy</a>, diz agora que a empresa não mostra anúncios personalizados com base no seu conteúdo do Drive, do Gmail ou do Google Fotos, "a menos que você opte por disponibilizar dados desses serviços para outros serviços do Google que ofereçam suporte a anúncios personalizados". A mudança foi destacada na sexta-feira (23) pela reportagem do <a href="https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/" target="_blank" rel="noopener noreferrer nofollow">Ars Technica</a>, que a atribui a uma descoberta inicial do Android Authority.</p>
 

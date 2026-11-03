@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-19",
   publishedAt: "2026-10-19T08:31:00-03:00",
   imageQuery: "Google logo",
+  coverImage: {
+    url: "/images/covers/google-tribunais-alemaes-responsabilidade-ia-ai-overviews-aachen.webp",
+    width: 900,
+    height: 900,
+    credit: "google (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ALogo%20Google%20blanco.png",
+  },
   topic: "regulacao",
   content: `
     <p>Dois tribunais regionais da Alemanha já decidiram que o Google responde diretamente pelo que as suas respostas geradas por inteligência artificial afirmam sobre pessoas e empresas. A informação consta de uma <a href="https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/" rel="noopener noreferrer nofollow">análise publicada pelo The Decoder em 18 de outubro</a>, que reúne uma decisão de Munique, do fim de maio, e uma nova decisão de Aachen, de 24 de setembro. Nos dois casos, o raciocínio dos juízes foi o mesmo: o resumo de IA não é um resultado de busca neutro que apenas aponta para sites de terceiros, e sim um texto novo, produzido pelo próprio Google.</p>

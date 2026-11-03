@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T17:30:00-03:00",
   topic: "seguranca",
   imageQuery: "Sergey Brin portrait",
+  coverImage: {
+    url: "/images/covers/google-brin-gemini-ajuda-construir-proximo-gemini-relatorio-seguranca.webp",
+    width: 850,
+    height: 752,
+    credit: "Origafoundation (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APage%2Bbrin%20by%20origa.jpg",
+  },
   content: `
     <p>O cofundador do Google, Sergey Brin, disse que a empresa está "começando a subir na esteira" do autoaperfeiçoamento recursivo, a ideia de que a inteligência artificial ajuda a construir a próxima geração de IA. A informação foi publicada no sábado (17) pelo <a href="https://thenextweb.com/news/sergey-brin-gemini-recursive-self-improvement-safety-report" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>, em texto de Ana Maria Constantin que parte de uma reportagem original da Business Insider. Ao mesmo tempo, o relatório de segurança do Gemini 4 Argon, publicado pelo Google DeepMind neste mês, afirma que o risco ligado a esse tipo de automação é "atualmente baixo".</p>
 

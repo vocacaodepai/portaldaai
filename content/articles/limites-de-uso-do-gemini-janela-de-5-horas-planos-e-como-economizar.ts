@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "hourglass laptop usage meter",
+  coverImage: {
+    url: "/images/covers/limites-de-uso-do-gemini-janela-de-5-horas-planos-e-como-economizar.webp",
+    width: 1280,
+    height: 853,
+    credit: "stevepb / Pixabay",
+    creditUrl: "https://pixabay.com/photos/hourglass-clock-time-deadline-hour-1703330/",
+  },
   seed: 843,
   kind: "guia",
   author: "Bruno Danello",

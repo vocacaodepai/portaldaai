@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T09:29:00-03:00",
   imageQuery: "painel de cidade inteligente centro de controle digital",
+  coverImage: {
+    url: "/images/covers/cidades-ia-servicos-publicos-oxford-insights.webp",
+    width: 1280,
+    height: 853,
+    credit: "CapeCom / Pixabay",
+    creditUrl: "https://pixabay.com/photos/beach-bar-beach-vacations-summer-5298364/",
+  },
   topic: "regulacao",
   content: `
     <p>Um estudo divulgado nesta terça-feira, 6 de outubro, pela consultoria britânica Oxford Insights, mostra que cidades ao redor do mundo estão integrando inteligência artificial a serviços públicos essenciais, como transporte, saúde e atendimento ao cidadão, sem que exista um padrão comum para medir o grau de preparo de cada administração para esse tipo de tecnologia. Segundo reportagem do <a href="https://www.em.com.br/mundo-corporativo/2026/10/7515401-cidades-estao-integrando-ia-aos-servicos-publicos-sem-um-quadro-comum-para-avaliar-o-grau-de-preparacao-aponta-estudo-da-oxford-insights.html" target="_blank" rel="noopener noreferrer nofollow">Estado de Minas</a>, a pesquisa foi conduzida em parceria com a Mohamed bin Zayed University of Artificial Intelligence e a Khalifa University, dos Emirados Árabes Unidos.</p>

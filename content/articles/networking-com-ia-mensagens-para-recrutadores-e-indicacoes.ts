@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "professionals talking coffee networking event",
+  coverImage: {
+    url: "/images/covers/networking-com-ia-mensagens-para-recrutadores-e-indicacoes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/camera-camera-equipment-interview-1867184/",
+  },
   seed: 234,
   kind: "guia",
   author: "Bruno Danello",

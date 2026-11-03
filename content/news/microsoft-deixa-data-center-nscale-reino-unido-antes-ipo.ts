@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T22:25:00-03:00",
   topic: "negocios",
   imageQuery: "Microsoft headquarters Redmond",
+  coverImage: {
+    url: "/images/covers/microsoft-deixa-data-center-nscale-reino-unido-antes-ipo.webp",
+    width: 1280,
+    height: 851,
+    credit: "Jiaqian AirplaneFan (CC BY 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABuilding%2092%20of%20Microsoft%20Redmond%20Campus%20-%20panoramio.jpg",
+  },
   content: `
     <p>A Microsoft teria desistido de um acordo para ser o cliente âncora do primeiro data center da Nscale no Reino Unido, em Loughton, no condado de Essex, a poucas semanas do IPO da empresa. A informação foi publicada pelo jornal britânico The Telegraph e repercutida pela Bloomberg, e chegou a este texto por meio de uma <a href="https://thenextweb.com/news/microsoft-pulls-out-nscale-loughton-data-centre-ipo" rel="noopener noreferrer nofollow" target="_blank">reportagem do The Next Web</a> publicada neste domingo (18). Nem a Microsoft nem a imprensa que acompanha o caso apontaram o motivo da saída.</p>
 

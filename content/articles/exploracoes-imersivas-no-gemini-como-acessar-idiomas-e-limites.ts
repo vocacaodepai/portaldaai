@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "student tablet science diagram classroom",
+  coverImage: {
+    url: "/images/covers/exploracoes-imersivas-no-gemini-como-acessar-idiomas-e-limites.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/people-girls-women-students-2557396/",
+  },
   seed: 887,
   kind: "guia",
   author: "Bruno Danello",

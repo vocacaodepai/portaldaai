@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 8,
   imageQuery: "shop owner counting stock shelves clipboard",
+  coverImage: {
+    url: "/images/covers/inventario-de-fim-de-ano-na-loja-contagem-recontagem-e-divergencias-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "RebeccasPictures / Pixabay",
+    creditUrl: "https://pixabay.com/photos/dog-pet-pet-owner-animal-owner-5753302/",
+  },
   seed: 1096,
   kind: "guia",
   author: "Bruno Danello",

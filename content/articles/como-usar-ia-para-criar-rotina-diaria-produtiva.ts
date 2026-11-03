@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "morning planner notebook coffee desk",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-criar-rotina-diaria-produtiva.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/to-do-list-checklist-notepad-2607082/",
+  },
   seed: 76,
   kind: "guia",
   author: "Bruno Danello",

@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "photo editing retouch screen",
+  coverImage: {
+    url: "/images/covers/como-vender-servicos-de-edicao-de-fotos-e-retoque-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-keyboard-apple-laptop-2563417/",
+  },
   seed: 63,
   kind: "guia",
   author: "Bruno Danello",

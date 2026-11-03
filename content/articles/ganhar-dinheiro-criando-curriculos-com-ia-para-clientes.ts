@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "resume document laptop desk workspace",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-criando-curriculos-com-ia-para-clientes.webp",
+    width: 1280,
+    height: 848,
+    credit: "Goumbik / Pixabay",
+    creditUrl: "https://pixabay.com/photos/chart-graph-finance-financial-data-2785864/",
+  },
   seed: 171,
   kind: "guia",
   author: "Bruno Danello",

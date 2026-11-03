@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T01:30:00-03:00",
   topic: "regulacao",
   imageQuery: "xAI Colossus data center Memphis",
+  coverImage: {
+    url: "/images/covers/juiz-mantem-processo-naacp-xai-turbinas-gas-colossus-memphis.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   content: `
     <p>Um dos maiores data centers de IA dos Estados Unidos acaba de perder uma rodada na Justiça. Segundo reportagem publicada neste sábado, 31 de outubro, pelo TechCrunch, a juíza federal Debra M. Brown negou o pedido da xAI para arquivar o processo movido em nome da NAACP, a associação americana de defesa dos direitos civis. Com a decisão, a ação segue em frente. O texto abaixo é análise própria do Portal da AI a partir dessa reportagem, assinada por Anthony Ha.</p>
 

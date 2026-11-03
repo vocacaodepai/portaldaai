@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T19:40:00-03:00",
   topic: "negocios",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/microsoft-recebeu-10-bilhoes-openai-trimestre-azure-33-bilhoes.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22%20(cropped).jpg",
+  },
   content: `
     <p>A Microsoft divulgou nesta quarta-feira, 28 de outubro de 2026, o balanço do trimestre encerrado em 30 de setembro, o primeiro do ano fiscal de 2027 da empresa. Dois números chamaram a atenção do mercado de IA: cerca de US$ 10 bilhões em receita ligada à OpenAI e, pela primeira vez, a receita do Azure informada em dólares, US$ 33,2 bilhões. As duas informações aparecem em reportagens da TechCrunch, assinadas por Rebecca Bellan e Aditya Mehta.</p>
 

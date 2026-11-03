@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 8,
   imageQuery: "professional personal website laptop desk notebook",
+  coverImage: {
+    url: "/images/covers/pagina-pessoal-profissional-de-uma-pagina-o-que-colocar-e-como-aparecer-no-google.webp",
+    width: 1280,
+    height: 826,
+    credit: "27707 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-wordpress-wordpress-design-593673/",
+  },
   seed: 1097,
   kind: "guia",
   author: "Bruno Danello",

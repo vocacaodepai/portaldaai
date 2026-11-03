@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T13:23:00-03:00",
   topic: "lancamentos",
   imageQuery: "Cadillac Lyriq",
+  coverImage: {
+    url: "/images/covers/gm-onstar-assistente-ia-agentica-cadillac-lyriq-2027.webp",
+    width: 1280,
+    height: 701,
+    credit: "Alexander-93 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACadillac%20Lyriq%20Auto%20Zuerich%202024%20DSC%206093.jpg",
+  },
   content: `
     <p>A General Motors (GM) anunciou nesta quarta-feira (21), em seu evento GM Forward, em Nova York, uma reformulação do OnStar, o serviço de conectividade e assinatura de seus carros que completa 30 anos. Segundo a <a href="https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/" target="_blank" rel="noopener noreferrer nofollow">reportagem da TechCrunch</a>, assinada por Kirsten Korosec, o centro da mudança é um assistente pessoal de IA, o OnStar AI Assistant, que vai estrear no Cadillac Lyriq 2027, um carro elétrico, "nos próximos meses", e depois chegar a outros modelos da marca.</p>
 

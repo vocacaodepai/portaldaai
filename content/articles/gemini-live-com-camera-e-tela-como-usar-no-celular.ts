@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "person pointing smartphone camera at shelf",
+  coverImage: {
+    url: "/images/covers/gemini-live-com-camera-e-tela-como-usar-no-celular.webp",
+    width: 1280,
+    height: 853,
+    credit: "JESHOOTS-com / Pixabay",
+    creditUrl: "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+  },
   seed: 336,
   kind: "guia",
   author: "Bruno Danello",

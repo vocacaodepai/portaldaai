@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-08T07:25:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-372-resultados-matematica-modelo-nao-lancado.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A OpenAI publicou, na noite de terça-feira (6), 372 resultados que a empresa diz resolver ou avançar de forma substancial em grandes questões abertas de matemática e de ciência da computação teórica. Os arquivos foram colocados num repositório público no GitHub, segundo a <a href="https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/" target="_blank" rel="noopener noreferrer nofollow">reportagem da Scientific American</a>, assinada por Joseph Howlett.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 7,
   imageQuery: "open book pages close up reading",
+  coverImage: {
+    url: "/images/covers/tokens-e-janela-de-contexto-em-ia-o-que-sao-e-por-que-importam.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/bible-blur-book-close-up-open-1869164/",
+  },
   seed: 278,
   kind: "guia",
   author: "Bruno Danello",

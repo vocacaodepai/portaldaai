@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "custom software developer building workflow",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-criando-e-vendendo-agentes-de-ia-personalizados.webp",
+    width: 1280,
+    height: 852,
+    credit: "yeiferr / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-laptop-tech-blue-computer-4795762/",
+  },
   seed: 82,
   kind: "guia",
   author: "Bruno Danello",

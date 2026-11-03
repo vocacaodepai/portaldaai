@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "gavel law documents laptop",
+  coverImage: {
+    url: "/images/covers/decisao-automatizada-lgpd-como-pedir-revisao-de-uma-ia.webp",
+    width: 1280,
+    height: 711,
+    credit: "qimono / Pixabay",
+    creditUrl: "https://pixabay.com/photos/gavel-auction-law-hammer-symbol-2492011/",
+  },
   seed: 295,
   kind: "guia",
   author: "Bruno Danello",

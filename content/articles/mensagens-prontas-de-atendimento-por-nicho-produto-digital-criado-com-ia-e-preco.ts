@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 8,
   imageQuery: "smartphone chat customer service small shop",
+  coverImage: {
+    url: "/images/covers/mensagens-prontas-de-atendimento-por-nicho-produto-digital-criado-com-ia-e-preco.webp",
+    width: 1280,
+    height: 853,
+    credit: "Sunriseforever / Pixabay",
+    creditUrl: "https://pixabay.com/photos/florist-flower-shop-delivery-6974505/",
+  },
   seed: 849,
   kind: "guia",
   author: "Bruno Danello",

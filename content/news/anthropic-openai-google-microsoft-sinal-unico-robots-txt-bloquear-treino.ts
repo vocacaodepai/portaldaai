@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T01:30:00-03:00",
   topic: "regulacao",
   imageQuery: "robots.txt",
+  coverImage: {
+    url: "/images/covers/anthropic-openai-google-microsoft-sinal-unico-robots-txt-bloquear-treino.webp",
+    width: 1280,
+    height: 851,
+    credit: "Aero Icarus from Zürich, Switzerland (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A250dk%20-%20Mexicana%20Airbus%20A320%2C%20XA-TXT%40MEX%2C24.07.2003%20-%20Flickr%20-%20Aero%20Icarus.jpg",
+  },
   content: `
     <p>OpenAI, Google, Microsoft e Anthropic disseram que vão adotar um novo padrão para que sites recusem o uso de seu conteúdo por inteligência artificial. Em vez de configurar a preferência separadamente para cada empresa, o dono do site poderá usar um único sinal, chamado de "token de política", que as quatro se comprometeram a respeitar. A informação foi publicada pelo The Verge nesta sexta-feira (30), com base em reportagem anterior do Search Engine Roundtable.</p>
     <p>O sinal foi proposto por Kevin Kelley, líder técnico de padrões da Anthropic, dentro do IETF, a entidade que define normas técnicas da internet. Ele ficará no arquivo robots.txt, aquele que há décadas diz a robôs de busca, de arquivamento e de treino de IA o que podem ou não rastrear em um site.</p>

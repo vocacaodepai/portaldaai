@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-07T07:35:00-03:00",
   imageQuery: "programmer coding technical interview laptop screen",
+  coverImage: {
+    url: "/images/covers/hackerrank-chakra-entrevista-tecnica-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coding-programming-working-macbook-924920/",
+  },
   topic: "mercado-trabalho",
   content: `
     <p>A HackerRank lançou nesta semana a Chakra, um agente de IA que conduz entrevistas técnicas de programação observando como o candidato pensa e resolve o problema, não só o resultado final que ele entrega. Segundo reportagem da <a href="https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a ferramenta já passou por mais de 500 mil entrevistas em fase de teste e reduziu em 70% a 80% os alertas de atividade suspeita em comparação com as avaliações tradicionais da própria HackerRank.</p>

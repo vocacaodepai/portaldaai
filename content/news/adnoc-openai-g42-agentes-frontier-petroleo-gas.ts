@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-02",
   publishedAt: "2026-11-02T05:38:00-03:00",
   imageQuery: "Sultan Al Jaber ADNOC",
+  coverImage: {
+    url: "/images/covers/adnoc-openai-g42-agentes-frontier-petroleo-gas.webp",
+    width: 1280,
+    height: 601,
+    credit: "Ministry of Petroleum and Natural Gas (GODL-India) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADharmendra%20Pradhan%20in%20a%20meeting%20with%20the%20Minister%20of%20State%20of%20UAE%20%26%20CEO%20Abu%20Dhabi%20National%20Oil%20Company%20(ADNOC)%20Group%2C%20Dr.%20Sultan%20Ahmed%20Al%20Jaber%2C%20in%20New%20Delhi.JPG",
+  },
   topic: "negocios",
   content: `
     <p>A ADNOC, petroleira estatal de Abu Dhabi, assinou um acordo de vários anos com a OpenAI e a G42 para levar agentes de inteligência artificial para dentro das suas operações. O anúncio foi feito nesta segunda-feira (2 de novembro), durante uma visita do presidente-executivo da OpenAI, Sam Altman, aos Emirados Árabes Unidos, e foi relatado pelo The Next Web, que cita o jornal The National e um comunicado da própria OpenAI. A ADNOC será a primeira empresa de energia a usar o OpenAI Frontier, a plataforma lançada em fevereiro para empresas criarem e gerenciarem agentes de IA.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "website builder landing page",
+  coverImage: {
+    url: "/images/covers/como-criar-landing-pages-e-sites-simples-com-ia.webp",
+    width: 1280,
+    height: 780,
+    credit: "Alexas_Fotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/handyman-construction-site-workers-3094035/",
+  },
   seed: 51,
   kind: "guia",
   author: "Bruno Danello",

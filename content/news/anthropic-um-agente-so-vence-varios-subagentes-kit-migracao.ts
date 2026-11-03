@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T02:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-um-agente-so-vence-varios-subagentes-kit-migracao.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic publicou um guia para quem constrói agentes de IA na Claude Platform com uma recomendação direta: antes de manter uma frota de subagentes especializados, vale testar se um único agente principal, que carrega contexto e ferramentas sob demanda, não entrega mais com menos custo. O texto, assinado por Diane Sarkis e datado de 22 de outubro de 2026, está no <a href="https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop" target="_blank" rel="noopener noreferrer nofollow">site da própria Anthropic</a>. A empresa também liberou um kit de migração no GitHub para ajudar equipes a fazer essa avaliação.</p>
 

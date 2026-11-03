@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "circuit board glowing blue closeup",
+  coverImage: {
+    url: "/images/covers/o-que-e-autoaperfeicoamento-recursivo-da-ia-rsi-e-o-que-muda-para-quem-trabalha.webp",
+    width: 1280,
+    height: 853,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/photographer-girl-camera-digital-430619/",
+  },
   seed: 1102,
   kind: "guia",
   author: "Bruno Danello",

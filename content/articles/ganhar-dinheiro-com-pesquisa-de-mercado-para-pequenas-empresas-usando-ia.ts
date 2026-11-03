@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-08",
   readTime: 8,
   imageQuery: "analyst laptop charts desk",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-com-pesquisa-de-mercado-para-pequenas-empresas-usando-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "harryloya / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-office-business-laptop-3033135/",
+  },
   seed: 181,
   kind: "guia",
   author: "Bruno Danello",

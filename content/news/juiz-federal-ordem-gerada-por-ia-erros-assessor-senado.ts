@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-08T08:30:00-03:00",
   imageQuery: "United States Senate Judiciary Committee",
+  coverImage: {
+    url: "/images/covers/juiz-federal-ordem-gerada-por-ia-erros-assessor-senado.webp",
+    width: 315,
+    height: 197,
+    credit: "U.S. Senate hearing (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ATestimony%20of%20Steve%20Case%20before%20the%20U.S.%20Senate%20Committee%20on%20the%20Judiciary%20Hearing%20On%20'Comprehensive%20Immigration%20Reform'%20February%2013%2C%202013.jpg",
+  },
   topic: "regulacao",
   content: `
     <p>Uma decisão judicial cheia de erros, atribuída ao uso de inteligência artificial por um assessor, virou assunto no Senado americano e num tribunal de apelação. O caso envolve o juiz federal Henry T. Wingate, do Distrito Sul do Mississippi, e foi detalhado em reportagem publicada em 7 de outubro pela <a href="https://molawyersmedia.com/2026/10/07/ai-errors-court-order-legal-ethics/" target="_blank" rel="noopener noreferrer nofollow">Missouri Lawyers Media</a>.</p>

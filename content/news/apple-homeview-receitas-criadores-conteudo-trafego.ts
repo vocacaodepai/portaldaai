@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T08:30:00-03:00",
   topic: "negocios",
   imageQuery: "Apple Park Cupertino",
+  coverImage: {
+    url: "/images/covers/apple-homeview-receitas-criadores-conteudo-trafego.webp",
+    width: 1280,
+    height: 1280,
+    credit: "Umbra Lab, Inc. (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACupertino%2C%20CA%20(Apple%20HQ).tiff",
+  },
   content: `
     <p>A Apple lançou o HomeView, um painel inteligente para a cozinha e a sala, e uma de suas funções mais mostradas virou motivo de reclamação entre quem vive de criar conteúdo. Segundo <a href="https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting" target="_blank" rel="noopener noreferrer nofollow">reportagem do The Verge</a>, o aparelho pega uma receita publicada na internet e entrega só o essencial: lista de ingredientes, passo a passo e temporizadores, tudo controlado por voz e pela Siri com IA.</p>
     <p>O problema, de acordo com a reportagem, é o que fica de fora. Ao converter a receita para o formato da Apple, o aparelho remove também o contexto da página, incluindo os anúncios e os links de afiliado dos quais muitos autores dependem para pagar as contas. A receita pode ser grátis para quem lê, mas não é grátis para quem cria, e é essa conta que o formato novo coloca em risco.</p>

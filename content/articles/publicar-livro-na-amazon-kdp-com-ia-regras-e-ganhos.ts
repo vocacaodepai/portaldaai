@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "open book tablet reading desk",
+  coverImage: {
+    url: "/images/covers/publicar-livro-na-amazon-kdp-com-ia-regras-e-ganhos.webp",
+    width: 1280,
+    height: 961,
+    credit: "lil_foot_ / Pixabay",
+    creditUrl: "https://pixabay.com/photos/open-book-library-education-read-1428428/",
+  },
   seed: 221,
   kind: "guia",
   author: "Bruno Danello",

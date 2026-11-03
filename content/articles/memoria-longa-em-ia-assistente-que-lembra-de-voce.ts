@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 8,
   imageQuery: "woman smartphone chat glowing night",
+  coverImage: {
+    url: "/images/covers/memoria-longa-em-ia-assistente-que-lembra-de-voce.webp",
+    width: 1280,
+    height: 853,
+    credit: "LoboStudioHamburg / Pixabay",
+    creditUrl: "https://pixabay.com/photos/internet-whatsapp-smartphone-3113279/",
+  },
   seed: 160,
   kind: "guia",
   author: "Bruno Danello",

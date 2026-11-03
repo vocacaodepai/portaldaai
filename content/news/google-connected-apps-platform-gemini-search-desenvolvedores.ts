@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T18:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google Gemini logo",
+  coverImage: {
+    url: "/images/covers/google-connected-apps-platform-gemini-search-desenvolvedores.webp",
+    width: 1280,
+    height: 720,
+    credit: "Gemini (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGemini%20language%20model%20logo.png",
+  },
   content: `
     <p>O Google lançou nesta quarta-feira (28) a Connected Apps Platform, um programa que abre o Gemini e a Busca com IA para aplicativos de terceiros. A novidade foi reportada pelo TechCrunch, em texto de Sarah Perez. A ideia é que qualquer empresa ou desenvolvedor possa registrar o seu app e fazer com que ele apareça dentro das experiências de IA do Google, para que o usuário resolva tarefas sem sair da conversa. Esta matéria é uma análise própria a partir desse relato; o crédito da fonte está no fim do texto.</p>
 

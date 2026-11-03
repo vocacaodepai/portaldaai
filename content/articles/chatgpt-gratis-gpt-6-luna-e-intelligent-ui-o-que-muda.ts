@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 8,
   imageQuery: "smartphone chat interface charts screen",
+  coverImage: {
+    url: "/images/covers/chatgpt-gratis-gpt-6-luna-e-intelligent-ui-o-que-muda.webp",
+    width: 1280,
+    height: 817,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/phone-android-apps-world-map-1869510/",
+  },
   seed: 286,
   kind: "guia",
   author: "Bruno Danello",

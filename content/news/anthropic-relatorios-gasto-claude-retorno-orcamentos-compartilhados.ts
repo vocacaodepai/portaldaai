@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T17:35:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-relatorios-gasto-claude-retorno-orcamentos-compartilhados.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic anunciou nesta quarta-feira, 28 de outubro de 2026, um conjunto de ferramentas de relatório para clientes corporativos do Claude. A ideia é responder a uma pergunta que hoje trava muita compra de IA: o dinheiro gasto em tokens está virando resultado de verdade? A reportagem é da TechCrunch, assinada por Tim Fernholz, e o lançamento acontece em um momento sensível para a empresa, que se prepara para abrir capital.</p>
 

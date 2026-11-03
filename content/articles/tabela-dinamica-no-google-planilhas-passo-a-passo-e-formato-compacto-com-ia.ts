@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 7,
   imageQuery: "sales report table laptop coffee",
+  coverImage: {
+    url: "/images/covers/tabela-dinamica-no-google-planilhas-passo-a-passo-e-formato-compacto-com-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Deeezy / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-workstaion-office-work-4906312/",
+  },
   seed: 888,
   kind: "guia",
   author: "Bruno Danello",

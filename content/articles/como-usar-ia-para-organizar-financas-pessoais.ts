@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "personal finance budget app phone",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-organizar-financas-pessoais.webp",
+    width: 1280,
+    height: 865,
+    credit: "nattanan23 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/money-coin-investment-business-2724241/",
+  },
   seed: 71,
   kind: "guia",
   author: "Bruno Danello",

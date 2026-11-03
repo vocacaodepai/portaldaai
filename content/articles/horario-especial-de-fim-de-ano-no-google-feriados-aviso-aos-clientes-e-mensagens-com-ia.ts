@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-02",
   readTime: 6,
   imageQuery: "shop window open sign evening",
+  coverImage: {
+    url: "/images/covers/horario-especial-de-fim-de-ano-no-google-feriados-aviso-aos-clientes-e-mensagens-com-ia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Photographer Georg Pahl according to German Federal Archives (Bundesarchiv, BArch). Low resolution copy of press photo from former news agency or open public archive. No known copyright restrictions. (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AJudenboykott%201933-04-01%20Berlin%20Anti-Semitic%20Anti-Jewish%20Nazi%20boycott%20of%20Jewish%20businesses%20shops%20in%20Germany%20SA%20brownshirt%20Poster%20warning%20sign%20window%20display%20lace%20and%20crochet%20shop%20Kauft%20nicht%20bei%20Juden%20No%20known%20copyright.jpg",
+  },
   seed: 1091,
   kind: "guia",
   author: "Bruno Danello",

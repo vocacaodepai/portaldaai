@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T18:25:00-03:00",
   topic: "lancamentos",
   imageQuery: "servidor data center GPU",
+  coverImage: {
+    url: "/images/covers/inception-mercury-3-llm-difusao-1000-tokens-segundo.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   content: `
     <p>A Inception Labs apresentou nesta segunda-feira (19) o Mercury 3, a nova versão de seu modelo de linguagem baseado em difusão. Segundo o <a href="https://www.inceptionlabs.ai/blog/introducing-mercury-3" target="_blank" rel="noopener noreferrer nofollow">anúncio publicado pela própria empresa</a>, o modelo roda a cerca de 1.068 tokens por segundo em GPUs da Nvidia, aceita até 1 milhão de tokens de contexto e custa uma fração dos modelos de fronteira. A Inception afirma que ele supera o GPT-6 Luna e o Claude Haiku 5.5 em vários testes, sendo de 4 a 8 vezes mais rápido. Os números de desempenho são da própria fabricante e ainda não foram confirmados por avaliações independentes.</p>
 

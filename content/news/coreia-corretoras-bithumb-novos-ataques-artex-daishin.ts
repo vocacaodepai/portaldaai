@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T21:30:00-03:00",
   topic: "seguranca",
   imageQuery: "Bithumb cryptocurrency exchange Seoul",
+  coverImage: {
+    url: "/images/covers/coreia-corretoras-bithumb-novos-ataques-artex-daishin.webp",
+    width: 1280,
+    height: 789,
+    credit: "WorldSpectrum / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cryptocurrency-business-finance-3085139/",
+  },
   content: `
     <p>O setor financeiro da Coreia do Sul voltou a ser alvo de ataques cibernéticos pouco mais de um mês depois da primeira onda de invasões, que pesquisadores ligaram ao uso de uma ferramenta de teste de invasão movida a inteligência artificial. Segundo a reportagem do TechCrunch publicada em 28 de outubro de 2026, a corretora Daishin Securities confirmou que um ataque expôs dados pessoais de 38.490 clientes, enquanto a gestora Mirae Asset Global Investments e a corretora de criptomoedas Bithumb comunicaram, no mesmo dia, incidentes de segurança próprios.</p>
 

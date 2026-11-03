@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "freelancer working laptop notebook home",
+  coverImage: {
+    url: "/images/covers/curriculo-de-autonomo-e-mei-transformar-trabalhos-por-conta-propria-em-experiencia.webp",
+    width: 1280,
+    height: 853,
+    credit: "markusspiske / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-home-office-creative-apple-581131/",
+  },
   seed: 915,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "farm drone field crops aerial",
+  coverImage: {
+    url: "/images/covers/ia-no-agro-brasileiro-drones-sensores-e-o-que-muda-para-quem-produz.webp",
+    width: 1280,
+    height: 653,
+    credit: "DJI-Agras / Pixabay",
+    creditUrl: "https://pixabay.com/photos/dji-farming-agriculture-drone-4223417/",
+  },
   seed: 819,
   kind: "guia",
   author: "Bruno Danello",

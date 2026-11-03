@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T06:40:00-03:00",
   topic: "seguranca",
   imageQuery: "1Password logo",
+  coverImage: {
+    url: "/images/covers/1password-for-agents-senhas-agentes-ia.webp",
+    width: 1024,
+    height: 1024,
+    credit: "AgileBits (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A1Password%20icon%20iOS%20light.png",
+  },
   content: `
     <p>Dar uma senha para um agente de IA sempre foi o ponto mais frágil de quem quer delegar tarefas a um assistente. A 1Password, empresa de segurança de identidade com sede em Toronto, anunciou na quinta-feira (22) o <strong>1Password for Agents</strong>, uma plataforma que permite que agentes de IA pessoais entrem em contas e concluam tarefas sem nunca ver nem guardar senhas, segredos ou credenciais. A informação está no <a href="https://1password.com/press/2026/october/1password-for-agents-trust-layer-personal-ai-agents" rel="noopener noreferrer nofollow" target="_blank">comunicado oficial da 1Password</a>, publicado às 9h (horário de Nova York).</p>
 

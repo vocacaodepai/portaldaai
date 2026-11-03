@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 8,
   imageQuery: "small shop owner calculator receipts counter",
+  coverImage: {
+    url: "/images/covers/mei-com-dois-empregados-e-teto-de-r-140-mil-o-que-muda-com-a-lc-238.webp",
+    width: 1280,
+    height: 917,
+    credit: "777546 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/accounting-report-credit-card-761599/",
+  },
   seed: 817,
   kind: "guia",
   author: "Bruno Danello",

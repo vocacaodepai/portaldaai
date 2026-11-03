@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T12:25:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "Binnenhof The Hague Dutch government",
+  coverImage: {
+    url: "/images/covers/holanda-corta-25-mil-empregos-governo-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "Nikodi / Pixabay",
+    creditUrl: "https://pixabay.com/photos/the-hague-holland-courtyard-993433/",
+  },
   content: `
     <p>O governo da Holanda anunciou que pretende cortar cerca de 25 mil empregos em tempo integral na administração central, e a inteligência artificial aparece como uma das apostas para fazer o Estado funcionar com menos gente. O plano foi apresentado em comunicado na segunda-feira, 26 de outubro de 2026, e detalhado em reportagem publicada pelo The Next Web nesta quarta-feira, que cita também a agência Bloomberg.</p>
 

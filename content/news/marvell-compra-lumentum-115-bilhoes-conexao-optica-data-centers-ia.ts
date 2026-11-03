@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-02",
   publishedAt: "2026-11-02T11:20:00-03:00",
   imageQuery: "Marvell Technology headquarters",
+  coverImage: {
+    url: "/images/covers/marvell-compra-lumentum-115-bilhoes-conexao-optica-data-centers-ia.webp",
+    width: 1280,
+    height: 854,
+    credit: "995645 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/united-nations-u-n-vienna-un-city-3760656/",
+  },
   topic: "negocios",
   content: `
     <p>A Marvell Technology, fabricante de chips personalizados para IA e de equipamentos de rede, anunciou nesta segunda-feira (2 de novembro) que vai comprar a Lumentum, especializada em lasers e componentes ópticos usados dentro de data centers. O negócio é todo em ações e avalia a Lumentum em cerca de US$ 115 bilhões, já contando a dívida. A informação foi detalhada pelo The Next Web, que cita Bloomberg e Reuters.</p>

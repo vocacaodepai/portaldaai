@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 7,
   imageQuery: "magnifying glass photo authenticity check",
+  coverImage: {
+    url: "/images/covers/synthid-site-do-google-para-verificar-midia-gerada-por-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "danydory / Pixabay",
+    creditUrl: "https://pixabay.com/photos/magnifying-glass-logo-grow-envelope-7587037/",
+  },
   seed: 308,
   kind: "guia",
   author: "Bruno Danello",

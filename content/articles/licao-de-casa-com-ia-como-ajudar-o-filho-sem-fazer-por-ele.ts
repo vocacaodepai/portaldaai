@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "parent child homework kitchen table",
+  coverImage: {
+    url: "/images/covers/licao-de-casa-com-ia-como-ajudar-o-filho-sem-fazer-por-ele.webp",
+    width: 1280,
+    height: 932,
+    credit: "mozlase__ / Pixabay",
+    creditUrl: "https://pixabay.com/photos/school-work-write-still-life-851328/",
+  },
   seed: 304,
   kind: "guia",
   author: "Bruno Danello",

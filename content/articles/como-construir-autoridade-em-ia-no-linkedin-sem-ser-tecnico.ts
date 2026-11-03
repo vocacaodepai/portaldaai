@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "linkedin profile professional networking",
+  coverImage: {
+    url: "/images/covers/como-construir-autoridade-em-ia-no-linkedin-sem-ser-tecnico.webp",
+    width: 1280,
+    height: 853,
+    credit: "AS_Photography / Pixabay",
+    creditUrl: "https://pixabay.com/photos/social-media-facebook-twitter-1795578/",
+  },
   seed: 75,
   kind: "guia",
   author: "Bruno Danello",

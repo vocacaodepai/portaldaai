@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 6,
   imageQuery: "person laptop online store commission",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-como-afiliado-usando-ia-guia-realista.webp",
+    width: 1280,
+    height: 853,
+    credit: "OleksandrPidvalnyi / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telework-technology-laptop-6795505/",
+  },
   seed: 212,
   kind: "guia",
   author: "Bruno Danello",

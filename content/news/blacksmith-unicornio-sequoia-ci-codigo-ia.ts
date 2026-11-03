@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T03:27:00-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/blacksmith-unicornio-sequoia-ci-codigo-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A Blacksmith, plataforma que ajuda empresas a construir e testar software com mais eficiência, inclusive o código escrito por inteligência artificial, anunciou nesta quarta-feira (21) uma rodada Série C de US$ 66 milhões liderada pela Sequoia. Segundo o <a href="https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a avaliação chegou a US$ 1 bilhão, o que coloca a empresa no clube dos unicórnios. No total, a startup já levantou US$ 125 milhões.</p>
 

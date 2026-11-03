@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T00:40:00-03:00",
   topic: "negocios",
   imageQuery: "Seoul South Korea skyline",
+  coverImage: {
+    url: "/images/covers/furiosaai-capta-620-milhoes-avaliacao-2-9-bilhoes-chip-inferencia.webp",
+    width: 1000,
+    height: 522,
+    credit: "Jimmy McIntyre - Editor HDR One Magazine (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ASeoul%20Skyline%20(6907571755).jpg",
+  },
   content: `
     <p>A FuriosaAI, fabricante sul-coreana de chips para rodar modelos de inteligência artificial, anunciou uma rodada Série D de US$ 620 milhões que a avalia em cerca de US$ 2,9 bilhões. A empresa, sediada em Seul, valia US$ 735 milhões na rodada do ano passado, ou seja, o valor quase quadruplicou em doze meses. A informação foi publicada pelo The Next Web, que cita a Bloomberg como a primeira a noticiar o negócio, e a própria empresa divulgou a rodada em comunicado e em post no blog. Para quem usa IA no trabalho, a notícia importa porque mostra o dinheiro indo para a parte do sistema que mais pesa na conta: a inferência, isto é, o momento em que o modelo responde às suas perguntas.</p>
 

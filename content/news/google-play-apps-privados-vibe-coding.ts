@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-13T14:23:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google Play Store logo",
+  coverImage: {
+    url: "/images/covers/google-play-apps-privados-vibe-coding.webp",
+    width: 512,
+    height: 512,
+    credit: "MESAM, Türkiye Musiki Eseri Sahipleri Meslek Birliği (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGOOGLE%20PLAY%20STORE%20512X512%20YENI%20LOGO.png",
+  },
   content: `
     <p>O Google anunciou nesta terça-feira (13) que aplicativos criados com vibe coding, a prática de montar um app descrevendo o que se quer para uma IA, agora podem rodar em smartphones Android sem precisar se tornar públicos na Google Play Store. A informação é da <a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em texto assinado por Sarah Perez.</p>
 

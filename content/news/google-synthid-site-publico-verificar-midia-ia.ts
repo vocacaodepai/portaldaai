@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T15:54:30-03:00",
   imageQuery: "Google logo",
+  coverImage: {
+    url: "/images/covers/google-synthid-site-publico-verificar-midia-ia.webp",
+    width: 900,
+    height: 900,
+    credit: "google (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ALogo%20Google%20blanco.png",
+  },
   topic: "seguranca",
   content: `
     <p>O Google abriu ao público o synthid.com, um site em que qualquer pessoa pode enviar uma imagem, um vídeo ou um áudio e descobrir se o arquivo foi criado com ferramentas de inteligência artificial que usam a marca d'água SynthID. A novidade foi publicada pelo <a href="https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em texto de Ivan Mehta, que informa que o lançamento ocorreu na terça-feira (6).</p>

@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "email newsletter writing laptop content",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-com-newsletter-usando-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "pixelcreatures / Pixabay",
+    creditUrl: "https://pixabay.com/photos/wordpress-blogging-blogger-editor-265132/",
+  },
   seed: 77,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "laptop screen app prototype design workspace",
+  coverImage: {
+    url: "/images/covers/gemini-canvas-como-criar-documentos-apps-e-slides.webp",
+    width: 1280,
+    height: 960,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mobile-phone-touchscreen-electronic-2586087/",
+  },
   seed: 228,
   kind: "guia",
   author: "Bruno Danello",

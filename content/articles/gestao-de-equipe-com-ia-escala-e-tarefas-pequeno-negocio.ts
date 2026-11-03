@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "small team meeting schedule whiteboard",
+  coverImage: {
+    url: "/images/covers/gestao-de-equipe-com-ia-escala-e-tarefas-pequeno-negocio.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/bricks-chairs-classroom-empty-2181920/",
+  },
   seed: 127,
   kind: "guia",
   author: "Bruno Danello",

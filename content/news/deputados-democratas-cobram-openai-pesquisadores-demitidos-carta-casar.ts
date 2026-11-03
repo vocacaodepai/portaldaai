@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T21:55:00-03:00",
   topic: "regulacao",
   imageQuery: "Sam Altman portrait",
+  coverImage: {
+    url: "/images/covers/deputados-democratas-cobram-openai-pesquisadores-demitidos-carta-casar.webp",
+    width: 704,
+    height: 396,
+    credit: "Einstein00x (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACharles%20Kantor%20French%20Sam%20Altman%20Le%20Point.png",
+  },
   content: `
     <p>Vinte deputados democratas da Câmara dos Estados Unidos enviaram uma carta ao presidente-executivo da OpenAI, Sam Altman, questionando a decisão de demitir três pesquisadores de segurança e pedindo explicações sobre como a empresa controla seus modelos mais avançados. O documento, datado de 29 de outubro e liderado pelo deputado Greg Casar, do Texas, foi detalhado neste sábado (31) pelo <a href="https://thenextweb.com/news/openai-whistleblowers-house-democrats-casar-letter" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>. A OpenAI tem até 13 de novembro para responder a 11 blocos de perguntas.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T00:25:00-03:00",
   topic: "negocios",
   imageQuery: "Sequoia Capital Menlo Park office",
+  coverImage: {
+    url: "/images/covers/trajectory-capta-45-milhoes-sequoia-pos-treino-modelos-abertos.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/conifers-sunlight-road-avenue-1850227/",
+  },
   content: `
     <p>A Trajectory, startup americana de pós-treino de modelos de IA, anunciou na segunda-feira (2 de novembro) uma rodada Série A de US$ 45 milhões, liderada pela Sequoia, com avaliação de US$ 300 milhões. Nvidia, Bessemer Venture Partners e Bain Capital Ventures também entraram. A empresa, fundada há cerca de um ano e com 18 funcionários, também abriu sua plataforma ao público. A informação é da <a href="https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>.</p>
 

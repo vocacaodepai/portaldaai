@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "social media content calendar phone",
+  coverImage: {
+    url: "/images/covers/ia-para-redes-sociais-criar-agendar-analisar-posts.webp",
+    width: 1280,
+    height: 853,
+    credit: "Erik_Lucatero / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mobile-phone-social-media-media-2563782/",
+  },
   seed: 79,
   kind: "guia",
   author: "Bruno Danello",

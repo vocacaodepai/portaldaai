@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 8,
   imageQuery: "employee presenting proposal manager meeting",
+  coverImage: {
+    url: "/images/covers/proposta-de-piloto-de-ia-para-o-chefe-modelo-de-uma-pagina.webp",
+    width: 1280,
+    height: 859,
+    credit: "erwinbosman / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-professional-interview-10219062/",
+  },
   seed: 309,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-01T12:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/claude-code-recusa-recriar-jogos-regra-servidor-desenvolvedores.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>Desenvolvedores de jogos começaram a relatar que o Claude Code, o agente de programação da Anthropic, passou a recusar projetos que envolvem recriar jogos que já existem, inclusive trabalhos encomendados por quem tem os direitos sobre esses jogos. O caso foi publicado neste domingo (1º) pelo The Next Web, que se baseia em reportagem do Tom's Hardware e em chamados abertos no repositório público do Claude Code no GitHub. Até agora, a Anthropic não anunciou nenhuma mudança, e o registro oficial de alterações da ferramenta não cita o assunto.</p>
 

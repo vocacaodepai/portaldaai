@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "spreadsheet laptop data table closeup",
+  coverImage: {
+    url: "/images/covers/fill-with-gemini-no-planilhas-do-google-fontes-por-celula-e-limite-de-3-mil-celulas.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/iphone-laptop-macbook-pro-notebook-1852901/",
+  },
   seed: 882,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T17:50:00-03:00",
   topic: "negocios",
   imageQuery: "Cognizant office",
+  coverImage: {
+    url: "/images/covers/cognizant-25-mil-funcionarios-openai-frontier-capability-group.webp",
+    width: 1280,
+    height: 576,
+    credit: "Euphoriagame (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACognizant%20(CTS)%20office%20at%20Bendoor%20in%20Mangalore.jpg",
+  },
   content: `
     <p>A Cognizant, uma das maiores consultorias de tecnologia do mundo, anunciou nesta sexta-feira, 30 de outubro de 2026, a criação do "OpenAI Frontier Capability Group", um grupo com mais de 25 mil funcionários dedicado a levar o Codex e o ChatGPT para dentro das empresas clientes. A informação é do The Next Web, que se baseou no comunicado de imprensa distribuído pela própria Cognizant.</p>
 

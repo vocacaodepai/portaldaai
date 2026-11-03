@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-21T15:35:00-03:00",
   topic: "negocios",
   imageQuery: "Google Cloud data center",
+  coverImage: {
+    url: "/images/covers/openai-modelos-google-cloud-model-garden-codex.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/electronics-mobile-phone-screen-1868708/",
+  },
   content: `
     <p>A OpenAI vai passar a vender seus modelos de fronteira e o agente de programação Codex também dentro do Google Cloud. O anúncio foi feito nesta quarta-feira, 21 de outubro, pelas duas empresas e é o assunto de uma reportagem da <a href="https://www.thestar.com.my/tech/tech-news/2026/10/21/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push" target="_blank" rel="noopener noreferrer nofollow">Reuters</a>, republicada pelo jornal The Star. Segundo a agência, a disponibilidade deve começar nas próximas semanas, e os modelos mais recentes da OpenAI, como o GPT-6 Astra, entram no Model Garden, o catálogo de modelos da nuvem do Google.</p>
 

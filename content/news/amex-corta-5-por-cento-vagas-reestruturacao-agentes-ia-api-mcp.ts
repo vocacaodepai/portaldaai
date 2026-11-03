@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T10:58:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "American Express logo",
+  coverImage: {
+    url: "/images/covers/amex-corta-5-por-cento-vagas-reestruturacao-agentes-ia-api-mcp.webp",
+    width: 1280,
+    height: 720,
+    credit: "Minette Lontsie (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APanda%20Express%20at%20Tanforan.jpg",
+  },
   content: `
     <p>A American Express (Amex) divulgou na sexta-feira (23) os resultados do terceiro trimestre de 2026 e, junto com eles, uma reestruturação ligada a ganhos de eficiência. No <a href="https://s26.q4cdn.com/747928648/files/doc_earnings/2026/q3/earnings-result/Q3-2026-Earnings-Press-Release.pdf" target="_blank" rel="noopener noreferrer nofollow">comunicado de resultados da própria empresa</a>, a Amex registra uma despesa de reestruturação de US$ 336 milhões antes de impostos (US$ 253 milhões depois de impostos). Segundo a cobertura da CNBC, resumida pelo The Next Web, o plano corta cerca de 5% da força de trabalho global do grupo, e o CEO, Stephen Squeri, aproveitou a teleconferência com analistas para dizer que a empresa só vai permitir acesso de agentes de IA aos seus sistemas por canais aprovados, via API ou MCP.</p>
 

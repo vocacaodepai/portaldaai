@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "writer desk notebook coffee laptop",
+  coverImage: {
+    url: "/images/covers/ghostwriting-com-ia-ganhar-dinheiro-escrevendo-posts-para-outros.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 226,
   kind: "guia",
   author: "Bruno Danello",

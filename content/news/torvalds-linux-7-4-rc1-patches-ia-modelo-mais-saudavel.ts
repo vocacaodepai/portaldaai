@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-02",
   publishedAt: "2026-11-02T02:30:00-03:00",
   imageQuery: "Linus Torvalds portrait",
+  coverImage: {
+    url: "/images/covers/torvalds-linux-7-4-rc1-patches-ia-modelo-mais-saudavel.webp",
+    width: 1280,
+    height: 1280,
+    credit: "JericoDelayah (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A3%20RETRAT%2003%20Linus%20Torvalds.jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>Linus Torvalds, criador e mantenedor do kernel Linux, publicou na noite de domingo (1º de novembro) o primeiro candidato a lançamento da versão 7.4 e aproveitou o aviso semanal para dar uma opinião sobre o papel da inteligência artificial no projeto. Segundo o relato do <a href="https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852" target="_blank" rel="noopener noreferrer nofollow">The Register</a>, que cita a mensagem dele na lista de e-mails do kernel, o desenvolvedor afirma que o projeto encontrou um modelo "muito mais saudável" para receber contribuições feitas com ajuda de IA.</p>

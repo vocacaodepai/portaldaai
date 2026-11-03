@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-13T10:24:11-03:00",
   topic: "seguranca",
   imageQuery: "American Express headquarters",
+  coverImage: {
+    url: "/images/covers/amex-intent-framework-agentes-compras-nao-autorizadas.webp",
+    width: 1280,
+    height: 925,
+    credit: "Hassocks5489 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANew%20American%20Express%20Building%2C%201%20John%20Street%2C%20Carlton%20Hill%2C%20Brighton%20(January%202014)%20(2).JPG",
+  },
   content: `
     <p>A American Express apresentou nesta terça-feira (13) o Intent Intelligence Framework, um conjunto de regras e serviços criado para capturar e autenticar a intenção de compra de um cliente antes que um agente de IA conclua uma transação em nome dele. A informação é da <a href="https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em texto assinado por Sarah Perez, editora de notícias de consumo do site.</p>
 

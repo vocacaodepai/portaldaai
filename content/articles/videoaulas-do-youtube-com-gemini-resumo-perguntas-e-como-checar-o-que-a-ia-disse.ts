@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "student watching online lecture laptop notes",
+  coverImage: {
+    url: "/images/covers/videoaulas-do-youtube-com-gemini-resumo-perguntas-e-como-checar-o-que-a-ia-disse.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/notebook-hand-pen-write-writing-2178656/",
+  },
   seed: 852,
   kind: "guia",
   author: "Bruno Danello",

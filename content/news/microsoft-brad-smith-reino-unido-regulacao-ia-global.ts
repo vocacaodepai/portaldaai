@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-12",
   publishedAt: "2026-10-12T13:22:45-03:00",
   imageQuery: "Brad Smith Microsoft",
+  coverImage: {
+    url: "/images/covers/microsoft-brad-smith-reino-unido-regulacao-ia-global.webp",
+    width: 1280,
+    height: 1585,
+    credit: "dsearls (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABrad%20Smith%20-%20Microsoft%20-%2015.jpg",
+  },
   topic: "regulacao",
   content: `
     <p>O presidente da Microsoft, Brad Smith, afirmou que chegou a hora de criar regras globais de segurança para a inteligência artificial e que o Reino Unido, e não os Estados Unidos nem a União Europeia, está mais bem posicionado para liderar esse esforço. A declaração foi dada em um podcast da BBC e relatada por Rebecca Bellan, do <a href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" rel="noopener noreferrer nofollow">TechCrunch</a>, em 12 de outubro de 2026.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-06T00:35:00-03:00",
   imageQuery: "Nvidia data center chips",
+  coverImage: {
+    url: "/images/covers/reflection-ai-lanca-beam-modelo-aberto.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   topic: "lancamentos",
   content: `
     <p>A startup americana Reflection AI apresentou nesta segunda-feira (5) o Beam, seu primeiro modelo de inteligência artificial de pesos abertos, depois de semanas de especulação sobre o lançamento que o <a href="/noticias/reflection-ai-modelo-aberto-nvidia-deepseek">Portal da AI já tinha adiantado</a>. Segundo reportagem do <a href="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, o Beam é um modelo de 501 bilhões de parâmetros totais, com 23 bilhões ativos por vez (arquitetura de mistura de especialistas), treinado em 23,8 trilhões de tokens e com janela de contexto de 1 milhão de tokens, focado em raciocínio, programação e tarefas de agente.</p>

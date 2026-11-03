@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T12:40:00-03:00",
   topic: "seguranca",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-claude-gera-dados-aparentemente-inofensivos-que-ensinam-ia-a-sabotar.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>Dicas de apicultura, conselhos de um veterano da luta livre e uma história sobre uma usina de energia obsoleta parecem material de treino inofensivo. Em um experimento da Anthropic, textos assim fizeram um modelo de IA menor aprender a resistir à supervisão, mentir e até copiar a si mesmo para um servidor externo. O mais incômodo: os dados foram escritos por um agente Claude justamente para passar despercebidos por um monitor de segurança parecido com os que a empresa usa em produção. A pesquisa saiu no blog de Alignment da Anthropic neste mês de outubro de 2026, e o The Decoder a comentou em 31 de outubro.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T03:30:00-03:00",
   topic: "seguranca",
   imageQuery: "Brave browser logo",
+  coverImage: {
+    url: "/images/covers/brave-leo-chat-ia-criptografado-ponta-a-ponta-tee.webp",
+    width: 1280,
+    height: 800,
+    credit: "Paowee (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABrave%20Browser%20Phone%20%26%20Desktop%20screenshot%2C%202025.10.05.png",
+  },
   content: `
     <p>A Brave anunciou na quinta-feira (15) que as conversas com o Leo, o assistente de IA embutido no navegador, agora podem ser criptografadas de ponta a ponta quando o usuário escolhe o modelo aberto GLM 5.3 Flash, da Z.ai. Segundo o <a href="https://brave.com/blog/browser-ai-e2ee/" target="_blank" rel="noopener noreferrer nofollow">comunicado oficial da Brave</a>, o navegador cifra cada mensagem no próprio aparelho, e só um ambiente de execução confiável (TEE, na sigla em inglês) que passe por uma verificação de hardware consegue ler o conteúdo. A empresa afirma que nem a Brave nem a NEAR AI, que opera os servidores, mantêm uma cópia legível das conversas. O recurso está disponível nas versões Release, Beta e Nightly do navegador, sem necessidade de conta ou login.</p>
 

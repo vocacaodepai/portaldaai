@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "freelancer laptop notebook budget coffee",
+  coverImage: {
+    url: "/images/covers/reserva-de-emergencia-para-quem-tem-renda-variavel-orcamento-com-ia-e-inss.webp",
+    width: 1280,
+    height: 761,
+    credit: "lukasbieri / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+  },
   seed: 831,
   kind: "guia",
   author: "Bruno Danello",

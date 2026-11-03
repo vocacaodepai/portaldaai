@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-23T10:35:00-03:00",
   topic: "seguranca",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-claude-prova-seguranca-123-bibliotecas-verificacao-formal.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic publicou nesta quinta-feira (22) uma pesquisa em que o Claude escreveu provas matemáticas de segurança para mais de 100 bibliotecas de código aberto usadas no mundo real. Segundo o <a href="https://www.anthropic.com/research/formal-verification" target="_blank" rel="noopener noreferrer nofollow">texto da própria Anthropic</a>, assinado pelo time de Frontier Red Team em parceria com a empresa Theorem, foram 239 pontos de entrada em 123 bibliotecas do projeto OSS-Fuzz, do Google, provados livres de travamentos para qualquer entrada de até 64 MB. Durante o trabalho, o modelo também encontrou centenas de bugs que tinham sobrevivido a anos de testes.</p>
 

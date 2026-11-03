@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "freelancer desk notebook checklist client",
+  coverImage: {
+    url: "/images/covers/briefing-e-escopo-para-freelancer-com-ia-evite-retrabalho-e-cliente-que-pede-mais.webp",
+    width: 1280,
+    height: 761,
+    credit: "lukasbieri / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+  },
   seed: 845,
   kind: "guia",
   author: "Bruno Danello",

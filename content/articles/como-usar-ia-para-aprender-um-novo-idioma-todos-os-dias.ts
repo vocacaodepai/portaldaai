@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "language learning app phone study",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-aprender-um-novo-idioma-todos-os-dias.webp",
+    width: 1280,
+    height: 987,
+    credit: "libellule789 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/girl-english-dictionary-read-2771936/",
+  },
   seed: 55,
   kind: "guia",
   author: "Bruno Danello",

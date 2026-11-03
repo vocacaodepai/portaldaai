@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T02:22:52-03:00",
   topic: "negocios",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/open-weight-71-por-cento-tokens-vercel-china-controle-exportacao.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>Os modelos de IA de pesos abertos deixaram de ser coadjuvantes no uso real. Segundo reportagem do <a href="https://www.theregister.com/ai-and-ml/2026/10/17/open-weight-models-win-hearts-minds-and-wallets/5303704" target="_blank" rel="noopener noreferrer nofollow">The Register</a>, publicada em 17 de outubro, dados do índice de produção do AI Gateway da Vercel mostram que esses modelos processaram 71,5% dos tokens do serviço entre junho e setembro de 2026, e que o gasto com eles passou de cerca de 5% em junho para quase 25% em setembro. A reportagem lembra que os números são da Vercel, não foram coletados pelo veículo, e são estimativas.</p>
     <p>O dado chega ao mesmo tempo em que a China propôs incluir itens de IA em sua lista de controle de exportação, o que pode afetar justamente os modelos abertos chineses que muitas empresas americanas hospedam. Para quem usa IA para trabalhar ou empreender no Brasil, os dois assuntos se encontram na pergunta de qual modelo colocar por baixo das suas ferramentas.</p>

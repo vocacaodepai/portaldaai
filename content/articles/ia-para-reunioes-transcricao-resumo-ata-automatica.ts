@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "meeting transcription notes laptop",
+  coverImage: {
+    url: "/images/covers/ia-para-reunioes-transcricao-resumo-ata-automatica.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+  },
   seed: 74,
   kind: "guia",
   author: "Bruno Danello",

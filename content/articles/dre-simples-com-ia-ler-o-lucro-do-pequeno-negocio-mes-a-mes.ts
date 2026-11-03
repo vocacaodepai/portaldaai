@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-24",
   readTime: 7,
   imageQuery: "small business owner calculator notebook",
+  coverImage: {
+    url: "/images/covers/dre-simples-com-ia-ler-o-lucro-do-pequeno-negocio-mes-a-mes.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 618,
   kind: "guia",
   author: "Bruno Danello",

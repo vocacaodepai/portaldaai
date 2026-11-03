@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-06T14:35:00-03:00",
   imageQuery: "friends planning trip smartphone group chat",
+  coverImage: {
+    url: "/images/covers/instinct-ia-chega-grupos-chat-amigos.webp",
+    width: 1280,
+    height: 853,
+    credit: "GustavoWandalen / Pixabay",
+    creditUrl: "https://pixabay.com/photos/cellular-man-person-technology-4599956/",
+  },
   topic: "lancamentos",
   content: `
     <p>A Instinct, startup de São Francisco que criou um agente pessoal de IA capaz de ligar, negociar e resolver tarefas em nome do usuário, anunciou nesta segunda-feira (5) que seu assistente agora pode entrar em grupos de conversa com amigos. Segundo <a href="https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account" target="_blank" rel="noopener noreferrer nofollow">reportagem da TechCrunch</a>, o recurso cria uma instância coletiva do agente dentro do grupo, que passa a atuar para todos os participantes ao mesmo tempo, mesmo para quem nunca criou uma conta própria na Instinct.</p>

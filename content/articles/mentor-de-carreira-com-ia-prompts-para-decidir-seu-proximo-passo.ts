@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 6,
   imageQuery: "mentor mentee conversation coffee office",
+  coverImage: {
+    url: "/images/covers/mentor-de-carreira-com-ia-prompts-para-decidir-seu-proximo-passo.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/student-typing-keyboard-text-849825/",
+  },
   seed: 199,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T19:40:00-03:00",
   topic: "seguranca",
   imageQuery: "Bank of America headquarters Charlotte",
+  coverImage: {
+    url: "/images/covers/bank-of-america-pede-clientes-nao-dar-senha-a-agentes-de-ia.webp",
+    width: 1280,
+    height: 960,
+    credit: "Ken Lund from Reno, Nevada, USA (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ABank%20of%20America%20Stadium%2C%20Charlotte%2C%20North%20Carolina%20(47490942382).jpg",
+  },
   content: `
     <p>O Bank of America, um dos maiores bancos dos Estados Unidos, mandou um e-mail em massa aos clientes com um recado direto: não entregue seu usuário e sua senha a ferramentas ou agentes de inteligência artificial que se ofereçam para agir em seu nome. A mensagem, intitulada &quot;Protecting your finances in the AI World&quot; (algo como &quot;Protegendo suas finanças no mundo da IA&quot;), foi revelada pelo TechCrunch nesta terça-feira, 27 de outubro de 2026, a partir de uma dica publicada na rede Bluesky por Bryan Toporek.</p>
 

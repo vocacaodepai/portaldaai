@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-10",
   readTime: 6,
   imageQuery: "brazil government technology data center",
+  coverImage: {
+    url: "/images/covers/plano-brasileiro-de-ia-pbia-o-que-muda-para-voce.webp",
+    width: 1280,
+    height: 905,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/entrepreneur-idea-competence-vision-1340649/",
+  },
   seed: 191,
   kind: "guia",
   author: "Bruno Danello",

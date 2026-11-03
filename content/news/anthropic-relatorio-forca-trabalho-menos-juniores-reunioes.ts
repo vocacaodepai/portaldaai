@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-17",
   publishedAt: "2026-10-17T20:40:00-03:00",
   imageQuery: "Anthropic office San Francisco",
+  coverImage: {
+    url: "/images/covers/anthropic-relatorio-forca-trabalho-menos-juniores-reunioes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/blonde-sitting-wall-buildings-city-1867768/",
+  },
   topic: "mercado-trabalho",
   content: `
     <p>A Anthropic publicou na sexta-feira, 16 de outubro de 2026, um relatório sobre como a composição da própria equipe e o tipo de trabalho mudaram no último ano. Segundo o <a href="https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/" rel="noopener noreferrer nofollow">TechCrunch</a>, a empresa argumenta que suas tendências internas podem indicar como a IA vai mexer na organização do trabalho, na contratação e na demanda por profissionais em toda a economia, já que ela moldou os próprios fluxos de trabalho em torno da IA.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T16:40:00-03:00",
   topic: "negocios",
   imageQuery: "Googleplex Mountain View headquarters",
+  coverImage: {
+    url: "/images/covers/alphabet-vende-6-bilhoes-euros-titulos-divida-ia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Carol M. Highsmith (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20Headquarters%2C%20Mountain%20View%2C%20California%20LCCN2013630580.tif",
+  },
   content: `
     <p>Na segunda-feira, 2 de novembro de 2026, a Alphabet, controladora do Google, começou a vender € 6 bilhões (cerca de US$ 6,7 bilhões) em títulos de dívida na Europa. Segundo o The Next Web, que cita a agência Reuters, os pedidos de compra passaram de € 17 bilhões, quase três vezes o valor oferecido. O recado é direto: mesmo depois de uma semana difícil para as ações de tecnologia, quem empresta dinheiro continua disposto a financiar a corrida da inteligência artificial. Este texto é análise do Portal da AI a partir dessa reportagem.</p>
 

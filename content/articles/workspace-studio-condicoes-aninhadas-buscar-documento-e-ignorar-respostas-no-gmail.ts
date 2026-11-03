@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "flowchart automation laptop office workflow",
+  coverImage: {
+    url: "/images/covers/workspace-studio-condicoes-aninhadas-buscar-documento-e-ignorar-respostas-no-gmail.webp",
+    width: 1280,
+    height: 768,
+    credit: "MR-PANDA / Pixabay",
+    creditUrl: "https://pixabay.com/photos/devops-business-process-improvement-3148408/",
+  },
   seed: 822,
   kind: "guia",
   author: "Bruno Danello",

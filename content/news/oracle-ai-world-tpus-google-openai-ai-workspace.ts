@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T04:40:00-03:00",
   topic: "negocios",
   imageQuery: "Oracle headquarters Austin",
+  coverImage: {
+    url: "/images/covers/oracle-ai-world-tpus-google-openai-ai-workspace.webp",
+    width: 1280,
+    height: 854,
+    credit: "995645 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/united-nations-u-n-vienna-un-city-3760656/",
+  },
   content: `
     <p>A Oracle usou o primeiro dia do seu evento anual Oracle AI World, em Las Vegas, na terça-feira, 27 de outubro de 2026, para despejar uma série de anúncios sobre inteligência artificial. Os três que mais interessam a quem acompanha o setor são a chegada dos chips TPU do Google à nuvem da Oracle, novos plugins que levam os sistemas da empresa para dentro do ChatGPT e um serviço de segurança que usa modelos de IA da OpenAI para caçar falhas. Segundo a cobertura do The Register, que detalhou os comunicados da própria Oracle, tudo isso reforça a estratégia de oferecer mais de um tipo de chip e mais de um parceiro de modelos.</p>
 

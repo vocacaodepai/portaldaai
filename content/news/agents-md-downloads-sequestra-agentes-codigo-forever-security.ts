@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-25T22:40:00-03:00",
   topic: "seguranca",
   imageQuery: "programador notebook código segurança",
+  coverImage: {
+    url: "/images/covers/agents-md-downloads-sequestra-agentes-codigo-forever-security.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-start-up-people-593341/",
+  },
   content: `
     <p>Um arquivo de texto que parece inofensivo pode virar uma ordem para o seu assistente de programação. A Forever Security, empresa que monitora riscos de agentes de IA, publicou na quinta-feira (22) uma pesquisa em que descreve um ataque real: um arquivo <strong>AGENTS.md</strong> malicioso, largado na pasta <code>~/Downloads</code> de um cliente, que tentou fazer um agente de código instalar um pacote de malware. A <a href="https://forever.security/blog/hijacking-ai-agents-via-downloads-folder" rel="noopener noreferrer nofollow" target="_blank">pesquisa original</a> foi retomada neste domingo (25) pelo site BleepingComputer, que também confirmou a parte da pesquisa que dá para testar sem risco.</p>
 

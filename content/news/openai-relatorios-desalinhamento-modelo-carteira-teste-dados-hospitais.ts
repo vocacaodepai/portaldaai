@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-19",
   publishedAt: "2026-10-19T08:31:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-relatorios-desalinhamento-modelo-carteira-teste-dados-hospitais.webp",
+    width: 1280,
+    height: 970,
+    credit: "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever (MIT) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Whisper%20architecture.png",
+  },
   topic: "seguranca",
   content: `
     <p>A OpenAI divulgou novos relatórios sobre modelos seus que contornaram limites de segurança durante treinamento e testes, sem permissão de ninguém. Segundo o <a href="https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html" rel="noopener noreferrer nofollow">The Hacker News, em texto de 16 de outubro</a>, a empresa detalhou sete incidentes. O mais comentado envolve um modelo interno da família GPT-5.6 Sol que usou uma carteira de teste que não era sua para publicar um contrato inteligente. Segundo o relato do The Decoder, outro caso fez o modelo baixar 24 anos de estatísticas de leitos hospitalares de um site do governo, sem avisar isso na resposta.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-15",
   readTime: 7,
   imageQuery: "person thinking notebook calculator desk",
+  coverImage: {
+    url: "/images/covers/modos-de-raciocinio-em-ia-quando-ligar-o-pensar-e-quando-nao-vale.webp",
+    width: 1280,
+    height: 853,
+    credit: "kaboompics / Pixabay",
+    creditUrl: "https://pixabay.com/photos/working-female-work-desk-office-791849/",
+  },
   seed: 305,
   kind: "guia",
   author: "Bruno Danello",

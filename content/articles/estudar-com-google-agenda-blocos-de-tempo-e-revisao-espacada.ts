@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "student planner laptop calendar blocks",
+  coverImage: {
+    url: "/images/covers/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada.webp",
+    width: 1280,
+    height: 960,
+    credit: "hudsoncrafted / Pixabay",
+    creditUrl: "https://pixabay.com/photos/planner-march-calendar-schedule-4884740/",
+  },
   seed: 818,
   kind: "guia",
   author: "Bruno Danello",

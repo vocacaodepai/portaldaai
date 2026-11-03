@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T10:40:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-compra-mithril-medicine-claude-desenvolvimento-farmacos.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic, empresa que faz o Claude, anunciou na terça-feira, 27 de outubro de 2026, que comprou a Mithril Medicine, uma empresa de uma única pessoa que desenvolve tratamentos para duas formas raras de distrofia muscular. Junto com a compra, a empresa publicou os primeiros resultados de parcerias com seis organizações de medicamentos e disse que passa a tocar programas de descoberta de remédios por conta própria. O caso foi noticiado nesta quarta-feira, 28, pelo The Next Web, com base no texto da própria Anthropic.</p>
 

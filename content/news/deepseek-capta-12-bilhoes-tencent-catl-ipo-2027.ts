@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-08T19:30:00-03:00",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/deepseek-capta-12-bilhoes-tencent-catl-ipo-2027.webp",
+    width: 1280,
+    height: 720,
+    credit: "PantheraLeo1359531 (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20%E2%80%93%20VR%20China%20und%20Taiwan%2C%20heikel.png",
+  },
   topic: "negocios",
   content: `
     <p>A DeepSeek, startup chinesa de inteligência artificial conhecida pelos modelos de código aberto, está montando uma nova rodada de financiamento de pelo menos US$ 12 bilhões, segundo reportagem da Bloomberg News repercutida pelo veículo <a href="https://americanbazaaronline.com/2026/10/06/deepseek-targets-12-billion-funding-round-as-it-builds-for-potential-2027-ipo/" rel="noopener noreferrer nofollow">The American Bazaar</a> em 6 de outubro de 2026. A fabricante de baterias CATL e a gigante de tecnologia Tencent estariam entre os investidores com os maiores compromissos.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T06:40:00-03:00",
   topic: "negocios",
   imageQuery: "Sundar Pichai Google",
+  coverImage: {
+    url: "/images/covers/openai-planeja-comprar-tpus-google-alem-nvidia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Nguyen Hung Vu from Hanoi, Vietnam (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMeet%20Google%20CEO%20Sundar%20Pichai%20%40Hanoi%2C%20Vietnam%20(23836877591).jpg",
+  },
   content: `
     <p>A OpenAI planeja comprar chips de IA do Google, as chamadas TPUs (Tensor Processing Units), para usar ao lado das placas da Nvidia que já formam a base da sua infraestrutura. A informação foi publicada na terça-feira, 27 de outubro de 2026, pelo site The Information, que cita uma pessoa a par do assunto, e repercutida pela agência Reuters e pelo The Next Web. Nenhuma das duas empresas confirmou. A OpenAI recusou comentar e o Google não respondeu de imediato aos pedidos da Reuters.</p>
 

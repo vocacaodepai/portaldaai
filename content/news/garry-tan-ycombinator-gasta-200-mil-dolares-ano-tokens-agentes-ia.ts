@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-02T22:26:00-03:00",
   topic: "negocios",
   imageQuery: "Garry Tan portrait",
+  coverImage: {
+    url: "/images/covers/garry-tan-ycombinator-gasta-200-mil-dolares-ano-tokens-agentes-ia.webp",
+    width: 1280,
+    height: 720,
+    credit: "Web Summit (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGarry%20Tan%2C%20Web%20Summit%202018%2C%20November%206%20SD5%206949%20(45700698642)(portrait%204x3%20crop).jpg",
+  },
   content: `
     <p>Garry Tan, presidente-executivo do Y Combinator, a aceleradora de startups mais influente do Vale do Silício, contou que gasta entre US$ 100 mil e US$ 200 mil por ano apenas com tokens, a unidade de consumo dos modelos de inteligência artificial. A informação foi publicada pelo TechCrunch nesta segunda-feira (2 de novembro) e vem de uma entrevista a ser exibida no podcast The Builders, de Walter Isaacson, na terça-feira seguinte. O próprio Tan reconhece que esse nível de gasto é um privilégio que poucas pessoas podem bancar.</p>
 

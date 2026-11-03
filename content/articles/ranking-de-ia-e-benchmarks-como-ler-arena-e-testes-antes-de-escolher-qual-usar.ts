@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "podium leaderboard scoreboard screen numbers",
+  coverImage: {
+    url: "/images/covers/ranking-de-ia-e-benchmarks-como-ler-arena-e-testes-antes-de-escolher-qual-usar.webp",
+    width: 1280,
+    height: 854,
+    credit: "manniguttenberger / Pixabay",
+    creditUrl: "https://pixabay.com/photos/stadium-baseball-dodgers-field-5460564/",
+  },
   seed: 878,
   kind: "guia",
   author: "Bruno Danello",

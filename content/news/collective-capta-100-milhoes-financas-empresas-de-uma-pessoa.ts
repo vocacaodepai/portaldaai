@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T09:45:00-03:00",
   topic: "negocios",
   imageQuery: "freelancer working laptop home office",
+  coverImage: {
+    url: "/images/covers/collective-capta-100-milhoes-financas-empresas-de-uma-pessoa.webp",
+    width: 1280,
+    height: 853,
+    credit: "markusspiske / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-home-office-creative-apple-581131/",
+  },
   content: `
     <p>A Collective, startup de São Francisco que cuida das finanças de empresas de uma pessoa só, anunciou nesta quinta-feira, 29 de outubro de 2026, a captação de US$ 100 milhões. A informação é do The Next Web, em reportagem assinada por Ana-Maria Stanciuc. O dinheiro vem em duas partes e mostra que investidores veem espaço grande para a IA no trabalho chato de quem empreende sozinho: contabilidade, notas, folha de pagamento e impostos.</p>
 

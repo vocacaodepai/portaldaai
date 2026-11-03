@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "data protection law gavel laptop",
+  coverImage: {
+    url: "/images/covers/sandbox-de-ia-da-anpd-o-que-e-o-que-testou-e-o-que-muda-para-quem-usa-ia.webp",
+    width: 1280,
+    height: 854,
+    credit: "TheDigitalArtist / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-gdpr-privacy-protection-3233780/",
+  },
   seed: 848,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-30T21:40:00-03:00",
   topic: "lancamentos",
   imageQuery: "Apple Park Cupertino",
+  coverImage: {
+    url: "/images/covers/apple-intelligence-china-dezembro-ios-27-3-qwen-alibaba.webp",
+    width: 1280,
+    height: 855,
+    credit: "IPhone01 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AApple%20Park.jpg",
+  },
   content: `
     <p>A Apple confirmou que os primeiros recursos do Apple Intelligence chegam à China continental em dezembro, quase dois anos depois do lançamento nos Estados Unidos. O anúncio saiu no site de notícias da empresa para o mercado chinês e foi relatado pelo The Next Web na noite desta sexta-feira (30), horário de Brasília. Desenvolvedores poderão testar os recursos na versão beta mais recente do iOS a partir de 4 de novembro, e o público geral os recebe com o iOS 27.3. A parte que mais chama atenção é a escolha do parceiro: dentro do país, a Siri, as Ferramentas de Escrita e a Inteligência Visual vão usar o Qwen, o modelo de IA da Alibaba.</p>
 

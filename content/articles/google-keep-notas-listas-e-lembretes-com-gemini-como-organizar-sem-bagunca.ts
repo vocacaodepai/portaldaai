@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "colorful sticky notes corkboard desk",
+  coverImage: {
+    url: "/images/covers/google-keep-notas-listas-e-lembretes-com-gemini-como-organizar-sem-bagunca.webp",
+    width: 1280,
+    height: 853,
+    credit: "AbsolutVision / Pixabay",
+    creditUrl: "https://pixabay.com/photos/lightbulb-concept-cork-bulletin-2692247/",
+  },
   seed: 827,
   kind: "guia",
   author: "Bruno Danello",

@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-17",
   publishedAt: "2026-10-17T21:25:00-03:00",
   imageQuery: "Google headquarters Googleplex Mountain View",
+  coverImage: {
+    url: "/images/covers/google-universal-cart-carrinho-ia-lancamento-eua.webp",
+    width: 1200,
+    height: 800,
+    credit: "Mutante (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20street%20sign%20Mountain%20view%20traffic%20light.JPG",
+  },
   topic: "lancamentos",
   content: `
     <p>O Google anunciou na quinta-feira (15) que o Universal Cart, ferramenta que permite juntar e acompanhar produtos encontrados na Busca e no app do Gemini, já está disponível para usuários dos Estados Unidos. Segundo o <a href="https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a empresa havia apresentado a novidade em maio, durante o Google I/O, e agora a coloca na mão do público americano.</p>

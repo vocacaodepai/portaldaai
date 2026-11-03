@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-11-02",
   publishedAt: "2026-11-02T09:41:00-03:00",
   imageQuery: "Amin Nasser Aramco",
+  coverImage: {
+    url: "/images/covers/aramco-compra-49-por-cento-humain-2-6-bilhoes-ia-arabia-saudita.webp",
+    width: 846,
+    height: 738,
+    credit: "Iwaswiki (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAmin%20H.%20Nasser.jpg",
+  },
   topic: "negocios",
   content: `
     <p>A Aramco, petroleira estatal da Arábia Saudita, concluiu a compra de 49% da Humain, a empresa de inteligência artificial criada pelo fundo soberano do país, o PIF. O fechamento foi anunciado em 1º de novembro em comunicado da própria Aramco e do PIF, e repercutido nesta segunda-feira (2) pelo site The Decoder. O PIF continua com os outros 51%. A Aramco vai colocar cerca de 9,9 bilhões de riais sauditas (aproximadamente US$ 2,6 bilhões) em dinheiro ainda em 2026 e transferir ativos de IA, computação e tecnologia digital para a nova sociedade.</p>

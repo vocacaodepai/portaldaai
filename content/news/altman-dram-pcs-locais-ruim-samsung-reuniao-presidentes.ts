@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T10:35:00-03:00",
   topic: "negocios",
   imageQuery: "Sam Altman portrait",
+  coverImage: {
+    url: "/images/covers/altman-dram-pcs-locais-ruim-samsung-reuniao-presidentes.webp",
+    width: 704,
+    height: 396,
+    credit: "Einstein00x (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACharles%20Kantor%20French%20Sam%20Altman%20Le%20Point.png",
+  },
   content: `
     <p>O presidente-executivo da OpenAI, Sam Altman, esteve neste sábado, 31 de outubro de 2026, com cerca de 50 presidentes de empresas do grupo Samsung, no centro de treinamento da companhia em Yongin, ao sul de Seul. O encontro aconteceu dois dias depois de um podcast em que Altman disse ser "bastante terrível" que a memória DRAM, hoje escassa, fique parada dentro dos computadores das pessoas para rodar modelos de IA localmente. A Samsung é justamente uma das maiores fabricantes de DRAM do mundo. A informação foi reunida pelo The Next Web, a partir da nota da Samsung em seu site de notícias coreano, de uma reportagem da Bloomberg e da transcrição do programa Cheeky Pint.</p>
 

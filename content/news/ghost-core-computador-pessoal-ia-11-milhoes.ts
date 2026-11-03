@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-06T08:26:00-03:00",
   imageQuery: "mini PC AI hardware device GPU",
+  coverImage: {
+    url: "/images/covers/ghost-core-computador-pessoal-ia-11-milhoes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pixies / Pixabay",
+    creditUrl: "https://pixabay.com/photos/technology-keyboard-computing-785742/",
+  },
   topic: "lancamentos",
   content: `
     <p>A startup Ghost anunciou nesta segunda-feira (5) uma rodada seed de US$ 11 milhões liderada pela Andreessen Horowitz para financiar o Core, um computador pessoal construído especificamente para rodar agentes de inteligência artificial. Segundo a reportagem do <a href="https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a empresa foi criada por Zain Javaid, de apenas 19 anos, junto com os cofundadores Nicholas Chua (19), Yifei Chen (24) e Gautam Sharda (23), e também recebeu aportes da Abstract, Audacious Ventures, SV Angel e Nova.</p>

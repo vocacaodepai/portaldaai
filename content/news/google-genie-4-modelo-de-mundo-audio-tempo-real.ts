@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T13:36:00-03:00",
   topic: "lancamentos",
   imageQuery: "Google DeepMind logo",
+  coverImage: {
+    url: "/images/covers/google-genie-4-modelo-de-mundo-audio-tempo-real.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHomepage%20of%20GOOGLE%20DEEPMIND%20Website%20magnified%20on%20logo%20with%20magnifying%20glass%20(53147449198).jpg",
+  },
   content: `
     <p>O Google DeepMind apresentou nesta terça-feira (27) o Genie 4, a nova versão da sua família de modelos de mundo: sistemas de inteligência artificial que geram ambientes interativos, nos quais é possível se mover e agir, a partir de uma frase ou de uma imagem. A novidade foi relatada pelo TechCrunch e saiu, por enquanto, em prévia de pesquisa para um grupo fechado de testadores. Esta matéria é uma análise própria a partir do que foi divulgado; o crédito do veículo está no fim do texto.</p>
 

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 7,
   imageQuery: "youtube creator studio microphone laptop",
+  coverImage: {
+    url: "/images/covers/canal-dark-no-youtube-com-ia-regras-de-monetizacao-e-riscos.webp",
+    width: 1280,
+    height: 853,
+    credit: "danielchrisman / Pixabay",
+    creditUrl: "https://pixabay.com/photos/podcast-video-broadcast-record-8683196/",
+  },
   seed: 206,
   kind: "guia",
   author: "Bruno Danello",

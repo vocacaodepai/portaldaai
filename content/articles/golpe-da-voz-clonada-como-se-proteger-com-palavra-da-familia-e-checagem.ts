@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-26",
   readTime: 7,
   imageQuery: "woman phone call worried kitchen table",
+  coverImage: {
+    url: "/images/covers/golpe-da-voz-clonada-como-se-proteger-com-palavra-da-familia-e-checagem.webp",
+    width: 1280,
+    height: 853,
+    credit: "MarieXMartin / Pixabay",
+    creditUrl: "https://pixabay.com/photos/girl-smartphone-social-media-5717067/",
+  },
   seed: 727,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "smartphone chat assistant app screen",
+  coverImage: {
+    url: "/images/covers/claude-app-celular-controlar-outros-apps.webp",
+    width: 1280,
+    height: 853,
+    credit: "LoboStudioHamburg / Pixabay",
+    creditUrl: "https://pixabay.com/photos/internet-whatsapp-smartphone-3113279/",
+  },
   seed: 135,
   kind: "guia",
   author: "Bruno Danello",

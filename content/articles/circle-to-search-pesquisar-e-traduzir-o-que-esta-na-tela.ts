@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "hand holding smartphone android screen",
+  coverImage: {
+    url: "/images/covers/circle-to-search-pesquisar-e-traduzir-o-que-esta-na-tela.webp",
+    width: 1280,
+    height: 853,
+    credit: "niekverlaan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telephone-mobile-call-samsung-586268/",
+  },
   seed: 229,
   kind: "guia",
   author: "Bruno Danello",

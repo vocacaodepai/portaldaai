@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 8,
   imageQuery: "smartphone tripod filming small shop",
+  coverImage: {
+    url: "/images/covers/videos-curtos-para-negocio-local-como-servico-pacote-roteiro-com-ia-e-musica-sem-problema.webp",
+    width: 1280,
+    height: 760,
+    credit: "StockSnap / Pixabay",
+    creditUrl: "https://pixabay.com/photos/girl-shopping-bags-standing-talking-2581913/",
+  },
   seed: 886,
   kind: "guia",
   author: "Bruno Danello",

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T12:59:00-03:00",
   topic: "negocios",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/chatgpt-conteudo-de-parceiros-resumido-restante-da-web-trechos-brutos.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   content: `
     <p>O conteúdo de sites que têm acordo de licenciamento com a OpenAI parece chegar ao ChatGPT por um caminho separado, com prioridade sobre o resto da web. É o que mostra uma análise publicada no LinkedIn por David Konitzny, pesquisador de GEO (otimização para mecanismos generativos) da Peec AI, startup de Berlim, e reportada pelo The Decoder nesta terça-feira (27). Se o achado se confirmar, ele muda a conversa sobre como aparecer nas respostas de uma IA.</p>
 

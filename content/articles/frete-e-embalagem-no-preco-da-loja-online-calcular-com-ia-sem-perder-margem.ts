@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "packing parcel cardboard box shipping",
+  coverImage: {
+    url: "/images/covers/frete-e-embalagem-no-preco-da-loja-online-calcular-com-ia-sem-perder-margem.webp",
+    width: 1280,
+    height: 720,
+    credit: "FrancisRomeo / Pixabay",
+    creditUrl: "https://pixabay.com/photos/pallet-goods-cargo-transport-wood-1665471/",
+  },
   seed: 839,
   kind: "guia",
   author: "Bruno Danello",

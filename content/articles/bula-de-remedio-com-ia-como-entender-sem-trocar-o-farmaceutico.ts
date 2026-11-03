@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-27",
   readTime: 7,
   imageQuery: "pharmacy medicine box reading leaflet",
+  coverImage: {
+    url: "/images/covers/bula-de-remedio-com-ia-como-entender-sem-trocar-o-farmaceutico.webp",
+    width: 1280,
+    height: 853,
+    credit: "kravaivan11 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/medicine-pills-medication-bottle-8287535/",
+  },
   seed: 844,
   kind: "guia",
   author: "Bruno Danello",

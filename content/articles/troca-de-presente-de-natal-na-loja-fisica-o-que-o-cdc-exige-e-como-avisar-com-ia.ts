@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "clothing store counter gift bag receipt",
+  coverImage: {
+    url: "/images/covers/troca-de-presente-de-natal-na-loja-fisica-o-que-o-cdc-exige-e-como-avisar-com-ia.webp",
+    width: 1280,
+    height: 1129,
+    credit: "JillWellington / Pixabay",
+    creditUrl: "https://pixabay.com/photos/christmas-shopping-christmas-presents-3823673/",
+  },
   seed: 1109,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "call center agent headset smiling",
+  coverImage: {
+    url: "/images/covers/decreto-13135-de-2026-novas-regras-do-sac-e-o-que-copiar-no-atendimento-da-sua-loja.webp",
+    width: 1280,
+    height: 853,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/call-center-operator-woman-support-6290278/",
+  },
   seed: 883,
   kind: "guia",
   author: "Bruno Danello",

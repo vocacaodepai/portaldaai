@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-23",
   readTime: 7,
   imageQuery: "small shop owner training new employee counter",
+  coverImage: {
+    url: "/images/covers/treinar-funcionario-novo-com-ia-roteiro-da-primeira-semana-no-pequeno-negocio.webp",
+    width: 1280,
+    height: 853,
+    credit: "Antonio_Cansino / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-face-mask-market-hijab-5632026/",
+  },
   seed: 613,
   kind: "guia",
   author: "Bruno Danello",

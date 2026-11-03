@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-22T08:26:36-03:00",
   topic: "seguranca",
   imageQuery: "WhatsApp logo",
+  coverImage: {
+    url: "/images/covers/whatsapp-instrucoes-ocultas-ia-suporte-regulador-redact.webp",
+    width: 1280,
+    height: 1280,
+    credit: "WhatsApp Inc. (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANo%20WhatsApp%20logo-color-vertical.jpg",
+  },
   content: `
     <p>As páginas da central de ajuda do WhatsApp traziam, escondidas no código, instruções escritas para uma inteligência artificial ler e não para o usuário. Uma delas mandava o robô de suporte não citar a LGPD, o GDPR europeu nem autoridades de proteção de dados, mesmo quando a própria pessoa levantasse o assunto. O achado foi publicado em 19 de outubro pela Redact, empresa de ferramentas para apagar posts e mensagens antigas, em um <a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener noreferrer nofollow">relatório assinado pelo fundador Dan Saltman</a>. Segundo a revista Wired, citada pela própria Redact, o WhatsApp respondeu que o texto era destinado ao seu chatbot de suporte e apareceu por causa de um bug, já corrigido.</p>
     <p>A história chama atenção porque o WhatsApp é o principal canal de conversa de brasileiros e de milhões de pequenos negócios, e porque envolve duas coisas que costumam andar juntas hoje: atendimento automatizado por IA e dados pessoais. O caso mostra o que pode acontecer quando as regras internas de um robô de atendimento ficam diferentes do que a empresa diz publicamente.</p>

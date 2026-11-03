@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T06:30:00-03:00",
   topic: "negocios",
   imageQuery: "DeepSeek logo",
+  coverImage: {
+    url: "/images/covers/deepseek-moonshot-treinaram-modelos-com-gpt-6-astra.webp",
+    width: 1280,
+    height: 720,
+    credit: "PantheraLeo1359531 (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADeepSeek%20%E2%80%93%20VR%20China%20und%20Taiwan%2C%20heikel.png",
+  },
   content: `
     <p>Duas das empresas chinesas de IA que mais chamam atenção do mercado, a DeepSeek e a Moonshot AI, teriam usado de forma pesada o GPT-6 Astra, da OpenAI, para treinar os modelos que lançaram nas últimas semanas. A informação é do site The Information, que falou com pessoas com conhecimento direto do assunto e foi publicada na quarta-feira (28). O jornal de tecnologia The Next Web repercutiu a reportagem e deixou claro que não conseguiu confirmar o caso de forma independente, o que vale como ressalva para tudo o que se segue.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-11-03T06:30:00-03:00",
   topic: "negocios",
   imageQuery: "Oracle headquarters Austin Texas",
+  coverImage: {
+    url: "/images/covers/oracle-capta-20-bilhoes-bonus-acoes-data-centers-ia.webp",
+    width: 1280,
+    height: 960,
+    credit: "4711018 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/budweiser-sign-advertisement-2127732/",
+  },
   content: `
     <p>A Oracle precificou na segunda-feira, 2 de novembro de 2026, duas ofertas de US$ 10 bilhões cada, uma de títulos de dívida e outra de novas ações, completando os US$ 20 bilhões que a empresa diz precisar para ampliar seus data centers de inteligência artificial. As duas operações devem ser liquidadas em 4 de novembro. O mercado reagiu mal: a ação da Oracle caiu 8,6% no dia e acumula queda de mais de 17% em três dias, perto da mínima de 18 meses.</p>
 

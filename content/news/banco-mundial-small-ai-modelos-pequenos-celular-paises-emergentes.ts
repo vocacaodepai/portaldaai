@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T16:25:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "World Bank headquarters Washington",
+  coverImage: {
+    url: "/images/covers/banco-mundial-small-ai-modelos-pequenos-celular-paises-emergentes.webp",
+    width: 1280,
+    height: 853,
+    credit: "Victorgrigas (CC BY-SA 3.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AThe%20World%20Bank%20Group.jpg",
+  },
   content: `
     <p>O Banco Mundial quer que os países em desenvolvimento apostem na chamada small AI, ou IA pequena: modelos compactos, treinados para uma tarefa específica, que funcionem em um celular simples, mesmo com sinal fraco, e na língua de quem usa. A proposta foi relatada pelo jornal The Guardian em 18 de outubro de 2026 e resumida pelo <a href="https://thenextweb.com/news/world-bank-small-ai-developing-countries" target="_blank" rel="noopener noreferrer nofollow">The Next Web</a>, que serve de base para esta matéria. O tema ganhou força durante os encontros do Banco Mundial e do FMI em Bangkok, onde a inteligência artificial foi um dos assuntos centrais.</p>
 

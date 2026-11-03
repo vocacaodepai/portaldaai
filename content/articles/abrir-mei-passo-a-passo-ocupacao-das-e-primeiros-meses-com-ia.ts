@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "small business owner laptop notebook desk",
+  coverImage: {
+    url: "/images/covers/abrir-mei-passo-a-passo-ocupacao-das-e-primeiros-meses-com-ia.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 890,
   kind: "guia",
   author: "Bruno Danello",

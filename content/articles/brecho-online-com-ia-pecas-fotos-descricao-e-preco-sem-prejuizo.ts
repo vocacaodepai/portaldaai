@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-29",
   readTime: 8,
   imageQuery: "clothes rack thrift store hangers",
+  coverImage: {
+    url: "/images/covers/brecho-online-com-ia-pecas-fotos-descricao-e-preco-sem-prejuizo.webp",
+    width: 1280,
+    height: 853,
+    credit: "Livoca / Pixabay",
+    creditUrl: "https://pixabay.com/photos/bazaar-thrift-store-organization-2835796/",
+  },
   seed: 889,
   kind: "guia",
   author: "Bruno Danello",

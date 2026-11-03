@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 6,
   imageQuery: "notes planning workspace laptop tablet",
+  coverImage: {
+    url: "/images/covers/notion-ai-planos-precos-e-para-quem-compensa-pagar.webp",
+    width: 1280,
+    height: 757,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/man-write-plan-desk-notes-pen-593333/",
+  },
   seed: 198,
   kind: "guia",
   author: "Bruno Danello",

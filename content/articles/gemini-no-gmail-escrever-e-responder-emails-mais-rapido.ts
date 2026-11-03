@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-10",
   readTime: 6,
   imageQuery: "inbox email laptop morning coffee",
+  coverImage: {
+    url: "/images/covers/gemini-no-gmail-escrever-e-responder-emails-mais-rapido.webp",
+    width: 1280,
+    height: 854,
+    credit: "Engin_Akyurt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coffee-drink-caffeine-beverage-cup-6371149/",
+  },
   seed: 194,
   kind: "guia",
   author: "Bruno Danello",

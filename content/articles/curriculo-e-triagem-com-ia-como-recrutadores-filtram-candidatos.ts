@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-13",
   readTime: 8,
   imageQuery: "resume paper desk pen interview",
+  coverImage: {
+    url: "/images/covers/curriculo-e-triagem-com-ia-como-recrutadores-filtram-candidatos.webp",
+    width: 1280,
+    height: 839,
+    credit: "congerdesign / Pixabay",
+    creditUrl: "https://pixabay.com/photos/notes-paper-ball-of-paper-memo-514998/",
+  },
   seed: 282,
   kind: "guia",
   author: "Bruno Danello",

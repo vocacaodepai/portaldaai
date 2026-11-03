@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "small business owner shop counter",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-vender-mais-no-seu-negocio-local.webp",
+    width: 1280,
+    height: 854,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+  },
   seed: 10,
   kind: "guia",
   author: "Bruno Danello",

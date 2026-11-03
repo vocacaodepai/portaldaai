@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "team collaboration future office technology",
+  coverImage: {
+    url: "/images/covers/como-humanos-e-agentes-de-ia-vao-trabalhar-juntos-no-futuro.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptops-meeting-businessmen-593296/",
+  },
   seed: 85,
   kind: "guia",
   author: "Bruno Danello",

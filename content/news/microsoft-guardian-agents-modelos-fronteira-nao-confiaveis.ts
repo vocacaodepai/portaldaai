@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-19T19:22:00-03:00",
   topic: "seguranca",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/microsoft-guardian-agents-modelos-fronteira-nao-confiaveis.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22.jpg",
+  },
   content: `
     <p>A Microsoft apresentou nesta segunda-feira (19) um pacote de recursos de segurança para proteger empresas dos riscos crescentes dos agentes de inteligência artificial, e acompanhou o anúncio de um alerta pouco comum vindo de uma gigante que investe pesadamente em IA. Segundo a <a href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/" target="_blank" rel="noopener noreferrer nofollow">reportagem do TechCrunch</a>, a chefe da área de negócios de segurança da empresa, Hayete Gallot, escreveu que "infelizmente, modelos de fronteira, independentemente de sua origem, não podem ser confiáveis". A frase resume uma mudança de postura: em vez de olhar apenas para hackers externos, a Microsoft passa a tratar os próprios agentes que as empresas colocam para trabalhar como uma possível ameaça interna.</p>
     <p>O recurso principal se chama Guardian Agents, que monitora os agentes de IA usados por uma companhia. Ele faz parte do Project Perception, iniciativa apresentada pela Microsoft em junho como resposta a modelos de IA capazes de invadir sistemas, entre eles o Mythos e o Fable, da Anthropic, e o sistema Daybreak, da OpenAI, que procura vulnerabilidades. O projeto original usava três classes de agentes: um time vermelho que atua como atacante, um time azul que detecta o ataque e avalia as falhas encontradas, e um time verde que corrige o que foi descoberto.</p>

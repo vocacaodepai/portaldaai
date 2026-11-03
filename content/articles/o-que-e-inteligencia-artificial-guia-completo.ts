@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "artificial intelligence technology brain",
+  coverImage: {
+    url: "/images/covers/o-que-e-inteligencia-artificial-guia-completo.webp",
+    width: 1280,
+    height: 961,
+    credit: "PhOtOnQuAnTiQuE from Earth France (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APhotonQ-Demis%20Hassabis%20on%20Artificial%20Playful%20Intelligence%20(15366514658)%20(2).jpg",
+  },
   seed: 0,
   kind: "guia",
   author: "Bruno Danello",

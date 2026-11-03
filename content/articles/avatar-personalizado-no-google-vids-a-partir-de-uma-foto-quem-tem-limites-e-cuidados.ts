@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-11-03",
   readTime: 7,
   imageQuery: "woman recording video laptop desk",
+  coverImage: {
+    url: "/images/covers/avatar-personalizado-no-google-vids-a-partir-de-uma-foto-quem-tem-limites-e-cuidados.webp",
+    width: 1280,
+    height: 854,
+    credit: "jhenning / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-conference-table-mouse-work-7978588/",
+  },
   seed: 1101,
   kind: "guia",
   author: "Bruno Danello",

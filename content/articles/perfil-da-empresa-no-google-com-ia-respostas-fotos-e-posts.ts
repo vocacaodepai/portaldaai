@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "shop owner storefront smartphone maps",
+  coverImage: {
+    url: "/images/covers/perfil-da-empresa-no-google-com-ia-respostas-fotos-e-posts.webp",
+    width: 1280,
+    height: 960,
+    credit: "DariuszSankowski / Pixabay",
+    creditUrl: "https://pixabay.com/photos/navigation-car-drive-road-gps-1048294/",
+  },
   seed: 297,
   kind: "guia",
   author: "Bruno Danello",

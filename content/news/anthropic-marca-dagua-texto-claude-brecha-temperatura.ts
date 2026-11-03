@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-31T16:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-marca-dagua-texto-claude-brecha-temperatura.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   content: `
     <p>A Anthropic avisou desenvolvedores que usam a API do Claude que vai estender a marca d'água invisível em texto a mais quatro modelos: Claude Mythos 5, Claude Opus 4.7, Claude Opus 4.6 e Claude Sonnet 4.6. O Claude Opus 5.5 já sai com a marca. A informação foi publicada neste sábado, 31 de outubro de 2026, pelo The Decoder, que descreve o conteúdo de um e-mail enviado aos clientes da empresa. O ponto mais curioso do aviso é uma brecha: nos dois modelos 4.6, a marca só vale se o desenvolvedor não mexer em alguns parâmetros de geração.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-28T15:30:00-03:00",
   topic: "negocios",
   imageQuery: "General Services Administration headquarters Washington",
+  coverImage: {
+    url: "/images/covers/anthropic-gsa-onegov-desconto-40-claude-governos.webp",
+    width: 1280,
+    height: 853,
+    credit: "DHSgov (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADHS%20Secretary%20Alejandro%20Mayorkas%20Conducts%20a%20Press%20Conference%20with%20the%20General%20Services%20Administration%20(53122618827).jpg",
+  },
   content: `
     <p>A Anthropic fechou um novo acordo com a GSA, a agência de serviços gerais do governo dos Estados Unidos, que dá 40% de desconto no uso por token de todos os modelos Claude liberados para o setor público. A empresa anunciou o acordo em um post na terça-feira, 27 de outubro de 2026, a GSA publicou um comunicado próprio, e o The Next Web detalhou o caso nesta quarta-feira, 28, com base no anúncio e em reportagem da Nextgov.</p>
 

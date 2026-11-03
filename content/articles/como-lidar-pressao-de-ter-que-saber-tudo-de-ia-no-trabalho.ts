@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "overwhelmed stressed work desk",
+  coverImage: {
+    url: "/images/covers/como-lidar-pressao-de-ter-que-saber-tudo-de-ia-no-trabalho.webp",
+    width: 1280,
+    height: 761,
+    credit: "lukasbieri / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-mockup-graphics-tablet-2838921/",
+  },
   seed: 64,
   kind: "guia",
   author: "Bruno Danello",

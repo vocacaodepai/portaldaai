@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T11:50:00-03:00",
   topic: "lancamentos",
   imageQuery: "Mistral AI logo",
+  coverImage: {
+    url: "/images/covers/mistral-large-4-pesos-abertos-hugging-face-terminal-bench.webp",
+    width: 1280,
+    height: 1562,
+    credit: "Prime Minister's Office (GODL-India) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APrime%20Minister%20of%20Bharat%2C%20Shri%20Narendra%20Damodardas%20Modi%20with%20the%20Co-Founder%20and%20CEO%20of%20Mistral%20AI%2C%20Mr.%20Arthur%20Mensch.jpg",
+  },
   content: `
     <p>A Mistral AI liberou nesta quinta-feira, 29 de outubro de 2026, os pesos do Mistral Large 4, o modelo de 1 trilhão de parâmetros que a empresa francesa havia mostrado em versão prévia três semanas antes. Os arquivos estão no Hugging Face, e o modelo também segue disponível pela API da Mistral e para alguns usuários do Vibe, o ambiente de código da empresa. A informação vem de reportagem do The Next Web publicada na mesma data, que reúne declarações do vice-presidente de ciência da Mistral, Pierre Stock, e números de benchmarks divulgados pela própria empresa. Para quem trabalha com IA, o ponto central é simples: um modelo desse porte agora pode ser baixado e rodado por qualquer organização com hardware suficiente.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-24T21:35:00-03:00",
   topic: "lancamentos",
   imageQuery: "smartphone mensagens assistente de IA",
+  coverImage: {
+    url: "/images/covers/agentes-ia-por-mensagem-de-texto-guia-techcrunch-precos.webp",
+    width: 1280,
+    height: 853,
+    credit: "FunkyFocus / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
+  },
   content: `
     <p>Em vez de baixar mais um aplicativo, uma nova leva de assistentes de IA aparece onde você já conversa todos os dias: no iMessage, no SMS, no WhatsApp ou no Telegram. Segundo o <a href="https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/" rel="noopener noreferrer nofollow">guia publicado pela TechCrunch</a> neste sábado (24), assinado por Lauren Forristal, esses agentes lembram do contexto, se conectam a e-mail e agenda e executam tarefas como marcar compromissos, pesquisar viagens, fazer reservas, comprar itens e mandar lembretes dias depois. A reportagem separa as opções em assistentes gerais, agentes para família, viagem, trabalho, criadores de conteúdo e negócios.</p>
     <p>O texto destaca o Instinct como o mais comentado do grupo. A startup levantou US$ 350 milhões com avaliação de US$ 2,5 bilhões em agosto e, em setembro, mais US$ 1 bilhão com avaliação de US$ 10 bilhões, <a href="/noticias/instinct-capta-1-bilhao-serie-c-10-bilhoes">como o Portal da AI já mostrou</a>. Ele aceita texto ou voz, conecta e-mail, calendário e Google Workspace, e consegue planejar viagens, comprar mercado, reservar ingressos e cancelar assinaturas. Segue em beta fechado, e a própria matéria menciona preocupações de privacidade e segurança.</p>

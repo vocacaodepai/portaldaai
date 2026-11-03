@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T22:30:00-03:00",
   imageQuery: "Google logo",
+  coverImage: {
+    url: "/images/covers/google-nano-banana-2-1-gemini-imagens.webp",
+    width: 1280,
+    height: 720,
+    credit: "Design:  unknown (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADigitized%20by%20Google%20watermark.png",
+  },
   topic: "lancamentos",
   content: `
     <p>O Google DeepMind lançou nesta terça-feira (6) o Nano Banana 2.1, nova versão do seu modelo de geração e edição de imagens por inteligência artificial, construída sobre a arquitetura do <a href="/artigos/gemini-3-vale-a-pena-novidades-precos-comparacao-chatgpt" target="_self">Gemini 3.6 Flash</a>. Segundo a <a href="https://deepmind.google/models/model-cards/nano-banana-2-1/" target="_blank" rel="noopener noreferrer nofollow">ficha técnica publicada pelo próprio Google DeepMind</a>, o modelo aceita até 1 milhão de tokens de contexto em texto e imagem combinados, gera imagens equivalentes a 4 mil tokens e textos de até 64 mil tokens, e já está disponível no Gemini App, no Google AI Studio, na API do Gemini, no modo de IA da Busca do Google e em ferramentas como Google Ads, Flow e Stitch.</p>

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-14",
   readTime: 7,
   imageQuery: "traveler smartphone street sign foreign",
+  coverImage: {
+    url: "/images/covers/google-tradutor-no-celular-camera-conversa-e-modo-offline.webp",
+    width: 1280,
+    height: 853,
+    credit: "ThorstenF / Pixabay",
+    creditUrl: "https://pixabay.com/photos/phone-business-person-lifestyle-4060860/",
+  },
   seed: 287,
   kind: "guia",
   author: "Bruno Danello",

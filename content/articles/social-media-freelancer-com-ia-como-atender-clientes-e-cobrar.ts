@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-11",
   readTime: 6,
   imageQuery: "freelancer smartphone social media content",
+  coverImage: {
+    url: "/images/covers/social-media-freelancer-com-ia-como-atender-clientes-e-cobrar.webp",
+    width: 1280,
+    height: 853,
+    credit: "LoboStudioHamburg / Pixabay",
+    creditUrl: "https://pixabay.com/photos/phone-display-apps-applications-292994/",
+  },
   seed: 196,
   kind: "guia",
   author: "Bruno Danello",

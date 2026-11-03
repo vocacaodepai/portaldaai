@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-12",
   readTime: 7,
   imageQuery: "small shop owner laptop newsletter",
+  coverImage: {
+    url: "/images/covers/email-marketing-com-ia-para-pequenas-empresas-lista-e-regras.webp",
+    width: 1280,
+    height: 854,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+  },
   seed: 222,
   kind: "guia",
   author: "Bruno Danello",

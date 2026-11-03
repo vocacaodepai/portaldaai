@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-03",
   publishedAt: "2026-11-03T07:40:00-03:00",
   imageQuery: "Nvidia headquarters Santa Clara",
+  coverImage: {
+    url: "/images/covers/nvidia-limita-negocios-chineses-nuvem-49-por-cento.webp",
+    width: 1280,
+    height: 783,
+    credit: "Coolcaesar (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANVIDIA%20Headquarters.jpg",
+  },
   topic: "regulacao",
   content: `
     <p>A Nvidia mandou parceiros de nuvem limitarem a 49% a fatia de clientes chineses nos seus serviços de computação para IA. A informação é do Financial Times, publicada nesta terça-feira (3) e repercutida pelo site The Next Web. Na prática, os provedores de data center que usam chips da Nvidia teriam de destinar ao menos 51% da capacidade a empresas de fora da China. A regra, segundo a reportagem, vale apenas para contratos novos e os acordos já existentes não seriam afetados.</p>

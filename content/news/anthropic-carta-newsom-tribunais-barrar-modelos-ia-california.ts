@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-29T07:30:00-03:00",
   topic: "regulacao",
   imageQuery: "Gavin Newsom portrait",
+  coverImage: {
+    url: "/images/covers/anthropic-carta-newsom-tribunais-barrar-modelos-ia-california.webp",
+    width: 1280,
+    height: 720,
+    credit: "Office of the Lieutenant Governor of California (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGavin%20Newsom%20official%20photo.jpg",
+  },
   content: `
     <p>A Anthropic enviou ao governador da Califórnia, Gavin Newsom, uma carta em que pede que o estado ganhe o poder de levar a um tribunal o pedido de bloqueio de modelos de inteligência artificial que representem um risco sério. O documento é datado de 15 de outubro de 2026, foi revelado primeiro pelo Politico e repercutido nesta quinta-feira (29) pelo The Next Web. A Anthropic confirmou que a carta é autêntica. Até a publicação da reportagem, o gabinete de Newsom não tinha respondido.</p>
 

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-18T12:40:00-03:00",
   topic: "seguranca",
   imageQuery: "servidor data center",
+  coverImage: {
+    url: "/images/covers/agente-ia-apaga-temporada-the-challenge-sverige-tv4-backup.webp",
+    width: 1280,
+    height: 853,
+    credit: "EditorTech20 (CC BY 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AHardware%20interno%20de%20servidor%20data%20center%20HostDime.jpg",
+  },
   content: `
     <p>A nova temporada do reality show sueco <em>The Challenge Sverige</em> deveria estrear em 22 de novembro, mas a edição final dos episódios sumiu de um servidor da produtora Mastiff, que faz o programa para a emissora TV4. Segundo o jornal sueco Aftonbladet, o apagão de arquivos aconteceu depois que a empresa deu acesso ao servidor principal a um agente de inteligência artificial. A história foi contada pelo <a href="https://canaltech.com.br/inteligencia-artificial/agente-de-ia-apaga-temporada-inteira-de-reality-show-dias-antes-da-estreia/" target="_blank" rel="noopener noreferrer nofollow">Canaltech</a>, que resumiu o caso e as versões em disputa. A estreia foi adiada para 2027, sem data definida.</p>
 

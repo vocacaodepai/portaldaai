@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T19:45:00-03:00",
   topic: "seguranca",
   imageQuery: "GitHub logo",
+  coverImage: {
+    url: "/images/covers/litellm-ataque-comecou-chave-mestra-exposta-posmortem.webp",
+    width: 1280,
+    height: 720,
+    credit: "Fillipefeitosa (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGithub%2BWaffle%3DS2.png",
+  },
   content: `
     <p>A LiteLLM, biblioteca de código aberto muito usada para conectar aplicações a vários modelos de IA com uma única interface, publicou o relatório final sobre o ataque que, em 21 de outubro, colocou no ar uma versão maliciosa do pacote (1.107.0) no PyPI e nos registros de contêineres. O <a href="https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain" rel="noopener noreferrer nofollow" target="_blank">pós-mortem</a>, datado de 23 de outubro, conta que tudo começou com uma chave mestra commitada por engano em um repositório público em maio e nunca revogada. O caso também foi resumido pelo <a href="https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544" rel="noopener noreferrer nofollow" target="_blank">The Register</a>. O episódio do pacote comprometido já havia sido noticiado pelo Portal da AI; agora a empresa explica como o invasor chegou até ele.</p>
 

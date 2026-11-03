@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-13T10:24:50-03:00",
   topic: "negocios",
   imageQuery: "Character.AI logo",
+  coverImage: {
+    url: "/images/covers/character-ai-falencia-disney.webp",
+    width: 1280,
+    height: 960,
+    credit: "Solomon203 (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AXi%20Mo%20and%20Shey%20as%20Kaguya%20Luna%20and%20Kizuna%20AI%2020191103e.jpg",
+  },
   content: `
     <p>A Character.AI, plataforma que permite criar personagens de inteligência artificial e conversar com eles, entrou com pedido de recuperação judicial sob o Chapter 11, o capítulo da lei de falências dos Estados Unidos, depois de uma série de processos e de dificuldades para escalar o negócio. A informação é da <a href="https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, em texto assinado por Ivan Mehta e publicado nesta terça-feira (13). Segundo um documento da corte, a empresa declarou ativos e passivos entre US$ 50 milhões e US$ 100 milhões.</p>
 

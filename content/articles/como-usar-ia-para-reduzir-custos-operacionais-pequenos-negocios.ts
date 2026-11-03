@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "business costs reduction chart office",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios.webp",
+    width: 1280,
+    height: 853,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/analysis-analytics-business-charts-1841158/",
+  },
   seed: 73,
   kind: "guia",
   author: "Bruno Danello",

@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-11-03",
   publishedAt: "2026-11-03T13:28:00-03:00",
   imageQuery: "Apple App Store logo",
+  coverImage: {
+    url: "/images/covers/apple-app-store-apps-namoro-companheiros-ia-18-anos-brasil-a18.webp",
+    width: 1280,
+    height: 720,
+    credit: "Apple, Inc. &amp; Alphabet, Inc. (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AGoogle%20Play%20Store%20badge%20NL%20(New)%20and%20Apple%20App%20Store%20badge.png",
+  },
   topic: "regulacao",
   content: `
     <p>A Apple vai mudar a forma como classifica por idade os aplicativos da App Store, e a mudança pega em cheio os companheiros virtuais com inteligência artificial. Em aviso publicado na segunda-feira (2) no portal de desenvolvedores, a empresa informou que, a partir de 16 de novembro de 2026, o questionário de classificação etária do App Store Connect, o painel onde os criadores de apps cadastram seus produtos, vai ganhar duas perguntas novas. Uma delas trata de recursos de namoro e de relacionamento, e inclui de forma explícita o companheiro virtual que conversa com o usuário em tom sexual ou romântico. Todo app que marcar esse item passa a ter classificação mínima de 18 anos.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-26T18:45:00-03:00",
   topic: "lancamentos",
   imageQuery: "Apple Park Cupertino",
+  coverImage: {
+    url: "/images/covers/apple-ios-27-2-siri-ai-portugues-memoria-apps-excluidos.webp",
+    width: 1280,
+    height: 855,
+    credit: "Daniel L. Lu (user:dllu) (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAerial%20view%20of%20Apple%20Park%20dllu.jpg",
+  },
   content: `
     <p>A Apple liberou nesta segunda-feira (26) o iOS 27.2 e as versões equivalentes para iPad, Mac, Apple Watch, Apple TV e Apple Vision Pro. A <a href="https://developer.apple.com/news/releases/" target="_blank" rel="noopener noreferrer nofollow">página de lançamentos da Apple para desenvolvedores</a> lista as atualizações com data de 26 de outubro. Segundo a <a href="https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/" target="_blank" rel="noopener noreferrer nofollow">cobertura da Ars Technica</a>, que reproduz as notas de versão da empresa, o foco da atualização é a Siri AI, a nova camada de inteligência artificial da assistente. Para quem usa iPhone no Brasil, a novidade de maior alcance é a chegada do português.</p>
 

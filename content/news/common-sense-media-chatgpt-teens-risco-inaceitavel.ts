@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-07",
   publishedAt: "2026-10-07T16:21:44-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/common-sense-media-chatgpt-teens-risco-inaceitavel.webp",
+    width: 1280,
+    height: 970,
+    credit: "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sutskever (MIT) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20Whisper%20architecture.png",
+  },
   topic: "seguranca",
   content: `
     <p>A Common Sense Media, organização sem fins lucrativos que avalia mídia e tecnologia para famílias, classificou o ChatGPT for Teens como um "risco inaceitável". Segundo reportagem do <a href="https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, assinada por Rebecca Bellan, a análise concluiu que o produto da OpenAI mantém adolescentes conversando mesmo em situações de crise de saúde mental. A OpenAI contesta a metodologia do teste.</p>

@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-27T10:58:00-03:00",
   topic: "lancamentos",
   imageQuery: "Opera browser logo",
+  coverImage: {
+    url: "/images/covers/opera-webai-padrao-web-ia-local-navegador.webp",
+    width: 1280,
+    height: 682,
+    credit: "Богдан Панчук (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BA%D1%80%D1%96%D0%BD%D1%88%D0%BE%D1%82%20Opera%2063.png",
+  },
   content: `
     <p>A Opera, fabricante do navegador de mesmo nome, apresentou nesta terça-feira (27) o WebAI, um novo padrão web pensado para que sites e aplicativos usem modelos de inteligência artificial rodando diretamente no computador do usuário, sem depender de um servidor na nuvem. O anúncio foi noticiado pelo TechCrunch e, segundo a reportagem, o recurso já está disponível como prévia inicial no Opera One, o navegador principal da empresa.</p>
 

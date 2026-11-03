@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-20T13:24:13-03:00",
   topic: "negocios",
   imageQuery: "Charles Schwab headquarters",
+  coverImage: {
+    url: "/images/covers/schwab-jpmorgan-bloqueiam-agentes-ia-externos-contas-clientes.webp",
+    width: 1280,
+    height: 849,
+    credit: "Underwood &amp; Underwood (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAmerican%20Red%20Cross%20-%20Classes%20in%20Red%20Cross%20Work%20-%20Members%20of%20the%20Charles%20M.%20Schwab%20household%20staff%20busy%20in%20their%20sitting%20room%20in%20the%20Schwab%20residence%20on%20Riverside%20Drive%2C%20New%20York%2C%20knitting%20while%20they%20enjoy%20the%20mus(...)%20-%20NARA%20-%2020802070.jpg",
+  },
   content: `
     <p>Dois dos maiores nomes do sistema financeiro dos Estados Unidos deixaram claro nesta semana que não pretendem abrir as contas dos clientes para agentes de inteligência artificial de terceiros. Segundo a <a href="https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse" target="_blank" rel="noopener noreferrer nofollow">reportagem do The Next Web</a>, publicada em 16 de outubro, o CEO do Charles Schwab, Rick Wurster, disse à Bloomberg Television que a corretora bloqueia agentes não autorizados, entre eles o Muse, da Meta, quando tentam movimentar o dinheiro dos clientes. Na mesma linha, Jamie Dimon, CEO do JPMorgan, afirmou na teleconferência de resultados do banco que a instituição não vai deixar agentes externos agirem dentro dos seus sistemas.</p>
 

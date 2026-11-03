@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-28",
   readTime: 7,
   imageQuery: "person reading news phone coffee",
+  coverImage: {
+    url: "/images/covers/noticias-pelo-chatbot-de-ia-o-que-o-reuters-institute-mostra-e-como-checar-a-fonte.webp",
+    width: 1280,
+    height: 853,
+    credit: "kaboompics / Pixabay",
+    creditUrl: "https://pixabay.com/photos/coffee-magazine-newspaper-read-791439/",
+  },
   seed: 884,
   kind: "guia",
   author: "Bruno Danello",

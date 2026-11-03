@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-18",
   publishedAt: "2026-10-18T06:25:00-03:00",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-alerta-ia-pequena-autorreplicar-dispositivos-iot.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   topic: "seguranca",
   content: `
     <p>A Anthropic publicou, em 12 de outubro, uma pesquisa do seu time de Frontier Red Team com um aviso incômodo: modelos de IA pequenos podem estar a poucos meses de conseguir se copiar sozinhos para aparelhos comuns de internet das coisas, como TV box de marca desconhecida, forno inteligente ou geladeira conectada. No <a href="https://www.anthropic.com/research/self-replicating-ai" target="_blank" rel="noopener noreferrer nofollow">texto original da empresa</a>, os pesquisadores William Zhou e Daniel Freeman afirmam que um replicador desse tipo seria difícil de desligar, porque não existe um ponto central para cortar, embora tendesse a ser lento, com tempo de duplicação de dias.</p>
