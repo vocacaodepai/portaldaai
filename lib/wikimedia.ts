@@ -25,6 +25,39 @@ type CommonsImageInfo = {
   };
 };
 
+// Palavras que não identificam o assunto da foto: não contam na checagem de
+// relevância abaixo.
+const NON_SUBJECT_WORDS = new Set([
+  "a", "an", "the", "of", "and", "or", "in", "on", "at", "for", "with", "to", "by", "from",
+  "portrait", "logo", "photo", "image", "picture", "closeup", "close", "up",
+  "de", "da", "do", "das", "dos", "e", "em", "com", "para",
+]);
+
+function subjectWords(text: string): string[] {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w.length > 1 && !NON_SUBJECT_WORDS.has(w))
+    .map((w) => (w.length > 3 && w.endsWith("s") ? w.slice(0, -1) : w));
+}
+
+/**
+ * A busca do Commons devolve qualquer arquivo que cite as palavras em algum
+ * lugar da página (descrição, categorias), não só no assunto da foto: já veio
+ * um mapa de países europeus para "person checking phone bank app". Só aceita
+ * o arquivo quando o próprio nome dele traz pelo menos metade das palavras de
+ * assunto da busca (mínimo 1); senão a cascata segue para Pexels/Pixabay.
+ */
+export function isRelevantCommonsFile(fileTitle: string, query: string): boolean {
+  const wanted = Array.from(new Set(subjectWords(query)));
+  if (wanted.length === 0) return true;
+  const have = new Set(subjectWords(fileTitle.replace(/^File:/i, "").replace(/\.[a-z0-9]+$/i, "")));
+  const hits = wanted.filter((w) => have.has(w)).length;
+  return hits >= Math.max(1, Math.ceil(wanted.length / 2));
+}
+
 function toStockPhoto(title: string, info: CommonsImageInfo, query: string): StockPhoto | null {
   // Sem metadado de licença explícito, não arrisca publicar a foto.
   const license = info.extmetadata?.LicenseShortName?.value;
@@ -78,7 +111,7 @@ export async function getWikimediaImage(query: string, seed = 0): Promise<StockP
     if (!pages) return null;
 
     const licensed = Object.values(pages)
-      .filter((p) => p.imageinfo && p.imageinfo[0])
+      .filter((p) => p.imageinfo && p.imageinfo[0] && isRelevantCommonsFile(p.title, query))
       .map((p) => toStockPhoto(p.title, p.imageinfo![0], query))
       .filter((p): p is StockPhoto => p !== null);
 

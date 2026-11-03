@@ -176,7 +176,10 @@ export function ArticleCard({
 
   return (
     <article
-      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover"
+      // content-visibility: o navegador só desenha os cards perto da tela. As
+      // listagens que mostram tudo numa página só (/artigos, categorias com
+      // filtro) têm centenas de cards; sem isso a página trava no celular.
+      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover [content-visibility:auto] [contain-intrinsic-size:auto_420px]"
       data-category={article.category}
       data-kind={article.kind ?? "guia"}
       data-product-category={article.productCategory}
