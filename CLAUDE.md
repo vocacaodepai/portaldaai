@@ -314,26 +314,38 @@ um AI Indica dentro do fluxo de outros comparativos e reviews de produto:
 não precisa de nenhuma seção nova, só continuar publicando AI Indica
 suficiente pra essa seção ter o que mostrar.
 
-## Rotina editorial diária: 10 artigos por dia
+## Rotina editorial diária: 10 publicações por dia (desde 04/11/2026)
 
-O Portal da AI publica 10 artigos por dia, em duas rotinas automáticas
-separadas (dois triggers agendados):
+Pedido do dono em 04/11/2026: menos volume e mais qualidade, para o Google
+indexar mais (Search Console tinha 955 páginas indexadas contra 1.055
+"rastreadas, mas não indexadas"). O ritmo diário é:
 
-- **5 artigos gerais** (rotina "Portal da AI — 5 artigos por dia", 05:00
-  Brasília): um por categoria entre iniciantes, monetização, negócios,
-  ferramentas, carreira/futuro. Sem link de afiliado.
-- **5 artigos AI Indica** (rotina "Portal da AI — 5 AI Indica por dia",
-  06:00 Brasília): sempre `category: "ai-indica"`, sempre com produto real
-  vendido na Amazon Brasil e link de afiliado `tag=portaldaai-20`. Dividido
-  todo dia em:
-  - **3 comparativos** (`kind: "guia"`, tipo `melhor-fone-bluetooth-barato-comparativo-2026`):
-    2 ou 3 produtos reais da mesma categoria (celular, carregador,
-    fone, mouse etc.) comparados lado a lado, com tabela e nota por
-    critério, pra indicar qual compensa mais.
-  - **2 reviews de produto único** (`kind: "review"`, tipo
-    `soundcore-p20i-anker-vale-a-pena`): um produto só, com o campo
-    `review` completo (nota, critérios, prós, contras, preço, `url` de
-    afiliado).
+- **2 notícias** (rotina "Portal da AI — 2 notícias por dia", 09:21 e
+  17:21 Brasília): 1 por rodada, a notícia mais importante do dia sobre IA
+  para o leitor brasileiro. Sem pauta forte, a rodada não publica nada. A
+  segunda rodada não repete o assunto nem o `topic` da primeira.
+- **2 artigos gerais** (rotina "Portal da AI — 2 artigos gerais por dia",
+  05:00 Brasília): 2 categorias diferentes em rodízio a cada 3 dias (dia do
+  mês com resto 0 na divisão por 3 = iniciantes e monetização; resto 1 =
+  negócios e ferramentas; resto 2 = carreira e futuro). Sem link de
+  afiliado. As antigas rodadas das 11:08 e 17:09 foram desligadas.
+- **3 AI Indica com Amazon** (rotina "Portal da AI — 3 AI Indica Amazon por
+  dia", 06:07 Brasília): sempre `category: "ai-indica"`, produto real
+  vendido na Amazon Brasil e link de afiliado `tag=portaldaai-20`:
+  - **2 comparativos** (`kind: "guia"`, tipo `melhor-fone-bluetooth-barato-comparativo-2026`):
+    2 ou 3 produtos reais da mesma categoria comparados lado a lado, com
+    tabela e nota por critério.
+  - **1 review de produto único** (`kind: "review"`, tipo
+    `soundcore-p20i-anker-vale-a-pena`), com o campo `review` completo.
+- **3 AI Indica com Shopee** (rotina "Portal da AI — 3 AI Indica Shopee por
+  dia", 07:37 Brasília): 2 comparativos e 1 review, com o `offerLink` da API
+  da Shopee.
+- **Manutenção de páginas antigas** (rotina "Portal da AI — manutenção
+  diária de páginas antigas", 15:43 Brasília): melhora de 5 a 8 páginas já
+  publicadas por dia (dados atualizados, texto aprofundado, links
+  internos), priorizando as URLs "rastreadas, mas não indexadas" que o dono
+  enviar. Juntar páginas ou marcar `noindex` só com decisão do dono: a
+  rotina lista as sugestões no informe.
 
 Todo artigo de AI Indica segue as regras de imagem da seção acima (foto
 real oficial do fabricante, nunca gerador de IA, `build-product-cover.mjs`
