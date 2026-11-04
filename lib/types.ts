@@ -342,6 +342,8 @@ export const productSubcategories = [
   { slug: "guia-coleira", label: "Guia e Coleira", category: "pet" },
   { slug: "ssd-interno", label: "SSD Interno NVMe", category: "informatica" },
   { slug: "porteiro-eletronico", label: "Porteiro Eletrônico e Interfone", category: "seguranca" },
+  { slug: "marca-texto", label: "Marca-texto", category: "escritorio" },
+  { slug: "glicosimetro", label: "Medidor de Glicose", category: "saude-bem-estar" },
   { slug: "jogo-panelas", label: "Jogo de Panelas", category: "cozinha" },
   { slug: "antimofo", label: "Antimofo e Desumidificador", category: "casa-utilidades" },
   { slug: "racao-seca-cao", label: "Ração Seca para Cães", category: "pet" },
