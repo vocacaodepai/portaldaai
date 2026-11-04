@@ -337,6 +337,8 @@ export const productSubcategories = [
   { slug: "descascador", label: "Descascador e Utensílios", category: "cozinha" },
   { slug: "faixa-elastica", label: "Faixas Elásticas de Treino", category: "saude-bem-estar" },
   { slug: "notas-adesivas", label: "Notas Adesivas (Post-it)", category: "escritorio" },
+  { slug: "ssd-interno", label: "SSD Interno NVMe", category: "informatica" },
+  { slug: "porteiro-eletronico", label: "Porteiro Eletrônico e Interfone", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
