@@ -12,7 +12,7 @@ export const article: Article = {
   productCategory: "jardim-quintal",
   productSubcategory: "esguicho-mangueira",
   productScore: 8.3,
-  date: "2026-11-03",
+  date: "2026-11-04",
   readTime: 8,
   imageQuery: "garden hose spray nozzle watering plants",
   seed: 1131,

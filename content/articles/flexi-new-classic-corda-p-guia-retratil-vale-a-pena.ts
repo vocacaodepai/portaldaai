@@ -12,7 +12,7 @@ export const article: Article = {
   productCategory: "pet",
   productSubcategory: "guia-coleira",
   productScore: 7.7,
-  date: "2026-11-03",
+  date: "2026-11-04",
   readTime: 8,
   imageQuery: "retractable dog leash walk small dog",
   seed: 1133,

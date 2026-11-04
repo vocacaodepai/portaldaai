@@ -12,7 +12,7 @@ export const article: Article = {
   productCategory: "cozinha",
   productSubcategory: "purificador-agua",
   productScore: 8.2,
-  date: "2026-11-03",
+  date: "2026-11-04",
   readTime: 9,
   imageQuery: "water purifier dispenser kitchen glass",
   seed: 1132,
