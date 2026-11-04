@@ -340,6 +340,8 @@ export const productSubcategories = [
   { slug: "esguicho-mangueira", label: "Esguicho e Hidropistola", category: "jardim-quintal" },
   { slug: "purificador-agua", label: "Purificador de Água", category: "cozinha" },
   { slug: "guia-coleira", label: "Guia e Coleira", category: "pet" },
+  { slug: "ssd-interno", label: "SSD Interno NVMe", category: "informatica" },
+  { slug: "porteiro-eletronico", label: "Porteiro Eletrônico e Interfone", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
