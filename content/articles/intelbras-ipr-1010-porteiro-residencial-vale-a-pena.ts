@@ -11,7 +11,7 @@ export const article: Article = {
   category: "ai-indica",
   productCategory: "seguranca",
   productSubcategory: "porteiro-eletronico",
-  date: "2026-11-03",
+  date: "2026-11-04",
   readTime: 8,
   imageQuery: "house intercom door entry",
   seed: 402,

@@ -12,7 +12,7 @@ export const article: Article = {
   productCategory: "informatica",
   productSubcategory: "ssd-interno",
   productScore: 8.4,
-  date: "2026-11-03",
+  date: "2026-11-04",
   readTime: 8,
   imageQuery: "nvme m2 ssd computer upgrade",
   seed: 401,
