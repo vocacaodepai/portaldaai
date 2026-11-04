@@ -337,6 +337,9 @@ export const productSubcategories = [
   { slug: "descascador", label: "Descascador e Utensílios", category: "cozinha" },
   { slug: "faixa-elastica", label: "Faixas Elásticas de Treino", category: "saude-bem-estar" },
   { slug: "notas-adesivas", label: "Notas Adesivas (Post-it)", category: "escritorio" },
+  { slug: "esguicho-mangueira", label: "Esguicho e Hidropistola", category: "jardim-quintal" },
+  { slug: "purificador-agua", label: "Purificador de Água", category: "cozinha" },
+  { slug: "guia-coleira", label: "Guia e Coleira", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
