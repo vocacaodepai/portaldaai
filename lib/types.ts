@@ -342,6 +342,9 @@ export const productSubcategories = [
   { slug: "guia-coleira", label: "Guia e Coleira", category: "pet" },
   { slug: "ssd-interno", label: "SSD Interno NVMe", category: "informatica" },
   { slug: "porteiro-eletronico", label: "Porteiro Eletrônico e Interfone", category: "seguranca" },
+  { slug: "jogo-panelas", label: "Jogo de Panelas", category: "cozinha" },
+  { slug: "antimofo", label: "Antimofo e Desumidificador", category: "casa-utilidades" },
+  { slug: "racao-seca-cao", label: "Ração Seca para Cães", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
