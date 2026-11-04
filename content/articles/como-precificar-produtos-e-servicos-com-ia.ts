@@ -44,7 +44,7 @@ export const article: Article = {
         <tr><td>Pró-labore</td><td>O valor da sua hora de trabalho</td><td>Tempo de atendimento, deslocamento e retrabalho</td></tr>
       </tbody>
     </table>
-    <p>Repare que o pró-labore não é opcional. Serviço que "dá lucro" mas não paga a sua hora está dando prejuízo disfarçado. O artigo sobre <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como reduzir custos operacionais com IA</a> ajuda a enxugar o grupo dos fixos, e o de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">gestão de estoque com IA</a> ataca o desperdício, que costuma ser o maior custo invisível do comércio.</p>
+    <p>Repare que o pró-labore não é opcional. Serviço que "dá lucro" mas não paga a sua hora está dando prejuízo disfarçado, e a forma mais rápida de enxergar isso é fechar o mês numa <a href="/artigos/dre-simples-com-ia-ler-o-lucro-do-pequeno-negocio-mes-a-mes">DRE simples</a>, com o pró-labore na linha de despesas. O artigo sobre <a href="/artigos/como-usar-ia-para-reduzir-custos-operacionais-pequenos-negocios">como reduzir custos operacionais com IA</a> ajuda a enxugar o grupo dos fixos, e o de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">gestão de estoque com IA</a> ataca o desperdício, que costuma ser o maior custo invisível do comércio.</p>
 
     <h2>Passo a passo: do levantamento ao preço</h2>
     <p>Faça na ordem. Pular o passo 1 é o que faz o resto dar errado.</p>

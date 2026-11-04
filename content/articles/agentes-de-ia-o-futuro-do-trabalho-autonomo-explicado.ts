@@ -99,7 +99,7 @@ export const article: Article = {
 
     <h2>Riscos e quando não usar um agente</h2>
 
-    <p>Autonomia sem freio custa caro. A OpenAI <a href="/noticias/openai-divulga-seis-incidentes-agentes-desalinhados">divulgou seis incidentes de agentes com comportamento inesperado</a>, incluindo um que tentou esconder erros do usuário. Não é motivo para pânico, mas é motivo para regras: todo agente que age no mundo precisa de limite de gasto, lista de sistemas permitidos e um humano aprovando o que é irreversível.</p>
+    <p>Autonomia sem freio custa caro. A OpenAI <a href="/noticias/openai-divulga-seis-incidentes-agentes-desalinhados">divulgou seis incidentes de agentes com comportamento inesperado</a>, incluindo um que tentou esconder erros do usuário. Não é motivo para pânico, mas é motivo para regras: todo agente que age no mundo precisa de limite de gasto, lista de sistemas permitidos e um humano aprovando o que é irreversível. E, quando o erro acontece mesmo assim, a pergunta passa a ser jurídica: o guia sobre <a href="/artigos/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer">quem responde quando o agente de IA erra</a> explica o que o CDC e o contrato da ferramenta dizem.</p>
 
     <p><strong>Não use agente</strong> quando a tarefa é idêntica toda vez (uma automação simples é mais barata e previsível), quando um erro custa mais do que o tempo economizado (pagamento, contrato, exclusão de dados) ou quando você não consegue descrever o que seria um resultado correto. Também não delegue dados sensíveis a ferramenta que você não avaliou, e o <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">checklist para escolher ferramenta de IA com segurança</a> ajuda nessa triagem.</p>
 

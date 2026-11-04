@@ -136,7 +136,7 @@ Processo: [descreva aqui, etapa por etapa, com o volume mensal de cada uma]</cod
 
     <div class="callout-box callout-warn">
       <span class="callout-label">Atenção</span>
-      <p>Agente que executa ação precisa de um freio: limite de gasto, lista de sites permitidos e aprovação humana antes de qualquer pagamento ou envio em massa. Sem isso, um erro de interpretação vira prejuízo real.</p>
+      <p>Agente que executa ação precisa de um freio: limite de gasto, lista de sites permitidos e aprovação humana antes de qualquer pagamento ou envio em massa. Sem isso, um erro de interpretação vira prejuízo real, e diante do cliente quem responde costuma ser a sua empresa, como mostra o guia sobre <a href="/artigos/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer">quando o agente de IA erra e o que diz o CDC</a>.</p>
     </div>
 
     <h2>Checklist antes de decidir</h2>

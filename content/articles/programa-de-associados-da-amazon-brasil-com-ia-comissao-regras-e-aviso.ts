@@ -11,7 +11,8 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "negocios-online",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-04",
+  readTime: 8,
   imageQuery: "person laptop shopping packages desk",
   seed: 617,
   kind: "guia",
@@ -50,6 +51,24 @@ export const article: Article = {
     </table>
 
     <p>Um exemplo de aritmética, sem promessa de renda: se uma pessoa compra um produto de cozinha de R$ 300 pelo seu link, a comissão de 8% é de R$ 24. Já uma compra de R$ 200 em beleza rende R$ 26 a 13%. Isso depende de alguém clicar, de a compra ser qualificada e de o item não ser devolvido, então trate os números como ilustração do cálculo, não como previsão do que você vai ganhar.</p>
+
+    <h3>Comissões especiais: valor fixo por cadastro</h3>
+
+    <p>Além do percentual sobre produtos, a mesma página oficial lista valores fixos em reais quando alguém se cadastra num serviço da Amazon pelo seu link. Na consulta de 04/11/2026, a tabela trazia estes eventos, e a própria página informa que eventos bônus não estão disponíveis no Brasil:</p>
+
+    <table>
+      <thead><tr><th>Serviço</th><th>Ação do cliente</th><th>Valor por evento</th></tr></thead>
+      <tbody>
+        <tr><td>Amazon Prime e Prime Video</td><td>Teste grátis de 30 dias (novo assinante)</td><td>R$ 9,00</td></tr>
+        <tr><td>Kindle Unlimited</td><td>Teste grátis de 30 dias (novo assinante)</td><td>R$ 15,00</td></tr>
+        <tr><td>Amazon Music Unlimited</td><td>Teste grátis de 30 dias (novo assinante)</td><td>R$ 10,00</td></tr>
+        <tr><td>Prime Video Channels</td><td>Teste grátis de 7 dias ou assinatura paga</td><td>R$ 5,00</td></tr>
+        <tr><td>Lista do Bebê</td><td>Registro completo ou primeira compra de quem se registrou</td><td>R$ 6,00</td></tr>
+        <tr><td>Cartão Amazon</td><td>Assinatura do cartão</td><td>R$ 30,00</td></tr>
+      </tbody>
+    </table>
+
+    <p>Na prática, isso muda a estratégia de quem escreve sobre leitura: um texto sobre Kindle que leve alguém a testar o Kindle Unlimited rende o valor fixo do teste, mesmo sem compra de produto. Quem quer explorar esse nicho com livro próprio pode ler sobre <a href="/artigos/publicar-livro-na-amazon-kdp-com-ia-regras-e-ganhos">publicar livro na Amazon KDP com IA</a>.</p>
 
     <h2>Quais regras do contrato você não pode quebrar?</h2>
 

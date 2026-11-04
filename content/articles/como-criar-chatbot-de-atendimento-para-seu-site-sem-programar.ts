@@ -55,7 +55,7 @@ export const article: Article = {
 
     <h2>Passo a passo: do FAQ ao chatbot no ar</h2>
     <h3>1. Monte a base de conhecimento</h3>
-    <p>Liste as 15 a 20 perguntas que mais chegam por WhatsApp, Instagram e e-mail. Escreva cada resposta como você falaria com o cliente, em duas ou três frases, com valores e prazos reais. Esse documento é o cérebro do robô: se a resposta estiver vaga ali, o chatbot vai responder vago. Um prompt no ChatGPT, Claude ou Gemini ajuda a organizar o material bruto:</p>
+    <p>Liste as 15 a 20 perguntas que mais chegam por WhatsApp, Instagram e e-mail. Escreva cada resposta como você falaria com o cliente, em duas ou três frases, com valores e prazos reais. Esse documento é o cérebro do robô: se a resposta estiver vaga ali, o chatbot vai responder vago. Se você monta esse documento para outras empresas, o guia de <a href="/artigos/chatbot-de-faq-para-negocio-local-como-servico-escopo-preco-e-manutencao">chatbot de FAQ como serviço</a> mostra como cobrar a implantação e a atualização mensal. Um prompt no ChatGPT, Claude ou Gemini ajuda a organizar o material bruto:</p>
     <pre><code>Vou colar abaixo as mensagens que meus clientes mandam com mais frequência. Agrupe em perguntas únicas, escreva uma resposta curta e direta para cada uma, em português do Brasil, com tom simpático e sem enrolação. Onde faltar informação (preço, prazo, endereço), deixe entre colchetes para eu preencher.
 
 Mensagens:

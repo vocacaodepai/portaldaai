@@ -53,7 +53,7 @@ export const article: Article = {
 
     <p>Uma lista útil tem poucas colunas: nome, telefone, data e origem do opt-in, interesse principal e data da última compra. Com isso você manda a mensagem certa para a pessoa certa. A IA ajuda a organizar uma planilha bagunçada, desde que você tire do arquivo o que é sensível, como CPF e endereço completo, antes de colar em qualquer assistente.</p>
 
-    <p>Divida em três grupos simples: clientes recentes (últimos 60 dias), clientes antigos (mais de 180 dias sem comprar) e interessados que ainda não compraram. Cada grupo recebe um tipo de mensagem diferente. O artigo de <a href="/artigos/como-usar-ia-para-fidelizar-clientes-programa-de-recompensas">fidelização com IA</a> traz ideias de recompensa, e o de <a href="/artigos/programa-de-indicacao-de-clientes-com-ia-pequeno-negocio">programa de indicação</a> mostra como transformar bons clientes em canal de vendas.</p>
+    <p>Divida em três grupos simples: clientes recentes (últimos 60 dias), clientes antigos (mais de 180 dias sem comprar) e interessados que ainda não compraram. Cada grupo recebe um tipo de mensagem diferente, e quem responder à campanha passa para a conversa individual, onde vale seguir um <a href="/artigos/roteiro-de-vendas-no-whatsapp-abordagem-objecoes-e-fechamento-com-ia">roteiro de vendas no WhatsApp</a> com proposta curta e um próximo passo só. O artigo de <a href="/artigos/como-usar-ia-para-fidelizar-clientes-programa-de-recompensas">fidelização com IA</a> traz ideias de recompensa, e o de <a href="/artigos/programa-de-indicacao-de-clientes-com-ia-pequeno-negocio">programa de indicação</a> mostra como transformar bons clientes em canal de vendas.</p>
 
     <h2>Escreva mensagens com IA que parecem de gente</h2>
 

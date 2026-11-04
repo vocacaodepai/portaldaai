@@ -24,7 +24,7 @@ export const article: Article = {
   content: `
     <p>Para abrir uma loja na Amazon Brasil, você escolhe entre o plano Individual, sem mensalidade e com R$ 2,00 por produto vendido, e o plano Profissional, com o primeiro ano de mensalidade grátis e R$ 19,00 por mês a partir do 13º mês. Em ambos há comissão por categoria. Os valores abaixo foram conferidos nas páginas do programa de vendas da Amazon em 20/10/2026 e podem mudar.</p>
 
-    <p>Vender na Amazon atrai porque o comprador já está lá, mas a conta aperta rápido: comissão, tarifa por item, frete, imposto e logística comem a margem de quem vende produto barato. Este guia mostra como cada peça funciona, como calcular se vale a pena e onde a IA ajuda de verdade, sem promessa de ganho. Se a sua dúvida é comparar marketplaces, veja antes o guia de <a href="/artigos/vender-na-shopee-com-ia-taxas-margem-e-anuncios">vender na Shopee com IA</a>.</p>
+    <p>Vender na Amazon atrai porque o comprador já está lá, mas a conta aperta rápido: comissão, tarifa por item, frete, imposto e logística comem a margem de quem vende produto barato. Este guia mostra como cada peça funciona, como calcular se vale a pena e onde a IA ajuda de verdade, sem promessa de ganho. Se a sua dúvida é comparar marketplaces, veja antes o guia de <a href="/artigos/vender-na-shopee-com-ia-taxas-margem-e-anuncios">vender na Shopee com IA</a>. E se a ideia é ganhar com a Amazon sem estoque, só indicando produtos, o caminho é outro: o <a href="/artigos/programa-de-associados-da-amazon-brasil-com-ia-comissao-regras-e-aviso">Programa de Associados da Amazon Brasil</a>, que paga comissão por categoria.</p>
 
     <h2>Plano Individual ou Profissional: qual escolher</h2>
 

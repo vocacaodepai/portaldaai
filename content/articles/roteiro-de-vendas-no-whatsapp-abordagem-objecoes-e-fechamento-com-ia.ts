@@ -11,6 +11,7 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "vendas-e-marketing",
   date: "2026-10-24",
+  updated: "2026-11-04",
   readTime: 8,
   imageQuery: "small business owner phone sales chat",
   seed: 629,
@@ -91,6 +92,8 @@ Cada pergunta deve caber em uma linha e não pode soar como formulário.</code><
     <pre><code>Escreva 3 versões curtas (até 3 linhas) de resposta no WhatsApp para a objeção "está caro",
 para um cliente de [tipo de negócio]. Tom: educado, sem pressão, sem inventar desconto.
 Cada versão deve terminar com uma pergunta que ajude a entender o que o cliente compara.</code></pre>
+
+    <p>Quando a objeção vem com irritação, em caixa alta ou com ameaça de Procon, o roteiro muda: primeiro escuta e solução, depois venda. O guia de <a href="/artigos/cliente-irritado-como-responder-com-ia-escuta-solucao-e-limites-do-cdc">como responder cliente irritado com IA</a> traz esse passo a passo. E se as mesmas dúvidas se repetem todo dia, vale deixar as respostas básicas no automático, como mostra o guia de <a href="/artigos/como-automatizar-atendimento-no-whatsapp-com-ia">automatizar atendimento no WhatsApp com IA</a>, e guardar o seu tempo para as conversas que estão perto de fechar.</p>
 
     <h2>Etapa 5: fechamento com um próximo passo só</h2>
 

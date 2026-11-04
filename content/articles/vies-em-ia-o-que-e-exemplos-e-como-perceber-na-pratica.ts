@@ -64,7 +64,7 @@ export const article: Article = {
 
     <h3>Respostas de assistentes</h3>
 
-    <p>Ao pedir conselhos, resumos ou textos, a IA pode apresentar uma visão como se fosse a única. Isso é comum em temas sensíveis, como política, religião e saúde. No caso de saúde, leia <a href="/artigos/perguntar-sintomas-e-exames-para-ia-o-que-pode-e-o-que-nao-pode">o que se pode e não se pode perguntar à IA</a>.</p>
+    <p>Ao pedir conselhos, resumos ou textos, a IA pode apresentar uma visão como se fosse a única. Isso é comum em temas sensíveis, como política, religião e saúde. Um estudo com quase 500 disputas eleitorais dos EUA mostrou o efeito na prática: obrigados a escolher, <a href="/noticias/ia-recomenda-candidatos-grok-republicano-gpt-democrata-estudo">o Grok indicou republicanos e o GPT-6.1 Sol, democratas</a>, cada um mantendo o lado mesmo em distrito adversário. No caso de saúde, leia <a href="/artigos/perguntar-sintomas-e-exames-para-ia-o-que-pode-e-o-que-nao-pode">o que se pode e não se pode perguntar à IA</a>.</p>
 
     <h2>Teste de troca de nomes: como perceber na prática</h2>
 

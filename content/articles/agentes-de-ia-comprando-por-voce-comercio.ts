@@ -108,7 +108,7 @@ export const article: Article = {
 
     <p><strong>Comprar avaliação.</strong> Padrões artificiais são fáceis de detectar por software e derrubam a loja do filtro de reputação.</p>
 
-    <p><strong>Ligar o agente sem teto de gasto.</strong> Do lado do consumidor, é o erro que mais custa. Limite baixo primeiro, confiança depois.</p>
+    <p><strong>Ligar o agente sem teto de gasto.</strong> Do lado do consumidor, é o erro que mais custa. Limite baixo primeiro, confiança depois. Se a compra errada já aconteceu, o texto sobre <a href="/artigos/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer">quem responde quando o agente de IA erra</a> mostra o que o CDC prevê e por onde registrar a reclamação.</p>
 
     <p>E quando não delegar: presentes, roupa que depende de caimento, decoração, qualquer compra acima do que você toparia perder por um erro de interpretação e qualquer loja que peça sua senha em vez de um pagamento tokenizado. Nesses casos, use o agente para pesquisar e comparar, e clique você mesmo. Esse é o mesmo princípio que faz <a href="/artigos/como-times-pequenos-competem-com-grandes-empresas-usando-ia">times pequenos competirem com grandes empresas usando IA</a>: automatizar o que é repetitivo e manter a mão humana onde há julgamento.</p>
 

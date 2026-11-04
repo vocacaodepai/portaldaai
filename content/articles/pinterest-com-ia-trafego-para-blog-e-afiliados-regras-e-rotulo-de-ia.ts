@@ -97,7 +97,7 @@ export const article: Article = {
 
     <h2>Transparência em links de afiliado</h2>
 
-    <p>Se a página de destino tem links de afiliado, avise de forma visível, no começo do texto, que você pode ganhar comissão. É boa prática, gera confiança e ajuda a cumprir regras de publicidade. Evite Pins que escondam que o destino é uma página de vendas, e nunca invente avaliações ou resultados. O guia de <a href="/artigos/como-vender-artes-e-fotos-criadas-com-ia-generativa">vender artes e fotos criadas com IA</a> traz cuidados parecidos para quem vende imagens.</p>
+    <p>Se a página de destino tem links de afiliado, avise de forma visível, no começo do texto, que você pode ganhar comissão. Alguns programas exigem uma frase específica: o <a href="/artigos/programa-de-associados-da-amazon-brasil-com-ia-comissao-regras-e-aviso">Programa de Associados da Amazon Brasil</a>, por exemplo, pede um aviso padrão em destaque. É boa prática, gera confiança e ajuda a cumprir regras de publicidade. Evite Pins que escondam que o destino é uma página de vendas, e nunca invente avaliações ou resultados. O guia de <a href="/artigos/como-vender-artes-e-fotos-criadas-com-ia-generativa">vender artes e fotos criadas com IA</a> traz cuidados parecidos para quem vende imagens.</p>
 
     <p>O Pinterest também testa recursos de IA do lado do usuário. A notícia sobre <a href="/noticias/pinterest-beauty-guides-ia-cabelo-salao">guias de beleza do Pinterest com IA</a> mostra como a plataforma está usando essa tecnologia, o que pode mudar o que funciona na busca.</p>
 
