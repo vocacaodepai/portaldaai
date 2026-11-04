@@ -11,7 +11,8 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "agentes-de-ia",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-04",
+  readTime: 9,
   imageQuery: "robot hand signing contract desk",
   coverImage: {
     url: "/images/covers/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer.webp",
@@ -87,7 +88,7 @@ export const article: Article = {
 
     <h2>Como limitar o que o agente pode fazer sozinho</h2>
 
-    <p>A regra de ouro é a mesma de qualquer funcionário novo: autonomia cresce com a confiança. O <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer">AI Risk Management Framework do NIST</a>, publicado em 26/01/2023 e de uso voluntário (conferido em 24/10/2026), é um bom ponto de partida para pensar em risco de forma organizada, mesmo para um negócio pequeno. Traduzido para o dia a dia, vira uma escada de permissões:</p>
+    <p>A regra de ouro é a mesma de qualquer funcionário novo: autonomia cresce com a confiança. O <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer">AI Risk Management Framework do NIST</a>, publicado em 26/01/2023 e de uso voluntário (conferido em 24/10/2026), é um bom ponto de partida para pensar em risco de forma organizada, mesmo para um negócio pequeno. Traduzido para o dia a dia, vira uma escada de permissões, que o guia de <a href="/artigos/permissoes-de-agentes-de-ia-o-que-liberar-o-que-travar-e-quando-pedir-aprovacao">permissões de agentes de IA</a> detalha ferramenta por ferramenta:</p>
 
     <ol>
       <li><strong>Só ler:</strong> o agente consulta agenda, estoque e tabela, sem alterar nada.</li>
@@ -109,7 +110,7 @@ Tabela: [cole aqui]</code></pre>
 
     <p>Guardar o histórico é a sua melhor defesa e também uma obrigação de boa prática. Configure o agente para salvar a conversa, a decisão e o horário de cada ação, e anote quem aprovou. Se o cliente pedir, você consegue mostrar o que aconteceu, e se o erro foi do agente, dá para corrigir a regra que falhou.</p>
 
-    <p>Também avise o cliente de que ele está falando com uma IA, o que reforça a informação adequada exigida pelo artigo 6º, inciso III, e a boa-fé. Quando houver dados pessoais, entram as regras de privacidade: veja <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber</a>, o <a href="/artigos/lgpd-para-pequeno-negocio-que-usa-ia-checklist-de-dados-de-clientes">checklist de LGPD para pequeno negócio</a> e, para decisões que afetam o cliente, o direito de <a href="/artigos/decisao-automatizada-lgpd-como-pedir-revisao-de-uma-ia">pedir revisão de decisão automatizada</a>. Dentro da empresa, uma <a href="/artigos/politica-de-uso-de-ia-na-pequena-empresa-regras-simples-para-a-equipe">política de uso de IA</a> deixa claro quem pode configurar e aprovar o quê.</p>
+    <p>Também avise o cliente de que ele está falando com uma IA, o que reforça a informação adequada exigida pelo artigo 6º, inciso III, e a boa-fé. Quando houver dados pessoais, entram as regras de privacidade: veja <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber</a>, o <a href="/artigos/lgpd-para-pequeno-negocio-que-usa-ia-checklist-de-dados-de-clientes">checklist de LGPD para pequeno negócio</a> e, para decisões que afetam o cliente, o direito de <a href="/artigos/decisao-automatizada-lgpd-como-pedir-revisao-de-uma-ia">pedir revisão de decisão automatizada</a>. Dentro da empresa, uma <a href="/artigos/politica-de-uso-de-ia-na-pequena-empresa-regras-simples-para-a-equipe">política de uso de IA</a> deixa claro quem pode configurar e aprovar o quê. Se o agente faz papel de SAC, confira também o resumo do <a href="/artigos/decreto-13135-de-2026-novas-regras-do-sac-e-o-que-copiar-no-atendimento-da-sua-loja">novo decreto do SAC (13.135/2026)</a>: ele permite IA no SAC das empresas reguladas desde que o cliente consiga falar com uma pessoa, uma boa prática que a pequena loja pode copiar.</p>
 
     <h2>Erros comuns de quem põe um agente para atender</h2>
 

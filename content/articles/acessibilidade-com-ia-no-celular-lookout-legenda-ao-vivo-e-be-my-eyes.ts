@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-04",
+  readTime: 8,
   imageQuery: "elderly hands smartphone camera reading label",
   seed: 636,
   kind: "guia",
@@ -57,8 +58,8 @@ export const article: Article = {
     <p>Para o dia a dia de quem recebe muitos áudios, o guia de <a href="/artigos/transcricao-de-audio-no-whatsapp-como-ativar-e-quando-usar-ia">transcrição de áudio no WhatsApp</a> mostra outra forma de ler o que foi falado, e o de <a href="/artigos/gravar-aula-e-virar-resumo-com-ia-transcricao-revisao-e-etica">gravar aula e virar resumo</a> serve para quem estuda com perda auditiva.</p>
 
     <h2>Be My Eyes: voluntários e IA por vídeo</h2>
-    <p>O <a href="https://www.bemyeyes.com/" target="_blank" rel="noopener noreferrer">Be My Eyes</a> conecta pessoas cegas ou com baixa visão a voluntários e empresas pelo mundo, por vídeo ao vivo e IA. Segundo o site, as chamadas são gratuitas e ilimitadas, estão disponíveis dia e noite, são 100% anônimas (o voluntário só ouve sua voz e vê o que você mostra pela câmera) e o serviço atende mais de 150 países.</p>
-    <p>A vantagem é a conversa. Em vez de a IA tentar adivinhar, um voluntário real pode dizer "essa é a lata de tomate, a de milho está ao lado". A desvantagem é que a ajuda de voluntários depende de alguém disponível no seu idioma e horário, e o site não promete tempo de resposta. Vale testar com calma, em casa, antes de depender dele na rua.</p>
+    <p>O <a href="https://www.bemyeyes.com/" target="_blank" rel="noopener noreferrer">Be My Eyes</a> conecta pessoas cegas ou com baixa visão a voluntários e empresas pelo mundo, por vídeo ao vivo e IA. Segundo o site, as chamadas são gratuitas e ilimitadas, estão disponíveis dia e noite, são 100% anônimas (o voluntário só ouve sua voz e vê o que você mostra pela câmera) e o serviço atende mais de 150 países. Os contadores da página inicial mostravam, na consulta de 04/11/2026, mais de 11,5 milhões de voluntários, mais de 1,1 milhão de usuários cegos ou com baixa visão e mais de 180 idiomas, e o app aparece tanto na App Store quanto na Google Play, então serve também para quem usa iPhone.</p>
+    <p>O site também apresenta o Be My AI, a parte do serviço que responde com inteligência artificial em vez de um voluntário: útil quando não há ninguém disponível ou quando a pessoa prefere não mostrar a casa para um desconhecido. A vantagem do voluntário humano é a conversa. Em vez de a IA tentar adivinhar, um voluntário real pode dizer "essa é a lata de tomate, a de milho está ao lado". A desvantagem é que a ajuda de voluntários depende de alguém disponível no seu idioma e horário, e o site não promete tempo de resposta. Vale testar com calma, em casa, antes de depender dele na rua.</p>
 
     <h2>Exemplo: dona Marlene, 72 anos, e o remédio da pressão</h2>
     <p>Imagine dona Marlene (nome fictício), que tem catarata e mora sozinha. A filha configura o celular Android num domingo, em uns 30 minutos: instala o Lookout, deixa o modo Texto como favorito, liga a Legenda instantânea para os vídeos que a neta manda e cadastra o Be My Eyes. Na segunda, dona Marlene aponta a câmera para a caixa do remédio e ouve o nome e a dosagem. Se o texto sair confuso, chama um voluntário.</p>
@@ -104,7 +105,7 @@ export const article: Article = {
     {
       question: "Esses recursos funcionam em iPhone?",
       answer:
-        "As páginas que consultei tratam do Android: o Lookout é um app para Android e a Legenda instantânea é um recurso do sistema Android. O Be My Eyes é um serviço próprio, e a disponibilidade em cada loja de aplicativos deve ser conferida lá. O iPhone tem recursos de acessibilidade próprios, que não verifiquei aqui.",
+        "Em parte. O Lookout é um app só para Android e a Legenda instantânea é um recurso do sistema Android. Já o Be My Eyes tem app na App Store e na Google Play, segundo o site oficial, então funciona no iPhone. O iPhone tem ainda recursos de acessibilidade próprios, como a Lupa, que não foram avaliados neste guia.",
     },
     {
       question: "Posso usar essas ferramentas para ler remédio?",

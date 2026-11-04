@@ -11,6 +11,7 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "financas-e-precificacao",
   date: "2026-10-24",
+  updated: "2026-11-04",
   readTime: 7,
   imageQuery: "small business owner calculator notebook",
   coverImage: {
@@ -109,7 +110,8 @@ se os dados não mostrarem; liste perguntas que eu deveria responder.</code></pr
     <ul>
       <li><strong>Confundir DRE com caixa.</strong> Venda a prazo entra na DRE quando acontece, não quando o dinheiro chega.</li>
       <li><strong>Jogar tudo em despesas.</strong> Sem separar custo de despesa, a margem bruta perde o sentido.</li>
-      <li><strong>Esquecer a sua retirada.</strong> Se você trabalha no negócio, o seu salário precisa estar nas despesas, senão o lucro parece maior do que é.</li>
+      <li><strong>Esquecer a sua retirada.</strong> Se você trabalha no negócio, o seu salário precisa estar nas despesas, senão o lucro parece maior do que é. O guia de <a href="/artigos/retirada-fixa-do-dono-pro-labore-e-conta-separada-no-pequeno-negocio">retirada fixa do dono e conta separada</a> ajuda a definir esse valor.</li>
+      <li><strong>Esquecer as taxas da venda.</strong> Taxa da maquininha, antecipação e comissão de marketplace saem da receita antes da margem bruta; o texto sobre <a href="/artigos/taxa-da-maquininha-no-preco-mdr-mensalidade-e-antecipacao-com-conta-simples-e-ia">taxa da maquininha no preço</a> mostra como separar cada uma.</li>
       <li><strong>Misturar meses.</strong> Compre estoque em setembro e venda em outubro, e o custo precisa acompanhar a venda, não a compra.</li>
       <li><strong>Confiar na conta da IA sem conferir.</strong> Peça o passo a passo e refaça os totais na planilha.</li>
       <li><strong>Usar a DRE simples como declaração oficial.</strong> A própria calculadora avisa que ela não substitui a DRE feita pelo contador.</li>

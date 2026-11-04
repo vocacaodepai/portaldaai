@@ -43,7 +43,7 @@ export const article: Article = {
         <tr><td>Software por assinatura</td><td>Comissão recorrente ou única</td><td>Regras mudam, confira os termos do programa</td></tr>
       </tbody>
     </table>
-    <p>Os percentuais variam por programa e mudam com o tempo. Leia os termos oficiais antes de se cadastrar e anote a data em que conferiu.</p>
+    <p>Os percentuais variam por programa e mudam com o tempo. Leia os termos oficiais antes de se cadastrar e anote a data em que conferiu. Para um exemplo concreto de tabela por categoria, aviso obrigatório e regras de contrato, o guia do <a href="/artigos/programa-de-associados-da-amazon-brasil-com-ia-comissao-regras-e-aviso">Programa de Associados da Amazon Brasil</a> destrincha um dos programas mais usados por quem começa.</p>
 
     <h2>Passo 1: escolha um nicho que você consiga defender</h2>
     <p>Nicho é o recorte de público e assunto. "Tecnologia" é amplo demais. "Ferramentas de IA para quem trabalha com contabilidade" é um começo. Escolha algo em que você tenha experiência, curiosidade ou acesso a pessoas, porque você vai escrever sobre isso por meses.</p>

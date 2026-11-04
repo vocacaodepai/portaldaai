@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "automacao-e-agentes",
   date: "2026-10-24",
+  updated: "2026-11-04",
   readTime: 8,
   imageQuery: "shop owner smartphone customer chat",
   seed: 628,
@@ -86,6 +87,8 @@ Anotações: [cole aqui]</code></pre>
     <p>A manutenção mensal cobre o que muda no negócio: novo preço, novo horário, promoção, feriado. Se você reserva 2 horas por mês, uma mensalidade de R$ 120 a R$ 180 cobre o tempo e o suporte, e deixa claro que o bot não é um produto "entregue e esquecido". A lógica de contrato recorrente está detalhada em <a href="/artigos/retainer-de-automacao-mensalidade-suporte-e-contrato-para-freelancer">retainer de automação</a>, e a conta de preço por hora em <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">como precificar serviços com IA</a>.</p>
 
     <p>Custos da ferramenta (assinatura do bot, número do WhatsApp) devem aparecer separados, pagos pelo cliente, com o preço atual conferido na página oficial no dia da proposta. Assim você não absorve reajuste de plano e o dono sabe de onde vem cada cobrança.</p>
+
+    <p>Para ter uma ideia da ordem de grandeza, na consulta de 04/11/2026 a <a href="https://www.chatbase.co/pricing" target="_blank" rel="noopener noreferrer">página de preços do Chatbase</a> listava o plano Hobby a US$ 40 por mês (US$ 32 no pagamento anual), com 700 créditos de mensagem e 1 agente, sem plano gratuito, só teste de 7 dias. Já a <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer">página de preços do Tidio</a> mostrava um plano Free com 50 conversas faturáveis por mês e 50 conversas com o agente de IA Lyro. Para uma padaria que recebe poucas dúvidas por dia, um plano gratuito pode bastar no começo; para uma clínica com centenas de mensagens, o custo da ferramenta entra na proposta como linha separada, cobrada em dólar no cartão do cliente, com câmbio e IOF.</p>
 
     <h2>Contrato mínimo e cuidados com dados dos clientes</h2>
 

@@ -63,7 +63,7 @@ export const article: Article = {
 
     <h2>Como usar IA para trabalhar melhor</h2>
 
-    <p>A IA entra em dois lugares: no seu preparo e no material que o cliente leva para casa. Guias curtos, com letra grande e passos numerados, reduzem as ligações depois da visita. Nunca cole dados pessoais do cliente no assistente.</p>
+    <p>A IA entra em dois lugares: no seu preparo e no material que o cliente leva para casa. Guias curtos, com letra grande e passos numerados, reduzem as ligações depois da visita. Nunca cole dados pessoais do cliente no assistente. Para clientes com catarata, baixa visão ou perda auditiva, um item que costuma fazer diferença é configurar os recursos do guia de <a href="/artigos/acessibilidade-com-ia-no-celular-lookout-legenda-ao-vivo-e-be-my-eyes">acessibilidade com IA no celular</a>, como a leitura de rótulos pela câmera e a legenda automática dos áudios.</p>
 
     <pre><code>Crie um guia de uma página, com letra grande e frases curtas, ensinando uma pessoa de 70 anos a enviar um áudio no WhatsApp. Use passos numerados, no máximo 6, e um aviso final sobre não clicar em links de desconhecidos.</code></pre>
 
