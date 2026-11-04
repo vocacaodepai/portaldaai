@@ -344,6 +344,9 @@ export const productSubcategories = [
   { slug: "porteiro-eletronico", label: "Porteiro Eletrônico e Interfone", category: "seguranca" },
   { slug: "marca-texto", label: "Marca-texto", category: "escritorio" },
   { slug: "glicosimetro", label: "Medidor de Glicose", category: "saude-bem-estar" },
+  { slug: "jogo-panelas", label: "Jogo de Panelas", category: "cozinha" },
+  { slug: "antimofo", label: "Antimofo e Desumidificador", category: "casa-utilidades" },
+  { slug: "racao-seca-cao", label: "Ração Seca para Cães", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
