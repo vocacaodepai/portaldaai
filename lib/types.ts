@@ -350,6 +350,9 @@ export const productSubcategories = [
   { slug: "frigobar", label: "Frigobar", category: "cozinha" },
   { slug: "maquina-costura", label: "Máquina de Costura", category: "casa-utilidades" },
   { slug: "depilador", label: "Depilador Elétrico", category: "saude-bem-estar" },
+  { slug: "chuveiro-eletrico", label: "Chuveiro Elétrico", category: "casa-utilidades" },
+  { slug: "fralda-descartavel", label: "Fralda Descartável", category: "saude-bem-estar" },
+  { slug: "racao-seca-gato", label: "Ração Seca para Gatos", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
