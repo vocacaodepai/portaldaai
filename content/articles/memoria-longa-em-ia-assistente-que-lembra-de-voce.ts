@@ -80,6 +80,7 @@ export const article: Article = {
 
     <ol>
       <li>No ChatGPT, acesse Configurações &gt; Personalização &gt; Gerenciar memória para ver e editar o que está salvo.</li>
+      <li>No Gemini do Gmail, Docs e Drive, as regras salvas ficam na aba Personalização, e o guia de <a href="/artigos/instrucoes-personalizadas-do-gemini-no-workspace-onde-valem-e-como-gerenciar">instruções personalizadas do Gemini no Workspace</a> mostra como desligar ou apagar cada uma.</li>
       <li>No Gemini, revise o histórico de atividade vinculado à conta Google em myactivity.google.com.</li>
       <li>No Claude, confira a memória por projeto dentro de cada espaço de trabalho, já que não há um painel único central.</li>
       <li>Apague periodicamente itens que não fazem mais sentido, como projetos encerrados ou dados sensíveis informados por engano.</li>

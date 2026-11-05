@@ -2,23 +2,24 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "instrucoes-personalizadas-do-gemini-no-workspace-onde-valem-e-como-gerenciar",
-  title: "Instruções personalizadas do Gemini no Workspace: onde valem",
-  seoTitle: "Instruções personalizadas do Gemini no Workspace",
+  title: "Instruções personalizadas do Gemini no Workspace: como usar",
+  seoTitle: "Instruções do Gemini no Workspace: salvar, editar e apagar",
   excerpt:
-    "Instruções personalizadas do Gemini no Workspace: onde valem no Gmail, Drive, Chat, Planilhas e Slides, como salvar, quem tem, limites e o que não está claro.",
+    "Instruções personalizadas do Gemini no Workspace: onde valem no Gmail, Drive, Chat, Planilhas e Slides, como salvar, desligar e apagar, quem tem e limites.",
   metaDescription:
-    "Veja como salvar instruções personalizadas do Gemini no Google Workspace, em quais apps valem, quem tem acesso, onde gerenciar e os limites informados.",
+    "Veja como salvar, desligar e apagar instruções personalizadas do Gemini no Google Workspace, em quais apps valem, quem tem acesso e o limite de 1.000 regras.",
   category: "ferramentas",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-05",
+  readTime: 10,
   imageQuery: "person typing laptop settings preferences",
   seed: 619,
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
     "As instruções personalizadas guardam seu estilo, tom e formato de resposta no Gemini, e desde 2 de setembro de 2026 valem também no Ask Gemini do Drive e do Chat e no painel lateral de Gmail, Planilhas e Slides, além do Docs.",
-    "Para salvar, basta pedir ao Gemini que guarde a instrução, e para ver o que foi salvo o caminho é menu, Configurações, Personalização, sem controle do administrador, segundo o Google.",
-    "O Google informou o limite de 1.000 instruções ativas por usuário no anúncio do Docs, e não detalha no aviso de setembro como editar ou apagar cada uma, então vale conferir na Central de Ajuda.",
+    "Para salvar, peça ao Gemini que guarde a regra ou use Ask Gemini, menu, Configurações, Personalização e Adicionar, sem controle do administrador, segundo o Google.",
+    "A Central de Ajuda confirma o limite de 1.000 instruções, uma chave para desligar todas sem apagar e a opção Excluir em cada uma, e no Google Chat tudo passa pelo comando /settings.",
   ],
   content: `
     <p>As instruções personalizadas do Gemini no Workspace são regras permanentes que você pede ao assistente para guardar, como "responda em tópicos" ou "use tom profissional e direto", e que ele passa a seguir sem você repetir em cada conversa. Segundo o <a href="https://workspaceupdates.googleblog.com/2026/09/custom-instructions-for-gemini-in-Workspace-now-available-in-more-apps.html" rel="noopener noreferrer" target="_blank">blog Workspace Updates</a> (verificado em 24/10/2026), o recurso nasceu no Docs e foi ampliado a partir de 2 de setembro de 2026 para outros apps.</p>
@@ -79,7 +80,25 @@ export const article: Article = {
       <li>Abra o menu (as três linhas), vá em Configurações e depois em Personalização para ver as instruções salvas.</li>
     </ol>
 
-    <p>O passo 5 segue o caminho informado pelo Google, que chama essa aba de Personalização e diz que todas as instruções salvas podem ser vistas e gerenciadas ali. O aviso não descreve como editar ou apagar uma instrução individual e remete à Central de Ajuda, no artigo chamado "Customize Gemini in Workspace's responses with your instructions". Se você precisar remover algo, procure essa página em vez de supor o caminho.</p>
+    <p>O passo 5 segue o caminho informado pelo Google. Na mesma aba Personalização também dá para criar a regra sem conversa: selecione Add, escreva a instrução e selecione Save (os nomes dos botões aqui e na tabela abaixo são os da versão em inglês da Central de Ajuda e podem aparecer traduzidos na sua tela). A exceção é o Ask Gemini no Google Chat, onde a instrução só pode ser adicionada pela própria conversa, com uma frase como "De agora em diante, use sempre frases curtas".</p>
+
+    <h2>Como desligar, editar e apagar instruções</h2>
+
+    <p>A <a href="https://support.google.com/a/users/answer/16943683" rel="noopener noreferrer" target="_blank">Central de Ajuda do Google Workspace</a> (consultada em 05/11/2026) detalha o que o aviso de setembro deixava em aberto. O caminho muda entre o Chat e os outros apps:</p>
+
+    <table>
+      <thead><tr><th>O que fazer</th><th>Docs, Drive, Gmail e Slides</th><th>Google Chat</th></tr></thead>
+      <tbody>
+        <tr><td>Abrir as configurações</td><td>Ask Gemini, menu no alto do painel, Configurações, Personalização</td><td>Ask Gemini e digitar /settings</td></tr>
+        <tr><td>Desligar todas sem apagar</td><td>Chave "Your instructions for Gemini in Workspace" no topo da aba</td><td>Chave "Have Gemini in Workspace use your instructions"</td></tr>
+        <tr><td>Apagar uma</td><td>Delete, ao lado da instrução</td><td>Edit instructions, marcar a instrução e Delete selected instructions</td></tr>
+        <tr><td>Apagar todas</td><td>Delete all, que só aparece com pelo menos 10 instruções</td><td>Marcar todas na tela de edição</td></tr>
+      </tbody>
+    </table>
+
+    <p>Dois cuidados. A exclusão é permanente, então copie a regra antes se achar que vai querer de volta. E desligar a chave é o melhor teste: o Gemini volta às respostas padrão, mas as instruções ficam guardadas para você religar depois. Para descobrir se uma resposta seguiu alguma regra salva, abra Fontes, abaixo da resposta, e procure "Personalization settings". A página não descreve um botão de editar texto nos apps fora do Chat, então, na prática, o jeito de mudar uma regra ali é apagar e criar de novo.</p>
+
+    <p>A Central de Ajuda também diz que as instruções são compartilhadas entre os produtos do Workspace (uma regra criada no Gmail vale no Docs e no Slides) e que elas não se sincronizam com as instruções do app Gemini. Ou seja, o que você configurou no app Gemini, fora do Workspace, é outra lista e precisa ser ajustado lá.</p>
 
     <h2>Três modelos de instrução para copiar</h2>
 
@@ -117,7 +136,7 @@ sugerir qualquer alteração.</code></pre>
       <li><strong>Escrever regras contraditórias.</strong> "Seja breve" e "explique em detalhes" na mesma lista confundem o resultado.</li>
       <li><strong>Colocar dados sensíveis na instrução.</strong> Ela é permanente e pode aparecer em muitos contextos.</li>
       <li><strong>Esperar que valha em todo lugar.</strong> O aviso lista superfícies específicas, e o app do Gemini tem seus próprios recursos de personalização.</li>
-      <li><strong>Esquecer o que salvou.</strong> Revise a aba Personalização de tempos em tempos para remover regras antigas.</li>
+      <li><strong>Esquecer o que salvou.</strong> Revise a aba Personalização de tempos em tempos e apague as regras antigas com Delete.</li>
       <li><strong>Achar que o administrador controla.</strong> O Google informa que não há controle de admin para o recurso, então a responsabilidade é de quem escreve.</li>
     </ul>
 
@@ -137,14 +156,14 @@ sugerir qualquer alteração.</code></pre>
         "Segundo o Google, no Gemini do Docs, desde maio de 2026, e, desde 2 de setembro de 2026, também no Ask Gemini do Drive, no Ask Gemini do Chat e no painel lateral do Gemini no Gmail, nas Planilhas e nos Slides. A liberação é gradual e pode levar até 15 dias.",
     },
     {
-      question: "Como ver as instruções que o Gemini salvou?",
+      question: "Como apagar as instruções que o Gemini salvou?",
       answer:
-        "O Google informa o caminho: abra o menu (as três linhas), vá em Configurações e depois em Personalização. Ali ficam as instruções salvas. O aviso não explica como editar ou apagar uma por uma e indica a Central de Ajuda para esses detalhes.",
+        "No Docs, Drive, Gmail e Slides, abra o Ask Gemini, vá no menu, Configurações e Personalização e use Delete ao lado de cada instrução, ou Delete all quando houver pelo menos 10. No Google Chat, digite /settings no Ask Gemini e escolha Edit instructions. A exclusão é permanente, e a chave no topo desliga todas sem apagar.",
     },
     {
       question: "Qual o limite de instruções?",
       answer:
-        "No anúncio do Docs, de maio de 2026, o Google diz que cada usuário pode ter até 1.000 instruções ativas. O aviso de setembro não repete o número para os outros apps, então trate o limite como confirmado para o Docs e confira a Central de Ajuda para as demais superfícies.",
+        "A Central de Ajuda do Google Workspace informa que cada pessoa pode adicionar até 1.000 instruções, e como elas são compartilhadas entre os apps do Workspace, o limite vale para a lista toda. A página não fala em limite de tamanho para cada instrução, então prefira regras curtas e fáceis de conferir.",
     },
     {
       question: "O administrador do Workspace controla esse recurso?",

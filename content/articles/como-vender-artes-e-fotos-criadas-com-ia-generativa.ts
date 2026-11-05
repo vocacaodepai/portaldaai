@@ -119,7 +119,7 @@ export const article: Article = {
       <li><strong>Rosto de pessoa real sem autorização.</strong> Retrato estilizado de cliente é encomenda; imagem de terceiro ou de famoso é problema. O artigo sobre <a href="/artigos/deepfakes-ia-identificar-conteudo-falso-proteger-reputacao">deepfakes e reputação</a> mostra por que isso pesa.</li>
       <li><strong>Marca, personagem ou logotipo de terceiros.</strong> "No estilo de" uma marca ou personagem protegido gera peça que você não pode vender.</li>
       <li><strong>Imitar artista vivo pelo nome.</strong> Além da questão ética, plataformas e clientes rejeitam, e o mercado é pequeno: sua reputação chega antes de você.</li>
-      <li><strong>Vender a primeira saída.</strong> Mão com seis dedos, texto ilegível e objeto duplicado entregam o descuido.</li>
+      <li><strong>Vender a primeira saída.</strong> Mão com seis dedos, texto ilegível e objeto duplicado entregam o descuido, e o texto sobre <a href="/artigos/como-a-ia-gera-imagens-do-ruido-ao-pixel-e-por-que-erra-maos-e-textos">por que a IA erra mãos e letras</a> mostra onde olhar primeiro.</li>
       <li><strong>Esconder o uso de IA quando o canal exige declarar.</strong> Bancos de imagem e marketplaces têm regras próprias; ler os termos leva vinte minutos e evita conta suspensa.</li>
       <li><strong>Prometer exclusividade sem poder garantir.</strong> Outra pessoa pode gerar algo parecido; venda o trabalho de composição e o acabamento, não a "arte única".</li>
     </ul>

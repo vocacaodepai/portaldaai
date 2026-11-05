@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "conceitos",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-05",
+  readTime: 11,
   imageQuery: "abstract colorful noise digital painting",
   seed: 620,
   kind: "guia",
@@ -41,6 +42,14 @@ export const article: Article = {
     <h2>Onde entra o seu texto?</h2>
 
     <p>Sozinho, o processo geraria uma imagem qualquer. O prompt entra como condição: o sistema transforma as suas palavras em números e usa esses números para guiar a limpeza do ruído em direção ao que você descreveu. O curso da Hugging Face apresenta o Stable Diffusion como um modelo que gera imagens a partir de descrições em texto, tratando a parte de condicionamento em unidades mais avançadas.</p>
+
+    <h3>Por dentro: espaço latente, passos e força do prompt</h3>
+
+    <p>O <a href="https://huggingface.co/blog/stable_diffusion" rel="noopener noreferrer" target="_blank">texto da Hugging Face sobre o Stable Diffusion</a> mostra as peças com números concretos. Em vez de trabalhar direto nos pixels, o modelo limpa o ruído numa versão comprimida da imagem, o chamado espaço latente: uma foto de 512 por 512 pixels vira uma grade de 64 por 64, o que reduz muito a memória e o cálculo. Três componentes fazem o trabalho: um codificador de texto (no Stable Diffusion, o do CLIP) transforma o prompt em números, uma rede chamada U-Net remove o ruído passo a passo guiada por esses números, e um decodificador (o VAE) converte o resultado final em imagem.</p>
+
+    <p>Dois ajustes explicam muito do que você vê nos aplicativos. O número de passos padrão citado é 50, e cortar para 15 piorou visivelmente a imagem do exemplo. A escala de orientação (guidance scale) controla o quanto a imagem obedece ao texto: valores entre 7 e 8,5 costumam funcionar, e valores altos demais seguem o prompt à risca, mas podem perder qualidade e variedade. Por fim, fixar a semente (seed) do ruído inicial faz o mesmo pedido, com as mesmas configurações, repetir a mesma imagem, algo parecido com o que o texto sobre <a href="/artigos/por-que-a-ia-responde-diferente-na-mesma-pergunta-aleatoriedade-e-como-controlar">por que a IA responde diferente na mesma pergunta</a> mostra para texto.</p>
+
+    <h3>O que isso muda no seu prompt</h3>
 
     <p>Na prática, isso significa que prompts melhores têm elementos claros: o que aparece, onde, em qual estilo e com qual luz. O guia de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">prompt engineering</a> traz a lógica geral, e o passo a passo de <a href="/artigos/como-criar-imagens-com-ia-guia-passo-a-passo">como criar imagens com IA</a> mostra o uso em ferramentas.</p>
 
@@ -111,6 +120,11 @@ sorrindo ao fundo, estilo fotografia documental, sem texto na imagem.</code></pr
       question: "O que é um modelo de difusão?",
       answer:
         "É um tipo de modelo treinado para criar imagens parecidas com as de treino. No treino, ele aprende a remover ruído adicionado em quantidades variadas. Na geração, parte de ruído puro e o limpa aos poucos, e como cada ajuste é pequeno, erros iniciais podem ser corrigidos nos passos seguintes.",
+    },
+    {
+      question: "Dá para gerar a mesma imagem de novo com IA?",
+      answer:
+        "Em ferramentas que deixam fixar a semente (seed), sim. A semente define o ruído inicial, e com o mesmo prompt, a mesma semente e as mesmas configurações, o Stable Diffusion repete a imagem. Em apps como Gemini e ChatGPT esse controle costuma ficar escondido, então o caminho é pedir ajustes sobre a imagem que você já gostou.",
     },
     {
       question: "Por que a IA erra mãos e letras?",

@@ -3,15 +3,16 @@ import type { Article } from "@/lib/types";
 export const article: Article = {
   slug: "fichamento-de-livro-com-ia-como-estudar-sem-copiar-e-sem-inventar",
   title: "Fichamento de livro com IA: estudar sem copiar nem inventar",
-  seoTitle: "Fichamento de livro com IA: passo a passo",
+  seoTitle: "Fichamento de livro com IA: passo a passo e modelo",
   excerpt:
     "Fichamento de livro com IA: veja como montar resumo, citações e dúvidas sem copiar trecho nem aceitar invenção, com prompts prontos e checagem simples.",
   metaDescription:
-    "Aprenda a fazer fichamento de livro com IA: tipos de ficha, prompts, como conferir citação página a página, uso do Gemini Notebook e cuidados com direitos autorais.",
+    "Como fazer fichamento de livro com IA: tipos de ficha, modelo pronto para copiar, prompts e como conferir cada citação na página antes de usar no trabalho.",
   category: "iniciantes",
   articleSubcategory: "estudos",
   date: "2026-10-24",
-  readTime: 8,
+  updated: "2026-11-05",
+  readTime: 11,
   imageQuery: "open book highlighter notes desk",
   seed: 631,
   kind: "guia",
@@ -85,6 +86,38 @@ Texto: [cole aqui]</code></pre>
     <pre><code>Com base no resumo abaixo, liste 5 pontos que um estudante iniciante costuma achar confusos
 e transforme cada um em uma pergunta que eu possa levar ao professor ou ao grupo de estudo.
 Resumo: [cole aqui]</code></pre>
+
+    <h2>Modelo de ficha pronto para copiar</h2>
+
+    <p>Ter um formato fixo evita a mistura entre o que o autor disse e o que você pensou. O modelo abaixo junta os cinco tipos de ficha numa página só, e você pode colar no Google Docs, no Word ou numa nota do celular. Os campos marcados com "você" são preenchidos por você, e os marcados com "IA + conferência" podem começar como rascunho da IA, desde que você confira no livro.</p>
+
+    <pre><code>FICHA DE LEITURA
+Obra: [autor, título, edição, editora, ano]  (você, copiando da ficha catalográfica)
+Capítulo e páginas lidas: [ex.: cap. 3, p. 45 a 70]  (você)
+Data da leitura: [dd/mm]  (você)
+
+1. Ideia central em uma frase  (você, antes de abrir a IA)
+2. Resumo em 5 a 8 tópicos  (IA + conferência)
+3. Citações diretas: "frase exata" (p. 00)  (você, copiando do livro)
+4. Conceitos-chave e definição com as minhas palavras  (IA + conferência)
+5. Meu comentário: concordo, discordo, ligo com outra leitura  (você)
+6. Dúvidas para levar à aula  (IA + você)</code></pre>
+
+    <p>O campo 1 é o mais importante e o que mais gente pula. Se você não consegue escrever a ideia central sem ajuda, ainda não leu o suficiente para fichar, e a IA vai só preencher o vazio com texto genérico. Já o campo 3 é o único que nunca deve sair da IA: a frase vem do livro, com a página ao lado.</p>
+
+    <h3>Prompt para conferir a ficha antes de entregar</h3>
+
+    <p>Depois de preencher, dá para usar a IA como revisora, e não como autora. Cole a ficha e o trecho do livro e peça uma checagem de coerência:</p>
+
+    <pre><code>Abaixo estão minha ficha de leitura e o trecho original do livro.
+Compare as duas e aponte: (1) tópicos do resumo que não aparecem no trecho,
+(2) citações da ficha que não batem palavra por palavra com o trecho,
+(3) conceitos que eu defini de forma diferente do autor.
+Não reescreva a ficha, só liste os problemas.
+Ficha: [cole aqui]
+Trecho: [cole aqui]</code></pre>
+
+    <p>Esse pedido funciona porque limita a IA a comparar dois textos que estão na tela, tarefa em que ela erra bem menos do que quando precisa lembrar de um livro. Mesmo assim, a palavra final é sua: se a IA disser que uma citação está certa, abra a página e confira, como explica o guia sobre <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">como checar se a resposta da IA está certa</a>.</p>
 
     <h2>Exemplo: fichando um capítulo de 25 páginas em 60 minutos</h2>
 

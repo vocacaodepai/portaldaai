@@ -80,7 +80,7 @@ export const article: Article = {
 
     <h2>Onde a IA ajuda a economizar</h2>
 
-    <p>Depois da tabela, peça ideias ordenadas pelo ganho em reais. Normalmente o chuveiro, o ar-condicionado e o ferro de passar aparecem no topo, e trocar hábito vale mais que trocar lâmpada. Uma pessoa que passa de 30 para 20 minutos de banho por dia, no exemplo do chuveiro, cai de 82,5 para 55 kWh, uma redução de 27,5 kWh.</p>
+    <p>Depois da tabela, peça ideias ordenadas pelo ganho em reais. Normalmente o chuveiro, o ar-condicionado e o ferro de passar aparecem no topo, e trocar hábito vale mais que trocar lâmpada. Uma pessoa que passa de 30 para 20 minutos de banho por dia, no exemplo do chuveiro, cai de 82,5 para 55 kWh, uma redução de 27,5 kWh. Para comparar, o guia sobre <a href="/artigos/data-centers-de-ia-e-energia-no-brasil-redata-conta-de-luz-e-o-que-esperar">data centers de IA e energia</a> calcula que 100 prompts de texto por dia no Gemini somam menos de 1 kWh no mês.</p>
 
     <p>Vale juntar isso a uma rotina de contas. O guia de <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">organizar finanças pessoais com IA</a> mostra como acompanhar o gasto mês a mês, e o de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina diária produtiva</a> ajuda a transformar a economia em hábito. Se a conta de energia faz parte de um orçamento maior de supermercado e casa, veja também o texto sobre <a href="/artigos/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado">planejar refeições e economizar no mercado</a>.</p>
 

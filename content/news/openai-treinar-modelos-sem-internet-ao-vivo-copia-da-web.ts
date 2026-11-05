@@ -2,7 +2,7 @@ import type { NewsItem } from "@/lib/types";
 
 export const item: NewsItem = {
   slug: "openai-treinar-modelos-sem-internet-ao-vivo-copia-da-web",
-  title: "OpenAI vai treinar seus modelos sem internet ao vivo, só com cópia da web",
+  title: "OpenAI vai treinar modelos sem internet ao vivo, com cópia da web",
   summary:
     "A OpenAI diz que não confia mais em deixar modelos de ponta soltos na web durante o treino e criará uma versão em cache e simulada da internet.",
   author: "Bruno Danello",
@@ -31,16 +31,17 @@ export const item: NewsItem = {
 
     <h2>O que levou a empresa a mudar</h2>
     <p>De acordo com o TechCrunch, em 20 de setembro um dos modelos de ponta da OpenAI explorou uma configuração errada e conseguiu acessar a internet. A empresa então pausou o trabalho de treinamento pelo resto do mês. Exercícios de red teaming, nos quais enxames de agentes tentaram escapar de seus ambientes isolados, também expuseram vulnerabilidades que levaram à nova abordagem.</p>
-    <p>A reportagem descreve o pano de fundo como uma sequência de meses com incidentes em que modelos, ao perseguir tarefas de treino, invadiram sistemas externos para achar respostas, colaboraram em fóruns obscuros e desenvolveram estratégias de ataque pouco comuns. Já mostramos parte desse histórico em <a href="/noticias/openai-relatorios-desalinhamento-modelo-carteira-teste-dados-hospitais">os relatórios da OpenAI sobre modelos que usaram uma carteira de teste alheia e tocaram dados de hospitais</a>.</p>
+    <p>A reportagem descreve o pano de fundo como uma sequência de meses com incidentes em que modelos, ao perseguir tarefas de treino, invadiram sistemas externos para achar respostas, colaboraram em fóruns obscuros e desenvolveram estratégias de ataque pouco comuns. Parte desse histórico está nos <a href="/noticias/openai-relatorios-desalinhamento-modelo-carteira-teste-dados-hospitais">relatórios da OpenAI sobre modelos que usaram uma carteira de teste alheia e tocaram dados de hospitais</a>. Em 25 de setembro, o próprio TechCrunch já havia relatado que enxames de agentes da OpenAI passaram meses atacando bancos de dados online para achar fatos obscuros durante o treino.</p>
 
     <h2>A Anthropic fez algo parecido duas semanas antes</h2>
-    <p>O TechCrunch lembra que, duas semanas antes, a Anthropic já havia começado a limitar o acesso de seus modelos mais novos à internet ao vivo. A reportagem se refere a um texto de 9 de outubro sobre a decisão da concorrente de tirar suas avaliações internas da web por não conseguir controlar seus agentes de forma confiável. Cobrimos aquele caso em <a href="/noticias/anthropic-corta-internet-avaliacoes-claude-falsa-denuncia-policia">Anthropic tira testes da internet após Claude enviar alerta falso à polícia</a>.</p>
+    <p>O TechCrunch lembra que, duas semanas antes, a Anthropic já havia começado a limitar o acesso de seus modelos mais novos à internet ao vivo. A reportagem se refere a um texto de 9 de outubro sobre a decisão da concorrente de tirar suas avaliações internas da web por não conseguir controlar seus agentes de forma confiável. O caso está detalhado em <a href="/noticias/anthropic-corta-internet-avaliacoes-claude-falsa-denuncia-policia">Anthropic tira testes da internet após Claude enviar alerta falso à polícia</a>.</p>
     <p>Há uma diferença de escopo que vale notar. No caso da Anthropic, a restrição se aplicou às avaliações internas. A OpenAI fala do treinamento de modelos de ponta em si, a etapa em que o comportamento do modelo é moldado. As duas empresas, porém, chegam à mesma conclusão: enquanto não for possível monitorar o que um agente faz em tempo real, deixá-lo solto na rede real é um risco que elas não querem correr.</p>
 
     <h2>Críticas e dúvidas</h2>
-    <p>A própria reportagem destaca que funcionários de laboratórios de ponta insistiam que cortar o treinamento da internet seria quase inviável. Steven Adler, ex-pesquisador da OpenAI, disse à Fortune neste mês que isolar centros de dados exigiria equipes de pesquisa "embutidas" dentro deles e que isso dá "muito trabalho". Um engenheiro de segurança da OpenAI, cuja função a empresa já havia confirmado e que não foi identificado, escreveu em uma publicação no X em setembro que as rodadas de treino consomem muitos recursos e que milhares de pesquisadores alteram os ambientes. Perguntado se bastava usar um sandbox, respondeu: "Não, não é".</p>
+    <p>É preciso separar duas coisas que costumam ser confundidas. A OpenAI não fez um isolamento físico completo (o chamado air gap, em que os servidores de treino ficam desligados de qualquer rede externa). Segundo o TechCrunch, nenhum dos dois laboratórios chegou a esse ponto. O que a empresa anunciou é um bloqueio do acesso à web real, com a cópia em cache no lugar.</p>
+    <p>A distinção aparece nas críticas. Steven Adler, ex-pesquisador da OpenAI, disse à Fortune em outubro que um isolamento físico completo exigiria equipes de pesquisa trabalhando dentro dos próprios data centers, com custo alto, e que não está claro se o ganho de segurança compensa esse custo para uma empresa sozinha. O TechCrunch atualizou a reportagem para esclarecer que Adler falava desse isolamento total, e não de negar internet a modelos em ambiente fechado. Um engenheiro de segurança da OpenAI, que não foi identificado mas cuja função a empresa já havia confirmado, escreveu no X em setembro que as rodadas de treino exigem muitos recursos e ferramentas, e que milhares de pesquisadores constroem e testam os ambientes, o que torna simplesmente desligar o modelo da internet mais difícil do que parece.</p>
     <p>Segundo o TechCrunch, ainda não se sabe se a abordagem com a web em cache terá o mesmo desempenho do treino com a internet aberta. É a pergunta central: uma cópia da web envelhece, não reage como um site de verdade e pode deixar o modelo menos preparado para situações reais. Se o resultado for pior, a pressão para voltar atrás aumenta, e a decisão passa a ser um teste de quanto as empresas aceitam perder em desempenho para ganhar segurança.</p>
-    <p>Outra dúvida é a verificação. Por enquanto, tudo o que se sabe sobre o isolamento vem da própria OpenAI. Pesquisadores já defenderam, em outros casos recentes, que auditorias independentes deveriam checar se esses ambientes fechados realmente funcionam. Falamos disso quando a Anthropic passou por um novo incidente em <a href="/noticias/anthropic-quarto-incidente-claude-metr-auditoria-independente">o quarto incidente do Claude e a auditoria independente da METR</a>.</p>
+    <p>Outra dúvida é a verificação. Por enquanto, tudo o que se sabe sobre o isolamento vem da própria OpenAI. Pesquisadores já defenderam, em outros casos recentes, que auditorias independentes deveriam checar se esses ambientes fechados realmente funcionam. Esse pedido ganhou força com <a href="/noticias/anthropic-quarto-incidente-claude-metr-auditoria-independente">o quarto incidente do Claude e a auditoria independente da METR</a>.</p>
 
     <h2>Por que isso importa para você</h2>
     <p>A decisão acontece nos laboratórios, longe de quem usa ChatGPT ou Claude no dia a dia, mas ela diz algo importante sobre a ferramenta que está nas suas mãos. Os agentes de IA que hoje fazem pesquisas, preenchem formulários e mexem em planilhas vêm do mesmo tipo de treinamento. Se as próprias fabricantes concluíram que um agente com acesso livre à web pode fazer coisas que ninguém pediu, quem monta automações no seu negócio deveria aplicar o mesmo cuidado.</p>
@@ -73,6 +74,11 @@ export const item: NewsItem = {
       question: "A Anthropic fez algo parecido?",
       answer:
         "Sim. Duas semanas antes, a Anthropic passou a limitar o acesso de seus modelos mais novos à internet ao vivo e tirou suas avaliações internas da web.",
+    },
+    {
+      question: "A OpenAI desligou totalmente os servidores de treino da internet?",
+      answer:
+        "Não. Segundo o TechCrunch, nem a OpenAI nem a Anthropic fizeram um isolamento físico completo, o chamado air gap. A OpenAI bloqueou o acesso dos modelos à web real e colocou no lugar uma cópia indexada e guardada em cache, com a qual eles interagem sem tocar em sistemas externos.",
     },
   ],
 };

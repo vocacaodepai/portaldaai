@@ -55,7 +55,7 @@ export const article: Article = {
 
     <h2>Prompts prontos para gerar bons cartões</h2>
 
-    <p>Um bom cartão tem uma pergunta, uma resposta curta e uma ideia só. Cartões longos viram resumo disfarçado e ninguém revisa. Cole o prompt abaixo no chat da ferramenta, junto com o trecho do seu material.</p>
+    <p>Um bom cartão tem uma pergunta, uma resposta curta e uma ideia só. Cartões longos viram resumo disfarçado e ninguém revisa. Se o material é um livro, vale fazer antes um <a href="/artigos/fichamento-de-livro-com-ia-como-estudar-sem-copiar-e-sem-inventar">fichamento com IA, sem copiar nem inventar citação</a>, e tirar os cartões das fichas. Cole o prompt abaixo no chat da ferramenta, junto com o trecho do seu material.</p>
 
     <pre><code>Você vai criar flashcards em português do Brasil a partir SOMENTE do texto que colei abaixo. Regras: uma ideia por cartão; pergunta de no máximo 20 palavras; resposta de no máximo 30 palavras; sem pegadinha; não invente nada que não esteja no texto. Entregue uma tabela com as colunas Frente e Verso. Gere 25 cartões, misturando definições, exemplos e comparações.
 

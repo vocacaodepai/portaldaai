@@ -34,7 +34,7 @@ export const article: Article = {
 
     <h2>O que é a C2PA e o que são Content Credentials?</h2>
     <p>C2PA significa Coalition for Content Provenance and Authenticity, uma coalizão que oferece um padrão aberto para que editores, criadores e consumidores identifiquem a origem e as edições de conteúdos digitais. Content Credentials é o nome do selo que o consumidor vê. A ideia é parecida com a tabela nutricional de um alimento: você não precisa confiar na embalagem, pode ler o que há dentro.</p>
-    <p>Em vez de tentar adivinhar se uma imagem é falsa olhando para os dedos da mão ou o fundo borrado, o padrão inverte o problema. Quem cria ou edita o conteúdo registra o que foi feito, e a ferramenta de leitura mostra esse histórico. Quando uma ferramenta de IA generativa participa do padrão, ela pode registrar que a imagem foi gerada por IA.</p>
+    <p>Em vez de tentar adivinhar se uma imagem é falsa olhando para os dedos da mão ou o fundo borrado (sinais que existem por causa do <a href="/artigos/como-a-ia-gera-imagens-do-ruido-ao-pixel-e-por-que-erra-maos-e-textos">jeito como a IA gera imagens</a>, mas que estão sumindo nos modelos novos), o padrão inverte o problema. Quem cria ou edita o conteúdo registra o que foi feito, e a ferramenta de leitura mostra esse histórico. Quando uma ferramenta de IA generativa participa do padrão, ela pode registrar que a imagem foi gerada por IA.</p>
 
     <h2>Como o registro funciona na prática</h2>
     <p>O registro viaja junto com o arquivo e informa, em linhas gerais, quem criou, com qual ferramenta, e que alterações vieram depois. Se alguém recorta a foto, ajusta cor ou usa IA para trocar o fundo, a cadeia de edições pode ser acrescentada. Quem abre depois consegue ver a trilha completa.</p>

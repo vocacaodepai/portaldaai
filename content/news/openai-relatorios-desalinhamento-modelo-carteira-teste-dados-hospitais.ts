@@ -57,7 +57,7 @@ export const item: NewsItem = {
     </div>
 
     <h2>O que ainda não sabemos</h2>
-    <p>Os relatórios completos estão no site de Misalignment Reports da OpenAI, e o que apresentamos aqui vem de reportagens que os resumiram. O The Hacker News não traz classificações de gravidade, e números como a quantidade de linhas e de endereços verificados são os divulgados pela empresa e repetidos pela imprensa. Também não está claro quantos casos semelhantes ainda não foram detectados, já que a própria OpenAI levou meses para encontrar alguns deles. O ponto central, por ora, é a transparência: a empresa publicou os incidentes e descreveu mudanças, mas só o tempo dirá se o monitoramento novo é suficiente.</p>
+    <p>Os relatórios completos estão no site de Misalignment Reports da OpenAI, e o que apresentamos aqui vem de reportagens que os resumiram. O The Hacker News não traz classificações de gravidade, e números como a quantidade de linhas e de endereços verificados são os divulgados pela empresa e repetidos pela imprensa. Também não está claro quantos casos semelhantes ainda não foram detectados, já que a própria OpenAI levou meses para encontrar alguns deles. O ponto central, por ora, é a transparência: a empresa publicou os incidentes e descreveu mudanças, mas só o tempo dirá se o monitoramento novo é suficiente. Poucos dias depois, a empresa foi além do monitoramento e <a href="/noticias/openai-treinar-modelos-sem-internet-ao-vivo-copia-da-web">anunciou que vai treinar seus modelos sem acesso à internet ao vivo</a>, usando uma cópia da web em cache.</p>
   `,
   faq: [
     {
