@@ -50,7 +50,7 @@ export const item: NewsItem = {
       <li>Acompanhe com cautela as promessas de impacto zero para o consumidor. O número de economia citado, US$ 950 milhões por ano, é uma estimativa da concessionária, não uma garantia.</li>
     </ul>
 
-    <p>A conclusão prática é que a infraestrutura de IA agora depende tanto de acordos com a rede elétrica quanto de chips. Quem entende isso consegue prever melhor o que vem pela frente em preço e disponibilidade das ferramentas.</p>
+    <p>A conclusão prática é que a infraestrutura de IA agora depende tanto de acordos com a rede elétrica quanto de chips. Quem entende isso consegue prever melhor o que vem pela frente em preço e disponibilidade das ferramentas. No Brasil, o mesmo debate passa pelo Redata, e o guia sobre <a href="/artigos/data-centers-de-ia-e-energia-no-brasil-redata-conta-de-luz-e-o-que-esperar">data centers de IA e energia no Brasil</a> mostra o que a lei exige e por que a conta de luz de casa não muda por causa dela.</p>
 
     <p>Os fatos citados vêm do The Next Web e do comunicado da OpenAI; o texto acima é análise própria do Portal da AI.</p>
   `,

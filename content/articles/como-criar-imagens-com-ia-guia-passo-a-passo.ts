@@ -35,7 +35,7 @@ export const article: Article = {
 
     <h2>O que é geração de imagens com IA, na prática</h2>
 
-    <p>O modelo foi treinado olhando bilhões de pares de imagem e descrição, e aprendeu a associar palavras a formas, cores e composições. Quando você escreve um prompt, ele não busca uma foto existente: monta uma imagem nova, pixel por pixel, a partir do padrão que aprendeu. Por isso duas pessoas com o mesmo prompt recebem resultados parecidos, mas nunca idênticos.</p>
+    <p>O modelo foi treinado olhando bilhões de pares de imagem e descrição, e aprendeu a associar palavras a formas, cores e composições. Quando você escreve um prompt, ele não busca uma foto existente: monta uma imagem nova, pixel por pixel, a partir do padrão que aprendeu. Por isso duas pessoas com o mesmo prompt recebem resultados parecidos, mas nunca idênticos. Se quiser entender o que acontece por dentro, o guia sobre <a href="/artigos/como-a-ia-gera-imagens-do-ruido-ao-pixel-e-por-que-erra-maos-e-textos">como a IA gera imagens a partir do ruído</a> explica a difusão sem jargão.</p>
 
     <p>Existem hoje dois jeitos de usar isso: gerar do zero (texto vira imagem) e editar uma imagem existente (você envia uma foto e pede para mudar o fundo, a luz ou um elemento específico). O <a href="https://gemini.google/br/overview/image-generation/?hl=pt-BR" rel="noopener noreferrer">Nano Banana Pro do Google</a> faz os dois bem, incluindo trocar o estilo de uma foto mantendo o rosto reconhecível. Se a dúvida for sobre o conceito de IA em si antes de partir para a prática, o guia <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">o que é inteligência artificial</a> explica do começo.</p>
 

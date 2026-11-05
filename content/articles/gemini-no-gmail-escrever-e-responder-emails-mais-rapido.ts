@@ -45,7 +45,7 @@ export const article: Article = {
       <li>Abra o Gmail no computador e clique em Peça ao Gemini, no canto superior direito.</li>
       <li>Escreva o pedido com quem recebe, o objetivo e o tom que você quer.</li>
       <li>Clique em Enviar e leia a resposta com atenção.</li>
-      <li>Peça ajustes (mais curto, mais formal, com um prazo) até ficar do seu jeito.</li>
+      <li>Peça ajustes (mais curto, mais formal, com um prazo) até ficar do seu jeito. Se você repete sempre o mesmo pedido de tom, salve-o como <a href="/artigos/instrucoes-personalizadas-do-gemini-no-workspace-onde-valem-e-como-gerenciar">instrução personalizada do Gemini no Workspace</a>.</li>
       <li>Confira nomes, datas e valores antes de enviar, como em qualquer rascunho.</li>
     </ol>
     <p>A lógica por trás é a do guia de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">comandos que funcionam</a>: quanto mais contexto, melhor o resultado. Quem está no começo da jornada pode ler antes o roteiro de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar o primeiro assistente de IA pessoal</a>.</p>

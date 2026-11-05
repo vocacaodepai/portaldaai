@@ -67,7 +67,7 @@ export const article: Article = {
         </tr>
       </tbody>
     </table>
-    <p>Nenhuma das duas tem função de grelha para pão francês inteiro: ambas são torradeiras de fenda, pensadas para pão de forma e similares.</p>
+    <p>Nenhuma das duas tem função de grelha para pão francês inteiro: ambas são torradeiras de fenda, pensadas para pão de forma e similares. Quem quer fazer o próprio pão de forma em casa pode ver o <a href="/artigos/panificadora-britania-multipane-ou-mondial-npf-54-comparativo">comparativo de panificadoras Britânia Multipane e Mondial NPF-54</a>.</p>
 
     <h2>Philco French Toast Inox: mais potência e mais níveis</h2>
     <figure>

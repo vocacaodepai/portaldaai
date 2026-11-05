@@ -11,7 +11,8 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "tecnologia-emergente",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-05",
+  readTime: 11,
   imageQuery: "data center server racks corridor",
   seed: 616,
   kind: "guia",
@@ -59,6 +60,12 @@ export const article: Article = {
     </table>
 
     <p>A própria Fazenda informa que os critérios de sustentabilidade serão definidos em regulamento, sem prazo divulgado. Até lá, o regime não está pleno na prática.</p>
+
+    <h3>Atualização: a regulamentação ainda não saiu</h3>
+
+    <p>O regime virou a Lei nº 15.504/2026, que suspende PIS/Pasep, Cofins e IPI na compra de bens e equipamentos para processamento de dados. No fim de outubro, porém, os critérios de habilitação e a lista de itens que entram no benefício continuavam indefinidos. Segundo o <a href="https://cenarioenergia.com.br/2026/10/26/fase-cobra-regulamentacao-urgente-do-redata-e-alerta-para-risco-sobre-r-52-bilhoes-em-incentivos/" rel="noopener noreferrer" target="_blank">Cenário Energia</a>, em 26 de outubro o Fórum das Associações do Setor Elétrico (Fase), que reúne 21 entidades, enviou carta à Presidência pedindo regras claras até o fim de 2026, porque cerca de R$ 5,2 bilhões em incentivos previstos para este ano ficam em risco com o atraso.</p>
+
+    <p>A mesma reportagem traz a dimensão do que está em jogo: o Fase projeta que a demanda média dos data centers no Brasil passe de 0,3 GW para 5,7 GW até 2030, e a Brasscom estima até US$ 92 bilhões em investimentos no setor até 2031. São projeções de entidades do setor, não números oficiais, mas mostram por que o regulamento importa para geradoras, empresas de nuvem e para a rede elétrica.</p>
 
     <h2>O gargalo é a energia, não o terreno</h2>
 
@@ -115,7 +122,7 @@ export const article: Article = {
     {
       question: "O que é o Redata?",
       answer:
-        "É o Regime Especial de Tributação para Serviços de Datacenter, sancionado em 15/09/2026. Ele suspende por cinco anos tributos na compra de equipamentos de data center, em troca de energia limpa ou renovável, reserva de 10% da capacidade para o mercado brasileiro e outras contrapartidas, e ainda depende de regulamentação.",
+        "É o Regime Especial de Tributação para Serviços de Datacenter, criado pela Lei nº 15.504, sancionada em 15/09/2026. Ele suspende por cinco anos PIS/Pasep, Cofins e IPI na compra de equipamentos de data center, em troca de energia limpa ou renovável, reserva de 10% da capacidade para o mercado brasileiro e outras contrapartidas, e ainda depende de regulamentação.",
     },
     {
       question: "O Redata vai aumentar a minha conta de luz?",
