@@ -356,6 +356,9 @@ export const productSubcategories = [
   { slug: "climatizador", label: "Climatizador de Ar", category: "casa-inteligente" },
   { slug: "modelador-cachos", label: "Modelador de Cachos", category: "saude-bem-estar" },
   { slug: "nivel-laser", label: "Nível a Laser", category: "ferramentas-casa" },
+  { slug: "repelente-eletrico", label: "Repelente Elétrico", category: "casa-utilidades" },
+  { slug: "protetor-solar", label: "Protetor Solar", category: "saude-bem-estar" },
+  { slug: "travesseiro", label: "Travesseiro", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
