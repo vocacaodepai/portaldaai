@@ -7,7 +7,7 @@ export const article: Article = {
   excerpt:
     "Aprenda a anunciar no Instagram e no Facebook com pouco dinheiro: objetivo, orçamento, público, criativos com IA, teste de uma semana e leitura dos resultados.",
   metaDescription:
-    "Anúncios no Instagram e Facebook para pequeno negócio: como definir objetivo, orçamento diário, público e criativos com IA, rodar um teste de 7 dias e saber se vale continuar.",
+    "Anúncios no Instagram e Facebook para pequeno negócio: objetivo, verba diária, público, criativos com IA e um teste de 7 dias para saber se vale continuar.",
   category: "negocios",
   articleSubcategory: "vendas-e-marketing",
   date: "2026-10-22",

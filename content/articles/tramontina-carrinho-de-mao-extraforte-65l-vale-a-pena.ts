@@ -3,7 +3,7 @@ import type { Article } from "@/lib/types";
 export const article: Article = {
   slug: "tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena",
   title: "Vale a pena o carrinho de mão Tramontina Extraforte de 65 litros?",
-  seoTitle: "Carrinho de mão Tramontina Extraforte 65 L 77714235 vale a pena? Análise",
+  seoTitle: "Carrinho de mão Tramontina Extraforte 65 L vale a pena?",
   excerpt:
     "Nota 7,7 de 10. Analisamos o carrinho de mão Tramontina Extraforte, com caçamba metálica de 65 litros e pneu maciço: construção, peso, montagem e para quem compensa.",
   metaDescription:
@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "carrinho-mao",
   productScore: 7.7,
   date: "2026-10-24",
+  updated: "2026-11-06",
   readTime: 8,
   imageQuery: "wheelbarrow garden soil construction",
   seed: 622,
@@ -46,7 +47,7 @@ export const article: Article = {
       "Pneu maciço de 345 mm x 75 mm: sem furo e sem calibragem, ideal para brita, entulho e prego solto",
       "Braço metálico tubular de 1,5 mm, eixo de aço e empunhaduras ergonômicas",
       "Pintura eletrostática a pó, que protege melhor contra oxidação, e fabricação conforme a ABNT NBR 16269",
-      "Marca com assistência no Brasil e peças de reposição, como a caçamba, vendidas à parte",
+      "Marca com assistência no Brasil e pneu maciço de reposição compatível vendido pela própria Tramontina",
     ],
     cons: [
       "Cerca de 16 kg segundo a ficha oficial, pesado para quem vai guardar e levantar sozinho",
@@ -66,7 +67,7 @@ export const article: Article = {
     <p>O carrinho de mão Tramontina Extraforte, código 77714235, é um carrinho metálico de uma roda, com caçamba de aço de 65 litros, braço tubular e pneu maciço. Serve bem a quem tem quintal, horta ou uma reforma em andamento e precisa levar terra, areia, entulho e ferramentas de um lado a outro, e serve pior a quem quer um modelo leve para guardar em apartamento. Analisamos a <a href="https://www.tramontina.com.br/carrinho-de-mao-extraforte-tramontina-com-cacamba-reforcada-metalica-cinza-65-l--braco-metalico-e-pneu-macico/77714235.html" rel="noopener noreferrer nofollow">página oficial da Tramontina</a> e o anúncio da Amazon Brasil, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>O que o Extraforte entrega</h2>
@@ -74,7 +75,7 @@ export const article: Article = {
     <p>O produto é fabricado segundo a norma ABNT NBR 16269, e a Tramontina o indica para uso geral, principalmente construção civil, no transporte de ferramentas e materiais como terra, areia, argamassa e entulho. Em casa, isso cobre o que mais se faz: levar terra para canteiro, carregar folhas e galhos do jardim e tirar entulho de reforma.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Pneu maciço: o que muda no uso</h2>
@@ -83,14 +84,14 @@ export const article: Article = {
 
     <h2>Peso, tamanho e montagem</h2>
     <p>Segundo a ficha oficial, o carrinho mede 143,6 cm de comprimento, 62,2 cm de largura e 53,6 cm de altura, e pesa cerca de 16 kg (15,95 kg). Um dos anúncios da Amazon cita 18,7 kg, o que reforça o aviso: o número oficial é o que vale, e o peso do conjunto montado é sempre maior do que o de uma peça isolada.</p>
-    <p>O carrinho chega para montar, com conjunto de pés metálicos, caçamba e braço. Quem não tem prática com chave e parafuso leva cerca de uma hora, e uma <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira Bosch GSR 120-LI</a> encurta a montagem. Como o carrinho ocupa 143,6 cm de comprimento, ele pede um canto de quintal, de garagem ou de abrigo: em apartamento, não é o produto.</p>
+    <p>O carrinho chega para montar, com conjunto de pés metálicos, caçamba e braço. Quem não tem prática com chave e parafuso deve reservar um tempo com calma, e uma <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira Bosch GSR 120-LI</a> encurta a montagem. Como o carrinho ocupa 143,6 cm de comprimento, ele pede um canto de quintal, de garagem ou de abrigo: em apartamento, não é o produto.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Prós e contras na prática</h2>
-    <p>O ponto alto é a construção: chapa grossa, borda reforçada, eixo de aço e pintura eletrostática, de uma marca com rede de assistência no país e com a caçamba vendida separadamente, caso amasse ou enferruje. Para quem quer um carrinho durável, que dispensa pneu e câmara, é um dos modelos mais sólidos entre os de uma roda.</p>
+    <p>O ponto alto é a construção: chapa grossa, borda reforçada, eixo de aço e pintura eletrostática, de uma marca com rede de assistência no país e com pneu de reposição compatível vendido pela própria fabricante. Para quem quer um carrinho durável, que dispensa pneu e câmara, é um dos modelos mais sólidos entre os de uma roda.</p>
     <p>Os pontos de atenção são o peso, a montagem, o pneu duro e a garantia. A garantia é de 90 dias contra vício ou defeito de fabricação, que é o mínimo legal. Outro ponto é a confusão de anúncios: pelo menos duas páginas da Amazon trazem o mesmo nome com pneu maciço ou com câmara e pesos diferentes. Por isso, confira o código 77714235 e a descrição de pneu maciço antes de fechar a compra.</p>
 
     <h2>Para quem vale a pena</h2>
@@ -98,7 +99,7 @@ export const article: Article = {
     <p>Não é a melhor escolha para quem mora em apartamento, para quem só vai carregar vaso e saco de adubo de vez em quando ou para quem tem muito terreno irregular e quer pneu com câmara. Nesses casos, um carrinho menor e leve, de caçamba plástica, atende melhor. Quem só quer calibrar o pneu da bicicleta ou do carro depois do serviço tem o <a href="/artigos/melhor-compressor-ar-portatil-xiaomi-comparativo-2026">compressor de ar portátil</a> para isso. Quem precisa só limpar a área externa pode se contentar com a <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">lavadora de alta pressão</a> e uma vassoura.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Cuidados para o carrinho durar</h2>
@@ -106,19 +107,34 @@ export const article: Article = {
     <p>Outros dois cuidados são distribuir a carga mais perto da roda do que dos braços, para reduzir o esforço nas mãos, e não passar do volume de 65 litros com material pesado, porque 65 litros de entulho úmido pesam muito mais do que 65 litros de folhas. Para ver o que está fazendo à noite na área externa, vale ter à mão a <a href="/artigos/luminaria-de-emergencia-elgin-30-ou-60-leds-comparativo">luminária de emergência Elgin</a>, e no carro, o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">aspirador de carro Tramontina</a> ajuda a tirar a terra que sobra do porta-malas.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
+    </div>
+
+    <h2>Peças de reposição: o que costuma trocar primeiro</h2>
+    <p>Num carrinho de mão, o que gasta antes costuma ser a roda, não o braço. A Tramontina vende na própria loja um pneu maciço de reposição, de borracha macia, com roda e bucha plástica (código 77740051), e a ficha dele lista o 77714/235 entre os carrinhos compatíveis. Isso conta a favor de uma marca nacional: num carrinho genérico, achar a roda certa costuma ser loteria.</p>
+    <p>Antes de comprar a peça, confira três coisas:</p>
+    <ul class="checklist">
+      <li>O código do seu carrinho (77714235 neste caso), que aparece na nota fiscal e na embalagem.</li>
+      <li>A lista de compatibilidade da peça na página da Tramontina: o pneu de reposição 77740051 cita os modelos 77713/231, 77714/235, 77717/23, 77717/221 e 77713/950.</li>
+      <li>A medida: o pneu de reposição tem 358 mm x 75 mm, um pouco maior que os 345 mm do pneu original informado na ficha do carrinho, então confira o encaixe no eixo se tiver dúvida.</li>
+    </ul>
+    <p>Para a troca, uma chave comum e uma <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira</a> resolvem, e um pouco de <a href="/artigos/wd-40-multiuso-300-ml-shopee-vale-a-pena">WD-40</a> ajuda a soltar parafuso preso pela ferrugem. Quem cuida de horta ou pomar também usa o carrinho para levar adubo, e o <a href="/artigos/kit-de-jardinagem-tramontina-3-ou-13-pecas-comparativo">kit de jardinagem Tramontina</a> cabe na caçamba junto.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
-    <p>O carrinho Extraforte de 65 litros costuma variar de R$ 440 a R$ 590, uma faixa aproximada de mercado, que vem do preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon, e muda com vendedor, frete e época. A loja oficial da Tramontina tende a ficar na parte de cima da faixa, e promoções de varejistas puxam o valor para baixo.</p>
+    <p>O carrinho Extraforte de 65 litros costuma variar de R$ 440 a R$ 590, uma faixa aproximada de mercado, que vem do preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon, e muda com vendedor, frete e época. A loja oficial da Tramontina costuma ficar no meio da faixa, e promoções de varejistas puxam o valor para baixo.</p>
     <p>Em custo-benefício, ele fica no meio do caminho: custa mais do que carrinhos genéricos de chapa fina, mas entrega chapa de 0,9 mm, pneu que não fura e uma marca com peças de reposição. O que faz o preço subir é a versão mais encorpada e o frete de um item volumoso. O preço do dia aparece ao clicar no botão de compra.</p>
+    <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
-    <p>A nota de 7,7 cruza a ficha técnica oficial da Tramontina com a listagem e as avaliações de compradores na Amazon Brasil, sem teste físico nosso. Pesamos construção, pneu e manuseio, peso e montagem, acabamento e proteção contra ferrugem, e custo-benefício. A caçamba grossa e o pneu que não fura puxam a nota para cima, e o peso, a montagem e a garantia curta seguram o resultado abaixo de 8. Para consertar o que quebra pelo caminho, vale ter uma <a href="/artigos/bosch-gws-850-esmerilhadeira-vale-a-pena">esmerilhadeira Bosch GWS 850</a>, e para a rotina da casa, a <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor Tramontina</a> segue a mesma linha de marca nacional com assistência.</p>
+    <p>A nota de 7,7 cruza a ficha técnica oficial da Tramontina com a listagem e as avaliações de compradores na Amazon Brasil, sem teste físico nosso. O anúncio da Amazon ainda tem poucas avaliações (5, com nota média de 3,6 de 5), então a ficha técnica oficial pesou mais do que a opinião de compradores. Pesamos construção, pneu e manuseio, peso e montagem, acabamento e proteção contra ferrugem, e custo-benefício. A caçamba grossa e o pneu que não fura puxam a nota para cima, e o peso, a montagem e a garantia curta seguram o resultado abaixo de 8. Para consertar o que quebra pelo caminho, vale ter uma <a href="/artigos/bosch-gws-850-esmerilhadeira-vale-a-pena">esmerilhadeira Bosch GWS 850</a>, e para a rotina da casa, a <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor Tramontina</a> segue a mesma linha de marca nacional com assistência.</p>
 
     <h2>Ficha técnica resumida</h2>
     <ul>
@@ -132,7 +148,7 @@ export const article: Article = {
     </ul>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carrinho de Mão Tramontina Extraforte na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B077C7RCVM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
   `,
   faq: [
@@ -149,7 +165,7 @@ export const article: Article = {
     {
       question: "O carrinho Tramontina Extraforte vem montado?",
       answer:
-        "Não. O produto chega com o conjunto de pés, a caçamba e o braço separados, e a montagem é feita em casa, com chaves comuns. A caçamba também é vendida separadamente, caso precise trocar no futuro.",
+        "Não. O produto chega com o conjunto de pés, a caçamba e o braço separados, e a montagem é feita em casa, com chaves comuns. Se o pneu gastar no futuro, a Tramontina vende um pneu maciço de reposição compatível com este modelo.",
     },
     {
       question: "Quanto pesa o carrinho de mão Tramontina Extraforte?",

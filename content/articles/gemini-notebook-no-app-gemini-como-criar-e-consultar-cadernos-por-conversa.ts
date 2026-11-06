@@ -3,14 +3,15 @@ import type { Article } from "@/lib/types";
 export const article: Article = {
   slug: "gemini-notebook-no-app-gemini-como-criar-e-consultar-cadernos-por-conversa",
   title: "Gemini Notebook no app Gemini: criar e consultar cadernos",
-  seoTitle: "Gemini Notebook no app Gemini: como usar @",
+  seoTitle: "Gemini Notebook no app Gemini: como usar o @ no chat",
   excerpt:
     "O Gemini Notebook virou app conectado no Gemini: veja como usar o @, o que dá para pedir, quem tem acesso, como desligar e quais cuidados tomar com seus dados.",
   metaDescription:
     "Gemini Notebook como app conectado: digite @Gemini Notebook no chat para criar cadernos, adicionar fontes e fazer perguntas. Veja acesso, controles e limites.",
   category: "ferramentas",
   date: "2026-10-24",
-  readTime: 7,
+  updated: "2026-11-06",
+  readTime: 8,
   imageQuery: "student notebook laptop study desk",
   seed: 630,
   kind: "guia",
@@ -101,6 +102,19 @@ export const article: Article = {
 
     <p>Também vale comparar com o resumo de textos soltos. Se você só precisa de um resumo único, <a href="/artigos/como-usar-ia-para-resumir-pdfs-artigos-e-textos-longos">resumir PDFs e textos longos</a> é mais direto. Se o plano é transformar o conteúdo em áudio para vender ou publicar, veja <a href="/artigos/podcast-com-ia-como-ganhar-dinheiro-usando-notebooklm">podcast com IA usando NotebookLM</a>. E se a dúvida é sobre limites de uso, a escolha entre planos está em <a href="/artigos/google-ai-plus-pro-ou-ultra-qual-plano-do-gemini-escolher">qual plano do Gemini escolher</a>. Para quem cuida de conectar ferramentas, o <a href="/artigos/mcp-model-context-protocol-o-que-e-e-como-conecta-agentes-de-ia">protocolo MCP</a> explica a ideia por trás dos apps conectados.</p>
 
+    <h2>O @Gemini Notebook não aparece: o que conferir</h2>
+
+    <p>Se você digita @ e o Gemini Notebook não está na lista, o problema quase sempre está em uma de quatro configurações. A <a href="https://support.google.com/gemini/answer/13695044?hl=pt-BR" target="_blank" rel="noopener noreferrer">ajuda do Google sobre apps conectados</a>, em português, descreve os requisitos e o caminho dos menus:</p>
+
+    <ol>
+      <li><strong>Login:</strong> os apps conectados só funcionam com a conta do Google logada no app do Gemini.</li>
+      <li><strong>Manter Atividade:</strong> se essa opção estiver desligada, os apps conectados ficam indisponíveis no gemini.google.com e no iPhone. No Android sobram só poucos apps, como Telefone, Mensagens e WhatsApp.</li>
+      <li><strong>Lista de conectores:</strong> no app, toque em Menu, depois em Personalizar (se não aparecer, em Mais) e em Conectores. Ali você toca em Adicionar para conectar e em Mais opções, Desconectar, para tirar o acesso.</li>
+      <li><strong>Conta de trabalho ou escola:</strong> o administrador precisa ter o Gemini e o Gemini Notebook ligados para o seu grupo, e a ajuda do Google tem um artigo separado para esse tipo de conta.</li>
+    </ol>
+
+    <p>A mesma página avisa que a disponibilidade muda conforme idioma, país, dispositivo e versão do app, e que alguns apps aparecem só no Android. Repare que o anúncio do Workspace chama o caminho de Configurações, Apps conectados, enquanto a ajuda já usa Personalizar, Conectores: os dois textos oficiais usam nomes diferentes, então procure pelos dois. Se nada disso resolver, atualize o app e tente pelo navegador, no gemini.google.com.</p>
+
     <h2>Limites e o que ainda não se sabe</h2>
 
     <p>A postagem do Google não informa limites de uso, de armazenamento ou de número de fontes para o app conectado, e a página de ajuda dos cadernos manda os limites de uso para outro artigo. Também não há menção a idiomas. Por isso, evite tratar o recurso como infinito e confira a página oficial antes de planejar um projeto grande. Como o lançamento é recente, é provável que o nome dos menus mude nas próximas semanas.</p>
@@ -132,6 +146,11 @@ export const article: Article = {
       question: "O recurso funciona na Europa?",
       answer:
         "Segundo o Google, no Espaço Econômico Europeu o app começa desligado por padrão para os usuários, enquanto no resto do mundo vem ligado. Disponibilidade, idioma e dispositivo podem variar, por isso vale confirmar no seu aplicativo se o @Gemini Notebook aparece.",
+    },
+    {
+      question: "Por que o @Gemini Notebook não aparece no meu Gemini?",
+      answer:
+        "Confira se você está logado, se a opção Manter Atividade está ligada e se o Gemini Notebook aparece em Menu, Personalizar, Conectores. Em conta de trabalho ou escola, o administrador precisa ter liberado o Gemini e o Gemini Notebook. A disponibilidade também varia por país, idioma, dispositivo e versão do app.",
     },
   ],
 };

@@ -40,7 +40,7 @@ export const article: Article = {
 Monte um roteiro de 12 perguntas para descobrir quais tarefas repetitivas consomem mais tempo do dono e da equipe, quantas horas por semana cada uma leva e quais dependem de resposta rápida ao cliente.
 Agrupe as perguntas em: atendimento, agenda, financeiro e conteúdo.
 Para cada grupo, sugira um indicador simples que eu consiga medir na hora (ex.: mensagens por dia, tempo médio de resposta).</code></pre>
-    <p>Grave a reunião com autorização e use um resumidor, como mostra o guia de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">IA para transcrever e resumir reuniões</a>.</p>
+    <p>Grave a reunião com autorização e use um resumidor, como mostra o guia de <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">IA para transcrever e resumir reuniões</a>. Se a conversa é por vídeo, uma <a href="/artigos/logitech-c920s-webcam-vale-a-pena">webcam Full HD com obturador de privacidade</a> passa mais confiança do que a câmera do notebook.</p>
 
     <h2>Passo 2: proposta específica, com uma entrega só</h2>
     <p>"Vou implementar IA na sua empresa" não fecha. "Vou configurar um assistente no WhatsApp que responde as 8 perguntas mais comuns dos seus clientes, em até 15 dias, e você aprova cada resposta antes de ir ao ar" fecha.</p>

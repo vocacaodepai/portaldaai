@@ -11,7 +11,8 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "vendas-e-marketing",
   date: "2026-10-30",
-  readTime: 8,
+  updated: "2026-11-06",
+  readTime: 7,
   imageQuery: "small shop packing monthly subscription box",
   seed: 921,
   kind: "guia",
@@ -60,6 +61,25 @@ export const article: Article = {
     <h2>Controle de assinantes e de caixa</h2>
 
     <p>Uma planilha simples já resolve no começo: nome, contato, data de início, plano, forma de pagamento, status (ativo, pausado, cancelado), data do próximo envio e observações. Se a assinatura for cobrada por link de pagamento ou plataforma, registre também a data da cobrança e o resultado. Para o dia a dia financeiro, o texto sobre <a href="/artigos/contas-a-pagar-e-a-receber-em-planilha-vencimentos-coloridos-e-rotina-semanal-com-ia">contas a pagar e a receber em planilha</a> mostra uma rotina semanal, e o de <a href="/artigos/capital-de-giro-do-pequeno-negocio-como-calcular-com-ia-e-quando-pedir-credito">capital de giro</a> ajuda a entender quanto você precisa ter em caixa para comprar insumos antes de receber.</p>
+
+    <h3>Como cobrar todo mês sem correr atrás de cada assinante</h3>
+
+    <p>A forma de cobrança pesa no caixa tanto quanto o preço. Cobrar por Pix manual todo mês funciona com 10 assinantes e vira dor de cabeça com 50, porque cada atraso exige uma mensagem. O <a href="https://www.bcb.gov.br/estabilidadefinanceira/pix-automatico" target="_blank" rel="noopener noreferrer">Pix Automático, do Banco Central</a>, foi pensado para esse caso: o cliente autoriza uma única vez, define regras como o valor máximo de cada pagamento, e a cobrança sai sozinha na data combinada. O próprio Banco Central cita assinaturas, academias e escolas como exemplos de uso.</p>
+
+    <p>Três detalhes da página oficial interessam a quem monta um clube. O pagador não paga tarifa, mas o recebedor pode pagar, então pergunte ao seu banco ou à sua instituição de pagamento quanto custa receber. O assinante acompanha e cancela a autorização direto no app do banco, o que reforça a regra de não criar obstáculo para sair. E, nos dias anteriores ao pagamento, o banco do cliente avisa da cobrança agendada, o que reduz a surpresa e a reclamação. O passo a passo para ativar está no guia de <a href="/artigos/pix-automatico-para-pequeno-negocio-cobrar-mensalidades-com-ia">Pix Automático para cobrar mensalidades</a>.</p>
+
+    <table>
+      <thead>
+        <tr><th>Forma de cobrança</th><th>Bom para</th><th>Atenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pix manual</td><td>Clube pequeno, começo de teste</td><td>Exige lembrar e cobrar cada assinante todo mês</td></tr>
+        <tr><td>Pix Automático</td><td>Mensalidade fixa, cliente sem cartão</td><td>Consulte a tarifa de recebimento no seu banco</td></tr>
+        <tr><td>Cartão recorrente por plataforma</td><td>Quem já vende online e quer parcelar planos</td><td>Taxa por transação e cartão vencido gera falha de cobrança</td></tr>
+      </tbody>
+    </table>
+
+    <p>Na planilha, crie uma coluna para a forma de cobrança e outra para falhas: se três assinantes do cartão falharam no mesmo mês, é hora de mandar mensagem antes do envio da caixa, e não depois.</p>
 
     <h3>Indicadores simples</h3>
 

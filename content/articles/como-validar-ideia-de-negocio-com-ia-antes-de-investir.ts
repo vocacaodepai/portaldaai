@@ -25,7 +25,7 @@ export const article: Article = {
   content: `
     <p>Validar ideia de negócio com IA significa usar um assistente como ChatGPT, Claude ou Gemini para descrever o problema, medir a demanda, mapear concorrentes e simular objeções em dias, e não em meses, antes de gastar qualquer dinheiro em estoque, site ou CNPJ. Este guia mostra o método em 5 passos, com prompts prontos e um exemplo brasileiro com números.</p>
 
-    <p>A IA acelera a pesquisa e a preparação. Ela não substitui a etapa em que uma pessoa real decide pagar ou dizer não. Por isso o método termina com um teste de oferta de sete dias e uma meta em número. Se você seguir os cinco passos, chega ao fim da semana sabendo se continua, se ajusta ou se guarda a ideia na gaveta.</p>
+    <p>A IA acelera a pesquisa e a preparação. Ela não substitui a etapa em que uma pessoa real decide pagar ou dizer não. Por isso o método termina com um teste de oferta de sete dias e uma meta em número. Se você seguir os cinco passos, chega ao fim da semana sabendo se continua, se ajusta ou se guarda a ideia na gaveta. Quem prefere enxergar o negócio inteiro numa página antes dos testes pode rascunhar o <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">plano de negócios no Canvas com IA</a> e usar a lista de premissas frágeis como ponto de partida.</p>
 
     <h2>Por que validar uma ideia de negócio antes de investir?</h2>
 

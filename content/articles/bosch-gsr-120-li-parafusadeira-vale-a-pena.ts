@@ -77,7 +77,7 @@ export const article: Article = {
     </div>
 
     <h2>Potência, bateria e uso no dia a dia</h2>
-    <p>Para montar guarda-roupa, prateleira, cortina e cabideiro, 30 Nm de torque sobram. Para furar madeira com broca de 8 a 10 mm ou metal fino, também. O limite aparece em furo grande em madeira dura, em parafuso longo de decks e em serviço que dura horas.</p>
+    <p>Para montar guarda-roupa, prateleira, cortina e cabideiro, 30 Nm de torque sobram. Para furar madeira com broca de 8 a 10 mm ou metal fino, também. O limite aparece em furo grande em madeira dura, em parafuso longo de decks e em serviço que dura horas. Ela também encurta a montagem de itens que chegam desmontados, como o <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Tramontina Extraforte</a>, que vem com pés, caçamba e braço separados.</p>
     <p>A bateria de 2,0 Ah dura o suficiente para uma tarde de reparos, mas não para um dia de obra. Como o kit tem só uma bateria, a recarga precisa acontecer entre uma tarefa e outra. A Electronic Cell Protection, citada pela Bosch, protege a bateria da subtensão e da descarga profunda, o que prolonga a vida útil. Quem faz serviço longo deve olhar o kit com duas baterias, que também aparece na Amazon.</p>
 
     <div class="buy-btn">

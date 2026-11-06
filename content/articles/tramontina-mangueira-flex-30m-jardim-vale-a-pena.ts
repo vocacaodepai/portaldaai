@@ -83,7 +83,7 @@ export const article: Article = {
 
     <h2>Prós e contras na prática</h2>
     <p>O ponto alto é o custo-benefício: três camadas, 30 metros e esguicho por um valor de mercado baixo, de uma marca que tem rede de assistência no país. A nota da listagem na Amazon, em torno de 4,7 de 5 com mais de 20 mil avaliações, indica que a maioria dos compradores está satisfeita, e a mangueira é uma das mais buscadas da categoria.</p>
-    <p>Os pontos de atenção são o peso, a garantia e o sol. Com 30 metros, a mangueira passa de 4 kg e é cansativa de enrolar à mão. A garantia é de 90 dias, que é a garantia legal contra vício ou defeito de fabricação, e a Tramontina pede para não deixar a mangueira exposta ao sol depois do uso, porque o PVC ressecado e quente racha com o tempo. Quem tem quintal sem sombra precisa recolher a mangueira após cada uso.</p>
+    <p>Os pontos de atenção são o peso, a garantia e o sol. Com 30 metros, a mangueira passa de 4 kg e é cansativa de enrolar à mão. A garantia é de 90 dias, que é a garantia legal contra vício ou defeito de fabricação, e a Tramontina pede para não deixar a mangueira exposta ao sol depois do uso, porque o PVC ressecado e quente racha com o tempo. Quem tem quintal sem sombra precisa recolher a mangueira após cada uso. Depois de carregar terra ou argamassa, ela também serve para lavar a caçamba do <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Tramontina Extraforte</a> antes de guardar, o que evita ferrugem.</p>
 
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076M6GT59?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Tramontina Flex 30 m na Amazon agora ↗</a>

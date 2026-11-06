@@ -3,15 +3,16 @@ import type { Article } from "@/lib/types";
 export const article: Article = {
   slug: "plano-de-negocios-com-ia-canvas-passo-a-passo",
   title: "Plano de negócios com IA: guia do Canvas passo a passo",
-  seoTitle: "Plano de negócios com IA: Canvas passo a passo",
+  seoTitle: "Plano de negócios com IA: Canvas passo a passo e exemplo",
   excerpt:
     "Plano de negócios com IA: use o modelo Canvas de 9 blocos e prompts prontos para organizar sua ideia, testar premissas e montar um rascunho em um dia.",
   metaDescription:
-    "Monte um plano de negócios com IA usando o Canvas de 9 blocos: prompts para cada bloco, exemplo de padaria de bairro, erros comuns e quando validar com clientes.",
+    "Monte um plano de negócios com IA no Canvas de 9 blocos: prompts prontos, exemplo preenchido de padaria, ferramentas grátis para desenhar e erros comuns.",
   category: "negocios",
   articleSubcategory: "lancamento-e-estrategia",
   date: "2026-10-13",
-  readTime: 7,
+  updated: "2026-11-06",
+  readTime: 10,
   imageQuery: "sticky notes whiteboard business planning team",
   coverImage: {
     url: "/images/covers/plano-de-negocios-com-ia-canvas-passo-a-passo.webp",
@@ -81,6 +82,53 @@ Meu diferencial: [DIFERENCIAL]</code></pre>
     <p>Imagine uma pessoa que quer abrir uma padaria artesanal em um bairro residencial e tem R$ 25.000 para investir. Os números a seguir são hipóteses para mostrar o raciocínio, não dados de mercado. No bloco de clientes, ela escreve "famílias e trabalhadores num raio de 1 km", e a IA sugere separar em dois grupos, porque o café da manhã e o lanche da tarde têm horários e ticket diferentes.</p>
 
     <p>Na proposta de valor, "pão fresco duas vezes ao dia com receita própria". Na receita, venda no balcão, encomendas para festas e assinatura semanal de pães. Nos custos, aluguel, farinha e insumos, energia, equipe e embalagem. A IA então aponta uma premissa frágil: "o ticket médio de R$ 18 está certo?". A resposta não vem do chat. Vem de visitar três padarias concorrentes, ver os preços e conversar com 10 moradores. Para ajudar nessa checagem, o texto sobre <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar concorrência com IA</a> mostra como organizar o que você coletar.</p>
+
+    <h3>O Canvas da padaria preenchido</h3>
+
+    <p>Depois de duas rodadas de conversa com a IA e uma semana de visitas, o quadro dela ficou assim. Repare que cada bloco tem um item marcado para confirmar, o que vira a lista de testes da semana seguinte.</p>
+
+    <table>
+      <thead>
+        <tr><th>Bloco</th><th>Rascunho</th><th>O que falta confirmar</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Segmentos de clientes</td><td>Famílias do bairro (café da manhã) e trabalhadores da região (lanche da tarde)</td><td>Qual grupo compra mais por semana</td></tr>
+        <tr><td>Proposta de valor</td><td>Pão fresco duas vezes ao dia, receita própria</td><td>Se o cliente percebe diferença em relação ao mercado</td></tr>
+        <tr><td>Canais</td><td>Balcão, WhatsApp para encomendas, entrega a pé no quarteirão</td><td>Quantos pedidos chegam pelo WhatsApp</td></tr>
+        <tr><td>Relacionamento</td><td>Cartão fidelidade e lista de transmissão com a fornada do dia</td><td>Se as pessoas aceitam entrar na lista</td></tr>
+        <tr><td>Fontes de receita</td><td>Balcão, encomendas para festas, assinatura semanal de pães</td><td>Ticket médio de R$ 18</td></tr>
+        <tr><td>Recursos-chave</td><td>Forno, ponto com vitrine, receita, 2 pessoas na produção</td><td>Custo do forno usado x novo</td></tr>
+        <tr><td>Atividades-chave</td><td>Duas fornadas por dia, compra de insumos, atendimento</td><td>Quantas horas de trabalho isso exige</td></tr>
+        <tr><td>Parcerias-chave</td><td>Fornecedor de farinha, café de um torrador local</td><td>Prazo de pagamento dos fornecedores</td></tr>
+        <tr><td>Estrutura de custos</td><td>Aluguel, insumos, energia do forno, equipe, embalagem</td><td>Conta de energia com o forno ligado</td></tr>
+      </tbody>
+    </table>
+
+    <p>O prompt que transforma a coluna da direita em plano de testes é curto:</p>
+
+    <pre><code>Abaixo está meu Business Model Canvas com uma coluna "o que falta confirmar". Para cada item dessa coluna, sugira um teste que eu consiga fazer em até 7 dias, gastando menos de R$ 200, e diga qual resultado me faria mudar o bloco. Organize em uma tabela com: item, teste, custo estimado, sinal de que a premissa está errada.
+
+[COLE O CANVAS]</code></pre>
+
+    <h2>Onde desenhar o Canvas de graça</h2>
+
+    <p>Papel e post-it resolvem a primeira versão, mas um quadro digital facilita guardar versões e dividir com sócio. O <a href="https://blog.rn.sebrae.com.br/plano-de-negocios-canvas/" target="_blank" rel="noopener noreferrer">mesmo guia do Sebrae RN</a> lista quatro opções: o Canvanizer, que funciona no navegador sem cadastro; o Miro, quadro colaborativo com modelos prontos de Business Model Canvas e Lean Canvas; a Strategyzer, plataforma dos criadores do método; e o Lean Canvas, da Leanstack, adaptado para startups e focado em problema, solução e métricas.</p>
+
+    <p>A <a href="https://www.strategyzer.com/library/the-business-model-canvas" target="_blank" rel="noopener noreferrer">página oficial da Strategyzer</a> oferece o modelo para baixar e compartilhar com a equipe e lembra que o quadro vem do livro Business Model Generation. Ela também dá uma leitura útil para a IA: o lado direito do Canvas é o mercado, o lado esquerdo é o que você precisa para atendê-lo, e custos e receitas só se sustentam se os outros sete blocos estiverem certos. Por isso vale preencher os blocos de clientes e proposta de valor antes de pedir qualquer número ao chat.</p>
+
+    <table>
+      <thead>
+        <tr><th>Ferramenta</th><th>Bom para</th><th>Atenção</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Papel e post-it</td><td>Primeira versão, conversa com sócio</td><td>Difícil guardar histórico</td></tr>
+        <tr><td>Canvanizer</td><td>Rascunho rápido no navegador</td><td>Recursos simples</td></tr>
+        <tr><td>Miro</td><td>Trabalho em equipe a distância</td><td>Confira o que o plano gratuito permite</td></tr>
+        <tr><td>Lean Canvas</td><td>Produto novo ou startup</td><td>Troca blocos do modelo original</td></tr>
+      </tbody>
+    </table>
+
+    <p>Se o seu negócio é um produto novo, em fase de testar se alguém compra, o Lean Canvas costuma encaixar melhor, e o guia de <a href="/artigos/testar-demanda-antes-de-lancar-com-google-trends-formulario-e-ia">testar demanda antes de lançar</a> mostra como medir interesse real. Para negócio local com cliente conhecido, o Canvas original funciona bem.</p>
 
     <h2>Do Canvas ao plano financeiro</h2>
 
