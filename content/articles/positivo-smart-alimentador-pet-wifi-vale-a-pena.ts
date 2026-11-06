@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "alimentador-pet",
   productScore: 7.6,
   date: "2026-10-24",
+  updated: "2026-11-06",
   readTime: 8,
   imageQuery: "automatic pet feeder dry food bowl",
   seed: 623,
@@ -28,7 +29,7 @@ export const article: Article = {
   keyPoints: [
     "O Smart Alimentador Pet Wi-Fi da Positivo tem reservatório de 4 L, até 10 refeições por dia, app com agendamento e histórico, gravação de voz de 30 segundos e compatibilidade com Alexa e Google Assistente.",
     "Se a energia cai, as programações continuam com 3 pilhas D (não incluídas), e o sensor infravermelho avisa quando a ração acaba ou a saída entope.",
-    "É um modelo simples: só 2,4 GHz, sem câmera, só ração seca, e as fontes divergem no tamanho máximo do grão, então vale conferir a ração antes de comprar.",
+    "É um modelo simples: só 2,4 GHz, sem câmera, só ração seca, e as fontes divergem no tamanho mínimo do grão, então vale conferir a ração antes de comprar.",
   ],
   review: {
     tool: "Positivo Smart Alimentador Pet Wi-Fi 4L",
@@ -49,7 +50,7 @@ export const article: Article = {
     ],
     cons: [
       "Só conecta em Wi-Fi 2,4 GHz e não tem câmera nem balança",
-      "Serve só para ração seca, e as fontes divergem no tamanho máximo do grão",
+      "Serve só para ração seca, e as fontes divergem no tamanho mínimo do grão",
       "As 3 pilhas D do backup não vêm na caixa",
       "Limite de 10 refeições por dia e reservatório de 4 L, curto para cães grandes ou vários animais",
       "Faixa de preço bem aberta entre lojas, o que exige comparar antes de comprar",
@@ -65,7 +66,7 @@ export const article: Article = {
     <p>O alimentador automático Wi-Fi da Positivo é um dispensador de ração seca de 4 litros que libera porções em horários programados pelo celular. Serve bem para quem tem um gato ou um cão de porte pequeno a médio e quer manter a rotina de comida mesmo fora de casa, e serve menos para quem tem cão grande, vários animais ou quer ver o pet por câmera. Analisamos a <a href="https://www.positivocasainteligente.com.br/smart-alimentador-pet-wi-fi/p" rel="noopener noreferrer nofollow">página oficial da Positivo Casa Inteligente</a> e o anúncio da Amazon Brasil, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>O que é e o que vem na caixa</h2>
@@ -77,7 +78,7 @@ export const article: Article = {
     <p>Há ainda a gravação de voz de até 30 segundos, tocada a cada porção, que serve para chamar o bichinho para comer, e a compatibilidade com Alexa e Google Assistente. Quem já usa outros itens da marca, como a <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">tomada inteligente Positivo</a>, tem tudo no mesmo aplicativo.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Backup, sensores e segurança</h2>
@@ -93,7 +94,7 @@ export const article: Article = {
     <p>Os pontos de atenção são a falta de câmera, a conexão só em 2,4 GHz, o reservatório de 4 litros e as pilhas que não vêm na caixa. Se o seu roteador separa as redes, o pareamento exige estar na faixa de 2,4 GHz, e quem tem sinal fraco no cantinho do pet pode precisar de um <a href="/artigos/repetidor-wifi-tp-link-comparativo-re200-re305-wa850re">repetidor de Wi-Fi</a>. O <a href="/artigos/melhor-roteador-wifi-6-comparativo-2026">comparativo de roteadores Wi-Fi 6</a> mostra como organizar as duas faixas.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -101,23 +102,40 @@ export const article: Article = {
     <p>Não é a melhor escolha para quem tem cão grande ou de grão fora da faixa, para quem tem vários animais em casa ou para quem quer câmera embutida no próprio alimentador. Em viagens longas, o ideal é combinar com alguém que passe em casa, porque nenhum alimentador substitui a conferência de água e saúde do animal. O texto sobre <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">assistente de voz</a> ajuda a integrar o aparelho às rotinas da casa.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Como configurar e conservar</h2>
     <p>O pareamento segue o passo a passo do app: ligue o alimentador, conecte o celular à rede de 2,4 GHz e adicione o dispositivo. Para limpar, a orientação da Positivo é girar o reservatório e usar um pano úmido, e a tigela de inox pode ser lavada com água e detergente neutro. Troque a sílica gel quando ela perder a eficácia e mantenha o reservatório seco.</p>
     <p>Coloque o aparelho em piso plano, longe de tomadas molhadas, e deixe o cabo fora do alcance do pet. Se a casa tem lâmpadas conectadas, a <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">lâmpada inteligente</a> e a <a href="/artigos/tp-link-tapo-d210-campainha-vale-a-pena">campainha de vídeo Tapo</a> usam a mesma rede e se beneficiam do mesmo repetidor.</p>
 
+    <h2>Checklist antes de viajar e deixar o pet com o alimentador</h2>
+    <p>O alimentador resolve a ração, mas uma viagem de fim de semana pede preparo. Esta lista junta o que a ficha da Positivo deixa claro (pilhas fora da caixa, só 2,4 GHz, só ração seca) com o cuidado básico de qualquer tutor:</p>
+    <ul class="checklist">
+      <li>Coloque 3 pilhas D novas no compartimento de backup, porque elas não vêm na embalagem. Um <a href="/artigos/pilha-alcalina-aa-shopee-duracell-ou-elgin-comparativo">comparativo de pilhas alcalinas</a> ajuda a escolher marca, mas confira que o tamanho é D, não AA.</li>
+      <li>Rode a programação por dois ou três dias com você em casa, para ver se a porção configurada é a que o animal come e se o grão da ração não entope a saída.</li>
+      <li>Grave a mensagem de voz (até 30 segundos) com antecedência e veja se o pet atende ao chamado.</li>
+      <li>Encha o reservatório de 4 L e confira no histórico do app se as porções estão sendo liberadas.</li>
+      <li>Compartilhe o acesso do app com alguém de confiança, para que essa pessoa receba os avisos de falta de ração ou de obstrução.</li>
+      <li>Deixe água fresca à vontade em outro recipiente, já que o aparelho só cuida da comida. Um <a href="/artigos/chalesco-comedouro-duplo-360-ml-pet-vale-a-pena">comedouro duplo de inox</a> serve para água ao lado do alimentador.</li>
+    </ul>
+    <p>Em viagens mais longas, combine a rotina com uma visita de alguém para conferir água, caixa de areia e saúde do animal. Para gatos, a <a href="/artigos/caixa-areia-gato-shopee-furacao-pet-furba-com-arco-ou-furba-elegance-comparativo">caixa de areia com arco</a> segura melhor a sujeira enquanto você está fora.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
+    </div>
+
     <h2>Variação de preço</h2>
     <p>O alimentador Positivo Wi-Fi costuma variar de R$ 420 a R$ 580, uma faixa aproximada de mercado a partir de lojas, comparadores de preço e do site do fabricante, e não apenas da Amazon. O valor muda com o vendedor e a época, e anúncios de revendedores às vezes passam bem do teto da faixa.</p>
     <p>Em custo-benefício, fica no meio do mercado: custa mais que modelos genéricos de marca desconhecida e menos que alimentadores com câmera, e a diferença paga garantia de 12 meses e suporte de uma marca nacional. O preço do dia aparece ao clicar no botão de compra.</p>
+    <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Como avaliamos e ficha técnica</h2>
-    <p>A nota de 7,6 cruza a ficha técnica oficial da Positivo com o anúncio da Amazon Brasil e informações de lojas, sem teste físico nosso. Pesamos recursos e programação, segurança e contingência, compatibilidade de ração, limpeza e custo-benefício, e a nota menor em compatibilidade, por causa da divergência de tamanho de grão entre fontes, é o que segura a média.</p>
+    <p>A nota de 7,6 cruza a ficha técnica oficial da Positivo com o anúncio da Amazon Brasil e informações de lojas, sem teste físico nosso. No anúncio da Amazon Brasil, o alimentador soma 288 avaliações, com nota média de 4,6 de 5, volume que já dá uma boa ideia da experiência de compradores. Pesamos recursos e programação, segurança e contingência, compatibilidade de ração, limpeza e custo-benefício, e a nota menor em compatibilidade, por causa da divergência de tamanho de grão entre fontes, é o que segura a média.</p>
 
     <h3>Ficha técnica resumida</h3>
     <ul>
@@ -125,12 +143,13 @@ export const article: Article = {
       <li>Conexão: Wi-Fi 2,4 GHz (IEEE 802.11b/g/n), app Positivo Casa Inteligente, Alexa e Google Assistente</li>
       <li>Refeições: até 10 por dia, até 20 porções por refeição, gravação de voz de 30 segundos</li>
       <li>Energia: fonte 100 a 240 V (saída 5 V) e backup com 3 pilhas D, não inclusas</li>
+      <li>Segurança da rede: WEP_PSK e WPA2_AES_PSK; temperatura de operação informada de -30 °C a 50 °C</li>
       <li>Sensor infravermelho de falta de comida e obstrução, tigela de aço inox, corpo em plástico ABS</li>
       <li>Certificações: Anatel e Inmetro. Garantia: 12 meses</li>
     </ul>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Positivo Smart Alimentador Pet na Amazon agora ↗</a>
+      <a href="https://www.amazon.com.br/dp/B0CQDCYSYB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
   `,
   faq: [

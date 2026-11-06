@@ -100,7 +100,7 @@ export const article: Article = {
     </div>
 
     <h2>Instalação, app e privacidade</h2>
-    <p>As duas câmeras pedem wi-fi 2,4 GHz (não funcionam em rede só 5 GHz) e configuração pelo celular em poucos minutos. A Tapo usa o aplicativo Tapo, a Xiaomi usa o Mi Home, ambos com histórico de eventos e notificação push. Em termos de privacidade, nenhuma das duas grava se a função estiver desligada no app, e o acesso de terceiros depende de senha forte na conta cadastrada: o mesmo cuidado básico que vale para qualquer <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">dispositivo conectado que coleta dado sobre sua rotina</a>.</p>
+    <p>As duas câmeras pedem wi-fi 2,4 GHz (não funcionam em rede só 5 GHz) e configuração pelo celular em poucos minutos. A Tapo usa o aplicativo Tapo, a Xiaomi usa o Mi Home, ambos com histórico de eventos e notificação push. Em termos de privacidade, nenhuma das duas grava se a função estiver desligada no app, e o acesso de terceiros depende de senha forte na conta cadastrada: o mesmo cuidado básico que vale para qualquer <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">dispositivo conectado que coleta dado sobre sua rotina</a>. Quem compra a câmera para ver o pet durante o dia costuma combinar com um <a href="/artigos/positivo-smart-alimentador-pet-wifi-vale-a-pena">alimentador automático Wi-Fi</a>, que também pede rede de 2,4 GHz.</p>
     <p>Se a câmera vai ficar voltada para área comum de condomínio ou calçada, vale avisar vizinhos e checar a legislação local sobre gravação de espaço compartilhado antes de instalar.</p>
 
     <div class="buy-btn">

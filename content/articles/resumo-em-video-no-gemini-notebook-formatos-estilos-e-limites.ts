@@ -74,7 +74,7 @@ export const article: Article = {
       <li>Use Ver comando personalizado para conferir o que foi usado na geração e ajustar na próxima tentativa.</li>
     </ol>
 
-    <p>Dica de qualidade: poucas fontes boas rendem mais que muitas fontes soltas. Se o material for um PDF longo, o guia de <a href="/artigos/como-usar-ia-para-resumir-pdfs-artigos-e-textos-longos">resumir PDFs e textos longos com IA</a> mostra como preparar o conteúdo antes de enviar.</p>
+    <p>Dica de qualidade: poucas fontes boas rendem mais que muitas fontes soltas. Se o material for um PDF longo, o guia de <a href="/artigos/como-usar-ia-para-resumir-pdfs-artigos-e-textos-longos">resumir PDFs e textos longos com IA</a> mostra como preparar o conteúdo antes de enviar. Para juntar as fontes no caderno sem abrir outra aba, dá para usar o <a href="/artigos/gemini-notebook-no-app-gemini-como-criar-e-consultar-cadernos-por-conversa">Gemini Notebook direto no chat do Gemini</a>.</p>
 
     <h2>Limites por plano: quantos vídeos por dia</h2>
 

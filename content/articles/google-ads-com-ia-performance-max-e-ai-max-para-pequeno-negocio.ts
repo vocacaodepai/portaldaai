@@ -41,7 +41,7 @@ export const article: Article = {
 
     <h3>Em uma frase</h3>
 
-    <p>Performance Max é uma campanha nova, de vários canais. AI Max é um recurso extra ligado à campanha de Pesquisa, que mostra anúncio para quem digita algo no Google. Para entender como a pessoa chega até a sua empresa antes do anúncio, vale ver também o guia de <a href="/artigos/perfil-da-empresa-no-google-com-ia-respostas-fotos-e-posts">Perfil da Empresa no Google com IA</a>.</p>
+    <p>Performance Max é uma campanha nova, de vários canais. AI Max é um recurso extra ligado à campanha de Pesquisa, que mostra anúncio para quem digita algo no Google. Para entender como a pessoa chega até a sua empresa antes do anúncio, vale ver também o guia de <a href="/artigos/perfil-da-empresa-no-google-com-ia-respostas-fotos-e-posts">Perfil da Empresa no Google com IA</a>. Se o seu público está mais no celular rolando o feed do que pesquisando, compare com o guia de <a href="/artigos/anuncios-no-instagram-e-facebook-para-pequeno-negocio-orcamento-publico-e-teste">anúncios no Instagram e no Facebook com pouco orçamento</a>.</p>
 
     <h2>Qual escolher primeiro no pequeno negócio</h2>
 

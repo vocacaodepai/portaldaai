@@ -39,7 +39,7 @@ export const article: Article = {
 
     <p>Negócio novo não nasce de ideia; nasce de dor com orçamento. A pergunta que funciona é: qual tarefa chata, repetitiva ou cara alguém já paga para não fazer, ainda que mal? Contador que responde as mesmas 30 dúvidas por mês. Loja que atrasa a resposta no WhatsApp e perde venda. Clínica que não posta há três semanas. A IA resolve exatamente esse tipo de tarefa, e o cliente já sabe quanto ela custa.</p>
 
-    <p>Use o assistente para mapear o mercado antes de se apaixonar pela ideia. O guia de <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como levantar quem já vende algo parecido, a que preço e com quais reclamações. Reclamação de cliente do concorrente é o melhor briefing que existe.</p>
+    <p>Use o assistente para mapear o mercado antes de se apaixonar pela ideia. O guia de <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como levantar quem já vende algo parecido, a que preço e com quais reclamações. Reclamação de cliente do concorrente é o melhor briefing que existe. Para juntar o que você levantou numa página só, o <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">guia do Business Model Canvas com IA</a> organiza cliente, oferta, canais e custos.</p>
 
     <p>Um prompt para começar:</p>
 
