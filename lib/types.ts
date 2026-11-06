@@ -353,6 +353,9 @@ export const productSubcategories = [
   { slug: "chuveiro-eletrico", label: "Chuveiro Elétrico", category: "casa-utilidades" },
   { slug: "fralda-descartavel", label: "Fralda Descartável", category: "saude-bem-estar" },
   { slug: "racao-seca-gato", label: "Ração Seca para Gatos", category: "pet" },
+  { slug: "climatizador", label: "Climatizador de Ar", category: "casa-inteligente" },
+  { slug: "modelador-cachos", label: "Modelador de Cachos", category: "saude-bem-estar" },
+  { slug: "nivel-laser", label: "Nível a Laser", category: "ferramentas-casa" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
