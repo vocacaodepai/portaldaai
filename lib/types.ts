@@ -359,6 +359,9 @@ export const productSubcategories = [
   { slug: "repelente-eletrico", label: "Repelente Elétrico", category: "casa-utilidades" },
   { slug: "protetor-solar", label: "Protetor Solar", category: "saude-bem-estar" },
   { slug: "travesseiro", label: "Travesseiro", category: "casa-utilidades" },
+  { slug: "headset-escritorio", label: "Headset para Home Office", category: "escritorio" },
+  { slug: "combo-teclado-mouse", label: "Combo Teclado e Mouse", category: "informatica" },
+  { slug: "fechadura-eletrica", label: "Fechadura Elétrica", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
