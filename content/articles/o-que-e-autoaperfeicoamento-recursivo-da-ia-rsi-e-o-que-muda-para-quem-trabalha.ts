@@ -11,6 +11,7 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "tecnologia-emergente",
   date: "2026-11-03",
+  updated: "2026-11-07",
   readTime: 7,
   imageQuery: "circuit board glowing blue closeup",
   coverImage: {
@@ -58,6 +59,20 @@ export const article: Article = {
     <p>A reportagem lembra que um S-1 é ao mesmo tempo documento regulatório e peça de marketing, então dizer que se está perto de uma IA que constrói a si mesma pode ser também uma forma de valorizar a empresa. A mesma jornalista observa que as capacidades do Claude, sobretudo em código, matemática e segurança digital, melhoraram bastante no ano, o que dá algum peso à afirmação. As duas leituras convivem, e não dá para decidir entre elas com base em uma frase de risco.</p>
 
     <p>Para o leitor, a postura útil é a de quem lê com atenção: <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">checar a resposta de uma IA</a> exige o mesmo cuidado que checar um anúncio de empresa sobre a própria IA.</p>
+
+    <h2>O que o Google diz sobre o mesmo tema</h2>
+
+    <p>A Anthropic não é a única a falar de RSI. Em outubro, o cofundador do Google Sergey Brin disse numa mesa-redonda sobre o Gemini 4 Argon que a empresa está "começando a subir na esteira" do autoaperfeiçoamento recursivo, segundo o <a href="https://thenextweb.com/news/sergey-brin-gemini-recursive-self-improvement-safety-report" target="_blank" rel="noopener noreferrer">The Next Web</a>, que partiu de reportagem da Business Insider. A cobertura completa está na notícia <a href="/noticias/google-brin-gemini-ajuda-construir-proximo-gemini-relatorio-seguranca">Brin diz que o Gemini já ajuda a construir o próximo Gemini</a>.</p>
+
+    <p>O relatório de segurança do mesmo modelo, publicado pelo Google DeepMind, puxa para o outro lado. Segundo a reportagem, ele não encontrou aceleração significativa de ponta a ponta da pesquisa de IA e classifica como "atualmente baixo" o risco de a IA conduzir a pesquisa de IA. Os números ajudam a ver o estágio real:</p>
+
+    <ul>
+      <li>Mais de 75% do código de produção no Google DeepMind já é escrito por IA.</li>
+      <li>A fatia de pull requests (propostas de mudança de código) totalmente delegados à IA subiu de 7,5% em abril para 11,9% em setembro.</li>
+      <li>Cerca de 88% ainda pedem orientação humana repetida ou código escrito por pessoas.</li>
+    </ul>
+
+    <p>O retrato é de assistência intensa com gente no comando, não de máquina se construindo sozinha. Na política, a pressão cresce: nos Estados Unidos, o senador Bernie Sanders e o deputado Greg Casar apresentaram um <a href="/noticias/sanders-casar-projeto-lei-banir-superinteligencia-ia">projeto de lei para banir a superinteligência</a>. Para quem lê de fora, a lição é comparar o que cada empresa diz com os números que ela mesma publica.</p>
 
     <h2>O que muda para quem trabalha</h2>
 
@@ -121,6 +136,11 @@ export const article: Article = {
       question: "O que uma pessoa comum pode fazer a respeito?",
       answer:
         "Aprender a delegar e revisar tarefas com IA, acompanhar dados concretos de mercado e de regulação e não tomar decisões de carreira por uma única notícia. Medir quanto tempo a IA economiza em uma tarefa sua é um bom começo.",
+    },
+    {
+      question: "O Google também fala em autoaperfeiçoamento recursivo?",
+      answer:
+        "Sim. Segundo o The Next Web, Sergey Brin disse que o Google está começando a entrar nesse ciclo. O relatório de segurança do Gemini 4 Argon, porém, classifica o risco como atualmente baixo e mostra que cerca de 88% das mudanças de código ainda dependem de orientação humana.",
     },
   ],
 };

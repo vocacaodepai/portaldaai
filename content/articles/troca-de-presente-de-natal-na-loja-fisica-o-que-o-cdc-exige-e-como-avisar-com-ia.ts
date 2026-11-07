@@ -31,7 +31,7 @@ export const article: Article = {
   content: `
     <p>Na loja física, a troca de presente por gosto, cor ou tamanho não é obrigatória pelo Código de Defesa do Consumidor, mas vira obrigação quando a loja promete a troca na hora da venda. Produto com defeito tem regra própria, com prazos de 30 e 90 dias. Por isso, a política de troca precisa estar escrita e visível antes do Natal.</p>
 
-    <p>Dezembro concentra vendas de presente, e janeiro concentra as trocas. Uma regra clara evita fila, discussão no balcão e reclamação pública. Este guia resume o que a lei e o Procon-SP dizem, mostra como montar a política de troca da sua loja, como comunicar em cartaz, etiqueta e WhatsApp com ajuda de IA e quais erros mais geram conflito.</p>
+    <p>Dezembro concentra vendas de presente, e janeiro concentra as trocas. Uma regra clara evita fila, discussão no balcão e reclamação pública. Este guia resume o que a lei e o Procon-SP dizem, mostra como montar a política de troca da sua loja, como comunicar em cartaz, etiqueta e WhatsApp com ajuda de IA e quais erros mais geram conflito. Quem vende kits deve decidir antes se a troca vale para o kit inteiro ou por item; a montagem e o preço desses kits estão no guia de <a href="/artigos/kits-de-presente-de-natal-na-loja-pequena-montar-precificar-e-divulgar-com-ia">kits de presente de Natal</a>.</p>
 
     <h2>Quando a troca é obrigatória</h2>
 

@@ -11,7 +11,8 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "vendas-e-marketing",
   date: "2026-11-04",
-  readTime: 6,
+  updated: "2026-11-07",
+  readTime: 8,
   imageQuery: "christmas gift basket shop shelf",
   seed: 1120,
   kind: "guia",
@@ -105,6 +106,16 @@ Não use "o melhor", "imperdível" ou promessas de efeito na pele.</code></pre>
 
     <p>A parceria com vizinhos é uma das sugestões do Sebrae e cabe bem aqui; o guia de <a href="/artigos/parceria-com-negocios-do-bairro-indicacao-cruzada-e-mensagens-com-ia">parceria com negócios do bairro</a> mostra como propor a parceria e indicar clientes um ao outro.</p>
 
+    <h2>Passo 6: encomendas pelo WhatsApp e prazo até o dia 24</h2>
+
+    <p>No Natal, boa parte dos pedidos de kit chega por mensagem, e o risco é perder encomenda no meio da conversa. Cadastre os três kits no catálogo do WhatsApp Business, com foto, itens e preço, e use uma etiqueta para cada etapa: pedido, pago, montado, entregue. O guia de <a href="/artigos/whatsapp-business-para-pequeno-negocio-catalogo-etiquetas-e-respostas">WhatsApp Business para pequeno negócio</a> mostra como montar catálogo e respostas rápidas.</p>
+
+    <p>Defina e divulgue uma data limite de encomenda que caiba na sua capacidade de montar e entregar. Num exemplo hipotético, uma loja que monta 15 kits por dia e recebe 90 encomendas precisa de seis dias só de montagem, sem contar o atendimento no balcão. A IA ajuda a escrever o aviso:</p>
+
+    <pre><code>Escreva uma mensagem curta de WhatsApp para clientes da loja [nome], avisando que as encomendas de kits de Natal vão até [data] e que a retirada na loja vai até [data e horário]. Liste os 3 kits com o preço de cada um: [kit e preço]. Tom simpático, sem pressão, até 70 palavras.</code></pre>
+
+    <p>Mande só para quem aceitou receber mensagens da loja, como explica o guia de <a href="/artigos/campanha-de-whatsapp-opt-in-lista-e-mensagens-com-ia-sem-risco-de-banimento">campanha de WhatsApp com opt-in</a>. Se a loja vai abrir em horário estendido, avise também no perfil do Google, como mostra o guia de <a href="/artigos/horario-especial-de-fim-de-ano-no-google-feriados-aviso-aos-clientes-e-mensagens-com-ia">horário especial de fim de ano</a>. E, se o volume pedir reforço, veja as regras para contratar <a href="/artigos/trabalhador-temporario-no-natal-contrato-prazo-e-escala-com-ia-no-pequeno-comercio">trabalhador temporário no Natal</a>.</p>
+
     <h2>Erros comuns</h2>
 
     <p>O primeiro é colocar no kit só o que está encalhado. O cliente percebe e o kit não sai. O segundo é esquecer o custo da embalagem e do tempo de montagem, que, somados, podem comer boa parte da margem. O terceiro é anunciar "kit" sem listar os itens, o que fere o dever de informação do CDC e gera reclamação na entrega.</p>
@@ -135,6 +146,11 @@ Não use "o melhor", "imperdível" ou promessas de efeito na pele.</code></pre>
       question: "Como a IA ajuda a montar kits de Natal?",
       answer:
         "Ela cruza o estoque com as faixas de preço, sugere combinações que aproveitam itens parados, simula o custo de cada kit e escreve descrições e posts. As contas devem ser conferidas na planilha.",
+    },
+    {
+      question: "Até quando aceitar encomenda de kit de Natal?",
+      answer:
+        "Depende da sua capacidade de montar e entregar. Conte quantos kits a equipe monta por dia, some o tempo de entrega e marque a data limite com folga antes do dia 24. Divulgue essa data no catálogo do WhatsApp, no Instagram e no balcão, e ofereça retirada na loja para quem compra em cima da hora.",
     },
   ],
   quiz: [

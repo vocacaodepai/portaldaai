@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "conteudo-e-midia",
   date: "2026-11-06",
+  updated: "2026-11-07",
   readTime: 8,
   imageQuery: "youtuber filming product review",
   seed: 1140,
@@ -141,6 +142,11 @@ export const article: Article = {
       question: "Canal infantil ou de música pode entrar no programa?",
       answer:
         "Não. Segundo a Central de Ajuda do YouTube, o canal não pode ter o público definido como conteúdo para crianças nem muitos vídeos para esse público, e não pode ser canal de música, canal oficial de artista ou ligado a gravadoras, distribuidoras, editoras ou VEVO.",
+    },
+    {
+      question: "Preciso avisar que o vídeo tem produto marcado com comissão?",
+      answer:
+        "Sim, quando houver acordo comercial. A política do YouTube sobre inserções pagas e endossos pede que você marque a caixa de promoção paga, e no Brasil o guia do Conar de 2026 trata link de afiliado como publicidade, que precisa ser identificada de forma clara para quem assiste.",
     },
   ],
 };

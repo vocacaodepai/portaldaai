@@ -11,7 +11,8 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "tecnologia-emergente",
   date: "2026-11-05",
-  readTime: 8,
+  updated: "2026-11-07",
+  readTime: 9,
   imageQuery: "robot arm virtual simulation screen",
   seed: 1135,
   kind: "guia",
@@ -85,6 +86,28 @@ export const article: Article = {
 
     <p>O ganho está em chegar a um protótipo apresentável em duas semanas, não em dispensar o artista: ele continua necessário para corrigir o que a IA inventou e para garantir fidelidade histórica. Antes de usar, a equipe precisa conferir os termos de uso e o plano da ferramenta na página oficial, porque limites e licença comercial mudam.</p>
 
+    <h2>Termos que aparecem nas notícias sobre modelos de mundo</h2>
+
+    <p>As reportagens sobre o assunto misturam vocabulário de jogos, animação 3D e robótica. Este glossário curto ajuda a ler sem travar.</p>
+
+    <table>
+      <thead>
+        <tr><th>Termo</th><th>O que quer dizer</th><th>Onde aparece</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Consistência</td><td>O mundo continua igual quando você vira a câmera e volta</td><td>Genie 3 e Genie 4</td></tr>
+        <tr><td>Evento de mundo</td><td>Comando de texto que muda a cena em tempo real, como trocar o clima</td><td>Genie 3</td></tr>
+        <tr><td>Gaussian splats</td><td>Cena 3D formada por muitas partículas semitransparentes, a forma de maior fidelidade</td><td>Marble</td></tr>
+        <tr><td>Malha (mesh)</td><td>Superfície de triângulos que programas 3D e motores de jogo entendem</td><td>Marble</td></tr>
+        <tr><td>Malha de colisão</td><td>Versão simplificada, usada só para física básica</td><td>Marble</td></tr>
+        <tr><td>Dados sintéticos</td><td>Imagens e vídeos gerados para treinar robôs e carros em situações raras</td><td>Cosmos</td></tr>
+      </tbody>
+    </table>
+
+    <p>Os termos do Marble vêm do <a href="https://www.worldlabs.ai/blog/marble-world-model" target="_blank" rel="noopener noreferrer">anúncio da World Labs</a>, que descreve a exportação dos mundos como Gaussian splats, malhas ou vídeo e separa as malhas de colisão, de baixa fidelidade, das malhas de alta qualidade. Na prática, isso define o uso: os splats servem para ver a cena no navegador, e a malha leva o cenário para um motor de jogo ou programa 3D.</p>
+
+    <p>Para quem trabalha com vídeo, a comparação útil é com geradores como o <a href="/artigos/sora-2-da-openai-precos-limites-como-usar">Sora 2</a>, que entregam um clipe fechado, sem mundo para explorar. O modelo de mundo devolve um espaço, e o vídeo é só uma das formas de exportar o que foi criado nele.</p>
+
     <h2>Limites e riscos que ainda pesam</h2>
 
     <p>O próprio DeepMind lista as limitações do Genie 3: o leque de ações do agente é restrito, várias personagens independentes interagindo ainda é um problema aberto, lugares reais não saem com precisão geográfica e a interação dura minutos, não horas. Na prática, o mundo gerado parece plausível, mas não é fiel.</p>
@@ -138,6 +161,11 @@ separando o que já existe hoje do que ainda é demonstração de laboratório.<
       question: "Modelos de mundo vão substituir artistas 3D e desenvolvedores de jogos?",
       answer:
         "No estágio atual, não. As ferramentas aceleram protótipos e cenários, mas erram detalhes, física e fidelidade a lugares reais, e a própria indústria reconhece esses limites. O trabalho tende a mudar de construir tudo do zero para dirigir, corrigir e validar o que a IA gera.",
+    },
+    {
+      question: "O que é Gaussian splat?",
+      answer:
+        "É uma forma de representar uma cena 3D como um grande conjunto de partículas semitransparentes. Segundo a World Labs, é a representação de maior fidelidade dos mundos criados no Marble, que também podem ser exportados como malhas para programas 3D e motores de jogo, ou como vídeo.",
     },
   ],
 };

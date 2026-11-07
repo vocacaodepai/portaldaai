@@ -65,7 +65,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Quem divulga links da Amazon deve olhar também as regras do programa, resumidas em <a href="/artigos/programa-de-associados-da-amazon-brasil-com-ia-comissao-regras-e-aviso">associados da Amazon Brasil com IA</a>. E em canais de imagem, como o Pinterest, vale o guia de <a href="/artigos/pinterest-com-ia-trafego-para-blog-e-afiliados-regras-e-rotulo-de-ia">tráfego para blog e afiliados</a>.</p>
+    <p>Quem divulga links da Amazon deve olhar também as regras do programa, resumidas em <a href="/artigos/programa-de-associados-da-amazon-brasil-com-ia-comissao-regras-e-aviso">associados da Amazon Brasil com IA</a>. E em canais de imagem, como o Pinterest, vale o guia de <a href="/artigos/pinterest-com-ia-trafego-para-blog-e-afiliados-regras-e-rotulo-de-ia">tráfego para blog e afiliados</a>. Quem marca produtos nos vídeos encontra requisitos, comissão e regras de divulgação no guia do <a href="/artigos/programa-de-afiliados-do-youtube-shopping-no-brasil-requisitos-comissao-e-ia">YouTube Shopping afiliados</a>.</p>
 
     <h2>E quando o conteúdo é feito com IA</h2>
 

@@ -11,6 +11,7 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "estudos",
   date: "2026-11-03",
+  updated: "2026-11-07",
   readTime: 7,
   imageQuery: "student math notebook phone photo",
   coverImage: {
@@ -74,6 +75,16 @@ export const article: Article = {
     <h3>Problema com tempo</h3>
 
     <p>Exercício: um ônibus sai às 14h40 e a viagem dura 2h35. A que horas chega? Dica: "some primeiro as horas, depois os minutos, e veja se os minutos passam de 60". 14h + 2h = 16h; 40 + 35 = 75 minutos, que são 1h15. Chegada: 17h15. Esse tipo de conta, com base 60, é um dos que mais confunde a própria IA, então refaça sempre.</p>
+
+    <h2>Exercício com gráfico, figura ou tabela</h2>
+
+    <p>Geometria, gráfico de função e tabela de dados são os casos em que a leitura da foto mais falha. A IA precisa entender medidas, ângulos e eixos, e um rótulo pequeno ou uma linha torta na figura vira outro problema. Antes de pedir qualquer dica, faça a IA descrever a figura com as próprias palavras.</p>
+
+    <pre><code>Antes de me ajudar, descreva a figura da foto: liste cada medida que aparece, com a unidade, diga onde está o ângulo reto (se houver) e o que mostram os eixos ou as colunas. Não resolva nada. Eu vou conferir sua descrição com a folha e só depois peço a primeira dica.</code></pre>
+
+    <p>Se a descrição tiver um número errado, corrija na conversa ("o lado de baixo mede 12 cm, não 17") antes de seguir. Em figura feita à mão, redesenhe com régua e números grandes; em livro, fotografe de cima, sem inclinar a página, para não distorcer as proporções.</p>
+
+    <p>Um exemplo mostra o tamanho do estrago. Num triângulo retângulo com catetos de 6 cm e 8 cm, a hipotenusa mede 10 cm, porque 36 + 64 = 100. Se a IA ler 9 cm no lugar de 6 cm, a resposta vira cerca de 12 cm, e a conta parece certa, só que de outro exercício. Quem está na reta final do Enem encontra um plano de revisão por área no guia de <a href="/artigos/enem-2026-com-ia-plano-de-estudos-e-redacao-ate-a-prova">Enem 2026 com IA</a>.</p>
 
     <h2>Como conferir se a IA acertou</h2>
 
@@ -140,6 +151,11 @@ export const article: Article = {
       question: "Como saber se aprendi de verdade?",
       answer:
         "Resolva um exercício parecido sozinho, sem IA, no dia seguinte. Se conseguir explicar o caminho em voz alta, aprendeu. Se travar, anote no caderno de erros e repita.",
+    },
+    {
+      question: "A IA entende exercício de geometria pela foto?",
+      answer:
+        "Pode entender, mas figura é o ponto mais frágil da leitura por foto: medidas pequenas, ângulos e rótulos de eixo podem sair trocados. Peça primeiro que a IA descreva a figura, com cada medida e unidade, compare com a folha e corrija o que estiver errado antes de pedir a primeira dica.",
     },
   ],
 };

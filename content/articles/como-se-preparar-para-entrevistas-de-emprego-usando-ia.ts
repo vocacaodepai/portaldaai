@@ -40,7 +40,7 @@ export const article: Article = {
     <p>O Grow with Google, programa de capacitação da própria Google, recomenda usar o Gemini Live para simular uma entrevista em tempo real e receber feedback estruturado sobre as respostas (<a href="https://grow.google/certificates/interview-warmup/" rel="noopener noreferrer">guia de preparação do Grow with Google</a>). A palavra que importa é "simular": o ensaio serve para você falar melhor com suas próprias palavras.</p>
 
     <h2>Passo 1: pesquisar a empresa e a vaga em 20 minutos</h2>
-    <p>Antes de treinar qualquer resposta, cole a descrição da vaga no assistente e peça uma leitura crítica. O objetivo é descobrir o que a empresa realmente quer (às vezes escondido atrás de "perfil dinâmico" e "visão de dono") e quais perguntas essa descrição sugere. Junte com informações públicas: site institucional, página de carreiras, notícias recentes, perfil da liderança no LinkedIn.</p>
+    <p>Antes de treinar qualquer resposta, cole a descrição da vaga no assistente e peça uma leitura crítica. O objetivo é descobrir o que a empresa realmente quer (às vezes escondido atrás de "perfil dinâmico" e "visão de dono") e quais perguntas essa descrição sugere. Junte com informações públicas: site institucional, página de carreiras, notícias recentes, perfil da liderança no LinkedIn. Se o processo incluir um case para fazer em casa, leia antes o guia de <a href="/artigos/teste-pratico-em-processo-seletivo-com-ia-case-para-casa-regras-e-entrega">teste prático em processo seletivo com IA</a>, que mostra como perguntar as regras sobre uso de IA.</p>
     <pre><code>Aqui está a descrição de uma vaga de [cargo] na empresa [nome], do setor [setor]:
 [cole a descrição]
 
