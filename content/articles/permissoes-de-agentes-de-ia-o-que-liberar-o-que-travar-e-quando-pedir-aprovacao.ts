@@ -32,7 +32,7 @@ export const article: Article = {
 
     <p>O projeto de segurança de IA da OWASP descreve esse risco como <a href="https://genai.owasp.org/llmrisk/llm062025-excessive-agency/" target="_blank" rel="noopener noreferrer">agência excessiva</a> (excessive agency): o sistema consegue tomar ações danosas diante de uma saída inesperada, ambígua ou manipulada do modelo. A OWASP aponta três causas: funcionalidade demais, permissões demais e autonomia demais. Repare que nenhuma delas depende de o modelo ser "ruim". Um modelo bom também erra, e um texto malicioso escondido numa página pode tentar desviar o comportamento, como mostra o artigo sobre <a href="/artigos/prompt-injection-risco-de-ia-que-le-paginas-e-emails">prompt injection</a>.</p>
 
-    <p>Por isso o limite precisa estar no acesso, e não só na instrução. Pedir no prompt "não apague nada" é um pedido. Entregar ao agente uma conta que simplesmente não tem permissão de apagar é um controle.</p>
+    <p>Por isso o limite precisa estar no acesso, e não só na instrução. Pedir no prompt "não apague nada" é um pedido. Entregar ao agente uma conta que simplesmente não tem permissão de apagar é um controle. É a mesma lógica da defesa contra <a href="/artigos/injecao-de-prompt-o-que-e-como-funciona-e-como-se-proteger-ao-usar-ia">injeção de prompt</a>, em que ordens escondidas numa página ou num arquivo tentam mandar no agente.</p>
 
     <h2>Privilégio mínimo: dar só o que a tarefa exige</h2>
 

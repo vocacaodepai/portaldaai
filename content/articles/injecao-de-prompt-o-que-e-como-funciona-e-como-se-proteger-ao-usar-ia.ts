@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "conceitos",
   date: "2026-11-06",
-  readTime: 9,
+  updated: "2026-11-07",
+  readTime: 10,
   imageQuery: "hacker laptop warning screen",
   seed: 1139,
   kind: "guia",
@@ -112,6 +113,27 @@ export const article: Article = {
 
     <p>O raciocínio é o mesmo de <a href="/artigos/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes">checar mensagem suspeita com IA</a>: o conteúdo de fora é suspeito até prova em contrário. E vale lembrar do que você entrega sem perceber, tema do texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a>.</p>
 
+    <h2>Mapa rápido: onde a ordem escondida aparece e qual trava usar</h2>
+
+    <p>Nem todo uso de IA tem o mesmo risco. O que pesa é a combinação de duas coisas: a IA lê conteúdo de terceiros e pode agir sem você aprovar. A tabela organiza as situações mais comuns do dia a dia, da mais leve à mais séria.</p>
+
+    <table>
+      <thead>
+        <tr><th>Situação</th><th>O que pode dar errado</th><th>Trava que mais ajuda</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Resumo de página ou PDF no chat</td><td>Resumo distorcido ou link sugerido que você não pediu</td><td>Abrir a fonte original antes de decidir algo importante</td></tr>
+        <tr><td>Assistente com acesso ao e-mail</td><td>Resposta enviada ou dado repassado por ordem escondida numa mensagem</td><td>Rascunho em vez de envio automático</td></tr>
+        <tr><td>Agente no navegador, com contas logadas</td><td>Compra, cadastro ou formulário preenchido sem você querer</td><td>Confirmação antes de pagar, enviar ou salvar</td></tr>
+        <tr><td>Agente com conectores (MCP, Drive, CRM)</td><td>Arquivo copiado, apagado ou compartilhado</td><td>Conta com permissão mínima e registro de ações</td></tr>
+        <tr><td>Triagem de currículos, avaliações ou chamados</td><td>Classificação manipulada por texto invisível</td><td>Conferência humana dos primeiros da lista</td></tr>
+      </tbody>
+    </table>
+
+    <p>Repare que nenhuma trava da coluna da direita depende de a IA perceber o golpe. Entre as medidas que a <a href="https://genai.owasp.org/llmrisk/llm01-prompt-injection/" target="_blank" rel="noopener noreferrer">OWASP</a> lista estão dar ao modelo só o acesso mínimo necessário e exigir aprovação humana para ações de alto risco; o prompt de alerta é só uma camada extra.</p>
+
+    <p>Quem quer aprofundar os casos de navegador e e-mail encontra mais exemplos no guia de <a href="/artigos/prompt-injection-risco-de-ia-que-le-paginas-e-emails">prompt injection em páginas e e-mails</a>, e quem pensa em delegar compras deve ler <a href="/artigos/agentes-de-ia-comprando-por-voce-comercio">agentes de IA comprando por você</a>.</p>
+
     <h2>Erros comuns sobre injeção de prompt</h2>
 
     <h3>"Isso só afeta programador"</h3>
@@ -155,6 +177,11 @@ export const article: Article = {
       question: "Como saber se um site tem instruções escondidas para a IA?",
       answer:
         "A olho nu, quase nunca dá, porque o texto pode estar invisível ou no código da página. Um sinal é o resumo da IA trazer pedidos, links ou recomendações que não combinam com o conteúdo. Peça no prompt que ela trate a página só como informação e avise se encontrar frases dirigidas a uma IA.",
+    },
+    {
+      question: "Pedir para a IA resumir um site é perigoso?",
+      answer:
+        "O risco é baixo quando a IA só resume e você lê antes de agir: no pior caso, o resumo sai distorcido. Ele cresce quando a mesma IA pode enviar mensagens, preencher formulários ou mexer em arquivos. Por isso, abra a fonte original antes de decisões importantes e mantenha a confirmação ligada para ações sensíveis.",
     },
   ],
   quiz: [

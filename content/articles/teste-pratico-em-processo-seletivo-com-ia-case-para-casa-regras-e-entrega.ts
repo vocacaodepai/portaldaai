@@ -11,7 +11,8 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "entrevistas-e-recolocacao",
   date: "2026-11-05",
-  readTime: 8,
+  updated: "2026-11-07",
+  readTime: 9,
   imageQuery: "candidate laptop take home assignment",
   seed: 1134,
   kind: "guia",
@@ -119,6 +120,18 @@ Não reescreva o texto; liste os problemas em tópicos.</code></pre>
 
     <p>Ensaiar em voz alta faz diferença. O guia de <a href="/artigos/ensaiar-apresentacao-com-ia-roteiro-cronometrado-e-perguntas-dificeis">ensaiar apresentação com IA</a> mostra como cronometrar e simular perguntas difíceis. Se a etapa for uma entrevista gravada ou conduzida por software, veja também <a href="/artigos/entrevista-gravada-com-ia-recrutadora-como-se-sair-bem-e-seus-direitos">como se sair bem na entrevista gravada</a>, que traz os seus direitos nesse formato.</p>
 
+    <h2>Depois da entrega: retorno, prazo e o que fazer com o silêncio</h2>
+
+    <p>Entregar o case não encerra a etapa. Confirme o envio no mesmo dia, em uma linha, e, se o recrutador não disse quando dá retorno, pergunte. Isso evita checar o e-mail toda hora e mostra organização.</p>
+
+    <p>Se o prazo combinado passar, espere dois ou três dias úteis e mande uma mensagem curta. A IA ajuda a acertar o tom, desde que você dê o contexto real:</p>
+
+    <pre><code>Escreva uma mensagem curta e cordial para a recrutadora [nome], da empresa [empresa]. Entreguei o teste prático da vaga de [cargo] em [data] e o retorno combinado era até [data]. Quero saber se há novidade e me colocar à disposição para apresentar o case. Até 60 palavras, sem tom de cobrança e sem pedir desculpas.</code></pre>
+
+    <p>Se a resposta for negativa, peça um retorno sobre o case. Nem toda empresa dá, mas quem dá entrega o material mais útil para o próximo processo. Anote o que foi dito e as dúvidas levantadas, e guarde junto com a sua versão do trabalho.</p>
+
+    <p>Com várias candidaturas abertas, uma planilha simples com vaga, data de entrega e status evita perder prazos. O guia de <a href="/artigos/adaptar-curriculo-para-cada-vaga-com-ia-palavras-da-vaga-sem-inventar">adaptar o currículo para cada vaga</a> ajuda a reaproveitar o que você aprendeu em cada processo, e o <a href="/artigos/entrevista-comportamental-metodo-star-com-ia-historias-reais-e-resultados">método STAR com IA</a> organiza as histórias para a entrevista seguinte.</p>
+
     <h2>Erros comuns e sinais de teste abusivo</h2>
 
     <p>Os erros que mais derrubam candidatos neste tipo de etapa são previsíveis, e quase todos têm a ver com perder o controle da própria entrega.</p>
@@ -162,6 +175,11 @@ Não reescreva o texto; liste os problemas em tópicos.</code></pre>
       question: "Devo escrever no case que usei IA?",
       answer:
         "Se a empresa pediu, sim. Se não pediu e liberou o uso, uma nota curta ao fim do documento ajuda: diga em uma ou duas linhas para que usou, como revisão de texto ou checagem de fórmulas. Transparência passa segurança e evita constrangimento se o assunto surgir na entrevista.",
+    },
+    {
+      question: "Posso pedir feedback depois de ser reprovado no teste prático?",
+      answer:
+        "Pode e vale a pena. Mande uma mensagem curta agradecendo a oportunidade e perguntando o que poderia ter sido melhor no case. Nem toda empresa responde, mas quando responde você ganha o material mais útil para o próximo processo. Anote o retorno e guarde junto com a sua versão do trabalho.",
     },
   ],
   quiz: [

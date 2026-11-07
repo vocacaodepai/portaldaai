@@ -34,7 +34,7 @@ export const article: Article = {
 
     <h2>O que a IA consegue (e não consegue) fazer contra golpes</h2>
     <p>A IA é boa em reconhecer padrões de texto. Se você colar uma mensagem que diz "seu CPF será bloqueado hoje, clique para regularizar", ela costuma identificar a urgência, a ameaça e o pedido de clique, três marcas clássicas de golpe. Também explica termos que você não conhece e sugere perguntas para fazer ao suposto remetente.</p>
-    <p>O que ela não faz é saber se aquele link está ativo, se aquela conta bancária pertence a um criminoso ou se o seu primo realmente mudou de número. Assistentes comuns não acessam bancos de dados de fraudes em tempo real e podem errar com muita confiança. O guia sobre <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA</a> explica por que a resposta pode soar certa e estar errada.</p>
+    <p>O que ela não faz é saber se aquele link está ativo, se aquela conta bancária pertence a um criminoso ou se o seu primo realmente mudou de número. Assistentes comuns não acessam bancos de dados de fraudes em tempo real e podem errar com muita confiança. O guia sobre <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA</a> explica por que a resposta pode soar certa e estar errada. Também vale o cuidado inverso: um texto pode trazer ordens escondidas para a própria IA, golpe explicado no guia de <a href="/artigos/injecao-de-prompt-o-que-e-como-funciona-e-como-se-proteger-ao-usar-ia">injeção de prompt</a>.</p>
     <table>
       <thead><tr><th>A IA ajuda a</th><th>A IA não consegue</th></tr></thead>
       <tbody>

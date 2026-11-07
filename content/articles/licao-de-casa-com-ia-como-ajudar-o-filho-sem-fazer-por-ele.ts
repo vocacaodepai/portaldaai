@@ -100,7 +100,7 @@ export const article: Article = {
 
     <p>Considere uma família em Curitiba. Lucas, de 12 anos, trava em porcentagem. A mãe senta ao lado dele, abre o assistente e digita o primeiro prompt, pedindo que ele explique sem dar a resposta. A IA faz uma pergunta sobre um desconto de 20% em uma camiseta de R$ 80. Lucas erra, a IA mostra onde o raciocínio escorregou, e ele refaz. Em 20 minutos, ele resolve três problemas parecidos sozinho.</p>
 
-    <p>No dia seguinte, a mãe pede que ele explique o método para a irmã. Se ele explica, o objetivo foi cumprido. Se trava, voltam ao exemplo. O ganho aqui é de compreensão, não de velocidade. O custo é zero no plano gratuito de muitos assistentes, mas os limites e recursos mudam, então consulte as páginas oficiais. Para escolher qual assistente usar, o guia <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini: qual IA escolher</a> compara as opções.</p>
+    <p>No dia seguinte, a mãe pede que ele explique o método para a irmã. Se ele explica, o objetivo foi cumprido. Se trava, voltam ao exemplo. O ganho aqui é de compreensão, não de velocidade. O custo é zero no plano gratuito de muitos assistentes, mas os limites e recursos mudam, então consulte as páginas oficiais. Para escolher qual assistente usar, o guia <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini: qual IA escolher</a> compara as opções. Para exercícios de matemática fotografados, o guia de <a href="/artigos/matematica-com-ia-foto-do-exercicio-passo-a-passo-e-como-conferir-a-resposta">matemática com IA</a> traz um prompt de dicas em níveis e quatro testes para conferir a conta.</p>
 
     <h2>Erros comuns de pais e alunos</h2>
 
