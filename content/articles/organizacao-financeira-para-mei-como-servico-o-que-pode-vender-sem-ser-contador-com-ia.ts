@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "freelance-servicos",
   date: "2026-11-01",
+  updated: "2026-11-08",
   readTime: 7,
   imageQuery: "freelancer notebook receipts small shop",
   seed: 989,
@@ -52,6 +53,25 @@ export const article: Article = {
     <p>O Portal do Simples Nacional reúne os serviços públicos do MEI, como a geração do DAS mensal (pelo PGMEI) e a declaração anual DASN-SIMEI. Você pode ensinar o cliente a acessá-los e marcar as datas na agenda, mas não deve pedir senha do gov.br dele. Veja a página oficial no <a href="https://www8.receita.fazenda.gov.br/SimplesNacional/" target="_blank" rel="noopener noreferrer">Portal do Simples Nacional</a>.</p>
 
     <p>Para quem emite nota, o guia da <a href="/artigos/nota-fiscal-de-servico-para-mei-nfs-e-nacional-com-ajuda-de-ia">NFS-e para MEI</a> ajuda a orientar o cliente. E a lista de <a href="/artigos/ia-para-mei-tarefas-que-voce-pode-automatizar">tarefas do MEI que a IA automatiza</a> serve como cardápio de extras.</p>
+
+    <h2>Os números do MEI em 2026 que o organizador precisa ter à mão</h2>
+
+    <p>Lembrar o cliente das datas é parte do serviço, e para isso você precisa dos valores do ano. Segundo a <a href="https://www.opovo.com.br/noticias/economia/2026/01/02/amp/contribuicao-mensal-do-mei-sobe-para-rs-8105-em-2026.html" target="_blank" rel="noopener noreferrer">reportagem da Agência Brasil publicada no O Povo</a>, a contribuição do MEI em 2026 acompanha o salário mínimo de R$ 1.621: a parcela do INSS é de R$ 81,05 (5% do mínimo), mais R$ 1 de ICMS para comércio e indústria ou R$ 5 de ISS para serviços. O DAS vence todo dia 20, e o limite de faturamento do MEI comum em 2026 é de R$ 81 mil por ano.</p>
+
+    <table>
+      <thead>
+        <tr><th>Atividade</th><th>DAS mensal em 2026</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Comércio ou indústria</td><td>R$ 82,05</td></tr>
+        <tr><td>Serviços</td><td>R$ 86,05</td></tr>
+        <tr><td>Comércio e serviços</td><td>R$ 87,05</td></tr>
+      </tbody>
+    </table>
+
+    <p>O teto também vai mudar. A Lei Complementar 238 prevê limite transitório de R$ 110 mil em 2027 e de R$ 140 mil a partir de 2028, além de até 2 empregados, como explica o guia sobre <a href="/artigos/mei-com-dois-empregados-e-teto-de-r-140-mil-o-que-muda-com-a-lc-238">MEI com dois empregados e teto de R$ 140 mil</a>. Isso cria um argumento de venda para o seu serviço: o cliente que cresce precisa acompanhar o acumulado do ano mês a mês.</p>
+
+    <p>Uma rotina mensal que cabe no pacote: até o dia 10, fechar os lançamentos do mês anterior; até o dia 15, mandar o resumo com o acumulado do ano e o percentual do limite já usado; até o dia 18, lembrar o cliente de emitir e pagar o DAS antes do vencimento do dia 20. O valor exato da guia é o que aparece no PGMEI, não o da sua tabela, e quem acabou de formalizar encontra o caminho no guia de <a href="/artigos/abrir-mei-passo-a-passo-ocupacao-das-e-primeiros-meses-com-ia">como abrir MEI passo a passo</a>.</p>
 
     <h2>Como a IA entra, com revisão</h2>
 
@@ -120,6 +140,11 @@ Não dê conselho de imposto e não invente números.</code></pre>
     <p>Organize as suas próprias contas por um mês com o modelo que vai vender, e guarde o antes e depois (sem dados reais de ninguém) como amostra. Depois, ofereça a arrumação inicial para dois conhecidos que tenham MEI, por um preço combinado. Para mais ideias, passe pela <a href="/categoria/monetizacao">categoria Monetização</a> do Portal da AI.</p>
   `,
   faq: [
+    {
+      question: "Quanto é o DAS do MEI em 2026?",
+      answer:
+        "Segundo a Agência Brasil, com o salário mínimo de R$ 1.621 o DAS do MEI em 2026 fica em R$ 82,05 para comércio ou indústria, R$ 86,05 para serviços e R$ 87,05 para comércio e serviços, com vencimento todo dia 20. Confira o valor exato da guia no PGMEI antes de pagar.",
+    },
     {
       question: "Preciso ser contador para organizar as finanças de um MEI?",
       answer:

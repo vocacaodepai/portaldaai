@@ -81,7 +81,7 @@ Dados: dia 24 abrimos das 9h às 15h; dia 25 fechado; dia 31 das 9h às 14h;
 dia 1 fechado; voltamos ao horário normal no dia 2.
 Inclua uma frase convidando a comprar os presentes antes do dia 23.</code></pre>
 
-    <p>Revise as datas antes de enviar: a IA acerta o texto, mas o horário vem de você. Para quem recebe mensagem fora do expediente, vale combinar com uma resposta automática, como no texto sobre <a href="/artigos/atendimento-fora-do-horario-mensagem-de-ausencia-e-retorno-organizado-com-ia">atendimento fora do horário</a>.</p>
+    <p>Revise as datas antes de enviar: a IA acerta o texto, mas o horário vem de você. Para quem recebe mensagem fora do expediente, vale combinar com uma resposta automática, como no texto sobre <a href="/artigos/atendimento-fora-do-horario-mensagem-de-ausencia-e-retorno-organizado-com-ia">atendimento fora do horário</a>. Se você prepara esses avisos para outros negócios, o guia de <a href="/artigos/mensagens-e-cartoes-de-fim-de-ano-para-empresas-como-servico-pacote-preco-e-cuidados">mensagens e cartões de fim de ano como serviço</a> mostra como juntar tudo num pacote.</p>
 
     <h2>E se a loja estender o horário na Black Friday?</h2>
 

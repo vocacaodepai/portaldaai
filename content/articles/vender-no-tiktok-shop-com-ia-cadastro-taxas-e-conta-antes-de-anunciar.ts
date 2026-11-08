@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "negocios-online",
   date: "2026-11-03",
+  updated: "2026-11-08",
   readTime: 7,
   imageQuery: "smartphone live selling products table",
   coverImage: {
@@ -24,12 +25,12 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "Guias de mercado de 2026 citam comissão padrão de 6% sobre o preço depois dos descontos e taxa fixa de R$ 2 por item abaixo de R$ 79, mas as fontes divergem em regras de cadastro, então a conferência final é no Seller Center.",
+    "Desde 15/07/2026, segundo guias que citam a Academia do TikTok Shop, itens abaixo de R$ 50 pagam 10% de comissão mais R$ 4 por item, e itens de R$ 50 ou mais pagam 6% mais R$ 6 por item; a conferência final é sempre no Seller Center.",
     "A conta real inclui custo do produto, embalagem, frete, comissão de afiliado (comum entre 8% e 15%, definida pelo vendedor) e devolução em até 30 dias após a entrega.",
     "A IA ajuda em título, descrição, roteiro de vídeo e planilha de margem, mas não substitui checar as regras da plataforma nem o direito de arrependimento do consumidor.",
   ],
   content: `
-    <p>Vender no TikTok Shop significa anunciar produtos dentro do aplicativo, em vídeos, lives e vitrine, e pagar à plataforma uma comissão por venda. Segundo guias de 2026, a comissão padrão é de 6% sobre o preço depois dos descontos do vendedor, com uma taxa fixa de R$ 2 por item abaixo de R$ 79, mais custos de afiliado, frete e devolução.</p>
+    <p>Vender no TikTok Shop significa anunciar produtos dentro do aplicativo, em vídeos, lives e vitrine, e pagar à plataforma uma comissão por venda. Segundo guias que citam a tabela da plataforma em vigor desde 15/07/2026, a comissão é de 10% mais R$ 4 por item nos produtos abaixo de R$ 50 e de 6% mais R$ 6 por item a partir de R$ 50, sempre sobre o preço depois dos descontos do vendedor, mais custos de afiliado, frete e devolução.</p>
 
     <p>Quem está começando costuma olhar só o alcance dos vídeos e esquece de fazer a conta. Este texto mostra o que se sabe sobre cadastro e taxas, um exemplo de margem com números ilustrativos e onde a IA economiza tempo. As informações de taxas vêm de dois guias de mercado abertos em 03/11/2026, o do <a href="https://marketplace.anymarket.com.br/guia-tiktok-shop-seller-comissao-devolucao-beneficios/" target="_blank" rel="noopener noreferrer">AnyMarket</a>, de junho de 2026, e o do <a href="https://www.serasa.com.br/score/blog/vender-no-tiktok-shop/" target="_blank" rel="noopener noreferrer">Serasa</a>, de janeiro de 2026. Nenhum dos dois é da plataforma, então trate os números como referência e confirme no Seller Center antes de decidir.</p>
 
@@ -49,15 +50,17 @@ export const article: Article = {
 
     <h2>Quanto custa vender</h2>
 
-    <p>O AnyMarket descreve a comissão base como 6% sobre o preço do produto depois dos descontos do vendedor, e afirma que vendedores novos podem ficar isentos dela por até 60 dias. Há também uma taxa fixa de R$ 2,00 por item para produtos abaixo de R$ 79,00, cobrada por item e não por pedido. O Serasa traz os mesmos 6% e os R$ 2 para itens abaixo de R$ 79.</p>
+    <p>A tabela de taxas mudou em 15 de julho de 2026. O <a href="https://www.viniensina.com.br/taxas-tiktok-shop/" target="_blank" rel="noopener noreferrer">guia de taxas do Vini Ensina</a> e a <a href="https://economicnewsbrasil.com.br/2026/09/30/taxas-tiktok-shop-black-friday-lojistas/" target="_blank" rel="noopener noreferrer">reportagem do Economic News Brasil de 30/09/2026</a>, ambos baseados na página de tarifas da Academia do TikTok Shop, descrevem a regra atual em duas faixas de preço, calculadas sobre o valor do item depois dos descontos dados pelo próprio vendedor (desconto bancado pela plataforma não entra na conta). Abaixo de R$ 50, a comissão subiu de 6% para 10%, com R$ 4 por item. De R$ 50 para cima, a comissão segue em 6%, mas a taxa por item subiu de R$ 4 para R$ 6.</p>
+
+    <p>Guias publicados antes dessa data, como os do AnyMarket e do Serasa, ainda falam em 6% mais uma taxa fixa menor, e o AnyMarket menciona isenção de comissão de até 60 dias para vendedores novos. Trate esses números como históricos e confirme a tabela e eventuais campanhas de isenção no Seller Center da sua conta.</p>
 
     <table>
       <thead>
         <tr><th>Custo</th><th>Valor citado nas fontes</th><th>Observação</th></tr>
       </thead>
       <tbody>
-        <tr><td>Comissão da plataforma</td><td>6% sobre o preço com desconto</td><td>Isenção de até 60 dias para novos, segundo o AnyMarket</td></tr>
-        <tr><td>Taxa fixa</td><td>R$ 2,00 por item abaixo de R$ 79</td><td>Por item, não por pedido</td></tr>
+        <tr><td>Comissão, item abaixo de R$ 50</td><td>10% mais R$ 4 por item</td><td>Desde 15/07/2026; antes eram 6% mais R$ 4</td></tr>
+        <tr><td>Comissão, item de R$ 50 ou mais</td><td>6% mais R$ 6 por item</td><td>Desde 15/07/2026; antes eram 6% mais R$ 4</td></tr>
         <tr><td>Programa de frete</td><td>Até 6% por pedido, teto de R$ 50 por produto</td><td>Citado pelo AnyMarket a partir da Academia do TikTok Shop</td></tr>
         <tr><td>Comissão de afiliado</td><td>Definida pelo vendedor, comum de 8% a 15%</td><td>Não é taxa oficial da plataforma</td></tr>
       </tbody>
@@ -67,7 +70,7 @@ export const article: Article = {
 
     <h2>Exemplo de conta com números ilustrativos</h2>
 
-    <p>Imagine uma necessaire vendida a R$ 60,00, com custo de R$ 22,00 e embalagem de R$ 3,00. Os números são ilustrativos, não uma promessa de ganho. O AnyMarket usa o mesmo preço no exemplo dele: comissão de 6% dá R$ 3,60, mais R$ 2,00 de taxa fixa, total de R$ 5,60.</p>
+    <p>Imagine uma necessaire vendida a R$ 60,00, com custo de R$ 22,00 e embalagem de R$ 3,00. Os números são ilustrativos, não uma promessa de ganho. Como o preço passa de R$ 50, vale a faixa de 6% mais R$ 6 por item: R$ 3,60 de comissão e R$ 6,00 de taxa, total de R$ 9,60.</p>
 
     <table>
       <thead>
@@ -76,14 +79,16 @@ export const article: Article = {
       <tbody>
         <tr><td>Preço de venda</td><td>R$ 60,00</td></tr>
         <tr><td>Custo do produto e da embalagem</td><td>R$ 25,00</td></tr>
-        <tr><td>Comissão e taxa fixa</td><td>R$ 5,60</td></tr>
+        <tr><td>Comissão e taxa por item</td><td>R$ 9,60</td></tr>
         <tr><td>Afiliado a 10%</td><td>R$ 6,00</td></tr>
         <tr><td>Frete do programa a 6%</td><td>R$ 3,60</td></tr>
-        <tr><td>Sobra antes de imposto e anúncio</td><td>R$ 19,80</td></tr>
+        <tr><td>Sobra antes de imposto e anúncio</td><td>R$ 15,80</td></tr>
       </tbody>
     </table>
 
-    <p>A sobra de R$ 19,80 equivale a cerca de 33% do preço, mas ainda faltam imposto, anúncios e possíveis devoluções. Se o seu produto custar R$ 35, a sobra cai para R$ 9,80 e o vídeo precisa vender muito mais. Para treinar esse cálculo, veja também o texto sobre <a href="/artigos/frete-e-embalagem-no-preco-da-loja-online-calcular-com-ia-sem-perder-margem">frete e embalagem no preço da loja online</a>.</p>
+    <p>A sobra de R$ 15,80 equivale a cerca de 26% do preço, mas ainda faltam imposto, anúncios e possíveis devoluções. Se o seu produto custar R$ 35, a sobra cai para R$ 5,80 e o vídeo precisa vender muito mais.</p>
+
+    <p>Nos itens baratos, o peso da taxa cresce. Um chaveiro de R$ 39,90 cai na faixa de 10% mais R$ 4: são R$ 3,99 de comissão e R$ 4,00 de taxa, cerca de R$ 7,99, ou 20% do preço antes de afiliado e frete. Por isso, quem vende produto abaixo de R$ 50 costuma testar kits (duas ou três unidades num anúncio só), que sobem o valor do pedido e diluem a taxa por item. Faça essa simulação na planilha antes de decidir o preço. Para treinar esse cálculo, veja também o texto sobre <a href="/artigos/frete-e-embalagem-no-preco-da-loja-online-calcular-com-ia-sem-perder-margem">frete e embalagem no preço da loja online</a>.</p>
 
     <h2>Devolução, prazo de repasse e direito do consumidor</h2>
 
@@ -115,9 +120,14 @@ export const article: Article = {
   `,
   faq: [
     {
+      question: "Vale a pena vender produto barato no TikTok Shop?",
+      answer:
+        "Depende da margem. Com a tabela em vigor desde julho de 2026, um item de R$ 39,90 paga cerca de R$ 7,99 entre comissão e taxa por item, perto de 20% do preço, antes de afiliado e frete. Muitos vendedores montam kits com duas ou três unidades para subir o valor do pedido. Simule na planilha antes de anunciar.",
+    },
+    {
       question: "Quanto o TikTok Shop cobra de comissão no Brasil?",
       answer:
-        "Segundo guias de mercado de 2026 (AnyMarket e Serasa), a comissão padrão é de 6% sobre o preço depois dos descontos do vendedor, mais R$ 2 por item abaixo de R$ 79. Confirme os valores atuais no Seller Center, porque as regras mudam.",
+        "Segundo guias que citam a Academia do TikTok Shop, desde 15/07/2026 itens abaixo de R$ 50 pagam 10% de comissão mais R$ 4 por item, e itens de R$ 50 ou mais pagam 6% mais R$ 6 por item, sobre o preço depois dos descontos do vendedor. Confirme a tabela atual no Seller Center, porque as regras mudam.",
     },
     {
       question: "Precisa de CNPJ para vender no TikTok Shop?",

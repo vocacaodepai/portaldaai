@@ -67,7 +67,7 @@ export const article: Article = {
 
     <h2>Comunicação: o que a IA acelera e o que continua seu</h2>
 
-    <p>Para quem escreve, edita ou produz conteúdo, a IA entra bem em rascunho, variação de título, resumo de material longo e adaptação de formato. Continua humano o que dá valor ao trabalho: apuração, escolha do ângulo, checagem de fatos, tom da marca e responsabilidade pelo que é publicado. O texto sobre <a href="/artigos/jornalismo-e-ia-o-que-muda-para-quem-produz-noticia-e-para-quem-publica">jornalismo e IA</a> detalha essa divisão numa profissão regulada pela reputação.</p>
+    <p>Para quem escreve, edita ou produz conteúdo, a IA entra bem em rascunho, variação de título, resumo de material longo e adaptação de formato. Continua humano o que dá valor ao trabalho: apuração, escolha do ângulo, checagem de fatos, tom da marca e responsabilidade pelo que é publicado. O texto sobre <a href="/artigos/jornalismo-e-ia-o-que-muda-para-quem-produz-noticia-e-para-quem-publica">jornalismo e IA</a> detalha essa divisão numa profissão regulada pela reputação. Para tradutores e intérpretes, que aparecem no mesmo estudo, a análise está em <a href="/artigos/tradutores-e-ia-o-que-muda-para-quem-traduz-e-para-quem-contrata-traducao">o que a IA muda para quem traduz</a>.</p>
 
     <h3>Exemplo de rotina de uma social media em Belo Horizonte</h3>
 

@@ -11,7 +11,8 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "produtos-digitais",
   date: "2026-11-03",
-  readTime: 7,
+  updated: "2026-11-08",
+  readTime: 8,
   imageQuery: "children printable activity worksheets crayons",
   coverImage: {
     url: "/images/covers/kit-de-atividades-para-as-ferias-escolares-produto-digital-com-ia-preco-e-direito-autoral.webp",
@@ -120,6 +121,28 @@ export const article: Article = {
 
     <p>Se for divulgar por parceiros que ganham comissão, a identificação de publicidade segue as regras explicadas em <a href="/artigos/link-de-afiliado-e-publicidade-o-que-o-guia-do-conar-2026-muda-para-criadores-e-marcas">link de afiliado e o guia do Conar</a>.</p>
 
+    <h2>Página de venda: como falar com os pais sem publicidade abusiva</h2>
+
+    <p>Produto para criança tem uma regra extra no anúncio. O Código de Defesa do Consumidor, no art. 37, parágrafo 2º, considera abusiva a publicidade que "se aproveite da deficiência de julgamento e experiência da criança". Na prática, a página de venda e os posts devem convencer o adulto que paga, com informação, e não a criança que pede.</p>
+
+    <p>Isso muda o texto. Em vez de "a criançada vai pedir para você comprar", escreva o que o pai precisa saber para decidir: faixa etária, número de páginas, tempo médio por atividade, se precisa de tesoura ou cola, se imprime em preto e branco e qual licença está incluída. Mostre três páginas reais do kit, não uma montagem que promete mais do que o PDF entrega.</p>
+
+    <ul class="checklist">
+      <li>Título e legenda falam com o adulto, sem imperativo dirigido à criança ("peça para o papai").</li>
+      <li>Fotos mostram a folha impressa e, se houver criança, só as mãos, sem rosto.</li>
+      <li>Nada de "seu filho vai tirar 10" ou outra promessa de resultado escolar.</li>
+      <li>Preço, formato de entrega (PDF por e-mail ou na área da plataforma) e política de reembolso visíveis antes da compra.</li>
+    </ul>
+
+    <p>Um prompt para revisar o anúncio antes de publicar:</p>
+
+    <pre><code>Revise o texto de venda abaixo de um kit de atividades em PDF para crianças de [7 a 9 anos].
+O público do anúncio são pais e mães, não as crianças.
+Aponte: 1) frases que falam diretamente com a criança ou incentivam a criança a pedir a compra;
+2) promessas de resultado escolar; 3) informações que faltam para o adulto decidir
+(páginas, idade, material necessário, licença, reembolso).
+Sugira uma versão corrigida sem inventar características que o kit não tem.</code></pre>
+
     <h2>Erros comuns</h2>
 
     <ul>
@@ -135,6 +158,11 @@ export const article: Article = {
     <p>Escolha uma faixa etária e um tema, gere com IA a lista de 30 atividades, resolva e imprima as cinco primeiras para testar. Se o teste funcionar, monte o resto do kit, prepare duas páginas de amostra e publique antes de dezembro. Depois das férias, o mesmo método serve para um kit de volta às aulas. Para outros formatos, veja <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">como vender e-books e guias</a> e a <a href="/categoria/monetizacao">categoria monetização</a>.</p>
   `,
   faq: [
+    {
+      question: "Posso fazer anúncio do kit falando direto com a criança?",
+      answer:
+        "Não é recomendável. O Código de Defesa do Consumidor, no art. 37, considera abusiva a publicidade que se aproveita da falta de julgamento e de experiência da criança. Escreva para o adulto que compra: faixa etária, número de páginas, material necessário, licença e reembolso. Mostre páginas reais e não prometa resultado escolar.",
+    },
     {
       question: "O que é um kit de atividades para as férias?",
       answer:

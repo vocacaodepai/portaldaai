@@ -11,7 +11,8 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "freelance-servicos",
   date: "2026-11-04",
-  readTime: 6,
+  updated: "2026-11-08",
+  readTime: 8,
   imageQuery: "greeting cards desk small business owner",
   seed: 1119,
   kind: "guia",
@@ -92,6 +93,24 @@ Não invente fatos, prêmios ou números.</code></pre>
 
     <p>Nomes e telefones de clientes são dados pessoais pela LGPD. Trabalhe com a lista dentro da conta do cliente (planilha compartilhada, ferramenta de e-mail dele) em vez de baixar para o seu computador, e nunca cole a lista inteira num chatbot. Se precisar personalizar por nome, use um campo de mesclagem na ferramenta de envio. O <a href="/artigos/lgpd-para-pequeno-negocio-que-usa-ia-checklist-de-dados-de-clientes">checklist de LGPD para quem usa IA</a> serve para você e para o cliente.</p>
 
+    <h2>Disparo pela API do WhatsApp: a mensagem tem custo</h2>
+
+    <p>Muitos negócios enviam pelo aplicativo WhatsApp Business no celular, um contato por vez ou por lista de transmissão. Outros usam uma ferramenta de disparo ligada à plataforma oficial do WhatsApp para empresas (a API). Nesse segundo caso, a conta muda. Segundo a <a href="https://developers.facebook.com/docs/whatsapp/pricing/" target="_blank" rel="noopener noreferrer">página de preços da plataforma do WhatsApp para empresas</a> da Meta, desde 1º de julho de 2025 a cobrança é feita por mensagem entregue, e não mais por conversa.</p>
+
+    <p>A mesma página explica que, fora da janela de 24 horas aberta quando o cliente escreve para a empresa, só é possível enviar mensagens de modelo, e a mensagem de agradecimento ou de promoção de fim de ano entra na categoria de marketing, que é cobrada. A Meta informa ainda que voltou a cobrar, a partir de 1º de outubro de 2026, pelas respostas de atendimento que antes eram gratuitas, com 1.000 mensagens desse tipo grátis por mês para cada número. A página não trata do aplicativo comum, só da plataforma.</p>
+
+    <p>Para o seu serviço, isso vira uma linha no orçamento: pergunte ao cliente como ele envia. Se for pela API, peça que ele confira no painel da ferramenta o valor por mensagem de marketing para o Brasil e multiplique pelo número de contatos que autorizaram receber. Uma lista de 800 clientes vira 800 mensagens cobradas, e o envio fica por conta e risco da conta dele, não da sua.</p>
+
+    <h3>Cronograma sugerido para dezembro</h3>
+
+    <ol>
+      <li><strong>Até 5/12:</strong> briefing, aprovação do tom e da arte.</li>
+      <li><strong>Até 10/12:</strong> textos finais, versões curtas e aviso de horário especial aprovados.</li>
+      <li><strong>Entre 15 e 20/12:</strong> envio do agradecimento, antes da correria da última semana.</li>
+      <li><strong>Até 23/12:</strong> aviso de horário de 24, 25, 31 e 1º publicado nas redes e no perfil do Google.</li>
+      <li><strong>Primeira semana de janeiro:</strong> relatório simples (quantos receberam, quantas respostas) e proposta para o ano.</li>
+    </ol>
+
     <h2>Como conseguir os primeiros clientes</h2>
 
     <p>Comece pelos negócios que você já conhece: a loja onde compra, o salão, a clínica do bairro. Leve um exemplo pronto com o nome deles, feito em 20 minutos. Ofereça até o meio de dezembro, porque depois disso o dono já desistiu ou já fez. Quem já atende negócios locais pode juntar o kit ao <a href="/artigos/lembrete-de-recompra-como-servico-planilha-aviso-automatico-e-ia-para-o-comercio-local">lembrete de recompra como serviço</a> e propor uma conversa para janeiro.</p>
@@ -114,6 +133,11 @@ Não invente fatos, prêmios ou números.</code></pre>
     <p>Escolha três negócios do seu bairro, prepare um exemplo de mensagem para cada um com o prompt acima e ofereça o pacote básico ainda esta semana. Com dois clientes fechados, você já tem material para mostrar no ano que vem. Se quiser transformar isso em renda recorrente, veja como oferecer conteúdo mensal no guia de <a href="/artigos/ghostwriting-com-ia-ganhar-dinheiro-escrevendo-posts-para-outros">ghostwriting com IA</a>.</p>
   `,
   faq: [
+    {
+      question: "Enviar mensagem de fim de ano pela API do WhatsApp tem custo?",
+      answer:
+        "Tem. Segundo a página de preços da Meta, a plataforma do WhatsApp para empresas cobra por mensagem entregue desde julho de 2025, e mensagens de modelo de marketing, como agradecimento e promoção, são cobradas. O valor por mensagem aparece no painel da ferramenta de disparo. O aplicativo WhatsApp Business comum não é tratado nessa página.",
+    },
     {
       question: "O que vender num serviço de mensagens de fim de ano?",
       answer:

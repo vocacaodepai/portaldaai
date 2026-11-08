@@ -63,7 +63,7 @@ export const article: Article = {
 
     <h2>O fluxo de trabalho: IA no rascunho, você na revisão</h2>
 
-    <p>Um fluxo simples evita retrabalho. Primeiro, você combina com o cliente o idioma, o público e o tom. Depois, monta um glossário curto com termos que não podem variar. A IA traduz em blocos pequenos, seguindo o glossário. Em seguida, você revisa com o texto original ao lado e, por fim, faz uma leitura final só do texto traduzido, para ver se soa natural.</p>
+    <p>Um fluxo simples evita retrabalho. Primeiro, você combina com o cliente o idioma, o público e o tom. Depois, monta um glossário curto com termos que não podem variar. A IA traduz em blocos pequenos, seguindo o glossário. Em seguida, você revisa com o texto original ao lado e, por fim, faz uma leitura final só do texto traduzido, para ver se soa natural. Esse fluxo é o que o mercado chama de pós-edição, e o texto sobre <a href="/artigos/tradutores-e-ia-o-que-muda-para-quem-traduz-e-para-quem-contrata-traducao">o que muda para tradutores com a IA</a> explica a diferença entre a revisão leve e a completa.</p>
 
     <p>Dois prompts que ajudam, usando um texto fictício:</p>
 

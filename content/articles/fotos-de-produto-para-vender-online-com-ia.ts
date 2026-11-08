@@ -50,7 +50,7 @@ export const article: Article = {
     <p>Um fundo branco, cinza claro ou de uma cor neutra que não compita com o produto facilita bastante o trabalho da IA depois, porque reduz a chance de erro ao separar o produto do fundo durante a edição.</p>
 
     <h3>3. Tire mais de um ângulo</h3>
-    <p>Fotografe o produto de frente, de lado e de um ângulo em perspectiva. Marketplaces como anúncios de roupa, eletrônico ou decoração convertem mais quando mostram o item em múltiplos ângulos, não só em uma foto única.</p>
+    <p>Fotografe o produto de frente, de lado e de um ângulo em perspectiva. Marketplaces como anúncios de roupa, eletrônico ou decoração convertem mais quando mostram o item em múltiplos ângulos, não só em uma foto única. Quem pretende <a href="/artigos/vender-no-tiktok-shop-com-ia-cadastro-taxas-e-conta-antes-de-anunciar">vender no TikTok Shop</a> aproveita as mesmas fotos como capa do produto e como quadro inicial dos vídeos.</p>
 
     <h2>Como usar a IA para refinar a foto</h2>
 

@@ -31,7 +31,7 @@ export const article: Article = {
 
     <p>Antes, o áudio de um clipe só podia ser silenciado ou ligado, e ficava preso à cena. Segundo o <a href="https://workspaceupdates.googleblog.com/2026/10/extract-audio-tracks-in-google-vids.html" target="_blank" rel="noopener noreferrer">anúncio do Google sobre extração de faixas de áudio</a>, o som agora pode ser separado com um clique e vira um clipe próprio na linha do tempo. Ele pode tocar por baixo de outras cenas, atravessar várias cenas ou ser apagado sem alterar o tempo do vídeo.</p>
 
-    <p>A segunda novidade está no <a href="https://workspaceupdates.googleblog.com/2026/10/adjust-video-clip-playback-speed-directly-in-Google-Vids.html" target="_blank" rel="noopener noreferrer">anúncio sobre velocidade de reprodução</a>: cada clipe pode ir de 0,25x (câmera lenta) até 2x (dobro da velocidade). Os dois recursos complementam o que o Vids já fazia com voz e música.</p>
+    <p>A segunda novidade está no <a href="https://workspaceupdates.googleblog.com/2026/10/adjust-video-clip-playback-speed-directly-in-Google-Vids.html" target="_blank" rel="noopener noreferrer">anúncio sobre velocidade de reprodução</a>: cada clipe pode ir de 0,25x (câmera lenta) até 2x (dobro da velocidade). Os dois recursos complementam o que o Vids já fazia com voz e música. Para quem não quer aparecer na câmera, o Vids também monta um <a href="/artigos/avatar-personalizado-no-google-vids-a-partir-de-uma-foto-quem-tem-limites-e-cuidados">avatar personalizado a partir de uma foto</a>.</p>
 
     <h2>Como extrair o áudio de um clipe</h2>
 

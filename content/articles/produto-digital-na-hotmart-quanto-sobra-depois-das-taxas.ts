@@ -47,7 +47,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>O ponto central é este: quanto mais barato o produto, maior a fatia que a taxa fixa consome. Um item de R$ 27 perde quase um quinto do preço só em taxa da plataforma. Por isso, o mini-produto de preço baixo só compensa se você tiver volume ou se ele servir de porta de entrada para algo mais caro.</p>
+    <p>O ponto central é este: quanto mais barato o produto, maior a fatia que a taxa fixa consome. Um item de R$ 27 perde quase um quinto do preço só em taxa da plataforma. Por isso, o mini-produto de preço baixo só compensa se você tiver volume ou se ele servir de porta de entrada para algo mais caro. Um caso típico de preço baixo e venda concentrada em poucas semanas é o <a href="/artigos/kit-de-atividades-para-as-ferias-escolares-produto-digital-com-ia-preco-e-direito-autoral">kit de atividades para as férias</a>.</p>
 
     <h3>Exemplo hipotético com 100 vendas</h3>
 
