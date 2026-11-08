@@ -93,7 +93,7 @@ O que pretendo fazer: [DESCREVA]</code></pre>
 
     <h2>Onde a IA ajuda e onde não ajuda</h2>
 
-    <p>A IA é boa para organizar, não para decidir regra. Dá para pedir um calendário com lembretes, um modelo de planilha de receitas e despesas, ou um roteiro de perguntas para a prefeitura. O guia de <a href="/artigos/ia-para-mei-tarefas-que-voce-pode-automatizar">IA para MEI</a> lista tarefas que valem a automação, e o de <a href="/artigos/fluxo-de-caixa-com-ia-guia-pequenos-negocios">fluxo de caixa com IA</a> serve para acompanhar o dinheiro.</p>
+    <p>A IA é boa para organizar, não para decidir regra. Dá para pedir um calendário com lembretes, um modelo de planilha de receitas e despesas, ou um roteiro de perguntas para a prefeitura. O guia de <a href="/artigos/ia-para-mei-tarefas-que-voce-pode-automatizar">IA para MEI</a> lista tarefas que valem a automação, e o de <a href="/artigos/fluxo-de-caixa-com-ia-guia-pequenos-negocios">fluxo de caixa com IA</a> serve para acompanhar o dinheiro. Quem não tem tempo para isso pode contratar a <a href="/artigos/organizacao-financeira-para-mei-como-servico-o-que-pode-vender-sem-ser-contador-com-ia">organização financeira do MEI</a> de alguém de fora, desde que o serviço não se apresente como contabilidade.</p>
 
     <pre><code>Monte uma planilha simples de controle mensal para um MEI de [ATIVIDADE]: colunas de data, cliente, descrição, valor recebido, forma de pagamento e se emitiu nota. Inclua uma linha de total do mês, uma célula com o acumulado do ano e um aviso quando o acumulado passar de 80% do teto anual. Explique como montar no Google Planilhas.</code></pre>
 

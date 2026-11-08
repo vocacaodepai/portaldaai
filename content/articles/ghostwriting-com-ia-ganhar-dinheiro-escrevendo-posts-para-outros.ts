@@ -35,7 +35,7 @@ export const article: Article = {
 
     <h2>O que faz um ghostwriter e por que a IA entra no processo</h2>
 
-    <p>O ghostwriter transforma ideias, experiências e opiniões do cliente em textos prontos para publicar. O cliente assina; você cuida da escrita. No ambiente digital, os formatos mais pedidos são posts de LinkedIn, roteiros curtos para vídeo, newsletters e artigos de blog.</p>
+    <p>O ghostwriter transforma ideias, experiências e opiniões do cliente em textos prontos para publicar. O cliente assina; você cuida da escrita. No ambiente digital, os formatos mais pedidos são posts de LinkedIn, roteiros curtos para vídeo, newsletters e artigos de blog. No fim do ano entra ainda um formato sazonal: <a href="/artigos/mensagens-e-cartoes-de-fim-de-ano-para-empresas-como-servico-pacote-preco-e-cuidados">mensagens e cartões de agradecimento para empresas</a>.</p>
 
     <p>A IA entra em duas etapas: organizar a entrevista e produzir o primeiro rascunho. O que ela não faz é viver a história do cliente. Por isso o serviço que vale dinheiro combina material real (casos, números, opiniões que só o cliente tem) com texto bem editado. Sem esse material, o resultado é genérico e o cliente cancela em dois meses. Quem já trabalha com redes sociais pode partir do guia de <a href="/artigos/social-media-freelancer-com-ia-como-atender-clientes-e-cobrar">social media freelancer com IA</a>, e quem quer entender a lógica do LinkedIn para o cliente encontra apoio em <a href="/artigos/como-construir-autoridade-em-ia-no-linkedin-sem-ser-tecnico">como construir autoridade no LinkedIn</a>.</p>
 

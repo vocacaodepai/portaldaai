@@ -49,7 +49,7 @@ export const article: Article = {
 
     <h2>A conta da margem com dois exemplos</h2>
 
-    <p>Veja como o valor fixo muda tudo. Imagine uma camiseta que você compra por R$ 25, embala por R$ 3 e anuncia por R$ 59,90. A comissão é 20% de R$ 59,90 (R$ 11,98) mais R$ 4, ou seja, R$ 15,98. Sobram R$ 59,90 menos R$ 15,98, menos R$ 25, menos R$ 3: cerca de R$ 15,92, algo como 27% do preço, antes de imposto, frete que não seja coberto pelos cupons e tempo de trabalho.</p>
+    <p>Veja como o valor fixo muda tudo. Imagine uma camiseta que você compra por R$ 25, embala por R$ 3 e anuncia por R$ 59,90. A comissão é 20% de R$ 59,90 (R$ 11,98) mais R$ 4, ou seja, R$ 15,98. Sobram R$ 59,90 menos R$ 15,98, menos R$ 25, menos R$ 3: cerca de R$ 15,92, algo como 27% do preço, antes de imposto, frete que não seja coberto pelos cupons e tempo de trabalho. Quem vende também em vídeo pode comparar com a conta do <a href="/artigos/vender-no-tiktok-shop-com-ia-cadastro-taxas-e-conta-antes-de-anunciar">TikTok Shop</a>, que usa outra tabela de comissão e de taxa por item.</p>
 
     <p>Agora um fone que custa R$ 55 e embalagem de R$ 3, vendido por R$ 120. A comissão é 14% de R$ 120 (R$ 16,80) mais R$ 20, total R$ 36,80. Sobram R$ 120 menos R$ 36,80, menos R$ 55, menos R$ 3: cerca de R$ 25,20, ou 21% do preço. O produto mais caro rende mais reais por venda, mas a margem percentual é menor, e o risco de devolução também pesa mais.</p>
 

@@ -10,6 +10,7 @@ export const article: Article = {
     "Google Vids permite enviar uma imagem para criar avatar personalizado. Veja quais planos têm, o passo a passo, limites de uso e cuidados antes de publicar.",
   category: "ferramentas",
   date: "2026-11-03",
+  updated: "2026-11-08",
   readTime: 7,
   imageQuery: "woman recording video laptop desk",
   coverImage: {
@@ -75,7 +76,7 @@ export const article: Article = {
 
     <p>A página de ajuda traz números que mudam o planejamento. Muitos usuários têm até 25 gerações de avatar por mês, e em alguns planos esse limite é dividido com os clipes de vídeo gerados por IA. Cada vídeo de avatar pode ter até 60 segundos, o limite zera à meia-noite do horário do Pacífico no primeiro dia de cada mês e a geração pode levar alguns minutos, com a janela do Vids aberta.</p>
 
-    <p>Os avatares falam 23 idiomas, entre eles inglês, francês, hindi, japonês e espanhol. A página não lista o português na parte lida, então teste o seu idioma antes de montar uma série de vídeos. Também há marcadores de áudio para controlar ritmo, pausas e emoção: ao digitar o colchete de abertura, o menu aparece, ou o botão de aplicar marcadores deixa a IA sugerir.</p>
+    <p>Os avatares falam 23 idiomas, e o português está na lista da página de ajuda, ao lado de inglês, espanhol, francês, alemão, italiano e japonês, entre outros. Mesmo assim, ouça a prévia com atenção a nomes próprios, siglas e números antes de montar uma série de vídeos. Também há marcadores de áudio para controlar ritmo, pausas e emoção: ao digitar o colchete de abertura, o menu aparece, ou o botão de aplicar marcadores deixa a IA sugerir.</p>
 
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Se o roteiro for editado depois, aparece o aviso de avatar desatualizado e é preciso gerar de novo, o que consome mais uma das gerações do mês. Feche o texto antes de gerar.</p></div>
 
@@ -99,6 +100,21 @@ export const article: Article = {
 
     <p>Também funciona em vídeo de integração, como no roteiro de <a href="/artigos/treinar-funcionario-novo-com-ia-roteiro-da-primeira-semana-no-pequeno-negocio">primeira semana de funcionário novo</a>, e em vídeos de apresentação de serviço. Quem presta serviço de vídeo pode combinar com <a href="/artigos/videos-curtos-para-negocio-local-como-servico-pacote-roteiro-com-ia-e-musica-sem-problema">vídeos curtos para negócio local</a>, e quem precisa de acessibilidade encontra ideias em <a href="/artigos/video-acessivel-como-servico-legenda-revisada-transcricao-descritiva-e-audiodescricao-com-ia">vídeo acessível com legenda</a>.</p>
 
+    <h2>Como escrever um roteiro que caiba em 60 segundos</h2>
+
+    <p>O limite de 60 segundos por vídeo de avatar pede um texto enxuto. Como referência prática, um minuto de fala calma fica em torno de 130 a 150 palavras em português, então mire em 110 a 130 para sobrar espaço para pausas. Uma ideia por vídeo funciona melhor do que três assuntos espremidos.</p>
+
+    <p>A página de ajuda informa que, no avatar personalizado, você escolhe a voz numa lista e pode ouvir cada opção antes de decidir. Escolha uma voz com ritmo parecido com o seu jeito de falar com cliente, e use a mesma em todos os vídeos da série, para o público não estranhar. Um prompt para chegar ao primeiro rascunho:</p>
+
+    <pre><code>Escreva um roteiro de vídeo de até 120 palavras para ser lido por um apresentador virtual.
+Assunto: [preparo para o exame de sangue em jejum].
+Público: [pacientes de uma clínica pequena, linguagem simples].
+Estrutura: uma frase de abertura dizendo o tema, três orientações curtas e uma frase final com o contato da clínica.
+Escreva números por extenso quando forem pequenos e evite siglas.
+Não invente dados, prazos ou nomes de exames que eu não informei.</code></pre>
+
+    <p>Depois, leia o texto em voz alta com um cronômetro. Se passar de 55 segundos, corte em vez de acelerar a fala. Só gere o avatar quando o roteiro estiver aprovado, porque cada mudança posterior consome mais uma geração do mês.</p>
+
     <h2>Erros comuns</h2>
 
     <p>O primeiro erro é enviar uma selfie com sombra no rosto, óculos escuros ou fundo poluído, o que piora o resultado. O segundo é escrever um roteiro longo demais para o limite de 60 segundos. O terceiro é publicar sem ouvir a prévia inteira, já que nomes próprios e números podem sair com pronúncia estranha. O quarto é gerar tudo no último dia do mês, sem margem para refazer.</p>
@@ -110,6 +126,11 @@ export const article: Article = {
     <p>Escolha um aviso curto de 30 segundos, tire uma foto frontal com luz de janela e faça o teste de ponta a ponta: avatar, roteiro, prévia e revisão. Se o resultado servir, vale repetir em outros vídeos. Para acompanhar outras novidades do tipo, volte à <a href="/categoria/ferramentas">categoria de ferramentas</a>.</p>
   `,
   faq: [
+    {
+      question: "O avatar do Google Vids fala português?",
+      answer:
+        "Sim. A página de ajuda do Google lista o português entre os 23 idiomas dos avatares do Vids, ao lado de inglês, espanhol e francês, entre outros. Ainda assim, ouça a prévia inteira antes de publicar, porque nomes próprios, siglas e números podem sair com pronúncia estranha e cada nova geração consome o limite do mês.",
+    },
     {
       question: "Como criar um avatar no Google Vids a partir de uma foto?",
       answer:

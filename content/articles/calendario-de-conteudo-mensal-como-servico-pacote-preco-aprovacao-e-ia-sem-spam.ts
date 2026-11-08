@@ -88,7 +88,7 @@ Não cite números nem estudos que eu não tenha fornecido.</code></pre>
       <li>Como pedir mudança de tema no meio do mês (por escrito, com reorganização das datas).</li>
     </ul>
 
-    <p>Uma <a href="/artigos/propostas-comerciais-com-ia-como-fechar-mais-contratos">proposta comercial</a> clara, com esses pontos, reduz conversas ruins depois. Para vender, mostre um calendário-exemplo de um negócio parecido com o do cliente, e não uma explicação sobre IA.</p>
+    <p>Uma <a href="/artigos/propostas-comerciais-com-ia-como-fechar-mais-contratos">proposta comercial</a> clara, com esses pontos, reduz conversas ruins depois. Para vender, mostre um calendário-exemplo de um negócio parecido com o do cliente, e não uma explicação sobre IA. Em dezembro, um extra fácil de oferecer é o kit de <a href="/artigos/mensagens-e-cartoes-de-fim-de-ano-para-empresas-como-servico-pacote-preco-e-cuidados">mensagens e cartões de fim de ano para empresas</a>.</p>
 
     <h2>IA sem spam: o limite que o Google descreve</h2>
 

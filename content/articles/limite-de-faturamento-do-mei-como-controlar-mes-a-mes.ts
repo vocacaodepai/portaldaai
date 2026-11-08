@@ -65,7 +65,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Na aba "Resumo", crie uma linha por mês com a soma dos lançamentos, o acumulado do ano e a diferença para o limite. A fórmula do acumulado é uma soma simples. Se você tem dificuldade com fórmulas, o guia de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a> mostra como pedir cada uma à ferramenta.</p>
+    <p>Na aba "Resumo", crie uma linha por mês com a soma dos lançamentos, o acumulado do ano e a diferença para o limite. A fórmula do acumulado é uma soma simples. Se você tem dificuldade com fórmulas, o guia de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a> mostra como pedir cada uma à ferramenta. Se a planilha virar trabalho demais, há quem ofereça <a href="/artigos/organizacao-financeira-para-mei-como-servico-o-que-pode-vender-sem-ser-contador-com-ia">organização financeira para MEI como serviço</a>, sem fazer o papel do contador.</p>
 
     <h2>Onde a IA ajuda (e onde não)</h2>
 

@@ -46,7 +46,7 @@ export const article: Article = {
 
     <h2>Avatar pessoal e Gemini Omni: o que o Google confirmou</h2>
 
-    <p>O <a href="https://workspaceupdates.googleblog.com/2026/07/cast-yourself-in-ai-video-clips-using-your-personal-avatar-with-Gemini-Omni-in-Vids.html" target="_blank" rel="noopener noreferrer">anúncio de julho</a>, conferido em 14/10/2026, descreve um avatar com a sua aparência: você verifica sua identidade por um processo seguro e depois seleciona o avatar como personagem nas gerações do Gemini Omni. A verificação e o avatar ficam na sua Conta Google, e administradores podem ativar ou desativar o recurso no Console de Administração.</p>
+    <p>O <a href="https://workspaceupdates.googleblog.com/2026/07/cast-yourself-in-ai-video-clips-using-your-personal-avatar-with-Gemini-Omni-in-Vids.html" target="_blank" rel="noopener noreferrer">anúncio de julho</a>, conferido em 14/10/2026, descreve um avatar com a sua aparência: você verifica sua identidade por um processo seguro e depois seleciona o avatar como personagem nas gerações do Gemini Omni. A verificação e o avatar ficam na sua Conta Google, e administradores podem ativar ou desativar o recurso no Console de Administração. Desde novembro de 2026 também dá para criar o avatar a partir de uma imagem enviada por você, passo a passo explicado em <a href="/artigos/avatar-personalizado-no-google-vids-a-partir-de-uma-foto-quem-tem-limites-e-cuidados">avatar personalizado no Vids a partir de uma foto</a>.</p>
 
     <p>As restrições merecem leitura atenta, porque definem se o recurso serve para você:</p>
 

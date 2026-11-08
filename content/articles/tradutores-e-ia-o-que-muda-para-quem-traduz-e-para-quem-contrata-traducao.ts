@@ -11,6 +11,7 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "trabalho-e-profissoes",
   date: "2026-11-03",
+  updated: "2026-11-08",
   readTime: 8,
   imageQuery: "translator desk dictionary laptop",
   coverImage: {
@@ -86,6 +87,25 @@ export const article: Article = {
 
     <p>A lista final é decisão do tradutor. A IA pode inventar correções que soam bem e estão erradas, o fenômeno explicado em <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA</a>. Quem quer usar essas habilidades para abrir uma renda extra encontra caminhos em <a href="/artigos/traduzir-documentos-com-ia-como-ganhar-dinheiro">traduzir documentos com IA</a> e em <a href="/artigos/como-ganhar-dinheiro-com-transcricao-e-legendagem-usando-ia">transcrição e legendagem</a>.</p>
 
+    <h2>Pós-edição leve ou completa: o que a norma ISO 18587 prevê</h2>
+
+    <p>A pós-edição já tem norma internacional. A ISO 18587, publicada em 2017, cria uma estrutura para a revisão humana de tradução automática e define as qualificações de quem faz esse trabalho. Segundo o <a href="https://atc.org.uk/wp-content/uploads/ISO-Blog-18587-Machine-translation-post-editing.pdf" target="_blank" rel="noopener noreferrer">texto do comitê de normas ISO da ATC</a>, associação britânica de empresas de tradução, a norma descreve a pós-edição completa como a que chega a uma qualidade comparável à tradução humana, e mantém a distinção entre pós-edição leve e completa.</p>
+
+    <p>O mesmo texto conta que a revisão da norma começou em outubro de 2023, com mais peso nas exigências do cliente, na análise de risco e numa avaliação prévia de se o texto serve para pós-edição. A previsão de publicação da nova versão era outubro de 2026; confira no catálogo da ISO se ela já saiu antes de citar a edição.</p>
+
+    <table>
+      <thead>
+        <tr><th>Tipo</th><th>Objetivo</th><th>Quando faz sentido</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pós-edição leve</td><td>Texto correto no sentido e compreensível, sem polir estilo</td><td>Uso interno, triagem de documentos, entender o conteúdo</td></tr>
+        <tr><td>Pós-edição completa</td><td>Qualidade comparável à tradução humana</td><td>Publicação, cliente final, marketing, manuais</td></tr>
+        <tr><td>Tradução humana com revisão</td><td>Texto feito e revisado por profissionais</td><td>Contrato, saúde, texto em que a máquina erra demais</td></tr>
+      </tbody>
+    </table>
+
+    <p>Para quem traduz, a lição é deixar o nível escrito no orçamento. "Revisar a tradução da IA" sem dizer se é leve ou completa abre espaço para o cliente pagar uma e esperar a outra. Para quem contrata, pedir pós-edição completa de um texto que vai ser publicado evita surpresa com o resultado.</p>
+
     <h2>O que muda para quem contrata tradução</h2>
 
     <p>Para empresas e pessoas físicas, a pergunta deixa de ser "humano ou máquina" e passa a ser "quanto custa um erro aqui". Uma regra prática em três faixas:</p>
@@ -115,6 +135,11 @@ export const article: Article = {
     <p>Se você traduz, escolha um nicho, monte seu glossário e defina um preço próprio para pós-edição antes que o cliente defina por você. Se você contrata, classifique seus textos pelas três faixas de risco e reserve o orçamento de revisão para o que pode dar problema. Para acompanhar como a IA muda outras profissões, veja a <a href="/categoria/futuro">categoria futuro</a>.</p>
   `,
   faq: [
+    {
+      question: "Qual a diferença entre pós-edição leve e completa?",
+      answer:
+        "A pós-edição leve corrige o sentido para o texto ficar compreensível, sem polir estilo, e serve para uso interno. A completa busca qualidade comparável à tradução humana, que é a descrição da norma ISO 18587, e é a indicada para texto que vai ser publicado. Deixe o nível escrito no orçamento para evitar mal-entendido.",
+    },
     {
       question: "A IA vai acabar com a profissão de tradutor?",
       answer:
