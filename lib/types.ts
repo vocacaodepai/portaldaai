@@ -362,6 +362,9 @@ export const productSubcategories = [
   { slug: "headset-escritorio", label: "Headset para Home Office", category: "escritorio" },
   { slug: "combo-teclado-mouse", label: "Combo Teclado e Mouse", category: "informatica" },
   { slug: "fechadura-eletrica", label: "Fechadura Elétrica", category: "seguranca" },
+  { slug: "lampada-led", label: "Lâmpada LED", category: "casa-utilidades" },
+  { slug: "cola-instantanea", label: "Cola Instantânea", category: "ferramentas-casa" },
+  { slug: "antipulgas", label: "Antipulgas e Carrapaticida", category: "pet" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
