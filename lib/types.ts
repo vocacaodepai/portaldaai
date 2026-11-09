@@ -368,6 +368,9 @@ export const productSubcategories = [
   { slug: "furadeira-impacto", label: "Furadeira de Impacto", category: "ferramentas-casa" },
   { slug: "bebedouro", label: "Bebedouro", category: "cozinha" },
   { slug: "ventilador-teto", label: "Ventilador de Teto", category: "casa-inteligente" },
+  { slug: "caneta-esferografica", label: "Caneta Esferográfica", category: "escritorio" },
+  { slug: "cuidado-plasticos-carro", label: "Limpeza e Restauração de Plásticos", category: "automotivo" },
+  { slug: "campainha-sem-fio", label: "Campainha sem Fio", category: "seguranca" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
