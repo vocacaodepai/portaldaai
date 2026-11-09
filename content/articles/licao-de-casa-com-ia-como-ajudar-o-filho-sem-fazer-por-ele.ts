@@ -80,7 +80,7 @@ export const article: Article = {
 
     <pre><code>Escrevi esta redação: [cole o texto]. Não reescreva. Aponte 3 pontos fortes, 3 pontos que posso melhorar e 2 perguntas que me ajudem a revisar o argumento. Use o que a minha professora pediu: [critérios].</code></pre>
 
-    <p>O segredo é o pedido de uma pergunta por vez, que obriga o aluno a pensar. O guia de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">como escrever comandos que funcionam</a> explica por que esse tipo de instrução melhora a resposta, e o de <a href="/artigos/flashcards-com-ia-estudar-melhor-notebooklm-e-anki">flashcards com IA</a> mostra como transformar a matéria em perguntas de revisão.</p>
+    <p>O segredo é o pedido de uma pergunta por vez, que obriga o aluno a pensar. O guia de <a href="/artigos/prompt-engineering-como-escrever-comandos-que-funcionam">como escrever comandos que funcionam</a> explica por que esse tipo de instrução melhora a resposta, e o de <a href="/artigos/flashcards-com-ia-estudar-melhor-notebooklm-e-anki">flashcards com IA</a> mostra como transformar a matéria em perguntas de revisão. Para temas de ciências ou história que pedem imagem, as <a href="/artigos/exploracoes-imersivas-no-gemini-como-acessar-idiomas-e-limites">explorações imersivas do Gemini</a> deixam a criança navegar pelo assunto em camadas, com um adulto por perto.</p>
 
     <h2>Sinais de alerta de que a IA está fazendo o trabalho</h2>
 

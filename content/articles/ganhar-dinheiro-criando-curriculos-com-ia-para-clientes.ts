@@ -91,7 +91,7 @@ export const article: Article = {
 
     <h2>Carta de apresentação e LinkedIn como upsell</h2>
 
-    <p>Depois de entregar o currículo, ofereça a carta de apresentação e o ajuste do perfil de LinkedIn como complemento, não como pacote obrigatório desde o início. Muitos clientes fecham só o currículo primeiro e voltam para o resto quando percebem o resultado. O guia <a href="/artigos/como-construir-autoridade-em-ia-no-linkedin-sem-ser-tecnico">construir autoridade no LinkedIn</a> tem prompts que funcionam bem também para o texto "sobre" do perfil de um cliente.</p>
+    <p>Depois de entregar o currículo, ofereça a carta de apresentação e o ajuste do perfil de LinkedIn como complemento, não como pacote obrigatório desde o início. Muitos clientes fecham só o currículo primeiro e voltam para o resto quando percebem o resultado. O guia <a href="/artigos/como-construir-autoridade-em-ia-no-linkedin-sem-ser-tecnico">construir autoridade no LinkedIn</a> tem prompts que funcionam bem também para o texto "sobre" do perfil de um cliente. Se quiser vender a revisão de perfil como pacote separado, o guia de <a href="/artigos/perfil-do-linkedin-como-servico-revisao-de-sobre-e-em-destaque-pacote-preco-e-limites">perfil do LinkedIn como serviço</a> mostra as quatro entregas e onde estão os limites.</p>
 
     <div class="callout-box callout-tip">
       <span class="callout-label">Dica</span>

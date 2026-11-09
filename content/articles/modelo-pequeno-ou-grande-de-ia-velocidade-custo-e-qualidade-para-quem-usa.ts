@@ -35,7 +35,7 @@ export const article: Article = {
 
     <h2>O que significa "tamanho" em um modelo de IA</h2>
 
-    <p>Um modelo de IA aprende padrões de texto, imagem e som durante o treinamento e guarda esse aprendizado em números internos chamados parâmetros. Em termos gerais, modelo maior tem mais desses números e mais capacidade de lidar com pedidos complexos. Modelo menor tem menos, o que o torna mais rápido e barato de rodar.</p>
+    <p>Um modelo de IA aprende padrões de texto, imagem e som durante o treinamento e guarda esse aprendizado em números internos chamados parâmetros. Em termos gerais, modelo maior tem mais desses números e mais capacidade de lidar com pedidos complexos. Modelo menor tem menos, o que o torna mais rápido e barato de rodar. Uma das técnicas usadas para criar modelos menores que imitam os grandes é a <a href="/artigos/destilacao-de-modelos-de-ia-o-que-e-como-funciona-e-por-que-gera-briga">destilação de modelos de IA</a>, em que um modelo aluno aprende com as respostas de um professor.</p>
 
     <p>Uma comparação do cotidiano ajuda. Um carro compacto é ótimo para a cidade: ágil, econômico, fácil de estacionar. Um caminhão carrega muito mais, mas gasta mais e não cabe em qualquer vaga. Nenhum dos dois é melhor em abstrato, e o uso decide. Com modelos de IA é parecido: responder "qual o prazo para recorrer de uma multa?" não pede o mesmo esforço que analisar um contrato de 40 páginas.</p>
 

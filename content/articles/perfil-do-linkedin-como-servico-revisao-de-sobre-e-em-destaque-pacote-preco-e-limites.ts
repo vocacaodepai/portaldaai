@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "freelance-servicos",
   date: "2026-11-02",
+  updated: "2026-11-09",
   readTime: 6,
   imageQuery: "professional laptop video call freelancer",
   coverImage: {
@@ -60,6 +61,8 @@ export const article: Article = {
     <p>Segundo a <a href="https://www.linkedin.com/help/linkedin/answer/a548498/em-destaque-secao-no-seu-perfil-perguntas-frequentes?lang=pt" target="_blank" rel="noopener noreferrer">página de perguntas frequentes sobre a seção Em destaque</a>, o cliente pode destacar publicações próprias, artigos publicados no LinkedIn e mídia externa, como imagens, documentos e links. Itens novos aparecem primeiro por padrão, e a ordem pode ser mudada. A página diz ainda que dá para adicionar itens ilimitados, mas só os 400 primeiros são exibidos.</p>
 
     <p>Duas regras do LinkedIn influenciam o seu serviço. A primeira: se o cliente não tem nada para destacar, a seção fica oculta para quem visita o perfil, então não adianta prometer uma seção "bonita" sem conteúdo por trás. A segunda: as configurações de visibilidade do perfil valem, ou seja, um post limitado a conexões só será visto por conexões. E o conteúdo em destaque não aparece na busca do LinkedIn, segundo a mesma página, então ele serve para convencer quem já chegou ao perfil, não para atrair visitas.</p>
+
+    <p>Três detalhes da mesma página evitam retrabalho na entrega. Quem visita precisa estar conectado a uma conta do LinkedIn para ver a seção. Remover um item de Em destaque só o tira dali, e a publicação continua na seção Atividade, enquanto Excluir apaga o conteúdo de vez, então combine com o cliente antes de mexer em posts antigos. E a seção existe só em perfis individuais, não em páginas de empresa, algo a deixar claro quando o cliente for dono de negócio.</p>
 
     <h2>URL pública e visibilidade</h2>
 

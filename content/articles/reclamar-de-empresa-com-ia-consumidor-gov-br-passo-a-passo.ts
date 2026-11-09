@@ -72,7 +72,7 @@ Fatos:
 
     <h2>Qual canal usar primeiro</h2>
 
-    <p>A ordem mais comum é tentar o SAC da empresa e guardar o protocolo, depois subir para um canal público. A tabela resume as opções.</p>
+    <p>A ordem mais comum é tentar o SAC da empresa e guardar o protocolo, depois subir para um canal público. Em telefonia e internet, a Anatel tem regras próprias de contestação, explicadas no guia de <a href="/artigos/fatura-de-celular-e-internet-com-ia-contestar-cobranca-e-reclamar-na-anatel">contestar a fatura de celular e internet com IA</a>. A tabela resume as opções.</p>
 
     <table>
       <thead>

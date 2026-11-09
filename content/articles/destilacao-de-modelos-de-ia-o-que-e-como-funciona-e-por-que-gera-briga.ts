@@ -11,6 +11,7 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "conceitos",
   date: "2026-11-03",
+  updated: "2026-11-09",
   readTime: 7,
   imageQuery: "chemistry distillation flask laboratory",
   seed: 1113,
@@ -35,6 +36,8 @@ export const article: Article = {
     <h2>De onde veio a destilação</h2>
 
     <p>A técnica ganhou nome no artigo <a href="https://arxiv.org/abs/1503.02531" target="_blank" rel="noopener noreferrer">Distilling the Knowledge in a Neural Network</a>, publicado em 2015 por Geoffrey Hinton, Oriol Vinyals e Jeff Dean. O problema que eles atacavam era prático: juntar vários modelos dá resultados melhores, mas rodar todos ao mesmo tempo custa caro demais. A proposta foi comprimir o conhecimento do conjunto em um único modelo, e os autores relataram ganho em um modelo acústico usado comercialmente.</p>
+
+    <p>O mesmo trabalho testou a ideia no MNIST, um conjunto clássico de dígitos escritos à mão, e propôs também um conjunto formado por um ou mais modelos completos e vários modelos especialistas. Cada especialista aprende a separar classes parecidas que o modelo completo confunde. Segundo o resumo do artigo, esses especialistas podem ser treinados rapidamente e em paralelo, ao contrário de uma mistura de especialistas tradicional.</p>
 
     <p>Onze anos depois, a lógica é a mesma, só que com modelos de linguagem. Em vez de reconhecer sons, o aluno aprende a escrever, resumir e raciocinar como o professor. Se você quer o vocabulário básico antes de seguir, o <a href="/artigos/dicionario-de-inteligencia-artificial-termos-essenciais">dicionário de inteligência artificial</a> ajuda.</p>
 

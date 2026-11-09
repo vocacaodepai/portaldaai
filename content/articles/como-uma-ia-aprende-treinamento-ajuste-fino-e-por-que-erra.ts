@@ -40,7 +40,7 @@ export const article: Article = {
 
     <h3>Ajuste fino: especializar o modelo</h3>
 
-    <p>Segundo a mesma página da IBM, o ajuste fino pega um modelo já treinado e o treina mais um pouco para um trabalho específico, usando um conjunto de dados menor e dirigido. Como reaproveita o que o modelo já sabe, sai muito mais barato que treinar do zero. Na prática, é assim que um modelo geral vira um assistente de atendimento, um especialista em contratos ou um revisor de código.</p>
+    <p>Segundo a mesma página da IBM, o ajuste fino pega um modelo já treinado e o treina mais um pouco para um trabalho específico, usando um conjunto de dados menor e dirigido. Como reaproveita o que o modelo já sabe, sai muito mais barato que treinar do zero. Na prática, é assim que um modelo geral vira um assistente de atendimento, um especialista em contratos ou um revisor de código. Uma variação desse reaproveitamento é a <a href="/artigos/destilacao-de-modelos-de-ia-o-que-e-como-funciona-e-por-que-gera-briga">destilação</a>, em que um modelo menor é treinado para imitar as respostas de um modelo maior.</p>
 
     <h3>Uso: o que você faz no dia a dia</h3>
 
