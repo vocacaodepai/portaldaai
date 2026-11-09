@@ -11,6 +11,7 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "curriculo-e-portfolio",
   date: "2026-11-02",
+  updated: "2026-11-09",
   readTime: 8,
   imageQuery: "job seeker laptop resume desk",
   coverImage: {
@@ -31,7 +32,7 @@ export const article: Article = {
   content: `
     <p>O currículo no Portal Emprega Brasil é o cadastro profissional que você faz no Sistema Nacional de Emprego, o Sine, para ser cruzado com vagas de empresas da sua região. O serviço é gratuito para o cidadão, exige conta gov.br e pode ser acessado pelo portal, pelo aplicativo Carteira de Trabalho Digital ou em um posto do Sine.</p>
 
-    <p>Muita gente preenche esse cadastro com pressa, deixa campos vazios e depois reclama que não aparece vaga. O motivo é que o cruzamento depende do que está escrito: ocupação desejada, experiência, região. A IA pode ajudar a transformar uma trajetória bagunçada em frases claras. Este guia mostra o passo a passo, os dados que vale preparar antes, prompts prontos e os cuidados com golpes. Informações conferidas nas páginas do gov.br em 02/11/2026.</p>
+    <p>Muita gente preenche esse cadastro com pressa, deixa campos vazios e depois reclama que não aparece vaga. O motivo é que o cruzamento depende do que está escrito: ocupação desejada, experiência, região. A IA pode ajudar a transformar uma trajetória bagunçada em frases claras. Este guia mostra o passo a passo, os dados que vale preparar antes, prompts prontos e os cuidados com golpes. Informações conferidas nas páginas do gov.br em 02/11/2026 e revisadas em 09/11/2026.</p>
 
     <h2>O que é o Portal Emprega Brasil</h2>
 
@@ -64,6 +65,14 @@ export const article: Article = {
     </ol>
 
     <p>Os nomes de telas podem mudar. Se algo divergir, siga as instruções do próprio portal. Quem preferir atendimento presencial pode ir a um posto do Sine, e a página do gov.br informa que, no atendimento presencial, a espera pode chegar a cerca de 30 minutos.</p>
+
+    <h2>As três etapas do Sine e quem tem atendimento prioritário</h2>
+
+    <p>A <a href="https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine" target="_blank" rel="noopener noreferrer">página do serviço</a> divide o atendimento em três etapas. A primeira é o cadastro, com duração média de 15 minutos. A segunda é a consulta das vagas compatíveis com o perfil, com média de 30 minutos. A terceira é a candidatura, quando o Sine agenda a entrevista com o possível empregador, e é nela que a página indica o aplicativo da Carteira Digital para acompanhar as vagas no celular.</p>
+
+    <p>Na prática, o cadastro sozinho não basta: você precisa voltar para consultar as vagas e se candidatar. A mesma página orienta incluir outras áreas de qualificação profissional no perfil para aumentar as chances nos processos seletivos, o que reforça a dica de marcar mais de uma ocupação. Cursos curtos contam, e o guia de <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">como colocar habilidades de IA no currículo</a> mostra como registrar o que você aprendeu sem exagero.</p>
+
+    <p>No posto presencial, têm atendimento prioritário pessoas com deficiência, idosos com 60 anos ou mais, gestantes, lactantes, pessoas com criança de colo e pessoas obesas, segundo o gov.br. Dúvidas sobre o serviço podem ir para o e-mail sine@trabalho.gov.br, informado na mesma página. O serviço tem como base legal a Lei nº 13.667/2018, que organiza o Sine.</p>
 
     <h2>Como a IA ajuda a escrever as experiências</h2>
 

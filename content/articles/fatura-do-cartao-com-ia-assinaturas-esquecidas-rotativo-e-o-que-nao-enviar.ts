@@ -103,7 +103,7 @@ export const article: Article = {
 
     <p>O primeiro passo é procurar a origem. Pesquise o nome do lançamento no e-mail e no histórico de pedidos. Se ainda assim não reconhecer, peça o estorno ao estabelecimento e abra a contestação no aplicativo do banco, anotando o número do protocolo. O Código de Defesa do Consumidor, em sua <a href="https://consumidor.gov.br/pages/conteudo/publico/102" target="_blank" rel="noopener noreferrer">versão publicada no consumidor.gov.br</a>, prevê no parágrafo único do artigo 42 o direito à devolução do que foi cobrado em excesso por valor igual ao dobro do que se pagou, salvo engano justificável.</p>
 
-    <p>Guarde as provas: print da fatura, e-mails de cancelamento e protocolos. Quando a cobrança vier depois de um cancelamento, a mensagem ao estabelecimento deve ser escrita e objetiva. Peça à IA um rascunho e revise antes de enviar.</p>
+    <p>Guarde as provas: print da fatura, e-mails de cancelamento e protocolos. Quando a cobrança vier depois de um cancelamento, a mensagem ao estabelecimento deve ser escrita e objetiva. Peça à IA um rascunho e revise antes de enviar. Se a cobrança indevida estiver na conta de celular ou internet, as regras são da Anatel, e o guia de <a href="/artigos/fatura-de-celular-e-internet-com-ia-contestar-cobranca-e-reclamar-na-anatel">contestar a fatura de celular e internet com IA</a> mostra prazos e passo a passo.</p>
 
     <pre><code>Escreva uma mensagem curta e educada para o atendimento da empresa [nome]. Contexto: cancelei o serviço em [data], protocolo [número], e a cobrança de R$ [valor] apareceu de novo na fatura de [mês]. Peça o cancelamento definitivo, o estorno em até 7 dias e a confirmação por escrito. Sem ameaças e sem citar leis.</code></pre>
 

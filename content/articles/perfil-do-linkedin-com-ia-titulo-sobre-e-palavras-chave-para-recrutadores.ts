@@ -88,7 +88,7 @@ O que busco: [..]</code></pre>
 
     <p>Uma maneira prática de decidir: cruze a lista de palavras-chave das vagas com o que você realmente domina. As que aparecem nos dois lados vão para o topo. As que as vagas pedem e você não tem viram plano de estudo, não item do perfil. Para organizar esse plano, o guia de <a href="/artigos/plano-de-carreira-com-ia-metas-de-90-dias">plano de carreira com IA em 90 dias</a> ajuda a transformar a lacuna em metas.</p>
 
-    <p>Se você quer mostrar projetos além do cargo, o artigo sobre <a href="/artigos/como-montar-portfolio-de-habilidades-de-ia-para-recrutadores">portfólio de habilidades de IA para recrutadores</a> indica o que anexar na seção de destaques.</p>
+    <p>Se você quer mostrar projetos além do cargo, o artigo sobre <a href="/artigos/como-montar-portfolio-de-habilidades-de-ia-para-recrutadores">portfólio de habilidades de IA para recrutadores</a> indica o que anexar na seção de destaques. E, se você já domina o assunto e quer cobrar para revisar perfis de outras pessoas, o guia de <a href="/artigos/perfil-do-linkedin-como-servico-revisao-de-sobre-e-em-destaque-pacote-preco-e-limites">revisão de perfil do LinkedIn como serviço</a> traz pacote, preço de teste e limites éticos.</p>
 
     <h2>Exemplo: Carla, 34 anos, de assistente administrativa para operações</h2>
 

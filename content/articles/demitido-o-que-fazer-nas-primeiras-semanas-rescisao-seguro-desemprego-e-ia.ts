@@ -75,7 +75,7 @@ export const article: Article = {
     <p>Sem rotina, a busca vira ansiedade. Um plano curto, com tarefas pequenas, ajuda. A proposta abaixo cabe em 3 horas por dia e serve de esqueleto, não de regra.</p>
 
     <h3>Semana 1: base</h3>
-    <p>Atualize o currículo base e o perfil profissional. O guia de <a href="/artigos/adaptar-curriculo-para-cada-vaga-com-ia-palavras-da-vaga-sem-inventar">adaptar currículo para cada vaga</a> e o do <a href="/artigos/perfil-do-linkedin-com-ia-titulo-sobre-e-palavras-chave-para-recrutadores">perfil do LinkedIn com IA</a> cobrem as duas peças. Liste de 15 a 20 empresas-alvo.</p>
+    <p>Atualize o currículo base e o perfil profissional. O guia de <a href="/artigos/adaptar-curriculo-para-cada-vaga-com-ia-palavras-da-vaga-sem-inventar">adaptar currículo para cada vaga</a> e o do <a href="/artigos/perfil-do-linkedin-com-ia-titulo-sobre-e-palavras-chave-para-recrutadores">perfil do LinkedIn com IA</a> cobrem as duas peças. Liste de 15 a 20 empresas-alvo. Para entrar também no cruzamento de vagas do Sine, o guia do <a href="/artigos/curriculo-no-portal-emprega-brasil-sine-como-preencher-o-cadastro-com-ia">currículo no Portal Emprega Brasil</a> mostra o cadastro passo a passo.</p>
 
     <h3>Semana 2: conversas</h3>
     <p>Avise a rede de contatos de forma objetiva, sem dramatizar, e peça indicações. O texto sobre <a href="/artigos/networking-com-ia-mensagens-para-recrutadores-e-indicacoes">networking com IA</a> traz modelos de mensagem. Meta: 10 conversas, entre ex-colegas, antigos gestores e recrutadores.</p>

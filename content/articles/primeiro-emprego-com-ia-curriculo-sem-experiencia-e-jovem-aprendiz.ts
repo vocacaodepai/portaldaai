@@ -91,6 +91,8 @@ export const article: Article = {
 
     <p>Em outras palavras, o caminho passa por uma entidade formadora, e não só por enviar currículo para a empresa. Os detalhes de duração do contrato, jornada e remuneração não aparecem na página, que remete ao Manual da Aprendizagem. Antes de decidir, consulte esse manual e as vagas da sua cidade, porque as regras têm exceções. Se a empresa pedir currículo, use o mesmo método deste guia, adaptando ao curso que você está fazendo.</p>
 
+    <p>Além das empresas e das entidades formadoras, vale ter cadastro no Sine, que é gratuito para o cidadão. O guia do <a href="/artigos/curriculo-no-portal-emprega-brasil-sine-como-preencher-o-cadastro-com-ia">currículo no Portal Emprega Brasil</a> mostra como preencher o perfil mesmo sem experiência formal, descrevendo estudos, cursos e atividades.</p>
+
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Programa de aprendizagem sério não cobra taxa de inscrição do jovem. Se alguém pedir pagamento para garantir vaga, desconfie e procure o Ministério do Trabalho ou a escola. O guia de <a href="/artigos/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes">como checar mensagem suspeita</a> ajuda a identificar golpes.</p></div>
 
     <h2>Treinar a primeira conversa com o recrutador</h2>
