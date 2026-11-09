@@ -365,6 +365,9 @@ export const productSubcategories = [
   { slug: "lampada-led", label: "Lâmpada LED", category: "casa-utilidades" },
   { slug: "cola-instantanea", label: "Cola Instantânea", category: "ferramentas-casa" },
   { slug: "antipulgas", label: "Antipulgas e Carrapaticida", category: "pet" },
+  { slug: "furadeira-impacto", label: "Furadeira de Impacto", category: "ferramentas-casa" },
+  { slug: "bebedouro", label: "Bebedouro", category: "cozinha" },
+  { slug: "ventilador-teto", label: "Ventilador de Teto", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
