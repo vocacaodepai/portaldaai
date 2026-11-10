@@ -371,6 +371,8 @@ export const productSubcategories = [
   { slug: "caneta-esferografica", label: "Caneta Esferográfica", category: "escritorio" },
   { slug: "cuidado-plasticos-carro", label: "Limpeza e Restauração de Plásticos", category: "automotivo" },
   { slug: "campainha-sem-fio", label: "Campainha sem Fio", category: "seguranca" },
+  { slug: "martelete", label: "Martelete Perfurador", category: "ferramentas-casa" },
+  { slug: "fone-para-dormir", label: "Fone para Dormir", category: "audio-video" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
