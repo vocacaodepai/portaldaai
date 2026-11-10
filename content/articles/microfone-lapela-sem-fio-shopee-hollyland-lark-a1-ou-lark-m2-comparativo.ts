@@ -113,7 +113,7 @@ export const article: Article = {
 
     <h2>Como escolher entre os dois</h2>
     <p>A pergunta que decide é: você grava só com celular ou também com câmera? Para celular, o A1 entrega o que importa (leveza, bateria longa e ruído ajustável) por muito menos. Para câmera, o M2 Combo evita comprar um receptor separado e dá mais folga de distância.</p>
-    <p>Para quem usa o celular como câmera principal, vale combinar o microfone com os outros itens do canal, como uma <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">webcam</a> na mesa de trabalho e um <a href="/artigos/melhor-microfone-usb-para-podcast-comparativo-2026">microfone USB de mesa</a> quando a gravação é sentada. O lapela ganha em quem se movimenta, grava em pé ou em ambiente aberto.</p>
+    <p>Para quem usa o celular como câmera principal, vale combinar o microfone com os outros itens do canal, como uma <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">webcam</a> na mesa de trabalho e um <a href="/artigos/melhor-microfone-usb-para-podcast-comparativo-2026">microfone USB de mesa</a> quando a gravação é sentada. O lapela ganha em quem se movimenta, grava em pé ou em ambiente aberto. Se a imagem balança quando você grava andando, o <a href="/artigos/dji-osmo-mobile-se-estabilizador-celular-vale-a-pena">estabilizador DJI Osmo Mobile SE</a> completa o kit junto com o lapela.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark A1 na Shopee agora ↗</a>
     </div>

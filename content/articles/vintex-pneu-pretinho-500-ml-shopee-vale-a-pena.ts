@@ -12,7 +12,8 @@ export const article: Article = {
   productCategory: "automotivo",
   productSubcategory: "pretinho-pneu",
   date: "2026-11-03",
-  readTime: 8,
+  updated: "2026-11-10",
+  readTime: 7,
   imageQuery: "car tire black shine dressing wheel detailing",
   seed: 1105,
   coverImage: {
@@ -65,7 +66,7 @@ export const article: Article = {
     <p>A Vintex é uma marca irmã da Vonixx: em 2020, a Vonixx dividiu a linha em duas marcas para atender públicos diferentes, e o pretinho ficou com a Vintex. Quem já conhece a <a href="/artigos/cera-automotiva-shopee-vonixx-tok-final-ou-blend-spray-wax-comparativo">cera Tok Final</a> ou o <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">shampoo V-Floc</a> vai reconhecer o estilo do rótulo.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o Pneu Pretinho Vintex entrega</h2>
@@ -77,7 +78,7 @@ export const article: Article = {
     <p>É um produto de acabamento: não limpa o pneu, só dá cor e brilho. Por isso rende mais quando o pneu passa antes por um bom <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">shampoo automotivo</a>, que tira a lama e o resíduo de pretinho antigo. Sem essa etapa, o produto novo cobre a sujeira e dura menos.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como aplicar sem sujar a pintura</h2>
@@ -85,7 +86,7 @@ export const article: Article = {
     <p>Quem tem o carro parado em garagem coberta tira mais proveito, porque a chuva é o principal inimigo do brilho. Para fechar a lavagem, o <a href="/artigos/limpa-vidros-automotivo-shopee-vonixx-glazy-x-glazy-anti-fog-comparativo">limpa-vidros Glazy</a> tira qualquer respingo no vidro, e o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">aspirador de carro</a> cuida do interior.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -97,8 +98,20 @@ export const article: Article = {
     <p>Não é a melhor para quem quer acabamento fosco de loja de luxo, e nem para quem não tem como secar o pneu antes de aplicar. Quem já usa som no carro pode também ver o <a href="/artigos/ugreen-70601-receptor-bluetooth-som-do-carro-vale-a-pena">receptor Bluetooth UGREEN</a> para completar o cuidado com o veículo.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
+
+    <h2>O que dizem a página e a ficha de segurança da Vintex</h2>
+    <p>A <a href="https://vintex.com.br/produto/pneu-pretinho/" rel="noopener noreferrer">página oficial do Pneu Pretinho</a> confirma os dois selos do rótulo, brilho molhado e super concentrado, e mostra que o produto sai em quatro tamanhos: 500 ml, 1,5 L, 5 L e 20 L. O modo de usar tem dois passos: lavar bem os pneus, tirando lama e barro, e aplicar o produto puro com o aplicador para pneus da própria Vintex. Quem cuida de mais de um carro ou lava toda semana pode fazer a conta do frasco maior antes de comprar vários pequenos.</p>
+    <p>Na mesma página está a ficha com dados de segurança (FDS), revisada em julho de 2025 e emitida pela EVC Industrial, a fabricante da Vonixx, em Fortaleza. Ela classifica o pretinho como produto que provoca irritação moderada à pele, pode causar reação alérgica cutânea e pode ser nocivo se inalado. A ficha também aponta efeito nocivo prolongado sobre organismos aquáticos.</p>
+    <h3>Cuidados práticos de manuseio</h3>
+    <ul class="checklist">
+      <li>Use luvas ao aplicar, como a ficha recomenda, e lave as mãos com água e sabão depois.</li>
+      <li>Aplique em local arejado e evite respirar a névoa do produto.</li>
+      <li>Não deixe o produto escorrer para ralo, bueiro ou curso d'água, e não lave nem reaproveite a embalagem vazia.</li>
+      <li>Guarde o frasco bem fechado, em lugar coberto, seco e arejado, e respeite a validade.</li>
+    </ul>
+    <p>A Vintex tem ainda o Darker, outro finalizador de pneus, feito sobretudo para caminhões: é pigmentado, vai com pincel e forma um filme preto de alta durabilidade, com 30 minutos de secagem entre demãos. Para o carro de passeio lavado em casa, o Pneu Pretinho é o mais simples dos dois.</p>
 
     <h2>Cuidados ao comprar na Shopee</h2>
     <p>A busca por pretinho na Shopee traz centenas de anúncios, muitos de marca sem identificação. O anúncio que consultamos é de uma loja com selo de Shopee Mall, com nota 4,9 e mais de 550 vendas, para o frasco de 500 ml. Confira no título a marca (Vintex), o volume e se não é um kit que inclui outros itens, e desconfie de preço muito abaixo da faixa, que pode indicar produto diferente do anunciado.</p>
@@ -111,7 +124,7 @@ export const article: Article = {
     <p>O custo-benefício é alto: é um dos itens de estética automotiva mais baratos, e rende muitas aplicações. <em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -119,7 +132,7 @@ export const article: Article = {
     <p>É uma análise de produto de estética, não de segurança: pneu desgastado ou mal calibrado não se resolve com pretinho. Para a manutenção do carro, o mais importante é a calibragem e o estado do pneu.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar Vintex Pretinho na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3VlXOGdj4S" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha resumida</h2>
@@ -140,7 +153,7 @@ export const article: Article = {
     {
       question: "Como aplicar o Pneu Pretinho Vintex?",
       answer:
-        "A marca orienta lavar bem os pneus, deixar secar e aplicar o produto puro com aplicador de espuma, de forma uniforme. Retire o excesso com pano limpo para evitar respingos na pintura. Leia também o rótulo do frasco.",
+        "A marca orienta lavar bem os pneus, deixar secar e aplicar o produto puro com aplicador de espuma, de forma uniforme. Retire o excesso com pano limpo para evitar respingos na pintura. A ficha de segurança recomenda luvas e lavar as mãos depois do uso.",
     },
     {
       question: "O pretinho pode manchar a pintura?",

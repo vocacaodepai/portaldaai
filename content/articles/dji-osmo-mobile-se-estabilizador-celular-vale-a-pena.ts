@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "dji-osmo-mobile-se-estabilizador-celular-vale-a-pena",
-  title: "DJI Osmo Mobile SE: vídeo firme no celular, mas só compensa para quem grava com frequência",
+  title: "DJI Osmo Mobile SE: vídeo firme no celular para quem grava sempre",
   seoTitle: "DJI Osmo Mobile SE vale a pena? Análise do estabilizador para celular",
   excerpt:
     "Nota 8,3 de 10. Analisamos o DJI Osmo Mobile SE: gimbal de 3 eixos dobrável, 352 g, bateria de 2.600 mAh e fixação magnética, com limites de peso do celular e de acabamento.",
@@ -12,7 +12,8 @@ export const article: Article = {
   productCategory: "acessorios-celular",
   productSubcategory: "estabilizador-celular",
   date: "2026-11-03",
-  readTime: 8,
+  updated: "2026-11-10",
+  readTime: 7,
   imageQuery: "smartphone gimbal stabilizer",
   seed: 302,
   coverImage: {
@@ -103,6 +104,11 @@ export const article: Article = {
     <h2>O que esperar do primeiro uso</h2>
     <p>Na primeira vez, o mais demorado é entender o balanceamento e as posições dos botões. Com a fixação magnética, o celular entra no suporte, e o gimbal se ajusta quando é ligado. O app guia a configuração e mostra tutoriais curtos, o que reduz a curva de aprendizado de quem nunca usou um estabilizador.</p>
     <p>Depois de alguns vídeos, os movimentos ficam mais naturais: acompanhar uma pessoa andando, girar em volta de um objeto e alternar entre horizontal e vertical. O ganho é maior em ambientes com movimento, como viagem e passeios, e menor em gravação parada em mesa, em que um tripé simples já dá conta.</p>
+
+    <h2>Osmo Mobile SE ou Osmo Mobile 7: o que muda</h2>
+    <p>A DJI vende hoje a linha Osmo Mobile 7, e a dúvida natural é se o SE ainda compensa. Pela <a href="https://www.dji.com/osmo-mobile-7-series/specs" rel="noopener noreferrer nofollow">ficha oficial do Osmo Mobile 7</a>, o modelo novo pesa cerca de 300 g já somando tripé embutido e pegador magnético. O SE tem 352 g só no gimbal, mais 31 g do pegador e 72 g do tripé, que é uma peça separada.</p>
+    <p>A bateria também cresce: 3.350 mAh e cerca de 10 horas em condições ideais no 7, contra 2.600 mAh e 8 horas no SE. O 7 aceita celular de até 300 g, um pouco acima dos 290 g do SE, e usa Bluetooth 5.3 em vez do 5.1. Nenhum dos dois tem bastão extensor embutido: o bastão de até 215 mm é exclusivo do Osmo Mobile 7P, que traz de série o módulo multifuncional de rastreamento, opcional no 7.</p>
+    <p>Na prática, o SE segue fazendo sentido para quem quer gastar menos e grava em sessões curtas. Quem filma muito em viagem, usa celular pesado ou quer o tripé sempre junto deve comparar o preço do 7 antes de decidir.</p>
 
     <h2>Variação de preço</h2>
     <p>O DJI Osmo Mobile SE costuma variar de R$ 600 a R$ 800, uma faixa aproximada de mercado que muda com vendedor, versão e época. Anúncios de vendedores terceiros, versões importadas e promoções de varejo puxam o valor para cima ou para baixo, e vale desconfiar de preço muito fora da faixa, conferindo se o produto tem garantia da DJI no Brasil.</p>

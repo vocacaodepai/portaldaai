@@ -118,7 +118,7 @@ export const article: Article = {
       <li><strong>Drone e câmera de ação:</strong> o Extreme, pela escrita mais alta e pela classe V30.</li>
       <li><strong>Backup ocasional de fotos:</strong> o Ultra, com o adaptador SD que já vem na caixa.</li>
     </ul>
-    <p>Um cuidado que vale para os três: cartão microSD é consumível. Mesmo com garantia longa, guarde as imagens importantes em outro lugar também, como um <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">SSD portátil</a>, e formate o cartão no próprio aparelho ao trocar de equipamento. Assim a câmera cria a estrutura de pastas que ela espera.</p>
+    <p>Um cuidado que vale para os três: cartão microSD é consumível. Mesmo com garantia longa, guarde as imagens importantes em outro lugar também, como um <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">SSD portátil</a>, e formate o cartão no próprio aparelho ao trocar de equipamento. Assim a câmera cria a estrutura de pastas que ela espera. Para tirar as imagens do cartão no computador ou no celular, o <a href="/artigos/ugreen-50706-leitor-de-cartao-usb-c-e-usb-a-sd-microsd-analise">leitor UGREEN 50706</a> tem pontas USB-C e USB-A e slots para SD e microSD.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B07NY23WBG?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar SanDisk High Endurance 128 GB na Amazon agora ↗</a>
     </div>

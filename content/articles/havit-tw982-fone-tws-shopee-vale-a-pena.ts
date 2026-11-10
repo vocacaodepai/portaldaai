@@ -12,7 +12,8 @@ export const article: Article = {
   productCategory: "audio-video",
   productSubcategory: "fone-bluetooth",
   date: "2026-10-30",
-  readTime: 8,
+  updated: "2026-11-10",
+  readTime: 6,
   imageQuery: "Havit TW982 wireless earbuds",
   seed: 935,
   coverImage: {
@@ -65,7 +66,7 @@ export const article: Article = {
     <p>Fone TWS barato virou categoria de gôndola, e a dúvida de quem compra é se vale pagar um pouco mais por uma marca conhecida. O <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">comparativo de fones bluetooth baratos</a> dá o pano de fundo, e o <a href="/artigos/fone-tws-shopee-qcy-melobuds-pro-ht08-ou-melobuds-n70-ht18-comparativo">comparativo de fones QCY na Shopee</a> mostra a concorrência direta.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o Havit TW982 entrega</h2>
@@ -79,8 +80,13 @@ export const article: Article = {
     <h2>Bateria: o ponto forte</h2>
     <p>As fichas apontam cerca de 7,5 horas de reprodução nos fones e até 33 horas somando as recargas do estojo. É um número bom para o preço, suficiente para uma semana de trajeto de casa ao trabalho sem tomada. Como em todo fone, o volume alto, as chamadas longas e o modo de jogo gastam mais bateria que o número de referência.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
+
+    <h2>O que diz o catálogo oficial da Havit</h2>
+    <p>No <a href="https://cdn.shopify.com/s/files/1/0755/1365/9703/files/HAVIT_audio-headphones-catalog.pdf" rel="noopener noreferrer">catálogo de fones da própria Havit</a>, o TW982 aparece com o nome comercial LIFE 01T. A ficha de fábrica confirma o Bluetooth 5.4 e os dois drivers de 13 mm. Ela também traz dados que os anúncios costumam omitir: chip AB5656, bateria de 40 mAh em cada fone e de 400 mAh no estojo.</p>
+    <p>Na autonomia, o catálogo é mais conservador que as lojas: cerca de 7 horas de música e 5 horas de conversa, medidas com o volume em 60%. A diferença para as 7,5 horas dos varejistas é pequena, mas mostra que o número de referência vale para volume moderado. Os destaques que a marca lista são encaixe firme para orelhas pequenas, vários pares de ponteiras e redução de ruído por IA nas chamadas, o que bate com o anúncio da Shopee.</p>
+    <p>Se o nome LIFE 01T aparecer num anúncio, é o mesmo fone. O Life T1, vendido como TW982 Pro, é outro modelo, com cancelamento ativo de ruído, então só compare preço entre anúncios com o mesmo nome.</p>
 
     <h2>Som, chamadas e conforto</h2>
     <p>O driver de 13 mm costuma entregar um som equilibrado, com graves presentes e médios claros, afinação típica de fone de entrada. Não espere a separação de instrumentos de um fone de R$ 500, e não espere cancelamento ativo de ruído: o ENC citado na ficha atua no microfone, para a voz sair mais limpa nas ligações, não no que você escuta.</p>
@@ -100,14 +106,14 @@ export const article: Article = {
       <li>Documentação em português menos detalhada que a de marcas maiores.</li>
     </ul>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>O TW982 serve para quem quer trocar o fone com fio ou o fone que quebrou por algo sem fio, barato e com bateria folgada: estudante, quem pega ônibus, quem caminha, quem usa em casa para ouvir podcast. Faz sentido também como segundo fone, para deixar na mochila.</p>
     <p>Quem busca cancelamento de ruído de verdade deve olhar um modelo mais caro, como o <a href="/artigos/soundcore-life-q30-vale-a-pena">Soundcore Life Q30</a>, ou um TWS Anker como o <a href="/artigos/soundcore-p20i-anker-vale-a-pena">Soundcore P20i</a>, que tem ficha mais documentada. Para jogo, o <a href="/artigos/melhor-headset-gamer-barato-comparativo-2026">headset gamer</a> entrega microfone melhor, e para som compartilhado a <a href="/artigos/jbl-go-5-caixa-de-som-shopee-vale-a-pena">JBL Go 5</a> resolve. Se o seu computador não tem Bluetooth, o <a href="/artigos/tp-link-ub500-adaptador-bluetooth-usb-vale-a-pena">adaptador TP-Link UB500</a> resolve a conexão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -119,13 +125,13 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O custo-benefício é bom quando o preço fica na parte de baixo da faixa. Se o vendedor pede o dobro da loja oficial, vale esperar ou comparar com os concorrentes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nota final</h2>
     <p>Damos 7,6 de 10. A bateria e o custo-benefício puxam a nota para cima. O som de entrada, a falta de cancelamento ativo de ruído e as divergências de ficha seguram. Se você quer um fone sem fio simples, de marca conhecida e com bateria de sobra, o TW982 cumpre. Para ouvir música com mais detalhe ou isolar o barulho do ônibus, o investimento precisa ser maior.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar Havit TW982 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUz2kBHg8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [
@@ -137,7 +143,7 @@ export const article: Article = {
     {
       question: "Quanto dura a bateria do Havit TW982?",
       answer:
-        "As fichas de varejo indicam cerca de 7,5 horas de uso nos fones e até 33 horas somando o estojo. O tempo real cai com volume alto, chamadas longas e modo de jogo, então use o número como referência.",
+        "As fichas de varejo indicam cerca de 7,5 horas de uso nos fones e até 33 horas somando o estojo. O catálogo da Havit fala em cerca de 7 horas de música e 5 de conversa, com volume em 60%. O tempo real cai com volume alto, chamadas longas e modo de jogo, então use o número como referência.",
     },
     {
       question: "O Havit TW982 é à prova d'água?",
