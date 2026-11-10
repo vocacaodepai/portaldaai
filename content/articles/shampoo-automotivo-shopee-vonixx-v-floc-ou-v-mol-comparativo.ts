@@ -98,7 +98,7 @@ export const article: Article = {
       <li>Enxágue bem e seque com toalha de microfibra para evitar marca de água.</li>
       <li>Depois do V-Mol, reaplique cera ou selante, porque ele pode retirar a proteção.</li>
     </ul>
-    <p>Para quem lava o carro com lavadora de pressão, o <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">comparativo de lavadoras Kärcher e WAP</a> ajuda, e para a parte interna o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">comparativo de aspiradores de carro</a> completa a rotina.</p>
+    <p>Para quem lava o carro com lavadora de pressão, o <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">comparativo de lavadoras Kärcher e WAP</a> ajuda, e para a parte interna o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">comparativo de aspiradores de carro</a> completa a rotina. Com o pneu limpo e seco, o <a href="/artigos/vintex-pneu-pretinho-500-ml-shopee-vale-a-pena">review do Pneu Pretinho Vintex</a> mostra como aplicar o finalizador sem respingar na lataria.</p>
 
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Mol na Shopee agora ↗</a>

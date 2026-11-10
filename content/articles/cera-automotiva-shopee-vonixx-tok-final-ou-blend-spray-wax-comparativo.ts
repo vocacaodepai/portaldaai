@@ -105,7 +105,7 @@ export const article: Article = {
       <li>Termine com microfibra limpa e seca, trocando de face quando ela ficar úmida.</li>
       <li>Em caso de mancha, reaplique na área e refaça o acabamento, como orienta a marca.</li>
     </ul>
-    <p>Quem lava em casa pode começar pelo <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">comparativo dos shampoos Vonixx V-Floc e V-Mol</a>: o shampoo de pH neutro mantém a cera por mais tempo, e o desincrustante tende a tirá-la.</p>
+    <p>Quem lava em casa pode começar pelo <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">comparativo dos shampoos Vonixx V-Floc e V-Mol</a>: o shampoo de pH neutro mantém a cera por mais tempo, e o desincrustante tende a tirá-la. Para fechar pelos pneus, o <a href="/artigos/vintex-pneu-pretinho-500-ml-shopee-vale-a-pena">Pneu Pretinho Vintex</a>, da marca irmã da Vonixx, entra depois da lavagem e dá o brilho molhado.</p>
 
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/5q9GQZLVVz" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx Tok Final na Shopee agora ↗</a>

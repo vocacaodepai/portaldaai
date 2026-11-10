@@ -123,7 +123,7 @@ export const article: Article = {
 
     <h2>Como escolher o shampoo certo</h2>
     <p>Comece pela espécie e pela idade: o Beeps Neutro e o Pet Clean indicam cães e gatos, e o kit Sanol que analisamos é da linha para cadelas. Filhote de menos de 4 semanas não toma banho com shampoo. Para pele irritada, com feridas, coceira forte ou queda de pelos, a escolha é do veterinário, e shampoo de prateleira não substitui consulta.</p>
-    <p>Siga o rótulo de cada marca: algumas fórmulas pedem diluição, outras vão direto no pelo, e quase todas pedem enxágue demorado para não deixar resíduo. Não use shampoo humano no animal. Depois do banho, a <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">cama</a> limpa e o <a href="/artigos/chalesco-lencos-umedecidos-pets-80-unidades-shopee-vale-a-pena">lenço umedecido pet</a> ajudam a manter o cheiro entre um banho e outro.</p>
+    <p>Siga o rótulo de cada marca: algumas fórmulas pedem diluição, outras vão direto no pelo, e quase todas pedem enxágue demorado para não deixar resíduo. Não use shampoo humano no animal. Depois do banho, a <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">cama</a> limpa e o <a href="/artigos/chalesco-lencos-umedecidos-pets-80-unidades-shopee-vale-a-pena">lenço umedecido pet</a> ajudam a manter o cheiro entre um banho e outro. Se o pet usa coleira antipulgas, banho com shampoo muito frequente pode encurtar a proteção, como explica o <a href="/artigos/seresto-coleira-antipulgas-caes-gatos-ate-8kg-shopee-vale-a-pena">review da coleira Seresto</a>.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/2LZVDUJuIi" rel="sponsored noopener noreferrer" target="_blank">Comprar Shampoo Beeps Neutro na Shopee agora ↗</a>
     </div>

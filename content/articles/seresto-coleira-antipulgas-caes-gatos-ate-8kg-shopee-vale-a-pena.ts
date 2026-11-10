@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "pet",
   productSubcategory: "antipulgas",
   date: "2026-11-08",
+  updated: "2026-11-10",
   readTime: 8,
   imageQuery: "small dog cat collar flea",
   seed: 1159,
@@ -85,6 +86,13 @@ export const article: Article = {
     <h2>Como colocar e cuidados</h2>
     <p>A coleira sai do envelope individual, é ajustada ao pescoço deixando espaço para dois dedos entre ela e a pele, e o excesso é cortado a cerca de 2 cm da presilha. Isso evita que fique larga a ponto de o pet morder ou prender a pata, e que fique justa demais. Em filhote que ainda está crescendo, vale conferir o ajuste toda semana.</p>
     <p>As fichas de grandes redes pet listam as contraindicações: gatos com menos de 10 semanas, cães com menos de 7 semanas, animais com hipersensibilidade a imidacloprida ou flumetrina e fêmeas em gestação ou lactação. Crianças não devem brincar com a coleira, e quem manuseia deve lavar as mãos depois. Para entender o que significa cada aviso da embalagem ou da bula, o guia de <a href="/artigos/bula-de-remedio-com-ia-como-entender-sem-trocar-o-farmaceutico">como ler bula com ajuda da IA</a> ajuda a organizar as dúvidas antes da consulta, sem substituir o veterinário.</p>
+
+    <h2>O que a bula europeia detalha: carrapatos, banho e convívio em casa</h2>
+    <p>O <a href="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/d4beb2af-eeea-41d3-af14-0d38cf00fdb8/pt-combined-seresto-cao-peq-mar%C3%A7o2024-pt.pdf" rel="noopener noreferrer">resumo das características do medicamento</a> da Seresto para cães até 8 kg, aprovado em Portugal e revisado em março de 2024, traz detalhes que a lata não mostra. A coleira de 38 cm e 12,5 g leva 1,25 g de imidacloprida e 0,56 g de flumetrina. O produto vendido no Brasil tem bula própria, então use esse documento como complemento e siga o que vem na embalagem comprada aqui.</p>
+    <p>Sobre carrapatos, o documento avisa que os que já estão no cão podem não morrer nas 48 horas seguintes e continuar presos e visíveis, por isso recomenda retirá-los na hora de colocar a coleira. A prevenção de novas infestações começa dois dias depois. Os carrapatos que chegam depois costumam morrer e cair em 24 a 48 horas, sem se alimentar, mas a transmissão de doença não pode ser descartada por completo.</p>
+    <h3>Banho, água e queda de pelo</h3>
+    <p>A coleira resiste à água, mas o texto pede para evitar exposição intensa e prolongada e banhos frequentes com shampoo. Nos estudos citados, o banho mensal não reduziu de forma importante a proteção contra carrapatos, enquanto a eficácia contra pulgas cai aos poucos a partir do quinto mês. Na troca de pelo da estação, a eficácia pode cair um pouco por um tempo e volta sozinha. Em casa muito infestada, pode ser preciso tratar também o ambiente com inseticida adequado.</p>
+    <p>Para as pessoas, o documento recomenda que crianças pequenas não brinquem com a coleira nem a ponham na boca e que o animal com a coleira não durma na cama dos donos, principalmente na das crianças. Também pede lavar as mãos com água fria depois de colocar a coleira e jogar fora logo os pedaços cortados.</p>
 
     <h2>Para quem vale a pena</h2>
     <p>A Seresto compensa para cães de porte pequeno, até 8 kg, e para gatos que saem ao quintal, à varanda ou têm contato com outros animais, situações em que a pulga volta com facilidade. Também é uma boa saída para quem esquece a dose mensal ou tem pet que não aceita comprimido. Em casa com mais de um animal, todos precisam de proteção ao mesmo tempo, ou a pulga simplesmente migra para o pet que ficou sem antiparasitário. Para cães acima de 8 kg, a escolha certa é a versão grande. Para filhote muito novo, gestante ou animal com problema de pele, converse antes com o veterinário.</p>

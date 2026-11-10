@@ -2,17 +2,18 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "ugreen-50706-leitor-de-cartao-usb-c-e-usb-a-sd-microsd-analise",
-  title: "Leitor de cartão UGREEN 50706: duas pontas no mesmo aparelho, mas com limites para quem usa celular",
+  title: "Leitor de cartão UGREEN 50706: duas pontas, mas com limites no celular",
   seoTitle: "UGREEN 50706: leitor de cartão SD e microSD USB-C e USB-A",
   excerpt:
-    "Nota 8,1 de 10. Analisamos o leitor de cartão UGREEN 50706, com ponta USB-C e USB-A, slots SD e microSD lidos ao mesmo tempo, corpo de alumínio e alguns cuidados de compatibilidade.",
+    "Nota 8,1 de 10. Analisamos o leitor UGREEN 50706: pontas USB-C e USB-A, slots SD e microSD ao mesmo tempo e o que muda no iPhone e no Samsung.",
   metaDescription:
     "UGREEN 50706 vale a pena? Análise do leitor de cartão com USB-C e USB-A, slots SD e microSD, até 5 Gbps, nota por critério, prós, contras e para quem compensa.",
   category: "ai-indica",
   productCategory: "informatica",
   productSubcategory: "leitor-cartao",
   date: "2026-11-02",
-  readTime: 8,
+  updated: "2026-11-10",
+  readTime: 7,
   imageQuery: "leitor de cartão sd e microsd conectado ao notebook",
   seed: 903,
   coverImage: {
@@ -88,6 +89,13 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B07D1J88CF?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
+
+    <h2>Compatibilidade na prática: computador, iPhone e Android</h2>
+    <p>A lista de compatibilidade da página oficial, que a própria UGREEN chama de incompleta, cita MacBook Pro e MacBook Air com chips M1 e M2, iMac e Mac mini, a linha Surface, ThinkPad, Dell XPS, Zenbook e Chromebooks, além de Galaxy Tab e iPads com USB-C. No slot SD, a ficha inclui os padrões MMC e RS-MMC, comuns em câmeras antigas. Entre os telefones aparecem Galaxy S e Note, Pixel e o iPhone 15, primeiro iPhone com USB-C.</p>
+    <p>A mesma página faz quatro avisos: as pontas USB-A e USB-C não devem ser usadas ao mesmo tempo, o celular precisa ter OTG, celulares Samsung só leem cartão em FAT32 ou exFAT, e a capa não pode passar de 1 mm. Os dois slots, por outro lado, trabalham juntos, o que permite copiar de um cartão para o outro pelo computador.</p>
+    <h3>No iPhone com USB-C</h3>
+    <p>O <a href="https://support.apple.com/pt-br/118280" rel="noopener noreferrer">guia da Apple para importar fotos por adaptador</a> descreve o caminho para cartão SD: no iOS 18, abra o app Fotos, toque em Coleções, role até Dispositivos e escolha o cartão. Dá para importar tudo ou só alguns itens e, no fim, manter ou apagar o que ficou no cartão. O texto trata dos adaptadores da própria Apple, então use como referência para o 50706.</p>
+    <p>Um aviso da Apple vale para qualquer leitor: arquivo renomeado, editado ou copiado para o cartão pode não ser importado pelo Fotos, que espera o que a câmera gravou. No Android, o caminho é o gerenciador de arquivos do celular. Se o cartão veio formatado em NTFS de um computador Windows, o Samsung não vai ler: copie os arquivos para o computador e formate o cartão em exFAT, lembrando que formatar apaga tudo.</p>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale a pena para quem junta fotos e vídeos de câmera, drone, câmera de ação ou câmera veicular e quer passar tudo ao computador sem procurar adaptador. Vale também para o profissional de escritório que recebe cartão de cliente e precisa de um leitor que sirva em qualquer máquina da empresa, e para quem tem um <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">kit de reunião</a> e um monte de periféricos USB e prefere um só acessório de leitura.</p>

@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "audio-video",
   productSubcategory: "receptor-satelite",
   date: "2026-11-02",
+  updated: "2026-11-10",
   readTime: 7,
   imageQuery: "satellite TV receiver remote control",
   seed: 1082,
@@ -65,7 +66,7 @@ export const article: Article = {
     <p>Para quem mora em lugar onde a TV aberta pelo ar não chega bem, ou só quer canais abertos sem assinatura, a parabólica segue sendo uma saída. Se o seu caso é a antena comum da cidade, o <a href="/artigos/intelbras-ai-3101-antena-tv-digital-usb-vale-a-pena">review da antena digital Intelbras</a> mostra outra alternativa.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o RDS 830 entrega</h2>
@@ -80,15 +81,20 @@ export const article: Article = {
     <p>O gravador é o diferencial frente a um receptor simples. Você agenda dia, hora, canal e duração (o padrão é de duas horas) e o aparelho grava no pendrive ou HD externo ligado à USB. O manual manda testar o dispositivo antes e formatar em FAT ou NTFS pelo próprio menu.</p>
     <p>Um aviso importante do fabricante: o sistema de gravação foi feito para uso no próprio receptor, e os vídeos gravados só devem ser executados nele. Quem imaginava copiar o programa para o computador e editar vai se frustrar. Para guardar muita coisa, um <a href="/artigos/seagate-expansion-ou-wd-elements-hd-externo-2tb-comparativo">HD externo</a> dá mais espaço que um pendrive.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>SATHD Regional e antena: o que você precisa ter</h2>
     <p>O RDS 830 funciona só com antena parabólica apontada para um satélite que transmita TV aberta. Sem sinal ou com apontamento ruim, ele não faz nada, e o manual é direto sobre isso. Ele serve para a banda Ku (o menu também permite escolher banda C) e é compatível com LNB universal, mas não com LNB multiponto.</p>
     <p>Os canais regionais em alta definição dependem do SATHD Regional. Segundo o manual, a ativação do acesso condicional é feita no site sathdregional.com, com os números da etiqueta do receptor ou da embalagem, e vale somente para a banda Ku. Sem esse cadastro, você pode não ver os canais regionais, então reserve alguns minutos para isso na instalação.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
+
+    <h2>Troca da parabólica para a banda Ku: onde o RDS 830 entra</h2>
+    <p>A parabólica tradicional, de banda C, está sendo substituída pela parabólica digital, de banda Ku. O motivo é o 5G: segundo a <a href="https://wpsitefiles.sigaantenado.com.br/content/2024/04/rls_002-Como-escolher-a-nova-parabolica1.pdf" rel="noopener noreferrer">Siga Antenado</a>, entidade criada por determinação da Anatel e formada por Claro, TIM e Vivo, o sinal do 5G usa a mesma faixa da parabólica antiga e pode causar chuvisco, chiado e imagem travada. A entidade cita dados da PNAD-TIC de 2021: 15 milhões de lares brasileiros usam parabólica.</p>
+    <p>Quem faz a troca por conta própria precisa substituir o conjunto todo, receptor incluído, e o RDS 830 é um receptor de banda Ku com SATHD Regional, o tipo que a parabólica nova pede. A Siga Antenado orienta pedir na loja a parabólica digital de banda Ku, preferir antena de aço galvanizado, que não enferruja, e contratar antenista para fixar e apontar. A antena de 60 cm atende a maior parte do país; regiões com chuva densa o ano todo, como partes da Amazônia, pedem 90 cm.</p>
+    <p>Antes de comprar, vale uma consulta. Famílias inscritas no CadÚnico que têm parabólica tradicional funcionando podem ter direito ao kit completo, com antena, receptor, controle e cabos, e à instalação gratuita, pelo site da Siga Antenado ou pelo 0800 729 2404. Quem já assiste pela antena digital comum, por streaming ou por TV paga não precisa fazer nada.</p>
 
     <h2>Prós e contras</h2>
     <h3>O que funciona bem</h3>
@@ -104,14 +110,14 @@ export const article: Article = {
       <li>USB 2.0 e sem recursos de smart TV, que um <a href="/artigos/intelbras-izy-play-full-hd-smart-tv-box-vale-a-pena">TV box</a> entrega.</li>
     </ul>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para quem já tem a parabólica e precisa trocar o receptor que queimou, ou quer passar do analógico para o digital em HD. Vale também para casa de campo, sítio e cidade pequena, onde o sinal do ar falha. A marca pesa: encontrar peça, manual e suporte é mais fácil com um fabricante grande.</p>
     <p>Não vale para quem não tem antena e acha que o receptor sozinho traz canais. Também não é para quem quer streaming: para isso, o <a href="/artigos/magcubic-hy300-mini-projetor-vale-a-pena">mini projetor</a> ou a <a href="/artigos/soundbar-samsung-hw-b450f-ou-hw-b650f-comparativo">soundbar</a> não substituem o receptor, e quem quer mais som da TV pode olhar o comparativo de soundbars. Se a sua TV está longe da tomada, confira o <a href="/artigos/iclamper-energia-8-ou-intelbras-epe-1008-filtro-de-linha-comparativo">filtro de linha</a> para proteger o conjunto.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -124,13 +130,13 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O custo-benefício é bom na parte de baixo da faixa, com vendedor oficial. Se o preço sobe perto do teto, compare antes com receptores de outras marcas.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nota final</h2>
     <p>Damos 7,9 de 10. O custo-benefício, a documentação e o gravador por USB puxam a nota para cima. A dependência da antena, do cadastro regional e das gravações presas ao aparelho seguram. Para quem já tem a parabólica, é uma troca segura. Para quem está começando do zero, conte também o custo da antena e da instalação, e veja se o <a href="/artigos/melhor-roteador-wifi-6-comparativo-2026">roteador</a> e a internet não resolvem melhor o seu caso.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras RDS 830 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [
