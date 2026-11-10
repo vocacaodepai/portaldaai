@@ -142,6 +142,7 @@ export const productCategories = [
   { slug: "jardim-quintal", label: "Jardim e Quintal" },
   { slug: "pet", label: "Pet" },
   { slug: "escritorio", label: "Escritório" },
+  { slug: "bebe", label: "Bebê" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -373,6 +374,9 @@ export const productSubcategories = [
   { slug: "campainha-sem-fio", label: "Campainha sem Fio", category: "seguranca" },
   { slug: "martelete", label: "Martelete Perfurador", category: "ferramentas-casa" },
   { slug: "fone-para-dormir", label: "Fone para Dormir", category: "audio-video" },
+  { slug: "lenco-umedecido-bebe", label: "Lenço Umedecido para Bebê", category: "bebe" },
+  { slug: "serum-facial", label: "Sérum Facial", category: "saude-bem-estar" },
+  { slug: "garrafao-termico", label: "Garrafão Térmico", category: "casa-utilidades" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
