@@ -162,7 +162,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o Grifpen: tinta líquida que seca rápido no papel comum, ponta chanfrada para traço fino e grosso, cartela grande de cores e nota 4,9 com mais de 300 vendas no anúncio. É o marca-texto que resolve caderno, apostila e resumo sem pensar muito.</p>
-    <p>O Supersoft Gel é a escolha certa para quem grifa Bíblia, Vade Mecum ou livro de folha fina, e para quem perde marcador por esquecer a tampa aberta. Se você estuda com rotina, vale encaixar a revisão do que foi grifado em blocos de tempo, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo com revisão espaçada</a>.</p>
+    <p>O Supersoft Gel é a escolha certa para quem grifa Bíblia, Vade Mecum ou livro de folha fina, e para quem perde marcador por esquecer a tampa aberta. Se você estuda com rotina, vale encaixar a revisão do que foi grifado em blocos de tempo, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo com revisão espaçada</a>. Para anotar na margem e resolver exercício no caderno, a <a href="/artigos/pentel-graphgear-500-lapiseira-shopee-vale-a-pena">lapiseira Pentel GraphGear 500</a> tem empunhadura de metal e quatro espessuras de grafite.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar Grifpen na Shopee agora ↗</a>
     </div>

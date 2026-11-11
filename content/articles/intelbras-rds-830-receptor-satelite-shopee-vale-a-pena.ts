@@ -12,7 +12,7 @@ export const article: Article = {
   productCategory: "audio-video",
   productSubcategory: "receptor-satelite",
   date: "2026-11-02",
-  updated: "2026-11-10",
+  updated: "2026-11-11",
   readTime: 7,
   imageQuery: "satellite TV receiver remote control",
   seed: 1082,
@@ -54,7 +54,7 @@ export const article: Article = {
       "Não é compatível com LNB multiponto, segundo o manual",
       "Instalação de antena pede profissional se você nunca mexeu com parabólica",
     ],
-    price: "costuma variar de R$ 70 a R$ 140 (veja o preço atual no botão de compra)",
+    price: "costuma variar de R$ 220 a R$ 300 no site do fabricante e em grandes lojas, com anúncios de terceiros abaixo disso (veja o preço atual no botão de compra)",
     bestFor:
       "Quem já tem antena parabólica Ku instalada e quer um receptor digital Full HD de marca conhecida, com gravação por USB, para ver TV aberta por satélite sem mensalidade.",
     url: "https://s.shopee.com.br/9zyzXdBbsY",
@@ -126,9 +126,16 @@ export const article: Article = {
     <p>A garantia da Intelbras segue o termo do manual, com 3 meses legais mais 9 meses contratuais, um total de 1 ano, mas depende da nota fiscal. Evite abrir o produto: o manual diz que isso faz perder a garantia. Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade, frete ou cupom. Quem quer centralizar a casa pode ver também o <a href="/artigos/positivo-smart-controle-universal-wifi-vale-a-pena">controle universal Wi-Fi</a>, que comanda TV e receptor por infravermelho.</p>
 
     <h2>Variação de preço</h2>
-    <p>Pela faixa de mercado, o Intelbras RDS 830 costuma variar de R$ 70 a R$ 140. A faixa leva em conta os anúncios na Shopee, outras lojas, comparadores de preço e o site do fabricante, e a loja própria da Intelbras pode cobrar bem acima do que aparece em marketplaces. Preço, cupom e frete na Shopee mudam muito com promoção, frete e vendedor.</p>
+    <p>Pela faixa de mercado, o Intelbras RDS 830 costuma variar de R$ 220 a R$ 300 na loja oficial da Intelbras e nos grandes varejistas que aparecem nos comparadores de preço. A loja própria da marca fica no meio dessa faixa, perto de R$ 255, e as ofertas mais caras costumam ser de vendedores parceiros de grandes lojas, com frete incluso ou parcelamento longo.</p>
+    <p>Abaixo disso, marketplaces mostram com frequência anúncios de terceiros bem mais baratos, na casa de R$ 75 a R$ 140. Antes de comprar nessa faixa, confira se o vendedor é a loja oficial ou uma revenda com nota fiscal, se o modelo é mesmo o RDS 830 (e não um RDS 840 ou outro) e se o anúncio é de produto novo e lacrado, já que a garantia de 1 ano depende da nota.</p>
+    <h3>O que muda o preço</h3>
+    <ul>
+      <li><strong>Vendedor:</strong> loja oficial e grandes varejistas cobram mais, mas facilitam a garantia; revendas de marketplace cobram menos e variam muito.</li>
+      <li><strong>Kit ou avulso:</strong> anúncios que juntam receptor, antena e cabos custam mais e não devem ser comparados com o receptor sozinho.</li>
+      <li><strong>Frete e parcelamento:</strong> parte da diferença entre lojas está no frete grátis e no número de parcelas sem juros.</li>
+    </ul>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
-    <p>O custo-benefício é bom na parte de baixo da faixa, com vendedor oficial. Se o preço sobe perto do teto, compare antes com receptores de outras marcas.</p>
+    <p>O custo-benefício é bom quando o RDS 830 aparece no começo da faixa das lojas grandes, com nota fiscal e garantia em ordem. Perto do teto, vale comparar antes com outros receptores para banda Ku e conferir se a família tem direito ao kit gratuito da Siga Antenado, que já inclui o receptor.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/9zyzXdBbsY" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>

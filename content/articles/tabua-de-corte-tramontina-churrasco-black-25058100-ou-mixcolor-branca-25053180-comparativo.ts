@@ -141,7 +141,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Para a maioria das cozinhas, a Tramontina MixColor branca é a melhor compra: leve, com avaliação alta e centenas de compradores, e por uma fração do preço da outra. Ela leva a nota editorial de 8,3, descontada a área pequena para quem corta peças grandes.</p>
-    <p>A Churrasco Black é a escolha de quem corta e serve carne com frequência e quer uma tábua estável, com canaleta e bordas emborrachadas. Se a cozinha comporta, o ideal é ter as duas: a grande para carne e a pequena para o resto. Para o quintal do churrasco, vale ver também o <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Tramontina</a> e a linha de jardim da mesma marca.</p>
+    <p>A Churrasco Black é a escolha de quem corta e serve carne com frequência e quer uma tábua estável, com canaleta e bordas emborrachadas. Se a cozinha comporta, o ideal é ter as duas: a grande para carne e a pequena para o resto. Para o quintal do churrasco, vale ver também o <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Tramontina</a> e a linha de jardim da mesma marca. Antes de picar os legumes na tábua, o <a href="/artigos/tramontina-utilita-descascador-batatas-25627180-vale-a-pena">descascador Tramontina Utilità</a> resolve a casca de batata e cenoura.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B09B1HNMY6?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>

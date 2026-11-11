@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "seguranca",
   productSubcategory: "campainha-sem-fio",
   date: "2026-11-09",
+  updated: "2026-11-11",
   readTime: 8,
   imageQuery: "wireless doorbell house entrance",
   seed: 1167,
@@ -74,17 +75,27 @@ export const article: Article = {
       <figcaption>Campainha sem fio Intelbras CIB 101S branca (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <p>A CIB 101S é vendida só em kit. O módulo externo, o botão, mede 97,6 x 47,4 x 20,6 mm, pesa 48 g e funciona com uma bateria de 3 V do tipo CR2032, que acompanha o produto. O módulo interno mede 87 x 58,1 x 56,7 mm, pesa 80 g e é ligado direto na tomada, com alimentação bivolt automática de 100 a 240 V. Os dois conversam por rádio na frequência de 433,92 MHz, e há LEDs indicativos nas duas peças.</p>
-    <p>No módulo interno, dá para escolher entre 5 melodias e 5 níveis de volume. A Intelbras informa que cada receptor aceita até 4 botões, o que serve para casa com portão social e portão da garagem, e que não há limite de receptores, então dá para espalhar módulos pela sala, pela cozinha e pelo andar de cima. O material é plástico ABS, nas cores branca e preta.</p>
+    <p>No módulo interno, dá para escolher entre 5 melodias e 5 níveis de volume. A ficha técnica da Intelbras fala em até 4 botões por receptor, e o manual mais recente, da versão 01/26, fala em até 10; nos dois casos, dá para ter um botão no portão social e outro no portão da garagem. Não há limite de receptores, então dá para espalhar módulos pela sala, pela cozinha e pelo andar de cima. O material é plástico ABS, nas cores branca e preta.</p>
 
     <h2>Prós e contras</h2>
-    <p>O ponto forte é a instalação. Como as peças já vêm sincronizadas, basta fixar o botão no muro ou no batente, com parafuso ou com uma fita dupla face forte, como a <a href="/artigos/fita-dupla-face-3m-scotch-fixa-forte-extrema-shopee-vale-a-pena">3M Scotch Fixa Forte Extrema</a>, e ligar o módulo na tomada. Não há fio, central nem aplicativo, e a campainha funciona mesmo sem Wi-Fi. A bateria do botão, com autonomia estimada de até 3 anos, troca-se com uma moeda de lítio comum, fácil de achar em farmácia e supermercado.</p>
+    <p>O ponto forte é a instalação. Como as peças já vêm sincronizadas, basta fixar o botão no muro ou no batente, com os parafusos ou a fita dupla face que vêm na caixa, ou com uma fita mais forte, como a <a href="/artigos/fita-dupla-face-3m-scotch-fixa-forte-extrema-shopee-vale-a-pena">3M Scotch Fixa Forte Extrema</a>, e ligar o módulo na tomada. Não há fio, central nem aplicativo, e a campainha funciona mesmo sem Wi-Fi. A bateria do botão, com autonomia estimada de até 3 anos, troca-se com uma moeda de lítio comum, fácil de achar em farmácia e supermercado.</p>
     <p>A limitação é de categoria: é uma campainha de aviso sonoro. Não mostra quem está no portão, não permite conversar e não avisa no celular quando ninguém está em casa. O alcance de até 100 m é medido sem barreiras; laje, parede de concreto e portão de metal reduzem esse número na prática, então em sobrado grande vale planejar um segundo módulo interno.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/9KjTvHZVwH" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
+    <h2>Como sincronizar, trocar a bateria e reiniciar</h2>
+    <p>O <a href="https://backend.intelbras.com/sites/default/files/2026-03/Manual_CIB_101S_01-26_site.pdf" rel="noopener noreferrer" target="_blank">manual da CIB 101S</a> mostra que a caixa traz, além do botão e do receptor, a bateria CR2032 de 3 V e 220 mAh, dois parafusos de 3 mm, duas buchas de 5 mm e uma fita dupla face. Para fixar com fita, a superfície precisa estar limpa, sem gordura nem poeira. Para abrir o botão e chegar à base, a Intelbras orienta usar uma chave de fenda como alavanca na trava.</p>
+    <ol>
+      <li><strong>Sincronizar um botão novo:</strong> mantenha pressionado o botão Melodia/Sincronismo do receptor até ouvir o "ding-ding" e ver o LED vermelho piscar; depois, aperte o botão de chamada. O receptor toca um "ding" e o LED apaga quando o par está feito.</li>
+      <li><strong>Apagar os botões cadastrados:</strong> com o receptor fora da tomada, segure o botão Melodia/Sincronismo enquanto liga o aparelho na tomada, e solte quando ele emitir o "ding-ding" com o LED piscando.</li>
+      <li><strong>Hora de trocar a bateria:</strong> quando o LED do botão piscar 2 vezes ao apertar a campainha, a bateria está no fim.</li>
+      <li><strong>Limpeza:</strong> só pano seco ou flanela de microfibra. O manual proíbe álcool e solventes, que podem danificar a carcaça e infiltrar no aparelho.</li>
+    </ol>
+    <p>A garantia é de 1 ano, somando 90 dias de garantia legal e 9 meses de garantia contratual, a partir da nota fiscal. O produto é homologado pela Anatel e, segundo o manual, não trata nenhum dado pessoal, já que não se conecta à internet.</p>
+
     <h2>Uso externo e instalação</h2>
-    <p>A Intelbras descreve a CIB 101S como preparada para uso externo, resistente a sol, chuva, frio e calor. A ficha técnica, porém, não informa grau de proteção IP. Por isso, em muro sem cobertura e exposto a chuva forte, vale instalar o botão sob uma marquise ou com um protetor de acrílico, acessório vendido à parte por outras lojas, que também ajuda contra furto.</p>
+    <p>A Intelbras descreve o botão da CIB 101S como preparado para uso externo, resistente a sol, chuva, frio e calor. A ficha técnica, porém, não informa grau de proteção IP, e o manual deixa claro que o receptor é só para ambiente interno: ele não pode tomar sol, chuva nem umidade, e deve ficar numa tomada abrigada. Por isso, em muro sem cobertura e exposto a chuva forte, vale instalar o botão sob uma marquise ou com um protetor de acrílico, acessório vendido à parte por outras lojas, que também ajuda contra furto.</p>
     <p>O módulo interno deve ficar numa tomada no meio do caminho entre o portão e os cômodos onde as pessoas passam mais tempo. Se a casa já tem uma campainha com fio quebrada, a CIB 101S pode substituir sem obra: o botão novo vai no lugar do antigo. Em casa com crianças, deixe o módulo numa tomada alta e explique que a bateria de moeda do botão não pode ir à boca.</p>
 
     <h2>Para quem vale a pena</h2>
@@ -134,12 +145,12 @@ export const article: Article = {
     {
       question: "Posso usar mais de um botão ou mais de um módulo interno?",
       answer:
-        "Sim. A Intelbras informa que cada módulo interno aceita até 4 botões e que não há limite de módulos internos, o que permite ouvir a campainha em vários cômodos.",
+        "Sim. A ficha técnica fala em até 4 botões por módulo interno e o manual 01/26 fala em até 10, e não há limite de módulos internos, o que permite ouvir a campainha em vários cômodos. Cada peça nova é pareada pelo botão Melodia/Sincronismo do receptor.",
     },
     {
       question: "A CIB 101S pode ficar na chuva?",
       answer:
-        "A Intelbras diz que ela é preparada para uso externo e resiste a sol e chuva, mas não informa grau de proteção IP. Em local muito exposto, vale instalar sob cobertura ou com protetor.",
+        "Só o botão. A Intelbras diz que ele é preparado para uso externo e resiste a sol e chuva, mas não informa grau de proteção IP. O receptor é para ambiente interno, longe de chuva e umidade. Em local muito exposto, vale instalar o botão sob cobertura ou com protetor.",
     },
   ],
 };

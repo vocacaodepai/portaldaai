@@ -5,7 +5,7 @@ export const article: Article = {
   title: "Descascador Tramontina Utilità: inox e leve por pouco, mas só descasca",
   seoTitle: "Descascador Tramontina Utilità 25627180 vale a pena?",
   excerpt:
-    "Nota 8,4 de 10. Analisamos o descascador de batatas Tramontina Utilità com lâmina de aço inox e cabo de polipropileno branco: medidas, peso, lava-louças, avaliações e para quem compensa.",
+    "Nota 8,4. Analisamos o descascador Tramontina Utilità, de lâmina inox e cabo de polipropileno: medidas, lava-louças, garantia e para quem compensa.",
   metaDescription:
     "Descascador Tramontina Utilità 25627180 vale a pena? Análise da ficha oficial com nota por critério, prós, contras, medidas, peso, lava-louças e avaliações de compradores.",
   category: "ai-indica",
@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "descascador",
   productScore: 8.4,
   date: "2026-11-03",
+  updated: "2026-11-11",
   readTime: 7,
   imageQuery: "potato peeler stainless steel white handle",
   seed: 1033,
@@ -50,11 +51,11 @@ export const article: Article = {
     cons: [
       "Faz só uma função, de descascar, sem corte julienne nem acessório extra",
       "Cabo de plástico leve, que não tem a sensação de peso de um modelo todo de inox",
-      "A ficha não detalha o prazo de garantia do produto",
+      "Garantia de só 90 dias para defeito de fabricação, segundo a Tramontina",
       "Cabo branco pode manchar com uso pesado, como em qualquer plástico claro",
       "Lâmina fixa, que exige o gesto de puxar em direção ao corpo, ao contrário dos modelos giratórios",
     ],
-    price: "costuma variar de R$ 15 a R$ 25 (veja o preço atual no botão de compra)",
+    price: "costuma variar de R$ 15 a R$ 30 (veja o preço atual no botão de compra)",
     bestFor:
       "Quem quer um descascador simples, leve e barato, de marca conhecida, para batata, cenoura e legumes no dia a dia da cozinha de casa.",
     url: "https://www.amazon.com.br/dp/B076JL9Y57?tag=portaldaai-20",
@@ -82,7 +83,7 @@ export const article: Article = {
 
     <h2>Prós e contras na prática</h2>
     <p>Os pontos fortes são a leveza, a lâmina inox, a limpeza fácil e a nota alta de compradores. Na Amazon, o anúncio fica perto de 4,7 de 5, com mais de 3 mil avaliações nas páginas que consultamos, um volume grande para um utensílio de preço baixo.</p>
-    <p>Os pontos de atenção estão no que ele não faz. Não há corte julienne, não há giro de lâmina e a ficha não informa o prazo de garantia. Como em qualquer cabo claro de plástico, uso pesado e lavagem agressiva podem deixar manchas com o tempo, sem afetar o funcionamento.</p>
+    <p>Os pontos de atenção estão no que ele não faz. Não há corte julienne, não há giro de lâmina e a garantia informada pela Tramontina é de 90 dias para vícios ou defeitos de fabricação, prazo curto, mas comum em utensílio de preço baixo. Como em qualquer cabo claro de plástico, uso pesado e lavagem agressiva podem deixar manchas com o tempo, sem afetar o funcionamento.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076JL9Y57?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
@@ -111,7 +112,8 @@ export const article: Article = {
     </div>
 
     <h2>Variação de preço</h2>
-    <p>O descascador costuma variar de R$ 15 a R$ 25, uma faixa aproximada de mercado que muda com o vendedor, a cor do cabo e a época. O site da Tramontina e varejistas de utilidades domésticas ficam dentro dessa faixa na maior parte das consultas, e vendedores de pouco estoque às vezes cobram acima dela.</p>
+    <p>O descascador costuma variar de R$ 15 a R$ 30, uma faixa aproximada de mercado que muda com o vendedor, a cor do cabo e a época. A loja oficial da Tramontina costuma ficar na parte de cima da faixa, com desconto no Pix, e varejistas de utilidades domésticas e marketplaces aparecem com frequência mais perto do começo dela. Vendedores de pouco estoque às vezes cobram acima.</p>
+    <p>Para quem compra para presente ou para montar enxoval, a embalagem é pequena: 22,2 x 8,5 x 2 cm e 46,6 g com o produto, segundo a ficha oficial, o que ajuda a juntar o descascador a outros itens no mesmo pedido e diluir o frete.</p>
     <p>Essa faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. Em custo-benefício, fica entre os melhores do tipo: custa pouco, tem lâmina inox e nota alta de compradores. O preço do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
@@ -128,6 +130,8 @@ export const article: Article = {
       <li>Peso: 38,7 g</li>
       <li>Material: lâmina de aço inox e cabo de polipropileno com furo passante</li>
       <li>Limpeza: pode ir à máquina de lavar louças, secando bem antes de guardar</li>
+      <li>Embalagem: 22,2 x 8,5 x 2 cm, com peso de 46,6 g</li>
+      <li>Garantia: 90 dias para vícios ou defeitos de fabricação</li>
     </ul>
 
     <div class="buy-btn">
@@ -160,7 +164,12 @@ export const article: Article = {
     {
       question: "Quanto custa o descascador Tramontina Utilità?",
       answer:
-        "O preço costuma ficar numa faixa baixa de mercado, de R$ 15 a R$ 25, e varia com o vendedor, a cor do cabo e a época. O valor do dia aparece ao clicar no botão de compra.",
+        "O preço costuma ficar numa faixa baixa de mercado, de R$ 15 a R$ 30, e varia com o vendedor, a cor do cabo e a época. O valor do dia aparece ao clicar no botão de compra.",
+    },
+    {
+      question: "Qual a garantia do descascador Tramontina Utilità?",
+      answer:
+        "A ficha oficial da Tramontina informa garantia de 90 dias para vícios ou defeitos de fabricação. Guarde a nota fiscal e, para a lâmina durar mais, siga a recomendação da marca de secar bem o descascador antes de guardar, mesmo depois da máquina de lavar louças.",
     },
   ],
 };

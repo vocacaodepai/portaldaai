@@ -5,7 +5,7 @@ export const article: Article = {
   title: "Bola para a pelada de domingo: a Penalty Bravo XXV ou a Player XXV?",
   seoTitle: "Penalty Bravo XXV ou Player XXV: qual bola de futebol de campo comprar na Shopee",
   excerpt:
-    "Duas bolas de campo da Penalty para treino e jogo amador: a Bravo XXV, termofundida com 6 gomos, e a Player XXV, costurada com 32 gomos e miolo removível. Construção, câmara, durabilidade e qual levar.",
+    "Penalty Bravo XXV, termofundida com 6 gomos, ou Player XXV, costurada com 32 gomos: construção, câmara, durabilidade e qual bola de campo levar.",
   metaDescription:
     "Comparativo de bola de futebol de campo na Shopee: Penalty Bravo XXV (Ultra Fusion, 6 gomos, PU) ou Penalty Player XXV (costurada, 32 gomos, Micropower). Ficha técnica, uso indicado, faixa de mercado e qual escolher.",
   category: "ai-indica",
@@ -124,8 +124,9 @@ export const article: Article = {
     <p>Sobre o peso, as fichas das lojas não batem: uma informa entre 340 e 360 g e outra traz 0,41 kg na ficha técnica. Por isso, não usamos esse número para comparar. O anúncio escolhido é da loja Sport Vida III, com nota 4,9 e mais de 110 vendas, e há outras cores da Player XXV na Shopee, como a branca com vermelho.</p>
 
     <h2>Variação de preço</h2>
-    <p>Pela faixa de mercado, a Penalty Bravo XXV costuma variar de R$ 100 a R$ 140, e a Penalty Player XXV costuma variar de R$ 70 a R$ 100.</p>
-    <p>A Player costuma sair mais em conta e é a escolha de quem precisa de várias bolas para treino, como escolinha e time de bairro. A Bravo tem o melhor custo-benefício para quem quer uma bola só que dure mais e jogue melhor em gramado molhado: a diferença de preço é compensada pela construção termofundida. O que mexe no preço é a geração do modelo (a anterior costuma baixar quando a nova chega), a cor, o vendedor e o frete.</p>
+    <p>Pela faixa de mercado, a Penalty Bravo XXV costuma variar de R$ 90 a R$ 160, e a Penalty Player XXV costuma variar de R$ 85 a R$ 110. A pesquisa cobriu grandes lojas de esporte e de varejo, comparadores de preço e marketplaces, e não só a Shopee: a Bravo aparece com mais frequência entre R$ 100 e R$ 130 no Pix, enquanto as ofertas no topo da faixa costumam ser de cores específicas ou de vendedores parceiros com frete incluso. A Player tem preço mais estável entre lojas.</p>
+    <p>Um detalhe ajuda a economizar: lojas de esporte já anunciam a geração seguinte, a Bravo XXVI. Quando a nova linha ganha espaço na vitrine, a XXV costuma entrar em promoção, e a construção das duas gerações segue a mesma ideia de gomos termofundidos.</p>
+    <p>A Player costuma sair mais em conta e é a escolha de quem precisa de várias bolas para treino, como escolinha e time de bairro. A Bravo tem o melhor custo-benefício para quem quer uma bola só que dure mais e jogue melhor em gramado molhado: a diferença de preço é compensada pela construção termofundida. Fora a troca de geração, o que mexe no preço é a cor, o vendedor e o frete.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/2VtCy56Vfa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>

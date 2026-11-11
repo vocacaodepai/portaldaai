@@ -5,7 +5,7 @@ export const article: Article = {
   title: "Lapiseira Pentel GraphGear 500: feita para desenho, ótima para estudar",
   seoTitle: "Lapiseira Pentel GraphGear 500 vale a pena? Análise, pontas 0,3 a 0,9 mm e nota",
   excerpt:
-    "Nota 8,7 de 10. Analisamos a lapiseira Pentel GraphGear 500: empunhadura de metal recartilhada, ponteira fixa de 4 mm para régua e esquadro, quatro espessuras de grafite e para quem ela compensa.",
+    "Nota 8,7. A lapiseira Pentel GraphGear 500 tem empunhadura de metal, ponteira fixa de 4 mm para régua e quatro espessuras de grafite. Veja para quem compensa.",
   metaDescription:
     "Lapiseira Pentel GraphGear 500 vale a pena? Análise da ficha técnica: empunhadura metálica, ponteira fixa de 4 mm, grafites de 0,3, 0,5, 0,7 e 0,9 mm, corpo com cor por espessura, faixa de mercado e alternativas.",
   category: "ai-indica",
@@ -54,7 +54,7 @@ export const article: Article = {
       "Anúncio de loja de importados, não da loja oficial da Pentel",
       "Na espessura 0,3 mm, o grafite é fino e quebra com mais facilidade",
     ],
-    price: "costuma variar de R$ 40 a R$ 55 (veja o preço atual no botão de compra)",
+    price: "costuma variar de R$ 30 a R$ 50 (veja o preço atual no botão de compra)",
     bestFor:
       "Estudantes de arquitetura, engenharia e design, quem desenha à mão, quem faz exercício de matemática e física com régua e quem escreve muito à mão e quer uma lapiseira mais firme que as escolares.",
     url: "https://s.shopee.com.br/6L5vWxeljo",
@@ -100,8 +100,8 @@ export const article: Article = {
     </div>
 
     <h2>Variação de preço</h2>
-    <p>Pela faixa de mercado, a lapiseira Pentel GraphGear 500 costuma variar de R$ 40 a R$ 55, dependendo da espessura, da cor e do vendedor. Kits com grafite e borracha de reposição saem mais caros, mas costumam compensar para quem já vai comprar o refil.</p>
-    <p>O que faz o preço subir é a importação (parte dos anúncios é de produto trazido de fora), a espessura 0,3 mm, que às vezes custa um pouco mais, e a época de volta às aulas, em janeiro e fevereiro. O que faz cair são as campanhas da Shopee e os cupons das lojas. No custo-benefício, é uma lapiseira que custa algumas vezes o preço de uma escolar, mas tende a durar muito mais, já que o mecanismo e a empunhadura são de metal.</p>
+    <p>Pela faixa de mercado, a lapiseira Pentel GraphGear 500 costuma variar de R$ 30 a R$ 50, dependendo da espessura, da cor e do vendedor. A pesquisa cobriu grandes varejistas, comparadores de preço e marketplaces, não só a Shopee: as versões de 0,5 e 0,7 mm aparecem com mais frequência entre R$ 40 e R$ 50 em lojas grandes, e a de 0,3 mm às vezes surge mais barata em promoção. Kits com grafite e borracha de reposição saem mais caros, mas costumam compensar para quem já vai comprar o refil.</p>
+    <p>O que faz o preço subir é a importação (parte dos anúncios é de produto trazido de fora), a cor do corpo menos comum em cada loja e a época de volta às aulas, em janeiro e fevereiro. O que faz cair são as campanhas da Shopee e os cupons das lojas. No custo-benefício, é uma lapiseira que custa algumas vezes o preço de uma escolar, mas tende a durar muito mais, já que o mecanismo e a empunhadura são de metal.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/6L5vWxeljo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>

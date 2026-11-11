@@ -119,7 +119,7 @@ export const article: Article = {
     </div>
 
     <h2>Como avaliamos e ficha técnica</h2>
-    <p>A nota de 7,8 cruza a ficha técnica oficial da Tramontina com o anúncio e as avaliações da Amazon Brasil, sem teste físico nosso. Pesamos construção e acabamento, capacidade, drenagem e limpeza, espaço na pia e custo-benefício, e a nota menor em capacidade é o que segura a média. Para outros itens da cozinha, vale ver o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparativo de chaleiras elétricas</a> e o <a href="/artigos/ralador-4-faces-brinox-top-pratic-shopee-vale-a-pena">ralador Brinox de 4 faces</a>.</p>
+    <p>A nota de 7,8 cruza a ficha técnica oficial da Tramontina com o anúncio e as avaliações da Amazon Brasil, sem teste físico nosso. Pesamos construção e acabamento, capacidade, drenagem e limpeza, espaço na pia e custo-benefício, e a nota menor em capacidade é o que segura a média. Para outros itens da cozinha, vale ver o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparativo de chaleiras elétricas</a> e o <a href="/artigos/ralador-4-faces-brinox-top-pratic-shopee-vale-a-pena">ralador Brinox de 4 faces</a>. Na gaveta de utensílios, o <a href="/artigos/tramontina-utilita-descascador-batatas-25627180-vale-a-pena">descascador Tramontina Utilità</a> tem lâmina inox e também pode ir à máquina de lavar louças.</p>
 
     <h3>Ficha técnica resumida</h3>
     <ul>

@@ -126,7 +126,7 @@ export const article: Article = {
       <li>Use água conforme a orientação do manual para reduzir o acúmulo de calcário, e acione a limpeza automática com frequência.</li>
       <li>Esvazie o reservatório depois do uso e deixe o ferro esfriar na vertical antes de guardar.</li>
     </ul>
-    <p>Quem quer ganhar tempo na rotina da casa também encontra ideias em <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">como criar uma rotina diária produtiva</a> e em <a href="/artigos/como-usar-ia-para-trabalhar-menos-horas-sem-perder-renda">trabalhar menos horas sem perder renda</a>. Para decidir, confira o preço atual no botão acima e compare com as alternativas.</p>
+    <p>Quem quer ganhar tempo na rotina da casa também encontra ideias em <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">como criar uma rotina diária produtiva</a> e em <a href="/artigos/como-usar-ia-para-trabalhar-menos-horas-sem-perder-renda">trabalhar menos horas sem perder renda</a>. Para decidir, confira o preço atual no botão acima e compare com as alternativas. Quem costura pode ver ainda o <a href="/artigos/maquina-de-costura-singer-m1605-m2505-ou-elgin-genius-plus-comparativo">comparativo de máquinas de costura para iniciante</a>, com Singer e Elgin.</p>
 
     <h2>Ficha técnica resumida</h2>
     <ul>

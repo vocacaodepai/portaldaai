@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "cuidado-plasticos-carro",
   productScore: 8.5,
   date: "2026-11-09",
+  updated: "2026-11-11",
   readTime: 8,
   imageQuery: "car dashboard cleaning detailing",
   seed: 1166,
@@ -127,6 +128,17 @@ export const article: Article = {
     <h2>A ordem certa na lavagem do carro</h2>
     <p>Restaurador de plástico só funciona bem sobre superfície limpa. Por fora, a sequência começa com a lavagem, e o comparativo de <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">shampoo automotivo Vonixx V-Floc ou V-Mol</a> mostra qual usar. Depois de seco, vem o Restaurax no para-choque e nas molduras, a <a href="/artigos/cera-automotiva-shopee-vonixx-tok-final-ou-blend-spray-wax-comparativo">cera Tok Final ou Blend Spray Wax</a> na pintura e o <a href="/artigos/vintex-pneu-pretinho-500-ml-shopee-vale-a-pena">pretinho Vintex</a> nos pneus. Nos vidros, o <a href="/artigos/limpa-vidros-automotivo-shopee-vonixx-glazy-x-glazy-anti-fog-comparativo">limpa-vidros Vonixx Glazy</a> substitui o Sintra Fast, que não deve ir no vidro.</p>
     <p>Por dentro, primeiro sai a sujeira solta com o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">aspirador de carro Tramontina ou WAP</a>, depois vem o Sintra Fast no painel e nas portas e, se o plástico interno estiver ressecado, uma camada fina de Restaurax. Para completar o carro, o <a href="/artigos/melhor-compressor-ar-portatil-xiaomi-comparativo-2026">compressor de ar portátil</a> ajuda a manter a calibragem, a <a href="/artigos/70mai-a400-camera-veicular-vale-a-pena">câmera veicular 70mai A400</a> registra o trânsito e o <a href="/artigos/anker-323-ou-anker-30w-carregador-veicular-comparativo">carregador veicular Anker</a> mantém o celular carregado, e o <a href="/artigos/ugreen-70601-receptor-bluetooth-som-do-carro-vale-a-pena">receptor Bluetooth UGREEN</a> leva música do celular para o som de carro antigo. Dobradiça de porta rangendo e trava emperrada pedem lubrificante, como o <a href="/artigos/wd-40-multiuso-300-ml-shopee-vale-a-pena">WD-40 Multiuso</a>, e não restaurador. E quem tem Chevrolet recente pode ver como funciona o <a href="/artigos/gemini-nos-carros-da-chevrolet-no-brasil-modelos-requisitos-onstar-e-como-ativar">Gemini nos carros da marca</a>.</p>
+
+    <h2>Erros comuns com restaurador e limpador de plástico</h2>
+    <p>Boa parte das reclamações sobre esse tipo de produto vem do uso fora do que o fabricante indica. As páginas oficiais do <a href="https://www.vonixx.com.br/restaurax" rel="noopener noreferrer" target="_blank">Restaurax</a> e do <a href="https://www.vonixx.com.br/sintra-fast" rel="noopener noreferrer" target="_blank">Sintra Fast</a> deixam claros alguns limites que valem conferir antes da primeira aplicação.</p>
+    <ul class="checklist">
+      <li><strong>Aplicar restaurador sobre sujeira:</strong> a Vonixx manda limpar bem a superfície antes do Restaurax. É o primeiro passo do modo de uso oficial, e a lavagem com shampoo resolve isso por fora.</li>
+      <li><strong>Exagerar na frequência:</strong> o FAQ da marca diz que o Restaurax pode ser aplicado até 2 vezes ao mês, e a manutenção indicada é a cada 60 dias por fora e a cada 6 meses por dentro. Seguir o intervalo economiza produto.</li>
+      <li><strong>Usar no lugar errado:</strong> Restaurax não vai em couro, e Sintra Fast não vai em vidro. Em compensação, a Vonixx indica o Restaurax também para capota marítima.</li>
+      <li><strong>Esperar desinfecção instantânea:</strong> a ação desinfetante declarada do Sintra Fast vale para o produto puro, com 30 minutos de contato. Borrifar e tirar na hora limpa, mas não desinfeta.</li>
+      <li><strong>Procurar embalagem grande de Sintra Fast:</strong> no site oficial ele aparece só em 500 ml, enquanto o Restaurax tem 240 ml, 500 ml e 1,5 L. Anúncio de Sintra Fast em galão merece desconfiança.</li>
+      <li><strong>Deixar ao alcance de crianças:</strong> o rótulo do Sintra Fast avisa que a ingestão é perigosa. Em acidente, não provoque vômito e ligue para o CEATOX, no 0800 014 8110, com a embalagem em mãos.</li>
+    </ul>
 
     <h2>Qual escolher</h2>
     <p>Se o problema é cor, plástico externo cinza e esbranquiçado pelo sol ou painel opaco, o Restaurax é a compra certa e a nossa recomendação principal, com nota 8,5: é o único dos dois que devolve aparência e deixa proteção. Se o problema é sujeira, mancha e cheiro no interior, o Sintra Fast, nota 8,3, resolve melhor, alcança também couro, carpete e estofado e rende mais pelo volume. Para quem cuida do carro com frequência, vale ter os dois: o Sintra Fast limpa e o Restaurax finaliza.</p>
