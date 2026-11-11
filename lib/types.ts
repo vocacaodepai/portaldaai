@@ -377,6 +377,9 @@ export const productSubcategories = [
   { slug: "lenco-umedecido-bebe", label: "Lenço Umedecido para Bebê", category: "bebe" },
   { slug: "serum-facial", label: "Sérum Facial", category: "saude-bem-estar" },
   { slug: "garrafao-termico", label: "Garrafão Térmico", category: "casa-utilidades" },
+  { slug: "adega-climatizada", label: "Adega Climatizada", category: "cozinha" },
+  { slug: "maquina-de-gelo", label: "Máquina de Gelo", category: "casa-utilidades" },
+  { slug: "volante-gamer", label: "Volante Gamer", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
