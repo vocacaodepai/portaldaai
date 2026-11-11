@@ -147,7 +147,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Para a maioria dos motoristas, nossa indicação é o <strong>Vonixx Glazy 4 em 1</strong> como primeiro frasco: serve para o vidro de fora e de dentro, protege contra o atrito das palhetas e rende em casa também. Leve o <strong>Glazy Anti-Fog</strong> junto se o seu problema é o para-brisa embaçado por dentro, que é exatamente o que o 4 em 1 não promete resolver.</p>
-    <p>A nota de 8,1 para o Glazy 4 em 1 vem das informações oficiais da marca, das fichas dos anúncios e das avaliações dos compradores na Shopee, sem teste físico nosso, e pesa versatilidade, facilidade de uso e custo-benefício. Para quem cuida do jardim e do quintal além do carro, a <a href="/artigos/tramontina-mangueira-flex-30m-jardim-vale-a-pena">mangueira Tramontina Flex de 30 m</a> ajuda na lavagem.</p>
+    <p>A nota de 8,1 para o Glazy 4 em 1 vem das informações oficiais da marca, das fichas dos anúncios e das avaliações dos compradores na Shopee, sem teste físico nosso, e pesa versatilidade, facilidade de uso e custo-benefício. Para quem cuida do jardim e do quintal além do carro, a <a href="/artigos/tramontina-mangueira-flex-30m-jardim-vale-a-pena">mangueira Tramontina Flex de 30 m</a> ajuda na lavagem. No painel e nas portas, o <a href="/artigos/plastico-do-carro-shopee-vonixx-restaurax-ou-sintra-fast-comparativo">comparativo Vonixx Restaurax ou Sintra Fast</a> mostra o que usar no plástico, já que o Sintra Fast não deve ir no vidro.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
     </div>

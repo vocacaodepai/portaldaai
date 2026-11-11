@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "maquina-costura",
   productScore: 8.4,
   date: "2026-11-05",
+  updated: "2026-11-11",
   readTime: 7,
   imageQuery: "domestic sewing machine fabric table",
   seed: 1137,
@@ -112,7 +113,7 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B07XDK8BKG?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
     <p>A M1605 é a máquina que a própria Singer apresenta como "sua primeira máquina de costura". A ficha oficial informa 6 pontos básicos e decorativos com 57 aplicações, velocidade de até 750 pontos por minuto, motor de 60 W, LED e costura com agulha dupla, que faz costuras paralelas e nervuras. O comprimento e a largura do ponto vêm pré-ajustados, o que tira uma decisão do caminho de quem nunca costurou.</p>
-    <p>Com 4,5 kg e 29 x 36 x 18 cm, é a mais fácil de guardar no armário e levar para aula de costura. Acompanha sapatilha para casa de botão e para zíper, abridor de casa, bobinas e chave de fenda. É também a mais bem avaliada das três na Amazon, com média de 4,8 em mais de 1.700 avaliações. O limite é a variedade: com 6 pontos, ela resolve barra, ajuste e remendo, mas fica curta para quem quer acabamentos decorativos ou costurar malha com frequência.</p>
+    <p>Com 4,5 kg e 29 x 36 x 18 cm, é a mais fácil de guardar no armário e levar para aula de costura. Acompanha sapatilha para casa de botão e para pregar zíper, abridor de casa, bobinas, agulhas, chave de fenda, pincel de limpeza, feltro para o pino porta-retrós e placa isoladora dos dentes, peça usada para cobrir os dentes que puxam o tecido, por exemplo ao pregar botão. A Singer também cita o patchwork entre os usos indicados. É também a mais bem avaliada das três na Amazon, com média de 4,8 em mais de 1.700 avaliações. O limite é a variedade: com 6 pontos, ela resolve barra, ajuste e remendo, mas fica curta para quem quer acabamentos decorativos ou costurar malha com frequência.</p>
 
     <h2>Singer M2505: mais pontos e capa protetora</h2>
     <figure>
@@ -144,6 +145,10 @@ export const article: Article = {
       <li><strong>Separe o básico:</strong> agulhas extras, linha de boa qualidade, tesoura de tecido e uma boa luz na mesa, como uma <a href="/artigos/xiaomi-mi-computer-monitor-light-bar-vale-a-pena">barra de luz de mesa</a>.</li>
     </ol>
     <p>Quem pretende transformar a costura em renda extra pode usar o <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">guia de precificação com IA</a> para calcular o preço de ajuste e de peça pronta, e o de <a href="/artigos/fotos-de-produto-para-vender-online-com-ia">fotos de produto para vender online</a> para divulgar. Para reforma de roupa usada, o texto sobre <a href="/artigos/brecho-online-com-ia-pecas-fotos-descricao-e-preco-sem-prejuizo">brechó online com IA</a> mostra como precificar sem prejuízo. Se a ideia é vender online, o passo a passo para <a href="/artigos/como-montar-uma-loja-virtual-em-um-fim-de-semana-usando-ia">montar uma loja virtual em um fim de semana</a> ajuda a começar. Para organizar encomendas, a <a href="/artigos/phomemo-m110-impressora-etiquetas-vale-a-pena">impressora de etiquetas Phomemo M110</a> identifica cada peça com nome e prazo, e uma boa <a href="/artigos/mor-bela-flor-ou-mesa-de-passar-nice-comparativo">tábua de passar</a> deixa a costura assentada antes de pespontar. Para fixar molde e etiqueta na parede do ateliê, a <a href="/artigos/fita-dupla-face-3m-scotch-fixa-forte-extrema-shopee-vale-a-pena">fita dupla face 3M</a> segura sem furar.</p>
+
+    <h2>Garantia, manual e assistência</h2>
+    <p>As três têm garantia de 1 ano, e esse é o momento de testar todos os pontos e a casa de botão: defeito que aparece nas primeiras semanas é coberto. Guarde a nota fiscal e a caixa original, que protege a máquina no transporte para a assistência. A Singer lista agulhas, sapatilhas e manequins como acessórios compatíveis na própria loja, o que facilita repor peça sem depender de anúncio genérico.</p>
+    <p>A Elgin mantém central de download de manuais e localizador de assistência técnica no site, além do SAC no 0800 70 35 446, de segunda a sexta, das 8h às 18h. Antes de chamar a assistência por linha embolada ou ponto falhando, vale refazer a passagem da linha e o encaixe da bobina seguindo o manual. O pincel que vem com a M1605 serve para tirar pó e fiapos da máquina.</p>
 
     <h2>Variação de preço</h2>
     <p>A Singer M1605 costuma variar de R$ 700 a R$ 900 na faixa de mercado. A Singer M2505 costuma variar de R$ 960 a R$ 1.300, com bastante diferença entre lojas e kits. A Elgin Genius Plus costuma variar de R$ 730 a R$ 1.000, e a própria loja da Elgin faz promoções com frequência.</p>

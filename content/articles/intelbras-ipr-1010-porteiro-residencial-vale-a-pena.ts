@@ -115,7 +115,7 @@ export const article: Article = {
     </div>
 
     <h2>Como avaliamos</h2>
-    <p>A nota de 8,1 cruza a ficha técnica oficial da Intelbras com o anúncio e as avaliações de compradores na Amazon Brasil, sem teste físico nosso. Pesamos custo-benefício, facilidade de instalação, áudio e uso diário, recursos e construção. O preço e a instalação simples puxam a nota para cima, e a falta de vídeo e de aplicativo segura o critério de recursos. Para completar a segurança da casa, um <a href="/artigos/intelbras-dfa-623-detector-de-fumaca-vale-a-pena">detector de fumaça</a> e um bom <a href="/artigos/cadeado-35-mm-shopee-papaiz-cr-stam-zamac-ou-pado-lt-comparativo">cadeado</a> no portão são complementos baratos.</p>
+    <p>A nota de 8,1 cruza a ficha técnica oficial da Intelbras com o anúncio e as avaliações de compradores na Amazon Brasil, sem teste físico nosso. Pesamos custo-benefício, facilidade de instalação, áudio e uso diário, recursos e construção. O preço e a instalação simples puxam a nota para cima, e a falta de vídeo e de aplicativo segura o critério de recursos. Para completar a segurança da casa, um <a href="/artigos/intelbras-dfa-623-detector-de-fumaca-vale-a-pena">detector de fumaça</a> e um bom <a href="/artigos/cadeado-35-mm-shopee-papaiz-cr-stam-zamac-ou-pado-lt-comparativo">cadeado</a> no portão são complementos baratos. Para ouvir o portão em outro cômodo sem passar fio, a <a href="/artigos/intelbras-cib-101s-campainha-sem-fio-shopee-vale-a-pena">campainha sem fio Intelbras CIB 101S</a> aceita vários módulos internos.</p>
 
     <h2>Ficha técnica resumida</h2>
     <ul>

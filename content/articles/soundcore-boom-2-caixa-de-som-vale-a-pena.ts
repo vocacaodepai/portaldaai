@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "audio-video",
   productSubcategory: "caixa-de-som",
   date: "2026-11-08",
+  updated: "2026-11-11",
   readTime: 8,
   imageQuery: "portable bluetooth speaker outdoor party pool",
   seed: 1156,
@@ -54,7 +55,7 @@ export const article: Article = {
       "Recarga completa leva cerca de 5,5 horas, segundo o anúncio",
       "Luzes e grave no máximo gastam a bateria mais rápido",
     ],
-    price: "varia entre vendedores e épocas (veja o preço atual no botão de compra)",
+    price: "costuma variar de R$ 450 a R$ 800 (veja o preço atual no botão de compra)",
     bestFor:
       "Quem quer som alto e grave forte para churrasco, piscina, praia, camping e reunião em casa, e vai levar a caixa de carro ou de um cômodo para outro, sem precisar carregá-la no corpo o dia inteiro.",
     url: "https://www.amazon.com.br/dp/B0CQ53RVTW?tag=portaldaai-20",
@@ -76,6 +77,16 @@ export const article: Article = {
     <p>A Boom 2 usa um sistema 2.1: um subwoofer oval de 50 W cuida dos graves, e dois tweeters de seda de 15 W cuidam dos agudos, com um crossover que divide as frequências entre eles. No uso normal, a potência é de 60 W; com o BassUp 2.0 ativado, a Anker informa que ela chega a 80 W máximos, com reforço extra no grave.</p>
     <p>A bateria tem autonomia de até 24 horas com uma carga, segundo a fabricante, e a caixa funciona como power bank para carregar o celular pela porta USB. Ela tem proteção IPX7 contra água e flutua, então não afunda se cair na piscina. Pelo aplicativo Soundcore, dá para ajustar o equalizador, e o PartyCast 2.0 conecta mais de 100 caixas compatíveis para tocar a mesma música. As luzes RGB nas laterais acompanham o ritmo.</p>
     <p>O anúncio na Amazon informa peso de 1,66 kg, medidas de 29,6 x 18,5 x 10,1 cm, recarga por USB-C e tempo de carga de cerca de 5,5 horas. Ela vem em preto, azul e verde.</p>
+    <h3>Ficha técnica do manual</h3>
+    <p>O <a href="https://service.soundcore.com/article-description/soundcore-Boom-2-User-Guide-A3138" rel="noopener noreferrer" target="_blank">guia do usuário da Soundcore</a> para o modelo A3138 completa os números que a página brasileira não traz:</p>
+    <ul>
+      <li>Bluetooth 5.3, com alcance de até 100 m informado pela fabricante (sem obstáculos; paredes reduzem esse número).</li>
+      <li>Bateria de 4.900 mAh a 7,3 V, segundo o guia; a página da Anker no Brasil fala em power bank de 10.000 mAh.</li>
+      <li>Entrada USB-C de 5 V e 3 A, e saída USB-A de 5 V e 1 A para carregar o celular.</li>
+      <li>Resposta de frequência de 45 Hz a 20 kHz, com dois tweeters de 20 mm e um woofer de 90 x 120 mm.</li>
+      <li>IPX7: aguenta imersão de 1 m por 30 minutos, segundo a Anker.</li>
+    </ul>
+    <p>Dois detalhes dessa ficha pesam no uso. A saída de 5 V e 1 A carrega o celular devagar, como um carregador antigo de 5 W: serve para socorro no fim do dia, não para carga rápida. E a recarga da própria caixa leva cerca de 5,5 horas, e o carregador de tomada não vem na caixa.</p>
 
     <h2>Como avaliamos e a nota por critério</h2>
     <p>A nota final de 8,5 é a média dos cinco critérios do quadro de veredito. Som e graves levam 9,0 pelo sistema 2.1 com subwoofer dedicado, raro nessa faixa, e pela potência de 80 W com BassUp, que segura ambiente aberto. Bateria e autonomia também levam 9,0: 24 horas é muito para uma caixa desse porte, e o power bank é útil em viagem e camping.</p>
@@ -117,6 +128,10 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0CQ53RVTW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
+    <h2>Botões e funções que valem conhecer</h2>
+    <p>O guia oficial explica as funções que ficam escondidas nos botões. O BassUp liga e desliga com um toque no botão próprio. Para tocar em estéreo com duas Boom 2, conecte uma ao celular e segure o botão Bluetooth por 2 segundos nas duas caixas: uma fica com luz azul fixa e a outra com luz branca fixa. Para festa com mais caixas, o botão PartyCast junta até 100 alto-falantes compatíveis, sincronizando som e luzes.</p>
+    <p>Se a caixa travar ou não parear, o reset de fábrica é segurar ao mesmo tempo os botões Bluetooth e Volume + por pelo menos 4 segundos. Vale fazer isso também antes de dar ou vender a caixa, para apagar os pareamentos salvos.</p>
+
     <h2>Cuidados para durar mais</h2>
     <ul class="checklist">
       <li>Siga o manual sobre as portas de conexão antes de usar perto da água e só recarregue com a entrada USB-C totalmente seca.</li>
@@ -129,7 +144,7 @@ export const article: Article = {
     <p>Para o churrasco completo, o <a href="/artigos/kit-churrasco-tramontina-plenus-ou-tradicional-madeira-comparativo">kit de churrasco Tramontina</a> resolve a grelha. No computador, quem quer som de mesa compacto tem o <a href="/artigos/caixa-de-som-pc-logitech-z150-ou-z207-comparativo">comparativo de caixas de som para PC</a>, e para ouvir sem caixa nenhuma, o <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">comparativo de fones bluetooth baratos</a>. Pensando em presente de fim de ano, o guia de <a href="/artigos/amigo-secreto-e-lista-de-presentes-de-natal-com-ia-sorteio-orcamento-e-planilha">amigo secreto e lista de presentes com IA</a> ajuda a fechar o orçamento.</p>
 
     <h2>Variação de preço</h2>
-    <p>Pela pesquisa de mercado, a Soundcore Boom 2 costuma variar de R$ 450 a R$ 800, com promoções pontuais abaixo disso em datas de grande desconto. O que faz o preço subir é a compra fora de época e em vendedor de importação; o que faz cair são as ofertas de grandes varejistas em datas de promoção.</p>
+    <p>Pela pesquisa de mercado, a Soundcore Boom 2 costuma variar de R$ 450 a R$ 800, com promoções pontuais abaixo disso em datas de grande desconto. Fora de promoção, os comparadores de preço mostram a caixa mais perto do topo da faixa, com as três cores no mesmo valor. O que faz o preço subir é a compra fora de época e em vendedor de importação; o que faz cair são as ofertas de grandes varejistas em datas de promoção.</p>
     <p>Em custo-benefício, ela entrega som 2.1, bateria de 24 horas, power bank e flutuação, recursos que costumam aparecer em caixas maiores e mais caras. Quando aparece na parte de baixo da faixa, é uma compra forte para a categoria.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">

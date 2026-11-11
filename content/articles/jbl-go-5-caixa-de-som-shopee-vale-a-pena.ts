@@ -118,7 +118,7 @@ export const article: Article = {
 
     <h2>Como avaliamos</h2>
     <p>A nota de 8,0 cruza a ficha divulgada pela imprensa e pelo varejo com os dados do anúncio na Shopee (nota média dos compradores de 5,0 e mais de 200 vendas), sem teste físico nosso. Pesamos custo-benefício, qualidade de som, resistência e portabilidade, bateria e recursos. A resistência IP68 puxa a nota para cima, e a bateria e o preço seguram o resultado.</p>
-    <p>Quem usa a caixa em treino ou caminhada pode controlar a música no pulso com um <a href="/artigos/melhor-smartwatch-barato-comparativo-2026">smartwatch barato</a>. Se você quer ouvir música no celular sem fone, a Go 5 faz o papel. Quem também quer cuidar do som da sala pode ver o <a href="/artigos/intelbras-izy-play-full-hd-smart-tv-box-vale-a-pena">TV Box Intelbras Izy Play</a> e a soundbar já analisados.</p>
+    <p>Quem usa a caixa em treino ou caminhada pode controlar a música no pulso com um <a href="/artigos/melhor-smartwatch-barato-comparativo-2026">smartwatch barato</a>. Se você quer ouvir música no celular sem fone, a Go 5 faz o papel. Quem também quer cuidar do som da sala pode ver o <a href="/artigos/intelbras-izy-play-full-hd-smart-tv-box-vale-a-pena">TV Box Intelbras Izy Play</a> e a soundbar já analisados. Quem precisa de mais grave e bateria para piscina e churrasco pode subir para a <a href="/artigos/soundcore-boom-2-caixa-de-som-vale-a-pena">Soundcore Boom 2</a>, maior e mais pesada.</p>
 
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>

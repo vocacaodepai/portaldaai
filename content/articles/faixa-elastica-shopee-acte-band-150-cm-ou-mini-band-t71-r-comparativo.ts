@@ -158,7 +158,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o kit Acte Band de 150 cm: um único kit atende alongamento, mobilidade, treino de braços, costas e pernas, e a nota 4,9 com cerca de 150 vendas no anúncio indica boa aceitação. A Mini Band T71-R é a escolha de quem quer treinar glúteo e perna em casa, de forma simples, sem ponto de apoio.</p>
-    <p>Muita gente acaba com os dois, e a conta é pequena: os kits somados custam menos que uma mensalidade típica de academia, e cada um cobre o que o outro faz mal. Se você estuda ou trabalha sentado o dia todo, vale juntar a faixa a pausas programadas, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo em blocos de tempo</a>, para levantar e se alongar entre um bloco e outro.</p>
+    <p>Muita gente acaba com os dois, e a conta é pequena: os kits somados custam menos que uma mensalidade típica de academia, e cada um cobre o que o outro faz mal. Se você estuda ou trabalha sentado o dia todo, vale juntar a faixa a pausas programadas, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo em blocos de tempo</a>, para levantar e se alongar entre um bloco e outro. Quem usa a faixa no aquecimento do futebol pode ver também o <a href="/artigos/bola-de-futebol-de-campo-penalty-bravo-xxv-ou-player-xxv-comparativo">comparativo das bolas de campo Penalty Bravo XXV e Player XXV</a>.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Band 150 cm na Shopee agora ↗</a>
     </div>

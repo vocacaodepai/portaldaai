@@ -115,7 +115,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Para quem usa a caixa térmica com frequência e leva bebida para mais de duas ou três pessoas, a Soprano Tropical de 32 litros é a escolha mais completa: mais espaço, tampa de acesso rápido e bandeja que vira mesa de apoio. A nota 7,9 vai para ela, descontados o peso maior, o preço mais alto e o isolamento de isopor, que não substitui a espuma de poliuretano das caixas premium.</p>
-    <p>Se o uso é ocasional e o orçamento é curto, a Mor de 26 litros cumpre o papel e leva 7,6. Para o verão, vale ainda olhar o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">ventilador com controle remoto</a> e a <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor</a> da casa. Confira o preço do dia nos botões abaixo.</p>
+    <p>Se o uso é ocasional e o orçamento é curto, a Mor de 26 litros cumpre o papel e leva 7,6. Para o verão, vale ainda olhar o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">ventilador com controle remoto</a> e a <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor</a> da casa. Confira o preço do dia nos botões abaixo. E se a caixa térmica vai para a pelada, o <a href="/artigos/bola-de-futebol-de-campo-penalty-bravo-xxv-ou-player-xxv-comparativo">comparativo das bolas Penalty Bravo XXV e Player XXV</a> ajuda a escolher a bola de campo.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076PL7T5S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>

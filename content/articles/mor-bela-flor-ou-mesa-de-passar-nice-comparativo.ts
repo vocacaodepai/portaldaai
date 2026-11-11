@@ -144,7 +144,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Para a maioria das casas, nossa indicação é a mesa Mor Nice: tampo de 91,5 x 33 cm, cinco alturas, tela que deixa o vapor sair e o menor peso do par. A Mor Bela Flor é a escolha certa para quem passa pouca roupa, prefere tampo de madeira com espuma e precisa de uma tábua mais alta e de capacidade maior.</p>
-    <p>Se a lavanderia ainda está sendo montada, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compras na Black Friday</a> ajuda a evitar preço falso, e o <a href="/artigos/kit-vassoura-rodo-pa-bettanin-shopee-novica-maxima-ou-ballena-comparativo">comparativo de kits de vassoura e rodo</a> completa a lista de limpeza.</p>
+    <p>Se a lavanderia ainda está sendo montada, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compras na Black Friday</a> ajuda a evitar preço falso, e o <a href="/artigos/kit-vassoura-rodo-pa-bettanin-shopee-novica-maxima-ou-ballena-comparativo">comparativo de kits de vassoura e rodo</a> completa a lista de limpeza. Quem também faz barra e ajuste em casa encontra no <a href="/artigos/maquina-de-costura-singer-m1605-m2505-ou-elgin-genius-plus-comparativo">comparativo de máquinas de costura Singer e Elgin</a> a primeira máquina para começar.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0779L8HFB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
