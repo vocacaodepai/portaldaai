@@ -143,6 +143,7 @@ export const productCategories = [
   { slug: "pet", label: "Pet" },
   { slug: "escritorio", label: "Escritório" },
   { slug: "bebe", label: "Bebê" },
+  { slug: "esporte", label: "Esporte e Lazer" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -380,6 +381,9 @@ export const productSubcategories = [
   { slug: "adega-climatizada", label: "Adega Climatizada", category: "cozinha" },
   { slug: "maquina-de-gelo", label: "Máquina de Gelo", category: "casa-utilidades" },
   { slug: "volante-gamer", label: "Volante Gamer", category: "informatica" },
+  { slug: "hidratante-corporal", label: "Hidratante Corporal", category: "saude-bem-estar" },
+  { slug: "bola-futebol", label: "Bola de Futebol", category: "esporte" },
+  { slug: "lapiseira", label: "Lapiseira", category: "escritorio" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
