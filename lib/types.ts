@@ -384,6 +384,9 @@ export const productSubcategories = [
   { slug: "hidratante-corporal", label: "Hidratante Corporal", category: "saude-bem-estar" },
   { slug: "bola-futebol", label: "Bola de Futebol", category: "esporte" },
   { slug: "lapiseira", label: "Lapiseira", category: "escritorio" },
+  { slug: "serra-tico-tico", label: "Serra Tico-Tico", category: "ferramentas-casa" },
+  { slug: "cadeira-praia", label: "Cadeira de Praia", category: "esporte" },
+  { slug: "lava-loucas", label: "Lava-Louças", category: "cozinha" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
