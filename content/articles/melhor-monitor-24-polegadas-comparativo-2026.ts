@@ -77,7 +77,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0DCC38VNW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar AOC 24B35HM2 na Amazon agora ↗</a>
     </div>
-    <p>O <a href="https://www.amazon.com.br/dp/B0DCC38VNW?tag=portaldaai-20" rel="sponsored noopener noreferrer">AOC 24B35HM2</a> usa painel VA, que entrega contraste mais profundo (preto mais escuro) e é uma escolha sólida para quem assiste filme ou série na mesma tela que trabalha. O tempo de resposta de 1ms MPRT ajuda em jogo casual, e o design com baixa luz azul e sem flicker reduz cansaço visual em jornada longa de tela. O ponto fraco do painel VA é o ângulo de visão: a cor começa a mudar quando se olha de lado, o que incomoda quem costuma compartilhar a tela com outra pessoa sentada ao lado.</p>
+    <p>O <a href="https://www.amazon.com.br/dp/B0DCC38VNW?tag=portaldaai-20" rel="sponsored noopener noreferrer">AOC 24B35HM2</a> usa painel VA, que entrega contraste mais profundo (preto mais escuro) e é uma escolha sólida para quem assiste filme ou série na mesma tela que trabalha. O tempo de resposta de 1ms MPRT ajuda em jogo casual, e o design com baixa luz azul e sem flicker reduz cansaço visual em jornada longa de tela. O ponto fraco do painel VA é o ângulo de visão: a cor começa a mudar quando se olha de lado, o que incomoda quem costuma compartilhar a tela com outra pessoa sentada ao lado. Quem vai ligar PC ou notebook pela porta HDMI pode ver no <a href="/artigos/cabo-hdmi-2-1-ugreen-2-m-nylon-4k-120hz-ou-8k-4k-240hz-comparativo">comparativo de cabos HDMI 2.1</a> quando o cabo vira gargalo e quando não muda nada.</p>
 
     <h2>Samsung Essential S3: ângulo de visão mais estável</h2>
     <figure>

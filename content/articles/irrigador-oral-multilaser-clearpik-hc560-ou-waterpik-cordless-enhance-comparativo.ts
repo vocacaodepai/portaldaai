@@ -96,7 +96,7 @@ export const article: Article = {
 
     <h2>Quem tem aparelho ou implante: o que importa</h2>
     <p>Aparelho fixo, ponte e implante acumulam resto de comida em lugares onde o fio dental não passa fácil. É aí que o irrigador mais ajuda. A Waterpik cita bicos específicos para ortodontia e implantes, que são vendidos à parte em alguns kits, e isso pesa para quem tem esses tratamentos. O HC560 vem com bicos clássicos, que servem para a limpeza geral.</p>
-    <p>Mesmo assim, vale conversar com o dentista antes de comprar. Ele pode orientar a pressão certa, o tempo de uso e se o irrigador substitui ou complementa o fio dental no seu caso. Quem já usa uma <a href="/artigos/melhor-escova-de-dente-eletrica-comparativo-2026">escova de dente elétrica</a> e quer complementar a rotina costuma ter no irrigador o próximo passo lógico.</p>
+    <p>Mesmo assim, vale conversar com o dentista antes de comprar. Ele pode orientar a pressão certa, o tempo de uso e se o irrigador substitui ou complementa o fio dental no seu caso. Quem já usa uma <a href="/artigos/melhor-escova-de-dente-eletrica-comparativo-2026">escova de dente elétrica</a> e quer complementar a rotina costuma ter no irrigador o próximo passo lógico. Se a dúvida ainda é a escova, o <a href="/artigos/oral-b-io2-ou-io6-escova-eletrica-comparativo">comparativo entre a Oral-B iO2 e a iO6</a> ajuda a decidir se o modelo de entrada da linha iO basta.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0FBC2QTC3?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Waterpik Cordless Enhance WF21 na Amazon agora ↗</a>
     </div>

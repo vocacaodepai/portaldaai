@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "combo-teclado-mouse",
   productScore: 8.3,
   date: "2026-11-07",
+  updated: "2026-11-12",
   readTime: 8,
   imageQuery: "wireless keyboard and mouse combo desk",
   seed: 1150,
@@ -166,9 +167,31 @@ export const article: Article = {
     </div>
 
     <h2>Variação de preço</h2>
-    <p>Os três combos têm preço que muda bastante entre vendedores, cores e datas de promoção, e não encontramos uma faixa estável o bastante para publicar números com segurança. A ordem, porém, se repete na pesquisa: o MK235 costuma ser o mais barato, o MK270 fica no meio e o MK295, pela tecnologia silenciosa, costuma ser o mais caro, embora às vezes entre em promoção abaixo do MK270.</p>
+    <p>Os três combos mudam de preço conforme vendedor, cor e data de promoção. Pela pesquisa em comparadores de preço e lojas de informática, o MK235 costuma variar de R$ 120 a R$ 200, o MK270 de R$ 130 a R$ 195 e o MK295 de R$ 145 a R$ 200. As faixas se sobrepõem: o MK235 costuma aparecer como o mais barato, o MK270 no meio e o MK295, pela tecnologia silenciosa, na ponta de cima, embora às vezes entre em promoção abaixo do MK270.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Faixa de mercado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Logitech MK235</td>
+          <td>R$ 120 a R$ 200</td>
+        </tr>
+        <tr>
+          <td>Logitech MK270</td>
+          <td>R$ 130 a R$ 195</td>
+        </tr>
+        <tr>
+          <td>Logitech MK295</td>
+          <td>R$ 145 a R$ 200</td>
+        </tr>
+      </tbody>
+    </table>
     <p>Em custo-benefício, o MK270 é o mais redondo por causa da garantia de 3 anos. O MK235 vale quando a diferença de preço é grande ou quando a resistência a respingos importa. O MK295 compensa para quem paga pelo silêncio.</p>
-    <p><em>Observação: esta pesquisa de preço considera a internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas a Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
+    <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B07643MPGS?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>

@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "ssd-interno",
   productScore: 8.4,
   date: "2026-11-04",
+  updated: "2026-11-12",
   readTime: 8,
   imageQuery: "nvme m2 ssd computer upgrade",
   seed: 401,
@@ -110,7 +111,7 @@ export const article: Article = {
 
     <h2>Cuidados na instalação</h2>
     <p>A troca é simples, mas exige atenção. Desligue o computador da tomada, toque numa parte metálica para descarregar a eletricidade estática e use o parafuso próprio do slot M.2, que costuma vir na placa-mãe ou no notebook. Em PC de mesa, se a placa tiver dissipador para o slot M.2, vale usá-lo: SSD NVMe esquenta em cópias longas, e o calor reduz a velocidade. No notebook, um <a href="/artigos/cooler-notebook-multilaser-hexa-ac282-ou-slim-ac263-comparativo">cooler de base</a> ajuda quem copia arquivos grandes com frequência.</p>
-    <p>Para não reinstalar tudo do zero, dá para clonar o disco antigo com o software do fabricante ou com uma ferramenta gratuita de clonagem, usando um adaptador USB para ligar o SSD novo antes de instalar. Antes de qualquer clonagem, faça backup dos arquivos importantes num <a href="/artigos/pen-drive-128gb-sandisk-cruzer-blade-ultra-flair-dual-drive-go-comparativo">pen drive</a> ou na nuvem. E, num PC de mesa, um <a href="/artigos/intelbras-xnb-600-nobreak-vale-a-pena">nobreak</a> evita que uma queda de energia corrompa o sistema bem no meio da cópia.</p>
+    <p>Para não reinstalar tudo do zero, dá para clonar o disco antigo com o software do fabricante ou com uma ferramenta gratuita de clonagem, usando um adaptador USB para ligar o SSD novo antes de instalar. Antes de qualquer clonagem, faça backup dos arquivos importantes num <a href="/artigos/pen-drive-128gb-sandisk-cruzer-blade-ultra-flair-dual-drive-go-comparativo">pen drive</a> ou na nuvem. E, num PC de mesa, um <a href="/artigos/intelbras-xnb-600-nobreak-vale-a-pena">nobreak</a> evita que uma queda de energia corrompa o sistema bem no meio da cópia. No caso do Samsung 980, a <a href="https://semiconductor.samsung.com/consumer-storage/support/tools/" rel="noopener noreferrer" target="_blank">página de ferramentas da Samsung</a> oferece o Samsung Magician para Windows e macOS, que já integra o programa de migração de dados, e lista as atualizações de firmware do 980.</p>
 
     <h2>Variação de preço</h2>
     <p>Os SSDs ficaram mais caros ao longo de 2026, com a alta no preço da memória flash, e os valores mudam bastante entre lojas e semanas. Como faixa de mercado aproximada, o Samsung 980 de 500 GB costuma variar de R$ 500 a R$ 740, e o WD Green SN3000 de 500 GB costuma variar de R$ 700 a R$ 870. Vendedores terceiros e versões importadas podem aparecer fora dessas faixas, então confira o vendedor e a garantia no Brasil.</p>

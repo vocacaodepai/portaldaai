@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "escova-dental-eletrica",
   productScore: 8.3,
   date: "2026-11-08",
+  updated: "2026-11-12",
   readTime: 8,
   imageQuery: "electric toothbrush bathroom sink",
   seed: 1155,
@@ -128,6 +129,7 @@ export const article: Article = {
       <li>Viagem: a iO6 já vem com estojo; para a iO2, o cabo vai na nécessaire com a cabeça protegida.</li>
       <li>Troca de refil: a marca recomenda a cada 3 meses, e as cerdas que mudam de cor ajudam a lembrar.</li>
     </ul>
+    <p>Antes dos recursos, vale saber o que a pesquisa já mediu sobre escova elétrica em geral. Uma <a href="https://www.cochrane.org/CD002281/ORAL_powered-versus-manual-toothbrushing-oral-health" rel="noopener noreferrer" target="_blank">revisão da Cochrane publicada em 2014</a>, com 56 estudos, encontrou redução de 21% na placa e de 11% na gengivite depois de mais de três meses com escova elétrica, em comparação com a manual. Os autores dizem que a importância clínica desses números não está clara, e a revisão não compara modelos entre si. Na prática, a iO2 já entrega essa base; a tela e o app da iO6 ajudam a manter o hábito, mas não são o que a pesquisa mediu.</p>
     <p>Quem ainda está entre a linha iO e as escovas mais simples pode ver o <a href="/artigos/melhor-escova-de-dente-eletrica-comparativo-2026">comparativo entre a Oral-B Vitality e a Philips Sonicare 2100</a>. Para completar a limpeza entre os dentes, o <a href="/artigos/irrigador-oral-multilaser-clearpik-hc560-ou-waterpik-cordless-enhance-comparativo">comparativo de irrigadores orais</a> mostra duas opções que alcançam onde a escova não chega.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0F7J2KKFW?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
@@ -152,6 +154,11 @@ export const article: Article = {
     </div>
   `,
   faq: [
+    {
+      question: "Escova elétrica limpa melhor que a manual?",
+      answer:
+        "Pela revisão da Cochrane de 2014, com 56 estudos, a escova elétrica reduziu a placa em 21% e a gengivite em 11% depois de mais de três meses, em comparação com a manual. Os autores ressalvam que a importância clínica não está clara. A técnica e os dois minutos de escovação continuam valendo para qualquer modelo.",
+    },
     {
       question: "Qual a diferença entre a Oral-B iO2 e a iO6?",
       answer:

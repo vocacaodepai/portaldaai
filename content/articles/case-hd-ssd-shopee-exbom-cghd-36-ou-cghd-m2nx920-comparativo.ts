@@ -41,7 +41,7 @@ export const article: Article = {
 
     <h2>Como saber qual case serve para o seu disco</h2>
     <p>Disco de notebook antigo e HD de 2,5 polegadas têm um conector SATA retangular, com a forma de "L" e duas partes, uma para dados e outra para energia. O SSD M.2 é uma plaquinha comprida, do tamanho de um chiclete, que encaixa direto na placa. São formatos fisicamente diferentes, e um case não serve para o outro.</p>
-    <p>Dentro do M.2 ainda há dois tipos: o SATA (chamado de NGFF nos anúncios) e o NVMe (PCIe), que é mais rápido. A ficha do CGHD-M2NX920 diz aceitar os dois, mas esse é o dado que mais confere antes de comprar: veja o que está escrito no seu SSD e compare com a descrição do anúncio.</p>
+    <p>Dentro do M.2 ainda há dois tipos: o SATA (chamado de NGFF nos anúncios) e o NVMe (PCIe), que é mais rápido. A ficha do CGHD-M2NX920 diz aceitar os dois, mas esse é o dado que mais confere antes de comprar: veja o que está escrito no seu SSD e compare com a descrição do anúncio. Quem ainda vai comprar o SSD NVMe pode ver no <a href="/artigos/ssd-nvme-500gb-samsung-980-ou-wd-green-sn3000-comparativo">comparativo entre o Samsung 980 e o WD Green SN3000</a> como conferir a geração do PCIe antes.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
     </div>
