@@ -387,6 +387,9 @@ export const productSubcategories = [
   { slug: "serra-tico-tico", label: "Serra Tico-Tico", category: "ferramentas-casa" },
   { slug: "cadeira-praia", label: "Cadeira de Praia", category: "esporte" },
   { slug: "lava-loucas", label: "Lava-Louças", category: "cozinha" },
+  { slug: "mascara-capilar", label: "Máscara Capilar", category: "saude-bem-estar" },
+  { slug: "fonte-pet", label: "Fonte de Água para Pets", category: "pet" },
+  { slug: "oculos-natacao", label: "Óculos de Natação", category: "esporte" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
