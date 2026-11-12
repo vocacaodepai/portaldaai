@@ -78,7 +78,7 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0FRHSY74T?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Samsung HW-B450F na Amazon agora ↗</a>
     </div>
     <p>A <a href="https://www.amazon.com.br/dp/B0FRHSY74T?tag=portaldaai-20" rel="sponsored noopener noreferrer">HW-B450F</a> é uma barra de 858,8 mm de largura, 59 mm de altura e 75 mm de profundidade, com 1,8 kg, e um subwoofer de 184 x 343 x 295 mm e 4,9 kg. O som é 2.1: dois canais na barra mais o grave no subwoofer, que não precisa de fio de áudio até a barra. Os modos de som incluem Dolby Audio, DTS Virtual:X, Bass Boost, equalização automática, modo game e amplificador de voz.</p>
-    <p>Na conexão, a página oficial lista uma saída HDMI com ARC e CEC, entrada óptica, reprodução de música por USB e Bluetooth 4.2. O ARC permite ligar a soundbar à TV por um único cabo HDMI e controlar o volume com o controle da TV. A ressalva é que não há entrada HDMI: videogame e decodificador precisam ficar ligados direto na TV.</p>
+    <p>Na conexão, a página oficial lista uma saída HDMI com ARC e CEC, entrada óptica, reprodução de música por USB e Bluetooth 4.2. O ARC permite ligar a soundbar à TV por um único cabo HDMI e controlar o volume com o controle da TV. A ressalva é que não há entrada HDMI: videogame e decodificador precisam ficar ligados direto na TV. Para console com 4K a 120 Hz, o cabo também conta: o <a href="/artigos/cabo-hdmi-2-1-ugreen-2-m-nylon-4k-120hz-ou-8k-4k-240hz-comparativo">comparativo de cabos HDMI 2.1 da UGREEN</a> mostra qual modelo de 2 metros serve para TV e qual faz sentido só para monitor.</p>
 
     <h2>Samsung HW-B650F: o 3.1 com canal central</h2>
     <figure>

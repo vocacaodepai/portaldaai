@@ -36,7 +36,7 @@ export const article: Article = {
       <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços mudam com frequência: confira sempre o valor atual na página de cada produto antes de comprar.</p>
     </div>
 
-    <p>O carregador que vem na caixa do celular, quando vem, costuma ser lento e sem porta extra. Comparamos dois carregadores USB-C com tecnologia GaN vendidos de verdade na <a href="https://www.amazon.com.br/dp/B0DPKRC84P" rel="noopener noreferrer nofollow">Amazon Brasil</a>: o Anker Nano 45W, pensado pra quem viaja, e o Baseus GaN5 Pro 65W, com quatro portas pra carregar a família inteira na mesma tomada.</p>
+    <p>O carregador que vem na caixa do celular, quando vem, costuma ser lento e sem porta extra. Comparamos dois carregadores USB-C com tecnologia GaN vendidos de verdade na <a href="https://www.amazon.com.br/dp/B0DPKRC84P" rel="noopener noreferrer nofollow">Amazon Brasil</a>: o Anker Nano 45W, pensado pra quem viaja, e o Baseus GaN5 Pro 65W, com quatro portas pra carregar a família inteira na mesma tomada. Quem prefere encostar o iPhone e deixar carregando sem cabo pode combinar um deles com os modelos do <a href="/artigos/carregador-qi2-anker-maggo-pad-ou-ugreen-2-em-1-dobravel-comparativo">comparativo de carregadores Qi2 Anker MagGo Pad e UGREEN 2 em 1</a>.</p>
 
     <h2>Os 2 carregadores que comparamos</h2>
     <p>GaN (nitreto de gálio) é o material que substituiu o silício nos carregadores mais modernos: ele perde menos energia em forma de calor, o que permite colocar mais potência num corpo bem menor que o carregador "tijolão" tradicional. Os dois modelos abaixo usam essa tecnologia, mas em propostas diferentes.</p>

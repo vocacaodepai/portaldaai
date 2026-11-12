@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "carregador-sem-fio",
   productScore: 7.7,
   date: "2026-11-01",
+  updated: "2026-11-12",
   readTime: 8,
   imageQuery: "magnetic wireless charger iPhone desk",
   seed: 994,
@@ -41,6 +42,7 @@ export const article: Article = {
 
     <h2>O que é Qi2 e por que importa?</h2>
     <p>Qi2 é a evolução do Qi, com ímãs no padrão que alinham o celular à bobina de carga. O resultado prático é menos erro de posição e carga estável, sem o celular escorregar. Os anúncios dos dois produtos falam em compatibilidade com iPhones das séries 12 em diante, e a velocidade máxima depende do modelo do aparelho e do carregador de tomada usado.</p>
+    <p>O padrão também está mudando. Em julho de 2025, o Wireless Power Consortium, grupo que mantém o Qi, anunciou o Qi2 25W, versão antes chamada de Qi2.2, que eleva o teto de 15 W para 25 W, quase 70% a mais de potência, segundo a <a href="https://www.macrumors.com/2025/07/24/wpc-qi2-25w-wireless-charging-iphone-support/" rel="noopener noreferrer" target="_blank">cobertura do MacRumors</a>. Os dois carregadores deste comparativo são do Qi2 de 15 W. Para quem tem um celular que já carrega a até 15 W sem fio, isso não muda a escolha; quem tem um aparelho novo compatível com o Qi2 25W vai carregar a até 15 W nesses dois modelos.</p>
     <p>Um ponto que quase todo mundo esquece: carregador sem fio sozinho não basta, porque ele precisa de uma fonte USB-C. Por isso vale olhar o que vem na caixa e, se preciso, combinar com um <a href="/artigos/melhor-carregador-gan-usb-c-comparativo-2026">carregador GaN USB-C</a> adequado.</p>
     <table>
       <thead>
@@ -129,6 +131,11 @@ export const article: Article = {
     </div>
   `,
   faq: [
+    {
+      question: "Qi2 e Qi2 25W são a mesma coisa?",
+      answer:
+        "Não. O Qi2 original chega a 15 W. O Qi2 25W, anunciado pelo Wireless Power Consortium em julho de 2025 e antes chamado de Qi2.2, sobe o teto para 25 W. Os dois carregadores deste comparativo são de 15 W: um celular compatível com 25 W funciona neles, mas carrega a até 15 W.",
+    },
     {
       question: "O que é Qi2 e qual a diferença para o carregador sem fio comum?",
       answer:

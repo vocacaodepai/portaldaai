@@ -2,10 +2,10 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "cabo-hdmi-2-1-ugreen-2-m-nylon-4k-120hz-ou-8k-4k-240hz-comparativo",
-  title: "Cabo HDMI 2.1 da UGREEN de 2 m: o de nylon 4K a 120 Hz ou o 8K com 4K a 240 Hz?",
+  title: "Cabo HDMI 2.1 UGREEN de 2 m: nylon 4K a 120 Hz ou 8K com 240 Hz?",
   seoTitle: "Cabo HDMI 2.1 UGREEN 2 m: nylon 120 Hz ou 8K 240 Hz",
   excerpt:
-    "Comparamos dois cabos HDMI 2.1 de 2 metros da UGREEN vendidos na Amazon Brasil, o de nylon trançado para 4K a 120 Hz e o 8K para 4K a 240 Hz, com o que cada um serve para console, TV e monitor.",
+    "Comparamos dois cabos HDMI 2.1 UGREEN de 2 metros, o de nylon para 4K a 120 Hz e o 8K para 4K a 240 Hz, e o que cada um entrega em console, TV e monitor.",
   metaDescription:
     "Cabo HDMI 2.1 UGREEN de 2 m: comparativo entre o modelo de nylon trançado (4K a 120 Hz) e o 8K (4K a 240 Hz), com ficha, eARC, uso em PS5 e Xbox e qual compensa.",
   category: "ai-indica",
@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "cabo-hdmi",
   productScore: 8.3,
   date: "2026-11-02",
+  updated: "2026-11-12",
   readTime: 8,
   imageQuery: "cabo hdmi preto conectado a uma televisão",
   seed: 902,
@@ -98,6 +99,7 @@ export const article: Article = {
     <h2>Como escolher entre os dois sem errar</h2>
     <p>A pergunta que decide é qual tela ou equipamento está na outra ponta. Se é TV 4K de sala com PS5, Xbox ou <a href="/artigos/intelbras-izy-play-full-hd-smart-tv-box-vale-a-pena">TV box</a>, a maioria das TVs chega a 120 Hz, e o cabo de nylon cobre isso. Se é monitor de PC com 144 ou 240 Hz ligado por HDMI 2.1, o cabo que declara 240 Hz tira a dúvida de gargalo no cabo.</p>
     <p>Dois cuidados valem para os dois. O primeiro é a entrada: confira se a porta da TV ou do monitor é HDMI 2.1 e, se for usar soundbar, ligue na porta marcada como eARC ou ARC. O segundo é a desconfiança com falsificações: cabo HDMI muito barato de vendedor terceiro pode não cumprir a banda anunciada, e por isso vale comprar de anúncio com histórico e muitas avaliações. Uma linha de proteção elétrica para a TV, como as do <a href="/artigos/iclamper-energia-8-ou-intelbras-epe-1008-filtro-de-linha-comparativo">comparativo de filtro de linha</a>, também protege o conjunto, e quem monta a sala completa pode ver o <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">SSD portátil</a> para guardar capturas e o <a href="/artigos/melhor-roteador-wifi-6-comparativo-2026">roteador Wi-Fi 6</a> para o streaming não travar.</p>
+    <p>Há um jeito objetivo de checar se o cabo é o que diz ser. O HDMI Forum mantém o <a href="https://www.hdmi.org/spec21sub/ultrahighspeedcable" rel="noopener noreferrer" target="_blank">programa de certificação Ultra High Speed HDMI Cable</a>, obrigatório para cabos que usam esse nome: cada modelo passa por teste em laboratório autorizado, inclusive de baixa interferência com Wi-Fi, Bluetooth e celular, e a embalagem recebe uma etiqueta com código QR que qualquer aplicativo comum de leitura de QR abre. O nome do cabo também precisa vir impresso na capa. A etiqueta não diz se a sua TV aceita 120 Hz, mas reduz o risco de levar um cabo que não segura os 48 Gbps.</p>
 
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B08276R624?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
@@ -141,6 +143,11 @@ export const article: Article = {
     </div>
   `,
   faq: [
+    {
+      question: "Como saber se o cabo HDMI 2.1 é original?",
+      answer:
+        "Procure na embalagem a etiqueta de certificação Ultra High Speed HDMI Cable, com código QR que abre em qualquer leitor de QR comum, e o nome Ultra High Speed impresso na capa do cabo. A certificação é obrigatória no programa do HDMI Forum e inclui teste de banda de 48 Gbps e de interferência.",
+    },
     {
       question: "Qual a diferença entre os dois cabos HDMI 2.1 da UGREEN de 2 metros?",
       answer:

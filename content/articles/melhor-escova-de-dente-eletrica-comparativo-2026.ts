@@ -67,7 +67,7 @@ export const article: Article = {
         </tr>
       </tbody>
     </table>
-    <p>Nenhuma das duas tem app ou conexão Bluetooth, recurso que só aparece em modelos mais caros de cada marca, como o Oral-B iO ou o Sonicare DiamondClean.</p>
+    <p>Nenhuma das duas tem app ou conexão Bluetooth, recurso que só aparece em modelos mais caros de cada marca, como o Oral-B iO ou o Sonicare DiamondClean. Quem quer saber se vale subir para a linha iO encontra no <a href="/artigos/oral-b-io2-ou-io6-escova-eletrica-comparativo">comparativo entre a Oral-B iO2 e a iO6</a> o que muda entre a versão de entrada e a que tem tela e aplicativo.</p>
 
     <h2>Oral-B Vitality Precision Clean: a mais vendida das duas</h2>
     <figure>
