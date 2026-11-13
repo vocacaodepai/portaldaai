@@ -116,7 +116,7 @@ export const article: Article = {
       <li><strong>Ignorar o contexto.</strong> Uma imagem pode ser real e estar fora de contexto. Nenhuma marca d'água detecta isso.</li>
     </ul>
 
-    <p>Também é bom lembrar que assistentes de IA erram ao explicar o que veem, e por isso o guia <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA: como checar se a resposta está certa</a> é leitura complementar quando você pedir ajuda a um chatbot para interpretar uma imagem suspeita.</p>
+    <p>Também é bom lembrar que assistentes de IA erram ao explicar o que veem, e por isso o guia <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA: como checar se a resposta está certa</a> é leitura complementar quando você pedir ajuda a um chatbot para interpretar uma imagem suspeita. Para texto, a regra europeia que levou as empresas a marcar a saída dos modelos está no guia sobre <a href="/artigos/marca-dagua-em-texto-de-ia-o-que-o-ai-act-exige-e-o-que-muda-para-quem-usa">marca d'água em texto de IA e o que o AI Act exige</a>.</p>
 
     <h2>O que muda daqui para frente</h2>
 

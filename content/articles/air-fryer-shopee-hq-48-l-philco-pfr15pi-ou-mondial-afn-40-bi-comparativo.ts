@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "air-fryer",
   productScore: 8.3,
   date: "2026-11-02",
+  updated: "2026-11-13",
   readTime: 8,
   imageQuery: "air fryer kitchen counter",
   seed: 1085,
@@ -123,6 +124,10 @@ export const article: Article = {
     </div>
     <p>A Mondial Family Inox tem 4 litros, 1500 W, timer de 60 minutos com desligamento automático e controle de temperatura até 200 graus. O painel de inox traz uma tabela de preparos impressa, e o cesto é quadrado, o que aproveita melhor o espaço para filé, nuggets e pão. A GDM cita ruído de cerca de 48 dB e cabo de 97 cm.</p>
     <p>O ponto negativo está nas avaliações de varejo: há queixas de que os números do timer e da temperatura se apagam com a limpeza, e a capacidade de 4 L é a menor das três. O anúncio da Casas Bahia Oficial tem nota 4,9 e mais de 140 vendas. É boa, mas só compensa se o preço do dia ficar perto da Philco.</p>
+
+    <h2>O que a ficha oficial da Philco confirma</h2>
+    <p>A Philco faz parte do grupo Britânia, e a <a href="https://suporte.britania.com.br/hc/pt-br/article_attachments/45664548567828" target="_blank" rel="noopener noreferrer">ficha técnica oficial da PFR15PI</a>, publicada na central de suporte da Britânia, fecha algumas dúvidas que as lojas deixam abertas. Ela confirma 1500 W, seletor de 80 a 200 °C, timer de 60 minutos, cesto removível com revestimento Redstone, proteção contra sobreaquecimento, base antiderrapante e garantia de 1 ano. A ficha também traz um detalhe útil: 4,4 litros é a capacidade da cuba, e o cesto, onde a comida fica de fato, tem 4,3 litros.</p>
+    <p>Para a instalação, a ficha informa cabo de 1 metro, plugue de 3 pinos e corrente de 12 A na versão 127 V e de 10 A na versão 220 V. Na prática, isso pede tomada própria perto da bancada, sem extensão nem benjamim, e atenção redobrada na versão 127 V, que puxa mais corrente. O consumo listado é de 1,5 kWh por hora de uso na potência máxima: quem usa meia hora por dia gasta cerca de 22,5 kWh no mês, conta que vale multiplicar pela tarifa da sua conta de luz. A versão 127 V e a 220 V têm códigos de barras diferentes, então confira a voltagem no anúncio antes de pagar.</p>
 
     <h2>Nota por critério e como pesamos</h2>
     <p>A nota 8,3 do comparativo é a da Philco PFR15PI, o modelo que indicamos ao fim. Pesamos capacidade, marca e assistência, clareza da ficha, facilidade de limpeza e custo-benefício.</p>

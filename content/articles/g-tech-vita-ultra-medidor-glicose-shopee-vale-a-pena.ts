@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "saude-bem-estar",
   productSubcategory: "glicosimetro",
   date: "2026-11-04",
+  updated: "2026-11-13",
   readTime: 8,
   imageQuery: "blood glucose meter kit",
   seed: 1105,
@@ -76,6 +77,11 @@ export const article: Article = {
     <h2>Para que serve e para que não serve</h2>
     <p>O glicosímetro de uso doméstico serve para acompanhar a glicemia no dia a dia, nos horários que o médico pedir, e para registrar os valores entre uma consulta e outra. Para quem usa insulina, o acompanhamento costuma ser parte do tratamento, e o número da tela ajuda a ajustar rotina, refeição e dose, sempre com a orientação do profissional.</p>
     <p>Ele não serve para diagnosticar diabetes sozinho, nem para trocar remédio por conta própria. O próprio manual lembra que valores muito baixos ou muito altos pedem ação imediata e que resultado que não combina com o que você sente deve ser repetido e levado ao médico. O manual também cita que hematócrito fora da faixa de 10 a 65% pode atrapalhar a leitura.</p>
+
+    <h2>Registro na Anvisa, precisão e validade das tiras</h2>
+    <p>Na primeira página do <a href="https://arquivos.bisturi.com.br/documentos/manual/gtech/IM-Vita-Ultra_Rev01_100325-1.pdf" target="_blank" rel="noopener noreferrer">manual do G-Tech Vita Ultra</a>, a Accumed, empresa que regulariza o produto no Brasil, informa o registro na Anvisa de número 80275310091. Esse número também aparece na caixa e pode ser conferido na consulta de produtos para saúde do site da Anvisa, um cuidado simples antes de comprar de qualquer vendedor de marketplace. O mesmo manual lista limitações de uso: resultado pode sair impreciso acima de 3.500 metros de altitude, com hematócrito fora de 10 a 65% e em pessoas gravemente hipotensas, e a bula das tiras acrescenta casos de desidratação severa.</p>
+    <p>Sobre precisão, a <a href="https://arquivos.bisturi.com.br/documentos/manual/gtech/kit-medidor-glicemia/tiras-reagentes-gtech-vita.pdf" target="_blank" rel="noopener noreferrer">bula das tiras G-Tech Vita</a> usa o critério da norma ISO 15197:2013: 95% dos resultados dentro de 15 mg/dL de diferença abaixo de 100 mg/dL, e dentro de 15% a partir de 100 mg/dL. No estudo descrito pelo fabricante, feito com o medidor G-Tech Vita da geração anterior e 660 amostras de 110 pessoas comparadas a um analisador de laboratório, todos os resultados ficaram dentro dessa margem. É dado do próprio fabricante, não teste independente, e mostra que pequenas diferenças entre duas medidas seguidas são esperadas.</p>
+    <p>A bula também diz que as tiras valem 24 meses a partir da fabricação, com o frasco fechado, e devem ser descartadas 6 meses depois da primeira abertura. Para quem mede pouco, isso pesa na escolha do frasco: o de 50 tiras só compensa se elas forem usadas antes desse prazo. Dúvida sobre quantas medições fazer por dia é assunto para o seu médico, não para o manual.</p>
 
     <h2>Prós e contras na prática</h2>
     <p>O ponto mais forte é a simplicidade: três botões, tela grande com o valor em mg/dL, data e hora, e resultado rápido. A memória de 500 medições com médias resolve a vida de quem anotava tudo num caderno, e a garantia vitalícia do medidor, válida com cupom fiscal, é rara nessa faixa de preço.</p>

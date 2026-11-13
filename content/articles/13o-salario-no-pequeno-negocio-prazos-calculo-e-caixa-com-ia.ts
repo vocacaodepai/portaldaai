@@ -106,7 +106,7 @@ export const article: Article = {
       <li>Ignorar a convenção coletiva da categoria, que pode trazer regras próprias.</li>
     </ul>
 
-    <p>Se você conversa com a equipe sobre fim de ano, uma boa prática é avisar as datas com antecedência e explicar o que será pago. O guia de <a href="/artigos/gestao-de-equipe-com-ia-escala-e-tarefas-pequeno-negocio">gestão de equipe com IA</a> ajuda a organizar escala e comunicação, e o texto sobre <a href="/artigos/holerite-com-ia-como-ler-descontos-inss-irrf-e-fgts-sem-erro">como ler o holerite</a> é útil para o funcionário entender os descontos da segunda parcela.</p>
+    <p>Se você conversa com a equipe sobre fim de ano, uma boa prática é avisar as datas com antecedência e explicar o que será pago. O guia de <a href="/artigos/gestao-de-equipe-com-ia-escala-e-tarefas-pequeno-negocio">gestão de equipe com IA</a> ajuda a organizar escala e comunicação, e o texto sobre <a href="/artigos/holerite-com-ia-como-ler-descontos-inss-irrf-e-fgts-sem-erro">como ler o holerite</a> é útil para o funcionário entender os descontos da segunda parcela. Se a empresa vai parar entre o Natal e o Ano-Novo, o guia de <a href="/artigos/ferias-coletivas-no-natal-prazo-de-15-dias-aviso-ao-sindicato-e-pagamento">férias coletivas no Natal</a> mostra os prazos de aviso e de pagamento, que caem no mesmo mês da segunda parcela.</p>
 
     <h2>Próximo passo</h2>
 

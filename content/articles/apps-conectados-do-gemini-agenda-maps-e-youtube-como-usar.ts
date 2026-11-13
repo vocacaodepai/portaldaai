@@ -91,7 +91,7 @@ deslocamento e deixe 30 minutos de folga antes da consulta.</code></pre>
     </ul>
 
     <h2>Vale a pena ativar?</h2>
-    <p>Para quem já usa Google Agenda e Gmail, sim: o ganho é pequeno em cada pedido e grande ao longo da semana. Comece conectando a Agenda, peça três coisas simples e confira os eventos criados. Se algo parecer invasivo, desconecte pelo mesmo menu. Para entender que plano libera quais recursos, veja o comparativo <a href="/artigos/google-ai-plus-pro-ou-ultra-qual-plano-do-gemini-escolher">Google AI Plus, Pro ou Ultra</a>, e para usar fotos no mesmo assistente, o texto sobre o <a href="/artigos/nano-banana-no-gemini-editar-fotos-criar-imagens-limites-e-planos">Nano Banana</a>.</p>
+    <p>Para quem já usa Google Agenda e Gmail, sim: o ganho é pequeno em cada pedido e grande ao longo da semana. Comece conectando a Agenda, peça três coisas simples e confira os eventos criados. Se algo parecer invasivo, desconecte pelo mesmo menu. Para entender que plano libera quais recursos, veja o comparativo <a href="/artigos/google-ai-plus-pro-ou-ultra-qual-plano-do-gemini-escolher">Google AI Plus, Pro ou Ultra</a>, e para usar fotos no mesmo assistente, o texto sobre o <a href="/artigos/nano-banana-no-gemini-editar-fotos-criar-imagens-limites-e-planos">Nano Banana</a>. Quem usa iPhone e o e-mail da Apple tem o caminho equivalente no guia do <a href="/artigos/icloud-mail-e-calendario-no-chatgpt-como-conectar-senha-de-app-e-cuidados">iCloud Mail e Calendário no ChatGPT</a>.</p>
   `,
   faq: [
     {

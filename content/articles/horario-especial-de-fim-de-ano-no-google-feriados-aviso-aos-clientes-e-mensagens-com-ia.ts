@@ -111,7 +111,7 @@ Inclua uma frase convidando a comprar os presentes antes do dia 23.</code></pre>
       <li>Deixar mensagens de avaliação sem resposta: veja como <a href="/artigos/avaliacoes-no-google-como-responder-com-ia-sem-parecer-robo-e-sem-quebrar-regras">responder avaliações no Google com IA</a>.</li>
     </ul>
 
-    <p>Resumindo a tarefa desta semana: liste as datas, configure no Google, avise por três canais e imprima o cartaz. Para atrair quem pesquisa na região, o guia de <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no negócio local</a> é o próximo passo.</p>
+    <p>Resumindo a tarefa desta semana: liste as datas, configure no Google, avise por três canais e imprima o cartaz. Para atrair quem pesquisa na região, o guia de <a href="/artigos/como-usar-ia-para-vender-mais-no-seu-negocio-local">como usar IA para vender mais no negócio local</a> é o próximo passo. Se a loja vai fechar por duas semanas, veja antes as regras de <a href="/artigos/ferias-coletivas-no-natal-prazo-de-15-dias-aviso-ao-sindicato-e-pagamento">férias coletivas no Natal</a>, com aviso de 15 dias à equipe e ao sindicato.</p>
   `,
   faq: [
     {
