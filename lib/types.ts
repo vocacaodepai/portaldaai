@@ -390,6 +390,9 @@ export const productSubcategories = [
   { slug: "mascara-capilar", label: "Máscara Capilar", category: "saude-bem-estar" },
   { slug: "fonte-pet", label: "Fonte de Água para Pets", category: "pet" },
   { slug: "oculos-natacao", label: "Óculos de Natação", category: "esporte" },
+  { slug: "centrifuga-sucos", label: "Centrífuga de Sucos", category: "cozinha" },
+  { slug: "piscina", label: "Piscina", category: "jardim-quintal" },
+  { slug: "fita-led", label: "Fita LED Inteligente", category: "casa-inteligente" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
