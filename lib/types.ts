@@ -144,6 +144,7 @@ export const productCategories = [
   { slug: "escritorio", label: "Escritório" },
   { slug: "bebe", label: "Bebê" },
   { slug: "esporte", label: "Esporte e Lazer" },
+  { slug: "viagem", label: "Viagem" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -393,6 +394,8 @@ export const productSubcategories = [
   { slug: "centrifuga-sucos", label: "Centrífuga de Sucos", category: "cozinha" },
   { slug: "piscina", label: "Piscina", category: "jardim-quintal" },
   { slug: "fita-led", label: "Fita LED Inteligente", category: "casa-inteligente" },
+  { slug: "agenda", label: "Agenda e Planner", category: "escritorio" },
+  { slug: "mala-de-bordo", label: "Mala de Bordo", category: "viagem" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
