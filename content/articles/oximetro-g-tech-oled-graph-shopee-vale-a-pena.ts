@@ -110,7 +110,7 @@ export const article: Article = {
 
     <h2>Como avaliamos</h2>
     <p>A nota de 7,6 cruza as fichas de varejo e do fabricante com os dados do anúncio na Shopee (nota média dos compradores de 5,0 e centenas de vendas), sem teste físico nosso. Pesamos custo-benefício, tela, facilidade de uso, autonomia e confiabilidade. A nota menor em confiabilidade e limites é o que segura o número: não é falha do produto, é o teto de qualquer oxímetro de dedo doméstico.</p>
-    <p>O aparelho entra bem no kit de saúde da casa, ao lado do que já existe. Quem também compra para acompanhar pressão pode ver o comparativo do <a href="/artigos/melhor-monitor-pressao-arterial-braco-omron-comparativo-2026">monitor de pressão Omron</a> e a análise do <a href="/artigos/omron-complete-hem-7530t-monitor-pressao-ecg-vale-a-pena">Omron Complete</a>, que mede pressão e ECG.</p>
+    <p>O aparelho entra bem no kit de saúde da casa, ao lado do que já existe. Quem também compra para acompanhar pressão pode ver o comparativo do <a href="/artigos/melhor-monitor-pressao-arterial-braco-omron-comparativo-2026">monitor de pressão Omron</a> e a análise do <a href="/artigos/omron-complete-hem-7530t-monitor-pressao-ecg-vale-a-pena">Omron Complete</a>, que mede pressão e ECG. Para quem acompanha a glicemia, a análise do <a href="/artigos/g-tech-vita-ultra-medidor-glicose-shopee-vale-a-pena">glicosímetro G-Tech Vita Ultra</a>, da mesma marca, mostra o custo das tiras e o que diz o manual.</p>
 
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>

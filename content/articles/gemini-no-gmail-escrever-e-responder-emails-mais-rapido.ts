@@ -82,7 +82,7 @@ export const article: Article = {
       <li>Colar informação confidencial sem autorização.</li>
       <li>Responder com texto de IA a um assunto delicado que pede voz humana.</li>
     </ul>
-    <p>Os <a href="/artigos/5-erros-comuns-de-quem-esta-comecando-a-usar-ia">5 erros comuns de quem está começando a usar IA</a> complementam a lista. E se o seu trabalho envolve estudar muito material, veja também o <a href="/artigos/gemini-notebook-antigo-notebooklm-o-que-mudou">Gemini Notebook</a>.</p>
+    <p>Os <a href="/artigos/5-erros-comuns-de-quem-esta-comecando-a-usar-ia">5 erros comuns de quem está começando a usar IA</a> complementam a lista. E se o seu trabalho envolve estudar muito material, veja também o <a href="/artigos/gemini-notebook-antigo-notebooklm-o-que-mudou">Gemini Notebook</a>. Se a sua caixa principal é @icloud.com, o guia do <a href="/artigos/icloud-mail-e-calendario-no-chatgpt-como-conectar-senha-de-app-e-cuidados">iCloud Mail no ChatGPT</a> mostra como conectar com senha de app.</p>
 
     <p>Se você divide a conta com outras pessoas ou usa e-mail de trabalho, vale conversar com quem administra o serviço antes de ativar qualquer recurso novo. Organizações costumam ter regras sobre quais ferramentas podem ler mensagens, e seguir essas regras protege você de problemas desnecessários.</p>
 

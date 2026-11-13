@@ -158,7 +158,7 @@ export const article: Article = {
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Panelux Classic: é a panela de pressão de sempre, de marca conhecida, com nota 4,8 no anúncio e preço que cabe em qualquer orçamento. A Magnific é a melhor escolha de quem valoriza limpeza fácil e aceita tratar o revestimento com cuidado, sem utensílio de metal e sem esponja áspera.</p>
-    <p>Em qualquer caso, leia o manual, troque a borracha quando ela ressecar e nunca force a tampa. Para completar a cozinha, o <a href="/artigos/balanca-tramontina-adatto-3kg-ou-5kg-comparativo">comparativo de balanças de cozinha</a> ajuda a acertar receita e porção, e o <a href="/artigos/panela-eletrica-de-arroz-mondial-pe-44-10x-ou-britania-bpa10pi">comparativo de panelas elétricas de arroz</a> mostra outra forma de deixar o dia a dia mais simples.</p>
+    <p>Em qualquer caso, leia o manual, troque a borracha quando ela ressecar e nunca force a tampa. Para completar a cozinha, o <a href="/artigos/balanca-tramontina-adatto-3kg-ou-5kg-comparativo">comparativo de balanças de cozinha</a> ajuda a acertar receita e porção, e o <a href="/artigos/panela-eletrica-de-arroz-mondial-pe-44-10x-ou-britania-bpa10pi">comparativo de panelas elétricas de arroz</a> mostra outra forma de deixar o dia a dia mais simples. Para o resto das panelas do dia a dia, veja o <a href="/artigos/jogo-de-panelas-shopee-tramontina-turim-ou-paris-10-pecas-comparativo">comparativo de jogos de panelas Tramontina na Shopee</a>.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Classic 4,5 L na Shopee agora ↗</a>
     </div>

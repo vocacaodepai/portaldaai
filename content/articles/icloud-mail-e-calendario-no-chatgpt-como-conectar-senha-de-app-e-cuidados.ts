@@ -10,6 +10,7 @@ export const article: Article = {
     "iCloud Mail e Calendário no ChatGPT: entenda o que muda desde 27/10/2026, como gerar a senha de app da Apple, o que o plugin faz e como revogar o acesso.",
   category: "ferramentas",
   date: "2026-11-02",
+  updated: "2026-11-13",
   readTime: 7,
   imageQuery: "iphone calendar email desk",
   seed: 1032,
@@ -102,6 +103,21 @@ para uma reunião. Não crie o evento antes de eu confirmar o horário.</code></
       <li>Para conversas sensíveis, use os <a href="/artigos/chats-bloqueados-no-chatgpt-como-proteger-conversas-e-limites">chats bloqueados do ChatGPT</a>.</li>
     </ul>
 
+    <h2>Desconectar não basta: revogue a senha na Apple</h2>
+
+    <p>Um detalhe que pegou muita gente: tirar o plugin do ChatGPT não cancela a senha de app. Segundo o <a href="https://www.notebookcheck.net/ChatGPT-can-now-read-iCloud-Mail-and-disconnecting-is-not-enough.1438039.0.html" target="_blank" rel="noopener noreferrer">Notebookcheck</a>, que cita a central de ajuda da OpenAI, desconectar o iCloud no ChatGPT não revoga a senha na Apple. Ela não expira sozinha e continua válida até ser apagada em account.apple.com, até você usar a opção de revogar todas ou até trocar a senha principal da conta Apple.</p>
+
+    <p>A mesma reportagem lembra que desconectar não apaga as conversas nem as memórias já salvas no ChatGPT, que precisam ser removidas à parte. Nos planos Free, Go, Plus e Pro, dados vindos dos apps conectados podem ser usados para treinar os modelos se a opção de melhorar o modelo para todos estiver ligada. Nas contas Business, Enterprise e Edu, esse uso fica desligado por padrão.</p>
+
+    <ol>
+      <li>Remova o plugin nas configurações do ChatGPT.</li>
+      <li>Apague a senha de app correspondente em account.apple.com, em Senhas de App.</li>
+      <li>Exclua as conversas e as memórias que mencionam e-mails ou compromissos que você não quer guardar.</li>
+      <li>Confira, nos controles de dados do ChatGPT, se a opção de melhorar o modelo está como você quer.</li>
+    </ol>
+
+    <p>Crie uma senha de app para o Mail e outra para o Calendário, com nomes que deixem claro o uso. Assim dá para cortar um sem mexer no outro.</p>
+
     <h2>Erros comuns</h2>
 
     <p>O primeiro erro é digitar a senha normal da Apple. Ela não funciona, e expor a senha principal é um risco desnecessário. O segundo é pedir ao ChatGPT para "responder tudo" de uma vez: sem revisão, um tom errado vai direto para um cliente. O terceiro é esquecer que o Calendário usa o e-mail principal da conta Apple, que pode não ser o mesmo do Mail, e achar que a conexão falhou.</p>
@@ -138,7 +154,7 @@ para uma reunião. Não crie o evento antes de eu confirmar o horário.</code></
     {
       question: "Como desconectar o iCloud do ChatGPT?",
       answer:
-        "Remova o plugin nas configurações do ChatGPT e revogue a senha de app em account.apple.com, em Senhas de App. Revogar encerra o acesso mesmo que o plugin continue listado. A Apple informa que trocar a senha principal da conta também revoga todas as senhas de app.",
+        "Remova o plugin nas configurações do ChatGPT e revogue a senha de app em account.apple.com, em Senhas de App. Só desconectar o plugin não revoga a senha na Apple, segundo a central de ajuda da OpenAI citada pelo Notebookcheck. Conversas e memórias já salvas também precisam ser apagadas à parte. Trocar a senha principal da conta Apple revoga todas as senhas de app.",
     },
   ],
 };

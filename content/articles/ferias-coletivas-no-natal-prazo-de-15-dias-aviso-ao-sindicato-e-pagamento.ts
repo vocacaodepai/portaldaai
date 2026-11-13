@@ -11,6 +11,7 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "gestao-e-operacao",
   date: "2026-11-07",
+  updated: "2026-11-13",
   readTime: 8,
   imageQuery: "closed shop door holiday sign",
   seed: 1148,
@@ -90,6 +91,12 @@ export const article: Article = {
     <h3>E quem tem menos de um ano de empresa?</h3>
 
     <p>Quem ainda não completou 12 meses tira férias proporcionais ao tempo trabalhado, e um novo período aquisitivo começa no primeiro dia das férias coletivas. Um funcionário com 6 meses tem direito a 15 dias, então cobre os 14 dias da parada. Já um contratado há 3 meses tem cerca de 7 dias e meio: os dias que sobram costumam ser tratados como licença remunerada, sem desconto. Confirme a regra com o contador antes de fechar a folha.</p>
+
+    <h3>E se o pagamento atrasar?</h3>
+
+    <p>Durante anos, a Súmula 450 do TST mandou pagar as férias em dobro quando o dinheiro saía depois do prazo de dois dias do artigo 145 da CLT, mesmo com o descanso dado na data certa. Em agosto de 2022, o STF julgou a ADPF 501 e declarou essa súmula inconstitucional. Segundo a cobertura do <a href="https://www.migalhas.com.br/quentes/371377/stf-derruba-sumula-do-tst-sobre-pagamento-de-ferias-em-dobro-em-atraso" target="_blank" rel="noopener noreferrer">Migalhas</a>, a maioria seguiu o relator, ministro Alexandre de Moraes, para quem o TST não podia ampliar a punição prevista na CLT para uma situação que a lei não cobre.</p>
+
+    <p>Isso não libera o atraso. O pagamento até dois dias antes continua obrigatório, a fiscalização do trabalho pode autuar a empresa, e o Guia Trabalhista lembra que férias coletivas concedidas sem cumprir os requisitos podem ser consideradas irregulares e ter de ser pagas de novo, em dobro e com o terço. Para o pequeno negócio, a lição prática é a mesma: agende o pagamento junto com o aviso, no começo de dezembro.</p>
 
     <h2>Como a IA ajuda a organizar as férias coletivas</h2>
 

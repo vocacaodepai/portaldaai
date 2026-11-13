@@ -11,6 +11,7 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "regulacao-e-etica",
   date: "2026-11-03",
+  updated: "2026-11-13",
   readTime: 7,
   imageQuery: "european parliament building flags",
   seed: 1112,
@@ -72,6 +73,12 @@ export const article: Article = {
     </div>
 
     <p>Isso conversa com o que já se sabe sobre detectores comerciais, que erram para os dois lados, como mostra o guia sobre <a href="/artigos/detector-de-texto-de-ia-funciona-ou-nao-como-saber-se-foi-escrito-por-ia">se detector de texto de IA funciona</a>. A diferença é que a marca d'água é colocada na origem, pelo próprio fornecedor, em vez de adivinhada depois pelo estilo.</p>
+
+    <h2>Código de conduta e multas</h2>
+
+    <p>Para ajudar as empresas a cumprir o artigo 50, a Comissão Europeia publicou em 10 de junho de 2026 a versão final do <a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content" target="_blank" rel="noopener noreferrer">código de conduta sobre marcação e rotulagem de conteúdo gerado por IA</a>. A adesão é voluntária, mas a Comissão e o Conselho de IA confirmaram que o código é um instrumento adequado para demonstrar cumprimento. Ele tem duas partes: a primeira trata da marcação e da detecção, voltada a quem fornece o modelo, e a segunda da rotulagem de deepfakes e de texto publicado, voltada a quem usa. Segundo a página da Comissão, cerca de 190 organizações tinham assinado até o fim de julho de 2026.</p>
+
+    <p>O peso de não cumprir está no <a href="https://artificialintelligenceact.eu/article/99/" target="_blank" rel="noopener noreferrer">artigo 99 do AI Act</a>: descumprir as obrigações de transparência do artigo 50 pode render multa de até 15 milhões de euros ou 3% do faturamento mundial anual, o que for maior. Para pequenas e médias empresas e startups, vale o que for menor entre os dois. É por isso que as grandes fornecedoras correram para marcar o texto antes de agosto.</p>
 
     <h2>E no Brasil?</h2>
 

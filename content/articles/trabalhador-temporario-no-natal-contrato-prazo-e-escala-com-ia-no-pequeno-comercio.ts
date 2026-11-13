@@ -103,7 +103,7 @@ export const article: Article = {
 
     <h2>Depois do Natal: o que guardar para o ano que vem</h2>
 
-    <p>Registre as vendas por semana, as horas de reforço e o que deu certo. Isso vira base para o <a href="/artigos/planejamento-2027-do-pequeno-negocio-metas-orcamento-e-calendario-com-ia">planejamento de 2027</a> e para a decisão de comprar mais estoque, que o guia de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">gerenciar estoque no pequeno comércio</a> explica. Se a Black Friday também mexe com a sua operação, leia <a href="/artigos/black-friday-2026-desconto-sem-prejuizo-para-pequeno-negocio">desconto sem prejuízo</a>. Encontre mais guias para o dono de negócio na <a href="/categoria/negocios">categoria Negócios</a>.</p>
+    <p>Registre as vendas por semana, as horas de reforço e o que deu certo. Isso vira base para o <a href="/artigos/planejamento-2027-do-pequeno-negocio-metas-orcamento-e-calendario-com-ia">planejamento de 2027</a> e para a decisão de comprar mais estoque, que o guia de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">gerenciar estoque no pequeno comércio</a> explica. Se a Black Friday também mexe com a sua operação, leia <a href="/artigos/black-friday-2026-desconto-sem-prejuizo-para-pequeno-negocio">desconto sem prejuízo</a>. Encontre mais guias para o dono de negócio na <a href="/categoria/negocios">categoria Negócios</a>. Se o seu caso é o contrário, com movimento fraco no fim do ano, o guia de <a href="/artigos/ferias-coletivas-no-natal-prazo-de-15-dias-aviso-ao-sindicato-e-pagamento">férias coletivas no Natal</a> explica como parar a equipe dentro da lei.</p>
   `,
   faq: [
     {
