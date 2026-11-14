@@ -2,10 +2,10 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "chuveiro-eletrico-shopee-lorenzetti-bella-ducha-loren-shower-ultra-ou-futura-comparativo",
-  title: "Os 3 chuveiros Lorenzetti mais vendidos da Shopee em 2026, do básico ao eletrônico",
+  title: "Chuveiro Lorenzetti: Bella Ducha, Futura ou Loren Shower?",
   seoTitle: "Chuveiro Lorenzetti Bella Ducha 4T, Loren Shower Ultra ou Futura: qual comprar na Shopee?",
   excerpt:
-    "Comparamos três chuveiros elétricos Lorenzetti com muitas vendas na Shopee: Bella Ducha 4T, Loren Shower Ultra Eletrônico e Futura Multitemperaturas. Potência, controle de temperatura, instalação e para quem cada um serve.",
+    "Bella Ducha 4T, Futura ou Loren Shower Ultra: comparamos potência, controle de temperatura e instalação dos chuveiros Lorenzetti mais vendidos da Shopee.",
   metaDescription:
     "Chuveiro Lorenzetti Bella Ducha 4T, Loren Shower Ultra ou Futura na Shopee: comparativo com potência, controle de temperatura, fiação e disjuntor do manual, faixa de mercado e qual escolher.",
   category: "ai-indica",
@@ -13,7 +13,8 @@ export const article: Article = {
   productSubcategory: "chuveiro-eletrico",
   productScore: 8.4,
   date: "2026-11-05",
-  readTime: 9,
+  updated: "2026-11-14",
+  readTime: 10,
   imageQuery: "electric shower head bathroom white",
   seed: 1107,
   coverImage: {
@@ -166,6 +167,33 @@ export const article: Article = {
     <p>O manual da Lorenzetti é claro em alguns pontos que valem para os três modelos. O chuveiro precisa de circuito exclusivo a partir do quadro, com disjuntor e fio do tamanho certo para a potência, dispositivo DR e aterramento. Antes de ligar o disjuntor pela primeira vez, a água precisa correr pelo chuveiro para encher a câmara de aquecimento, ou a resistência queima na hora. E a pressão precisa estar entre 1 e 40 metros de coluna de água, o que em casa térrea significa ter a caixa d'água pelo menos um metro acima da saída do chuveiro.</p>
     <p>Se o chuveiro antigo era de 5500 W e você quer subir para 7500 W em 220 V, não basta trocar o aparelho: é preciso conferir a bitola do fio e o disjuntor. Na dúvida, chame um eletricista. Para proteger outros aparelhos da casa contra oscilação, um <a href="/artigos/iclamper-energia-8-ou-intelbras-epe-1008-filtro-de-linha-comparativo">filtro de linha</a> resolve nos eletrônicos, mas não tem relação com o circuito do chuveiro, que é ligado direto ao quadro.</p>
     <p>Para quem está arrumando o banheiro inteiro, o comparativo de <a href="/artigos/antimofo-shopee-secar-original-80g-ou-secar-defence-spray-comparativo">antimofo Secar</a> ajuda com a umidade, o <a href="/artigos/kit-vassoura-rodo-pa-bettanin-shopee-novica-maxima-ou-ballena-comparativo">kit de vassoura, rodo e pá Bettanin</a> cuida da limpeza do piso, e a <a href="/artigos/mor-escada-aluminio-5-degraus-vale-a-pena">escada de alumínio Mor</a> ajuda na hora de alcançar o ponto do chuveiro. Para acompanhar a umidade do banheiro depois do banho, o <a href="/artigos/intelbras-mibo-mtu-1001-sensor-temperatura-umidade-vale-a-pena">sensor de temperatura e umidade Intelbras Mibo</a> mostra quando vale abrir a janela, e uma <a href="/artigos/lampada-inteligente-shopee-avant-neo-rgb-10w-bulbo-hp-20w-ou-elgin-smart-color-comparativo">lâmpada inteligente</a> completa a reforma com luz ajustável.</p>
+
+    <h2>Quanto cada potência pesa na conta de luz</h2>
+    <p>O consumo do chuveiro segue a mesma fórmula de qualquer aparelho: potência em kW vezes horas de uso vezes dias do mês. Com 30 minutos de banho por dia, na posição mais quente, a conta fica assim:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Potência</th>
+          <th>Consumo em 30 dias (30 min por dia)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5500 W (127 V nos três modelos)</td>
+          <td>82,5 kWh</td>
+        </tr>
+        <tr>
+          <td>6800 W (220 V)</td>
+          <td>102 kWh</td>
+        </tr>
+        <tr>
+          <td>7500 W (220 V)</td>
+          <td>112,5 kWh</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Multiplique o consumo pelo preço do kWh que aparece na sua fatura para ter o valor em reais. A potência máxima só é usada na posição mais quente: nas posições mais baixas, e no verão, o chuveiro puxa menos energia. Por isso, comprar o modelo de 7500 W não significa gastar mais todo dia, e sim ter folga para o inverno. O que mais pesa é o tempo de banho: cortar de 30 para 20 minutos reduz o consumo em um terço, qualquer que seja a potência.</p>
+    <p>No Loren Shower Ultra Eletrônico, o controle gradual ajuda a usar só a potência necessária, em vez de saltar direto para a posição mais quente. Para ter uma ideia de escala, o guia sobre <a href="/artigos/data-centers-de-ia-e-energia-no-brasil-redata-conta-de-luz-e-o-que-esperar">data centers de IA e energia no Brasil</a> compara o gasto de um banho com o de usar IA no dia a dia, e o chuveiro ganha com folga.</p>
 
     <h2>Qual escolher</h2>
     <p>O Lorenzetti Futura Multitemperaturas é a recomendação para a maioria: espalhador largo, quatro temperaturas, versões para as duas tensões e o anúncio com mais vendas do trio. O Loren Shower Ultra Eletrônico vale para quem mora em região fria ou tem criança em casa e quer acertar a temperatura com precisão, aceitando pagar mais. A Bella Ducha 4T é a solução econômica para banheiro secundário, casa alugada ou troca emergencial.</p>

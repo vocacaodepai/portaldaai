@@ -99,7 +99,7 @@ export const article: Article = {
 
     <h2>Exemplo brasileiro: quanto custa e o que esperar em 90 dias</h2>
 
-    <p>Cenário montado para ilustrar. Mariana, 29 anos, analista em São Paulo, precisa de inglês para reuniões com um cliente estrangeiro em 3 meses. Ela lê bem e trava para falar, o perfil mais comum no índice da EF citado acima.</p>
+    <p>Cenário montado para ilustrar. Mariana, 29 anos, analista em São Paulo, precisa de inglês para reuniões com um cliente estrangeiro em 3 meses. Ela lê bem e trava para falar, o perfil mais comum no índice da EF citado acima. Para quem o objetivo é exatamente esse, o guia de <a href="/artigos/ingles-para-o-trabalho-com-ia-treino-de-reuniao-entrevista-e-email">inglês para o trabalho com IA</a> traz roteiros de reunião, entrevista e e-mail e um plano de quatro semanas.</p>
 
     <p>Custo: R$ 0 no primeiro mês, usando o modo de voz gratuito do ChatGPT e o Anki no computador, que é gratuito segundo o próprio manual. No segundo mês, ela assina um plano pago do ChatGPT para ter mais tempo de voz; o valor em reais está na página oficial, e vale comparar com o preço de uma hora de aula particular na sua cidade antes de decidir.</p>
 

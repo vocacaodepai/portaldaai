@@ -152,7 +152,7 @@ export const article: Article = {
     </div>
 
     <h2>Qual comprar</h2>
-    <p>Nossa indicação para a maioria é a travessa retangular de 3,5 L: é o tamanho que cobre lasanha, assado e comida de família, tem alças e tampa e custa pouco mais que o dobro da pequena, com o dobro de uso. A de 1,1 L é a escolha de quem cozinha para uma ou duas pessoas ou quer uma peça extra para sobremesa e sobra.</p>
+    <p>Nossa indicação para a maioria é a travessa retangular de 3,5 L: é o tamanho que cobre lasanha, assado e comida de família, tem alças e tampa e custa pouco mais que o dobro da pequena, com o dobro de uso. A de 1,1 L é a escolha de quem cozinha para uma ou duas pessoas ou quer uma peça extra para sobremesa e sobra. Quem vai assar bolo na travessa grande e quer bater a massa sem esforço pode ver o <a href="/artigos/batedeira-shopee-britania-perola-550-mondial-b-44-ou-philco-crome-duo-turbo-comparativo">comparativo de batedeiras simples da Shopee</a>.</p>
     <p>Se a cozinha tem espaço, vale ter as duas: a grande para o fim de semana e a pequena para o resto da semana. Em qualquer caso, confira o tamanho no título, a cor da tampa no caso do item sortido e a nota fiscal na entrega.</p>
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 3,5 L na Shopee agora ↗</a>

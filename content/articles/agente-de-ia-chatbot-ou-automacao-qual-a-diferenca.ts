@@ -113,7 +113,7 @@ export const article: Article = {
     <h3>Passo 2: chatbot (dá para começar sem pagar)</h3>
     <p>Um chatbot alimentado com a lista de procedimentos, contraindicações e preços responde as dúvidas específicas e faz a triagem antes de passar para a atendente. Ferramentas de chatbot sem código costumam ter plano gratuito ou período de teste; consulte a página oficial de cada uma antes de assinar.</p>
     <h3>Passo 3: agente (só se valer a pena)</h3>
-    <p>Um agente entraria para remarcar sozinho: ler a agenda, propor três horários, confirmar com o cliente e atualizar o sistema. Como remarcações são 100 mensagens por mês e a recepção resolve cada uma em dois minutos, são pouco mais de três horas mensais. Nesse volume, o agente dificilmente paga a própria manutenção. Com 2.000 mensagens por mês, a conta muda.</p>
+    <p>Um agente entraria para remarcar sozinho: ler a agenda, propor três horários, confirmar com o cliente e atualizar o sistema. Como remarcações são 100 mensagens por mês e a recepção resolve cada uma em dois minutos, são pouco mais de três horas mensais. Nesse volume, o agente dificilmente paga a própria manutenção. Com 2.000 mensagens por mês, a conta muda. Para estimar essa conta antes de contratar, o guia sobre <a href="/artigos/quanto-custa-um-agente-de-ia-tokens-limites-e-a-volta-da-cobranca-por-uso">quanto custa um agente de IA</a> explica tokens, limites e a volta da cobrança por uso.</p>
 
     <h2>Prompts para descobrir o que você precisa</h2>
     <p>Antes de contratar qualquer coisa, use uma IA de conversa para mapear o processo. O prompt abaixo funciona no ChatGPT, no Claude ou no Gemini.</p>

@@ -11,7 +11,8 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "desenvolvimento-de-habilidades",
   date: "2026-11-08",
-  readTime: 8,
+  updated: "2026-11-14",
+  readTime: 9,
   imageQuery: "video call headset laptop office",
   seed: 1152,
   kind: "guia",
@@ -126,6 +127,16 @@ Then list each change and explain it in Portuguese in one line.
       <li>Caderno (ou nota no celular) com os erros da semana</li>
       <li>Nenhum dado de cliente nos prompts</li>
     </ul>
+
+    <h2>Glossário da sua área em 15 minutos</h2>
+    <p>Muita gente trava em reunião não por gramática, e sim por não saber o termo exato da própria área em inglês: como se diz nota fiscal, prazo de entrega, fechamento do mês ou retrabalho. Um glossário curto, feito uma vez e revisado a cada semana, resolve boa parte disso. Peça à IA a lista e depois confira os termos com o que colegas e clientes estrangeiros de fato usam, porque a tradução literal nem sempre é a usada no mercado.</p>
+    <pre><code>Trabalho como [cargo] em [setor] e faço reuniões em inglês
+com [tipo de pessoa: cliente, matriz, fornecedor].
+Monte um glossário de 25 termos que eu mais vou precisar,
+em três colunas: termo em português, termo em inglês usado
+no mercado e uma frase curta de reunião com o termo.
+Marque os termos que mudam entre inglês americano e britânico.</code></pre>
+    <p>Leia as frases em voz alta, grave e use os termos na próxima simulação de call. Na reunião de verdade, imagem e áudio ajudam a outra pessoa a entender você, e a <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">comparação de webcams para reunião online</a> mostra o que compensa comprar. Quem atende clientes estrangeiros no próprio negócio encontra mais ideias em <a href="/artigos/como-atender-clientes-em-varios-idiomas-usando-ia">como atender clientes em vários idiomas com IA</a>, e, para pedir indicação de vaga em inglês, o guia de <a href="/artigos/networking-com-ia-mensagens-para-recrutadores-e-indicacoes">networking com IA</a> traz modelos de mensagem.</p>
 
     <h2>Erros comuns de quem treina inglês com IA</h2>
 

@@ -126,7 +126,7 @@ Minha história: [conte com suas palavras]</code></pre>
     <p>Há também um erro emocional: sentir que usar IA para se preparar é trapaça. Não é; é o mesmo que estudar com um livro, só que disponível a qualquer hora. Quem sente esse peso vai se reconhecer no texto sobre <a href="/artigos/sindrome-do-impostor-usar-ia-nao-te-torna-menos-capaz">síndrome do impostor ao usar IA</a>.</p>
     <div class="callout-box callout-tip">
       <span class="callout-label">Dica</span>
-      <p>Grave a simulação (o celular grava a tela com áudio) e ouça no dia seguinte: ritmo, muletas verbais e respostas longas demais aparecem na hora.</p>
+      <p>Grave a simulação (o celular grava a tela com áudio) e ouça no dia seguinte: ritmo, muletas verbais e respostas longas demais aparecem na hora. Se a entrevista for em inglês, o guia de <a href="/artigos/ingles-para-o-trabalho-com-ia-treino-de-reuniao-entrevista-e-email">inglês para o trabalho com IA</a> mostra como fazer a mesma simulação no outro idioma.</p>
     </div>
 
     <h2>Quando a IA não resolve</h2>

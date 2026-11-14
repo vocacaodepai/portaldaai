@@ -96,7 +96,7 @@ Meus tópicos: [cole aqui]</code></pre>
 
     <p>Escrever é metade do trabalho. A outra metade é falar. Leia cada história em voz alta, cronometre e grave o áudio no celular. O objetivo não é decorar, e sim ter na cabeça os quatro marcos da história. O guia de <a href="/artigos/ensaiar-apresentacao-com-ia-roteiro-cronometrado-e-perguntas-dificeis">ensaiar apresentação com IA</a> traz uma rotina de ensaio com tempo e perguntas difíceis que serve igualmente aqui.</p>
 
-    <p>Peça à IA para simular a entrevista, uma pergunta de cada vez, esperando sua resposta antes de seguir. Se você fala melhor que escreve, use o modo de voz do app. Depois, compare a gravação com o que você planejou e corte as pausas e as repetições. Em uma semana, 20 minutos por dia costumam bastar para ganhar segurança.</p>
+    <p>Peça à IA para simular a entrevista, uma pergunta de cada vez, esperando sua resposta antes de seguir. Se você fala melhor que escreve, use o modo de voz do app. Depois, compare a gravação com o que você planejou e corte as pausas e as repetições. Em uma semana, 20 minutos por dia costumam bastar para ganhar segurança. Para vagas que pedem inglês, dá para treinar a mesma história STAR no idioma, como mostra o guia de <a href="/artigos/ingles-para-o-trabalho-com-ia-treino-de-reuniao-entrevista-e-email">inglês para o trabalho com IA</a>.</p>
 
     <h2>Perguntas comportamentais que mais aparecem</h2>
 

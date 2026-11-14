@@ -85,7 +85,7 @@ export const article: Article = {
         </tr>
       </tbody>
     </table>
-    <p>Ambos aguentam 1.270 W em 127 V e 2.200 W em 220 V, segundo as fichas. Isso cobre PC, monitor, roteador e impressora juntos, mas não cobre ar-condicionado, chuveiro ou aparelho de alta potência, que nunca devem ir num filtro de linha.</p>
+    <p>Ambos aguentam 1.270 W em 127 V e 2.200 W em 220 V, segundo as fichas. Isso cobre PC, monitor, roteador e impressora juntos, mas não cobre ar-condicionado, chuveiro ou aparelho de alta potência, que nunca devem ir num filtro de linha. O chuveiro, por exemplo, vai em circuito exclusivo ligado ao quadro, como explica o <a href="/artigos/chuveiro-eletrico-shopee-lorenzetti-bella-ducha-loren-shower-ultra-ou-futura-comparativo">comparativo de chuveiros Lorenzetti</a>.</p>
 
     <h2>iClamper Energia 8: o DPS completo</h2>
     <figure>

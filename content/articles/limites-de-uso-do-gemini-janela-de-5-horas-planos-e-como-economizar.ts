@@ -102,7 +102,7 @@ export const article: Article = {
 
     <h2>Quando vale pagar por um plano maior</h2>
 
-    <p>Vale considerar o upgrade quando o limite acaba toda semana em tarefas que fazem parte do seu trabalho, quando você precisa de contexto de 1 milhão de tokens para documentos grandes ou quando o armazenamento incluso também resolve um problema seu. Não vale quando o estouro vem de um hábito simples de corrigir, como usar um chat só para tudo.</p>
+    <p>Vale considerar o upgrade quando o limite acaba toda semana em tarefas que fazem parte do seu trabalho, quando você precisa de contexto de 1 milhão de tokens para documentos grandes ou quando o armazenamento incluso também resolve um problema seu. Não vale quando o estouro vem de um hábito simples de corrigir, como usar um chat só para tudo. Quem roda agentes, e não só chat, gasta cota de outro jeito, e o guia sobre <a href="/artigos/quanto-custa-um-agente-de-ia-tokens-limites-e-a-volta-da-cobranca-por-uso">quanto custa um agente de IA</a> explica por quê.</p>
 
     <p>Se você chegou até aqui por causa de uma assinatura, comece pelo <a href="/artigos/google-ai-plus-pro-ou-ultra-qual-plano-do-gemini-escolher">comparativo de planos</a>, confirme preço e limites na página oficial e teste por um mês antes de decidir. Para ver mais guias de ferramentas, visite a <a href="/categoria/ferramentas">categoria Ferramentas</a> e escolha o recurso que combina com a sua rotina.</p>
   `,

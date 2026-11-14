@@ -78,7 +78,7 @@ export const article: Article = {
     </div>
 
     <h2>Esguicho, engate e instalação</h2>
-    <p>O esguicho tem regulagem de fluxo por um anel frontal, que vai de jato concentrado, bom para tirar terra de piso, a um spray mais aberto, para regar plantas sem machucar as folhas. Ele se prende na mangueira por sistema rosqueado, e o adaptador com engate rosqueado fica na ponta que vai na torneira.</p>
+    <p>O esguicho tem regulagem de fluxo por um anel frontal, que vai de jato concentrado, bom para tirar terra de piso, a um spray mais aberto, para regar plantas sem machucar as folhas. Ele se prende na mangueira por sistema rosqueado, e o adaptador com engate rosqueado fica na ponta que vai na torneira. Quem quer mais tipos de jato pode trocar a ponta por uma hidropistola, e o <a href="/artigos/esguicho-hidropistola-tramontina-6-jatos-jato-controlavel-ou-regulavel-comparativo">comparativo de esguichos Tramontina</a> mostra qual modelo vale para cada quintal.</p>
     <p>Como o kit é rosqueado, e não de encaixe rápido, a montagem exige encaixar e apertar à mão, e trocar de acessório no meio do trabalho dá um pouco mais de trabalho. Quem usa muito irrigador, pistola ou lavadora vai querer um conector rápido à parte. Para lavar o quintal inteiro com mais pressão, a <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">lavadora de alta pressão</a> tem seu próprio engate.</p>
 
     <h2>Prós e contras na prática</h2>
