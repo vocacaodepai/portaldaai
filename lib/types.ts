@@ -396,6 +396,9 @@ export const productSubcategories = [
   { slug: "fita-led", label: "Fita LED Inteligente", category: "casa-inteligente" },
   { slug: "agenda", label: "Agenda e Planner", category: "escritorio" },
   { slug: "mala-de-bordo", label: "Mala de Bordo", category: "viagem" },
+  { slug: "barraca", label: "Barraca de Camping", category: "esporte" },
+  { slug: "cafeteira-capsula", label: "Cafeteira de Cápsula", category: "cozinha" },
+  { slug: "smart-tv", label: "Smart TV", category: "audio-video" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
