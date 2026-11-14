@@ -399,6 +399,9 @@ export const productSubcategories = [
   { slug: "barraca", label: "Barraca de Camping", category: "esporte" },
   { slug: "cafeteira-capsula", label: "Cafeteira de Cápsula", category: "cozinha" },
   { slug: "smart-tv", label: "Smart TV", category: "audio-video" },
+  { slug: "escova-cabelo", label: "Escova de Cabelo", category: "saude-bem-estar" },
+  { slug: "tripe-celular", label: "Tripé e Bastão de Selfie", category: "acessorios-celular" },
+  { slug: "roda-abdominal", label: "Roda Abdominal", category: "esporte" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
