@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "esguicho-mangueira",
   productScore: 8.3,
   date: "2026-11-04",
+  updated: "2026-11-14",
   readTime: 8,
   imageQuery: "garden hose spray nozzle watering plants",
   seed: 1131,
@@ -152,6 +153,11 @@ export const article: Article = {
     <h2>Erros comuns ao escolher esguicho</h2>
     <p>O primeiro erro é comprar pela pressão que você imagina, e não pela que sai da sua torneira. Com pressão baixa, nenhum esguicho faz milagre: o jato concentrado ajuda a alcançar mais longe, mas não aumenta a água disponível. Para lavar com força de verdade, o caminho é uma <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">lavadora de alta pressão</a>, e para o carro vale somar um <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">shampoo automotivo</a> à água da mangueira.</p>
     <p>O segundo erro é deixar a hidropistola no sol e com água dentro depois do uso. Plástico e borracha duram mais guardados na sombra. O terceiro é regar no meio do dia: a água evapora rápido, e a própria Tramontina lembra na ficha que água pode faltar. Para cuidar das plantas além da rega, veja o <a href="/artigos/adubo-forth-shopee-flores-frutas-ou-rosa-do-deserto-comparativo">comparativo de adubos Forth</a> e o <a href="/artigos/pulverizador-tramontina-2-l-78610206-ou-lateral-5-l-78615506-comparativo">de pulverizadores Tramontina</a>, que ajudam a aplicar adubo foliar e defensivo.</p>
+
+    <h2>Como gastar menos água na rega e na lavagem</h2>
+    <p>O esguicho certo ajuda a economizar, mas o hábito pesa mais. Regue de manhã cedo ou no fim da tarde, quando a água evapora menos, e mire a base da planta com o jato chuveiro, em vez de molhar as folhas. Entre um canteiro e outro, solte o gatilho ou feche a torneira: a trava de fluxo contínuo é confortável, mas deixa a água correndo enquanto você anda.</p>
+    <p>Vazamento no engate rápido é outro desperdício silencioso. Se pinga na conexão, confira se o anel de vedação está no lugar e se a mangueira é do diâmetro certo para o conector. Para o carro, um balde com shampoo e a mangueira só no enxágue gastam bem menos que lavar com o jato aberto o tempo todo.</p>
+    <p>Na calçada, varrer antes de molhar reduz a água necessária, e um <a href="/artigos/philco-psa1000-soprador-aspirador-folhas-vale-a-pena">soprador de folhas Philco PSA1000</a> tira folha seca sem gastar água nenhuma. Para encher uma <a href="/artigos/piscina-mor-inflavel-3400-litros-standard-3000-ou-premium-3700-comparativo">piscina inflável Mor</a>, o esguicho simples na posição de jato cheio resolve, e depois da rega o <a href="/artigos/cortador-de-grama-eletrico-tramontina-ce35p-ou-ce45m-comparativo">cortador de grama elétrico Tramontina</a> fecha a manutenção do gramado.</p>
 
     <h2>Variação de preço</h2>
     <p>Pela pesquisa de mercado, a hidropistola de 6 jatos costuma variar de R$ 45 a R$ 65. A hidropistola com jato controlável tem a faixa mais larga, de R$ 50 a R$ 95, com a loja oficial da Tramontina no topo e marketplaces mais embaixo. O esguicho de jato regulável costuma variar de R$ 5 a R$ 15, conforme venha avulso ou em cartela com conectores.</p>

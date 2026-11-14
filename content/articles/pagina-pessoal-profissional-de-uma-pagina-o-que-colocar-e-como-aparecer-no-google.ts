@@ -11,6 +11,7 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "posicionamento-pessoal",
   date: "2026-11-02",
+  updated: "2026-11-14",
   readTime: 8,
   imageQuery: "professional personal website laptop desk notebook",
   coverImage: {
@@ -82,6 +83,25 @@ export const article: Article = {
     <p>Dá para montar a página em um construtor de sites, em uma ferramenta de páginas ou em um modelo pronto. O guia do Google diz que palavras-chave no endereço têm pouco efeito no ranking além de ajudar a lembrar, então prefira um domínio curto com seu nome. Consulte preços de domínio e hospedagem nos sites oficiais na hora de decidir, pois mudam; eu não cito valores aqui por isso.</p>
 
     <p>Ligue a página ao LinkedIn nos dois sentidos. A <a href="https://www.linkedin.com/help/linkedin/answer/a542685" target="_blank" rel="noopener noreferrer">página de ajuda do LinkedIn</a> explica como personalizar a URL pública do perfil, o que deixa o endereço limpo para pôr no rodapé da página. No LinkedIn, coloque o endereço da página na seção de informações de contato e no destaque. Também use o link no currículo e na assinatura de e-mail, como no texto sobre <a href="/artigos/networking-com-ia-mensagens-para-recrutadores-e-indicacoes">networking com IA</a>.</p>
+
+    <h2>Exemplo: a página de uma contadora autônoma</h2>
+    <p>Para ver os seis blocos funcionando, imagine uma contadora autônoma em Belo Horizonte que atende MEIs e pequenos comércios. O caso é ilustrativo, montado para mostrar o formato, e os números servem só de referência de escala.</p>
+    <ul class="checklist">
+      <li><strong>Título da página:</strong> "Ana Souza: contabilidade para MEI e pequeno comércio em BH".</li>
+      <li><strong>Descrição:</strong> "Ajudo MEIs e pequenos comércios a manter impostos e obrigações em dia, com atendimento por WhatsApp e reunião mensal."</li>
+      <li><strong>Quem sou:</strong> duas frases com formação, registro profissional e tempo de atuação.</li>
+      <li><strong>O que faço:</strong> três serviços com uma linha cada, como abertura de MEI, declaração anual e organização de notas.</li>
+      <li><strong>Provas:</strong> dois casos sem nome do cliente, como "uma loja de roupas com 3 funcionárias que deixou de pagar multa por atraso", e um depoimento autorizado.</li>
+      <li><strong>Contato:</strong> e-mail profissional e botão para WhatsApp comercial, nunca o número pessoal.</li>
+    </ul>
+    <p>Repare que nada ali é inventado: cada prova tem origem, e o título junta nome, especialidade e cidade, como o guia do Google sugere. Um prompt útil para chegar a esse rascunho:</p>
+    <pre><code>Sou [profissão] em [cidade] e atendo [tipo de cliente].
+Com base só nas informações abaixo, escreva o título (até 60
+caracteres), a descrição (até 2 frases) e os blocos "Quem sou"
+e "O que faço" de uma página pessoal de uma página só.
+Não invente números, clientes nem resultados.
+Informações: [cole aqui seus fatos]</code></pre>
+    <p>Quem pretende cobrar de clientes a partir da página pode usar o guia de <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">como precificar serviços usando IA</a> para definir a faixa antes de publicar, e quem quer oferecer esse tipo de ajuste como serviço encontra o modelo de pacote em <a href="/artigos/perfil-do-linkedin-como-servico-revisao-de-sobre-e-em-destaque-pacote-preco-e-limites">perfil do LinkedIn como serviço</a>.</p>
 
     <h2>Cuidados: dados, clientes e honestidade</h2>
 

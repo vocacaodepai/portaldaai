@@ -11,6 +11,7 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "conteudo-e-midia",
   date: "2026-11-02",
+  updated: "2026-11-14",
   readTime: 8,
   imageQuery: "freelancer writing email newsletter laptop cafe",
   coverImage: {
@@ -108,6 +109,11 @@ export const article: Article = {
     <p>As <a href="https://support.google.com/a/answer/81126" target="_blank" rel="noopener noreferrer">diretrizes de remetentes do Gmail</a> mostram o que o provedor espera de quem envia marketing. Para quem envia mais de 5.000 mensagens por dia a contas do Gmail, as regras incluem SPF, DKIM e DMARC no domínio, taxa de spam abaixo de 0,30% e descadastro em um clique, com link visível no corpo. Todo remetente precisa ao menos de SPF ou DKIM. Um negócio local raramente chega a 5.000 envios por dia, mas as boas práticas valem mesmo em volume pequeno e mantêm sua mensagem fora do spam.</p>
 
     <p>Na prática, use uma ferramenta de e-mail que já cuide do descadastro e da autenticação, mande de um endereço do domínio do negócio, e não de um e-mail gratuito, e comece com listas pequenas e engajadas. Se a taxa de reclamação subir, pare e revise a origem da lista. Para reativar contatos antigos sem incomodar, o texto de <a href="/artigos/reativar-clientes-inativos-com-ia-lista-mensagem-e-oferta-sem-incomodar">reativar clientes inativos</a> traz um roteiro de mensagens.</p>
+
+    <h2>Como medir e mostrar resultado ao cliente</h2>
+    <p>O cliente que paga todo mês quer saber se a newsletter está funcionando, e a resposta não pode ser só "a taxa de abertura subiu". Alguns aplicativos de e-mail carregam as imagens sozinhos e contam abertura que não aconteceu, então esse número serve para comparar edições entre si, não como prova de leitura. Os sinais mais confiáveis são cliques no link principal, respostas ao e-mail, uso de um cupom exclusivo da edição e pedidos que citam a newsletter no balcão ou no WhatsApp.</p>
+    <p>Do outro lado, acompanhe descadastros e reclamações de spam. Um descadastro aqui e ali é normal; uma onda depois de uma edição indica frequência alta demais ou assunto fora do que a pessoa pediu ao se inscrever. Junte tudo num relatório de uma página por mês, com três números, o que funcionou, o que vai mudar e a pauta da próxima edição.</p>
+    <p>A planilha desse relatório pode ser montada com ajuda do guia de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a>, e, quando o cupom da edição começa a trazer cliente de volta, o próximo passo natural é um <a href="/artigos/como-usar-ia-para-fidelizar-clientes-programa-de-recompensas">programa de recompensas</a> divulgado pela própria newsletter.</p>
 
     <h2>Erros comuns</h2>
 

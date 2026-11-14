@@ -78,7 +78,7 @@ export const article: Article = {
 
     <h2>Segurança e uso correto</h2>
     <p>Escada doméstica é um dos objetos que mais causam acidente em casa, e a ficha técnica não substitui o bom senso. Abra a escada por completo, confirme que a trava da plataforma está encaixada, apoie os quatro pés em piso firme e plano e leia o manual, que indica até que degrau se pode subir. Evite chinelo e piso molhado.</p>
-    <p>O limite de 120 kg inclui você e o que estiver carregando, como balde de tinta ou furadeira. Se o trabalho exige as duas mãos longe do corpo, como trocar um chuveiro, peça ajuda e ponha alguém para segurar a escada. Se o plano é usar a escada com furadeira, veja também a nossa análise da <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira Bosch GSR 120-LI</a>.</p>
+    <p>O limite de 120 kg inclui você e o que estiver carregando, como balde de tinta ou furadeira. Se o trabalho exige as duas mãos longe do corpo, como trocar um <a href="/artigos/chuveiro-eletrico-shopee-lorenzetti-bella-ducha-loren-shower-ultra-ou-futura-comparativo">chuveiro elétrico</a>, peça ajuda e ponha alguém para segurar a escada. Se o plano é usar a escada com furadeira, veja também a nossa análise da <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira Bosch GSR 120-LI</a>.</p>
 
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B075XL99CC?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Escada Mor 5 Degraus na Amazon agora ↗</a>

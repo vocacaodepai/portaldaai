@@ -90,7 +90,7 @@ export const article: Article = {
     <p>O ponto forte é cobrir várias tarefas sem comprar peça por peça: cavar, afofar, arrancar erva daninha, podar galho fino e borrifar água ou defensivo. A nota de compradores na Amazon fica perto de 4,7 de 5, com cerca de 250 avaliações nas páginas que consultamos, o que indica boa aceitação. Em contrapartida, as ferramentas de metal pedem limpeza e secagem depois do uso, para o cabo de madeira não rachar nem a lâmina oxidar.</p>
 
     <h2>Qual cabe no seu tipo de jardim</h2>
-    <p>Para um canteiro pequeno, pense no volume de terra que você mexe por mês. Quem troca terra de dois ou três vasos e planta manjericão e cebolinha usa o ancinho e a pazinha poucas vezes, e o kit de 3 peças já sobra. Quem mantém uma horta de 2 m2, uma jardineira comprida e um canto com roseira usa poda, arrancador de inço e pulverizador toda semana.</p>
+    <p>Para um canteiro pequeno, pense no volume de terra que você mexe por mês. Quem troca terra de dois ou três vasos e planta manjericão e cebolinha usa o ancinho e a pazinha poucas vezes, e o kit de 3 peças já sobra. Quem mantém uma horta de 2 m2, uma jardineira comprida e um canto com roseira usa poda, arrancador de inço e pulverizador toda semana. Para a rega, falta a ponta da mangueira, e o <a href="/artigos/esguicho-hidropistola-tramontina-6-jatos-jato-controlavel-ou-regulavel-comparativo">comparativo de esguichos e hidropistolas Tramontina</a> ajuda a escolher.</p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>

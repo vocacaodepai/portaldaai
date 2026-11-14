@@ -11,7 +11,8 @@ export const article: Article = {
   category: "futuro",
   articleSubcategory: "agentes-de-ia",
   date: "2026-11-08",
-  readTime: 8,
+  updated: "2026-11-14",
+  readTime: 9,
   imageQuery: "server room data center cost",
   seed: 1153,
   kind: "guia",
@@ -86,6 +87,11 @@ export const article: Article = {
     </ul>
 
     <p>A diferença de seis vezes entre os cenários vem de decisões que a Lúcia controla: quantos arquivos o agente lê, quantas vezes revisa, qual modelo usa em cada etapa. Lembre que a cobrança em dólar vem no cartão com IOF e cotação do dia. Se ela usar créditos de API de um plano, o guia sobre <a href="/artigos/creditos-de-api-do-claude-nos-planos-max-e-team-como-resgatar-o-que-cobrem-e-limites">créditos de API do Claude</a> mostra como funcionam.</p>
+
+    <h2>O que mudou em novembro de 2026</h2>
+    <p>Duas novidades da primeira quinzena de novembro mexem nessa conta. A Anthropic lançou o Claude Fable 5.2 com preço de API de US$ 8 por milhão de tokens de entrada e US$ 40 por milhão de saída, e um modo rápido opcional que custa o dobro, segundo a <a href="https://www.anthropic.com/claude-fable-and-mythos-5-2" target="_blank" rel="noopener noreferrer">página oficial do lançamento</a>. Numa tarefa de agente que lê 200 mil tokens e escreve 20 mil, isso dá cerca de US$ 1,60 de entrada mais US$ 0,80 de saída, ou US$ 2,40 por tarefa no modo padrão, antes de câmbio e IOF. A <a href="/noticias/anthropic-lanca-claude-fable-5-2-mythos-5-2-preco-desempenho">notícia do lançamento do Fable 5.2</a> resume o que mais mudou.</p>
+    <p>O Google, por sua vez, lançou o Gemini 4 Hydrogen com quatro níveis de raciocínio, do baixo ao novo "xhigh", para que a pessoa pague e espere só pelo raciocínio que a tarefa pede. Parceiros que testaram o modelo antes relataram de 12% a 23% menos tokens em fluxos com SQL e grandes volumes de dados, números do próprio Google e de parceiros, sem verificação independente, como explica a <a href="/noticias/google-lanca-gemini-4-hydrogen-gratis-busca-app-preco">notícia sobre o Gemini 4 Hydrogen</a>. Na prática, escolher o nível de raciocínio por etapa virou mais uma alavanca de custo, igual à escolha do modelo.</p>
+    <p>No lado das assinaturas, um juiz nos Estados Unidos mandou a Anthropic responder a uma ação coletiva que questiona se os planos Max entregam o multiplicador de uso anunciado quando se olha o limite semanal, e não só a janela de cinco horas. O caso, contado na <a href="/noticias/anthropic-tera-de-responder-acao-coletiva-claude-max-uso-prometido">notícia sobre a ação do Claude Max</a>, reforça o conselho deste guia: meça o uso real da sua semana antes de pagar por um plano maior.</p>
 
     <h2>Como controlar o gasto com agentes</h2>
 

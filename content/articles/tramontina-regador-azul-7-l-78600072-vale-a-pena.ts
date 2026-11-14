@@ -103,7 +103,7 @@ export const article: Article = {
     <p>Lave o regador por dentro de vez em quando, para tirar resto de adubo e algas, e guarde longe do sol direto quando não estiver em uso. O anti-UV ajuda, mas não torna o plástico imune ao calor.</p>
 
     <h2>Regador ou mangueira: qual usar em cada tarefa</h2>
-    <p>Regador e mangueira não competem, porque cada um resolve um tipo de rega. A mangueira vence em área grande, gramado e canteiro longe da torneira. O regador vence em vaso, muda recém-plantada e adubo líquido, porque a dose vai no ponto certo e o jato suave não arrasta a terra.</p>
+    <p>Regador e mangueira não competem, porque cada um resolve um tipo de rega. A mangueira vence em área grande, gramado e canteiro longe da torneira. O regador vence em vaso, muda recém-plantada e adubo líquido, porque a dose vai no ponto certo e o jato suave não arrasta a terra. Na mangueira, o tipo de jato depende da ponta, e o <a href="/artigos/esguicho-hidropistola-tramontina-6-jatos-jato-controlavel-ou-regulavel-comparativo">comparativo de hidropistolas Tramontina</a> explica a diferença entre 6 jatos, jato controlável e regulável.</p>
     <p>Numa horta de temperos com poucos vasos pequenos, uma carga do regador de 7 litros costuma bastar para a semana de rega leve. Já um canteiro grande pede muitas cargas, e é aí que o braço reclama.</p>
     <h3>Adubo diluído no regador</h3>
     <p>O regador de 7 litros também serve para diluir adubo líquido na proporção da embalagem. Misture na torneira, rodando a água, e aplique no fim da tarde, longe das folhas. Depois, enxágue o regador por dentro, porque resto de adubo suja o plástico e cria cheiro.</p>
