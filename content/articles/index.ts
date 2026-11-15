@@ -2,7 +2,7 @@
 // Para publicar, crie content/articles/<slug>.ts e rode `npm run check:content`.
 import type { Article } from "@/lib/types";
 
-import { article as i0 } from "./creme-dental-dente-sensivel-shopee-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo";
+import { article as i0 } from "./creme-dental-dente-sensivel-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo";
 import { article as i1 } from "./cafe-500g-shopee-melitta-tradicional-ou-pilao-tradicional-comparativo";
 import { article as i2 } from "./intelbras-ivr-1010-video-porteiro-vale-a-pena";
 import { article as i3 } from "./aspirador-de-mao-wap-handson-ou-black-decker-apb3600-comparativo";

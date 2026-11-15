@@ -1,11 +1,11 @@
 import type { Article } from "@/lib/types";
 
 export const article: Article = {
-  slug: "creme-dental-dente-sensivel-shopee-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo",
-  title: "Dente sensível ao gelado: o que muda entre Sensodyne Rápido Alívio e Colgate Sensitive",
+  slug: "creme-dental-dente-sensivel-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo",
+  title: "Dente sensível ao gelado: Sensodyne ou Colgate Sensitive?",
   seoTitle: "Creme dental para dente sensível: Sensodyne Rápido Alívio ou Colgate Sensitive Pro-Alívio",
   excerpt:
-    "Compare o creme dental Sensodyne Rápido Alívio e o Colgate Sensitive Pro-Alívio Imediato Original: ativo de cada um, como usar para aliviar a sensibilidade e qual comprar no kit da Shopee.",
+    "Creme dental para dente sensível: compare Sensodyne Rápido Alívio e Colgate Sensitive Pro-Alívio, o ativo de cada um, como usar e qual comprar na Shopee.",
   metaDescription:
     "Creme dental para dente sensível: Sensodyne Rápido Alívio, com acetato de estrôncio, ou Colgate Sensitive Pro-Alívio Imediato, com arginina? Ativos, modo de uso, faixa de mercado e qual escolher.",
   category: "ai-indica",
@@ -106,6 +106,7 @@ export const article: Article = {
       <a href="https://s.shopee.com.br/3g5GjN9roC" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>Ao receber, confira a validade nos tubos e o lacre das caixas. Se algo vier errado, as compras pela internet têm 7 dias para arrependimento, como explica o guia de <a href="/artigos/devolucao-por-arrependimento-na-compra-online-7-dias-frete-e-estorno">devolução por arrependimento</a>, e o nosso guia de <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">como comparar preços na Black Friday</a> ajuda a fugir de desconto falso. Para outros cuidados do dia a dia vendidos na Shopee, veja o comparativo de <a href="/artigos/hidratante-corporal-shopee-nivea-milk-ou-neutrogena-hidrata-e-repara-comparativo">hidratante corporal</a> e o de <a href="/artigos/protetor-solar-shopee-nivea-protect-hidrata-ou-sundown-praia-e-piscina-fps-50-comparativo">protetor solar</a>.</p>
+    <p>Quem está montando a rotina de cuidados pode ver ainda o comparativo de <a href="/artigos/serum-vitamina-c-shopee-principia-vc-10-ou-creamy-comparativo">sérum de vitamina C</a>, a análise do <a href="/artigos/philips-oneblade-qp2724-barbeador-vale-a-pena">barbeador Philips OneBlade</a> e a da <a href="/artigos/garrafa-de-agua-tramontina-750-ml-43211001-vale-a-pena">garrafa de água Tramontina de 750 ml</a>, que ajuda a trocar refrigerante e suco ácido por água ao longo do dia, um hábito que também poupa o esmalte.</p>
   `,
   faq: [
     {
