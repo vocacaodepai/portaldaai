@@ -115,6 +115,8 @@ export const article: Article = {
 
     <p>Quem só usa o Claude para conversar, escrever e resumir pode ignorar a novidade: ela não melhora o chat. E quem usa o Claude Code todo dia deve lembrar que o uso interativo fica fora dos créditos.</p>
 
+    <p>Os resets de limite que vieram com o lançamento do Fable 5.2 funcionam de outro jeito que os créditos: o <a href="/artigos/claude-fable-5-2-semana-inclusa-no-pro-resets-de-limite-e-quem-ganha">guia do Fable 5.2 no Pro, Max e Ultra</a> mostra quantos resets cada plano ganhou e até quando valem.</p>
+
     <h2>Erros comuns</h2>
 
     <ul class="checklist">

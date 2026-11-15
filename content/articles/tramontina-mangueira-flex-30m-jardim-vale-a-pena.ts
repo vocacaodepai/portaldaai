@@ -114,6 +114,8 @@ export const article: Article = {
     <h2>Como avaliamos</h2>
     <p>A nota de 7,8 cruza a ficha técnica oficial da Tramontina com a listagem e as avaliações de compradores na Amazon Brasil, sem teste físico nosso. Pesamos resistência, flexibilidade e manuseio, kit incluso, durabilidade com sol e tempo, e custo-benefício. O custo-benefício e a construção em três camadas puxam a nota para cima, e o peso, a garantia curta e a sensibilidade ao sol seguram o resultado abaixo de 8. Para a rotina da casa, a <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor Tramontina</a> segue a mesma linha de marca nacional com assistência.</p>
 
+    <p>Com 30 metros, a mangueira também resolve o enchimento de piscina montável no quintal. O <a href="/artigos/piscina-mor-inflavel-3400-litros-standard-3000-ou-premium-3700-comparativo">comparativo de piscinas Mor</a> mostra quanta água cada modelo leva e onde é seguro montar.</p>
+
     <h2>Ficha técnica resumida</h2>
     <ul>
       <li>Modelo: Tramontina Flex 79172300, mangueira para jardim verde de PVC com 3 camadas</li>

@@ -157,6 +157,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B076FFGXKK?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial Premium E-02 na Amazon agora ↗</a>
     </div>
 
+    <p>Se a ideia é fazer suco de cenoura, beterraba, maçã ou abacaxi, sem precisar coar, o espremedor não dá conta: aí entra a centrífuga, e o <a href="/artigos/centrifuga-de-sucos-philips-walita-viva-ri1836-britania-juicer-1000-ou-700-comparativo">comparativo de centrífugas Philips Walita e Britânia</a> mostra qual delas compensa.</p>
+
     <h2>Qual comprar</h2>
     <p>Para a maioria das casas, nossa indicação é o Mondial Premium E-02: jarra de 1,25 L, dois cones, rotação nos dois sentidos e a ficha mais barata do trio. O Electrolux ECP10 é a segunda opção para quem dá valor à marca e à lava-louças e não precisa de jarra grande. O Philco PEF750P serve a quem quer inox e espreme poucos copos por vez.</p>
     <p>Em qualquer dos três, o resultado depende de escolher laranjas maduras, cortar ao meio e pressionar com calma, sem forçar. Se o assunto da compra é montar uma cozinha prática, vale ler também o <a href="/artigos/forno-eletrico-philco-pfe44p-ou-britania-bfe43-comparativo">comparativo de forno elétrico</a> antes de fechar o carrinho.</p>

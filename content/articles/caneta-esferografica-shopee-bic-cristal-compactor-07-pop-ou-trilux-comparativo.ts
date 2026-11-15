@@ -142,6 +142,8 @@ export const article: Article = {
       <a href="https://s.shopee.com.br/2Vt9mLIR1X" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
+    <p>Quem usa caneta colorida para separar trabalho, casa e estudo costuma precisar de uma agenda com espaço para isso: o <a href="/artigos/agenda-2027-tilibra-pepper-spice-ou-spot-comparativo">comparativo das agendas Tilibra 2027 Pepper, Spice e Spot</a> mostra qual tamanho combina com cada uso.</p>
+
     <h2>Cuidados ao comprar na Shopee</h2>
     <p>Confira na foto e no título a quantidade de canetas, a cor da tinta e a espessura da ponta antes de comparar preço: caixa com 50, blister com 5 e blister com 3 não são a mesma compra. Desconfie de "BIC" ou "Faber-Castell" muito abaixo da faixa de mercado, e prefira anúncios com muitas vendas e boa nota. Guarde as canetas tampadas, longe do sol, para a tinta não secar na ponta. Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade, cupom ou frete grátis.</p>
     <div class="buy-btn">

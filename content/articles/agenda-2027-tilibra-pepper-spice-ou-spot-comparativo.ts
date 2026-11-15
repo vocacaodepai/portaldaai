@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "agenda",
   productScore: 8.4,
   date: "2026-11-13",
+  updated: "2026-11-15",
   readTime: 9,
   imageQuery: "paper planner agenda desk",
   seed: 1197,
@@ -157,6 +158,18 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/3VlnLW3y5J" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
+
+    <h2>Como usar a agenda diária sem abandonar em fevereiro</h2>
+    <p>O problema da maioria das agendas não é o modelo, é o hábito: a pessoa escreve com capricho nas primeiras semanas de janeiro e esquece a agenda na gaveta em fevereiro. Um método curto ajuda a manter o uso, qualquer que seja o tamanho escolhido.</p>
+    <ol>
+      <li><strong>Domingo, 10 minutos:</strong> abra a semana, copie os compromissos com horário e escolha no máximo três prioridades.</li>
+      <li><strong>Toda manhã, 2 minutos:</strong> na página do dia, escreva as tarefas em ordem de importância, não de facilidade.</li>
+      <li><strong>Fim do dia:</strong> marque o que foi feito e passe o que ficou para outro dia com uma seta, em vez de riscar e esquecer.</li>
+      <li><strong>Uma cor por área:</strong> trabalho, casa e estudo com cores diferentes de caneta ou marca-texto deixam a página legível de relance.</li>
+    </ol>
+    <p>Na Pepper, com pouco espaço por dia, vale anotar só horários e as três prioridades. Na Spice e na Spot sobra lugar para lista de tarefas e observações. A IA pode ajudar no planejamento do domingo sem tirar o papel do centro:</p>
+    <pre><code>Esta é minha lista de compromissos e pendências da semana: [cole a lista]. Separe o que tem horário fixo do que é tarefa solta, sugira em que dia encaixar cada tarefa considerando que tenho cerca de [X] horas livres por dia e aponte o que posso adiar sem prejuízo.</code></pre>
+    <p>Depois é só copiar o plano à mão para a agenda, o que já funciona como revisão. O guia de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina diária produtiva com IA</a> aprofunda a escolha das prioridades, e o comparativo de <a href="/artigos/caneta-esferografica-shopee-bic-cristal-compactor-07-pop-ou-trilux-comparativo">canetas esferográficas</a> ajuda a montar o jogo de cores.</p>
 
     <h2>Qual escolher</h2>
     <p>A Tilibra Spice 2027 é a nossa recomendação principal, com nota 8,4. O formato 14 x 20 cm dá espaço suficiente para organizar o dia sem transformar a agenda num peso na bolsa, e o preço fica próximo do da Pepper. É a escolha mais segura para quem não sabe qual tamanho prefere.</p>

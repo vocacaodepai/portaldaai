@@ -10,7 +10,8 @@ export const article: Article = {
     "Claude Fable 5.2: semana inclusa no Pro e no Team padrão, resets para Max e Ultra, datas no horário de Brasília, como resgatar e quando trocar pelo Opus 5.5.",
   category: "ferramentas",
   date: "2026-11-13",
-  readTime: 8,
+  updated: "2026-11-15",
+  readTime: 10,
   imageQuery: "Anthropic Claude logo",
   seed: 1193,
   kind: "guia",
@@ -113,6 +114,19 @@ export const article: Article = {
     </ul>
 
     <p>Também vale lembrar que planos e limites de IA mudam com frequência. Uma ação coletiva nos Estados Unidos questiona justamente o uso prometido no Max, como mostra a <a href="/noticias/anthropic-tera-de-responder-acao-coletiva-claude-max-uso-prometido">notícia sobre a ação contra a Anthropic</a>. Leia a página de ajuda antes de contar com qualquer cota.</p>
+
+    <h2>Antes de 17 de novembro: o que conferir na sua conta</h2>
+
+    <p>A semana inclusa termina na madrugada de 17 de novembro no horário de Brasília, e a página de ajuda da oferta, conferida de novo em 15/11/2026, não fala em prorrogação. Quem está no Pro ou num assento padrão do Team pode fazer quatro conferências rápidas antes desse horário:</p>
+
+    <ol>
+      <li><strong>Decida o que fazer com o reset.</strong> Ele vence junto com a semana. Se o seu limite semanal ainda está folgado, usar o reset não devolve quase nada; se você já gastou boa parte com Fable, use antes do vencimento.</li>
+      <li><strong>Confira a cobrança extra.</strong> Em Configurações, depois Uso, veja se os créditos de uso estão ligados. Se estiverem e a conta oferecer limite de gasto mensal, defina um valor antes de deixar uma tarefa longa rodando no Fable.</li>
+      <li><strong>Olhe o seletor de modelo.</strong> Antes de continuar uma conversa em que você escolheu o Fable, confira qual modelo está selecionado, para não gastar créditos sem perceber depois do dia 17.</li>
+      <li><strong>Anote o que funcionou.</strong> Se uma tarefa ficou claramente melhor no Fable, guarde o pedido e o resultado. Isso ajuda a decidir com dados se vale pagar créditos ou mudar de plano.</li>
+    </ol>
+
+    <p>No Max, no Ultra e nos assentos premium não há pressa: os resets valem até 9 de março de 2027 no horário de Brasília. Faz sentido guardar para uma semana de entrega pesada, em vez de gastar agora por ansiedade. E quem usa o Claude para tarefas repetitivas e curtas pode economizar limite de qualquer modelo trocando para o Haiku, como mostra o <a href="/artigos/claude-haiku-5-5-quando-o-modelo-pequeno-basta-preco-e-limites">guia do Haiku 5.5</a>.</p>
 
     <h2>Vale a pena subir de plano por causa do Fable?</h2>
 

@@ -148,6 +148,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0779LB8QP?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
+    <p>A cadeira também serve na beira da piscina de casa. Se você está pensando em montar uma, o <a href="/artigos/piscina-mor-inflavel-3400-litros-standard-3000-ou-premium-3700-comparativo">comparativo das piscinas Mor Inflável, Standard e Premium</a> ajuda a escolher pelo espaço do quintal.</p>
+
     <h2>Veredito: a reclinável de alumínio é a que vale levar</h2>
     <p>Para praia, a Mor Reclinável 8 Posições de alumínio é a nossa indicação, com nota 8,4: não enferruja, tem tela com proteção UV e antimofo, deita em oito posições e é aprovada por mais de 7 mil compradores. A Cadeira Alta de aço leva 7,9: é barata, alta, firme e ótima para varanda e quintal, mas sofre com a maresia e não reclina. Se for presente de Natal para a família, veja também as ideias de <a href="/artigos/amigo-secreto-e-lista-de-presentes-de-natal-com-ia-sorteio-orcamento-e-planilha">lista de presentes e amigo secreto com orçamento</a>.</p>
     <div class="buy-btn">

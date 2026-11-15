@@ -11,7 +11,8 @@ export const article: Article = {
   category: "monetizacao",
   articleSubcategory: "produtos-digitais",
   date: "2026-11-12",
-  readTime: 8,
+  updated: "2026-11-15",
+  readTime: 9,
   imageQuery: "laptop online shopping discount",
   seed: 1185,
   kind: "guia",
@@ -110,6 +111,24 @@ export const article: Article = {
     <pre><code>Escreva 3 opções de frase para a caixa de order bump oferecendo [complemento] por R$ [preço] para quem compra [produto principal]. Máximo de 20 palavras cada, com o benefício prático.</code></pre>
 
     <p>Revise tudo antes de enviar: confira preço, código, datas e prazo de garantia em cada e-mail. A IA repete o que você deu, mas também inventa detalhe quando falta informação.</p>
+
+    <h2>Faça a conta: quanto o desconto come da margem</h2>
+
+    <p>Produto digital não tem custo de estoque, e isso engana: parece que qualquer desconto ainda é lucro. Só que a taxa da plataforma incide em cada venda, e um desconto grande exige bem mais vendas para empatar com o faturamento do preço cheio. Usando a taxa padrão da Hotmart registrada no nosso guia de <a href="/artigos/produto-digital-na-hotmart-quanto-sobra-depois-das-taxas">quanto sobra depois das taxas</a> (9,9% do valor mais uma taxa fixa por venda), um curso de R$ 200 fica assim, com valores arredondados:</p>
+
+    <table>
+      <thead>
+        <tr><th>Preço de venda</th><th>Sobra por venda</th><th>Vendas para igualar 10 vendas a preço cheio</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>R$ 200 (cheio)</td><td>cerca de R$ 178</td><td>10</td></tr>
+        <tr><td>R$ 160 (cupom de 20%)</td><td>cerca de R$ 142</td><td>13</td></tr>
+        <tr><td>R$ 140 (cupom de 30%)</td><td>cerca de R$ 124</td><td>15</td></tr>
+        <tr><td>R$ 100 (cupom de 50%)</td><td>cerca de R$ 88</td><td>21</td></tr>
+      </tbody>
+    </table>
+
+    <p>Com 30% de desconto, você precisa vender cerca de 50% a mais só para faturar o mesmo; com 50%, mais que o dobro. Cada comprador a mais também traz dúvida de acesso, suporte e eventual pedido de reembolso. É por isso que o order bump pesa tanto: se uma parte dos compradores levar o complemento, o valor médio por pedido sobe e a conta melhora sem aumentar o desconto do produto principal. Para chegar ao preço cheio certo antes de pensar no cupom, o guia de <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">como precificar com IA</a> ajuda, e você pode pedir à IA para montar a mesma tabela com os seus números, conferindo o resultado na calculadora.</p>
 
     <h2>Erros comuns</h2>
 

@@ -84,6 +84,8 @@ export const article: Article = {
       <li><strong>Prometer resultado.</strong> Venda o que o produto entrega, sem garantia de renda.</li>
     </ul>
 
+    <p>Qualquer que seja a plataforma, a campanha de fim de ano segue a mesma lógica: o guia de <a href="/artigos/black-friday-de-produto-digital-cupom-order-bump-e-garantia-com-ia">cupom, order bump e garantia na Black Friday</a> traz o calendário e os prompts para os e-mails.</p>
+
     <h2>Afiliados mudam a conta</h2>
     <p>As duas plataformas permitem programa de afiliados, e a comissão sai da sua parte. Num produto de R$ 47 com 30% de comissão (exemplo), o afiliado leva R$ 14,10 e o resto depende das regras de cada plataforma sobre quem paga a taxa. Leia essas regras antes de abrir o programa. Para entender o outro lado, veja o guia de <a href="/artigos/ganhar-dinheiro-como-afiliado-usando-ia-guia-realista">afiliado com IA</a>.</p>
     <p>Minha sugestão: abra conta nas duas só se tiver tempo de comparar, escolha uma para o primeiro produto e releia as taxas a cada trimestre. Comece pequeno, meça reembolso e custo por venda e só então amplie. Para ver mais caminhos, volte à categoria de <a href="/categoria/monetizacao">monetização</a>.</p>

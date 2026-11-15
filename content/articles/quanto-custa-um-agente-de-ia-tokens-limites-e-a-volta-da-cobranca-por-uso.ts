@@ -112,6 +112,8 @@ diga se um modelo pequeno resolve ou se precisa de um modelo
 avançado. Estime quantas vezes o agente vai reler o contexto
 e aponte onde dá para cortar arquivos, passos ou tentativas.</code></pre>
 
+    <p>Quem assina o Pro do Claude e quer testar o modelo mais caro sem pagar créditos tem uma janela curta: o guia da <a href="/artigos/claude-fable-5-2-semana-inclusa-no-pro-resets-de-limite-e-quem-ganha">semana inclusa do Fable 5.2 no plano Pro</a> explica prazos, resets e quando vale gastar.</p>
+
     <h2>Erros comuns ao calcular o custo de um agente</h2>
 
     <ul>

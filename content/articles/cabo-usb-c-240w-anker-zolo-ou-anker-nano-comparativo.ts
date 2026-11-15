@@ -119,6 +119,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0DBV8Y3R4?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Anker Zolo na Amazon agora ↗</a>
     </div>
 
+    <p>Um cabo bom só rende com um carregador à altura. Se você procura um compacto de 45 W, veja a <a href="/artigos/baseus-enerfill-fn22-45w-carregador-usb-c-shopee-vale-a-pena">análise do carregador Baseus EnerFill FN22</a>.</p>
+
     <h2>Veredito: qual cabo comprar</h2>
     <p>Para a maioria das pessoas, o recomendado é o Anker Zolo. Ele costuma custar menos, tem o conector fino que cabe em capinha grossa, o revestimento anti-sujeira e a melhor nota de compradores, e atende celular, tablet e notebook sem drama. Dá nota 8,4 como escolha geral.</p>
     <p>O Nano trançado é a melhor escolha para quem leva o cabo na bolsa todo dia e quer o organizador, com a ressalva de que ele não espelha tela. Nenhum dos dois serve para vídeo em monitor ou para copiar arquivos grandes: para isso, procure um cabo com 5 Gbps ou mais. Se o cabo for só para carregar o celular em casa, qualquer um dos dois dura bastante, e a escolha vira questão de cor e de gosto. Para uma rotina mais organizada, veja também como <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">usar IA para criar uma rotina diária produtiva</a>.</p>

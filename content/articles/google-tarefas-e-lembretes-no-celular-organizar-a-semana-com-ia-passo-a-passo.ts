@@ -104,6 +104,8 @@ Minha lista: pagar o IPTU, marcar dentista, mercado, arrumar o chuveiro, respond
       <li>Nunca revisar: separe 5 minutos no domingo à noite para limpar o que não vai mais ser feito.</li>
     </ul>
 
+    <p>Tem gente que planeja melhor no papel e deixa no celular só os lembretes com horário. Para essa combinação, o <a href="/artigos/agenda-2027-tilibra-pepper-spice-ou-spot-comparativo">comparativo de agendas 2027 Tilibra</a> ajuda a escolher o formato.</p>
+
     <h2>Uma rotina de 5 minutos por dia</h2>
 
     <p>De manhã, abra a lista "Hoje e esta semana", escolha até 3 itens e coloque estrela. À noite, marque o que foi feito e empurre o resto para outro dia sem culpa. No domingo, cole o que sobrou e o que apareceu de novo no assistente e peça a divisão da semana com o prompt acima. Em duas semanas o hábito costuma ficar automático. Para ir além, o guia de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">como criar uma rotina diária produtiva com IA</a> aprofunda o tema.</p>

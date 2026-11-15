@@ -13,6 +13,7 @@ export const article: Article = {
   productSubcategory: "piscina",
   productScore: 8.5,
   date: "2026-11-13",
+  updated: "2026-11-15",
   readTime: 8,
   imageQuery: "backyard above ground pool family summer",
   seed: 1195,
@@ -159,6 +160,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0779KS318?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
+    </div>
+
+    <h2>Água, peso e lugar de montar</h2>
+    <p>Um litro de água pesa cerca de 1 kg, então a Mor Inflável cheia passa de 3 toneladas e a Premium chega perto de 3,7 toneladas, sem contar quem está dentro. Pelas medidas da ficha, a inflável ocupa um círculo de 2,70 m de diâmetro, cerca de 5,7 m² de chão, e a Premium um retângulo de 3,70 x 2,42 m, cerca de 9 m². São centenas de quilos por metro quadrado, bem acima do que uma laje ou varanda residencial comum costuma ser calculada para aguentar. Monte no chão firme do quintal; em laje, terraço ou cobertura, só com avaliação de um engenheiro.</p>
+    <p>Na conta de água, encher a inflável consome 3,4 m³ e a Premium 3,7 m³. Multiplique pelo valor do metro cúbico na sua fatura e lembre que muitas companhias cobram por faixa de consumo, então o mês do enchimento pode cair numa faixa mais cara. Tratar e filtrar a água em vez de trocar com frequência economiza água e dinheiro: a Inflável e a Premium têm entrada para filtro, enquanto a Standard depende mais de tampa e de troca.</p>
+    <p>Pense também no escoamento antes de escolher o ponto. A água sai pela válvula de deságue e precisa ter um ralo ou caminho certo, longe da casa do vizinho; água com cloro também não deve ir direto para o canteiro de plantas. Para levar a mangueira até lá com folga, a <a href="/artigos/tramontina-mangueira-flex-30m-jardim-vale-a-pena">Tramontina Flex de 30 metros</a> alcança a maioria dos quintais.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B076B9MCL9?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Segurança e cuidados com a água</h2>
