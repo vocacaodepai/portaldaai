@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "dermodex-prevent-60g-creme-assadura-shopee-vale-a-pena",
-  title: "Dermodex Prevent: barreira barata contra assadura, com um porém no rótulo",
+  title: "Dermodex Prevent: barato contra assadura, com um porém no rótulo",
   seoTitle: "Dermodex Prevent 60 g vale a pena? Análise do creme para prevenir assaduras",
   excerpt:
     "Nota 7,8. O Dermodex Prevent é um creme com óxido de zinco para prevenir assaduras a cada troca de fralda. Veja a fórmula, como usar, o porém do perfume e a faixa de mercado.",
