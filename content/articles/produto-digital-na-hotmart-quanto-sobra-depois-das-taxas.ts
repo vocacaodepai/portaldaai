@@ -111,6 +111,8 @@ export const article: Article = {
 
     <p>Anúncio pago é um canal, não o único. Uma lista de e-mail, uma newsletter e um programa de afiliados criam vendas sem pagar por clique. O texto sobre <a href="/artigos/como-ganhar-dinheiro-com-newsletter-usando-ia">newsletter com IA</a> mostra como começar a lista, e o de <a href="/artigos/ganhar-dinheiro-como-afiliado-usando-ia-guia-realista">afiliados</a> mostra o outro lado: quem promove produto de terceiros.</p>
 
+    <p>Na Black Friday, a mesma taxa pesa sobre um preço menor. O guia de <a href="/artigos/black-friday-de-produto-digital-cupom-order-bump-e-garantia-com-ia">Black Friday de produto digital</a> mostra como criar o cupom na Hotmart, montar o order bump e quantas vendas a mais cada desconto exige.</p>
+
     <h2>Erros comuns</h2>
 
     <ul>

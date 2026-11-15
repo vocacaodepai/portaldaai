@@ -133,6 +133,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0C9QSV82F?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Geonav PB10MAGSG na Amazon agora ↗</a>
     </div>
 
+    <p>O power bank também precisa de um carregador rápido para recarregar sem demora. O <a href="/artigos/baseus-enerfill-fn22-45w-carregador-usb-c-shopee-vale-a-pena">Baseus EnerFill FN22</a> tem versão de 45 W em USB-C e cabe no bolso da mochila.</p>
+
     <h2>Qual comprar</h2>
     <p>Se o seu problema é ficar sem bateria no fim do dia e você quer o máximo de carga guardada por um preço justo, o i2GO PRO resolve melhor: mais mAh, carga mais rápida com fio e preço competitivo. Se você usa iPhone com MagSafe (ou capinha compatível) e valoriza não precisar mexer em cabo, principalmente para reforçar a bateria enquanto usa o celular em pé numa mesa, o Geonav é o mais indicado, mesmo com metade da capacidade. Para quem quer <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">montar uma rotina diária mais produtiva</a> sem depender de tomada, qualquer um dos dois já resolve o básico; a diferença está só em quanto peso e quanta praticidade você está disposto a trocar por capacidade extra.</p>
     <div class="buy-btn">

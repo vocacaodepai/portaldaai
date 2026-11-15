@@ -13,7 +13,8 @@ export const article: Article = {
   productSubcategory: "centrifuga-sucos",
   productScore: 8.4,
   date: "2026-11-13",
-  readTime: 8,
+  updated: "2026-11-15",
+  readTime: 9,
   imageQuery: "juicer fresh orange carrot juice kitchen",
   seed: 1194,
   coverImage: {
@@ -159,6 +160,21 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B076TFKTBB?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
+    </div>
+
+    <h2>Combinações de suco que funcionam bem na centrífuga</h2>
+    <p>A centrífuga rende mais com fruta e legume firmes e suculentos. Cenoura, maçã, beterraba, pepino, abacaxi, melancia e gengibre saem com bastante líquido e pouco esforço. Folhas como couve e hortelã passam melhor no meio de pedaços duros, que ajudam a empurrar tudo pelo filtro. Banana, abacate e manga muito madura viram pasta e entopem a peneira: essas ficam para o <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificador</a>.</p>
+    <h3>Três misturas para começar</h3>
+    <ul>
+      <li><strong>Cenoura, laranja e gengibre:</strong> descasque a laranja, passe a cenoura em pedaços e termine com uma rodela pequena de gengibre.</li>
+      <li><strong>Maçã, couve e limão:</strong> intercale a folha de couve dobrada entre os pedaços de maçã e esprema o limão à parte, direto no copo.</li>
+      <li><strong>Abacaxi com hortelã:</strong> corte o abacaxi em tiras que passem pelo bocal e coloque as folhas de hortelã entre elas.</li>
+    </ul>
+    <p>Uma regra prática: comece pelo ingrediente mais macio e termine pelo mais duro, que ajuda a limpar o filtro no caminho. Suco de centrífuga escurece e perde sabor rápido, então o ideal é beber logo; se precisar guardar, use pote fechado na geladeira e consuma no mesmo dia. Para montar as receitas da semana com o que está em época, um pedido simples para a IA resolve:</p>
+    <pre><code>Monte 5 receitas de suco para centrífuga com frutas e legumes da estação em [sua cidade] no mês de [mês]. Para cada uma, liste ingredientes e quantidade para 2 copos, sem banana nem abacate. No fim, junte tudo numa lista de compras única.</code></pre>
+    <p>Confira a resposta antes de ir ao mercado, porque a IA às vezes erra a época das frutas. Para a laranja do café da manhã, o <a href="/artigos/espremedor-laranja-electrolux-ecp10-mondial-e02-philco-pef750p-comparativo">comparativo de espremedores</a> continua sendo o caminho mais simples.</p>
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B01IR0JQMM?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
     <h2>Cuidados de uso e limpeza</h2>

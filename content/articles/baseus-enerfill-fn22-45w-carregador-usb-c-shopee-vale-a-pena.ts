@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "informatica",
   productSubcategory: "carregador",
   date: "2026-11-13",
+  updated: "2026-11-15",
   readTime: 8,
   imageQuery: "usb-c gan charger",
   seed: 1199,
@@ -115,6 +116,14 @@ export const article: Article = {
     <h2>Plugue, tomada e cuidados de uso</h2>
     <p>A foto do anúncio mostra o carregador com plugue de dois pinos redondos. O padrão brasileiro de tomada usa pinos redondos, mas em duas espessuras, de 4 mm e de 4,8 mm, e nem toda tomada aceita a mais grossa. Antes de comprar, confira no anúncio ou pelo chat da loja qual é o plugue enviado e se ele encaixa nas tomadas da sua casa, para não depender de adaptador. Confira também a faixa de tensão de entrada impressa no carregador; carregadores USB-C desse tipo costumam ser bivolt, mas é a etiqueta que vale.</p>
     <p>No uso, evite deixar o carregador coberto por almofada ou cobertor, não use cabos danificados e prefira tomadas firmes, sem mau contato. Se precisar de várias tomadas na mesa, um bom filtro de linha ajuda; veja o nosso comparativo de <a href="/artigos/iclamper-energia-8-ou-intelbras-epe-1008-filtro-de-linha-comparativo">filtros de linha iClamper e Intelbras</a>.</p>
+
+    <h2>Como conferir se o carregador entrega o que promete</h2>
+    <p>Carregador de celular vendido no Brasil precisa de homologação da Anatel, e o selo com o código costuma vir impresso no corpo do aparelho ou na embalagem. Ao receber o FN22, procure esse selo e a etiqueta de saída. Em carregadores USB Power Delivery, a etiqueta lista os perfis de tensão e corrente, como 5 V, 9 V, 15 V e 20 V, e a tensão mais alta multiplicada pela corrente correspondente deve bater com a potência da versão que você comprou.</p>
+    <p>Para ver a velocidade na prática, sem equipamento, carregue o celular a partir de cerca de 20% por meia hora, com a tela apagada, e anote quanto a bateria subiu. Repita com o carregador antigo, nas mesmas condições e com o mesmo cabo, e compare. Quem quer número exato pode usar um medidor USB-C de bolso, que fica entre o carregador e o cabo e mostra tensão e potência em tempo real.</p>
+    <p>Desconfie se o carregador esquentar a ponto de incomodar ao toque, fizer chiado ou se a velocidade mudar muito de um cabo para outro. Nesses casos, teste um cabo certificado e, se o problema continuar, acione a loja dentro do prazo de troca. Para carregar o celular e o fone ao mesmo tempo sem depender de duas tomadas, o <a href="/artigos/carregador-qi2-anker-maggo-pad-ou-ugreen-2-em-1-dobravel-comparativo">carregador Qi2 2 em 1</a> é outra saída.</p>
+    <div class="buy-btn">
+      <a href="https://s.shopee.com.br/gRbyiMOM3" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
+    </div>
 
     <h2>Alternativas</h2>
     <p>Quem quer carregar dois aparelhos ou precisa de mais potência para notebook encontra opções no nosso <a href="/artigos/melhor-carregador-gan-usb-c-comparativo-2026">comparativo de carregadores GaN</a>. Para carregar longe da tomada, veja o <a href="/artigos/melhor-power-bank-carregador-portatil-comparativo-2026">comparativo de power banks</a>; para o carro, o de <a href="/artigos/anker-323-ou-anker-30w-carregador-veicular-comparativo">carregadores veiculares Anker</a>; e para quem prefere encostar o celular e carregar sem fio, o de <a href="/artigos/carregador-qi2-anker-maggo-pad-ou-ugreen-2-em-1-dobravel-comparativo">carregadores Qi2</a>. Para pilhas recarregáveis, temos a análise do <a href="/artigos/duracell-carregador-pilhas-aa-aaa-4-pilhas-shopee-vale-a-pena">carregador de pilhas Duracell</a>, e quem vai viajar pode ler o nosso <a href="/artigos/mala-de-bordo-american-tourister-starvibe-p-ou-eagle-ac32-comparativo">comparativo de malas de bordo</a>.</p>

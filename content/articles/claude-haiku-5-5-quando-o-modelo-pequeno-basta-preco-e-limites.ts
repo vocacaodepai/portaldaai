@@ -91,6 +91,8 @@ Mensagem: "Comprei o sérum há 5 dias, veio com a tampa quebrada e quero trocar
       <li>Esquecer o ajuste de esforço: em tarefa simples, esforço baixo costuma bastar; em tarefa difícil, subir o esforço pode ser mais barato que trocar de modelo.</li>
     </ul>
 
+    <p>No outro extremo da linha está o Fable 5.2, que consome o limite bem mais rápido. O <a href="/artigos/claude-fable-5-2-semana-inclusa-no-pro-resets-de-limite-e-quem-ganha">guia da semana inclusa do Fable no Pro</a> mostra em quais tarefas ele compensa.</p>
+
     <h2>Como decidir em 10 minutos</h2>
     <ol>
       <li>Liste a tarefa e o volume mensal (quantas chamadas por mês).</li>

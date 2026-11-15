@@ -105,6 +105,8 @@ export const article: Article = {
       <li>Depois da data: peça avaliação e leve o cliente novo para o <a href="/artigos/como-usar-ia-para-fidelizar-clientes-programa-de-recompensas">programa de fidelidade</a>.</li>
     </ul>
 
+    <p>Quem vende curso, e-book ou planilha em vez de produto físico tem outras armadilhas, como cupom com fuso errado e prazo de garantia diferente entre página e e-mail. Elas estão no guia de <a href="/artigos/black-friday-de-produto-digital-cupom-order-bump-e-garantia-com-ia">Black Friday de produto digital</a>.</p>
+
     <h2>Erros comuns</h2>
 
     <ul>

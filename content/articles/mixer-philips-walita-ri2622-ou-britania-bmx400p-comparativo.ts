@@ -123,6 +123,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B08YHR9C4S?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BMX400P na Amazon agora ↗</a>
     </div>
 
+    <p>O mixer resolve vitamina e sopa direto na panela, mas para suco de cenoura ou de beterraba sem bagaço a ferramenta certa é outra: o <a href="/artigos/centrifuga-de-sucos-philips-walita-viva-ri1836-britania-juicer-1000-ou-700-comparativo">comparativo de centrífugas de sucos</a> compara três modelos de Philips Walita e Britânia.</p>
+
     <h2>Qual comprar</h2>
     <p>Se o orçamento pesa e você quer picar, triturar e bater claras com o mesmo aparelho, o Britânia BMX400P é a escolha mais sensata. Se prefere a marca Philips Walita, valoriza a garantia de 2 anos e quer trocar acessório com um toque, o ProMix RI2622 justifica a diferença. Em qualquer caso, escolha a voltagem certa: os dois não são bivolt.</p>
     <p>Para organizar as compras da cozinha dentro do orçamento, vale usar a <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">IA para organizar as finanças pessoais</a>. E a rotina de preparo fica mais simples com a ajuda de <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">uma rotina diária produtiva com IA</a>.</p>

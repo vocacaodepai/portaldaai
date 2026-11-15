@@ -125,6 +125,8 @@ export const article: Article = {
       <a href="https://www.amazon.com.br/dp/B0BCWNBNTK?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
     </div>
 
+    <p>Se a sua casa mistura marcas, vale lembrar que nem todo produto Wi-Fi depende de hub. A <a href="/artigos/positivo-smart-fita-led-rgb-wifi-2-geracao-vale-a-pena">fita LED inteligente da Positivo</a>, por exemplo, liga direto no roteador e conversa com Alexa e Google sem central.</p>
+
     <h2>Ficha técnica resumida</h2>
     <ul>
       <li>Hub de casa inteligente com alto-falante, para sensores e botões Tapo</li>

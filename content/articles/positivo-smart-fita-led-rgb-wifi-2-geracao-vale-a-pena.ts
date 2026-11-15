@@ -12,6 +12,7 @@ export const article: Article = {
   productCategory: "casa-inteligente",
   productSubcategory: "fita-led",
   date: "2026-11-13",
+  updated: "2026-11-15",
   readTime: 8,
   imageQuery: "smart led strip living room ambient light",
   seed: 1196,
@@ -160,6 +161,21 @@ export const article: Article = {
     <p>A própria Positivo lista os cuidados: desenrole a fita inteira antes de ligar, instale longe de água e de calor excessivo e corte só no local marcado na fita. Limpe e seque bem a superfície antes de colar: poeira e gordura são o motivo mais comum de a fita adesiva soltar com o tempo. Em móveis de madeira crua ou parede com textura, vale reforçar com presilhas.</p>
     <p>Planeje também o caminho do fio. A controladora e a fonte ficam numa ponta da fita, então o melhor ponto de partida é perto de uma tomada, de preferência escondido atrás do móvel. Atrás da TV, por exemplo, comece a fita pelo lado onde já estão os cabos e contorne o painel até o outro lado, deixando a luz rebatida na parede, e não apontada para os olhos.</p>
     <p>Para montar uma casa inteligente aos poucos, combine a fita com o <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">Smart Plug Wi-Fi da Positivo</a>, o <a href="/artigos/positivo-smart-controle-universal-wifi-vale-a-pena">Smart Controle Universal</a> e o <a href="/artigos/intelbras-ews-211-mini-controlador-wifi-interruptor-vale-a-pena">mini controlador Intelbras EWS 211</a> para o interruptor. Quem usa vários aplicativos pode concentrar tudo num <a href="/artigos/tapo-h100-hub-casa-inteligente-vale-a-pena">hub como o Tapo H100</a> ou automatizar com o <a href="/artigos/intelbras-espi-360-a-sensor-presenca-shopee-vale-a-pena">sensor de presença Intelbras</a>. E para tirar mais proveito da voz, veja <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">como usar assistente de voz com IA no dia a dia</a>.</p>
+
+    <div class="buy-btn">
+      <a href="https://www.amazon.com.br/dp/B0CFWCNL9L?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
+    </div>
+
+    <h2>Configuração no app e automações que valem a pena</h2>
+    <p>Boa parte das reclamações sobre fita Wi-Fi acontece na primeira conexão, e quase sempre pelo mesmo motivo: o celular está conectado na rede de 5 GHz. Muitos roteadores atuais transmitem 2,4 GHz e 5 GHz com o mesmo nome, e o celular escolhe sozinho. Se o pareamento falhar, entre na configuração do roteador e crie um nome separado para a rede de 2,4 GHz, ou desative a de 5 GHz só durante o cadastro. Deixe o celular perto da fita e do roteador nessa etapa.</p>
+    <p>Depois de cadastrar a fita no app Positivo Casa Inteligente, vincule a conta à Alexa ou ao Google Home para usar a voz. Algumas automações que aproveitam o timer, a agenda e o branco ajustável:</p>
+    <ul class="checklist">
+      <li>Acender em branco quente, com brilho baixo, num horário fixo à noite, como luz de passagem.</li>
+      <li>Desligar sozinha de madrugada, para quem costuma dormir com a luz acesa.</li>
+      <li>Criar, na Alexa ou no Google Home, uma rotina de "boa noite" que apaga a luz principal e deixa só a fita acesa por alguns minutos.</li>
+      <li>Usar branco frio e brilho alto na mesa de trabalho durante o dia e tom quente à noite.</li>
+    </ul>
+    <p>No consumo, a fita pesa pouco. Pelos 14 W informados pela Positivo, cinco horas por dia durante 30 dias somam 2,1 kWh no mês, no brilho máximo. Multiplique pelo valor do kWh da sua fatura para ter o custo; o guia de <a href="/artigos/conta-de-luz-com-ia-como-entender-bandeira-tarifaria-e-consumo">conta de luz e bandeira tarifária</a> mostra onde achar esse número. Quem prefere luz inteligente no teto em vez de fita encontra opções no <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">comparativo de lâmpadas inteligentes Wi-Fi</a>.</p>
 
     <h2>Variação de preço</h2>
     <p>Pela pesquisa de mercado, a Smart Fita LED RGB Wi-Fi 2ª geração costuma variar de R$ 110 a R$ 210. A ponta de baixo aparece em lojas de informática e em promoções; a de cima é perto do preço sugerido pela Positivo no lançamento. O preço sobe fora das datas de promoção e em vendedores de marketplace, e cai bastante em campanhas como a Black Friday.</p>
