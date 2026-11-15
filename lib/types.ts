@@ -405,6 +405,9 @@ export const productSubcategories = [
   { slug: "escova-cabelo", label: "Escova de Cabelo", category: "saude-bem-estar" },
   { slug: "tripe-celular", label: "Tripé e Bastão de Selfie", category: "acessorios-celular" },
   { slug: "roda-abdominal", label: "Roda Abdominal", category: "esporte" },
+  { slug: "cafe-torrado-moido", label: "Café Torrado e Moído", category: "cozinha" },
+  { slug: "creme-dental", label: "Creme Dental", category: "saude-bem-estar" },
+  { slug: "creme-assadura", label: "Creme para Assaduras", category: "bebe" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
