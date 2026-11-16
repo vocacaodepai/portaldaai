@@ -6,13 +6,19 @@ export const item: NewsItem = {
   summary:
     "Secretário do Tesouro dos EUA diz que a Nvidia precisa de mudança radical após a saída de Jensen Huang e questiona vendas suspeitas de chips de IA à China.",
   author: "Bruno Danello",
-  sourceName: "CNBC, Fortune",
+  sourceName: "CNBC, Fortune, TNW, Fox Business",
   sourceUrl: "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
   date: "2026-11-15",
   publishedAt: "2026-11-15T17:25:00-03:00",
+  updatedAt: "2026-11-16T10:15:00-03:00",
   topic: "regulacao",
   imageQuery: "Scott Bessent portrait",
   content: `
+
+    <h2>Atualização (10:15)</h2>
+    <p>Na manhã desta segunda-feira, 16 de novembro, a pressão pelo retorno de Jensen Huang ganhou números. Segundo o site TNW, a carta aberta "Stand with Jensen", que pede ao conselho da Nvidia que reconduza Huang ao cargo enquanto a investigação independente corre, passou de 175 mil nomes, quatro dias depois da renúncia. O site da campanha contabiliza 8.766 assinantes que se declaram funcionários da Nvidia, cerca de 21% dos 42 mil empregados, e 26 que dizem ser vice-presidentes ou acima. São dados autodeclarados, que o TNW não conseguiu verificar, e a contagem já teve problemas: a própria campanha disse estar removendo assinaturas falsas. Nem a Nvidia nem Huang endossam a carta.</p>
+    <p>O texto pede três coisas ao conselho: divulgar o escopo e o prazo da investigação, ouvir Huang antes de qualquer decisão final e explicar em público o que motivou a saída. Também convoca investidores institucionais a levar o tema à teleconferência de resultados de terça-feira, 17 de novembro, às 19h de Brasília. Segundo a Fox Business, citando o Financial Times, Huang discutiu com pessoas próximas a possibilidade de voltar, e um aliado disse estar montando uma "sala de guerra" com executivos do Vale do Silício para pressionar o conselho e buscar apoio na Casa Branca. Os investidores Brad Gerstner (Altimeter Capital) e Gavin Baker (Atreides Management) enviaram ao conselho, na sexta-feira, uma carta pedindo "todas as opções na mesa, incluindo o possível retorno de Jensen Huang".</p>
+    <p>Do outro lado, o processo segue. De acordo com o TNW, os conselheiros independentes contrataram em 10 de novembro o escritório Wachtell, Lipton, Rosen &amp; Katz para conduzir a investigação, e a Nvidia disse à CNBC no domingo que está escolhendo uma empresa de recrutamento para a busca do novo CEO, sem ter abordado formalmente nenhum candidato. O analista Dan Ives, da Wedbush, afirmou à CNBC que não vê "nenhuma chance" de Huang voltar como CEO. Na leitura do Portal da AI, o que muda é o tamanho da pressão sobre o conselho às vésperas do balanço: a fala de Bessent pede alguém de fora, e parte dos acionistas e funcionários pede o fundador de volta. A resposta deve começar a aparecer na terça, quando Colette Kress apresenta os números pela primeira vez no comando.</p>
     <p>O governo dos Estados Unidos entrou de vez na crise de comando da Nvidia. Neste domingo, 15 de novembro, o secretário do Tesouro, Scott Bessent, disse em entrevista ao programa Sunday Morning Futures, da Fox News, que o conselho da fabricante de chips deveria buscar um presidente executivo de fora da empresa e que a companhia precisa de uma "mudança radical" depois da saída de Jensen Huang. Ele também levantou a dúvida sobre se a Nvidia estava empurrando vendas "aparentemente ilícitas" de chips de inteligência artificial para a China com o objetivo de inflar receita e lucro.</p>
 
     <p>É raro um secretário do Tesouro opinar em público sobre quem deve comandar uma empresa privada. O recado pesa ainda mais porque a Nvidia é a maior fornecedora dos chips que treinam e rodam modelos como ChatGPT, Gemini e Claude, e porque a empresa divulga na terça-feira, 17 de novembro, o primeiro resultado trimestral desde que Huang deixou o cargo.</p>
