@@ -408,6 +408,8 @@ export const productSubcategories = [
   { slug: "cafe-torrado-moido", label: "Café Torrado e Moído", category: "cozinha" },
   { slug: "creme-dental", label: "Creme Dental", category: "saude-bem-estar" },
   { slug: "creme-assadura", label: "Creme para Assaduras", category: "bebe" },
+  { slug: "ar-condicionado-portatil", label: "Ar-condicionado Portátil", category: "casa-inteligente" },
+  { slug: "smartphone", label: "Smartphone", category: "informatica" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
