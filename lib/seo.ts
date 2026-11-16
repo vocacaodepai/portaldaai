@@ -91,3 +91,18 @@ export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
     })),
   };
 }
+
+/**
+ * Publisher inline para Article/NewsArticle/Review: além do @id (que liga ao
+ * Organization do layout), leva nome, url e logo, para o Google não depender
+ * de juntar blocos JSON-LD diferentes da página.
+ */
+export function publisherJsonLd() {
+  return {
+    "@type": "Organization",
+    "@id": `${site.url}/#organization`,
+    name: site.name,
+    url: site.url,
+    logo: { "@type": "ImageObject", url: `${site.url}/logo-icon-dark.svg`, width: 512, height: 512 },
+  };
+}

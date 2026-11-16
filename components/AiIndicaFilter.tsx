@@ -1,33 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ProductCategoryFilter } from "./ProductCategoryFilter";
 import { reviewKindLabels, type ReviewKind } from "./reviewKinds";
 import { chipClass, clearKey, cardsOf, setHidden } from "./filterVisibility";
 
-export type AiIndicaFilterData = Record<
-  ReviewKind,
-  {
-    categories: { slug: string; label: string }[];
-    subcategories: { slug: string; label: string; category: string }[];
-  }
->;
-
 /**
- * Filtro de duas camadas da AI Indica: primeiro o tipo de review (individual
- * ou comparativo); só depois de escolher um tipo aparecem os filtros de
- * categoria/subcategoria de produto, aplicados dentro do tipo escolhido.
- * Filtra no navegador, escondendo os cards de `rootId`.
+ * Filtro secundário da AI Indica: tipo de review (individual ou comparativo).
+ * Roda no navegador e vale só para os cards da página atual (`rootId`); o
+ * filtro principal (categoria/tipo de produto) é por rota, ver
+ * ProductCategoryLinks.
  */
-export function AiIndicaFilter({
-  data,
-  rootId,
-  className = "",
-}: {
-  data: AiIndicaFilterData;
-  rootId: string;
-  className?: string;
-}) {
+export function AiIndicaKindFilter({ rootId, className = "" }: { rootId: string; className?: string }) {
   const [kind, setKind] = useState<"todos" | ReviewKind>("todos");
 
   function select(next: "todos" | ReviewKind) {
@@ -50,9 +33,9 @@ export function AiIndicaFilter({
               type="button"
               aria-pressed={kind === "todos"}
               onClick={() => select("todos")}
-              className={chipClass(kind === "todos")}
+              className={chipClass(kind === "todos", true)}
             >
-              Todos
+              Todos os tipos
             </button>
           </li>
           {kinds.map((k) => (
@@ -62,7 +45,7 @@ export function AiIndicaFilter({
                 aria-pressed={kind === k}
                 title={reviewKindLabels[k].help}
                 onClick={() => select(k)}
-                className={chipClass(kind === k)}
+                className={chipClass(kind === k, true)}
               >
                 {reviewKindLabels[k].label}
               </button>
@@ -73,17 +56,8 @@ export function AiIndicaFilter({
       <p className="mt-2 text-xs leading-relaxed text-muted">
         {kind === "todos"
           ? `${reviewKindLabels.review.label}: ${reviewKindLabels.review.help} ${reviewKindLabels.guia.label}: ${reviewKindLabels.guia.help}`
-          : reviewKindLabels[kind].help}
+          : `${reviewKindLabels[kind].help} (filtra os cards desta página)`}
       </p>
-      {kind !== "todos" && (
-        <ProductCategoryFilter
-          key={kind}
-          categories={data[kind].categories}
-          subcategories={data[kind].subcategories}
-          rootId={rootId}
-          className="mt-3"
-        />
-      )}
     </div>
   );
 }

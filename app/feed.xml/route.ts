@@ -20,14 +20,14 @@ function rfc822(iso: string) {
 export function GET() {
   const label = (slug: string) => categories.find((c) => c.slug === slug)?.label ?? slug;
   const entries = [
-    ...sortedArticles().slice(0, 30).map((a) => ({
+    ...sortedArticles().filter((a) => !a.noindex).slice(0, 30).map((a) => ({
       title: a.title,
       link: `${site.url}/artigos/${a.slug}`,
       description: a.excerpt,
       date: a.date,
       category: label(a.category),
     })),
-    ...sortedNews().slice(0, 30).map((n) => ({
+    ...sortedNews().filter((n) => !n.noindex).slice(0, 30).map((n) => ({
       title: n.title,
       link: `${site.url}/noticias/${n.slug}`,
       description: n.summary,
