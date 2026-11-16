@@ -106,7 +106,7 @@ interesse, explicando em uma linha por que cada uma combina com meu histórico.<
 
     <p>Vaga de verdade não cobra para você participar do processo. Desconfie de mensagens que pedem pagamento de taxa, depósito para "reservar" a vaga ou código recebido por SMS. A IA pode ajudar a analisar um texto suspeito, como mostra o guia para <a href="/artigos/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes">checar mensagem suspeita com IA</a>, mas o principal é não passar senha, token ou foto de documento a quem entrou em contato sem você procurar.</p>
 
-    <p>Sobre o uso da IA em si, não cole na conversa documentos, números de documentos nem a senha do gov.br. O texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a> explica o que costuma ser compartilhado sem perceber.</p>
+    <p>Sobre o uso da IA em si, não cole na conversa documentos, números de documentos nem a senha do gov.br. O texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a> explica o que costuma ser compartilhado sem perceber. Nesta época do ano, quem procura contrato de fim de ano encontra no guia de <a href="/artigos/vaga-temporaria-no-natal-2026-curriculo-entrevista-e-efetivacao-com-ia">vaga temporária no Natal 2026</a> como conferir se a agência de trabalho temporário tem registro no Ministério do Trabalho.</p>
 
     <h2>Erros comuns</h2>
 

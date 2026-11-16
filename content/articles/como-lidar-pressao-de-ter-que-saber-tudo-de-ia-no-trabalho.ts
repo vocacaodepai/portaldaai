@@ -107,7 +107,7 @@ export const article: Article = {
 
     <h2>Sua semana que vem</h2>
 
-    <p>Escolha as três ferramentas hoje. Marque a hora fixa na agenda. Na primeira sessão, pegue a tarefa que mais dói e faça uma vez com IA, mesmo que fique pior que o método antigo. Anote. Em quatro semanas a pressão de saber tudo terá virado outra coisa: a segurança de saber bem o que importa para o seu trabalho. Se quiser um mapa do que aprender depois, o artigo sobre <a href="/artigos/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades">identificar e fechar lacunas de habilidades com IA</a> mostra como escolher o próximo passo sem voltar para a ansiedade.</p>
+    <p>Escolha as três ferramentas hoje. Marque a hora fixa na agenda. Na primeira sessão, pegue a tarefa que mais dói e faça uma vez com IA, mesmo que fique pior que o método antigo. Anote. Em quatro semanas a pressão de saber tudo terá virado outra coisa: a segurança de saber bem o que importa para o seu trabalho. Se quiser um mapa do que aprender depois, o artigo sobre <a href="/artigos/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades">identificar e fechar lacunas de habilidades com IA</a> mostra como escolher o próximo passo sem voltar para a ansiedade. Se o peso não é só aprender ferramenta, mas meta maior depois que a IA chegou, o guia sobre <a href="/artigos/sobrecarga-por-ia-e-nr-1-riscos-psicossociais-direitos-e-conversa-com-o-gestor">sobrecarga por IA no trabalho e a NR-1</a> mostra como registrar fatos e levar o assunto ao gestor.</p>
   `,
   faq: [
     {

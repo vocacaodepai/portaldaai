@@ -11,7 +11,7 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-11-12",
-  readTime: 8,
+  readTime: 9,
   imageQuery: "woman annoyed phone call",
   seed: 1184,
   kind: "guia",
@@ -129,6 +129,8 @@ export const article: Article = {
     <h2>O que esperar daqui para frente</h2>
 
     <p>A Agência Gov informa que o Origem Verificada, sistema que autentica a chamada e mostra na tela o nome da empresa e o motivo da ligação, começou a ser preparado em 2025, com selos de grandes chamadores previstos a partir de novembro daquele ano. A autenticação de todas as chamadas tem prazo de três anos, contados do novo regulamento. Quando chegar ao seu aparelho, ligação legítima vai aparecer com nome e logo, e o número "pelado" fica ainda mais suspeito.</p>
+
+    <p>O fim da obrigação do 0303 também não é assunto encerrado. Em 15 de janeiro de 2026, o <a href="https://www.mpf.mp.br/o-mpf/unidades/pr-go/noticias/mpf-recomenda-que-anatel-restabeleca-uso-obrigatorio-do-prefixo-0303-para-telemarketing" target="_blank" rel="noopener noreferrer">Ministério Público Federal recomendou à Anatel</a> que voltasse a exigir o prefixo no telemarketing ativo até o Origem Verificada estar plenamente implantado. O argumento é que o 0303 deixou de ser obrigatório antes de a autenticação chegar a toda a população, e que o sistema novo precisa funcionar também em celulares mais simples. Por isso, mantenha o bloqueio do 0303 ligado se o seu aparelho ou operadora oferecer, mas não conte com ele sozinho.</p>
 
     <p>Até lá, a combinação de cadastro, filtro e reclamação é o que funciona, junto com contas bem protegidas: a <a href="/artigos/chave-de-acesso-passkey-como-ativar-e-proteger-sua-conta-de-golpes">chave de acesso (passkey)</a> dificulta que um código arrancado por telefone abra sua conta. Faça os três passos hoje no seu celular e no de quem você ajuda. Para seguir organizando a vida digital, a <a href="/categoria/iniciantes">categoria Iniciantes</a> e o guia do <a href="/artigos/registrato-do-banco-central-conferir-contas-chaves-pix-e-dividas-no-seu-nome">Registrato do Banco Central</a> são bons próximos passos.</p>
   `,

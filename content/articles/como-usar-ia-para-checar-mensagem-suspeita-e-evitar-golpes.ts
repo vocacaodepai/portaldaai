@@ -89,7 +89,7 @@ Mensagem: [cole aqui, sem dados pessoais]</code></pre>
 
     <h2>Hábitos que protegem mais do que qualquer ferramenta</h2>
     <p>Ative a verificação em duas etapas nas contas importantes e nunca repasse códigos de autenticação, outra recomendação do CERT.br. Combine com a família uma palavra de segurança para pedidos de dinheiro por mensagem ou áudio. Desconfie de contatos que mudam de número e pedem Pix urgente. E mantenha o hábito de digitar o endereço do banco em vez de seguir links.</p>
-    <p>Se a sua dúvida é mais ampla e você ainda está entendendo como a IA funciona, o <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo de inteligência artificial</a> e o texto sobre <a href="/artigos/meta-ai-no-whatsapp-o-que-faz-privacidade-e-como-usar">Meta AI no WhatsApp</a> mostram o que o assistente do aplicativo acessa. Para mais conteúdo do nível iniciante, visite a categoria <a href="/categoria/iniciantes">IA para Iniciantes</a>.</p>
+    <p>Se a sua dúvida é mais ampla e você ainda está entendendo como a IA funciona, o <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">guia completo de inteligência artificial</a> e o texto sobre <a href="/artigos/meta-ai-no-whatsapp-o-que-faz-privacidade-e-como-usar">Meta AI no WhatsApp</a> mostram o que o assistente do aplicativo acessa. Para mais conteúdo do nível iniciante, visite a categoria <a href="/categoria/iniciantes">IA para Iniciantes</a>. Para as ligações, e não só as mensagens, vale ligar o filtro de spam do celular e cadastrar o número no Não Me Perturbe, como mostra o guia sobre <a href="/artigos/ligacoes-de-telemarketing-nao-me-perturbe-filtro-de-spam-e-ia">ligações de telemarketing</a>.</p>
   `,
   faq: [
     {

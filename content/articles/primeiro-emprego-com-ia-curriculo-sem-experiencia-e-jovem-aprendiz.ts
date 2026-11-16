@@ -114,7 +114,7 @@ export const article: Article = {
 
     <h2>Seu próximo passo</h2>
 
-    <p>Reserve 40 minutos hoje: escreva dez atividades que você já fez, use o prompt 1 para a IA fazer perguntas e monte três tópicos com o prompt 2. Depois peça a alguém de confiança para ler e dizer se faz sentido. Se você sente que a insegurança atrapalha, leia o texto sobre <a href="/artigos/sindrome-do-impostor-usar-ia-nao-te-torna-menos-capaz">síndrome do impostor</a>. Para mais caminhos, visite a categoria <a href="/categoria/carreira">Carreira</a>.</p>
+    <p>Reserve 40 minutos hoje: escreva dez atividades que você já fez, use o prompt 1 para a IA fazer perguntas e monte três tópicos com o prompt 2. Depois peça a alguém de confiança para ler e dizer se faz sentido. Se você sente que a insegurança atrapalha, leia o texto sobre <a href="/artigos/sindrome-do-impostor-usar-ia-nao-te-torna-menos-capaz">síndrome do impostor</a>. Para mais caminhos, visite a categoria <a href="/categoria/carreira">Carreira</a>. Se a ideia é começar ainda neste fim de ano, o guia de <a href="/artigos/vaga-temporaria-no-natal-2026-curriculo-entrevista-e-efetivacao-com-ia">vaga temporária no Natal</a> mostra como montar o currículo de uma página e o que pesa na efetivação.</p>
   `,
   faq: [
     {

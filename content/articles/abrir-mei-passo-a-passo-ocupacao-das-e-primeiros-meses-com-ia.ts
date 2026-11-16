@@ -112,7 +112,7 @@ O que pretendo fazer: [DESCREVA]</code></pre>
 
     <h2>Próximo passo</h2>
 
-    <p>Antes de abrir, escreva em uma folha o que você vai vender, para quem e por quanto, e confira a ocupação na lista oficial. Se a ideia envolve crescer, leia também a <a href="/artigos/reforma-tributaria-2026-pequeno-negocio-nota-fiscal-e-organizacao-com-ia">reforma tributária e o pequeno negócio</a>. Com tudo conferido, o cadastro leva poucos minutos, e o trabalho de verdade é manter a rotina em dia nos primeiros meses.</p>
+    <p>Antes de abrir, escreva em uma folha o que você vai vender, para quem e por quanto, e confira a ocupação na lista oficial. Se a ideia envolve crescer, leia também a <a href="/artigos/reforma-tributaria-2026-pequeno-negocio-nota-fiscal-e-organizacao-com-ia">reforma tributária e o pequeno negócio</a>. Com tudo conferido, o cadastro leva poucos minutos, e o trabalho de verdade é manter a rotina em dia nos primeiros meses. Com o CNPJ ativo e as certidões em dia, até a prefeitura vira cliente possível: o guia de <a href="/artigos/vender-para-prefeitura-sendo-mei-licitacao-dispensa-e-edital-com-ia">como vender para prefeitura sendo MEI</a> explica dispensa, disputa exclusiva e onde achar os pedidos.</p>
   `,
   faq: [
     {

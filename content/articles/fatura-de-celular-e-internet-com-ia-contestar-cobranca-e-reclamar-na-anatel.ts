@@ -114,7 +114,7 @@ export const article: Article = {
 
     <p>Se a operadora negar sem explicar, não responder em 30 dias ou ignorar o protocolo, leve o caso à Anatel pelos canais listados em <a href="https://www.gov.br/anatel/pt-br/canais_atendimento" target="_blank" rel="noopener noreferrer">canais de atendimento</a>: aplicativo, internet, telefone, WhatsApp e presencial. A página não mostra números e endereços no corpo, então abra o canal que preferir e siga as instruções. Leve a linha do tempo pronta: datas, protocolos, valores e o que você pediu.</p>
 
-    <p>Para ver como a IA ajuda em outros papéis do dia a dia, passe pela <a href="/categoria/iniciantes">categoria de iniciantes</a>. E se a cobrança indevida veio de golpe de pagamento, o texto sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix</a> mostra os primeiros passos.</p>
+    <p>Para ver como a IA ajuda em outros papéis do dia a dia, passe pela <a href="/categoria/iniciantes">categoria de iniciantes</a>. E se a cobrança indevida veio de golpe de pagamento, o texto sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix</a> mostra os primeiros passos. Se o incômodo é ligação de oferta, e não cobrança, o passo a passo para <a href="/artigos/ligacoes-de-telemarketing-nao-me-perturbe-filtro-de-spam-e-ia">bloquear telemarketing com o Não Me Perturbe</a> resolve boa parte do problema.</p>
   `,
   faq: [
     {
