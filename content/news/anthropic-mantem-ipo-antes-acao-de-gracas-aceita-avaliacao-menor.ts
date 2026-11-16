@@ -6,14 +6,22 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times",
+  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
+  updatedAt: "2026-11-16T12:20:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (12:20)</h2>
+    <p>A Anthropic saiu da fase de estimativas e já tem data e preço na mesa. Segundo o guia publicado pela CNBC nesta segunda-feira, 16 de novembro, a empresa oferece 825 milhões de ações classe A numa faixa de US$ 70 a US$ 78 por papel, com a precificação prevista para a noite de quarta-feira, 18 de novembro, e o início das negociações na Nasdaq na quinta, 19, com o código ANT. A faixa foi apresentada em 10 de novembro, quando a empresa abriu o roadshow, a rodada de apresentações a investidores.</p>
+    <p>No topo da faixa, a oferta levanta mais de US$ 64 bilhões. A CNBC calcula a avaliação em US$ 1,405 trilhão. Segundo a Bloomberg, citada pelo site StockAnalysis, essa conta inclui opções, ações restritas e reservas de planos para funcionários; considerando só as ações em circulação depois da oferta, a empresa valeria cerca de US$ 1,02 trilhão a US$ 78. Os dois números ficam dentro ou abaixo da faixa de US$ 1,25 trilhão a US$ 1,75 trilhão relatada pelo Financial Times e confirmam o que esta notícia antecipou: a Anthropic aceitou estrear abaixo dos US$ 2 trilhões.</p>
+    <p>A procura está forte. Ainda segundo a Bloomberg, via StockAnalysis, os pedidos somam cerca de seis vezes o número de ações oferecidas, e a empresa pretende dar prioridade a quem já é investidor, o que deve deixar parte dos compradores com menos papéis do que pediu. Além da oferta pública, há uma colocação privada de US$ 26 bilhões ao preço do IPO, com a Nvidia comprando cerca de US$ 10 bilhões e participação de Alphabet, Microsoft, TSMC e outras. Somadas, as duas operações chegam perto dos US$ 90 bilhões, dentro da faixa de US$ 80 bilhões a US$ 100 bilhões que o FT havia indicado.</p>
+    <p>Um detalhe interessa diretamente a pessoas físicas: de acordo com a CNBC, até 20% da oferta deve ser destinada ao varejo, nos Estados Unidos e em outros países. A reportagem não lista quais países, então ainda não está confirmado se haverá canal direto para investidores no Brasil; por ora, o caminho para quem está aqui continua sendo uma corretora com acesso à bolsa americana, comprando depois da estreia.</p>
+    <p>O que ainda pode mudar: o preço final só sai na quarta, e a faixa de US$ 70 a US$ 78 ainda é preliminar, ou seja, pode ser revisada até lá. O pano de fundo também pesa. A Nvidia, que entra na colocação privada, divulga resultados na terça, 17, em meio à crise de comando que acompanhamos em <a href="/noticias/bessent-pede-ceo-de-fora-nvidia-vendas-chips-china">Bessent pede CEO de fora na Nvidia</a>, e o governo americano acaba de sinalizar apoio ao setor, como contamos em <a href="/noticias/governo-trump-campeoes-nacionais-ia-nvidia-openai-anthropic">Governo Trump vai nomear Nvidia, OpenAI e Anthropic campeãs nacionais de IA</a>. Estreia disputada costuma vir com oscilação forte nos primeiros dias. Isto é informação, não recomendação de investimento.</p>
+
     <p>A Anthropic, empresa dona do Claude, decidiu seguir com a abertura de capital antes do Dia de Ação de Graças nos Estados Unidos, que neste ano cai em 26 de novembro, mesmo depois da forte queda das ações de tecnologia na última semana. Segundo investidores ouvidos pelo Financial Times, em reportagem resumida pela publicação alemã The Decoder neste sábado (7), a empresa pretende levantar entre US$ 80 bilhões e US$ 100 bilhões na oferta e aceita uma avaliação entre US$ 1,25 trilhão e US$ 1,75 trilhão.</p>
 
     <p>A faixa é maior que os US$ 965 bilhões da última avaliação privada da empresa, mas fica abaixo dos US$ 2 trilhões que os investidores mais otimistas chegaram a projetar nas últimas semanas. Na prática, a Anthropic escolheu não esperar o mercado melhorar: prefere estrear valendo menos do que o teto imaginado a adiar a operação e correr o risco de um cenário ainda pior mais adiante.</p>
