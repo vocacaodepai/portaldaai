@@ -410,6 +410,9 @@ export const productSubcategories = [
   { slug: "creme-assadura", label: "Creme para Assaduras", category: "bebe" },
   { slug: "ar-condicionado-portatil", label: "Ar-condicionado Portátil", category: "casa-inteligente" },
   { slug: "smartphone", label: "Smartphone", category: "informatica" },
+  { slug: "bola-volei", label: "Bola de Vôlei", category: "esporte" },
+  { slug: "aparelho-barbear", label: "Aparelho de Barbear", category: "saude-bem-estar" },
+  { slug: "papel-sulfite", label: "Papel Sulfite", category: "escritorio" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
