@@ -34,48 +34,62 @@ Todo artigo de AI Indica mostra o selo de nota no card (`ReviewBadge` em
   não erro de arredondamento — mostra diferença real entre dois produtos
   que em nota inteira pareceriam iguais.
 
-## Filtros de navegação (desde out/2026): cada aba filtra pelo próprio tema
+## Filtros de navegação (desde nov/2026): listagens paginadas, filtro principal por rota
 
-Cada listagem tem o filtro certo pro que ela mostra, em vez do mesmo chip de
-categoria do site inteiro repetido em toda aba:
+Desde 16/11/2026 (recuperação do Search Console) nenhuma listagem mostra
+tudo numa página só: todas paginam e os filtros principais são **rotas
+estáticas indexáveis** (geradas com `generateStaticParams`), com os chips
+como links `<a href>`. Só filtros secundários continuam no navegador, e
+valem apenas para os cards da página atual.
 
-- **`/artigos` e `/categoria/[slug]`** (exceto ferramentas e ai-indica):
-  `ArticleCategoryChips` (`components/ArticleCategoryChips.tsx`), só com as
-  categorias gerais (`articleFilterCategories` em `lib/articles.ts`:
-  iniciantes, monetização, negócios, carreira, futuro). Ferramentas e AI
-  Indica não aparecem aqui — cada uma tem a aba e o filtro próprios abaixo.
+- **Paginação**: `/artigos`, `/categoria/ai-indica`, as 5 categorias gerais e
+  todas as rotas de filtro usam 30 cards por página (`LISTING_PER_PAGE` em
+  `components/listing/paginate.ts`); `/categoria/ferramentas` segue com 12
+  (`ARTICLES_PER_PAGE`, mantém as URLs antigas). Página N em
+  `<base>/pagina/N`, com canonical próprio e links reais de paginação
+  (`components/Pagination.tsx`). `<base>/pagina/1` e página além do fim
+  redirecionam (301) para `<base>`, então endereço antigo não quebra.
+- **Rotas de filtro** (`components/listing/categoriaViews.ts`, que resolve
+  título, descrição, itens, breadcrumbs e se é indexável; usado pelas páginas
+  e pelo sitemap):
+  - `/categoria/ai-indica/<productCategory>` e
+    `/categoria/ai-indica/<productCategory>/<productSubcategory>` (ex.:
+    `/categoria/ai-indica/cozinha/air-fryer`).
+  - `/categoria/<geral>/<articleSubcategory>` para iniciantes, monetização,
+    negócios, carreira e futuro (ex.: `/categoria/monetizacao/produtos-digitais`).
+  - Cada uma com `/pagina/N`. Só existem as combinações com pelo menos 1
+    artigo (`dynamicParams = false`); com menos de 3 artigos
+    (`MIN_INDEXABLE_FILTER`) a rota fica no ar, mas `noindex, follow` e fora
+    do sitemap (página rala).
+- Por isso todo artigo de AI Indica precisa de `productCategory` e
+  `productSubcategory`, e todo artigo das 5 gerais de `articleSubcategory`
+  (`lib/types.ts`): sem eles, o artigo só aparece na raiz da categoria, em
+  nenhuma rota de filtro. Tema novo sem subtipo/subcategoria que sirva:
+  adicionar em `lib/types.ts` antes de publicar.
+- **`/artigos`**: todos os artigos (inclusive AI Indica e reviews de
+  ferramenta), paginado. `ArtigosAreaChips` (`components/ArtigosAreaFilter.tsx`)
+  são links por área: as 5 categorias gerais, "Reviews de ferramentas"
+  (`/reviews`), "Guias de ferramentas" (`/categoria/ferramentas`) e "AI
+  Indica" (`/categoria/ai-indica`).
+- **`/categoria/[slug]`** das 5 gerais: `ArticleCategoryChips`
+  (`components/ArticleCategoryChips.tsx`, categorias gerais de
+  `articleFilterCategories` em `lib/articles.ts`) e, abaixo,
+  `ArticleSubcategoryLinks` (`components/ArticleSubcategoryFilter.tsx`), links
+  para as rotas de subtipo. Ferramentas e AI Indica não aparecem nesses chips.
+- **`/categoria/ai-indica`**: `ProductCategoryLinks`
+  (`components/ProductCategoryFilter.tsx`), duas camadas de links (categoria
+  de produto; dentro dela, tipo de produto). Abaixo, o filtro secundário
+  `AiIndicaKindFilter` (`components/AiIndicaFilter.tsx`): "Todos os tipos /
+  Review individual / Review comparativo" (`kind: "review"` = individual,
+  `kind: "guia"` = comparativo), no navegador, só sobre os cards da página
+  (atributo `data-kind` em `ArticleCard`, combinado por
+  `components/filterVisibility.ts`). O card de AI Indica mostra ao lado do
+  selo da categoria o sub-rótulo "Review individual" ou "Review comparativo",
+  com `title` explicando as duas.
 - **`/reviews`**: só reviews de ferramenta de IA (`category: "ferramentas"`
-  **e** `kind: "review"` — `getReviews()` em `lib/articles.ts`). Reviews de
-  produto físico (`category: "ai-indica"`) não aparecem mais aqui, têm o
-  filtro próprio em `/categoria/ai-indica`. O filtro é `ReviewToolChips`
-  (`components/ReviewToolChips.tsx`), por `review.tool` (ex.: "ChatGPT
-  Plus", "Claude Pro") — fica escondido sozinho enquanto só existir 1
-  ferramenta revisada.
-- **`/categoria/ai-indica`**: filtro de duas camadas por categoria de
-  produto (`ProductCategoryFilter`, `components/ProductCategoryFilter.tsx`),
-  não pela categoria de artigo. Todo artigo de AI Indica (comparativo ou
-  review de produto único) precisa ter `productCategory` e
-  `productSubcategory` (`lib/types.ts`: `productCategories`/
-  `productSubcategories`) — ex.: `productCategory: "cozinha"`,
-  `productSubcategory: "air-fryer"`. Sem esses dois campos o artigo some do
-  filtro (continua listado em "Todos", só não aparece ao filtrar por
-  categoria/subcategoria específica). Essa página mostra todos os artigos
-  de ai-indica numa página só (sem paginar), porque o filtro só funciona
-  dentro dos cards que já estão na página.
-- **`/categoria/[slug]`** das 5 categorias gerais (iniciantes, monetização,
-  negócios, carreira, futuro) ganham, abaixo do `ArticleCategoryChips`, um
-  subfiltro de uma camada só (`ArticleSubcategoryFilter`,
-  `components/ArticleSubcategoryFilter.tsx`) pelo subtipo de artigo dentro
-  daquela categoria — ex., em Monetização: Freelas e serviço, Produtos
-  digitais, Automação e agentes... Todo artigo novo dessas 5 categorias
-  precisa ter `articleSubcategory` (`lib/types.ts`:
-  `articleSubcategories`, cada entrada aponta pro slug de `categories` a
-  que pertence) — sem o campo, o artigo só não aparece ao filtrar por um
-  subtipo específico (continua em "Todos"). Essas 5 categorias também
-  mostram tudo numa página só (sem paginar), mesmo motivo do ai-indica.
-  Cobrindo um tema que não se encaixa em nenhum subtipo existente da
-  categoria, adicionar o subtipo novo em `articleSubcategories` antes de
-  publicar.
+  **e** `kind: "review"`, `getReviews()` em `lib/articles.ts`), com
+  `ReviewToolChips` (`components/ReviewToolChips.tsx`, filtro no navegador
+  por `review.tool`, escondido enquanto só existir 1 ferramenta revisada).
 - **Menu do topo** (`components/Header.tsx`, `MobileMenu.tsx`): não existe mais
   o item solto "Categorias". "Artigos" abre um submenu (hover/foco no desktop,
   toque no mobile, via `<details>`) com Todos os artigos, as 5 categorias
@@ -83,41 +97,38 @@ categoria do site inteiro repetido em toda aba:
   `/categoria/ferramentas` segue existindo por SEO, mas não aparece no menu) e
   "AI Indica". O botão "AI Indica" do menu tem cor de destaque (gradiente
   accent -> accent-2).
-- **`/artigos`**: mostra todos os artigos numa página só (sem paginar;
-  `/artigos/pagina/N` redireciona para `/artigos`), incluindo AI Indica e
-  reviews de ferramenta, com `ArtigosAreaFilter`
-  (`components/ArtigosAreaFilter.tsx`): chips por área (5 categorias gerais,
-  Reviews de ferramentas, Guias de ferramentas, AI Indica). "Reviews de
-  ferramentas" abre o `ReviewToolChips`; "AI Indica" abre o `AiIndicaFilter`.
-  Tudo filtra no navegador sobre os cards (atributos `data-category`,
-  `data-kind` etc. em `ArticleCard`), combinando filtros por
-  `components/filterVisibility.ts`.
-- **Tipo de review na AI Indica** (`components/AiIndicaFilter.tsx`): em
-  `/categoria/ai-indica` (e em `/artigos` > AI Indica), antes dos filtros de
-  produto há "Todos / Review individual / Review comparativo" (`kind: "review"`
-  = individual, `kind: "guia"` = comparativo). Só depois de escolher um tipo
-  aparece o `ProductCategoryFilter`, aplicado dentro do tipo escolhido. O card
-  de AI Indica mostra ao lado do selo da categoria o sub-rótulo "Review
-  individual" ou "Review comparativo", com `title` explicando as duas.
 - **`ScoreScaleNote`** é retrátil (`<details>`, fechada por padrão, com seta);
-  mesmo conteúdo de antes.
+  aparece em toda listagem da AI Indica.
 - **Abertura curta**: `/reviews` (título "Reviews de ferramentas") e
   `/categoria/ai-indica` têm no máximo ~2 linhas antes do filtro; o texto
   longo (intro da categoria, "Como avaliamos") vai para o fim da página,
   depois da lista (`footerText` em `ArticleListing`).
-- **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
-  sem chip de filtro extra — o conteúdo de ferramenta agora vive
-  conceitualmente em `/reviews` (quando é review) e nos artigos gerais
-  (quando é guia).
+- **`/categoria/ferramentas`** continua existindo (link antigo, SEO), sem
+  chip de filtro extra.
 - A home (`/`) e a página 404 continuam usando o `CategoryChips` original
-  (site inteiro: todas as categorias + Reviews + Notícias) — ali faz
-  sentido mostrar tudo, é navegação geral, não filtro de uma listagem.
+  (site inteiro: todas as categorias + Reviews + Notícias).
 
 Taxonomia de produto hoje (`lib/types.ts`): Cozinha, Casa Inteligente,
 Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar, cada
 uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
 encaixa em nenhuma subcategoria existente, adicionar a subcategoria nova
 (e, se precisar, a categoria nova) em `lib/types.ts` antes de publicar.
+
+## Sitemap, robots e noindex (desde nov/2026)
+
+- `/sitemap.xml` é um **índice** (`app/sitemap.xml/route.ts`) que aponta para
+  `/sitemaps/sitemap/paginas.xml`, `/sitemaps/sitemap/artigos.xml` e
+  `/sitemaps/sitemap/noticias.xml` (`app/sitemaps/sitemap.ts`, com
+  `generateSitemaps`; entradas em `lib/sitemap.ts`) e para
+  `/news-sitemap.xml` (Google News: só notícias das últimas 48 h, revalida de
+  hora em hora). Sem `priority`/`changeFrequency`; `lastModified` =
+  `updated ?? date` no artigo, `publishedAt ?? date` na notícia.
+- **`noindex?: boolean`** em `Article` e `NewsItem` (`lib/types.ts`): vira
+  `robots: { index: false, follow: true }` no metadata e tira a URL do
+  sitemap e do feed, sem apagar a página. Só marcar com decisão do dono, a
+  partir dos dados do Search Console.
+- `/busca` é `noindex, follow` e fica liberada no `robots.txt` (o robô precisa
+  abrir a página para ver o noindex).
 
 ## Imagens de pessoas e empresas reais (artigos e notícias, qualquer categoria)
 

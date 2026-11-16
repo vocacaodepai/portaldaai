@@ -1,136 +1,173 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import {
-  articleSubcategories,
-  categories,
-  getArticlesByCategory,
-  getCategory,
-  isCategory,
-  site,
-} from "@/lib/articles";
+import { notFound, permanentRedirect } from "next/navigation";
+import { articleSubcategories, getArticlesByCategory, productCategories, productSubcategories, site } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { ScoreScaleNote } from "@/components/ScoreScaleNote";
-import { ArticleListing } from "./ArticleListing";
-import { buildAiIndicaFilterData } from "./aiIndicaFilterData";
+import { ArticleSubcategoryLinks } from "@/components/ArticleSubcategoryFilter";
+import { ProductCategoryLinks } from "@/components/ProductCategoryFilter";
+import { AiIndicaKindFilter } from "@/components/AiIndicaFilter";
+import { ArticleCategoryChips } from "@/components/ArticleCategoryChips";
+import { ArticleListing, ARTICLES_GRID_ID } from "./ArticleListing";
 import { JsonLd } from "./JsonLd";
 import { categoryIntros } from "./categoryIntros";
 import { listingMetadata, pagedTitle } from "./metadata";
-import { ARTICLES_PER_PAGE, countPages, slicePage } from "./paginate";
+import { parsePage, slicePage } from "./paginate";
+import { resolveCategoriaView, viewTotalPages, type CategoriaView } from "./categoriaViews";
 import { pageHref } from "@/components/Pagination";
 
-/**
- * ai-indica e as 5 categorias gerais (todas com subfiltro próprio) mostram
- * tudo numa página só: o filtro (ProductCategoryFilter/ArticleSubcategoryFilter)
- * só funciona dentro dos cards que já estão na página, então paginar
- * quebraria o filtro pra quem está numa página diferente do que busca.
- * Só "ferramentas" (sem subfiltro) continua paginando normalmente.
- */
-function perPageFor(slug: string, total: number): number {
-  return slug === "ferramentas" ? ARTICLES_PER_PAGE : Math.max(total, 1);
-}
-
-export function categoriaBase(slug: string): string {
-  return `/categoria/${slug}`;
-}
-
-/** Artigos por página da categoria (o sitemap usa a mesma conta das rotas). */
-export function categoriaPerPage(slug: string): number {
-  return perPageFor(slug, getArticlesByCategory(slug).length);
-}
+export { categoriaBase, categoriaParams } from "./categoriaViews";
 
 export function categoriaTotalPages(slug: string): number {
-  const total = getArticlesByCategory(slug).length;
-  return countPages(total, perPageFor(slug, total));
+  const v = resolveCategoriaView(slug);
+  return v ? viewTotalPages(v) : 1;
 }
 
-/** Params de todas as categorias (para a rota raiz). */
-export function categoriaParams(): { slug: string }[] {
-  return categories.map((c) => ({ slug: c.slug }));
-}
-
-export function categoriaMetadata(slug: string, page: number): Metadata {
-  const category = getCategory(slug);
-  if (!category) return {};
-  return listingMetadata({
-    title: pagedTitle(category.label, page),
-    description: category.description,
-    path: pageHref(categoriaBase(slug), page),
+export function categoriaMetadata(slug: string, page: number, filtro?: string, sub?: string): Metadata {
+  const view = resolveCategoriaView(slug, filtro, sub);
+  if (!view || page > viewTotalPages(view)) return {};
+  const meta = listingMetadata({
+    title: pagedTitle(view.title, page),
+    description: view.description,
+    path: pageHref(view.base, page),
   });
+  return view.indexable ? meta : { ...meta, robots: { index: false, follow: true } };
 }
 
-export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
-  if (!isCategory(slug)) notFound();
-  const category = getCategory(slug);
-  if (!category) notFound();
+/**
+ * Página de uma rota /pagina/N: a página 1 e páginas além do fim redirecionam
+ * (301) para a raiz da listagem, então nenhum endereço antigo (de quando a
+ * listagem tinha outro número de páginas) quebra.
+ */
+export function CategoriaPagedPage({
+  slug,
+  rawPage,
+  filtro,
+  sub,
+}: {
+  slug: string;
+  rawPage: string;
+  filtro?: string;
+  sub?: string;
+}) {
+  const view = resolveCategoriaView(slug, filtro, sub);
+  if (!view) notFound();
+  const page = parsePage(rawPage);
+  if (!page) notFound();
+  if (page === 1 || page > viewTotalPages(view)) permanentRedirect(view.base);
+  return <CategoriaPage slug={slug} page={page} filtro={filtro} sub={sub} />;
+}
 
-  const all = getArticlesByCategory(slug);
-  const perPage = perPageFor(slug, all.length);
-  const totalPages = countPages(all.length, perPage);
+/**
+ * Filtros principais como links (rotas estáticas indexáveis): categoria e tipo
+ * de produto na AI Indica, subtipo nas 5 gerais. O tipo de review da AI Indica
+ * (individual/comparativo) é filtro secundário, no navegador, só sobre os
+ * cards da página atual.
+ */
+function Filters({ view }: { view: CategoriaView }) {
+  if (view.slug === "ai-indica") {
+    const all = getArticlesByCategory("ai-indica");
+    const cats = productCategories.filter((c) => all.some((a) => a.productCategory === c.slug));
+    const subs = view.productCategory
+      ? productSubcategories.filter(
+          (s) => s.category === view.productCategory && all.some((a) => a.productSubcategory === s.slug)
+        )
+      : [];
+    return (
+      <div className="mt-8 border-y border-border py-3">
+        <ProductCategoryLinks
+          categories={cats}
+          subcategories={subs}
+          activeCategory={view.productCategory}
+          activeSub={view.productSubcategory}
+        />
+        <AiIndicaKindFilter rootId={ARTICLES_GRID_ID} className="mt-3" />
+      </div>
+    );
+  }
+  if (view.slug === "ferramentas") return null;
+  const all = getArticlesByCategory(view.slug);
+  const subs = articleSubcategories
+    .filter((s) => s.category === view.slug)
+    .filter((s) => all.some((a) => a.articleSubcategory === s.slug));
+  return (
+    <>
+      <ArticleCategoryChips active={view.slug} className="mt-8 border-y border-border py-3" />
+      {subs.length > 0 && (
+        <ArticleSubcategoryLinks
+          category={view.slug}
+          subcategories={subs}
+          active={view.articleSubcategory}
+          className="mt-3"
+        />
+      )}
+    </>
+  );
+}
+
+export function CategoriaPage({
+  slug,
+  page,
+  filtro,
+  sub,
+}: {
+  slug: string;
+  page: number;
+  filtro?: string;
+  sub?: string;
+}) {
+  const view = resolveCategoriaView(slug, filtro, sub);
+  if (!view) notFound();
+  const totalPages = viewTotalPages(view);
   if (page > totalPages) notFound();
-  const items = slicePage(all, page, perPage);
-  const base = categoriaBase(slug);
-  const path = pageHref(base, page);
-
-  const productFilter =
-    slug === "ai-indica"
-      ? buildAiIndicaFilterData(all)
-      : undefined;
-
-  const subcategoryFilter =
-    slug !== "ai-indica" && slug !== "ferramentas"
-      ? articleSubcategories
-          .filter((s) => s.category === slug)
-          .filter((s) => all.some((a) => a.articleSubcategory === s.slug))
-      : undefined;
+  const items = slicePage(view.items, page, view.perPage);
+  const path = pageHref(view.base, page);
 
   const collection = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: pagedTitle(category.label, page),
-    description: category.description,
+    name: pagedTitle(view.title, page),
+    description: view.description,
     url: absoluteUrl(path),
     inLanguage: "pt-BR",
     isPartOf: { "@id": `${site.url}/#website` },
     publisher: { "@id": `${site.url}/#organization` },
     mainEntity: {
       "@type": "ItemList",
-      numberOfItems: all.length,
+      numberOfItems: view.items.length,
       itemListElement: items.map((a, i) => ({
         "@type": "ListItem",
-        position: (page - 1) * ARTICLES_PER_PAGE + i + 1,
+        position: (page - 1) * view.perPage + i + 1,
         name: a.title,
         url: absoluteUrl(`/artigos/${a.slug}`),
       })),
     },
   };
 
+  const isAiIndica = view.slug === "ai-indica";
+  const intro = view.isRoot && !isAiIndica && page === 1 ? categoryIntros[view.slug] : undefined;
+  const footerText = view.isRoot && isAiIndica ? categoryIntros[view.slug] : undefined;
+
   return (
     <>
       <JsonLd data={collection} />
-      <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Início", path: "/" },
-          { name: category.label, path: base },
-        ])}
-      />
+      <JsonLd data={breadcrumbJsonLd(view.crumbs)} />
       <ArticleListing
-        label="Categoria"
-        title={category.label}
-        description={category.description}
-        intro={slug === "ai-indica" ? undefined : categoryIntros[slug]}
-        footerText={slug === "ai-indica" ? categoryIntros[slug] : undefined}
+        label={view.isRoot ? "Categoria" : view.categoryLabel}
+        title={view.title}
+        description={view.description}
+        intro={intro}
+        footerText={footerText}
         items={items}
-        total={all.length}
+        total={view.items.length}
         page={page}
         totalPages={totalPages}
-        basePath={base}
-        active={slug}
-        productFilter={productFilter}
-        subcategoryFilter={subcategoryFilter}
+        basePath={view.base}
+        active={view.slug}
+        filters={<Filters view={view} />}
         emptyTitle="Os primeiros artigos desta categoria estão a caminho"
         emptyText="Publicamos conteúdo novo todos os dias. Enquanto isso, veja o que já está no ar nas outras categorias."
       >
-        {slug === "ai-indica" && <ScoreScaleNote />}
+        {isAiIndica && <ScoreScaleNote />}
       </ArticleListing>
     </>
   );

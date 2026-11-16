@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
 import { Container } from "@/components/Container";
-import { CoverImage } from "@/components/CoverImage";
+import { CoverImage, getCoverPhoto } from "@/components/CoverImage";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
@@ -18,7 +18,7 @@ import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml } from "@/lib/html";
 import { getNewsBySlug, getRelatedNews, news, newsImageSeed } from "@/lib/news";
-import { absoluteUrl, breadcrumbJsonLd, formatDate, formatTime, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, publisherJsonLd, formatDate, formatTime, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -38,6 +38,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: item.title,
     description,
     alternates: alternatesFor(path),
+    // noindex por decisão editorial (lib/types.ts): sai do índice, links seguem valendo.
+    ...(item.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       url: absoluteUrl(path),
@@ -45,8 +47,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       description,
       siteName: site.name,
       locale: site.locale,
-      publishedTime: item.date,
-      modifiedTime: item.date,
+      publishedTime: item.publishedAt ?? item.date,
+      modifiedTime: item.updatedAt ?? item.publishedAt ?? item.date,
       authors: item.author === author.name ? [absoluteUrl(author.url)] : undefined,
       section: "Notícias",
       tags: ["Notícias", item.sourceName],
@@ -76,12 +78,18 @@ export default async function NewsPage({ params }: { params: Params }) {
   const url = absoluteUrl(path);
   const isHouseAuthor = item.author === author.name;
   const timeLabel = formatTime(item.publishedAt);
+  const updatedLabel = item.updatedAt && item.updatedAt !== item.publishedAt ? formatTime(item.updatedAt) : "";
+  const updatedDay = item.updatedAt ? item.updatedAt.slice(0, 10) : "";
   // Notícia não tem anúncio no meio do texto: o corpo vem inteiro (adBreaks vazio).
   const prepared = item.content ? prepareArticleHtml(item.content, { adBreaks: [] }) : null;
   const body = prepared?.parts.join("") ?? "";
   const showAd = (prepared?.words ?? 0) >= 250;
   const related = getRelatedNews(item, 6);
   const host = sourceHost(item.sourceUrl);
+  // Mesma foto que a capa mostra (só existe capa com imageQuery).
+  const cover = item.imageQuery
+    ? await getCoverPhoto(item.imageQuery, newsImageSeed(item.slug), item.coverImage)
+    : null;
 
   const authorLd = isHouseAuthor
     ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url), image: absoluteUrl(author.image) }
@@ -93,11 +101,12 @@ export default async function NewsPage({ params }: { params: Params }) {
     "@id": `${url}#article`,
     headline: item.title,
     description: metaDescription(item.summary),
-    image: [absoluteUrl(`${path}/opengraph-image`)],
-    datePublished: item.date,
-    dateModified: item.date,
+    image: [...(cover ? [absoluteUrl(cover.url)] : []), absoluteUrl(`${path}/opengraph-image`)],
+    // Horário real com fuso (-03:00) quando existe (publishedAt/updatedAt); senão só a data.
+    datePublished: item.publishedAt ?? item.date,
+    dateModified: item.updatedAt ?? item.publishedAt ?? item.date,
     author: authorLd,
-    publisher: { "@id": `${site.url}/#organization` },
+    publisher: publisherJsonLd(),
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     isPartOf: { "@id": `${site.url}/#website` },
     isBasedOn: item.sourceUrl,
@@ -168,6 +177,17 @@ export default async function NewsPage({ params }: { params: Params }) {
                   {formatDate(item.date)}
                   {timeLabel && ` · ${timeLabel}`}
                 </time>
+                {updatedLabel && (
+                  <>
+                    <span aria-hidden="true" className="hidden sm:inline">
+                      ·
+                    </span>
+                    <span>
+                      Atualizado {updatedDay && updatedDay !== item.date ? `em ${formatDate(updatedDay)} ` : ""}às{" "}
+                      <time dateTime={item.updatedAt}>{updatedLabel}</time>
+                    </span>
+                  </>
+                )}
                 <span aria-hidden="true" className="hidden sm:inline">
                   ·
                 </span>

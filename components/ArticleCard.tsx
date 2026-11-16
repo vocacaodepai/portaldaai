@@ -176,16 +176,13 @@ export function ArticleCard({
 
   return (
     <article
-      // content-visibility: o navegador só desenha os cards perto da tela. As
-      // listagens que mostram tudo numa página só (/artigos, categorias com
-      // filtro) têm centenas de cards; sem isso a página trava no celular.
+      // content-visibility: o navegador só desenha os cards perto da tela.
+      // data-category/data-kind/data-review-tool: filtros secundários no
+      // navegador (tipo de review da AI Indica, ferramenta em /reviews).
       className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover [content-visibility:auto] [contain-intrinsic-size:auto_420px]"
       data-category={article.category}
       data-kind={article.kind ?? "guia"}
-      data-product-category={article.productCategory}
-      data-product-subcategory={article.productSubcategory}
       data-review-tool={article.review?.tool}
-      data-article-subcategory={article.articleSubcategory}
     >
       <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
         <CoverImage

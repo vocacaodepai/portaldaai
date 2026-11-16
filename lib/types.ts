@@ -469,6 +469,12 @@ export type Article = {
   faq?: FaqItem[];
   /** Quiz curto pra fixar o aprendizado, exibido ao fim do artigo. */
   quiz?: QuizQuestion[];
+  /**
+   * Tira a página do índice do Google (robots: noindex, follow) e do sitemap,
+   * sem apagar a URL (continua no ar e nas listagens). Só marcar com decisão
+   * do dono, a partir dos dados do Search Console. Padrão: false.
+   */
+  noindex?: boolean;
 };
 
 export type NewsFaqItem = FaqItem;
@@ -501,6 +507,13 @@ export type NewsItem = {
    */
   publishedAt?: string;
   /**
+   * Horário real da última atualização relevante do texto (ISO 8601 com
+   * offset, ex.: "2026-11-16T18:05:00-03:00"), para notícia de última hora
+   * que ganha fato novo. Vira dateModified no JSON-LD, "Atualizado às HH:MM"
+   * no topo da notícia e o lastModified dela no sitemap. Opcional.
+   */
+  updatedAt?: string;
+  /**
    * Texto completo da notícia (HTML), escrito a partir da fonte e exibido em
    * /noticias/[slug]. Opcional só nas notícias antigas; todo item novo deve ter.
    */
@@ -524,4 +537,10 @@ export type NewsItem = {
   faq?: NewsFaqItem[];
   /** Quiz curto pra fixar o aprendizado, exibido ao fim da matéria. */
   quiz?: NewsQuizQuestion[];
+  /**
+   * Tira a página do índice do Google (robots: noindex, follow) e do sitemap,
+   * sem apagar a URL (continua no ar e nas listagens). Só marcar com decisão
+   * do dono, a partir dos dados do Search Console. Padrão: false.
+   */
+  noindex?: boolean;
 };
