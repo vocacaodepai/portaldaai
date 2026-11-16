@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "gillette-prestobarba3-ou-mach3-sensitive-descartavel-ou-recarregavel-comparativo",
-  title: "Descartável ou recarregável? Prestobarba3 e Mach3 Sensitive frente a frente",
+  title: "Descartável ou recarregável: Prestobarba3 contra Mach3 Sensitive",
   seoTitle: "Gillette Prestobarba3 ou Mach3 Sensitive: qual aparelho de barbear comprar",
   excerpt:
     "Compare o Gillette Prestobarba3 descartável e o Mach3 Sensitive recarregável: lâminas, fita lubrificante, quanto dura cada um, pele sensível e qual comprar na Shopee.",
@@ -116,7 +116,7 @@ export const article: Article = {
     <div class="buy-btn">
       <a href="https://s.shopee.com.br/4fxpXIgG7r" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
-    <p>Para completar o banheiro, veja também o comparativo de <a href="/artigos/creme-dental-dente-sensivel-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo">creme dental para dente sensível</a>.</p>
+    <p>Para completar o banheiro, veja também o comparativo de <a href="/artigos/creme-dental-dente-sensivel-sensodyne-rapido-alivio-ou-colgate-sensitive-comparativo">creme dental para dente sensível</a> e, para quem prefere tirar os pelos do corpo sem lâmina, a análise do <a href="/artigos/philips-serie-2000-bre229-depilador-vale-a-pena">depilador Philips Série 2000</a>. Um kit de barbear também vira presente de fim de ano, e a IA ajuda a montar a <a href="/artigos/amigo-secreto-e-lista-de-presentes-de-natal-com-ia-sorteio-orcamento-e-planilha">lista de presentes do amigo secreto</a> dentro do orçamento.</p>
   `,
   faq: [
     {
