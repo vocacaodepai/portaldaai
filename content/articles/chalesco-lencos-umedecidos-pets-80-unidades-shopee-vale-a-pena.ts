@@ -64,7 +64,7 @@ export const article: Article = {
     <p>A marca Chalesco já aparece aqui em outros produtos, como o <a href="/artigos/tapete-higienico-shopee-pads-prime-x-chalesco-comparativo">tapete higiênico</a> e o <a href="/artigos/escova-pet-chalesco-super-clean-profissional-3-ou-escova-soft-comparativo">comparativo de escovas pet</a>. O lenço fica na categoria de higiene rápida, e é isso que avaliamos.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar Lenços Chalesco Pets na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o anúncio entrega</h2>
@@ -83,7 +83,7 @@ export const article: Article = {
     <p>Demos nota 8,5 para custo-benefício, praticidade e quantidade, porque o pacote é grande, barato e fácil de usar. A transparência da composição fica em 6,5: não achamos ficha oficial completa, e o consumidor precisa ler a embalagem. Marca e confiança do anúncio ficam em 8,0, por ser loja da Chalesco Oficial, mas com avaliação 4,8 e número de vendas moderado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar Lenços Chalesco Pets na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras na prática</h2>
@@ -94,7 +94,7 @@ export const article: Article = {
     <p>Vale para o tutor que sai com o cão todos os dias, mora em apartamento e quer entrar em casa sem espalhar sujeira, para quem viaja com o pet e para quem quer manter a cama e o sofá limpos. Também ajuda para o dono de cão com dobrinhas no rosto, que precisam de limpeza regular.</p>
     <p>Não vale para quem espera um produto que dispense o banho, ou que usa lenço no lugar de tratar um problema de pele. Se o seu pet fica muito tempo dentro de casa e não suja a pata, não há ganho. Para outros itens do dia a dia do pet, veja o <a href="/artigos/positivo-smart-alimentador-pet-wifi-vale-a-pena">alimentador automático Positivo Smart</a>, o <a href="/artigos/chalesco-comedouro-duplo-360-ml-pet-vale-a-pena">comedouro duplo da Chalesco</a>, a <a href="/artigos/chalesco-gulliver-3-caixa-de-transporte-vale-a-pena">caixa de transporte Gulliver</a> e o <a href="/artigos/chalesco-arranhador-kitty-gatos-vale-a-pena">arranhador Kitty</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar Lenços Chalesco Pets na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar e usar</h2>
@@ -106,14 +106,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O custo-benefício é bom para o uso que o produto se propõe: o preço por lenço é baixo, e o pacote rende semanas. Se você usa todos os dias, o gasto soma, e vale comparar com pano e água.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar Lenços Chalesco Pets na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Vale a pena?</h2>
     <p>Vale, como complemento barato da higiene do pet. O pacote de 80 lenços da Chalesco resolve patas sujas, focinho e dobrinhas de forma prática, vem de anúncio da loja oficial da marca e tem nota 4,8 na Shopee. A nota 8,0 reflete o bom custo-benefício, descontado o ponto de transparência da fórmula.</p>
     <p>Compre sabendo o que ele é: um atalho de limpeza, não um substituto de banho nem de cuidado veterinário. Leia a composição na embalagem e, em caso de dúvida sobre pele sensível, pergunte ao veterinário antes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar Lenços Chalesco Pets na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/60SlzNvZ7h" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

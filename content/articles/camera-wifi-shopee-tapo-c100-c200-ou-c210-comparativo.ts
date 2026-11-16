@@ -103,7 +103,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puQAjbirK" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C100 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puQAjbirK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A C100 é a porta de entrada: imagem 1080p, visão noturna de até 9 m, áudio bidirecional, alarme sonoro e aviso no celular quando detecta movimento. Ela não gira, então enxerga um ângulo só, o que serve bem para vigiar uma porta, uma janela, a mesa do escritório ou o canto da sala onde o pet passa o dia.</p>
     <p>A vantagem é o preço menor e a instalação sem mecânica móvel: coloca sobre um móvel, liga na tomada e pronto. O limite é óbvio, quem quer cobrir um cômodo grande acaba escolhendo entre dois pontos cegos. Também vale lembrar que ela usa só Wi-Fi 2,4 GHz, como as outras duas, então a distância do roteador pesa, como mostra o <a href="/artigos/melhor-roteador-wifi-6-comparativo-2026">comparativo de roteadores Wi-Fi 6</a>.</p>
@@ -114,12 +114,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C200 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A C200 mantém o 1080p da C100 e acrescenta o que mais faz diferença no dia a dia: a lente gira 360 graus na horizontal e inclina 114 graus na vertical, comandada pelo app. Com um único aparelho dá para olhar a sala inteira, e o rastreamento acompanha uma pessoa que se mexe. A ficha da TP-Link cita detecção de pessoas e de choro de bebê, zonas de privacidade que bloqueiam trechos da imagem e sirene de 93 dB.</p>
     <p>Na Shopee, o anúncio da loja oficial da TP-Link soma nota 5,0 e mais de 400 vendas, a maior base das três. A ficha cita compatibilidade com Alexa e Google Assistente, e a gravação local depende de um cartão microSD de até 512 GB, que vem à parte. Um cartão pensado para gravação contínua, como os do <a href="/artigos/cartao-microsd-sandisk-ultra-extreme-high-endurance-comparativo">comparativo de cartões microSD</a>, dura mais.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C200 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Tapo C210: a mesma base com imagem mais nítida</h2>
@@ -128,7 +128,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7AejNVeGDG" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C210 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7AejNVeGDG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A C210 tem o mesmo desenho e o mesmo giro da C200, mas grava em 3 MP (2304 x 1296), com sensor maior e zoom digital de até 10,8x, segundo a ficha. Na prática, a imagem tem mais detalhe quando você dá zoom para ler uma etiqueta, ver o rosto de quem passou ou conferir o que o filho deixou na mesa. A sirene é de 88 dB e a detecção de pessoas e de choro também está presente.</p>
     <p>O custo extra só compensa se você vai usar esse detalhe. Há também o efeito colateral: vídeo em resolução maior ocupa mais espaço no cartão e pesa mais no Wi-Fi 2,4 GHz. O anúncio na Shopee tem poucas vendas ainda, em torno de 30, então o histórico de compradores é menor que o da C200.</p>
@@ -138,14 +138,14 @@ export const article: Article = {
     <p>O segundo é a privacidade, porque câmera dentro de casa filma pessoas. Use senha forte no app, evite apontar para banheiro e quarto sem necessidade e leia o <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">guia de IA e privacidade</a> para entender o que a nuvem guarda. Se a câmera vigia um espaço de trabalho com clientes, a <a href="/artigos/lgpd-para-pequeno-negocio-que-usa-ia-checklist-de-dados-de-clientes">LGPD para pequeno negócio</a> pede aviso visível.</p>
     <p>O terceiro é o cartão e a nuvem: o microSD não vem na caixa, e o plano Tapo Care, de gravação na nuvem, é pago após o período de teste que a TP-Link indica. Quem quer automações pode juntar a câmera com um <a href="/artigos/tp-link-tapo-t110-sensor-porta-janela-vale-a-pena">sensor de porta e janela Tapo</a> ou com uma <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">tomada inteligente Wi-Fi</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C200 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como escolher entre as três</h2>
     <p>Para vigiar um ponto só, a C100 resolve e custa menos. Para cobrir uma sala, o quarto do bebê ou a área de serviço com um aparelho só, a C200 é o meio-termo certo: o giro vale mais que a resolução extra. A C210 faz sentido para quem já sabe que quer o zoom com mais nitidez, por exemplo, para ler um pacote entregue na porta ou acompanhar o cuidado de um idoso.</p>
     <p>Uma regra prática: se você hesita entre C200 e C210, compre a C200 e invista a diferença em um cartão microSD de qualidade. Para a maioria das casas, ter histórico gravado importa mais do que o último pixel de nitidez. Quem tem iluminação inteligente pode ainda ligar a câmera a cenas com a <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">lâmpada inteligente Wi-Fi</a> ou a um <a href="/artigos/intelbras-espi-360-a-sensor-presenca-shopee-vale-a-pena">sensor de presença</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puQAjbirK" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C100 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puQAjbirK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar câmera na Shopee</h2>
@@ -179,14 +179,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A C100 costuma sair mais em conta e a C200 tem o melhor custo-benefício, porque o giro custa pouco acima da fixa. A C210 só compensa para quem quer o 2K.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C200 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Tapo C200: gira para cobrir o cômodo, grava em 1080p, detecta pessoas e choro de bebê e tem o anúncio mais vendido, com nota 5,0 na loja oficial da TP-Link. A C100 é a escolha de quem quer o mais barato para um ponto fixo. A C210 é para quem prioriza imagem detalhada e aceita pagar mais por ela.</p>
     <p>Seja qual for a escolha, ligue a câmera, configure as zonas de privacidade, coloque um cartão microSD e teste o aviso de movimento no celular no primeiro dia.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar Tapo C200 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8pmxMYczhn" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

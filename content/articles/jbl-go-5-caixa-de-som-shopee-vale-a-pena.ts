@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Esse tipo de caixa disputa espaço com o fone bluetooth: o <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">fone</a> é privado, a caixa é para dividir o som com quem está perto. A Go 5 tenta ser a versão mais completa da linha de entrada da JBL.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que a JBL Go 5 entrega</h2>
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>A resistência é IP68, a mais alta que se vê em caixa desse tamanho: aguenta poeira e imersão na água, dentro dos limites do fabricante. Isso a torna fácil de usar em piscina, na praia, na cozinha e no banho, onde caixa comum não vai.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Auracast e par estéreo: o recurso que muda o uso</h2>
@@ -89,7 +89,7 @@ export const article: Article = {
     <p>No som, a expectativa certa é de uma caixa de bolso: voz e instrumentos médios aparecem bem, o grave é presente para o tamanho, mas sem corpo. Em volume alto, o som tende a ficar mais seco. Para cômodo pequeno, mesa de trabalho ou área de lazer com poucas pessoas, é suficiente. Para festa, melhor olhar caixas maiores, como as do <a href="/artigos/melhor-caixa-de-som-bluetooth-portatil-comparativo-2026">comparativo de caixas bluetooth portáteis</a>, que inclui a Go 4.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -101,7 +101,7 @@ export const article: Article = {
     <p>Não é a melhor para quem quer volume alto, grave forte ou bateria de dia inteiro. Para essas necessidades, caixas médias e grandes ou uma <a href="/artigos/soundbar-samsung-hw-b450f-ou-hw-b650f-comparativo">soundbar</a> para a sala atendem melhor. E, se o uso é só individual, um <a href="/artigos/soundcore-p20i-anker-vale-a-pena">fone TWS como o Soundcore P20i</a> custa menos e isola do ambiente.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -113,7 +113,7 @@ export const article: Article = {
     <p>O custo-benefício é bom se o uso envolver água, poeira ou viagem, e fraco se a caixa ficar parada na estante, caso em que uma caixa maior rende mais som pelo mesmo valor. O valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -121,7 +121,7 @@ export const article: Article = {
     <p>Quem usa a caixa em treino ou caminhada pode controlar a música no pulso com um <a href="/artigos/melhor-smartwatch-barato-comparativo-2026">smartwatch barato</a>. Se você quer ouvir música no celular sem fone, a Go 5 faz o papel. Quem também quer cuidar do som da sala pode ver o <a href="/artigos/intelbras-izy-play-full-hd-smart-tv-box-vale-a-pena">TV Box Intelbras Izy Play</a> e a soundbar já analisados. Quem precisa de mais grave e bateria para piscina e churrasco pode subir para a <a href="/artigos/soundcore-boom-2-caixa-de-som-vale-a-pena">Soundcore Boom 2</a>, maior e mais pesada.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar JBL Go 5 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFydZ7Gm6" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

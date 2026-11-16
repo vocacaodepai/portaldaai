@@ -76,7 +76,7 @@ export const article: Article = {
     <p>A PremieR Formula é a linha de entrada da PremieRpet no segmento super premium, e a versão para cães adultos de porte pequeno é uma das rações mais compradas por quem tem shih tzu, lhasa, yorkshire, schnauzer miniatura e outros cães até cerca de 10 kg. Na Shopee, o saco de 15 kg aparece em um <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">anúncio de loja de produtos pet com selo de Shopee Mall</a>, com nota média 4,9 dos compradores e mais de 170 vendas. A análise abaixo parte da ficha da marca divulgada por varejistas, da embalagem e dos dados do anúncio, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que diz a ficha da PremieR Formula porte pequeno</h2>
@@ -89,7 +89,7 @@ export const article: Article = {
     <p>Troca de fórmula não costuma ser problema para cão saudável, mas cães sensíveis podem estranhar. A transição para qualquer ração nova deve ser gradual, misturando a antiga com a nova ao longo de cerca de uma semana.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Quanto rende o saco de 15 kg</h2>
@@ -109,14 +109,14 @@ export const article: Article = {
     <h2>Prós e contras</h2>
     <p>A favor: marca conhecida, classificação super premium, grão do tamanho certo, ômegas para pele e pelo e saco grande que rende meses. Contra: troca de embalagem em curso, presença de milho transgênico, que alguns tutores preferem evitar, e o cuidado de armazenar um saco grande depois de aberto. Não é ração de prescrição: alergia, obesidade, doença renal ou outra condição pedem a linha indicada pelo veterinário.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para cão adulto de porte pequeno, saudável, sem restrição alimentar, cujo tutor quer subir do premium comum para o super premium sem ir para as linhas mais caras. Também é boa para quem já usa a PremieR Formula em saco pequeno e quer economizar comprando 15 kg. Para filhote, idoso ou cão com problema de saúde, a própria marca tem linhas específicas, e a escolha deve passar pelo veterinário.</p>
     <p>Para completar a rotina do cão pequeno, veja o <a href="/artigos/pedigree-dentastix-raca-grande-7-unidades-shopee-vale-a-pena">review do Dentastix</a> (a marca tem versão para raças pequenas), o <a href="/artigos/tapete-higienico-shopee-pads-prime-x-chalesco-comparativo">comparativo de tapetes higiênicos</a>, a <a href="/artigos/flexi-new-classic-corda-p-guia-retratil-vale-a-pena">guia retrátil Flexi</a> e o <a href="/artigos/kong-classic-m-ou-l-brinquedo-recheavel-cachorro-comparativo">KONG Classic</a>, que pode ser recheado com a própria ração. Para o descanso e o banho, a <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">cama pet Chalesco</a> e o <a href="/artigos/shampoo-pet-shopee-sanol-dog-pet-society-beeps-ou-pet-clean-comparativo">comparativo de shampoos pet</a> fecham o kit.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -128,14 +128,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O custo-benefício é bom: o saco grande sai bem mais barato por quilo do que os de 1 kg e 2,5 kg, e, dividido pelos meses de consumo de um cão pequeno, o custo por dia fica baixo para uma super premium. Antes de pagar, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compra na Black Friday</a> ajuda a comparar sem cair em golpe.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Vale a pena?</h2>
     <p>Vale para o cão adulto de porte pequeno e saudável: a PremieR Formula entrega perfil nutricional de super premium, grão do tamanho certo e um saco de 15 kg que rende meses, em anúncio de loja com selo de Shopee Mall e boa nota. A nota 8,3 desconta a troca de embalagem em curso, que exige conferir o saco na chegada, e o cuidado de armazenar bem um saco grande.</p>
     <p>Faça a transição devagar, siga a tabela de porção da embalagem e observe as fezes e a pelagem nas primeiras semanas. Em caso de alergia, sobrepeso ou doença, a escolha da ração é do veterinário.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar Premier Formula na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbyAxT9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

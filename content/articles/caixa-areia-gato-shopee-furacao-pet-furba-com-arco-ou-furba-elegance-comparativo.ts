@@ -90,13 +90,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba com arco na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Furba com arco é uma bandeja oval com um arco que sobe de um dos lados, como mostra a foto do anúncio. A ideia é segurar a areia que o gato joga para trás ao cavar, e o lado sem arco deixa a entrada mais livre para o gato. É peça leve, fácil de lavar com água e sabão e simples de trocar quando risca.</p>
     <p>O histórico no marketplace é o ponto forte: nota 4,9 e quase mil vendas no mesmo anúncio. O limite é o tamanho, porque lojas citam bandejas dessa linha com pouco mais de 50 cm, o que pode ficar apertado para gato grande e para raças como Maine Coon. A borda também é aberta, e o gato que cava com força ainda pode jogar areia para fora.</p>
     <p>Quem usa areia de mandioca ou de sílica pode olhar o <a href="/artigos/areia-gato-shopee-cat-bio-max-clean-mandioca-ou-ultra-clean-comparativo">comparativo de areias higiênicas</a>, porque o tipo de grão muda o quanto a areia se espalha.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba com arco na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Furba Elegance: bandeja grande com grelha removível</h2>
@@ -105,13 +105,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba Elegance na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Furba Elegance é uma bandeja grande e funda, com lateral mais alta, alças para pegar na hora de levar ao tanque e uma grelha removível na área de entrada. Segundo a embalagem, a proposta é mais higiene e conforto, grelha removível, fácil de limpar, mais resistência e material atóxico. A grelha costuma funcionar como tapete na entrada, onde os grãos que ficam presos nas patas caem antes de o gato sair da caixa.</p>
     <p>As laterais mais altas seguram melhor a areia, e a profundidade dá espaço para o gato cavar sem jogar tudo para fora. O custo é a entrada mais alta: gato filhote ou idoso pode ter dificuldade, e a caixa ocupa mais espaço no banheiro ou na área de serviço. Quem tem pouco espaço deve medir antes, e dá para combinar com um <a href="/artigos/chalesco-arranhador-kitty-gatos-vale-a-pena">arranhador</a> perto para o gato usar o cantinho certo.</p>
     <p>O anúncio que consultamos tem nota 5,0, mas com cerca de 80 vendas, histórico bem menor que o da Furba com arco, e vem de loja revendedora, não da marca. Não há como comparar a durabilidade sem uso, então a diferença de preço é o que mais pesa na decisão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba Elegance na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Tamanho, lugar e hábito do gato</h2>
@@ -147,17 +147,17 @@ export const article: Article = {
     <p>A Furba com arco costuma sair bem mais em conta e é a de melhor custo-benefício para a maioria. A Furba Elegance custa em torno do dobro ou mais e se justifica para gato grande ou para quem quer a grelha removível e a bandeja mais funda. O valor do dia aparece ao clicar no botão de compra.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba com arco na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba Elegance na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyClYwuaO" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Furba com arco: preço baixo, histórico grande no marketplace e formato com arco que ajuda a conter a areia espalhada. A Furba Elegance é a escolha de quem tem gato grande, quer a grelha removível e aceita pagar mais por uma bandeja maior.</p>
     <p>Em qualquer caso, meça o espaço, confira o modelo no título e comece com o que o gato aceita: se ele recusar a caixa nova, volte à antiga aos poucos. A <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">cama pet</a> e o resto do cantinho do gato complementam o ambiente.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar Furba com arco na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4uOo79Id" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

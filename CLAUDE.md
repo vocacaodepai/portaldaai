@@ -109,8 +109,11 @@ valem apenas para os cards da página atual.
   (site inteiro: todas as categorias + Reviews + Notícias).
 
 Taxonomia de produto hoje (`lib/types.ts`): Cozinha, Casa Inteligente,
-Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar, cada
-uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
+Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar,
+Automotivo, Casa e Utilidades, Ferramentas Domésticas, Celulares e
+Acessórios (slug `acessorios-celular`, que inclui `smartphone` desde
+16/11/2026), Jardim e Quintal, Pet, Escritório, Bebê, Esporte e Lazer e
+Viagem, cada uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
 encaixa em nenhuma subcategoria existente, adicionar a subcategoria nova
 (e, se precisar, a categoria nova) em `lib/types.ts` antes de publicar.
 
@@ -325,33 +328,57 @@ um AI Indica dentro do fluxo de outros comparativos e reviews de produto:
 não precisa de nenhuma seção nova, só continuar publicando AI Indica
 suficiente pra essa seção ter o que mostrar.
 
-## Rotina editorial diária: 3 publicações por dia (desde 16/11/2026)
+## Rotina editorial diária (desde 16/11/2026)
 
 Histórico: em 04/11/2026 o ritmo caiu de ~20 para 10 publicações por dia.
 Em 16/11/2026, depois de uma queda forte de impressões e cliques no Search
 Console, o dono aprovou o plano de recuperação: o site publicou ~1.550 páginas
-em ~10 semanas, um padrão que o Google trata como conteúdo em escala. O ritmo
-agora é de no máximo 3 publicações por dia, com mais profundidade em cada uma:
+em ~10 semanas, um padrão que o Google trata como conteúdo em escala. No
+mesmo dia o dono ajustou o ritmo: o portal é um hub de notícias de IA e
+precisa ser rápido nas notícias, com volume baixo e qualidade alta no resto.
 
-- **1 notícia** (rotina "Portal da AI — 1 notícia por dia", 09:21
-  Brasília): a notícia mais importante do dia sobre IA para o leitor
-  brasileiro, com análise própria (mínimo ~900 palavras). Sem pauta forte e
-  nova, não publica nada. A rodada das 17:21 foi desligada.
+- **Radar de notícias** (rotina "Portal da AI — radar de notícias", de hora
+  em hora, das 07:00 às 23:00 Brasília; detalhes em
+  `docs/rotinas/noticias.md`): cada rodada publica no máximo 1 notícia, e só
+  se houver fato forte e novo de IA (mesmo critério de impacto de antes).
+  Teto de 4 notícias novas por dia. Sem pauta forte, a rodada termina em
+  silêncio. Regras:
+  - Notícia de última hora pode sair com no mínimo ~500 palavras, desde que
+    tenha as seções "O que se sabe", "O que ainda não está confirmado" e
+    "Por que isso importa para você", com fonte aberta e conferida. Notícia
+    sem urgência segue com ~900 palavras.
+  - Quando houver fato novo sobre o mesmo caso, uma rodada seguinte
+    aprofunda a MESMA URL: acrescenta uma seção "Atualização (HH:MM)" no topo
+    do corpo e preenche `updatedAt` (campo de `NewsItem`, ISO 8601 com
+    -03:00) com a hora real. `date` e `publishedAt` não mudam.
+  - Desdobramento pequeno do mesmo caso = atualização da notícia existente,
+    nunca URL nova. URL nova só para fato novo de verdade (ex.: investigação
+    aberta e, dias depois, renúncia).
+  - Nunca reescrever matéria de outro veículo sem análise própria; sempre
+    creditar a fonte (ver "Política de fonte das notícias").
+  - Fora das rodadas, o dono pode pedir no chat uma notícia urgente, que é
+    publicada na hora (conta no teto do dia).
 - **1 artigo geral** (rotina "Portal da AI — 1 artigo geral por dia", 05:00
   Brasília): rodízio por dia do mês com resto da divisão por 6: 0 =
   iniciantes, 1 = monetização, 2 = negócios, 3 = ferramentas, 4 = carreira,
   5 = futuro. Sem link de afiliado. Antes de escrever, confirme que não há
   artigo publicado com a mesma intenção de busca (não criar mais um
   "como usar IA para X" se já existe um parecido: melhore o existente).
-- **1 AI Indica com Amazon** (rotina "Portal da AI — 1 AI Indica Amazon por
-  dia", 06:07 Brasília): dia par = comparativo (`kind: "guia"`), dia ímpar =
-  review de produto único (`kind: "review"`). Só produtos de tecnologia e
-  eletrônicos ligados ao tema do site (informática, áudio e vídeo, casa
-  inteligente, segurança eletrônica, celulares e acessórios, eletrônicos de
-  cozinha com recurso inteligente). Nada de alimento, higiene, papelaria,
-  roupa ou esporte.
-- **AI Indica com Shopee: pausada** desde 16/11/2026 (a rotina das 07:37 está
-  desligada). Volta só com decisão do dono.
+- **AI Indica: 2 por dia, um da Amazon e um da Shopee.**
+  - **Amazon** (rotina "Portal da AI — 1 AI Indica Amazon por dia", 06:07
+    Brasília) e **Shopee** (rotina "Portal da AI — 1 AI Indica Shopee por
+    dia", 07:37 Brasília, de volta desde 16/11/2026).
+  - Em cada dia, uma das duas é comparativo (`kind: "guia"`) e a outra é
+    review de produto único (`kind: "review"`): dia do mês par = Amazon
+    comparativo e Shopee review; dia ímpar = Amazon review e Shopee
+    comparativo.
+  - Qualquer categoria de produto vendida na Amazon e na Shopee (a AI Indica
+    indica de tudo, não só tecnologia): variar as categorias ao longo da
+    semana e não repetir a mesma `productSubcategory` em 15 dias (somando
+    Amazon e Shopee).
+  - Continuam valendo foto oficial do fabricante, preço em faixa de
+    mercado, botões de compra, nunca alegar teste sem uso real e nunca
+    mamadeira, bico ou chupeta (Lei 11.265/2006).
 - **Qualidade e poda** (rotina "Portal da AI — manutenção diária", 15:43
   Brasília): em vez de "melhorar 5 a 8 páginas", segue o plano de
   recuperação (ver `docs/rotinas/manutencao.md`): aprofunda páginas que já
@@ -426,6 +453,11 @@ chave de busca por extenso; o `title` do card não precisa.
   de veredito (`review.ctaLabel`: "Comprar agora na Amazon"). Num
   comparativo, o botão fica logo abaixo da foto/título de cada produto, então
   o contexto de qual produto é vem do bloco onde ele está.
+- Shopee segue o mesmo padrão (decisão do dono, 16/11/2026): texto exato
+  `Comprar agora na Shopee ↗` em todo `buy-btn` com link
+  `s.shopee.com.br` (sem nome de produto e sem preço) e `review.ctaLabel`:
+  "Comprar agora na Shopee". Os artigos antigos da Shopee já foram
+  padronizados.
 - Botões espalhados pelo artigo todo, mínimo 5 por artigo e nunca mais de
   ~3 parágrafos longos seguidos sem um botão. Comparativo: abaixo da foto
   de cada produto, depois da seção de preço e no veredito final. Review

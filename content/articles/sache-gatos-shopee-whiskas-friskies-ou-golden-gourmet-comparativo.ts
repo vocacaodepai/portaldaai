@@ -109,7 +109,7 @@ export const article: Article = {
       <figcaption>Imagem oficial do produto no site da Purina</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar Friskies na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A página da Purina informa para o sabor atum ao molho proteína mínima de 10%, extrato etéreo mínimo de 2%, umidade máxima de 82%, fibra máxima de 1,5%, taurina mínima de 500 mg por quilo e cerca de 70 kcal por sachê. A lista de ingredientes começa com carne mecanicamente separada de atum (mínimo de 1%) e de frango, fígado de suíno, glúten de trigo e proteína concentrada de soja, e o produto leva corante natural caramelo. A marca diz que é alimento completo para gatos adultos, sem corantes nem conservantes artificiais.</p>
     <p>O anúncio que consultamos é de loja com selo de Shopee Mall, com nota 5,0 e mais de 6 mil vendas, e vende um kit de 15 sachês em sabores variados (carne, frango, atum, peixe branco, cordeiro, salmão e peru), o que ajuda a descobrir de qual o gato gosta. O contra é que a lista de ingredientes mostra pouco atum em relação ao nome, e o glúten de trigo e a soja aparecem entre os primeiros itens, o que não agrada a quem prefere receitas com proteína só animal.</p>
@@ -120,13 +120,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4xak8FYI" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Gourmet na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4xak8FYI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O sachê da PremieRpet é descrito pela marca como alimento completo para gatos adultos saudáveis, com atum, abóbora e arroz integral. A página lista água, carne de atum, carne de frango, frango mecanicamente separado e fígado de frango entre os primeiros ingredientes, proteína mínima de 8%, gordura mínima de 3,2%, fibra máxima de 1,3%, umidade máxima de 86% e cerca de 58 kcal por sachê. A marca afirma que não há corantes, aromatizantes nem conservantes e que o atum tem selo Dolphin Safe.</p>
     <p>Para quem lê o rótulo e prefere carne no começo da lista, é a opção mais limpa do trio. O preço é o contra: o sachê de 70 g custa quase o dobro do de 85 g dos concorrentes, e a umidade mais alta (86%) ajuda na hidratação, mas dilui os nutrientes por grama. O anúncio é de loja com selo de Shopee Mall, com nota 4,9 e mais de 3,9 mil vendas.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4xak8FYI" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Gourmet na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4xak8FYI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Whiskas Carne ao Molho: o mais vendido e fácil de achar</h2>
@@ -135,13 +135,13 @@ export const article: Article = {
       <figcaption>Imagem oficial do produto no site da Whiskas</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar Whiskas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O sachê Whiskas Carne ao Molho para gatos adultos informa na página oficial proteína mínima de 8%, extrato etéreo mínimo de 3% e umidade máxima de 82%. A lista de ingredientes traz vísceras bovinas e suínas, carcaça de frango, componentes de sangue em pó, farinha de trigo, celulose, água, amido de milho e taurina, com vitaminas e minerais. A marca declara que é refeição completa e balanceada, sem conservantes, corantes artificiais nem aromatizantes artificiais, e que ajuda a manter o trato urinário saudável.</p>
     <p>A Whiskas sugere, para um gato adulto de 4 kg, 3 sachês por dia, e recomenda começar com 1 sachê dividido em duas refeições, aumentando em 7 dias. O anúncio que consultamos é um pacote de 20 sachês (16 mais 4) de um vendedor sem selo de loja oficial, com nota 5,0 e mais de 10 mil vendas, o que mostra a popularidade, mas pede mais atenção com validade e armazenamento.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar Whiskas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -172,7 +172,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar Friskies na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual escolher</h2>
@@ -181,7 +181,7 @@ export const article: Article = {
     <p>Outros cuidados de higiene e conforto estão no <a href="/artigos/shampoo-pet-shopee-sanol-dog-pet-society-beeps-ou-pet-clean-comparativo">comparativo de shampoo pet</a>, na <a href="/artigos/chalesco-lencos-umedecidos-pets-80-unidades-shopee-vale-a-pena">análise dos lenços umedecidos</a> e no <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">comparativo de camas pet</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar Friskies na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AUvHjIn33s" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>Quem tem cachorro em casa também pode ver o <a href="/artigos/pedigree-dentastix-raca-grande-7-unidades-shopee-vale-a-pena">Pedigree Dentastix</a>, o <a href="/artigos/tapete-higienico-shopee-pads-prime-x-chalesco-comparativo">tapete higiênico</a> e o <a href="/artigos/positivo-smart-alimentador-pet-wifi-vale-a-pena">alimentador automático Positivo Smart</a>.</p>
@@ -191,7 +191,7 @@ export const article: Article = {
     <p>Prefira lojas com selo de Shopee Mall ou de loja oficial e bom histórico, e desconfie de preço muito abaixo da faixa de mercado. Depois de aberto, o sachê vai à geladeira e deve ser usado em até 48 horas, segundo a Purina, sem congelar. Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade nem de frete grátis.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar Whiskas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114CPi4Rka" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

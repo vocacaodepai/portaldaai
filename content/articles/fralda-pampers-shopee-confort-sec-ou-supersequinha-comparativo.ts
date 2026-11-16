@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Pampers Confort Sec Jumbo Plus M (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Confort Sec na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Confort Sec é a linha intermediária da Pampers no Brasil, posicionada entre a Supersequinha e a Premium Care. As descrições de varejo destacam três pontos: uma camada de gel que puxa o líquido rapidamente para longe da pele, canais de ar que ajudam a ventilar a região da fralda e fitas flexíveis que acompanham o movimento do bebê. A embalagem anuncia até 12 horas de proteção.</p>
     <p>O pacote Jumbo Plus de 148 fraldas é marcado na própria embalagem como "mês de consumo", o que faz sentido para um bebê no tamanho M, que costuma usar de cinco a sete fraldas por dia. O anúncio é da loja Pampers By Sage's na Shopee, com nota 5,0 e mais de 1,1 mil vendas. Comparadores de preço descrevem a Confort Sec como um pouco mais espessa que a linha de entrada, o que alguns pais veem como mais segurança à noite e outros como volume a mais sob a roupa.</p>
@@ -102,14 +102,14 @@ export const article: Article = {
       <figcaption>Pampers Supersequinha Mega M (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Supersequinha na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Supersequinha, chamada em alguns lugares de Supersec, é a linha mais acessível da Pampers. A embalagem atual, com estampa do Baby Shark, anuncia até 12 horas de absorção e 5 camadas de absorção. As descrições de varejo falam em canais de gel que espalham o líquido de forma uniforme, para a fralda não ficar pesada nem caída num ponto só, e em fitas ajustáveis.</p>
     <p>O pacote Mega de 40 fraldas dura menos de uma semana para um bebê no tamanho M, então ele faz mais sentido para testar a linha, para a fase de transição entre numerações ou como reserva na bolsa e na casa dos avós. O anúncio é de uma rede de lojas com nota 5,0 e quase 800 vendas. Por fralda, o pacote pequeno costuma sair um pouco mais caro que o pacote grande da Confort Sec, então quem já conhece o tamanho certo tende a economizar comprando volume.</p>
     <p>Para a pele, a orientação geral vale para as duas linhas: trocar a fralda com frequência, limpar bem a região e procurar o pediatra se a assadura não melhorar em poucos dias.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Confort Sec na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -137,7 +137,7 @@ export const article: Article = {
     <p>Para montar o orçamento do bebê sem susto, o guia de <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">finanças pessoais com IA</a> ajuda a separar o gasto fixo com fralda do resto do mês, e o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compras na Black Friday</a> ajuda a estocar sem cair em preço inflado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Supersequinha na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Quantas fraldas comprar de cada vez</h2>
@@ -151,7 +151,7 @@ export const article: Article = {
     <p>Se o bebê tem pele sensível ou assadura frequente, a conversa com o pediatra vem antes da marca: às vezes a solução é a troca mais frequente, outra linha ou um creme específico. Para organizar a rotina da casa com a chegada do bebê, os guias de <a href="/artigos/como-usar-ia-para-planejar-refeicoes-e-economizar-no-mercado">planejamento de refeições com IA</a> e o comparativo de <a href="/artigos/purificador-de-agua-electrolux-pe11b-ou-pc41b-comparativo">purificador de água</a> também ajudam.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Confort Sec na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8KqqLByDfN" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar fralda na Shopee</h2>
@@ -159,7 +159,7 @@ export const article: Article = {
     <p>Desconfie de preço muito abaixo da faixa de mercado, que pode indicar produto de outra marca, embalagem violada ou quantidade menor que a anunciada. Os kits com dois pacotes, comuns na Shopee, só compensam se o custo por fralda for menor que o do pacote único.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar Pampers Supersequinha na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIUWYrEwg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

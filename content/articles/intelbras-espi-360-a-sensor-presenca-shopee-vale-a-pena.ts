@@ -65,7 +65,7 @@ export const article: Article = {
     <p>O sensor faz o que o nome diz e mais nada. Para quem quer automação com celular, o caminho passa por <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">lâmpadas inteligentes</a> ou pela <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">tomada inteligente Positivo</a>, mais caras e mais complexas.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o Intelbras ESPi 360 A entrega</h2>
@@ -73,7 +73,7 @@ export const article: Article = {
     <p>O corpo é articulado e se prende no teto ou na parede, o que ajuda a apontar a cobertura para onde passa gente. A foto do anúncio mostra o suporte de parede, com furação para parafusos. A fabricante é a Intelbras, empresa brasileira de segurança e telecomunicações, e a loja que consultamos é a oficial dela na Shopee.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ajustes: tempo e fotocélula</h2>
@@ -81,7 +81,7 @@ export const article: Article = {
     <p>Um erro comum é configurar o tempo no mínimo e achar que o sensor falha, quando na verdade a luz apaga antes do que a pessoa espera. Em corredor, 1 a 2 minutos costuma ser confortável, enquanto na garagem convém um tempo maior. Esse tipo de acerto tem a ver com o consumo, e quem quer entender melhor a conta pode ver o guia de <a href="/artigos/conta-de-luz-com-ia-como-entender-bandeira-tarifaria-e-consumo">conta de luz com IA</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Instalação e compatibilidade</h2>
@@ -93,7 +93,7 @@ export const article: Article = {
     <p>Os limites são claros. É para ambiente interno, protegido de chuva e de sol direto, e não serve como sensor de alarme. Também pode acender sem motivo perto de ar-condicionado, ventilador, aquecedor ou janela com sol, porque o sensor reage a variações de calor. Para quem quer aviso no celular ou monitoramento da casa, um <a href="/artigos/tp-link-tapo-t110-sensor-porta-janela-vale-a-pena">sensor de porta e janela Tapo</a> ou o <a href="/artigos/intelbras-mibo-mtu-1001-sensor-temperatura-umidade-vale-a-pena">sensor Intelbras Mibo</a> fazem outro trabalho, com hub.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -101,7 +101,7 @@ export const article: Article = {
     <p>Não é o melhor caminho para quem quer rotinas, horários, controle por voz ou integração com outras casas inteligentes. Nesse caso, a <a href="/artigos/melhor-camera-seguranca-wifi-comparativo-2026">câmera de segurança Wi-Fi</a> ou a <a href="/artigos/tp-link-tapo-d210-campainha-vale-a-pena">campainha de vídeo Tapo</a> fazem o papel de vigia com aviso no celular. E para quem não quer ficar sem luz em queda de energia, o <a href="/artigos/intelbras-xnb-600-nobreak-vale-a-pena">nobreak Intelbras XNB 600</a> cobre o roteador, e não a lâmpada.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -114,7 +114,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -122,7 +122,7 @@ export const article: Article = {
     <p>Nota e vendas da Shopee mostram popularidade, não durabilidade. Para checar as informações do produto com mais calma, o guia de <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">qual IA escolher</a> mostra como pedir a um assistente que compare fichas técnicas.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras ESPi 360 A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fptzoG0vi" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

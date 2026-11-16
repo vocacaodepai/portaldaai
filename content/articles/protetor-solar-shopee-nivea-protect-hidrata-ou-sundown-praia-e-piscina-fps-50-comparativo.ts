@@ -95,7 +95,7 @@ export const article: Article = {
       <figcaption>Sundown Praia e Piscina FPS 50, 200 ml (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar Sundown Praia e Piscina na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Praia e Piscina é a linha mais conhecida da Sundown, e o nome já diz o uso. A embalagem atual traz o selo de nova fórmula, com a promessa de espalhar mais fácil e secar mais rápido que a anterior, e destaca a tripla proteção contra sol, cloro e sal, além da classificação de muito resistente à água. É o protetor pensado para quem fica horas na água, faz esporte na praia ou leva criança para a piscina.</p>
     <p>A textura é descrita como leve e de absorção imediata, mas, como em todo protetor corporal resistente à água, a pele pode ficar com um leve brilho logo após a aplicação. As fichas das farmácias reforçam a orientação de reaplicar a cada 2 horas e depois de nadar, suar muito ou se secar com toalha, porque nenhuma resistência à água é permanente.</p>
@@ -107,7 +107,7 @@ export const article: Article = {
       <figcaption>Nivea Sun Protect & Hidrata FPS 50, 200 ml (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar Nivea Protect & Hidrata na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Protect & Hidrata é o protetor corporal de entrada da Nivea Sun, e a embalagem resume a proposta no selo "5 em 1": proteção UVA e UVB, resistência à água, toque seco, rápida absorção e hidratação prolongada. O ativo de hidratação destacado é o pantenol, e o frasco indica o uso no corpo e no rosto. As fichas de farmácia descrevem a fórmula como oil free e de textura não pegajosa.</p>
     <p>É a escolha mais equilibrada para quem usa protetor todos os dias, inclusive fora da praia: no trajeto a pé, no trabalho perto da janela, no treino ao ar livre ou no fim de semana no parque. Quem tem pele seca tende a gostar mais dele, porque hidrata enquanto protege. A ressalva é a resistência à água, que na embalagem aparece como "resistente", um degrau abaixo do Sundown, então em dia de muito mergulho a reaplicação precisa ser mais frequente.</p>
@@ -118,7 +118,7 @@ export const article: Article = {
     <p>Por isso, para uma família na praia, um frasco de 200 ml acaba rápido, e o kit com dois frascos costuma compensar. Leve o protetor numa <a href="/artigos/caixa-termica-mor-26-litros-ou-soprano-tropical-32-litros-comparativo">caixa térmica</a> ou na sombra: calor excessivo pode alterar a textura da loção. E não esqueça a hidratação de dentro para fora, com uma <a href="/artigos/garrafa-de-agua-tramontina-750-ml-43211001-vale-a-pena">garrafa de água Tramontina</a> ou uma <a href="/artigos/garrafa-termica-stanley-classic-ou-termolar-magic-pump-comparativo">garrafa térmica</a> sempre por perto.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar Sundown Praia e Piscina na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -145,7 +145,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar Nivea Protect & Hidrata na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como aplicar para o FPS valer de verdade</h2>
@@ -157,14 +157,14 @@ export const article: Article = {
     <p>Outros cuidados de saúde já comparados no site incluem o <a href="/artigos/termometro-infravermelho-multi-saude-hc260-ou-hc498-comparativo">termômetro infravermelho</a> e o <a href="/artigos/oximetro-g-tech-oled-graph-shopee-vale-a-pena">oxímetro G-Tech</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar Sundown Praia e Piscina na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fq6kwwjIg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
     <p>Protetor solar tem validade e perde eficácia depois dela, então confira a data assim que receber e não use frasco aberto há mais de um ano ou com cheiro e textura alterados. Prefira loja oficial da marca ou de perfumaria com muitas vendas, desconfie de preço muito abaixo da faixa de mercado e confira no título se o anúncio é do frasco de 200 ml ou de um kit. Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade, cupom ou frete grátis. Para separar promoção real de preço inflado, veja o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compras da Black Friday</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar Nivea Protect & Hidrata na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0XnGLr4w" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

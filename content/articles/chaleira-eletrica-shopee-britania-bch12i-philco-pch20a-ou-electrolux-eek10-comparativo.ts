@@ -103,7 +103,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9APnl8trBT" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BCH12I na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9APnl8trBT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A BCH12I é a chaleira simples e direta: 1,9 litro, corpo de aço inox, alça preta e base destacável com luz indicadora. As fichas de varejo citam 1150 W, desligamento automático quando a água ferve e dispositivo de proteção contra superaquecimento. Para água de café e chá de uma família de três ou quatro pessoas, a capacidade sobra.</p>
     <p>O ponto forte é a relação entre marca e valor: o anúncio é da Britânia Oficial, tem nota 4,9 na Shopee e custa menos que os outros dois. O ponto de atenção é o de toda chaleira com tampa simples: abra com cuidado depois de ferver, porque sai vapor quente. Se a sua rotina é esquentar água e pouca coisa além disso, é um bom ponto de partida.</p>
@@ -114,12 +114,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PCH20A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A PCH20A é a maior das três, com 2 litros, e tem o desenho mais robusto, com corpo mais alto e tampa larga. O anúncio da Philco Oficial a descreve com tecnologia Boil Dry, que serve para evitar que a chaleira funcione sem água, base sem fio com giro de 360 graus (você pode pousar a chaleira de qualquer lado) e desligamento automático ao ferver.</p>
     <p>Para quem esquece a chaleira ligada ou tem criança em casa, a proteção contra aquecer sem água é um argumento de peso. Não encontramos a potência do PCH20A nas fichas que consultamos, então não vamos citar um número: confira na etiqueta. A nota 4,9 dos compradores na Shopee e a loja oficial deixam o anúncio tranquilo, e o custo extra sobre a Britânia é pequeno.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PCH20A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Electrolux Efficient EEK10: a mais cara, com cara de eletrodoméstico premium</h2>
@@ -128,7 +128,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOHPLId4i" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux EEK10 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOHPLId4i" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A EEK10 tem 1,8 litro, base de 360 graus, desligamento automático, indicador de nível de água e peso de cerca de 0,78 kg, segundo a Electrolux e varejistas. A alça com textura é um detalhe de conforto, e o acabamento é o mais elegante das três.</p>
     <p>A dúvida é a potência: a maioria das lojas cita 1200 W, mas há fichas e análises que falam em 1850 W na versão de 220 V. Isso sugere que a potência muda com a voltagem, e o anúncio da Shopee pode ter as duas versões. Antes de comprar, confira se a voltagem do anúncio é a da sua tomada. A marca e a base giratória justificam parte do preço, mas ela é a opção que menos entrega por real gasto.</p>
@@ -138,7 +138,7 @@ export const article: Article = {
     <p>Para limpar o calcário, que aparece em quem usa água dura, o costume é ferver água com um pouco de vinagre e enxaguar bem, seguindo o manual do modelo. A chaleira fica mais bonita e esquenta mais rápido. Se a sua cozinha tem outros aparelhos que usam resistência, vale lembrar do consumo e da tomada: veja o que dissemos no comparativo de <a href="/artigos/melhor-torradeira-2-fatias-comparativo-2026">torradeiras</a> e de <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">sanduicheiras</a>.</p>
     <p>Quem toma café todo dia combina a chaleira com um bom <a href="/artigos/cadence-di-grano-ou-hamilton-beach-ajustavel-moedor-cafe-comparativo">moedor de café</a> e um coador. Quem prefere cafeteira elétrica encontra opções no <a href="/artigos/cafeteira-eletrica-ate-r-250-comparativo-2026">comparativo de cafeteiras até R$ 250</a> e no <a href="/artigos/electrolux-ecm30-cafeteira-vale-a-pena">review da Electrolux ECM30</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9APnl8trBT" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BCH12I na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9APnl8trBT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar chaleira na Shopee</h2>
@@ -172,17 +172,17 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A Britânia costuma sair mais em conta, e a Philco oferece o melhor custo-benefício, porque a diferença de preço é pequena e ela traz 2 litros, base 360 graus e proteção Boil Dry. A Electrolux só se justifica se a marca ou o acabamento forem prioridade.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PCH20A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOHPLId4i" rel="sponsored noopener noreferrer" target="_blank">Comprar Electrolux EEK10 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOHPLId4i" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Philco PCH20A: maior capacidade, proteção contra aquecer sem água, base que gira e preço que pouco passa da Britânia. Se o orçamento está apertado e você só quer esquentar água, a Britânia BCH12I resolve bem e é a mais barata. A Electrolux EEK10 fica para quem quer a marca e o visual, aceitando pagar mais, e deve ter a voltagem conferida com cuidado.</p>
     <p>Em qualquer caso, escolha anúncio de loja oficial, confira a voltagem e use a chaleira com as proteções ligadas. Para ver outras opções fora da Shopee, o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparativo anterior</a> mostra modelos diferentes, e o <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">de liquidificadores</a> cobre outro eletro da rotina.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PCH20A na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oQG44z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

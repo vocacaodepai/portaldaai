@@ -89,7 +89,7 @@ export const article: Article = {
       <figcaption>Secar Original 80 g, kit com 4 (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Original na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Secar Original é um pote com bolinhas de cloreto de cálcio sob um filtro branco. Depois de tirar a tampa e o lacre de alumínio (sem furar o filtro), o sal começa a puxar a umidade do ar, e a água vai se acumulando no fundo. O rótulo tem uma escala lateral: quando o nível chega ao limite, é hora de trocar. Segundo as fichas da marca, ele age de 1 a 3 meses, conforme a umidade do lugar.</p>
     <p>A recomendação da própria marca é usar um pote por módulo do armário, depois de limpar o mofo que já existir. O kit do anúncio vem com quatro potes nas versões lavanda, floral, kids e natural, o que basta para um guarda-roupa médio ou para dividir entre armário, sapateira e despensa.</p>
@@ -101,7 +101,7 @@ export const article: Article = {
       <figcaption>Secar Defence antimofo 500 ml (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Defence na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Defence é um desinfetante de uso geral, sem cloro, com cloretos de alquil dimetil amônio (os chamados quaternários de amônio) como princípio ativo. O gatilho alterna entre jato e espuma. O modo de uso da marca pede borrifar puro, de dentro para fora da área afetada, deixar agir por pelo menos 10 minutos e ventilar o ambiente depois, abrindo portas e janelas.</p>
     <p>Em tecido, como estofado, tênis e interior de carro, a orientação é umedecer um pano limpo e passar, em vez de borrifar direto, e testar antes em uma parte escondida. Não se aplica direto em couro nem em madeira envernizada ou pintada. Pets só devem voltar ao ambiente depois que a área estiver limpa e seca, e a marca indica luvas e proteção para os olhos durante a aplicação.</p>
@@ -113,7 +113,7 @@ export const article: Article = {
     <p>Roupa guardada ainda morna ou úmida também alimenta o mofo. Se você passa ou vaporiza antes de guardar, espere esfriar e secar: veja a <a href="/artigos/mor-bela-flor-ou-mesa-de-passar-nice-comparativo">tábua de passar Mor</a> e o <a href="/artigos/vaporizador-de-roupas-philco-pvp10vd-britania-bvp02l-electrolux-eps10-comparativo">comparativo de vaporizadores de roupa</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Original na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -140,7 +140,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Defence na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual escolher</h2>
@@ -148,7 +148,7 @@ export const article: Article = {
     <p>Mofo que volta rápido, parede estufada ou mancha que cresce depois da chuva são sinais de infiltração, e aí nenhum antimofo dá conta: é caso de chamar um profissional. Para a faxina pesada, veja também o <a href="/artigos/kit-vassoura-rodo-pa-bettanin-shopee-novica-maxima-ou-ballena-comparativo">kit de vassoura e rodo Bettanin</a>, o <a href="/artigos/qual-mop-flash-limp-comprar-mop5010-mop8209-ou-mop0648-comparativo">mop Flash Limp</a> e a <a href="/artigos/wap-spot-cleaner-w3-extratora-shopee-vale-a-pena">extratora WAP Spot Cleaner</a>, boa para limpar estofado depois do tratamento.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Original na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114E0eLGy1" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -156,7 +156,7 @@ export const article: Article = {
     <p>Para comparar preço sem cair em armadilha nas promoções de fim de ano, veja o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compra na Black Friday</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar Secar Defence na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAISvUmNMg" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -77,7 +77,7 @@ export const article: Article = {
     <p>O resumo: é uma ração bem desenhada para o gato castrado comum, com proteína alta para a faixa de preço, cuidado com o trato urinário e calorias mais baixas, e rende muito por real gasto. O que segura a nota é a base de grãos e de proteína vegetal, típica das rações premium especiais, e o fato de não substituir a orientação do veterinário em gatos com histórico urinário.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Special Castrados na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que diz a embalagem e a ficha</h2>
@@ -113,7 +113,7 @@ export const article: Article = {
     <p>Um alerta importante: "trato urinário saudável" é um benefício de manutenção, não tratamento. Gato que já teve cristais, cálculo ou obstrução urinária precisa de dieta indicada pelo veterinário, muitas vezes uma ração terapêutica.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Special Castrados na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Quanto o gato come e quanto o saco rende</h2>
@@ -141,7 +141,7 @@ export const article: Article = {
     <p>Não é a melhor escolha para gato com doença renal, urinária ou alergia alimentar, que precisa de dieta definida pelo veterinário, nem para quem busca ração sem grãos ou com carne fresca no topo da lista, que fica em outra faixa de preço. Para filhote não castrado, a linha tem versão própria. Para gato com um só tutor e pouco consumo, o saco de 3 kg pode fazer mais sentido, para a ração não ficar aberta por meses.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Special Castrados na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -150,7 +150,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Special Castrados na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados na troca de ração e na compra</h2>
@@ -162,7 +162,7 @@ export const article: Article = {
     <p>A Golden Special para gatos castrados, sabor frango e carne, merece nota 8,4. Entrega proteína alta para a faixa, cuidado com o trato urinário e com o peso, rendimento de meses no saco de 10,1 kg e um anúncio com milhares de vendas e nota máxima dos compradores. Perde pontos pela base de milho e soja e por usar farinhas em vez de carne fresca. Para o gato castrado saudável, é uma das compras mais seguras e econômicas da categoria.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar Golden Special Castrados na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbuitgzwl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -90,12 +90,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 1,1 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>É o tamanho para quem mora sozinho ou em casal: cabe uma porção de lasanha, um pedaço de peixe, um gratinado ou o brownie do fim de semana. A tampa deixa a sobra pronta na geladeira, e o vidro vai direto da geladeira ao micro-ondas sem passar a comida para outro prato, o que poupa louça e deixa a rotina mais prática. Para esquentar, o <a href="/artigos/micro-ondas-shopee-mondial-mo-01-21-b-britania-bmo23-ou-philco-pm36-comparativo">micro-ondas</a> é o companheiro natural dessa peça.</p>
     <p>O anúncio é de uma loja com selo de Shopee Mall, o que costuma indicar loja verificada, e traz o aviso de item sortido: a cor da tampa pode variar. Na imagem do anúncio a tampa é rosa, mas o que chega pode ser outra cor, então não compre pensando em combinar com a cozinha. O limite do tamanho é óbvio: para receber visitas, 1,1 L fica curto, e quem cozinha para quatro pessoas vai usar duas ou três.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 1,1 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Marinex retangular de 3,5 L: a que resolve o almoço da família</h2>
@@ -104,13 +104,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 3,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A travessa retangular de 3,5 litros é o formato clássico de lasanha, de macarrão de forno e de frango com batata. As alças de vidro, visíveis na foto do anúncio, ajudam a tirar a peça quente do forno com luvas, sem dedo na borda. A tampa plástica serve para guardar e transportar a comida, e é o que faz essa travessa ir a almoço de família e a confraternização do trabalho sem precisar de papel-alumínio.</p>
     <p>O que pesa contra é o espaço: ela ocupa uma boa parte do armário e da prateleira da geladeira, e o forno de bancada pequeno pode não comportar. Em forno elétrico compacto, confira a medida interna, e o <a href="/artigos/forno-eletrico-philco-pfe44p-ou-britania-bfe43-comparativo">comparativo de fornos elétricos</a> ajuda a saber que tamanho de peça cabe. O anúncio que consultamos é de loja sem selo de oficial, com nota 4,9 e cerca de 190 vendas, um histórico menor que o da assadeira pequena.</p>
     <p>Quem faz comida em lote e congela porções pode combinar a travessa com <a href="/artigos/potes-hermeticos-electrolux-12-pecas-shopee-vale-a-pena">potes herméticos</a>, e quem assa em casa pode ter ainda o <a href="/artigos/philco-paf11b-air-fryer-oven-11-litros-shopee-vale-a-pena">air fryer oven</a> para o dia a dia, deixando a travessa para os pratos grandes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 3,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados com vidro de forno e tampa plástica</h2>
@@ -145,17 +145,17 @@ export const article: Article = {
     <p>A de 1,1 L costuma sair mais em conta e é a de menor risco para quem só quer experimentar. A de 3,5 L tem o melhor custo-benefício por litro e resolve mais refeições. O valor do dia aparece ao clicar no botão de compra.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 1,1 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9APqwsiLNz" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 3,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a travessa retangular de 3,5 L: é o tamanho que cobre lasanha, assado e comida de família, tem alças e tampa e custa pouco mais que o dobro da pequena, com o dobro de uso. A de 1,1 L é a escolha de quem cozinha para uma ou duas pessoas ou quer uma peça extra para sobremesa e sobra. Quem vai assar bolo na travessa grande e quer bater a massa sem esforço pode ver o <a href="/artigos/batedeira-shopee-britania-perola-550-mondial-b-44-ou-philco-crome-duo-turbo-comparativo">comparativo de batedeiras simples da Shopee</a>.</p>
     <p>Se a cozinha tem espaço, vale ter as duas: a grande para o fim de semana e a pequena para o resto da semana. Em qualquer caso, confira o tamanho no título, a cor da tampa no caso do item sortido e a nota fiscal na entrega.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar Marinex 3,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zyxwPfAhE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

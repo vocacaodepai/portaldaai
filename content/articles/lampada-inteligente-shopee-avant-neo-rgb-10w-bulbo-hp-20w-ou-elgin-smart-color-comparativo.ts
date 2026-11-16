@@ -115,7 +115,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar Avant Neo RGB 10W na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>É a lâmpada com mais histórico dos três anúncios: loja Avant SP, que aparece como loja oficial na Shopee, nota 4,9 e mais de 900 vendas. A ficha do anúncio cita conexão Wi-Fi, controle por voz com Alexa e Google, 16 milhões de cores, função de sincronização musical, controle pelo aplicativo Neo e homologação da Anatel. O anúncio vende de uma a cinco unidades, o que ajuda quem quer trocar vários pontos de uma vez.</p>
     <p>Na prática, 10 W em E27 resolve quarto, escritório e sala pequena, principalmente como luz de ambiente ou de destaque. Para a luz principal de um cômodo grande, vale pensar em mais de uma lâmpada ou na versão mais forte da mesma linha. A sincronização com música é um recurso de efeito, mais para diversão do que para uso diário.</p>
@@ -127,7 +127,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1Lgy1XdoCu" rel="sponsored noopener noreferrer" target="_blank">Comprar Avant Neo HP 20W na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1Lgy1XdoCu" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Bulbo HP é o modelo de alta potência da linha. O título do anúncio lista versões de 20, 30, 40 e 50 W, Wi-Fi de 2,4 GHz, luz branca de 2700 K a 6500 K, modo RGB e tensão bivolt. O anúncio da Avant SP tem nota 4,8 e mais de 300 vendas, e a imagem mostra o formato mais largo e curto que o das lâmpadas de 10 W.</p>
     <p>Esse formato é pensado para ambientes em que 10 W fica fraco: sala ampla, garagem, área de serviço, comércio pequeno. A lâmpada convive com os mesmos recursos de app e voz, mas a ficha pública é mais enxuta do que a da Elgin. Antes de comprar, escolha a potência certa no anúncio, porque o mesmo link vende versões diferentes.</p>
@@ -139,7 +139,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar Elgin Smart Color na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Elgin é uma marca conhecida de iluminação, e a Smart Color 10W é a lâmpada com mais informação pública: varejistas e análises citam cerca de 803 lúmens, soquete E27, bivolt, conexão em 2,4 GHz sem hub e controle pelo aplicativo Elgin Smart, além de Alexa e Google Assistente. O anúncio consultado é um kit com duas lâmpadas, vendido por um revendedor da Shopee, com nota 4,9 e mais de 160 vendas.</p>
     <p>Por ser de revendedor e não de loja oficial, vale conferir o vendedor, a nota fiscal e a garantia. Em compensação, o app Elgin Smart tem a vantagem de vir de uma fabricante com assistência no Brasil, o que pesa para quem prefere marca conhecida. A lâmpada entrega cor, branco ajustável e agendamento pelo app.</p>
@@ -154,7 +154,7 @@ export const article: Article = {
       <li><strong>Mora em apartamento com roteador antigo, só em 5 GHz:</strong> confirme a compatibilidade com 2,4 GHz antes de comprar qualquer uma das três.</li>
     </ul>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar Avant Neo RGB 10W na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>Em qualquer caso, a lâmpada inteligente só funciona enquanto a rede e a energia estão de pé. Quem usa o celular para rotinas, como acender a luz no horário de estudo, pode se inspirar no <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">guia de rotina diária produtiva com IA</a>.</p>
 
@@ -162,7 +162,7 @@ export const article: Article = {
     <p>Lâmpada Wi-Fi aparece em centenas de anúncios, muitos de marca genérica e com a mesma foto repetida. Prefira a loja da marca ou um vendedor com histórico, confira o modelo e a potência no título, leia as avaliações recentes e guarde a nota fiscal. Fique atento a anúncios com variação de preço muito grande entre as opções: o mesmo link pode vender de uma a cinco unidades, ou potências diferentes.</p>
     <p>Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade, frete ou cupom. Para completar a casa conectada com segurança, vale ver também a <a href="/artigos/melhor-camera-seguranca-wifi-comparativo-2026">comparação de câmeras de segurança Wi-Fi</a> e o <a href="/artigos/camera-wifi-shopee-tapo-c100-c200-ou-c210-comparativo">comparativo de câmeras Tapo na Shopee</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1Lgy1XdoCu" rel="sponsored noopener noreferrer" target="_blank">Comprar Avant Neo HP 20W na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1Lgy1XdoCu" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -170,17 +170,17 @@ export const article: Article = {
     <p>A Avant Neo RGB 10W costuma sair mais em conta e tem o melhor custo-benefício para a maioria dos cômodos. A Elgin cobra um pouco mais por unidade em troca da ficha documentada. A Bulbo HP só compensa se você realmente precisa de potência. O valor do dia aparece ao clicar no botão de compra.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar Elgin Smart Color na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Veredito</h2>
     <p>Nossa indicação para a maioria é a Avant Neo RGB 10W, com nota 8,1: nota 4,9 e mais de 900 vendas na loja Avant SP, cor e voz por um preço baixo, e a opção de comprar em kit. A Elgin Smart Color 10W é a escolha de quem quer marca conhecida e ficha completa, e a Avant Neo Bulbo HP é para quando 10 W fica curto.</p>
     <p>Nota e vendas da Shopee mostram popularidade, não durabilidade, e não substituem um teste de uso. Se a casa tem ventilador ou umidificador com controle remoto, o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">comparativo de ventiladores com controle remoto</a> mostra como encaixar mais itens na mesma rotina. Teste o pareamento assim que a lâmpada chegar, para identificar problema de rede ou de unidade dentro do prazo de devolução.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar Avant Neo RGB 10W na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/906P9dAceM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar Elgin Smart Color na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1gJoQ9cXX0" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

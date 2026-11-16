@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Quem vai furar a parede de qualquer jeito prefere <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira</a>, bucha e um <a href="/artigos/tramontina-martelo-de-unha-27-mm-master-basic-40370027-vale-a-pena">martelo</a>, e a fita entra como o jeito rápido de resolver o que não precisa de tanta força.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que a fita entrega</h2>
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>Segundo a mesma ficha, a fita é feita de espuma de polietileno com adesivo acrílico e papel siliconizado, o rolo pesa cerca de 80 g e o código do fornecedor é HB004492250. A fita aparece em verde na embalagem. A ficha que encontramos não traz peso suportado, tipos de superfície nem modo de uso, e por isso tratamos o número de 5 kg como o que a embalagem do anúncio informa, e não como garantia nossa.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -85,7 +85,7 @@ export const article: Article = {
     <p>O limite é a natureza do produto: é fixação extrema, feita para ficar. Se você se arrepender, tirar a fita pode arrancar tinta, reboco ou revestimento, e deixa resíduo que dá trabalho para limpar. Para carga pesada que não pode cair, com risco de acidente, a fixação com parafuso e bucha continua sendo a recomendada, e a embalagem fala em até 5 kg para cada 20 cm, não em peso ilimitado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como usar para dar certo</h2>
@@ -94,7 +94,7 @@ export const article: Article = {
     <p>Quem pretende trocar de lugar o objeto deve pensar na fita de remoção fácil, que é outra linha da marca, e não esta. Para soltar um parafuso emperrado, ou desengripar uma dobradiça antes de recolocar um objeto, vale ter o <a href="/artigos/wd-40-multiuso-300-ml-shopee-vale-a-pena">WD-40</a> à mão, e a <a href="/artigos/mor-escada-aluminio-5-degraus-vale-a-pena">escada doméstica</a> ajuda no quadro alto.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -102,7 +102,7 @@ export const article: Article = {
     <p>Não vale para carga pesada, para objeto que não pode cair ou para quem quer tirar e recolocar. Para objetos de decoração que você troca toda estação, uma fita removível é mais adequada. Na cozinha, atenção ao calor e à gordura próximos ao fogão, que enfraquecem adesivos, e no <a href="/artigos/tramontina-plurale-61537300-escorredor-de-louca-vale-a-pena">escorredor de louça</a> e em outros itens molhados confira se o uso é indicado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -115,7 +115,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Veredito</h2>
@@ -123,7 +123,7 @@ export const article: Article = {
     <p>Siga o modo de uso da embalagem, prepare a superfície e respeite a carga indicada. Para o que não pode cair, use parafuso e bucha.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar Scotch Fixa Forte Extrema na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/50aHzNKyCk" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

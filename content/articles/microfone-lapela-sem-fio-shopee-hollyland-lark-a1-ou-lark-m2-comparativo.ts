@@ -95,7 +95,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark A1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Lark A1 é a proposta enxuta da Hollyland: transmissores de cerca de 8 g, receptor de celular de quase 6 g e uma case que recarrega os transmissores até duas vezes, o que a marca resume em até 54 horas de uso. A conexão é 2,4 GHz com alcance de até 200 m em linha de vista, mais do que suficiente para quem grava a poucos metros do celular.</p>
     <p>A ficha oficial cita áudio de 48 kHz e 24 bits, resposta de 20 Hz a 20 kHz e três níveis de cancelamento de ruído, que se alternam com um clique no transmissor. Há ainda um limitador contra picos de volume, útil quando alguém ri alto ou levanta a voz. O receptor tem uma porta lateral para carregar o celular durante a gravação, detalhe que ajuda em sessões longas.</p>
@@ -106,7 +106,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark M2 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Lark M2 é o irmão mais caro. Os transmissores têm cerca de 9 g, formato redondo e podem ser usados presos à roupa ou com ímã. A Hollyland fala em até 300 m em linha de vista e, na versão Combo, a caixa traz dois transmissores, receptor de câmera, receptor USB-C, receptor Lightning, a case de carga, cabo de 3,5 mm, ímãs e proteção contra vento, segundo a página oficial.</p>
     <p>É esse conjunto que justifica o preço maior: o mesmo kit serve ao celular e a uma câmera com entrada de microfone, como as usadas para gravar curso ou entrevista. Quem só grava com o celular paga por um receptor que não vai usar. O cancelamento de ruído existe, mas é do tipo liga e desliga, sem os três níveis do A1.</p>
@@ -115,14 +115,14 @@ export const article: Article = {
     <p>A pergunta que decide é: você grava só com celular ou também com câmera? Para celular, o A1 entrega o que importa (leveza, bateria longa e ruído ajustável) por muito menos. Para câmera, o M2 Combo evita comprar um receptor separado e dá mais folga de distância.</p>
     <p>Para quem usa o celular como câmera principal, vale combinar o microfone com os outros itens do canal, como uma <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">webcam</a> na mesa de trabalho e um <a href="/artigos/melhor-microfone-usb-para-podcast-comparativo-2026">microfone USB de mesa</a> quando a gravação é sentada. O lapela ganha em quem se movimenta, grava em pé ou em ambiente aberto. Se a imagem balança quando você grava andando, o <a href="/artigos/dji-osmo-mobile-se-estabilizador-celular-vale-a-pena">estabilizador DJI Osmo Mobile SE</a> completa o kit junto com o lapela.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark A1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Onde um lapela sem fio faz diferença</h2>
     <p>Quem produz conteúdo sente a diferença na primeira gravação: a voz fica próxima e o ambiente some. Para o criador de <a href="/artigos/criador-ugc-com-ia-roteiro-edicao-e-regras-do-conar-para-vender-a-marcas">vídeos UGC</a> ou de <a href="/artigos/ia-para-criadores-de-conteudo-videos-textos-e-artes">conteúdo com IA</a>, áudio limpo poupa horas de edição, porque ferramentas de transcrição e legenda acertam mais quando a fala é nítida. Isso vale também para <a href="/artigos/melhores-ias-para-transcrever-audio-e-video-em-portugues">transcrever áudio e vídeo em português</a>.</p>
     <p>Em reunião e aula gravada, o ganho é parecido. Um áudio claro ajuda as <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">ferramentas de IA para reuniões</a> a gerar resumo e ata sem trechos perdidos. E, se a ideia é narrar vídeo ou fazer <a href="/artigos/ia-para-audio-criar-podcasts-e-narracoes-profissionais">podcast e narração</a>, o lapela é o caminho mais barato para sair do áudio embolado do celular.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark M2 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -151,17 +151,17 @@ export const article: Article = {
     </table>
     <p>O A1 costuma sair mais em conta e tem o melhor custo-benefício para quem grava com celular. O M2 só compensa quando o kit de câmera e o alcance maior são necessários. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark A1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark M2 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5VWQ0WwnR4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o Lark A1: é o mais leve, tem bateria longa com a case e três níveis de ruído por bem menos que o M2. O Lark M2 é a escolha de quem grava também com câmera, precisa de distância maior ou quer um kit único para celular e câmera.</p>
     <p>Se o orçamento é curto, o <a href="/artigos/melhor-fone-bluetooth-barato-comparativo-2026">fone bluetooth com microfone</a> quebra o galho em videochamada, mas não substitui o lapela para gravar conteúdo. E, para quem leva o celular para todo lado, um <a href="/artigos/melhor-power-bank-carregador-portatil-comparativo-2026">power bank</a> evita ficar sem bateria no meio da gravação.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar Hollyland Lark A1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCpwA65" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

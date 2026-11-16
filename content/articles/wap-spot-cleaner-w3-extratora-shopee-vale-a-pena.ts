@@ -65,7 +65,7 @@ export const article: Article = {
     <p>É um tipo de produto diferente do <a href="/artigos/melhor-aspirador-po-vertical-comparativo-2026">aspirador de pó vertical</a> ou do <a href="/artigos/melhor-robo-aspirador-comparativo-2026">robô aspirador</a>: eles tiram o pó seco, e a extratora limpa o tecido com líquido. Por isso a W3 complementa, mas não substitui, o aspirador que você já tem.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que a WAP Spot Cleaner W3 entrega</h2>
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>O bico é do tipo 3 em 1: borrifa a solução com um gatilho, esfrega com cerdas e puxa a sujeira. É um fluxo simples, que o blog da própria WAP descreve como pulverizar, esfregar e puxar a sucção de frente para trás até não sair mais líquido. O bico de autolimpeza ajuda a lavar a mangueira por dentro depois do uso, o que evita cheiro e sujeira acumulada.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que ela limpa bem e o que não faz</h2>
@@ -86,7 +86,7 @@ export const article: Article = {
     <p>Outro limite é o tamanho dos tanques. Um sofá de três lugares pode consumir mais de um tanque de água suja, e é preciso parar para esvaziar. Para limpar um tapete grande de sala inteiro, uma extratora maior ou o serviço de lavanderia rende mais.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -99,7 +99,7 @@ export const article: Article = {
     <p>Não vale para quem só quer tirar pó, nem para quem tem sofá de couro ou de tecido que não aceita água. Também não compensa para uma única mancha pequena, que um pano e um produto específico resolvem. Quem tem alergia pode somar o <a href="/artigos/xiaomi-smart-air-purifier-4-compact-vale-a-pena">purificador de ar</a> para reduzir o pó em suspensão depois da limpeza.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como usar sem estragar o estofado</h2>
@@ -115,7 +115,7 @@ export const article: Article = {
     <p>O custo-benefício é bom para quem vai usar com frequência, em casa com pet, criança ou carro, e fraco para uso esporádico, caso em que o serviço de higienização pontual pode sair mais barato. O valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -123,7 +123,7 @@ export const article: Article = {
     <p>Antes de comprar qualquer eletrodoméstico de limpeza, vale conferir a oferta em época de promoção, com o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia para comparar preços e evitar golpe</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar WAP Spot Cleaner W3 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRCSAJEjK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

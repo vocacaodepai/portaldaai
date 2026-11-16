@@ -102,7 +102,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-02 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O CJ-02 é o clássico do suporte de carro: base de ventosa com botão de fixação, braço que se estica para aproximar ou afastar o celular e garra com trava automática, que fecha sozinha quando você encosta o aparelho. É o que aparece no título dos anúncios como "trava automática ajustável" e "360 graus", e é o modelo mais vendido da nossa lista, com mais de 5 mil vendas e nota 4,8 no anúncio que consultamos.</p>
     <p>A ventosa dá a flexibilidade de escolher o lugar: no painel, no vidro ou numa superfície lisa próxima do motorista. O cuidado é de qualquer ventosa. Painel com textura, poeira, calor forte e vidro com película mal assentada reduzem a aderência, e por isso a regra é limpar bem o ponto antes e testar o travamento parado. Em carro novo com painel macio e rugoso, a ventosa pode não pegar sem um disco adesivo, vendido à parte em muitas lojas. Para quem anda em rua de paralelepípedo ou estrada de terra, a trava e a ventosa precisam estar bem assentadas.</p>
@@ -114,7 +114,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee (o anúncio mostra um par; confira a quantidade antes de comprar)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5LD20WCYUT" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-350 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5LD20WCYUT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O CJ-350 troca a ventosa por uma garra que prende nas aletas da saída de ar. A instalação leva segundos, não deixa marca no painel e tira o celular do para-brisa, o que muita gente prefere por não cobrir a visão da pista. O anúncio da loja Movyra tem nota 4,9 e mais de 780 vendas, com título que fala em garra forte e giro de 360 graus.</p>
     <p>O limite é a grade. Saídas de ar redondas, com aletas finas ou fracas aguentam mal um celular pesado, e o suporte pode inclinar com o peso ou com a vibração. Também há um efeito colateral conhecido do tipo: o celular fica no caminho do ar, e no calor do verão ele recebe o ar quente do aquecedor ou o frio do ar-condicionado, o que pode esquentar o aparelho em dia de sol forte. Vale testar em um trecho curto e, se o aparelho esquentar, mudar para outro suporte.</p>
@@ -126,7 +126,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5VWSCpBv9U" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-51 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5VWSCpBv9U" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O CJ-51 é o mais simples e o mais discreto: um disco oval com base adesiva, que fica colado no painel e segura o celular por ímã. A caixa do produto o chama de mini suporte imperceptível, e a foto confirma o formato baixo, que quase some quando o celular está fora. O anúncio da Koi Shop Brasil tem nota 4,9 e mais de 700 vendas.</p>
     <p>A pegadinha do ímã é que o celular não é magnético por si só. É preciso uma chapa metálica colada atrás do aparelho ou dentro da capa, ou então um case com ímã embutido, e por isso vale conferir se o kit traz a chapa. Ímã fraco, capa grossa ou celular pesado deixam o aparelho solto em buraco ou curva. Outra regra é nunca colar a chapa sobre a bobina de carregamento sem fio, que perde eficiência.</p>
@@ -141,7 +141,7 @@ export const article: Article = {
     </ul>
     <p>Antes de decidir, meça o celular com a capa e confira se ele cabe na abertura da garra indicada nos anúncios, e pense no calor. Quem deixa o carro ao sol vai se dar melhor com os modelos de garra do que com ventosa mal assentada. Para quem precisa de câmera de painel também, vale ver a <a href="/artigos/70mai-a400-camera-veicular-vale-a-pena">câmera veicular 70mai A400</a>, que divide o espaço do para-brisa com o suporte.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-02 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -152,17 +152,17 @@ export const article: Article = {
     <p>Pela faixa de mercado, o CJ-02 costuma variar de R$ 20 a R$ 65, o CJ-350 de R$ 25 a R$ 50 e o CJ-51 de R$ 15 a R$ 50. A faixa considera os anúncios na Shopee, outras lojas, comparadores de preço e o site de marcas e revendedores, e não apenas um vendedor. A amplitude é grande porque o mesmo modelo aparece em kits e variações, e o preço, o cupom e o frete na Shopee mudam muito com promoção e vendedor.</p>
     <p>O CJ-51 costuma sair mais em conta, e o CJ-350 fica no meio. O melhor custo-benefício é do CJ-02, que cobra um pouco mais, mas entrega a fixação mais versátil e a garra mais segura para celular grande. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5LD20WCYUT" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-350 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5LD20WCYUT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Veredito</h2>
     <p>Nossa indicação para a maioria dos motoristas é o H'Maston CJ-02, com nota 8,0: a ventosa dá liberdade de posição, a garra com trava segura o celular grande e o volume de vendas indica um produto testado por muita gente, embora volume de vendas não prove durabilidade. O CJ-350 é a alternativa para quem prefere a saída de ar e a instalação rápida, e o CJ-51 é o mais discreto e barato para quem aceita o ímã e a chapa metálica.</p>
     <p>Por segurança, posicione o suporte onde ele não cubra a visão da pista nem as saídas dos airbags, ajuste o destino antes de sair e use comando de voz. Se você usa assistentes de IA no trânsito, veja como <a href="/artigos/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes">checar mensagem suspeita</a> antes de responder qualquer coisa que chegue no celular.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-02 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUvqzbQtM" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5VWSCpBv9U" rel="sponsored noopener noreferrer" target="_blank">Comprar H'Maston CJ-51 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5VWSCpBv9U" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -28,7 +28,7 @@ export const article: Article = {
     <p>Quem tem gato conhece o dilema da areia: ela precisa segurar o odor, formar torrão firme para facilitar a limpeza e não espalhar grão pela casa. A linha Cat Bio, da Flexipet, é uma das mais vendidas na Shopee e usa ingredientes de origem vegetal, milho e mandioca. Comparamos três versões com base no que está impresso nas embalagens, nas informações dos anúncios e nas avaliações dos compradores: a <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Max Clean</a>, a <a href="https://s.shopee.com.br/2Vsp2BNSgm" rel="sponsored noopener noreferrer" target="_blank">Mandioca</a> e a <a href="https://s.shopee.com.br/30p5d8gt2i" rel="sponsored noopener noreferrer" target="_blank">Ultra Clean</a>. Não testamos as areias em casa, e a análise parte de ficha, dados de anúncio e avaliações.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Max Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>As 3 areias que comparamos</h2>
@@ -75,7 +75,7 @@ export const article: Article = {
       <figcaption>Foto: anúncio da Cat Bio Max Clean na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Max Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>A <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Max Clean</a> é feita de milho e mandioca, com grãos finos, e a embalagem destaca absorção rápida, torrão firme, controle de odor e maior rendimento, com indicação para lares com mais de um gato. O anúncio que consultamos é de 4 kg, tem nota 5,0 e passa de 27 mil vendas, números muito acima dos outros dois.</p>
@@ -87,7 +87,7 @@ export const article: Article = {
       <figcaption>Foto: anúncio da Cat Bio Mandioca na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2Vsp2BNSgm" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Mandioca na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2Vsp2BNSgm" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>A <a href="https://s.shopee.com.br/2Vsp2BNSgm" rel="sponsored noopener noreferrer" target="_blank">Cat Bio Mandioca</a> troca o milho por 100% mandioca e usa grãos médios. A embalagem fala em torrão mais forte, de fácil remoção e sem desperdício, e em eliminação de odores. Para quem se incomoda com grão pequeno espalhado, o grão médio costuma sair menos da caixa.</p>
@@ -99,14 +99,14 @@ export const article: Article = {
       <figcaption>Foto: anúncio da Cat Bio Ultra Clean na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p5d8gt2i" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Ultra Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p5d8gt2i" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>A <a href="https://s.shopee.com.br/30p5d8gt2i" rel="sponsored noopener noreferrer" target="_blank">Ultra Clean</a> mistura grãos finos e médios, de milho e mandioca. A embalagem a descreve como um equilíbrio entre rastro e odor, com controle superior de odores e indicação para lares com vários gatos e gatos exigentes. É a menos vendida do trio, com cerca de 700 vendas e nota 4,9.</p>
     <p>Para quem acha a areia fina demais e a média pouco absorvente, o misto é um meio-termo. Como o histórico de compra é menor, vale ler as avaliações recentes do anúncio antes de levar um kit grande.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Max Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como trocar de areia sem estressar o gato</h2>
@@ -149,14 +149,14 @@ export const article: Article = {
     </table>
     <p>A Max Clean e a Mandioca costumam sair mais em conta, e a Max Clean tem o melhor custo-benefício pelo rendimento anunciado e pelo volume de compradores. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Max Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Para a maioria dos lares, nossa indicação é a <strong>Cat Bio Max Clean</strong>: grão fino que forma torrão firme, nota 5,0 e a maior base de compradores da linha na Shopee. Escolha a Mandioca se o rastro de grãos é a sua maior queixa, e a Ultra Clean se quer um meio-termo e tem mais de um gato.</p>
     <p>A nota 8,4 para a Max Clean vem das embalagens, dos dados dos anúncios e das avaliações dos compradores, sem teste nosso, e pesa controle de torrão, rendimento informado, histórico de compra e custo-benefício. Quem quer tornar a casa mais prática pode ver também o <a href="/artigos/philco-psa1000-soprador-aspirador-folhas-vale-a-pena">soprador e aspirador Philco PSA1000</a> para o quintal e o <a href="/artigos/tramontina-sense-square-8l-lixeira-sensor-vale-a-pena">lixeira com sensor Tramontina Sense</a> para descartar os torrões. Casa com gato também costuma pedir limpeza frequente, e o <a href="/artigos/melhor-robo-aspirador-comparativo-2026">comparativo de robôs aspiradores</a>, o <a href="/artigos/qual-mop-flash-limp-comprar-mop5010-mop8209-ou-mop0648-comparativo">comparativo de mops Flash Limp</a> e o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">de ventiladores com controle remoto</a> ajudam a manter o ambiente limpo e arejado.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar areia Cat Bio Max Clean na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8fTSNVzzAs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

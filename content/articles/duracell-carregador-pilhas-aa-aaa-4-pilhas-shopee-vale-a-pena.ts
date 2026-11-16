@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Quem já leu o <a href="/artigos/pilha-alcalina-aa-shopee-duracell-ou-elgin-comparativo">comparativo de pilhas alcalinas Duracell e Elgin</a> sabe que a alcalina é boa para aparelho de pouco uso, como relógio e controle de TV. A recarregável é outra conta: custa mais na compra, mas pode ser usada centenas de vezes.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar Duracell com 4 pilhas AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que vem no kit</h2>
@@ -80,7 +80,7 @@ export const article: Article = {
     <p>A ficha cita desligamento automático ao atingir 100% e um LED que indica o nível de carga, além de nove atributos de segurança que o varejo descreve de forma genérica. Para o usuário, o que importa é não precisar vigiar: coloca as pilhas à noite e tira de manhã. O carregador funciona na tomada e a Hardware.com.br informa que é bivolt, mas confirme isso na etiqueta do produto que chegar.</p>
     <p>A faixa de 4 a 8 horas varia com a quantidade de pilhas e com o quanto elas estavam descarregadas. Com poucas pilhas, o tempo cai. O sentido da conta é outro: não é um carregador rápido, é um carregador de rotina, daqueles que ficam na tomada da cozinha esperando a próxima troca.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar Duracell com 4 pilhas AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -92,7 +92,7 @@ export const article: Article = {
     <p>Não é a melhor escolha para aparelho de baixo consumo, como relógio de parede, controle de ar-condicionado e detector de fumaça, que gastam pouca energia e pedem pilha alcalina ou de lítio, de descarga lenta. Para quem quer carregar o celular em viagem, um <a href="/artigos/melhor-power-bank-carregador-portatil-comparativo-2026">power bank</a> é outra categoria.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar Duracell com 4 pilhas AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -104,7 +104,7 @@ export const article: Article = {
     <p>O custo-benefício é bom para quem usa muita pilha e fraco para quem usa pouca: nesse caso, o kit demora a se pagar. Em compra pela faixa mais baixa, a conta melhora bastante. O valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar Duracell com 4 pilhas AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -112,7 +112,7 @@ export const article: Article = {
     <p>Se a ideia é montar um kit de utilidades para casa, vale olhar também o <a href="/artigos/positivo-smart-controle-universal-wifi-vale-a-pena">controle universal Wi-Fi da Positivo</a>, que substitui vários controles, e o <a href="/artigos/iclamper-energia-8-ou-intelbras-epe-1008-filtro-de-linha-comparativo">filtro de linha</a> que protege o carregador na tomada.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar Duracell com 4 pilhas AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1wAiWfhf" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

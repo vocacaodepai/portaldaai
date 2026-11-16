@@ -77,7 +77,7 @@ export const article: Article = {
     <p>Esta análise parte da embalagem mostrada no anúncio, das fichas de grandes varejistas e das avaliações dos compradores, sem teste físico nosso. O resumo: é um bom travesseiro para quem dorme de lado e precisa de altura e firmeza, com preço acessível para a marca. Quem dorme de bruços ou gosta de travesseiro fofo deve olhar outro modelo da linha.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar Altenburg Extra Firme na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que diz a embalagem</h2>
@@ -136,7 +136,7 @@ export const article: Article = {
     <p>O que pesa contra é a altura, que limita o público a quem dorme de lado, o tecido de poliéster da versão atual, que esquenta mais no verão que o algodão, e a perda natural de volume da fibra com o uso. A própria Altenburg recomenda trocar o travesseiro a cada dois anos. Para dias quentes, uma fronha de algodão ajuda a deixar a superfície mais fresca.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar Altenburg Extra Firme na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -144,7 +144,7 @@ export const article: Article = {
     <p>Não vale para quem dorme de bruços, para quem gosta de travesseiro macio que abraça a cabeça e para criança. Quem alterna muito de posição durante a noite pode preferir uma versão de firmeza média da mesma marca. Para quem passa o dia sentado e sente a coluna no fim do expediente, o <a href="/artigos/apoio-para-os-pes-ergonomico-inclinavel-shopee-vale-a-pena">apoio para os pés ergonômico</a> e a <a href="/artigos/pistola-massageadora-relaxmedic-deep-therapy-flex-ou-mini-comparativo">pistola massageadora Relaxmedic</a> complementam o cuidado com a postura.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar Altenburg Extra Firme na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -154,7 +154,7 @@ export const article: Article = {
     <p>Para separar desconto real de preço inflado nas promoções de novembro, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compras da Black Friday</a> ajuda.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar Altenburg Extra Firme na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados com a lavagem e a compra</h2>
@@ -166,7 +166,7 @@ export const article: Article = {
     <p>O travesseiro Altenburg Suporte Extra Firme 50 x 70 cm merece nota 8,3. Entrega o que a embalagem promete para quem dorme de lado: altura, firmeza que não cede, enchimento não alérgico e lavagem em máquina, por um preço acessível e com anúncio de muitas vendas e nota alta. Perde pontos pela troca da capa de algodão por poliéster na versão atual, pela altura que exclui quem dorme de bruços e pela vida útil típica de travesseiro de fibra. Para quem dorme de lado, é uma das compras mais seguras da categoria.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar Altenburg Extra Firme na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoaP9CdLa" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

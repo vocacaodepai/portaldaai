@@ -28,7 +28,7 @@ export const article: Article = {
     <p>Para lavar o carro em casa, o shampoo Vonixx V-Floc é o de manutenção do dia a dia e o V-Mol é o desincrustante para sujeira pesada, como barro e óleo. Os dois são da mesma marca, saem em frasco de 500 ml e aparecem entre os mais vendidos de lavagem automotiva na Shopee. Comparamos o <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">V-Floc</a> e o <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">V-Mol</a> com base nas fichas divulgadas pela marca e pelas lojas e nas avaliações dos compradores, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Floc na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Os 2 shampoos que comparamos</h2>
@@ -68,7 +68,7 @@ export const article: Article = {
       <figcaption>Foto: anúncio do Vonixx V-Floc na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Floc na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">V-Floc</a> é um lava autos concentrado de pH neutro. As lojas informam diluição de até 1:400 no balde (cerca de 10 ml para 4 litros de água) e de 1:20 em espumador, e dizem que o frasco de 500 ml rende até 200 litros de solução. Por ser neutro, ele não costuma mexer em cera, selante ou vitrificação, o que o torna a escolha de quem protege a pintura.</p>
@@ -80,14 +80,14 @@ export const article: Article = {
       <figcaption>Foto: anúncio do Vonixx V-Mol na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Mol na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">V-Mol</a> é um lava autos desincrustante, biodegradável, de pH levemente básico, indicado para remover barro, óleo e sujeira difícil. As lojas listam diluição de 1:100 para manutenção, 1:50 para sujeira média e 1:10 para sujeira pesada, e algumas fontes divergem na diluição máxima, por isso vale seguir o rótulo.</p>
     <p>Por ser mais forte, ele pode retirar proteção da pintura, como cera e selante, e um relato de usuário cita manchas quando o produto seca ao sol. A regra é lavar à sombra, com a lataria fria, e enxaguar bem. Ele serve como lavagem de limpeza profunda antes de polir ou encerar, não para toda semana.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Floc na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como usar os dois no mesmo carro</h2>
@@ -101,7 +101,7 @@ export const article: Article = {
     <p>Para quem lava o carro com lavadora de pressão, o <a href="/artigos/lavadora-karcher-k2-plus-turbo-ou-wap-ousada-plus-comparativo">comparativo de lavadoras Kärcher e WAP</a> ajuda, e para a parte interna o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">comparativo de aspiradores de carro</a> completa a rotina. Com o pneu limpo e seco, o <a href="/artigos/vintex-pneu-pretinho-500-ml-shopee-vale-a-pena">review do Pneu Pretinho Vintex</a> mostra como aplicar o finalizador sem respingar na lataria.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Mol na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXq7nJXO" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Erros comuns na lavagem em casa</h2>
@@ -134,7 +134,7 @@ export const article: Article = {
     </table>
     <p>O V-Mol costuma sair um pouco mais em conta, mas o V-Floc rende mais por frasco, por causa da diluição de até 1:400, e tem o melhor custo-benefício para uso contínuo. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Floc na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>Para a casa, o <a href="/artigos/qual-mop-flash-limp-comprar-mop5010-mop8209-ou-mop0648-comparativo">comparativo de mops</a> e o <a href="/artigos/melhor-aspirador-po-vertical-comparativo-2026">de aspiradores verticais</a> fecham a rotina de limpeza.</p>
@@ -142,7 +142,7 @@ export const article: Article = {
     <p>Para a maioria dos motoristas, nossa indicação é o <strong>Vonixx V-Floc</strong>: pH neutro, rende muito e serve para a lavagem de todo mês sem tirar a proteção da pintura. Leve o V-Mol junto se o seu carro enfrenta barro, óleo ou fica muito tempo sem lavar. Nenhum dos dois substitui o cuidado com a água e com a toalha de secagem.</p>
     <p>Nossa nota de 8,1 para o V-Floc vem das fichas e das avaliações dos compradores, sem teste físico nosso, e pesa rendimento, segurança para a pintura e custo-benefício. Quem quer cuidar do carro por completo pode ver o <a href="/artigos/melhor-compressor-ar-portatil-xiaomi-comparativo-2026">comparativo de compressores de ar portáteis</a> e a <a href="/artigos/70mai-a400-camera-veicular-vale-a-pena">análise da câmera veicular 70mai A400</a>. Depois da lavagem, o plástico externo e o painel ficam com o <a href="/artigos/plastico-do-carro-shopee-vonixx-restaurax-ou-sintra-fast-comparativo">comparativo Vonixx Restaurax ou Sintra Fast</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar Vonixx V-Floc na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbflZRYcv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

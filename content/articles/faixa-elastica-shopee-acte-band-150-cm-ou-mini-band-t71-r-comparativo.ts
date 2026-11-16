@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Band 150 cm na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A faixa de 150 cm de comprimento por 12 cm de largura é aberta: você prende uma ponta num pé, numa porta ou na mão e puxa. Isso abre um cardápio grande de exercícios, de remada e rosca para os braços a alongamentos de posterior de coxa, passando por mobilidade de ombro. A foto do anúncio mostra as três cores com a identificação impressa: azul para leve, amarelo para médio e vermelho para forte.</p>
     <p>A vantagem é poder ajustar a carga de duas formas: trocando de faixa ou encurtando a pegada, porque quanto mais perto das mãos, maior a tensão. Para quem está começando, a faixa leve costuma servir para aprender o movimento, e a forte só entra quando a técnica está firme. É também o formato que mais aparece em aulas de pilates e em sessões de fisioterapia, mas isso não substitui a orientação do seu profissional se você está em reabilitação.</p>
@@ -102,13 +102,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Mini Band T71-R na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A mini band é um elástico curto, fechado em círculo, que fica em volta das coxas, dos joelhos ou dos tornozelos. O anúncio vende o kit como treino em casa, com três intensidades: rosa para leve, roxo para médio e cinza para forte, conforme as cores da foto. Como o elástico não precisa de ponto de apoio, ele vai bem em quarto, sala ou viagem.</p>
     <p>Os exercícios clássicos são agachamento, ponte de glúteos, abdução de quadril e caminhada lateral, em que a faixa cria resistência para os músculos que estabilizam o quadril. Se o seu objetivo é treinar glúteo e perna sem equipamento grande, esse formato entrega mais do que a faixa aberta.</p>
     <p>O limite é a variedade: dá para treinar braço com ela, mas com menos opções do que a faixa de 150 cm. E, por ser fechada, o elástico pode rolar para cima da coxa durante o exercício, um incômodo comum em qualquer mini band de látex.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Mini Band T71-R na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como começar sem se machucar</h2>
@@ -117,14 +117,14 @@ export const article: Article = {
     <p>Para manter o hábito, ajuda marcar o treino na agenda, como no guia de <a href="/artigos/google-tarefas-e-lembretes-no-celular-organizar-a-semana-com-ia-passo-a-passo">lembretes no celular</a>, e acompanhar o peso e a composição corporal com uma <a href="/artigos/melhor-balanca-inteligente-bioimpedancia-comparativo-2026">balança inteligente</a>, se isso fizer sentido para você.</p>
     <p>Se você quer acompanhar como o corpo responde ao treino, o <a href="/artigos/oximetro-g-tech-oled-graph-shopee-vale-a-pena">oxímetro de dedo</a> e o <a href="/artigos/termometro-infravermelho-multi-saude-hc260-ou-hc498-comparativo">termômetro infravermelho</a> são acessórios de saúde que aparecem em outras análises do Portal, e o texto sobre <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">organizar as finanças pessoais</a> ajuda a encaixar o gasto com o kit no orçamento do mês.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Band 150 cm na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
     <p>Faixa elástica tem muita cópia sem marca na Shopee, com fotos parecidas e preço muito baixo. Os dois kits deste comparativo são da Acte, marca conhecida de material esportivo, mas são vendidos por lojas de revenda, e não por uma loja oficial da marca. O mesmo modelo aparece em vários vendedores, com preços e nomes diferentes, então confira o código (T71-R) e o tamanho (150 cm x 12 cm) no título.</p>
     <p>Prefira anúncios com muitas vendas e nota alta, como os que consultamos, e desconfie de preço muito abaixo da faixa. Anúncios saem do ar e o estoque muda, então não há garantia de que o mesmo item esteja disponível quando você abrir o botão, nem de frete grátis ou cupom. Guarde o comprovante e a mensagem do anúncio: se a faixa chegar ressecada ou diferente da foto, é o que sustenta o pedido de devolução. Para escolher bem o momento de comprar, leia o guia para <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">comparar preços na Black Friday</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Mini Band T71-R na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -150,17 +150,17 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A Mini Band costuma sair mais em conta, e a Band de 150 cm tem o melhor custo-benefício para quem quer um kit só, porque cobre mais exercícios com a mesma compra. Quem treina só pernas e glúteos aproveita melhor o valor da mini band.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Band 150 cm na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Mini Band T71-R na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/LoV39yYXL" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o kit Acte Band de 150 cm: um único kit atende alongamento, mobilidade, treino de braços, costas e pernas, e a nota 4,9 com cerca de 150 vendas no anúncio indica boa aceitação. A Mini Band T71-R é a escolha de quem quer treinar glúteo e perna em casa, de forma simples, sem ponto de apoio.</p>
     <p>Muita gente acaba com os dois, e a conta é pequena: os kits somados custam menos que uma mensalidade típica de academia, e cada um cobre o que o outro faz mal. Se você estuda ou trabalha sentado o dia todo, vale juntar a faixa a pausas programadas, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo em blocos de tempo</a>, para levantar e se alongar entre um bloco e outro. Quem usa a faixa no aquecimento do futebol pode ver também o <a href="/artigos/bola-de-futebol-de-campo-penalty-bravo-xxv-ou-player-xxv-comparativo">comparativo das bolas de campo Penalty Bravo XXV e Player XXV</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar Acte Band 150 cm na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qONDakkYS" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

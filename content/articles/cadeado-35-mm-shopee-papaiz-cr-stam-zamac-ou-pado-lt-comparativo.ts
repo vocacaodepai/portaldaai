@@ -91,7 +91,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGrmwghzv" rel="sponsored noopener noreferrer" target="_blank">Comprar Papaiz CR 35 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGrmwghzv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Papaiz é a marca mais lembrada em cadeado no Brasil, e o CR 35 é a versão clássica de latão: corpo maciço, haste cromada, duas chaves. A ficha de varejo da Telhanorte descreve o corpo de latão maciço com acabamento cromado e não informa o material da haste nem a garantia, o que deixa uma lacuna na comparação. O que se sabe de outras fichas da linha CR é que a haste costuma ser de aço cementado, mas não confirmamos isso para o tamanho de 35 mm.</p>
     <p>O anúncio que consultamos é de uma loja de ferramentas com selo de oficial, com nota 4,9 e 77 vendas: menos que os concorrentes, o que também reflete o fato de ele ser específico para o tamanho de 35 mm. Para armário e portão de uso leve, o Papaiz cumpre o que promete, e a marca facilita achar chave reserva e assistência.</p>
@@ -102,12 +102,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1BNZQDgn0X" rel="sponsored noopener noreferrer" target="_blank">Comprar Stam zamac latonado na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1BNZQDgn0X" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Stam do anúncio mais vendido, com nota 4,9 e mais de 750 vendas, é da linha zamac latonado. Zamac é uma liga de zinco: o corpo recebe banho dourado (latonado) e acabamento e-coat contra corrosão, mas não é de latão maciço como o Papaiz e o Pado. A ficha da Kabum para o modelo de 40 mm lista gancho de aço, pino de latão, mola de aço inox, nível de segurança 2 e duas chaves, com garantia de fornecedor de 3 meses.</p>
     <p>Essa diferença de material pesa em dois pontos: a resistência a pancada e o tempo de vida na chuva. Para armário interno, mala e porta de depósito coberta, o zamac atende e custa pouco. Para portão exposto ao tempo, o latão maciço tende a durar mais. A Stam também vende cadeados de latão, então atenção ao título do anúncio antes de comprar.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1BNZQDgn0X" rel="sponsored noopener noreferrer" target="_blank">Comprar Stam zamac latonado na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1BNZQDgn0X" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Pado LT-35: latão maciço e garantia longa na ficha</h2>
@@ -116,7 +116,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar Pado LT-35 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A ficha da Telhanorte descreve o Pado LT-35 com corpo em latão maciço, haste em aço cementado, duas chaves, cerca de 160 g e garantia de 120 meses. Em material, é o conjunto mais claro dos três na documentação que encontramos, e o anúncio da Shopee soma nota 4,9 e mais de 320 vendas. Outras lojas descrevem a haste como aço inox, então há divergência entre fichas, e vale olhar a embalagem.</p>
     <p>O anúncio reúne vários tamanhos (de 20 a 60 mm) e traz chaves com segredos diferentes entre as unidades, o que é bom para segurança. Se você quer vários cadeados com a mesma chave, procure um kit específico, porque o anúncio comum não promete isso.</p>
@@ -125,7 +125,7 @@ export const article: Article = {
     <p>Para armário de vestiário, mala, baú e caixa de ferramentas, qualquer um dos três serve, e o preço decide. Para portão de quintal e porta de depósito, que pegam sol e chuva, vale o corpo de latão maciço do Pado ou do Papaiz. Se o que você quer proteger é a bicicleta, a moto ou a bagagem de viagem, um cadeado de 35 mm com haste curta não é o certo: existem cadeados em U e com cabo para isso.</p>
     <p>Para quem monta a segurança do imóvel em camadas, o cadeado combina com um <a href="/artigos/tp-link-tapo-t110-sensor-porta-janela-vale-a-pena">sensor de porta e janela</a> que avisa no celular quando o portão abre e com uma <a href="/artigos/tp-link-tapo-c320ws-camera-externa-vale-a-pena">câmera externa</a> apontada para a entrada. A <a href="/artigos/camera-wifi-shopee-tapo-c100-c200-ou-c210-comparativo">comparação de câmeras Wi-Fi da Tapo</a> ajuda a escolher, e a <a href="/artigos/tp-link-tapo-d210-campainha-vale-a-pena">campainha com câmera Tapo D210</a> mostra quem está no portão antes de abrir. Para juntar tudo no celular, o <a href="/artigos/tapo-h100-hub-casa-inteligente-vale-a-pena">hub Tapo H100</a> faz a ponte entre os sensores.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar Pado LT-35 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar cadeado na Shopee</h2>
@@ -158,14 +158,14 @@ export const article: Article = {
     </table>
     <p>O Stam costuma sair mais em conta, e o Pado tem o melhor custo-benefício: latão maciço e garantia longa pela faixa de preço mais baixa entre os de latão. O Papaiz custa um pouco mais pela marca. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGrmwghzv" rel="sponsored noopener noreferrer" target="_blank">Comprar Papaiz CR 35 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGrmwghzv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação é o Pado LT-35: corpo de latão maciço, haste de aço cementado, duas chaves e garantia de 120 meses na ficha que encontramos, por uma faixa de preço baixa. O Papaiz CR 35 é a escolha de quem prefere a marca mais tradicional e aceita pagar um pouco mais, mesmo com a ficha menos completa. O Stam zamac latonado serve para uso interno e protegido, quando o orçamento pesa mais.</p>
     <p>Para fechar o pacote de segurança de uma casa, veja também a <a href="/artigos/intelbras-fr101v-fechadura-digital-vale-a-pena">fechadura digital Intelbras FR101V</a> e o <a href="/artigos/intelbras-dfa-623-detector-de-fumaca-vale-a-pena">detector de fumaça Intelbras DFA 623</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar Pado LT-35 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6AmFNPS9cQ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

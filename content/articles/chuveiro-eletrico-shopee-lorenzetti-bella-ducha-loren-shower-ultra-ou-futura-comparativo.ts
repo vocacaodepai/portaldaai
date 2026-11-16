@@ -98,7 +98,7 @@ export const article: Article = {
       <figcaption>Lorenzetti Futura (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar Lorenzetti Futura na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Futura é o chuveiro de visual quadrado da Lorenzetti, com espalhador largo que distribui a água numa área maior que a de uma ducha redonda. A versão Multitemperaturas tem seletor de quatro posições de temperatura e, segundo o manual, usa a resistência 3060-A em 127 V (5500 W) e 3060-B em 220 V (6800 W), com a 3060-C de 7500 W disponível para a versão mais potente da linha. O grau de proteção informado é IP 24.</p>
     <p>É o equilíbrio do trio: espalhador grande, potência suficiente para a maioria das regiões e preço intermediário. O anúncio que consultamos é de uma loja de máquinas e material de construção, com nota 4,9 e mais de 750 vendas, o maior volume dos três. O manual também traz uma haste prolongadora opcional para a versão Eletrônica, que não é a deste anúncio, então não conte com ela aqui.</p>
@@ -110,7 +110,7 @@ export const article: Article = {
       <figcaption>Lorenzetti Loren Shower Ultra (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7VHjLZ3KlT" rel="sponsored noopener noreferrer" target="_blank">Comprar Loren Shower Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7VHjLZ3KlT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Loren Shower Ultra é o mais sofisticado dos três. Na versão Eletrônica, a temperatura não fica presa a quatro posições: a haste que desce do corpo do chuveiro gira um controle gradual, e dá para ajustar a água aos poucos, do morno ao quente, sem desligar o chuveiro. O espalhador retangular e largo cria um efeito de cascata, e o manual lista resistências 3065 para 127 V (5500 W) e 220 V (6800 W e 7500 W).</p>
     <p>O controle gradual faz diferença em dois cenários: no inverno do Sul e do Sudeste, quando a posição quente às vezes é pouco e a muito quente é demais, e em casa com crianças, em que acertar a temperatura com calma evita susto. A contrapartida é o preço, o maior do trio, e a eletrônica embutida, que é mais uma peça que pode dar defeito ao longo dos anos.</p>
@@ -122,13 +122,13 @@ export const article: Article = {
       <figcaption>Lorenzetti Bella Ducha 4T (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Aeswx4bRJ" rel="sponsored noopener noreferrer" target="_blank">Comprar Bella Ducha 4T na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Aeswx4bRJ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Bella Ducha 4 Temperaturas é a ducha redonda clássica, com seletor de quatro posições no topo. As fichas de varejo trazem 5500 W na versão 127 V e 6800 W na de 220 V, cerca de 457 g de peso, medidas próximas de 17 x 16,5 x 11 cm e resistência do tipo refil, fácil de achar em loja de bairro. A faixa de pressão informada é a mesma dos outros dois, de 1 a 40 metros de coluna de água.</p>
     <p>É a escolha de quem precisa resolver rápido e gastar pouco: banheiro de casa alugada, de edícula, de visita ou de quem vai reformar em breve. O espalhador menor concentra a água numa área mais estreita, e o acabamento é o mais simples do trio. O anúncio tem nota 4,9 e mais de 600 vendas e reúne as duas tensões, então confirme a voltagem na variação escolhida. Uma loja grande de varejo já anunciou o modelo com 4800 W em 127 V, por isso vale conferir a potência impressa na embalagem quando o produto chegar.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar Lorenzetti Futura na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -160,7 +160,7 @@ export const article: Article = {
     <p>Nas promoções de fim de ano, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia para comprar na Black Friday sem cair em golpe</a> ajuda a separar desconto real de preço inflado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7VHjLZ3KlT" rel="sponsored noopener noreferrer" target="_blank">Comprar Loren Shower Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7VHjLZ3KlT" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Instalação: o que conferir antes de comprar</h2>
@@ -200,7 +200,7 @@ export const article: Article = {
     <p>Para outros itens da casa já comparados, veja o <a href="/artigos/purificador-de-agua-electrolux-pe11b-ou-pc41b-comparativo">purificador de água Electrolux</a>, o <a href="/artigos/tanquinho-colormaq-lct6-lcs10-ou-lcs15-comparativo">tanquinho Colormaq</a> e o <a href="/artigos/ventilador-mesa-shopee-mondial-vsp-30-b-vsp-40-b-ou-ultra-v-30-comparativo">ventilador de mesa Mondial</a>, útil no verão, quando o chuveiro fica no morno.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar Lorenzetti Futura na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LSke5EmG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -208,7 +208,7 @@ export const article: Article = {
     <p>Desconfie de preço muito abaixo da faixa de mercado, que pode indicar produto de outra marca com nome parecido ou só a resistência de reposição, vendida em anúncios com título semelhante. A resistência do chuveiro é uma peça separada e custa bem menos que o aparelho inteiro.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Aeswx4bRJ" rel="sponsored noopener noreferrer" target="_blank">Comprar Bella Ducha 4T na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Aeswx4bRJ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

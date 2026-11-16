@@ -9,7 +9,7 @@ export const article: Article = {
   metaDescription:
     "Samsung Galaxy A17 5G vale a pena? Análise pela ficha oficial e pelas avaliações de compradores: tela, câmeras, bateria, desempenho, atualizações, versões de memória e para quem compensa.",
   category: "ai-indica",
-  productCategory: "informatica",
+  productCategory: "acessorios-celular",
   productSubcategory: "smartphone",
   productScore: 8.1,
   date: "2026-11-16",

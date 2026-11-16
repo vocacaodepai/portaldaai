@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Duracell AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O anúncio é da Loja Oficial Duracell, com nota 4,9 e 1.233 vendas, o maior volume dos dois. Comprar da loja oficial reduz o risco mais comum em pilha: receber cartela antiga, com data de validade curta. Varejistas brasileiros que vendem a marca informam até 10 anos de conservação sem uso, desde que guardada de forma correta, e é uma boa razão para comprar cartelas maiores sem medo de estragar.</p>
     <p>Na duração, o dado mais útil que encontramos é um <a href="https://gdm.com.br/?p=5534" rel="noopener noreferrer" target="_blank">teste independente do site GDM</a>, atualizado em janeiro de 2026, com mais de 20 marcas de pilha AA: a Duracell alcalina ficou em 4º lugar, com 22.374 voltas em 7h34, à frente de Panasonic Evolta e Philips. É um teste de um motor específico, não representa todos os aparelhos, mas ajuda a comparar marcas pelo mesmo critério.</p>
@@ -101,12 +101,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Elgin AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Elgin é uma marca conhecida de pilhas e utilidades no Brasil. O anúncio é do blister de 8 pilhas alcalinas AA 1,5 V (LR6), da loja Beltaf, com selo de oficial, nota 4,9 e 230 vendas. A arte da embalagem destaca 0% de mercúrio e cádmio e a promessa de durar mais custando menos. Em uma loja de varejo, o mesmo modelo aparece com certificação de laboratório credenciado pelo Inmetro e garantia de 3 meses do fornecedor.</p>
     <p>O ponto fraco é a falta de comparação independente: a Elgin não aparece no teste do GDM, e por isso não dá para dizer, com dados, se dura mais ou menos que a Duracell. O que dá para dizer é que o custo por pilha é bem menor, e que em aparelhos de baixo consumo a diferença de duração tende a importar menos que o preço.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Elgin AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Quando cada uma compensa</h2>
@@ -114,7 +114,7 @@ export const article: Article = {
     <p>Quem tem dispositivos que passam semanas ligados, como um <a href="/artigos/positivo-smart-controle-universal-wifi-vale-a-pena">controle universal</a> ou um <a href="/artigos/intelbras-mibo-mtu-1001-sensor-temperatura-umidade-vale-a-pena">sensor de temperatura</a>, precisa conferir no manual qual pilha o aparelho usa, porque nem todo modelo usa AA. Para itens que consomem muito de forma contínua, pilha recarregável costuma ser mais econômica no longo prazo, e é bom separar uma dúzia de recarregáveis para os aparelhos que mais gastam.</p>
     <p>Vale a mesma conferência para controle remoto de ventilador (veja o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">comparativo de ventiladores com controle</a>), para o <a href="/artigos/logitech-r500s-apresentador-vale-a-pena">apresentador sem fio Logitech</a> e para a <a href="/artigos/calculadora-cientifica-casio-fx-82ms-fx-82la-cw-ou-fx-991la-cw-comparativo">calculadora científica</a>: o tipo de pilha varia por modelo, e o manual manda. Quem busca luz de reserva para a casa pode ver ainda a <a href="/artigos/luminaria-de-emergencia-elgin-30-ou-60-leds-comparativo">luminária de emergência Elgin</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Duracell AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar pilha na Shopee</h2>
@@ -144,17 +144,17 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A Elgin costuma sair mais em conta, e a Duracell tem o melhor custo-benefício para aparelho que gasta muita pilha, porque o preço maior se dilui em menos trocas. Para controle remoto, a conta favorece a Elgin.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Duracell AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Elgin AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRHEQ9gOo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Duracell AA com 8: loja oficial, nota 4,9, volume alto de vendas e posição conhecida em teste independente. Ela vale mais para quem usa pilha em aparelhos de consumo alto e quer menos troca. A Elgin AA com 8 é a escolha de quem quer economizar em itens de baixo consumo e em casa com muitos controles.</p>
     <p>Em qualquer caso, confira a validade ao receber e guarde as pilhas em lugar seco. Para outros itens de uso diário, o <a href="/artigos/termometro-infravermelho-multi-saude-hc260-ou-hc498-comparativo">comparativo de termômetros</a> mostra mais um aparelho que depende de pilha em casa.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar Pilha Duracell AA na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3qOJ0Coft8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

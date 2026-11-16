@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Esse tipo de aparelho voltou às gavetas das casas brasileiras e hoje é comum encontrar o oxímetro ao lado do <a href="/artigos/termometro-infravermelho-multi-saude-hc260-ou-hc498-comparativo">termômetro</a> e do <a href="/artigos/melhor-monitor-pressao-arterial-braco-omron-comparativo-2026">monitor de pressão</a>. O que muda de um modelo para outro é a tela, a marca e a clareza sobre os limites.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o G-Tech Oled Graph entrega</h2>
@@ -73,7 +73,7 @@ export const article: Article = {
     <p>O funcionamento é direto, como em todo oxímetro de dedo: abre o clipe, coloca o dedo e em alguns segundos a tela mostra os valores. Esse tipo de uso simples pesa a favor de quem compra para um familiar idoso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para que serve e para que não serve</h2>
@@ -85,7 +85,7 @@ export const article: Article = {
     <p>Os limites são os de todo oxímetro de dedo. Esmalte escuro, unha de gel, mão fria, movimento e pele muito pigmentada podem alterar a leitura, e por isso é melhor medir sentado, em repouso e com a mão aquecida. As fichas divergem na faixa de SpO2 (algumas citam 70 a 99%, outras 0 a 99%), e o manual que vem na caixa é a referência para a margem de erro.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -93,7 +93,7 @@ export const article: Article = {
     <p>Para esportista, o aparelho serve para curiosidade, mas quem quer acompanhar batimentos e sono todo dia tende a preferir um <a href="/artigos/melhor-smartwatch-barato-comparativo-2026">smartwatch barato</a> ou o <a href="/artigos/redmi-watch-5-active-xiaomi-vale-a-pena">Redmi Watch 5 Active</a>, que registram o dado sem precisar de clipe no dedo. Para quem acompanha o peso e a composição do corpo, a <a href="/artigos/melhor-balanca-inteligente-bioimpedancia-comparativo-2026">balança inteligente</a> completa o conjunto de saúde doméstica.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como medir direito em casa</h2>
@@ -105,7 +105,7 @@ export const article: Article = {
     <p>O custo-benefício é bom para a ficha e para a marca. Anúncios muito abaixo da faixa merecem desconfiança, porque pode ser outra marca com nome parecido ou versão sem garantia. O valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -113,7 +113,7 @@ export const article: Article = {
     <p>O aparelho entra bem no kit de saúde da casa, ao lado do que já existe. Quem também compra para acompanhar pressão pode ver o comparativo do <a href="/artigos/melhor-monitor-pressao-arterial-braco-omron-comparativo-2026">monitor de pressão Omron</a> e a análise do <a href="/artigos/omron-complete-hem-7530t-monitor-pressao-ecg-vale-a-pena">Omron Complete</a>, que mede pressão e ECG. Para quem acompanha a glicemia, a análise do <a href="/artigos/g-tech-vita-ultra-medidor-glicose-shopee-vale-a-pena">glicosímetro G-Tech Vita Ultra</a>, da mesma marca, mostra o custo das tiras e o que diz o manual.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Oled Graph na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7puKmq52Xo" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>
