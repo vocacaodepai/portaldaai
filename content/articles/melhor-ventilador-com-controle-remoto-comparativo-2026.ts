@@ -163,7 +163,7 @@ export const article: Article = {
 
     <h2>Outros eletrodomésticos que já comparamos</h2>
     <p>Esse comparativo faz parte de uma série de reviews que publicamos sempre com a mesma régua: ficha técnica real cruzada com avaliação de quem já comprou. Já olhamos o <a href="/artigos/melhor-robo-aspirador-comparativo-2026">melhor robô aspirador</a>, a <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">melhor lâmpada inteligente Wi-Fi</a> e a <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">tomada inteligente Positivo</a> pra quem quer automatizar a casa sem gastar além do necessário.</p>
-    <p>Quem está montando a cozinha também pode conferir o comparativo de <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificadores</a> e a <a href="/artigos/electrolux-ecm30-cafeteira-vale-a-pena">cafeteira elétrica Electrolux ECM30</a> que testamos recentemente. E quem pensa em segurança do imóvel pode olhar a <a href="/artigos/intelbras-fr101v-fechadura-digital-vale-a-pena">fechadura digital Intelbras FR 101 V</a>, avaliada com o mesmo cuidado.</p>
+    <p>Quem está montando a cozinha também pode conferir o comparativo de <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificadores</a> e a <a href="/artigos/electrolux-ecm30-cafeteira-vale-a-pena">cafeteira elétrica Electrolux ECM30</a> que analisamos recentemente. E quem pensa em segurança do imóvel pode olhar a <a href="/artigos/intelbras-fr101v-fechadura-digital-vale-a-pena">fechadura digital Intelbras FR 101 V</a>, avaliada com o mesmo cuidado.</p>
   `,
   faq: [
     {

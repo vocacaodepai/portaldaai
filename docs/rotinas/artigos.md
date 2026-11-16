@@ -1,12 +1,14 @@
-# Rotina de artigos gerais (2 por dia, 05:00 de Brasília)
+# Rotina de artigos gerais (1 por dia, 05:00 de Brasília; desde 16/11/2026)
 
 Leia antes `docs/rotinas/comum.md`, a seção "Filtros de navegação" do
 `CLAUDE.md` e `docs/padrao-editorial.md` (sem o campo `sources`).
 
-## Categorias do dia (rodízio a cada 3 dias, dia do mês no fuso de Brasília)
-- resto 0 na divisão por 3: iniciantes e monetizacao
-- resto 1: negocios e ferramentas
-- resto 2: carreira e futuro
+## Categoria do dia (dia do mês no fuso de Brasília, resto da divisão por 6)
+- 0: iniciantes · 1: monetizacao · 2: negocios · 3: ferramentas ·
+  4: carreira · 5: futuro
+- 1 artigo só, com mais profundidade. Antes de escrever, procure artigo com a
+  mesma intenção de busca (`ls content/articles | grep <palavra>` e os
+  títulos): se existir, não crie outro; relate e sugira melhorar o existente.
 
 ## Escolher a pauta
 - Veja os últimos artigos de cada categoria do dia (data e

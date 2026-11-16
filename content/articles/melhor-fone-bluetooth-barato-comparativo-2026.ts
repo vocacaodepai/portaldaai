@@ -36,7 +36,7 @@ export const article: Article = {
       <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços mudam com frequência: confira sempre o valor atual na página de cada produto antes de comprar.</p>
     </div>
 
-    <p>Fone bluetooth bom costuma ser tratado como sinônimo de fone caro. Colocamos essa ideia à prova comparando três modelos reais à venda na <a href="https://www.amazon.com.br/dp/B0DBHT1BT9" rel="noopener noreferrer nofollow">Amazon Brasil</a>, de três faixas de preço bem diferentes: o Xiaomi Redmi Buds 6 Play, o Soundcore P20i (que já <a href="/artigos/soundcore-p20i-anker-vale-a-pena">testamos em review completo</a>) e o JBL Wave Flex. Todos com mais de 7 mil avaliações reais de compradores, cruzadas com a ficha técnica de cada fabricante.</p>
+    <p>Fone bluetooth bom costuma ser tratado como sinônimo de fone caro. Colocamos essa ideia à prova comparando três modelos reais à venda na <a href="https://www.amazon.com.br/dp/B0DBHT1BT9" rel="noopener noreferrer nofollow">Amazon Brasil</a>, de três faixas de preço bem diferentes: o Xiaomi Redmi Buds 6 Play, o Soundcore P20i (que já <a href="/artigos/soundcore-p20i-anker-vale-a-pena">analisamos em review completo</a>) e o JBL Wave Flex. Todos com mais de 7 mil avaliações reais de compradores, cruzadas com a ficha técnica de cada fabricante.</p>
 
     <h2>Os 3 fones que comparamos</h2>
     <p>A escolha não foi aleatória: são três faixas de preço diferentes dentro da mesma categoria (fone bluetooth intra-auricular para uso diário), todos vendidos oficialmente na Amazon Brasil com volume relevante de avaliação, o que reduz a chance de nota inflada por poucos compradores.</p>
