@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "philco-ppp01p-panela-pressao-eletrica-vale-a-pena",
-  title: "A panela de pressão que cozinha feijão em 25 minutos sem fogo: testamos a Philco PPP01P",
+  title: "A panela de pressão que cozinha feijão em 25 minutos sem fogo: a Philco PPP01P vale a pena?",
   seoTitle: "Philco PPP01P vale a pena? Panela de pressão elétrica analisada",
   excerpt:
     "Nota 7,8 de 10. A Philco PPP01P tem 13 programas, 6 litros e mais de 2,5 mil avaliações na Amazon Brasil. Veja prós, contras e para quem ela vale a pena.",

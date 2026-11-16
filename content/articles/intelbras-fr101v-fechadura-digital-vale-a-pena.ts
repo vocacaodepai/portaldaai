@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "intelbras-fr101v-fechadura-digital-vale-a-pena",
-  title: "A fechadura que troca 105 senhas sem chamar chaveiro: testamos a Intelbras FR 101 V",
+  title: "A fechadura que troca 105 senhas sem chamar chaveiro: a Intelbras FR 101 V vale a pena?",
   seoTitle: "Intelbras FR 101 V vale a pena? Nota, prós e contras",
   excerpt:
     "Nota 7,9 de 10. A FR 101 V cadastra até 105 senhas e tem entrada USB-C de emergência, mas não é feita para porta exposta à chuva. Veja se vale a pena.",
@@ -119,7 +119,7 @@ export const article: Article = {
 
     <h2>Outros produtos que já avaliamos pra casa</h2>
     <p>Esse review faz parte de uma série de testes de produto real que publicamos aqui, sempre cruzando ficha técnica oficial com avaliação de quem já comprou. Pra automatizar outras tarefas da casa, já olhamos a <a href="/artigos/melhor-lampada-inteligente-wifi-comparativo-2026">melhor lâmpada inteligente Wi-Fi</a>, a <a href="/artigos/positivo-smart-plug-wifi-vale-a-pena">tomada inteligente Positivo</a> e o <a href="/artigos/melhor-robo-aspirador-comparativo-2026">melhor robô aspirador</a>.</p>
-    <p>Quem está equipando a cozinha também pode conferir a <a href="/artigos/electrolux-ecm30-cafeteira-vale-a-pena">cafeteira elétrica Electrolux ECM30</a> e o comparativo de <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificadores</a> que testamos recentemente. E pra fechar o conforto do ambiente, vale olhar o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">melhor ventilador com controle remoto</a> e o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">melhor umidificador de ar</a>.</p>
+    <p>Quem está equipando a cozinha também pode conferir a <a href="/artigos/electrolux-ecm30-cafeteira-vale-a-pena">cafeteira elétrica Electrolux ECM30</a> e o comparativo de <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificadores</a> que analisamos recentemente. E pra fechar o conforto do ambiente, vale olhar o <a href="/artigos/melhor-ventilador-com-controle-remoto-comparativo-2026">melhor ventilador com controle remoto</a> e o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">melhor umidificador de ar</a>.</p>
   `,
   faq: [
     {

@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "logitech-k380-teclado-vale-a-pena",
-  title: "O teclado que troca de notebook pro celular em 1 segundo: testamos o Logitech K380",
+  title: "O teclado que troca de notebook pro celular em 1 segundo: o Logitech K380 vale a pena?",
   seoTitle: "Logitech K380 vale a pena? Preço e o que ele entrega em 2026",
   excerpt:
     "Nota 8,3 de 10. O Logitech K380 troca entre 3 aparelhos no mesmo teclado sem parear de novo, mas não tem numérico nem iluminação para quem digita no escuro.",
