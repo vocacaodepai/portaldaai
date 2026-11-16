@@ -1,4 +1,4 @@
-# Rotina AI Indica com Amazon (3 por dia, 06:07 de Brasília)
+# Rotina AI Indica com Amazon (1 por dia, 06:07 de Brasília; desde 16/11/2026)
 
 Leia antes `docs/rotinas/comum.md` e, no `CLAUDE.md`, as seções
 Categorização editorial, Nota (0-10), Filtros de navegação, Imagens de
@@ -6,9 +6,15 @@ produto, Botão de compra, Transparência Amazon, Título variado, Preços
 (faixa de mercado) e Botão espalhado.
 
 ## Quantidade
-- 2 comparativos (`kind: "guia"`, 2 ou 3 produtos reais da mesma categoria)
-  e 1 review de produto único (`kind: "review"`, com o campo `review`
-  completo), de 3 categorias de produto diferentes, numa só PR.
+- 1 artigo por dia: dia do mês par = comparativo (`kind: "guia"`, 2 ou 3
+  produtos reais da mesma categoria); dia ímpar = review de produto único
+  (`kind: "review"`, com o campo `review` completo).
+- Só tecnologia e eletrônicos ligados ao tema do site: informática, áudio e
+  vídeo, casa inteligente, segurança eletrônica, celulares e acessórios,
+  eletrônicos de cozinha com recurso inteligente. Nada de alimento, higiene,
+  cosmético, papelaria, roupa, brinquedo ou artigo esportivo.
+- Nunca "testamos"/"testei" sem uso real: o texto diz que a análise parte da
+  ficha técnica e das avaliações de compradores.
 - Não repita produto nem categoria já publicados (Amazon ou Shopee): confira
   com `grep -rl 'category: "ai-indica"' content/articles/` e os títulos.
 

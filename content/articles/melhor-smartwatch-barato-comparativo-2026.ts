@@ -36,7 +36,7 @@ export const article: Article = {
       <p>Como Associado da Amazon, o Portal da AI ganha com compras qualificadas feitas pelos links deste comparativo, sem custo adicional para você. Preços mudam com frequência: confira sempre o valor atual na página de cada produto antes de comprar.</p>
     </div>
 
-    <p>Smartwatch barato bom existe, só não é o mesmo smartwatch barato para todo mundo. Comparamos dois modelos reais vendidos na <a href="https://www.amazon.com.br/dp/B0CVCLGV1W" rel="noopener noreferrer nofollow">Amazon Brasil</a>, na mesma faixa de preço, que representam duas filosofias diferentes de projeto: o Samsung Galaxy Fit3, com tela AMOLED compacta, e o Redmi Watch 5 Active, que já <a href="/artigos/redmi-watch-5-active-xiaomi-vale-a-pena">testamos em review completo</a>, com tela maior e bateria que dura mais que o dobro.</p>
+    <p>Smartwatch barato bom existe, só não é o mesmo smartwatch barato para todo mundo. Comparamos dois modelos reais vendidos na <a href="https://www.amazon.com.br/dp/B0CVCLGV1W" rel="noopener noreferrer nofollow">Amazon Brasil</a>, na mesma faixa de preço, que representam duas filosofias diferentes de projeto: o Samsung Galaxy Fit3, com tela AMOLED compacta, e o Redmi Watch 5 Active, que já <a href="/artigos/redmi-watch-5-active-xiaomi-vale-a-pena">analisamos em review completo</a>, com tela maior e bateria que dura mais que o dobro.</p>
 
     <h2>Os 2 smartwatches que comparamos</h2>
     <p>Os dois são best-sellers de marca grande vendidos oficialmente na Amazon Brasil, com volume de avaliação relevante, o que reduz a chance de nota inflada por poucos compradores.</p>

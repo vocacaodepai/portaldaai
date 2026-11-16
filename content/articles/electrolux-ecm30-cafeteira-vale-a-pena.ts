@@ -2,7 +2,7 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "electrolux-ecm30-cafeteira-vale-a-pena",
-  title: "A cafeteira que programa o café pra te acordar: testamos a Electrolux ECM30",
+  title: "A cafeteira que programa o café pra te acordar: a Electrolux ECM30 vale a pena?",
   seoTitle: "Electrolux ECM30 vale a pena? Nota, prós e contras",
   excerpt:
     "Nota 8,2 de 10. A Electrolux ECM30 rende 38 xícaras por ciclo e programa o horário do café, mas a jarra de vidro exige cuidado. Veja se vale a pena.",

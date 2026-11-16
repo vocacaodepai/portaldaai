@@ -1,4 +1,9 @@
-# Rotina AI Indica com Shopee (3 por dia, 07:37 de Brasília)
+# Rotina AI Indica com Shopee (PAUSADA desde 16/11/2026)
+
+A rotina está desligada no plano de recuperação do Search Console. Só volta
+com decisão do dono; quando voltar, segue as regras de tema e quantidade de
+`docs/rotinas/ai-indica-amazon.md`. Foto: vale o `CLAUDE.md` (foto oficial do
+fabricante), não a imagem do anúncio.
 
 Leia antes `docs/rotinas/comum.md` e `docs/rotinas/ai-indica-amazon.md`:
 valem as mesmas regras de texto, nota, preço e título, trocando a Amazon pela

@@ -314,38 +314,39 @@ um AI Indica dentro do fluxo de outros comparativos e reviews de produto:
 não precisa de nenhuma seção nova, só continuar publicando AI Indica
 suficiente pra essa seção ter o que mostrar.
 
-## Rotina editorial diária: 10 publicações por dia (desde 04/11/2026)
+## Rotina editorial diária: 3 publicações por dia (desde 16/11/2026)
 
-Pedido do dono em 04/11/2026: menos volume e mais qualidade, para o Google
-indexar mais (Search Console tinha 955 páginas indexadas contra 1.055
-"rastreadas, mas não indexadas"). O ritmo diário é:
+Histórico: em 04/11/2026 o ritmo caiu de ~20 para 10 publicações por dia.
+Em 16/11/2026, depois de uma queda forte de impressões e cliques no Search
+Console, o dono aprovou o plano de recuperação: o site publicou ~1.550 páginas
+em ~10 semanas, um padrão que o Google trata como conteúdo em escala. O ritmo
+agora é de no máximo 3 publicações por dia, com mais profundidade em cada uma:
 
-- **2 notícias** (rotina "Portal da AI — 2 notícias por dia", 09:21 e
-  17:21 Brasília): 1 por rodada, a notícia mais importante do dia sobre IA
-  para o leitor brasileiro. Sem pauta forte, a rodada não publica nada. A
-  segunda rodada não repete o assunto nem o `topic` da primeira.
-- **2 artigos gerais** (rotina "Portal da AI — 2 artigos gerais por dia",
-  05:00 Brasília): 2 categorias diferentes em rodízio a cada 3 dias (dia do
-  mês com resto 0 na divisão por 3 = iniciantes e monetização; resto 1 =
-  negócios e ferramentas; resto 2 = carreira e futuro). Sem link de
-  afiliado. As antigas rodadas das 11:08 e 17:09 foram desligadas.
-- **3 AI Indica com Amazon** (rotina "Portal da AI — 3 AI Indica Amazon por
-  dia", 06:07 Brasília): sempre `category: "ai-indica"`, produto real
-  vendido na Amazon Brasil e link de afiliado `tag=portaldaai-20`:
-  - **2 comparativos** (`kind: "guia"`, tipo `melhor-fone-bluetooth-barato-comparativo-2026`):
-    2 ou 3 produtos reais da mesma categoria comparados lado a lado, com
-    tabela e nota por critério.
-  - **1 review de produto único** (`kind: "review"`, tipo
-    `soundcore-p20i-anker-vale-a-pena`), com o campo `review` completo.
-- **3 AI Indica com Shopee** (rotina "Portal da AI — 3 AI Indica Shopee por
-  dia", 07:37 Brasília): 2 comparativos e 1 review, com o `offerLink` da API
-  da Shopee.
-- **Manutenção de páginas antigas** (rotina "Portal da AI — manutenção
-  diária de páginas antigas", 15:43 Brasília): melhora de 5 a 8 páginas já
-  publicadas por dia (dados atualizados, texto aprofundado, links
-  internos), priorizando as URLs "rastreadas, mas não indexadas" que o dono
-  enviar. Juntar páginas ou marcar `noindex` só com decisão do dono: a
-  rotina lista as sugestões no informe.
+- **1 notícia** (rotina "Portal da AI — 1 notícia por dia", 09:21
+  Brasília): a notícia mais importante do dia sobre IA para o leitor
+  brasileiro, com análise própria (mínimo ~900 palavras). Sem pauta forte e
+  nova, não publica nada. A rodada das 17:21 foi desligada.
+- **1 artigo geral** (rotina "Portal da AI — 1 artigo geral por dia", 05:00
+  Brasília): rodízio por dia do mês com resto da divisão por 6: 0 =
+  iniciantes, 1 = monetização, 2 = negócios, 3 = ferramentas, 4 = carreira,
+  5 = futuro. Sem link de afiliado. Antes de escrever, confirme que não há
+  artigo publicado com a mesma intenção de busca (não criar mais um
+  "como usar IA para X" se já existe um parecido: melhore o existente).
+- **1 AI Indica com Amazon** (rotina "Portal da AI — 1 AI Indica Amazon por
+  dia", 06:07 Brasília): dia par = comparativo (`kind: "guia"`), dia ímpar =
+  review de produto único (`kind: "review"`). Só produtos de tecnologia e
+  eletrônicos ligados ao tema do site (informática, áudio e vídeo, casa
+  inteligente, segurança eletrônica, celulares e acessórios, eletrônicos de
+  cozinha com recurso inteligente). Nada de alimento, higiene, papelaria,
+  roupa ou esporte.
+- **AI Indica com Shopee: pausada** desde 16/11/2026 (a rotina das 07:37 está
+  desligada). Volta só com decisão do dono.
+- **Qualidade e poda** (rotina "Portal da AI — manutenção diária", 15:43
+  Brasília): em vez de "melhorar 5 a 8 páginas", segue o plano de
+  recuperação (ver `docs/rotinas/manutencao.md`): aprofunda páginas que já
+  têm impressões, junta páginas que disputam a mesma busca e propõe
+  `noindex` para as fracas. Mudança de `updated` só quando a página mudou de
+  verdade (texto novo relevante), nunca para só trocar links.
 
 Todo artigo de AI Indica segue as regras de imagem da seção acima (foto
 real oficial do fabricante, nunca gerador de IA, `build-product-cover.mjs`
@@ -363,11 +364,15 @@ chamada e alterne entre formatos ao longo da semana, por exemplo:
 - Pergunta direta: "Vale a pena comprar a air fryer Philco PFR11P?"
 - Comparação direta: "Soundcore P20i ou JBL Tune 510BT: qual comprar?"
 - Uso/cenário: "Fone bluetooth até R$ 150: o que realmente vale o dinheiro"
-- Veredito antecipado: "Testamos o teclado Logitech K380: compacto, mas
-  com uma falha que pesa no preço"
+- Veredito antecipado: "Teclado Logitech K380: compacto, mas com uma falha
+  que pesa no preço"
+
+Nunca usar "testamos", "testei" ou "no nosso teste" (no título ou no texto)
+quando não houve uso real do produto: a análise parte da ficha técnica e das
+avaliações de compradores, e o texto deve dizer isso.
 
 Evite repetir a mesma estrutura de título em dois artigos da mesma rodada
-(3 comparativos + 2 reviews) ou de rodadas consecutivas. O `seoTitle`
+ou de rodadas consecutivas. O `seoTitle`
 (quando o `title` editorial for mais criativo/curto) pode levar a palavra-
 chave de busca por extenso; o `title` do card não precisa.
 
