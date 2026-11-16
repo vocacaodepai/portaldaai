@@ -7,11 +7,12 @@ export const article: Article = {
   excerpt:
     "Vaga temporária no Natal 2026: monte um currículo curto com IA, prepare a entrevista de loja e de centro de distribuição e saiba o que pesa na efetivação.",
   metaDescription:
-    "Como conseguir vaga temporária no Natal 2026 com ajuda da IA: currículo de uma página, respostas de entrevista, direitos do temporário e como ser efetivado.",
+    "Vaga temporária no Natal 2026 com ajuda da IA: currículo de uma página, entrevista, como conferir a agência no Ministério do Trabalho e como ser efetivado.",
   category: "carreira",
   articleSubcategory: "curriculo-e-portfolio",
   date: "2026-11-11",
-  readTime: 7,
+  updated: "2026-11-16",
+  readTime: 8,
   imageQuery: "retail store christmas shop assistant",
   seed: 1176,
   kind: "guia",
@@ -76,6 +77,23 @@ Texto da vaga: [cole aqui o anúncio]</code></pre>
 
     <p>O contrato pode durar até 180 dias, com prorrogação de até 90 dias, e a lei garante remuneração equivalente à dos empregados da mesma função na empresa tomadora. Antes de assinar, confira se a agência tem registro, qual é o salário, a jornada, a escala de fim de semana e a data de término. O 13º e as férias proporcionais entram no acerto, e o guia do <a href="/artigos/13o-salario-do-trabalhador-2026-datas-calculo-descontos-e-como-conferir-com-ia">13º salário do trabalhador</a> ajuda a conferir as contas.</p>
 
+    <h2>Como conferir se a agência de trabalho temporário é registrada</h2>
+
+    <p>Como boa parte das vagas de fim de ano passa por agência, vale checar a agência antes de mandar documento ou assinar contrato. A mesma <a href="https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/trabalho-temporario" target="_blank" rel="noopener noreferrer">página do Ministério do Trabalho e Emprego</a> explica que a empresa de trabalho temporário só pode funcionar com registro prévio no ministério, feito pelo sistema SIRETT, e que depois do registro ela atua nos estados onde tem filial, agência ou escritório.</p>
+
+    <p>O ministério publica ali uma relação das empresas de trabalho temporário registradas no Brasil, em arquivo de planilha (CSV). Baixe o arquivo, abra no Google Planilhas ou no Excel e procure pelo CNPJ que aparece no contrato ou na mensagem de convocação. Se a planilha for grande demais, a IA ajuda a filtrar, sem que você precise colar nenhum dado seu.</p>
+
+    <pre><code>Tenho uma planilha CSV com a lista oficial de empresas de trabalho temporário registradas. Me explique, passo a passo e em linguagem simples, como filtrar essa planilha no Google Planilhas para achar uma empresa pelo CNPJ [cole o CNPJ da agência] e quais colunas devo olhar para confirmar o nome e a cidade.</code></pre>
+
+    <ul class="checklist">
+      <li>CNPJ da agência no contrato igual ao da lista oficial</li>
+      <li>Nome da empresa tomadora (a loja ou o galpão) escrito no contrato</li>
+      <li>Salário, jornada, escala e data de término por escrito antes do primeiro dia</li>
+      <li>Nenhuma cobrança de taxa, uniforme ou curso para começar</li>
+    </ul>
+
+    <p>Agência que não aparece na lista, não informa CNPJ ou pede pagamento antecipado é sinal para parar e conferir. Na dúvida, use o guia de <a href="/artigos/pesquisa-salarial-com-ia-quanto-pagam-pela-sua-funcao-caged-vagas-e-faixa-realista">pesquisa salarial com IA</a> para ver se o valor oferecido faz sentido para a função: salário muito acima do mercado para vaga simples também é sinal de alerta.</p>
+
     <h2>Exemplo: de temporária a efetivada em uma loja de calçados</h2>
 
     <p>Imagine a Juliana, 24 anos, de Campinas, contratada como vendedora temporária de 17 de novembro a 31 de dezembro, por uma agência, numa loja de calçados de shopping. São cerca de 6 semanas. Na primeira, ela pede ao gerente as duas metas que mais importam: vendas por dia e pontualidade na escala.</p>
@@ -97,6 +115,11 @@ Texto da vaga: [cole aqui o anúncio]</code></pre>
     <p>Vaga temporária no Natal 2026 é uma porta de entrada real, e a IA ajuda a chegar mais preparado em cada etapa, do currículo à conversa de efetivação. Comece hoje pelo currículo de uma página e mande para as agências ainda nesta semana. Para ampliar a rede e ouvir de vagas antes do anúncio, veja como pedir indicação no guia de <a href="/artigos/networking-com-ia-mensagens-para-recrutadores-e-indicacoes">networking com IA</a> e explore a categoria Carreira do Portal da AI.</p>
   `,
   faq: [
+    {
+      question: "Como saber se a agência de trabalho temporário é confiável?",
+      answer:
+        "Toda empresa de trabalho temporário precisa de registro prévio no Ministério do Trabalho e Emprego, feito pelo sistema SIRETT. O ministério publica na página de trabalho temporário uma lista das empresas registradas, em planilha. Procure o CNPJ que aparece no contrato. Agência fora da lista, sem CNPJ ou que cobra taxa para começar é sinal de alerta.",
+    },
     {
       question: "Ainda dá tempo de conseguir vaga temporária de Natal em novembro?",
       answer:

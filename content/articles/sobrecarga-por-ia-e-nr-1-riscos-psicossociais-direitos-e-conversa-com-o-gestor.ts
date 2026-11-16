@@ -11,7 +11,8 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "mentalidade-e-adaptacao",
   date: "2026-11-14",
-  readTime: 8,
+  updated: "2026-11-16",
+  readTime: 10,
   imageQuery: "tired office worker laptop",
   seed: 1200,
   kind: "guia",
@@ -115,9 +116,29 @@ Números: [cole a tabela resumida]</code></pre>
 
     <p>O terceiro é planejar uma mudança com calma, comparando propostas com cuidado, como mostra o guia de <a href="/artigos/clt-ou-pj-como-comparar-proposta-com-ia-e-planilha">CLT ou PJ com IA e planilha</a>. Sair no impulso costuma custar caro. Já a denúncia à fiscalização do trabalho é um direito, mas vale conversar antes com o sindicato para entender o melhor caminho no seu caso.</p>
 
+    <h3>Como funciona a denúncia à inspeção do trabalho</h3>
+
+    <p>Pela <a href="https://www.gov.br/pt-br/servicos/realizar-denuncia-trabalhista" target="_blank" rel="noopener noreferrer">página oficial do serviço no gov.br</a>, a denúncia trabalhista é feita pela internet, no Canal Digital da Inspeção do Trabalho, sem ir a nenhuma agência. É gratuita, pede CPF e login na conta gov.br (nível bronze, prata ou ouro) e leva cerca de 15 minutos para preencher.</p>
+
+    <p>Dois detalhes pesam na decisão. A denúncia trabalhista comum não pode ser anônima, mas os dados de quem denuncia são sigilosos e, segundo o governo, não são divulgados durante uma possível fiscalização. E não há garantia de visita: as informações servem para a inspeção identificar o problema e agir quando couber, e o canal não tem rastreamento do andamento.</p>
+
+    <ul class="checklist">
+      <li>Nome e CNPJ da empresa e endereço onde o trabalho acontece</li>
+      <li>Descrição curta e objetiva: o que mudou, desde quando e quem é afetado</li>
+      <li>Seus registros resumidos: metas antes e depois, horas extras, intervalos pulados</li>
+      <li>O que já foi tentado: conversa com o gestor, CIPA, RH ou sindicato, com datas</li>
+    </ul>
+
+    <p>A IA ajuda a transformar semanas de anotação em um relato de poucas linhas, desde que você revise cada frase e não cole nome de colega nem dado de cliente. Peça algo como: "Resuma estas anotações em um relato objetivo de até 150 palavras, só com fatos, datas e números, sem adjetivos e sem acusar pessoas pelo nome".</p>
+
     <p>A IA pode, sim, tirar peso do seu dia, desde que meta, prazo e responsabilidade sejam ajustados junto com ela. Comece hoje o registro de duas semanas, monte a proposta e leve ao gestor. Para continuar organizando sua rotina com a tecnologia a seu favor, veja como <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">criar uma rotina diária produtiva com IA</a> e explore os outros guias da categoria <a href="/categoria/carreira">Carreira</a>.</p>
   `,
   faq: [
+    {
+      question: "Dá para denunciar sobrecarga no trabalho ao Ministério do Trabalho sem se identificar?",
+      answer:
+        "Na denúncia trabalhista comum, não. O serviço no gov.br pede CPF e login na conta gov.br, e não aceita denúncia anônima. Em compensação, os dados de quem denuncia são sigilosos e não são divulgados durante uma possível fiscalização. A denúncia é gratuita, feita pela internet, e não garante visita: a inspeção avalia quando cabe agir.",
+    },
     {
       question: "A NR-1 vale para sobrecarga causada por ferramenta de IA?",
       answer:

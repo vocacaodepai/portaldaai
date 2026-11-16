@@ -99,7 +99,7 @@ export const article: Article = {
       <li>Se programas de crédito para pequenos negócios, que mudam de regra com frequência, são uma opção; confirme as condições atuais direto com o banco.</li>
     </ul>
 
-    <p>Peça a proposta por escrito de mais de uma instituição e leve a conta feita na planilha. Na dúvida, converse com o contador. Se o negócio é MEI e está crescendo, vale ler também o texto sobre <a href="/artigos/de-mei-para-microempresa-quando-migrar-simples-nacional-e-contador">quando migrar de MEI para microempresa</a>.</p>
+    <p>Peça a proposta por escrito de mais de uma instituição e leve a conta feita na planilha. Na dúvida, converse com o contador. Se o negócio é MEI e está crescendo, vale ler também o texto sobre <a href="/artigos/de-mei-para-microempresa-quando-migrar-simples-nacional-e-contador">quando migrar de MEI para microempresa</a>. Um caso típico é o contrato com órgão público, em que você compra o insumo antes e recebe depois, assunto do guia sobre <a href="/artigos/vender-para-prefeitura-sendo-mei-licitacao-dispensa-e-edital-com-ia">vender para prefeitura sendo MEI</a>.</p>
 
     <h2>Erros comuns com capital de giro</h2>
 

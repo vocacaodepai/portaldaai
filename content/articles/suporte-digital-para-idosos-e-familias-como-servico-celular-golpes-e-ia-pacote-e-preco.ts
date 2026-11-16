@@ -34,7 +34,7 @@ export const article: Article = {
 
     <h2>O que incluir no pacote</h2>
 
-    <p>Comece pequeno e específico. Um pacote claro vende melhor do que "ajudo com tecnologia". Sugestões de itens, todos de ensino e organização:</p>
+    <p>Comece pequeno e específico. Um pacote claro vende melhor do que "ajudo com tecnologia". Sugestões de itens, todos de ensino e organização: Um item fácil de explicar ao cliente é deixar o celular dele com o bloqueio de chamadas indesejadas configurado, seguindo o passo a passo de <a href="/artigos/ligacoes-de-telemarketing-nao-me-perturbe-filtro-de-spam-e-ia">filtro de spam e Não Me Perturbe</a>.</p>
 
     <ul>
       <li><strong>Celular em ordem:</strong> atualização do sistema, tamanho de letra, brilho, ícones de uso diário na primeira tela, backup de fotos.</li>

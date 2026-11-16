@@ -11,7 +11,8 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "lancamento-e-estrategia",
   date: "2026-11-10",
-  readTime: 8,
+  updated: "2026-11-16",
+  readTime: 10,
   imageQuery: "Brazilian city hall building",
   seed: 1168,
   kind: "guia",
@@ -63,7 +64,15 @@ export const article: Article = {
     <p>Se você vencer e alguma certidão fiscal estiver com problema, a LC 123 garante cinco dias úteis para regularizar, prorrogáveis por mais cinco a critério do órgão. O TCU observa que, em certas ordens de fase da nova lei, esse benefício perde efeito, então leia o edital.</p>
 
     <h3>Preferência local</h3>
-    <p>O órgão pode dar prioridade a pequenas empresas sediadas no município ou na região.</p>
+    <p>O órgão pode dar prioridade a pequenas empresas sediadas no município ou na região. Pelo Decreto 8.538/2015, citado no material do TCU, essa prioridade funciona como um empate ficto local: a pequena empresa da cidade ou da região pode cobrir a melhor oferta quando estiver até 10% acima do melhor preço válido. O edital diz se a regra vale e qual é a região considerada.</p>
+
+    <h3>Cota reservada em compras grandes</h3>
+    <p>Quando a prefeitura compra bens que podem ser divididos, como resmas de papel, uniformes ou material de limpeza, a LC 123 permite reservar até 25% do objeto para micro e pequenas empresas. Segundo a mesma página do TCU, a regra não se aplica a obras e serviços. Na prática, um pedido de R$ 300 mil em material pode ter uma cota de até R$ 75 mil disputada só entre pequenos negócios, o que tira o MEI da briga direta com distribuidoras grandes.</p>
+
+    <h3>Subcontratação em obras e serviços</h3>
+    <p>Em obras e serviços, o edital pode exigir que a empresa vencedora, quando não for pequena, subcontrate micro e pequenas empresas para parte da execução. Para quem ainda não tem estrutura de disputar sozinho, isso abre um caminho indireto: acompanhar os resultados no PNCP e oferecer o seu serviço à empresa que ganhou. O TCU lembra que, se a subcontratada sair, a contratada tem 30 dias para substituí-la.</p>
+
+    <p>Há ainda um limite que vale olhar antes de tudo: pela Lei 14.133, os benefícios não se aplicam a itens ou licitações com valor estimado acima da receita bruta máxima de empresa de pequeno porte, hoje R$ 4,8 milhões. Para o MEI isso raramente pesa, porque o teto de faturamento dele é muito menor, mas explica por que alguns editais grandes não trazem empate ficto.</p>
 
     <h2>Onde encontrar os pedidos das prefeituras</h2>
 
