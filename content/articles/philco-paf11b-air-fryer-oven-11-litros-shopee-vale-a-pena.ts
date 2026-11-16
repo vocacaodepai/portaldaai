@@ -66,7 +66,7 @@ export const article: Article = {
     <p>A Philco PAF11B é uma air fryer oven: em vez do cesto redondo tradicional, ela tem uma câmara de 11 litros com porta frontal e janela, mais parecida com um forninho elétrico que fritadeira. A Shopee tem a versão vendida pela loja oficial Philco, com nota média 5,0 e cerca de 750 vendas. A análise abaixo parte da ficha divulgada por varejistas, dos dados do anúncio e das avaliações de compradores, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que a PAF11B entrega na ficha</h2>
@@ -79,7 +79,7 @@ export const article: Article = {
     <p>Para quem já tem forno elétrico, a conta é diferente: o <a href="/artigos/forno-eletrico-philco-pfe44p-ou-britania-bfe43-comparativo">comparativo de fornos elétricos Philco e Britânia</a> mostra quando um forno de bancada resolve, e o <a href="/artigos/melhor-air-fryer-sem-oleo-comparativo-2026">comparativo de air fryers de cesto</a> ajuda quem prefere um aparelho menor.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nota por critério</h2>
@@ -97,7 +97,7 @@ export const article: Article = {
     <p>Quem mora sozinho ou cozinha para duas pessoas provavelmente não aproveita os 11 litros e gasta mais energia aquecendo uma câmara grande. Nesse caso, uma air fryer de cesto menor resolve melhor.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados no dia a dia</h2>
@@ -106,7 +106,7 @@ export const article: Article = {
     <p>Na limpeza, deixe esfriar, retire as bandejas e lave com esponja macia e detergente neutro. A porta com janela pede um pano úmido, e resíduo de gordura no vidro acumula se ficar semanas sem limpar. Para guardar sobras, os <a href="/artigos/potes-hermeticos-electrolux-12-pecas-shopee-vale-a-pena">potes herméticos Electrolux</a> combinam bem com quem cozinha em quantidade.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como escolher air fryer oven sem errar</h2>
@@ -117,14 +117,14 @@ export const article: Article = {
     <p>Air fryer oven tem preço que muda com promoção, cupom e vendedor. Como faixa larga de mercado, a Philco PAF11B costuma variar de R$ 380 a R$ 500. A faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee, e muda com o vendedor, a voltagem e a época.</p>
     <p>Dentro dessa faixa, o custo-benefício é bom para quem aproveita a capacidade de 11 litros, porque um forno elétrico e uma air fryer comprados separados costumam somar mais. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Vale a pena?</h2>
     <p>Para quem cozinha para a família e quer espaço de forno com a praticidade da air fryer, sim: a PAF11B tem 11 litros, painel digital, 8 funções e vem de uma marca conhecida, na loja oficial, com nota 5,0 dos compradores. Os pontos fracos são o espaço que ocupa e a falta de uma ficha técnica oficial fácil de achar.</p>
     <p>Se você mora sozinho ou tem bancada pequena, prefira um modelo de cesto. Antes de fechar, leia as avaliações recentes, confira a voltagem e o que vem na caixa. Para ver outros eletroportáteis na Shopee, o <a href="/artigos/micro-ondas-shopee-mondial-mo-01-21-b-britania-bmo23-ou-philco-pm36-comparativo">comparativo de micro-ondas na Shopee</a> é um bom próximo passo. Para o café e o preparo de bebidas e massas, o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparativo de chaleiras elétricas</a> e o <a href="/artigos/melhor-batedeira-planetaria-comparativo-2026">de batedeiras planetárias</a> completam a bancada. Se a bancada é pequena, o <a href="/artigos/air-fryer-shopee-hq-48-l-philco-pfr15pi-ou-mondial-afn-40-bi-comparativo">comparativo de air fryers de cesto na Shopee</a> põe lado a lado a HQ de 4,8 L, a Philco PFR15PI e a Mondial Family.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PAF11B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/20wXrEz2Uq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

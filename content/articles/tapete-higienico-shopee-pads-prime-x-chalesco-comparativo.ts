@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar Pads Prime 80x60 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Pads Prime é vendido pela Pet Prime Br, loja com selo de preferida na Shopee, em pacotes de 30, 50 e 100 unidades. A embalagem do anúncio descreve 5 camadas de proteção, alta absorção, livre de perfume e indicação para cães de médio a grande porte. A marca é mais nova que as tradicionais do mercado pet, e não encontramos uma ficha técnica própria fora da loja e da embalagem, então tratamos as informações como as que o fabricante divulga no anúncio.</p>
     <p>O que pesa a favor é o histórico no marketplace: nota 4,9 e milhares de vendas no mesmo anúncio sugerem boa aceitação entre quem compra o item em volume. O tamanho 80x60 serve a cão médio e grande, que precisa de mais área para acertar o alvo. Para filhote de raça pequena, o tapete pode ser maior do que o necessário, e aí uma versão de 60x60 gasta menos.</p>
@@ -102,13 +102,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar Chalesco Premium 60x90 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Chalesco é uma marca conhecida das lojas de pet, e o Premium é a linha super absorvente. Segundo a embalagem e as fichas de varejo, o tapete tem gel superabsorvente, barreiras antivazamento, controle de odores, atrativo canino e fitas adesivas para prender no piso. A composição citada inclui polpa de celulose, polímero superabsorvente e adesivo termoplástico.</p>
     <p>A fita adesiva é o diferencial prático: o tapete fica no lugar e o cão não o arrasta. O atrativo canino ajuda quem está ensinando o filhote a fazer no local certo, o que costuma ser a parte difícil do primeiro mês em casa. Para levar o filhote ao veterinário, a <a href="/artigos/chalesco-gulliver-3-caixa-de-transporte-vale-a-pena">caixa de transporte Chalesco</a> também aceita um tapete no fundo. O tamanho 60x90 é largo e funciona para cães de vários portes.</p>
     <p>O limite é a reputação desigual: em outras lojas da internet, a nota média é mais modesta, com comentários divididos entre elogios à absorção e queixas de que o tamanho não compensa para cães grandes. No anúncio da Shopee, a nota é 5,0, mas com cerca de 200 vendas, volume bem menor que o do Pads Prime, e o vendedor é revendedor, não a própria marca.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar Chalesco Premium 60x90 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como escolher o tamanho e quantos comprar</h2>
@@ -116,7 +116,7 @@ export const article: Article = {
     <p>Para a conta de consumo, pense na rotina: um filhote pode usar quatro a seis por dia nas primeiras semanas, e um cão adulto de apartamento um ou dois, e há quem reaproveite o tapete até duas vezes quando o xixi é pouco, desde que não haja odor. O pacote de 50 dura de uma semana, para o filhote, a mais de um mês, para o adulto. Compre o pacote maior só depois de saber o seu consumo, porque o gel perde qualidade com muita umidade no armário.</p>
     <p>Quem tem gato também usa o tapete como apoio em viagens e na caixa de transporte, mas o ideal para ele é a <a href="/artigos/areia-gato-shopee-cat-bio-max-clean-mandioca-ou-ultra-clean-comparativo">areia higiênica</a>, que segura melhor o odor.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar Pads Prime 80x60 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados de higiene e do dia a dia</h2>
@@ -150,17 +150,17 @@ export const article: Article = {
     </table>
     <p>O Pads Prime costuma sair mais em conta por unidade e é o de melhor custo-benefício. O Chalesco custa mais do dobro e se justifica para quem valoriza a marca, a fita adesiva e o atrativo canino. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar Pads Prime 80x60 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar Chalesco Premium 60x90 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1LgtFD3brs" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o Pads Prime 80x60: nota 4,9, milhares de vendas no anúncio e preço por unidade menor, com tamanho que serve a cães médios e grandes. O Chalesco Premium é a escolha de quem quer marca tradicional e fixação com fita adesiva, e aceita pagar mais por isso.</p>
     <p>Em qualquer caso, confirme o tamanho e a quantidade antes de comprar e teste com um pacote menor se o seu cão for exigente. Para quem divide a atenção entre pet e casa, vale conferir também o <a href="/artigos/chalesco-comedouro-duplo-360-ml-pet-vale-a-pena">comedouro duplo Chalesco</a>, outro item da linha pet que analisamos.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar Pads Prime 80x60 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4qGlPZrtwv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

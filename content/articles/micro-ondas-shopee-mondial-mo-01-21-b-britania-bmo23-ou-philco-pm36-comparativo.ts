@@ -28,7 +28,7 @@ export const article: Article = {
     <p>O melhor micro-ondas na Shopee para a maioria das casas é o de 20 a 21 litros, que esquenta, descongela e faz pipoca sem ocupar a bancada inteira. Comparamos três modelos de marca conhecida que aparecem entre os mais vendidos da loja: o <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">Mondial MO-01-21-B</a>, o <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Britânia BMO23</a> e o <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">Philco PM36</a>. A análise vem das fichas divulgadas pelas marcas e pelas lojas, dos dados dos anúncios e das avaliações de compradores, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BMO23 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Os 3 micro-ondas que comparamos</h2>
@@ -75,7 +75,7 @@ export const article: Article = {
       <figcaption>Foto: anúncio do Mondial MO-01-21-B na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial MO-01-21-B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">MO-01-21-B</a> tem 21 litros e 1200 W, segundo as lojas que vendem o modelo. O painel agrupa as teclas por tipo de uso: arroz, bebidas e manter aquecido no dia a dia, pipoca, brigadeiro e bolo de caneca no menu kids, e descongelar para feijão, carnes e automático. Tem tira odor, tecla de iniciar com mais 30 segundos e 10 níveis de potência.</p>
@@ -87,7 +87,7 @@ export const article: Article = {
       <figcaption>Foto: anúncio do Britânia BMO23 na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BMO23 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">BMO23</a> é vendido na Shopee pela loja Britânia Oficial. São 20 litros e 1100 W, com pintura interna Limpa Fácil, prato giratório de 28 cm, 10 níveis de potência, função tira odor, descongelamento por tempo e por peso e receitas prontas de brigadeiro, lasanha, pipoca e pizza. As lojas citam Selo Procel A de eficiência.</p>
@@ -99,14 +99,14 @@ export const article: Article = {
       <figcaption>Foto: anúncio do Philco PM36 na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PM36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">PM36</a> é o maior do grupo, com 33 litros e 1400 W, vendido pela Philco Oficial. As lojas informam prato de 31,5 cm, classe A de eficiência, menu fit, receitas de bolo de caneca, brigadeiro, pipoca, lasanha e pizza, descongelamento por tempo ou por peso e botão de mais 30 segundos. A cavidade maior aceita pratos e travessas largas que os modelos de 20 litros não recebem.</p>
     <p>O custo é espaço de bancada e preço maior. Um comprador de um dos anúncios relatou que a potência real parecia abaixo da anunciada, relato isolado, mas que mostra por que vale ler as avaliações recentes do anúncio antes de comprar.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial MO-01-21-B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2BFy2XjvBb" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como escolher pelo tamanho da família</h2>
@@ -117,7 +117,7 @@ export const article: Article = {
     <p>Use só recipiente próprio para micro-ondas, nunca metal, e deixe a tampa entreaberta para o vapor sair. Alimentos fechados, como ovo com casca, podem estourar. Quem usa também <a href="/artigos/panela-eletrica-de-arroz-mondial-pe-44-10x-ou-britania-bpa10pi">panela elétrica de arroz</a> e <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">sanduicheira</a> na mesma bancada deve conferir se a tomada e o circuito aguentam o conjunto. Mantenha uma folga atrás e dos lados do aparelho para a ventilação, e não ligue o micro-ondas vazio.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PM36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1140eOx1Zj" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -146,7 +146,7 @@ export const article: Article = {
     </table>
     <p>O Britânia costuma sair mais em conta e tem o melhor custo-benefício para a maioria. O Philco cobra mais pelo tamanho. Na Shopee, o preço, o cupom e o frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BMO23 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>Para completar a cozinha, o <a href="/artigos/cooktop-inducao-portatil-philco-pct10a-pct10ip-britania-bct14p-comparativo">comparativo de cooktops de indução</a> e o das <a href="/artigos/cafeteira-eletrica-ate-r-250-comparativo-2026">cafeteiras elétricas</a> seguem o mesmo formato.</p>
@@ -154,7 +154,7 @@ export const article: Article = {
     <p>Para a maioria das casas, nossa indicação é o <strong>Britânia BMO23</strong>: loja oficial, 4,9 de nota dos compradores, 20 litros, Limpa Fácil e o menor preço do trio. Se você quer menus de uso diário e 21 litros, o Mondial é uma boa segunda opção. Se a família é grande e a bancada permite, o Philco de 33 litros compensa.</p>
     <p>Nossa nota de 7,8 para o Britânia BMO23 vem das fichas e das avaliações dos compradores, sem teste físico nosso, e pesa custo-benefício, tamanho e facilidade de limpeza. Antes de fechar, leia as avaliações mais recentes do anúncio e confira a voltagem. Quem quer montar uma cozinha completa pode ver também o <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparativo de chaleiras elétricas</a> e o das <a href="/artigos/melhor-torradeira-2-fatias-comparativo-2026">torradeiras</a>, e quem pesquisa preço em marketplace pode ler como <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">comparar preços sem cair em golpe</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia BMO23 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5fpqCyarKl" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

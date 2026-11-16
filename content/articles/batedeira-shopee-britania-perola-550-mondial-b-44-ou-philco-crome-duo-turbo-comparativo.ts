@@ -104,7 +104,7 @@ export const article: Article = {
       <figcaption>Imagem oficial do produto no site da Britânia</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7AepBTVJuD" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia Pérola 550 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7AepBTVJuD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Pérola 550 tem quatro velocidades com função turbo, tigela de 4,3 litros que, segundo a página da Britânia, pode ir ao freezer, ao micro-ondas e ao banho-maria, e motor que sai da base para ser usado como batedeira portátil. Vem com um par de batedores para massas leves e botão para soltá-los sem sujar a mão.</p>
     <p>A tigela de 4,3 litros é a maior do trio de tigela única, e dá conta de uma receita de bolo de família ou de uma porção de brigadeiro de colher sem transbordar. O anúncio que consultamos é de loja com selo de Shopee Mall, com nota 4,9 e mais de 1,6 mil vendas, o que reduz o risco de receber produto diferente do anunciado.</p>
@@ -116,7 +116,7 @@ export const article: Article = {
       <figcaption>Imagem oficial do produto no site da Mondial</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Aepl56d9A" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial B-44-B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Aepl56d9A" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A página da Mondial informa potência de 400 W, três velocidades com turbo, tigela de 3,6 litros em polipropileno, batedores de aço cromado, garantia de 1 ano, cabo de 1,5 m e peso de 1,8 kg. Há botão ejetor e um sistema de fixação que a marca diz facilitar a montagem e a limpeza.</p>
     <p>O motor menor é a explicação do preço mais baixo, e na prática significa menos folga: a B-44-B é boa para bolo simples, bolo de pote, mousse e clara em neve em quantidade normal, mas quem faz receita dupla ou mexe em massa mais pesada vai sentir o motor. Em troca, é a mais fácil de guardar e a que tem garantia clara na própria página do fabricante.</p>
@@ -128,13 +128,13 @@ export const article: Article = {
       <figcaption>Imagem oficial do produto no site da Philco</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco Crome Duo Turbo na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Philco é a que mais entrega no papel: 550 W, quatro velocidades com turbo, duas tigelas (uma maior e outra de 3,1 litros), motor removível para uso portátil, par de batedores para massa leve e botão ejetor, segundo a página do fabricante e as fichas de varejo. A segunda tigela ajuda quando se bate clara e gema em separado, sem lavar a tigela no meio da receita.</p>
     <p>O cuidado é com a ficha: as lojas divergem sobre a capacidade da tigela maior (algumas dizem 4 litros, outras 4,3 litros) e sobre o material, então vale confirmar no anúncio antes de comprar. O anúncio que consultamos é da loja oficial da Philco no Shopee Mall, com nota 4,9 e mais de 300 vendas, número menor que o das outras duas, mas ainda sólido.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco Crome Duo Turbo na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -166,7 +166,7 @@ export const article: Article = {
     <p>Para não cair em golpe nessa época de promoção, vale ler o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compra na Black Friday</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7AepBTVJuD" rel="sponsored noopener noreferrer" target="_blank">Comprar Britânia Pérola 550 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7AepBTVJuD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual escolher</h2>
@@ -174,7 +174,7 @@ export const article: Article = {
     <p>Nenhuma das três substitui uma planetária para pão. Se a cozinha precisa de mais aparelhos, veja também a <a href="/artigos/melhor-air-fryer-sem-oleo-comparativo-2026">air fryer</a>, o <a href="/artigos/forno-eletrico-philco-pfe44p-ou-britania-bfe43-comparativo">forno elétrico</a> e o <a href="/artigos/melhor-liquidificador-potente-barato-comparativo-2026">liquidificador</a> já comparados. Para organizar receitas e custos de quem vende bolo, a <a href="/artigos/ficha-tecnica-de-receitas-planilha-para-confeiteiras-e-marmitarias-com-ia">ficha técnica de receitas com IA</a> ajuda, e, para assar o bolo, a <a href="/artigos/assadeira-vidro-shopee-marinex-1-1-l-ou-3-5-l-comparativo">assadeira de vidro Marinex</a> completa o kit.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Aepl56d9A" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial B-44-B na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Aepl56d9A" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>Para completar a cozinha de fim de ano, veja também a <a href="/artigos/chaleira-eletrica-shopee-britania-bch12i-philco-pch20a-ou-electrolux-eek10-comparativo">chaleira elétrica</a>, a <a href="/artigos/philco-paf11b-air-fryer-oven-11-litros-shopee-vale-a-pena">air fryer oven Philco</a> e a <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">sanduicheira</a>.</p>
@@ -189,7 +189,7 @@ export const article: Article = {
     <p>Desconfie de preço muito abaixo da faixa de mercado, que pode indicar produto usado, kit sem tigela ou modelo diferente. Quando a dúvida é entre comprar agora ou esperar, vale lembrar que as datas promocionais de fim de ano costumam trazer cupom, mas o preço do dia só aparece ao abrir o anúncio.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco Crome Duo Turbo na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8AXMx3haX7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

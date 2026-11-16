@@ -66,7 +66,7 @@ export const article: Article = {
     <p>Esse tipo de aparelho costuma dividir a gaveta com o <a href="/artigos/melhor-monitor-pressao-arterial-braco-omron-comparativo-2026">monitor de pressão</a> e o <a href="/artigos/oximetro-g-tech-oled-graph-shopee-vale-a-pena">oxímetro de dedo</a>. O que muda de um glicosímetro para outro é a memória, a facilidade de uso e, principalmente, o preço e a oferta das tiras.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Vita Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o G-Tech Vita Ultra entrega</h2>
@@ -87,14 +87,14 @@ export const article: Article = {
     <p>O ponto mais forte é a simplicidade: três botões, tela grande com o valor em mg/dL, data e hora, e resultado rápido. A memória de 500 medições com médias resolve a vida de quem anotava tudo num caderno, e a garantia vitalícia do medidor, válida com cupom fiscal, é rara nessa faixa de preço.</p>
     <p>O ponto fraco é o custo que vem depois. O medidor só funciona com as tiras G-Tech Vita, e as 10 do kit acabam em poucos dias para quem mede quatro ou cinco vezes ao dia. Na prática, quem compra o aparelho está escolhendo a tira que vai comprar pelo resto do ano. Outro detalhe: lancetas, caneta e tiras têm garantia de 90 dias, e não vitalícia como o medidor.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Vita Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para quem tem diabetes e precisa de um medidor reserva ou do primeiro aparelho, para quem cuida de pai ou mãe e quer algo fácil de operar, e para quem o médico pediu acompanhamento por um período. A marca é conhecida em farmácia, e as tiras Vita aparecem em muitos vendedores, o que reduz o risco de ficar sem reposição.</p>
     <p>Quem mede muitas vezes ao dia deve comparar o preço das tiras antes do preço do aparelho e conversar com o médico sobre sensor contínuo de glicose, outra categoria de produto. Quem tem plano de saúde ou acesso pelo SUS deve perguntar se há fornecimento de medidor e tiras, que pode sair mais barato do que comprar por conta própria.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Vita Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como medir direito em casa</h2>
@@ -107,7 +107,7 @@ export const article: Article = {
     <p>O que faz o preço subir é kit com mais tiras ou lancetas, e o que faz cair é promoção de loja de saúde. O custo-benefício está em comprar o aparelho e já prever o frasco de 50 tiras, que sai mais barato por medição do que os frascos menores. Para encaixar esse gasto no mês, o texto sobre <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">organizar as finanças pessoais</a> ajuda, e quem declara imposto pode ler sobre <a href="/artigos/receita-saude-para-pacientes-como-conferir-recibos-de-despesas-medicas-no-imposto-de-renda">despesas médicas no Imposto de Renda</a>.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Vita Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -117,7 +117,7 @@ export const article: Article = {
     <h2>Como avaliamos</h2>
     <p>A nota 8,1 combina a facilidade de uso, a memória com médias, a garantia do medidor e o preço do kit, que pesam a favor, com o custo recorrente das tiras exclusivas, que pesa contra. Usamos o manual de instruções do G-Tech Vita Ultra, as fotos e os dados do anúncio na Shopee (nota 4,9 e mais de 2 mil vendas) e a faixa de mercado de outras lojas. Não houve teste físico nosso, e nada aqui substitui a orientação do seu médico.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar G-Tech Vita Ultra na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30pIOIA4Dr" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

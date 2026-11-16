@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Um bloco simples resolve mais organização do que parece. Quem já tentou controlar a semana só no celular sabe que um lembrete na frente do monitor é mais difícil de ignorar do que uma notificação, e isso conversa com o que explicamos em <a href="/artigos/google-tarefas-e-lembretes-no-celular-organizar-a-semana-com-ia-passo-a-passo">lembretes e tarefas no celular</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o bloco entrega</h2>
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>Na prática, o selo Super Adesivo indica uma cola feita para grudar melhor e por mais tempo do que o bloco comum, em superfícies como tela de monitor, parede lisa, porta e capa de caderno. Isso não é promessa de grudar em tudo: pó, gordura e textura grossa continuam sendo o inimigo de qualquer nota adesiva.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Usos que fazem diferença</h2>
@@ -86,7 +86,7 @@ export const article: Article = {
     <p>O tamanho de 76 mm x 76 mm comporta uma ideia por nota. Se você precisa de texto longo, o bloco não é a ferramenta certa, e vale mais um caderno ou uma anotação no computador, como no guia de <a href="/artigos/mapa-mental-com-ia-resumir-materia-e-estudar-com-o-gemini-notebook">mapa mental com IA</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -94,7 +94,7 @@ export const article: Article = {
     <p>O contra é a quantidade: 45 folhas somem rápido para quem usa a cada dia, e o custo por folha de um bloco avulso costuma ser maior do que o de um pacote com vários blocos. Quem usa muito Post-it ganha ao procurar o pacote, como o de blocos coloridos do mesmo tamanho. Outro ponto é a cor: a foto mostra seis opções, e a que chega depende do anúncio e do estoque.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -102,7 +102,7 @@ export const article: Article = {
     <p>Quem está se preparando para uma prova encontra apoio no <a href="/artigos/como-usar-ia-para-estudar-para-provas-e-concursos">guia de estudo com IA</a>, e o bloco entra como complemento físico do plano. Para quem usa muito, o ideal é comprar pacote, e não bloco avulso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -115,7 +115,7 @@ export const article: Article = {
     <p>O custo-benefício do bloco avulso é razoável para quem usa pouco. Quem usa muito deve olhar pacotes com vários blocos, que costumam ficar mais baratos por folha.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -123,7 +123,7 @@ export const article: Article = {
     <p>Quem monta rotina de organização pode seguir com o texto sobre <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina diária produtiva com IA</a>, que combina bem com lembretes de papel.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar Post-it na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5AtkpEKzg5" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

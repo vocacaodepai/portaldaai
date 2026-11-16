@@ -43,7 +43,7 @@ export const article: Article = {
     <p>Disco de notebook antigo e HD de 2,5 polegadas têm um conector SATA retangular, com a forma de "L" e duas partes, uma para dados e outra para energia. O SSD M.2 é uma plaquinha comprida, do tamanho de um chiclete, que encaixa direto na placa. São formatos fisicamente diferentes, e um case não serve para o outro.</p>
     <p>Dentro do M.2 ainda há dois tipos: o SATA (chamado de NGFF nos anúncios) e o NVMe (PCIe), que é mais rápido. A ficha do CGHD-M2NX920 diz aceitar os dois, mas esse é o dado que mais confere antes de comprar: veja o que está escrito no seu SSD e compare com a descrição do anúncio. Quem ainda vai comprar o SSD NVMe pode ver no <a href="/artigos/ssd-nvme-500gb-samsung-980-ou-wd-green-sn3000-comparativo">comparativo entre o Samsung 980 e o WD Green SN3000</a> como conferir a geração do PCIe antes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Os dois cases lado a lado</h2>
@@ -101,7 +101,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>É o modelo mais simples e o que mais vendeu: 575 vendas e nota 4,9 no anúncio da VOOLOJA. A caixa anuncia USB 3.0, SATA III e instalação plug and play, sem driver. O disco entra por uma gaveta, sem parafuso na maioria dos casos, e o case tem um LED que indica atividade.</p>
     <p>Fichas de varejo citam compatibilidade com a maioria dos discos de até 9,5 mm de altura. HD de notebook mais grosso, de 15 mm, que aparece em modelos antigos de 2 TB, pode não caber, então confira a altura do seu disco. A velocidade de 5 Gbps do USB 3.0 é mais do que um HD mecânico entrega, e para um SSD SATA ela passa a ser o limite.</p>
@@ -113,12 +113,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-M2NX920 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O M2NX920 é um case mini, de protocolo duplo, que aceita SSD M.2 NVMe e SATA. O anúncio mostra um cabo USB-C com adaptador para USB-A na ponta, o que permite plugar em notebook moderno e também em PC antigo. Uma ficha de varejo cita velocidade de até 10 Gbps na interface e cerca de 2.000 MB/s medidos, com ressalva de que depende do hardware, e cabo de dados de 30 cm.</p>
     <p>Esse tipo de case vale muito para quem trocou o SSD do notebook por um maior e ficou com o antigo sobrando: em vez de vender, vira um disco externo rápido. Fichas de varejo divergem sobre o material e a garantia, que aparece como 3 meses do fornecedor, e o anúncio de uma outra loja chama o mesmo modelo de CGHD-920. A foto do anúncio mostra o SSD coberto por uma almofada térmica dourada, que ajuda a dissipar calor.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-M2NX920 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar para cada situação</h2>
@@ -126,7 +126,7 @@ export const article: Article = {
     <p>Para SSD M.2, o M2NX920 é o caminho. Se você tem um NVMe sobrando, ele rende um disco externo rápido, bom para editar vídeo ou levar projetos. Já quem pretende comprar SSD só para usar com o case deve comparar com um <a href="/artigos/melhor-ssd-portatil-externo-comparativo-2026">SSD portátil pronto</a>, porque o preço do conjunto pode ficar parecido e o produto fechado vem com garantia do fabricante.</p>
     <p>Ao conectar, a porta importa: um cabo ruim derruba a velocidade, e um hub sem energia pode não alimentar o disco. O <a href="/artigos/ugreen-revodok-pro-hub-usb-c-vale-a-pena">hub USB-C UGREEN</a> e o <a href="/artigos/cabo-usb-c-240w-anker-zolo-ou-anker-nano-comparativo">comparativo de cabos USB-C</a> ajudam a montar o resto do conjunto, e para cartões de memória o <a href="/artigos/ugreen-50706-leitor-de-cartao-usb-c-e-usb-a-sd-microsd-analise">leitor UGREEN</a> cobre o outro lado do armazenamento.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar e ao usar</h2>
@@ -135,7 +135,7 @@ export const article: Article = {
     <p>Quem usa o disco externo com notebook pode ganhar ergonomia com um <a href="/artigos/suporte-de-notebook-multilaser-ac378-ou-elg-ntb8520-comparativo">suporte de notebook</a>, que também deixa as portas à mão, e quem precisa de tomada extra encontra o <a href="/artigos/melhor-power-bank-carregador-portatil-comparativo-2026">power bank</a> como apoio em viagem. Para trabalho em mesa, o <a href="/artigos/melhor-monitor-24-polegadas-comparativo-2026">comparativo de monitores</a> e o <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">de mouses sem fio</a> completam o setup.</p>
     <p>Depois de ligar o disco, o computador pode pedir para formatar. Se o disco já tem arquivos, não aceite: o problema pode ser o cabo, a porta ou o sistema de arquivos. Para um pendrive de transporte rápido, o <a href="/artigos/pen-drive-128gb-sandisk-cruzer-blade-ultra-flair-dual-drive-go-comparativo">comparativo de pen drives</a> mostra a alternativa mais simples.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-M2NX920 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -161,17 +161,17 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O CGHD-36 tem o melhor custo-benefício para disco de 2,5 polegadas. O M2NX920 compensa só se você já tem o SSD M.2.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-M2NX920 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7KyEMff2u8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nossa indicação</h2>
     <p>A indicação geral é o Exbom CGHD-36, pela combinação de preço baixo, formato que a maioria das pessoas tem guardado, 575 vendas e nota 4,9 no anúncio. Damos nota 8,1 de 10 ao conjunto, com os pontos de atenção nas fichas divergentes e na ausência de ficha oficial detalhada. O M2NX920 é a escolha certa para quem tem SSD M.2 e quer velocidade de disco externo.</p>
     <p>Em qualquer caso, teste o disco assim que chegar, copie um arquivo grande e confira. Se o disco não for reconhecido, cheque o cabo e a porta antes de culpar o case.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar Exbom CGHD-36 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BV3pWnzTI" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -91,7 +91,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oTo3C3" rel="sponsored noopener noreferrer" target="_blank">Comprar Vassoura Noviça na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oTo3C3" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Noviça Original Multiuso Duo é o modelo mais conhecido da Bettanin e o mais vendido dos três anúncios, com 305 vendas e nota 4,9. A embalagem destaca as cerdas em duas texturas: as firmes para pisos ásperos e tapetes, as macias para piso liso e pó fino. A ideia do desenho é varrer mais com menos esforço, sem precisar de duas vassouras.</p>
     <p>O anúncio vende só a vassoura com cabo. Serve bem para quem já tem pá e rodo em casa e quer trocar a vassoura velha, de cerdas tortas. É a opção de menor investimento e a mais simples de acertar, porque não depende de medida de rodo. O ponto fraco é o de qualquer compra avulsa: se faltar a pá, você terá de comprar depois.</p>
@@ -102,12 +102,12 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Máxima na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O kit Máxima junta três peças em tom verde-água, todas com cabo: vassoura 2 em 1 com cerdas firmes e macias, rodo com borracha larga (de 40 cm segundo o título do anúncio) e pá de lixo com cabo e borda emborrachada. O anúncio é da Lots Home Shop, loja com selo de oficial, tem nota 4,9 e 151 vendas.</p>
     <p>O rodo largo cobre mais piso por passada e é a melhor escolha para varanda, garagem, quintal coberto e cozinha ampla. A pá com cabo evita se abaixar para juntar o lixo. Para quem monta casa nova ou quer tudo da mesma cor e da mesma marca, é o kit mais prático. Se o seu espaço tem corredor estreito, reveja a largura antes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Máxima na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Kit Ballena de 30 cm: o rodo menor para cantos e espaços apertados</h2>
@@ -116,7 +116,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5Atezqh4TU" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Ballena na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5Atezqh4TU" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O kit Ballena traz a mesma ideia, vassoura, rodo e pá com cabo, mas com o rodo Ballena de 30 cm, mais curto e de desenho mais arredondado. A diferença aparece em banheiro, lavanderia pequena e apartamento com pouco espaço: o rodo curto entra em cantos e passa entre o vaso e a parede com menos esforço.</p>
     <p>A contrapartida é cobrir menos área por passada. Em piso grande, você vai gastar mais tempo. O anúncio é da mesma Lots Home Shop, com nota 4,9, mas com menos vendas (64), o que é normal para um kit mais específico. Se você tem a casa pequena, a diferença de preço para o kit Máxima também tende a ser pequena, e a escolha vira uma questão de espaço.</p>
@@ -125,7 +125,7 @@ export const article: Article = {
     <p>A pergunta é simples: o que você já tem? Se tem rodo e pá em bom estado, a vassoura Noviça sozinha é a compra mais barata e resolve. Se está começando ou quer renovar tudo, o kit sai com um custo por peça menor do que comprar cada item em separado, e as peças combinam entre si.</p>
     <p>Para a lavanderia, o <a href="/artigos/varal-de-chao-mor-slim-ou-maxi-comparativo">varal de chão</a> e o <a href="/artigos/tanquinho-colormaq-lct6-lcs10-ou-lcs15-comparativo">tanquinho</a> fecham a rotina de limpeza e roupa. Para o carpete, o sofá e o carro, a <a href="/artigos/wap-spot-cleaner-w3-extratora-shopee-vale-a-pena">extratora WAP Spot Cleaner W3</a> e o <a href="/artigos/wap-gtw-inox-12-aspirador-de-po-e-agua-vale-a-pena">aspirador de pó e água</a> complementam o que a vassoura não resolve. Para a cozinha, o <a href="/artigos/tramontina-plurale-61537300-escorredor-de-louca-vale-a-pena">escorredor Tramontina Plurale</a> ajuda a manter a bancada em ordem. Quem tem quintal pode juntar com o <a href="/artigos/philco-psa1000-soprador-aspirador-folhas-vale-a-pena">soprador de folhas</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3LS0oTo3C3" rel="sponsored noopener noreferrer" target="_blank">Comprar Vassoura Noviça na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3LS0oTo3C3" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar kit de limpeza na Shopee</h2>
@@ -159,17 +159,17 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A vassoura avulsa costuma sair mais em conta, mas o custo-benefício do conjunto é melhor para quem precisa das três peças, porque o kit costuma custar menos do que somar vassoura, rodo e pá separados. Entre os kits, o Ballena costuma ser o mais barato e o Máxima entrega o rodo mais largo.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Máxima na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/5Atezqh4TU" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Ballena na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/5Atezqh4TU" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o kit com rodo Máxima Aderência: traz as três peças, o rodo mais largo e vem de loja com selo de oficial e nota 4,9. Quem mora em espaço pequeno deve olhar o kit Ballena de 30 cm. A vassoura Noviça Multiuso sozinha é a escolha de quem só quer trocar a vassoura e já tem o resto.</p>
     <p>Em qualquer caso, confira a medida do rodo e o conteúdo do kit antes de pagar. Para completar a limpeza da casa, o <a href="/artigos/qual-mop-flash-limp-comprar-mop5010-mop8209-ou-mop0648-comparativo">comparativo de mops</a> mostra o que usar depois da vassoura.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Bettanin Máxima na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B17o0ksVG" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

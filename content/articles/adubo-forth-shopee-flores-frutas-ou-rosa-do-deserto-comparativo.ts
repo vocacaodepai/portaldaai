@@ -28,7 +28,7 @@ export const article: Article = {
     <p>Se você quer adubo para as plantas do jardim, da varanda ou do vaso da sala, os potes verdes da Forth estão entre os mais vendidos da Shopee. A dúvida é qual escolher, porque a marca vende uma versão para cada tipo de planta. Comparamos três campeões de venda de 400 g: o <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Forth Flores</a>, o <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Forth Frutas</a> e o <a href="https://s.shopee.com.br/7AehmcmgnK" rel="sponsored noopener noreferrer" target="_blank">Forth Rosa do Deserto</a>. A análise parte dos rótulos dos anúncios, das fichas de lojas de jardinagem e das avaliações dos compradores, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Flores na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Os 3 adubos lado a lado</h2>
@@ -75,7 +75,7 @@ export const article: Article = {
       <figcaption>Foto: Forth Jardim (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Flores na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O Forth Flores é descrito como um fertilizante mineral misto, completo e balanceado, indicado para todos os tipos de flores. O rótulo promete favorecer a floração, e as fichas de varejo falam em flores mais abundantes, mais duradouras e de cores mais vivas, além de uma planta mais forte. São promessas do fabricante, sem teste independente que possamos citar.</p>
@@ -83,7 +83,7 @@ export const article: Article = {
     <p>Quem tem uma mistura de plantas floridas, como jardineira de varanda, begônias e roseiras, resolve tudo com um pote só. O anúncio que consultamos tem nota 4,9 e cerca de 1.300 vendas, de loja com selo de oficial da Shopee.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Flores na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Forth Frutas: para quem planta árvore e fruta em vaso</h2>
@@ -92,7 +92,7 @@ export const article: Article = {
       <figcaption>Foto: Forth Jardim (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Frutas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Forth Frutas</a> é a versão para frutíferas, indicada para o crescimento, a floração e a frutificação. É o único do trio com tabela de dose pública mais detalhada: em vaso de 25 litros ou 30 por 30 cm, a ficha de varejo informa uma colher de sopa (cerca de 25 g) por aplicação e três colheres em vaso de 100 litros, sempre a cada 30 dias, espalhando sobre a terra e regando até escorrer.</p>
@@ -100,7 +100,7 @@ export const article: Article = {
     <p>É o adubo de quem tem limoeiro, pitangueira ou acerola em vaso. Se a sua planta é só decorativa e florida, o Flores é mais adequado. O anúncio tem nota 4,9 e cerca de 1.200 vendas.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Frutas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Forth Rosa do Deserto: floração de uma planta específica</h2>
@@ -109,7 +109,7 @@ export const article: Article = {
       <figcaption>Foto: Forth Jardim (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7AehmcmgnK" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Rosa do Deserto na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7AehmcmgnK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>A rosa do deserto é uma planta de vaso muito procurada e exigente na hora de florir, e a Forth tem um adubo com o nome dela. O rótulo o descreve como ideal para favorecer a floração, e o anúncio informa que pode ser usado em vasos ou no solo. Uma loja de jardinagem indica aplicação a cada 15 dias, com dose de acordo com a embalagem.</p>
@@ -117,7 +117,7 @@ export const article: Article = {
     <p>O anúncio tem nota 4,9 e cerca de 1.290 vendas. Um aviso de qualquer adubo mineral: não aumente a dose por conta própria, porque excesso de adubo queima raiz e piora a planta.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7AehmcmgnK" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Rosa do Deserto na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7AehmcmgnK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como aplicar adubo mineral sem errar</h2>
@@ -132,7 +132,7 @@ export const article: Article = {
     <p>Para regar e cuidar do jardim, a <a href="/artigos/tramontina-mangueira-flex-30m-jardim-vale-a-pena">mangueira Tramontina Flex de 30 m</a> e o <a href="/artigos/pulverizador-tramontina-2-l-78610206-ou-lateral-5-l-78615506-comparativo">comparativo de pulverizadores Tramontina</a> ajudam. Na poda, veja a <a href="/artigos/tesoura-de-poda-tramontina-78300001-78304511-78316501-comparativo">comparação de tesouras de poda Tramontina</a>, e para o terreno, o <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Extraforte</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Flores na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual combina com o seu jardim</h2>
@@ -168,14 +168,14 @@ export const article: Article = {
     </table>
     <p>Como o preço é praticamente o mesmo, a escolha deve seguir a planta, e o melhor custo-benefício é o do adubo que combina com o que você realmente cultiva. <em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Frutas na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/70LHaJnK8J" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Para a maioria dos jardins, nossa indicação é o <strong>Forth Flores</strong>: serve para a maior variedade de plantas floridas e tem a frequência de aplicação mais bem documentada. Leve o <strong>Forth Frutas</strong> se o seu foco é fruta em vaso ou no quintal, e o <strong>Forth Rosa do Deserto</strong> se a sua planta é essa.</p>
     <p>A nota de 8,0 para o Forth Flores vem do rótulo, das fichas de varejo e das avaliações dos compradores na Shopee, sem teste físico nosso, e pesa versatilidade, clareza de uso e custo-benefício.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Flores na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/6q1rO0nxTE" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

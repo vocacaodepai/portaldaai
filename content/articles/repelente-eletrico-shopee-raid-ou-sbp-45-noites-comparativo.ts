@@ -100,7 +100,7 @@ export const article: Article = {
       <figcaption>SBP Elétrico Líquido 45 Noites (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar SBP Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O SBP é o repelente de tomada mais tradicional das farmácias brasileiras, e a versão Cheiro Suave é a que a marca posiciona para a família inteira. A frente da caixa destaca o uso em ambientes com bebês a partir de 6 meses, informação que pesa para quem tem criança pequena e quer proteger o quarto sem passar repelente na pele dela todas as noites. Abaixo dessa idade, a orientação das farmácias é não usar.</p>
     <p>O kit traz um aparelho branco compacto, que ocupa uma tomada só, e um refil líquido. A embalagem mais recente avisa que o volume do refil caiu de 35 ml para 32,9 ml, mantendo a promessa de 45 noites com uso de cerca de 8 horas por dia. O anúncio que escolhemos é de uma grande rede de farmácias, com nota 4,9 e mais de 300 vendas, o que reduz o risco de receber produto vencido ou fora da caixa original.</p>
@@ -112,7 +112,7 @@ export const article: Article = {
       <figcaption>Raid Elétrico Líquido 45 Noites (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar Raid Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Raid Elétrico Líquido é a resposta da SC Johnson ao SBP, e a caixa aposta em dois argumentos: proteção contínua por até 45 noites e "não deixa cheiro". O aparelho é bivolt, de 110 a 240 V, e o refil de 32,9 ml encaixa por rosca na base. A linha também tem refis com eucalipto e citronela, para quem prefere um aroma perceptível.</p>
     <p>Para quem dorme com a janela fechada por causa do ar-condicionado ou do climatizador, a promessa de ambiente sem cheiro é a maior vantagem sobre o SBP. A caixa, porém, não traz na frente a liberação para quarto de bebê que o SBP destaca, então quem tem criança pequena precisa ler o verso do rótulo antes de usar no quarto dela.</p>
@@ -143,7 +143,7 @@ export const article: Article = {
     <p>Nas promoções de fim de ano, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia para comprar na Black Friday sem cair em golpe</a> ajuda a separar desconto real de preço inflado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar SBP Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como usar com segurança</h2>
@@ -152,7 +152,7 @@ export const article: Article = {
     <p>O repelente de tomada não substitui o cuidado com água parada, que é o que realmente corta o ciclo do mosquito. Vale olhar vasos, ralos e calhas toda semana. E, para quem sai à noite ou vai acampar, o repelente de pele continua necessário, porque o aparelho só protege o cômodo em que está ligado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar Raid Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Um quarto mais fresco e sem mosquito</h2>
@@ -163,14 +163,14 @@ export const article: Article = {
     <p>O SBP Elétrico Líquido Cheiro Suave é a recomendação para a maioria, com nota 8,3: é a escolha mais segura para casa com criança a partir de 6 meses, vem de uma rede de farmácias na Shopee e costuma ter o kit mais barato. O Raid Elétrico Líquido, nota 8,1, vale para quem não tolera cheiro no quarto ou encontra o pacote com vários refis em promoção. Em qualquer caso, compre o refil da mesma marca do aparelho na hora de repor.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar SBP Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AKbwJUWd0z" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
     <p>Confira no título do anúncio se o kit vem com aparelho ou só com refil, porque os dois tipos aparecem lado a lado na busca e com preço parecido. Ao receber, veja se a caixa está lacrada e a validade impressa. Prefira lojas oficiais de marca ou de rede de farmácia e anúncios com muitas vendas. Anúncios saem do ar e o estoque muda, então não há promessa de disponibilidade, cupom ou frete grátis.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar Raid Elétrico na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9pffiZhKbv" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

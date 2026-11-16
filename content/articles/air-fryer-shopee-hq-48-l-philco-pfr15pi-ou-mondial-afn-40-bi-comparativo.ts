@@ -98,7 +98,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114AoyHyFD" rel="sponsored noopener noreferrer" target="_blank">Comprar Air Fryer HQ na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114AoyHyFD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A HQ-AF4.8LMP é a que mais cabe: 4,8 litros, dois botões giratórios (tempo e temperatura) e visual todo preto, simples. As lojas citam 1400 W em 127 V e 1500 W em 220 V, temperatura de 80 a 200 graus e timer de 60 minutos. O anúncio da Belmicro Oficial tem nota 4,9 e passa de mil vendas, o que é bastante para um modelo básico.</p>
     <p>O limite é a ficha: não achamos manual do fabricante, só dados de varejistas, e há divergência de voltagem entre lojas (uma cita 110 V, outras dizem que não é bivolt). Confira a voltagem do anúncio. Para quem quer capacidade e preço baixo, é uma escolha racional, mas a marca é menos tradicional em eletroportáteis que as outras duas.</p>
@@ -109,7 +109,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PFR15PI na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A PFR15PI tem 4,4 litros no total, 1500 W, cesto removível antiaderente Redstone, seletor de 80 a 200 graus e timer de 60 minutos, além de proteção contra superaquecimento e acabamento em inox com base antiderrapante, segundo as lojas. Um teste do site GDM mediu cerca de 4,1 litros de capacidade útil, abaixo dos 4,4 L anunciados, o que é comum em air fryer: o número de etiqueta nunca é todo aproveitável.</p>
     <p>O anúncio da Philco Oficial tem nota 5,0 na Shopee, com mais de 370 vendas. É a combinação mais segura entre marca conhecida, assistência e ficha clara. Atenção ao código: PFR15P e PFR15PG (Gourmet Black) são linhas diferentes, com cesto menor em alguns casos, e algumas páginas misturam os modelos.</p>
@@ -120,7 +120,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4vzqUDHJ" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial AFN-40-BI na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4vzqUDHJ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Mondial Family Inox tem 4 litros, 1500 W, timer de 60 minutos com desligamento automático e controle de temperatura até 200 graus. O painel de inox traz uma tabela de preparos impressa, e o cesto é quadrado, o que aproveita melhor o espaço para filé, nuggets e pão. A GDM cita ruído de cerca de 48 dB e cabo de 97 cm.</p>
     <p>O ponto negativo está nas avaliações de varejo: há queixas de que os números do timer e da temperatura se apagam com a limpeza, e a capacidade de 4 L é a menor das três. O anúncio da Casas Bahia Oficial tem nota 4,9 e mais de 140 vendas. É boa, mas só compensa se o preço do dia ficar perto da Philco.</p>
@@ -142,14 +142,14 @@ export const article: Article = {
     <p>Para uma ou duas pessoas, 4 litros resolvem. Para família de três ou quatro, a conta aperta: o cesto cheio gera cozimento desigual, então 4,4 a 4,8 litros dão folga. Se você faz porções grandes, como frango inteiro ou muita batata, pense em uma air fryer oven, como na análise da <a href="/artigos/philco-paf11b-air-fryer-oven-11-litros-shopee-vale-a-pena">Philco PAF11B de 11 litros</a>, ou em um <a href="/artigos/forno-eletrico-philco-pfe44p-ou-britania-bfe43-comparativo">forno elétrico</a>.</p>
     <p>Meça a bancada e a distância da parede, porque a air fryer solta ar quente. E lembre da tomada: com 1400 a 1500 W, evite ligar junto de outros aparelhos pesados no mesmo filtro de linha. Quem monta uma cozinha eletrificada pode comparar também <a href="/artigos/melhor-torradeira-2-fatias-comparativo-2026">torradeiras</a>, <a href="/artigos/melhor-sanduicheira-grill-comparativo-2026">sanduicheiras</a> e a <a href="/artigos/philco-ppp01p-panela-pressao-eletrica-vale-a-pena">panela de pressão elétrica Philco</a>, e ver o consumo somado.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PFR15PI na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar air fryer na Shopee</h2>
     <p>A Shopee tem air fryer sem marca com a mesma foto repetida por vários vendedores, e resultados cheios de acessórios (formas de silicone, botões, puxadores) que não são o aparelho. Nos três anúncios que usamos, o nome do modelo aparece no título: HQ-AF4.8LMP, PFR15PI e AFN40BI. Confira o código, a voltagem (127 V ou 220 V) e a cor antes de pagar.</p>
     <p>Guarde a nota fiscal, porque a garantia depende dela, e desconfie de preço muito abaixo da faixa. Anúncios mudam e saem do ar, então não há promessa de estoque. Para comprar em época de promoção sem cair em golpe, o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de Black Friday</a> traz o passo a passo, e quem quer guardar sobras pode ver os <a href="/artigos/potes-hermeticos-electrolux-12-pecas-shopee-vale-a-pena">potes herméticos Electrolux</a> e o <a href="/artigos/micro-ondas-shopee-mondial-mo-01-21-b-britania-bmo23-ou-philco-pm36-comparativo">comparativo de micro-ondas</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/114AoyHyFD" rel="sponsored noopener noreferrer" target="_blank">Comprar Air Fryer HQ na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/114AoyHyFD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -179,14 +179,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>A HQ costuma sair mais em conta, e a Philco tem o melhor custo-benefício para quem valoriza marca e ficha clara, porque entrega mais que a Mondial por menos. A Mondial só se justifica se o preço do dia fechar perto da Philco.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/3g4vzqUDHJ" rel="sponsored noopener noreferrer" target="_blank">Comprar Mondial AFN-40-BI na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/3g4vzqUDHJ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Philco PFR15PI: marca conhecida, ficha clara, 4,4 litros e nota 5,0 no anúncio oficial. Se o orçamento é a prioridade ou a família é grande, a HQ de 4,8 litros dá mais volume pelo menor preço, desde que você confira a voltagem. A Mondial Family fica para quem gosta do cesto quadrado e do painel inox e encontra preço próximo ao da Philco.</p>
     <p>Em qualquer caso, escolha anúncio de loja oficial e leia as avaliações recentes. Para outros eletros de bancada, veja o <a href="/artigos/philco-pmp1600p-multiprocessador-vale-a-pena">review do multiprocessador Philco</a> e o <a href="/artigos/cooktop-inducao-portatil-philco-pct10a-pct10ip-britania-bct14p-comparativo">comparativo de cooktops de indução</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PFR15PI na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZYPOe244" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

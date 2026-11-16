@@ -96,7 +96,7 @@ export const article: Article = {
       <figcaption>Tramontina Turim vermelho 10 peças (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Turim na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>Na página da Tramontina, o Turim vermelho de 10 peças traz panela de 14 cm (0,95 L), panela de 16 cm (1,4 L), caçarolas de 18 cm (2 L) e 20 cm (2,8 L), fervedor de 12 cm (1,1 L), frigideiras de 16 cm e 20 cm, panquequeira ou tapioqueira de 22 cm, assadeira redonda de 22 cm e assadeira rasa de 28 cm. É um jogo pensado para variedade: dá para fazer arroz, feijão, molho, ovo, tapioca e um bolo pequeno sem comprar mais nada.</p>
     <p>O ponto fraco é o tamanho. A maior peça tem 2,8 litros, o que basta para casal ou família de três ou quatro pessoas, mas aperta em feijão para a semana ou macarrão para muita gente. Para isso, uma <a href="/artigos/panela-de-pressao-shopee-panelux-classic-x-magnific-comparativo">panela de pressão</a> separada costuma ser a melhor complementação.</p>
@@ -108,7 +108,7 @@ export const article: Article = {
       <figcaption>Tramontina Paris grafite 10 peças (imagem do anúncio na Shopee)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Paris na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A ficha da Tramontina para o Paris de 10 peças lista panelas de 16 cm (1,5 L) e 18 cm (2,1 L), caçarolas de 20 cm (2,9 L) e 22 cm (3,8 L), fervedor de 14 cm (1,9 L), frigideira de 20 cm, frigideira reta de 22 cm, assadeira redonda de 24 cm e dois utensílios de nylon que aguentam até 180 °C. As tampas têm saída de vapor, o que evita a tampa "pular" quando a água ferve.</p>
     <p>Na prática, o Paris troca a variedade miúda do Turim (panquequeira, panela de 14 cm) por capacidade: a caçarola de 3,8 litros e o fervedor de quase 2 litros fazem diferença para família de quatro ou mais pessoas. O acabamento interno texturizado é a marca visual da linha.</p>
@@ -121,7 +121,7 @@ export const article: Article = {
     <p>A regra dos 3/4 muda a conta de tamanho. A caçarola de 2,8 litros do Turim rende, na prática, cerca de 2,1 litros de cozimento, e a de 3,8 litros do Paris, cerca de 2,85 litros. Para família de quatro ou mais pessoas que faz feijão ou sopa para a semana, essa diferença de 750 ml por panelada pesa a favor do Paris.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Turim na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -149,7 +149,7 @@ export const article: Article = {
     <p>Para não cair em golpe nas promoções, veja o <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">guia de compra na Black Friday</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Paris na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual escolher</h2>
@@ -157,7 +157,7 @@ export const article: Article = {
     <p>Para guardar as sobras, os <a href="/artigos/potes-hermeticos-electrolux-12-pecas-shopee-vale-a-pena">potes herméticos Electrolux</a> ajudam, e o <a href="/artigos/tramontina-plurale-61537300-escorredor-de-louca-vale-a-pena">escorredor Tramontina Plurale</a> resolve a secagem. Para assar, a <a href="/artigos/assadeira-vidro-shopee-marinex-1-1-l-ou-3-5-l-comparativo">assadeira de vidro Marinex</a> complementa bem os dois jogos. Quem está montando a cozinha do zero também pode ver o <a href="/artigos/kit-churrasco-tramontina-plenus-ou-tradicional-madeira-comparativo">kit de churrasco Tramontina</a> e a <a href="/artigos/chaleira-eletrica-shopee-britania-bch12i-philco-pch20a-ou-electrolux-eek10-comparativo">chaleira elétrica</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Turim na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/gRNbxxLZe" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -165,7 +165,7 @@ export const article: Article = {
     <p>Desconfie de jogo "Tramontina" muito abaixo da faixa de mercado vendido por loja sem histórico: pode ser outra linha, outra quantidade de peças ou produto sem procedência.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Paris na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/4B1FmOk1TP" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

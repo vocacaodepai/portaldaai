@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Quem trabalha o dia inteiro sentado costuma sentir primeiro a postura. O <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">guia de rotina diária produtiva com IA</a> ajuda a encaixar pausas, e o apoio para os pés entra como uma peça da estação de trabalho.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o apoio para os pés entrega</h2>
@@ -80,7 +80,7 @@ export const article: Article = {
     <p>A NR17 é a norma regulamentadora de ergonomia do Ministério do Trabalho. O vendedor cita a sigla para dizer que o produto serve ao tipo de apoio que a norma menciona para quem trabalha sentado. Isso não é certificação do produto: o anúncio que consultamos não traz laudo, nem número de certificado ou ensaio técnico. Trate a sigla como argumento de venda, e não como garantia.</p>
     <p>Para a empresa que precisa cumprir a norma, a avaliação ergonômica do posto de trabalho é um processo próprio, feito por profissional. Para o trabalhador autônomo e o home office comum, o apoio de pés resolve um problema concreto e barato, desde que a altura da cadeira e da mesa estejam ajustadas. A mesa também pesa: o <a href="/artigos/suporte-monitor-shopee-zinnia-nimbo-110-x-nimbo-210-comparativo">suporte de monitor Zinnia Nimbo</a> e o <a href="/artigos/suporte-de-notebook-multilaser-ac378-ou-elg-ntb8520-comparativo">suporte de notebook</a> ajudam a levantar a tela à altura dos olhos.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Uso, estabilidade e acabamento</h2>
@@ -103,14 +103,14 @@ export const article: Article = {
       <li>A sigla NR17 no título não é certificação.</li>
     </ul>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para quem tem a cadeira fixa e a mesa alta, para pessoas mais baixas e para quem passa horas diante do computador com os pés balançando. Também serve para o estudante com mesa de altura única. Quem tem cadeira com regulagem de altura e consegue apoiar os pés no chão sem esforço pode não precisar de nada.</p>
     <p>Quem quer mais conforto para o dia de trabalho pode somar o apoio a um <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">mouse sem fio</a> confortável, um <a href="/artigos/melhor-teclado-sem-fio-barato-comparativo-2026">teclado sem fio</a> e uma <a href="/artigos/luminaria-de-emergencia-elgin-30-ou-60-leds-comparativo">luminária de apoio</a> para o fim do dia. Quem sente dor persistente deve procurar um profissional de saúde, e nenhum acessório substitui essa avaliação.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -122,13 +122,13 @@ export const article: Article = {
     <p>O custo-benefício é bom quando o preço fica na parte de baixo da faixa. Se o vendedor pede bem mais, vale comparar com outros anúncios do mesmo modelo. O valor do dia aparece ao clicar no botão de compra.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nota final</h2>
     <p>Damos 7,8 de 10. O preço baixo, a nota 4,9 e o uso simples puxam a nota para cima. A falta de marca, de medidas e de carga no texto, e o fato de a sigla NR17 não ser certificação, seguram. Para quem trabalha sentado e tem os pés sem apoio, é um acessório barato que costuma fazer diferença no conforto. Para quem quer garantia de fabricante ou uso intenso, o investimento precisa ser maior.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar apoio para os pés na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zywLTpm7x" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -28,7 +28,7 @@ export const article: Article = {
     <p>Quem procura um limpa-vidros automotivo na Shopee costuma esbarrar em dois frascos da mesma marca: o Vonixx Glazy 4 em 1 e o Glazy Anti-Fog. Parecem concorrentes, mas resolvem problemas diferentes: o primeiro cuida da limpeza e da proteção do vidro em geral, e o segundo ataca o embaçamento do vidro por dentro. Comparamos o <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Glazy 4 em 1</a> e o <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Glazy Anti-Fog</a> com base nas páginas oficiais da Vonixx, nas fichas dos anúncios e nas avaliações dos compradores, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Os 2 limpa-vidros lado a lado</h2>
@@ -68,7 +68,7 @@ export const article: Article = {
       <figcaption>Foto: Vonixx (imagem oficial do produto)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>A Vonixx descreve o Glazy como um produto 4 em 1 para vidros em geral: limpa, protege, condiciona e ajuda a reduzir riscos. O rótulo traz os selos de redutor de riscos e toque liso. Na página oficial, a marca explica que ele reduz a chance de microriscos causados pelo atrito das palhetas do limpador e deixa o vidro com aspecto de novo, além de formar uma película que faz a água escorrer, o que melhora a visibilidade na chuva.</p>
@@ -76,7 +76,7 @@ export const article: Article = {
     <p>O anúncio que consultamos tem nota 4,9 e cerca de 340 vendas, e o título informa que vem com uma toalha de microfibra, detalhe que vale confirmar na página antes de comprar, já que cada vendedor monta o próprio kit.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Vonixx Glazy Anti-Fog: para vidro que embaça por dentro</h2>
@@ -85,7 +85,7 @@ export const article: Article = {
       <figcaption>Foto: Vonixx (imagem oficial do produto)</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy Anti-Fog na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Glazy Anti-Fog</a> é uma versão pensada para o vidro interno. Segundo a Vonixx, a fórmula remove resíduos, marcas de dedo e impurezas e deixa uma película quase invisível que reduz o embaçamento causado pela umidade, o que ajuda na segurança de quem dirige em dia de chuva ou de manhã fria.</p>
@@ -93,7 +93,7 @@ export const article: Article = {
     <p>Fora do carro, a indicação oficial inclui espelhos, janelas residenciais e box de banheiro, e é por isso que muita gente compra um frasco para casa. No anúncio que consultamos, são cerca de 430 vendas e nota 4,9, de uma distribuidora com selo de loja oficial da Shopee.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy Anti-Fog na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como aplicar sem deixar marca de gordura</h2>
@@ -108,7 +108,7 @@ export const article: Article = {
     <p>Quem lava o carro em casa pode começar pelo <a href="/artigos/shampoo-automotivo-shopee-vonixx-v-floc-ou-v-mol-comparativo">comparativo dos shampoos Vonixx V-Floc e V-Mol</a>, deixar os vidros por último e fechar com a <a href="/artigos/cera-automotiva-shopee-vonixx-tok-final-ou-blend-spray-wax-comparativo">cera spray Vonixx Tok Final ou Blend</a> na pintura. Para a parte de dentro, o <a href="/artigos/aspirador-carro-tramontina-ou-wap-car-12v2-comparativo">comparativo de aspiradores de carro</a> completa a faxina.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual combina com o seu uso</h2>
@@ -142,14 +142,14 @@ export const article: Article = {
     </table>
     <p>O Glazy 4 em 1 costuma sair mais em conta e tem o melhor custo-benefício para quem quer um frasco só. O Anti-Fog custa um pouco mais por ser um produto mais específico, e compensa para quem sofre com vidro embaçado. <em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy Anti-Fog na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/2LZS1vDqRZ" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Para a maioria dos motoristas, nossa indicação é o <strong>Vonixx Glazy 4 em 1</strong> como primeiro frasco: serve para o vidro de fora e de dentro, protege contra o atrito das palhetas e rende em casa também. Leve o <strong>Glazy Anti-Fog</strong> junto se o seu problema é o para-brisa embaçado por dentro, que é exatamente o que o 4 em 1 não promete resolver.</p>
     <p>A nota de 8,1 para o Glazy 4 em 1 vem das informações oficiais da marca, das fichas dos anúncios e das avaliações dos compradores na Shopee, sem teste físico nosso, e pesa versatilidade, facilidade de uso e custo-benefício. Para quem cuida do jardim e do quintal além do carro, a <a href="/artigos/tramontina-mangueira-flex-30m-jardim-vale-a-pena">mangueira Tramontina Flex de 30 m</a> ajuda na lavagem. No painel e nas portas, o <a href="/artigos/plastico-do-carro-shopee-vonixx-restaurax-ou-sintra-fast-comparativo">comparativo Vonixx Restaurax ou Sintra Fast</a> mostra o que usar no plástico, já que o Sintra Fast não deve ir no vidro.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar Glazy 4 em 1 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/30p8owu9iK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
   `,

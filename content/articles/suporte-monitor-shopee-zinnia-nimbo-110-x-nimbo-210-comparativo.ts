@@ -100,7 +100,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 110 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Nimbo 110 atende monitores de 13 a 32 polegadas e peso de 2 a 10 kg, o que cobre o monitor comum de escritório, de 21 a 27 polegadas, e boa parte dos modelos mais largos. Ele usa o padrão VESA 75x75 e 100x100 mm, o mais comum atrás das telas, e a fixação é por morsa na borda da mesa ou por furo, quando a mesa já tem um.</p>
     <p>O que o pistão a gás muda no dia a dia é a facilidade: você segura a tela e a leva para cima, para baixo ou para perto, e ela fica onde parou, sem apertar parafuso toda vez. Para quem alterna entre sentado e em pé, ou divide a mesa com outra pessoa, isso pesa mais que qualquer número da ficha. A rotação de 360 graus, citada nas fichas, ainda deixa virar o monitor para o modo retrato, boa pedida para código e documentos longos.</p>
@@ -112,13 +112,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 210 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Nimbo 210 é o mesmo conceito em dobro: dois braços articulados saindo de uma única base, cada um com sua placa VESA, também de 13 a 32 polegadas. Quem trabalha com planilha e videochamada ao mesmo tempo, edita vídeo ou acompanha painéis de dados ganha área de trabalho sem ocupar a mesa com dois pés grandes.</p>
     <p>O cuidado é a carga. As fichas dizem de 2 a 10 kg e não deixam claro se o valor vale para cada braço ou para o conjunto. Na prática, dois monitores comuns de 24 polegadas pesam bem menos que isso sem o pé, mas dois monitores gamer largos ou curvos podem ficar no limite, e aí vale ler o manual da caixa antes de comprar. A mesa também precisa aguentar: um braço duplo faz força na borda, então tampo muito fino ou de aglomerado fraco pede cuidado.</p>
     <p>Para quem tem um monitor só, o 210 não faz sentido: paga mais por um braço que ficaria sem uso.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 210 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Antes de comprar: o que checar na sua mesa e no monitor</h2>
@@ -126,7 +126,7 @@ export const article: Article = {
     <p>A terceira é a mesa: a morsa prende na borda e precisa de espaço livre embaixo do tampo e espessura dentro do que o manual aceita. Se a mesa tem prateleira ou gaveta colada na borda, o furo pode ser a alternativa. Quem monta um <a href="/artigos/fragmentadora-de-papel-multilaser-of009-ou-of005-home-office-comparativo">home office completo</a> costuma pensar nisso junto com cadeira, luz e fios.</p>
     <p>Um braço bem regulado também melhora a luz sobre a tela. A <a href="/artigos/xiaomi-mi-computer-monitor-light-bar-vale-a-pena">barra de luz para monitor</a> é uma boa companheira, porque o suporte deixa a tela livre de apoio e sobra espaço para a lâmpada. Se o seu problema é o pulso e não o pescoço, o <a href="/artigos/logitech-lift-mouse-ergonomico-vertical-analise">mouse vertical Logitech Lift</a> completa a ergonomia da mesa.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 110 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como escolher entre os dois</h2>
@@ -134,7 +134,7 @@ export const article: Article = {
     <p>Quem ainda está na dúvida pode começar com o 110 e, se um dia precisar de segunda tela, avaliar um segundo suporte ou trocar. O 210, por outro lado, só compensa se a segunda tela já existe. Em home office, uma segunda tela ajuda a manter a videochamada de um lado e o material de trabalho do outro, e também a acompanhar o <a href="/artigos/ia-para-reunioes-transcricao-resumo-ata-automatica">resumo automático da reunião</a> sem trocar de janela.</p>
     <p>Para quem estuda, o braço ajuda a manter o monitor na distância certa durante horas, e a segunda tela mantém o conteúdo e as anotações lado a lado, algo útil ao <a href="/artigos/como-usar-ia-para-estudar-para-provas-e-concursos">estudar com IA</a>. E se a mesa é pequena, vale pensar na <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">rotina de trabalho</a> antes de comprar, para dar a cada tela uma função.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 210 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -163,17 +163,17 @@ export const article: Article = {
     </table>
     <p>O Nimbo 110 sai mais em conta e é o de melhor custo-benefício para quem tem um monitor. O 210 custa menos que dois suportes simples somados, o que o torna a melhor conta para quem usa duas telas. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 110 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 210 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/7Ky4nHuwDD" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é o Nimbo 110: serve a monitores de 13 a 32 polegadas, tem pistão a gás, nota 4,9 e milhares de vendas e custa pouco para o ganho em postura e espaço. O Nimbo 210 é a escolha de quem já trabalha com duas telas e quer um conjunto limpo, desde que o peso dos monitores caiba na faixa indicada.</p>
     <p>Se a ideia é montar uma mesa de trabalho inteira, vale olhar também a <a href="/artigos/melhor-webcam-para-reuniao-online-comparativo-2026">webcam para reunião online</a>, que fica melhor presa no topo de um monitor bem posicionado, e o <a href="/artigos/melhor-teclado-sem-fio-barato-comparativo-2026">teclado</a> e o <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">mouse sem fio</a> deixam a mesa livre de fios.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar Zinnia Nimbo 110 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9zypOERmY7" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

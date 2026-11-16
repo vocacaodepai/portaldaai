@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Classic 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Classic é a panela que a maioria das pessoas imagina quando pensa em panela de pressão: corpo de alumínio polido, sem revestimento, cabos pretos e uma válvula no centro da tampa. Uma análise de varejo cita espessura de 1,4 mm e base de cerca de 20 cm, o que dá boa condução de calor e pressão alcançada rápido, já que o alumínio é leve.</p>
     <p>A grande vantagem é a robustez do acabamento. Como não há camada antiaderente, você pode usar colher de metal sem medo, esfregar o fundo com esponja de aço macia quando o feijão grudar e lavar sem preocupação com descascar. A desvantagem é a mesma de toda panela de alumínio polido: o alimento gruda mais se a água acabar, e o brilho escurece com o tempo, principalmente na máquina de lavar louça, que o fabricante não costuma indicar.</p>
@@ -102,13 +102,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Magnific 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>A Magnific é a linha antiaderente da Panelux. Segundo as listagens de varejo, o corpo é de alumínio com revestimento PTFE, tem 4,5 litros, trava de segurança e botão liberador de pressão. Uma página de varejo de um modelo Magnific 4,5 L cita cerca de 1,33 kg e 20,1 x 23,5 cm, valores que variam entre versões.</p>
     <p>O benefício aparece depois do cozimento: arroz, carne em molho e o fundo do feijão saem com água e esponja macia, sem fazer força. Para quem cozinha todo dia e não quer passar tempo no fundo da panela, isso pesa. O cuidado é conhecido: o revestimento antiaderente desgasta com utensílio de metal, esponja áspera e calor excessivo no fogo vazio, e quando descasca a panela perde a graça.</p>
     <p>Outra conferência importante é a compatibilidade. A Gazin informa que a Magnific serve a fogões a gás, elétricos e vitrocerâmicos, e uma listagem da Casas Bahia diz expressamente que não serve a indução. Se a sua cozinha tem <a href="/artigos/cooktop-inducao-portatil-philco-pct10a-pct10ip-britania-bct14p-comparativo">cooktop de indução</a>, nenhuma das duas panelas funciona nele.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Magnific 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Segurança: o que checar antes de ligar a panela</h2>
@@ -116,7 +116,7 @@ export const article: Article = {
     <p>A borracha e a válvula são itens de desgaste: com o uso, a borracha resseca e passa a vazar vapor. Peças de reposição da marca existem e custam pouco perto da panela, e trocar a vedação a cada tempo é mais barato que arriscar. Se a panela vai ficar anos na família, esse custo de manutenção entra na conta.</p>
     <p>Uma dica de uso diário: depois de cozinhar, deixe a pressão sair sozinha ou use a válvula conforme o manual, sem forçar a tampa. A pressa para abrir é o erro que mais causa acidente. Quem monta a cozinha aos poucos pode somar a panela ao <a href="/artigos/frigideira-tramontina-paris-24-cm-raso-funda-ou-com-tampa-comparativo">jogo de frigideiras</a> e a uma boa <a href="/artigos/faca-chef-tramontina-plenus-century-ou-sublime-comparativo">faca de chef</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Classic 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual rende mais na rotina de uma casa</h2>
@@ -150,17 +150,17 @@ export const article: Article = {
     </table>
     <p>A Classic costuma sair bem mais em conta e é a de melhor custo-benefício para quem quer só cozinhar sob pressão. A Magnific custa quase o dobro e só compensa se a facilidade de limpeza for decisiva para você. O valor do dia aparece ao clicar no botão de compra.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Classic 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Magnific 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7mFiRyN2" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual comprar</h2>
     <p>Nossa indicação para a maioria é a Panelux Classic: é a panela de pressão de sempre, de marca conhecida, com nota 4,8 no anúncio e preço que cabe em qualquer orçamento. A Magnific é a melhor escolha de quem valoriza limpeza fácil e aceita tratar o revestimento com cuidado, sem utensílio de metal e sem esponja áspera.</p>
     <p>Em qualquer caso, leia o manual, troque a borracha quando ela ressecar e nunca force a tampa. Para completar a cozinha, o <a href="/artigos/balanca-tramontina-adatto-3kg-ou-5kg-comparativo">comparativo de balanças de cozinha</a> ajuda a acertar receita e porção, e o <a href="/artigos/panela-eletrica-de-arroz-mondial-pe-44-10x-ou-britania-bpa10pi">comparativo de panelas elétricas de arroz</a> mostra outra forma de deixar o dia a dia mais simples. Para o resto das panelas do dia a dia, veja o <a href="/artigos/jogo-de-panelas-shopee-tramontina-turim-ou-paris-10-pecas-comparativo">comparativo de jogos de panelas Tramontina na Shopee</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar Panelux Classic 4,5 L na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1W0JRYOAL8" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

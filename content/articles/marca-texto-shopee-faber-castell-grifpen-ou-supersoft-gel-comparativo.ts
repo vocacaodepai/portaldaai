@@ -90,7 +90,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar Grifpen na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Grifpen é o marca-texto de tinta líquida da Faber-Castell, com ponta chanfrada: de lado, ele cobre a linha inteira; de ponta, faz um traço fino para sublinhar uma palavra ou fazer setas no caderno. A foto do anúncio mostra a cartela em três grupos, tons pastel, neon e cores novas como cinza, turquesa e verde-limão, o que ajuda quem gosta de separar matéria por cor.</p>
     <p>A tinta à base de água seca rápido em papel sulfite e em caderno comum, e o traço fica uniforme, sem a textura de giz que alguns marcadores baratos deixam. Para resumo, apostila, cópia impressa e livro de papel comum, ele dá conta de tudo. As cores pastel são as mais escolhidas por quem faz caderno organizado, porque não cansam a vista e não brigam com a caneta preta.</p>
@@ -102,13 +102,13 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar Supersoft Gel na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O Supersoft é um marca-texto em gel: em vez de tinta líquida, a ponta é um bastão macio, parecido com um giz de cera mole, que deposita a cor sobre o papel. O corpo é preto com tampa colorida, e a foto mostra a base com ranhuras, usada para avançar o bastão conforme ele gasta. O anúncio oferece amarelo, rosa e verde.</p>
     <p>A vantagem do gel é não ter tinta para ser absorvida pela folha, e por isso esse tipo de marcador é o mais procurado para Bíblia, Vade Mecum e livros com papel fino. O traço também não borra quando passa por cima de texto impresso recente. Por ser seco, ele não sofre do problema do marcador líquido que fica sem tampa e seca de vez.</p>
     <p>Os limites aparecem no detalhe. O bastão é mais grosso e não faz o traço fino da ponta chanfrada, então sublinhar uma palavra só pede mais cuidado. O gel macio pode ficar mais mole em dia quente e gastar mais rápido se você apertar demais, e a cartela de cores é bem menor do que a do Grifpen.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar Supersoft Gel na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Qual combina com o seu jeito de estudar</h2>
@@ -116,14 +116,14 @@ export const article: Article = {
     <p>Quem estuda direito com Vade Mecum, quem lê a Bíblia com anotações ou quem tem livro de papel fino deve ir de gel. O mesmo vale para quem grifa por cima de texto que acabou de sair da impressora, como no <a href="/artigos/fichamento-de-livro-com-ia-como-estudar-sem-copiar-e-sem-inventar">fichamento de livro</a> ou nas cópias do <a href="/artigos/tcc-com-ia-o-que-a-faculdade-aceita-abnt-citacoes-e-plagio">TCC</a>.</p>
     <p>Muita gente acaba com os dois na mesma mochila: o Grifpen para o caderno e o gel para o livro que não pode manchar. Para organizar o restante da mesa de estudo, o <a href="/artigos/post-it-3m-super-adesivo-76-x-76-mm-45-folhas-shopee-vale-a-pena">Post-it 3M Super Adesivo</a> e a <a href="/artigos/calculadora-cientifica-casio-fx-82ms-fx-82la-cw-ou-fx-991la-cw-comparativo">calculadora científica Casio</a> aparecem em outras análises do Portal.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar Grifpen na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar marca-texto na Shopee</h2>
     <p>Marca-texto é um dos itens com mais cópia sem marca no marketplace, com fotos parecidas e preço muito baixo. Os dois anúncios deste comparativo são da Faber-Castell, vendidos por uma papelaria com centenas de vendas e nota alta, mas não pela loja oficial da marca. Confira no título o nome do produto (Grifpen ou Supersoft Gel) e a cor escolhida na variação, porque o mesmo anúncio vende unidade e kit.</p>
     <p>Desconfie de preço muito abaixo da faixa de mercado e de fotos repetidas entre vendedores sem nome. Anúncios saem do ar e o estoque muda, então não há garantia de que o mesmo item esteja disponível quando você abrir o botão, nem de frete grátis ou cupom. Se o pedido for grande, como lista de material escolar, vale ler o guia para <a href="/artigos/comprar-na-black-friday-comparar-precos-evitar-golpe-e-arrependimento">comparar preços na Black Friday</a> e encaixar a compra no orçamento com a ajuda do texto sobre <a href="/artigos/como-usar-ia-para-organizar-financas-pessoais">organizar as finanças pessoais</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar Supersoft Gel na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8Kqok24Vep" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Variação de preço</h2>
@@ -157,7 +157,7 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O Grifpen costuma sair mais em conta por unidade e tem o melhor custo-benefício para o estudo do dia a dia. O Supersoft Gel custa mais por peça, mas compensa para quem precisa proteger livro de papel fino, em que uma página manchada custa mais do que o marcador.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar Grifpen na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <p>O marca-texto também funciona bem para destacar prioridades na agenda de papel. Se você ainda não escolheu a do ano que vem, veja o <a href="/artigos/agenda-2027-tilibra-pepper-spice-ou-spot-comparativo">comparativo de agendas 2027 da Tilibra</a>.</p>
@@ -166,7 +166,7 @@ export const article: Article = {
     <p>Nossa indicação para a maioria é o Grifpen: tinta líquida que seca rápido no papel comum, ponta chanfrada para traço fino e grosso, cartela grande de cores e nota 4,9 com mais de 300 vendas no anúncio. É o marca-texto que resolve caderno, apostila e resumo sem pensar muito.</p>
     <p>O Supersoft Gel é a escolha certa para quem grifa Bíblia, Vade Mecum ou livro de folha fina, e para quem perde marcador por esquecer a tampa aberta. Se você estuda com rotina, vale encaixar a revisão do que foi grifado em blocos de tempo, como no plano de <a href="/artigos/estudar-com-google-agenda-blocos-de-tempo-e-revisao-espacada">estudo com revisão espaçada</a>. Para anotar na margem e resolver exercício no caderno, a <a href="/artigos/pentel-graphgear-500-lapiseira-shopee-vale-a-pena">lapiseira Pentel GraphGear 500</a> tem empunhadura de metal e quatro espessuras de grafite.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar Grifpen na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/8VAEwL3sJq" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -1,4 +1,4 @@
-# Rotina AI Indica com Amazon (1 por dia, 06:07 de Brasília; desde 16/11/2026)
+# Rotina AI Indica com Amazon (1 por dia, 06:07 de Brasília; regras de 16/11/2026)
 
 Leia antes `docs/rotinas/comum.md` e, no `CLAUDE.md`, as seções
 Categorização editorial, Nota (0-10), Filtros de navegação, Imagens de
@@ -6,17 +6,24 @@ produto, Botão de compra, Transparência Amazon, Título variado, Preços
 (faixa de mercado) e Botão espalhado.
 
 ## Quantidade
-- 1 artigo por dia: dia do mês par = comparativo (`kind: "guia"`, 2 ou 3
-  produtos reais da mesma categoria); dia ímpar = review de produto único
-  (`kind: "review"`, com o campo `review` completo).
-- Só tecnologia e eletrônicos ligados ao tema do site: informática, áudio e
-  vídeo, casa inteligente, segurança eletrônica, celulares e acessórios,
-  eletrônicos de cozinha com recurso inteligente. Nada de alimento, higiene,
-  cosmético, papelaria, roupa, brinquedo ou artigo esportivo.
+- 1 artigo por dia. A AI Indica publica 2 por dia (este da Amazon e 1 da
+  Shopee, 07:37), e em cada dia um é comparativo e o outro é review:
+  - dia do mês par (fuso de Brasília): Amazon = comparativo (`kind: "guia"`,
+    2 ou 3 produtos reais da mesma categoria); Shopee = review.
+  - dia ímpar: Amazon = review de produto único (`kind: "review"`, com o
+    campo `review` completo); Shopee = comparativo.
+- Qualquer categoria de produto existente na Amazon Brasil (a AI Indica
+  indica de tudo, não só tecnologia): casa, cozinha, pet, bebê, esporte,
+  ferramentas, automotivo, escritório, beleza e cuidados, viagem,
+  eletrônicos etc. Varie as categorias ao longo da semana.
+- Não repita a mesma `productSubcategory` em 15 dias, somando Amazon e
+  Shopee: confira com
+  `grep -l 'category: "ai-indica"' content/articles/*.ts | xargs ls -t | head -40`
+  e `grep -h productSubcategory` nesses arquivos. Também não repita produto
+  já publicado.
+- Nunca mamadeira, bico ou chupeta (Lei 11.265/2006).
 - Nunca "testamos"/"testei" sem uso real: o texto diz que a análise parte da
   ficha técnica e das avaliações de compradores.
-- Não repita produto nem categoria já publicados (Amazon ou Shopee): confira
-  com `grep -rl 'category: "ai-indica"' content/articles/` e os títulos.
 
 ## Produto e link
 - Produto real vendido na Amazon Brasil, ASIN conferido na página do produto

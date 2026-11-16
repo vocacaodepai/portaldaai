@@ -105,7 +105,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY HT08 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O HT08 é o modelo que mais vende entre os dois: o anúncio da loja oficial QCY na Shopee soma nota 4,9 e mais de 690 vendas. A ficha traz ANC híbrido adaptativo de até 46 dB, driver de 12 mm, suporte a LDAC com certificação Hi-Res Audio Wireless, Bluetooth 5.3, seis microfones para chamadas e resistência IPX5. Há varejistas que citam conexão com dois aparelhos ao mesmo tempo, o chamado multiponto, e vale conferir isso no anúncio.</p>
     <p>Na prática, 46 dB é um cancelamento forte para a faixa de preço: reduz o ronco do ônibus, do ar-condicionado e do ventilador de escritório, mas não elimina voz nem ruído agudo. A bateria varia conforme a configuração: a ficha de lojas cita cerca de 8,5 horas sem ANC e 7,5 horas com ANC, com mais algumas cargas no estojo. Ligar o LDAC pesa na autonomia, e para uso no dia a dia o AAC costuma ser suficiente.</p>
@@ -117,7 +117,7 @@ export const article: Article = {
       <figcaption>Imagem do anúncio na Shopee</figcaption>
     </figure>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY N70 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <p>O HT18 N70 sobe a régua: ANC de até 56 dB, três sensores de ruído por lado, dois drivers (um dinâmico em anel e um tweeter MEMS), LDAC, Bluetooth 6.0 e conexão multiponto, segundo o anúncio e as resenhas que consultamos. Resenhas independentes descrevem o ANC como bom, mas não o melhor da categoria, e apontam que a bateria cai bastante com ANC e LDAC ligados juntos, na casa de 4,5 horas. O anúncio da loja oficial tem nota 4,9 e mais de 420 vendas.</p>
     <p>A conveniência a mais é o acabamento: anúncios e resenhas citam estojo com carregamento sem fio e bateria total maior no estojo, na faixa de 35 a 50 horas conforme o modo. É o fone para quem passa muito tempo em transporte público, avião ou escritório aberto, em que cada decibel de ruído a menos ajuda.</p>
@@ -131,7 +131,7 @@ export const article: Article = {
       <li><strong>Usa iPhone:</strong> o LDAC não conta, então o argumento de áudio perde peso e o HT08 fica ainda mais interessante.</li>
     </ul>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY HT08 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -143,17 +143,17 @@ export const article: Article = {
     <p>O HT08 costuma sair mais em conta e também tem o melhor custo-benefício: entrega ANC forte, LDAC e boa autonomia por bem menos. O N70 só se paga para quem vai usar o ANC extra. O valor do dia aparece ao clicar no botão de compra.</p>
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY N70 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Veredito</h2>
     <p>Nossa indicação para a maioria é o QCY HT08 MeloBuds Pro, com nota 8,2: ANC de até 46 dB, LDAC, nota 4,9 e centenas de vendas na loja oficial, a um preço bem abaixo do N70. O HT18 MeloBuds N70 é a escolha para quem quer o ANC mais forte e aceita pagar a diferença. Os dois pedem o mesmo cuidado: comprar da loja oficial e testar o ajuste da ponteira, que decide mais o ANC do que a ficha técnica.</p>
     <p>Nota e vendas da Shopee mostram popularidade, não durabilidade, e não substituem um teste de uso. Para escolher outros acessórios de áudio e tecnologia com o mesmo critério, o <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">guia de qual IA escolher</a> ajuda a pesquisar e comparar fichas.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY HT08 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/BUxRqg7Gt" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar QCY N70 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/1144RNcwa4" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

@@ -76,7 +76,7 @@ export const article: Article = {
     <p>O Dentastix é um dos petiscos mais conhecidos do Brasil para cuidar da boca do cachorro: uma barrinha mastigável de formato estriado, que o cão come em poucos minutos. A versão para raças grandes, indicada na embalagem para cães de 25 kg ou mais, vem com 7 unidades (270 g) e aparece na Shopee em um anúncio com nota média 5,0 dos compradores e mais de 700 vendas. A análise abaixo parte do que a embalagem e o fabricante divulgam, dos dados do anúncio e do que lojas e tutores relatam, sem teste físico nosso.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que é e como funciona o Dentastix</h2>
@@ -88,7 +88,7 @@ export const article: Article = {
     <p>Na prática, ele ajuda quem não consegue escovar todo dia, ou quem usa o petisco como parte de um conjunto: escova, petisco e consulta de rotina. Se o cão já tem tártaro acumulado, a limpeza profissional é o passo certo, e o Dentastix entra depois, para manter.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Nota por critério</h2>
@@ -104,21 +104,21 @@ export const article: Article = {
     <h2>Prós e contras</h2>
     <p>O que pesa a favor: marca conhecida, formato pensado para a mastigação, pacote pequeno e fácil de achar. O que pesa contra: não substitui a escova, exige conferir a composição em cães sensíveis e o custo diário soma. Resenhas de varejo citam ingredientes como farinha de osso de aves e milho, o que pede atenção em cães com alergia alimentar, mas confira a lista na embalagem do seu pacote.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
     <p>Vale para quem tem cão grande (25 kg ou mais), sem restrição alimentar, que gosta de petisco e que tem dificuldade em manter a escovação em dia. Também funciona como "recompensa" de rotina, mais útil que um biscoito comum. Para cão com alergia, filhote ou idoso com dentição fragilizada, pergunte antes ao veterinário.</p>
     <p>Quem tem cão pequeno deve procurar a versão certa para o peso, e quem tem gato não deve usar petisco de cachorro. Para o resto da rotina, veja o <a href="/artigos/tapete-higienico-shopee-pads-prime-x-chalesco-comparativo">comparativo de tapetes higiênicos</a>, o <a href="/artigos/shampoo-pet-shopee-sanol-dog-pet-society-beeps-ou-pet-clean-comparativo">de shampoos pet</a> e o <a href="/artigos/escova-pet-chalesco-super-clean-profissional-3-ou-escova-soft-comparativo">de escovas pet</a>.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Higiene bucal do cachorro além do petisco</h2>
     <p>O petisco entra como um dos pilares. O mais eficiente continua sendo a escovação com pasta própria para cães (nunca a pasta humana), feita várias vezes por semana, junto de check-ups veterinários. Brinquedo mastigável adequado e água fresca também ajudam, e vale a pena observar o hálito e a gengiva no dia a dia.</p>
     <p>Quem monta o kit de cuidados do pet pode combinar com os <a href="/artigos/chalesco-lencos-umedecidos-pets-80-unidades-shopee-vale-a-pena">lenços umedecidos Chalesco</a>, o <a href="/artigos/chalesco-comedouro-duplo-360-ml-pet-vale-a-pena">comedouro duplo</a> e a <a href="/artigos/chalesco-cama-plastica-4-ou-cama-nuvem-bege-comparativo">cama pet</a>, e quem viaja com o cão encontra o <a href="/artigos/chalesco-gulliver-3-caixa-de-transporte-vale-a-pena">review da caixa de transporte Gulliver</a>. Se a casa também tem gato, o <a href="/artigos/caixa-areia-gato-shopee-furacao-pet-furba-com-arco-ou-furba-elegance-comparativo">comparativo de caixas de areia</a> e o de <a href="/artigos/areia-gato-shopee-cat-bio-max-clean-mandioca-ou-ultra-clean-comparativo">areias para gatos</a> cobrem o resto.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -130,14 +130,14 @@ export const article: Article = {
     <p><em>Observação: esta faixa é o preço consultado na internet como um todo (lojas, comparadores de preço e site do fabricante), não apenas na Shopee. O valor do dia aparece ao clicar no botão de compra.</em></p>
     <p>O custo-benefício é bom para uso moderado, porque o pacote dura uma semana com um por dia. Se o objetivo é uso diário o mês todo, a conta soma, e vale comparar com a escova e a pasta, que rendem mais por real.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Vale a pena?</h2>
     <p>Vale como complemento: o Dentastix para raças grandes é prático, bem aceito segundo as avaliações do anúncio (nota 5,0 e mais de 700 vendas), de marca conhecida e barato por pacote. A nota 8,0 reflete esse bom custo-benefício, descontada a falta de clareza na fórmula e o fato de que ele não substitui a escovação.</p>
     <p>Compre sabendo o que ele é: um apoio, não um tratamento. Leia a composição na embalagem, ofereça uma unidade por vez e observe o cão. Em caso de dúvida sobre alergia, dentição ou peso, converse com o veterinário antes.</p>
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar Dentastix na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/AAIPjmF9X9" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
   `,
   faq: [

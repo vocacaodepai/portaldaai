@@ -63,7 +63,7 @@ export const article: Article = {
     <p>Na cozinha, ele joga no mesmo time de peças pequenas e baratas que poupam tempo, como o <a href="/artigos/mixer-philips-walita-ri2622-ou-britania-bmx400p-comparativo">mixer de mão</a> e o <a href="/artigos/philco-pmn03a-processador-compacto-vale-a-pena">processador compacto Philco</a>, mas sem fio e sem tomada.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o ralador Brinox Top Pratic entrega</h2>
@@ -75,7 +75,7 @@ export const article: Article = {
     <p>O coletor é o diferencial: ele encaixa por baixo do ralador e recolhe o que sai, e a escala marcada em mililitros, copos e onças serve para medir quanto foi ralado, útil em receita que pede quantidade certa de queijo ou de cenoura. A linha Top Pratic também tem versões com visor lateral e medidas ligeiramente maiores, então vale confirmar no título do anúncio qual modelo está à venda.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Praticidade no dia a dia</h2>
@@ -83,7 +83,7 @@ export const article: Article = {
     <p>Para quem usa a <a href="/artigos/balanca-tramontina-adatto-3kg-ou-5kg-comparativo">balança de cozinha</a> em receitas mais exatas, o medidor do coletor não substitui o peso, mas serve de referência rápida. E o ralador combina com a rotina de quem prepara a refeição do dia com a <a href="/artigos/frigideira-tramontina-paris-24-cm-raso-funda-ou-com-tampa-comparativo">frigideira Tramontina</a> e a <a href="/artigos/faca-chef-tramontina-plenus-century-ou-sublime-comparativo">faca de chef</a>: queijo ralado na hora rende mais sabor que o de pacote.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Construção, limpeza e durabilidade</h2>
@@ -95,7 +95,7 @@ export const article: Article = {
     <p>Comparado a raladores sem marca da Shopee, a vantagem do Top Pratic é a referência de modelo e de fabricante: dá para checar a ficha, e a nota 4,9 de uma loja com selo de oficial reduz o risco de receber um produto diferente do anunciado.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Para quem vale a pena</h2>
@@ -103,7 +103,7 @@ export const article: Article = {
     <p>Quem rala em grande quantidade, para negócio de alimentos, ganha mais com o <a href="/artigos/philco-pmp1600p-multiprocessador-vale-a-pena">multiprocessador Philco</a> ou outro equipamento elétrico. Para quem só precisa de casca de frutas cítricas ou de queijo parmesão, um ralador de uma face resolve. E quem guarda sobras em casa pode completar a cozinha com os <a href="/artigos/potes-hermeticos-electrolux-12-pecas-shopee-vale-a-pena">potes herméticos Electrolux</a>.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -115,7 +115,7 @@ export const article: Article = {
     <p>O custo-benefício é bom: o preço fica no mesmo patamar de raladores genéricos, com a vantagem de ser de uma marca conhecida e de ter coletor. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -123,7 +123,7 @@ export const article: Article = {
     <p>Quem monta a cozinha aos poucos pode seguir com a <a href="/artigos/tabua-de-corte-tramontina-churrasco-black-25058100-ou-mixcolor-branca-25053180-comparativo">tábua de corte Tramontina</a> e o <a href="/artigos/espremedor-laranja-electrolux-ecp10-mondial-e02-philco-pef750p-comparativo">espremedor de laranja</a>, que completam a bancada com peças de uso diário.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar Ralador Brinox na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/W7nqKaF2I" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>

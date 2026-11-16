@@ -65,7 +65,7 @@ export const article: Article = {
     <p>Quem monta uma caixa de ferramentas em casa costuma começar por itens como a <a href="/artigos/bosch-gsr-120-li-parafusadeira-vale-a-pena">parafusadeira Bosch</a> e as <a href="/artigos/chaves-de-fenda-tramontina-43408115-ou-41110506-comparativo">chaves de fenda Tramontina</a>, e o multiuso entra para o parafuso enferrujado que não sai.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>O que o WD-40 Multiusos entrega</h2>
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>A marca vende o produto em tamanhos de 100 ml, 300 ml, 500 ml, 5 litros e 18 litros. A lata de 300 ml é a mais comum em casa, e a ficha cita uma válvula que permite aplicar de cabeça para baixo nas latas de 100 ml e 300 ml, útil para alcançar dobradiça no alto da porta.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Usos do dia a dia em casa</h2>
@@ -85,7 +85,7 @@ export const article: Article = {
     <p>O jardim também usa: tesoura de poda, carrinho e dobradiças de portão sofrem com chuva. O <a href="/artigos/tramontina-carrinho-de-mao-extraforte-65l-vale-a-pena">carrinho de mão Tramontina</a>, a <a href="/artigos/tesoura-de-poda-tramontina-78300001-78304511-78316501-comparativo">tesoura de poda</a> e o <a href="/artigos/kit-de-jardinagem-tramontina-3-ou-13-pecas-comparativo">kit de jardinagem</a> são exemplos de ferramentas de metal que ganham vida longa com limpeza e proteção periódica.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados que valem mais que a nota</h2>
@@ -93,7 +93,7 @@ export const article: Article = {
     <p>Como é aerossol, siga o rótulo: aplique em local ventilado, longe de chama, faísca e fonte de calor, e não perfure a lata. Teste antes em uma área escondida de plástico, borracha ou superfície pintada, e consulte a FISPQ no site da marca, que traz composição, riscos e primeiros socorros. A ficha de varejo e o anúncio não substituem esse documento.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Prós e contras</h2>
@@ -105,7 +105,7 @@ export const article: Article = {
     <p>Quem trabalha com equipamentos específicos deve seguir o manual do fabricante. E quem usa escada, esmerilhadeira ou multímetro no trabalho encontra no multiuso um complemento, como no <a href="/artigos/bosch-gws-850-esmerilhadeira-vale-a-pena">review da esmerilhadeira Bosch</a>, mas não um substituto do óleo correto de cada máquina.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Cuidados ao comprar na Shopee</h2>
@@ -117,7 +117,7 @@ export const article: Article = {
     <p>O custo-benefício é bom: uma lata dura bastante em uso doméstico, e o preço fica acima de aerossóis genéricos, com a vantagem da marca e da ficha técnica. Na Shopee, preço, cupom e frete mudam muito com promoção e com o vendedor, e o valor do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Como avaliamos</h2>
@@ -125,7 +125,7 @@ export const article: Article = {
     <p>Quem monta a casa aos poucos pode seguir com a <a href="/artigos/mor-escada-aluminio-5-degraus-vale-a-pena">escada Mor</a> e o <a href="/artigos/multimetro-minipa-et-1002-et-1100b-et-1110c-comparativo">multímetro Minipa</a>, que completam a caixa de ferramentas.</p>
 
     <div class="buy-btn">
-      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar WD-40 na Shopee agora ↗</a>
+      <a href="https://s.shopee.com.br/9fM4NOyIaK" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Shopee ↗</a>
     </div>
 
     <h2>Ficha técnica resumida</h2>
