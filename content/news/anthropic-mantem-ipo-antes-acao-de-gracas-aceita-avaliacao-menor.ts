@@ -6,15 +6,20 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan",
+  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan, The Wall Street Journal, Investing.com",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
-  updatedAt: "2026-11-17T16:11:00-03:00",
+  updatedAt: "2026-11-17T20:10:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (20:10)</h2>
+    <p>A expectativa de preço subiu mais um degrau. Segundo o The Wall Street Journal, em reportagem resumida pelo Investing.com e pelo Stocktwits nesta terça-feira, 17 de novembro, a Anthropic agora espera precificar as ações da oferta acima de US$ 80, acima da faixa registrada de US$ 70 a US$ 78. Nesse patamar, a avaliação da empresa iria para algo entre US$ 1,5 trilhão e US$ 1,6 trilhão, contra cerca de US$ 1,33 trilhão a US$ 1,4 trilhão no topo da faixa atual. É um passo além do que a Bloomberg havia relatado de manhã (preço no topo da faixa ou acima) e do que o Financial Times publicou, de que os bancos coordenadores avaliavam subir o preço.</p>
+    <p>A demanda ajuda a explicar a mudança. Brad Gerstner, fundador da gestora Altimeter, disse à CNBC que sua firma pediu US$ 5 bilhões em ações da oferta, cinco vezes o maior pedido que ele já fez num IPO. Ainda segundo o WSJ, fundos que já são sócios da Anthropic, como Bessemer Venture Partners, Menlo Ventures e Accel, pretendem aumentar a participação na oferta, em vez de vender, o contrário do que investidores de risco costumam fazer numa estreia. O jornal também aponta que o preço final depende em parte da reação do mercado ao balanço da Nvidia, divulgado nesta terça, que detalhamos em <a href="/noticias/nvidia-balanco-terceiro-trimestre-receita-115-bilhoes-kress">Nvidia fatura US$ 115,8 bilhões no primeiro balanço sem Jensen Huang</a>.</p>
+    <p>Na leitura do Portal da AI, o movimento confirma a virada descrita nas atualizações anteriores: de uma estreia aceitando valer menos que US$ 2 trilhões para uma disputa em que a empresa tem margem para cobrar mais. Para quem pensa em comprar depois da estreia, preço mais alto na oferta costuma deixar menos espaço de alta no primeiro pregão, e a liberação antecipada de ações de acionistas internos, citada às 16:11, pode pesar do lado da venda. O que ainda não está confirmado: o preço acima de US$ 80 é relato do WSJ com base em fontes, não há nova faixa registrada na SEC até o momento desta atualização, e o preço final segue previsto para quarta, 18, com estreia na Nasdaq (código ANT) na quinta, 19. Isto é informação, não recomendação de investimento.</p>
+
     <h2>Atualização (16:11)</h2>
     <p>A pergunta que deixamos em aberto às 13:10, se haveria nova faixa registrada na SEC, já tem resposta. Nesta terça-feira, 17 de novembro, a Anthropic protocolou a terceira emenda ao seu prospecto (o S-1/A, Amendment No. 3) e, segundo a leitura do documento feita pelo site Stock Titan, a faixa continua a mesma: US$ 70 a US$ 78 por ação, para 825 milhões de ações classe A. No mesmo dia, a empresa entregou à SEC o Formulário 8-A, o registro que formaliza a listagem das ações classe A na Nasdaq; de acordo com o Stock Titan, a emenda informa que a bolsa aprovou a listagem com o código ANT.</p>
     <p>A emenda traz detalhes que importam para quem pensa em comprar depois da estreia. Os bancos coordenadores podem comprar até 123,75 milhões de ações extras da empresa em até 30 dias, o lote suplementar que costuma ser usado para segurar o preço nas primeiras semanas. E, ainda segundo o Stock Titan, até 315 milhões de ações de acionistas internos que não são fundadores podem ficar livres para venda já a partir do primeiro dia de negociação, uma exceção ao período de bloqueio (lock-up) que normalmente impede esses donos de vender logo de cara. Mais oferta disponível cedo pode limitar a alta do primeiro pregão.</p>
