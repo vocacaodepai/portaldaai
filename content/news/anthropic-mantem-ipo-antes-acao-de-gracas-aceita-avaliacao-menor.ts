@@ -6,15 +6,20 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis",
+  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
-  updatedAt: "2026-11-16T12:20:00-03:00",
+  updatedAt: "2026-11-17T13:10:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (13:10)</h2>
+    <p>A véspera da precificação trouxe o sinal mais claro até agora sobre o preço. Segundo a Bloomberg, que cita pessoas a par do assunto, a Anthropic está orientando os investidores de que o preço deve sair no topo da faixa de US$ 70 a US$ 78 por ação ou acima dela. A informação foi resumida pelo site Crypto Briefing nesta terça-feira, 17 de novembro. A procura também cresceu: os pedidos agora chegam perto de sete vezes o número de ações oferecidas, contra cerca de seis vezes na semana passada, com ordens individuais de US$ 10 bilhões ou mais.</p>
+    <p>O calendário ficou mais apertado. O livro de ofertas fecha às 16h de Nova York desta terça, 18h no horário de Brasília. A precificação segue marcada para quarta, 18, e a estreia na Nasdaq, com o código ANT, para quinta, 19. Se o preço ficar em US$ 78, a oferta pública levanta cerca de US$ 64,35 bilhões; somada à colocação privada de US$ 26 bilhões, chega a uns US$ 90,4 bilhões, com avaliação totalmente diluída perto de US$ 1,4 trilhão.</p>
+    <p>Na leitura do Portal da AI, o recado é que a cautela do início do mês, quando a empresa aceitou estrear abaixo dos US$ 2 trilhões, deu lugar a uma disputa por ações. Preço acima da faixa costuma significar mais dinheiro para a empresa e menos espaço de alta no primeiro dia para quem compra depois da estreia. O que ainda não está confirmado: não há nova faixa registrada na SEC, e a orientação a investidores não é preço final. Para quem acompanha o setor, vale olhar também o balanço da Nvidia, que sai nesta terça e participa da colocação privada, como lembramos em <a href="/noticias/bessent-pede-ceo-de-fora-nvidia-vendas-chips-china">Bessent pede CEO de fora na Nvidia</a>. Isto é informação, não recomendação de investimento.</p>
+
     <h2>Atualização (12:20)</h2>
     <p>A Anthropic saiu da fase de estimativas e já tem data e preço na mesa. Segundo o guia publicado pela CNBC nesta segunda-feira, 16 de novembro, a empresa oferece 825 milhões de ações classe A numa faixa de US$ 70 a US$ 78 por papel, com a precificação prevista para a noite de quarta-feira, 18 de novembro, e o início das negociações na Nasdaq na quinta, 19, com o código ANT. A faixa foi apresentada em 10 de novembro, quando a empresa abriu o roadshow, a rodada de apresentações a investidores.</p>
     <p>No topo da faixa, a oferta levanta mais de US$ 64 bilhões. A CNBC calcula a avaliação em US$ 1,405 trilhão. Segundo a Bloomberg, citada pelo site StockAnalysis, essa conta inclui opções, ações restritas e reservas de planos para funcionários; considerando só as ações em circulação depois da oferta, a empresa valeria cerca de US$ 1,02 trilhão a US$ 78. Os dois números ficam dentro ou abaixo da faixa de US$ 1,25 trilhão a US$ 1,75 trilhão relatada pelo Financial Times e confirmam o que esta notícia antecipou: a Anthropic aceitou estrear abaixo dos US$ 2 trilhões.</p>
