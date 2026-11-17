@@ -59,7 +59,6 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: ["", "", ""],
-  sources: [{ label: "", url: "https://" }],
   content: \`
     <p></p>
   \`,
