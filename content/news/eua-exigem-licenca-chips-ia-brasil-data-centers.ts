@@ -6,13 +6,23 @@ export const item: NewsItem = {
   summary:
     "Nova regra do Departamento de Comércio dos EUA põe o Brasil numa lista de cinco países que precisam de licença para receber chips avançados de IA da Nvidia.",
   author: "Bruno Danello",
-  sourceName: "CBS News, Bloomberg, Euronews",
+  sourceName: "CBS News, Bloomberg, Euronews, Federal Register",
   sourceUrl: "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/",
   date: "2026-11-16",
   publishedAt: "2026-11-16T15:12:00-03:00",
+  updatedAt: "2026-11-17T07:10:00-03:00",
   topic: "regulacao",
   imageQuery: "Herbert C. Hoover Building Department of Commerce",
   content: `
+
+    <h2>Atualização (07:10)</h2>
+    <p>A regra saiu do papel. No fim da tarde de segunda-feira, 16 de novembro, o BIS protocolou o texto completo no Federal Register, o diário oficial americano, que o deixou disponível para inspeção pública (documento 2026-23529, com 117 páginas) e marcou a publicação oficial para esta quinta-feira, 19 de novembro. O Portal da AI leu o documento, e ele responde boa parte das dúvidas que ainda estavam em aberto.</p>
+    <p>A primeira é a data. O texto diz que a regra vale a partir do dia da publicação, ou seja, 19 de novembro, e abre prazo de 60 dias, contados dessa data, para comentários do público no portal regulations.gov. Os 90 dias citados pela Euronews se referem a outra coisa: data centers que já forneciam grande volume de computação a empresas com sede na China, em Macau ou em outros países do grupo D:5 antes da publicação têm 90 dias para pedir licença se quiserem continuar prestando esse serviço.</p>
+    <p>A segunda é o critério. Para o Brasil e os outros quatro países, os pedidos serão analisados caso a caso, e o próprio texto diz que o governo americano vai levar em conta a eficácia do controle de exportações de cada país e a cooperação dele com o BIS na fiscalização. Na prática, a licença brasileira passa a depender também de como Brasília conversa com Washington sobre o tema. O documento ainda avisa que o Departamento de Comércio vai monitorar países que "tolerem a evasão" e pode reagir com restrições de importação, novas exigências de licença e rebaixamento do país no regime americano de controle de exportações.</p>
+    <p>A terceira é a exceção para empresas americanas, que vem com contrapartida. Chips enviados ao Brasil para clientes com sede nos Estados Unidos (ou cuja controladora final fica lá) dispensam licença, mas o exportador precisa mandar ao BIS um relatório mensal com nome e endereço de todas as partes e das controladoras, destino final, modelo, quantidade e desempenho de cada chip. O relatório vence no primeiro dia útil do mês seguinte a cada envio.</p>
+    <p>O texto também define o que é "grande volume" de computação na regra contra o acesso remoto: mais de 12 milhões de TPP agregados (a medida de desempenho que o governo americano usa para classificar chips de IA), somando um data center ou vários interligados, inclusive por rede. A regra alcança ainda clientes de fora da China que treinam modelos para empresas chinesas, e obriga os data centers a investigar a cadeia de controle societário dos clientes. Por fim, o documento formaliza o fim da regra de difusão de IA do governo Biden, que nunca chegou a ser aplicada.</p>
+    <p>Até a manhã desta terça, 17 de novembro, o Portal da AI não encontrou manifestação oficial do governo brasileiro sobre a regra. O que muda para o leitor: a data de vigência está marcada, e o que define o ritmo dos projetos de data center no Brasil daqui para a frente é a análise caso a caso, que agora tem critério escrito e passa pela diplomacia.</p>
+
     <p>O Brasil entrou numa lista curta e incômoda do governo americano. Nesta segunda-feira, 16 de novembro, o Bureau of Industry and Security (BIS), braço do Departamento de Comércio dos Estados Unidos que cuida do controle de exportações, publicou uma regra provisória que passa a exigir licença para exportar, reexportar ou transferir chips avançados de inteligência artificial para cinco países: Brasil, Indonésia, Malásia, Singapura e Tailândia. Segundo a CBS News, o BIS classificou esses países como de "risco de desvio acima do normal".</p>
     <p>O alvo declarado não é o Brasil, e sim a China. O governo americano quer fechar o que chama de brecha do acesso remoto: empresas chinesas, impedidas de comprar os chips mais potentes da Nvidia, podem alugar poder de computação em data centers de outros países que rodam esses mesmos chips. A regra chega quatro dias depois de Jensen Huang <a href="/noticias/jensen-huang-renuncia-nvidia-colette-kress-ceo-interina">deixar o comando da Nvidia</a>, em meio à suspeita de espionagem ligada à Megaspeed, empresa de nuvem de Singapura investigada por possível desvio de chips para clientes chineses. A Megaspeed nega irregularidades.</p>
 
@@ -54,7 +64,7 @@ export const item: NewsItem = {
     {
       question: "Quando a regra entra em vigor?",
       answer:
-        "As exigências de licença valem a partir da publicação no Federal Register, que ainda não tinha ocorrido na manhã de 16 de novembro. A parte sobre acesso remoto entra em vigor em 90 dias, segundo a Euronews.",
+        "A regra vale a partir da publicação oficial no Federal Register, marcada para 19 de novembro de 2026, com 60 dias para comentários. Data centers que já atendiam empresas com sede na China ou em outros países de risco têm 90 dias para pedir licença se quiserem continuar.",
     },
   ],
 };
