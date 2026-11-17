@@ -6,13 +6,20 @@ export const item: NewsItem = {
   summary:
     "Receita da Nvidia dobra em um ano, data center chega a US$ 107,6 bilhões e a projeção sobe para US$ 130 bilhões, sem contar vendas de chips de IA à China.",
   author: "Bruno Danello",
-  sourceName: "Nvidia",
+  sourceName: "Nvidia, CNBC, NBC News, CBS News, Yahoo Finance",
   sourceUrl: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
   date: "2026-11-17",
   publishedAt: "2026-11-17T18:38:00-03:00",
+  updatedAt: "2026-11-17T19:10:00-03:00",
   topic: "negocios",
   imageQuery: "Nvidia headquarters Santa Clara",
   content: `
+    <h2>Atualização (19:10)</h2>
+    <p>O mercado gostou dos números. Segundo o blog ao vivo da NBC News, as ações da Nvidia chegaram a subir até 4% no pregão estendido logo depois da divulgação, às 16h23 no horário de Nova York (18h23 em Brasília). A CNBC registrou alta de cerca de 2% no after-hours, e a CBS News relatou avanço de quase 3%, para US$ 159,60. No pregão regular, a ação tinha fechado em US$ 155,46, queda de 0,4%, cerca de 35% abaixo da máxima histórica de outubro, segundo a NBC News. Pela CNBC, o lucro ajustado de US$ 2,68 por ação superou a média de US$ 2,48 esperada pelos analistas consultados pela LSEG, e a receita de US$ 115,84 bilhões ficou acima dos US$ 109,1 bilhões previstos. A reação contaminou outras empresas de nuvem para IA: Nebius subiu cerca de 6%, e CoreWeave e Iren, perto de 4%, ainda segundo a CNBC.</p>
+    <p>Na teleconferência, que começou às 19h de Brasília, quem falou primeiro foi o presidente do conselho, Harvey Jones, e não a CEO interina. Segundo o blog ao vivo do Yahoo Finance, Jones disse que o conselho não tem planos de trazer Jensen Huang de volta e avisou: "Não vamos abordar nem responder perguntas na teleconferência de hoje sobre as circunstâncias da renúncia de Jensen". Ele afirmou ainda que o conselho tem "toda a confiança" na liderança de Colette Kress. A fala responde, sem citar, à declaração escrita em que Huang, segundo a CNBC, se disse aberto a voltar ao cargo se o conselho decidir que isso é do interesse dos acionistas.</p>
+    <p>Kress, por sua vez, disse que a carteira de receitas contratadas da indústria de nuvem (backlog) chegou a US$ 2,5 trilhões, contra US$ 2 trilhões três meses antes, de acordo com o mesmo blog ao vivo. Até esta atualização, as reportagens abertas pelo Portal da AI não traziam falas de Kress sobre vendas à China, intermediários em Singapura ou prazo para a escolha do novo CEO.</p>
+    <p>Na leitura do Portal da AI, a mensagem da noite tem duas partes: a demanda por chips segue firme, e o conselho fechou a porta, pelo menos por ora, à volta do fundador. O ganho no after-hours, porém, é modesto para uma receita quase US$ 7 bilhões acima do esperado, sinal de que o investidor ainda desconta o risco de governança e de Washington.</p>
+
     <p>A Nvidia divulgou no fim da tarde desta terça-feira, 17 de novembro, o resultado do terceiro trimestre do ano fiscal 2027, encerrado em 25 de outubro. É o primeiro balanço desde que Jensen Huang deixou o comando da empresa, e os números mostram que, pelo menos no caixa, a crise de liderança ainda não chegou: a receita somou US$ 115,8 bilhões, mais que o dobro do mesmo período do ano passado.</p>
     <p>O comunicado chega no mesmo dia em que o conselho anunciou um comitê de segurança nacional e controle de exportação, resposta à pressão do governo americano que contamos quando <a href="/noticias/bessent-pede-ceo-de-fora-nvidia-vendas-chips-china">Scott Bessent pediu um CEO de fora e pôs as vendas de chips à China na mira</a>. A teleconferência com analistas começa às 19h de Brasília.</p>
 
@@ -26,7 +33,7 @@ export const item: NewsItem = {
 
     <h2>O que ainda não está confirmado</h2>
     <p>O comunicado não traz nenhuma explicação sobre as vendas por intermediários em Singapura, no centro da investigação ligada à Megaspeed, nem prazo para a escolha do novo CEO. O texto apenas cita, entre os riscos, a busca por um novo presidente executivo e a investigação conduzida por um comitê independente do conselho. Essas respostas, se vierem, devem aparecer na teleconferência.</p>
-    <p>Também não está claro quanto da queda prevista na margem vem da semana extra, da transição para a Vera Rubin ou de outros custos: o comunicado só dá a faixa. E, até a publicação desta notícia, o Portal da AI não encontrou reportagem confiável com o movimento das ações no pregão estendido após o balanço. Vamos atualizar esta página com a reação do mercado e com o que for dito na teleconferência.</p>
+    <p>Também não está claro quanto da queda prevista na margem vem da semana extra, da transição para a Vera Rubin ou de outros custos: o comunicado só dá a faixa. Na publicação original, às 18h38, o Portal da AI ainda não tinha encontrado reportagem confiável com o movimento das ações no pregão estendido; a reação do mercado e as primeiras falas da teleconferência estão na atualização no topo desta página.</p>
 
     <h2>Por que isso importa para você</h2>
     <p>Na leitura do Portal da AI, o número mais importante não é o lucro, e sim a projeção de US$ 130 bilhões. Ela indica que big techs e laboratórios de IA seguem comprando chips no mesmo ritmo, mesmo com a Nvidia sem o fundador no comando e sob pressão de Washington. Para quem usa ChatGPT, Gemini, Claude ou APIs de IA no trabalho, isso é sinal de que a capacidade de computação continua crescendo, o que tende a manter a competição de preços entre os modelos. Por outro lado, margem bruta perto de 75% mostra que a Nvidia ainda dita o preço do hardware, e esse custo acaba embutido nas assinaturas e nas tarifas de API cobradas em dólar.</p>
