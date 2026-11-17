@@ -375,6 +375,7 @@ export const productSubcategories = [
   { slug: "ventilador-teto", label: "Ventilador de Teto", category: "casa-inteligente" },
   { slug: "caneta-esferografica", label: "Caneta Esferográfica", category: "escritorio" },
   { slug: "cuidado-plasticos-carro", label: "Limpeza e Restauração de Plásticos", category: "automotivo" },
+  { slug: "som-automotivo", label: "Som Automotivo", category: "automotivo" },
   { slug: "campainha-sem-fio", label: "Campainha sem Fio", category: "seguranca" },
   { slug: "martelete", label: "Martelete Perfurador", category: "ferramentas-casa" },
   { slug: "lixadeira", label: "Lixadeira", category: "ferramentas-casa" },
