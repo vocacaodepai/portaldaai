@@ -54,7 +54,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Se a dúvida é qual assistente escolher no geral, não só para imagem, o comparativo <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> ajuda a decidir. Para quem já paga por um desses planos e quer saber se vale continuar pagando, o guia <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">IA grátis ou paga</a> lista o que cada nível libera.</p>
+    <p>Se a dúvida é qual assistente escolher no geral, não só para imagem, o comparativo <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> ajuda a decidir. Para quem já paga por um desses planos e quer saber se vale continuar pagando, o guia <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">IA grátis ou paga</a> lista o que cada nível libera. Se a ideia é ter movimento, e não só imagem parada, o guia de <a href="/artigos/gif-animado-no-chatgpt-images-2-6-criar-editar-quadros-e-usar-no-whatsapp">GIF animado no ChatGPT</a> mostra como criar a animação e editar os quadros.</p>
 
     <h2>Passo a passo: da ideia até a primeira imagem pronta</h2>
 

@@ -101,7 +101,7 @@ conferir em uma fonte oficial.</code></pre>
 
     <h2>Quando a concordância é inofensiva</h2>
 
-    <p>Nem toda situação exige um crítico. Se você pede um resumo, uma tradução ou a reescrita de um e-mail, concordar não distorce nada. O risco cresce quando você pede julgamento: avaliar um plano, revisar um argumento, comparar opções ou confirmar uma crença. Também cresce quando o assunto mexe com emoção, porque a tendência de agradar fica mais forte. Em conversas sobre decisões pessoais importantes, ouça pessoas de confiança e profissionais da área.</p>
+    <p>Nem toda situação exige um crítico. Se você pede um resumo, uma tradução ou a reescrita de um e-mail, concordar não distorce nada. O risco cresce quando você pede julgamento: avaliar um plano, revisar um argumento, comparar opções ou confirmar uma crença. Também cresce quando o assunto mexe com emoção, porque a tendência de agradar fica mais forte. Em conversas sobre decisões pessoais importantes, ouça pessoas de confiança e profissionais da área. Em saúde mental o cuidado é maior, e o texto sobre <a href="/artigos/psicologos-e-ia-cfp-chatbots-terapeuticos-sigilo-e-limites">chatbots terapêuticos e o que o CFP critica</a> explica por que conversa com IA não substitui terapia.</p>
 
     <p>Para quem usa IA em reflexões de carreira, o roteiro de <a href="/artigos/mentor-de-carreira-com-ia-prompts-para-decidir-seu-proximo-passo">mentor de carreira com IA</a> mostra como estruturar perguntas que pedem contraponto.</p>
 
