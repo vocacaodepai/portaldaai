@@ -29,7 +29,7 @@ export const article: Article = {
 
     <p>Segundo a <a href="https://chromewebstore.google.com/detail/hehggadaopoacecdllhhajmbjkdcmajg" target="_blank" rel="noopener noreferrer">página da extensão na Chrome Web Store</a>, consultada em 17/10/2026, ela permite que o ChatGPT, no computador ou na web, use o navegador para executar tarefas. A lista de recursos inclui pesquisa em sites ao vivo e autenticados, criação e edição de documentos, planilhas e apresentações, entrada de dados em sistemas (como controle de horas, estoque ou gerenciadores de conteúdo), resumos e respostas sobre qualquer aba, download de arquivos e imagens em lote, registro de despesas, teste de sites e organização de abas.</p>
 
-    <p>A página afirma ainda que o ChatGPT sempre pedirá permissão ao consultar o histórico do navegador e ao baixar ou enviar arquivos, e que ele pode trabalhar em segundo plano sem assumir a sua sessão ativa. A extensão aparece como compatível com Chrome, Edge, Brave e Opera. Na loja, o idioma informado é o inglês, então a interface pode não estar toda em português.</p>
+    <p>A página afirma ainda que o ChatGPT sempre pedirá permissão ao consultar o histórico do navegador e ao baixar ou enviar arquivos, e que ele pode trabalhar em segundo plano sem assumir a sua sessão ativa. A extensão aparece como compatível com Chrome, Edge, Brave e Opera. Na loja, o idioma informado é o inglês, então a interface pode não estar toda em português. Quem trabalha no Microsoft 365 tem outro caminho, o <a href="/artigos/copilot-cowork-no-edge-tarefas-em-sites-logados-aprovacoes-e-riscos">Copilot Cowork no Edge</a>, que roda tarefas nos sites em que a conta da empresa já está logada.</p>
 
     <h2>Como instalar, passo a passo</h2>
 

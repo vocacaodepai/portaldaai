@@ -82,7 +82,7 @@ export const article: Article = {
 
     <h2>Agentes no navegador e no celular</h2>
 
-    <p>Agentes que operam o navegador ou o celular herdam tudo o que você está logado para fazer. Por isso o cuidado é maior: quem usa a <a href="/artigos/chatgpt-no-chrome-extensao-oficial-abas-permissoes-e-cuidados">extensão de IA no Chrome</a> ou controla apps pelo <a href="/artigos/claude-app-celular-controlar-outros-apps">celular com um agente</a> deve revisar quais abas, sites e apps estão liberados e usar um perfil separado do navegador para tarefas sensíveis, como banco.</p>
+    <p>Agentes que operam o navegador ou o celular herdam tudo o que você está logado para fazer. Por isso o cuidado é maior: quem usa a <a href="/artigos/chatgpt-no-chrome-extensao-oficial-abas-permissoes-e-cuidados">extensão de IA no Chrome</a> ou controla apps pelo <a href="/artigos/claude-app-celular-controlar-outros-apps">celular com um agente</a> deve revisar quais abas, sites e apps estão liberados e usar um perfil separado do navegador para tarefas sensíveis, como banco. No ambiente de empresa, o <a href="/artigos/copilot-cowork-no-edge-tarefas-em-sites-logados-aprovacoes-e-riscos">Copilot Cowork no Edge</a> segue a mesma lógica: usa as sessões já abertas e mostra um cartão de aprovação antes de enviar dado pessoal.</p>
 
     <p>O mesmo vale para assistentes pessoais mais amplos. O texto sobre o <a href="/artigos/agente-de-ia-pessoal-gemini-spark-o-que-delegar-e-o-que-nao">agente pessoal Gemini Spark</a> trata exatamente da fronteira entre delegar e manter nas suas mãos.</p>
 

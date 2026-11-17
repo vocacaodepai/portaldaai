@@ -39,7 +39,7 @@ export const article: Article = {
 
     <p>O núcleo é simples de explicar. A IA é ferramenta de apoio, não substituta do médico. Quem decide é o profissional, que pode acolher ou rejeitar a sugestão do sistema. O CFM também descreve que o médico pode recusar sistemas sem validação científica adequada, sem a certificação regulatória pertinente ou que contrariem princípios éticos, técnicos ou legais.</p>
 
-    <p>A resolução se soma a outras normas, como a LGPD, e conversa com o debate maior sobre a regulação de IA no país. Para o quadro geral, o texto sobre a <a href="/artigos/lei-de-ia-no-brasil-o-que-muda-para-quem-usa">lei de IA no Brasil</a> ajuda a entender o que vem de lei e o que vem de conselho profissional.</p>
+    <p>A resolução se soma a outras normas, como a LGPD, e conversa com o debate maior sobre a regulação de IA no país. Para o quadro geral, o texto sobre a <a href="/artigos/lei-de-ia-no-brasil-o-que-muda-para-quem-usa">lei de IA no Brasil</a> ajuda a entender o que vem de lei e o que vem de conselho profissional. Na psicologia, o conselho da área seguiu por cartilhas e posicionamentos, como mostra o texto sobre <a href="/artigos/psicologos-e-ia-cfp-chatbots-terapeuticos-sigilo-e-limites">o que o CFP orienta aos psicólogos sobre IA e sigilo</a>.</p>
 
     <h2>O que muda para o paciente</h2>
 
