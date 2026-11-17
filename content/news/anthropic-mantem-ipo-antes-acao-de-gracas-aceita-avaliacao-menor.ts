@@ -6,15 +6,20 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing",
+  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
-  updatedAt: "2026-11-17T13:10:00-03:00",
+  updatedAt: "2026-11-17T16:11:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (16:11)</h2>
+    <p>A pergunta que deixamos em aberto às 13:10, se haveria nova faixa registrada na SEC, já tem resposta. Nesta terça-feira, 17 de novembro, a Anthropic protocolou a terceira emenda ao seu prospecto (o S-1/A, Amendment No. 3) e, segundo a leitura do documento feita pelo site Stock Titan, a faixa continua a mesma: US$ 70 a US$ 78 por ação, para 825 milhões de ações classe A. No mesmo dia, a empresa entregou à SEC o Formulário 8-A, o registro que formaliza a listagem das ações classe A na Nasdaq; de acordo com o Stock Titan, a emenda informa que a bolsa aprovou a listagem com o código ANT.</p>
+    <p>A emenda traz detalhes que importam para quem pensa em comprar depois da estreia. Os bancos coordenadores podem comprar até 123,75 milhões de ações extras da empresa em até 30 dias, o lote suplementar que costuma ser usado para segurar o preço nas primeiras semanas. E, ainda segundo o Stock Titan, até 315 milhões de ações de acionistas internos que não são fundadores podem ficar livres para venda já a partir do primeiro dia de negociação, uma exceção ao período de bloqueio (lock-up) que normalmente impede esses donos de vender logo de cara. Mais oferta disponível cedo pode limitar a alta do primeiro pregão.</p>
+    <p>Na leitura do Portal da AI, a emenda mostra que a empresa não mexeu na faixa oficial, apesar das reportagens de que o preço deve sair no topo ou acima dela. Isso não é contradição: é comum a precificação final ficar fora da faixa registrada, e a decisão sai na quarta, 18, depois do fechamento do livro de ofertas, previsto para as 18h desta terça no horário de Brasília. O que ainda não está confirmado: o preço final, a data em que a SEC declara o registro efetivo e o tamanho exato da participação do varejo. Isto é informação, não recomendação de investimento.</p>
+
     <h2>Atualização (13:10)</h2>
     <p>A véspera da precificação trouxe o sinal mais claro até agora sobre o preço. Segundo a Bloomberg, que cita pessoas a par do assunto, a Anthropic está orientando os investidores de que o preço deve sair no topo da faixa de US$ 70 a US$ 78 por ação ou acima dela. A informação foi resumida pelo site Crypto Briefing nesta terça-feira, 17 de novembro. A procura também cresceu: os pedidos agora chegam perto de sete vezes o número de ações oferecidas, contra cerca de seis vezes na semana passada, com ordens individuais de US$ 10 bilhões ou mais.</p>
     <p>O calendário ficou mais apertado. O livro de ofertas fecha às 16h de Nova York desta terça, 18h no horário de Brasília. A precificação segue marcada para quarta, 18, e a estreia na Nasdaq, com o código ANT, para quinta, 19. Se o preço ficar em US$ 78, a oferta pública levanta cerca de US$ 64,35 bilhões; somada à colocação privada de US$ 26 bilhões, chega a uns US$ 90,4 bilhões, com avaliação totalmente diluída perto de US$ 1,4 trilhão.</p>
