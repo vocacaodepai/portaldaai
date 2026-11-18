@@ -6,14 +6,19 @@ export const item: NewsItem = {
   summary:
     "Nova regra do Departamento de Comércio dos EUA põe o Brasil numa lista de cinco países que precisam de licença para receber chips avançados de IA da Nvidia.",
   author: "Bruno Danello",
-  sourceName: "CBS News, Bloomberg, Euronews, Federal Register",
+  sourceName: "CBS News, Bloomberg, Euronews, Federal Register, Investidor10, Agenda do Poder",
   sourceUrl: "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/",
   date: "2026-11-16",
   publishedAt: "2026-11-16T15:12:00-03:00",
-  updatedAt: "2026-11-17T07:10:00-03:00",
+  updatedAt: "2026-11-18T15:12:00-03:00",
   topic: "regulacao",
   imageQuery: "Herbert C. Hoover Building Department of Commerce",
   content: `
+
+    <h2>Atualização (15:12)</h2>
+    <p>O governo brasileiro se manifestou. Em nota divulgada depois do anúncio americano e reproduzida por veículos como Investidor10, Portal Viu e Agenda do Poder, o Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) disse que acompanha os possíveis desdobramentos da decisão e que a medida "não representa uma proibição direta da exportação de semicondutores avançados para o mercado brasileiro". Segundo o ministério, o que muda é a exigência de autorização específica para concretizar essas operações. A pasta acrescentou que ainda não é possível medir os efeitos concretos sobre as importações brasileiras desses chips. A nota não havia aparecido nas buscas do Portal da AI na manhã de terça, quando escrevemos que não havia manifestação oficial; fica corrigido aqui.</p>
+    <p>Sobre o passo seguinte, a informação é menos firme. Segundo o Agenda do Poder, que ouviu interlocutores do governo sem identificá-los, Brasília ainda não decidiu como responder e avalia tanto negociar com Washington quanto contestar as restrições, mas o tema não teria causado "preocupação significativa" até agora. Até esta atualização, o Portal da AI não encontrou posição própria do Itamaraty nem do Ministério da Ciência, Tecnologia e Inovação, nem anúncio de conversa formal com o Departamento de Comércio americano.</p>
+    <p>Na leitura do Portal da AI, o tom do MDIC é de contenção: o governo trata a regra como burocracia nova, não como veto, o que bate com o texto do BIS descrito abaixo (análise caso a caso e exceção para clientes com sede nos Estados Unidos). Só que o próprio documento americano diz que a cooperação do país na fiscalização pesa na concessão das licenças, então a escolha entre negociar e contestar não é neutra para quem planeja data center no Brasil. A publicação oficial no Federal Register, que dá início à vigência e ao prazo de 60 dias para comentários, está marcada para esta quinta-feira, 19 de novembro.</p>
 
     <h2>Atualização (07:10)</h2>
     <p>A regra saiu do papel. No fim da tarde de segunda-feira, 16 de novembro, o BIS protocolou o texto completo no Federal Register, o diário oficial americano, que o deixou disponível para inspeção pública (documento 2026-23529, com 117 páginas) e marcou a publicação oficial para esta quinta-feira, 19 de novembro. O Portal da AI leu o documento, e ele responde boa parte das dúvidas que ainda estavam em aberto.</p>
