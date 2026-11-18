@@ -6,15 +6,20 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan, The Wall Street Journal, Investing.com",
+  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan, The Wall Street Journal, Investing.com, Yahoo Finance",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
-  updatedAt: "2026-11-17T20:10:00-03:00",
+  updatedAt: "2026-11-18T19:10:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (19:10)</h2>
+    <p>O preço saiu. Segundo a CNBC, que ouviu uma pessoa a par da operação, e a Bloomberg, em relato reproduzido pelo Yahoo Finance nesta quarta-feira, 18 de novembro, a Anthropic precificou as ações do IPO a US$ 83 cada, acima da faixa registrada de US$ 70 a US$ 78 e também acima dos "mais de US$ 80" que o The Wall Street Journal havia antecipado na atualização das 20:10 de ontem. É cerca de 6,4% acima do topo da faixa. A estreia na Nasdaq, com o código ANT, segue marcada para esta quinta, 19.</p>
+    <p>Pela conta da própria CNBC, se as 825 milhões de ações forem vendidas a US$ 83, a oferta pública levanta cerca de US$ 68,5 bilhões. Somada à colocação privada de US$ 26 bilhões, com Google, Microsoft, Nvidia e AMD entre os compradores, a operação passa de US$ 94 bilhões, o que a colocaria como a maior abertura de capital já registrada. A CNBC diz que a avaliação fica acima do US$ 1,4 trilhão que a empresa mirava, sem dar o número exato; pela mesma conta proporcional usada às 12:20, a avaliação totalmente diluída ficaria perto de US$ 1,5 trilhão (estimativa do Portal da AI, não número oficial). Segundo a Bloomberg, os pedidos chegaram perto de sete vezes o número de ações oferecidas.</p>
+    <p>Na leitura do Portal da AI, o preço fecha a virada que estas atualizações acompanharam: a empresa que no início do mês aceitou estrear abaixo dos US$ 2 trilhões terminou cobrando acima da própria faixa. Para quem pensa em comprar a partir de quinta, o recado é o de sempre em estreia disputada: preço de oferta alto deixa menos folga para o primeiro pregão, e as até 315 milhões de ações de acionistas internos que podem ser vendidas desde o primeiro dia (citadas às 16:11) pesam do lado da venda. O que ainda não está confirmado: até o momento desta atualização, o preço vem de fontes ouvidas pela CNBC e pela Bloomberg, sem comunicado oficial da Anthropic nem registro final na SEC, e não se sabe se os bancos vão exercer o lote suplementar de 123,75 milhões de ações. Apostas em mercados de derivativos sobre o preço de abertura circulam, mas não são negociação real. Isto é informação, não recomendação de investimento.</p>
+
     <h2>Atualização (20:10)</h2>
     <p>A expectativa de preço subiu mais um degrau. Segundo o The Wall Street Journal, em reportagem resumida pelo Investing.com e pelo Stocktwits nesta terça-feira, 17 de novembro, a Anthropic agora espera precificar as ações da oferta acima de US$ 80, acima da faixa registrada de US$ 70 a US$ 78. Nesse patamar, a avaliação da empresa iria para algo entre US$ 1,5 trilhão e US$ 1,6 trilhão, contra cerca de US$ 1,33 trilhão a US$ 1,4 trilhão no topo da faixa atual. É um passo além do que a Bloomberg havia relatado de manhã (preço no topo da faixa ou acima) e do que o Financial Times publicou, de que os bancos coordenadores avaliavam subir o preço.</p>
     <p>A demanda ajuda a explicar a mudança. Brad Gerstner, fundador da gestora Altimeter, disse à CNBC que sua firma pediu US$ 5 bilhões em ações da oferta, cinco vezes o maior pedido que ele já fez num IPO. Ainda segundo o WSJ, fundos que já são sócios da Anthropic, como Bessemer Venture Partners, Menlo Ventures e Accel, pretendem aumentar a participação na oferta, em vez de vender, o contrário do que investidores de risco costumam fazer numa estreia. O jornal também aponta que o preço final depende em parte da reação do mercado ao balanço da Nvidia, divulgado nesta terça, que detalhamos em <a href="/noticias/nvidia-balanco-terceiro-trimestre-receita-115-bilhoes-kress">Nvidia fatura US$ 115,8 bilhões no primeiro balanço sem Jensen Huang</a>.</p>
