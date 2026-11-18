@@ -31,7 +31,7 @@ export const article: Article = {
 
     <p>Segundo a <a href="https://support.google.com/edu/classroom?p=teacher_notebook_gems" target="_blank" rel="noopener noreferrer">página de ajuda do Classroom para professores</a> (consultada em 25/10/2026), o caminho é: abrir a turma, ir em Atividades, clicar em Criar e escolher Gemini Notebook. Também é possível anexar um caderno já existente pelo botão Anexar de uma tarefa. O professor pode colar o endereço de um caderno público ou de um que ele possa editar, ou criar um novo já com os materiais da turma como fontes.</p>
 
-    <p>Para quem usa a ferramenta no dia a dia fora da escola, o guia sobre <a href="/artigos/gemini-notebook-no-app-gemini-como-criar-e-consultar-cadernos-por-conversa">como criar e consultar cadernos pelo app Gemini</a> mostra a versão pessoal. A versão do Classroom é a mesma ideia, com camada de turma e de administração por cima.</p>
+    <p>Para quem usa a ferramenta no dia a dia fora da escola, o guia sobre <a href="/artigos/gemini-notebook-no-app-gemini-como-criar-e-consultar-cadernos-por-conversa">como criar e consultar cadernos pelo app Gemini</a> mostra a versão pessoal. A versão do Classroom é a mesma ideia, com camada de turma e de administração por cima. Vale acompanhar também a decisão do Google de deixar o <a href="/artigos/gemini-desligado-para-alunos-e-aprendizado-guiado-no-classroom-o-que-a-escola-decide">Gemini desligado para alunos até a escola liberar</a>, que inclui o Gemini Notebook e traz o Aprendizado Guiado para o Classroom.</p>
 
     <h2>O que o professor passa a ver: os resumos de insights</h2>
 

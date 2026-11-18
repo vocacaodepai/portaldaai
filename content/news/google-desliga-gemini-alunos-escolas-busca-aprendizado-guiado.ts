@@ -18,7 +18,7 @@ export const item: NewsItem = {
     <p>O anúncio foi feito por Chris Phillips, vice-presidente e gerente-geral de Educação do Google, em um texto no blog oficial da empresa, e repercutiu no mesmo dia no TechCrunch, no The Verge e no The Next Web. O detalhe que mais chamou atenção não está no blog, mas em entrevistas que Phillips deu ao The New York Times e ao site Chalkbeat: não será possível desligar só a IA e manter a Busca funcionando. Escola que não quiser nenhuma IA terá de abrir mão também do buscador.</p>
 
     <h2>O que muda nas contas de alunos</h2>
-    <p>Segundo o Google, a decisão veio depois de conversas com escolas, professores, pesquisadores e formuladores de políticas públicas. A empresa diz que vai detalhar as regras e o cronograma "nos próximos meses", antes de a mudança entrar em vigor, para que as redes de ensino tenham tempo de se preparar. As reportagens indicam que a virada deve acontecer ao longo do próximo ano letivo.</p>
+    <p>Segundo o Google, a decisão veio depois de conversas com escolas, professores, pesquisadores e formuladores de políticas públicas. A empresa diz que vai detalhar as regras e o cronograma "nos próximos meses", antes de a mudança entrar em vigor, para que as redes de ensino tenham tempo de se preparar. As reportagens indicam que a virada deve acontecer ao longo do próximo ano letivo. O que coordenadores e professores podem fazer desde já está no guia <a href="/artigos/gemini-desligado-para-alunos-e-aprendizado-guiado-no-classroom-o-que-a-escola-decide">Gemini desligado para alunos: o que muda no Classroom e na escola</a>.</p>
 
     <p>Os quatro produtos que passam a nascer desligados para alunos são:</p>
     <ul>

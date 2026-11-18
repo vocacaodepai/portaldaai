@@ -56,6 +56,7 @@ export const article: Article = {
         <tr><td>Viagem curta</td><td>Compare opções de hotel para o fim de semana em Gramado</td><td>Informação pública de Hotéis</td></tr>
       </tbody>
     </table>
+    <p>Quando a pergunta é sobre uma região, e não um endereço, a <a href="/artigos/ferramenta-mapa-do-gemini-como-usar-no-celular-e-limites">ferramenta Mapa do Gemini no celular</a> deixa você marcar a área no mapa antes de escrever o pedido.</p>
     <p>Para uso mais amplo no celular, o guia do <a href="/artigos/gemini-live-com-camera-e-tela-como-usar-no-celular">Gemini Live com câmera e tela</a> mostra a conversa por voz, e o texto sobre <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">assistente de voz com IA</a> traz ideias de rotina. Para quem planeja deslocamentos, o artigo de <a href="/artigos/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando">planejar viagens com IA</a> complementa.</p>
 
     <h2>Como montar uma rotina com a Agenda</h2>
@@ -76,7 +77,7 @@ deslocamento e deixe 30 minutos de folga antes da consulta.</code></pre>
     <p>Também há uma regra para informação pública: os dados públicos de Voos, Hotéis, Maps e YouTube exigem a Atividade ligada, enquanto a informação pública da Pesquisa Google continua disponível mesmo com ela desligada. Em resumo prático, quem desliga a Atividade por privacidade perde parte dos recursos. É uma troca, e você escolhe o lado dela. Para quem prefere usar o Gemini sem deixar rastro, o guia de <a href="/artigos/apagar-historico-do-gemini-e-usar-chat-temporario">apagar o histórico e usar chat temporário</a> explica as alternativas.</p>
 
     <h2>Privacidade: o que acontece com as suas conversas</h2>
-    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">central de privacidade do Gemini</a>, com a Atividade ligada as conversas são salvas e usadas para melhorar os serviços do Google, inclusive o treinamento de modelos. Com ela desligada, as próximas conversas não aparecem na Atividade e não são usadas para treinamento (salvo se você enviar feedback), mas ficam guardadas por 72 horas para o Gemini responder e tratar feedback.</p>
+    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">central de privacidade do Gemini</a>, com a Atividade ligada as conversas são salvas e usadas para melhorar os serviços do Google, inclusive o treinamento de modelos. Com ela desligada, as próximas conversas não aparecem na Atividade e não são usadas para treinamento (salvo se você enviar feedback), mas ficam guardadas com a sua conta por cerca de dois meses para o Gemini responder, tratar feedback e por segurança (até novembro de 2026 eram 72 horas, como explica a notícia sobre o <a href="/noticias/google-gemini-guarda-conversas-dois-meses-historico-desligado">novo prazo de retenção do Gemini</a>).</p>
     <p>A central informa ainda que parte das conversas é revisada por pessoas, que as conversas revisadas ficam retidas por até três anos e que são desvinculadas da conta antes de seguir para prestadores. A exclusão automática padrão é de 18 meses, com opção de 3 ou 36 meses ou sem exclusão, e apagar a atividade não remove conversas já revisadas. Chats temporários ficam fora do uso para melhoria.</p>
     <p>Na prática: não escreva senha, número de documento, dado de saúde ou informação de terceiros em conversas com o assistente. O texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber</a> traz um checklist, e o de <a href="/artigos/memoria-longa-em-ia-assistente-que-lembra-de-voce">memória longa em IA</a> explica por que o assistente que lembra de você pede mais cuidado.</p>
 
@@ -117,7 +118,7 @@ deslocamento e deixe 30 minutos de folga antes da consulta.</code></pre>
     {
       question: "Desligar a Atividade do Gemini apaga meus dados?",
       answer:
-        "Desligar impede que as próximas conversas apareçam na Atividade e sejam usadas para treinamento, mas elas ficam por 72 horas. Apagar a atividade remove o histórico associado à conta, porém não elimina conversas que já foram revisadas por pessoas, mantidas por até três anos sem vínculo com a conta.",
+        "Desligar impede que as próximas conversas apareçam na Atividade e sejam usadas para treinamento, mas elas ficam com a conta por cerca de dois meses. Apagar a atividade remove o histórico associado à conta, porém não elimina conversas que já foram revisadas por pessoas, mantidas por até três anos sem vínculo com a conta.",
     },
   ],
 };

@@ -121,7 +121,7 @@ export const article: Article = {
       <li>Trocar para o modo normal toda vez que o assunto fica difícil. A dificuldade é justamente o momento em que se aprende.</li>
       <li>Confiar sem conferir. A IA pode errar com muita segurança, e o texto sobre <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA</a> mostra como checar.</li>
       <li>Estudar só lendo explicações. Sem testar a si mesmo, a sensação de entender engana.</li>
-      <li>Usar o modo guiado para fazer trabalho escolar que será entregue como seu. O objetivo é aprender, e a escola ou a faculdade pode ter regras próprias.</li>
+      <li>Usar o modo guiado para fazer trabalho escolar que será entregue como seu. O objetivo é aprender, e a escola ou a faculdade pode ter regras próprias. Em contas escolares, o Google vai deixar o Gemini desligado para alunos até a escola decidir, como explica o guia sobre o <a href="/artigos/gemini-desligado-para-alunos-e-aprendizado-guiado-no-classroom-o-que-a-escola-decide">Aprendizado Guiado no Classroom</a>.</li>
     </ul>
 
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>O TechCrunch lembra que o modo estudo funciona melhor para quem realmente quer aprender, e que o aluno pode desligar o modo quando quiser. A regra de uso é sua: se o objetivo é entender, deixe a IA perguntar.</p></div>

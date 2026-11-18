@@ -53,7 +53,7 @@ export const article: Article = {
 
     <h2>Passo 3: mapear a concorrência e o preço praticado</h2>
 
-    <p>Concorrência é tudo que o cliente usa hoje para resolver o problema, inclusive "levar marmita de casa". Peça ao assistente uma tabela e confira cada linha no Google Maps, no Instagram e no iFood, porque a IA erra nome e preço de negócio local. O guia sobre <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como manter essa tabela viva depois. Um exemplo ilustrativo do formato, para a hipótese das marmitas, com faixas que você precisa conferir na sua cidade:</p>
+    <p>Concorrência é tudo que o cliente usa hoje para resolver o problema, inclusive "levar marmita de casa". Peça ao assistente uma tabela e confira cada linha no Google Maps, no Instagram e no iFood, porque a IA erra nome e preço de negócio local. O guia sobre <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como manter essa tabela viva depois, e a <a href="/artigos/ferramenta-mapa-do-gemini-como-usar-no-celular-e-limites">ferramenta Mapa do Gemini</a> ajuda a levantar o que existe num raio de poucas quadras do ponto que você avalia. Um exemplo ilustrativo do formato, para a hipótese das marmitas, com faixas que você precisa conferir na sua cidade:</p>
 
     <table>
       <thead>
