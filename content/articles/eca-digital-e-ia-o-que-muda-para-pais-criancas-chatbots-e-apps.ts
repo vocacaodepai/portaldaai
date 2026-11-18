@@ -73,7 +73,7 @@ export const article: Article = {
 
     <ol>
       <li>Liste os apps com IA que seu filho usa: assistente de celular, chatbot de escola, filtros de foto, redes sociais.</li>
-      <li>Abra as configurações de cada um e ative supervisão parental e conta de adolescente, quando existir.</li>
+      <li>Abra as configurações de cada um e ative supervisão parental e conta de adolescente, quando existir. No Gemini, o caminho fica no Family Link, explicado no guia de <a href="/artigos/gemini-no-celular-do-filho-como-liberar-limitar-e-acompanhar-pelo-family-link">como liberar e limitar o Gemini no celular do filho</a>.</li>
       <li>Combine regras simples: nada de enviar foto, endereço ou dados da escola para um chatbot.</li>
       <li>Converse sobre alucinação: a IA erra com segurança, como mostra o guia sobre <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">como checar a resposta</a>.</li>
       <li>Use a IA para estudar com você por perto, no estilo da <a href="/artigos/licao-de-casa-com-ia-como-ajudar-o-filho-sem-fazer-por-ele">lição de casa com IA</a> e do <a href="/artigos/modo-estudo-do-chatgpt-e-aprendizado-guiado-do-gemini-como-usar">modo de estudo guiado</a>.</li>
