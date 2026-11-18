@@ -5,24 +5,25 @@ export const article: Article = {
   title: "Treino de IA com suas conversas: desligar no Gemini e no Claude",
   seoTitle: "Treino de IA com suas conversas: Gemini e Claude",
   excerpt:
-    "Suas conversas podem treinar a IA? Veja como desligar no Gemini (Manter atividade) e no Claude (Model Improvement), o que muda com chat temporário e o que continua guardado.",
+    "Suas conversas podem treinar a IA? Veja como desligar no Gemini (nova chave de treino) e no Claude (Model Improvement), o que muda com chat temporário e o que continua guardado.",
   metaDescription:
-    "Como impedir que o Gemini e o Claude usem suas conversas para treinar a IA: configuração, chat temporário e anônimo, prazos de 72 horas e 18 meses, avaliação humana e o que não colar.",
+    "Como impedir que o Gemini e o Claude usem suas conversas para treinar a IA: configuração, chat temporário e anônimo, prazos de dois meses e 18 meses, avaliação humana e o que não colar.",
   category: "iniciantes",
   articleSubcategory: "apps-e-tarefas",
   date: "2026-11-01",
+  updated: "2026-11-18",
   readTime: 7,
   imageQuery: "smartphone privacy settings toggle hand",
   seed: 991,
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "No Gemini, desligar a opção Manter atividade faz com que as conversas futuras não apareçam na atividade nem sejam usadas para treinar a IA, exceto se você enviar feedback; mesmo assim, elas ficam guardadas por 72 horas.",
+    "No Gemini, desde novembro de 2026, treino e histórico são chaves separadas: dá para manter o histórico e recusar o treino. Com o Histórico desligado ou no chat temporário, as conversas ficam com a conta por cerca de dois meses (antes eram 72 horas).",
     "No Claude (planos Free, Pro e Max), o treino com suas conversas depende da opção Model Improvement, de revisão por segurança ou de programas em que você entra; chats anônimos (Incognito) não são usados para melhorar o Claude.",
     "Desligar o treino não é apagar: histórico, feedback e conversas revisadas por pessoas têm regras próprias, então o mais seguro continua sendo não colar dados sensíveis.",
   ],
   content: `
-    <p>Para impedir que o Gemini use suas conversas no treino da IA, desligue a opção Manter atividade (em Atividade nos apps do Gemini); no Claude, desligue a opção Model Improvement nas configurações de privacidade. Em ambos os casos, as regras têm exceções e prazos, e desligar o treino não significa apagar tudo. Este guia mostra o passo a passo, o que cada empresa diz e o que fazer na prática.</p>
+    <p>Para impedir que o Gemini use suas conversas no treino da IA, desligue a configuração de uso das conversas para treinar modelos, no Histórico do Gemini (antes, isso dependia de desligar a opção Manter atividade inteira); no Claude, desligue a opção Model Improvement nas configurações de privacidade. Em ambos os casos, as regras têm exceções e prazos, e desligar o treino não significa apagar tudo. Este guia mostra o passo a passo, o que cada empresa diz e o que fazer na prática.</p>
 
     <p>Muita gente descobre essa configuração só depois de colar um contrato, um exame ou uma planilha de clientes num chat. Antes de ajustar, vale entender a diferença entre três coisas: guardar o histórico, usar a conversa para treinar o modelo e permitir que uma pessoa leia parte dela. As informações abaixo vêm das páginas oficiais do Google e da Anthropic, conferidas em 01/11/2026. Os nomes dos menus podem mudar, então procure pela opção equivalente se o seu app estiver diferente.</p>
 
@@ -32,14 +33,14 @@ export const article: Article = {
 
     <p>Por isso, o ajuste de privacidade tem três botões separados na prática: o do treino, o do histórico e o da memória. Mexer em um não muda os outros. Quem só quer evitar que o conteúdo apareça no celular compartilhado deve apagar o histórico, como mostra o guia de <a href="/artigos/apagar-historico-do-gemini-e-usar-chat-temporario">apagar histórico do Gemini e usar chat temporário</a>.</p>
 
-    <h2>Gemini: Manter atividade, 72 horas e revisão humana</h2>
+    <h2>Gemini: treino e histórico separados, dois meses de guarda e revisão humana</h2>
 
-    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">página de ajuda da Atividade nos apps do Gemini</a>, quando a opção Keep Activity (Manter atividade) está ligada, o Google usa a sua atividade para melhorar seus serviços, inclusive para treinar modelos de IA generativa. Áudio e vídeos do Gemini Live, por padrão, não entram nesse uso, e dá para mudar isso numa configuração de áudio.</p>
+    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">página de ajuda da Atividade nos apps do Gemini</a>, a configuração que antes se chamava Keep Activity (Manter atividade) virou Histórico, e o treino ganhou uma chave própria. Em 16/11/2026, o Google anunciou no <a href="https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/" target="_blank" rel="noopener noreferrer">blog oficial</a> que agora dá para manter o histórico de conversas e, ao mesmo tempo, recusar o uso delas para treinar modelos de IA generativa. Com a chave de treino ligada, o conteúdo das conversas futuras (texto, anexos e respostas) pode treinar os modelos. Áudio e vídeos do Gemini Live têm uma configuração separada.</p>
 
-    <p>Quando você desliga Manter atividade, as conversas futuras não aparecem na atividade e não são usadas para treinar modelos, a menos que você envie feedback. Há uma ressalva importante: as conversas ainda ficam salvas por 72 horas, para o Gemini responder e processar feedback, e o Gemini usa as últimas 24 horas de uma conversa como contexto. Chats temporários seguem a mesma regra de 72 horas.</p>
+    <p>Quando você desliga a chave de treino, as conversas futuras não são usadas para treinar modelos, a menos que você envie feedback, mas continuam sendo revisadas para melhorar o serviço de outras formas e para segurança. Quando você desliga o Histórico inteiro, as conversas futuras também saem da sua lista. Aqui está a mudança que mais pesa: a Central de Privacidade, atualizada em 17/11/2026, diz que chats temporários e conversas com o Histórico desligado ficam retidos com a sua conta por cerca de dois meses, e não mais por 72 horas, e que o Gemini usa as últimas 24 horas da conversa como contexto. A cobertura do anúncio está na notícia <a href="/noticias/google-gemini-guarda-conversas-dois-meses-historico-desligado">Gemini vai guardar conversas por 2 meses mesmo com histórico desligado</a>.</p>
 
     <ul class="checklist">
-      <li>Abra a página de atividade do Gemini e desligue Manter atividade.</li>
+      <li>Abra o Histórico do Gemini e desligue a configuração de uso das conversas para treinar modelos (se a opção nova ainda não apareceu no seu app, o caminho antigo é desligar o Histórico inteiro).</li>
       <li>Escolha o período de exclusão automática: o padrão é 18 meses, com opções de 3 meses, 36 meses ou sem exclusão.</li>
       <li>Revise o que ficou salvo e apague o que não precisa.</li>
       <li>Use chat temporário para assuntos delicados.</li>
@@ -62,8 +63,8 @@ export const article: Article = {
         <tr><th>Ponto</th><th>Gemini</th><th>Claude (planos de consumo)</th></tr>
       </thead>
       <tbody>
-        <tr><td>Opção que controla o treino</td><td>Manter atividade</td><td>Model Improvement</td></tr>
-        <tr><td>Chat sem treino</td><td>Chat temporário ou atividade desligada (guarda de 72 horas)</td><td>Chat anônimo (Incognito)</td></tr>
+        <tr><td>Opção que controla o treino</td><td>Chave de treino no Histórico (desde nov/2026)</td><td>Model Improvement</td></tr>
+        <tr><td>Chat sem treino</td><td>Chat temporário ou Histórico desligado (guarda de cerca de dois meses)</td><td>Chat anônimo (Incognito)</td></tr>
         <tr><td>Revisão humana</td><td>Subconjunto das conversas, retido até 3 anos</td><td>Conversas sinalizadas por segurança podem ser usadas</td></tr>
         <tr><td>Feedback</td><td>Guardado até 3 anos, desvinculado da conta</td><td>Guardado até 5 anos, desvinculado do e-mail</td></tr>
         <tr><td>Exclusão automática</td><td>18 meses por padrão (3, 36 ou nunca)</td><td>A página consultada não informa</td></tr>
@@ -90,7 +91,7 @@ export const article: Article = {
     <h2>Passo a passo de 10 minutos</h2>
 
     <ol>
-      <li>No Gemini, abra a atividade e confira se Manter atividade está ligada ou desligada.</li>
+      <li>No Gemini, abra o Histórico e confira, separadamente, se o histórico e o uso para treino estão ligados ou desligados.</li>
       <li>Defina a exclusão automática (3 meses é um bom começo para quem usa pouco).</li>
       <li>No Claude, abra as configurações de privacidade e veja o estado de Model Improvement.</li>
       <li>Apague conversas antigas com dados sensíveis.</li>
@@ -115,7 +116,7 @@ export const article: Article = {
     {
       question: "O Gemini usa minhas conversas para treinar a IA?",
       answer:
-        "Com Manter atividade ligada, o Google diz que usa a sua atividade para melhorar serviços, inclusive treinar modelos de IA generativa. Com a opção desligada, as conversas futuras não são usadas para treino, a menos que você envie feedback, mas ficam salvas por 72 horas. Uma parte das conversas pode ser revisada por pessoas.",
+        "Depende da chave de treino, separada do histórico desde novembro de 2026. Ligada, o conteúdo das conversas futuras pode treinar modelos de IA generativa. Desligada, as conversas não são usadas para treino, salvo se você enviar feedback. Com o Histórico desligado, elas ficam com a conta por cerca de dois meses. Uma parte pode ser revisada por pessoas.",
     },
     {
       question: "Como impedir que o Claude use meus chats para treino?",
@@ -125,7 +126,7 @@ export const article: Article = {
     {
       question: "Chat temporário é o mesmo que chat anônimo?",
       answer:
-        "São recursos parecidos, de empresas diferentes. No Gemini, chats temporários ficam retidos por 72 horas. No Claude, chats anônimos (Incognito) não são usados para melhorar o modelo. Os detalhes de guarda variam, então leia a página de ajuda de cada app antes de confiar neles para assuntos sensíveis.",
+        "São recursos parecidos, de empresas diferentes. No Gemini, chats temporários ficam retidos com a conta por cerca de dois meses (até novembro de 2026 eram 72 horas) e não treinam os modelos. No Claude, chats anônimos (Incognito) não são usados para melhorar o modelo. Os detalhes de guarda variam, então leia a página de ajuda de cada app antes de confiar neles para assuntos sensíveis.",
     },
     {
       question: "Apagar o histórico remove a conversa do treino?",

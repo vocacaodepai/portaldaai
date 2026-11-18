@@ -87,7 +87,7 @@ Não invente nada.
 
     <h2>Boleto por e-mail: confira antes de pagar</h2>
 
-    <p>Transformar e-mail em tarefa não torna o e-mail confiável. Boleto falso chega por mensagem que imita banco, condomínio e empresa de energia, e a pressa do vencimento ajuda o golpe. Antes de pagar, compare o nome do beneficiário no app do banco com o da empresa que você conhece e desconfie de valor muito diferente do habitual.</p>
+    <p>Transformar e-mail em tarefa não torna o e-mail confiável. Boleto falso chega por mensagem que imita banco, condomínio e empresa de energia, e a pressa do vencimento ajuda o golpe. Antes de pagar, compare o nome do beneficiário no app do banco com o da empresa que você conhece e desconfie de valor muito diferente do habitual. Se a cobrança é de fornecedor da empresa, o guia sobre <a href="/artigos/boleto-falso-de-fornecedor-como-conferir-com-dda-cnpj-e-ia">boleto falso de fornecedor</a> mostra como conferir pelo DDA e pelo CNPJ antes de pagar.</p>
 
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Não pague boleto que chegou por link de mensagem inesperada. Entre no site ou no app oficial da empresa, ou use o débito automático. Em caso de dúvida, o guia de <a href="/artigos/como-usar-ia-para-checar-mensagem-suspeita-e-evitar-golpes">como checar mensagem suspeita com IA</a> mostra os sinais.</p></div>
 

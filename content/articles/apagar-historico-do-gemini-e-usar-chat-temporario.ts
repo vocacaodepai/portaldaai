@@ -5,13 +5,14 @@ export const article: Article = {
   title: "Histórico do Gemini: como apagar e usar o chat temporário",
   seoTitle: "Histórico do Gemini: apagar conversas e chat temporário",
   excerpt:
-    "Veja como apagar o histórico do Gemini, desligar o Keep Activity e usar o chat temporário para proteger sua privacidade, com passo a passo e o que não muda.",
+    "Veja como apagar o histórico do Gemini, separar histórico e treino e usar o chat temporário para proteger sua privacidade, com passo a passo e o que não muda.",
   metaDescription:
     "Histórico do Gemini passo a passo: onde ficam as conversas, como desligar a atividade, mudar o prazo de exclusão e usar o chat temporário com segurança.",
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-11",
-  readTime: 7,
+  updated: "2026-11-18",
+  readTime: 9,
   imageQuery: "smartphone privacy lock screen",
   coverImage: {
     url: "/images/covers/apagar-historico-do-gemini-e-usar-chat-temporario.webp",
@@ -24,17 +25,26 @@ export const article: Article = {
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "Com o Keep Activity ligado, suas conversas ficam salvas na atividade do Gemini e podem ser usadas para melhorar os serviços do Google, inclusive modelos de IA.",
-    "Você pode desligar a atividade, escolher exclusão automática em 3, 18 ou 36 meses, ou usar o chat temporário para conversas sensíveis.",
-    "Desligar o histórico não apaga tudo na hora: as conversas ainda ficam guardadas por 72 horas, e o que já foi revisado por pessoas pode ficar até 3 anos.",
+    "Desde novembro de 2026, o Google separa duas escolhas: guardar o histórico do Gemini e usar suas conversas para treinar modelos de IA. Dá para manter uma e recusar a outra.",
+    "Você pode desligar o Histórico (antigo Keep Activity), escolher exclusão automática em 3, 18 ou 36 meses, ou usar o chat temporário para conversas sensíveis.",
+    "Desligar o histórico não apaga tudo na hora: o chat temporário e as conversas com histórico desligado ficam com a conta por cerca de dois meses (antes eram 72 horas), e o que foi revisado por pessoas pode ficar até 3 anos.",
   ],
   content: `
-    <p>O histórico do Gemini guarda as conversas que você tem com o assistente do Google, e você pode controlar isso: apagar conversas antigas, desligar o salvamento da atividade ou abrir um chat temporário que não alimenta essa lista. Os controles ficam na página Gemini Apps Activity, no endereço myactivity.google.com/product/gemini.</p>
-    <p>Este guia é para quem usa o Gemini no dia a dia e nunca olhou essas configurações. Você vai entender o que é salvo, como mudar o prazo de exclusão, quando vale a pena usar o chat temporário e quais limites continuam valendo mesmo depois de desligar tudo. As regras descritas aqui foram conferidas na página oficial de ajuda do Google em 11/10/2026.</p>
+    <p>O histórico do Gemini guarda as conversas que você tem com o assistente do Google, e você pode controlar isso: apagar conversas antigas, desligar o salvamento da atividade ou abrir um chat temporário que não alimenta essa lista. Os controles ficam na página Histórico do Gemini (antes chamada Gemini Apps Activity), no endereço myactivity.google.com/product/gemini.</p>
+    <p>Este guia é para quem usa o Gemini no dia a dia e nunca olhou essas configurações. Você vai entender o que é salvo, como mudar o prazo de exclusão, quando vale a pena usar o chat temporário e quais limites continuam valendo mesmo depois de desligar tudo. As regras descritas aqui foram conferidas na Central de Privacidade dos Apps do Gemini em 18/11/2026, já com a mudança de retenção anunciada pelo Google em 16/11/2026.</p>
 
     <h2>O que o Gemini guarda das suas conversas?</h2>
-    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" rel="noopener noreferrer" target="_blank">página de privacidade do Gemini</a>, quando a configuração Keep Activity está ligada, suas conversas e o que você compartilha com o assistente ficam salvos na sua atividade. O Google usa esse material para melhorar seus serviços, o que inclui o treinamento de modelos de IA generativa.</p>
+    <p>Segundo a <a href="https://support.google.com/gemini/answer/13594961" rel="noopener noreferrer" target="_blank">Central de Privacidade dos Apps do Gemini</a>, quando a configuração Histórico (que antes se chamava Keep Activity) está ligada, suas conversas, os anexos, as respostas do assistente e dados como a localização aproximada do aparelho ficam salvos no seu histórico. O Google usa esse material para oferecer o serviço, proteger os usuários e melhorar seus produtos com ajuda de revisores humanos. Se a sua conversa vai ou não treinar modelos de IA generativa agora depende de uma configuração separada, explicada na próxima seção.</p>
     <p>A mesma página afirma que o Google não vende suas informações pessoais e que suas conversas não são usadas para mostrar anúncios. Também explica que uma parte das conversas passa por revisores humanos, desconectada da sua conta antes da revisão. Conversas revisadas ficam guardadas por até três anos. Por isso, vale tratar o Gemini como um lugar onde você não escreve tudo, assim como já mostra o texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">o que você entrega sem perceber ao usar IA</a>.</p>
+
+    <h2>O que mudou em novembro de 2026: histórico e treino separados</h2>
+    <p>Em 16 de novembro de 2026, o Google publicou no <a href="https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/" rel="noopener noreferrer" target="_blank">blog oficial</a> o post "We're updating controls in the Gemini app" (estamos atualizando os controles no app Gemini). Até então, a regra era uma só: histórico ligado significava conversa salva e possivelmente usada para treinar a IA; histórico desligado significava fora do treino e apagado em 72 horas. Agora são duas chaves diferentes.</p>
+    <ul>
+      <li><strong>Histórico:</strong> decide se as conversas aparecem na sua lista e por quanto tempo ficam lá (3, 18 ou 36 meses, ou sem prazo).</li>
+      <li><strong>Uso para treino:</strong> decide se o conteúdo das conversas futuras, com texto e anexos, pode treinar modelos de IA generativa. Desligada, suas conversas não treinam modelos, a não ser que você envie feedback sobre uma resposta.</li>
+    </ul>
+    <p>O lado ruim veio junto. Com o Histórico desligado, as conversas futuras passam a ficar guardadas com a sua conta por cerca de dois meses, e não mais por 72 horas. A Central de Privacidade, atualizada em 17/11/2026, diz que esse prazo vale também para o chat temporário e que esse material é usado para responder a você, processar seu feedback e proteger o Google, os usuários e o público, inclusive com revisores humanos. O Google fala em lançamento global "nas próximas semanas", então os nomes das opções podem demorar a aparecer no seu app. A cobertura completa está na notícia <a href="/noticias/google-gemini-guarda-conversas-dois-meses-historico-desligado">Gemini vai guardar conversas por 2 meses mesmo com histórico desligado</a>.</p>
+    <p>Na prática, a novidade favorece quem gosta de voltar a conversas antigas e não quer virar material de treino: mantenha o Histórico ligado e desligue só o uso para treino. Para quem desligava o histórico pensando em "some em três dias", a promessa mudou, e o cuidado com o que você digita fica ainda mais importante.</p>
 
     <h2>Como ver e apagar o histórico do Gemini</h2>
     <p>O caminho é simples e muda pouco entre celular e computador. Entre na página de atividade do Gemini com a mesma conta Google que você usa no aplicativo. Lá aparece a lista do que foi salvo, com data e hora, e opções para excluir itens específicos ou períodos inteiros.</p>
@@ -46,11 +56,12 @@ export const article: Article = {
     </ol>
     <p>Um detalhe que muita gente ignora: a página de ajuda avisa que apagar sua atividade não remove as conversas que revisores humanos já processaram. Elas seguem guardadas pelo prazo de até três anos. Excluir é útil para limpar o que está visível e reduzir o que fica salvo daqui para frente, mas não é uma borracha retroativa de tudo.</p>
 
-    <h2>Como desligar o Keep Activity</h2>
-    <p>Se você não quer que as conversas fiquem na atividade nem sirvam para treinar modelos, desligue o Keep Activity na mesma página. Depois disso, de acordo com a ajuda oficial, as próximas conversas não aparecem na sua atividade e não são usadas para treinar modelos de IA, a não ser que você envie um feedback sobre uma resposta.</p>
+    <h2>Como desligar o Histórico do Gemini</h2>
+    <p>Se você não quer que as conversas fiquem na sua lista, desligue o Histórico (o antigo Keep Activity) na mesma página. Depois disso, de acordo com a Central de Privacidade, as próximas conversas não aparecem no seu histórico e, se você não enviar feedback, também não são usadas para treinar modelos de IA. Se o seu único incômodo é o treino, não precisa ir tão longe: basta desligar a configuração de uso para treino e manter o histórico.</p>
     <p>Existem custos para essa escolha, e vale conhecê-los antes de mexer:</p>
     <ul>
-      <li>As conversas ainda ficam armazenadas por 72 horas, para o Gemini conseguir responder a você e para proteger o Google e seus usuários.</li>
+      <li>As conversas ainda ficam armazenadas com a sua conta por cerca de dois meses (antes da mudança de novembro de 2026 eram 72 horas), para o Gemini responder a você, processar feedback e proteger o Google e seus usuários.</li>
+      <li>Conversas que passaram por revisores humanos ficam guardadas por até três anos, separadas da conta, mesmo que você apague tudo depois.</li>
       <li>Alguns aplicativos conectados, como o Google Workspace, deixam de estar disponíveis.</li>
       <li>Desligar não apaga dados de outros serviços do Google, como a atividade na Web e em aplicativos.</li>
     </ul>
@@ -72,7 +83,8 @@ export const article: Article = {
     <p>Se você trabalha com tarefas longas que dependem de contexto anterior, pense também em como o assistente guarda informação. O texto sobre <a href="/artigos/memoria-longa-em-ia-assistente-que-lembra-de-voce">memória longa em IA</a> explica essa diferença entre histórico e memória.</p>
 
     <h2>Chat temporário: quando usar</h2>
-    <p>O chat temporário é a saída para conversas pontuais que você não quer ver registradas. A ajuda do Google informa que essas conversas não são usadas para melhorar a IA do Google com revisores humanos. É uma opção prática para uma dúvida de saúde, uma pergunta sobre dinheiro ou um rascunho de mensagem delicada.</p>
+    <p>O chat temporário é a saída para conversas pontuais que você não quer ver registradas. A Central de Privacidade informa que as conversas temporárias não são usadas para treinar os modelos de IA do Google e não entram na personalização. É uma opção prática para uma dúvida de saúde, uma pergunta sobre dinheiro ou um rascunho de mensagem delicada.</p>
+    <p>O que mudou é o prazo: desde a atualização de novembro de 2026, o chat temporário também fica retido com a sua conta por cerca de dois meses, e não mais por 72 horas. Ele não aparece no seu histórico, mas existe nos servidores do Google durante esse período.</p>
     <p>Mesmo assim, ele não transforma o Gemini em cofre. Evite colar senha, número de documento, dado bancário e contrato inteiro de terceiros. O checklist do artigo sobre <a href="/artigos/como-escolher-ferramenta-de-ia-com-seguranca-checklist">como escolher uma ferramenta de IA com segurança</a> ajuda a decidir o que pode e o que não pode entrar em qualquer chat.</p>
     <h3>Exemplo: três situações do dia a dia</h3>
     <p>Pense em uma professora de Campinas que usa o Gemini para três coisas. Planos de aula: histórico ligado, porque ela retoma o trabalho de uma semana para outra. Dúvida sobre um exame médico da mãe: chat temporário. Mensagem difícil para um colega de escola: chat temporário e, depois, leitura atenta antes de enviar. É uma cena para ilustrar a lógica, não um caso medido: o critério é sempre se você aceitaria ver aquele texto salvo daqui a um ano.</p>
@@ -83,7 +95,7 @@ export const article: Article = {
       <li>Abra a página de atividade do Gemini e leia as últimas conversas salvas.</li>
       <li>Apague o que tiver dado pessoal, de saúde ou de trabalho que não precisa ficar guardado.</li>
       <li>Escolha o prazo de exclusão automática que combina com seu uso.</li>
-      <li>Decida se vai manter o Keep Activity ligado ou desligar de vez.</li>
+      <li>Decida se vai manter o Histórico ligado e, separadamente, se aceita que suas conversas treinem modelos de IA.</li>
       <li>Combine consigo mesmo: assunto sensível vai para o chat temporário.</li>
     </ul>
     <p>Se você ainda está montando sua rotina com assistentes, o roteiro de <a href="/artigos/como-configurar-primeiro-assistente-de-ia-pessoal">como configurar o primeiro assistente de IA pessoal</a> encaixa bem com este passo de privacidade.</p>
@@ -91,7 +103,8 @@ export const article: Article = {
     <h2>Erros comuns ao mexer no histórico</h2>
     <ul class="checklist">
       <li>Achar que apagar a conversa na tela apaga tudo: a ajuda oficial diz que o que revisores já processaram segue guardado.</li>
-      <li>Desligar o histórico sem saber que integrações com apps conectados podem parar de funcionar.</li>
+      <li>Desligar o histórico sem saber que integrações com apps conectados podem parar de funcionar, quando o objetivo era só sair do treino (hoje isso tem chave própria).</li>
+      <li>Achar que o chat temporário some em três dias: pela regra de novembro de 2026, ele fica com a conta por cerca de dois meses.</li>
       <li>Usar o chat temporário e depois colar dado sensível mesmo assim.</li>
       <li>Confiar cegamente na resposta por ter ligado a privacidade: o risco de erro da IA continua, e o guia de <a href="/artigos/alucinacao-de-ia-como-checar-se-a-resposta-esta-certa">alucinação de IA</a> mostra como checar.</li>
       <li>Esquecer que cada assistente tem regras próprias. O Gemini, o ChatGPT e o Claude se comportam de formas diferentes, e o comparativo de <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude e Gemini</a> ajuda a escolher.</li>
@@ -113,17 +126,17 @@ export const article: Article = {
     {
       question: "O Gemini usa minhas conversas para treinar a IA?",
       answer:
-        "Com o Keep Activity ligado, a ajuda oficial diz que o Google pode usar suas conversas para melhorar os serviços, incluindo modelos de IA generativa. Desligando a configuração, as próximas conversas deixam de ser usadas, salvo se você enviar um feedback.",
+        "Depende de uma configuração própria, criada em novembro de 2026. Com ela ligada, o conteúdo das conversas futuras pode treinar modelos de IA generativa. Desligada, as conversas não treinam modelos, salvo se você enviar feedback. Dá para manter o histórico e recusar o treino.",
     },
     {
       question: "Quanto tempo o Gemini guarda minhas conversas?",
       answer:
-        "O padrão é excluir a atividade depois de 18 meses, e você pode mudar para 3 ou 36 meses, ou não excluir automaticamente. Com o histórico desligado, as conversas ainda ficam armazenadas por 72 horas para o serviço funcionar.",
+        "Com o histórico ligado, o padrão é excluir depois de 18 meses, e você pode mudar para 3 ou 36 meses, ou não excluir. Com o histórico desligado ou no chat temporário, as conversas ficam com a conta por cerca de dois meses. Antes de novembro de 2026, esse prazo era de 72 horas.",
     },
     {
       question: "O que é o chat temporário do Gemini?",
       answer:
-        "É um tipo de conversa pensado para assuntos pontuais. Segundo o Google, esses chats não são usados para melhorar a IA com revisores humanos. Ainda assim, evite senhas, documentos e dados bancários em qualquer assistente.",
+        "É um tipo de conversa pensado para assuntos pontuais, que não aparece no histórico. Segundo o Google, esses chats não treinam os modelos de IA, mas ficam retidos com a conta por cerca de dois meses. Por isso, evite senhas, documentos e dados bancários em qualquer assistente.",
     },
     {
       question: "Desligar o histórico faz o Gemini parar de funcionar?",

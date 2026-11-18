@@ -76,7 +76,7 @@ export const article: Article = {
 
     <h2>Use o celular durante a viagem</h2>
 
-    <p>Segundo a página do Gemini, ele pode ajudar a ajustar o plano quando algo muda, como um lugar fechado ou chuva, e buscar alternativas no Google Maps. Quem quer explorar esse lado pode ver como funcionam os <a href="/artigos/apps-conectados-do-gemini-agenda-maps-e-youtube-como-usar">apps conectados do Gemini</a>, e o <a href="/artigos/gemini-live-com-camera-e-tela-como-usar-no-celular">Gemini Live com câmera</a> traduz placas e cardápios em viagem. Antes de ligar essas conexões, leia o que cada uma pode ver da sua conta no texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade e IA</a>.</p>
+    <p>Segundo a página do Gemini, ele pode ajudar a ajustar o plano quando algo muda, como um lugar fechado ou chuva, e buscar alternativas no Google Maps. Quem quer explorar esse lado pode ver como funcionam os <a href="/artigos/apps-conectados-do-gemini-agenda-maps-e-youtube-como-usar">apps conectados do Gemini</a>, e o <a href="/artigos/gemini-live-com-camera-e-tela-como-usar-no-celular">Gemini Live com câmera</a> traduz placas e cardápios em viagem. Antes de ligar essas conexões, leia o que cada uma pode ver da sua conta no texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">privacidade e IA</a>. Para montar o roteiro por bairro olhando o mapa, o guia da <a href="/artigos/ferramenta-mapa-do-gemini-como-usar-no-celular-e-limites">ferramenta Mapa do Gemini</a> mostra como anexar a área ao pedido.</p>
 
     <h2>Como checar tudo antes de reservar</h2>
 
