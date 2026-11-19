@@ -352,6 +352,7 @@ export const productSubcategories = [
   { slug: "jogo-panelas", label: "Jogo de Panelas", category: "cozinha" },
   { slug: "antimofo", label: "Antimofo e Desumidificador", category: "casa-utilidades" },
   { slug: "racao-seca-cao", label: "Ração Seca para Cães", category: "pet" },
+  { slug: "racao-umida-cao", label: "Ração Úmida para Cães", category: "pet" },
   { slug: "frigobar", label: "Frigobar", category: "cozinha" },
   { slug: "maquina-costura", label: "Máquina de Costura", category: "casa-utilidades" },
   { slug: "depilador", label: "Depilador Elétrico", category: "saude-bem-estar" },
