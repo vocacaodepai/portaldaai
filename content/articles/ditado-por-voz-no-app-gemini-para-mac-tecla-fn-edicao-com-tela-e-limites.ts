@@ -10,7 +10,8 @@ export const article: Article = {
     "Ditado por voz no app Gemini para Mac: segure a tecla Fn, dite em qualquer app e reescreva texto com contexto da tela. Veja requisitos, privacidade e limites.",
   category: "ferramentas",
   date: "2026-10-30",
-  readTime: 7,
+  updated: "2026-11-19",
+  readTime: 8,
   imageQuery: "microphone laptop desk",
   coverImage: {
     url: "/images/covers/ditado-por-voz-no-app-gemini-para-mac-tecla-fn-edicao-com-tela-e-limites.webp",
@@ -82,7 +83,7 @@ export const article: Article = {
 
     <p>Ditar em qualquer app significa que o Gemini pode ouvir a fala e, com a edição por tela ligada, ver o conteúdo exibido. A página do app informa que o histórico de conversas e a memória sincronizam entre computador, web e celular quando se usa a mesma conta. Para dados sensíveis, como contratos, documentos de clientes ou informações de saúde, desligue o raciocínio com contexto de tela e prefira não ditar.</p>
 
-    <p>Vale rever o que fica guardado: o guia sobre <a href="/artigos/apagar-historico-do-gemini-e-usar-chat-temporario">como apagar o histórico do Gemini e usar o chat temporário</a> mostra como limitar o rastro, e o texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a> ajuda a decidir o que não ditar de jeito nenhum.</p>
+    <p>Vale rever o que fica guardado: o guia sobre <a href="/artigos/apagar-historico-do-gemini-e-usar-chat-temporario">como apagar o histórico do Gemini e usar o chat temporário</a> mostra como limitar o rastro, e o texto sobre <a href="/artigos/ia-e-privacidade-o-que-voce-entrega-sem-perceber">IA e privacidade</a> ajuda a decidir o que não ditar de jeito nenhum. Atenção a uma mudança recente: o Google anunciou que <a href="/noticias/google-gemini-guarda-conversas-dois-meses-historico-desligado">o Gemini vai guardar conversas por cerca de dois meses mesmo com o histórico desligado</a>, então desligar o histórico não apaga o que você ditou no mesmo dia.</p>
 
     <table>
       <thead>
@@ -96,6 +97,12 @@ export const article: Article = {
         <tr><td>Texto em português que precisa de precisão</td><td>Teste antes; revise sempre</td></tr>
       </tbody>
     </table>
+
+    <h2>Novidade no app para Mac: o Gemini também mexe no computador</h2>
+
+    <p>Em 19 de novembro de 2026, as notas de versão do Gemini anunciaram o uso do computador (Computer use) no mesmo app para Mac. Com ele, o Gemini clica, digita e preenche formulários em aplicativos do computador e em sites, numa janela separada, para que você acompanhe a prévia ao vivo, pare com um clique ou continue usando a tela e o cursor ao mesmo tempo.</p>
+
+    <p>O controle fica com a pessoa: você escolhe quais apps o Gemini pode usar, e ele pausa em telas de login e de pagamento e pode pedir confirmação antes de ações sensíveis. Por enquanto, a liberação é em inglês, para assinantes dos planos Google AI Plus, Pro e Ultra, maiores de 18 anos com conta pessoal, nos Estados Unidos. Para quem está no Brasil, o ditado com Fn continua sendo o recurso do app para Mac que dá para usar hoje; o uso do computador é algo para acompanhar, com os mesmos cuidados de privacidade da seção acima.</p>
 
     <h2>Erros comuns</h2>
 

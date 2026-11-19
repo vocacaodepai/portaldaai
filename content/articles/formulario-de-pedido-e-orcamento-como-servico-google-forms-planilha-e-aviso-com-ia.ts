@@ -41,7 +41,7 @@ export const article: Article = {
 
     <h2>O que o Google Forms faz de verdade</h2>
 
-    <p>A <a href="https://support.google.com/docs/answer/6281888?hl=pt-BR" target="_blank" rel="noopener noreferrer">página de ajuda do Google Forms</a>, consultada em 27/10/2026, explica que você cria o formulário em forms.google.com, no Planilhas ou no Drive, edita perguntas, publica e envia a quem vai responder. As respostas podem virar gráficos ou ser abertas no Planilhas.</p>
+    <p>A <a href="https://support.google.com/docs/answer/6281888?hl=pt-BR" target="_blank" rel="noopener noreferrer">página de ajuda do Google Forms</a>, consultada em 27/10/2026, explica que você cria o formulário em forms.google.com, no Planilhas ou no Drive, edita perguntas, publica e envia a quem vai responder. As respostas podem virar gráficos ou ser abertas no Planilhas. Quem tem Gemini no Workspace também pode pedir resumos e temas das respostas dentro do Forms, recurso explicado no guia do <a href="/artigos/gemini-no-google-forms-insights-das-respostas-temas-e-quem-tem">Gemini no Google Forms</a>.</p>
 
     <p>Outra <a href="https://support.google.com/docs/answer/2917686?hl=pt-BR" target="_blank" rel="noopener noreferrer">página oficial sobre respostas</a> mostra que, na aba Respostas, você escolhe um destino para as respostas, criando uma planilha nova ou usando uma existente. Dá para ver o resumo ou cada resposta individualmente, e desvincular a planilha depois, mantendo os dados já gravados.</p>
 
