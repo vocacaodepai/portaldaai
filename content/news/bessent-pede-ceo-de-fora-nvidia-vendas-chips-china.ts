@@ -10,10 +10,17 @@ export const item: NewsItem = {
   sourceUrl: "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
   date: "2026-11-15",
   publishedAt: "2026-11-15T17:25:00-03:00",
-  updatedAt: "2026-11-17T17:10:00-03:00",
+  updatedAt: "2026-11-18T22:15:00-03:00",
   topic: "regulacao",
   imageQuery: "Scott Bessent portrait",
   content: `
+
+
+    <h2>Atualização (22:15)</h2>
+    <p>A crise da Nvidia saiu do Tesouro e chegou ao Congresso americano. Segundo a CNBC, Jensen Huang aceitou prestar depoimento em 1º de dezembro a três comissões da Câmara dos Representantes: Relações Exteriores, Inteligência e a comissão especial sobre a China, presididas pelos deputados republicanos Brian Mast, Rick Crawford e John Moolenaar. A data inicial era 18 de novembro. O diretor jurídico da Nvidia, Tim Teter, foi chamado para o dia 2. Os dois darão entrevistas transcritas, em formato que costuma ser fechado ao público, e Mast avisou que as comissões emitiriam intimação se Huang recusasse o convite voluntário.</p>
+    <p>Em nota conjunta citada pela CNBC, os três presidentes disseram que esperam ouvir Huang e Teter "sobre seus papéis em uma possível violação da nossa segurança nacional". O foco é como atores ligados à China tiveram acesso a chips avançados de IA, incluindo o papel de Alice Huang, ex-executiva da Megaspeed, de Singapura, apontada por autoridades como suspeita de ser um ativo da inteligência chinesa. No Senado, o presidente da Comissão Bancária, Tim Scott, convocou Huang para uma audiência pública em 3 de dezembro, também com ameaça de intimação, e chamou o secretário de Comércio, Howard Lutnick, para o dia 10. Ainda segundo a CNBC, os Departamentos de Comércio e de Justiça divulgaram nota conjunta sobre o caso Megaspeed, agora conduzido pelo Departamento de Justiça. Do outro lado, o presidente Donald Trump disse estar aberto à volta de Huang ao cargo, e Huang afirmou que ficaria "honrado" em voltar, embora o conselho tenha dito na teleconferência de resultados que não pretende recontratá-lo.</p>
+    <p>O mercado reagiu mal no dia seguinte ao balanço. De acordo com a cobertura ao vivo da CNBC, as ações da Nvidia chegaram a subir quase 4% antes da abertura desta quarta-feira, 18 de novembro, mas inverteram o movimento e fecharam em queda de 2,9%, mesmo com lucro e receita acima do previsto. A CNBC registrou ainda que, na noite de terça, os investidores ignoraram uma reportagem do Wall Street Journal segundo a qual a SEC, a comissão de valores mobiliários dos EUA, investiga a empresa; a Nvidia não comentou esse relato publicamente até esta atualização. Um analista ouvido pela CNBC chamou a ação de "ininvestível" e citou o atraso do relatório trimestral 10-Q como sinal de alerta.</p>
+    <p>Na leitura do Portal da AI, os números fortes do trimestre não encerraram a crise: o caso agora tem calendário no Congresso, com três depoimentos marcados entre 1º e 3 de dezembro, e investigação criminal ligada à Megaspeed no Departamento de Justiça. Para quem depende de chips Nvidia, direta ou indiretamente pela nuvem, o ponto a observar é se esse cerco político acelera as novas regras de exportação, que <a href="/noticias/eua-exigem-licenca-chips-ia-brasil-data-centers">já atingem até data centers no Brasil</a>.</p>
 
     <h2>Atualização (17:10)</h2>
     <p>Horas antes de divulgar o primeiro balanço sem Jensen Huang, a Nvidia respondeu em parte à pressão sobre as vendas de chips. Em comunicado oficial publicado nesta terça-feira, 17 de novembro, o conselho de administração anunciou a criação de um comitê permanente de Segurança Nacional e Controle de Exportação. O grupo será presidido pela conselheira Suzanne Nora Johnson e terá também Stephen C. Neal e John O. Dabiri.</p>
