@@ -6,15 +6,20 @@ export const item: NewsItem = {
   summary:
     "Mesmo com a queda das ações de tecnologia, a dona do Claude mantém a estreia na bolsa, quer captar até US$ 100 bi e aceita valer menos do que o sonhado.",
   author: "Bruno Danello",
-  sourceName: "The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan, The Wall Street Journal, Investing.com, Yahoo Finance",
+  sourceName: "Anthropic, The Decoder, Financial Times, CNBC, StockAnalysis, Bloomberg, Crypto Briefing, SEC, Stock Titan, The Wall Street Journal, Investing.com, Yahoo Finance",
   sourceUrl:
     "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
   date: "2026-11-08",
   publishedAt: "2026-11-08T17:28:00-03:00",
-  updatedAt: "2026-11-18T19:10:00-03:00",
+  updatedAt: "2026-11-18T21:10:00-03:00",
   topic: "negocios",
   imageQuery: "Anthropic logo",
   content: `
+    <h2>Atualização (21:10)</h2>
+    <p>Agora é oficial, e com uma surpresa no tamanho. Em <a href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering" target="_blank" rel="noopener noreferrer">comunicado publicado no próprio site</a> nesta quarta-feira, 18 de novembro, a Anthropic confirmou o preço de US$ 83,00 por ação classe A, o mesmo número que a CNBC e a Bloomberg tinham antecipado às 19:10. A diferença está na quantidade: a oferta passou de 825 milhões para 980 milhões de ações, cerca de 19% a mais do que o registrado na SEC. Desse total, 956.351.354 ações são vendidas pela própria Anthropic e 23.648.646 por acionistas que já tinham papéis; segundo o comunicado, a empresa não recebe nada do que esses acionistas venderem.</p>
+    <p>Pela conta do Portal da AI a partir dos números oficiais, a oferta pública soma cerca de US$ 81,3 bilhões, dos quais perto de US$ 79,4 bilhões vão para o caixa da empresa, antes de taxas e comissões. O lote suplementar também cresceu: os bancos têm 30 dias para comprar até 147 milhões de ações extras (eram 123,75 milhões na emenda citada às 16:11). Se essa opção for exercida inteira, a oferta pública chega a uns US$ 93,5 bilhões, sem contar a colocação privada de US$ 26 bilhões noticiada pela imprensa, que o comunicado não menciona. O texto confirma a estreia na Nasdaq Global Select Market nesta quinta, 19, com o código ANT, e a liquidação da operação prevista para sexta, 20. Goldman Sachs e Morgan Stanley aparecem como os bancos que distribuem o prospecto final.</p>
+    <p>Na leitura do Portal da AI, o aumento de lote pesa tanto quanto o preço: a empresa não só cobrou acima da faixa como vendeu mais ações, sinal de que a procura, descrita como várias vezes maior que a oferta, deu margem para captar mais sem baixar o valor. O que ainda não está confirmado: o comunicado não traz avaliação de mercado nem o total arrecadado, então os números acima são cálculo nosso; a avaliação de cerca de US$ 1,5 trilhão que circula na imprensa segue sendo estimativa. Também não se sabe ainda a que preço a ação vai abrir na quinta. Para quem está no Brasil, o caminho continua sendo uma corretora com acesso à bolsa americana, e estreia disputada costuma ter muita oscilação nos primeiros pregões. Isto é informação, não recomendação de investimento.</p>
+
     <h2>Atualização (19:10)</h2>
     <p>O preço saiu. Segundo a CNBC, que ouviu uma pessoa a par da operação, e a Bloomberg, em relato reproduzido pelo Yahoo Finance nesta quarta-feira, 18 de novembro, a Anthropic precificou as ações do IPO a US$ 83 cada, acima da faixa registrada de US$ 70 a US$ 78 e também acima dos "mais de US$ 80" que o The Wall Street Journal havia antecipado na atualização das 20:10 de ontem. É cerca de 6,4% acima do topo da faixa. A estreia na Nasdaq, com o código ANT, segue marcada para esta quinta, 19.</p>
     <p>Pela conta da própria CNBC, se as 825 milhões de ações forem vendidas a US$ 83, a oferta pública levanta cerca de US$ 68,5 bilhões. Somada à colocação privada de US$ 26 bilhões, com Google, Microsoft, Nvidia e AMD entre os compradores, a operação passa de US$ 94 bilhões, o que a colocaria como a maior abertura de capital já registrada. A CNBC diz que a avaliação fica acima do US$ 1,4 trilhão que a empresa mirava, sem dar o número exato; pela mesma conta proporcional usada às 12:20, a avaliação totalmente diluída ficaria perto de US$ 1,5 trilhão (estimativa do Portal da AI, não número oficial). Segundo a Bloomberg, os pedidos chegaram perto de sete vezes o número de ações oferecidas.</p>
