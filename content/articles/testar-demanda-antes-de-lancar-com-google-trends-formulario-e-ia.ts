@@ -49,7 +49,7 @@ export const article: Article = {
 
     <h2>Passo 2: o formulário curto de interesse</h2>
 
-    <p>Monte um formulário no Google Forms com no máximo 6 perguntas e envie a quem se parece com seu cliente: vizinhos do bairro, grupos de condomínio, clientes de outro negócio seu. Evite perguntar "você compraria?", porque as pessoas dizem sim por educação. Pergunte sobre comportamento real e peça um compromisso pequeno.</p>
+    <p>Monte um formulário no Google Forms com no máximo 6 perguntas e envie a quem se parece com seu cliente: vizinhos do bairro, grupos de condomínio, clientes de outro negócio seu. Evite perguntar "você compraria?", porque as pessoas dizem sim por educação. Pergunte sobre comportamento real e peça um compromisso pequeno. Se o formulário receber muitas respostas abertas, os <a href="/artigos/gemini-no-google-forms-insights-das-respostas-temas-e-quem-tem">insights do Gemini no Google Forms</a> ajudam a separar os temas que se repetem.</p>
 
     <table>
       <thead>

@@ -52,7 +52,7 @@ export const article: Article = {
     <h3>Criação de imagens e vídeos</h3>
     <p>Há um espaço de criação para imagens com o Nano Banana e vídeos com o Gemini Omni. O guia do <a href="/artigos/nano-banana-no-gemini-editar-fotos-criar-imagens-limites-e-planos">Nano Banana no Gemini</a> explica limites e planos.</p>
     <h3>Voz no computador</h3>
-    <p>Na página oficial, o ditado em qualquer aplicativo aparece como recurso do Mac. No Windows, a página só diz que mais capacidades nativas virão. Para comandar o computador por voz hoje, veja <a href="/artigos/comandos-de-voz-com-ia-no-computador-windows-e-mac">comandos de voz com IA no Windows e no Mac</a>.</p>
+    <p>Na página oficial, o ditado em qualquer aplicativo aparece como recurso do Mac, e o guia do <a href="/artigos/ditado-por-voz-no-app-gemini-para-mac-tecla-fn-edicao-com-tela-e-limites">ditado por voz no app Gemini para Mac</a> mostra como ele funciona com a tecla Fn. No Windows, a página só diz que mais capacidades nativas virão. Para comandar o computador por voz hoje, veja <a href="/artigos/comandos-de-voz-com-ia-no-computador-windows-e-mac">comandos de voz com IA no Windows e no Mac</a>.</p>
 
     <h2>App, navegador ou Copilot: qual usar no Windows</h2>
     <p>Não há resposta única. O app do Gemini ganha quando você usa o assistente várias vezes por dia, porque o atalho global economiza cliques. O navegador basta para uso eventual. E quem já mora no ecossistema da Microsoft pode preferir o Copilot, que mudou bastante: o texto sobre o <a href="/artigos/microsoft-copilot-superapp-o-que-muda-e-como-usar-de-graca">Copilot superapp</a> mostra o que há de gratuito.</p>

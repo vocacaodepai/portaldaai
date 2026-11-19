@@ -85,7 +85,7 @@ export const article: Article = {
 
     <p>Em documentos, a barra de ferramentas permite formatar títulos, negrito e listas, alterar o tamanho e o tom do texto e pedir sugestões de edição. O recurso Select &amp; ask deixa você marcar um trecho e pedir só aquela mudança, o que evita reescrever o texto inteiro. Em apps, há a visualização do código, um console para ver erros e histórico de alterações recentes.</p>
 
-    <p>Para levar o trabalho para fora, o Compartilhar e exportar gera um link e permite exportar documentos para o Google Docs e slides para o Google Slides ou PDF. O código Python pode seguir para o Colab. Segundo a ajuda oficial, documentos com LaTeX podem ser exportados em PDF, mas o LaTeX copiado aparece como código sem renderizar.</p>
+    <p>Para levar o trabalho para fora, o Compartilhar e exportar gera um link e permite exportar documentos para o Google Docs e slides para o Google Slides ou PDF. Já dentro do Slides, o Gemini consegue <a href="/artigos/editar-apresentacao-inteira-com-gemini-no-google-slides-varios-slides-ingles-e-limites">ajustar vários slides de uma vez</a>, útil para retocar o que veio do Canvas. O código Python pode seguir para o Colab. Segundo a ajuda oficial, documentos com LaTeX podem ser exportados em PDF, mas o LaTeX copiado aparece como código sem renderizar.</p>
 
     <p>Uma rotina eficiente: crie o rascunho no Canvas, peça uma versão enxuta, exporte para o Google Docs, faça a revisão final e só então envie ao cliente. Para tarefas que se repetem, como relatórios semanais, vale combinar com as dicas de <a href="/artigos/ia-para-planilhas-automatizar-relatorios-excel-sheets">IA para planilhas</a>.</p>
 
