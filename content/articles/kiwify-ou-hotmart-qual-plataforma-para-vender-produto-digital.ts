@@ -51,7 +51,7 @@ export const article: Article = {
     <h3>E-book, planilha e guia em PDF</h3>
     <p>Produto de ticket baixo sofre com a taxa fixa de R$ 2,49. Nesse caso, a plataforma é secundária: o que importa é o preço de entrada e o que você vende depois. Veja os exemplos de <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">e-books e guias com IA</a> e de <a href="/artigos/como-ganhar-dinheiro-vendendo-planilhas-automatizadas-com-ia">planilhas automatizadas</a>.</p>
     <h3>Curso e mentoria</h3>
-    <p>Aqui a área de membros e a hospedagem de vídeo contam. Confira o limite de vídeo e de alunos na hora de contratar. O roteiro do <a href="/artigos/como-criar-e-vender-curso-online-usando-ia">curso online com IA</a> mostra a produção do conteúdo.</p>
+    <p>Aqui a área de membros e a hospedagem de vídeo contam. Confira o limite de vídeo e de alunos na hora de contratar. O roteiro do <a href="/artigos/como-criar-e-vender-curso-online-usando-ia">curso online com IA</a> mostra a produção do conteúdo, e o guia de <a href="/artigos/mentoria-online-com-ia-oferta-preco-agenda-paga-e-o-que-nao-prometer">mentoria online com IA</a> cobre o caso de quem vende horas de atendimento em vez de aulas gravadas.</p>
     <h3>Comunidade e assinatura</h3>
     <p>Pagamento recorrente exige atenção a cartão recusado e cancelamento. O artigo sobre <a href="/artigos/como-transformar-conhecimento-em-comunidade-paga-com-ia">comunidade paga com IA</a> trata disso, e o <a href="/artigos/pix-automatico-para-pequeno-negocio-cobrar-mensalidades-com-ia">Pix Automático</a> é um caminho a observar para mensalidades.</p>
     <h3>Template e modelo pronto</h3>

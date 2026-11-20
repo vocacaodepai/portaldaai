@@ -87,7 +87,7 @@ export const article: Article = {
 
     <pre><code>Com base na tabela acima, sugira 3 valores mínimos de pedido para frete grátis e explique em uma frase o risco de cada um. Não invente preços de frete: use apenas os números que informei.</code></pre>
 
-    <p>Peça sempre que a IA mostre a conta, e refaça uma delas na calculadora. Assistentes erram aritmética com mais frequência do que parece. Se a sua loja tem muitos produtos, o serviço de <a href="/artigos/cadastro-de-produtos-para-loja-virtual-com-ia-servico-pacote-e-preco">cadastro de produtos com IA</a> pode incluir peso e medidas de cada item, que são os dados que o cálculo de frete precisa.</p>
+    <p>Peça sempre que a IA mostre a conta, e refaça uma delas na calculadora. Assistentes erram aritmética com mais frequência do que parece. Se a sua loja tem muitos produtos, o serviço de <a href="/artigos/cadastro-de-produtos-para-loja-virtual-com-ia-servico-pacote-e-preco">cadastro de produtos com IA</a> pode incluir peso e medidas de cada item, que são os dados que o cálculo de frete precisa. Frete que só aparece no fim do pedido é uma das causas clássicas de desistência, tema do guia de <a href="/artigos/carrinho-abandonado-na-loja-online-mensagens-e-ofertas-sem-perder-margem-com-ia">carrinho abandonado na loja online</a>.</p>
 
     <h2>Troca, devolução e arrependimento: quem paga o frete</h2>
 

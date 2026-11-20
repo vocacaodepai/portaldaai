@@ -70,7 +70,7 @@ export const article: Article = {
     <p>Escolha um problema pequeno e específico ("como montar cardápio de marmita fitness para vender") e resolva por completo. A IA ajuda no roteiro, no esqueleto e na revisão; o conteúdo vem da sua experiência. O guia sobre <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">ebooks criados com IA</a> mostra o processo inteiro, do índice à página de venda.</p>
 
     <h3>9. Prompts e templates</h3>
-    <p>Pacotes de prompts para um ofício (corretor de imóveis, nutricionista, advogado), templates de Notion ou planilhas com IA embutida. Como vender <a href="/artigos/como-ganhar-dinheiro-criando-prompts-e-templates-de-ia">prompts e templates de IA</a> mostra onde publicar e como precificar.</p>
+    <p>Pacotes de prompts para um ofício (corretor de imóveis, nutricionista, advogado), templates de Notion ou planilhas com IA embutida. Como vender <a href="/artigos/como-ganhar-dinheiro-criando-prompts-e-templates-de-ia">prompts e templates de IA</a> mostra onde publicar e como precificar. Para o corretor, também dá para vender o serviço pronto: veja <a href="/artigos/anuncio-de-imovel-para-corretores-como-servico-com-ia-pacote-preco-e-creci">anúncio de imóvel com IA para corretores</a>.</p>
 
     <h3>10. Ensinar IA para quem não entende nada</h3>
     <p>Aula particular, workshop presencial na associação comercial, comunidade paga no WhatsApp. O público é enorme e a concorrência fala difícil. Veja como <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">ensinar IA para iniciantes</a> sem falar difícil.</p>
