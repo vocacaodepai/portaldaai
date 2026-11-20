@@ -50,7 +50,7 @@ export const article: Article = {
       <li><strong>Preencha o perfil</strong> com endereço, horário e uma descrição de até duas frases.</li>
       <li><strong>Monte o catálogo</strong> com os itens que mais vendem primeiro, cada um com foto, preço e descrição.</li>
       <li><strong>Escreva a saudação</strong> e a mensagem de ausência.</li>
-      <li><strong>Crie de 8 a 12 respostas rápidas</strong> para as perguntas mais comuns.</li>
+      <li><strong>Crie de 8 a 12 respostas rápidas</strong> para as perguntas mais comuns; as <a href="/artigos/mensagens-prontas-de-atendimento-por-nicho-produto-digital-criado-com-ia-e-preco">mensagens prontas de atendimento por nicho</a> servem de ponto de partida.</li>
       <li><strong>Defina de 4 a 6 etiquetas</strong>, uma para cada etapa do atendimento.</li>
     </ol>
 

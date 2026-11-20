@@ -30,7 +30,7 @@ export const article: Article = {
 
     <p>A página do <a href="https://whatsappbusiness.com/products/business-app/" target="_blank" rel="noopener noreferrer">WhatsApp Business</a> descreve que o aplicativo permite cumprimentar as pessoas assim que elas iniciam a conversa e responder mensagens mesmo quando você está ausente. É a base do atendimento fora do horário: o cliente recebe uma resposta imediata, mesmo que seja só para dizer quando virá a resposta de verdade.</p>
 
-    <p>Isso não substitui atender. A mensagem de ausência compra tempo e evita a sensação de abandono. Para dúvidas repetitivas, o guia sobre <a href="/artigos/como-automatizar-atendimento-no-whatsapp-com-ia">como automatizar atendimento no WhatsApp com IA</a> vai além, e o texto sobre o <a href="/artigos/whatsapp-business-para-pequeno-negocio-catalogo-etiquetas-e-respostas">WhatsApp Business para pequeno negócio</a> cobre catálogo, etiquetas e respostas rápidas.</p>
+    <p>Isso não substitui atender. A mensagem de ausência compra tempo e evita a sensação de abandono. Para dúvidas repetitivas, o guia sobre <a href="/artigos/como-automatizar-atendimento-no-whatsapp-com-ia">como automatizar atendimento no WhatsApp com IA</a> vai além, e o texto sobre o <a href="/artigos/whatsapp-business-para-pequeno-negocio-catalogo-etiquetas-e-respostas">WhatsApp Business para pequeno negócio</a> cobre catálogo, etiquetas e respostas rápidas. Para ter textos prontos por tipo de negócio, veja as <a href="/artigos/mensagens-prontas-de-atendimento-por-nicho-produto-digital-criado-com-ia-e-preco">mensagens prontas de atendimento por nicho</a>.</p>
 
     <h2>Como configurar no WhatsApp Business</h2>
 

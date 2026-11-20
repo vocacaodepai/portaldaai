@@ -65,7 +65,7 @@ export const article: Article = {
 
     <ol>
       <li>Escolha de três a cinco tarefas específicas para oferecer no início (ex.: inbox, agenda, relatório semanal), nunca "qualquer coisa que precisar".</li>
-      <li>Defina um público claro: donos de clínica, corretores de imóveis, consultores autônomos. Nicho facilita a precificação e a divulgação.</li>
+      <li>Defina um público claro: donos de clínica, corretores de imóveis, consultores autônomos. Nicho facilita a precificação e a divulgação. Para corretores, o serviço de <a href="/artigos/anuncio-de-imovel-para-corretores-como-servico-com-ia-pacote-preco-e-creci">anúncio de imóvel com IA</a> é um pacote pronto para oferecer.</li>
       <li>Monte um preço fixo mensal para esse pacote, não cobrança por hora solta, que é mais difícil de vender no início.</li>
     </ol>
 
