@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-06T06:30:00-03:00",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/anthropic-openai-retencao-dados-ia-soberana.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22%20(cropped).jpg",
+  },
   topic: "negocios",
   content: `
     <p>Uma disputa pública sobre retenção de dados entre OpenAI e Anthropic está empurrando um número crescente de empresas a reconsiderar sua dependência de modelos de IA de fronteira, segundo reportagem publicada pela <a href="https://fortune.com/2026/10/05/openai-and-anthropic-battle-over-zero-data-retention-zdr-data-privacy-companies-look-to-open-models-and-sovereign-ai/" rel="noopener noreferrer nofollow" target="_blank">Fortune</a> nesta segunda-feira (5). No centro do caso está uma mudança de política da Anthropic em junho, que passou a reter por 30 dias, em servidores próprios, o tráfego de clientes dos modelos Fable e Mythos, mesmo para quem tinha contrato de retenção zero de dados.</p>

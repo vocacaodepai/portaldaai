@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "small business owner shop counter",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-vender-mais-no-seu-negocio-local.webp",
+    width: 1280,
+    height: 854,
+    credit: "Tumisu / Pixabay",
+    creditUrl: "https://pixabay.com/photos/woman-entrepreneur-owner-business-5467838/",
+  },
   seed: 10,
   kind: "guia",
   author: "Bruno Danello",
@@ -31,7 +38,7 @@ export const article: Article = {
 
     <p>Porque o gargalo do pequeno é tempo, e IA generativa é boa em devolver tempo. Para o dono que fecha a loja às 19h e responde mensagem até as 23h, é a diferença entre atender ou perder o cliente.</p>
 
-    <p>Segundo a pesquisa Pulso dos Pequenos Negócios, feita pelo Sebrae com mais de 8.200 empreendedores em fevereiro e março de 2026, 82% dos donos de MEI, micro e pequenas empresas apontam o WhatsApp como principal canal de venda, com o Instagram em segundo (57%), como relata a <a href="https://agenciasebrae.com.br/dados/whatsapp-se-consolida-nas-vendas-on-line-enquanto-facebook-e-lojas-proprias-perdem-folego/" rel="noopener noreferrer">Agência Sebrae</a>. Outra pesquisa do Sebrae, divulgada pela <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/44-dos-pequenos-negocios-usam-inteligencia-artificial-diz-sebrae/" rel="noopener noreferrer">CNN Brasil</a> em junho de 2025, mostrava 44% dos pequenos negócios usando IA, com chatbot no WhatsApp entre os usos mais citados.</p>
+    <p>Segundo a pesquisa Pulso dos Pequenos Negócios, feita pelo Sebrae com mais de 8.200 empreendedores em fevereiro e março de 2026, 82% dos donos de MEI, micro e pequenas empresas apontam o WhatsApp como principal canal de venda, com o Instagram em segundo (57%), como relata a <a href="https://agenciasebrae.com.br/dados/whatsapp-se-consolida-nas-vendas-on-line-enquanto-facebook-e-lojas-proprias-perdem-folego/" rel="noopener noreferrer">Agência Sebrae</a>. Outra pesquisa do Sebrae, divulgada pela <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/44-dos-pequenos-negocios-usam-inteligencia-artificial-diz-sebrae/" rel="noopener noreferrer">CNN Brasil</a> em junho de 2025, mostrava 44% dos pequenos negócios usando IA, com chatbot no WhatsApp entre os usos mais citados. Em 2026, outro levantamento do Sebrae chegou a 52% de uso recente, e o texto sobre <a href="/artigos/pequenos-negocios-e-ia-pesquisa-sebrae-meta-o-que-os-52-por-cento-fazem-e-por-onde-comecar">a pesquisa do Sebrae com a Meta</a> mostra o que esses negócios fazem com a ferramenta.</p>
 
     <table>
       <thead>

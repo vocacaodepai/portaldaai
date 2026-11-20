@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-07T08:40:00-03:00",
   imageQuery: "Google logo",
+  coverImage: {
+    url: "/images/covers/google-floresta-finlandia-data-center-investigacao.webp",
+    width: 1280,
+    height: 720,
+    credit: "Design:  unknown (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ADigitized%20by%20Google%20watermark.png",
+  },
   topic: "regulacao",
   content: `
     <p>A Agência de Licenciamento e Supervisão da Finlândia (LVV, na sigla finlandesa) abriu uma apuração para saber se a Google derrubou mais de 300 hectares de floresta no norte do país antes de concluir a avaliação de impacto ambiental exigida por lei para o projeto. Segundo reportagem do <a href="https://www.thestar.com.my/tech/tech-news/2026/10/05/finnish-town-braces-for-change-from-google-data-centres" rel="noopener noreferrer nofollow" target="_blank">The Star</a>, publicada em 5 de outubro, o desmatamento ocorre no município de Muhos e em outras três localidades (Kajaani, Vaala e Hamina), onde a empresa constrói um complexo de data centers avaliado em 13 bilhões de euros, o maior investimento da Google na Europa.</p>

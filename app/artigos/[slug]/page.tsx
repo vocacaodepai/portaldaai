@@ -25,7 +25,7 @@ import { faqJsonLd, parseOffer } from "@/components/article/schema";
 import { articles, getArticleBySlug, getCategory, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml, tocH2 } from "@/lib/html";
-import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, publisherJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -47,6 +47,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title,
     description,
     alternates: alternatesFor(path),
+    // noindex por decisão editorial (lib/types.ts): sai do índice, links seguem valendo.
+    ...(article.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "article",
       url: absoluteUrl(path),
@@ -103,11 +105,13 @@ export default async function ArticlePage({ params }: { params: Params }) {
     "@id": `${url}#article`,
     headline: article.title,
     description: metaDescription(article.metaDescription ?? article.excerpt),
-    image: [absoluteUrl(`${path}/opengraph-image`), ...(cover ? [cover.url] : [])],
+    // Foto real primeiro (URL absoluta: a capa congelada é um caminho local),
+    // o cartão gerado de og:image como alternativa.
+    image: [...(cover ? [absoluteUrl(cover.url)] : []), absoluteUrl(`${path}/opengraph-image`)],
     datePublished: article.date,
     dateModified: article.updated ?? article.date,
     author: authorLd,
-    publisher: { "@id": `${site.url}/#organization` },
+    publisher: publisherJsonLd(),
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     isPartOf: { "@id": `${site.url}/#website` },
     articleSection: label,
@@ -125,6 +129,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const review = article.review;
   const offer = review ? parseOffer(review.price) : null;
+  const coverUrl = cover ? absoluteUrl(cover.url) : undefined;
   const isProduct = article.category === "ai-indica";
   const reviewLd =
     isReview && review
@@ -134,7 +139,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
           name: article.title,
           url,
           author: authorLd,
-          publisher: { "@id": `${site.url}/#organization` },
+          publisher: publisherJsonLd(),
           datePublished: article.date,
           dateModified: article.updated ?? article.date,
           inLanguage: "pt-BR",
@@ -143,6 +148,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
                 "@type": "Product",
                 name: review.tool,
                 url: review.url,
+                ...(coverUrl ? { image: coverUrl } : {}),
                 ...(offer ? { offers: offer } : {}),
               }
             : {

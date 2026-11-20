@@ -33,7 +33,7 @@ export const article: Article = {
 
     <p>O que a IA não faz é adivinhar o futuro. Se um concorrente abrir na mesma rua, se a economia mudar ou se você trocar o preço, o histórico não sabe disso. Por isso a previsão é uma referência para decidir, não uma promessa. Quem já usa IA para <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">gerenciar estoque no pequeno comércio</a> conhece essa lógica: prever quanto vai vender é o primeiro passo para saber quanto comprar, sem sobra nem falta.</p>
 
-    <p>Também vale separar dois usos. Previsão de curto prazo (próximas 4 a 8 semanas) costuma ser bem confiável e serve para compras e escala de equipe. Previsão de 12 meses serve para planejar, mas precisa ser revista todo mês.</p>
+    <p>Também vale separar dois usos. Previsão de curto prazo (próximas 4 a 8 semanas) costuma ser bem confiável e serve para compras e escala de equipe. Previsão de 12 meses serve para planejar, mas precisa ser revista todo mês. Se o negócio ainda não abriu e não há histórico, comece pelo <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">Canvas do plano de negócios com IA</a> e só depois projete os números.</p>
 
     <h2>Quais dados você precisa antes de pedir qualquer previsão</h2>
 

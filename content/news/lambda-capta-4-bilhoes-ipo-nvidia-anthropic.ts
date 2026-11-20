@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T18:30:00-03:00",
   imageQuery: "data center servers GPU racks",
+  coverImage: {
+    url: "/images/covers/lambda-capta-4-bilhoes-ipo-nvidia-anthropic.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   topic: "negocios",
   content: `
     <p>A Lambda, startup americana de computação em nuvem especializada em GPUs para treinar e rodar modelos de inteligência artificial, está captando até US$ 4 bilhões numa rodada liderada pelas gestoras Coatue Management e Blackstone, com a empresa avaliada em US$ 14,5 bilhões antes do aporte. Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, publicada nesta terça-feira (6), essa deve ser a última rodada privada da companhia antes de uma oferta pública inicial (IPO) planejada para 2027.</p>

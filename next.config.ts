@@ -76,9 +76,27 @@ const nextConfig: NextConfig = {
         assetPrefix: `/${repoName}/`,
       }
     : {
+        // Endereços antigos que o Google ainda rastreia (e links soltos): as
+        // categorias moram em /categoria/<slug>.
+        async redirects() {
+          return ["iniciantes", "monetizacao", "negocios", "ferramentas", "carreira", "futuro", "ai-indica"].map(
+            (slug) => ({ source: `/${slug}`, destination: `/categoria/${slug}`, permanent: true })
+          );
+        },
         async headers() {
           return [
             { source: "/:path*", headers: securityHeaders },
+            // Cartões de compartilhamento (og:image) são imagens geradas, não páginas:
+            // noindex tira essas URLs do relatório "Rastreada, mas não indexada".
+            // Redes sociais continuam lendo a og:image normalmente.
+            {
+              source: "/:path*/opengraph-image",
+              headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+            },
+            {
+              source: "/opengraph-image",
+              headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+            },
             {
               source: "/ads.txt",
               headers: [{ key: "Content-Type", value: "text/plain; charset=utf-8" }],

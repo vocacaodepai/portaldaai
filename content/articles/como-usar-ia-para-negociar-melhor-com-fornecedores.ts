@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-28",
   readTime: 9,
   imageQuery: "supplier negotiation meeting small business",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-negociar-melhor-com-fornecedores.webp",
+    width: 1280,
+    height: 714,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/business-meeting-handshake-managers-10448876/",
+  },
   seed: 97,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-01",
   readTime: 8,
   imageQuery: "stock market chart laptop finance",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-investir-na-bolsa-sem-complicar.webp",
+    width: 1280,
+    height: 901,
+    credit: "PriismaDesign / Pixabay",
+    creditUrl: "https://pixabay.com/photos/man-drinking-whiskey-brandy-liquor-8575459/",
+  },
   seed: 115,
   kind: "guia",
   author: "Bruno Danello",

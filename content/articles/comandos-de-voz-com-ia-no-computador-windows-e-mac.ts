@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 8,
   imageQuery: "person speaking laptop home office",
+  coverImage: {
+    url: "/images/covers/comandos-de-voz-com-ia-no-computador-windows-e-mac.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+  },
   seed: 164,
   kind: "guia",
   author: "Bruno Danello",
@@ -24,7 +31,7 @@ export const article: Article = {
   content: `
     <p>Comandos de voz com IA no computador deixaram de ser só para celular: o Windows 11 ganhou o "Ei, Copilot" e o Mac já tem o "E aí Siri" havia mais tempo, ambos permitindo abrir o assistente de IA e pedir tarefas sem tocar em teclado ou mouse. A diferença para os comandos de voz antigos é que agora a IA entende pedido em linguagem natural, não só um comando fixo memorizado.</p>
 
-    <p>Este guia mostra como ativar o comando de voz no Windows e no Mac, o que já dá para pedir por voz em cada sistema e os cuidados de privacidade que valem a pena antes de deixar o microfone sempre escutando. Quem já usa assistente de voz no celular encontra contexto complementar no guia <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">assistente de voz com IA no dia a dia</a>.</p>
+    <p>Este guia mostra como ativar o comando de voz no Windows e no Mac, o que já dá para pedir por voz em cada sistema e os cuidados de privacidade que valem a pena antes de deixar o microfone sempre escutando. Quem já usa assistente de voz no celular encontra contexto complementar no guia <a href="/artigos/assistente-de-voz-com-ia-como-usar-no-dia-a-dia">assistente de voz com IA no dia a dia</a>. Para transformar fala em texto em qualquer app do Mac, veja o <a href="/artigos/ditado-por-voz-no-app-gemini-para-mac-tecla-fn-edicao-com-tela-e-limites">ditado por voz do app Gemini</a>.</p>
 
     <h2>Como ativar o "Ei, Copilot" no Windows 11</h2>
 

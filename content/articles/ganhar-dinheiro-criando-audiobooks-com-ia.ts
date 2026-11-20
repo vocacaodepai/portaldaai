@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "headphones audiobook recording studio",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-criando-audiobooks-com-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mic-headphones-microphone-1867121/",
+  },
   seed: 141,
   kind: "guia",
   author: "Bruno Danello",

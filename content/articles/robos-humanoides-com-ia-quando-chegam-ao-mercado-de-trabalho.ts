@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "humanoid robot factory warehouse",
+  coverImage: {
+    url: "/images/covers/robos-humanoides-com-ia-quando-chegam-ao-mercado-de-trabalho.webp",
+    width: 1280,
+    height: 720,
+    credit: "ColiN00B / Pixabay",
+    creditUrl: "https://pixabay.com/photos/lightbulb-idea-creativity-base-3104355/",
+  },
   seed: 125,
   kind: "guia",
   author: "Bruno Danello",

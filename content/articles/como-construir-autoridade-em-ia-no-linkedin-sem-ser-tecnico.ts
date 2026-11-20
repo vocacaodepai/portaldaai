@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "linkedin profile professional networking",
+  coverImage: {
+    url: "/images/covers/como-construir-autoridade-em-ia-no-linkedin-sem-ser-tecnico.webp",
+    width: 1280,
+    height: 853,
+    credit: "AS_Photography / Pixabay",
+    creditUrl: "https://pixabay.com/photos/social-media-facebook-twitter-1795578/",
+  },
   seed: 75,
   kind: "guia",
   author: "Bruno Danello",
@@ -92,7 +99,7 @@ export const article: Article = {
     <h2>Exemplo brasileiro: a analista de RH que virou referência</h2>
     <p>Um cenário realista, montado com números de mercado. Carla, analista de RH em uma indústria de médio porte em Joinville, começa a postar em março. Ferramenta: ChatGPT no plano gratuito nos dois primeiros meses e depois o plano pago, cujo preço em reais está na página oficial da OpenAI (o <a href="/artigos/chatgpt-plus-vale-a-pena-review-2026">review do ChatGPT Plus</a> ajuda a decidir se compensa). Investimento de tempo: uma hora por semana, sempre na sexta de manhã.</p>
     <p>Posts do primeiro mês: como reduziu de seis para duas horas a triagem de currículos, o prompt que usa para gerar perguntas de entrevista por competência, e o erro de deixar a IA "resumir" um currículo e perder uma certificação importante. Em seis meses, com cerca de 25 posts, o perfil passa de 400 para 2.000 conexões, chegam três convites para falar em eventos internos de outras empresas e uma proposta de consultoria pontual de R$ 1.500 para montar o fluxo de triagem em uma empresa menor.</p>
-    <p>Não é promessa, é uma faixa plausível para quem posta com regularidade sobre um problema que muita gente tem. O que abre a porta não é o número de seguidores, é a repetição: o mesmo tema, com prova, semana após semana. O artigo sobre <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">vender consultoria de IA para pequenas empresas</a> mostra como transformar esse convite em serviço, e o de <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">ensinar IA para iniciantes</a> cobre o caminho das aulas e workshops.</p>
+    <p>Não é promessa, é uma faixa plausível para quem posta com regularidade sobre um problema que muita gente tem. O que abre a porta não é o número de seguidores, é a repetição: o mesmo tema, com prova, semana após semana. O artigo sobre <a href="/artigos/como-vender-consultoria-de-ia-para-pequenas-empresas">vender consultoria de IA para pequenas empresas</a> mostra como transformar esse convite em serviço, e o de <a href="/artigos/como-ganhar-dinheiro-ensinando-ia-para-iniciantes">ensinar IA para iniciantes</a> cobre o caminho das aulas e workshops. Outro serviço que nasce dessa autoridade é revisar o perfil de quem pede ajuda, tema do guia de <a href="/artigos/perfil-do-linkedin-como-servico-revisao-de-sobre-e-em-destaque-pacote-preco-e-limites">perfil do LinkedIn como serviço</a>.</p>
 
     <h2>Prompts para escrever posts com a sua experiência</h2>
     <p>Usar IA para escrever sobre IA é legítimo, desde que a experiência seja sua. A IA organiza; você fornece o caso. Os prompts abaixo assumem que você já anotou o que aconteceu.</p>
@@ -119,7 +126,7 @@ Post: [cole o rascunho]</code></pre>
     </div>
 
     <h2>Como transformar presença em oportunidade</h2>
-    <p>O perfil que posta com regularidade vira portfólio vivo. Recrutador que lê seis meses de casos práticos não precisa de teste técnico para saber o que você faz. Por isso vale alinhar o LinkedIn com o currículo: o guia de <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">habilidades de IA no currículo</a> mostra como descrever, e o de <a href="/artigos/como-montar-portfolio-de-habilidades-de-ia-para-recrutadores">portfólio de habilidades de IA para recrutadores</a> explica como organizar as provas.</p>
+    <p>O perfil que posta com regularidade vira portfólio vivo. Recrutador que lê seis meses de casos práticos não precisa de teste técnico para saber o que você faz. Por isso vale alinhar o LinkedIn com o currículo: o guia de <a href="/artigos/como-colocar-habilidades-de-ia-no-curriculo">habilidades de IA no currículo</a> mostra como descrever, e o de <a href="/artigos/como-montar-portfolio-de-habilidades-de-ia-para-recrutadores">portfólio de habilidades de IA para recrutadores</a> explica como organizar as provas. Para reunir tudo num endereço seu, que também aparece no Google, a <a href="/artigos/pagina-pessoal-profissional-de-uma-pagina-o-que-colocar-e-como-aparecer-no-google">página pessoal profissional de uma página</a> complementa o perfil.</p>
     <p>As oportunidades costumam chegar em três formatos: convite para falar (evento interno, podcast, aula), pedido de ajuda pontual (que vira consultoria) e proposta de vaga ou promoção. Nos três casos, o histórico público é o argumento. Quem chega à conversa de salário com 30 posts mostrando ganho de produtividade negocia de outro lugar, como detalha o guia sobre <a href="/artigos/como-negociar-salario-melhor-sabendo-usar-ia">negociar salário melhor sabendo usar IA</a>.</p>
     <ul class="checklist">
       <li>Escolhi um tema (IA aplicada à minha função) e um público (quem faz o que eu faço)</li>

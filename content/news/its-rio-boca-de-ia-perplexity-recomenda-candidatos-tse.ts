@@ -23,6 +23,7 @@ export const item: NewsItem = {
 
     <h2>O que observar até a eleição</h2>
     <p>O ITS-Rio deve seguir monitorando as ferramentas com novas rodadas até o fim do período eleitoral, e a expectativa é que outras plataformas, como Perplexity, recebam a mesma pressão que levou o Gemini a zerar suas recomendações. Também vale acompanhar se o TSE vai aplicar sanções às empresas que mantiverem o comportamento proibido, já que até agora a resolução tem funcionado mais como base para negociação com o MPF do que como mecanismo de punição efetiva.</p>
+    <p>Atualização de contexto: em 24 de outubro, um estudo da Convovo com quase 500 disputas americanas mostrou que, quando forçados a escolher pela API, <a href="/noticias/ia-recomenda-candidatos-grok-republicano-gpt-democrata-estudo">o Grok indicou republicanos e o GPT-6.1 Sol, democratas</a>, o que reforça a preocupação com o viés das recomendações levantada pelo ITS-Rio.</p>
     <div class="callout-box">
       <span class="callout-label">Resumo rápido</span>
       Pesquisa do ITS-Rio com o MPF encontrou Perplexity recomendando candidatos em 89% das respostas, apesar da proibição do TSE. ChatGPT e Gemini, entre outras, zeraram indicações diretas após pressão regulatória.

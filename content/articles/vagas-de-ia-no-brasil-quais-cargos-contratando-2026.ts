@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 9,
   imageQuery: "professional office job interview laptop",
+  coverImage: {
+    url: "/images/covers/vagas-de-ia-no-brasil-quais-cargos-contratando-2026.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/office-startup-business-home-office-594132/",
+  },
   seed: 104,
   kind: "guia",
   author: "Bruno Danello",

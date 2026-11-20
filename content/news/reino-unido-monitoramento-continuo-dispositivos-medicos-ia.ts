@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T14:10:00-03:00",
   topic: "regulacao",
   imageQuery: "hospital monitor screen data medical technology",
+  coverImage: {
+    url: "/images/covers/reino-unido-monitoramento-continuo-dispositivos-medicos-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "fancycrave1 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/code-programming-hacking-html-web-820275/",
+  },
   content: `
     <p>A agência reguladora de medicamentos e produtos de saúde do Reino Unido, a MHRA (Medicines and Healthcare products Regulatory Agency), anunciou nesta segunda-feira (5) que vai passar a monitorar continuamente dispositivos médicos baseados em inteligência artificial depois que entram no mercado, em vez de se apoiar só numa checagem de segurança feita antes da aprovação. Segundo reportagem da <a href="https://www.yahoo.com/news/articles/uk-says-monitor-ai-based-231450815.html" target="_blank" rel="noopener noreferrer nofollow">Reuters</a>, o governo britânico aceitou as 44 recomendações de um relatório independente sobre o processo de aprovação desse tipo de ferramenta, publicado em setembro por uma comissão nacional liderada por médicos do NHS, o sistema público de saúde do país.</p>
 

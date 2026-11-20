@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "job interview preparation resume confidence",
+  coverImage: {
+    url: "/images/covers/como-se-preparar-para-entrevistas-de-emprego-usando-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "5138153 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/application-curriculum-vitae-2580867/",
+  },
   seed: 80,
   kind: "guia",
   author: "Bruno Danello",
@@ -33,7 +40,7 @@ export const article: Article = {
     <p>O Grow with Google, programa de capacitação da própria Google, recomenda usar o Gemini Live para simular uma entrevista em tempo real e receber feedback estruturado sobre as respostas (<a href="https://grow.google/certificates/interview-warmup/" rel="noopener noreferrer">guia de preparação do Grow with Google</a>). A palavra que importa é "simular": o ensaio serve para você falar melhor com suas próprias palavras.</p>
 
     <h2>Passo 1: pesquisar a empresa e a vaga em 20 minutos</h2>
-    <p>Antes de treinar qualquer resposta, cole a descrição da vaga no assistente e peça uma leitura crítica. O objetivo é descobrir o que a empresa realmente quer (às vezes escondido atrás de "perfil dinâmico" e "visão de dono") e quais perguntas essa descrição sugere. Junte com informações públicas: site institucional, página de carreiras, notícias recentes, perfil da liderança no LinkedIn.</p>
+    <p>Antes de treinar qualquer resposta, cole a descrição da vaga no assistente e peça uma leitura crítica. O objetivo é descobrir o que a empresa realmente quer (às vezes escondido atrás de "perfil dinâmico" e "visão de dono") e quais perguntas essa descrição sugere. Junte com informações públicas: site institucional, página de carreiras, notícias recentes, perfil da liderança no LinkedIn. Se o processo incluir um case para fazer em casa, leia antes o guia de <a href="/artigos/teste-pratico-em-processo-seletivo-com-ia-case-para-casa-regras-e-entrega">teste prático em processo seletivo com IA</a>, que mostra como perguntar as regras sobre uso de IA.</p>
     <pre><code>Aqui está a descrição de uma vaga de [cargo] na empresa [nome], do setor [setor]:
 [cole a descrição]
 
@@ -94,7 +101,7 @@ Minha história: [conte com suas palavras]</code></pre>
     <h2>Perguntas para o entrevistador, pretensão salarial e vaga de IA</h2>
     <p>Entrevista é conversa de mão dupla. Ter duas ou três perguntas boas na manga mostra interesse e ajuda você a avaliar se a vaga faz sentido. Peça sugestões ao assistente e escolha as que você realmente quer saber: como o time mede sucesso nos primeiros seis meses, por que a vaga abriu, qual o maior desafio de quem entra.</p>
     <p>Pretensão salarial merece preparo à parte. Use a IA para organizar argumentos e faixas, nunca para inventar números: consulte pesquisas salariais e anúncios de vagas parecidas antes. O artigo sobre <a href="/artigos/como-negociar-salario-melhor-sabendo-usar-ia">negociar salário sabendo usar IA</a> detalha como transformar habilidade com ferramentas em argumento quando a proposta chegar.</p>
-    <p>Quando a vaga pede "familiaridade com IA", prepare-se para perguntas práticas: qual ferramenta você usa, para quê, com que resultado. Se a dúvida é como se posicionar, o texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">especialista em nicho de IA ou generalista</a> ajuda a escolher o discurso, e o guia para <a href="/artigos/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades">identificar e fechar lacunas de habilidades</a> mostra o que estudar antes da entrevista se algum requisito ainda falta.</p>
+    <p>Quando a vaga pede "familiaridade com IA", prepare-se para perguntas práticas: qual ferramenta você usa, para quê, com que resultado. Se a dúvida é como se posicionar, o texto sobre <a href="/artigos/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais">especialista em nicho de IA ou generalista</a> ajuda a escolher o discurso, e o guia para <a href="/artigos/como-usar-ia-para-identificar-fechar-lacunas-de-habilidades">identificar e fechar lacunas de habilidades</a> mostra o que estudar antes da entrevista se algum requisito ainda falta. Para a entrevista rápida de loja ou de centro de distribuição, comum no fim do ano, o guia de <a href="/artigos/vaga-temporaria-no-natal-2026-curriculo-entrevista-e-efetivacao-com-ia">vaga temporária de Natal</a> traz as perguntas mais frequentes e um prompt de simulação.</p>
 
     <h2>Um plano de 5 dias: exemplo com números</h2>
     <p>Imagine Camila, analista de marketing em Curitiba, convidada para entrevista de coordenadora numa empresa de e-commerce, salário anunciado de R$ 7.500. Ela tem cinco dias, trabalha em horário comercial e não quer gastar nada: usa o app Gemini gratuito e o Claude Free, 40 minutos por noite.</p>
@@ -119,7 +126,7 @@ Minha história: [conte com suas palavras]</code></pre>
     <p>Há também um erro emocional: sentir que usar IA para se preparar é trapaça. Não é; é o mesmo que estudar com um livro, só que disponível a qualquer hora. Quem sente esse peso vai se reconhecer no texto sobre <a href="/artigos/sindrome-do-impostor-usar-ia-nao-te-torna-menos-capaz">síndrome do impostor ao usar IA</a>.</p>
     <div class="callout-box callout-tip">
       <span class="callout-label">Dica</span>
-      <p>Grave a simulação (o celular grava a tela com áudio) e ouça no dia seguinte: ritmo, muletas verbais e respostas longas demais aparecem na hora.</p>
+      <p>Grave a simulação (o celular grava a tela com áudio) e ouça no dia seguinte: ritmo, muletas verbais e respostas longas demais aparecem na hora. Se a entrevista for em inglês, o guia de <a href="/artigos/ingles-para-o-trabalho-com-ia-treino-de-reuniao-entrevista-e-email">inglês para o trabalho com IA</a> mostra como fazer a mesma simulação no outro idioma.</p>
     </div>
 
     <h2>Quando a IA não resolve</h2>

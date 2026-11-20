@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T18:45:00-03:00",
   imageQuery: "person shopping online laptop checkout",
+  coverImage: {
+    url: "/images/covers/agentes-ia-bloqueados-sites-comercio.webp",
+    width: 1280,
+    height: 961,
+    credit: "Preis_King / Pixabay",
+    creditUrl: "https://pixabay.com/photos/online-shopping-amazon-shop-4532460/",
+  },
   topic: "negocios",
   content: `
     <p>Agentes pessoais de inteligência artificial que prometem comprar produtos, reservar voos e fazer agendamentos em nome do usuário, como o Muse da Meta, o Dots da OpenAI e o Instinct, vêm enfrentando uma barreira recorrente: sites inteiros que bloqueiam o acesso desses agentes antes mesmo de a tarefa ser concluída. Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, publicada nesta terça-feira (6), usuários relataram bloqueios em Amazon, Walmart, Delta, United, Yelp, eBay, Zillow, Pizza Hut, Adidas e até no próprio Google, com motivos que variam de decisão comercial deliberada a efeito colateral não intencional de sistemas de proteção contra bots.</p>

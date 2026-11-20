@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "freelancer working remote laptop",
+  coverImage: {
+    url: "/images/covers/freelancer-na-era-da-ia-como-se-tornar-insubstituivel.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/man-laptop-businessman-entrepreneur-593372/",
+  },
   seed: 6,
   kind: "guia",
   author: "Bruno Danello",

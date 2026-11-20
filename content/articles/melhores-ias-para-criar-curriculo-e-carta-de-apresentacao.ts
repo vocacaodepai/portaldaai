@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "resume document laptop desk writing",
+  coverImage: {
+    url: "/images/covers/melhores-ias-para-criar-curriculo-e-carta-de-apresentacao.webp",
+    width: 1280,
+    height: 961,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/notebook-notes-pen-writing-diary-1840276/",
+  },
   seed: 118,
   kind: "guia",
   author: "Bruno Danello",

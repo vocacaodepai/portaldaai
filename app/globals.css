@@ -556,3 +556,10 @@ body {
 .ad-in-article {
   margin: 2rem 0;
 }
+
+/* Aviso de cookies: vem no HTML do servidor; quem já escolheu (marcado no
+   <html> pelo CONSENT_INIT do layout) não vê o aviso, salvo se reabrir pelo
+   rodapé (data-forced). */
+html[data-pdai-consent] [data-cookie-banner]:not([data-forced]) {
+  display: none;
+}

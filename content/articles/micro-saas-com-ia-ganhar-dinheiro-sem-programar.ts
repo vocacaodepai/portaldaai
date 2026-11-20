@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-02",
   readTime: 8,
   imageQuery: "laptop app screen dashboard startup",
+  coverImage: {
+    url: "/images/covers/micro-saas-com-ia-ganhar-dinheiro-sem-programar.webp",
+    width: 1280,
+    height: 826,
+    credit: "27707 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/laptop-wordpress-wordpress-design-593673/",
+  },
   seed: 126,
   kind: "guia",
   author: "Bruno Danello",

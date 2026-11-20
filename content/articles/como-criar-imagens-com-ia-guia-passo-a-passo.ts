@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 8,
   imageQuery: "digital art tablet colorful illustration",
+  coverImage: {
+    url: "/images/covers/como-criar-imagens-com-ia-guia-passo-a-passo.webp",
+    width: 1280,
+    height: 986,
+    credit: "john-i / Pixabay",
+    creditUrl: "https://pixabay.com/photos/art-creativity-computers-technology-747921/",
+  },
   seed: 100,
   kind: "guia",
   author: "Bruno Danello",
@@ -28,7 +35,7 @@ export const article: Article = {
 
     <h2>O que é geração de imagens com IA, na prática</h2>
 
-    <p>O modelo foi treinado olhando bilhões de pares de imagem e descrição, e aprendeu a associar palavras a formas, cores e composições. Quando você escreve um prompt, ele não busca uma foto existente: monta uma imagem nova, pixel por pixel, a partir do padrão que aprendeu. Por isso duas pessoas com o mesmo prompt recebem resultados parecidos, mas nunca idênticos.</p>
+    <p>O modelo foi treinado olhando bilhões de pares de imagem e descrição, e aprendeu a associar palavras a formas, cores e composições. Quando você escreve um prompt, ele não busca uma foto existente: monta uma imagem nova, pixel por pixel, a partir do padrão que aprendeu. Por isso duas pessoas com o mesmo prompt recebem resultados parecidos, mas nunca idênticos. Se quiser entender o que acontece por dentro, o guia sobre <a href="/artigos/como-a-ia-gera-imagens-do-ruido-ao-pixel-e-por-que-erra-maos-e-textos">como a IA gera imagens a partir do ruído</a> explica a difusão sem jargão.</p>
 
     <p>Existem hoje dois jeitos de usar isso: gerar do zero (texto vira imagem) e editar uma imagem existente (você envia uma foto e pede para mudar o fundo, a luz ou um elemento específico). O <a href="https://gemini.google/br/overview/image-generation/?hl=pt-BR" rel="noopener noreferrer">Nano Banana Pro do Google</a> faz os dois bem, incluindo trocar o estilo de uma foto mantendo o rosto reconhecível. Se a dúvida for sobre o conceito de IA em si antes de partir para a prática, o guia <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">o que é inteligência artificial</a> explica do começo.</p>
 
@@ -47,7 +54,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Se a dúvida é qual assistente escolher no geral, não só para imagem, o comparativo <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> ajuda a decidir. Para quem já paga por um desses planos e quer saber se vale continuar pagando, o guia <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">IA grátis ou paga</a> lista o que cada nível libera.</p>
+    <p>Se a dúvida é qual assistente escolher no geral, não só para imagem, o comparativo <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini</a> ajuda a decidir. Para quem já paga por um desses planos e quer saber se vale continuar pagando, o guia <a href="/artigos/ia-gratis-ou-paga-o-que-vale-a-pena">IA grátis ou paga</a> lista o que cada nível libera. Se a ideia é ter movimento, e não só imagem parada, o guia de <a href="/artigos/gif-animado-no-chatgpt-images-2-6-criar-editar-quadros-e-usar-no-whatsapp">GIF animado no ChatGPT</a> mostra como criar a animação e editar os quadros.</p>
 
     <h2>Passo a passo: da ideia até a primeira imagem pronta</h2>
 

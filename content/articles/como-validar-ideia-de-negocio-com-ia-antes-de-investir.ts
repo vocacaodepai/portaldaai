@@ -25,7 +25,7 @@ export const article: Article = {
   content: `
     <p>Validar ideia de negócio com IA significa usar um assistente como ChatGPT, Claude ou Gemini para descrever o problema, medir a demanda, mapear concorrentes e simular objeções em dias, e não em meses, antes de gastar qualquer dinheiro em estoque, site ou CNPJ. Este guia mostra o método em 5 passos, com prompts prontos e um exemplo brasileiro com números.</p>
 
-    <p>A IA acelera a pesquisa e a preparação. Ela não substitui a etapa em que uma pessoa real decide pagar ou dizer não. Por isso o método termina com um teste de oferta de sete dias e uma meta em número. Se você seguir os cinco passos, chega ao fim da semana sabendo se continua, se ajusta ou se guarda a ideia na gaveta.</p>
+    <p>A IA acelera a pesquisa e a preparação. Ela não substitui a etapa em que uma pessoa real decide pagar ou dizer não. Por isso o método termina com um teste de oferta de sete dias e uma meta em número. Se você seguir os cinco passos, chega ao fim da semana sabendo se continua, se ajusta ou se guarda a ideia na gaveta. Quem prefere enxergar o negócio inteiro numa página antes dos testes pode rascunhar o <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">plano de negócios no Canvas com IA</a> e usar a lista de premissas frágeis como ponto de partida.</p>
 
     <h2>Por que validar uma ideia de negócio antes de investir?</h2>
 
@@ -53,7 +53,7 @@ export const article: Article = {
 
     <h2>Passo 3: mapear a concorrência e o preço praticado</h2>
 
-    <p>Concorrência é tudo que o cliente usa hoje para resolver o problema, inclusive "levar marmita de casa". Peça ao assistente uma tabela e confira cada linha no Google Maps, no Instagram e no iFood, porque a IA erra nome e preço de negócio local. O guia sobre <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como manter essa tabela viva depois. Um exemplo ilustrativo do formato, para a hipótese das marmitas, com faixas que você precisa conferir na sua cidade:</p>
+    <p>Concorrência é tudo que o cliente usa hoje para resolver o problema, inclusive "levar marmita de casa". Peça ao assistente uma tabela e confira cada linha no Google Maps, no Instagram e no iFood, porque a IA erra nome e preço de negócio local. O guia sobre <a href="/artigos/como-usar-ia-para-monitorar-concorrencia-tomar-decisoes-melhores">monitorar a concorrência com IA</a> mostra como manter essa tabela viva depois, e a <a href="/artigos/ferramenta-mapa-do-gemini-como-usar-no-celular-e-limites">ferramenta Mapa do Gemini</a> ajuda a levantar o que existe num raio de poucas quadras do ponto que você avalia. Um exemplo ilustrativo do formato, para a hipótese das marmitas, com faixas que você precisa conferir na sua cidade:</p>
 
     <table>
       <thead>

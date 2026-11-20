@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "travel planning map laptop suitcase",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-planejar-viagens-sem-perder-horas-pesquisando.webp",
+    width: 1280,
+    height: 960,
+    credit: "DariuszSankowski / Pixabay",
+    creditUrl: "https://pixabay.com/photos/notepad-glasses-travel-planning-1130743/",
+  },
   seed: 86,
   kind: "guia",
   author: "Bruno Danello",

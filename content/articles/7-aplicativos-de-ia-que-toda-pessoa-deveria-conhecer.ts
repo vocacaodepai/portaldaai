@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "smartphone apps icons screen",
+  coverImage: {
+    url: "/images/covers/7-aplicativos-de-ia-que-toda-pessoa-deveria-conhecer.webp",
+    width: 1280,
+    height: 855,
+    credit: "Yuri Samoilov (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AWhatsapp%20app%20icon%20on%20smartphone%20screen%20(perspective%20render)%20(49897226177).jpg",
+  },
   seed: 35,
   kind: "guia",
   author: "Bruno Danello",

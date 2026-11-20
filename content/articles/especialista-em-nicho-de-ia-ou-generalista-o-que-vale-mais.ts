@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "career path decision fork road",
+  coverImage: {
+    url: "/images/covers/especialista-em-nicho-de-ia-ou-generalista-o-que-vale-mais.webp",
+    width: 1280,
+    height: 853,
+    credit: "PixxlTeufel / Pixabay",
+    creditUrl: "https://pixabay.com/photos/new-year-decision-path-signpost-5291766/",
+  },
   seed: 70,
   kind: "guia",
   author: "Bruno Danello",

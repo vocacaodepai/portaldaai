@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "online shop packages returns warehouse",
+  coverImage: {
+    url: "/images/covers/ia-para-reduzir-devolucoes-trocas-ecommerce.webp",
+    width: 1280,
+    height: 961,
+    credit: "Preis_King / Pixabay",
+    creditUrl: "https://pixabay.com/photos/online-shopping-amazon-shop-4532460/",
+  },
   seed: 137,
   kind: "guia",
   author: "Bruno Danello",

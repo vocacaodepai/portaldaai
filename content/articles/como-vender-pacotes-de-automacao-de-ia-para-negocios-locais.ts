@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "small local business owner shop counter",
+  coverImage: {
+    url: "/images/covers/como-vender-pacotes-de-automacao-de-ia-para-negocios-locais.webp",
+    width: 1280,
+    height: 853,
+    credit: "binmassam / Pixabay",
+    creditUrl: "https://pixabay.com/photos/street-kiosk-store-woman-adult-4807328/",
+  },
   seed: 69,
   kind: "guia",
   author: "Bruno Danello",

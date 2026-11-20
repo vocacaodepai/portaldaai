@@ -122,7 +122,7 @@ E-mail do cliente:
 
     <p>Há três situações em que configurar o assistente resolve pouco. A primeira é quando você precisa de resposta jurídica, médica ou fiscal para tomar uma decisão real: a IA ajuda a entender o assunto e a preparar perguntas, mas a decisão passa por um profissional. A segunda é quando a tarefa envolve dado de terceiro que você não tem autorização para compartilhar. A terceira é quando você quer que a IA "faça sozinha" algo que exige acesso ao seu computador ou aos seus sistemas: isso é trabalho de agente, e o artigo <a href="/artigos/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca">agente de IA, chatbot ou automação</a> explica a diferença antes de você gastar tempo no lugar errado.</p>
 
-    <p>Fora disso, os 15 minutos deste guia são o melhor investimento de tempo que um iniciante pode fazer. Configure hoje, teste uma tarefa real, e volte à categoria <a href="/iniciantes">Para Iniciantes</a> na semana que vem para escolher o segundo uso. O guia <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">o que é inteligência artificial</a> é a leitura certa para entender o que está por trás da ferramenta que você acabou de configurar.</p>
+    <p>Fora disso, os 15 minutos deste guia são o melhor investimento de tempo que um iniciante pode fazer. Configure hoje, teste uma tarefa real, e volte à categoria <a href="/categoria/iniciantes">Para Iniciantes</a> na semana que vem para escolher o segundo uso. O guia <a href="/artigos/o-que-e-inteligencia-artificial-guia-completo">o que é inteligência artificial</a> é a leitura certa para entender o que está por trás da ferramenta que você acabou de configurar.</p>
   `,
   faq: [
     {

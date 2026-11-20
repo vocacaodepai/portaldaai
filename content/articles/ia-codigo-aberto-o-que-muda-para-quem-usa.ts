@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "open source server data center",
+  coverImage: {
+    url: "/images/covers/ia-codigo-aberto-o-que-muda-para-quem-usa.webp",
+    width: 1280,
+    height: 720,
+    credit: "Schäferle / Pixabay",
+    creditUrl: "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+  },
   seed: 140,
   kind: "guia",
   author: "Bruno Danello",

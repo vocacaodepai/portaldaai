@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "laptop presentation slides design screen",
+  coverImage: {
+    url: "/images/covers/gamma-ou-canva-qual-ia-cria-apresentacao-melhor.webp",
+    width: 1280,
+    height: 771,
+    credit: "RonaldCandonga / Pixabay",
+    creditUrl: "https://pixabay.com/photos/job-office-team-business-internet-5382501/",
+  },
   seed: 138,
   kind: "guia",
   author: "Bruno Danello",

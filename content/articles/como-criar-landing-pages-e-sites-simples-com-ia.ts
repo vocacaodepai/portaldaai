@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "website builder landing page",
+  coverImage: {
+    url: "/images/covers/como-criar-landing-pages-e-sites-simples-com-ia.webp",
+    width: 1280,
+    height: 780,
+    credit: "Alexas_Fotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/handyman-construction-site-workers-3094035/",
+  },
   seed: 51,
   kind: "guia",
   author: "Bruno Danello",
@@ -113,7 +120,7 @@ Briefing:
 
     <p>Para quem vende produto digital, a landing page é a porta de entrada, e o guia de <a href="/artigos/como-vender-ebooks-e-guias-criados-com-ia">vender ebooks e guias criados com IA</a> mostra o restante do caminho. Quem quer testar uma ideia de aplicativo antes da página encontra o método em <a href="/artigos/ia-para-design-de-produto-prototipar-ideia-rapidamente">prototipar uma ideia rapidamente com IA</a>. E quando a página estiver trazendo contato todo dia, o próximo passo é automatizar o que vem depois do clique, como mostra o guia de <a href="/artigos/notion-zapier-e-ia-automatize-seu-negocio-sem-programar">Notion, Zapier e IA</a>.</p>
 
-    <p>A mesma lógica de <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">criar apresentações com IA</a> vale aqui: o ganho está em ter a primeira versão pronta em minutos, e o seu tempo vai para o que só você sabe fazer, que é ajustar a mensagem para o cliente que você conhece. Monte a sua página neste fim de semana e, quando ela estiver no ar, a categoria <a href="/ferramentas">Ferramentas</a> tem os próximos passos para ela trabalhar por você.</p>
+    <p>A mesma lógica de <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">criar apresentações com IA</a> vale aqui: o ganho está em ter a primeira versão pronta em minutos, e o seu tempo vai para o que só você sabe fazer, que é ajustar a mensagem para o cliente que você conhece. Monte a sua página neste fim de semana e, quando ela estiver no ar, a categoria <a href="/categoria/ferramentas">Ferramentas</a> tem os próximos passos para ela trabalhar por você.</p>
   `,
   faq: [
     {

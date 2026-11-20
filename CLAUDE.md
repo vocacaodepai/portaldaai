@@ -34,61 +34,104 @@ Todo artigo de AI Indica mostra o selo de nota no card (`ReviewBadge` em
   não erro de arredondamento — mostra diferença real entre dois produtos
   que em nota inteira pareceriam iguais.
 
-## Filtros de navegação (desde out/2026): cada aba filtra pelo próprio tema
+## Filtros de navegação (desde nov/2026): listagens paginadas, filtro principal por rota
 
-Cada listagem tem o filtro certo pro que ela mostra, em vez do mesmo chip de
-categoria do site inteiro repetido em toda aba:
+Desde 16/11/2026 (recuperação do Search Console) nenhuma listagem mostra
+tudo numa página só: todas paginam e os filtros principais são **rotas
+estáticas indexáveis** (geradas com `generateStaticParams`), com os chips
+como links `<a href>`. Só filtros secundários continuam no navegador, e
+valem apenas para os cards da página atual.
 
-- **`/artigos` e `/categoria/[slug]`** (exceto ferramentas e ai-indica):
-  `ArticleCategoryChips` (`components/ArticleCategoryChips.tsx`), só com as
-  categorias gerais (`articleFilterCategories` em `lib/articles.ts`:
-  iniciantes, monetização, negócios, carreira, futuro). Ferramentas e AI
-  Indica não aparecem aqui — cada uma tem a aba e o filtro próprios abaixo.
+- **Paginação**: `/artigos`, `/categoria/ai-indica`, as 5 categorias gerais e
+  todas as rotas de filtro usam 30 cards por página (`LISTING_PER_PAGE` em
+  `components/listing/paginate.ts`); `/categoria/ferramentas` segue com 12
+  (`ARTICLES_PER_PAGE`, mantém as URLs antigas). Página N em
+  `<base>/pagina/N`, com canonical próprio e links reais de paginação
+  (`components/Pagination.tsx`). `<base>/pagina/1` e página além do fim
+  redirecionam (301) para `<base>`, então endereço antigo não quebra.
+- **Rotas de filtro** (`components/listing/categoriaViews.ts`, que resolve
+  título, descrição, itens, breadcrumbs e se é indexável; usado pelas páginas
+  e pelo sitemap):
+  - `/categoria/ai-indica/<productCategory>` e
+    `/categoria/ai-indica/<productCategory>/<productSubcategory>` (ex.:
+    `/categoria/ai-indica/cozinha/air-fryer`).
+  - `/categoria/<geral>/<articleSubcategory>` para iniciantes, monetização,
+    negócios, carreira e futuro (ex.: `/categoria/monetizacao/produtos-digitais`).
+  - Cada uma com `/pagina/N`. Só existem as combinações com pelo menos 1
+    artigo (`dynamicParams = false`); com menos de 3 artigos
+    (`MIN_INDEXABLE_FILTER`) a rota fica no ar, mas `noindex, follow` e fora
+    do sitemap (página rala).
+- Por isso todo artigo de AI Indica precisa de `productCategory` e
+  `productSubcategory`, e todo artigo das 5 gerais de `articleSubcategory`
+  (`lib/types.ts`): sem eles, o artigo só aparece na raiz da categoria, em
+  nenhuma rota de filtro. Tema novo sem subtipo/subcategoria que sirva:
+  adicionar em `lib/types.ts` antes de publicar.
+- **`/artigos`**: todos os artigos (inclusive AI Indica e reviews de
+  ferramenta), paginado. `ArtigosAreaChips` (`components/ArtigosAreaFilter.tsx`)
+  são links por área: as 5 categorias gerais, "Reviews de ferramentas"
+  (`/reviews`), "Guias de ferramentas" (`/categoria/ferramentas`) e "AI
+  Indica" (`/categoria/ai-indica`).
+- **`/categoria/[slug]`** das 5 gerais: `ArticleCategoryChips`
+  (`components/ArticleCategoryChips.tsx`, categorias gerais de
+  `articleFilterCategories` em `lib/articles.ts`) e, abaixo,
+  `ArticleSubcategoryLinks` (`components/ArticleSubcategoryFilter.tsx`), links
+  para as rotas de subtipo. Ferramentas e AI Indica não aparecem nesses chips.
+- **`/categoria/ai-indica`**: `ProductCategoryLinks`
+  (`components/ProductCategoryFilter.tsx`), duas camadas de links (categoria
+  de produto; dentro dela, tipo de produto). Abaixo, o filtro secundário
+  `AiIndicaKindFilter` (`components/AiIndicaFilter.tsx`): "Todos os tipos /
+  Review individual / Review comparativo" (`kind: "review"` = individual,
+  `kind: "guia"` = comparativo), no navegador, só sobre os cards da página
+  (atributo `data-kind` em `ArticleCard`, combinado por
+  `components/filterVisibility.ts`). O card de AI Indica mostra ao lado do
+  selo da categoria o sub-rótulo "Review individual" ou "Review comparativo",
+  com `title` explicando as duas.
 - **`/reviews`**: só reviews de ferramenta de IA (`category: "ferramentas"`
-  **e** `kind: "review"` — `getReviews()` em `lib/articles.ts`). Reviews de
-  produto físico (`category: "ai-indica"`) não aparecem mais aqui, têm o
-  filtro próprio em `/categoria/ai-indica`. O filtro é `ReviewToolChips`
-  (`components/ReviewToolChips.tsx`), por `review.tool` (ex.: "ChatGPT
-  Plus", "Claude Pro") — fica escondido sozinho enquanto só existir 1
-  ferramenta revisada.
-- **`/categoria/ai-indica`**: filtro de duas camadas por categoria de
-  produto (`ProductCategoryFilter`, `components/ProductCategoryFilter.tsx`),
-  não pela categoria de artigo. Todo artigo de AI Indica (comparativo ou
-  review de produto único) precisa ter `productCategory` e
-  `productSubcategory` (`lib/types.ts`: `productCategories`/
-  `productSubcategories`) — ex.: `productCategory: "cozinha"`,
-  `productSubcategory: "air-fryer"`. Sem esses dois campos o artigo some do
-  filtro (continua listado em "Todos", só não aparece ao filtrar por
-  categoria/subcategoria específica). Essa página mostra todos os artigos
-  de ai-indica numa página só (sem paginar), porque o filtro só funciona
-  dentro dos cards que já estão na página.
-- **`/categoria/[slug]`** das 5 categorias gerais (iniciantes, monetização,
-  negócios, carreira, futuro) ganham, abaixo do `ArticleCategoryChips`, um
-  subfiltro de uma camada só (`ArticleSubcategoryFilter`,
-  `components/ArticleSubcategoryFilter.tsx`) pelo subtipo de artigo dentro
-  daquela categoria — ex., em Monetização: Freelas e serviço, Produtos
-  digitais, Automação e agentes... Todo artigo novo dessas 5 categorias
-  precisa ter `articleSubcategory` (`lib/types.ts`:
-  `articleSubcategories`, cada entrada aponta pro slug de `categories` a
-  que pertence) — sem o campo, o artigo só não aparece ao filtrar por um
-  subtipo específico (continua em "Todos"). Essas 5 categorias também
-  mostram tudo numa página só (sem paginar), mesmo motivo do ai-indica.
-  Cobrindo um tema que não se encaixa em nenhum subtipo existente da
-  categoria, adicionar o subtipo novo em `articleSubcategories` antes de
-  publicar.
-- **`/categoria/ferramentas`** continua existindo (link antigo, SEO), mas
-  sem chip de filtro extra — o conteúdo de ferramenta agora vive
-  conceitualmente em `/reviews` (quando é review) e nos artigos gerais
-  (quando é guia).
+  **e** `kind: "review"`, `getReviews()` em `lib/articles.ts`), com
+  `ReviewToolChips` (`components/ReviewToolChips.tsx`, filtro no navegador
+  por `review.tool`, escondido enquanto só existir 1 ferramenta revisada).
+- **Menu do topo** (`components/Header.tsx`, `MobileMenu.tsx`): não existe mais
+  o item solto "Categorias". "Artigos" abre um submenu (hover/foco no desktop,
+  toque no mobile, via `<details>`) com Todos os artigos, as 5 categorias
+  gerais, "Reviews de ferramentas" (aponta para `/reviews`; o slug
+  `/categoria/ferramentas` segue existindo por SEO, mas não aparece no menu) e
+  "AI Indica". O botão "AI Indica" do menu tem cor de destaque (gradiente
+  accent -> accent-2).
+- **`ScoreScaleNote`** é retrátil (`<details>`, fechada por padrão, com seta);
+  aparece em toda listagem da AI Indica.
+- **Abertura curta**: `/reviews` (título "Reviews de ferramentas") e
+  `/categoria/ai-indica` têm no máximo ~2 linhas antes do filtro; o texto
+  longo (intro da categoria, "Como avaliamos") vai para o fim da página,
+  depois da lista (`footerText` em `ArticleListing`).
+- **`/categoria/ferramentas`** continua existindo (link antigo, SEO), sem
+  chip de filtro extra.
 - A home (`/`) e a página 404 continuam usando o `CategoryChips` original
-  (site inteiro: todas as categorias + Reviews + Notícias) — ali faz
-  sentido mostrar tudo, é navegação geral, não filtro de uma listagem.
+  (site inteiro: todas as categorias + Reviews + Notícias).
 
 Taxonomia de produto hoje (`lib/types.ts`): Cozinha, Casa Inteligente,
-Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar, cada
-uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
+Segurança, Áudio e Vídeo, Informática e Acessórios, Saúde e Bem-estar,
+Automotivo, Casa e Utilidades, Ferramentas Domésticas, Celulares e
+Acessórios (slug `acessorios-celular`, que inclui `smartphone` desde
+16/11/2026), Jardim e Quintal, Pet, Escritório, Bebê, Esporte e Lazer e
+Viagem, cada uma com suas subcategorias. Ao cobrir um tipo de produto novo que não se
 encaixa em nenhuma subcategoria existente, adicionar a subcategoria nova
 (e, se precisar, a categoria nova) em `lib/types.ts` antes de publicar.
+
+## Sitemap, robots e noindex (desde nov/2026)
+
+- `/sitemap.xml` é um **índice** (`app/sitemap.xml/route.ts`) que aponta para
+  `/sitemaps/sitemap/paginas.xml`, `/sitemaps/sitemap/artigos.xml` e
+  `/sitemaps/sitemap/noticias.xml` (`app/sitemaps/sitemap.ts`, com
+  `generateSitemaps`; entradas em `lib/sitemap.ts`) e para
+  `/news-sitemap.xml` (Google News: só notícias das últimas 48 h, revalida de
+  hora em hora). Sem `priority`/`changeFrequency`; `lastModified` =
+  `updated ?? date` no artigo, `publishedAt ?? date` na notícia.
+- **`noindex?: boolean`** em `Article` e `NewsItem` (`lib/types.ts`): vira
+  `robots: { index: false, follow: true }` no metadata e tira a URL do
+  sitemap e do feed, sem apagar a página. Só marcar com decisão do dono, a
+  partir dos dados do Search Console.
+- `/busca` é `noindex, follow` e fica liberada no `robots.txt` (o robô precisa
+  abrir a página para ver o noindex).
 
 ## Imagens de pessoas e empresas reais (artigos e notícias, qualquer categoria)
 
@@ -176,6 +219,29 @@ retroativa nas ~380 notícias antigas.
   no texto (já é regra) e na caixa "Fonte original" ao fim do corpo (já
   existe, não precisa de nada novo).
 
+## Política de fonte das notícias (desde 27/10/2026)
+
+Notícia apoiada em fonte única ou secundária (CNBC, The Verge, The Decoder,
+The Register, TechCrunch, TNW etc.) **pode e deve** ser publicada, desde que
+o fato seja relevante, verificável na própria matéria aberta e a reportagem
+seja detalhada. Fonte primária continua preferida quando existe, mas a falta
+dela não descarta a notícia. Segue proibido boato, fato sem data, cópia de
+trechos e invenção.
+
+- O texto é do Portal da AI (análise própria). A fonte é creditada no fim,
+  como texto simples: `sourceName` com o(s) veículo(s) de onde veio o fato,
+  ex.: `CNBC` ou `CNBC, OpenAI`. A caixa "Fonte original" ao fim da notícia já
+  mostra esse nome. Link no meio do texto não é mais obrigatório.
+- `sourceUrl` continua obrigatório (o `check-content` exige https): use a
+  matéria real que foi aberta.
+- Topo e listagem seguem só com "via Portal da AI".
+
+## Merge automático
+
+Toda PR criada pelas rotinas e pelo Claude é mesclada por squash assim que a
+Vercel fica Ready, sem pedir aprovação (autorização permanente do dono).
+Rate limit da Vercel: não mesclar, relatar.
+
 ## Imagens de produto (categoria AI Indica)
 
 Nunca usar gerador de imagem por IA (ElevenLabs ou qualquer outro) para criar
@@ -227,7 +293,7 @@ normais no texto, usar o botão de destaque `buy-btn` (classe liberada em
 
 ```html
 <div class="buy-btn">
-  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Nome do produto> agora ↗</a>
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar agora na Amazon ↗</a>
 </div>
 ```
 
@@ -262,26 +328,63 @@ um AI Indica dentro do fluxo de outros comparativos e reviews de produto:
 não precisa de nenhuma seção nova, só continuar publicando AI Indica
 suficiente pra essa seção ter o que mostrar.
 
-## Rotina editorial diária: 10 artigos por dia
+## Rotina editorial diária (desde 16/11/2026)
 
-O Portal da AI publica 10 artigos por dia, em duas rotinas automáticas
-separadas (dois triggers agendados):
+Histórico: em 04/11/2026 o ritmo caiu de ~20 para 10 publicações por dia.
+Em 16/11/2026, depois de uma queda forte de impressões e cliques no Search
+Console, o dono aprovou o plano de recuperação: o site publicou ~1.550 páginas
+em ~10 semanas, um padrão que o Google trata como conteúdo em escala. No
+mesmo dia o dono ajustou o ritmo: o portal é um hub de notícias de IA e
+precisa ser rápido nas notícias, com volume baixo e qualidade alta no resto.
 
-- **5 artigos gerais** (rotina "Portal da AI — 5 artigos por dia", 05:00
-  Brasília): um por categoria entre iniciantes, monetização, negócios,
-  ferramentas, carreira/futuro. Sem link de afiliado.
-- **5 artigos AI Indica** (rotina "Portal da AI — 5 AI Indica por dia",
-  06:00 Brasília): sempre `category: "ai-indica"`, sempre com produto real
-  vendido na Amazon Brasil e link de afiliado `tag=portaldaai-20`. Dividido
-  todo dia em:
-  - **3 comparativos** (`kind: "guia"`, tipo `melhor-fone-bluetooth-barato-comparativo-2026`):
-    2 ou 3 produtos reais da mesma categoria (celular, carregador,
-    fone, mouse etc.) comparados lado a lado, com tabela e nota por
-    critério, pra indicar qual compensa mais.
-  - **2 reviews de produto único** (`kind: "review"`, tipo
-    `soundcore-p20i-anker-vale-a-pena`): um produto só, com o campo
-    `review` completo (nota, critérios, prós, contras, preço, `url` de
-    afiliado).
+- **Radar de notícias** (rotina "Portal da AI — radar de notícias", de hora
+  em hora, das 07:00 às 23:00 Brasília; detalhes em
+  `docs/rotinas/noticias.md`): cada rodada publica no máximo 1 notícia, e só
+  se houver fato forte e novo de IA (mesmo critério de impacto de antes).
+  Teto de 4 notícias novas por dia. Sem pauta forte, a rodada termina em
+  silêncio. Regras:
+  - Notícia de última hora pode sair com no mínimo ~500 palavras, desde que
+    tenha as seções "O que se sabe", "O que ainda não está confirmado" e
+    "Por que isso importa para você", com fonte aberta e conferida. Notícia
+    sem urgência segue com ~900 palavras.
+  - Quando houver fato novo sobre o mesmo caso, uma rodada seguinte
+    aprofunda a MESMA URL: acrescenta uma seção "Atualização (HH:MM)" no topo
+    do corpo e preenche `updatedAt` (campo de `NewsItem`, ISO 8601 com
+    -03:00) com a hora real. `date` e `publishedAt` não mudam.
+  - Desdobramento pequeno do mesmo caso = atualização da notícia existente,
+    nunca URL nova. URL nova só para fato novo de verdade (ex.: investigação
+    aberta e, dias depois, renúncia).
+  - Nunca reescrever matéria de outro veículo sem análise própria; sempre
+    creditar a fonte (ver "Política de fonte das notícias").
+  - Fora das rodadas, o dono pode pedir no chat uma notícia urgente, que é
+    publicada na hora (conta no teto do dia).
+- **1 artigo geral** (rotina "Portal da AI — 1 artigo geral por dia", 05:00
+  Brasília): rodízio por dia do mês com resto da divisão por 6: 0 =
+  iniciantes, 1 = monetização, 2 = negócios, 3 = ferramentas, 4 = carreira,
+  5 = futuro. Sem link de afiliado. Antes de escrever, confirme que não há
+  artigo publicado com a mesma intenção de busca (não criar mais um
+  "como usar IA para X" se já existe um parecido: melhore o existente).
+- **AI Indica: 2 por dia, um da Amazon e um da Shopee.**
+  - **Amazon** (rotina "Portal da AI — 1 AI Indica Amazon por dia", 06:07
+    Brasília) e **Shopee** (rotina "Portal da AI — 1 AI Indica Shopee por
+    dia", 07:37 Brasília, de volta desde 16/11/2026).
+  - Em cada dia, uma das duas é comparativo (`kind: "guia"`) e a outra é
+    review de produto único (`kind: "review"`): dia do mês par = Amazon
+    comparativo e Shopee review; dia ímpar = Amazon review e Shopee
+    comparativo.
+  - Qualquer categoria de produto vendida na Amazon e na Shopee (a AI Indica
+    indica de tudo, não só tecnologia): variar as categorias ao longo da
+    semana e não repetir a mesma `productSubcategory` em 15 dias (somando
+    Amazon e Shopee).
+  - Continuam valendo foto oficial do fabricante, preço em faixa de
+    mercado, botões de compra, nunca alegar teste sem uso real e nunca
+    mamadeira, bico ou chupeta (Lei 11.265/2006).
+- **Qualidade e poda** (rotina "Portal da AI — manutenção diária", 15:43
+  Brasília): em vez de "melhorar 5 a 8 páginas", segue o plano de
+  recuperação (ver `docs/rotinas/manutencao.md`): aprofunda páginas que já
+  têm impressões, junta páginas que disputam a mesma busca e propõe
+  `noindex` para as fracas. Mudança de `updated` só quando a página mudou de
+  verdade (texto novo relevante), nunca para só trocar links.
 
 Todo artigo de AI Indica segue as regras de imagem da seção acima (foto
 real oficial do fabricante, nunca gerador de IA, `build-product-cover.mjs`
@@ -299,13 +402,68 @@ chamada e alterne entre formatos ao longo da semana, por exemplo:
 - Pergunta direta: "Vale a pena comprar a air fryer Philco PFR11P?"
 - Comparação direta: "Soundcore P20i ou JBL Tune 510BT: qual comprar?"
 - Uso/cenário: "Fone bluetooth até R$ 150: o que realmente vale o dinheiro"
-- Veredito antecipado: "Testamos o teclado Logitech K380: compacto, mas
-  com uma falha que pesa no preço"
+- Veredito antecipado: "Teclado Logitech K380: compacto, mas com uma falha
+  que pesa no preço"
+
+Nunca usar "testamos", "testei" ou "no nosso teste" (no título ou no texto)
+quando não houve uso real do produto: a análise parte da ficha técnica e das
+avaliações de compradores, e o texto deve dizer isso.
 
 Evite repetir a mesma estrutura de título em dois artigos da mesma rodada
-(3 comparativos + 2 reviews) ou de rodadas consecutivas. O `seoTitle`
+ou de rodadas consecutivas. O `seoTitle`
 (quando o `title` editorial for mais criativo/curto) pode levar a palavra-
 chave de busca por extenso; o `title` do card não precisa.
+
+### Preços da Amazon (AI Indica): faixa de mercado, nunca preço exato
+
+- Preço exato nunca: não escrever valor de centavos nem "R$ X a menos" que
+  compare preço exato entre produtos.
+- Todo artigo de AI Indica tem uma seção h2 própria, "Variação de preço"
+  (ou título parecido), que dá a faixa aproximada de mercado de cada
+  produto ("costuma variar de R$ X a R$ Y"), faixa larga e arredondada
+  (±15%, múltiplos de R$ 5; R$ 10 acima de R$ 500), a partir de pesquisa
+  de mercado (preço visto na Amazon Brasil, Zoom, Buscapé, site do
+  fabricante). Em comparativo, uma faixa por produto e a conclusão de qual
+  costuma sair mais em conta e qual tem melhor custo-benefício. Em review
+  único, a faixa, o que faz o preço subir ou cair e o custo-benefício.
+  A seção fecha dizendo que o preço do dia aparece ao clicar no botão de
+  compra.
+- Sem data de verificação no texto: não escrever "verificado em dd/mm/aaaa",
+  "faixa aproximada em dd/mm" nem "o preço da Amazon não exibiu nessa
+  checagem". Chamar de "faixa de mercado", nunca "da Amazon". Se nenhuma
+  fonte der o valor, escrever a seção sem números ("o preço varia entre
+  vendedores e épocas, veja o valor atual no botão").
+- A faixa vem de pesquisa na internet como um todo (lojas, comparadores e
+  site do fabricante), não só da Amazon. Por isso a seção "Variação de
+  preço" leva sempre uma observação curta dizendo isso, por exemplo:
+  `<p><em>Observação: esta faixa é o preço consultado na internet como um
+  todo (lojas, comparadores de preço e site do fabricante), não apenas na
+  Amazon. O valor do dia aparece ao clicar no botão de compra.</em></p>`.
+- Nunca pôr faixa ou preço no `title`, `seoTitle`, `excerpt`,
+  `metaDescription`, nem no botão `buy-btn` ou no texto dele.
+- Nota e número de avaliações podem ser citados, sem data.
+- Futuro: preços automáticos via API ou bloco do painel de Associados da
+  Amazon, quando disponível (pendente de credenciais do dono).
+
+### Botão de compra espalhado pelo artigo e "na Amazon" (AI Indica)
+
+- Texto do botão sempre igual e sempre cita a Amazon (passa mais
+  segurança): `Comprar agora na Amazon ↗`, sem nome de produto e sem
+  preço. Vale para o `buy-btn` do corpo e para o rótulo do botão do bloco
+  de veredito (`review.ctaLabel`: "Comprar agora na Amazon"). Num
+  comparativo, o botão fica logo abaixo da foto/título de cada produto, então
+  o contexto de qual produto é vem do bloco onde ele está.
+- Shopee segue o mesmo padrão (decisão do dono, 16/11/2026): texto exato
+  `Comprar agora na Shopee ↗` em todo `buy-btn` com link
+  `s.shopee.com.br` (sem nome de produto e sem preço) e `review.ctaLabel`:
+  "Comprar agora na Shopee". Os artigos antigos da Shopee já foram
+  padronizados.
+- Botões espalhados pelo artigo todo, mínimo 5 por artigo e nunca mais de
+  ~3 parágrafos longos seguidos sem um botão. Comparativo: abaixo da foto
+  de cada produto, depois da seção de preço e no veredito final. Review
+  único: depois da introdução/veredito curto, depois de prós e contras,
+  depois de "para quem vale a pena", depois da seção de preço e no fecho.
+- ASIN e link sempre reais (`tag=portaldaai-20`); sem ASIN real, sem botão.
 
 ## Deploy
 

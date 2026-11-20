@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "email newsletter writing laptop content",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-com-newsletter-usando-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "pixelcreatures / Pixabay",
+    creditUrl: "https://pixabay.com/photos/wordpress-blogging-blogger-editor-265132/",
+  },
   seed: 77,
   kind: "guia",
   author: "Bruno Danello",
@@ -30,7 +37,7 @@ export const article: Article = {
     <h2>O que é uma newsletter monetizada e quanto ela rende?</h2>
     <p>Newsletter monetizada é um e-mail periódico (semanal, na maioria dos casos) que gera receita por assinatura paga, patrocínio, venda de produto próprio ou indicação de serviço. O assinante entra de graça, lê algumas edições e, se confiar na sua curadoria, paga ou compra.</p>
     <p>Faixas realistas dependem de três números: tamanho da lista, taxa de abertura e nicho. Uma lista de 1.000 leitores de um nicho profissional (contadores, dentistas, corretores) costuma valer mais para um patrocinador do que 10.000 leitores dispersos. No Substack, o autor fica com 90% da receita de assinaturas, descontadas as taxas de cartão, segundo a <a href="https://substack.com/going-paid" rel="noopener noreferrer">página oficial de assinaturas pagas</a> (verificado em 27/09/2026). Uma newsletter com 100 assinantes pagando R$ 20 por mês fatura R$ 2.000 brutos, e sobra algo perto de R$ 1.700 depois da plataforma e das taxas. Chegar a esses 100 pagantes normalmente exige uma lista gratuita de alguns milhares e meses de constância.</p>
-    <p>Ninguém deveria começar esperando renda no primeiro mês. O caminho comum é: 3 a 6 meses construindo lista, depois o primeiro patrocínio ou produto, depois a assinatura paga quando já existe leitor fiel.</p>
+    <p>Ninguém deveria começar esperando renda no primeiro mês. O caminho comum é: 3 a 6 meses construindo lista, depois o primeiro patrocínio ou produto, depois a assinatura paga quando já existe leitor fiel. Se o caminho mais curto até a primeira receita interessa mais, dá para vender a newsletter como serviço para o comércio do bairro, como mostra o guia de <a href="/artigos/newsletter-de-negocio-local-como-servico-pacote-preco-lgpd-e-ia">newsletter de negócio local</a>.</p>
 
     <h2>Escolha o nicho antes da ferramenta</h2>
     <p>Newsletter genérica ("dicas de produtividade") compete com o mundo inteiro. Newsletter de nicho ("o que mudou nas regras do MEI esta semana") compete com quase ninguém e atrai o patrocinador certo. Três testes rápidos: existe gente que paga por informação nesse tema hoje (curso, consultoria, software)? Você consegue escrever 50 edições sobre ele sem repetir? Dá para explicar em uma frase quem deveria assinar?</p>

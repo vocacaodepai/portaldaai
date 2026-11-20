@@ -11,13 +11,14 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const page = parsePage((await params).page);
-  if (!page || page > artigosTotalPages()) return {};
+  if (!page || page === 1 || page > artigosTotalPages()) return {};
   return artigosMetadata(page);
 }
 
 export default async function Page({ params }: { params: Params }) {
   const page = parsePage((await params).page);
   if (!page) notFound();
-  if (page === 1) permanentRedirect("/artigos");
+  // Página 1 é /artigos; página além do fim (ex.: link antigo) volta para /artigos.
+  if (page === 1 || page > artigosTotalPages()) permanentRedirect("/artigos");
   return <ArtigosPage page={page} />;
 }

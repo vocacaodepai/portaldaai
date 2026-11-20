@@ -32,11 +32,16 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-// Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
+// Google Analytics 4: ID fixo do Portal da AI (não depende de variável de ambiente).
+const GA_ID = "G-J2V2PCNK2T";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("pdai-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
+
+// Quem já escolheu os cookies não pode ver o aviso piscar: marca o <html>
+// antes da primeira pintura e o CSS esconde o aviso, que agora vem pronto no
+// HTML do servidor (ver CookieConsent). Mesma validação de lib/consent.ts.
+const CONSENT_INIT = `(function(){try{var c=JSON.parse(localStorage.getItem("pdai-consent")||"null");if(c&&c.version===1&&typeof c.ads==="boolean"){document.documentElement.setAttribute("data-pdai-consent","1")}}catch(e){}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -133,11 +138,6 @@ const websiteJsonLd = {
   description: site.description,
   inLanguage: "pt-BR",
   publisher: { "@id": `${site.url}/#organization` },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: { "@type": "EntryPoint", urlTemplate: `${site.url}/busca?q={search_term_string}` },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -149,6 +149,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
+        <script dangerouslySetInnerHTML={{ __html: CONSENT_INIT }} />
         {ADSENSE_CLIENT && <meta name="google-adsense-account" content={ADSENSE_CLIENT} />}
       </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">

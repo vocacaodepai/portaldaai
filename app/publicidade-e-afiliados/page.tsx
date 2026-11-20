@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como o Portal da AI se sustenta: anúncios do Google AdSense e links de afiliado da Amazon, sempre sinalizados e sem mudar nota nem opinião.";
+  "Como o Portal da AI se sustenta: anúncios do Google AdSense e links de afiliado da Amazon e da Shopee, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -34,7 +34,7 @@ export default function PublicidadeEAfiliadosPage() {
       <h2 id="como-o-site-se-sustenta">1. Como o site se sustenta</h2>
       <p>
         O {site.name} não cobra assinatura, não vende curso e não tem área paga. A receita vem de
-        duas fontes:
+        três fontes:
       </p>
       <ul>
         <li>
@@ -46,6 +46,12 @@ export default function PublicidadeEAfiliadosPage() {
           <Link href="/categoria/ai-indica">AI Indica</Link>, o link para comprar o produto na Amazon
           é um link de afiliado e pode gerar comissão para o site, sem custo adicional para você.
           Como Associado da Amazon, o {site.name} ganha com compras qualificadas.
+        </li>
+        <li>
+          <strong>Programa de Afiliados da Shopee</strong>: em parte dos reviews e comparativos da
+          seção <Link href="/categoria/ai-indica">AI Indica</Link>, o botão de compra leva ao anúncio
+          do produto na Shopee por um link de afiliado. Como Afiliado da Shopee, o {site.name} pode
+          ganhar comissão sobre compras feitas por esses links, sem custo adicional para você.
         </li>
       </ul>
       <p>Não há conteúdo patrocinado, publieditorial nem &quot;matéria paga&quot;, e não haverá.</p>
@@ -89,15 +95,19 @@ export default function PublicidadeEAfiliadosPage() {
         <li>
           O preço informado é o preço público do produto no momento da escrita do review, sem
           inflar para justificar a comissão. Preço muda com frequência na Amazon; o valor exato
-          sempre aparece atualizado na própria página do produto.
+          sempre aparece atualizado na própria página do produto. Na Shopee, preço, cupom e frete
+          também mudam muito com promoção e com o vendedor: o valor do dia aparece ao clicar no
+          botão de compra.
         </li>
         <li>
           Um link de afiliado nunca aparece em notícia, em artigo de conceito ou fora do contexto
           de uma avaliação.
         </li>
         <li>
-          As imagens usadas nos reviews de produto são fotos oficiais divulgadas pelo próprio
-          fabricante em seu site, nunca capturadas da página de venda da Amazon.
+          As imagens usadas nos reviews de produto da Amazon são fotos oficiais divulgadas pelo
+          próprio fabricante em seu site, nunca capturadas da página de venda da Amazon. Nos
+          artigos com produtos da Shopee, as fotos são as dos anúncios, fornecidas pelo programa de
+          afiliados da Shopee, ou fotos oficiais da marca quando existem.
         </li>
       </ul>
 
@@ -155,7 +165,7 @@ export default function PublicidadeEAfiliadosPage() {
       </p>
 
       <p>
-        Versão desta página: 29 de setembro de 2026. Veja também os{" "}
+        Versão desta página: 27 de outubro de 2026. Veja também os{" "}
         <Link href="/termos-de-uso">termos de uso</Link>.
       </p>
     </InstitutionalPage>

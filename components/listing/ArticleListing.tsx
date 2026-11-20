@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ArticleCategoryChips } from "@/components/ArticleCategoryChips";
-import { ArticleSubcategoryFilter } from "@/components/ArticleSubcategoryFilter";
-import { ProductCategoryFilter } from "@/components/ProductCategoryFilter";
 import { Container } from "@/components/Container";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
@@ -10,7 +8,7 @@ import type { Article } from "@/lib/articles";
 import { ListingHeader } from "./ListingHeader";
 import { countLabel } from "./paginate";
 
-const ARTICLES_GRID_ID = "artigos-grid";
+export const ARTICLES_GRID_ID = "artigos-grid";
 
 /**
  * Listagem paginada de artigos (todos, por categoria, reviews): cabeçalho,
@@ -27,8 +25,8 @@ export function ArticleListing({
   totalPages,
   basePath,
   active,
-  productFilter,
-  subcategoryFilter,
+  filters,
+  footerText,
   emptyTitle = "Nenhum artigo por aqui ainda",
   emptyText = "Publicamos conteúdo novo todos os dias. Enquanto isso, explore as outras categorias.",
   children,
@@ -46,13 +44,13 @@ export function ArticleListing({
   basePath: string;
   /** Chip ativo: "todos" ou slug de categoria. */
   active: string;
-  /** Só quando active === "ai-indica": categorias/subcategorias de produto presentes nos itens. */
-  productFilter?: {
-    categories: { slug: string; label: string }[];
-    subcategories: { slug: string; label: string; category: string }[];
-  };
-  /** Só nas categorias gerais (iniciantes, monetização...): subtipos presentes nos itens desta categoria. */
-  subcategoryFilter?: { slug: string; label: string }[];
+  /**
+   * Filtros já prontos (links para as rotas de filtro e, se houver, o filtro
+   * secundário no navegador). Substitui os chips de categoria padrão.
+   */
+  filters?: React.ReactNode;
+  /** Texto longo mostrado só depois da lista (o cabeçalho fica curto). */
+  footerText?: string;
   emptyTitle?: string;
   emptyText?: string;
   /** Conteúdo extra entre o cabeçalho e a grade (ex.: "Como avaliamos"). */
@@ -70,23 +68,11 @@ export function ArticleListing({
         page={page}
         totalPages={totalPages}
       />
-      {productFilter ? (
-        <ProductCategoryFilter
-          categories={productFilter.categories}
-          subcategories={productFilter.subcategories}
-          rootId={ARTICLES_GRID_ID}
-          className="mt-8 border-y border-border py-3"
-        />
+      {filters !== undefined ? (
+        filters
       ) : active !== "ferramentas" ? (
         <ArticleCategoryChips active={active} className="mt-8 border-y border-border py-3" />
       ) : null}
-      {subcategoryFilter && subcategoryFilter.length > 0 && (
-        <ArticleSubcategoryFilter
-          subcategories={subcategoryFilter}
-          rootId={ARTICLES_GRID_ID}
-          className="mt-3"
-        />
-      )}
       {children}
       <div id={ARTICLES_GRID_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
@@ -117,6 +103,11 @@ export function ArticleListing({
         </div>
         <Sidebar />
       </div>
+      {footerText && (
+        <section aria-label="Sobre esta seção" className="mt-12 max-w-3xl border-t border-border pt-6">
+          <p className="text-sm leading-relaxed text-muted sm:text-base">{footerText}</p>
+        </section>
+      )}
     </Container>
   );
 }

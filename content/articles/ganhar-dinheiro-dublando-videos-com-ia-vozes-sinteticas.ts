@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-28",
   readTime: 9,
   imageQuery: "microphone headphones audio waveform",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-dublando-videos-com-ia-vozes-sinteticas.webp",
+    width: 1280,
+    height: 848,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mic-headphones-microphone-1867121/",
+  },
   seed: 93,
   kind: "guia",
   author: "Bruno Danello",

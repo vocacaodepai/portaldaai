@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "typing keyboard writing text",
+  coverImage: {
+    url: "/images/covers/prompt-engineering-como-escrever-comandos-que-funcionam.webp",
+    width: 1280,
+    height: 720,
+    credit: "Mallikarjunasj (Apache License 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AKannada%20Voice%20Typing%20in%20Android%206.0%20with%20Google%20Keyboard.jpg",
+  },
   seed: 5,
   kind: "guia",
   author: "Bruno Danello",

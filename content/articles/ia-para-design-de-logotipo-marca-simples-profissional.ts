@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "logo design branding sketch",
+  coverImage: {
+    url: "/images/covers/ia-para-design-de-logotipo-marca-simples-profissional.webp",
+    width: 1280,
+    height: 853,
+    credit: "Claireneon (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ALogo%20design%20branding.jpg",
+  },
   seed: 46,
   kind: "guia",
   author: "Bruno Danello",

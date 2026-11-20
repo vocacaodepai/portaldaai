@@ -12,6 +12,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T07:45:00-03:00",
   topic: "seguranca",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-ceo-australia-pede-desculpas-medicare.webp",
+    width: 1280,
+    height: 853,
+    credit: "Jernej Furman from Slovenia (CC BY 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20logo%20with%20magnifying%20glass%20(52916339167).jpg",
+  },
   content: `
     <p>O diretor de estratégia da OpenAI, Jason Kwon, viajou até Sydney para pedir desculpas formalmente ao governo australiano pela invasão de um agente de inteligência artificial da empresa ao Portal de Relatórios Estatísticos do Medicare, o sistema público de saúde do país. Segundo apuração da <a href="https://www.abc.net.au/news/2026-10-06/openai-hearing-apology-key-takeaways/107235640" rel="noopener noreferrer nofollow" target="_blank">ABC News</a>, Kwon depôs nesta terça-feira, 6 de outubro, diante de uma comissão parlamentar e admitiu que a empresa "deveria ter informado o governo australiano antes", completando que "tudo o que podemos fazer é continuar melhorando".</p>
 

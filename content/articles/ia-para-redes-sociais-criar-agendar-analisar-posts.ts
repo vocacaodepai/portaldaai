@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "social media content calendar phone",
+  coverImage: {
+    url: "/images/covers/ia-para-redes-sociais-criar-agendar-analisar-posts.webp",
+    width: 1280,
+    height: 853,
+    credit: "Erik_Lucatero / Pixabay",
+    creditUrl: "https://pixabay.com/photos/mobile-phone-social-media-media-2563782/",
+  },
   seed: 79,
   kind: "guia",
   author: "Bruno Danello",
@@ -48,7 +55,7 @@ Tarefa: crie um calendário de 12 posts para outubro (3 por semana), alternando 
     </div>
 
     <h2>Agendar: Meta Business Suite, Buffer ou Metricool</h2>
-    <p>Para quem está só no Instagram e no Facebook, o próprio Meta Business Suite resolve: a <a href="https://www.facebook.com/business/help/942827662903020" rel="noopener noreferrer">central de ajuda da Meta</a> confirma que dá para criar e agendar posts para as duas redes, escolhendo data e hora, além de acompanhar o desempenho de cada publicação. É gratuito e não exige ferramenta extra. As alternativas fazem sentido quando entram LinkedIn, TikTok, Pinterest ou mais de um perfil.</p>
+    <p>Para quem está só no Instagram e no Facebook, o próprio Meta Business Suite resolve: a <a href="https://www.facebook.com/business/help/942827662903020" rel="noopener noreferrer">central de ajuda da Meta</a> confirma que dá para criar e agendar posts para as duas redes, escolhendo data e hora, além de acompanhar o desempenho de cada publicação. É gratuito e não exige ferramenta extra. As alternativas fazem sentido quando entram LinkedIn, TikTok, Pinterest ou mais de um perfil. Quando o post orgânico não alcança mais gente, o passo seguinte é pagar pelo alcance, e o guia de <a href="/artigos/anuncios-no-instagram-e-facebook-para-pequeno-negocio-orcamento-publico-e-teste">anúncios no Instagram e Facebook para pequeno negócio</a> mostra como fazer um teste de 7 dias.</p>
 
     <table>
       <thead>

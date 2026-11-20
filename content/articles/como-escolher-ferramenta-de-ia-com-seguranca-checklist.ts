@@ -13,6 +13,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "security checklist laptop trust",
+  coverImage: {
+    url: "/images/covers/como-escolher-ferramenta-de-ia-com-seguranca-checklist.webp",
+    width: 1280,
+    height: 1083,
+    credit: "RitaE / Pixabay",
+    creditUrl: "https://pixabay.com/photos/infant-hand-small-child-to-learn-3109433/",
+  },
   seed: 65,
   kind: "guia",
   author: "Bruno Danello",

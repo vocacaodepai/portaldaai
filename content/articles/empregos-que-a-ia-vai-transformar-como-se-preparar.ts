@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "future of work office people",
+  coverImage: {
+    url: "/images/covers/empregos-que-a-ia-vai-transformar-como-se-preparar.webp",
+    width: 1280,
+    height: 853,
+    credit: "John Englart from Fawkner, Australia (CC BY-SA 2.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ACalling%20Bill%20Shorten's%20office%20-%20Funeral%20for%20our%20future%20-%20Melbourne%20-%20IMG%203619%20(44309346270).jpg",
+  },
   seed: 8,
   kind: "guia",
   author: "Bruno Danello",

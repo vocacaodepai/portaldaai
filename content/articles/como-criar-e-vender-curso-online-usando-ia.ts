@@ -61,7 +61,7 @@ Tom: conversa direta, frases curtas, sem jargão sem explicação.</code></pre>
 
     <h2>Gravação e edição com IA: quanto custa de verdade</h2>
 
-    <p>Não compre câmera. Celular na altura dos olhos, luz de janela e um fone com microfone resolvem os primeiros 50 alunos. Aluno tolera imagem simples e desiste de áudio ruim. Preços verificados em 27/09/2026 nas páginas oficiais; cobrança em dólar varia com o câmbio.</p>
+    <p>Não compre câmera. Celular na altura dos olhos, luz de janela e um fone com microfone resolvem os primeiros 50 alunos. Aluno tolera imagem simples e desiste de áudio ruim. A exceção é quem grava sentado no computador com uma câmera de notebook fraca: aí uma webcam Full HD como a <a href="/artigos/logitech-c920s-webcam-vale-a-pena">Logitech C920s</a> resolve sem virar estúdio. Preços verificados em 27/09/2026 nas páginas oficiais; cobrança em dólar varia com o câmbio.</p>
 
     <table>
       <thead>

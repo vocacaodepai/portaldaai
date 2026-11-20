@@ -139,7 +139,7 @@ export async function CoverImage({
       className="h-full w-full object-cover"
     />
   );
-  const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
+  const creditText = override ? `${/^(arte|ilustração)/i.test(override.credit) ? "" : "Foto: "}${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
   const creditHref = override ? override.creditUrl : (photo as { photographerUrl: string }).photographerUrl;
   const credit = showCredit ? (
     <a

@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T15:40:00-03:00",
   imageQuery: "Anthropic logo",
+  coverImage: {
+    url: "/images/covers/anthropic-claude-startups-ano-gratis-creditos.webp",
+    width: 1280,
+    height: 720,
+    credit: "https://brandfetch.com/anthropic.com?view=library&amp;library=default&amp;collection=logos&amp;asset=idBLFXf2oS (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AAnthropic%20Logo%202.webp",
+  },
   topic: "negocios",
   content: `
     <p>A Anthropic anunciou nesta terça-feira (6), durante o evento SF Tech Week em São Francisco, uma ampliação do seu programa Claude for Startups, voltado a empresas em estágio inicial que constroem produtos sobre a Claude. Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, o pacote agora inclui um ano inteiro de acesso gratuito ao Claude Team, o plano pago em grupo da empresa, com até cinco assentos premium por startup inscrita.</p>

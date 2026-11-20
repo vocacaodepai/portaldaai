@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T20:30:00-03:00",
   topic: "negocios",
   imageQuery: "SpaceX Falcon 9 rocket launch pad",
+  coverImage: {
+    url: "/images/covers/spacex-40-bilhoes-nvidia-chips.webp",
+    width: 1280,
+    height: 623,
+    credit: "NASA Headquarters / NASA/Keegan Barber (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3ANASA%E2%80%99s%20SpaceX%20Crew-9%20Falcon%209-Dragon%20Rollout%20at%20Space%20Launch%20C%20(NHQ202409270001).jpg",
+  },
   content: `
     <p>A SpaceX está buscando levantar US$ 40 bilhões para comprar chips da Nvidia, segundo reportagem do Financial Times publicada nesta terça-feira (6 de outubro) e <a href="https://www.marketscreener.com/news/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports-ce785dd9df8cf525" rel="noopener noreferrer nofollow">reproduzida pela Reuters</a>. A estrutura do financiamento prevê cerca de US$ 10 bilhões em empréstimos bancários e US$ 30 bilhões em dívida com grau de investimento, com a gestora Apollo Global Management liderando a operação e ajudando a distribuir os títulos entre investidores.</p>
     <p>Segundo pessoas com conhecimento do assunto ouvidas pelo Financial Times, o fundo de títulos Pimco está entre os credores em negociação para financiar a transação, que deve ser concluída em 2027. Nem a SpaceX, nem a Apollo, nem a Nvidia, nem a Pimco responderam de imediato aos pedidos de comentário da Reuters até a publicação da reportagem original.</p>

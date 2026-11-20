@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-03",
   readTime: 8,
   imageQuery: "spreadsheet laptop desk calculator",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-vendendo-planilhas-automatizadas-com-ia.webp",
+    width: 1280,
+    height: 854,
+    credit: "Altnet / Pixabay",
+    creditUrl: "https://pixabay.com/photos/financial-planning-finance-business-4010999/",
+  },
   seed: 136,
   kind: "guia",
   author: "Bruno Danello",

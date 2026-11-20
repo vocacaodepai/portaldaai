@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-02",
   readTime: 7,
   imageQuery: "smartphone photo editing app screen",
+  coverImage: {
+    url: "/images/covers/como-editar-fotos-com-ia-no-celular-guia-iniciantes.webp",
+    width: 1280,
+    height: 850,
+    credit: "Firmbee / Pixabay",
+    creditUrl: "https://pixabay.com/photos/social-media-facebook-smartphone-763731/",
+  },
   seed: 129,
   kind: "guia",
   author: "Bruno Danello",

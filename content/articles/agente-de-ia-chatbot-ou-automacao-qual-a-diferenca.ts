@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 9,
   imageQuery: "flowchart decision technology desk",
+  coverImage: {
+    url: "/images/covers/agente-de-ia-chatbot-ou-automacao-qual-a-diferenca.webp",
+    width: 1280,
+    height: 853,
+    credit: "janeb13 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-pc-workplace-home-office-1185626/",
+  },
   seed: 66,
   kind: "guia",
   author: "Bruno Danello",
@@ -106,7 +113,7 @@ export const article: Article = {
     <h3>Passo 2: chatbot (dá para começar sem pagar)</h3>
     <p>Um chatbot alimentado com a lista de procedimentos, contraindicações e preços responde as dúvidas específicas e faz a triagem antes de passar para a atendente. Ferramentas de chatbot sem código costumam ter plano gratuito ou período de teste; consulte a página oficial de cada uma antes de assinar.</p>
     <h3>Passo 3: agente (só se valer a pena)</h3>
-    <p>Um agente entraria para remarcar sozinho: ler a agenda, propor três horários, confirmar com o cliente e atualizar o sistema. Como remarcações são 100 mensagens por mês e a recepção resolve cada uma em dois minutos, são pouco mais de três horas mensais. Nesse volume, o agente dificilmente paga a própria manutenção. Com 2.000 mensagens por mês, a conta muda.</p>
+    <p>Um agente entraria para remarcar sozinho: ler a agenda, propor três horários, confirmar com o cliente e atualizar o sistema. Como remarcações são 100 mensagens por mês e a recepção resolve cada uma em dois minutos, são pouco mais de três horas mensais. Nesse volume, o agente dificilmente paga a própria manutenção. Com 2.000 mensagens por mês, a conta muda. Para estimar essa conta antes de contratar, o guia sobre <a href="/artigos/quanto-custa-um-agente-de-ia-tokens-limites-e-a-volta-da-cobranca-por-uso">quanto custa um agente de IA</a> explica tokens, limites e a volta da cobrança por uso.</p>
 
     <h2>Prompts para descobrir o que você precisa</h2>
     <p>Antes de contratar qualquer coisa, use uma IA de conversa para mapear o processo. O prompt abaixo funciona no ChatGPT, no Claude ou no Gemini.</p>
@@ -129,7 +136,7 @@ Processo: [descreva aqui, etapa por etapa, com o volume mensal de cada uma]</cod
 
     <div class="callout-box callout-warn">
       <span class="callout-label">Atenção</span>
-      <p>Agente que executa ação precisa de um freio: limite de gasto, lista de sites permitidos e aprovação humana antes de qualquer pagamento ou envio em massa. Sem isso, um erro de interpretação vira prejuízo real.</p>
+      <p>Agente que executa ação precisa de um freio: limite de gasto, lista de sites permitidos e aprovação humana antes de qualquer pagamento ou envio em massa. Sem isso, um erro de interpretação vira prejuízo real, e diante do cliente quem responde costuma ser a sua empresa, como mostra o guia sobre <a href="/artigos/quando-o-agente-de-ia-erra-quem-responde-cdc-contrato-e-o-que-fazer">quando o agente de IA erra e o que diz o CDC</a>.</p>
     </div>
 
     <h2>Checklist antes de decidir</h2>

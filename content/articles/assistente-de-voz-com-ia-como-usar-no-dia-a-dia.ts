@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-30",
   readTime: 7,
   imageQuery: "smartphone voice assistant hand kitchen",
+  coverImage: {
+    url: "/images/covers/assistente-de-voz-com-ia-como-usar-no-dia-a-dia.webp",
+    width: 1280,
+    height: 853,
+    credit: "niekverlaan / Pixabay",
+    creditUrl: "https://pixabay.com/photos/telephone-mobile-call-samsung-586268/",
+  },
   seed: 109,
   kind: "guia",
   author: "Bruno Danello",
@@ -38,7 +45,7 @@ export const article: Article = {
     <h3>No Android</h3>
     <p>A maioria dos aparelhos já migrou automaticamente para o Gemini como assistente padrão. Para checar ou ajustar, vá em Configurações, busque por "Assistente do Google" ou "Gemini" e confirme se está ativado como assistente digital padrão. O acesso por voz funciona dizendo "Ei Google" ou segurando o botão lateral, dependendo do modelo do aparelho.</p>
     <h3>No iPhone</h3>
-    <p>A Siri segue sendo o assistente padrão da Apple, com recursos de IA generativa sendo adicionados aos poucos através do Apple Intelligence. Quem quer um assistente com IA mais avançada no iPhone pode instalar o app do Gemini ou do ChatGPT separadamente e usar o recurso de voz de cada um dentro do próprio aplicativo.</p>
+    <p>A Siri segue sendo o assistente padrão da Apple, com recursos de IA generativa sendo adicionados aos poucos através do Apple Intelligence. Quem quer um assistente com IA mais avançada no iPhone pode instalar o app do Gemini ou do ChatGPT separadamente e usar o recurso de voz de cada um dentro do próprio aplicativo. No Android, para quem enxerga ou ouve com dificuldade, a voz combina bem com os apps do guia de <a href="/artigos/acessibilidade-com-ia-no-celular-lookout-legenda-ao-vivo-e-be-my-eyes">acessibilidade com IA no celular</a>, que leem rótulos pela câmera e legendam áudios na hora.</p>
     <h3>Em caixas de som inteligentes</h3>
     <p>Dispositivos Google Nest e Home ainda não receberam a troca completa para Gemini no momento desta publicação, mas já ganharam atualizações de voz com IA em recursos como música, notas e listas. A Amazon segue expandindo a Alexa+, sua versão com IA generativa, para mais aparelhos Echo. Para quem quer entender as diferenças entre os principais nomes do mercado antes de escolher onde investir tempo, o guia <a href="/artigos/chatgpt-claude-gemini-qual-ia-escolher">ChatGPT, Claude ou Gemini: qual IA escolher</a> ajuda a decidir.</p>
 

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 7,
   imageQuery: "professional thinking office meeting discussion",
+  coverImage: {
+    url: "/images/covers/habilidades-humanas-que-a-ia-nao-substitui-no-trabalho.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+  },
   seed: 154,
   kind: "guia",
   author: "Bruno Danello",

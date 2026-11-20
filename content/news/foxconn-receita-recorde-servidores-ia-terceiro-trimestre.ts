@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T04:30:00-03:00",
   topic: "negocios",
   imageQuery: "Foxconn factory AI server assembly line",
+  coverImage: {
+    url: "/images/covers/foxconn-receita-recorde-servidores-ia-terceiro-trimestre.webp",
+    width: 1280,
+    height: 853,
+    credit: "19661338 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/women-crowd-protest-protesters-5963960/",
+  },
   content: `
     <p>A Foxconn, maior fabricante de eletrônicos por contrato do mundo e principal parceira de montagem de servidores da Nvidia, registrou receita de NT$ 3,03 trilhões (cerca de US$ 95,4 bilhões) no terceiro trimestre de 2026, alta de 47% em relação ao mesmo período do ano passado. O número veio bem acima da estimativa de analistas, de NT$ 2,83 trilhões, segundo reportagem publicada em 5 de outubro pela <a href="https://cryptobriefing.com/foxconn-q3-revenue-ai-server-demand/" target="_blank" rel="noopener noreferrer nofollow">CryptoBriefing</a> com base em dados divulgados pela própria companhia.</p>
 

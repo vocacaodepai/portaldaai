@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T02:35:00-03:00",
   topic: "negocios",
   imageQuery: "Satya Nadella portrait",
+  coverImage: {
+    url: "/images/covers/microsoft-meta-reduzem-uso-claude-anthropic-custos.webp",
+    width: 1280,
+    height: 720,
+    credit: "Brian Smale and Microsoft (CC BY-SA 4.0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AMS-Exec-Nadella-Satya-2017-08-31-22.jpg",
+  },
   content: `
     <p>Microsoft e Meta reduziram o uso interno do Claude, modelo de IA da Anthropic, como parte de um esforço para cortar custos e empurrar funcionários para ferramentas próprias, segundo reportagem do site <a href="https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-meta-steer-staff-from-anthropic-claude-in-house-ai/" target="_blank" rel="noopener noreferrer nofollow">PYMNTS</a> publicada em 5 de outubro, que cita informações originalmente levantadas pelo site The Information. A mudança marca um recuo relevante numa parceria que, até pouco tempo atrás, parecia só crescer.</p>
 

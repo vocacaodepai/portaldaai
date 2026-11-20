@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-05",
   readTime: 8,
   imageQuery: "small business owner planning marketing notebook",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-planejar-marketing-de-pequena-empresa.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+  },
   seed: 152,
   kind: "guia",
   author: "Bruno Danello",
@@ -28,7 +35,7 @@ export const article: Article = {
 
     <h2>Por que pequena empresa prioriza marketing no uso de IA</h2>
 
-    <p>Levantamento do <a href="https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/" rel="noopener noreferrer">Sebrae sobre IA em pequenos negócios em 2026</a> mostra que pequenas e médias empresas usam IA principalmente para "marketing e publicidade" (59% dos casos), enquanto microempreendedores concentram ainda mais esse uso (74%). Isso contrasta com grandes empresas, que priorizam análise de dados (67%). Ou seja: para o pequeno negócio, a IA já é vista como ferramenta de divulgação antes de ser vista como ferramenta analítica, o que faz sentido porque divulgação consistente costuma ser o gargalo de quem não tem equipe de marketing dedicada.</p>
+    <p>Levantamento do <a href="https://blog.rn.sebrae.com.br/inteligencia-artificial-pequenos-negocios/" rel="noopener noreferrer">Sebrae sobre IA em pequenos negócios em 2026</a> mostra que pequenas e médias empresas usam IA principalmente para "marketing e publicidade" (59% dos casos), enquanto microempreendedores concentram ainda mais esse uso (74%). Isso contrasta com grandes empresas, que priorizam análise de dados (67%). Ou seja: para o pequeno negócio, a IA já é vista como ferramenta de divulgação antes de ser vista como ferramenta analítica, o que faz sentido porque divulgação consistente costuma ser o gargalo de quem não tem equipe de marketing dedicada. Para um retrato mais recente de quantos pequenos negócios já usam IA e para quê, veja o texto sobre <a href="/artigos/pequenos-negocios-e-ia-pesquisa-sebrae-meta-o-que-os-52-por-cento-fazem-e-por-onde-comecar">a pesquisa do Sebrae e da Meta</a>.</p>
 
     <p>Apesar da familiaridade alta com ferramentas de IA generativa (96% das pequenas e médias empresas já conhecem alguma, segundo a <a href="https://agenciasebrae.com.br/dados/pequenos-negocios-abracam-a-inteligencia-artificial-para-otimizar-o-tempo-e-inovar/" rel="noopener noreferrer">pesquisa da Agência Sebrae</a>), o uso frequente ainda é baixo, de 15% entre pequenas e médias empresas, o que sugere que a maioria conhece a ferramenta mas não criou ainda uma rotina de uso. É exatamente essa rotina que um planejamento estruturado ajuda a criar, parecido com o que o guia <a href="/artigos/como-usar-ia-para-criar-rotina-diaria-produtiva">como usar IA para criar rotina diária produtiva</a> descreve para a vida pessoal.</p>
 

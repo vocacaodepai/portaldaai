@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-09-28",
   readTime: 9,
   imageQuery: "workflow automation diagram screen",
+  coverImage: {
+    url: "/images/covers/make-ou-zapier-qual-automacao-com-ia-vale-mais-a-pena.webp",
+    width: 1280,
+    height: 802,
+    credit: "geralt / Pixabay",
+    creditUrl: "https://pixabay.com/photos/businessman-production-planning-3105871/",
+  },
   seed: 95,
   kind: "guia",
   author: "Bruno Danello",

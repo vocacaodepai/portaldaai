@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T03:45:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "pessoas trabalhando em escritório com computadores",
+  coverImage: {
+    url: "/images/covers/workday-relatorio-ia-nao-reduz-vagas-mas-muda-tudo.webp",
+    width: 1280,
+    height: 853,
+    credit: "markusspiske / Pixabay",
+    creditUrl: "https://pixabay.com/photos/home-office-laptop-notebook-startup-599475/",
+  },
   content: `
     <p>A Workday divulgou, em 5 de outubro, a edição de outubro de 2026 do seu Relatório Global da Força de Trabalho, mostrando que a maioria dos líderes empresariais não espera que a inteligência artificial reduza o tamanho de suas equipes, mesmo com a adoção de IA avançando rápido dentro das empresas. Segundo o levantamento, divulgado pela <a href="https://prnewswire.com/news-releases/workday-global-workforce-report-ai-is-rewriting-jobs-more-than-its-cutting-them-302898076.html" target="_blank" rel="noopener noreferrer nofollow">PR Newswire</a>, 40% dos líderes esperam que a IA ajude a tirar mais proveito dos funcionários que já têm, contra apenas 28% que esperam reduzir o quadro de pessoal.</p>
 

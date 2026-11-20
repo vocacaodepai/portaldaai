@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T12:24:00-03:00",
   imageQuery: "Mistral AI logo",
+  coverImage: {
+    url: "/images/covers/mistral-lanca-large-4-le-chonk-trilhao-parametros.webp",
+    width: 1280,
+    height: 1562,
+    credit: "Prime Minister's Office (GODL-India) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3APrime%20Minister%20of%20Bharat%2C%20Shri%20Narendra%20Damodardas%20Modi%20with%20the%20Co-Founder%20and%20CEO%20of%20Mistral%20AI%2C%20Mr.%20Arthur%20Mensch.jpg",
+  },
   topic: "lancamentos",
   content: `
     <p>A francesa Mistral AI apresentou nesta terça-feira (6), durante a conferência AI Everything em Abu Dhabi, o Mistral Large 4, modelo apelidado internamente de "Le Chonk". Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, trata-se de um modelo multimodal de mistura de especialistas com 1 trilhão de parâmetros totais e 49 bilhões ativos por vez, treinado inteiramente em infraestrutura própria da empresa, usando 4 mil GPUs Nvidia instaladas em data centers na Europa.</p>

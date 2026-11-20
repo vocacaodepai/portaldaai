@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T12:10:00-03:00",
   topic: "mercado-trabalho",
   imageQuery: "programmer writing code on laptop",
+  coverImage: {
+    url: "/images/covers/programadores-evitam-ia-trabalho-stack-overflow.webp",
+    width: 1280,
+    height: 854,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/code-coding-computer-data-1839406/",
+  },
   content: `
     <p>Uma pesquisa do Stack Overflow, maior comunidade mundial de perguntas e respostas sobre programação, mostra que 6 em cada 10 profissionais de tecnologia hoje evitam usar inteligência artificial no trabalho, mesmo fazendo parte do grupo que primeiro adotou a tecnologia em massa. Segundo reportagem da <a href="https://krdo.com/money/cnn-business-consumer/2026/10/05/their-jobs-were-among-the-first-to-be-changed-by-ai-now-some-are-trying-to-avoid-it/" rel="noopener noreferrer nofollow" target="_blank">CNN Business</a>, publicada em 5 de outubro, o levantamento ouviu 30 mil desenvolvedores de software em 169 países, com 103 perguntas, e foi compartilhado em exclusividade com a emissora americana antes da divulgação pública completa.</p>
 

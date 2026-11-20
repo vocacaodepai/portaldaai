@@ -12,6 +12,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-07T04:35:00-03:00",
   imageQuery: "advertising creative studio laptop designer",
+  coverImage: {
+    url: "/images/covers/melius-ia-agentes-criativos-anuncios-20-milhoes.webp",
+    width: 1280,
+    height: 853,
+    credit: "ptra / Pixabay",
+    creditUrl: "https://pixabay.com/photos/workplace-macbook-computer-digital-4155023/",
+  },
   topic: "negocios",
   content: `
     <p>A startup Melius anunciou nesta terça-feira (6) uma rodada Série A de US$ 20 milhões liderada pela CRV, somando US$ 25 milhões captados desde a fundação, incluindo uma rodada seed anterior de US$ 5 milhões liderada pela General Catalyst. Segundo reportagem do <a href="https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a empresa se descreve como uma "agents lab for creative work", uma plataforma de agentes de inteligência artificial que gera campanhas publicitárias, artes e vídeos para profissionais de marketing, agências e marcas a partir de comandos em linguagem natural.</p>

@@ -10,6 +10,13 @@ export const item: NewsItem = {
   date: "2026-10-05",
   publishedAt: "2026-10-06T15:55:00-03:00",
   imageQuery: "data center server room",
+  coverImage: {
+    url: "/images/covers/pesquisadores-detectam-frota-agentes-ia-chinesa-amap.webp",
+    width: 1280,
+    height: 960,
+    credit: "Rsparks3 (CC0) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AData%20center%20roof.jpg",
+  },
   topic: "seguranca",
   content: `
     <p>Um grupo de pesquisadores independentes publicou no último domingo (4) os primeiros achados sobre uma "frota" de agentes de inteligência artificial detectada operando na internet chinesa, consultando repetidamente o serviço de mapas Amap, da Alibaba, em busca de rotas e orientações de entrada para locais públicos como parques, zoológicos e hospitais. Segundo reportagem do <a href="https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a>, a descoberta usou a mesma técnica de monitoramento que já havia identificado atividade de agentes da OpenAI anteriormente: rastrear os registros de tráfego do serviço de varredura de domínios urlquery.</p>

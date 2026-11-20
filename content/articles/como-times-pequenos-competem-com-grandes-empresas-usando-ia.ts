@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "small team office collaboration startup",
+  coverImage: {
+    url: "/images/covers/como-times-pequenos-competem-com-grandes-empresas-usando-ia.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-start-up-people-593341/",
+  },
   seed: 67,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-06",
   readTime: 9,
   imageQuery: "microphone sound waves recording studio",
+  coverImage: {
+    url: "/images/covers/ganhar-dinheiro-com-clonagem-de-voz-usando-ia.webp",
+    width: 1280,
+    height: 848,
+    credit: "Pexels / Pixabay",
+    creditUrl: "https://pixabay.com/photos/audio-microphone-1844798/",
+  },
   seed: 161,
   kind: "guia",
   author: "Bruno Danello",

@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "career planning notebook calendar office desk",
+  coverImage: {
+    url: "/images/covers/plano-de-carreira-com-ia-metas-de-90-dias.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-start-up-people-593341/",
+  },
   seed: 174,
   kind: "guia",
   author: "Bruno Danello",

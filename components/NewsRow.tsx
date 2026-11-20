@@ -41,6 +41,7 @@ export async function NewsRow({
       {item.imageQuery && (
         <Link href={`/noticias/${item.slug}`} className="block shrink-0 self-start">
           <CoverImage
+            override={item.coverImage}
             query={item.imageQuery}
             seed={newsImageSeed(item.slug)}
             alt=""

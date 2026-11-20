@@ -13,6 +13,13 @@ export const item: NewsItem = {
   publishedAt: "2026-10-06T08:25:00-03:00",
   topic: "negocios",
   imageQuery: "AI inference chip data center silicon wafer",
+  coverImage: {
+    url: "/images/covers/etched-propostas-40-50-bilhoes-valuation.webp",
+    width: 1280,
+    height: 1265,
+    credit: "WikimediaImages / Pixabay",
+    creditUrl: "https://pixabay.com/photos/integrated-circuit-device-chip-876099/",
+  },
   content: `
     <p>A Etched, startup americana especializada em chips feitos sob medida para acelerar a inferência de inteligência artificial (a etapa em que um modelo já treinado gera respostas), está avaliando propostas de investimento que avaliam a empresa entre US$ 40 bilhões e US$ 50 bilhões, segundo reportagem publicada em 5 de outubro pelo <a href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/" target="_blank" rel="noopener noreferrer nofollow">TechCrunch</a> com base em fontes a par das negociações. O valor é o dobro, ou mais, dos US$ 21 bilhões em que a companhia foi avaliada havia pouco mais de um mês.</p>
 

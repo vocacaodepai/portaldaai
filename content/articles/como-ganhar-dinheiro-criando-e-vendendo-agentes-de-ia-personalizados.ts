@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "custom software developer building workflow",
+  coverImage: {
+    url: "/images/covers/como-ganhar-dinheiro-criando-e-vendendo-agentes-de-ia-personalizados.webp",
+    width: 1280,
+    height: 852,
+    credit: "yeiferr / Pixabay",
+    creditUrl: "https://pixabay.com/photos/computer-laptop-tech-blue-computer-4795762/",
+  },
   seed: 82,
   kind: "guia",
   author: "Bruno Danello",
@@ -45,7 +52,7 @@ export const article: Article = {
         <tr><td>Cobrança amigável</td><td>Identifica boletos vencidos e envia lembretes no tom da marca</td><td>Academias, cursos, assinaturas</td><td>Média</td></tr>
       </tbody>
     </table>
-    <p>Os dois primeiros têm guias próprios aqui no portal: <a href="/artigos/ia-para-email-organizar-caixa-de-entrada-responder-mais-rapido">IA para e-mail</a> e <a href="/artigos/como-criar-chatbot-de-atendimento-para-seu-site-sem-programar">chatbot de atendimento sem programar</a>. O de estoque segue a lógica de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">IA para gerenciar estoque no pequeno comércio</a>. Evite, pelo menos no início, agentes que tomam decisão financeira sozinhos (aprovar reembolso, pagar fornecedor) ou que lidam com dado de saúde: o risco jurídico é seu e do cliente.</p>
+    <p>Os dois primeiros têm guias próprios aqui no portal: <a href="/artigos/ia-para-email-organizar-caixa-de-entrada-responder-mais-rapido">IA para e-mail</a> e <a href="/artigos/como-criar-chatbot-de-atendimento-para-seu-site-sem-programar">chatbot de atendimento sem programar</a>, e quem quer transformar o chatbot em oferta para clientes encontra escopo, pacote e cobrança de manutenção no guia de <a href="/artigos/chatbot-de-faq-para-negocio-local-como-servico-escopo-preco-e-manutencao">chatbot de FAQ para negócio local como serviço</a>. O de estoque segue a lógica de <a href="/artigos/como-usar-ia-para-gerenciar-estoque-pequeno-comercio">IA para gerenciar estoque no pequeno comércio</a>. Evite, pelo menos no início, agentes que tomam decisão financeira sozinhos (aprovar reembolso, pagar fornecedor) ou que lidam com dado de saúde: o risco jurídico é seu e do cliente.</p>
 
     <h2>Ferramentas para montar sem programar</h2>
     <p>Três plataformas cobrem a maioria dos projetos. Preços conferidos nas páginas oficiais em 27/09/2026 e sujeitos a mudança.</p>
@@ -82,7 +89,7 @@ Tom: direto, educado, sem emoji. Assine como "Equipe [empresa]".</code></pre>
     <p>Essas faixas são raciocínio de análise, não garantia. O guia de <a href="/artigos/como-precificar-servicos-usando-ia-no-trabalho">precificar serviços usando IA</a> ajuda a montar a proposta com a IA calculando cenários. Formalize desde o primeiro contrato: MEI resolve o começo para a maioria, e um contador diz quando o faturamento pede outro enquadramento.</p>
 
     <h2>Exemplo brasileiro: agente de qualificação para uma imobiliária</h2>
-    <p>Cenário de análise. Uma imobiliária de Goiânia recebe 300 contatos por mês pelo site e responde metade com um dia de atraso. Um prestador monta no Make (plano Core, US$ 12 por mês) um agente que responde no WhatsApp em segundos, pergunta bairro, faixa de preço, prazo e se já tem financiamento aprovado, e agenda a visita direto na agenda do corretor. O modelo de IA entra via API; nesse volume, o custo estimado fica abaixo de R$ 100 por mês, mas o valor exato depende do modelo e do tamanho das conversas, então confira a tabela de preços do provedor.</p>
+    <p>Cenário de análise. Uma imobiliária de Goiânia recebe 300 contatos por mês pelo site e responde metade com um dia de atraso. Um prestador monta no Make (plano Core, US$ 12 por mês) um agente que responde no WhatsApp em segundos, pergunta bairro, faixa de preço, prazo e se já tem financiamento aprovado, e agenda a visita direto na agenda do corretor. O modelo de IA entra via API; nesse volume, o custo estimado fica abaixo de R$ 100 por mês, mas o valor exato depende do modelo e do tamanho das conversas, então confira a tabela de preços do provedor. O guia sobre <a href="/artigos/quanto-custa-um-agente-de-ia-tokens-limites-e-a-volta-da-cobranca-por-uso">quanto custa um agente de IA</a> mostra como estimar o gasto de tokens antes de fechar o preço com o cliente.</p>
     <p>Proposta: R$ 4.000 pelo projeto, entregue em 3 semanas, mais R$ 600 mensais de manutenção incluindo as ferramentas. O cliente aceitou porque a conta foi apresentada em leads atendidos no mesmo dia, não em "tecnologia". O material de venda seguiu a estrutura de <a href="/artigos/como-escrever-pitch-de-negocio-com-ia">pitch de negócio com IA</a>: problema, solução, resultado esperado, em uma página. Depois do terceiro cliente parecido, o prestador transformou o fluxo em modelo reutilizável, o caminho descrito em <a href="/artigos/como-ganhar-dinheiro-vendendo-automacoes-prontas-com-ia">vender automações prontas com IA</a>.</p>
 
     <h2>Erros comuns e limites do serviço</h2>

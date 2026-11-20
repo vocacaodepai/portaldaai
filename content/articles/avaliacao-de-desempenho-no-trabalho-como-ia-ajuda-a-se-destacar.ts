@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "office performance review meeting laptop",
+  coverImage: {
+    url: "/images/covers/avaliacao-de-desempenho-no-trabalho-como-ia-ajuda-a-se-destacar.webp",
+    width: 1280,
+    height: 853,
+    credit: "StartupStockPhotos / Pixabay",
+    creditUrl: "https://pixabay.com/photos/startup-meeting-brainstorming-594090/",
+  },
   seed: 119,
   kind: "guia",
   author: "Bruno Danello",

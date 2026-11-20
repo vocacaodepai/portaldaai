@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-10-04",
   readTime: 7,
   imageQuery: "small business invoice quote laptop",
+  coverImage: {
+    url: "/images/covers/ia-para-orcamentos-e-cotacoes-responder-clientes-rapido.webp",
+    width: 1280,
+    height: 853,
+    credit: "089photoshootings / Pixabay",
+    creditUrl: "https://pixabay.com/photos/people-business-meeting-1979261/",
+  },
   seed: 142,
   kind: "guia",
   author: "Bruno Danello",

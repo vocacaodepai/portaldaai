@@ -14,6 +14,13 @@ export const article: Article = {
   updated: "2026-09-27",
   readTime: 8,
   imageQuery: "personal finance budget app phone",
+  coverImage: {
+    url: "/images/covers/como-usar-ia-para-organizar-financas-pessoais.webp",
+    width: 1280,
+    height: 865,
+    credit: "nattanan23 / Pixabay",
+    creditUrl: "https://pixabay.com/photos/money-coin-investment-business-2724241/",
+  },
   seed: 71,
   kind: "guia",
   author: "Bruno Danello",
@@ -112,7 +119,7 @@ Termine com 3 ações concretas para o próximo mês, cada uma com o valor que e
 
     <div class="callout-box callout-tip">
       <span class="callout-label">Dica</span>
-      <p>Peça para a IA marcar todo lançamento que se repetiu nos últimos três meses com o mesmo valor. É o jeito mais rápido de achar assinatura esquecida, seguro embutido em conta e "teste grátis" que virou cobrança.</p>
+      <p>Peça para a IA marcar todo lançamento que se repetiu nos últimos três meses com o mesmo valor. É o jeito mais rápido de achar assinatura esquecida, seguro embutido em conta e "teste grátis" que virou cobrança. Quando o lançamento estranho estiver na conta do celular ou da internet, o guia de <a href="/artigos/fatura-de-celular-e-internet-com-ia-contestar-cobranca-e-reclamar-na-anatel">contestar a fatura de celular e internet</a> explica como pedir a devolução.</p>
     </div>
 
     <h2>Segurança: o que nunca colar em uma IA</h2>

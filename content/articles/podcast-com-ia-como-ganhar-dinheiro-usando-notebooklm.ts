@@ -13,6 +13,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 8,
   imageQuery: "podcast microphone home studio setup",
+  coverImage: {
+    url: "/images/covers/podcast-com-ia-como-ganhar-dinheiro-usando-notebooklm.webp",
+    width: 1280,
+    height: 853,
+    credit: "lincerta / Pixabay",
+    creditUrl: "https://pixabay.com/photos/microphone-music-sound-mic-musical-2130806/",
+  },
   seed: 101,
   kind: "guia",
   author: "Bruno Danello",

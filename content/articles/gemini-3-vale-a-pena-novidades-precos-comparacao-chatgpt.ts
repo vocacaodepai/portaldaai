@@ -12,6 +12,13 @@ export const article: Article = {
   date: "2026-09-29",
   readTime: 9,
   imageQuery: "smartphone chat assistant app interface",
+  coverImage: {
+    url: "/images/covers/gemini-3-vale-a-pena-novidades-precos-comparacao-chatgpt.webp",
+    width: 1280,
+    height: 853,
+    credit: "stevepb / Pixabay",
+    creditUrl: "https://pixabay.com/photos/smartphone-cellphone-touchscreen-1894723/",
+  },
   seed: 103,
   kind: "guia",
   author: "Bruno Danello",

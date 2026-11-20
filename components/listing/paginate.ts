@@ -1,6 +1,20 @@
-/** Paginação das listagens: 12 artigos ou 30 notícias por página. */
+/**
+ * Paginação das listagens. /categoria/ferramentas segue com 12 por página
+ * (ARTICLES_PER_PAGE, mantém as URLs /pagina/N que já existiam); /artigos,
+ * AI Indica, as 5 categorias gerais e as rotas de filtro usam 30
+ * (LISTING_PER_PAGE, divisível pela grade de 2 e de 3 colunas).
+ */
 export const ARTICLES_PER_PAGE = 12;
+export const LISTING_PER_PAGE = 30;
 export const NEWS_PER_PAGE = 30;
+
+/**
+ * Rotas de filtro (/categoria/ai-indica/<produto>, /categoria/<slug>/<subtipo>)
+ * com menos artigos que isto continuam no ar (os chips apontam pra elas), mas
+ * saem do índice (noindex, follow) e do sitemap: listagem de 1 ou 2 cards é
+ * página rala, só repete o que já está na categoria-mãe.
+ */
+export const MIN_INDEXABLE_FILTER = 3;
 
 export function countPages(total: number, perPage: number): number {
   return Math.max(1, Math.ceil(total / perPage));

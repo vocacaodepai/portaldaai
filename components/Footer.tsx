@@ -7,7 +7,7 @@ import { CookiePreferencesButton } from "./CookiePreferencesButton";
 import { INSTITUTIONAL_NAV } from "./Header";
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
+const GA_ID = "G-J2V2PCNK2T";
 
 export function Footer() {
   const year = new Date().getFullYear();

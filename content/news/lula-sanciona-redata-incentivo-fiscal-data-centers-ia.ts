@@ -21,6 +21,6 @@ export const item: NewsItem = {
       </div>
 
     <h2>Por que isso importa</h2>
-    <p>Segundo estimativas do governo federal, a renúncia fiscal deve somar cerca de R$ 5,2 bilhões em 2026, caindo para aproximadamente R$ 1 bilhão em cada um dos dois anos seguintes. O Redata se soma a outras iniciativas recentes do governo brasileiro para atrair investimento em infraestrutura de IA para o país — um movimento que compete diretamente com incentivos semelhantes oferecidos por outros países que disputam a instalação de data centers de grandes provedores de nuvem e laboratórios de inteligência artificial.</p>
+    <p>Segundo estimativas do governo federal, a renúncia fiscal deve somar cerca de R$ 5,2 bilhões em 2026, caindo para aproximadamente R$ 1 bilhão em cada um dos dois anos seguintes. O guia sobre <a href="/artigos/data-centers-de-ia-e-energia-no-brasil-redata-conta-de-luz-e-o-que-esperar">data centers de IA, energia e o que o Redata muda na conta de luz</a> explica as contrapartidas e o que ainda depende de regulamentação. O Redata se soma a outras iniciativas recentes do governo brasileiro para atrair investimento em infraestrutura de IA para o país — um movimento que compete diretamente com incentivos semelhantes oferecidos por outros países que disputam a instalação de data centers de grandes provedores de nuvem e laboratórios de inteligência artificial.</p>
   `,
 };

@@ -23,14 +23,18 @@ export function CookieConsent({ enabled }: { enabled: boolean }) {
     return () => window.removeEventListener(CONSENT_OPEN_EVENT, onOpen);
   }, [enabled]);
 
-  // No servidor `consent` é null; o aviso só aparece depois da hidratação.
+  // O aviso vem pronto no HTML do servidor (antes só aparecia depois da
+  // hidratação, uns 20 s depois no celular, e o Google contava esse atraso
+  // como o "conteúdo principal" da página, o LCP). Para quem já escolheu, o
+  // script CONSENT_INIT do layout marca o <html> e o CSS esconde o aviso
+  // antes da primeira pintura; depois de montado, o componente decide sozinho.
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     const id = requestAnimationFrame(() => setMounted(true));
     return () => cancelAnimationFrame(id);
   }, []);
 
-  const open = enabled && mounted && (consent === null || forcedOpen);
+  const open = enabled && (!mounted || consent === null || forcedOpen);
   if (!open) return null;
 
   function choose(ads: boolean) {
@@ -43,6 +47,8 @@ export function CookieConsent({ enabled }: { enabled: boolean }) {
       role="dialog"
       aria-live="polite"
       aria-label="Aviso de cookies"
+      data-cookie-banner=""
+      data-forced={forcedOpen ? "" : undefined}
       className="fixed inset-x-0 bottom-0 z-50 p-3 sm:p-4"
     >
       <div className="mx-auto flex max-w-3xl flex-col gap-3 rounded-xl border border-border bg-surface p-4 text-sm shadow-2xl sm:flex-row sm:items-center sm:gap-5">

@@ -11,6 +11,13 @@ export const item: NewsItem = {
   date: "2026-10-06",
   publishedAt: "2026-10-06T01:35:00-03:00",
   imageQuery: "OpenAI logo",
+  coverImage: {
+    url: "/images/covers/openai-astra-marca-processo-tradesun.webp",
+    width: 1280,
+    height: 853,
+    credit: "ChatGPT (Public domain) / Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20brain%20network%20visualization.png",
+  },
   topic: "negocios",
   content: `
     <p>A empresa de software TradeSun entrou com uma ação de infração de marca contra a OpenAI na Justiça Federal do Distrito Norte da Califórnia, alegando que o nome "Astra", usado no modelo GPT-6 Astra lançado no mês passado, infringe a marca registrada que a TradeSun diz usar desde 2021. Segundo reportagem do <a href="https://www.law360.com/articles/2534051/openai-s-astra-name-causes-reverse-confusion-co-says" target="_blank" rel="noopener noreferrer nofollow">Law360</a>, a TradeSun obteve o registro federal da marca Astra em 2022 para serviços de software baseados em IA, bem antes de a OpenAI adotar o mesmo nome para seu modelo de linguagem mais recente.</p>

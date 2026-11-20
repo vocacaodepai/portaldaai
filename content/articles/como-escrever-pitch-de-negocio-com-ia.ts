@@ -92,7 +92,7 @@ Pitch:
 
     <p>O pitch escrito vira dois materiais: os slides e a sua fala. Para os slides, a regra é um bloco por slide, uma frase por slide, um número grande quando houver número. O guia de <a href="/artigos/como-criar-apresentacoes-e-slides-profissionais-com-ia">criar apresentações e slides com IA</a> mostra como gerar o deck a partir do texto em menos de uma hora. Para a fala, grave-se no celular e peça à IA para transcrever e apontar vícios: "então", "tipo", frases que não terminam.</p>
 
-    <p>Se a apresentação for enviada em vídeo, como pedem alguns programas de aceleração, o artigo sobre <a href="/artigos/ia-para-video-criar-avatar-digital-que-fala-por-voce">avatar digital com IA</a> explica quando isso faz sentido e quando o investidor quer ver você, não um avatar (quase sempre a segunda opção). Para ajustar o preço do produto que aparece no bloco de modelo de negócio, o guia de <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">precificar produtos e serviços com IA</a> evita o erro clássico de apresentar margem que não fecha.</p>
+    <p>Se a apresentação for enviada em vídeo, como pedem alguns programas de aceleração, o artigo sobre <a href="/artigos/ia-para-video-criar-avatar-digital-que-fala-por-voce">avatar digital com IA</a> explica quando isso faz sentido e quando o investidor quer ver você, não um avatar (quase sempre a segunda opção). Para ajustar o preço do produto que aparece no bloco de modelo de negócio, o guia de <a href="/artigos/como-precificar-produtos-e-servicos-com-ia">precificar produtos e serviços com IA</a> evita o erro clássico de apresentar margem que não fecha. Se o bloco de modelo de negócio ainda está confuso, monte antes o <a href="/artigos/plano-de-negocios-com-ia-canvas-passo-a-passo">Canvas de nove blocos com IA</a>, que vira a espinha do pitch.</p>
 
     <h2>Erros comuns em pitches escritos com IA</h2>
 
@@ -111,7 +111,7 @@ Pitch:
 
     <p>Também vale um alerta sobre confidencialidade: não cole no chat dados de clientes identificáveis, contratos com terceiros nem informação que você não mostraria em uma reunião aberta.</p>
 
-    <p>Um bom pitch é o começo de uma conversa, não o fim. Escreva o rascunho hoje com o primeiro prompt, rode o interrogatório amanhã e teste a versão de 30 segundos com alguém que não conhece o seu setor. Se a pessoa consegue repetir o que você faz e o que você pede, o pitch está pronto. Para o que vem depois do sim, a categoria <a href="/negocios">Negócios com IA</a> tem o caminho, e o guia de <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">criar um negócio digital com IA do zero</a> mostra o que fazer com o dinheiro que entrou.</p>
+    <p>Um bom pitch é o começo de uma conversa, não o fim. Escreva o rascunho hoje com o primeiro prompt, rode o interrogatório amanhã e teste a versão de 30 segundos com alguém que não conhece o seu setor. Se a pessoa consegue repetir o que você faz e o que você pede, o pitch está pronto. Para o que vem depois do sim, a categoria <a href="/categoria/negocios">Negócios com IA</a> tem o caminho, e o guia de <a href="/artigos/como-criar-um-negocio-digital-usando-ia-do-zero">criar um negócio digital com IA do zero</a> mostra o que fazer com o dinheiro que entrou.</p>
   `,
   faq: [
     {
