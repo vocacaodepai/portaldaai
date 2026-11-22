@@ -50,7 +50,7 @@ Se algum registro estiver ilegível ou incompleto, liste em separado em vez de i
 
     <h2>Passo 2: peça a análise que importa (curva ABC e giro)</h2>
 
-    <p>Com a tabela pronta, a primeira análise que vale a pena é a curva ABC: separar os produtos que respondem pela maior parte do faturamento (A) dos que vendem pouco (C). Isso diz onde a sua atenção e o seu dinheiro devem ficar. A segunda é o giro: quantos dias, em média, cada produto leva para sair. Junte as duas e você enxerga o que está travando caixa.</p>
+    <p>Com a tabela pronta, a primeira análise que vale a pena é a curva ABC: separar os produtos que respondem pela maior parte do faturamento (A) dos que vendem pouco (C). Isso diz onde a sua atenção e o seu dinheiro devem ficar (o guia da <a href="/artigos/curva-abc-de-estoque-com-ia-o-que-repor-e-o-que-encalha">curva ABC de estoque com IA</a> detalha as cinco etapas e a regra de reposição de cada classe). A segunda é o giro: quantos dias, em média, cada produto leva para sair. Junte as duas e você enxerga o que está travando caixa.</p>
 
     <pre><code>Segue minha planilha de vendas e estoque dos últimos 90 dias.
 Faça, em português simples e mostrando as contas:

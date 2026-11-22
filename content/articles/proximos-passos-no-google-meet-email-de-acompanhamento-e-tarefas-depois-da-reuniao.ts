@@ -76,6 +76,7 @@ export const article: Article = {
         <tr><td>Próximos passos no Meet</td><td>Rascunho de e-mail e tarefas no Google Tarefas</td><td>Reuniões com encaminhamento claro</td></tr>
         <tr><td>Resumo no Google Chat</td><td>Recap dentro da conversa</td><td>Quando o time vive no Chat</td></tr>
         <tr><td>Tradução de fala</td><td>Fala traduzida ao vivo</td><td>Reuniões com idiomas diferentes</td></tr>
+        <tr><td><a href="/artigos/pareamento-de-video-no-google-meet-no-celular-interprete-de-libras-e-legendas">Pareamento de vídeo</a></td><td>Seu quadro fixo ao lado do de outra pessoa</td><td>Reuniões com intérprete de Libras ou dois apresentadores</td></tr>
       </tbody>
     </table>
 
