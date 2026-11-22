@@ -45,7 +45,7 @@ export const article: Article = {
       <li>Mídia: arquivos de áudio, imagens e vídeos públicos do YouTube.</li>
       <li>Outros: endereços de sites, e-books do Google Play Livros e conversas do próprio Gemini.</li>
     </ul>
-    <p>Cada fonte pode ter até 500 mil palavras ou 200 MB, no caso de arquivos enviados. Isso é bastante: um livro inteiro cabe com folga. Quem precisa transformar reunião gravada em texto antes de subir pode começar pelas <a href="/artigos/melhores-ias-para-transcrever-audio-e-video-em-portugues">melhores IAs para transcrever áudio e vídeo em português</a>, embora o próprio caderno já aceite áudio.</p>
+    <p>Cada fonte pode ter até 500 mil palavras ou 200 MB, no caso de arquivos enviados. Isso é bastante: um livro inteiro cabe com folga. Quem precisa transformar reunião gravada em texto antes de subir pode começar pelas <a href="/artigos/melhores-ias-para-transcrever-audio-e-video-em-portugues">melhores IAs para transcrever áudio e vídeo em português</a>, embora o próprio caderno já aceite áudio. Para estudar por um livro sem ter o arquivo em mãos, o Google também passou a oferecer obras abertas dentro do caderno, tema do guia sobre <a href="/artigos/livros-didaticos-gratis-no-gemini-notebook-openstax-como-adicionar-e-limites">livros didáticos grátis no Gemini Notebook</a>.</p>
 
     <h2>Limites do plano gratuito e dos planos pagos</h2>
     <p>No plano gratuito, a mesma página de fontes informa que o caderno comporta até 50 fontes. O uso diário é medido por cota: a <a href="https://support.google.com/gemininotebook/answer/17670842" rel="noopener noreferrer" target="_blank">página de limites de uso</a> não traz números absolutos, só múltiplos do limite padrão, que é o do plano grátis.</p>

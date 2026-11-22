@@ -81,7 +81,7 @@ export const article: Article = {
 
     <h3>2. Marcadores e filtros do próprio Gmail</h3>
 
-    <p>Crie marcadores como "Responder hoje" e "Aguardando cliente" e use filtros por remetente. Não tem IA, mas é a base que faz qualquer automação funcionar depois, e funciona em português hoje.</p>
+    <p>Crie marcadores como "Responder hoje" e "Aguardando cliente" e use filtros por remetente. Não tem IA, mas é a base que faz qualquer automação funcionar depois, e funciona em português hoje. Quem domina esse básico pode até cobrar para arrumar a caixa de outras pessoas, como explica o guia de <a href="/artigos/organizacao-de-caixa-de-entrada-no-gmail-como-servico-filtros-marcadores-e-lgpd">organização de caixa de entrada no Gmail como serviço</a>.</p>
 
     <h3>3. Automação própria</h3>
 

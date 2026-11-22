@@ -128,7 +128,7 @@ Inclua o aviso de que os valores do exemplo são fictícios.</code></pre>
 
     <h2>Próximo passo</h2>
 
-    <p>Monte a primeira versão com uma receita sua e teste por uma semana. Se funcionar, expanda para um segundo nicho, como marmitas ou salgados. Para quem prefere atender cliente a cliente, o texto sobre o <a href="/artigos/cardapio-digital-como-servico-para-restaurantes-pacote-e-preco-com-ia">cardápio digital como serviço</a> mostra o caminho de serviço. Mais ideias de produtos ficam na categoria de monetização do Portal da AI.</p>
+    <p>Monte a primeira versão com uma receita sua e teste por uma semana. Se funcionar, expanda para um segundo nicho, como marmitas ou salgados. Para quem prefere atender cliente a cliente, o texto sobre o <a href="/artigos/cardapio-digital-como-servico-para-restaurantes-pacote-e-preco-com-ia">cardápio digital como serviço</a> mostra o caminho de serviço. Quem cozinha em casa e quer aproveitar a ficha técnica na época de maior procura pode seguir o guia de <a href="/artigos/encomendas-de-natal-feitas-em-casa-cardapio-preco-prazo-e-pedido-com-ia">encomendas de Natal feitas em casa</a>. Mais ideias de produtos ficam na categoria de monetização do Portal da AI.</p>
   `,
   faq: [
     {

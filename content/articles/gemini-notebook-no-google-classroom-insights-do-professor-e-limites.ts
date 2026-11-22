@@ -95,7 +95,7 @@ export const article: Article = {
 
     <h2>Como usar bem: um roteiro de uma semana</h2>
 
-    <p>Uma sugestão para o professor que quer testar sem virar a rotina de cabeça para baixo. Na segunda, escolha um tema curto e reúna de cinco a dez fontes confiáveis. Na terça, gere um guia de estudo e uma lista de perguntas frequentes dentro do caderno e confira cada resposta com o livro didático. Na quarta, atribua o caderno como material de apoio, não como tarefa com nota. Na sexta, abra os insights, anote os dois temas mais comuns e use-os na revisão da semana seguinte.</p>
+    <p>Uma sugestão para o professor que quer testar sem virar a rotina de cabeça para baixo. Na segunda, escolha um tema curto e reúna de cinco a dez fontes confiáveis. Na terça, gere um guia de estudo e uma lista de perguntas frequentes dentro do caderno e confira cada resposta com o livro didático (quem não tem o arquivo pode olhar o catálogo de <a href="/artigos/livros-didaticos-gratis-no-gemini-notebook-openstax-como-adicionar-e-limites">livros didáticos gratuitos do Gemini Notebook</a>, conferindo antes se ele aparece na conta). Na quarta, atribua o caderno como material de apoio, não como tarefa com nota. Na sexta, abra os insights, anote os dois temas mais comuns e use-os na revisão da semana seguinte.</p>
 
     <p>Dois prompts úteis para a conversa de teste, que o professor pode digitar ele mesmo antes de liberar:</p>
 

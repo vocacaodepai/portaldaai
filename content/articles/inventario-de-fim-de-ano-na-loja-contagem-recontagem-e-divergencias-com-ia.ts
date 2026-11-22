@@ -114,7 +114,7 @@ export const article: Article = {
 
     <p>O primeiro é contar com o sistema funcionando, porque as vendas durante a contagem desfazem a comparação. O segundo é deixar quem contou conferir a própria contagem. O terceiro é ajustar o saldo sem investigar, o que esconde o problema. O quarto é esquecer o estoque de produtos com validade, que pede um controle à parte, como em <a href="/artigos/controle-de-validade-e-perdas-no-comercio-de-alimentos-pvps-planilha-e-ia">controle de validade e perdas</a>.</p>
 
-    <p>Outro erro é contar uma vez por ano e nunca mais olhar. Alertas simples ajudam entre contagens, como no modelo de <a href="/artigos/alerta-de-estoque-baixo-como-servico-planilha-aviso-por-e-mail-e-limites-do-apps-script">alerta de estoque baixo</a>, e uma boa negociação com fornecedores depende de saldo confiável, tema de <a href="/artigos/como-usar-ia-para-negociar-melhor-com-fornecedores">negociar melhor com fornecedores</a>.</p>
+    <p>Outro erro é contar uma vez por ano e nunca mais olhar. Alertas simples ajudam entre contagens, como no modelo de <a href="/artigos/alerta-de-estoque-baixo-como-servico-planilha-aviso-por-e-mail-e-limites-do-apps-script">alerta de estoque baixo</a>, com o saldo corrigido dá para refazer a <a href="/artigos/curva-abc-de-estoque-com-ia-o-que-repor-e-o-que-encalha">curva ABC de estoque</a> e decidir o que repor e o que liquidar, e uma boa negociação com fornecedores depende de saldo confiável, tema de <a href="/artigos/como-usar-ia-para-negociar-melhor-com-fornecedores">negociar melhor com fornecedores</a>.</p>
 
     <h2>Depois do inventário</h2>
 
