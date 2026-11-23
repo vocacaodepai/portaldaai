@@ -370,6 +370,7 @@ export const productSubcategories = [
   { slug: "fechadura-eletrica", label: "Fechadura Elétrica", category: "seguranca" },
   { slug: "lampada-led", label: "Lâmpada LED", category: "casa-utilidades" },
   { slug: "cola-instantanea", label: "Cola Instantânea", category: "ferramentas-casa" },
+  { slug: "pistola-cola-quente", label: "Pistola de Cola Quente", category: "ferramentas-casa" },
   { slug: "antipulgas", label: "Antipulgas e Carrapaticida", category: "pet" },
   { slug: "furadeira-impacto", label: "Furadeira de Impacto", category: "ferramentas-casa" },
   { slug: "bebedouro", label: "Bebedouro", category: "cozinha" },
