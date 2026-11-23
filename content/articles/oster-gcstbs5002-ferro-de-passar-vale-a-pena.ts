@@ -116,7 +116,7 @@ export const article: Article = {
     </div>
 
     <h2>Alternativas na mesma faixa</h2>
-    <p>Na própria Amazon, o Electrolux Efficient ESI10 (nota 4,6 e mais de 3 mil avaliações) e o Black+Decker FX3060 (nota 4,7 e mais de 5 mil avaliações) são concorrentes diretos; os preços mudam, então compare os valores atuais. O primeiro é da mesma faixa de entrada, o segundo costuma ser mais caro e tem base de cerâmica.</p>
+    <p>Na própria Amazon, o Electrolux Efficient ESI10 (nota 4,6 e mais de 3 mil avaliações) e o Black+Decker FX3060 (nota 4,7 e mais de 5 mil avaliações) são concorrentes diretos; os preços mudam, então compare os valores atuais. O primeiro é da mesma faixa de entrada, o segundo costuma ser mais caro e tem base de cerâmica. Se a dúvida for entre três ferros a vapor de entrada, o <a href="/artigos/ferro-a-vapor-electrolux-esi11-oster-aeroceramic-ou-philco-pfv70-comparativo">comparativo entre Electrolux ESI11, Oster Aeroceramic e Philco PFV70</a> mostra onde cada um ganha e perde.</p>
     <p>Para quem quer cuidar da casa de maneira mais ampla, o <a href="/artigos/melhor-aspirador-po-vertical-comparativo-2026">comparativo de aspiradores verticais</a>, o <a href="/artigos/melhor-robo-aspirador-comparativo-2026">de robôs aspiradores</a> e o review da <a href="/artigos/wap-ousada-plus-ultra-2200-vale-a-pena">lavadora de alta pressão WAP</a> ajudam. No quarto e no banheiro, o <a href="/artigos/melhor-umidificador-de-ar-comparativo-2026">comparativo de umidificadores</a> e o <a href="/artigos/melhor-secador-de-cabelo-comparativo-2026">de secadores de cabelo</a> completam a lista, e a <a href="/artigos/melhor-chaleira-eletrica-comparativo-2026">comparação de chaleiras elétricas</a> cobre a cozinha.</p>
 
     <h2>Dicas de uso e cuidados</h2>
