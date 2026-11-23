@@ -418,6 +418,7 @@ export const productSubcategories = [
   { slug: "papel-sulfite", label: "Papel Sulfite", category: "escritorio" },
   { slug: "faqueiro", label: "Faqueiro e Jogo de Talheres", category: "cozinha" },
   { slug: "tapete-yoga", label: "Tapete de Yoga e Pilates", category: "esporte" },
+  { slug: "bola-pilates", label: "Bola de Pilates", category: "esporte" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
