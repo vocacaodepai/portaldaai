@@ -418,6 +418,7 @@ export const productSubcategories = [
   { slug: "faqueiro", label: "Faqueiro e Jogo de Talheres", category: "cozinha" },
   { slug: "organizador-geladeira", label: "Organizador de Geladeira", category: "cozinha" },
   { slug: "protetor-labial", label: "Protetor Labial", category: "saude-bem-estar" },
+  { slug: "toalha-secagem-automotiva", label: "Toalha de Secagem Automotiva", category: "automotivo" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
