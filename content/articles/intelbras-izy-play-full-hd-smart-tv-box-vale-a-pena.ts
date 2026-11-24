@@ -110,7 +110,7 @@ export const article: Article = {
 
     <h2>Variação de preço</h2>
     <p>O Izy Play Full HD costuma variar de R$ 300 a R$ 410, uma faixa aproximada de mercado, que muda com o vendedor, a época e as promoções de varejo. O modelo 4K da Intelbras fica acima dessa faixa, e anúncios do modelo antigo também aparecem com valores diferentes, então confira o nome exato no título.</p>
-    <p>No custo-benefício, ele compensa para quem só precisa de streaming em Full HD, porque o valor é bem menor que o de uma Smart TV nova. Quem tem TV 4K gasta um pouco mais e leva mais imagem. O preço do dia aparece ao clicar no botão de compra.</p>
+    <p>No custo-benefício, ele compensa para quem só precisa de streaming em Full HD, porque o valor é bem menor que o de uma Smart TV nova. Quem tem TV 4K gasta um pouco mais e leva mais imagem. Se a televisão antiga já pede troca, vale conhecer a <a href="/artigos/smart-tv-philco-32-roku-ptv32k34rkgb-vale-a-pena">análise da Smart TV Philco 32 Roku</a>, uma TV HD com sistema simples, boa para quarto e cozinha.O preço do dia aparece ao clicar no botão de compra.</p>
 
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/B0CHXVM67R?tag=portaldaai-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Intelbras Izy Play Full HD na Amazon agora ↗</a>

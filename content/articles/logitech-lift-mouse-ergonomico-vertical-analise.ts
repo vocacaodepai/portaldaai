@@ -111,7 +111,7 @@ export const article: Article = {
     <p>Um detalhe que ajuda no dia a dia é a troca rápida entre aparelhos. O Lift guarda até três conexões, então dá para deixar o notebook de trabalho, o computador de casa e o tablet pareados e alternar por botão, sem refazer o pareamento. Para quem divide a semana entre escritório e casa, isso evita levar dois mouses na mochila.</p>
 
     <h2>Lift ou um mouse sem fio comum: vale pagar mais?</h2>
-    <p>Um mouse como o M170, que aparece no nosso <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">comparativo de mouses sem fio baratos</a>, custa uma fração do Lift e resolve quem usa o computador de vez em quando. A conta muda quando o uso passa de quatro ou cinco horas por dia e o punho já reclama no fim da tarde.</p>
+    <p>Um mouse como o M170, que aparece no nosso <a href="/artigos/melhor-mouse-sem-fio-barato-comparativo-2026">comparativo de mouses sem fio baratos</a>, custa uma fração do Lift e resolve quem usa o computador de vez em quando. Quem prefere comparar outros formatos ergonômicos pode ver o <a href="/artigos/mouse-ergonomico-logitech-mx-vertical-ou-ergo-m575s-comparativo">comparativo entre o MX Vertical e o trackball ERGO M575S</a>. A conta muda quando o uso passa de quatro ou cinco horas por dia e o punho já reclama no fim da tarde.</p>
     <table>
       <thead>
         <tr>
