@@ -416,6 +416,8 @@ export const productSubcategories = [
   { slug: "aparelho-barbear", label: "Aparelho de Barbear", category: "saude-bem-estar" },
   { slug: "papel-sulfite", label: "Papel Sulfite", category: "escritorio" },
   { slug: "faqueiro", label: "Faqueiro e Jogo de Talheres", category: "cozinha" },
+  { slug: "organizador-geladeira", label: "Organizador de Geladeira", category: "cozinha" },
+  { slug: "protetor-labial", label: "Protetor Labial", category: "saude-bem-estar" },
   { slug: "toalha-secagem-automotiva", label: "Toalha de Secagem Automotiva", category: "automotivo" },
 ] as const;
 
