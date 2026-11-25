@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-20",
-  readTime: 7,
+  updated: "2026-11-25",
+  readTime: 8,
   imageQuery: "online shopping phone credit card checkout",
   seed: 478,
   kind: "guia",
@@ -24,7 +25,7 @@ export const article: Article = {
   content: `
     <p>Para comprar na Black Friday com segurança, anote o preço normal dos itens antes da promoção, compare no mínimo três lojas conhecidas, desconfie de oferta que chega por mensagem e guarde todos os comprovantes. A IA ajuda a organizar a lista, calcular a diferença e examinar textos suspeitos, mas quem confere preço, CNPJ e forma de pagamento é você. Em 2026, a data cai na sexta-feira, 27 de novembro.</p>
 
-    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras citadas foram conferidas em 20/10/2026 e não substituem orientação do Procon ou de um advogado.</p>
+    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras citadas foram conferidas em 20/10/2026, com acréscimos em 25/11/2026, e não substituem orientação do Procon ou de um advogado.</p>
 
     <h2>Como se preparar antes da Black Friday</h2>
 
@@ -67,7 +68,19 @@ export const article: Article = {
 
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Se o preço parece bom demais, abra o site da loja digitando o endereço você mesmo, não pelo link recebido. Nunca informe senha de banco ou código recebido por SMS.</p></div>
 
-    <p>Veja também o que fazer se o pior acontecer, no guia sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix e as primeiras horas</a>, e a notícia que mostra como os golpes com IA estão ficando mais convincentes, em <a href="/noticias/golpes-ia-verizon-dbir-2026">golpes com IA no relatório da Verizon</a>.</p>
+    <p>Foto de produto ou de famoso recomendando uma oferta também pode ser montagem. O guia sobre <a href="/artigos/como-saber-se-uma-imagem-foi-feita-por-ia-synthid-no-gemini-e-limites">como saber se uma imagem foi feita por IA</a> mostra uma forma de checar e os limites dela.</p>
+
+    <h3>Consulte a lista Evite esses Sites, do Procon-SP</h3>
+
+    <p>O Procon-SP mantém a lista <a href="https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php" target="_blank" rel="noopener noreferrer">Evite esses Sites</a>, consultada em 25/11/2026, com endereços que receberam reclamações de consumidores, foram notificados e não responderam ou não foram encontrados. A página organiza os sites pelo endereço, então use a função de localizar do navegador para procurar o domínio da loja antes de pagar.</p>
+
+    <p>Se o endereço aparecer, não compre. Se não aparecer, isso não prova que a loja é confiável, porque sites de golpe podem ser novos. Continue checando CNPJ, avaliações recentes e forma de pagamento.</p>
+
+    <h3>Pagou por Pix e percebeu que era golpe?</h3>
+
+    <p>Avise o seu banco na hora, abra a transação no extrato do Pix pelo aplicativo e conteste como golpe. Segundo o <a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf" target="_blank" rel="noopener noreferrer">guia do Banco Central sobre o Mecanismo Especial de Devolução (MED)</a>, o pedido vale para transações de até 80 dias. A devolução não é garantida, porque depende do dinheiro ainda disponível, e o MED não serve para desacordo comercial, como atraso na entrega ou arrependimento sem fraude.</p>
+
+    <p>Veja o passo a passo no guia sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix e as primeiras horas</a>, e a notícia que mostra como os golpes com IA estão ficando mais convincentes, em <a href="/noticias/golpes-ia-verizon-dbir-2026">golpes com IA no relatório da Verizon</a>.</p>
 
     <h2>Direito de arrependimento: 7 dias nas compras online</h2>
 
@@ -115,6 +128,11 @@ export const article: Article = {
       question: "Como saber se o desconto da Black Friday é real?",
       answer:
         "Anote o preço dos itens por pelo menos duas semanas antes da data e compare com o preço na promoção, já com frete e parcelas. Se a loja aumentou o preço antes para simular desconto, guarde os prints do histórico e reclame ao Procon ou no Consumidor.gov.br.",
+    },
+    {
+      question: "Como saber se um site está na lista do Procon-SP?",
+      answer:
+        "Abra a página Evite esses Sites, no sistema da Fundação Procon-SP, e use a função de localizar do navegador para procurar o endereço da loja. Se ele aparecer, não compre. A ausência na lista não garante segurança, então confira também CNPJ, avaliações e forma de pagamento.",
     },
     {
       question: "O que é o Consumidor.gov.br e como usar?",
