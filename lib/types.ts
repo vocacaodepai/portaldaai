@@ -420,6 +420,9 @@ export const productSubcategories = [
   { slug: "tapete-yoga", label: "Tapete de Yoga e Pilates", category: "esporte" },
   { slug: "bola-pilates", label: "Bola de Pilates", category: "esporte" },
   { slug: "baba-eletronica", label: "Babá Eletrônica", category: "bebe" },
+  { slug: "aparador-pelos", label: "Aparador de Pelos Multifuncional", category: "saude-bem-estar" },
+  { slug: "cafeteira-espresso", label: "Cafeteira Espresso", category: "cozinha" },
+  { slug: "cadeira-escritorio", label: "Cadeira de Escritório", category: "escritorio" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
