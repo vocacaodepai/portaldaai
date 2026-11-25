@@ -112,7 +112,7 @@ Não invente marcas ou modelos específicos.</code></pre>
 
     <h2>Para fechar</h2>
 
-    <p>Monte hoje a planilha com o total, as pessoas e as faixas, combine as regras do amigo secreto no grupo e faça o sorteio na planilha, com alguém de fora cuidando do resultado. Depois, use a IA para as ideias e para os textos, e confira preço e troca antes de comprar. Se gostou do método, use a mesma lógica para a ceia ou para a <a href="/artigos/como-usar-ia-para-planejar-festa-de-aniversario-com-orcamento">festa de aniversário com orçamento</a>.</p>
+    <p>Monte hoje a planilha com o total, as pessoas e as faixas, combine as regras do amigo secreto no grupo e faça o sorteio na planilha, com alguém de fora cuidando do resultado. Depois, use a IA para as ideias e para os textos, e confira preço e troca antes de comprar. Se gostou do método, use a mesma lógica para a <a href="/artigos/ceia-de-natal-com-ia-cardapio-lista-de-compras-e-orcamento-por-convidado">ceia de Natal, com cardápio, compras e orçamento por convidado</a>, ou para a <a href="/artigos/como-usar-ia-para-planejar-festa-de-aniversario-com-orcamento">festa de aniversário com orçamento</a>.</p>
   `,
   faq: [
     {
