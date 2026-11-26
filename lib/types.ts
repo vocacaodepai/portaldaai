@@ -326,6 +326,7 @@ export const productSubcategories = [
   { slug: "lenco-umedecido-pet", label: "Lenços Umedecidos Pet", category: "pet" },
   { slug: "cama-pet", label: "Cama para Cães e Gatos", category: "pet" },
   { slug: "tabua-passar", label: "Tábua e Mesa de Passar", category: "casa-utilidades" },
+  { slug: "secadora-roupas", label: "Secadora de Roupas", category: "casa-utilidades" },
   { slug: "regador", label: "Regador", category: "jardim-quintal" },
   { slug: "fone-com-fio", label: "Fone de Ouvido com Fio", category: "audio-video" },
   { slug: "interruptor-inteligente", label: "Interruptor e Mini Controlador Wi-Fi", category: "casa-inteligente" },
