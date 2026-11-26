@@ -50,6 +50,12 @@ export const categories = [
       "Tendências, profissões que vão mudar e o que fazer hoje para se preparar para o que vem aí.",
   },
   {
+    slug: "guias-e-dicas",
+    label: "Guias e Dicas",
+    description:
+      "Como escolher, usar e cuidar de produtos e ferramentas de tecnologia e IA, com cuidados práticos e links para as nossas indicações.",
+  },
+  {
     slug: "ai-indica",
     label: "AI Indica",
     description:
@@ -61,8 +67,8 @@ export type Category = (typeof categories)[number]["slug"];
 
 /**
  * Subtipo de artigo, usado só pelo subfiltro dentro de cada categoria geral
- * (iniciantes, monetização, negócios, carreira, futuro — nunca ferramentas
- * nem ai-indica, que têm filtro próprio). Cada entrada aponta pro slug de
+ * (iniciantes, monetização, negócios, carreira, futuro e guias e dicas — nunca
+ * ferramentas nem ai-indica, que têm filtro próprio). Cada entrada aponta pro slug de
  * `categories` a que pertence.
  */
 export const articleSubcategories = [
@@ -95,6 +101,12 @@ export const articleSubcategories = [
   { slug: "trabalho-e-profissoes", label: "Trabalho e profissões", category: "futuro" },
   { slug: "regulacao-e-etica", label: "Regulação, privacidade e ética", category: "futuro" },
   { slug: "tecnologia-emergente", label: "Tecnologia emergente", category: "futuro" },
+
+  { slug: "como-escolher", label: "Como escolher", category: "guias-e-dicas" },
+  { slug: "uso-e-cuidados", label: "Uso e cuidados", category: "guias-e-dicas" },
+  { slug: "saude-e-conforto", label: "Saúde e conforto", category: "guias-e-dicas" },
+  { slug: "compra-segura", label: "Compra segura", category: "guias-e-dicas" },
+  { slug: "casa-e-rotina", label: "Casa e rotina", category: "guias-e-dicas" },
 ] as const;
 
 export type ArticleSubcategory = (typeof articleSubcategories)[number]["slug"];
