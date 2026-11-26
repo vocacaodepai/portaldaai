@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-20",
-  readTime: 7,
+  updated: "2026-11-26",
+  readTime: 8,
   imageQuery: "online shopping phone credit card checkout",
   seed: 478,
   kind: "guia",
@@ -24,7 +25,23 @@ export const article: Article = {
   content: `
     <p>Para comprar na Black Friday com segurança, anote o preço normal dos itens antes da promoção, compare no mínimo três lojas conhecidas, desconfie de oferta que chega por mensagem e guarde todos os comprovantes. A IA ajuda a organizar a lista, calcular a diferença e examinar textos suspeitos, mas quem confere preço, CNPJ e forma de pagamento é você. Em 2026, a data cai na sexta-feira, 27 de novembro.</p>
 
-    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras citadas foram conferidas em 20/10/2026 e não substituem orientação do Procon ou de um advogado.</p>
+    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras do consumidor foram conferidas em 20/10/2026; os dados do Procon-SP e a contestação do Pix, em 26/11/2026. Nada aqui substitui orientação do Procon ou de um advogado.</p>
+
+    <h2>Black Friday 2026: o alerta do Procon-SP na véspera</h2>
+
+    <p>Entre os entrevistados que compram na Black Friday, 69,85% disseram já ter se sentido enganados, principalmente por preço disfarçado de desconto, a chamada "metade do dobro". O dado é da <a href="https://www.agenciasp.sp.gov.br/justica-e-cidadania/black-friday-consumidor/" target="_blank" rel="noopener noreferrer">pesquisa do Procon-SP divulgada pela Agência SP</a> em 26/11/2026, feita com 585 consumidores entre 8 de outubro e 10 de novembro. A participação foi espontânea, então o número retrata quem respondeu, e não todos os brasileiros.</p>
+
+    <p>A mesma pesquisa traz um aviso para a hora do carrinho: 44,44% afirmaram que já parcelaram achando que não havia juros e só depois perceberam que o total era maior. Antes de confirmar, compare o preço à vista com a soma das parcelas na tela final.</p>
+
+    <p>Se você vai comprar nesta sexta, faça esta checagem rápida antes de pagar:</p>
+
+    <ul class="checklist">
+      <li>Abra a loja pelo aplicativo oficial ou digitando o endereço, e não por link de WhatsApp, SMS, e-mail ou rede social.</li>
+      <li>Confira CNPJ, endereço, telefone da empresa e a grafia do endereço do site.</li>
+      <li>Procure o site na lista <a href="https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php" target="_blank" rel="noopener noreferrer">"Evite esses Sites", do Procon-SP</a>. Na consulta de 26/11, a página informava atualização em 12/05/2026, por isso ficar fora dela não prova que a loja é confiável.</li>
+      <li>Trate desconto acima de 50% com cautela, orientação da Senacon reproduzida pela Agência Brasil.</li>
+      <li>Some frete e confira o prazo de entrega antes de fechar o pedido.</li>
+    </ul>
 
     <h2>Como se preparar antes da Black Friday</h2>
 
@@ -66,6 +83,8 @@ export const article: Article = {
     <pre><code>Vou colar uma mensagem que recebi oferecendo produto com desconto na Black Friday. Liste sinais de golpe que você identifica no texto (urgência, link, forma de pagamento, erros) e diga o que eu devo checar por conta própria antes de clicar. Não diga que o link é seguro ou perigoso: eu vou verificar. Mensagem: [cole aqui, sem seus dados pessoais]</code></pre>
 
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Se o preço parece bom demais, abra o site da loja digitando o endereço você mesmo, não pelo link recebido. Nunca informe senha de banco ou código recebido por SMS.</p></div>
+
+    <p>Se você mandou um Pix para um golpista, conteste a transação no aplicativo do seu banco o quanto antes. O botão de contestação, ligado ao Mecanismo Especial de Devolução (MED), vale para fraude, golpe e coerção, com pedido em até 80 dias da transação. Ele não serve para arrependimento, desacordo comercial ou chave digitada errada, e não garante o dinheiro de volta.</p>
 
     <p>Veja também o que fazer se o pior acontecer, no guia sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix e as primeiras horas</a>, e a notícia que mostra como os golpes com IA estão ficando mais convincentes, em <a href="/noticias/golpes-ia-verizon-dbir-2026">golpes com IA no relatório da Verizon</a>.</p>
 
@@ -120,6 +139,11 @@ export const article: Article = {
       question: "O que é o Consumidor.gov.br e como usar?",
       answer:
         "É um serviço público e gratuito em que o consumidor registra reclamação diretamente em empresas cadastradas. Pela página oficial, a empresa tem 10 dias para responder, e o consumidor tem 20 dias para avaliar. É preciso ter conta gov.br de nível prata ou ouro.",
+    },
+    {
+      question: "Onde ver a lista de sites que o Procon-SP manda evitar?",
+      answer:
+        "No sistema \"Evite esses Sites\", do Procon-SP, que reúne endereços com reclamações em que a empresa foi notificada e não respondeu ou não foi encontrada. Na consulta de 26/11/2026, a página indicava atualização em 12/05/2026. Um site fora da lista também precisa ser checado.",
     },
     {
       question: "Vale pagar com Pix na Black Friday?",

@@ -11,14 +11,15 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-11-04",
-  readTime: 7,
+  updated: "2026-11-26",
+  readTime: 8,
   imageQuery: "worker checking salary slip calculator",
   seed: 1117,
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
     "A primeira parcela do 13º deve ser paga até 30 de novembro e a segunda até 20 de dezembro; em 2026, o dia 20 cai num domingo, então confira com o RH a data efetiva.",
-    "O valor é proporcional aos meses trabalhados no ano: cada mês com 15 dias ou mais de trabalho conta como 1/12, e horas extras e comissões entram pela média.",
+    "O valor é proporcional: mês com 15 dias ou mais conta 1/12, horas extras e comissões entram pela média, e quem foi admitido no ano recebe de adiantamento só a metade dos avos já contados.",
     "A primeira parcela vem sem descontos; INSS e Imposto de Renda saem da segunda, e a IA ajuda a montar a conta e a lista de perguntas para o RH, sem substituir o contracheque.",
   ],
   content: `
@@ -41,7 +42,7 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Como o dia 20 de dezembro de 2026 cai num domingo, muitas empresas antecipam o pagamento para o último dia útil antes. Não conte com isso sem perguntar: confirme a data com o RH ou com o contador da empresa. Se você pediu o adiantamento junto com as férias, já recebeu a primeira metade e só falta a segunda.</p>
+    <p>Como o dia 20 de dezembro de 2026 cai num domingo, use a sexta-feira, 18 de dezembro, como referência. O <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10854.htm" target="_blank" rel="noopener noreferrer">Decreto 10.854/2021</a> fala em pagamento até o dia 20 e não traz, no capítulo do 13º, regra que empurre o prazo para depois. Confirme a data com o RH ou com o contador da empresa. O mesmo decreto permite receber o adiantamento nas férias quando o pedido é feito em janeiro, e esse valor é descontado do total.</p>
 
     <h2>Como calcular o valor pelos avos</h2>
 
@@ -49,21 +50,27 @@ export const article: Article = {
 
     <h3>Exemplo com números</h3>
 
-    <p>A Juliana é vendedora numa loja de Belo Horizonte, com salário de R$ 2.400, e foi contratada em 3 de março de 2026. De março a dezembro são 10 meses, então ela tem direito a 10/12 de R$ 2.400, ou R$ 2.000. A primeira parcela é a metade, R$ 1.000, sem desconto. A segunda é o restante, R$ 1.000, menos o INSS calculado sobre os R$ 2.000 inteiros.</p>
+    <p>A Juliana é vendedora numa loja de Belo Horizonte, com salário fixo de R$ 2.400, e foi contratada em 3 de março de 2026. De março a dezembro são 10 meses, então ela tem direito a 10/12 de R$ 2.400, ou R$ 2.000 no ano.</p>
 
-    <p>Para quem quer refazer a conta em planilha, a estrutura é: salário dividido por 12, multiplicado pelos meses com 15 dias ou mais, dividido por 2 para a primeira parcela. As fórmulas básicas estão no guia de <a href="/artigos/aprender-planilhas-do-zero-com-ia-formulas-erros-e-exercicios">planilhas do zero com IA</a>.</p>
+    <h3>A primeira parcela de quem entrou no meio do ano</h3>
+
+    <p>O adiantamento dela não é metade dos R$ 2.000. Pelo artigo 78, parágrafo 4º, do Decreto 10.854/2021, quem foi admitido no curso do ano recebe metade de 1/12 da remuneração por mês de serviço. Contando de março a outubro são 8 meses, ou R$ 1.600, e a primeira parcela fica em R$ 800. Se a folha também contar novembro, são 9 meses e R$ 900.</p>
+
+    <p>A segunda parcela é o que falta para os R$ 2.000 (R$ 1.200 no primeiro caso, R$ 1.100 no segundo), menos o INSS calculado sobre o valor inteiro. Peça ao RH qual mês a empresa usou como referência. Quem trabalhou o ano todo não precisa dessa conta: o adiantamento é a metade da remuneração do mês anterior.</p>
+
+    <p>Para refazer a conta em planilha, o total é o salário dividido por 12 e multiplicado pelos meses com 15 dias ou mais. No adiantamento de quem foi admitido no ano, use só os meses de serviço até o pagamento e divida por 2. As fórmulas básicas estão no guia de <a href="/artigos/aprender-planilhas-do-zero-com-ia-formulas-erros-e-exercicios">planilhas do zero com IA</a>.</p>
 
     <h2>Horas extras, comissões e salário variável</h2>
 
-    <p>Quem recebe parte do salário em comissões, horas extras ou adicionais tem uma conta em três etapas, também descrita pelo MTE. A primeira parcela usa a média de janeiro a novembro e sai até 30 de novembro. A segunda completa o valor até 11/12 e sai até 20 de dezembro. Depois que a folha de dezembro fecha, a empresa faz o ajuste final com a média dos 12 meses até 10 de janeiro do ano seguinte.</p>
+    <p>Quem recebe parte do salário em comissões, horas extras ou adicionais tem uma conta em três etapas. Pelo Decreto 10.854/2021, o adiantamento considera os valores variáveis devidos até o mês anterior ao pagamento, somados à parte fixa. Na parcela de dezembro, a parte variável vale 1/11 da soma do que foi devido nos meses trabalhados até novembro. Até 10 de janeiro, a empresa revisa a conta para 1/12 do total do ano, já com dezembro, e acerta a diferença.</p>
 
     <p>Na prática, isso quer dizer que um vendedor com comissão alta em dezembro pode receber uma diferença em janeiro. Guarde os contracheques do ano, porque é com eles que você confere a média. Se você negocia remuneração variável com frequência, o guia de <a href="/artigos/como-negociar-salario-melhor-sabendo-usar-ia">como negociar salário usando IA</a> ajuda a entender o peso de cada parte.</p>
 
     <h2>Por que a segunda parcela vem menor</h2>
 
-    <p>É a reclamação mais comum, e quase sempre não é erro. A primeira parcela é a metade bruta. Na segunda, a empresa calcula INSS e IR sobre o 13º inteiro e desconta tudo de uma vez, além de abater o que já foi pago.</p>
+    <p>É a reclamação mais comum, e quase sempre não é erro. A primeira parcela é um adiantamento sem descontos. Na segunda, a empresa calcula INSS e IR sobre o 13º inteiro e desconta tudo de uma vez, além de abater o que já foi pago.</p>
 
-    <p>O INSS segue a tabela progressiva. Para 2026, a <a href="https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal" target="_blank" rel="noopener noreferrer">tabela de contribuição do INSS</a> tem alíquotas de 7,5% até R$ 1.621,00; 9% de R$ 1.621,01 a R$ 2.902,84; 12% de R$ 2.902,85 a R$ 4.354,27; e 14% de R$ 4.354,28 a R$ 8.475,55. Cada alíquota vale só sobre a parte do valor que cai na faixa. No exemplo da Juliana, o INSS sobre R$ 2.000 fica em torno de R$ 155,70 (7,5% de R$ 1.621,00 mais 9% de R$ 379,00).</p>
+    <p>O INSS segue a tabela progressiva. Para 2026, a <a href="https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal" target="_blank" rel="noopener noreferrer">tabela de contribuição do INSS</a> tem alíquotas de 7,5% até R$ 1.621,00; 9% de R$ 1.621,01 a R$ 2.902,84; 12% de R$ 2.902,85 a R$ 4.354,27; e 14% de R$ 4.354,28 a R$ 8.475,55. Cada alíquota vale só sobre a parte do valor que cai na faixa. No exemplo da Juliana, o INSS sobre R$ 2.000 fica em torno de R$ 155,70 (7,5% de R$ 1.621,00 mais 9% de R$ 379,00). Com adiantamento de R$ 800, a segunda parcela ficaria perto de R$ 1.044, antes de qualquer outro desconto previsto no contracheque.</p>
 
     <p>No Imposto de Renda, o 13º é tributado separado do salário de dezembro. Desde janeiro de 2026, a <a href="https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026" target="_blank" rel="noopener noreferrer">tabela da Receita Federal para 2026</a> aplica uma redução que zera o imposto para rendimentos mensais de até R$ 5.000, com base na Lei 15.270/2025, e reduz parcialmente até R$ 7.350. Para saber como isso aparece no seu 13º, confira a retenção no contracheque e o informe de rendimentos do ano que vem.</p>
 
@@ -75,7 +82,9 @@ export const article: Article = {
 Fui contratado em 3 de março de 2026 e não tive faltas.
 1. Calcule meu 13º proporcional pela regra dos avos
    (mês com 15 dias ou mais conta inteiro).
-2. Calcule a primeira parcela, sem descontos.
+2. Calcule a primeira parcela, sem descontos. Como fui admitido
+   no ano, use metade de 1/12 do salário por mês de serviço até
+   outubro e mostre também o valor se novembro entrar na conta.
 3. Calcule o INSS da segunda parcela pela tabela progressiva de 2026:
    7,5% até 1.621,00; 9% até 2.902,84; 12% até 4.354,27; 14% até 8.475,55.
 4. Mostre cada conta separada e diga o que pode mudar o resultado
@@ -92,7 +101,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     <h2>Situações especiais</h2>
 
     <ul class="checklist">
-      <li><strong>Pediu demissão ou foi demitido sem justa causa:</strong> o 13º proporcional entra na rescisão. Veja o passo a passo em <a href="/artigos/demitido-o-que-fazer-nas-primeiras-semanas-rescisao-seguro-desemprego-e-ia">o que fazer nas primeiras semanas depois de ser demitido</a>.</li>
+      <li><strong>Pediu demissão ou foi demitido sem justa causa:</strong> o 13º proporcional entra na rescisão. Na dispensa por justa causa, o Decreto 10.854/2021 (art. 82) exclui esse pagamento. Veja o passo a passo em <a href="/artigos/demitido-o-que-fazer-nas-primeiras-semanas-rescisao-seguro-desemprego-e-ia">o que fazer nas primeiras semanas depois de ser demitido</a>.</li>
       <li><strong>Contrato de experiência ou primeiro emprego:</strong> conta normalmente pelos avos, desde a data de admissão. O guia dos <a href="/artigos/primeiros-90-dias-no-emprego-novo-com-ia-plano-e-contrato-de-experiencia">primeiros 90 dias no emprego novo</a> explica esse período.</li>
       <li><strong>Afastamentos e faltas:</strong> podem reduzir os meses contados. Peça ao RH a regra aplicada no seu caso.</li>
       <li><strong>PJ ou autônomo:</strong> não há 13º. Se você compara propostas, use o guia de <a href="/artigos/clt-ou-pj-como-comparar-proposta-com-ia-e-planilha">CLT ou PJ com IA e planilha</a>, que coloca o 13º na conta.</li>
@@ -117,7 +126,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     {
       question: "Como calcular o 13º de quem não trabalhou o ano todo?",
       answer:
-        "Divida o salário por 12 e multiplique pelo número de meses trabalhados no ano. Cada mês com 15 dias ou mais de trabalho conta como mês inteiro. A primeira parcela é metade desse valor.",
+        "Divida o salário por 12 e multiplique pelo número de meses trabalhados no ano. Mês com 15 dias ou mais conta inteiro. No adiantamento de quem foi admitido no ano, o Decreto 10.854/2021 manda pagar metade dos avos pelos meses de serviço, e a segunda parcela quita o restante.",
     },
     {
       question: "Por que a segunda parcela do 13º é menor?",
@@ -127,7 +136,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     {
       question: "Horas extras e comissões entram no 13º?",
       answer:
-        "Sim. Para quem tem salário variável, a primeira parcela usa a média de janeiro a novembro, a segunda completa o valor em dezembro e há um ajuste final com a média dos 12 meses até 10 de janeiro do ano seguinte.",
+        "Sim. Pelo Decreto 10.854/2021, o adiantamento considera as variáveis até o mês anterior ao pagamento, a parcela de dezembro usa 1/11 da soma até novembro e, até 10 de janeiro, a conta é revista para 1/12 do total do ano.",
     },
     {
       question: "Posso usar o ChatGPT ou o Gemini para calcular meu 13º?",
