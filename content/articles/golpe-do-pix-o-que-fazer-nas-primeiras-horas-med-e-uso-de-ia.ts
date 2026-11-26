@@ -11,7 +11,8 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-19",
-  readTime: 8,
+  updated: "2026-11-26",
+  readTime: 9,
   imageQuery: "worried person holding smartphone banking app",
   seed: 436,
   kind: "guia",
@@ -29,7 +30,12 @@ export const article: Article = {
     <h2>O que é o MED e quando ele pode ser usado</h2>
     <p>O MED é um conjunto de regras do Banco Central para devolver um Pix em caso de fraude ou de falha operacional. Pelo <a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf" target="_blank" rel="noopener noreferrer">guia técnico do Banco Central</a>, quem paga abre o pedido no próprio banco, que registra uma notificação para a instituição de quem recebeu. Essa instituição bloqueia o valor que estiver na conta, analisa o caso em até 7 dias corridos e, se confirmar a fraude, devolve o que foi bloqueado.</p>
     <p>O prazo para pedir é de até 80 dias contados da data da transação original. Desacordo comercial não entra: o mesmo guia diz que briga com loja por produto que não chegou ou por arrependimento, sem caracterizar fraude, deve seguir outro caminho, inclusive o Judiciário. Já golpe de falso suporte, página falsa, falso parente no WhatsApp e Pix feito sob coação ou após roubo do celular costumam se encaixar como fraude, mas quem decide é o banco, caso a caso.</p>
+    <p>No aplicativo, o caminho é o botão de contestação, disponível desde 1º de outubro de 2025. Segundo a <a href="https://agenciagov.ebc.com.br/noticias/202509/pix-tera-botao-de-contestacao" target="_blank" rel="noopener noreferrer">Agência Gov</a>, ele vale para fraude, golpe e coerção, e não vale para desacordo comercial, arrependimento, erro de envio (como chave digitada errada) ou casos que envolvam terceiros de boa-fé. Havendo dinheiro na conta do suspeito, o bloqueio vem logo após a contestação. Os bancos têm até sete dias para analisar e, confirmado o golpe, a devolução sai em até 11 dias contados do pedido.</p>
     <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>O MED não garante o dinheiro de volta. O bloqueio atinge o saldo que ainda estiver na conta de destino, e a devolução pode ser parcial.</p></div>
+
+    <h2>O que muda no MED em 1º de março de 2027</h2>
+    <p>O Banco Central atualizou as regras do mecanismo, e a nova norma começa a valer em 1º de março de 2027, segundo a <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-proibe-publicidade-em-comprovantes-do-pix-partir-de-marco-de-2027" target="_blank" rel="noopener noreferrer">Agência Brasil, em reportagem de 3 de setembro de 2026</a>. As telas de contestação deverão descrever os golpes com situações mais próximas do dia a dia. O usuário também poderá detalhar o ocorrido e anexar documentos e comprovantes que ajudem na análise.</p>
+    <p>O prazo para pedir continua em até 80 dias da transação, e a instituição segue com até 11 dias para informar o resultado. Quem caiu em golpe agora não deve esperar a mudança: conteste pelo caminho disponível hoje e guarde as provas para entregar quando o banco pedir.</p>
 
     <h2>Primeira hora: a ordem que mais importa</h2>
     <p>Em golpe, minutos contam. A sequência abaixo vale mesmo que você ainda esteja nervoso.</p>
@@ -102,6 +108,11 @@ o golpista falou comigo. Não faça acusações sem prova.</code></pre>
       question: "Qual o prazo para contestar um Pix de golpe pelo MED?",
       answer:
         "Segundo o guia do Banco Central, o pedido pode ser aberto para transações feitas há no máximo 80 dias. Para contestar uma devolução, o prazo é de 30 dias. Mesmo assim, o ideal é contestar na primeira hora, porque o dinheiro de golpe costuma ser espalhado rápido entre contas.",
+    },
+    {
+      question: "O MED serve se eu digitei a chave Pix errada?",
+      answer:
+        "Não. Segundo a Agência Gov, o botão de contestação vale para fraude, golpe e coerção, e fica de fora o erro de envio, como chave digitada errada, além de arrependimento e desacordo comercial. Nesse caso, avise o seu banco pelo canal oficial para saber o caminho e guarde o comprovante.",
     },
     {
       question: "O banco é obrigado a devolver o Pix do golpe?",
