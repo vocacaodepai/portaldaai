@@ -10,6 +10,7 @@ export const item: NewsItem = {
   sourceUrl: "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
   date: "2026-11-01",
   publishedAt: "2026-11-01T07:40:00-03:00",
+  updatedAt: "2026-11-26T08:29:00-03:00",
   topic: "lancamentos",
   imageQuery: "OpenAI logo",
   coverImage: {
@@ -20,6 +21,10 @@ export const item: NewsItem = {
     creditUrl: "https://commons.wikimedia.org/wiki/File%3AOpenAI%20brain%20network%20visualization.png",
   },
   content: `
+    <h2>Atualização (08:29)</h2>
+    <p>A fusão começou a ser liberada. Segundo a TechCrunch, em reportagem de 25 de novembro, a OpenAI passou a entregar a experiência unificada de Chat e Work a um pequeno grupo de assinantes Pro, conforme publicação no X de Thibault Sottiaux, líder de produto da empresa. Um porta-voz disse ao veículo que a maioria dos usuários não deve ver renovações de limite mais frequentes, mas uma pequena parcela dos que mais usam pode atingir o teto antes.</p>
+    <p>Pelo mesmo relato, Chat e Work passam a dividir um único medidor de uso. As conversas com o modelo Instant seguem sem limite, não entram nessa conta e continuam disponíveis depois que a cota acaba. A liberação mais ampla dos limites compartilhados está prevista para dezembro, e a reportagem não informa números. Para quem usa muito os modelos de raciocínio, vale conferir o saldo nas configurações assim que a mudança aparecer na conta.</p>
+
     <p>A OpenAI vai juntar os dois modos de uso do ChatGPT, Chat e Work, numa única interface a partir de dezembro, e vai mudar a forma de medir o uso dos planos pagos. Em vez de cotas separadas, os planos Plus, Pro e Business passarão a consumir de um orçamento único de tokens, compartilhado entre o ChatGPT e o Codex. A informação foi publicada neste domingo, 1º de novembro de 2026, pelo The Decoder, que se apoia na página de ajuda da OpenAI sobre os limites de uso e em um anúncio anterior da empresa sobre a fusão.</p>
     <p>Para o The Decoder, o movimento marca o fim do "tudo que você conseguir digitar" nos planos de assinatura. A leitura é do veículo, não uma declaração da OpenAI, mas os detalhes da mudança ajudam a entender por quê. A reportagem não traz preços de plano, preço de créditos extras nem o tamanho exato dos orçamentos de tokens, então esses números ainda precisam ser conferidos na página oficial quando a mudança entrar em vigor.</p>
 
