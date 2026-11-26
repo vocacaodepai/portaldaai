@@ -436,6 +436,7 @@ export const productSubcategories = [
   { slug: "aparador-pelos", label: "Aparador de Pelos Multifuncional", category: "saude-bem-estar" },
   { slug: "cafeteira-espresso", label: "Cafeteira Espresso", category: "cozinha" },
   { slug: "cadeira-escritorio", label: "Cadeira de Escritório", category: "escritorio" },
+  { slug: "colchao-inflavel", label: "Colchão Inflável", category: "viagem" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
