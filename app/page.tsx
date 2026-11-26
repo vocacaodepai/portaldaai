@@ -53,6 +53,7 @@ const CATEGORY_TITLES: Record<Category, string> = {
   ferramentas: "Ferramentas que valem o tempo",
   carreira: "IA na sua carreira",
   futuro: "O trabalho que vem aí",
+  "guias-e-dicas": "Para usar melhor a tecnologia",
   "ai-indica": "AI Indica: o que vale comprar",
 };
 

@@ -11,8 +11,15 @@ import {
 } from "@/lib/articles";
 import { ARTICLES_PER_PAGE, LISTING_PER_PAGE, MIN_INDEXABLE_FILTER, countPages, pageParams } from "./paginate";
 
-/** As 5 categorias gerais, que ganham rota de subtipo (/categoria/<slug>/<articleSubcategory>). */
-export const GENERAL_CATEGORIES: readonly Category[] = ["iniciantes", "monetizacao", "negocios", "carreira", "futuro"];
+/** Categorias gerais, que ganham rota de subtipo (/categoria/<slug>/<articleSubcategory>). */
+export const GENERAL_CATEGORIES: readonly Category[] = [
+  "iniciantes",
+  "monetizacao",
+  "negocios",
+  "carreira",
+  "futuro",
+  "guias-e-dicas",
+];
 
 export type Crumb = { name: string; path: string };
 

@@ -79,9 +79,16 @@ const nextConfig: NextConfig = {
         // Endereços antigos que o Google ainda rastreia (e links soltos): as
         // categorias moram em /categoria/<slug>.
         async redirects() {
-          return ["iniciantes", "monetizacao", "negocios", "ferramentas", "carreira", "futuro", "ai-indica"].map(
-            (slug) => ({ source: `/${slug}`, destination: `/categoria/${slug}`, permanent: true })
-          );
+          return [
+            "iniciantes",
+            "monetizacao",
+            "negocios",
+            "ferramentas",
+            "carreira",
+            "futuro",
+            "guias-e-dicas",
+            "ai-indica",
+          ].map((slug) => ({ source: `/${slug}`, destination: `/categoria/${slug}`, permanent: true }));
         },
         async headers() {
           return [
