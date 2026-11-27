@@ -11,14 +11,14 @@ export const article: Article = {
   category: "carreira",
   articleSubcategory: "trabalho-e-remuneracao",
   date: "2026-11-04",
-  updated: "2026-11-25",
+  updated: "2026-11-27",
   readTime: 8,
   imageQuery: "worker checking salary slip calculator",
   seed: 1117,
   kind: "guia",
   author: "Bruno Danello",
   keyPoints: [
-    "A primeira parcela do 13º deve ser paga até 30 de novembro e a segunda até 20 de dezembro; em 2026, o dia 20 cai num domingo, então confira com o RH a data efetiva.",
+    "A primeira parcela do 13º deve ser paga até 30 de novembro e a segunda até 20 de dezembro; em 2026, o dia 20 cai num domingo, então use sexta, 18/12, como referência e confirme com o RH.",
     "O valor é proporcional aos meses trabalhados no ano: cada mês com 15 dias ou mais de trabalho conta como 1/12, e horas extras e comissões entram pela média.",
     "A primeira parcela vem sem descontos e, para quem foi admitido em 2026, cobre só os meses de serviço já cumpridos; INSS e Imposto de Renda saem da segunda, e a IA ajuda a conferir, sem substituir o contracheque.",
   ],
@@ -42,7 +42,9 @@ export const article: Article = {
       </tbody>
     </table>
 
-    <p>Como o dia 20 de dezembro de 2026 cai num domingo, muitas empresas antecipam o pagamento para o último dia útil antes. Não conte com isso sem perguntar: confirme a data com o RH ou com o contador da empresa. Se você pediu o adiantamento junto com as férias, já recebeu o adiantamento e só falta a segunda parcela. Para o pagamento das férias em si, veja o guia de <a href="/artigos/ferias-clt-como-planejar-calcular-e-conferir-com-ia-fracionamento-abono-e-prazos">férias CLT com fracionamento, abono e prazos</a>.</p>
+    <p>Como o dia 20 de dezembro de 2026 cai num domingo, use a sexta-feira, 18 de dezembro, como referência. O <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10854.htm" target="_blank" rel="noopener noreferrer">Decreto 10.854/2021</a> fala em pagamento até o dia 20 e não traz, no capítulo do 13º, regra que empurre o prazo para depois. Confirme a data com o RH ou com o contador da empresa.</p>
+
+    <p>O mesmo decreto permite receber o adiantamento junto com as férias quando o empregado pede em janeiro. Se foi o seu caso, essa parte já saiu e é abatida do total. Para o pagamento das férias em si, veja o guia de <a href="/artigos/ferias-clt-como-planejar-calcular-e-conferir-com-ia-fracionamento-abono-e-prazos">férias CLT com fracionamento, abono e prazos</a>.</p>
 
     <h2>Como calcular o valor pelos avos</h2>
 
@@ -62,7 +64,9 @@ export const article: Article = {
 
     <h2>Horas extras, comissões e salário variável</h2>
 
-    <p>Quem recebe parte do salário em comissões, horas extras ou adicionais tem uma conta em três etapas, também descrita pelo MTE. A primeira parcela usa a média de janeiro a novembro e sai até 30 de novembro. A segunda completa o valor até 11/12 e sai até 20 de dezembro. Depois que a folha de dezembro fecha, a empresa faz o ajuste final com a média dos 12 meses até 10 de janeiro do ano seguinte.</p>
+    <p>Quem recebe parte do salário em comissões, horas extras ou adicionais tem uma conta em três etapas. Pelo Decreto 10.854/2021 (artigos 77 e 78), o adiantamento considera a soma dos valores variáveis até o mês anterior ao do pagamento, mais a parte fixa, quando houver. Na parcela de dezembro, a parte variável vale 1/11 da soma do que foi devido nos meses trabalhados até novembro. Até 10 de janeiro, a empresa revisa a conta para 1/12 do total do ano, já com dezembro, e acerta a diferença.</p>
+
+    <p>A página do MTE resume o primeiro passo como média de janeiro a novembro, mas o adiantamento sai antes de novembro fechar. Por isso, pergunte ao RH quais meses entraram na sua primeira parcela.</p>
 
     <p>Na prática, isso quer dizer que um vendedor com comissão alta em dezembro pode receber uma diferença em janeiro. Guarde os contracheques do ano, porque é com eles que você confere a média. Se você negocia remuneração variável com frequência, o guia de <a href="/artigos/como-negociar-salario-melhor-sabendo-usar-ia">como negociar salário usando IA</a> ajuda a entender o peso de cada parte. A participação nos lucros segue outras regras, explicadas no guia de <a href="/artigos/plr-participacao-nos-lucros-como-conferir-regras-e-calculo-com-ia">como conferir a PLR</a>.</p>
 
@@ -105,7 +109,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     <h2>Situações especiais</h2>
 
     <ul class="checklist">
-      <li><strong>Pediu demissão ou foi demitido sem justa causa:</strong> o 13º proporcional entra na rescisão. Veja o passo a passo em <a href="/artigos/demitido-o-que-fazer-nas-primeiras-semanas-rescisao-seguro-desemprego-e-ia">o que fazer nas primeiras semanas depois de ser demitido</a>.</li>
+      <li><strong>Pediu demissão ou foi demitido sem justa causa:</strong> o 13º proporcional entra na rescisão. Na dispensa por justa causa, o artigo 82 do Decreto 10.854/2021 não garante esse pagamento. Veja o passo a passo em <a href="/artigos/demitido-o-que-fazer-nas-primeiras-semanas-rescisao-seguro-desemprego-e-ia">o que fazer nas primeiras semanas depois de ser demitido</a>.</li>
       <li><strong>Contrato de experiência ou primeiro emprego:</strong> conta normalmente pelos avos, desde a data de admissão. O guia dos <a href="/artigos/primeiros-90-dias-no-emprego-novo-com-ia-plano-e-contrato-de-experiencia">primeiros 90 dias no emprego novo</a> explica esse período.</li>
       <li><strong>Afastamentos e faltas:</strong> podem reduzir os meses contados. Peça ao RH a regra aplicada no seu caso.</li>
       <li><strong>PJ ou autônomo:</strong> não há 13º. Se você compara propostas, use o guia de <a href="/artigos/clt-ou-pj-como-comparar-proposta-com-ia-e-planilha">CLT ou PJ com IA e planilha</a>, que coloca o 13º na conta.</li>
@@ -125,7 +129,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     {
       question: "Até quando a empresa precisa pagar o 13º em 2026?",
       answer:
-        "A primeira parcela até 30 de novembro e a segunda até 20 de dezembro, segundo o Ministério do Trabalho e Emprego. Como 20/12/2026 é domingo, confirme com o RH a data efetiva do depósito.",
+        "A primeira parcela até 30 de novembro e a segunda até 20 de dezembro, segundo o Ministério do Trabalho e Emprego. Como 20/12/2026 é domingo, use sexta, 18 de dezembro, como referência e confirme com o RH a data efetiva do depósito.",
     },
     {
       question: "Como calcular o 13º de quem não trabalhou o ano todo?",
@@ -145,7 +149,7 @@ variáveis, INSS e IR). Tom neutro, sem acusar erro.</code></pre>
     {
       question: "Horas extras e comissões entram no 13º?",
       answer:
-        "Sim. Para quem tem salário variável, a primeira parcela usa a média de janeiro a novembro, a segunda completa o valor em dezembro e há um ajuste final com a média dos 12 meses até 10 de janeiro do ano seguinte.",
+        "Sim. Pelo Decreto 10.854/2021, o adiantamento considera as variáveis até o mês anterior ao pagamento, a parcela de dezembro usa 1/11 da soma até novembro e, até 10 de janeiro, a conta é revista para 1/12 do total do ano, com acerto da diferença.",
     },
     {
       question: "Posso usar o ChatGPT ou o Gemini para calcular meu 13º?",

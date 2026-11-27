@@ -11,7 +11,7 @@ export const article: Article = {
   category: "negocios",
   articleSubcategory: "financas-e-precificacao",
   date: "2026-10-28",
-  updated: "2026-11-25",
+  updated: "2026-11-27",
   readTime: 8,
   imageQuery: "small business owner calculator payroll desk",
   coverImage: {
@@ -54,7 +54,11 @@ export const article: Article = {
 
     <h3>E se o salário tem comissão ou hora extra?</h3>
 
-    <p>Com remuneração variável, o cálculo usa média. Segundo o Ministério, a primeira parcela se baseia na média de janeiro a novembro, paga até 30 de novembro. A segunda parcela completa o valor até 11/12 da média, paga até 20 de dezembro. Depois do fechamento de dezembro, há o ajuste final com base na média dos 12 meses, até 10 de janeiro do ano seguinte. Se os valores variáveis de dezembro ainda não estiverem apurados, o empregador deve recalcular o 13º depois de fechar a folha e acertar a diferença.</p>
+    <p>Com remuneração variável, o cálculo usa média. Pelo artigo 78, parágrafo 1º, do <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10854.htm" target="_blank" rel="noopener noreferrer">mesmo decreto</a>, o adiantamento considera a soma dos valores variáveis até o mês anterior ao do pagamento, mais a parte fixa, quando houver. Para pagar em 30 de novembro, isso significa olhar os valores até outubro.</p>
+
+    <p>Pelo artigo 77, na parcela de dezembro a parte variável vale 1/11 da soma do que foi devido nos meses trabalhados até novembro. Até 10 de janeiro, a conta é revista para 1/12 do total do ano, já com dezembro, e a diferença é acertada. Como 10/01/2027 cai num domingo, programe esse acerto para sexta, 8 de janeiro, e deixe o valor previsto no caixa.</p>
+
+    <p>A <a href="https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/novembro/decimo-terceiro-salario-entenda-o-direito-regras-e-prazos-de-pagamento" target="_blank" rel="noopener noreferrer">orientação do Ministério</a> resume o primeiro passo como média de janeiro a novembro. Como os dois textos descrevem a base do adiantamento de formas diferentes, confirme com o contador qual cálculo a sua folha aplica.</p>
 
     <h2>Exemplo: loja com três funcionários</h2>
 
@@ -140,7 +144,7 @@ export const article: Article = {
     {
       question: "Como fica o 13º com comissão e hora extra?",
       answer:
-        "A primeira parcela usa a média de janeiro a novembro, paga até 30 de novembro. A segunda completa até 11/12 da média, paga até 20 de dezembro. Depois de fechar dezembro, há o ajuste final com a média dos 12 meses, até 10 de janeiro do ano seguinte.",
+        "Pelo Decreto 10.854/2021, o adiantamento considera as variáveis até o mês anterior ao pagamento. A parcela de dezembro usa 1/11 da soma das variáveis até novembro e, até 10 de janeiro, a conta é revista para 1/12 do total do ano, com acerto da diferença.",
     },
     {
       question: "MEI com funcionário precisa pagar 13º?",

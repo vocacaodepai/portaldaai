@@ -11,7 +11,7 @@ export const article: Article = {
   category: "iniciantes",
   articleSubcategory: "vida-pratica",
   date: "2026-10-20",
-  updated: "2026-11-25",
+  updated: "2026-11-27",
   readTime: 8,
   imageQuery: "online shopping phone credit card checkout",
   seed: 478,
@@ -25,7 +25,13 @@ export const article: Article = {
   content: `
     <p>Para comprar na Black Friday com segurança, anote o preço normal dos itens antes da promoção, compare no mínimo três lojas conhecidas, desconfie de oferta que chega por mensagem e guarde todos os comprovantes. A IA ajuda a organizar a lista, calcular a diferença e examinar textos suspeitos, mas quem confere preço, CNPJ e forma de pagamento é você. Em 2026, a data cai na sexta-feira, 27 de novembro.</p>
 
-    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras citadas foram conferidas em 20/10/2026, com acréscimos em 25/11/2026, e não substituem orientação do Procon ou de um advogado.</p>
+    <p>Este guia é para o consumidor comum e para quem pretende presentear no Natal. Ele traz um roteiro de preparação, prompts prontos, sinais de golpe e o que fazer se a compra der errado. As regras do consumidor foram conferidas em 20/10/2026; os dados do Procon-SP e a contestação do Pix, em 27/11/2026. Nada aqui substitui orientação do Procon ou de um advogado.</p>
+
+    <h2>Black Friday 2026: o que a pesquisa do Procon-SP mostrou</h2>
+
+    <p>Entre os entrevistados que costumam comprar na Black Friday, 69,85% disseram já ter se sentido enganados em alguma compra, com destaque para o preço disfarçado de desconto, a chamada "metade do dobro". O dado é da <a href="https://www.agenciasp.sp.gov.br/justica-e-cidadania/black-friday-consumidor/" target="_blank" rel="noopener noreferrer">pesquisa do Procon-SP publicada pela Agência SP</a> em 26/11/2026, feita com 585 consumidores entre 8 de outubro e 10 de novembro. A participação foi espontânea, então o número retrata quem respondeu, e não todos os brasileiros.</p>
+
+    <p>A mesma pesquisa traz um aviso para a hora do carrinho: 44,44% afirmaram que já parcelaram acreditando que não havia juros e só depois perceberam que o valor final era maior. Antes de confirmar, compare o preço à vista com a soma das parcelas, confira frete e prazo de entrega e verifique CNPJ, endereço e canais de contato da loja.</p>
 
     <h2>Como se preparar antes da Black Friday</h2>
 
@@ -72,13 +78,15 @@ export const article: Article = {
 
     <h3>Consulte a lista Evite esses Sites, do Procon-SP</h3>
 
-    <p>O Procon-SP mantém a lista <a href="https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php" target="_blank" rel="noopener noreferrer">Evite esses Sites</a>, consultada em 25/11/2026, com endereços que receberam reclamações de consumidores, foram notificados e não responderam ou não foram encontrados. A página organiza os sites pelo endereço, então use a função de localizar do navegador para procurar o domínio da loja antes de pagar.</p>
+    <p>O Procon-SP mantém a lista <a href="https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php" target="_blank" rel="noopener noreferrer">Evite esses Sites</a>, com endereços que receberam reclamações de consumidores, foram notificados e não responderam ou não foram encontrados. Na consulta de 27/11/2026, a página informava atualização em 12/05/2026. Ela organiza os sites pelo endereço, então use a função de localizar do navegador para procurar o domínio da loja antes de pagar.</p>
 
     <p>Se o endereço aparecer, não compre. Se não aparecer, isso não prova que a loja é confiável, porque sites de golpe podem ser novos. Continue checando CNPJ, avaliações recentes e forma de pagamento.</p>
 
     <h3>Pagou por Pix e percebeu que era golpe?</h3>
 
-    <p>Avise o seu banco na hora, abra a transação no extrato do Pix pelo aplicativo e conteste como golpe. Segundo o <a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf" target="_blank" rel="noopener noreferrer">guia do Banco Central sobre o Mecanismo Especial de Devolução (MED)</a>, o pedido vale para transações de até 80 dias. A devolução não é garantida, porque depende do dinheiro ainda disponível, e o MED não serve para desacordo comercial, como atraso na entrega ou arrependimento sem fraude.</p>
+    <p>Avise o seu banco na hora, abra a transação no extrato do Pix pelo aplicativo e use o botão de contestação. Segundo o <a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf" target="_blank" rel="noopener noreferrer">guia do Banco Central sobre o Mecanismo Especial de Devolução (MED)</a>, o pedido vale para transações de até 80 dias. A devolução não é garantida, porque depende do dinheiro ainda disponível.</p>
+
+    <p>Conforme a <a href="https://agenciagov.ebc.com.br/noticias/202509/pix-tera-botao-de-contestacao" target="_blank" rel="noopener noreferrer">Agência Gov</a>, o botão serve para fraude, golpe e coerção. Ele não vale para desacordo comercial, arrependimento ou erro de digitação na chave. Atraso na entrega sem fraude segue o caminho de reclamação contra a loja, explicado mais abaixo.</p>
 
     <p>Veja o passo a passo no guia sobre <a href="/artigos/golpe-do-pix-o-que-fazer-nas-primeiras-horas-med-e-uso-de-ia">golpe do Pix e as primeiras horas</a>, e a notícia que mostra como os golpes com IA estão ficando mais convincentes, em <a href="/noticias/golpes-ia-verizon-dbir-2026">golpes com IA no relatório da Verizon</a>.</p>
 
