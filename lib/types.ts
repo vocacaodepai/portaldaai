@@ -394,6 +394,7 @@ export const productSubcategories = [
   { slug: "campainha-sem-fio", label: "Campainha sem Fio", category: "seguranca" },
   { slug: "martelete", label: "Martelete Perfurador", category: "ferramentas-casa" },
   { slug: "lixadeira", label: "Lixadeira", category: "ferramentas-casa" },
+  { slug: "kit-ferramentas", label: "Kit de Ferramentas", category: "ferramentas-casa" },
   { slug: "fone-para-dormir", label: "Fone para Dormir", category: "audio-video" },
   { slug: "lenco-umedecido-bebe", label: "Lenço Umedecido para Bebê", category: "bebe" },
   { slug: "serum-facial", label: "Sérum Facial", category: "saude-bem-estar" },
